@@ -52,7 +52,7 @@
                   <addName xml:lang="de">Isidor Hilberg</addName>
                 </persName>
               </editor> 
-              <author>Hieronymus</author>  
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0162">Hieronymus</author>  
               <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0162.stoa004">Epistulae, 71-120</title>
               <imprint>
                 <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
@@ -85,7 +85,9 @@
   <text>
     <body>
       <div type="edition">
-             
+            
+            <pb n="1"/>
+            
         <div type="textpart" subtype="chapter">
           <ab>
             <title type="sub">LXXI. AD LUCINUM BAETICUM.</title>
