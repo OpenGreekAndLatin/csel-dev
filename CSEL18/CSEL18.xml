@@ -51,11 +51,19 @@
                   <addName xml:lang="de">Georg Schepss</addName>
                 </persName>
               </editor> 
-              <author>Priscillianus</author>  
-              <author>Orosius</author>
-              <title>Tractatus</title>
-              <title>Canones</title>
-              <title>Commonitorium de errore Priscillianistarum et Origenistarum</title>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1781.1">Priscillianus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0234e.stoa002">Tractatus</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0234e.stoa001">Canones</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1889</date>
+              </imprint>
+              <biblScope unit="volume">18</biblScope>
+            </monogr>
+            <monogr> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1768.1">Orosius</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0215c.stoa003">Commonitorium de errore Priscillianistarum et Origenistarum</title>
               <imprint>
                 <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
                 <pubPlace>Wien, Österreich</pubPlace>
@@ -64,7 +72,7 @@
               <biblScope unit="volume">18</biblScope>
             </monogr>
             <ref
-              target="http://archive.org/stream/corpusscriptoru01wissgoog#page/n4/mode/2up"
+              target="http://archive.org/stream/corpusscriptoru01wissgoog"
               >Internet Archive</ref>
             
           </biblStruct>
