@@ -69,22 +69,61 @@
                   <addName xml:lang="de">Karl Schenkl</addName>
                 </persName>
               </editor> 
-              <author>Paulinus Petricordiae</author>
-              <author>Orientius</author>
-              <author>Paulinus Pellaeus</author>
-              <author>Claudius Marius Victor</author>
-              <author>Proba</author>
-              <author>Anonymous</author>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1772.1">Paulinus Petricordiae</author>
               <title>Carmina</title>
-              <title>Carmina</title>
-              <title>Eucharistos</title>
-              <title>Alethia</title>
-              <title>Cento</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1767.1">Orientius</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0215b.stoa002">Carmina</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1590.1">Paulinus Pellaeus</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0223a.stoa001">Eucharistos</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1802.1">Claudius Marius Victor</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292b.stoa001">Alethia</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1782.1">Proba</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0234f.stoa001">Cento</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author>Anonymus</author>
               <title>Sancti Paulini Epigramma</title>
               <title>Versus ad gratiam domini</title>
               <title>De verbi incarnatione</title>
               <title>De ecclesia</title>
-              <title></title>
               <imprint>
                 <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
                 <pubPlace>Wien, Österreich</pubPlace>
@@ -93,7 +132,7 @@
               <biblScope unit="volume">16</biblScope>
             </monogr>
             <ref
-              target="http://archive.org/stream/corpusscriptorum16stuoft#page/n5/mode/2up"
+              target="http://archive.org/stream/corpusscriptorum16stuoft"
               >Internet Archive</ref>
             
           </biblStruct>
