@@ -3862,7 +3862,7 @@
 </div>
 <pb n="XC"/>
         
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="work"><!--work without ID-->
           <head>
             <title type="main">VITA CAECILII CVPRIANI</title>
           </head>
@@ -4794,7 +4794,7 @@
 </div>
         </div>
         
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="work"><!--work without ID-->
           <head>
             <title type="main">ACTA PROCONSULARIA. t</title>
           </head>
@@ -4986,7 +4986,7 @@
 </div>
         </div>
         
-        <div type="textpart" subtype="toc">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">INDEX OPERVM</title>
           </head>
@@ -5356,7 +5356,7 @@
             
         
 </div>
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa001">
           <head>
             <title type="main">THASCI CAECILI CVPRIANI AD DONATUM. </title>
           </head>
@@ -6028,7 +6028,7 @@
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa009">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa006"><!--previously stoa0104a.stoa009-->
           <head>
             <title type="main">QVOD IDOLA DII NON SINT. </title>
           </head>
@@ -6609,8 +6609,9 @@
             orbem <choice n="0.00"><sic n="1">nero</sic><corr n="7062">uero</corr></choice> discipuli magistro et Deo monente diffusi praecepta <lb/>
             in salutem dare, ab errore tenebrarum ad uiam lucis adducere, <lb/>
             caecos et ignaros ad agnitionem <choice><sic>neritatis</sic><corr>ueritatis</corr></choice> oculare. 
-</p>
-          <p rend="script"><note type="section"> 1S </note>Ac ne esset probatio minus solida et de Christo delicata confessio,  <lb/>
+</p></div>
+         
+<div type="textpart" subtype="section" n="15"><p rend="script">Ac ne esset probatio minus solida et de Christo delicata confessio,  <lb/>
             per tormenta, per cruces, per multa poenarum genera <lb n="10"/>
             temptantur. dolor, qui ueritatis testis est, admonetur, ut <lb/>
             Christus Dei filius, qui hominibus ad uitam datus creditur, non <lb/>
@@ -6642,15 +6643,16 @@
             <hi rend="italic">MP,</hi> QVOD IDOLA DH NON SINT EXPLICAT <hi rend="italic">L,</hi> DE EO QVOD IDOLA DII NON <lb/>
             SDCT KXP <hi rend="italic">B,</hi> EXPLICIT EPISTOLA CAECILI CYPBIANI DE IDOLIS QVOD IDOLA <lb/>
             DII NOli SINT <hi rend="italic">C</hi> </note>
+</p>          </div>
 
 <pb n="32"/>
 
 
 <pb n="33"/>
             
-</p>
+
         
-</div>
+
         </div>
         
         <div type="textpart" subtype="MSS">
@@ -6687,10 +6689,12 @@
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa026">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa014"><!-- previously stoa0104a.stoa026 -->
           <head>
             <title type="main">THASCI CAECILI CVPRIANI AD QVIRINVM (TESTIMONIORVM LIBRI TRES). </title>
           </head>
+          
+<div type="textpart" subtype="preface">
           <ab>
             <title type="sub">CVPRIANVS QVIRINO FILIO SALVTEM. </title>
           </ab>
@@ -6768,9 +6772,11 @@
 
 <pb n="37"/>
             
-</p>
+</p></div>
+          
           <div type="textpart" subtype="book" n="1">
-<ab>
+            <div type="textpart" subtype="index"><!-- Capitula -->
+            <ab>
             <title type="sub">LIBER PRIMVS. CAPITVLA. </title>
           </ab>
           <p>I. Iudaeos in offensam Dei grauiter deliquisse, quod Dominum <lb/>
@@ -6859,7 +6865,7 @@
             suorum, si sanguinem Christi occisi baptismo eius abluerint <lb/>
             et in ecclesiam transeuntes praeceptis eius obtemperauerint. <lb/>
             </p>
-          </div>
+            </div>        
 
 <div type="textpart" subtype="section" n="1"><ab>
             <title type="sub">IVDAEOS IN OFFENSAM DEI QVAVITER DELIQVISSE, QVOD DOMINVM RELIQVERINT ET IDOLA SECVTI SINT. </title>
@@ -7873,10 +7879,11 @@
             
 </p>
 
-</div>
+</div></div>
 
 <div type="textpart" subtype="book" n="2">
-          <ab>
+  <div type="textpart" subtype="index"><!-- Capitula -->
+    <ab>
             <title type="sub">LIBER SECVNDVS. CAPITVLA. </title>
           </ab>
           <p>I. Christum primogenitum esse et ipsum esse sapientiam <lb/>
@@ -7985,8 +7992,8 @@
 
 <pb n="62"/>
             
-</p>
-          </div>
+</p></div>
+          
 
 <div type="textpart" subtype="section" n="1"><ab>
             <title type="sub">CHRISTVM PRIMOGENITVM ESSE ET IPSUM ESSE SAPIENTIAM DEI, PER QVEM OMNIA FACTA SVNT. </title>
@@ -9826,12 +9833,13 @@
             aeternam. 
 </p>
         
-</div>
+</div></div>
         <div type="textpart" subtype="book" n="3">
           <head>
             <title type="main">LIBER TERTIVS. </title>
           </head>
-          <ab>
+          <div type="textpart" subtype="preface">
+            <ab>
             <title type="sub">CVPRIANVS QVIRINO FILIO SALVTEM. </title>
           </ab>
           <p rend="script">Pro fide ac deuotione tua, quam Domino Deo exhibes, fili carissime, <lb/>
@@ -9865,7 +9873,8 @@
 
 <pb n="102"/>
             
-</p>
+</p></div>
+          <div type="textpart" subtype="index"><!-- Capitula -->
           <ab>
             <title type="sub">CAPTVILA. </title>
           </ab>
@@ -10243,11 +10252,11 @@
              excerpta capitulorum libri secundi explicit incipit ad Quirinum liber tertius <lb/>
             - AXHM - <hi rend="italic">M,</hi> exp. cap. incip liber III <hi rend="italic">B,</hi> incipit liber tertius ad Quirinum <lb/>
             L </note>
-
+          
 <pb n="108"/>
             
-</p>
-          </div>
+</p></div>
+          
 
 <div type="textpart" subtype="section" n="1"><ab>
             <title type="sub">DE BONO OPERIS ET MIBERICORDIAE. </title>
@@ -14112,7 +14121,7 @@ deos, quibus neque oculorum uisus est ad uidendum neque <lb/>
             excerptis capitulorum libri. III. explicit <hi rend="italic">B</hi>. </note>
 </p>
 
-</div>        </div>
+</div></div>        </div>
 <pb n="185"/>
         
         <div type="textpart" subtype="MSS">
@@ -14133,7 +14142,7 @@ deos, quibus neque oculorum uisus est ad uidendum neque <lb/>
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa006">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa004"><!-- previously stoa0104a.stoa006 -->
           <head>
             <title type="main">DE HABITV VIRGINVM. </title>
           </head>
@@ -15022,7 +15031,7 @@ deos, quibus neque oculorum uisus est ad uidendum neque <lb/>
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa019">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa010"><!-- previously stoa0104a.stoa019 -->
           <head>
             <title type="main">DE CATHOLICAE ECCLESIAE VNITATE. </title>
           </head>
@@ -16204,7 +16213,7 @@ deos, quibus neque oculorum uisus est ad uidendum neque <lb/>
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa010">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa007"><!-- previously stoa0104a.stoa010 -->
           <head>
             <title type="main">DE LAPSIS. </title>
           </head>
@@ -17524,7 +17533,7 @@ deos, quibus neque oculorum uisus est ad uidendum neque <lb/>
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa028">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa015"><!-- previously stoa0104a.stoa028 -->
           <head>
             <title type="main">DE DOMINICA ORATIONE. </title>
           </head>
@@ -18776,9 +18785,9 @@ deos, quibus neque oculorum uisus est ad uidendum neque <lb/>
             damnum potest, quia filiis lucis et in noctibus dies est. quando <lb/>
             enim sine lumine est cui lumen in corde est? aut quando sol ei <lb/>
             et dies non est cui sol et dies Christus est ? 
-</p>
-          <p>Qui autem in Christo hoc est in lumine semper sumus nec <note type="section">36 <lb/>
-            </note>noctibus ab oratione cessemus. sic Anna uidua sine intermissione
+</p></div>
+  <div type="textpart" subtype="section" n="36"><p>Qui autem in Christo hoc est in lumine semper sumus nec <lb/>
+            noctibus ab oratione cessemus. sic Anna uidua sine intermissione
 
 <note type="footnote">2 Osee 6,1. 9 Ps. 117, 22 sq. 14 Mal 4, 2. </note>
 
@@ -18848,7 +18857,7 @@ deos, quibus neque oculorum uisus est ad uidendum neque <lb/>
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa013">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa008"><!-- previously stoa0104a.stoa013 -->
           <head>
             <title type="main">DE MORTALITATE. </title>
           </head>
@@ -19711,16 +19720,14 @@ deos, quibus neque oculorum uisus est ad uidendum neque <lb/>
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa008">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa005"><!-- previously stoa0104a.stoa008 -->
           <head>
             <title type="main">AD FORTVNATVM. </title>
           </head>
-<div type="textpart" subtype="praef">
+<div type="textpart" subtype="preface">
 
- <p><sic>Desiderasti</sic>, Fortunate carissime, ut quoniam pressurarum. 
-</p></div>
-
-<div type="textpart" subtype="section" n="1"><p> <lb/>
+<div type="textpart" subtype="section" n="1">
+ <p><sic>Desiderasti</sic>, Fortunate carissime, ut quoniam pressurarum. <lb/>
             et persecutionum pondus incumbit et <choice><sic>m</sic><corr>in</corr></choice> fine adque <choice><sic>m</sic><corr>in</corr></choice> consummatione <lb/>
             mundi antichristi tempus infestum adpropinquare iam coepit, <lb/>
             ad praeparandas et corroborandas fratrum mentes de diuinis <lb n="5"/>
@@ -19920,9 +19927,9 @@ In exhortandis itaque ac parandis fratribus nostris et uirtutis  <lb/>
             
 </p>
 
-</div>
+</div></div>
 <div type="textpart" subtype="main">
-          </div>
+          
 
 <div type="textpart" subtype="section" n="1"><ab>
             <title type="sub">QVOD IDOLA DII NON SINT ET QVOD NEC ELEMENTA VICE DEORVM COLENDA SINT. </title>
@@ -21105,7 +21112,7 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
 <pb n="349"/>
             
 
-</div>        </div>
+</div></div>        </div>
         <div type="textpart" subtype="MSS">
           <head>
             <title type="main">X. THASCI CAECILI CVPRIANI AD DEMETRIANVM. </title>
@@ -21131,7 +21138,7 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa001">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa002"><!-- previously stoa0104a.stoa001 -->
           <head>
             <title type="main">AD DEMETRIANVM</title>
           </head>
@@ -22104,7 +22111,7 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
 </div>
 <pb n="373"/>        
 
-<div type="textpart" subtype="work" n="stoa0104a-stoa014">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa009"><!-- previously stoa0104a.stoa014 -->
           <head>
             <title type="main">DE OPERE ET ELEEMOSVNIS. </title>
           </head>
@@ -23139,7 +23146,7 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0104a-stoa004">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa003"><!-- previously stoa0104a.stoa004 -->
           <head>
             <title type="main">DE BONO PATIENTIAE. </title>
           </head>
@@ -24034,7 +24041,7 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
 <pb n="-"/>
 
 </div>
-<div type="textpart" subtype="work" n="stoa0104a-stoa021">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa011"><!-- previously stoa0104a.stoa021 -->
 <pb n="419"/>
 
 <div type="textpart" subtype="section" n="1"><ab>
@@ -24708,7 +24715,7 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
 <pb n="435"/>
 
 </div>
-<div type="textpart" subtype="work">
+        <div type="textpart" subtype="work" n="stoa0104a.stoa013">
             
           <ab>
             <title type="sub">SENTENTIAE EPISCOPORVM NVMERO LXXXVII DE HAERETICIS BAPTIZANDIS. </title>
@@ -24795,27 +24802,24 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
              conpellitur. quam. rem, fratres, fugere, [<sic>acluitare</sic>] debemus et <lb n="10"/>
             a tanto scelere nos separare et unum baptismum tenere quod soli, <lb/>
             ecclesiae a Domino concessum est. 
-</p>
+</p></div>
+  <div type="textpart" subtype="section" n="2">
           <ab>
             <title type="sub">.Primus a <sic>Misgirpa</sic> dixit:</title>
           </ab>
-          <p>Censeo omnem hominem ab haeresi uenientem baptizandum. 
-</p></div>
-
-<div type="textpart" subtype="section" n="2"><p> <lb/>
+          <p>Censeo omnem hominem ab haeresi uenientem baptizandum. <lb/>
             frustra enim illic putat se esse baptizatum, cum non sit baptisma <lb n="15"/>
             nisi in ecclesia unum et uerum,: quia et <choice><sic>Peus</sic><corr>Deus</corr></choice> unus e.t <lb/>
             fides una et ecclesia una est, in qua stat unum <choice><sic>baptismaet</sic><corr>baptisma</corr></choice> sanctitas <lb/>
             et cetera. nam quae foris exercentur nullum <choice><sic>habept</sic><corr>habent</corr></choice> salutis <lb/>
             effectum. 
-</p>
+</p></div>
+    <div type="textpart" subtype="section" n="3">    
           <ab>
             <title type="sub">Polycarpus ab Hadrumeto dixit:. </title>
           </ab>
           <p>Qui haereticorum baptismum probat nostrum euacuat. 
-</p></div>
-
-<div type="textpart" subtype="section" n="3"><p>
+</p>
 
 <note type="footnote"> 1 interrogat] <hi rend="italic">add. Baluzius</hi> sacrilegus os et <hi rend="italic">L s; 1. tn. 2</hi> . uera <hi rend="italic">S <lb/>
             cancerem LT, carcerem S, cancer Av emittunt Av 2 dilectorum T</hi> <lb/>
@@ -24835,7 +24839,6 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
 
 <pb n="438"/>
             
-</p>
           </div>
 
 <div type="textpart" subtype="section" n="4"><ab>
@@ -25085,15 +25088,13 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
             baptizandus est et uiuificandus, ne nos uiui mortuis communicemus. <lb/>
             <lb n="5"/>
             
-</p>
+</p></div>
+  <div type="textpart" subtype="section" n="13"><p> </p>
           <ab>
             <title type="sub"><sic n="poss">Polianus</sic> a <sic>Mileo</sic> dixit:</title>
           </ab>
           <p>Iustum est haereticum baptizari in ecclesia sancta. 
 </p></div>
-
-<div type="textpart" subtype="section" n="13"><p> </p>
-          </div>
 
 <div type="textpart" subtype="section" n="14"><ab>
             <title type="sub">Theogenes ab Hippone regio dixit:</title>
@@ -25113,7 +25114,7 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
           </div>
 
 <div type="textpart" subtype="section" n="16"><ab>
-            <title type="sub"><sic>Snccessua</sic> ab Abbir Germaniciana dixit:</title>
+            <title type="sub"><sic>Snccessua</sic> ab Abbir Germaniciana dixit:</title><!-- change "Sncessua" to "Successus"? -->
           </ab>
           <p rend="script">Haereticis aut nihil licet aut tctum licet. si possunt baptizare,  <lb/>
             possunt et sanctum Spiritum dare: si autem sanctum <lb/>
@@ -26082,7 +26083,8 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
 </p>
           </div>
 
-<div type="textpart" subtype="section" n="83"><ab>
+<div type="textpart" subtype="section" n="83"><!-- section "83-85" -->
+  <ab>
             <title type="sub">Natalis ab Oea dixit:</title>
           </ab>
           <p> Tam ego praesens, quam <choice><sic>Fompeius</sic><corr>Pompeius</corr></choice> Sabratensis, quam etiam <lb/>
@@ -26162,6 +26164,7 @@ et non Deo. item aput Esaiam: adorauerunt<lb/>
             
 
 </div>        </div>
+        <!-- starting here should be CSEL Volume 3_2 -->
         <div type="textpart" subtype="MSS">
           <head>
             <title type="main">THASCI CAECILI CVPRIANI EPISTVLAE. </title>
