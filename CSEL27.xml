@@ -96,7 +96,7 @@
     <body>
       <div type="edition">
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="chapter"> <!-- Prolegomena -->
           <head>
             <title type="main">. PROLEGOMENA. </title>
           </head>
@@ -3275,11 +3275,11 @@
 </p>
           <p><hi rend="italic">Samuel Brandt</hi>. 
 </p>
-<pb n="-"/>
-            
-        
+<pb n="-"/>     
 </div>
-	<div type="textpart" subtype="work" n="stoa0171-stoa007">
+        
+        
+        <div type="textpart" subtype="work" n="stoa0171-stoa007"> <!-- De Opificio dei liber -->
         <div type="textpart" subtype="MSS">
           <head>
             <title type="main">L. CAELI FIRMIANI LACTANTI DE OPIFICIO DEI LIBER. </title>
@@ -3317,10 +3317,8 @@
             <sic n="poss">lIignificare</sic>. 
 </p>
 <pb n="-"/>
-            
-        
 </div>
-        <div type="textpart" subtype="chapter">
+	      <div type="textpart" subtype="preface">
           <head>
             <title type="main">L. CAELI FIRMIANI LACTANTI DE OPIFICIO DEI LIBER. </title>
           </head>
@@ -3358,13 +3356,11 @@
             de opificio dei uel formatione hominis librum unum; <hi rend="italic">Epist. LXX 5 (I<lb/>
              427 D Vall.)</hi> Lactantius qui de ira quoque et opificio dei duo uolumina <lb/>
             condidit; <hi rend="italic">de inscriptione libri cf. etiam Prolegom</hi>.  1* </note> 
-<pb n="4"/>
-            
+<pb n="4"/>         
 </p>
-          </div>
 </div>
 
-<div type="textpart" subtype="chapter" n="1">
+         <div type="textpart" subtype="chapter" n="1">
 <div type="textpart" subtype="section" n="1">
 <p>Quam minime sim quietus etiam in summis necessitatibus, <lb/>
             ex hoc libello poteris aestimare, quem ad te rudibus <lb/>
@@ -6550,13 +6546,18 @@
             EXPLIC INCIPIT DE EPITOME LIBER DECIMVS P; <hi rend="italic">post</hi> direxerit; <lb/>
             <hi rend="italic">nihil</hi> nisi Finit; <hi rend="italic">Vi, refecit V3 </hi>.</note> 
 </p>
-        
 </div>
+</div>
+</div>
+        
+        
+	  
+	  
 <pb n="65"/>
         
 
-</div>
-        <div type="textpart" subtype="work" n="stoa0171-stoa006">
+
+        <div type="textpart" subtype="work" n="stoa0171-stoa006"> <!-- De ira dei liber -->
 <div type="textpart" subtype="MSS">
           <head>
             <title type="main">L. CAELI FIRMIANI LACTANTI DE IRA DEI LIBER. </title>
@@ -6584,7 +6585,7 @@
             <title type="main">L. CAELI FIRMIANI LACTANTI DE IRA DEI LIBER. </title>
           </head>
           </div>
-</div>
+
 
 <div type="textpart" subtype="chapter" n="1">
 <div type="textpart" subtype="section" n="1">
@@ -10142,26 +10143,22 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
             DE OPI.FICIO DIVINO LIB. VIllI. <hi rend="italic">B;</hi> CAECILI FIRMIANI DE <lb/>
             IRA DIVINA LIB VIII EXPLIC INCIPIT DE OPIFICIO DI LIBER. <lb/>
             NONVS <hi rend="italic">P</hi> </note> <lb n="20"/>
-            
-<pb n="133"/>
-            
 </p>
-
-
 </div>
-        
 </div>
-        <div type="textpart" subtype="break">
-          <head>
-            <title type="main">LACTANTI QVAE FERVNTVR CARMINA. </title></head>
+      </div>
 
-</div>
           
-<pb n="134"/>
-          
-<pb n="135"/>
- <div type="textpart" subtype="work" n="stoa0171-stoa001">
-<div type="textpart" subtype="poem">         
+
+<div type="textpart" subtype="work" n="stoa0171-stoa001">
+  <pb n="133"/>
+  
+  <head>
+    <title type="main">LACTANTI QVAE FERVNTVR CARMINA.</title>
+  </head>
+  <pb n="134"/>      
+  <pb n="135"/>
+<div type="textpart" subtype="poem">
           <ab>
             <title type="sub">LACTANTI CARMEN DE AVE PHOENICE. </title>
           </ab>
@@ -10718,13 +10715,10 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
 <note type="footnote">10* </note> <lb n="170"/>
              
 <pb n="148"/>
-            
-
-
 </div>
-
 </div>
-<div type="textpart" subtype="work" n="stoa0171-stoa001">
+          
+<div type="textpart" subtype="work" n="stoa0171-stoa004">
 <div type="textpart" subtype="poem">
           <ab>
             <title type="sub">[LACTANTI] CARMEN DE PASSIONE DOMINI. </title>
@@ -10906,7 +10900,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
 
 </div>
 
-        <div type="textpart" subtype="fragmenta">
+        <div type="textpart" subtype="fragmenta" n="urn:cts:latinLit:stoa0171.stoa010">
           <head>
             <title type="main">L. CAELI FIRMIANI LACTANTI LIBRORVM PERDITORVM FRAGMENTA ET VETERA DE EO TESTIMONIA. </title>
           </head>
@@ -11457,7 +11451,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
     
 <pb n="VII"/>
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="chapter"> <!-- Prolegomena -->
           <head>
             <title type="main">PROLEGOMENA. </title>
           </head>
@@ -12422,7 +12416,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
             
         
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="chapter"> <!-- addenda et corrigenda -->
           <head>
             <title type="main">ADDENDA ET CORRIGENDA.'»</title>
           </head>
@@ -12811,7 +12805,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0171-stoa002">
+        <div type="textpart" subtype="work" n="stoa0171-stoa002"> <!-- De Mortibus Persectorum -->
           <head>
             <title type="main">LVCII CAECILII. DE MORTIBVS PERSECVTORVM LIBER VVLGO LACTANTIO TRIBVTVS</title>
           </head>
@@ -12839,7 +12833,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
             <title type="sub">LIBER AD DONATVM CONFESSOREM DE MORTIBVS PERSECVTORVM. </title>
           </ab>
           </div>
-</div>
+
 
 <div type="textpart" subtype="chapter" n="1">
 <div type="textpart" subtype="section" n="1">
@@ -16619,9 +16613,9 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
 </p>
 
 </div>
-        
+</div>   
 </div>
-        <div type="textpart" subtype="index">
+        <div type="textpart" subtype="index"> <!-- index 1 -->
 <pb n="239"/>
           
           <head>
@@ -16649,7 +16643,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
             
         
 </div>
-        <div type="textpart" subtype="index">
+        <div type="textpart" subtype="index"> <!-- index 2 -->
           <head>
             <title type="main">I. INDEX AVCTORVM. </title>
           </head>
@@ -18092,7 +18086,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
 </p>
         
 </div>
-        <div type="textpart" subtype="index">
+        <div type="textpart" subtype="index"> <!-- index 3 -->
           <head>
             <title type="main">II. INDEX EXPILATORVM ET TESTIVM. </title>
           </head>
@@ -18591,7 +18585,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
 </div>
 <pb n="279"/>
         
-        <div type="textpart" subtype="index">
+        <div type="textpart" subtype="index"> <!-- index 4 -->
           <head>
             <title type="main">II. INDEX NOMIMM ET RERVM. 1)</title>
           </head>
@@ -27010,7 +27004,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
 </div>
 <pb n="363"/>
         
-        <div type="textpart" subtype="index">
+        <div type="textpart" subtype="index"> <!-- index 5 -->
           <head>
             <title type="main">IV. INDEX VERBORVM EERYMQVE GRAMMATICARVM NOTABILIVM.'»</title>
           </head>
@@ -50387,7 +50381,7 @@ multi esse rectores nec in una domo multi domini nec <lb n="10"/>
 </p>
         
 </div>
-        <div type="textpart" subtype="index">
+        <div type="textpart" subtype="index"> <!-- index 6 -->
           <head>
             <title type="main">Y. INDBX SRAECVS. </title>
           </head>
