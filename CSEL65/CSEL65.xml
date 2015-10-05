@@ -92,7 +92,7 @@
   <text>
     <body>
       <div type="edition">
-        <div type="commentary" subtype="preface">
+        <div type="commentary" subtype="preface"> <!-- Preface -->
           <head>
             <title type="main">PRAEFATIO. </title>
           </head>
@@ -125,8 +125,6 @@
           <ab>
             <title type="sub">I.- DE TRACTATIBUS MYSTERIORUM. </title>
           </ab>
-          </div>
-</div>
 
 <div type="textpart" subtype="chapter" n="1">
 <div type="textpart" subtype="section" n="1">
@@ -4072,7 +4070,12 @@
 </p>
         
 </div>
-        <div type="textpart" subtype="chapter">
+</div>
+      </div>
+
+  
+  
+        <div type="textpart" subtype="chapter"> <!-- Addenda et corrigenda -->
           <head>
             <title type="main">ADDENDA ET CORRIGENDA. </title>
           </head>
@@ -4109,7 +4112,7 @@
             
         
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="chapter"> <!-- Tractatus Mysteriorum -->
           <head>
             <title type="main">I. TRACTATUS 'MVSTERIORUM. '</title>
           </head>
@@ -4122,7 +4125,6 @@
             
 </p>
         
-</div>
         <div type="textpart" subtype="MSS">
           <head>
             <title type="main">INDEX NOTARUM. </title>
@@ -6238,13 +6240,15 @@
 </div>
 
 </div>
-
+</div>
 </div>
         
-</div>
+</div> 
+      
+    <div type="edition" subtype="work"> <!-- Excerpta ex opere historico... -->  
 <pb n="39"/>
         
-        <div type="textpart" subtype="TOC">
+        <div type="textpart" subtype="TOC"> <!-- TOC -->
           <head>
             <title type="main">II. EXCERPTA EX OPERE HISTORICO S. HILARII DEPERDITO, LIBRIS TRIBUS, UT UIDETUR, ADUERSUM UALENTEM ET URSACIUM. </title>
           </head>
@@ -6262,19 +6266,19 @@
 <pb n="41"/>
 
 </div>
-<div type="textpart" subtype="chapter">          
+<div type="textpart" subtype="chapter">       <!-- A. -->    
           <ab>
             <title type="sub"><hi rend="italic">A</hi>. COLLECTANEA ANTIARIANA PARISINA (FHAGMENTA <sic>HISTOItlCA</sic>). </title>
           </ab>
 <pb n="42"/>
 
-</div>
-<div type="textpart" subtype="MSS">          
+
+<div type="textpart" subtype="MSS">    <!-- MSS -->      
           <ab>
             <title type="sub">INDEX NOTARUM,</title>
           </ab>
-          </div>
-</div>
+
+
 
 <div type="textpart" subtype="chapter" n="1">
 <div type="textpart" subtype="section" n="1">
@@ -6390,11 +6394,12 @@
           <p><hi rend="italic">s</hi> = cod. <sic>Basilecnsis</sic> Bibl. <sic>Uniucrsit</sic>. <sic>gracc</sic>. A. III. 4 s. XIV. 
 </p>
           <p><hi rend="italic"><sic>Mau</sic></hi> — ed. Maurinorum emendata, Patauiis 1777. 
-</p>
+</p></div></div>
+  
 <pb n="43"/>
 
 </div>
-<div type="textpart" subtype="work">            
+<div type="textpart" subtype="work">     <!-- Series A-->        
           <ab>
             <title type="sub">SERIES A. </title>
           </ab>
@@ -9636,7 +9641,7 @@
 
 
 </div>
-<div type="textpart" subtype="work">            
+<div type="textpart" subtype="work">       <!-- Series B -->     
           <ab>
             <title type="sub">SERIES B. </title>
           </ab>
@@ -14097,11 +14102,11 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 
 </div>
+</div>
+</div>
+</div>  
 
-</div>
-        
-</div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="chapter"> <!-- B. -->
           <head>
             <title type="main"><hi rend="italic">B</hi>. APPENDIX AD COLLECTANEA ANTIARIANA PARISINA: ORATIO SVNODI SARDICENSIS AD CONSTANTIUM IMPERATOREM ET TEXTUS NARRATIUUS S. HILARII PICTAUIENSIS (LIBER I AD CONSTANTIUM). </title>
           </head>
@@ -14111,7 +14116,9 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 <pb n="180"/>
             
 </p>
-          <ab>
+          
+          <div type="textpart" subtype="MSS">
+            <ab>
             <title type="sub">INDEX NOTARUM. </title>
           </ab>
           <p><hi rend="italic">B</hi> = cod. Uatiianus Basilicanus S. Petri D. 182 s. VI in. 
@@ -14128,16 +14135,11 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </p>
           <p><hi rend="italic">M = cod. <sic>Monaccnsis</sic> 169 s. XII</hi>. 
 </p>
-          </div>
-</div>
-
-<div type="textpart" subtype="chapter" n="0">
-<div type="textpart" subtype="section" n="1">
-<p>= cod. Monacensis 21528 s. XII. 
+          <p><hi rend="italic">O = cod. <sic>Monacensis</sic> 21528 s. XII</hi>. 
 </p>
-          <ab>
-            <title type="sub">W — cod. Uindobonensis 684 s. XII. </title>
-          </ab>
+          <p>
+            <hi rend="italic">W = cod. <sic>Uindobonensis</sic> 684 s. XII</hi>.
+           </p>
           <p><hi rend="italic">T</hi> = cod. Carnutensis s. XIII (?), lectiones <choice><sic>nariantes</sic><corr>uariantes</corr></choice> apud Constant. 
 </p>
           <p><hi rend="italic"><sic>y</sic> = B</hi> et <hi rend="italic">C</hi> consentientes. 
@@ -14167,14 +14169,15 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </p>
           <p>notas alias u. p. 2. 
 </p>
-<pb n="181"/>
-            
+          </div>
+
         
-</div>
-        <div type="textpart" subtype="chapter">
+        <pb n="181"/>
+        
+        <div type="textpart" subtype="chapter"> <!-- Liber 1 ad Constantium -->
           <head>
             <title type="main">ORATIO SVNODI SARDICENSIS AD CONSTAN- TIUM IMPERATOREM KT TEXTUS NARRATIUUS S. HILARII. (LIBER I AD CONSTANTIUM). </title>
-          </head>
+          </head></div>
 <div type="textpart" subtype="chunk" n="1">
           <ab>
             <title type="sub"> Epistula            syn. <sic>Sardicensis</sic>             (343/4).  </title>
@@ -14538,11 +14541,11 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 
 </div>
-
 </div>
+        </div>
         
-</div>
-        <div type="textpart" subtype="work">
+
+        <div type="textpart" subtype="work"> <!-- C. -->
           <head>
             <title type="main"><hi rend="italic">c</hi>. LIBRI TRES ADUERSUM UALENTE ET UKSACIUM</title>
           </head>
@@ -14681,9 +14684,11 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 <pb n="195"/>
             
 </p>
-        
-</div>
-        <div type="textpart" subtype="MSS">
+        </div>
+    </div>
+
+
+        <div type="textpart" subtype="MSS"> <!-- Liber ad constantium imperatorem -->
           <head>
             <title type="main">III. LIBER AD CONSTANTIUM IMPERATOREM (LIBER II AD CONSTANTIUM). </title>
           </head>
@@ -14710,8 +14715,8 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </p>
           <p><hi rend="italic">M</hi> = cod. Monacensis 169 s. XII. 
 </p>
-          </div>
-</div>
+
+
 
 <div type="textpart" subtype="chapter" n="0">
 <div type="textpart" subtype="section" n="1">
@@ -15222,17 +15227,17 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             
 
 </div>
-
 </div>
-        
 </div>
-        <div type="textpart" subtype="chapter">
+</div>    
+</div>
+        <div type="textpart" subtype="chapter"> <!-- Hymni -->
           <head>
             <title type="main">IV. HVMNI. </title>
           </head>
 <pb n="208"/>
           
-</div>
+
 <div type="textpart" subtype="MSS">
           <ab>
             <title type="sub">INDEX NOTARUM</title>
@@ -15958,9 +15963,9 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </p>
 
 </div>
-        
+</div>  
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="chapter"> <!-- Fragmenta minora -->
           <head>
             <title type="main">V. FRAGMENTA MINORA. </title>
           </head>
@@ -16346,16 +16351,17 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             <hi rend="italic">CVEra</hi> 8 omnis <hi rend="italic">om. A, expo T</hi> parentis <hi rend="italic">V</hi> 9 similitudinem V <lb/>
             carnis peccati <hi rend="italic">FY</hi> exsistente l' 10 carnis peccati <hi rend="italic">F</hi> </note> <lb n="10"/>
             
-<pb n="235"/>
+
             
 </p>
-
 </div>
-
+</div>
 </div>
         
-</div>
-        <div type="textpart" subtype="MSS">
+        
+        
+        <div type="textpart" subtype="MSS"> <!-- Spuria -->
+          <pb n="235"/>
           <head>
             <title type="main">VI.- SPURIA. </title>
           </head>
@@ -16368,15 +16374,11 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
           <ab>
             <title type="sub">INDEX NOTARUM</title>
           </ab>
-          <p>(ad 'Epistulam ad Abram'). 
-</p>
-          </div>
-</div>
+          <p>(ad 'Epistulam ad Abram').</p>
 
-<div type="textpart" subtype="chapter" n="4">
-<div type="textpart" subtype="section" n="1">
-<p>= cod. Sangallensis 567 s. VIII/IX. 
-</p>
+
+
+          <p><hi rend="italic">A</hi> = cod. Sangallensis 567 s. VIII/IX.</p>
           <p><hi rend="italic">B</hi> = cod. Sangallensis 577 s. IX/X. 
 </p>
           <p>C= cod. <sic>Bruxellensis</sic> 3183 (7666-7671) s. X. 
@@ -16407,13 +16409,9 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </p>
           <p>N = cod. Monacensis 17137 s. XII. 
 </p>
-          </div>
-</div>
 
-<div type="textpart" subtype="chapter" n="0">
-<div type="textpart" subtype="section" n="1">
-<p>= cod. Monacensis 21528 s. XII. 
-</p>
+
+          <p><hi rend="italic">O</hi> = cod. Monacensis 21528 s. XII.</p>
           <p><hi rend="italic">U</hi> = cod. <sic>Uaticanus</sic> 1193 s. XII. 
 </p>
           <p>W = cod. Uindobonensis 684 s. XII. 
@@ -16436,19 +16434,15 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </p>
           <p>J = <hi rend="italic">Bad Era Lyp Gil</hi> consentientes. 
 </p>
-          </div>
-</div>
 
-<div type="textpart" subtype="chapter" n="0">
-<div type="textpart" subtype="section" n="1">
-<p>= editores omnes consentientes. <lb/>
+
+          <p>O = editores omnes consentientes. <lb/>
             notas alias u. p. 2. 
 </p>
-<pb n="237"/>
-            
+
         
-</div>
         <div type="textpart" subtype="work">
+          <pb n="237"/>
           <head>
             <title type="main">A. EPISTULA AD ABRAM FILIAM. </title>
           </head>
@@ -17156,11 +17150,11 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 <pb n="253"/>
             
 
-
+</div>
 </div>
         
 </div>
-        <div type="textpart" subtype="index">
+        <div type="textpart" subtype="index"> <!-- Indices -->
           <head>
             <title type="main">INDICES. </title>
           </head>
@@ -17609,12 +17603,8 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             1, 17 .....cf. 215, 23 <lb/>
             2, <hi rend="italic">21 cf. 162, 26</hi> 
 </p>
-          </div>
-</div>
 
-<div type="textpart" subtype="chapter" n="1">
-<div type="textpart" subtype="section" n="1">
-<p><sic>Joh</sic>. 3, 2 ..... <sic>cf</sic>. 228, l <lb/>
+<p>I <sic>Joh</sic>. 3, 2 ..... <sic>cf</sic>. 228, l <lb/>
             3, 11 <sic>cf</sic>. 20, 3. 20 <lb/>
             5, 20 <sic>cf</sic>. 205, 11
 </p>
@@ -25354,8 +25344,8 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </p>
         
 </div>
-      
-</div>
+      </div>  
+
     </body>
   </text>
 </TEI>
