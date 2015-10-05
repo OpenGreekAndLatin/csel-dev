@@ -42,6 +42,7 @@ def ParseFile(OutputFolder,path):
     index=0
     unknown=0
     mms=0
+    addenda=0
     # [create new counter for the new subtyope] e.g.  tbl=0
     for child in root[1][0][0]:
         print(child.attrib)
@@ -63,9 +64,9 @@ def ParseFile(OutputFolder,path):
             elif att['subtype']=="mss":  # Index
                 mms+=1
                 saveFileWITHOUTHEADER(OutputFolder,"MMS"+str(mms),str(ET.tostring(child)))
-#           elif att['subtype']=="Change here":  # Index
-#                mms+=1 [change here] tbl+=1
-#                saveFileWITHOUTHEADER(OutputFolder,"MMS"+str(mms),str(ET.tostring(child)))           
+           elif att['subtype']=="addenda":  # Addenda
+                addenda+=1 
+                saveFile(OutputFolder,"addenda"+str(addenda),str(ET.tostring(child)))           
             
 
     
