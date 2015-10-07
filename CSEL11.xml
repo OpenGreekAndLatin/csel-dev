@@ -93,7 +93,7 @@
             <title type="main">PRAEFATIO. </title>
           </head>
 
-</div>
+
 
 <div type="textpart" subtype="chapter" n="1">
 <ab><title>I.  DE CODICIBYS ET EDITIONIBVS. </title></ab>
@@ -2062,8 +2062,8 @@
             
 </p>
         
-</div>
-        <div type="textpart" subtype="work" n="stoa0089a-stoa001">
+</div></div>
+        <div type="textpart" subtype="work" n="stoa0089a.stoa001">
           <head>
             <title type="main">.CLAVDIANI MAMERTI DE STATV ANIMAE LIBRI TRES. </title>
           </head>
@@ -2122,8 +2122,8 @@
 <pb n="3"/>
             
         
-</div>
-        <div type="textpart" subtype="work" n="stoa0121g-stoa002">
+
+          <div type="textpart" subtype="work"><!-- previously stoa0121g-stoa002 -->
           <head>
             <title type="main">EPISTVLA FAVSTI. </title>
           </head>
@@ -2755,13 +2755,14 @@
 </p>
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0089a-stoa001">
+        
 
-          <head>
-            <title type="main">CLAVDIANI MAMERTI DE STATV ANIMAE LIBRI TRES. </title>
-          </head>
-<div type="textpart" subtype="book" n="praef">
-          <ab>
+          
+<div type="textpart" subtype="preface">
+  <head>
+    <title type="main">CLAVDIANI MAMERTI DE STATV ANIMAE LIBRI TRES. </title>
+  </head>
+  <ab>
             <title>PRAEFATIO. </title>
           </ab>
           <ab>
@@ -2874,7 +2875,7 @@
             <title type="main">CLAVDIANI MAMERTI DE STATV ANIMAE LIBER PRIMVS. </title>
           </head>
 
-</div>
+
 
 <div type="textpart" subtype="chapter" n="1">
 <ab><title>I.  DE OPINIONIBVS INPERITORVM ET PERVICACIIS IN DEFENDENDA SVPERBIA. </title></ab>
@@ -6144,11 +6145,11 @@
 <note type="footnote"> T </note>
 </p>
         
-</div>
+</div></div>
 <pb n="100"/>
         
         <div type="textpart" subtype="book" n="2">
-          </div>
+          
 
 <div type="textpart" subtype="chapter" n="1"><ab>
 
@@ -8421,13 +8422,13 @@
             
 </p>
         
-</div>
+</div></div>
         <div type="textpart" subtype="book" n="3">
           <head>
             <title type="main">CLAVDIANI MAMERTI DE STATV ANIMAE: LIBER TERTIVS. </title></head>
           
 
-</div>
+
 
 <div type="textpart" subtype="chapter" n="1">
 <ab><title>I.  DE LAZARI CORPORE QVALITER EXANIMATVM IACVERIT LOCALITER, CVM ANIMA INLOCALITER DISCESSERIT A CORPORE. </title></ab>
@@ -9894,8 +9895,8 @@
 <pb n="191"/>
             
         
-</div>
-        <div type="textpart" subtype="book" n="epilog">
+</div></div>
+        <div type="textpart" subtype="epilog">
           <head>
             <title type="main">EPILOGVS. </title>
           </head>
@@ -10135,7 +10136,7 @@
 </p>
         
 </div></div>
-        <div type="textpart" subtype="work" n="stoa0089a-stoa002">
+              <div type="textpart" subtype="work" n="stoa0089a.stoa002">
           <head>
             <title type="main">CLAVDIANI MAMERTI EPISTVLAE DVAE. EPISTVLA PRIOR. </title>
           </head>
@@ -10603,7 +10604,7 @@
             
         
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main"><sic>ll</sic>. INDEX NOMINVM. </title>
           </head>
@@ -10915,7 +10916,7 @@
             
         
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">ill. INDEX VERBORVM ET LOCVTIONVM. </title>
           </head>
