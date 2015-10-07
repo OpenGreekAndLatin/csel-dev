@@ -641,12 +641,13 @@
             
         
 </div>
-        <div type="textpart" subtype="work">
-          <head>
-            <title type="main">I. DE UITA SANCTI MARTINI EPISCOPI LIBRI VI. PROLOGUS. </title>
-          </head>
+        <div type="textpart" subtype="work" n="stoa0224b.stoa001">
+          
 <div type="textpart" subtype="preface">
-          <ab>
+  <head>
+    <title type="main">I. DE UITA SANCTI MARTINI EPISCOPI LIBRI VI. PROLOGUS. </title>
+  </head>
+  <ab>
             <title type="sub">DOMINO SANCTO AC BEATISSIMO, SPECIALI APUD DEUM PATRONO ET CUM OMNI CULTU ET ADMIRATIONE UENERABILI UEREQVE APOSTOLICO IN OMNI RELIGIONE DOCTORI PERPETUO EPISCOPO PAULINUS. </title>
           </ab>
           <p rend="script"><sic>Studio</sic> caritatis et dilectionis affectu obliuisci nos pudoris iubetis, <lb n="5"/>
@@ -6804,15 +6805,15 @@
 
 </div>       
  
-</div>
+
 
 <pb n="160"/>
         
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="preface">
           <head>
             <title type="main">II. CARMINA MINORA. </title>
           </head>
-<div type="textpart" subtype="preface">
+
           <ab>
             <title type="sub">PROLOGUS. DOMINO SANCTO AC BEATISSIMO PATRONO PERPETUO EPI- SCOPO PAULINUS. </title>
           </ab>
@@ -6858,7 +6859,7 @@
             audeamus. 
 </p>
 </div></div>
-<div type="textpart" subtype="poem">
+        <div type="textpart" subtype="work" n="stoa0224b.stoa002">
           <ab>
             <title type="sub">UERSUS PAULINI DE UISITATIONE NEPOTULI SUI. </title>
           </ab>
@@ -7024,7 +7025,7 @@
 
 
 </div>
-<div type="textpart" subtype="poem">
+        <div type="textpart" subtype="work" n="stoa0224b.stoa003">
           <ab>
             <title type="sub">UERSUS PAULINI DE ORANTIBUS. </title>
           </ab>
@@ -10785,7 +10786,7 @@
             
         
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="commentary" subtype="preface">
           <head>
             <title type="main">ORIENTII CARMINA. </title>
           </head>
@@ -10795,13 +10796,9 @@
 <pb n="192"/>
           
 <pb n="193"/>
-          
-        
-</div>
-        <div type="commentary" subtype="preface">
-          <head>
+          <ab>
             <title type="main">PRAEFATIO. </title>
-          </head>
+          </ab>
           <p rend="script">Uenantius Fortunatus (Uit. S. Martini I, 14-17) ubi de scriptoribus <lb/>
             agit, qui in euangeliis enarrata tractauerant carminibus, <lb/>
             post <choice><sic>luuencum</sic><corr>Iuuencum</corr></choice> Seduliumque commemorat Orientium: <hi rend="italic"><choice><sic>prionus</sic><corr>primus</corr></choice> <lb/>
@@ -11276,7 +11273,7 @@
             
         
 </div>
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="work" n="stoa0215b.stoa001">
           <head>
             <title type="main">ORIENTII COMMONITORIVIM. </title>
           </head>
@@ -12895,11 +12892,15 @@
             nominis abscedat ne tibi cura mei, <lb/>
             ut peccatores uincens Orientius omnes <lb/>
             sanctorum ueniam promerear precibus. 
-</p>
+</p></div></div>
+  
+          <div type="textpart" subtype="work" n="stoa0215b.stoa002">
           <ab>
             <title type="sub">CARMINA ORIENTIO TRIBUTA. </title>
           </ab>
-          <ab>
+         
+            <div type="textpart" subtype="poem" n="1"> 
+            <ab>
             <title type="sub">I. DE NATIUITATE DOMINI. </title>
           </ab>
           <p>Splendidior lux luce micat, maiorque diebus <lb/>
@@ -12909,7 +12910,8 @@
             5 uirtus magna patris, carnis primordia nostrae, <lb/>
             mox hominem in caelum <sic>Bhens</sic>, sic morte peracta <lb/>
             sumere qui carnem <sic>uolujyflpiec</sic> carne senescit. 
-</p>
+</p></div>
+            <div type="textpart" subtype="poem" n="2">
           <ab>
             <title type="sub">II. DE <sic>EPITHETISmLUATOKIS</sic> NOSTRI. </title>
           </ab>
@@ -12939,7 +12941,8 @@
             Hostia Lex Ratio Uirga Piscis Aquila, <lb/>
             Iustus, Progenies regis regisque Sacerdos, <lb/>
             10 nomina magna deo, maior at ipse deus. 
-</p>
+</p></div>
+            <div type="textpart" subtype="poem" n="3">
           <ab>
             <title type="sub">III. ITEM EIUSDEM DE TRINITATE. </title>
           </ab>
@@ -13078,7 +13081,8 @@
             nec mirum, uix digna deo si nomina mille <lb/>
             laus numerosa trahat, laus tot uirtutibus inpar, <lb/>
             95 quot titulos peperere pii miracula Christi. 
-</p>
+</p></div>
+            <div type="textpart" subtype="poem">
           <ab>
             <title type="sub">EXPLANATIO NOMINUM DOMINI. </title>
           </ab>
@@ -13158,7 +13162,8 @@
             uirga: quod errantes ut uerbere corrigat actus. <lb/>
             145 piscis natus aquis: auctor <choice><sic>haptismatis</sic><corr>baptismatis</corr></choice> ipse est. <lb/>
             saepe aquila: e terris quoniam <choice><sic>reuolanit</sic><corr>reuolauit</corr></choice> ut ales. 
-</p>
+</p></div>
+            <div type="textpart" subtype="poem">
           <ab>
             <title type="sub">LAUDATIO. </title>
           </ab>
@@ -13221,7 +13226,10 @@
             <hi rend="italic">A2</hi> EXPLICIT ,. <hi rend="italic">A</hi> </note> 
 <pb n="251"/>
             
-</p>
+</p></div></div>
+
+        
+        <div type="textpart" subtype="work" n="stoa0215b.stoa003">
           <ab>
             <title type="sub">IIII. ORATIONES. </title>
           </ab>
@@ -13340,7 +13348,7 @@
             
 </p>
         
-</div></div>
+</div>
         <div type="textpart" subtype="index">
           <head>
             <title type="main">SUPPLEMENTUM. </title>
@@ -14574,7 +14582,7 @@
             
         
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="preface">
           <head>
             <title type="main">PAULINI PELLAEI</title>
           </head>
@@ -14589,11 +14597,10 @@
 <pb n="265"/>
           
         
-</div>
-        <div type="textpart" subtype="chapter">
-          <head>
+
+          <ab>
             <title type="main">PROLEGOMENA. </title>
-          </head>
+          </ab>
           <ab>
             <title type="sub">I. </title>
           </ab>
@@ -15570,7 +15577,7 @@
 <pb n="-"/>
         
 <pb n="289"/>
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="work" n="stoa0223a.stoa001">
           <head>
             <title type="main">PAULINI EVXAPICTIKOC. </title>
           </head>
@@ -33621,7 +33628,7 @@
 </div>
 <pb n="628"/>
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">INDEX UERSUUM UERGILIANORUM. </title>
           </head>
@@ -33931,7 +33938,7 @@
 <pb n="-"/>
         
       
-</div>
+        </div>
     </body>
   </text>
 </TEI>
