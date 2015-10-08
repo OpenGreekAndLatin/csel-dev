@@ -86,11 +86,12 @@
     <body>
       <div type="edition">
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="preface">
           <head>
             <title type="main">PROLEGOMENA. </title>
           </head>
-          <ab>
+          <div type="textpart" subtype="chapter" n="1">
+            <ab>
             <title type="sub">I. QVANDO LIBRI DE CONSOLATIONE CONSCRIPTI SINT. </title>
           </ab>
           <p>AniciusManlius SeverinusBoethiusl) nobili familia ortus2) <lb/>
@@ -137,6 +138,8 @@
             ut Varronis Satirarum <sic n="poss">Menippearum</sic> aliorumque <lb/>
             exemplum secutus <sic n="poss">carmina3</sic>) pedestri orationi interponeret. 
 </p>
+          </div>
+          <div type="textpart" subtype="chapter" n="2">
           <ab>
             <title type="sub">II. DE FONTIBVS. </title>
           </ab>
@@ -289,8 +292,10 @@
             locorum et metra, quae Peiper p. 219 <sic n="poss">squ</sic>. e Senecae <lb/>
             tragoediis repetit. 
 </p>
+          </div>
+          <div type="textpart" subtype="chapter" n="3">
           <ab>
-            <title type="sub">IIL DE INTEBPBETIBVS ET COMMENTATORIBVS CONSOLATIONIS. </title>
+            <title type="sub">III. DE INTEBPBETIBVS ET COMMENTATORIBVS CONSOLATIONIS. </title>
           </ab>
           <p>Ad <sic n="poss">Peiperi</sic> Prolegomena,2) <sic n="poss">Ueberwegii</sic> librum iam allatum, <lb/>
             <sic n="poss">Groeberi</sic> et Pauli <sic n="poss">enchiridia</sic> (<sic n="poss">GrundriB</sic> der <sic n="poss">roman</sic>.
@@ -514,6 +519,8 @@
             <hi rend="italic">De locis quibusdam <sic n="poss">Boetii</sic> librorum</hi>. '<foreign xml:lang="grc">Αϑηνᾱ</foreign> IV (1892) 341- <lb/>
             363, sed hic illic ratio habenda est, <sic n="poss">v</sic>. p. 86, 22; 92, 14. 
 </p>
+          </div>
+          <div type="textpart" subtype="chapter" n="4">
           <ab>
             <title type="sub">IV. DE CODICIBVS.3)</title>
           </ab>
@@ -1069,6 +1076,8 @@
 <pb n="XXV"/>
             
 </p>
+          </div>
+          <div type="textpart" subtype="chapter" n="5">
           <ab>
             <title type="sub">V. DE CONSOLATIONIS EDITIONIBVS ET VERSIOMBVS. </title>
           </ab>
@@ -1244,6 +1253,8 @@
 </p>
           <p><sic n="poss">Edmundus</sic> <sic n="poss">Hauler</sic>. 
 </p>
+          </div>
+          <div type="textpart" subtype="sigla">
           <ab>
             <title type="sub">CONSPECTVS SIGLORVM. </title>
           </ab>
@@ -1372,10 +1383,10 @@
           <p><hi rend="italic"><sic n="poss">tulpius</sic></hi> = <sic n="poss">Ant</sic>. <sic n="poss">Vulpii</sic> editio (<sic n="poss">Paduae</sic> 1721, 1724; <hi rend="italic">cum <lb/>
             notis <sic n="poss">variorum</sic>,</hi> <sic n="poss">Glasgov</sic>. 1751). 
 </p>
+          </div>
 <pb n="1"/>
-            
-        
 </div>
+        
         <div type="textpart" subtype="work" n="stoa0058.stoa001">
           <head>
             <title type="main">ANICII MANLII SEVERINI BOETHII</title>
