@@ -2063,7 +2063,7 @@
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0234e-stoa002">
+        <div type="textpart" subtype="work" n="stoa0234e.stoa002">
 <div type="textpart" subtype="MSS">
           <head>
             <title type="main">I. PRISCILLIANI TRACTATVS VNDECIM IN CODICE WIRCEBVRGENSI NVPER REPERTI. </title>
@@ -6285,8 +6285,8 @@
 </p>
         
 </div>
-          <div type="textpart" subtype="work" n="stoa0234e-stoa001">
-        <div type="textpart" subtype="chapter" n="praef">
+          <div type="textpart" subtype="work" n="stoa0234e.stoa001">
+        <div type="textpart" subtype="preface">
           <head>
             <title type="main">PROLOGUS PRISCILLIANI IN CANONES EPISTULARUM PAULI APOSTOLI. </title>
           </head>
@@ -9155,14 +9155,16 @@
 <pb n="151"/>
             
 </div>
-<div type="textpart" subtype="work" n="stoa0215c-stoa003">
+<div type="textpart" subtype="work" n="stoa0215c.stoa003">
           <ab>
             <title type="sub">PAULI OROSII AD AURELIUM AUGUSTINUM COMMONITORIUM DE ERRORE PRISCILLIANISTARUM ET ORIGENISTARUM. </title>
           </ab>
           <ab>
             <title type="sub">BEATISSIMO PATRI AUGUSTINO EPISCOPO OROSIUS. </title>
           </ab>
-          <p rend="script">1. <choice><sic>lam</sic><corr>Iam</corr></choice> quidem suggesseram sanctitati tuae, sed commonitorium <lb n="5"/>
+         
+  <div type="textpart" subtype="section"> 
+  <p rend="script">1. <choice><sic>lam</sic><corr>Iam</corr></choice> quidem suggesseram sanctitati tuae, sed commonitorium <lb n="5"/>
             suggestae rei tunc offerre meditabar, cum te expeditum <lb/>
             animo ab aliis dictandi necessitatibus esse sensissem. Sed <lb/>
             quoniam domini mei, filii tui, Eutropius et Paulus episcopi <lb/>
@@ -9232,6 +9234,7 @@
 <pb n="153"/>
             
 </p>
+  </div><div type="textpart" subtype="section">
           <p>2. Priscillianus primum in eo Manichaeis miserior, quod ex <lb/>
             ueteri quoque testamento haeresim confirmauit, docens animam <lb/>
             quae a deo nata sit de quodam promptuario procedere, profiteri <lb/>
@@ -9321,7 +9324,7 @@
             ant proprietate adserens sublato 'et' patrem filium spiritum <lb/>
             sanctum hunc esse unum Christum docebat. 
 </p>
-          <p rend="script">3. Tunc duo ciues mei Auitus et alius Auitus, cum iam <lb/>
+  </div><div type="textpart" subtype="section">  <p rend="script">3. Tunc duo ciues mei Auitus et alius Auitus, cum iam <lb/>
             tam turpem confusionem per se ipsam ueritas sola nudaret, <lb/>
             peregrina petierunt. Nam unus Hierosolymam, alius Romam <lb n="5"/>
             profectus est; reuersi unus rettulit Origenem alius Uictorinum; <lb/>
@@ -9411,7 +9414,7 @@
             esse fulgores, sed rationales potestates, praebere autem seruitium <lb n="5"/>
             corruptioni propter eum qui subiecit in spe. 
 </p>
-          <p rend="script">4. Haec sicut retinere potui, breuiter expositum est, ut perspectis <lb/>
+  </div><div type="textpart" subtype="section">      <p rend="script">4. Haec sicut retinere potui, breuiter expositum est, ut perspectis <lb/>
             omnibus morbis medicinam adhibere festines. Est ueritas <lb/>
             Christi in me, quia propter uenerabilem reuerentiam <lb/>
             sanctitatis tuae esse inpudens non auderem, nisi euidenti iudicio <lb n="10"/>
@@ -9438,7 +9441,7 @@
 </p>
 <pb n="158"/>
             
-        
+  </div>       
 </div>
         <div type="textpart" subtype="index">
           <ab>
@@ -19405,7 +19408,7 @@
             
         
 </div>
-        <div type="textpart" subtype="index">
+        <div type="textpart" subtype="addenda">
           <head>
             <title type="main">CORRIGENDA. </title>
           </head>
