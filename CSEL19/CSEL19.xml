@@ -93,7 +93,8 @@
     <body>
       <div type="edition">
         
-        <div type="textpart" subtype="chapter">
+        <div type="commentary" subtype="preface">
+         <div type="textpart" subtype="preface">
           <head>
             <title type="main">PROLEGOMENA PARTIS PRIORIS. </title>
           </head>
@@ -347,7 +348,7 @@
 <pb n="XIII"/>
             
         
-</div>
+         </div>
         <div type="textpart" subtype="chapter">
           <head>
             <title type="main">CAPUT I. DE CODICIBUS DIVINARUM INSTITUTIONUM ET DE INSTITUTIONIBUS, LIBRIS DE IRA DEI ET DE OPI- FICIO DEI, EPITOME INSTITUTIONUM IN UNUM COR- PUS COMPOSITIS. </title>
@@ -427,7 +428,7 @@
             
         
 </div>
-        <div type="textpart" subtype="chapter">
+          <div type="textpart" subtype="chapter">
           <head>
             <title type="main">CAPUT I. DE CODICIBUS DIVINARUM INSTITUTIONUM ET DE INSTITUTIONIBUS, LIBRIS DE IRA DEI ET DE OPI- FICIO DEI, EPITOME INSTITUTIONUM IN UNUM COR- PUS COMPOSITIS. </title>
           </head>
@@ -3507,7 +3508,7 @@
 </p>
         
 </div>
-        <div type="textpart" subtype="chapter">
+          <div type="textpart" subtype="chapter">
           <head>
             <title type="main">CAPUT II. DE CODICIBUS EPITOMAE. </title>
           </head>
@@ -4244,7 +4245,7 @@
 </p>
         
 </div>
-        <div type="textpart" subtype="chapter">
+          <div type="textpart" subtype="chapter">
           <head>
             <title type="main">CAPUT III. DE RATIONIBUS CRITICIS IN LOCIS ALIORUM APUD LACTANTIUM SCRIPTORUM ADHIBENDIS ET DE AUC- TORUM ET EXPILATORUM LACTANTII AD VERBA EIUS CONSTITUENDA USU. </title>
           </head>
@@ -5063,8 +5064,8 @@
 <pb n="CX"/>
             
         
-</div>
-        <div type="textpart" subtype="chapter">
+</div></div>
+        <div type="textpart" subtype="addenda">
           <head>
             <title type="main">ADDENDA ET CORRIGENDA.1</title>
           </head>
@@ -5654,7 +5655,7 @@
 </div>
 <pb n="1"/>
         
-        <div type="textpart" subtype="work" n="stoa0171-stoa008">
+       <div type="textpart" subtype="work" n="stoa0171.stoa009">
           <head>
             <title type="main">L. CAELI FIRMIANI LACTANTI DIUINARUM INSTITUTIONUM</title>
           </head>
@@ -43442,11 +43443,11 @@ et alio loco apud eamdem:
 </div>  
         
 </div>
-        <div type="textpart" subtype="work">
+       <div type="textpart" subtype="work" n="stoa0171.stoa008">
           <head>
             <title type="main">L. CAELI FIRMIANI LACTANTI EPITOME DIVINARVM INSTITVTIONVM. </title>
           </head>
-<div type="textpart" subtype="chapter" n="praef">
+<div type="textpart" subtype="preface">
 <div type="textpart" subtype="section" n="1">
           <p rend="script"><milestone unit="altpage" n="2a"/>  Quamquam Diuinarum <sic n="poss">Institutionum</sic> libri, quos iam pridem  <lb/>
             ad inlustrandam ueritatem religionemque conscripsimus, ita legentium <lb n="5"/>
