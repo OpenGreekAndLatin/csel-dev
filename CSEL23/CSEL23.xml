@@ -86,7 +86,7 @@
     <body>
       <div type="edition">
         
-        <div type="textpart" subtype="chapter">
+        <div type="commentary" subtype="preface">
           <head>
             <title type="main">PROOEMIVM. </title>
           </head>
@@ -1361,7 +1361,7 @@
 </div>
 <pb n="XXX"/>
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="addenda">
           <head>
             <title type="main">ADDENDA ET CORRIGENDA</title>
           </head>
@@ -1990,13 +1990,13 @@
 <note type="footnote"> f </note>
 </p>
         
-</div>
+
 <pb n="XXXIV"/>
         
-        <div type="textpart" subtype="chapter">
-          <head>
+        
+          <ab>
             <title type="main">MAVORIANA</title>
-          </head>
+          </ab>
           <p><sic n="poss">Emendationes</sic> quas proposuit <sic n="poss">Iohn</sic> E. B. <sic n="poss">Mayor</sic> professor <sic n="poss">Cantabrigiensis</sic> <lb/>
             in libro inscripto <hi rend="italic">The latin <sic n="poss">Heptateuch</sic>,</hi> <sic n="poss">Londini</sic> et Cantabrigiae edito a. 1889.*)
 </p>
@@ -2664,7 +2664,8 @@
           <p>758 *blandeque
 </p>
         
-</div>
+        </div>
+        
 <pb n="XXXVIII"/>
         
         <div type="textpart" subtype="MSS">
@@ -2771,7 +2772,7 @@
         
 <pb n="1"/>
         
-        <div type="textpart" subtype="work" n="stoa0104c-stoa001">
+        <div type="textpart" subtype="work" n="stoa0104c.stoa001">
 <div type="textpart" subtype="book">
           <head>
             <title type="main">LIBER GENESEOS. </title>
@@ -11712,8 +11713,8 @@ aliquis</hi> uersus <hi rend="italic">ad sententiam exprimendamu. Areualus</hi> 
 </div>
 <pb n="212"/>
         
-<div type="textpart" subtype="work">
-        <div type="textpart" subtype="poem">
+        <div type="textpart" subtype="work" n="stoa0276.stoa010">
+        
           <head>
             <title type="main">INCERTI DE SODOMA. </title>
           </head>
@@ -12114,11 +12115,11 @@ aliquis</hi> uersus <hi rend="italic">ad sententiam exprimendamu. Areualus</hi> 
 
             
 
-</div>
+
         
 </div>
-<div type="textpart" subtype="work">
-        <div type="textpart" subtype="poem">
+        <div type="textpart" subtype="work" n="stoa0276.stoa006">
+        
           <head>
             <title type="main">EIVSDEM DE IONA PROPHETA. </title>
           </head>
@@ -12372,11 +12373,11 @@ aliquis</hi> uersus <hi rend="italic">ad sententiam exprimendamu. Areualus</hi> 
 
             
 
-</div>
+
         
 </div>
 <div type="textpart" subtype="work">
-        <div type="textpart" subtype="chapter">
+        
           <head>
             <title type="main">CVPRIANI AD QVENDAM SENATOREM</title>
           </head>
@@ -12552,12 +12553,11 @@ aliquis</hi> uersus <hi rend="italic">ad sententiam exprimendamu. Areualus</hi> 
 </p>
             
 
-</div>
+
         
 </div>
 
-        <div type="textpart" subtype="work" n="stoa0149p-stoa003">
-<div type="textpart" subtype="poem">
+        <div type="textpart" subtype="work" n="stoa0149p.stoa003">
           <head>
             <title type="main">S. HILARII IN GENESIN</title>
           </head>
@@ -12915,11 +12915,10 @@ aliquis</hi> uersus <hi rend="italic">ad sententiam exprimendamu. Areualus</hi> 
 
             
 
-</div>
+
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0149p-stoa002">
-<div type="textpart" subtype="poem">
+        <div type="textpart" subtype="work" n="stoa0149p.stoa002">
           <head>
             <title type="main">HILARII DE MARTVRIO MACCABAEORVM. </title>
           </head>
@@ -13528,10 +13527,10 @@ aliquis</hi> uersus <hi rend="italic">ad sententiam exprimendamu. Areualus</hi> 
 
             
 
-</div>
+
         
 </div>
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="work" n="stoa0292a.stoa004">
           <head>
             <title type="main">Eiusdem carminis <choice n="0.5"><sic n="1">interpolatum</sic><corr n="1">interpolatam</corr></choice> exemplar. </title>
           </head>
@@ -14220,7 +14219,7 @@ aliquis</hi> uersus <hi rend="italic">ad sententiam exprimendamu. Areualus</hi> 
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0149p-stoa001">
+        <div type="textpart" subtype="work" n="stoa0149p.stoa001">
           <head>
             <title type="main">HILARII DE EVANGELIO. </title>
           </head>
