@@ -4075,7 +4075,7 @@
 
   
   
-        <div type="textpart" subtype="chapter"> 
+        <div type="textpart" subtype="addenda"> 
           <head>
             <title type="main">ADDENDA ET CORRIGENDA. </title>
           </head>
@@ -4112,7 +4112,7 @@
             
         
 </div>
-        <div type="textpart" subtype="chapter"> 
+        <div type="textpart" subtype="MSS"> 
           <head>
             <title type="main">I. TRACTATUS 'MVSTERIORUM. '</title>
           </head>
@@ -4124,8 +4124,6 @@
 <pb n="2"/>
             
 </p>
-        
-        <div type="textpart" subtype="MSS">
           <head>
             <title type="main">INDEX NOTARUM. </title>
           </head>
@@ -4162,7 +4160,7 @@
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0149b-stoa009">
+        <div type="textpart" subtype="work" n="stoa0149b.stoa009">
           <head>
             <title type="main">S. HILARII EPISCOPI TRACTATUS MVSTERIORUM. </title>
           </head>
@@ -6242,10 +6240,7 @@
 </div>
 </div>
 </div>
-        
-</div> 
       
-    <div type="edition" subtype="work">   
 <pb n="39"/>
         
         <div type="textpart" subtype="toc"> <!-- TOC -->
@@ -6266,14 +6261,15 @@
 <pb n="41"/>
 
 </div>
-<div type="textpart" subtype="chapter">       <!-- A. -->    
+
+
+        <div type="textpart" subtype="MSS">    <!-- MSS -->      
+          
           <ab>
             <title type="sub"><hi rend="italic">A</hi>. COLLECTANEA ANTIARIANA PARISINA (FHAGMENTA <sic>HISTOItlCA</sic>). </title>
           </ab>
 <pb n="42"/>
 
-
-<div type="textpart" subtype="MSS">    <!-- MSS -->      
           <ab>
             <title type="sub">INDEX NOTARUM,</title>
           </ab>
@@ -6394,11 +6390,11 @@
           <p><hi rend="italic">s</hi> = cod. <sic>Basilecnsis</sic> Bibl. <sic>Uniucrsit</sic>. <sic>gracc</sic>. A. III. 4 s. XIV. 
 </p>
           <p><hi rend="italic"><sic>Mau</sic></hi> — ed. Maurinorum emendata, Patauiis 1777. 
-</p></div></div>
+</p></div></div></div>
   
 <pb n="43"/>
 
-</div>
+
 <div type="textpart" subtype="work">     <!-- Series A-->        
           <ab>
             <title type="sub">SERIES A. </title>
@@ -14104,9 +14100,9 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 </div>
 </div>
-</div>  
 
-        <div type="textpart" subtype="chapter"> <!-- B. -->
+
+      <div type="textpart" subtype="MSS">
           <head>
             <title type="main"><hi rend="italic">B</hi>. APPENDIX AD COLLECTANEA ANTIARIANA PARISINA: ORATIO SVNODI SARDICENSIS AD CONSTANTIUM IMPERATOREM ET TEXTUS NARRATIUUS S. HILARII PICTAUIENSIS (LIBER I AD CONSTANTIUM). </title>
           </head>
@@ -14117,7 +14113,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             
 </p>
           
-          <div type="textpart" subtype="MSS">
+          
             <ab>
             <title type="sub">INDEX NOTARUM. </title>
           </ab>
@@ -14174,10 +14170,10 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
         
         <pb n="181"/>
         
-        <div type="textpart" subtype="chapter"> <!-- Liber 1 ad Constantium -->
+        <div type="textpart" subtype="work" n="stoa0149b.stoa005"> <!-- Liber 1 ad Constantium -->
           <head>
             <title type="main">ORATIO SVNODI SARDICENSIS AD CONSTAN- TIUM IMPERATOREM KT TEXTUS NARRATIUUS S. HILARII. (LIBER I AD CONSTANTIUM). </title>
-          </head></div>
+          </head>
 <div type="textpart" subtype="chunk" n="1">
           <ab>
             <title type="sub"> Epistula            syn. <sic>Sardicensis</sic>             (343/4).  </title>
@@ -14685,7 +14681,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             
 </p>
         </div>
-    </div>
+    
 
 
         <div type="textpart" subtype="MSS"> 
@@ -15231,7 +15227,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 </div>    
 </div>
-        <div type="textpart" subtype="chapter"> 
+        <div type="textpart" subtype="MSS"> 
           <head>
             <title type="main">IV. HVMNI. </title>
           </head>
@@ -15263,16 +15259,18 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 <pb n="209"/>
             
         
-</div>
-        <div type="textpart" subtype="work">
+</div></div>
+          <div type="textpart" subtype="work" n="stoa0149b.stoa004">
+           
+            <div type="textpart" subtype="book" n="1">
           <head>
             <title type="main">A. EX LIBRO HVMNORUM SANCTI HILARII QVAE RESTANT. </title>
           </head>
           <p>Felix propheta Dauid primus organi <lb/>
             in carne Christum ymnis mundo nuntians. 
 </p>
-  <div type="textpart" subtype="poem" n="1">
-        <ab>
+            <div type="textpart" subtype="poem" n="1">
+              <ab>
             <title type="sub">I. </title>
           </ab>
           <l n="1"><milestone unit="para"/><note type="margin"> De Christo deo. </note> Ante saecula qui manes  </l>
@@ -15429,8 +15427,8 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             <l n="77">∗ ∗ ∗ ∗ ∗ </l>
              <l n="78">∗ ∗ ∗ ∗ ∗ </l>
 
+            </div>
 
-</div>
 <div type="textpart" subtype="poem" n="2">
           <ab>
             <title type="sub">II. De resurrectione Christi</title>
@@ -15620,11 +15618,11 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
         
 </div>
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="book" n="2">
           <head>
             <title type="main">B. HVMNUS DUBIUS. </title>
           </head>
-<div type="textpart" subtype="poem">
+
 
           <ab>
             <title type="sub">HVMNUS DE CHRISTO. </title>
@@ -15742,13 +15740,8 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
           <l n="23"><milestone unit="para"/>Debiles facit uigere, caecos luce inluminat,  </l>
             <l n="24">uerbis purgat leprae morbum, mortuos resuscitat.  </l>
 
-          </div>
-</div>
-
-<div type="textpart" subtype="chapter" n="25">
-<div type="textpart" subtype="section" n="1">
-<p>[Uinum quod deerat hydriis, mutari aquam iubet <lb/>
-            nuptiis mero retentis propinando poculo].
+            <l n="25">[Uinum quod deerat hydriis, mutari aquam iubet</l>
+            <l n="26">nuptiis mero retentis propinando poculo].</l>
 
 <note type="footnote"> 16—19 cf. Matth. 2.13 sqq. 23 cf. Luc. 7, 21 sq. 24 cf. Beda de arte <lb/>
             metrica 23 25 cf. Ioh. 2, 3 sqq. </note>
@@ -15776,8 +15769,9 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             quód deera<foreign xml:lang="grc">́</foreign>t hydriis immutari aquam iubet Xuptiis mero retentis (errore tentis?) <lb/>
             propinando poculo' </note> 
 <pb n="220"/>
-            
-</p>
+ 
+          <!-- LINE NUMBERING INTERRUPTED -->
+         
           <p>Pane quino, pisce bino quinque pascit milia <lb/>
             et refert fragmenta cenae ter quaternis corbibus;
 </p>
@@ -15964,8 +15958,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 
 </div>
 </div>  
-</div>
-        <div type="textpart" subtype="chapter"> 
+        <div type="textpart" subtype="work" n="stoa0149b.stoa003"> 
           <head>
             <title type="main">V. FRAGMENTA MINORA. </title>
           </head>
@@ -15978,7 +15971,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 <pb n="226"/>
             
 <pb n="227"/>
-<div type="textpart" subtype="fragment" n="A">            
+<div type="textpart" subtype="book" n="1">            
           <ab>
             <title type="sub">A. </title>
           </ab>
@@ -15987,7 +15980,9 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
           <ab>
             <title type="sub">EX LIBRO CONTRA CONSTANTIUM. </title>
           </ab>
-<div type="textpart" subtype="section" n="1">            
+           
+  <div type="textpart" subtype="section" n="1">
+           
           <p><hi rend="italic">Hilarius quoque uir <choice n="0.15"><sic n="66">acris</sic><corr n="349">aeris</corr></choice> ingenii scribens ad Constantium imperatorem <lb/>
             de incarnatione domini <choice><sic>sie</sic><corr>sic</corr></choice> ait:</hi> 
 </p>
@@ -16000,9 +15995,10 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             deus, non deus factus est homo — et filius hominis factus est filius <lb/>
             dei. superauit enim magnitudo Christi domini paruitatem seruilis <lb/>
             formae, ita ut ipsa seruilis forma, quam adsumpsit, cessaret esse <lb n="10"/>
-            seruilis per <choice n="0.83"><sic n="42581">cum</sic><corr n="8584">eum</corr></choice> dominum, qui eam adsumpsit.</p></div>
-
-<div type="textpart" subtype="section" n="2"><p>si enim, qui natura 
+            seruilis per <choice n="0.83"><sic n="42581">cum</sic><corr n="8584">eum</corr></choice> dominum, qui eam adsumpsit. 
+          </p></div>
+  <div type="textpart" subtype="section" n="2">
+           <p>si enim, qui natura
 
 <note type="footnote"> 9 cf. Hilar. in ps. 143, 7 cf. Phil. 2, 6 sq. </note>
 
@@ -16045,7 +16041,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             nomine omne genu flectatur, caelestium et <lb/>
             terrestrium et infernorum, et omnis <choice n="0.69"><sic n="722">lingua</sic><corr n="320">linguae</corr></choice><lb n="5"/>
             confiteatur, quia dominus Iesus Christus <lb/>
-            in gloria est dei patris.
+             in gloria est dei patris.</p>
 
 <note type="footnote"> 1 cf. I Ioh. 3, 2 3 cf. Phil. 2, 9 Phil. 2, 10 sq. </note>
 
@@ -16055,12 +16051,12 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             6 eonfitcatur] <hi rend="italic">add</hi>. ei <hi rend="italic">FCS</hi> Iesus <hi rend="italic">om. R</hi> </note> 
 <pb n="229"/>
              
-</p>
-
 </div>
 
+
+
 </div>
-<div type="textpart" subtype="fragment" n="B">            
+<div type="textpart" subtype="book" n="2">            
           <ab>
             <title type="sub">B. </title>
           </ab>
@@ -16069,7 +16065,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
           <ab>
             <title type="sub">EX TRACTATIBUS IN IOB. </title>
           </ab>
-<div type="textpart" subtype="chunk" n="1">            
+<div type="textpart" subtype="chapter" n="1">            
 <div type="textpart" subtype="section" n="1">            
           <p><hi rend="italic">In quadam uero <choice><sic>hwnilia</sic><corr>humilia</corr></choice> de libro sancti <sic>lob</sic> attende, quid dicat, <lb/>
             quemadmodum ipsius diaboli aduersus nos indesinens bellum ex hoc <lb n="5"/>
@@ -16129,14 +16125,17 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             ex muliere? quia non extante hoste non erit bellum, <lb/>
             cessante deinde bello uictoria deerit. collidentium autem adutrsus<lb n="5"/>
             nos uitiorum uictoria non adepta non erit emundatio ulla uitiorum, <lb/>
+            quia his insidiis corporis nostri pirata uicto conluctantium aduersus  <lb/>
+  nos passionum concertatione purgamur.
 </p></div>
 
-<div type="textpart" subtype="section" n="3"><p>            quia his insidiis corporis nostri pirata uicto conluctantium aduersus  <lb/>
-            nos passionum concertatione purgamur. memores igitur, <hi rend="italic">inquit,</hi> et <lb/>
+<div type="textpart" subtype="section" n="3">
+  <p>
+             memores igitur, <hi rend="italic">inquit,</hi> et <lb/>
             conscii illa ipsa corpora nostra omnium uitiorum esse materiem, <lb/>
             per quam polluti et sordidi nihil in nobis mundum, nihil innocens<lb n="10"/>
             obtinemus, gaudeamus nobis esse hostem, in cuius concertatione <lb/>
-            quodam concertationis nostrae bello dimicemus.
+  quodam concertationis nostrae bello dimicemus.</p>
 
 <note type="footnote"> 3 Hiob 25, 4 </note>
 
@@ -16147,12 +16146,12 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             10 per qua <hi rend="italic">AT</hi> pro qua <hi rend="italic">CPEraLou</hi> 11 optinemus <hi rend="italic">BF</hi> nobis] <hi rend="italic">praem</hi>. in <hi rend="italic">T</hi> <lb/>
             concertatione <hi rend="italic">F</hi> concertamine <hi rend="italic">U</hi> certatione <hi rend="italic">ATV</hi>  </note> <lb/>
              
-</p>
+
 
 </div>
 
 </div>
-<div type="textpart" subtype="chunk" n="2">            
+<div type="textpart" subtype="chapter" n="2">            
 <div type="textpart" subtype="section" n="1">            
           <p><hi rend="italic">Item quod eum dixisse commemorat:</hi> 
 </p>
@@ -16178,7 +16177,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 
 </div>
-<div type="textpart" subtype="chunk" n="3">            
+<div type="textpart" subtype="chapter" n="3">            
 <div type="textpart" subtype="section" n="1">            
 
           <p><hi rend="italic">Sanctus Hilarius dicit:</hi> 
@@ -16220,7 +16219,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 
 </div>
-<div type="textpart" subtype="fragment" n="C">            
+<div type="textpart" subtype="book" n="3">            
           <ab>
             <title type="sub">C. </title>
           </ab>
@@ -16264,7 +16263,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 
 </div>
-<div type="textpart" subtype="fragment" n="D">            
+<div type="textpart" subtype="book" n="4">            
           <ab>
             <title type="sub">D. </title>
           </ab>
@@ -16317,7 +16316,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 
 </div>
-<div type="textpart" subtype="fragment" n="E">            
+<div type="textpart" subtype="book" n="5">            
           <ab>
             <title type="sub">E. </title>
           </ab>
@@ -16439,9 +16438,10 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
           <p>O = editores omnes consentientes. <lb/>
             notas alias u. p. 2. 
 </p>
-
+        </div>
         
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="work" n="stoa0149b.stoa008">
+          <div type="textpart" subtype="book" n="1">
           <pb n="237"/>
           <head>
             <title type="main">A. EPISTULA AD ABRAM FILIAM. </title>
@@ -16449,7 +16449,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
           <ab>
             <title type="sub">Dilectissimae filiae Abrae Hilarius in domino salutem. </title>
           </ab>
-<div type="textpart" subtype="chunk" n="1">            
+<div type="textpart" subtype="chapter" n="1">            
 <div type="textpart" subtype="section" n="1">            
          <p>Accepi litteras tuas. intellego desiderantem te mei esse <lb/>
             et certe ita habeo, sentio enim, quantum <choice><sic>praescntia</sic><corr>praesentia</corr></choice> <choice n="0.00"><sic n="10">corum</sic><corr n="5059">eorum</corr></choice>. <lb n="5"/>
@@ -16813,7 +16813,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
       
 </div>
-        <div type="textpart" subtype="work">
+        <div type="textpart" subtype="book" n="2">
           <head>
             <title type="main">B. HVMNI SPURII. </title>
           </head>
