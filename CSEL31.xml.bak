@@ -8445,7 +8445,7 @@ V = Codex Vaticanus 552 s. IX.
           <head>
             <title type="main">LIBER SECUNDUS. </title>
           </head>
-	<div type="textpart" subtype="preface">
+	<div type="textpart" subtype="chapter" n="praef">
           <head> <title type="sub">PRAEFATIO AD SALONIUM. </title> </head>
           <p>Quoniam, fili carissime, superiore libro propositionibus tuis <lb/>
             se rettulit iam crebra responsio, et uereor, ne adsiduae interrogationes, <lb/>
@@ -9844,7 +9844,7 @@ V = Codex Vaticanus 552 s. IX.
 </p>
         
 </div>
-        <div type="textpart" subtype="section"><!-- previously subtype="chapter" n="post" -->
+        <div type="textpart" subtype="chapter" n="post">
           <head>
             <title type="main">DOMINO SANCTO ET BEATISSIMO IN CHRISTO SALUIO EPISCOPO EUCHERIUS. </title>
           </head>
@@ -10832,7 +10832,7 @@ V = Codex Vaticanus 552 s. IX.
 <pb n="196"/>
             
 </div>
-        <div type="textpart" subtype="work" n="stoa0249a.stoa003">
+       <div type="textpart" subtype="work">
           <head>
             <title type="main">APPENDIX: epistularum a Saluiano et ab Hilario et a Rustico <lb/>
             ad Eucherium datarum. </title>
@@ -10841,6 +10841,7 @@ V = Codex Vaticanus 552 s. IX.
 <pb n="197"/>
             
 
+<div type="textpart" subtype="letter" n="2">
           <head><title type="sub">I. DOMINO ET DULCI SUO EUCHERIO EPISCOPO SALUIANUS. </title> </head>
           <p>Legi libros, quos transmisisti, stilo breues, doctrina uberes, <lb/>
             lectione expeditos, instructione perfectos, menti tuae et pietati pares. <lb/>
@@ -10863,8 +10864,8 @@ V = Codex Vaticanus 552 s. IX.
             dulcis meus. 
 </p>
 
-        </div>
-        <div type="textpart" subtype="work" n="stoa0149c.stoa001">
+</div>
+<div type="textpart" subtype="letter" n="2">
           <head> <title type="sub">II. DOMINO BEATISSIMO ET MERITO SUSCIPIENDO ET IN CHRISTO DEUINCTISSIMO PAPAE EUCHERIO EPISCOPO HLLARIUS EPISCOPUS. </title> </head>
           <p rend="script">Cum me libellos tuos mecum relaturum praecedentibus litteris <lb/>
             indicassem, instantiam et exactionem pueri quem miseras lentare
@@ -10898,7 +10899,7 @@ V = Codex Vaticanus 552 s. IX.
 </p>
           
 </div>
-        <div type="textpart" subtype="work" n="stoa0245c.stoa001">
+<div type="textpart" subtype="letter" n="2">
           <head> <title type="sub">III. DOMINO UERO SANCTO ATQVE AMICO DEI ET MIHI IN CHRISTO OMNI CULTU SUSCIPIENDO PAPAE EUCHERIO RUSTICUS PRESBVTER. </title> </head>
           <p rend="script">Transcriptis exultanter ac raptim quae deprecante me exemplanda <lb/>
             misisti illico ad beatitudinem uestram uolumen utrumque <lb/>
@@ -10966,8 +10967,9 @@ V = Codex Vaticanus 552 s. IX.
         
 </div>
 
+</div>
 <pb n="200"/>
-        <div type="textpart" subtype="addenda">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">Addenda et Corrigenda. </title>
           </head>
