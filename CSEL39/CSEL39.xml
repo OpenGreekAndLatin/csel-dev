@@ -1993,7 +1993,7 @@
             
         
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="toc">
           <head>
             <title type="main">TABVLA. </title>
           </head><figure type="illustration">
@@ -2022,7 +2022,7 @@
 <pb n="3"/>
 
 </div>
-<div type="textpart" subtype="work" n="stoa0329-stoa001">
+<div type="textpart" subtype="work" n="stoa0329.stoa001">
 <div type="textpart" subtype="section" n="549">
 <head>ITINERARIUM A BURDIGALA HIERUSALEM USQVE ET AB HERACLEA PER AULONAM ET PER URBEM ROMAM MEDIOLANUM USQVE SIC:</head>
 <p>
@@ -7730,7 +7730,7 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
         
 <pb n="103"/>
         
-        <div type="textpart" subtype="work" n="stoa0227b-stoa001">
+        <div type="textpart" subtype="MSS">
           <head>
             <title type="main">PETRI DIACONI</title>
           </head>
@@ -7740,9 +7740,10 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
 <pb n="104"/>
           
           <p><hi rend="italic">C</hi> = codex <sic>Casin</sic>. 361 s. XII
-</p>
+</p></div>
 <pb n="105"/>
-            
+          <div type="textpart" subtype="work" n="stoa0227b.stoa001">      
+            <div type="textpart" subtype="preface">
           <p>Incipit prologus Petri diaconi Casinensis ad Guibaldum <lb/>
             Casinensem et Stabulensem abbatem in libro de locis sanctis. 
 </p>
@@ -7820,7 +7821,8 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             
 <pb n="107"/>
             
-</p>
+          </p></div>
+            <div type="textpart" subtype="section">
           <ab>
             <title type="sub"><hi rend="italic">Bedae de locis sanctis libri cap. 1 et II usque ad uerba: Per- paucae illic cisternae sunt.'</hi> </title>
           </ab>
@@ -7884,7 +7886,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             Maria nutrita fuit. Prope uero est probatica piscina, quae <lb/>
             . quinque porticus habet. 
 </p>
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic">Beda c. II a <choice><sic>nerbis</sic><corr>uerbis</corr></choice>: (In uicinia templi Bethsaida <sic>piscitza</sic>) usque ad uerba: 1 Unde putant ibi mediam esse terram.'</hi> </title>
           </ab>
           <p><hi rend="italic"><sic>Anonytnus</sic>:</hi> In ecclesia uero, quae dicitur sancta Syon,<lb n="20"/>
@@ -7904,7 +7908,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
 </p>
 <pb n="109"/>
             
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic">Bedae c. III et IIII usque ad uerba: Habebat autem longi- tudinis octo pedes.'</hi> </title>
           </ab>
           <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Sudarium uero, cum quo Christus faciem <lb/>
@@ -7914,7 +7920,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             ligatus est, et circumcisio eius et sanguis eius in basilica <lb/>
             Constantiniana Romae uenerabiliter honorantur. 
 </p>
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic">Bedae c. IIII a uerbis: Aliud quoque aliquanto maius linteum' usque ad finem, c. V, c. VL</hi> </title>
           </ab>
           <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Trans torrentem Cedron est spelunca et super <lb/>
@@ -7929,7 +7937,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             factus est sudor eius sicut guttae sanguinis. In itinere autem <lb n="20"/>
             Bethaniae uicus est, de quo adducta est asina. 
 </p>
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic">Bedae c. VII exceptis ultimis uerbis: <sic>Titulo</sic> nominis <choice n="0.00"><sic n="4">cius</sic><corr n="14268">eius</corr></choice> usque <sic>Jiodie</sic> designatum.'</hi> </title>
           </ab>
           <p><hi rend="italic"><sic>Allonymus</sic>:</hi> Piscina uero, ubi exprobrauit Rabsaces, iuxta <lb/>
@@ -7962,7 +7972,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             Hierusalem in loco, qui dicitur <choice><sic>Cariatbiarim</sic><corr>Cariathiarim</corr></choice>, ubi fuit archa<lb n="15"/>
             domini, ecclesia illuc constructa est. 
 </p>
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. VIII</hi>. </title>
           </ab>
           <p><hi rend="italic"><sic>Anonymus</sic>:</hi> In uicesimo autem quarto miliario ab Hierusalem <lb/>
@@ -7989,7 +8001,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             ossa autem Ioseph separatim sepulta in sua ecclesia sunt. <lb/>
             Non longe uero ab Ebron est sepulchrum Abner filii Ner. 
 </p>
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. <sic>VIUl</sic>, X, XI, XII, XIII</hi>. </title>
           </ab>
           <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Qui autem ad Iordanem ire ab Hierusalem <lb n="5"/>
@@ -8039,7 +8053,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
           <p>In Nazara uero est hortus, ubi Dominus fuit, postquam reuersus <lb/>
             est de Egypto. 
 </p>
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. <sic>XlIII</sic></hi>. </title>
           </ab>
           <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Duo autem miliaria ecclesia ista distat ab<lb n="10"/>
@@ -8047,7 +8063,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             eadem ecclesia passus quingentos est ecclesia, in qua requiescit <lb/>
             sanctus Ioseph. 
 </p>
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. XV</hi>. </title>
           </ab>
           <p><hi rend="italic"><sic>Anouymus</sic>:</hi> Spelunca uero, in qua habitauit, magna est<lb n="15"/>
@@ -8058,7 +8076,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             aquam sumebat Maria. <lb n="20"/>
             
 </p>
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. XVI</hi>. </title>
           </ab>
           <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Valde autem est excelsior et altior quam <lb/>
@@ -8143,7 +8163,9 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             habebatur; ibi etiam et capitanei sunt, ubi sanctus <choice><sic>Moyaes</sic><corr>Moyses</corr></choice> <lb n="20"/>
             coram Pharaone mirabilia fecit. 
 </p>
-          <ab>
+            </div>
+            <div type="textpart" subtype="section">
+              <ab>
             <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. XVIII</hi>. </title>
           </ab>
           <p><sic>Anonymus</sic>: Memphis uero adhuc palatium continet, ubi <lb/>
@@ -8438,7 +8460,7 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
             
 </p>
         
-</div>
+</div></div>
         <div type="textpart" subtype="MSS">
           <head>
             <title type="main">EVCHERII, QVAE FERTVR, DE SITV HIERVSOLIMITANAE VRBIS ATQVE IPSIVS IVDAEAE EPISTOLA AD FAVSTVM PRESBVTERVM. </title>
@@ -8453,7 +8475,7 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
 </p>
 
 </div>
-<div type="textpart" subtype="work" n="stoa0117p-stoa001">
+<div type="textpart" subtype="work" n="stoa0117p.stoa001">
 <pb n="125"/>
             
           <p>Fausto presbytero insulano Eucherius episcopus. 
@@ -8907,11 +8929,11 @@ Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa 
 </p>
         
 </div>
-        <div type="textpart" subtype="work" n="stoa027sa-stoa001">
+        <div type="textpart" subtype="work" n="stoa0278a.stoa001">
 
 <pb n="137"/>
             
-          </div>
+          
 
 <div type="textpart" subtype="section" n="1"><p>Ciuitas Hierusalem habens portas maiores VI absque posticia,  <lb/>
             id est porta Beniamin exiens ad Iordanem, habens ab Hiericho <lb/>
@@ -9574,7 +9596,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
             
 </p>
         
-</div>
+</div></div>
         <div type="textpart" subtype="MSS">
           <head>
             <title type="main">BREVIARIVS DE HIEROSOLVMA. </title>
@@ -9588,7 +9610,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
 
 </div>
 
-<div type="textpart" subtype="work" n="stoa0329-stoa001">
+        <div type="textpart" subtype="work" n="stoa0329c.stoa001">
 <pb n="153"/>
             
           <p>Incipit breuiarius, quomodo Hierusolima constructa est. 
@@ -9712,7 +9734,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
 </p>
         
 </div>
-        <div type="textpart" subtype="work" n="stoa002se-stoa001">
+        <div type="textpart" subtype="work" n="stoa0028e.stoa001">
           <head>
             <title type="main">ANTONINI PLACENTINI</title>
           </head>
@@ -11224,7 +11246,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
          
 </div>
         <div type="textpart" subtype="work">           
-          </div>
+          
 
 <div type="textpart" subtype="section" n="1"><ab>
             <title type="sub">DE LOCIS SANCTIS, QVOS PERAMBULAVIT BEATVS ANTONINVS MARTVR. </title>
@@ -12349,9 +12371,9 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
 </p>
 
 
-</div>
-<div type="textpart" subtype="work">
-<div type="textpart" subtype="book" n="capitula1">
+</div></div>
+          <div type="textpart" subtype="work" n="stoa0007.stoa002">
+<div type="textpart" subtype="toc">
           <ab>
             <title type="sub">CAPITVLATIONES LIBRI PRIMI. </title>
           </ab>
@@ -13710,7 +13732,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
 </div>
 
 </div>
-<div type="textpart" subtype="book" n="capitula2">
+<div type="textpart" subtype="toc">
           <ab>
             <title type="sub">CAPITVLATIONES LIBRI SECUNDI. </title>
           </ab>
@@ -15100,7 +15122,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
 </div>
  
 </div>
-<div type="textpart" subtype="book" n="capitula3">
+<div type="textpart" subtype="toc">
 <ab> <title type="sub">CAPITVLATIONES LIBRI TERTII. </title> </ab>
           <p>I. De Constantinopolitana ciuitate. 
 </p>
@@ -15744,7 +15766,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
 <pb n="301"/>
   
 </div>
-        <div type="textpart" subtype="work" n="PREFACE">          
+        <div type="textpart" subtype="toc">          
           <quote>
 <l>Descripsi breuiter finesque situsque locorum,</l> <lb/>
             <l>Pagina sacra magis quae memoranda refert,</l> <lb/>
@@ -15819,7 +15841,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
 </p>
  
 </div>
-        <div type="textpart" subtype="work" n="stoa0054-stoa001a">
+        <div type="textpart" subtype="work" n="stoa0054.stoa001a">
 <div type="textpart" subtype="chapter" n="1">
 <ab> <title>I. DE SITV HIERVSALEM. </title> </ab>
           <p>Situs urbis Hierusalem paene in orbem circumactus non <lb/>
@@ -34713,7 +34735,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
             
         
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="addenda">
           <head>
             <title type="main">CORRIGENDA. </title>
           </head>
