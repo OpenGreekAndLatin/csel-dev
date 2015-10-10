@@ -85,7 +85,7 @@
   <text>
     <body>
       <div type="edition">
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="preface">
   
 <pb n="V"/>
          <head>
@@ -145,7 +145,8 @@
           <p>0. <sic n="poss">Giinther</sic>. 
 </p>
 <pb n="495"/>
-<div type="textpart" subtype="work">
+        </div>
+        <div type="textpart" subtype="work" n="stoa0045a.stoa001">
 <div type="textpart" subtype="letter" n="105">
 <ab>
 <title>(105.)</title>             
@@ -14226,15 +14227,14 @@
 </div>
 
 </div>
-        
-</div>
+      
         <div type="textpart" subtype="work">
           <head>
             <title type="main">APPENDICES</title>
           </head>
 <div type="textpart" subtype="letter" n="1">
 <ab> <title>I. INCIPIT RATIONIS REDDENDAE ACACIUM A SEDE APOSTOLICA CONPETENTER FUISSE DAMNATUM. </title> </ab>
-
+  <div type="textpart" subtype="section" n="1">
           <p rend="script">DILECTISSIMIS FRATRIBUS UNIUERSIS EPISCOPIS PER DARDANIAM<lb n="5"/>
             CONSTITUTIS GELASIUS. Ualde mirati sumus, quod uestra <lb/>
             dilectio quasi nouam et ueluti difficilem quaestionem et adhuc
@@ -15020,9 +15020,9 @@
 </p>
 
 
-</div>
+</div></div>
 <div type="textpart" subtype="letter" n="2">
-</div>
+
 
 <div type="textpart" subtype="section" n="1"><ab> <title>II. NARRATIONIS ORDO DE PRAUITATE DIOSCORI AIEXANDRINI. </title> </ab>
 
@@ -15235,10 +15235,10 @@
 
 
 
-</div>
+</div></div>
 <div type="textpart" subtype="letter" n="3">
 <ab> <title>ABLATIO EX GESTIS QVIBUS ACCACIUS CONSTANTINOPOLITANUS EPISCOPUS MONSTRATUR HERETICUS ET A PAPA FELICE DAMNATIS. </title> </ab>
-
+  <div type="textpart" subtype="section" n="1">
           <p>In causa fidei Christiane, cui ab exordio sui numquam <lb/>
             defuisse probantur inimici, nostro qui seculo sed per interualla <lb n="20"/>
             temporis <choice><sic>Neatorius</sic><corr>Nestorius</corr></choice> et Euthices non noua dogmata suadentes <lb/>
@@ -15475,12 +15475,12 @@
 
 
 
-</div>
+</div></div>
 <div type="textpart" subtype="letter" n="4">
 
 
 <ab> <title>INCIPIT LIBELLUS PROFESSIONIS FIDEI QVEM CONSTITUIT PAPA HORMISDA SEDIS APOSTOLICAE DARI A SINGULIS EPISCOPIS GRAECIARUM. </title> </ab>
-
+  <div type="textpart" subtype="section" n="1">
           <p>DOMINO SANCTO AC REUERENTISSIMO URBIS ROMAE PAPAE HORMISDAE. Prima salus rectae fidei regulam custodire et a <lb/>
             constitutis patrum nullatenus deuiare. et quia non potest <lb/>
             domini nostri Iesu Christi praetermitti sententia dicentis: tu<lb n="15"/>
@@ -15561,7 +15561,7 @@
 
 </div>
         
-</div>
+</div></div>
 <pb n="802"/>
         
         <div type="textpart" subtype="index">
