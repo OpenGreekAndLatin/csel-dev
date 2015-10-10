@@ -87,7 +87,7 @@
     <body>
       <div type="edition">
         
-        <div type="textpart" subtype="chapter">
+        <div type="commentary" subtype="preface">
           <head>
             <title type="main">PROLEGOMENA. </title>
           </head>
@@ -2284,7 +2284,7 @@
             
         
 </div>
-        <div type="commentary" subtype="preface">
+        <div type="commentary" subtype="toc">
           <head>
             <title type="main">PRAEFATIONIS INDICULUS. </title>
           </head><figure type="illustration">
@@ -2296,7 +2296,7 @@
 <pb n="LXIX"/>
             
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="addenda">
           <ab>
             <title type="sub">ADDENDA ET CORRIGENDA. </title>
           </ab>
@@ -2470,7 +2470,7 @@
         
 </div>
 <pb n="1"/>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="MSS">
           <head>
             <title type="main">I. VICTORINI EPISCOPI PETAVIONENSIS TRACTATVS DE FABRICA MVNDI</title>
           </head>
@@ -2483,12 +2483,11 @@
 <pb n="2"/>
             
 </p>
-        
-</div>
-        <div type="textpart" subtype="MSS">
-          <head>
+       
+
+          <ab>
             <title type="main">SIGLORVM CONSPECTIVS. </title>
-          </head>
+          </ab>
           <p><hi rend="italic">L</hi> = cod. bibliothecae <sic>Lambethanae</sic> Londinensis 414 <sic>membranaceas</sic> <lb/>
             in 8° saec. X—XI. 
 </p>
@@ -2511,6 +2510,7 @@
 <pb n="3"/>
 
 </div>
+        
 <div type="textpart" subtype="work" n="stoa0292e.stoa002">            
           <ab>
             <title type="sub">TRACTATVS DE FABRICA MVNDI. </title>
@@ -2825,16 +2825,12 @@
 </div>
         
 </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="MSS">
           <head>
             <title type="main">II. COMMENTARII IN APOCALVPSIN EDITIO VICTORINI ET RECENSIO HIERONVMI VNA CVM POSTERIORVM ADDITA- MENTIS</title>
           </head>
 
 <pb n="12"/>
-          
-        
-</div>
-        <div type="textpart" subtype="MSS">
           <head>
             <title type="main">SIGLORVM CONSPECTVS. </title>
           </head>
@@ -2927,7 +2923,7 @@
             
         
 </div>
-        <div type="textpart" subtype="work" n="stoa0292e.stoa001:perseus2">
+        <div type="textpart" subtype="work" n="stoa0292e.stoa001">
 <div type="textpart" subtype="preface">
           <head>
             <title type="main">PROLOGVS HIERONVMI. </title>
@@ -3000,7 +2996,7 @@
           <ab>
             <title type="sub">CAP. I. </title>
           </ab>
-<div type="textpart" subtype="chapter" n="1">
+
 <div type="textpart" subtype="section" n="1">
           <p> <hi rend="italic">[Apocalypsis Iesu Christi quam dedit illi deus</hi> <note type="margin"> 1, 1. 3 </note> <lb/>
             <hi rend="italic">ostendere <choice><sic>scruis</sic><corr>seruis</corr></choice> suis quae <choice><sic>oportct</sic><corr>oportet</corr></choice> fieri cito. beati qui <lb n="5"/>
@@ -3393,9 +3389,9 @@
             <choice><sic>dennntiat</sic><corr>denuntiat</corr></choice>, omnibus iudicium adnuntiat. 
 </p>
 
-</div>
+</div></div>
 
-</div>
+
 
 <div type="textpart" subtype="chapter" n="2">
 <ab> <title type="sub">CAP. II. </title> </ab>
@@ -5978,7 +5974,7 @@
 
 </div>
 
-</div>
+
 
 <div type="textpart" subtype="chapter" n="19">
 <ab> <title type="sub">CAP. XIX. </title> </ab>
@@ -6019,10 +6015,9 @@
 
 </div>
 
-</div>
-
 <div type="textpart" subtype="chapter" n="20">
 <ab> <title type="sub">CAP. XX. </title> </ab>
+  <div type="textpart" subtype="preface">
 
           <p><hi rend="italic">[Et uidi angelum descendentem de caelo, habentem clauem</hi> <note type="margin"> 20, 1-3 </note> <lb/>
             <hi rend="italic">abyssi et catenam in manu sua. et tenuit draconem illum <choice><sic>scrpentem</sic><corr>serpentem</corr></choice> <lb/>
@@ -6171,7 +6166,7 @@
              missus <choice><sic>cst</sic><corr>est</corr></choice> in stagnum ignis et <choice><sic>sulplwris</sic><corr>sulphuris</corr></choice>, ubi et <choice><sic>bcstia</sic><corr>bestia</corr></choice> et <lb/>
             pseudopropheta, et <choice><sic>cruciabltntur</sic><corr>cruciabuntur</corr></choice> die ac nocte in saecula <choice><sic>saeculoritm</sic><corr>saeculorum</corr></choice><lb/>
              </hi>. hoc iam ad iudicium nouissimum pertinet.]
-</p>
+</p></div>
           
 
 <div type="textpart" subtype="section" n="1">
@@ -6234,7 +6229,7 @@
             exultaturos cum agno demonstrat. 
 </p>
 
-</div>
+</div></div>
 <div type="textpart" subtype="chapter" n="21">
 <ab> <title type="sub">CAP. XXI. </title> </ab>
           <div type="textpart" subtype="section" n="1">
@@ -6378,7 +6373,7 @@
 
 <pb n="154"/>
 <pb n="155"/>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">INDICES. </title>
           </head>
