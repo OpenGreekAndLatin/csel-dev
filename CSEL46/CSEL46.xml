@@ -85,7 +85,7 @@
     <body>
       <div type="edition">
         
-        <div type="textpart" subtype="chapter">
+        <div type="commentary" subtype="preface">
           <head>
             <title type="main">LECTORI EDITOR SALUTEM.</title>
           </head>
@@ -148,7 +148,7 @@
           <p>Augustus Engelbrecht.</p><pb n="VII"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="commentary" subtype="preface">
           <head>
             <title type="main">PROLEGOMENA.</title>
           </head>
@@ -2227,7 +2227,7 @@
           <p>Augustus Engelbrecht.</p><pb n="LXV"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="addenda">
           <head>
             <title type="main">ADDENDA ET CORRIGENDA.</title>
           </head>
@@ -2384,7 +2384,7 @@
           <p>Zebedeus <hi rend="italic">(Lll)</hi> </p><pb n="-"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="MSS">
           <head>
             <title type="main">I. APOLOGETICUS.</title>
           </head>
@@ -2406,7 +2406,8 @@
           <p><hi rend="italic">a.r.,p.r, = ante rasuram. post rasuram.</hi> </p><pb n="-"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="work" n="stoa0244d.stoa005">
+        <div type="textpart" subtype="preface">
           <ab>
             <title type="sub">PRAEFATIO RUFINI AD APRONIANUM.</title>
           </ab>
@@ -2515,7 +2516,9 @@
             ZANZENI EPl. INCIPIT EIUSDEM APOLOGETICUS IN LATINUM <lb/>
             EX GRECO TRANSLATUS <hi rend="italic">P</hi> EXPLICIT PROLOGUS INCIPIT APOL­ <lb/>
             LOGETICUS SANCTI GREGORII NAZANZENI <hi rend="italic">v</hi> </p><pb n="7"/>
-            
+          
+          
+          </div><div type="textpart" subtype="book">
           <ab>
             <title type="sub">I. APOLOGETICUS.</title>
           </ab>
@@ -5194,7 +5197,7 @@
             PHANIIS SIUE DE NATALI DOMINI <hi rend="italic">v</hi> </p>
         </div><pb n="-"/>
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book">
           <head>
             <title type="main">II. DE EPIPHANIIS 8IUE DE NATALI DOMINI.</title>
           </head><pb n="-"/>
@@ -5206,6 +5209,11 @@
           <p><hi rend="italic">V</hi> = codex Vindobonensis 759 saec. XI.</p>
           <p><hi rend="italic">v</hi> = editio princeps Argentinae 1508.</p><pb n="-"/>
             
+        </div>
+          
+          <!-- BIG PART OF TEXT IS MISSING! -->
+          
+          <div type="textpart" subtype="book">
           <ab>
             <title type="sub">VII. DE RECONCILIATIONE ET UNITATE MONACHOKUM.</title>
           </ab>
@@ -6066,7 +6074,10 @@
              <pb n="263"/>
             </p>
         </div>
-        <div type="textpart" subtype="chapter">
+        
+        <!-- PART OF TEXT IS MISSING! -->
+          
+          <div type="textpart" subtype="MSS">
           <head>
             <title type="main">IX. DE ARRIANIS QUOD NON LICET 8EMPER ET PUBLICE DE DEO CONTENDERE.</title>
           </head><pb n="264"/>
@@ -6078,7 +6089,7 @@
           <p><hi rend="italic">v</hi> = editio princeps Argentinac 1508.</p><pb n="265"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book">
           <head>
             <title type="main">--IX.._ DE ARRIANIS.</title>
           </head>
@@ -6504,8 +6515,8 @@
             CONTRA ARRIANOS <hi rend="italic">C</hi> Explicit liber. B. Gregorii Nazanzeni episcopi <lb/>
             translatus a quoda Rufino <hi rend="italic">v</hi> </note> <pb n="277"/>
             </p>
-        </div>
-        <div type="textpart" subtype="chapter">
+        </div></div>
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">INDICES.</title>
           </head>
@@ -10823,7 +10834,7 @@
             <pb n="-"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">INDEX ORATIONITM.</title>
           </head>
