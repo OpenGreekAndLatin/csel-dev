@@ -6395,7 +6395,9 @@
 <pb n="43"/>
 
 
-<div type="textpart" subtype="work">     <!-- Series A-->        
+        <div type="textpart" subtype="work" n="stoa0149b.stoa002">
+          
+          <div type="textpart" subtype="book">
           <ab>
             <title type="sub">SERIES A. </title>
           </ab>
@@ -9636,8 +9638,8 @@
 </div>
 
 
-</div>
-<div type="textpart" subtype="work">       <!-- Series B -->     
+        </div>
+        <div type="textpart" subtype="book">  
           <ab>
             <title type="sub">SERIES B. </title>
           </ab>
@@ -14098,8 +14100,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 
 </div>
-</div>
-</div>
+</div></div></div>
 
 
       <div type="textpart" subtype="MSS">
@@ -14170,11 +14171,11 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
         
         <pb n="181"/>
         
-        <div type="textpart" subtype="work" n="stoa0149b.stoa005"> <!-- Liber 1 ad Constantium -->
+        <div type="textpart" subtype="work" n="stoa0149b.stoa007">
           <head>
             <title type="main">ORATIO SVNODI SARDICENSIS AD CONSTAN- TIUM IMPERATOREM KT TEXTUS NARRATIUUS S. HILARII. (LIBER I AD CONSTANTIUM). </title>
           </head>
-<div type="textpart" subtype="chunk" n="1">
+<div type="textpart" subtype="book" n="1">
           <ab>
             <title type="sub"> Epistula            syn. <sic>Sardicensis</sic>             (343/4).  </title>
           </ab>
@@ -14347,7 +14348,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 </div>
 
 </div>
-<div type="textpart" subtype="chunk" n="2">
+<div type="textpart" subtype="book" n="2">
           <ab>
             <title type="sub">II. <sic>Textus</sic> <sic>narratiuus</sic>. </title>
           </ab>
@@ -14541,7 +14542,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
         </div>
         
 
-        <div type="textpart" subtype="work"> <!-- C. -->
+        <div type="textpart" subtype="work" n="stoa0149b.stoa006">
           <head>
             <title type="main"><hi rend="italic">c</hi>. LIBRI TRES ADUERSUM UALENTE ET UKSACIUM</title>
           </head>
@@ -14552,6 +14553,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             
 <pb n="191"/>
             
+            <div type="textpart" subtype="book" n="1">
           <ab>
             <title type="sub">LIBER I</title>
           </ab>
@@ -14585,7 +14587,8 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             (supra p. 186 sq.). <lb/>
             ∗∗∗∗∗∗∗ ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗ ∗∗∗ ∗∗∗∗∗∗ <lb/>
             ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗ ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗
-</p>
+</p></div>
+          <div type="textpart" subtype="book" n="2">  
           <ab>
             <title type="sub">'LIBER II</title>
           </ab>
@@ -14636,7 +14639,8 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
             Studien <sic>Illlsq</sic>.) = <sic>Ser</sic>. B VIII (supra p. 174—177). <lb/>
             x ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗ ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗<lb/>
              ∗∗∗∗∗ ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗
-</p>
+</p></div>
+          <div type="textpart" subtype="book" n="3">
           <ab>
             <title type="sub">LIBER III</title>
           </ab>
@@ -14679,7 +14683,7 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
              
 <pb n="195"/>
             
-</p>
+</p></div>
         </div>
     
 
@@ -14756,8 +14760,8 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 <pb n="197"/>
             
         
-</div>
-        <div type="textpart" subtype="work">
+</div></div></div>
+        <div type="textpart" subtype="work" n="stoa0149b.stoa005">
           <head>
             <title type="main">SANCTI HILARII LIBER AD CONSTANTIUM IMPERATOREM, QVEM ET CONSTANTINOPOLI IPSE TRADIDIT. </title>
           </head>
@@ -15222,8 +15226,6 @@ sed imperium sine initio et fine saluatoris esse conscripsit. Asclepas etiam con
 <pb n="207"/>
             
 
-</div>
-</div>
 </div>
 </div>    
 </div>
