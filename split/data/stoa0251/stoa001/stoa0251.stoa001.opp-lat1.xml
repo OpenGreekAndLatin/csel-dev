@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL25_2.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Iosephus Zycha</name>
+                  <addName xml:lang="de">Joseph Zycha</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0251">Secondinus</author>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0120d">Euodius</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa031a">Contra Felicem</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa053">De Natura Boni</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0251.stoa001">Epistula Secundini ad Augustinum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa031">Contra Secundinum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0120d.stoa001">De Fide contra Manicheos</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa0">Commonitorium</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1892</date>
+              </imprint>
+              <biblScope unit="volume">25.2</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/CorpusScriptorumEcclesiasticorumLatin252/Corpus_scriptorum_ecclesiasticorum_latin_25_2#page/n9/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0251.stoa001.opp-lat1">
+<ab>
+            <title type="sub">VIIII. <sic>SECUNDINl</sic> MANICHAEI AD SANCTUM AUGUSTINUM KPISTULA. </title>
+          </ab>
+          <p>Domino merito honorabili atque laudabili et unice <sic>percojendo</sic> <lb/>
+            5 Augustino Secundinus. 
+</p>
+          <p rend="script">Habeo et ago gratias ineffabili ac sacratissimae maiestati <lb/>
+            eiusque primogenito omnium luminum regi Iesu Christo, habeo <lb/>
+            gratias et <sic>subpJei</sic> sancto refero spiritui. quod dederint praebuerintque <lb/>
+            occasionem, qua ego securus salutarem tuam egregiam <lb/>
+             sanctitatem, domine merito laudabilis et unice percolende.  <lb n="10"/>
+            nec <sic>minIm</sic>; sunt enim et ad omnia bona praestanda <lb/>
+            et ad omnia mala arcenda satis aptissimi et potentissimi, <lb/>
+            quibus tuam beneuolentiam suis defendant propugnaculis eripiantque <lb/>
+            ab illo malo, non quod nihil est aut quod factione <lb/>
+             passioneque mortalium gignitur, sed quod paratum est, ut  <lb n="15"/>
+            ueniat. uae autem illi, qui se eidem praebuerit occasionem. <lb/>
+            nam dignus es, qui ab iisdem talia munera consequaris iidemque <lb/>
+            ueritatis tuae nutritores efficiantur, uere lucerna, quam in <lb/>
+            cordis tui candelabro dextera posuit ueritatis, ne furis aduentu <lb/>
+             thesauri tui dilapidetur patrimonium, iubeantque sine lapsu  <lb n="10"/>
+            illam manere domum, quam tu non super erroris harenam, <lb/>
+            sed super scientiae lapidem conlocasti, illumque a nobis repellant <lb/>
+            atrocem spiritum, qui hominibus timorem inmittit et <lb/>
+            perfidiam, <sic>tit</sic> animas auertat ab angusto tramite saluatoris:
+
+<note rend="script" type="footnote"> 2 INCIPIT EPISTVLA SECVNDHNI MANICHAEI ad Bdb <hi rend="italic">august fol</hi>. <lb/>
+            28* <hi rend="italic">C</hi> 4 <hi rend="italic">pro</hi> domino merito <hi rend="italic">habet</hi>. in <hi rend="italic">b</hi> Secundinus domino-Secundinus <lb/>
+            <hi rend="italic"><foreign xml:lang="grc">ϕ</foreign>n. Maur</hi>. adque <hi rend="italic">C unicę C</hi> 5 Secundinus <hi rend="italic">om. b</hi> 6 sacra-. <lb/>
+            tissime <hi rend="italic">C</hi> 7 primogenito* (m <hi rend="italic">er. et</hi> u <hi rend="italic">in</hi> o <hi rend="italic">mut.) C</hi> 8 suplex <hi rend="italic">C</hi> <lb/>
+            dederunt prabueruntque <hi rend="italic">b</hi> 9 occa-Rionem (n <hi rend="italic">er.) C</hi> 11 ne* (c <hi rend="italic">er.) C</hi> <lb/>
+            si∗nt (i <hi rend="italic">ex</hi> u) <hi rend="italic">C</hi> et <hi rend="italic">om. b</hi> preatanda <hi rend="italic">C</hi> 12 et potentisaimi om. <hi rend="italic">b</hi> <lb/>
+            13 quibus] quique <hi rend="italic">b</hi> boni uolentiam <hi rend="italic">C</hi> eripiantque (que 8. <hi rend="italic">I</hi>. a <lb/>
+            <hi rend="italic">m. 1) C</hi> 14 aut] ac ut <hi rend="italic">b</hi> 16 uę <hi rend="italic">C</hi> prebucrit <hi rend="italic">C</hi> occasione <hi rend="italic">C</hi> <lb/>
+            18 tuarum et <hi rend="italic">Cb</hi> 19 aduen (tu <hi rend="italic">euan.) C 20</hi> lapidetur <hi rend="italic">C</hi> 24 augusto <hi rend="italic">Cb</hi> </note> <lb/>
+             
+<pb n="894"/>
+            cuius omnis inpetus per illos principes funditur, contra quos <lb/>
+            <sic>Ie</sic> apostolus in Ephesiorum epistula certamen subisse fatetur. <lb/>
+            dicit enim se non contra carnem et sanguinem habere <lb/>
+            certamen, sed aduersus principes et potestates, aduersus <lb/>
+            spiritalia nequitiae, quae sunt in caelestibus.  <lb n="5"/>
+            et <choice><sic>renera</sic><corr>reuera</corr></choice> . quis enim contra arma habeat, et non contra <lb/>
+            armatum aduersus illum, qui mouetur? ut enim hominum <lb/>
+            corpora arma peccati sunt, ita <choice><sic>salntaria</sic><corr>salutaria</corr></choice> praecepta arma <lb/>
+            iustitiae. hoc Paulus, hoc ipse testatur Manichaeus. 
+</p>
+          <p>Non ergo armorum pugna est, sed spirituum, qui iisdem  <lb n="10"/>
+            utuntur; pugnant autem <choice><sic>animaium</sic><corr>animarum</corr></choice> gratia. horum in medio <lb/>
+            posita est anima, cui a principio natura sua dedit uictoriam. <lb/>
+            haec si una cum spiritu uirtutum fecerit, habebit cum eo <lb/>
+            uitam perpetuam illudque possidebit regnum, ad quod dominus <lb/>
+            noster inuitat; si uero ab spiritu uitiorum incipiat trahi et  <lb n="15"/>
+            consentiat ac post consensum paenitudinem gerat, habebit <lb/>
+            harum sordium indulgentiae fontem. carnis enim commixtione <lb/>
+            ducitur, non propria uoluntate. at si cum se ipsam cognouerit, <lb/>
+            consentiat malo et non se <sic>annet</sic> contra inimicum, uoluntate <lb/>
+            sua peccauit. quam si iterum pudeat errasse, paratum inueniet  <lb n="10"/>
+            <choice><sic>misericordianim</sic><corr>misericordiarum</corr></choice> auctorem. non enim punitur, quia peccauit, <lb/>
+            sed quia de peccato non doluit. at si cum eodem peccato <lb/>
+            sine uenia recedat, tunc excludetur, tunc uirgini stultae conparabitur, <lb/>
+            tunc heres erit sinistrae manus, tunc a domino <lb/>
+            pelletur ex conuiuio nuptiarum nigrarum causa uestium, ubi  <lb n="16"/>
+            fletus erit et stridor dentium, ibitque cum diabolo ad ignem <lb/>
+            originis ipsius: quem tua mira prudentia aut ex archangelo
+
+<note type="footnote"> 3 Ephea. 6, 12 9 cf. Rom. 6, 13 </note>
+
+<note type="footnote"> 1 omnes <hi rend="italic">b</hi> funduntur <hi rend="italic">b</hi> 2 certame <hi rend="italic">C</hi> subire <hi rend="italic">b</hi> 4 ceztamen <lb/>
+            <hi rend="italic">qln. C</hi> aduersus (ad s. <hi rend="italic">I,</hi> a m. 1) <hi rend="italic">C</hi> 5 que <hi rend="italic">C</hi> celestibus <hi rend="italic">C</hi> <lb/>
+            6 et non] et nisi <hi rend="italic">b</hi> nisi <hi rend="italic">Mawr</hi>. 8 precepta <hi rend="italic">C</hi> 9 manicheut <hi rend="italic">C</hi> 10 quisdem <lb/>
+            <hi rend="italic">C</hi> quibus <hi rend="italic">b</hi> 12 cui. (m <hi rend="italic">eras.) C</hi> 18 hec <hi rend="italic">C</hi> nirtntem <hi rend="italic">b</hi> <lb/>
+            16 consentum <hi rend="italic">C</hi> penitudinem <hi rend="italic">C</hi> 17 arum <hi rend="italic">C</hi> snrdium <hi rend="italic">C</hi> commixtionem <lb/>
+            <hi rend="italic">C</hi> 22 dc (8. <hi rend="italic">1. m. 2 uid.) C</hi> 23 <hi rend="italic">\'tunç C</hi> uirgines <hi rend="italic">C</hi> <lb/>
+            atulte <hi rend="italic">C</hi> 24 ęręs ęrit <hi rend="italic">C</hi> sinistre <hi rend="italic">C</hi> a] ad <hi rend="italic">C</hi> 25 comniuio <hi rend="italic">C</hi> <lb/>
+            hnbi <hi rend="italic">C</hi> 26 ibique <hi rend="italic">Cb</hi> diabulo <hi rend="italic">C</hi> </note> <lb/>
+             
+<pb n="895"/>
+            factum memorat aut nihil esse fatetur. cur igitur <choice><sic>rignabunt</sic><corr>regnabunt</corr></choice> <lb/>
+            iusti? cur apostoli et martyres coronabuntur? totum propterea, <lb/>
+            quia uicerunt nihil? o quantum frustatur uincentis potentia, <lb/>
+            cum aduersarius nullius uirtutis esse praedicatur! muta, <lb/>
+            a quaeso, sententiam, depone punicae gentis perfidiam et recessionem <lb/>
+            tuam ad ueritatem, quae per timorem facta est, conuerte, <lb/>
+            noli his mendaciis excusare. 
+</p>
+          <p>Legit enim aliquanta exile meum et qualecumque Romani <lb/>
+            hominis ingenium reuerendae tuae dignationis scripta, in <sic n="poss">quihus</sic> <lb/>
+             sic <choice><sic>irasceriB</sic><corr>irasceris</corr></choice> ueritati ut philosophiae <choice><sic>Hortenaius</sic><corr>Hortensius</corr></choice>. haec  <lb n="10"/>
+            itaque cum suspenso animo agilique oculo iterum iterumque <lb/>
+            repetissem, . summum inueni ubique oratorem et deum paene <lb/>
+            totius eloquentiae, nusquam uero conperi <choice><sic>cbristianum</sic><corr>Christianum</corr></choice>, et <lb/>
+            armatum quidem contra omnia, adfirmantem uero nihil, cum <lb/>
+             te magis scientia peritum debueris ostendere, non sermone.  <lb n="15"/>
+            illud uero tacere non possum tuae patientissimae <choice><sic>sanetitati</sic><corr>sanctitati</corr></choice>; <lb/>
+            uisus enim mihi es — et pro certo sic est - et numquam. <lb/>
+            fuisse Manichaeum nec eius te potuisse arcana incognita <lb/>
+            secreti cognoscere atque sub Manichaei nomine persequi te <lb/>
+            to Hannibalem atque Mithridatem. ego namque fateor non tali <lb/>
+            diligentia nec tanta industria Anicianae domus micare marmora, <lb/>
+            quanta tua scripta perlucent eloquentia. hanc si uoluisses <lb/>
+            ueritate concordare, magnum utique nobis extitisset ornamentum. <lb/>
+            noli, rogo, contra tuam uenire naturam, noli esse erroris <lb/>
+            M lances, qua latus percutitur saluatoris. uides enim illum et <lb/>
+            in omni mundo et in omni anima esse crucifixum, quae anima
+
+<note type="footnote"> 1 (et 2) quur <hi rend="italic">C</hi> ergo <hi rend="italic">Maur</hi>. regnabant <hi rend="italic">C</hi> 3 frustratur <hi rend="italic">b Maw</hi>. <lb/>
+            4 aduersariis <hi rend="italic">C</hi> predicatur <hi rend="italic">C</hi> õ punice <hi rend="italic">(J</hi> 6 que <hi rend="italic">C</hi> 7 mendatiia <lb/>
+            <hi rend="italic">C</hi> te excuaare <hi rend="italic">b Maur</hi>. 9 tue <hi rend="italic">C</hi> 10 <hi rend="italic">philopblophię C</hi> <lb/>
+            11 iterum <hi rend="italic">om. C</hi> 18$loquentiae C nusqua (e in a corr. m. <hi rend="italic">1) C</hi> <lb/>
+            uere <hi rend="italic">C</hi> 14 omnium <hi rend="italic">C</hi> et firmantem <hi rend="italic">C</hi> 17 euet <hi rend="italic">C</hi> 18 maaicheum <lb/>
+            <hi rend="italic">C</hi> archana <hi rend="italic">C</hi> 19 cognuscere <hi rend="italic">C</hi> persequi te] persequente <hi rend="italic">C</hi> <lb/>
+            20 Hannibalem] humilem <hi rend="italic">b</hi> mitridatem <hi rend="italic">C</hi> 21 anitian$C 22 perjucente<lb/>
+             loquentia <hi rend="italic">C</hi> uoluisse <hi rend="italic">C</hi> 28 uterque <hi rend="italic">C</hi> nobis <hi rend="italic">C</hi> <lb/>
+            ex<foreign xml:lang="grc">τι</foreign>tisset (ti m. 1 superscr.) <hi rend="italic">C 24 pr</hi>. nolo <hi rend="italic">C</hi> 26 mundo (al. nido) <hi rend="italic">b</hi> <lb/>
+            que <hi rend="italic">C</hi> </note>
+
+<note type="footnote"> XXV. Aug. aect. 8 (para 2). </note>
+
+<note type="footnote"> 57 </note> <lb/>
+             
+<pb n="896"/>
+            <sic>numququn</sic> habuit suscensendi naturam. et tu igitur. qui ex <lb/>
+            ipsa es, dimitte, quaeso, iam uanas incusationes, superfluas <lb/>
+            relinque controuersias. tanto tempore cum parente tuo in <lb/>
+            medio tenebrarum constitutus numquam subsannasti: in medium <lb/>
+            solis ac lunae inuentus es accusator. quis igitur tibi  <lb n="5"/>
+            patronus erit ante iustum tribunal iudicis, cum et de sermone <lb/>
+            et de opere coeperis te teste conuinci ? Persa, quem incusasti, <lb/>
+            non aderit. hoc excepto quis te <choice><sic>fleatem</sic><corr>flentem</corr></choice> consolabitur ? quis <lb/>
+            Punicum saluabit? an emendatum in euangelio est, quod spatiosa <lb/>
+            uia non deducat in interitum ? an falsum in Paulo est,  <lb n="10"/>
+            quod <choice><sic>dperum</sic><corr>operum</corr></choice> singuli suorum non erunt reddituri rationem? <lb/>
+            o utinam a Manichaeo recedens academiam petisses aut Romanorum <lb/>
+            bella, qui omnia superarunt, interpretatus fuisses! quam <lb/>
+            magna ibi, quam egregia conperisses, et non castus homo utique <lb/>
+            totius pudicitiae et paupertatis isses ad Iudaeorum gentes  <lb n="16"/>
+            barbaras moribus. cum praeceptis inseris fabulas et adducis <lb/>
+            <choice n="0.00"><sic n="1">uiorem</sic><corr n="825">uxorem</corr></choice> fornicariam et: facies filios fornicariae et: <lb/>
+            fornicando fornicabitur terra a domino, et: non lauabis <lb/>
+            manus post coitum coniugis, et: mitte m.anus <lb/>
+            super femur meum, et: macta et manduca, et: crescite  <lb n="10"/>
+            et multiplicamini. an tibi leones in lacu placuerunt, quia <lb/>
+            caueae non erant ? an tibi sterilitas Sarae doluit cuius pudoris <lb/>
+            distractor maritus sororem fingens extiterat? sed forte <lb/>
+            post Daretis et Entelli certamen Iacob et ipsius pammachiam
+
+<note type="footnote"> 10 cf. Matth 7, 18 11 cf. Rora. 14, 12 17 Osee 1, 2 19 Geu. <lb/>
+            24, 2; 47, 29 20 Act. 10, 13 Gen. 1. 28 21 cf. Dan. 6, 16 <lb/>
+            23 cf. Gen. 12, 13; 20, 2 .24 Verg. Aen. 5, 362 sqq. </note>
+
+<note type="footnote"> 1 numquam <hi rend="italic">[in mg</hi>. al. numquid) <hi rend="italic">b</hi> susc. nat ] finem sastinendi <hi rend="italic">b</hi> (al. <lb/>
+            causam succensendi) 2 qugso <hi rend="italic">C</hi> 4 constitutus (s <hi rend="italic">ante</hi> ti m. <hi rend="italic">2 adsuta) C</hi> <lb/>
+            numquam <hi rend="italic">(in mg</hi>. al. numquid) <hi rend="italic">b</hi> 5 lune <hi rend="italic">C</hi> accusatur <hi rend="italic">C</hi> 6 patrones <lb/>
+            <hi rend="italic">(corr. m. I) C</hi> sermo (in <hi rend="italic">fine lin.) C</hi> 7 deo pere <hi rend="italic">C</hi> cęperit <hi rend="italic">C</hi> <lb/>
+            8 adherit <hi rend="italic">C</hi> 9 punitum (t <hi rend="italic">an</hi> c <hi rend="italic">sit. dub.) C</hi> quod (d <hi rend="italic">sup</hi>. s m. I) <hi rend="italic">C</hi> <lb/>
+            10 deducit <hi rend="italic">b</hi> 11 opero <hi rend="italic">C</hi> 12 adchademiam <hi rend="italic">C</hi> 14 ęgręgiam <hi rend="italic">C</hi> <lb/>
+            uir que <hi rend="italic">C</hi> 15 prudentie <hi rend="italic">C</hi> iudeorum <hi rend="italic">C</hi> gentis barbare cum <lb/>
+            <hi rend="italic">mor. C</hi> 10 <hi rend="italic">Tum C</hi> preeeptis <hi rend="italic">C</hi> inseris <hi rend="italic">om. C</hi> 20 sub <hi rend="italic">C</hi> 21 laeones <hi rend="italic">C</hi> <lb/>
+            22 cane ęnon<hi rend="italic">C</hi> sterelitas <hi rend="italic">C</hi> sarre <hi rend="italic">C</hi> 23 distractur <hi rend="italic">C</hi> maritos <hi rend="italic">C</hi> <lb/>
+            fratrem C fmg*ens (s <hi rend="italic">eras.) C</hi> 24 darethis <hi rend="italic">C</hi> p.amma quam (1 <hi rend="italic">eraa) C</hi> </note> <lb/>
+             
+<pb n="897"/>
+            exspectare uolueras ? an numerum Amorrhaeorum, an pancarpum <lb/>
+            in arca Noe conspicere disposueras ? noui ego haec <lb/>
+            te semper odio habuisse, <choice n="0.02"><sic n="12">noni</sic><corr n="585">noui</corr></choice> ego te semper magna amauisse, <lb/>
+            quae terras desererent, quae caelos peterent. quae corpora <lb/>
+             <sic>mortificarent</sic>, quae animas <choice><sic>niuificarent</sic><corr>uiuificarent</corr></choice>. quis igitur ille est,  <lb n="5"/>
+            qui te repente mutauit? 
+</p>
+          <p>Quamquam haec tuae <choice><sic>sanciitati</sic><corr>sanctitati</corr></choice> dicere nimis absurdum sit. <lb/>
+            ipse enim non ignoras, quam pessimus sit quamque malignus <lb/>
+            quique etiam tanta calliditate aduersus fideles et summos <lb/>
+             uiros militat, ut et Petrum coegerit sub una nocte tertio <choice><sic>domiuum</sic><corr>dominum</corr></choice>  <lb n="10"/>
+            negare, et eidem resurgenti Thomam non permiserit <lb/>
+            credere: quae tamen uulnera curata sunt indulgentiae medicina. <lb/>
+            illud uero quam audacter molitus sit, ut domino optimum <lb/>
+            semen <choice><sic>geminanti</sic><corr>seminanti</corr></choice> ille zizania miscuerit et tanto pastori <sic n="poss">Iscariotem</sic> <lb/>
+             rapuerit; et ut ad ultimum crucis subplicium ueniretur.  <lb n="15"/>
+            in perniciem ipsius <choice><sic>scribus</sic><corr>scribas</corr></choice> pharisaeosque accenderit, ut <lb/>
+            Barnabam dimitti clamarent et Iesum crucifigi. euasimus <lb/>
+            igitur, quia spiritalem secuti sumus saluatorem. nam illius <lb/>
+            tantum erupit audacia, ut si noster dominus carnalis foret, <lb/>
+            w omnis nostra fuisset spes amputata. et tamen ne ipso quidem <lb/>
+            crucis obprobrio potuit satiari: quin immo insaniens hinc <lb/>
+            coegit spinis coronari, illinc aceto putari; hinc militum lancea <lb/>
+            percuti, illinc sinistri latronis ore blasphemari. at postea tantum
+
+<note type="footnote"> 1 cf. Gen. 32, 24 sq. cf. Ios. 10, 5 2 cf. Gon. 7 23 cf. Matth. <lb/>
+            26 . 27; Luc. <hi rend="italic">22</hi> . 23; loh. 18- 20 </note>
+
+<note type="footnote"> 1 nomero <hi rend="italic">(corr. m. 1) C</hi> et amorreum <hi rend="italic">C</hi> amorreorum <hi rend="italic">b</hi> an <hi rend="italic">om. C</hi> <lb/>
+            pan carpam (n <hi rend="italic">ex</hi> m <hi rend="italic">corr. m. 1) C</hi> 2 inllarcha noę <hi rend="italic">C</hi> 3 amadisae <hi rend="italic">C</hi> <lb/>
+            4 que <hi rend="italic">C</hi> desederant C deverant <hi rend="italic">b</hi> que <hi rend="italic">C</hi> celis <hi rend="italic">C</hi> que <hi rend="italic">C</hi> corpore <lb/>
+            <hi rend="italic">C</hi> 5 que <hi rend="italic">C</hi> 7 sfitare <hi rend="italic">C</hi> 8 ipe (s <hi rend="italic">euan.) C</hi> ignores (es <hi rend="italic">in ras.) C</hi> <lb/>
+            9 caliditate <hi rend="italic">C</hi> fidelis <hi rend="italic">C</hi> summus <hi rend="italic">C</hi> 10 coęgerit <hi rend="italic">C</hi> uno <hi rend="italic">C</hi> <lb/>
+            ter <hi rend="italic">b</hi> 11 sesurgenti <hi rend="italic">C</hi> tomam <hi rend="italic">C</hi> premiserit tpm <hi rend="italic">C</hi> 12 que <hi rend="italic">C</hi> <lb/>
+            meditina (a <hi rend="italic">ex</hi> % m. <hi rend="italic">1 corr.) C</hi> 18 ob audacter <hi rend="italic">C</hi> obtimum <hi rend="italic">C</hi> <lb/>
+            14 zizaniae <hi rend="italic">C</hi> scariotsem <hi rend="italic">C</hi> scariothen <hi rend="italic">b</hi> 16 phariseosque <hi rend="italic">C</hi> 17 di- <lb/>
+            \' mittere <hi rend="italic">b</hi> et iesum <hi rend="italic">ont. C</hi> crucifigerent <hi rend="italic">b</hi> et uasimus <hi rend="italic">C</hi> 18 qua C <lb/>
+            19 e*rupit (r <hi rend="italic">eras.) C</hi> audatia <hi rend="italic">C</hi> 20 nostręai <hi rend="italic">C</hi> fuisse <hi rend="italic">C</hi> <lb/>
+            21 obpprio <hi rend="italic">C</hi> 22 coęgit C egit <hi rend="italic">b</hi> acęto <hi rend="italic">C</hi> potare <hi rend="italic">C</hi> 23 ac <hi rend="italic">Cb</hi> <lb/>
+            postea] post omnia in C </note>
+
+<note type="footnote"> 57* </note> <lb/>
+             
+<pb n="898"/>
+            eius creuit iniquitas, ut et ipso et apostolis eius illuc ascendentibus <lb/>
+            diuersas conponeret quaestiones, sub eorum, quod <lb/>
+            peius eat, nomine superstitiosis omnibus, id est catholici . <lb/>
+            uocabuli diuidens dignitatem. omitto namque, quatenus unumquemque <lb/>
+            discipulorum aduersus magistros armauerit, quatenus  <lb n="6"/>
+            Hymenaeum, quatenus Alexandrum deceperit, quae apud Antiochiam, <lb/>
+            quae apud Smyrnam, quae apud Iconium commiserit: <lb/>
+            illa nunc addo, quae praesens actitat multitudo, a qua tantum <lb/>
+            uirtus procul <sic>eet</sic>, quantum populo clausa est nec enim uirtus <lb/>
+            est, ad quam turba peruenit et turba quam maxime <sic n="poss">feminaram</sic>.  <lb n="10"/>
+            sed uereor clandestina eorum publicare, <sic>Be</sic> ab aliis <lb/>
+            ordita crimina geminentur. quamquam sapientium est utrumque <lb/>
+            ferre, utrumque ridere et ad illud tantum niti, quod beatitudinem <lb/>
+            conciliat, quod parturit uitam. 
+</p>
+          <p>Et tamen iterum atque iterum subplex deprecor, oro, etiam  <lb n="16"/>
+            atque etiam obsecro, primum quidem ueniam largiri digneris, <lb/>
+            si quo sermone fuerit tuum titillatum aureum pectus: ardore <lb/>
+            enim hoc nimio feci, quia nolo te a nostro grege diuelli, a <lb/>
+            quo etiam ego ipse aberrans paene perieram, nisi cito me de <lb/>
+            iniqua communionis tulissem natura. deinde, ut concilies te » <lb/>
+            illi, quae in te nihil deliquit: redeas ad illam, quae tibi, si <lb/>
+            redieris, propter culpam non erit suscensura. nec enim septies <lb/>
+            i
+
+<note type="footnote"> 6 cf. I Tlm. 1, 80. </note>
+
+<note type="footnote"> 2 questionis <hi rend="italic">C</hi> 3 nominę C subpressionis <hi rend="italic">C</hi> idem <hi rend="italic">C</hi> catolice <hi rend="italic">C</hi> <lb/>
+            4 (6.6) quatęnus <hi rend="italic">C</hi> 5 discipolorum <hi rend="italic">C</hi> 6 ermogenem <hi rend="italic">C</hi> hjmineum <hi rend="italic">b</hi> <lb/>
+            (itł <hi rend="italic">mg</hi>. al. hermogenem) que Caput <hi rend="italic">C</hi> anteoohiam <hi rend="italic">C</hi> 7 qui <hi rend="italic">C</hi> <lb/>
+            aput <hi rend="italic">C</hi> zmyrnam <hi rend="italic">C</hi> qui <hi rend="italic">C</hi> nam quę <hi rend="italic">b</hi> aput <hi rend="italic">C</hi> ionium <hi rend="italic">b</hi> <lb/>
+            commisserit C 8 apdo <hi rend="italic">C</hi> que <hi rend="italic">C</hi> presens <hi rend="italic">C</hi> 10 maximf C <lb/>
+            evl <lb/>
+            11 uereos <hi rend="italic">C</hi> clam distina <hi rend="italic">C</hi> 12 crimina que <hi rend="italic">C</hi> sapium (enci m. <lb/>
+            <hi rend="italic">1 euperscr.) C</hi> 13 reddere <hi rend="italic">C</hi> 15 adque <hi rend="italic">C</hi> or*o (r <hi rend="italic">uidetur er.) C</hi> <lb/>
+            16 atque etiam] adque <hi rend="italic">C</hi> largire <hi rend="italic">C</hi> 17 titilatam <hi rend="italic">C</hi> 18 nimio <hi rend="italic">(s. I</hi>. <lb/>
+            m. <hi rend="italic">1) C</hi> gregi <hi rend="italic">C</hi> a quo] ac <hi rend="italic">C</hi> 19 pęuę <hi rend="italic">C</hi> perirem <hi rend="italic">b</hi> <lb/>
+            deniqua <hi rend="italic">C</hi> 20 naturam <hi rend="italic">C</hi> 21 illi* (c <hi rend="italic">eras.) C</hi> qui <hi rend="italic">C</hi> delinquit <hi rend="italic">C</hi> <lb/>
+            reddeas <hi rend="italic">C</hi> que <hi rend="italic">C</hi> si redieris] et in dierum <hi rend="italic">b Maur</hi> 22 <hi rend="italic">post</hi> eris <lb/>
+            <hi rend="italic">4 litterae eras. C;</hi> quare propt scripsi <hi rend="italic">quod et b et Maw. om</hi>. Buscen- <lb/>
+            . gura<hi rend="italic">C</hi> na (sic ubique) <hi rend="italic">C</hi> septiens <hi rend="italic">C</hi> </note> <lb/>
+             
+<pb n="899"/>
+            tantum nouit ignoscere: quin immo habet et ligandi et soluendi <lb/>
+            potestatem. noli te fingere palpare. qui dudum. uidisti, <lb/>
+            noli uelle discere, qui potes docere. dimitte hominum gloriam, <lb/>
+            si uis <choice><sic>Cbristo</sic><corr>Christo</corr></choice> placere. temporibus nostris renoua Paulum, <lb/>
+             qui cum legis Iudaicae doctor esset, consecutus a domino  <lb n="5"/>
+            apostolatus gratiam, quae putabat commoda, <choice><sic>eontempsit</sic><corr>contempsit</corr></choice> ut <lb/>
+            stercora, ut Christum lucrifaceret. subueni animae tuae tam <lb/>
+            lucidae, quia ignoras, quali sit fur hora uenturus. noli ornare <lb/>
+            mortuos, quia uiuorum es ornamentum. noli comes esse lati <lb/>
+             itineris, quia Amorrhaeum expectat, sed ad artam festina  <lb n="10"/>
+            uiam, ut <choice><sic>eonsequaris</sic><corr>consequaris</corr></choice> uitam aeternam. desine, quaeso, utero <lb/>
+            claudere Christum, ne ipse rursus utero concludaris, desine <lb/>
+            <choice><sic>dufcs</sic><corr>duas</corr></choice> naturas facere unam, quia adpropinquat domini iudicium. <lb/>
+            uae, qui accipient, qui, quod dulce est, in amaritudinem <lb/>
+            15 transferunt! 
+</p>
+          <p rend="script">Sed si dubitas de principio, si ambigis de pugnae exordio, <lb/>
+            . poterit diurno tractatu pacificoque conloquio reddi ratio. illud <lb/>
+            tamen notum facio tuae sagacissimae bonitati, quia sunt quaedam <lb/>
+            res, quae exponi sic non possunt, ut <choice><sic>intellegantUr</sic><corr>intellegantur</corr></choice>; excedit <lb/>
+             enim diuina ratio mortalium pectora. ut puta hoc ipsum,  <lb n="20"/>
+            quomodo sint duae naturae aut quare pugnauerit, qui nihil <lb/>
+            poterat pati, necnon etiam de saeculo nouo quod idem memorat, <lb/>
+            quia praecisis maximae illius terrae motibus hoc aedificetur. <lb/>
+            quis autem admittat inter diuina praecidi, scilicet nisi
+
+<note type="footnote"> 7 cf. Phil. 8, 8 </note>
+
+<note type="footnote"> 1 soluandi <hi rend="italic">C</hi> 2 nolite <hi rend="italic">C</hi> 8 noli/// (ore _<hi rend="italic">eras.) C</hi> potest <hi rend="italic">C</hi> <lb/>
+            ominem <hi rend="italic">C</hi> 5 doctu <hi rend="italic">C</hi> 6 granamqae <hi rend="italic">C</hi> quomoda <hi rend="italic">C</hi> contemsit <hi rend="italic">C</hi> <lb/>
+            8 lncide <hi rend="italic">C</hi> quam ignorans qualis C 9 mortuos (OB ez ni m. 1 corr.) C <lb/>
+            noli/// (te eras.) <hi rend="italic">C</hi> comis <hi rend="italic">C</hi> 10 qua <hi rend="italic">C</hi> amorreum <hi rend="italic">Cb</hi> ar ram <lb/>
+            festinã <hi rend="italic">C</hi> 11 nift ut cum sequaris uitam fternam <hi rend="italic">C</hi> queso <hi rend="italic">C</hi> <lb/>
+            18 nnaquam <hi rend="italic">C</hi> adpropinquant domino <hi rend="italic">C</hi> 14 ue <hi rend="italic">C</hi> exeipient <hi rend="italic">C</hi> <lb/>
+            quicque <hi rend="italic">C</hi> 16 printipio <hi rend="italic">C</hi> pugne <hi rend="italic">C</hi> 17 patificoque <hi rend="italic">C</hi> cnmloquio <hi rend="italic">C</hi> <lb/>
+            redde <hi rend="italic">C</hi> 18 fatio <hi rend="italic">C</hi> sagratissimf <hi rend="italic">C</hi> quidem <hi rend="italic">C</hi> 19 que <hi rend="italic">C</hi> intelleguntur <lb/>
+            <hi rend="italic">C</hi> 21 quomodo] cum <hi rend="italic">b</hi> do % <hi rend="italic">C</hi> quare (a ex § corr.) <hi rend="italic">C</hi> <lb/>
+            22 seculao none <hi rend="italic">C</hi> 28 qui <hi rend="italic">C</hi> precisis <hi rend="italic">C</hi> prfteritis <hi rend="italic">b</hi> 24 amittit <hi rend="italic">C</hi> <lb/>
+            precidi <hi rend="italic">C</hi> sed nisi <hi rend="italic">C</hi> </note> <lb/>
+             
+<pb n="900"/>
+            figuram facias <choice><sic>interpretautis</sic><corr>interpretantis</corr></choice> ad auditorem, quia ab hoc uerba <lb/>
+            praeciduntur et in illo conponuntur ? et quamuis tractator <lb/>
+            multa dixerit, quae teneat apud se auditor, tamen a tractatore <lb/>
+            non recesserunt: nisi taliter et de illo sentias saeculo, et id, <lb/>
+            quod dicitur stultum satis et ineptum. ita quoque et de pugna, s <lb/>
+            quod nisi primo conicias. quia deus totus iustitia est, ultimum <lb/>
+            autem facinus est inuadere aliena, ad hoc uero cum uenerit <lb/>
+            contraria natura. ille quidem nihil poterat pati, quia praescius <lb/>
+            erat, uisus\'fuisset facinori consensisse nisi pugnasset: et ideo <lb/>
+            magnam obposuit uenienti uirtutem, uti iustitia ipsius nulla  <lb n="10"/>
+            pollueretur sacrilegii consensione. ita enim ah eo iustus finitus <lb/>
+            est, ut nec ipse peccet aliquando nec aliquando consentiat\' <lb/>
+            peccatori. illud etiam quia deus in regno suo potens erat in <lb/>
+            natura, ut omnipotens et iudex. haec si quidem ita dicta sunt, <lb/>
+            . non ut ille factus est, sed ut adsequi ego non ualui. adhuc  <lb n="15"/>
+            non satis faciunt perfidiae. nec caecis sol exortus est nec <lb/>
+            surdis uox audita est nec dapes mortuis praeparatae. quod <lb/>
+            autem loca naturis adsignari non possunt. hoc est, quod condicio <lb/>
+            humana inenarrabile uocat atque <choice><sic>ineilabile</sic><corr>ineffabile</corr></choice>. saluator autem, <lb/>
+            cui totum facile est, duo haec dextrum uocat ac laeuum, intus  <lb n="10"/>
+            ac foris, uenite ac recedite. tu autem conuersum facis et <lb/>
+            pedem ponis, ut est orbis, uita, salus, lumen, lex. ordo, potestas, <lb/>
+            si uocalem dicis et mutam, longam uocas breuem.
+
+<note type="footnote"> 21 Matth. 25 </note>
+
+<note rend="script" type="footnote"> -1 phignra <hi rend="italic">C</hi> fatias temperantes <hi rend="italic">C</hi> ad <hi rend="italic">(ex</hi> aut m. <hi rend="italic">1) C</hi> 2 preciduntur <lb/>
+            <hi rend="italic">C</hi> tractatai <hi rend="italic">C</hi> 3 apnt <hi rend="italic">C</hi> auditur <hi rend="italic">C</hi> a* (d <hi rend="italic">eras.) C<lb/>
+             4 sententias C seculo C 5 in§ptum C 7 fatinus C 8 pati (s. l,</hi> <lb/>
+            w. 1) <hi rend="italic">C</hi> pretius <hi rend="italic">C</hi> 9 ui usfuisset <hi rend="italic">C</hi> fatinori <hi rend="italic">C</hi> 10 magna <hi rend="italic">C</hi> ut <lb/>
+            v <lb/>
+            nenti uir <hi rend="italic">C</hi> ut <hi rend="italic">C</hi> iustitift <hi rend="italic">C</hi> iustitie <hi rend="italic">b</hi> nolla <hi rend="italic">C</hi> 11 pulueretur <hi rend="italic">C</hi> <lb/>
+            «agralegii <hi rend="italic">C</hi> iustus <hi rend="italic">b (in mg</hi>. al. munitus) 18 dens] dicitur <hi rend="italic">b</hi> <lb/>
+            suo regno <hi rend="italic">b</hi> 14 et] esset <hi rend="italic">b</hi> ita <hi rend="italic">om. C</hi> 15 ut non <hi rend="italic">b</hi> no C1 <lb/>
+            adsequiego (i m. 1 superscr.) <hi rend="italic">C</hi> 16 non <hi rend="italic">om. C</hi> cecis <hi rend="italic">C</hi> nec— <lb/>
+            Wox (in ras.) <hi rend="italic">C</hi> 17 sordus <hi rend="italic">C</hi> dabes C mortuus <hi rend="italic">C</hi> preparate <hi rend="italic">C</hi> <lb/>
+            f9 umana <hi rend="italic">C</hi> enar/rabile (m. 2 add. uid.) <hi rend="italic">C</hi> adque <hi rend="italic">C</hi> saluatur <hi rend="italic">C<lb/>
+             20 ac laeuum] ęlege unum C 21 ac] canite C om. b 22 orbes</hi> (i m. <lb/>
+            20 nc laeuum] e<foreign xml:lang="grc">ͅ</foreign>ge unumC21ac]csniteConr.b2$orbes(i <lb/>
+            1 superscr.) <hi rend="italic">C</hi> salis <hi rend="italic">C</hi> </note> <lb/>
+             
+<pb n="901"/>
+            quae naturae haec non sonant, duo pro certo significant et <lb/>
+            ab inuicem separata. 
+</p>
+          <p rend="script">Sed tuae admirandae sublimique prudentiae cum talia a <lb/>
+            me exponuntur, tale est, quale si Iordanis oceano aquam <lb/>
+             commodet, aut soli lucerna lucem, aut populus episcopo  <lb n="5"/>
+            sanctitatem. quam ob rem ferre oportet quicquid haec epistula <lb/>
+            continet. nam et ego nisi tuam diuinam nossem patientiam, <lb/>
+            quae facile cuique condonat, numquam taliter scripsissem: <lb/>
+            quamuis cernas eximios me sensus summatim tetigisse plurimumque <lb/>
+             cauisse, ne tibi multus uiderer. quocirca haec fidem  <lb n="10"/>
+            penes tuam reppererint sanctitatem, qualiterque saluemur; <lb/>
+            alioquin milia uoluminum exinde poteris generare, domine <lb/>
+            merito laudabilis et unice percolende. uale.
+
+<note rend="script" type="footnote"> 1 que <hi rend="italic">C</hi> naturam <hi rend="italic">C</hi> signi///ficant (fi <hi rend="italic">utd. eras.) C</hi> 3 soblira <lb/>
+            (i <hi rend="italic">fin. ex</hi> e <hi rend="italic">corr.) C</hi> comtalia <hi rend="italic">C</hi> 4 talis esr (r <hi rend="italic">m. 2 add.) C</hi> quale <lb/>
+            n <lb/>
+            (e <hi rend="italic">m. 2 add.) C</hi> iordanes <hi rend="italic">C</hi> ocgano <hi rend="italic">C</hi> aquam] aliquam <hi rend="italic">C</hi> <lb/>
+            5 auso <hi rend="italic">C</hi> hauso <hi rend="italic">b</hi> liboram <hi rend="italic">Cb</hi> 6 <hi rend="italic">quę C</hi> obportet C epistola <hi rend="italic">C</hi> <lb/>
+            7 ggo <hi rend="italic">C</hi> ni <hi rend="italic">C</hi> 8 que autem facile quicquam condonatur <hi rend="italic">C</hi> scribi- <lb/>
+            <hi rend="italic">ssem C 10 Neç C uiderit C</hi> quodcircaC 11 pęnęs C repperint <lb/>
+            (nt <hi rend="italic">an</hi> m (?); t <hi rend="italic">in ras.) C</hi> 12 similia <hi rend="italic">Cb</hi> eidem <hi rend="italic">0</hi> dn6 <hi rend="italic">C</hi> <lb/>
+            13 uni <hi rend="italic">C</hi> </note> 
+<pb n="902"/>
+             
+<pb n="903"/>
+            
+</p>
+        
+</div>
+</body>
+</text>
+</TEI>

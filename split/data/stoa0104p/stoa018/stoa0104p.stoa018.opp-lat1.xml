@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL3_3.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Guilelmus Hartelius</name>
+                  <addName xml:lang="de">Wilhelm von Hartel</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1785.1">Pseudo-Cyprianus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa013">De Spectaculis</title>
+              <title>De Bono Pudicitiae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa007">De Laude Martyrii</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa001">Ad Novatianum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa010">De Rebaptismate</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa018">De Aleatoribus</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa008">De Montibus Sina et Sion</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa002">Ad Vigilium de Iudaica Incredulitate</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa020">Adversus Iudaeos</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa019 http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa015">Orationes</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa014">De Duodecim Abusivis Saeculi</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa011">De Singularitate Clericorum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa006">De Duplici Martyrio</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa009">De Pascha Computens</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa016">Epistulae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa003">Carmina</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1871</date>
+              </imprint>
+              <biblScope unit="volume">3.3</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru0swissgoog#page/n7/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0104p.stoa018.opp-lat1">
+<head>
+            <title type="main">VI. DE ALEATORIBVS. </title>
+          </head>
+         
+
+<div n="1" subtype="section" type="textpart"><p> ** magna nobis ob uniuersam fraternitatem cura est, fideles, maxime <lb/>
+            et rea perditorum omnium audacia id est aleatorum, animos M
+
+<note type="footnote">2 Luc. 3, 16. 7 I Io. 5, 8. 10 Act. 1, 5. </note>
+
+<note type="footnote"> 16 — Caecili Cypriani finiuit de rebaptismate <hi rend="italic">cod. —</hi> <lb/>
+            Incipit de aleatoribus <hi rend="italic">D,</hi> Incipit epistola Cypriani de aleatoribus <lb/>
+            (aleatores <hi rend="italic">T) QT</hi>. ~ 19 <hi rend="italic">initium</hi> huius <hi rend="italic">libri</hi> videtur <hi rend="italic">lacunosum</hi> <lb/>
+            ob] ab v uniuersa fraternitatc <hi rend="italic">QT</hi> cura eet <hi rend="italic">scripsi,</hi> curae <lb/>
+            <hi rend="italic">DQT,</hi> cura v fideles <hi rend="italic">scripsi,</hi> fidelis <hi rend="italic">DQT,</hi> successit v; <hi rend="italic">cf. p. 96,<lb/>
+             21; p. 97, 10</hi> 20 et] ex n omnium] hominum <hi rend="italic">fort</hi>. <lb/>
+            aleatorum] omnium <hi rend="italic">add. D s. I. tit</hi>. 2, quae add. v animi <hi rend="italic">Pamclius</hi> </note><lb/>
+             
+<pb n="93"/>
+            ad nequitiam t 86 in <choice><sic>lacom</sic><corr>lacum</corr></choice> mortis <sic n="poss">amergunt</sic>. et quoniam in nobis diuina <lb/>
+            et paterna pietas apostolatus ducatum contulit et <choice><sic>nicariam</sic><corr>uicariam</corr></choice> Domini <lb/>
+            sedem caelesti dignatione ordinauit et originem authentici apostolatus <lb/>
+            super quem Christus <choice><sic>fupdauit</sic><corr>fundauit</corr></choice> ecclesiam in superiore nostro portamus, <lb/>
+            accepta simul potestate <choice><sic>solnendi</sic><corr>soluendi</corr></choice> ac ligandi et curatione peccata dimittendi <lb n="5"/>
+            : <choice><sic>salntari</sic><corr>salutari</corr></choice> doctrina admonemur, ne dum delinquentibus adsidue <lb/>
+            ignoscimus, ipsi cum eis pariter torqueamur. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p rend="script">Et ideo sal terrae dicimur, ut ex nobis omnis fraternitas caelesti  <lb/>
+            sapientia saliatur. nam cum dicat: sal aut <sic>ems</sic> i infatuatum <lb/>
+            fuerit, nihilo ualebit, nisi ut proiciatur foras et conculcetur <lb n="10"/>
+            ab hominibus, hoc ueremur et timemus, ne cum in <lb/>
+            ecclesia securi quod nobis sacerdotalis dignitas a Domino tradita est <lb/>
+            neglegentiae * *, iuxta quosdam fratres inertes repperiamur, aut <lb/>
+            dum falsam communicationem damus, id quod cum honore de Dei <lb/>
+            dignatione percipimus, indignante Domino ex propria actione amittamus. <lb n="15"/>
+            dicit enim scriptura diuina: uae erit pastoribus. quod <lb/>
+            si ipsi pastores neglegentes reperti fuerint, quid respondebunt Domino <lb/>
+            pro <choice><sic>peroribus</sic><corr>pecoribus</corr></choice>, quid dicent? a pecoribus se esse uexatos? non
+
+<note type="footnote"> 9 Matth. 5, 13. 16 Ez. 34, 2. </note>
+
+<note rend="script" type="footnote"> 1 se] in M illicit ut 11 inlatu <hi rend="italic">DTQ sed t in Q corr. m. 2,</hi> <lb/>
+            inlatae <hi rend="italic">M sed</hi> tae <hi rend="italic">in ras</hi>. emergunt <hi rend="italic">DQT,</hi> mergat v in <hi rend="italic">om</hi>. v <lb/>
+            3 ordinauit <hi rend="italic">D,</hi> omauit <hi rend="italic">QT</hi> origine <hi rend="italic">QT</hi> authendicia <hi rend="italic">T,</hi> <lb/>
+            antentica <hi rend="italic">M sed</hi>. ca 8. <hi rend="italic">I</hi>. 4 christi <hi rend="italic">D</hi> et ecclesiam <hi rend="italic">D</hi> <lb/>
+            nostra <hi rend="italic">D</hi> 5 ac] et <hi rend="italic">T</hi> cnratione <hi rend="italic">T,</hi> cum ratione <hi rend="italic">DQ</hi> 6 dum <lb/>
+            <hi rend="italic">D,</hi> cum <hi rend="italic">QTv</hi> delinquent <hi rend="italic">QT</hi> 7 ipsi ... torqueamur <hi rend="italic">om. MQ1</hi> <lb/>
+            8 et ideo] ideo <hi rend="italic">Tv</hi> 9 salliatur <hi rend="italic">T</hi> infatuatum <hi rend="italic">D,</hi> fatuum <hi rend="italic">QT</hi> <lb/>
+            10 nihil Qv nt <hi rend="italic">om. MQl</hi> foris Q cumculcetur <hi rend="italic">M</hi> <lb/>
+            11 hominibus] <hi rend="italic">adnotat Q in marg.:</hi> emda n e bene ne cum <hi rend="italic">DTQ*,</hi> <lb/>
+            nec <hi rend="italic">Q1,</hi> ne <hi rend="italic">Mv</hi> 12 a domino <hi rend="italic">om. v</hi> 13 neglegentiae <hi rend="italic">DQT,</hi> <lb/>
+            negligentes <hi rend="italic">v; lucunae signum addidi</hi> 14 communicatione falsa <hi rend="italic">T</hi> <lb/>
+            in honore <hi rend="italic">T</hi> 15 percepimus v indignantes <hi rend="italic">T post</hi> dno <lb/>
+            <hi rend="italic">repetit Q</hi> tradita est <hi rend="italic">l. 12</hi> — l. 15 percepimus, <hi rend="italic">exp. m. 2; in M post</hi> <lb/>
+            dUo <hi rend="italic">3 Uneae eras. et add. in marg</hi>. nihil deest ex propria actione <hi rend="italic">MQ\',</hi> <lb/>
+            eipropriatione <hi rend="italic">T,</hi> exprobratione <hi rend="italic">DQ*,</hi> et exprobrante <hi rend="italic">coni. Pamelius,</hi> eiprobrantes <lb/>
+            v admittamus <hi rend="italic">DQT</hi> (amittamus <hi rend="italic">M)</hi> 18 pecoris <lb/>
+            <hi rend="italic">DTQ*,</hi> pecora <hi rend="italic">M</hi> quid dicent <hi rend="italic">DT,</hi> ∗∗∗ id dicent <hi rend="italic">M,</hi> quia dicent <lb/>
+            <hi rend="italic">Q sed</hi> di 8. <hi rend="italic">L,</hi> quid de domino pecora dicent b * pecoribus <hi rend="italic">Q,</hi> a <lb/>
+            pastoribus <hi rend="italic">M in ras</hi>. </note> 
+<pb n="94"/>
+            creditur illis: incredibilis res est pastorem aliquid posse pati a pecore, <lb/>
+            magis punietur propter mendacium suum. et alia scriptura dicit: <lb/>
+            rectorem te petierunt, noli extolli. esto illis quasi <lb/>
+            unus ex ipsis: curam illorum habe et sic conside. et <lb/>
+            iterum: aestimate sacerdotem esse cultorem et omnes<lb n="5"/>
+            esse apud eum delicias, granaria plena, de quo quidquid <lb/>
+            desiderauerit populus meus saturetur. iam ut constet <lb/>
+            nos id est episcopos pastores ouium esse spiritalium hoc est <lb/>
+            hominum fidelium qui sub cura nostri constituti, nullum in eis scabies <lb/>
+            uitium repperiatur. quo magis a nobis cotidie perscrutentur, ut medicamine <lb n="10"/>
+            caelesti adhibito uellera eis florida crescant qui ad nitorem <lb/>
+            uestis caelestis proficiant. 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p rend="script"> In euangelio Dominus ad Petrum dixit: Petre, inquit, amas <lb/>
+            me? et Petrus respondit: etiam Domine, tu scis quoniam <lb/>
+            amo te. et dixit: pasce <choice n="0.01"><sic n="3">ones</sic><corr n="243">oues</corr></choice> meas. et sollicite mandans tertio <lb n="15"/>
+            confirmauit dicendo: pasce oues meas. et quoniam episcopium id <lb/>
+            est spiritum sanctum per inpositionem manus cordis excepimus hospitio, <lb/>
+            <sic>coliabitatori</sic> nostro nullam maestitiam proponamus. monet
+
+<note type="footnote"> 3 Sir. 32 (35), 1. 5 ? ? 13 Io. 21, 17. </note>
+
+<note rend="script" type="footnote"> 1 pastores <hi rend="italic">Tv</hi> pati posse aliquid <hi rend="italic">Qv,</hi> posse aliquid <hi rend="italic">T</hi> 2 punientur <lb/>
+            <hi rend="italic">v</hi> 3 petierunt] posuerunt <hi rend="italic">coni. Pamelius</hi> sed esto Mr (esto <lb/>
+            <hi rend="italic">MIQ)</hi> in illis <hi rend="italic">Ms</hi> (illis <hi rend="italic">MlQ)</hi> 4 cura <hi rend="italic">T</hi> sic conside <hi rend="italic">exp. M m.2,</hi> <lb/>
+            considera <hi rend="italic">v; cf. LXX</hi> 5 extimate M\', existimate <hi rend="italic">M2QTV</hi> <lb/>
+            esse et <hi rend="italic">D</hi> 6 delicias om. <hi rend="italic">DQT</hi> de <hi rend="italic">D,</hi> ∗∗ de <hi rend="italic">Q,</hi> et de <hi rend="italic">MTv</hi> <lb/>
+            quo quidquid <hi rend="italic">DQ4,</hi> quod quidquid <hi rend="italic">MQ\'T,</hi> quocumque <hi rend="italic">v</hi> 7 desidcrauerint <lb/>
+            <hi rend="italic">v</hi> populum eos <hi rend="italic">T,</hi> pabulo oues eas <hi rend="italic">v</hi> saturaretur <hi rend="italic">T,</hi> <lb/>
+            saturare <hi rend="italic">v</hi> iam ut constet <hi rend="italic">scripsi,</hi> nam ut constaret <hi rend="italic">DQTv</hi> <lb/>
+            8 esse ouium <hi rend="italic">QTv</hi> 9 sub] sunt sub <hi rend="italic">fort</hi>. nostra <hi rend="italic">v</hi> nullum <lb/>
+            <hi rend="italic">DQT,</hi> ne ullum <hi rend="italic">v</hi> in <hi rend="italic">om. Q</hi> scabiei <hi rend="italic">v</hi> 10 reperiatur <hi rend="italic">Qv</hi> <lb/>
+            perscrutetur <hi rend="italic">MQl</hi> 11 bellera <hi rend="italic">MlQTl</hi> florida crescant <hi rend="italic">add. <lb/>
+            D m. 2 in marg</hi>. quae <hi rend="italic">QlV</hi> nitorem <hi rend="italic">M sed</hi> itorem <hi rend="italic">in ras.,</hi> <lb/>
+            neturam <hi rend="italic">DQ1,</hi> naturam <hi rend="italic">Q2Tv</hi> 12 caelestis <hi rend="italic">D\',</hi> salutaris <hi rend="italic">D\'QTv</hi> <lb/>
+            13 dns in euangelio Q 15 et dixit] dixit <hi rend="italic">Tv</hi> 16 episcopum <lb/>
+            <hi rend="italic">DQT,</hi> episcopi*. <hi rend="italic">M</hi> id est] idem <hi rend="italic">DQ</hi> 18 et cohabitatori.* <hi rend="italic">M <lb/>
+            (sed s. I. m</hi>. 2: scm spm quem accepimus), et cohabitatur in <hi rend="italic">TQ (sed Q s. I. <lb/>
+             m. 2:</hi> in corde), et habitatur in <hi rend="italic">D</hi> et <hi rend="italic">s. l. m. 2; fort. :</hi> et cohabitat in <lb/>
+            nobis cohabitatori nostro ne ullam <hi rend="italic">v</hi> maestitiam] molestiam <hi rend="italic">v</hi> <lb/>
+            monet dominus] apostolus monet v </note><lb/>
+             
+<pb n="95"/>
+            dominus et dicit. nolite contristare spiritum sanctum qui <lb/>
+            in nobis est, et, nolite exstinguere lumen, quod in <lb/>
+            nobis effulsit. quanta autem episcopo bene agente et salubriter <lb/>
+            admonente sine tribulatione corporis condigna sint martyria, tanta et <lb/>
+            episcopo neglegente et nulla de scripturis sanctis documenta promente <lb n="5"/>
+            cumulentur tormenta. apostolus nos excitat Paulus et condigna status <lb/>
+            sui ∗∗ episcopos <sic>procuratoreseuangelicae</sic> <sic>doctrinaeponitet</sic> dicit: quamdiu <lb/>
+            heres infans, sub procuratores et actores est: at <lb/>
+            cum creuerit, tunc hereditatem suam expetit. nos etiam <lb/>
+            sumus dispensatores et procuratores euangelii: hic quoque inter <lb n="10"/>
+            dispensatores et procuratores quaeritur, ut quis fidelis et iustus <choice><sic>inneniatur</sic><corr>inueniatur</corr></choice>. <lb/>
+            </p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p rend="script">Si ergo apud dispensatores et procuratores quaeritur ut quis fidelis  <lb/>
+            et <choice><sic>instus</sic><corr>iustus</corr></choice> inueniatur, quid si omnes delinquant et delinquentibus <lb/>
+            dispensatores ignoscant? nonne ipsi delinquentium se pondere onerant? <lb n="15"/>
+            apostolus idem Paulus commemorat, quando ad Timotheum <lb/>
+            docendum et corroborandum in fidei firmitate ne quid Deum fallat et <lb/>
+            ne malignum orationibus sanctorum intercedat, ** prouidus et sollicitus <lb/>
+            dicens: o Timothee fili commendatum serua: noli
+
+<note type="footnote"> 1 Eph. 4, 30. 7 GaL 4, 1. 19 II Tim. 1, 14; II Tim. 4, <lb/>
+            2. 5; I Tim. 4, 12; I Tim. 5, 12. </note>
+
+<note rend="script" type="footnote"> 2 nobis <hi rend="italic">MlQlT</hi> 3 effolsit in nobis <hi rend="italic">v</hi> quanto <hi rend="italic">D\'T,</hi> quande <lb/>
+            D1 epm b. agentem et s. admonentem <hi rend="italic">DM\'QTv</hi> 4 sint] <lb/>
+            naneant <hi rend="italic">v</hi> tanto <hi rend="italic">DQT</hi> et] et in <hi rend="italic">v</hi> 5 epm neglegentem <lb/>
+            <hi rend="italic">DQTv</hi> et] ei <hi rend="italic">T, om. v</hi> promentem <hi rend="italic">DMIQTv</hi> 6 condi- <lb/>
+            <hi rend="italic">gnam D, cumdignam M1QT,</hi> condigno v <hi rend="italic">statu v suis M1Q1T, om</hi>. <lb/>
+            r. sui laude <hi rend="italic">fort</hi>. 7 episcopus <hi rend="italic">MlT,</hi> episcopos et <hi rend="italic">v</hi> enangelicae ... <lb/>
+            procuratores add. <hi rend="italic">D m. 2 in marg</hi>. 8 heres <hi rend="italic">DQ1,</hi> eris <hi rend="italic">MQl,</hi> erit <hi rend="italic">Tx</hi> <lb/>
+            sub m. v procnratore <hi rend="italic">M2</hi> est <hi rend="italic">D,</hi> agens <hi rend="italic">QT,</hi> habet v 9 creleris <lb/>
+            <hi rend="italic">M,</hi> creberis QI, crebris <hi rend="italic">T</hi> tunc <hi rend="italic">DQ\',</hi> ab uno <hi rend="italic">MQ\'T, om. v</hi> <lb/>
+            10 sumus <hi rend="italic">post</hi> euangelii <hi rend="italic">ponit v</hi> et procuratores <hi rend="italic">om. D</hi> hoc v <lb/>
+            11 procuratores] actores D et iustus <hi rend="italic">ex</hi> eius T 13 et procnratores <lb/>
+            om. <hi rend="italic">DQT</hi> 14 et <hi rend="italic">om. QxMl</hi> omnes] oues <hi rend="italic">v</hi> 15 nonne] <lb/>
+            ton n onerent Q 16 idem om. <hi rend="italic">v</hi> 17 fide <hi rend="italic">MIQl</hi> deum] <lb/>
+            em D falleret <hi rend="italic">D</hi> 18 sauctorum <hi rend="italic">D,</hi> iustorum <hi rend="italic">QTv</hi> malicum <lb/>
+            <hi rend="italic">corr</hi>. in in malignum incidat <hi rend="italic">M m. 2</hi> rouidns <hi rend="italic">T,</hi> scribat protidns <lb/>
+            <hi rend="italic">fort</hi>. 19 dicit <hi rend="italic">Pamelius</hi> timotheae <hi rend="italic">MQlT</hi> </note> <lb/>
+             
+<pb n="96"/>
+            spernere donum quod in te est per inpositionem manuum <lb/>
+            seniorum: accingere fortiter et uiriliter age ministerium <lb/>
+            tuum, cum integritate <choice><sic>persnpple</sic><corr>persupple</corr></choice>: esto ceteris <lb/>
+            in bonis exemplum. nemo tibi contradicat, nemo <sic>iuuen</sic>. <lb/>
+            <sic>tutem</sic> tuam contemnat: peccantem coram multis argue<lb n="5"/>
+            ut et ceteri metum habeant et ne communicaueris peccatis <lb/>
+            alienis. et iterum: si qui frater fornicarius dicitur <lb/>
+            aut idolorum cultor aut auarus aut raptor <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> <lb/>
+            iniustus, cum eiusmodi quidem nec cibum capere. et <lb/>
+            alia loco: quicumque frater more alienigenarum uiuit <lb n="10"/>
+            et admittit res similes factis eorum, desine in conuiuium <lb/>
+            <sic>eiusesse</sic>: quod nisi feceris, et <choice><sic>tn</sic><corr>tu</corr></choice> particeps eius <lb/>
+            eris. et in doctrinis apostolorum: si quis frater delinquit <lb/>
+            in ecclesia et non paret legi, hic nec colligatur, donec <lb/>
+            paenitentiam agat, et non recipiatur, ne inquinetur <lb n="15"/>
+            et inpediatur oratio uestra. et apostolus iterum dicit: eximite <lb/>
+            malos e medio <choice n="0.97"><sic n="378">uestro</sic><corr n="8">uostro</corr></choice>. quod si <hi rend="italic">per</hi> multorum testium unitatem <lb/>
+            et consonantem monitionem docemur nec cum delinquentibus <lb/>
+            fratribus ** nec cibum quidem uesci, quanto magis debeat et ab sacrificio <lb/>
+            <sic n="poss">Chriti</sic> arceri ? <lb n="20"/>
+            
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p> Quam magna et larga pietas Domini fidelium, quod in futurum <lb/>
+            <choice><sic>praesciuB</sic><corr>praescius</corr></choice> nobis consulat, ne quis frater incautus denuo laqueis diaboli
+
+<note type="footnote"> 7 I Cor. 5, 11. 10 ? V .13 ? ? <lb/>
+             16 I Cor. 5, 13. </note>
+
+<note type="footnote"> 1 manus <hi rend="italic">DQa,</hi> manum <hi rend="italic">MQI,</hi> anum <hi rend="italic">T</hi> 3 et cum <hi rend="italic">v</hi> supple <lb/>
+            <hi rend="italic">v</hi> 4 in bonis <hi rend="italic">DQz,</hi> in bonum <hi rend="italic">MQtT,</hi> bonum v 5 argue <hi rend="italic">D,</hi> <lb/>
+            castiga <hi rend="italic">QTv</hi> 7 si quis Qv dicitur om. <hi rend="italic">QTv</hi> 9 iniostusj <lb/>
+            <hi rend="italic">add. v:</hi> nominatus fuerit huiusmodi <hi rend="italic">D</hi> 11 conuictum <hi rend="italic">MlQlT,</hi> <lb/>
+            conuictu <hi rend="italic">M2Q2V</hi> 12 tu feceris <hi rend="italic">v</hi> 13 eris eius <hi rend="italic">QTv</hi> et om. <hi rend="italic">D</hi> <lb/>
+            apostolorum] est <hi rend="italic">D</hi> 14 «*paret <hi rend="italic">M,</hi> apparet <hi rend="italic">DQT</hi> colligitur <hi rend="italic">T</hi> <lb/>
+            16 etiam iterum <hi rend="italic">QTv</hi> 17 uestri <hi rend="italic">v,</hi> urm <hi rend="italic">M sed</hi> m <hi rend="italic">in ras</hi>. per <hi rend="italic">addidi</hi> <lb/>
+            unitatem] uaria <hi rend="italic">v</hi> 18 consonanti monitione <hi rend="italic">v</hi> docemus <hi rend="italic">DQT</hi> <lb/>
+            nec cum <hi rend="italic">MPQ*,</hi> necum <hi rend="italic">DMIQIT,</hi> cum v 19 fratribus cum fratribus <hi rend="italic">QT;</hi> <lb/>
+            communicare <hi rend="italic">ante</hi> nec <hi rend="italic">intercidisse uidetur</hi> nequidem cibum <hi rend="italic">D,</hi> cibum <lb/>
+            ne <hi rend="italic">T,</hi> cibum nec <hi rend="italic">MIQ,</hi> cibum sumimus nec F, cibo ne quidem <hi rend="italic">v</hi> <lb/>
+            uesci] cum eis <hi rend="italic">add. Ms. l. m. 2</hi> ab] a <hi rend="italic">D</hi> 21 et om. <hi rend="italic">T</hi> <lb/>
+            dei <hi rend="italic">Pamelius</hi> fidelium <hi rend="italic">DQ,</hi> filium <hi rend="italic">T,</hi> filii v] 22 frater] <lb/>
+            inter fratres <hi rend="italic">v</hi> </note> <lb/>
+             
+<pb n="97"/>
+            capiatur. sollicitos esse <choice><sic>iuseit</sic><corr>iussit</corr></choice> et <choice><sic>prouidoB</sic><corr>prouidos</corr></choice> adque eruditos, quoniam <lb/>
+            hostis ille antiquus circuit pulsans Dei seruos non uno genere temptans. <lb/>
+            multae enim sunt temptationes eius quarum primordia sunt: <lb/>
+            idololatria moechiae furta rapinae auaritia fraus ebrietas inpatientia <lb/>
+            <sic>adalteria</sic> homicidia zelus perfidia falsa testimonia eloquium falsum <lb n="5"/>
+            <choice><sic>moidia</sic><corr>inuidia</corr></choice> extollentia maledictum error, et si qua sunt similia quae his <lb/>
+            congruunt, ex quibus est aleae tabula. praeest diaboli laqueus manifestus, <lb/>
+            uenenum portans letalem serpentis et inductio corrumpens: quae <lb/>
+            <choice n="0.16"><sic n="8584">eum</sic><corr n="42581">cum</corr></choice> uidetur nihil esse, magna amplectentibus operatur deiectio. quid <lb/>
+            <sic>fllud</sic> est quaeso uos, fideles, ut manus quae iam ab iniuriis <sic>huma</sic>* <lb n="10"/>
+            nis expiata est et ad sacrificium dominicum admissa et quod ad salutem <lb/>
+            totius hominis pertinet ipsa de <hi rend="italic">Dei</hi> dignatione suscipit, ipsa ad <lb/>
+            laudem Domini in oraculo exurgit, ipsa per quod tuemur Christi signum <lb/>
+            in frontibus notat, ipsa diuina sacramenta consummat: quid est <lb/>
+            at iterum laqueis diaboli unde exuta est inplicetur? aleatricem manum <lb n="15"/>
+            dico, quae se ipsa perdit et damnat, manum quae libidinoso studio <lb/>
+            <choice><sic>coosueuit</sic><corr>consueuit</corr></choice> id est aleae tabula, quod est diaboli uenabulum et delicti <lb/>
+            uulnus insanabile.
+
+<note type="footnote"> 4 cf. Gal. 5, 20. </note>
+
+<note type="footnote"> 2 hogtis] hos <hi rend="italic">T</hi> tentationis <hi rend="italic">coni Pamelius</hi> 4 idolatria <lb/>
+            <hi rend="italic">DQT</hi> moeciae <hi rend="italic">MJQI</hi> 5 adulteria h. zelus <hi rend="italic">ponit post</hi> testimonia <lb/>
+            D adulterium <hi rend="italic">Q\'v,</hi> adulteris <hi rend="italic">MlQlT</hi> homicidium v <lb/>
+            6 inttidia <hi rend="italic">post</hi> extollentia <hi rend="italic">T,</hi> iniuria <hi rend="italic">D</hi> 7 alea et <hi rend="italic">T</hi> praeest <lb/>
+            in quod est <hi rend="italic">corr. M m. 2,</hi> praesto est b diabulus <hi rend="italic">D,</hi> zabuli <hi rend="italic">T</hi> <lb/>
+            laqueoB om. <hi rend="italic">D</hi> 8 laetale <hi rend="italic">FQ\'v</hi> 9 amplectentibus <hi rend="italic">DQ1,</hi> adplictibus<lb/>
+             <hi rend="italic">T,</hi> pleetibue <hi rend="italic">MQ1,</hi> amplexu n operatur (i. e. infligitur) <lb/>
+            <hi rend="italic">scripsi,</hi> operetur <hi rend="italic">DMlQT,</hi> operitur <hi rend="italic">M2v; cf. p</hi>. 99, 7 deletio v<lb/>
+             10 quaeso uos <hi rend="italic">DQ*,</hi> quas uos <hi rend="italic">MQ1,</hi> quas <hi rend="italic">T,</hi> quaeso v fidelis <lb/>
+            <hi rend="italic">M1Q1T</hi> ut <hi rend="italic">exp. M m. 2</hi> 11 est <hi rend="italic">om. DQT</hi> 12 ipsa de dei<lb/>
+             scrpsi, ipea de <hi rend="italic">DQT,</hi> ipsa∗∗ <hi rend="italic">M, om</hi>. n ipsa] quae b 13 ipsa]<lb/>
+             quae signum crucis n christi s. in (in <hi rend="italic">om. M)</hi> frontibus notat <lb/>
+            (notam <hi rend="italic">T) DQT,</hi> frontibus imprimit v 14 ipsa] ipsa quae n est] est <lb/>
+            inquam v 15 iterum <hi rend="italic">om. D</hi> implicetur] <hi rend="italic">add. MT:</hi> et ipsa perfannat;<lb/>
+             <hi rend="italic">add. Q:</hi> se ipsa perdat etv damnat <hi rend="italic">(sed</hi> se <hi rend="italic">in ras,</hi> dat et damnat <lb/>
+            <hi rend="italic">e. l. m. 2 corr. )</hi> aleatrices v, <hi rend="italic">eras. in Q</hi> manum dico quae se ipsae<lb/>
+             pmlet (perdit <hi rend="italic">corr. m</hi>. 2) et damnat <hi rend="italic">D, om. QTv</hi> 16 manum quae <lb/>
+            <hi rend="italic">MT,</hi> manus quae <hi rend="italic">DQ</hi> 17 consuerunt <hi rend="italic">QT tabulae v</hi> zabuli <hi rend="italic">T</hi> <lb/>
+            uenabulum] abulum <hi rend="italic">Dl,</hi> malum <hi rend="italic">D*QTv</hi> \' dilecti D,\'dilectio <hi rend="italic">MT,</hi> <lb/>
+            deiectio 0 </note>
+
+<note type="footnote"> III A </note>
+
+<note type="footnote"> 7 </note> 
+<pb n="98"/>
+            
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart"><p> Aleae tabula, dico, ubi diabolus praesto est ad capiendum summissua <lb/>
+            et cum ceperit de captiuo triumphus suus perfidia, falsa testimonia. <lb/>
+            tabula aleae, dico, ubi dementia furia. et uenale periurium et <lb/>
+            conloquium serpentinum. illic rabiosa amicitia, illic atrocissimi sceleris <lb/>
+            inmanitas, illic fraternitas discordans, illic conuicia et audacia<lb n="5"/>
+            <choice><sic>saena</sic><corr>saeua</corr></choice> et mens insana et fera inpatientia. aleae tabula, dico, ubi <lb/>
+            possessionum amissio et pecuniarum ingentium perditus et demonstrans <lb/>
+            litigiosum et furax dementia.s o aleatorum noxia, <sic>sedeataria</sic> <lb/>
+            et pigra nequitia:s o manus crudeles et ad periculum sui armatae, <lb/>
+            quae bona paterna et opes auorum sudoribus quaesitas ignominioso<lb n="10"/>
+            studio dilapidant. manus trux, noxia et insomnis, nocte dieque continuis <lb/>
+            instrumentorum suorum armigera, quae peccatis se ipsa damnauit <lb/>
+            et post peccatum non desinit.s o nequam manus in perniciem <lb/>
+            Domini sui armata, quae sordidissimis aeris totam substantiam perdit <lb/>
+            et cum tot essent augendae rei familiaris et multae abundantiae<lb n="15"/>
+            opes, modo inops et pauper est. alea est quam lex odit, alea est <lb/>
+            quam insequitur crimen ignobile, ubi manifesta temptatio et poena <lb/>
+            occulta. alueus laqueus est ille mali et supplantatio inimici, qui nec <lb/>
+            lucrum confert sed totum consumit. hinc deinde pauperes fiunt, hinc <lb/>
+            opes suas perdunt, hinc iam consumptis omnibus rebus <choice><sic>snis</sic><corr>suis</corr></choice> mutuis <lb n="20"/>
+            pecuniis se obruunt, hinc patrimonium sine ulla fori calumnia
+
+<note type="footnote"> 1 tabulam v est et <hi rend="italic">Q,</hi> et <hi rend="italic">T</hi> 2 coeperit <hi rend="italic">QT</hi> trium- * <lb/>
+            phum <hi rend="italic">v</hi> suus <hi rend="italic">addidi, om. DQTv</hi> 3 tabule alea <hi rend="italic">DT,</hi> aleae tabula <lb/>
+            <hi rend="italic">Q</hi> dementia <hi rend="italic">D,</hi> dementia et <hi rend="italic">QT</hi> peiurium <hi rend="italic">T;</hi> imperium <lb/>
+            <hi rend="italic">add. QTx</hi> 5 inmanitas illic om. v 6 et fera] fera <hi rend="italic">DQT</hi> <lb/>
+            tabulam <hi rend="italic">v</hi> 7 perditus] perditio monstrum <hi rend="italic">v</hi> 8 et furax] et <lb/>
+            uorax <hi rend="italic">M sed</hi> uo <hi rend="italic">m ras.,</hi> feraz v sedentaria noxia <hi rend="italic">D</hi> 9 crudelis <lb/>
+            <hi rend="italic">DQ</hi> armata <hi rend="italic">QT</hi> 10 et auorum <hi rend="italic">QT</hi> sudore. <hi rend="italic">MQ,</hi> sudores <lb/>
+            <hi rend="italic">T; cf. p. 109, 23</hi> ignomioso <hi rend="italic">D</hi> 11 dilapidat <hi rend="italic">MQ*</hi> noctem <hi rend="italic">Q</hi> <lb/>
+            diemque <hi rend="italic">QT</hi> continuus <hi rend="italic">D</hi> 12 qui <hi rend="italic">QT</hi> peccandis <hi rend="italic">QT,</hi> <lb/>
+            peccandi <hi rend="italic">D,</hi> peccando <hi rend="italic">M sed</hi> 0 <hi rend="italic">in ras</hi>. ipsam <hi rend="italic">М2v</hi> 13 peccatum <lb/>
+            <hi rend="italic">DQi,</hi> peccando <hi rend="italic">MQ\',</hi> peccantis <hi rend="italic">T</hi> desint <hi rend="italic">T,</hi> desinit ire t; <lb/>
+            nequa <hi rend="italic">T</hi> 14 sordidissimi v 15 familiares <hi rend="italic">QT;</hi> occasiones <lb/>
+            <hi rend="italic">addendttm esse censet Pamelius</hi> multae <hi rend="italic">scripsi,</hi> multarum <hi rend="italic">DQTv</hi> <lb/>
+            16 opum <hi rend="italic">v</hi> paupera <hi rend="italic">T</hi> 17 sequitur v ignobilem <hi rend="italic">T</hi> <lb/>
+            18 alueus laqueus <hi rend="italic">scripsi,</hi> alueus <hi rend="italic">D,</hi> laqueus <hi rend="italic">QT,</hi> alea est alueus v <lb/>
+            est ille <hi rend="italic">om. v</hi> amici <hi rend="italic">v</hi> qui] quae M2v 19 confers <lb/>
+            <hi rend="italic">MIQITI</hi> 21 ulla <hi rend="italic">corr. in</hi> illa <hi rend="italic">Mm. »</hi> fori <hi rend="italic">DQ2,</hi> fore <hi rend="italic">MQlT</hi> </note> <lb/>
+             
+<pb n="99"/>
+            amittunt. quales sunt, <choice><sic>fldeles</sic><corr>fideles</corr></choice>, ut quos nemo persequitur se ipsos inuidia <lb/>
+            persequantur, ut paternas suas hereditates sub ossuorum multiformi <lb/>
+            numero disperdant? est et quando ipsi aleatores cum prostitutis <lb/>
+            mulieribus penes auctorem suum nocturnas uigilias clausis foribus <lb/>
+            celebrant: armantur <choice n="0.05"><sic n="34">aduorsum</sic><corr n="583">aduersum</corr></choice> se miseri spiritu diaboli repleti. et <lb n="5"/>
+            illic duplicem ac geminum crimen admittunt. hic concrepat aleae <lb/>
+            sonus, <choice n="0.09"><sic n="34">illac</sic><corr n="307">illae</corr></choice> silentio operatur incestus: hic sine ullo dignitatis suae <lb/>
+            respectu sine ulla excusatione pestifero studio cedere bonis suis <lb/>
+            coguntur, illic secreto mortale uenenum bibitur. 
+</p>
+          </div>
+
+<div n="7" subtype="section" type="textpart"><p rend="script">Vnde haec sacrilega meditatio, unde hoc crimen, anctorum testimonio  <lb n="10"/>
+            conprobamus. cum enim quidam studio litterarum bene eruditus <lb/>
+            multum meditando hoc malum et tam perniciosum studium adinuenit, <lb/>
+            instinctu * * diaboli qui eum artibus suis repleuerat: hanc ergo <lb/>
+            artem ostendit quam et colendam sculpturis cum sua imagine fabricauit. <lb/>
+            statuit itaque imaginem speciei suae cum nominis sui subscriptione <lb n="15"/>
+            suggerente sibi inimico, qui ut hanc artem excogitaret in <lb/>
+            pectore subiecit. sic ergo se in imagine perniciosa demonstrans alto <lb/>
+            se quodam loco condidit, in sinus suos hanc aleae tabulam gestans, <lb/>
+            ut quasi <choice n="0.78"><sic n="7562">ipse</sic><corr n="2042">ipso</corr></choice> <choice><sic>lnsor</sic><corr>lusor</corr></choice> et adinuentor huius malitiae appareret, cuius
+
+<note rend="script" type="footnote"> 1 admittunt <hi rend="italic">Q</hi> quales <hi rend="italic">DQ\',</hi> qualis <hi rend="italic">MQlTv</hi> sunt] est <lb/>
+            <hi rend="italic">XTr;, exp. Q</hi> fideles <hi rend="italic">DQ*,</hi> fidelis <hi rend="italic">MQIT,</hi> lis <hi rend="italic">v</hi> inuidia <hi rend="italic">D,</hi> <lb/>
+            innidam et <hi rend="italic">T,</hi> inuidaat et Q, per inuidiam <hi rend="italic">v</hi> 2 persequatur <hi rend="italic">T</hi> <lb/>
+            lraterna sua <hi rend="italic">DMJQ,</hi> paternam suam <hi rend="italic">M*</hi> hereditate <hi rend="italic">DMIQT,</hi> hereditatem <lb/>
+            <hi rend="italic">M*</hi> ossorum <hi rend="italic">D,</hi> * * suorum <hi rend="italic">M1</hi> multiforme <hi rend="italic">QT</hi> <lb/>
+            3 disperdunt <hi rend="italic">D1,</hi> disperdat <hi rend="italic">MIQIT,</hi> dispergant <hi rend="italic">v est</hi> et] esto <hi rend="italic">M</hi> <lb/>
+            i clansi MtQI 5 aduersus <hi rend="italic">QTv</hi> spiritus d. repletus <hi rend="italic">MlQxT</hi> <lb/>
+            6 duplicem <hi rend="italic">DQT,</hi> duplex <hi rend="italic">v</hi> ac <hi rend="italic">DQz,</hi> aut <hi rend="italic">MQlTv</hi> 7 illic <hi rend="italic">M\'V</hi> <lb/>
+            upera»tur <hi rend="italic">D,</hi> operetur <hi rend="italic">Tl sine ..</hi>. respectu <hi rend="italic">om. Q</hi> 8 ullac <hi rend="italic">T</hi> <lb/>
+            U <lb/>
+            9 cogitur <hi rend="italic">v</hi> 10 auctor <hi rend="italic">M,</hi> auctore Q 12 et tam] tam <hi rend="italic">DQT»</hi> <lb/>
+            13 instinctu <hi rend="italic">D et 8. I. m. 2 MQ,</hi> extigatus MIQI, extigatu <hi rend="italic">T: add</hi>. soli <lb/>
+            t <hi rend="italic">QT, add</hi>. solo <hi rend="italic">M in rcu</hi>. zabuli <hi rend="italic">Tv ut solent</hi> .14 sculptoris <lb/>
+            <hi rend="italic">M1Q1,</hi> scultoris <hi rend="italic">T,</hi> sculptor <hi rend="italic">M7,</hi> sculptori <hi rend="italic">Q*,</hi> cultori <hi rend="italic">D</hi> 15 imagine <lb/>
+            <hi rend="italic">T</hi> speciei sue <hi rend="italic">DQ (sed Q in ras. m. 2),</hi> sci suae <hi rend="italic">M</hi> (sci <lb/>
+            torr. in scientiae <hi rend="italic">m. 2),</hi> sua <hi rend="italic">T,</hi> suam <hi rend="italic">v</hi> 16 amico <hi rend="italic">v</hi> 17 pectore <lb/>
+            sabiecit <hi rend="italic">DQ\',</hi> peccatore suo uenit <hi rend="italic">MQl,</hi> pectorem subuenit <hi rend="italic">T</hi> aic] <lb/>
+            i M (sic Q) in] per <hi rend="italic">D s. l. m. 2</hi> imaginem <hi rend="italic">DMIQ</hi> perne- . <lb/>
+            ciosam <hi rend="italic">M\' Ql,</hi> syneciosam <hi rend="italic">T,</hi> speciosa <hi rend="italic">v</hi> alto se <hi rend="italic">DM\',</hi> altus e <lb/>
+            <hi rend="italic">M1Q,</hi> altus <hi rend="italic">T,</hi> alto <hi rend="italic">v</hi> 18 condidit et <hi rend="italic">QTv</hi> einos <hi rend="italic">M\'Q\'T</hi> <lb/>
+            19 malitiae] militia <hi rend="italic">M lQ</hi> </note>
+
+<note type="footnote"> 7 * </note> <lb/>
+             
+<pb n="100"/>
+            nomen a Dei semis nominari non debet (sic enim in nomine turpis <lb/>
+            est quomodo in factis iniquus), et quisque Dei seruus aleae tabulam <lb/>
+            amplectitur auctoris nomine uocaretur. ille enim cum se in <choice><sic>statuncnlis</sic><corr>statunculis</corr></choice> <lb/>
+            et simulacris formaret, aliud crimen adinuenit, quo se ab imitatoribus <lb/>
+            suis colendum diceret, sacrificandi sibi legem terminauit, ita ut <lb n="5"/>
+            qui uellet studio eius adhaerere non ante manum in tabulam porrigeret, <lb/>
+            nisi auctori eius prius sacrificasset. inde factum est, ut olim <lb/>
+            qui homo fuerat et facinoris admissionis adulter, post mortem a <lb/>
+            profanis et errantibus sub fictioso nomine deitatis coli meruerit. 
+</p>
+          </div>
+
+<div n="8" subtype="section" type="textpart"><p rend="script"> Aleae tabula qui ludet, et maleficium nosse debet, quod a Dei<lb n="10"/>
+            seruos longe sit scientes quoniam furor iste <choice><sic>maleficBS</sic><corr>maleficus</corr></choice> et uenenarius <lb/>
+            est, sed iterum in iudicii die igne rotante torquebitur. aleae tabula <lb/>
+            qui ludet prius auctori eius sacrificare debet, quod Christianis non <lb/>
+            licet dicente Domino: sacrificans diis eradicabitur, nisi <lb/>
+            Domino soli, et iterum: nolite sacrificare diis alienis,<lb n="15"/>
+            ne incitetis me in operibus manuum uestrarum ad <lb/>
+            disperdendos uos. christianus quicumque es et aleae tabula <lb/>
+            ludes, licet non sacrifices, lege huius facinoris particeps es. et utique <lb/>
+            Dominus occurrit et dicit: exite de ea populus meus, ne <lb/>
+            particeps sis delictorum eius. et iterum: discedite,
+
+<note type="footnote"> 14 Ex. 21, 20. 15 ffier. 26, 6. 19 Apoc. 18, 4. <lb/>
+            20 Es. 52, 11. </note>
+
+<note rend="script" type="footnote"> 1 deberet v 2 alae <hi rend="italic">D</hi> 3 nomen <hi rend="italic">MłQ\'T</hi> uocaretnr <lb/>
+            <hi rend="italic">corr</hi>. in uocetur <hi rend="italic">Q m. 2, in</hi> uocatur <hi rend="italic">M m. 2</hi> 4 et <hi rend="italic">om. DQT, add. <lb/>
+            Pamelius</hi> quod <hi rend="italic">MQ1T</hi> 5 diceret] et <hi rend="italic">v; fort</hi>. doceret <lb/>
+            . sacrificandi s. 1. tenninauit] sibi sacrificandum instituit v 6 bellet <lb/>
+            <hi rend="italic">M1Q1T1</hi> eius <hi rend="italic">DQ2,</hi> huius <hi rend="italic">MQ\'Tv</hi> 8 admissione <hi rend="italic">M</hi> a] ad <lb/>
+            <hi rend="italic">M1Q1T</hi> 9 sub finctioso Q, suffinctioso <hi rend="italic">T,</hi> sub flctitio v deitatis<lb/>
+             <hi rend="italic">DQ1,</hi> dei talis <hi rend="italic">MQxTv</hi> meruit <hi rend="italic">DQ</hi> 10 tabulae <hi rend="italic">T</hi> <lb/>
+            ludit <hi rend="italic">v</hi> maleficia <hi rend="italic">v</hi> quod otn. <hi rend="italic">M (exh. Q)</hi> 11 sernos <lb/>
+            <hi rend="italic">MlQT,</hi> senis <hi rend="italic">Dv,</hi> seruis hoc <hi rend="italic">M1</hi> scientes <hi rend="italic">DQT,</hi> sciens <hi rend="italic">v</hi> <lb/>
+            furor iste <hi rend="italic">D,</hi> foris <hi rend="italic">MQTv, sed Q m. 2 adnotat:</hi> aliter furor iste <lb/>
+            12 est sed <hi rend="italic">D,</hi> et <hi rend="italic">QTv</hi> igno <hi rend="italic">T,</hi> in igne <hi rend="italic">v</hi> torqueri <hi rend="italic">QT</hi> <lb/>
+            aliae <hi rend="italic">T</hi> 18 ludit <hi rend="italic">v</hi> 15 soli dno <hi rend="italic">T,</hi> deo soli <hi rend="italic">v</hi> 16 manum <hi rend="italic">T</hi> <lb/>
+            17 disperdendum Tv uos <hi rend="italic">ex</hi> suos <hi rend="italic">MQ</hi> quicumque <hi rend="italic">DQ\',</hi> qui <lb/>
+            <hi rend="italic">MQ\'Tv</hi> et aleae om. <hi rend="italic">Q (exh. M)</hi> tabulam <hi rend="italic">D</hi> 18 ludis v<lb/>
+             legi Q, legis <hi rend="italic">D</hi> 19 dno <hi rend="italic">MQlT</hi> exi Qv 20 Bis particeps v </note><lb n="20"/>
+             
+<pb n="101"/>
+            discedite inde, exite e medio eius qui fertis uasa Domini <lb/>
+            et <choice n="0.04"><sic n="2">inmundam</sic><corr n="40">inmundum</corr></choice> ne tetigeritis. christianus quicumque ea et <lb/>
+            alea ludes, hoc primo in loco scire debes quia non es christianus sed <lb/>
+            <sic>ethnicom</sic> tibi nomen est et illud quod ad <choice><sic>sacriftcium</sic><corr>sacrificium</corr></choice> dominicum pertinet <lb/>
+            in <choice><sic>nacuum</sic><corr>uacuum</corr></choice> sumis. sic enim Dominus dicit: omnis inmundus <lb n="5"/>
+            non tanget sacrificii sancti. et iterum: omnis uir <choice><sic>manducana</sic><corr>manducans</corr></choice> <lb/>
+            carnem sacrificii, et inmunditia eius super <lb/>
+            ipsum: peribit anima illa de populo meo. aleator quicumque <lb/>
+            es Christianum te dicis, quod non es eo quod <choice><sic>saeoulo</sic><corr>saeculo</corr></choice> <choice><sic>particepe</sic><corr>particeps</corr></choice> <lb/>
+            ea. nec amicitiam cum Christo habere potes qui Christi inimico <lb n="10"/>
+            amicus es. 
+</p>
+          </div>
+
+<div n="9" subtype="section" type="textpart"><p>Certe qualis dementia aieatorum fidelium, ubi insaniunt et foratissimjs  <lb/>
+            uocibus perierant, et deorbati diaboli caligine inuicem sibi <lb/>
+            manus inferunt, <choice><sic>maJedieunt</sic><corr>maledicunt</corr></choice>, se deuouunt, parentorum originem turbis <lb/>
+            praesentibus dehonorant. sonat publice aleae strepitus, festinant ad <lb n="15"/>
+            necem hereditatis suae manus, nec intellegit miser quod sibi noceat, <lb/>
+            quando se aleae <choice><sic>anctorat</sic><corr>auctorat</corr></choice>. et qui iam saepius uincitur rursus ad nocentiorem <lb/>
+            studium diabolo suadente animatur. o ars infesta studentibus <lb/>
+            et studium libidinosum, qui non diuitias sed nuditatem et inopiam
+
+<note type="footnote"> 5 Leu. 7, 21. 20. </note>
+
+<note type="footnote"> 1 inde <hi rend="italic">om D</hi> e <hi rend="italic">DQ,</hi> de <hi rend="italic">Mv,</hi> e de <hi rend="italic">T</hi> fertis <hi rend="italic">D,</hi> portatis <lb/>
+            <hi rend="italic">QTtt uas T 2 tigeritis T</hi> es et] <hi rend="italic">esset T</hi> 3 aleam<lb/>
+             tabulam <hi rend="italic">D</hi> ludis <hi rend="italic">Dv</hi> scire] scre <hi rend="italic">T</hi> s in <hi rend="italic">ras.,</hi> credere <hi rend="italic">v</hi>. <lb/>
+            es om. <hi rend="italic">Tv</hi> christianum <hi rend="italic">v</hi> 4 aethnicum <hi rend="italic">DQ</hi> 5 summis <hi rend="italic">T</hi> dominns <lb/>
+            om. <hi rend="italic">v</hi> 6 tangat <hi rend="italic">QT</hi> sacrificium <hi rend="italic">DQH,</hi> de sacrificiis <hi rend="italic">M1</hi> <lb/>
+            sanctis <hi rend="italic">Mx</hi> et iterum <hi rend="italic">D,</hi> dicit enim scriptura <hi rend="italic">QTv</hi> 7 inmunditiae <lb/>
+            <hi rend="italic">QT</hi> 8 pereat <hi rend="italic">QTv</hi>. meo <hi rend="italic">om. Dl</hi> 9 <hi rend="italic">alt</hi>. eo <hi rend="italic">D</hi> s. <hi rend="italic">I. m. 2</hi> <lb/>
+            10 ee <hi rend="italic">DM,</hi> es nec amicus non es eo quod saeculo particeps es <hi rend="italic">QT</hi> <lb/>
+            amicitiam c. ch. h. potes D, amicus christi potes esse <hi rend="italic">QTv</hi> qui]<lb/>
+             qaicamque <hi rend="italic">T</hi> cum inimico christi <hi rend="italic">QTv</hi> 11 amicus es <hi rend="italic">D,</hi> tenes<lb/>
+             amicitia <hi rend="italic">T,</hi> habes amicitiam <hi rend="italic">Qv</hi> 12 fariacissimis <hi rend="italic">DT; cf. pag. <lb/>
+             103, 18</hi> 13 perierant <hi rend="italic">T,</hi> pe.i.erant <hi rend="italic">D,</hi> periurant <hi rend="italic">Q; cf. Cypr. <lb/>
+             p. 21, 6</hi> 14 sedeuouunt <hi rend="italic">D1,</hi> se deuobunt <hi rend="italic">T,</hi> se deuouent <hi rend="italic">Dtv, <lb/>
+            om. Q</hi> parentum <hi rend="italic">М2v</hi> turpis <hi rend="italic">M1Q1T</hi> 15 screpitus <hi rend="italic">MlQT</hi> <lb/>
+            16 manus <hi rend="italic">om. M (exh. Q)</hi> intelleget <hi rend="italic">MlQlT</hi> quid <hi rend="italic">QTx</hi> <lb/>
+            17 qui <hi rend="italic">ex</hi> quicum <hi rend="italic">T</hi> nocentius <hi rend="italic">M2Q2v</hi> 15 studium <hi rend="italic">DQ,</hi> studiosum<lb/>
+             <hi rend="italic">T,</hi> stuprum <hi rend="italic">v</hi> qui <hi rend="italic">DMIQT,</hi> quae <hi rend="italic">M\',</hi> quod v diuitia. <lb/>
+            <hi rend="italic">MIQIT</hi> naditate et inopia <hi rend="italic">T</hi> </note> <lb/>
+             
+<pb n="102"/>
+            praestat. manus carnifex, manus noxia, qui nec post lucra desinit, <lb/>
+            sed adhuc post damna ludit. <choice><sic>christianus</sic><corr>Christianus</corr></choice> qui alea ludet ad sacrificium <lb/>
+            diaboli inmolantibus penes auctorem manus polluit. et idcirco Dominus <lb/>
+            ad hoc indignari se dicit: nolite, inquit, extendere manus <lb/>
+            uestras iniuste, ne exacerbetis me, et non sinam uos <lb n="5"/>
+            diu permanere super terram, <sic>etiterum</sic>: abstinete manus <lb/>
+            uestras ab iniusto, et ne feceritis quicquam mali. et <lb/>
+            apostolus beatissimus Paulus similiter dicit: <choice n="0.89"><sic n="202">uidete</sic><corr n="23">uideto</corr></choice> fratres, ne <lb/>
+            <sic>configuremini</sic> huic saeculo et pompis et de.liciis et <lb/>
+            uoluptatibus eius, sed continete uos ab omni iniustitia <lb n="10"/>
+            saeculi. 
+</p>
+          </div>
+
+<div n="10" subtype="section" type="textpart"><p rend="script"> iNam quod delicti in Deum nulla fit excusatio nec indulgentia ulla <lb/>
+            et nemini uenia datur, in euangelio Dominus dicit, si qui, inquit, <lb/>
+            dixerit blasphemiam in filium hominis, dimittetur ei: <lb/>
+            qui autem peccauerit in spiritum sanctum, non dimittetur <lb n="15"/>
+            illi, nec hic nec in futuro saeculo. et iterum <sic>por</sic> <lb/>
+            prophetam: si delinquendo peccauerit uir aduersus uirum, <lb/>
+            orabitur pro eo ad Dominum: si autem in Deum peccauerit, <lb/>
+            quis orabit pro eo? et beatus apostolus procurator et <lb/>
+            uicarius Christi ecclesiasticam curam agens ponit et dicit: uos<lb n="20"/>
+            estis templum Dei, et in <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> Christus habitat: si <lb/>
+            quis templum Dei uiolauerit, perdit illum Deus.
+
+<note type="footnote"> 4 ? ? 8 Rom. 12, 2. 13 Matth. 12, 31. <lb/>
+            17 I Sam. 2, 25. 20 I Cor. 3, 16. </note>
+
+<note rend="script" type="footnote"> -1 quae <hi rend="italic">M2Q2v</hi> desinet <hi rend="italic">MlQlT</hi> 2 sed et Q aleam <hi rend="italic">D <lb/>
+            ludit DM2v ad om. Q</hi> 3 paenus QI <hi rend="italic">(paenes MQX) polluet QT</hi> <lb/>
+            4 ad] in Q se <hi rend="italic">om. QTv</hi> 5 desinam <hi rend="italic">QT</hi> 6 et iterum <lb/>
+            ... <hi rend="italic">I</hi>. 7 mali om. <hi rend="italic">MQ1</hi> abstenite <hi rend="italic">D</hi> 7 feceris <hi rend="italic">T</hi> <lb/>
+            8 uide <hi rend="italic">M\'Q</hi> 9 obfiguremini v delictis <hi rend="italic">QT</hi> 10 sed] et Q <lb/>
+            contenite <hi rend="italic">D</hi> 11 saeculi <hi rend="italic">om</hi>. n 12 quod delicti] qui delinquit <hi rend="italic">f)</hi> <lb/>
+            13 ueniam <hi rend="italic">QT</hi> detur <hi rend="italic">DaQ\'</hi> \' si quis <hi rend="italic">M*Q*Tlv</hi> 14 blasphemia <lb/>
+            <hi rend="italic">T,</hi> blasphemias v demittetur <hi rend="italic">Q</hi> ei <hi rend="italic">D,</hi> illi <hi rend="italic">QTv</hi> <lb/>
+            15 qui autem <hi rend="italic">D,</hi> at his <hi rend="italic">QT,</hi> at is <hi rend="italic">v</hi> spuT sroQ dimittitur <hi rend="italic">D</hi> <lb/>
+            16 per prophetam <hi rend="italic">D,</hi> propheta dicit <hi rend="italic">QTv</hi> 17 peccauerit uir <hi rend="italic">D,</hi> <lb/>
+            peccatur <hi rend="italic">M\'Q,</hi> peccator <hi rend="italic">MIT,</hi> peccet uir <hi rend="italic">v</hi> aduersus ex aduiri <hi rend="italic">T</hi> <lb/>
+            uirum <hi rend="italic">exp. Q</hi> * 18 dum dm <hi rend="italic">T</hi> 19 orauit <hi rend="italic">T</hi> apoatolus <lb/>
+            paulus <hi rend="italic">QTv</hi> et <hi rend="italic">om. Tv</hi> 21 abitat* <hi rend="italic">D</hi> 22 ∗∗∗ perdit <hi rend="italic">D</hi> <lb/>
+            (dis <hi rend="italic">eras.),</hi> perdet <hi rend="italic">M2Q2V</hi> </note><lb/>
+             
+<pb n="103"/>
+            et Dominus <choice><sic>iterom</sic><corr>iterum</corr></choice> in euangelio negat peccatores et exprobrat dicens: <lb/>
+            recedite a me omnes qui operamini iniustitiam: nescio <lb/>
+            uos. et Iohannes apostolus dicit: omnis qui peccat, non est <lb/>
+            de Deo, sed de diabolo est: et scitis quoniam ideo <lb/>
+            <sic n="poss">jnenturus</sic> est filius Dei, ut perdat filios diaboli. <lb n="5"/>
+            quis Christianus aleator es, tuus et hereditatis tuae inimicus es. quicumque <lb/>
+            es desine ab illa dementia tua miser. quid te in laqueum <lb/>
+            mortis cum diabolo ultro praecipitas? quid opes et diuitias tuas <choice><sic>sordidissiinis</sic><corr>sordidissimis</corr></choice> <lb/>
+            aeris amittis? quid te laqueis saecularibus inuoluis ut cum <lb/>
+            saeculo iudiceris? quid inimicum tuum fauoribus laudando delinquis, <lb n="10"/>
+            cum quo necesse est ut puniaris ?. 
+</p>
+          </div>
+
+<div n="11" subtype="section" type="textpart"><p rend="script">Esto potius non aleator sed christianus, pecuniam tuam adsidente  <lb/>
+            Christo spectantibus angelis et martyribus praesentibus super mensam <lb/>
+            dominicam sparge, patrimonium tuum quod forsitan saeuo studio <lb/>
+            perditurus eras pauperibus diuide, diuitias tuas Christo uincenti <lb n="15"/>
+            committe, seruus cum Domino tuo auocare, studio <sic>deiflco</sic> obsequere, <lb/>
+            artem Domini imitare quae non perdet sed potius acquiret. desine ab <lb/>
+            illos tuos <choice><sic>fnracissimos</sic><corr>furacissimos</corr></choice> mores, cohibe praecipitem nequitiam tuam: <lb/>
+            sit tibi cum <choice><sic>panperibus</sic><corr>pauperibus</corr></choice> cotidianus lusus, sit tibi cum uiduis frequens <lb/>
+            operatio : censum et adparatus tuos omnes ad studium ecclesiae <lb n="20"/>
+            distrahe, aurum tuum et argentum et pecunias tuas in thesauris <lb/>
+            caelestibus repone, fundos et uillas tuas iusta operatione ad paradisum <lb/>
+            <choice><sic>remone</sic><corr>remoue</corr></choice>, ut peccata tua donentur tibi eleemosynis, et
+
+<note type="footnote"> 2 Matth. 7, 23. 8 I Io. 5, 18. </note>
+
+<note rend="script" type="footnote"> 1 et dns iterum <hi rend="italic">D,</hi> iterum dominus <hi rend="italic">Q Tv</hi> euangelio suo <hi rend="italic">QTv</hi> <lb/>
+            exprobat Q 2 omnis D nescio uos D, numquam uos cognitos<lb/>
+             babui <hi rend="italic">QTv</hi> 4 deo est <hi rend="italic">T</hi> 6 aleator christianus <hi rend="italic">QTv</hi> es]<lb/>
+             eat <hi rend="italic">T</hi> 7 tua om. <hi rend="italic">QTv</hi> 8 cum om. <hi rend="italic">MQl</hi> ultro <hi rend="italic">om. T</hi> <lb/>
+            quid] quod <hi rend="italic">QT</hi> sordidissimas aeris <hi rend="italic">QT,</hi> sordidissimo aere <hi rend="italic">Dv; cf. <lb/>
+             p. 98, 14</hi> 9 amittis <hi rend="italic">D,</hi> admittisQTv inuolues <hi rend="italic">D,</hi> inuolens <hi rend="italic">T</hi> <lb/>
+            eum] de v 10 delinques <hi rend="italic">DQT</hi> 11 quod cum <hi rend="italic">MQ1</hi> ut om. <hi rend="italic">QTv</hi> <lb/>
+            14 quem forsitam <hi rend="italic">Q</hi> 16 auocare] uocare 11 17 perdit <hi rend="italic">Dv</hi> acquirit<lb/>
+             v 18 illos tuos furacissimos mores <hi rend="italic">MIQIT,</hi> illis tuis furiacissimis<lb/>
+             moribus <hi rend="italic">DQ\'I,</hi> illo tuo foracissimo more M1 19 sit] si <hi rend="italic">T</hi> 20 tuas <lb/>
+            <hi rend="italic">om. D</hi> 21 thensauria <hi rend="italic">Q</hi> 22 repone <hi rend="italic">ex</hi> et pone <hi rend="italic">Q m. 2,</hi> reconde <lb/>
+            et pone 14 sed reconde in <hi rend="italic">marg</hi>. m. <hi rend="italic">2</hi> apparadiscum <hi rend="italic">Q</hi> 23 tua<lb/>
+             on. <hi rend="italic">QTv</hi> elimosinis <hi rend="italic">QT</hi> orationibus <hi rend="italic">QTv</hi> </note> <lb/>
+             
+<pb n="104"/>
+            operationibus continuis incumbe. alea ne luseris, ubi lusos <sic>nociuos</sic> est et <lb/>
+            crimen mortale, ubi dementia sine consideratione, ubi nulla <choice><sic>neritas</sic><corr>ueritas</corr></choice>, <lb/>
+            sed mendaciorum mandra. abscide inde manum tuam et auerte inde <lb/>
+            cor tuum: extrahe caliginem inimici ab oculis tuis et <sic>purifica</sic> manum <lb/>
+            tuam a sacrificiis diaboli: abice abs te furaces mores, esto patiens et<lb n="5"/>
+            christianus, esto tibi et <choice n="0.00"><sic n="14">tutae</sic><corr n="1998">uitae</corr></choice> tuae in operationibus <choice><sic>instus</sic><corr>iustus</corr></choice> et prouidus, <lb/>
+            fuge diabolum persequentem et fuge aleam inimicam operum tuorum: <lb/>
+            studium sit tibi sapientiae, euangelicis monitis erudire, puras manus <lb/>
+            ad Christum extendere, ut promereri Dominum possis. aleam noli <lb/>
+            respicere. amen. <lb n="10"/>
+            
+</p>
+        
+</div>
+        </div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL16.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Michael Petschenig</name>
+                  <addName xml:lang="de">Michael Petschenig</addName>
+                </persName>
+              </editor> 
+              <editor>
+                <persName>
+                  <name xml:lang="la">Robinson Ellis</name>
+                  <addName xml:lang="de">Robinson Ellis</addName>
+                </persName>
+              </editor> 
+              <editor>
+                <persName>
+                  <name xml:lang="la">Georgius Brandes</name>
+                  <addName xml:lang="de">Georg Brandes</addName>
+                </persName>
+              </editor> 
+              <editor>
+                <persName>
+                  <name xml:lang="la">Carolus Schenkl</name>
+                  <addName xml:lang="de">Karl Schenkl</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1772.1">Paulinus Petricordiae</author>
+              <title>Carmina</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1767.1">Orientius</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0215b.stoa002">Carmina</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1590.1">Paulinus Pellaeus</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0223a.stoa001">Eucharistos</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1802.1">Claudius Marius Victor</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292b.stoa001">Alethia</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1782.1">Proba</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0234f.stoa001">Cento</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author>Anonymus</author>
+              <title>Sancti Paulini Epigramma</title>
+              <title>Versus ad gratiam domini</title>
+              <title>De verbi incarnatione</title>
+              <title>De ecclesia</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptorum16stuoft">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='poem']//tei:l[@n='$2'])"/>
+        <cRefPattern n="poem" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='poem'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0223a.stoa001.opp-lat2">
+<head>
+            <title type="main">PAULINI EVXAPICTIKOC. </title>
+          </head>
+<div subtype="preface" type="textpart">
+          <ab>
+            <title type="sub">PRAEFATIO. </title>
+          </ab>
+          <p rend="script"> Scio quosdam inlustrium uirorum pro suarum splendore <lb/>
+            uirtutum ad perpetuandam suae gloriae dignitatem ephemeridem <lb/>
+            gestorum suorum proprio sermone conscriptam memoriae tradidisse. <lb/>
+            a quorum me praestantissimis meritis tam longe profecto <lb/>
+            quam ipsa temporis antiquitate discretum non utique <lb n="5"/>
+            ratio aequa consilii ad contexendum eiusdem prope materiae <lb/>
+            opusculum prouocauit, cum mihi neque ulla sint gesta tam splendida, <lb/>
+            de quibus aliquam possim captare gloriolam, nec eloquii <lb/>
+            tanta fiducia, ut facile audeam cuiusquam opera scriptoris aemulari, <lb/>
+            [2] sed, quod non piget confiteri, iam dudum me in <lb n="10"/>
+            peregrinatione diuturna aerumnosi otii maerore marcescentem <lb/>
+            misericordia, ut confido, diuina ad huiusmodi me solacia affectanda <lb/>
+            pellexit, quae simul et bene sibi consciae senectuti et <lb/>
+            religioso proposito conuenirent, ut, qui me scilicet totam uitam <lb/>
+            meam deo debere meminissem, totius quoque uitae meae actus <lb n="15"/>
+            ipsius deuotos obsequiis exhiberem eiusdemque gratia concessa <lb/>
+            mihi tempora recensendo eucharisticon ipsi opusculum sub
+
+<note type="footnote"> t Incerti auctoris iuyapw/.bq — <hi rend="italic">JP 4 cf. proleg. p. 283</hi> S. PAU- <lb/>
+            LINI EVXAPISTIKON <hi rend="italic">P</hi> INCIPIT PRAEFATIO <hi rend="italic">BP</hi> 2 aephimeredem <hi rend="italic">B</hi> <lb/>
+            JEphemeridem <hi rend="italic">P</hi> 4 ad quorum (o <hi rend="italic">ex</hi> a) <hi rend="italic">B</hi> profectu <hi rend="italic">Barth. coll. <lb/>
+            Auson. protr. 71</hi> 7 splendida* (m <hi rend="italic">eras.) B</hi> 11 erunosi <hi rend="italic">B</hi> erumnosi <hi rend="italic">P</hi> <lb/>
+            memorem arcente J31 <hi rend="italic">distinxit m. 4 et in mg. ascr</hi>. /• moerore memoria <lb/>
+            marcescentem <hi rend="italic">P cf. proleg. p. 284 n</hi>. 12 me <hi rend="italic">del. Barth</hi>. </note>
+
+<note type="footnote"> XVI. Poet. christ. min, pars J. </note>
+
+<note type="footnote"> 19 </note> <lb/>
+             
+<pb n="290"/>
+            ephemeridis meae relatione contexerem, [3] sciens profecto et <lb/>
+            benignae ipsius misericordiae circa me fuisse, quod <choice n="0.75"><sic n="6">indultis</sic><corr n="2">induitis</corr></choice> <lb/>
+            humano generi temporariis uoluptatibus etiam ipse prima mea <lb/>
+            aetate non carui, et in hac quoque parte curam mihi prouidentiae <lb/>
+            ipsius profuisse, quod me adsiduis aduersitatibus moderanter<lb n="5"/>
+            exercens euidenter instruxit, nec inpensius me praesentem <lb/>
+            beatitudinem debere diligere, quam amittere posse me <lb/>
+            scirem, nec aduersis magnopere terreri, in quibus subuenire <lb/>
+            mihi posse misericordias ipsius <choice><sic>_adprobassem</sic><corr>adprobassem</corr></choice>. [4] proinde si <lb/>
+            quando hoc opusculum meum -in cuiusquam manus uenerit,<lb n="10"/>
+            ex ipso libelli titulo praenotato euidenter debet aduertere me <lb/>
+            hanc meditatiunculam meam, quam omnipotenti deo dedico, <lb/>
+            otio meo potius quam alieno negotio praestitisse, magisque id <lb/>
+            meorum esse uotorum, ut hoc qualecumque obsequium meum <lb/>
+            acceptum deo sit, quam ut carmen incultum ad notitiam perueniat<lb n="15"/>
+            doctiorum. [5] attamen si cui forsitan magis curioso <lb/>
+            tantum otii ab re sua fuerit, ut laboriosum uitae meae ordinem <lb/>
+            uelit agnoscere, exoratum eum cupio, ut, siue aliquid <lb/>
+            seu forsitan nihil in gestis uel in uersibus meis, quod possit <lb/>
+            probare, reppererit, ea tamen ipsa, quae elegerit, obliuioni<lb n="20"/>
+            potius inculcanda deleget, quam memoriae diiudicanda commendet. <lb/>
+            <note rend="script" type="footnote"> 1 aephimeredis <hi rend="italic">B</hi> iEphimeridis <hi rend="italic">P</hi> 2 benigne (e <hi rend="italic">m. 1)</hi> i. misericordie <lb/>
+            <hi rend="italic">B</hi> benigna i. misericordia <hi rend="italic">P</hi> 3 ipsa <hi rend="italic">P</hi> 4 carni P 5 afsi- <lb/>
+            0 <lb/>
+            diuis <hi rend="italic">P</hi> 11 praenotate <hi rend="italic">B</hi> *aduertere <hi rend="italic">B</hi> 16 Adtamen <hi rend="italic">B</hi> 18 uellit <hi rend="italic">B</hi> </note>
+
+<note type="footnote"> 19 seu] siue <hi rend="italic">P</hi> forsitam <hi rend="italic">P</hi> 20 probare (a <hi rend="italic">ex</hi> 0) reppe:rit <hi rend="italic">B</hi> repererit <hi rend="italic">P</hi> <lb/>
+            quaelegerit <hi rend="italic">B</hi> 21 inculpata <hi rend="italic">BP</hi> inculcanda <hi rend="italic">scripsi</hi> EXPLICIT PRAEFA <hi rend="italic">B</hi> <lb/>
+            EXPLICIT PRAEFATIO <hi rend="italic">P</hi> </note> 
+<pb n="291"/>
+            
+</p>
+</div>
+<div subtype="poem" type="textpart">
+          <ab>
+            <title type="sub">EVXAPICTIKOC DEO SUB EPHEMERIDIS MEAE TEXTU. </title>
+          </ab>
+          <l n="1"><milestone rend="script" unit="para"/>Enarrare parans annorum lapsa meorum  </l>
+            <l n="2">tempora et in seriem deducere gesta dierum,  </l>
+            <l n="3">ambigua exactos uitae quos sorte cucurri,  </l>
+            <l n="4">te, deus omnipotens, placidus mihi, deprecor, adsis  </l>
+            <l n="5">adspiransque operi placita tibi coepta secundes,  </l>
+            <l n="6">effectum scriptis tribuens uotisque profectum,  </l>
+            <l n="7">ut tua te merear percurrere dona iuuante.  </l>
+            <l n="8">omnia namque meae tibi debeo tempora uitae,  </l>
+            <l n="9">auram ex quo primum uitalis luminis hausi,  </l>
+            <l n="10">inter et aduersas iactatus saepe procellas  </l>
+            <l n="11">instabilis mundi te protectore senescens  </l>
+            <l n="12">altera ab. undecima annorum currente meorum  </l>
+            <l n="13">hebdomade sex aestiui flagrantia solis </l>
+
+<note type="footnote"> 4 sq.] Uerg. Aen. X, 461 te precor Alcide coeptis ingentibus adsis. <lb/>
+            HII, 578. adsis o placidusque iuues, cf. Paulin. Nol. VI, 159. 5] Uerg. <lb/>
+            Aen. VII, 259 di nostra incepta secundent. 9] Sedul. C. P. V, 51 sq. nec <lb/>
+            luminis huius hausisset placidas flabris uitalibus auras, cf. Uerg. Georg. <lb/>
+            II, 340 cum primae lucem pecudes hausere, Aen. I, 387 sq. auras uitalis <lb/>
+            carpis. 12] Uerg. Ecl. VIII, 39 alter ab undecimo tum me iam acceperat <lb/>
+            annus. 13 sq.] Uerg. Georg. I, 48 bis quae solem, bis frigora sensit <lb/>
+            Auson. Ecl. X, 1 sqq. (Schenkl) sol-feruidis lfagrans habenis pulsum aestiuum <lb/>
+            conficit. Prec. cons. I, 9 solstitia et gelidum boream, cf. Uerg. Georg. <lb/>
+            I, 100, Paulin. Nol. XlIII, 15 sq. post solstitium-tempora brumae. </note>
+
+<note rend="script" type="footnote"> Incip. eYxapicnkoc do sub aephimeridis meae textu <hi rend="italic">B</hi> INCIPIT <lb/>
+            EYXAPISTIKON DEO Sub iEphemeridis meae textu <hi rend="italic">P</hi> 1 labsa <hi rend="italic">B</hi> <lb/>
+            2 gesta (a <hi rend="italic">ex</hi> u) <hi rend="italic">B</hi> 4 ds <hi rend="italic">ex</hi> di <hi rend="italic">B</hi> depr*ecor (a <hi rend="italic">eras.) B fort</hi>. te <lb/>
+            precor 5 placito <hi rend="italic">Bartli</hi> de <hi rend="italic">B3 in mg</hi>. 9 ausi <hi rend="italic">B</hi> 11 instabilis <hi rend="italic">Barth</hi> <lb/>
+            instabiles <hi rend="italic">BP</hi> lis <hi rend="italic">B3 in mg</hi>. 12 currente:eoru (e: <hi rend="italic">ex</hi> e) <hi rend="italic">B</hi> 13 ebdoa <lb/>
+            <lb/>
+            made <hi rend="italic">B</hi> ebdomade P sexte aestiui <hi rend="italic">B</hi> </note>
+
+<note type="footnote"> 19* </note> <lb/>
+             
+<pb n="292"/>
+            <l n="14">solstitia et totidem brumae iam frigora uidi  </l>
+            <l n="15">te donante, deus, lapsi qui temporis annos  </l>
+            <l n="16">instaurando nouas cursu reuolubilis aeui.  </l>
+            <l n="17">sit mihi fas igitur uersu tua dona canentem  </l>
+            <l n="18">pangere et expressas uerbis quoque pendere grates,  </l>
+            <l n="19">quas equidem et clausas scimus tibi corde patere,  </l>
+            <l n="20">ultro sed abrumpens tacitae penetralia mentis  </l>
+            <l n="21">fontem exundantis uoti uox conscia prodit.  </l>
+            <l n="22">tu mihi lactanti uires in corpore inerti  </l>
+            <l n="23">ad toleranda uiae pelagique incerta dedisti,  </l>
+            <l n="24">editus ut Pellis inter cunabula quondam  </l>
+            <l n="25">regis Alexandri prope moenia Thessalonices  </l>
+            <l n="26">patre gerente uices inlustris praefecturae,  </l>
+            <l n="27">orbis ad alterius discretas aequore terras  </l>
+            <l n="28">perueherer, trepidis nutricum creditus ulnis,  </l>
+            <l n="29">ninguida perque iuga et sectas torrentibus Alpes  </l>
+            <l n="30">Oceanumque fretum Tyrrheni et gurgitis undas  </l>
+            <l n="31">moenia Sidoniae Carthaginis usque uenirem,  </l>
+            <l n="32">ante suum nono quam menstrua luna recursu  </l>
+            <l n="33">luce nouata orbem nostro compleret ab ortu.  </l>
+            <l n="34">illic, ut didici, ter senis mensibus actis </l>
+
+<note type="footnote"> 15 sq.] cf. Uerg. Georg. I, 6. 16] Auson. Ecl. I, 12 octaua instaurat <lb/>
+            reuolubilis orbita solem. 20] Iuuenc. IIH, 7 ille sed abrumpens <lb/>
+            saeui penetralia cordis, I, 506 tacitae mentis penetralia, cf. IIII, 43. <lb/>
+            22] Uerg. Aen. V, 396 effetae in corpore uires. 23] Paulin. Nol. XIII, 13 <lb/>
+            inter dura uiae uitaeque incerta uocaui <hi rend="italic">(al</hi>. uocasti). 24] cf. Uerg. Aen. <lb/>
+            III, 105. 27] cf. Paulin. Nol. X, 104. 29] Auson. Epist. XXV, 69 <lb/>
+            iuga ninguida. 30] Uerg. Georg. II, 164 Tyrrhenusque fretis. 31] cf. <lb/>
+            Uerg. Aen. I, 678. 32 sq.] Uerg. Georg. I, 353 menstrua luna, Ouid. <lb/>
+            Met. XI, 453 sq. ante reuersurum quam luna bis impleat orbem. his ubi <lb/>
+            promissis spes est admota recursus, Uerg. Aen. V, 46 annuus exactis completur <lb/>
+            mensibus orbis. 34] Uerg. Georg. I, 247 illuc ut perhibent. </note>
+
+<note rend="script" type="footnote"> i <lb/>
+            14 brume.am <hi rend="italic">B</hi> frigore <hi rend="italic">P</hi> 15 ds <hi rend="italic">ex</hi> di <hi rend="italic">B</hi> 16 cursum <hi rend="italic">Barth</hi> <lb/>
+            aeui (i <hi rend="italic">ex</hi> o) <hi rend="italic">B</hi> 18 expraessas <hi rend="italic">B</hi> 19 quidem <hi rend="italic">B</hi> eq B3 <hi rend="italic">in mg</hi>. <lb/>
+            clauso <hi rend="italic">P</hi> 20 poenaralia <hi rend="italic">B</hi> 27 urbis (o <hi rend="italic">m. 3 in mg.) B</hi> vrbis <hi rend="italic">(in <lb/>
+            mg</hi>. orbis) <hi rend="italic">P</hi> aequora <hi rend="italic">B</hi> re <hi rend="italic">B3 in mg</hi>. 30 tyrreni <hi rend="italic">B</hi> Tyrrem <hi rend="italic">P</hi> <lb/>
+            31 chartaginis <hi rend="italic">B</hi> Chartaginis <hi rend="italic">P</hi> 32 uouo <hi rend="italic">P</hi> 33 compleret <hi rend="italic">B</hi> <lb/>
+            34 terrenis <hi rend="italic">B1 corr. m. 2</hi> </note> <lb/>
+             
+<pb n="293"/>
+            <l n="35">sub genitore meo proconsule rursus ad aequor  </l>
+            <l n="36">expertasque uias reuocor, uisurus et orbis  </l>
+            <l n="37">inclita culminibus praeclarae moenia Romae;  </l>
+            <l n="38">quae tamen haut etiam sensu agnoscenda tuentis  </l>
+            <l n="39">subiacuere mihi, sed post conperta relatu  </l>
+            <l n="40">adsiduo illorum, quibus haec tum nota fuere,  </l>
+            <l n="41">propositum seruans operis subdenda putaui.  </l>
+            <l n="42">tandem autem exacto longarum fine uiarum.  </l>
+            <l n="43">maiorum in patriam tectisque aduectus auitis  </l>
+            <l n="44">Burdigalam ueni, cuius speciosa Garumna  </l>
+            <l n="45">moenibus Oceani refluas maris inuehit undas  </l>
+            <l n="46">nauigeram per portam, quae portum spatiosum  </l>
+            <l n="47">nunc etiam muris spatiosa includit in urbe.  </l>
+            <l n="48">tunc et auus primum illic fit mihi cognitus, anni  </l>
+            <l n="49">eiusdem consul, nostra trieteride prima.  </l>
+            <l n="50">quae postquam est expleta mihi firmauit et artus  </l>
+            <l n="51">inualidos crescens uigor et mens conscia sensus  </l>
+            <l n="52">adsuefacta usum didicit cognoscere rerum —  </l>
+            <l n="53">quidquid iam * * potui meminisse, necesse est,  </l>
+            <l n="54">ipse fide propria de me agnoscenda retexam.  </l>
+            <l n="55">sed quid ego ex nostris aliud puerilibus annis,  </l>
+            <l n="56">quos mihi libertas ludusque et laetior aetas  </l>
+            <l n="57">conciliare suis meritis potuisse uidentur,  </l>
+            <l n="58">uel magis ipse libens recolam, uel dignius ausim </l>
+
+<note type="footnote"> 37] Uerg. Aen. I, 7 altae moenia Romae, cf. VI, 781. 42] Uerg. <lb/>
+            Aen. III, 714 longarum haec meta uiarum. 43] cf. Uerg. Aen. III, 108. <lb/>
+            44 sqq.] Auson. Ordo urb. 146 quem pater Oceanus refluo cum impleuerit <lb/>
+            aestu, Sedul. C. P. II, 163 Iordanis refluas cursum conuertit in undas, <lb/>
+            Auson. de hered. 26 nauiger hic refluus me uehit ac reuehit. 51] Sedul. <lb/>
+            C. P. IIII, 152 mens conscia recti, cf. Uerg. Aen. I, 604. 55] Uerg. Aen. <lb/>
+            II, 101 sed quid ego haec. Auson. Genethl. 1 puerilibus annis, cf. Ouid. <lb/>
+            Met. II, 55. </note>
+
+<note type="footnote"> 36 orbis <hi rend="italic">Barth</hi> urbis <hi rend="italic">BP</hi> 37 rome <hi rend="italic">B</hi> 38 quaaamen <hi rend="italic">B fort</hi>. <lb/>
+            tuenti .39 comperta <hi rend="italic">B</hi> 44 spatiosa <hi rend="italic">Barth</hi> Garunna <hi rend="italic">B</hi> 46 spaciosum <lb/>
+            <hi rend="italic">B</hi> 47 Nunc <hi rend="italic">Ti1 corr. \'In. 2 in</hi> non haec <hi rend="italic">P</hi> hac <hi rend="italic">Barth</hi> <lb/>
+            51 meus P 53 quicquid <hi rend="italic">ex</hi> quidquid <hi rend="italic">B</hi> quidquid enim potui meminisse <lb/>
+            egisse <hi rend="italic">Barth</hi> posthac <hi rend="italic">uel simile aliquid excidisse suspicor cf. <lb/>
+            proleg. p. 278</hi> 54 agnoscendo <hi rend="italic">Barth</hi> 58 uidens <hi rend="italic">BP</hi> libens <hi rend="italic">scripsi</hi> </note> <lb/>
+             
+<pb n="294"/>
+            <l n="59">inserere huic nostro, quem uersu <choice n="0.18"><sic n="2">cudo</sic><corr n="9">endo</corr></choice>, libello  </l>
+            <l n="60">quam pietatis opus studiumque insigne parentum  </l>
+            <l n="61">permixtis semper docta exercere peritum  </l>
+            <l n="62">blanditiis gnaramque apto moderamine curam  </l>
+            <l n="63">insinuare mihi morum instrumenta bonorum  </l>
+            <l n="64">ingenioque rudi celerem conferre profectum,  </l>
+            <l n="65">ipsius alphabeti inter prope prima elementa  </l>
+            <l n="66">nosse cauere decem specialia signa amathiae  </l>
+            <l n="67">nec minus et uitia uitare a/.otvovorJTa.  </l>
+            <l n="68">quarum iam dudum nullus uigeat licet usus  </l>
+            <l n="69">disciplinarum, uitiato scilicet aeuo,  </l>
+            <l n="70">me Romana tamen, fateor, seruata uetustas  </l>
+            <l n="71">plus iuuat atque seni propria est acceptior aetas.  </l>
+            <l n="72">nec sero exacto primi mox tempore lustri  </l>
+            <l n="73">dogmata Socratus et bellica plasmata Homeri  </l>
+            <l n="74">erroresque legens cognoscere cogor Ulixis;  </l>
+            <l n="75">protinus ad libros etiam transire Maronis  </l>
+            <l n="76">uix bene conperto iubeor sermone Latino,  </l>
+            <l n="77">conloquio Graiorum adsuefactus famulorum,  </l>
+            <l n="78">quos mihi iam longus ludorum iunxerat usus,  </l>
+            <l n="79">unde labor puero, fateor, fuit hic mihi maior,  </l>
+            <l n="80">eloquium librorum ignotae apprehendere linguae.  </l>
+            <l n="81">quae doctrina duplex sicut est potioribus apta  </l>
+            <l n="82">ingeniis geminoque ornat splendore peritos,  </l>
+            <l n="83">sic sterilis nimium nostri, ut modo sentio, cordis  </l>
+            <l n="84">exilem facile exhausit diuisio uenam. </l>
+
+<note type="footnote"> 67] Uerg. Aen. VIIII, 310, XI, 203 nec minus et. 73] Auson. (?) <lb/>
+            Perioch. praef. 17 Homericum plasma cf. Epist. X, 2. </note>
+
+<note rend="script" type="footnote"> 59 hoc <hi rend="italic">B</hi> 61 p. s. docta <hi rend="italic">Schenkl</hi> p. s. doctrinam <hi rend="italic">BP</hi> p. bene doctria <lb/>
+            <lb/>
+            nam <hi rend="italic">Barth</hi> mixtis s. doctrinam <hi rend="italic">Leipziger</hi> doctrinam <hi rend="italic">aut ex</hi> doct <hi rend="italic">ortum<lb/>
+             aut interpr. margin. in textum illata, cf. proleg. p. 278</hi> 62 gnaru que <hi rend="italic">B</hi> <lb/>
+             <lb/>
+            quorumque P gnaramque <hi rend="italic">scripsi</hi> 65 alfabeti <hi rend="italic">BP</hi> prim . elementa <hi rend="italic">B</hi> <lb/>
+            66 decim <hi rend="italic">B</hi> 67 euitare <hi rend="italic">P cf. 581. 610</hi> akoinononta <hi rend="italic">B</hi> akinononta P <lb/>
+            <hi rend="italic">a/.ocvojv7)ia Leipsiger azov/ovdraa scripsi 71 utque Barth sani Bl corr. m, 2</hi> <lb/>
+            v h <lb/>
+            73 *socratus (i <hi rend="italic">eras.) B</hi> Socratus <hi rend="italic">m. 3 in mg</hi>. omeri (h <hi rend="italic">a m. 2) B</hi> <lb/>
+            74 Ulyssis <hi rend="italic">dl</hi> 76 comperta <hi rend="italic">B</hi> 78 uinxerat <hi rend="italic">P</hi> 81 sicut potioribus <lb/>
+            apta est <hi rend="italic">Barth</hi> 83 steriles <hi rend="italic">B2 corr. m. 2</hi> steriles <hi rend="italic">P</hi> 84 exausit <hi rend="italic">B</hi> </note> <lb/>
+             
+<pb n="295"/>
+            <l n="85">quod nunc inuito quoque me haec mea pagina prodit,  </l>
+            <l n="86">inconsulta quidem, quam sponte expono legendam,  </l>
+            <l n="87">sed mihi non rebus, quantum confido, pudenda,  </l>
+            <l n="88">quarum notitiam scriptis contexere conor:  </l>
+            <l n="89">namque ita me sollers castorum cura parentum  </l>
+             <l n="90">a puero instituit, laedi ne quando sinistro  </l>
+            <l n="91">cuiusquam sermone mea se fama timeret.  </l>
+            <l n="92">quae licet obtineat proprium bene parta decorem,  </l>
+            <l n="93">hoc potiore tamen tum me decorasset honore,  </l>
+            <l n="94">consona si nostris primo sub tempore uotis  </l>
+            <l n="95">hac in parte etiam mansissent uota parentum,  </l>
+            <l n="96">perpetuo ut puerum seruarent me tibi, Christe,  </l>
+            <l n="97">rectius hanc curam <sic>pto</sic> me pietatis habentes,  </l>
+            <l n="98">carnis ut inlecebris breuiter praesentibus expers  </l>
+            <l n="99">aeternos caperem uenturo in tempore fructus.  </l>
+            <l n="100">sed quoniam nunc iam magis hoc me credere fas est  </l>
+            <l n="101">conduxisse mihi, quod te uoluisse probasti,  </l>
+            <l n="102">omnipotens aeterne deus, qui cuncta gubernas,  </l>
+            <l n="103">culpato renouando mihi uitalia dona,  </l>
+            <l n="104">hoc nunc maiores pro me tibi debeo grates,  </l>
+            <l n="105">maiorum quanto errorum cognosco reatum.  </l>
+            <l n="106">namque et incautus quidquid culpabile gessi  </l>
+            <l n="107">inlicitumque uagus per lubrica tempora uitae,  </l>
+            <l n="108">te indulgente mihi totum scio posse remitti,  </l>
+            <l n="109">ex quo me reprobans lapsum ad tua iura refugi, </l>
+
+<note type="footnote"> 89] Uerg. Aen. III, 341 cura parentis. 92] Uerg. Aen. V, 229 hi proprium <lb/>
+            decus et partum indignantur honorem 99] Paulin. Nol. IIIJ, 19 <lb/>
+            perpetuam spondens uentura in saecula uitam. 100] Iuuenc. IIII, 468 <lb/>
+            si credere fas est. 102] Sedul. C. P. I, 60 omnipotens aeterne deus sqq. <lb/>
+            109] Uerg. Aen. IIII, 27 aut tua iura resoluo. </note>
+
+<note rend="script" type="footnote"> 88 contexero <hi rend="italic">B1 corr. m. 2</hi> 89 solers P 91 cuiusquamJ cui <hi rend="italic">B2 in ras</hi>. <lb/>
+            94 uoti <hi rend="italic">Bl</hi> s <hi rend="italic">add. m. 2</hi> 96 puerom <hi rend="italic">B</hi> 99 fructui <hi rend="italic">Bx corr. m. 2</hi> <lb/>
+            100 quo <hi rend="italic">B</hi> quomodo <hi rend="italic">P</hi> quoniam <hi rend="italic">Barth cf. proleg. p. 284</hi> 103 culpatore <lb/>
+            nouando P 104 debeo grates <hi rend="italic">B2 in ras</hi>. 105 <hi rend="italic">fort</hi>. maiorem <lb/>
+            <hi rend="italic">cf. 111</hi> cognosc* (e <hi rend="italic">eras.) Bx 106 iiicautos</hi> (v <hi rend="italic">a m. 2) B</hi> incautos P <lb/>
+            quicquid <hi rend="italic">ex</hi> quidquid <hi rend="italic">B</hi> 109 actiua P </note> <lb/>
+             
+<pb n="296"/>
+            <l n="110">et si ulla umquam potui peccata cauere,  </l>
+            <l n="111">quae mihi maiorem parerent commissa reatum,  </l>
+            <l n="112">hoc quoque me indeptum diuino munere noui.  </l>
+            <l n="113">Sed redeo ad seriem decursaque illius aeui  </l>
+            <l n="114">tempora, quo studiis intentus litteraturae  </l>
+            <l n="115">ultro libens aliquem iam me mihi ipse uidebar  </l>
+            <l n="116">uotiuum inpensi, operis sentire profectum,  </l>
+            <l n="117">Argolico pariter Latioque instante magistro,  </l>
+            <l n="118">cepissemque etiam forsan fructum quoque dignum,  </l>
+            <l n="119">ni subito incumbens quartana acerba meorum  </l>
+            <l n="120">conatus placitos studiorum destituisset  </l>
+            <l n="121">uix impleta aeui quinta trieteride nostri.  </l>
+            <l n="122">consternata autem pro me pietate parentum,  </l>
+            <l n="123">quippe quibus potior uisa est curatio nostri  </l>
+            <l n="124">corporis inualidi quam doctae instructio linguae,  </l>
+            <l n="125">primitus hoc medicis suadentibus, ut mihi iugis  </l>
+            <l n="126">laetitia atque animo grata omnia prospicerentur;  </l>
+            <l n="127">quae pater in tantum studuit per se ipse parare,  </l>
+            <l n="128">deposito ut nuper uenandi attentius usu —  </l>
+            <l n="129">causa equidem sola studiorum quippe meorum,  </l>
+            <l n="130">neue his officeret, sibi me ad sua ludicra iungens,  </l>
+            <l n="131">neu sine me placitis umquam solus frueretur —  </l>
+            <l n="132">me propter rursus cura maiore resumens  </l>
+            <l n="133">eiusdem ludi cuncta instrumenta nouaret,  </l>
+            <l n="134">ex quibus optatam possem captare salutem. </l>
+
+<note type="footnote"> 113] Auson. Praef. II, 13 set redeo ad seriem. 116] Uerg. Aen. <lb/>
+            XI, 228 tantorum inpensis operum.. 118] Uerg. Aen. V, 232 sq. et fors <lb/>
+            aequatis cepissent praemia rostris, ni palmas ponto tendens utrasque Cloanthus <lb/>
+            fudissetque preces. 131] Uerg. Ecl. X, 48 me sine sola uides. </note>
+
+<note rend="script" type="footnote"> 110 ullam <hi rend="italic">B m. 3 in mg</hi>. in te um 112 dinino <hi rend="italic">P</hi> 113 decursa <lb/>
+            quae <hi rend="italic">B</hi> 115 mihi iam mecum <hi rend="italic">Barth fort</hi>. iamiam mihi <hi rend="italic">cf. proleg. <lb/>
+            p. 277 n. 116 Bs in mg. sis 117 latio quae BP</hi> 118 cepissemque] <lb/>
+            ss <hi rend="italic">in ras. B2</hi> forsan* (n <hi rend="italic">ex</hi> m) <hi rend="italic">B</hi> 120 placidos <hi rend="italic">P</hi> 122 <hi rend="italic">cf</hi>. <lb/>
+            ce ce <lb/>
+            <hi rend="italic">proleg. p. 277 n</hi>. 126 prospirentur (i <hi rend="italic">ex</hi> e) <hi rend="italic">Bl</hi> 130 neue hi sufficera <lb/>
+            <hi rend="italic">B m. 3 in mg</hi>. his offi ne ue hi sufficeret <hi rend="italic">P</hi> neue mihi officeret <lb/>
+            <hi rend="italic">Barth</hi> ne mihi o. <hi rend="italic">Leipziger</hi> 133 ludi** (ci <hi rend="italic">eras.) B</hi> 134 posse <hi rend="italic">B1 <lb/>
+            e m. 2</hi> </note> <lb/>
+             
+<pb n="297"/>
+            <l n="135">quae protracta diu longi per tempora morbi  </l>
+            <l n="136">inuexere mihi iugem iam deinde legendi  </l>
+            <l n="137">desidiam, officeret durans quae postea sano  </l>
+            <l n="138">succedente <choice n="0.77"><sic n="329">nouo</sic><corr n="95">nono</corr></choice> mundi fallacis amore  </l>
+            <l n="139">et tenero nimium <choice n="0.94"><sic n="56">affectu</sic><corr n="3">affecta</corr></choice> cedente parentum,  </l>
+            <l n="140">sufficeret quibus ex nostra gaudere salute.  </l>
+            <l n="141">qua ratione auctus noster quoque creuit et error,  </l>
+            <l n="142">firmatus facile ad iuuenalia uota sequenda,  </l>
+            <l n="143">ut mihi pulcher equus falerisque ornatior esset,  </l>
+            <l n="144">strator procerus, uelox canis et speciosus  </l>
+            <l n="145">accipiter, Romana et nuper ab urbe petita  </l>
+            <l n="146">aurata instrueret nostrum sphera concita ludum,  </l>
+            <l n="147">cultior utque mihi uestis foret et noua saepe  </l>
+            <l n="148">quaeque Arabi muris leni fragraret odore.  </l>
+            <l n="149">nec minus et uegetus ueloci currere uectus  </l>
+            <l n="150">semper equo gaudens quotiens euasero casus  </l>
+            <l n="151">abruptos, recolens — Christi me munere fas est  </l>
+            <l n="152">credere seruatum, quod tum nescisse dolendum est,  </l>
+            <l n="153">scilicet inlecebris urgentibus undique mundi.  </l>
+            <l n="154">quas inter fluitans interque et uota parentum,  </l>
+            <l n="155">iugiter in nostram tendentia posteritatem,  </l>
+            <l n="156">iam prope sero calens aeui pro tempore nostri  </l>
+            <l n="157">in noua prorupi iuuenalis gaudia luxus,  </l>
+            <l n="158">quae facile ante puer rebar me posse <choice n="0.45"><sic n="82">cauere</sic><corr n="98">canere</corr></choice>.  </l>
+            <l n="159">attamen in quantum lasciua licentia cauto  </l>
+            <l n="160">stricta coherceri potuit moderamine freni,  </l>
+            <l n="161">congererem grauiora meis ne crimina culpis, </l>
+
+<note type="footnote">143] Uerg. Aen. V, 310 equum phaleris insignem cf. Sedul. IIII, 295. <lb/>
+            150] Uerg. Aen. X, 316 casus euadere ferri, IX, 99 quaecumque euaserit <lb/>
+            undis. 160] Prud. praef. 29 sq. legum moderamine frenos nobilium reximus <lb/>
+            urbium. </note>
+
+<note rend="script" type="footnote"> 137 duransque <hi rend="italic">P</hi> 139 e <hi rend="italic">BP</hi> et <hi rend="italic">scripsi</hi> caedente <hi rend="italic">BP</hi> 142 fir- <lb/>
+            I <lb/>
+            matus <hi rend="italic">Barth</hi> firmatur <hi rend="italic">BP B3 in mg</hi>. tus 148 fragraret (1 <hi rend="italic">a m. 2 del</hi>. <lb/>
+            m. 3) <hi rend="italic">B</hi> flagraret <hi rend="italic">P</hi> 149 <hi rend="italic">sq</hi>. n. m. ut u. u. c. suetus — quoties euadere <lb/>
+            <hi rend="italic">casus a. recolam Barth cf. proleg. p. 277 n. 154 fluctans P</hi> 157 prorupi* <lb/>
+            (t? <hi rend="italic">eras.) B</hi> 160 stircta <hi rend="italic">B m. 3 mg</hi>. stricta coerceri P </note> <lb/>
+             
+<pb n="298"/>
+            <l n="162">hac mea castigans lege incentiua repressi,  </l>
+            <l n="163">inuitam ne quando ullam iurisue alieni  </l>
+            <l n="164">adpeterem <choice n="0.9"><sic n="9">carumque</sic><corr n="1">caramque</corr></choice> memor seruare pudorem  </l>
+            <l n="165">cedere et ingenuis oblatis sponte cauerem,  </l>
+            <l n="166">contentus domus inlecebris famulantibus uti,  </l>
+            <l n="167">quippe reus culpae potius quam criminis esse  </l>
+            <l n="168">praeponens famaeque timens incurrere damna.  </l>
+            <l n="169">sed neque hoc etiam mea inter gesta silebo,  </l>
+            <l n="170">unum me nosse ex me illo in tempore natum,  </l>
+            <l n="171">uisum autem neque illum tum, quia est cito functus,  </l>
+            <l n="172">nec quemquam, fuerit spurius post qui meus, umquam,  </l>
+            <l n="173">cum mihi lasciuae inlecebris sociata iuuentae  </l>
+            <l n="174">libertas grauius quisset dominando nocere,  </l>
+            <l n="175">ni tibi, Christe, mei iam tunc quoque cura fuisset.  </l>
+            
+
+          <l n="176"><milestone rend="script" unit="para"/>Talis uita mihi a ter senis circiter annis  </l>
+            <l n="177">-usque duo durans impleta decennia mansit,  </l>
+            <l n="178">donec me inuitum, fateor, pia cura parentum  </l>
+            <l n="179">cogeret inuectum blanda suetudine ritum  </l>
+            <l n="180">deserere atque nouum conpelleret esse maritum  </l>
+            <l n="181">coniugis, antiquo potius cuius domus esset  </l>
+            <l n="182">nomine magnifica, quam quae possessa placere  </l>
+            <l n="183">ad praesens posset nimiis obnoxia curis,  </l>
+            <l n="184">dudum desidia domini neclecta senili,  </l>
+            <l n="185">parua cui neptis functo genitore superstes  </l>
+            <l n="186">successit, taedisque meis quae postea cessit.  </l>
+            <l n="187">sed semel inpositum statuens tolerare laborem  </l>
+            <l n="188">suffragante animi studiis feruore iuuentae,  </l>
+            <l n="189">uix paucis domus indeptae exercere diebus </l>
+
+<note type="footnote"> 175] Paulin. Nol. X, 119 si tibi cura mei reditus. 178] cf. 89. <lb/>
+            179] Auson. Protr. 16 placita suetudine uultus. </note>
+
+<note type="footnote"> 162 haec P 165 ingeniis <hi rend="italic">B1</hi> uis <hi rend="italic">m. 2 eadem in mg</hi>. misceri <lb/>
+            169 aiam ea <hi rend="italic">B1</hi> ia <hi rend="italic">m. 2</hi> 170 nouisse P <hi rend="italic">cf. 66. 442. 445. 452</hi> <lb/>
+            172 mes P 174 quisset <hi rend="italic">Barth</hi> quissent <hi rend="italic">BP</hi> 176 ater <hi rend="italic">B1 corr. <lb/>
+            m. 2</hi> 180 compelleret <hi rend="italic">B</hi> 182 quamq; <hi rend="italic">B</hi> placere <hi rend="italic">Dmim</hi> placeret <lb/>
+            <hi rend="italic">BP</hi> 183 nimiis] munus P 184 neclecta <hi rend="italic">B1</hi> Cj <hi rend="italic">in</hi> g <hi rend="italic">corr. \'In. 2</hi> <lb/>
+            nec lecta P </note> <lb/>
+             
+<pb n="299"/>
+            <l n="190">gaudia contentus, malesuada otia curis  </l>
+            <l n="191">mutare insolitis cito meque meosque coegi,  </l>
+            <l n="192">quos potui, exemplo proprii inuitando laboris,  </l>
+            <l n="193">quosdam autem inuitos domini adstringendo rigore.  </l>
+            <l n="194">atque ita suscepti status actibus inpiger instans  </l>
+            <l n="195">protinus <sic>et/culturam</sic> agris adhibere refectis  </l>
+            <l n="196">et fessis celerem properaui inpendere curam  </l>
+            <l n="197">uinetis conperta mihi ratione nouandis  </l>
+            <l n="198">et, quod praecipue plerisque uidetur amarum,  </l>
+            <l n="199">ultro libens primus fiscalia debita certo  </l>
+            <l n="200">tempore persoluens propere mihi fida paraui  </l>
+            <l n="201">otia, priuatae post inpendenda quieti.  </l>
+            <l n="202">quae et mihi cara nimis semper fuit ingenioque  </l>
+            <l n="203">congrua prima meo mediocria desideranti,  </l>
+            <l n="204">proxima deliciis et ab ambitione remota,  </l>
+            <l n="205">ut mihi compta domus spatiosis aedibus esset .  </l>
+            <l n="206">et diuersa anni per tempora iugiter apta,  </l>
+            <l n="207">mensa opulenta nitens, plures iuuenesque ministri  </l>
+            <l n="208">inque usus uarios grata et numerosa supellex  </l>
+            <l n="209">argentumque magis pretio quam pondere praestans  </l>
+            <l n="210">et diuersae artis cito iussa explere periti  </l>
+            <l n="211">artifices stabula et iumentis plena refectis,  </l>
+            <l n="212">tunc et carpentis euectio tuta decoris —  </l>
+            <l n="213">nec tamen his ipsis attentior amplificandis,  </l>
+            <l n="214">quam conseruandis studiosior et neque census  </l>
+            <l n="215">augendi cupidus nimis aut ambitor honorum,  </l>
+            <l n="216">sed potius, fateor, sectator deliciarum, </l>
+
+<note type="footnote">190] Auson: Epist. XXV, 7 malesuadae credula causis. 196] Uerg. <lb/>
+            Georg. II, 433 inpendere curam. 205 sqq.] Paulin. Nol. IIII, 15 sq. <lb/>
+            adsit laeta domus — nitidusque minister. 207] Uerg. Georg. III, 118 <lb/>
+            iuuenemque magistri, Aen. I, 705 pares aetate ministri. 208] Uerg. Georg. <lb/>
+            I, 133 ut uarias usus. </note>
+
+<note rend="script" type="footnote"> e o <lb/>
+            190 <hi rend="italic">malasuada B</hi> malasuada. P 193 quasdam (o <hi rend="italic">add. 1n. 3) B</hi> <lb/>
+            inuictos <hi rend="italic">P</hi> 194 ita <hi rend="italic">B2 in lac</hi>. 197 uinctis <hi rend="italic">BP</hi> uinetis <hi rend="italic">B* in mg. <lb/>
+            Barth</hi> 202 qua &amp; <hi rend="italic">B</hi> 209 prestans <hi rend="italic">B</hi> 210 diuerse <hi rend="italic">B</hi> diuersa P <lb/>
+            211 refectis <hi rend="italic">BP</hi> refertis <hi rend="italic">dl</hi> 213 <hi rend="italic">cf. proleg. p. 277 n</hi>. 214 causas P <lb/>
+            <hi rend="italic">cf. proleg. p. 284</hi> </note> <lb/>
+             
+<pb n="300"/>
+            <l n="217">si qua tamen minimo pretio expensaque parari  </l>
+            <l n="218">et saluo famae possent constare decore,  </l>
+            <l n="219">ne nota luxuriae studium macularet honestum.  </l>
+            <l n="220">quae mihi cuncta tamen grata acceptaque fruenti  </l>
+            <l n="221">cara magis pietas superabat magna parentum,  </l>
+            <l n="222">obstringens sibi me nexu dominantis amoris,  </l>
+            <l n="223">maiore ut parte anni ipsis praesentia nostra  </l>
+            <l n="224">seruiret, paribus perdurans consona uotis  </l>
+            <l n="225">communemque parans per mutua gaudia fructum.  </l>
+            
+
+          <l n="226"><milestone rend="script" unit="para"/>Cuius uitae utinam nobis prolixior usus  </l>
+            <l n="227">concessus largo mansisset munere Christi,  </l>
+            <l n="228">persistente simul priscae quoque tempore pacis!  </l>
+            <l n="229">multimodis quisset nostrae prodesse iuuentae  </l>
+            <l n="230">consulti patris adsidua conlatio <choice><sic>nerbi</sic><corr>uerbi</corr></choice>  </l>
+            <l n="231">exemplisque bonis studiorum instructio crescens.  </l>
+            <l n="232">sed transacta aeui post trina decennia nostri  </l>
+            <l n="233">successit duplicis non felix cura laboris,  </l>
+            <l n="234">publica quippe simul clade in commune dolenda  </l>
+            <l n="235">hostibus infusis Romani in uiscera regni  </l>
+            <l n="236">priuata cum sorte patris de funere functi:  </l>
+            <l n="237">ultima namque eius finitae tempora uitae  </l>
+            <l n="238">temporibus ruptae pacis prope iuncta fuere.-  </l>
+            <l n="239">at mihi damna domus populantem inlata per hostem,  </l>
+            <l n="240">per se magna licet, multo leuiora fuere  </l>
+            <l n="241">defuncti patris inmodico conlata dolori,  </l>
+            <l n="242">per quem cara mihi et patria et domus ipsa fiebat:  </l>
+            <l n="243">tamque etenim fido tradentes mutua nobis  </l>
+            <l n="244">officia affectu conserto uiximus aeuo, </l>
+
+<note type="footnote"> 221] Uerg. Aen. V, 724 care magis. 226 sq.] Uerg. Aen. III, 616 <lb/>
+            mansissetque utinam fortuna! 227] Paulin. Nol. XXVII, 44. 176 XXV, <lb/>
+            210 munere Christi. 230] Sedul. ep. ad Maced. 11, 6 (Huemer): quosdam <lb/>
+            conlationibus adsiduae disputationis ad meliora uexisti. 233] Auson. <lb/>
+            Pyth. 25 perdidit Hippolytum non felix cura pudoris. </note>
+
+<note rend="script" type="footnote"> 217 praaio <hi rend="italic">Bl corr. rn. 2</hi> 219 luxorie <hi rend="italic">B</hi> luxuries P luxuriei <hi rend="italic">Barth <lb/>
+            luxurie Leipziger 220 accepta (q; acld. m. 2) B</hi> 227 largS <hi rend="italic">B</hi> 228 per <lb/>
+            <hi rend="italic">sistente B 238 rupte jB1 e m. 2 rupta P 239 hoste B1 e m. 2</hi> <lb/>
+            242 uigebat <hi rend="italic">Barth</hi> </note> <lb/>
+             
+<pb n="301"/>
+            <l n="245">uinceret aequaeuos nostra ut concordia amicos.  </l>
+            <l n="246">hoc igitur mihi subtracto inter prima iuuentae  </l>
+            <l n="247">tempora tam caro socio et monitore fideli  </l>
+            <l n="248">ilico me indocilis fratris discordia acerba  </l>
+            <l n="249">excepit, ualidum genitoris testamentum  </l>
+            <l n="250">soluere <choice n="0.85"><sic n="12">conantis</sic><corr n="2">cenantis</corr></choice> specialia commoda matris  </l>
+            <l n="251">inpugnandi animo, cuius mihi cura tuendae  </l>
+            <l n="252">hoc quoque maior erat, quo iustior, et pietatis  </l>
+            <l n="253">non minor affectus studium firmabat honestum.  </l>
+            <l n="254">insuper aduersis me pluribus exagitandum  </l>
+            <l n="255">laeua facultatum prorumpens fama mearum  </l>
+            <l n="256">exposuit blandas inter uanae ambitionis  </l>
+            <l n="257">inlecebras grauibus coniuncta et damna periclis.  </l>
+            <l n="258">quae meminisse licet pigeat transactaque dudum  </l>
+            <l n="259">obliuione sua malim sopita silere,  </l>
+            <l n="260">inuitant aduersa tamen per nostra tuorum  </l>
+            <l n="261">cognita donorum solacia, Christe, bonorum  </l>
+            <l n="262">emensis indepta malis tua munera fando  </l>
+            <l n="263">prodere et in lucem proferre recondita corde.  </l>
+            <l n="264">namque et quanta mihi per te conlata potentum  </l>
+            <l n="265">gratia praestiterit, facile experiendo probaui,  </l>
+            <l n="266">saepe prius claro procerum conlatus honori  </l>
+            <l n="267">ignorans, proprio quam praeditus ipse potirer,  </l>
+            <l n="268">quantum et econtra ui inpugnante maligna  </l>
+            <l n="269">ipsa patronorum mihi ambitiosa meorum  </l>
+            <l n="270">obfuerint studia et nostri euidenter honores.  </l>
+            <l n="271">ac mihi ante omnes specialiter, altera cuius  </l>
+            <l n="272">pars orientis erat patria, in qua scilicet ortus </l>
+
+<note type="footnote"> 251 sq.] Uerg. Georg. III, 305 sq. haec quoque non cura nobis <lb/>
+            leniore tuenda nec minor usus erit, Quid. Met. XI, 297 pacis mihi cura <lb/>
+            tuendae. 266] cf. Auson. Genethl. 24. 271] Uerg. Aen. V, 540 et <lb/>
+            primum ante omnis, XI, 416 ille mihi ante alios. </note>
+
+<note type="footnote"> 245 aequeuos <hi rend="italic">B</hi> aeque uos <hi rend="italic">P</hi> 255 lena <hi rend="italic">Bd</hi> laeua <hi rend="italic">P</hi> 256 blanda <lb/>
+            sinter (er <hi rend="italic">a m. 2) B corr. m. 2</hi> 259 mallim <hi rend="italic">BP</hi> 266 sepe <hi rend="italic">B</hi> <lb/>
+            270 et <hi rend="italic">ed. Pisaur. Haase</hi> ex <hi rend="italic">BP</hi> honoris <hi rend="italic">BP</hi> honores <hi rend="italic">scripsi</hi> 271 ac <lb/>
+            (c <hi rend="italic">ex</hi> e <hi rend="italic">\'nt, 2 in ras.) B</hi> at <hi rend="italic">Barth</hi> 272 ostrus <hi rend="italic">P</hi> </note> <lb/>
+             
+<pb n="302"/>
+            <l n="273">possessorque etiam non ultimus esse uidebar,  </l>
+            <l n="274">iniecere manum mala, sed mihi debita dudum,  </l>
+            <l n="275">quod me et inuitum protracto errore. tenerent  </l>
+            <l n="276">agminis ipsa mei primum molitio pigra,  </l>
+            <l n="277">dissona et interdum carorum uota meorum,  </l>
+            <l n="278">saepius et propriis certans mens obuia uotis,  </l>
+            <l n="279">ambigui euentus quotiens formido recurrens  </l>
+            <l n="280">tardabat coeptos sorte obsistente paratus,  </l>
+            <l n="281">allicerent et contra animum suetudo quietis,  </l>
+            <l n="282">otia nota, domus specialia commoda plura,  </l>
+            <l n="283">omnibus heu! nimium blandis magnisque refertae  </l>
+            <l n="284">deliciis cunctisque bonis in tempore duro,  </l>
+            <l n="285">hospite tunc etiam Gothico quae sola careret;  </l>
+            <l n="286">quod post euentu cessit non sero sinistro,  </l>
+            <l n="287">nullo ut quippe domum speciali iure tuente  </l>
+            <l n="288">cederet in praedam populo permissa abeunti:  </l>
+            <l n="289">nam quosdam scimus summa humanitate Gothorum  </l>
+            <l n="290">hospitibus studuisse suis prodesse tuendis.  </l>
+            
+
+          <l n="291"><milestone rend="script" unit="para"/>Sed mihi ad sortem praefatae condicionis  </l>
+            <l n="292">addita maioris noua est quoque causa laboris,  </l>
+            <l n="293">ut me, conquirens solacia uana, tyrannus  </l>
+            <l n="294">Attalus absentem casso oneraret honoris  </l>
+            <l n="295">nomine, priuatae comitiuam largitionis  </l>
+            <l n="296">dans mihi, quam sciret nullo subsistere censu  </l>
+            <l n="297">iamque suo ipse etiam desisset fidere regno,  </l>
+            <l n="298">solis quippe Gothis fretus male iam sibi notis, </l>
+
+<note type="footnote"> 274] Uerg. Aen. X, 419 iniecere manum parcae, cf. Iuuenc. IIII, 522. <lb/>
+            Iuuenc. IIII, 269 iamdudum debita sumant. 278 sq.] Auson. Pyth. 35 <lb/>
+            dissidet ambiguis semper mens obuia uotis. 285] Uerg. Aen. V, 651 sq. <lb/>
+            tali quod sola careret munere. 297] Uerg. Aen. V, 800 fidere regnis, <lb/>
+            III, 51 cum iam diffideret armis. </note>
+
+<note rend="script" type="footnote"> 275 quae <hi rend="italic">BP</hi> quod <hi rend="italic">seripsi</hi> et] etiam <hi rend="italic">Barth</hi> 278 mens] ens <hi rend="italic">B2 <lb/>
+            in ras. ex</hi> ms 280 coeptos (o2 <hi rend="italic">ex</hi> u) <hi rend="italic">B</hi> ceptas P certos <hi rend="italic">dl</hi> <lb/>
+            283 referta <hi rend="italic">BP</hi> refertae <hi rend="italic">scripsi</hi> 284 delictis <hi rend="italic">B1 corr. m. 2</hi> 287 tuento <hi rend="italic">P</hi> <lb/>
+            288 predam <hi rend="italic">B</hi> 291 praefate (e <hi rend="italic">nt</hi>. 2) conditionis <hi rend="italic">B</hi> 297 cumque <lb/>
+            <hi rend="italic">Haase</hi> dedisset <hi rend="italic">P</hi> 298 ghotis <hi rend="italic">B</hi> </note> <lb/>
+             
+<pb n="303"/>
+            <l n="299">quos ad praesidium uitae praesentis habere,  </l>
+            <l n="300">non etiam imperii poterat, per se nihil ipse  </l>
+            <l n="301">aut opibus propriis aut ullo milite nixus.  </l>
+            <l n="302">unde ego non partes infirmi omnino tyranni,  </l>
+            <l n="303">sed Gothicam fateor pacem me esse secutum,  </l>
+            <l n="304">quae tunc ipsorum consensu optata Gothorum  </l>
+            <l n="305">paulo post aliis cessit mercede redempta  </l>
+            <l n="306">nec penitenda manet, cum iam in re publica nostra  </l>
+            <l n="307">cernamus plures Gothico florere. fauore,  </l>
+            <l n="308">tristia quaeque tamen perpessis antea multis,  </l>
+            <l n="309">pars ego magna fui quorum, priuatus et ipse  </l>
+            <l n="310">cunctis quippe bonis propriis patriaeque superstes.  </l>
+            <l n="311">namque profecturi regis praecepto Atiulfi  </l>
+            <l n="312">nostra ex urbe Gothi, fuerant qui in pace recepti,  </l>
+            <l n="313">non aliter nobis quam belli iure subactis  </l>
+            <l n="314">aspera quaeque omni urbe inrogauere cremata:  </l>
+            <l n="315">in qua me inuentum comitem tum principis eius,  </l>
+            <l n="316">imperio cuius sociatos non sibi norant,  </l>
+            <l n="317">nudauere bonis simul omnibus et genetricem  </l>
+            <l n="318">iuxta meam mecum, communi sorte subactos,  </l>
+            <l n="319">uno hoc se nobis credentes parcere captis,  </l>
+            <l n="320">quod nos inmunes poena paterentur abire,  </l>
+            <l n="321">cunctarumque tamen comitum simul et famularum,  </l>
+            <l n="322">euentum fuerant nostrum quaecumque secutae,  </l>
+            <l n="323">inlaeso penitus nullo adtemptante pudore,  </l>
+            <l n="324">me grauiore tamen releuato suspicione  </l>
+            <l n="325">munere diuino, iuges cui debeo grates, </l>
+
+<note type="footnote"> 309] Uerg. Aen. II, 6 et quorum pars magna fui. 310] Hor. <lb/>
+            Carm. saec. 42 patriae superstes. 322] Uerg. Aen. XI, 758 euentumque <lb/>
+            secuti. 323] Sedul. Hymn. I, 53 nullo temerante pudorem. </note>
+
+<note rend="script" type="footnote"> 299 sq. <hi rend="italic">fort</hi>. haberet — imperii, poterat per 305 alus <hi rend="italic">Bl corr. m. 2</hi> <lb/>
+            alii — redemptae <hi rend="italic">Barth fort. recte</hi> 306 paenitenda <hi rend="italic">B</hi> poenitenda P <lb/>
+            <hi rend="italic">cf. proleg. p. 286 n</hi>. 308 tristitia <hi rend="italic">Bl corr. tn. 2</hi> 309 ipse* (s <hi rend="italic">eras.) B</hi> <lb/>
+            311 P <hi rend="italic">in mg</hi>. Atiulfus rex Gothorum 312 gothi <hi rend="italic">B2 in lac</hi>. 314 oms <hi rend="italic">B</hi> <lb/>
+            315 quam <hi rend="italic">P</hi> 316 nos sibi <hi rend="italic">Barth</hi> 318 <hi rend="italic">fort</hi>. subactam 323 paenitus <lb/>
+            <hi rend="italic">B1 corr. m. 2</hi> </note> <lb n="325"/>
+             
+<pb n="304"/>
+            <l n="326">filia ut ante mea per me sociata marito  </l>
+            <l n="327">excedens patria communi clade careret.  </l>
+
+          <l n="328"><milestone rend="script" unit="para"/>Nec postrema tamen tolerati meta laboris  </l>
+            <l n="329">ista fuit nostri, quem diximus: ilico namque  </l>
+            <l n="330">exactos laribus patriis tectisque crematis  </l>
+            <l n="331">obsidio hostilis uicina excepit in urbe  </l>
+            <l n="332">Uasatis, patria maiorum et ipsa meorum,  </l>
+            <l n="333">et grauior multo circumfusa hostilitate  </l>
+            <l n="334">. factio seruilis paucorum mixta furori  </l>
+            <l n="335">insano iuuenum * * licet ingenuorum,  </l>
+            <l n="336">armata in caedem specialem nobilitatis.  </l>
+            <l n="337">quam tu, iuste deus, insonti a sanguine auertens  </l>
+            <l n="338">ilico paucorum sedasti morte reorum  </l>
+            <l n="339">instantemque mihi specialem percussorem  </l>
+             <l n="340">me ignorante alio iussisti ultore perire,  </l>
+            <l n="341">suetus quippe nouis tibi me obstringere donis,  </l>
+            <l n="342">pro quis me scirem grates debere perennes.  </l>
+            <l n="343">sed mihi tam subiti concusso sorte pericli,  </l>
+            <l n="344">quo me intra urbem percelli posse uiderem,  </l>
+            <l n="345">subrepsit, fateor, nimium trepido nouus error,  </l>
+            <l n="346">ut me praesidio regis dudum mihi cari,  </l>
+            <l n="347">cuius nos populus longa obsidione premebat,  </l>
+            <l n="348">urbe ab obsessa sperarem abscedere posse  </l>
+            <l n="349">agmine carorum magno comitante meorum,  </l>
+            <l n="350">hac tamen hos nostros spe sollicitante paratus,  </l>
+            <l n="351">quod scirem imperio gentis cogente Gothorum  </l>
+            <l n="352">inuitum regem populis incumbere nostris. </l>
+
+<note type="footnote"> 328] Auson. Lab. Herc. 12 Cerberus extremi suprema est meta laboris. <lb/>
+            332] Auson. Epiced. 4 Uasates patria, cf. praef. II, 5. 343] Paulin. <lb/>
+            Nol. XXII, 105 sorte pericli. 347] Uerg. Aen. VIII, 647 ingentique <lb/>
+            urbem obsidione premebat. </note>
+
+<note type="footnote"> 329 <hi rend="italic">fort</hi>. quam <hi rend="italic">cf. tamen 292</hi> 330 exacto <hi rend="italic">BP</hi> exactos <hi rend="italic">scripsi</hi> <lb/>
+            la**ribus (bo <hi rend="italic">eras.) B</hi> 334 nixa furore <hi rend="italic">Barth</hi> 335 natu <hi rend="italic">excidisse<lb/>
+             coni. Haase, malim</hi> nequam <hi rend="italic">cf. proleg. p. 278</hi> 337 insontia <hi rend="italic">Bl distinx, <lb/>
+            m. 2</hi> uertens <hi rend="italic">Barth</hi> 338 morter eorum <hi rend="italic">B corr. m. 2</hi> 342 queis <hi rend="italic">P</hi> <lb/>
+            344 mihintra <hi rend="italic">B1 corr. m. 2</hi> 346 ut <hi rend="italic">Barth</hi> consilii ut <hi rend="italic">BP</hi> consilio <lb/>
+            ut <hi rend="italic">Leipziger</hi> consilio <hi rend="italic">lect. margin. pro</hi> praesidio <hi rend="italic">putat Schenkl, cf. proleg. <lb/>
+            p. 278</hi> </note> <lb/>
+             
+<pb n="305"/>
+            <l n="353">explorandi igitur studio digressus ab urbe  </l>
+            <l n="354">ad regem intrepidus nullo obsistente tetendi,  </l>
+            <l n="355">laetior ante tamen, primo quam affarer amicum  </l>
+            <l n="356">alloquio, gratumque magis fore quem mihi rebar.  </l>
+            <l n="357">perscrutato autem, ut potui, interius uiri uoto  </l>
+            <l n="358">praesidium se, posse mihi praestare negauit  </l>
+            <l n="359">extra urbem posito, nec tutum iam sibi prodens,  </l>
+            <l n="360">ut uisum remeare aliter pateretur ad urbem,  </l>
+            <l n="361">ipse nisi mecum mox susciperetur in urbe,  </l>
+            <l n="362">gnarus quippe Gothos rursum mihi dira minari  </l>
+            <l n="363">seque ab ipsorum cupiens absoluere iure.  </l>
+            <l n="364">obstipui, fateor, pauefactus condicione  </l>
+            <l n="365">proposita et nimio indicti terrore pericli,  </l>
+            <l n="366">sed miserante deo, adflictis qui semper ubique  </l>
+            <l n="367">imploratus adest, paulo post mente resumpta  </l>
+            <l n="368">ipse licet trepidus, sed adhuc nutantis amici  </l>
+            <l n="369">consilium audacter studui pro me ipse fouere,  </l>
+            <l n="370">ardua dissuadens, quae scirem omnino neganda,  </l>
+            <l n="371">praestanda quae autem, quam mox temptanda perurgens.  </l>
+            <l n="372">quae non sero probans uir prudens ipse secutus,  </l>
+            <l n="373">ilico consultis per se primatibus urbis  </l>
+            <l n="374">rem coeptam adcelerans una sub nocte peregit  </l>
+            <l n="375">auxiliante deo, cuius iam munus habebat,  </l>
+            <l n="376">quo nobis populoque suo succurrere posset.  </l>
+            <l n="377">concurrit pariter cunctis ab sedibus omnis  </l>
+            <l n="378">turba Alanarum armatis sociata maritis.  </l>
+            <l n="379">prima uxor regis Romanis traditur obses,  </l>
+            <l n="380">380 adiuncto pariter regis caro quoque nato,  </l>
+
+
+
+<note type="footnote">355] Uerg. Aen. VIII, 126 tum regem Aeneas dictis adfatur amicis, <lb/>
+            IX, 198 adfatur amicum. 366] Paulin. Nol. X, 123 qui — totus ubique. <lb/>
+            367] cf. Ps. 145, 18. 374] Uerg. Aen. X, 497 una sub nocte iugali. </note>
+
+<note type="footnote"> 355 prima (a <hi rend="italic">ex</hi> o) Ji1 prima quam afforet <hi rend="italic">P</hi> 357 mihi noto <hi rend="italic">Barth <lb/>
+            fort</hi>. uota 360 uisum] rursum <hi rend="italic">Barth</hi> 362 gnarus <hi rend="italic">Daum</hi> gnaros <hi rend="italic">BP</hi> <lb/>
+            363 <hi rend="italic">133 in mg</hi>. quoqs 366 aflictis <hi rend="italic">P</hi> 371 praestandaque aut <hi rend="italic">B</hi> praestanda <lb/>
+            et prius <hi rend="italic">P</hi> praestanda quae <hi rend="italic">scripsi cf. proleg. p. 284</hi> per urgens <lb/>
+            <hi rend="italic">P</hi> 377 cunctis <hi rend="italic">om. Bl suprascr. m. 2</hi> 378 halanarum <hi rend="italic">B</hi> </note>
+
+<note type="footnote"> XVI. Poet. christ. min. pars i. </note>
+
+<note type="footnote"> 20 </note> <lb/>
+             
+<pb n="306"/>
+            <l n="381">reddor et ipse meis pactae inter foedera pacis,  </l>
+            <l n="382">communi tamquam Gothico saluatus ab hoste,  </l>
+            <l n="383">uallanturque urbis pomeria milite Alano,  </l>
+            <l n="384">acceptaque dataque fide certare parato  </l>
+            <l n="385">pro nobis, nuper quos ipse obsederat hostis. -  </l>
+            <l n="386">mira urbis facies, cuius magna undique muros  </l>
+            <l n="387">turba indiscreti sexus circumdat inermis  </l>
+            <l n="388">subiecta exterius; muris haerentia nostris  </l>
+            <l n="389">agmina barbarica plaustris uallantur et armis.  </l>
+            <l n="390">qua se truncatam parte agminis haut mediocris  </l>
+            <l n="391">circumiecta uidens populantum turba Gothorum,  </l>
+            <l n="392">ilico diffidens tut« se posse morari  </l>
+            <l n="393">hoste intestino subito in sua uiscera uerso,  </l>
+            <l n="394">nil temptare ausa ulterius properanter abire  </l>
+            <l n="395">sponte sua legit. cuius non sero secuti  </l>
+            <l n="396">exemplum et nostri, quos diximus, auxiliares  </l>
+            <l n="397">discessere, fidem pacis seruare parati  </l>
+            <l n="398">Romanis, quoquo ipsos sors oblata tulisset.  </l>
+            <l n="399">atque ita res * * temere a me coepta benigno  </l>
+            <l n="400">auxilio domini euentu est expleta secundo,  </l>
+            <l n="401">erroremque meum deus in noua gaudia uertit  </l>
+            <l n="402">multorum pariter mecum obsidione leuata,  </l>
+            <l n="403">adcrescunt quae cuncta mihi simul ad referendas,  </l>
+            <l n="404">Christe, tibi grates, quas inpos soluere uerbis  </l>
+            <l n="405">parte rependo aliqua, semper debere professus. </l>
+
+<note type="footnote"> 383] Uerg. Aen. XI, 915 considunt castris ante urbem et moenia <lb/>
+            uallant. 384] Uerg. Aen. VIII, 150 accipe daque fidem, V, 108 pars et <lb/>
+            certare parati. 385] Uerg. Aen. XI, 304 muros adsidet hostis. 393] Uerg. <lb/>
+            Aen. VI, 833 in uiscera uertite uires, Paulin. Nol. XI, 5 iacis in mea <lb/>
+            uiscera uersus. 402] Uerg. Aen. X, 25 sq. numquamne leuari obsidione sines. </note>
+
+<note type="footnote"> &lt;3; </note>
+
+<note rend="script" type="footnote"> 381 pacte <hi rend="italic">B</hi> pactae <hi rend="italic">P</hi> partae <hi rend="italic">dl</hi> 383 halano <hi rend="italic">B</hi> 384 accepta <hi rend="italic">B</hi> <lb/>
+            q; <hi rend="italic">add. m. 2</hi> certa reparato <hi rend="italic">BP corr. Barth</hi> 385 obsiderat <hi rend="italic">B</hi> 388 adh <lb/>
+            <lb/>
+            haerentia <hi rend="italic">Bl coir. m. 2</hi> 390 -aut <hi rend="italic">B fort</hi>. mediocri 393 sumbito <hi rend="italic">Bx<lb/>
+             corr. m. 2 et in mg. ascr</hi>. i abrupte 394 *ansa (c <hi rend="italic">eras.) B</hi> 395 <hi rend="italic">Ji2 <lb/>
+            in mg</hi>. /• statuit 399 <hi rend="italic">B3 lac. post uocabidum</hi> res <hi rend="italic">indicauit signo  <lb/>
+            in mg. iterato, fort. recte cf. proleg. p. 278</hi> suscepta <hi rend="italic">Barth</hi> 404 inposso <lb/>
+            luere <hi rend="italic">B</hi> </note> <lb n="405"/>
+            
+<pb n="307"/>
+            
+
+          <l n="406"><milestone rend="script" unit="para"/>Sit tamen ista satis super his me esse profatum,  </l>
+            <l n="407">- inter barbaricas longo quae tempore gentes  </l>
+            <l n="408">expositus gessi. quorum mihi plurima saepe  </l>
+            <l n="409">aduersa experto rursum suasere moranti  </l>
+            <l n="410">linquendas patriae sedes quantocius esse —  </l>
+            <l n="411">quod fecisse prius fuerat magis utile nobis —  </l>
+            <l n="412">illa ut contento peteremus litora cursu,  </l>
+            <l n="413">pars ubi magna mihi etiamnunc salua manebat  </l>
+            <l n="414">materni census, conplures sparsa per urbes  </l>
+            <l n="415">Argiuas atque Epiri ueterisque nouaeque,  </l>
+            <l n="416">per quas non minima numerosis farta colonis  </l>
+            <l n="417">praedia diffusa nec multum dissociata  </l>
+            <l n="418">quamuis profusis dominis nimiumque remissis  </l>
+            <l n="419">praebere expensas potuissent exuberantes.  </l>
+            <l n="420">sed nec sero mea est prouentus uota secutus,  </l>
+            <l n="421">ut uel migrare exoptata hinc ad loca possem,  </l>
+            <l n="422">uel mihi pars aliqua ex rebus superesset auitis  </l>
+            <l n="423">inter barbaricas hostili iure rapinas  </l>
+            <l n="424">Romanumque nefas, contra omnia iura licenter  </l>
+            <l n="425">in mea grassatum diuerso tempore damna;  </l>
+            <l n="426">a quo se exuere admisso nec nomina possunt  </l>
+            <l n="427">cara mihi, maior nostri est quae causa doloris,  </l>
+            <l n="428">cum mihi damna rei damnis cumulentur amoris,  </l>
+            <l n="429">quem scio me fidum primis debere propinquis,  </l>
+            <l n="430">quamlibet offensum, nec fas non reddere duco.  </l>
+            <l n="431">sed bene si sapio, gratanda haec nunc mihi sors est,  </l>
+            <l n="432">quae tibi conplacuit, multo potiora parante </l>
+
+<note type="footnote"> 406] Uerg. Ecl. VIIII, 55 sed tamen ista satis. 412] Uerg. Aen. II, <lb/>
+            399 sq. litora cursu fida petunt. 422] Uerg. Georg. III, 228 regnis excessit <lb/>
+            auitis. 431] cf. Paulin. Nol. X, 108. 147. </note>
+
+<note rend="script" type="footnote"> 406 sit <hi rend="italic">Haase</hi> sint <hi rend="italic">BP</hi> 410 quantotius <hi rend="italic">B</hi> 415 nouique <hi rend="italic">BP</hi> <lb/>
+            nouaeque <hi rend="italic">scripsi</hi> 417 nec] et non P 420 prouentus uota secutus <lb/>
+            (prouentus uo <hi rend="italic">in ras. m. 2) B</hi> 421 hinc <hi rend="italic">om. Bl supraser. m. 2</hi> 425 tempora <lb/>
+            <hi rend="italic">B</hi> 428 <hi rend="italic">om. Bx m. 2 coepit addere in mg</hi>. cu mihi d, <hi rend="italic">deinde ascr. <lb/>
+            in capite paginae</hi> *amoris <hi rend="italic">ex</hi> honoris <hi rend="italic">in ras. B2</hi> 431 gratanda <hi rend="italic">dl</hi> <lb/>
+            gratulanda <hi rend="italic">B</hi> gratuanda P hec <hi rend="italic">B</hi> 432 quaibi <hi rend="italic">B</hi> parante <hi rend="italic">Haase</hi> <lb/>
+            paranti <hi rend="italic">BP</hi> </note>
+
+<note type="footnote"> 20* </note> <lb/>
+             
+<pb n="308"/>
+            <l n="433">iam te, Christe, mihi, quam cum securior ipse  </l>
+            <l n="434">placatum rebar nostris adsistere uotis,  </l>
+            <l n="435">cum mihi laeta domus magnis floreret abundans  </l>
+            <l n="436">deliciis, nec pompa minor polleret honoris  </l>
+            <l n="437">instructa obsequiis et turbis fulta clientum.  </l>
+            <l n="438">quae peritura cito illo me in tempore amasse  </l>
+            <l n="439">nunc piget et tandem sensu meliore <choice><sic>senesceus</sic><corr>senescens</corr></choice>  </l>
+            <l n="440">utiliter subtracta mihi cognosco fuisse,  </l>
+            <l n="441">amissis opibus terrenis atque caducis  </l>
+            <l n="442">perpetuo potius mansura ut quaerere nossem —  </l>
+            <l n="443">sero quidem, sed nil umquam, deus, est tibi serum,  </l>
+            <l n="444">qui sine fine manens miserandi ponere finem  </l>
+            <l n="445">nescis et ignaris solus succurrere nosti  </l>
+            <l n="446">praeueniendo prior multorum uota precantum  </l>
+            <l n="447">et supra, quam petimus, bona nobis prospiciendo  </l>
+            <l n="448">ambiguisque etiam, quid pro se quisque precetur,  </l>
+            <l n="449">plura petita negas, magis apta his dare paratus,  </l>
+            <l n="450">qui sapiunt tua dona suis praeponere uotis.  </l>
+            <l n="451">namque et me moresque meos quanto prior ipso  </l>
+            <l n="452">me melius nosses, in me prodendo probasti,  </l>
+            <l n="453">quem maiora meis audentem uiribus ante  </l>
+            <l n="454">prospiciens melius per te mihi consuluisti  </l>
+            <l n="455">conatus inhibendo meos nimis alta petentes,  </l>
+            <l n="456">auderem ut monachi perfecto uiuere ritu,  </l>
+            <l n="457">cum mihi plena domus caris <choice><sic>aifectibus</sic><corr>affectibus</corr></choice> esset,  </l>
+            <l n="458">qui sibi seruari consuetam indicere curam  </l>
+            <l n="459">posse uiderentur, filii, mater, socrus, uxor </l>
+
+<note type="footnote"> 435] Paulin. Nol. IIII, 15 adsit laeta domus. 439] Paulin. Nol. <lb/>
+            VI, 263 pacnitet et tandem sensu meliore uolutat. 444] Sedul. C. P. <lb/>
+            II, 66 imperium sine fine manet, cf. Uerg. Aen. I, 279. 445] Uerg. Aen. <lb/>
+            I, 630 non ignara mali miseris succurrere. 447] Paul. ad Ephes. 3, 20 <lb/>
+            qui potens est omnia facere supcrabundanter, quam petimus. 453] Uerg. <lb/>
+            Aen. X, 811 maioraque uiribus audes. 457] cf. Paulin. Nol. X, 108. </note>
+
+<note type="footnote"> <hi rend="italic">433 in te Barth 437 in structa B 441 amisis 13 442 quaere B</hi> <lb/>
+            443 nilum quamds Bl <hi rend="italic">corr. m. 2</hi> 445 nostri <hi rend="italic">B</hi> 448 praecetur <hi rend="italic">Bl<lb/>
+             corr. m. 2 449 dare B dona P 451 ot memores quemeos B1 distinxit <lb/>
+            m. 2</hi> etiam memores quam illos <hi rend="italic">P cf. proleg. p. 284</hi> ipso <hi rend="italic">Barth</hi> <lb/>
+            ipse <hi rend="italic">BP</hi> 453 maioram eis <hi rend="italic">P</hi> 458 qui <hi rend="italic">Hacise</hi> quae <hi rend="italic">BP</hi> </note> <lb/>
+             
+<pb n="309"/>
+            <l n="460">cum grege non minimo famularum quippe suarum,  </l>
+            <l n="461">quem <choice n="0.69"><sic n="1339">totum</sic><corr n="588">totam</corr></choice> pariter peregrinae exponere terrae  </l>
+            <l n="462">\\ nec ratio aut pietas mens aut religiosa sinebat.  </l>
+            <l n="463">sed tua magna manus diuina et prouida uirtus  </l>
+            <l n="464">consilio sanctorum cuncta operando peregit,  </l>
+            <l n="465">suadentum mihi tum morem seruare uetustum,  </l>
+            <l n="466">quem semel inuectum maiorum traditione  </l>
+            <l n="467">nunc etiam seruans ecclesia nostra teneret;  </l>
+            <l n="468">confessusque igitur, penitenda quae mihi noram,  </l>
+            <l n="469">proposita studui <choice n="0.75"><sic n="9">constrictus</sic><corr n="3">constrictas</corr></choice> uiuere lege,  </l>
+            <l n="470">non digno fortasse pians commissa labore,  </l>
+            <l n="471">sed rectam seruare fidem non inscius ipse,  </l>
+            <l n="472">errorum discendo uias per dogmata praua,  </l>
+            <l n="473">quae reprobans sociata aliis nunc respuo culpis.  </l>
+            <l n="474">post autem, exacta iam ter trieteride quinta,  </l>
+            <l n="475">rite recurrente statuto tempore pascha  </l>
+            <l n="476">ad tua, Christe Deus, altaria sacra reuersus  </l>
+            <l n="477">te miserante tua gaudens sacramenta recepi  </l>
+            <l n="478">ante hos ter decies super et bis quattuor annos —  </l>
+            <l n="479">saluo tunc etiam propriae domus ordine, nuper  </l>
+            <l n="480">480 qui fuerat, linqui et quam iam non posse probarem  </l>
+            <l n="481">nec retinere tamen peregrino iugiter esset  </l>
+            <l n="482">possibile adstricto iam censu; quominus autem </l>
+
+<note type="footnote"> 461] Uerg. Aen. V, 795 ignotae linquere terrae. 471 sq.] Prud. <lb/>
+            Apoth. praef. 2 rectamne seruamus fidem 3 dogmata 5 uiam discernere <lb/>
+            8 erroribus. 475] Uerg. Aen. IX, 107 tempora parcae. 478] Auson. <lb/>
+            Hesiod. 1 ter binos deciesque nouem super exit in annos. </note>
+
+<note rend="script" type="footnote"> 460 cum mihi <hi rend="italic">(ex v. 457)</hi> grege <hi rend="italic">B1 m. 2 del</hi>. mihi famularuq; <hi rend="italic">Bl</hi> <lb/>
+            <lb/>
+            quippe <hi rend="italic">m. 2</hi> 461 peregrine — tre <hi rend="italic">Bl</hi> e—e <hi rend="italic">m. 2</hi> 462 relligiosa (12 <hi rend="italic">dcl. <lb/>
+            m</hi> 2) sinebus <hi rend="italic">B</hi> 464 operanda <hi rend="italic">P fort. recte</hi> 465 tum <hi rend="italic">BP</hi> tunc <hi rend="italic">dl</hi> <lb/>
+            paenitent <lb/>
+            467 eclesia <hi rend="italic">B</hi> 468 .. aque mihi noram <hi rend="italic">B om. P</hi> penitenda <hi rend="italic">scripsi cf. <lb/>
+            proleg. p. 281</hi> 470 labore (a <hi rend="italic">ex</hi> uV <hi rend="italic">In. 3) B</hi> 474 tetreteride (t2 <hi rend="italic">ex</hi> r) <hi rend="italic">B</hi> <lb/>
+            trie — teride P ter trieteride <hi rend="italic">Tillemont hist. des cnip. V, 1450 ef. proleg. <lb/>
+            p. 277</hi> 478 bis <hi rend="italic">Barth</hi> his <hi rend="italic">BP</hi> hos <hi rend="italic">Leipziger, Ebert cf. proleg. p. 276</hi> <lb/>
+            479 proprie <hi rend="italic">B</hi> 480 probarem <hi rend="italic">Leipziger</hi> probare <hi rend="italic">BP</hi> probaui <hi rend="italic">Barth</hi> <lb/>
+            482 adstrincto P </note> <lb/>
+             
+<pb n="310"/>
+            <l n="483">rem propriam expeterem, cuius meritumque situmque  </l>
+            <l n="484">anteriore loco iam me exposuisse recordor,  </l>
+            <l n="485">obstabat flecti ad communia commoda coniunx  </l>
+            <l n="486">indocilis nimioque metu nauigare recusans,  </l>
+            <l n="487">quam nec inuitam trahere usquam fas mihi rebar  </l>
+            <l n="488">parque nefas esset subtractis linquere natis.  </l>
+
+          <l n="489"><milestone rend="script" unit="para"/>Atque ita frustratus spe iam meliore quietis  </l>
+            <l n="490">in rebus propriis post plura aduersa fruendae  </l>
+            <l n="491">perpetuum exilium diuersa sorte dierum  </l>
+            <l n="492">exigo, iam dudum cunctis affectibus expers,  </l>
+            <l n="493">primo socru ac matre, dehinc et coniuge functa,  </l>
+            <l n="494">quae mihi cum fuerit rectis contraria uotis  </l>
+            <l n="495">officiente metu, fuit et defuncta dolori,  </l>
+            <l n="496">tum subtracta, meae potuisset cum magis esse  </l>
+            <l n="497">apta senectuti iunctae ad solamina uitae;  </l>
+            <l n="498">quae mihi iam derant natis abeuntibus a me,  </l>
+            <l n="499">non equidem paribus studiis nec tempore eodem,  </l>
+            <l n="500">succensis pariter sed libertatis amore,  </l>
+            <l n="501">quam sibi maiorem contingere posse putabant  </l>
+            <l n="502">Burdigalae, Gothico quamquam consorte colono.  </l>
+            <l n="503">quod licet inuito me illos uoluisse dolerem,  </l>
+            <l n="504">sic <sic>coiipensandum</sic> tamen hoc ipsum mihi rebar,  </l>
+            <l n="505">commoda ut absentis praesentum cura iuuaret,  </l>
+            <l n="506">fructus quippe rei nostrae, quicumque fuissent,  </l>
+            <l n="507">sponte sua mecum paulatim participando.  </l>
+            <l n="508">sed cito praereptus iuuenis iam presbyter unus  </l>
+            <l n="509">morte repentina luctum mihi liquit acerbum,  </l>
+            <l n="510">summa autem rerum, tenuit quascumque, mearum </l>
+
+<note type="footnote"> 483] Auson. Or. 4 cuius formamque modumque. 494] Paulin. <lb/>
+            Nol. X, 126 contraria uotis. 506] Auson. Praef. II, 3 quicumque fuisses. </note>
+
+<note rend="script" type="footnote"> 485 coniux <hi rend="italic">BP</hi> 486 nimio quema una uigare <hi rend="italic">B</hi> nimio quae — <lb/>
+            recursans P 487 *ne C<hi rend="italic">(ex</hi> me) <hi rend="italic">B2</hi> iam ultam <hi rend="italic">P</hi> 488 <hi rend="italic">B2 in lac</hi>. <lb/>
+            linquere natis <hi rend="italic">Barth</hi> inque penatis <hi rend="italic">BP</hi> linquere nat <hi rend="italic">B3 in mg</hi>. <lb/>
+            493 primo <hi rend="italic">Barth</hi> prima <hi rend="italic">BP</hi> socru <hi rend="italic">Bl</hi> u <hi rend="italic">m. 2</hi> 494 eum <hi rend="italic">B</hi> 495 doloris <lb/>
+            <hi rend="italic">B</hi> 497 <hi rend="italic">fort</hi>. iuncta 498 deerant P 501 maioreme <hi rend="italic">B</hi> 508 inuenis <lb/>
+            P praesbit <hi rend="italic">B</hi> praesbyter P 509 liquida cerbum <hi rend="italic">B</hi> </note> <lb n="510"/>
+             
+<pb n="311"/>
+            <l n="511">tota erepta mihi multis. fuit una rapina.  </l>
+            <l n="512">insuper ipse etiam, uelut ad solacia nostra  </l>
+            <l n="513">qui superest, actu simul euentuque sinistro  </l>
+            <l n="514">inter amicitias uersatus regis et iras  </l>
+            <l n="515">destituit prope cuncta pari mea commoda sorte.  </l>
+            
+
+          <l n="516"><milestone unit="para"/>Atque ita subtracta spe omni solaciorum,  </l>
+            <l n="517">quae mihi per nostros rebar contingere posse,  </l>
+            <l n="518">cunctaque sero probans a te magis esse petenda,  </l>
+            <l n="519">quae cupimus, deus alme, subest cui summa potestas,  </l>
+            <l n="520">Massiliae demum pauper consistere legi,  </l>
+            <l n="521">urbe quidem in qua plures sancti essent mihi cari,  </l>
+            <l n="522">parua autem census substantia familiaris  </l>
+            <l n="523">nec spes magna nouis subitura ex fructibus esset,  </l>
+            <l n="524">non ager instructus propriis cultoribus ullus,  </l>
+            <l n="525">non uineta — quibus solis urbs utitur ipsa  </l>
+            <l n="526">omne ad praesidium uitae aliunde parandum —  </l>
+            <l n="527">sed tantum domus urbana uicinus et hortus  </l>
+            <l n="528">atque ad perfugium secreti paruus agellus,  </l>
+            <l n="529">non sine uite quidem uel pomis, sed sine terra  </l>
+            <l n="530">digna coli; uerum exigui iactura laboris  </l>
+            <l n="531">suasit et in uacuum culturae inpendere curam  </l>
+            <l n="532">uix plena exesi per iugera quattuor agri  </l>
+            <l n="533">et fundare domum summa in crepidine saxi,  </l>
+            <l n="534">ne quid de spatio terrae minuisse uiderer.  </l>
+            <l n="535">porro autem expensas, uitae quas posceret usus,  </l>
+            <l n="536">conductis studui ex agris sperare paratas,  </l>
+            <l n="537">donec plena magis seruis mansit domus et dum </l>
+
+<note type="footnote"> 512] Uerg. Aen. VIII, 514 spes et solacia nostri. 514J Uerg. Aen. <lb/>
+            I, 130 Iunonis et irae, Hor. Epist. I, 4, 12 timores inter et iras. 519] Paulin. <lb/>
+            Nol. IIII, 1 cui summa potestas, cf. Uerg. Aen. X, 100. 520] Uerg. Aeu. <lb/>
+            I, 629 hac demum uoluit consistere terra. 535] Hilar. Hymn. I, 22 uitae <lb/>
+            quos usus exigit. 537 sq.] Uerg. Aen. V, 415 dum melior uiris sanguis <lb/>
+            dabat aemula necdum .., cf. Georg. III, 428. </note>
+
+<note type="footnote"> 511 erepta <hi rend="italic">Haase</hi> arrepta <hi rend="italic">BP</hi> 514 interest <hi rend="italic">Bl</hi> est <hi rend="italic">del. m. 2</hi> <lb/>
+            523 esses <hi rend="italic">BP</hi> 525 urbis <hi rend="italic">Bl corr. m. 2</hi> 526 at <hi rend="italic">Barth</hi> 528 secrai <lb/>
+            perparuus <hi rend="italic">B</hi> s. perparuus <hi rend="italic">P cf. proleg. p. 278</hi> senii perparuus <hi rend="italic">Daum</hi> <lb/>
+            529 uitę <hi rend="italic">B</hi> 536 conductis <hi rend="italic">dl</hi> conductus <hi rend="italic">BP fort</hi>. parandas 537 domus <lb/>
+            <hi rend="italic">om. Bl suprascr. m. 2</hi> </note> <lb/>
+             
+<pb n="312"/>
+            <l n="538">maiores melior uires mihi praebuit aetas.  </l>
+            <l n="539">at postquam in peius pariter mutauit utraque  </l>
+            <l n="540">condicio instabilis semper generaliter aeui,  </l>
+            <l n="541">paulatim, fateor, curis euictus et annis  </l>
+            <l n="542"><choice n="0.96"><sic n="122">exul</sic><corr n="4">exui</corr></choice> inops caelebs, * * facile in noua uersus  </l>
+            <l n="543">consilia et uaria multum ratione uacillans,  </l>
+            <l n="544">Burdigalam reuocare gradum conducere duxi;  </l>
+            <l n="545">nec tamen effectus nostra est incepta secutus,  </l>
+            <l n="546">utilitas cum uota sibi coniuncta iuuaret.  </l>
+            <l n="547">quod mihi firmandae fidei, quantum puto, causa  </l>
+            <l n="548">a te prouisum fas est me credere, Christe,  </l>
+            <l n="549">ut, praestare mihi quantum tua gratia posset,  </l>
+            <l n="550">prolixo paulatim usu experiendo probarem,  </l>
+            <l n="551">plurima subtracto cum per dispendia censu  </l>
+            <l n="552">perdurare mihi speciem domus et renouatas  </l>
+            <l n="553">saepius expensas te prospiciente uiderem.  </l>
+            <l n="554">pro qua sorte quidem uitae scio me tibi grates  </l>
+            <l n="555">inmodicas debere, deus, pro me tamen ipse  </l>
+            <l n="556">nescio, si saluo possim gaudere pudore —  </l>
+            <l n="557"><choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> quod ipse adhuc propriae specie domus utens,  </l>
+            <l n="558">seu quod diuitibus contentus cedere natis  </l>
+            <l n="559">omnia, quae possunt etiamnunc nostra uideri,  </l>
+            <l n="560">expensis patior me sustentari alienis —  </l>
+            <l n="561">ni mihi nostra fides, quae nil proprium docet esse,  </l>
+            <l n="562">subueniat, tam tuto aliena ut nostra putemus,  </l>
+            <l n="563">quam nos nostra aliis debemus participanda.  </l>
+
+          <l n="564"><milestone unit="para"/>Nec tamen hoc ipso uitae me in ordine passus,  </l>
+            <l n="565">565 ambiguum nutare diu, uelociter ultro  </l>
+
+
+
+<note type="footnote"> 540] Uerg. Aen. XI, 425 mutabilis aeui. 541] Uerg. Aen. II, 630 <lb/>
+            uolneribus donec paulatim euicta. 542 sq.] Uerg. Aen. I, 657 sq. nona <lb/>
+            pectore uersat consilia, cf. Paulin. Nol. X, 150. 544] Uerg. Aen. VI, 128 <lb/>
+            sed reuocare gradum. 548] Iuuenc. IIII, 554 si fas te credere Christum. <lb/>
+            561] cf. Acta apost. 4, 32. 563] cf. Acta apost. 2, 45. </note>
+
+<note type="footnote"> 541 est uictus <hi rend="italic">BP</hi> euictus <hi rend="italic">scripsi</hi> 542 celeps <hi rend="italic">B</hi> celebs <hi rend="italic">P</hi> caelebsque <lb/>
+            senex <hi rend="italic">Barth</hi> semper <hi rend="italic">excidisse puto cf. proleg. p. 278</hi> 549 posses <hi rend="italic">B</hi> <lb/>
+            555 maamen <hi rend="italic">B</hi> 558 <hi rend="italic">fort</hi>. notis 560 substentari P 563 nos <hi rend="italic">om. Bl <lb/>
+            suprascr. m. 2</hi> participando <hi rend="italic">Haase</hi> 564 <hi rend="italic">cf, proleg. p. 276</hi> </note> <lb/>
+             
+<pb n="313"/>
+            <l n="566">solari es dignate, deus, nostramque senectam  </l>
+            <l n="567">inualidam uariis diuerso tempore morbis  </l>
+            <l n="568">iugiter adsuetus blandis palpare medellis,  </l>
+            <l n="569">nunc quoque sic ipsi iuuenascere posse dedisti,  </l>
+            <l n="570">ut, cum iam penitus fructus de rebus auitis  </l>
+            <l n="571">sperare ulterius nullos me posse probasses,  </l>
+            <l n="572">cunctaque ipsa etiam, quae iam tenuatus habere  </l>
+            <l n="573">Massiliae potui, amissa iam proprietate  </l>
+            <l n="574">conscripta adstrictus sub condicione tenerem,  </l>
+             <l n="575">emptorem mihi ignotum de gente Gothorum  </l>
+            <l n="576">excires, nostri quondam qui iuris agellum  </l>
+            <l n="577">mercari cupiens pretium transmitteret ultro,  </l>
+            <l n="578">haut equidem iustum, uerum tamen accipienti  </l>
+            <l n="579">uotiuum, fateor, possem quo scilicet una  </l>
+            <l n="580">et ueteres lapsi census fulcire ruinas  </l>
+            <l n="581">et uitare noua cari mihi damna pudoris.  </l>
+
+          <l n="582"><milestone unit="para"/>Quo me donatum praestanti munere gaudens  </l>
+            <l n="583">ecce nouas, deus omnipotens, tibi debeo grates,  </l>
+            <l n="584">exuperent quae paene alias cumulentque priores,  </l>
+            <l n="585">quas contestatas tota haec mea pagina praesens  </l>
+            <l n="586">continet, et quamquam spatiis prolixior amplis  </l>
+            <l n="587">euagata diu claudi se iam prope poscat,  </l>
+            <l n="588">nostra tamen iugis deuotio ponere finem  </l>
+            <l n="589">nescit ad explenda tibi debita munia, Christe,  </l>
+            <l n="590">hoc unum ipse bonum statuens, hoc esse tenendum  </l>
+            <l n="591">conscius, hoc toto cupiens adquirere corde,  </l>
+            <l n="592">omnibus usque locis et tempore iugiter omni  </l>
+            <l n="593">te praefando loqui, te * meminisse silendo.  </l>
+            <l n="594">quocirca et totum tibi me, deus optime, debens </l>
+
+<note type="footnote"> 576 sq.] ef. Hor. Epist. I, 7, 81 sq. 580] Uerg. Georg. IIII, 249 <lb/>
+            geueris lapsi sarcire ruinas. 582] Uerg. Aen. V, 361 hoc iuueuem egregiiun <lb/>
+            praestanti munere donat. </note>
+
+<note type="footnote"> 566 Solarier (r2 <hi rend="italic">ex</hi> s) <hi rend="italic">Bl</hi> solarier <hi rend="italic">P</hi> solari es <hi rend="italic">scripsi coll. Auson. <lb/>
+             Prof, VIIII, 2 XVIII!, 2</hi> solari dignare <hi rend="italic">Leipziger</hi> 569 iuue nascere <hi rend="italic">B</hi> <lb/>
+            570 paenitus <hi rend="italic">Bx corr. m. 2</hi> 575 mihi ignotum <hi rend="italic">Haase</hi> ignotum mihi <hi rend="italic">BP</hi> <lb/>
+            579 possim <hi rend="italic">P</hi> 581 uita renoua P 583 nonus P 584 pene <hi rend="italic">B</hi> poenae P <lb/>
+            591 adquierere P 593 te te <hi rend="italic">Barth</hi> et te <hi rend="italic">Haase</hi> te et <hi rend="italic">malim</hi> </note> <lb/>
+             
+<pb n="314"/>
+            <l n="595">cunctaque, quae mea sunt, opus hoc abs te, deus, orsus  </l>
+            <l n="596">nunc quoque concludens tibi desino teque precatus  </l>
+            <l n="597">saepius attente nunc multo inpensius oro,  </l>
+            <l n="598">ut, quia uita in hac, qua nunc ego dego, senili  </l>
+            <l n="599">ipsa morte magis plura (haut) agnosco timenda,  </l>
+            <l n="600">nec mihi, quid potius cupiam, discernere promptum est —  </l>
+            <l n="601">quamcumque in partem tua iam sententia uergit,  </l>
+            <l n="602">da, precor, intrepidam contra omnia tristia mentem  </l>
+            <l n="603">constantemque tuae uirtutis munere praesta,  </l>
+            <l n="604">ut, qui iam dudum placitis tibi uiuo dicatus  </l>
+            <l n="605">legibus et sponsam conor captare salutem,  </l>
+            <l n="606">nec uicina magis pro condicione senectae  </l>
+            <l n="607">tempora plus metuam mortis, cui subiacet omnis  </l>
+            <l n="608">aetas, ambiguae nec me discrimine uitae  </l>
+            <l n="609">suspectum exagitent uarii formidine casus,  </l>
+            <l n="610">uitari quos posse, deus, te praesule fido,  </l>
+            <l n="611">sed, quaecumque manet nostrum sors ultima finem,  </l>
+            <l n="612">mitiget hanc spes, Christe, tui conspectus et omnem  </l>
+            <l n="613">discutiat dubium fiducia certa pauorem,  </l>
+            <l n="614">me, uel in hoc proprio mortali corpore dum sum,  </l>
+            <l n="615">esse tuum, cuius sunt omnia, uel resolutum  </l>
+            <l n="616">corporis in quacumque tui me parte futurum. </l>
+
+<note type="footnote"> 595 sq.] Uerg. Ecl. VIII, 11 a te principium, tibi desino. 602] Auson. <lb/>
+            Or. 31 da pater inuictum contra omnia crimina mentem. 605] cf. Euang. <lb/>
+            Matth. 24,13. 608] Sedul. IIII, 137 amissae passus discrimina uitae, Y, 334 <lb/>
+            in ancipiti retinet discrimine uitam. 609] Auson. Protr. 28 nec — agitet <lb/>
+            formido Uerg. Aen. VIIII, 169 cf. 611] Uerg. Ecl. IIII, 53 o mihi tum <lb/>
+            longae maneat pars ultima uitae, Aen. VII, 128 haec nos suprema manebat. <lb/>
+            614] Paulin. Nol. X, 151 sq. ut sim promeritus Christi fore, dum <lb/>
+            sum Ausonii. 614] Paul. ad Cor. II, 5, 6 dum sumus in corpore, cf. <lb/>
+            ad Rom. 14, 8 616] cf. Paul. ad Cor. I, 12, 27, ad Ephes. 5, 30. </note>
+
+<note type="footnote"> 598 qui a <hi rend="italic">P</hi> qua] quam <hi rend="italic">Leipsiger</hi> 599 haut <hi rend="italic">inserui cf. proleg. <lb/>
+             p. 278</hi> 600 protu <hi rend="italic">B</hi> 601 uergi <hi rend="italic">B</hi> 602 praecor — tristitia <hi rend="italic">B</hi> <lb/>
+            603 presta B 604 quae <hi rend="italic">P</hi> quia <hi rend="italic">Barth</hi> 606 conditione <hi rend="italic">B</hi> 608 ambigue <lb/>
+            nec me discrimina uite <hi rend="italic">Bx</hi> e — e <hi rend="italic">m. 2</hi> me nec discrimina <hi rend="italic">P</hi> discrimine <lb/>
+            <hi rend="italic">scripsi</hi> 612 omne <hi rend="italic">P</hi> 613 paorem <hi rend="italic">P</hi> 615 essa uum <hi rend="italic">B distinx. m. 3</hi>. </note> 
+<pb n="315"/>
+            
+
+        
+</div>
+
+</div>
+</body>
+</text>
+</TEI>

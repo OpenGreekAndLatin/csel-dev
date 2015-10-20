@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL3_3.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Guilelmus Hartelius</name>
+                  <addName xml:lang="de">Wilhelm von Hartel</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1785.1">Pseudo-Cyprianus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa013">De Spectaculis</title>
+              <title>De Bono Pudicitiae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa007">De Laude Martyrii</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa001">Ad Novatianum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa010">De Rebaptismate</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa018">De Aleatoribus</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa008">De Montibus Sina et Sion</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa002">Ad Vigilium de Iudaica Incredulitate</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa020">Adversus Iudaeos</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa019 http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa015">Orationes</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa014">De Duodecim Abusivis Saeculi</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa011">De Singularitate Clericorum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa006">De Duplici Martyrio</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa009">De Pascha Computens</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa016">Epistulae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa003">Carmina</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1871</date>
+              </imprint>
+              <biblScope unit="volume">3.3</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru0swissgoog#page/n7/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0104p.stoa010.opp-lat1">
+<head>
+            <title type="main">V. DE REBAPTISMATE. </title>
+          </head>
+          <p>(NOD debere denuo baptizari qui semel in nomine Domini Iesu Christi <lb/>
+            sint tincti.)
+</p>
+          
+
+<div n="1" subtype="section" type="textpart"><p>Animaduerto quaesitum apud fratres quid potius obseruari  <lb/>
+            oporteret in personam eorum, qui in haeresi quidem sed in nomine Dei <lb/>
+            <sic>ts</sic> nostri Iesu Christi [sint) tincti, postmodum inde digressi et suppliciter <lb/>
+            ad ecclesiam Dei aduolantes, totis praecordiis paenitentiam agerent <lb/>
+            et erroris sui damnationem nunc demum intellegentes auxilium <choice><sic>satutis</sic><corr>salutis</corr></choice> <lb/>
+            ab ea implorarent, utrum uetustissima consuetudine ac traditione <lb/>
+            <choice><sic>eccleeiastica</sic><corr>ecclesiastica</corr></choice> post illum quod foris quidem sed in nomine Iesu Christi <lb/>
+            Domini nostri acceperunt baptisma tantummodo imponi eis manum <lb n="10"/>
+            ab episcopo ad accipiendum spiritum sanctum sufficeret et haec manus <lb/>
+            <sic>hnpositio</sic> signum fidei iteratum atque consummatum eis praestaret, <lb/>
+            an uero etiam iteratum baptisma his necessarium esset
+
+<note type="footnote"> 2 Sir. 2, 10-12. </note>
+
+<note type="footnote"> 10 <hi rend="italic">Hunc tractatum primus edidit Nicolaus RigaUius ex apographo</hi> <lb/>
+            Sirmondi <hi rend="italic">ex uetustissimo codice monasterii S. Remigii RemensØ deseripto: <lb/>
+            post Sirmondi curam Baiuzius iterum contulit codicem quem<lb/>
+             frustra inter libros Bemenses quaesiui</hi>. — 14 oportet <hi rend="italic">cod. et v</hi> 15 sint <lb/>
+            inclusi 19 qui <hi rend="italic">Rig</hi>. 20 domini nostri <hi rend="italic">Baluzius,</hi> domini non <lb/>
+            cod., dominicum <hi rend="italic">Sirmondus</hi> </note> <lb/>
+             
+<pb n="70"/>
+            tamquam nihil habituris, si hoc quoque adepti ex integro non fuissent, <lb/>
+            perinde ac si numquam baptizati in nomine Iesu Christi forent. <lb/>
+            ideoque nonnulla super hac noua quaestione scripta aut rescripta esse <lb/>
+            iactabantur, quibus utraque pars ad dostruenda aliena summo studio <lb/>
+            nitebatur. in quo genere quaestionis, ut mihi uidetur, nulla omnino<lb n="5"/>
+            potuisset controuersia aut disceptatio emergere, si unusquisque nostrum <lb/>
+            contentus uenerabili ecclesiarum omnium auctoritate et necessaria <lb/>
+            humilitate nihil innouare gestiret, cum locum contradictioni non <lb/>
+            quemlibet animaduerteret. namque omne quod et anceps et ambiguum <lb/>
+            et in diuersis sententiis prudentium ac fidelium uirorum constitutum<lb n="10"/>
+            est, si contra priscam et memorabilem cunctorum emeritorum sanctorum <lb/>
+            et fidelium <choice><sic>solemnissimam</sic><corr>solemuissimam</corr></choice> obseruationem iudicatur, damnari <lb/>
+            utique debet, cum in re olim composita et ordinata, quodcumque est <lb/>
+            illud quod contra ecclesiarum quietem atque pacem in medium producatur <lb/>
+            nihil praeter discordias et simultates et schismata allaturum: <lb n="15"/>
+            ubi nullus alius fructus reperiatur nisi hic solus, ut unus <lb/>
+            homo, quicumque ille est, magnae prudentiae et constantiae esse <lb/>
+            apud quosdam lenes homines inani gloria praedicetur et haereticorum <lb/>
+            stupore praeditus, quibus hoc unicum perditionis solacium <lb/>
+            est si non soli peccare uideantur, errores et uitia uniuersarum ecclesiarum<lb n="20"/>
+            correxisse apud simillimos sui et compares celebretur. haereticorum <lb/>
+            enim omnium hoc studium atque propositum.est sanctissimae <lb/>
+            matri nostrae ecclesiae eiuscemodi et plurimas quantas <sic>calumniasnectere</sic> <lb/>
+            et inuenisse aliquid quod ei crimini uel etiam leuiter dari <lb/>
+            posset summam gloriam ducere. quod cum nullum sanae mentis fidelium<lb n="25"/>
+            tenere uel maxime nullum omnino in quocumque clero constitutum <lb/>
+            ac multo magis episcoporum audere deceat, monstri simile <lb/>
+            est ipsos episcopos talia scandala cogitare et turpitudinem matris <lb/>
+            ecclesiae, si quam putant in hoc negotio esse, contra praeceptum legis <lb/>
+            et omnium scripturarum nimis inreuerenter cum ipsa ipsorum turpitudine <lb n="30"/>
+            et periculo non uereri detegere, quamquam nulla sit in hoc <lb/>
+            nisi in errore ipsorum illorum turpitudo ecclesiae. itaque deterius <lb/>
+            delinquitur ab hominibus eiusmodi, si id quod in obseruatione antiquissima <lb/>
+            aliis tamquam non recte fiat reprehenditur, et ab his qui <lb/>
+            ante nos fuerunt, tum etiam a nobis recte obseruatum esse et
+
+<note type="footnote"> 9 <hi rend="italic">prius</hi> et <hi rend="italic">om. Big</hi>. 15 praeter <hi rend="italic">om. cod. </hi>? 30 ipsa] sua <hi rend="italic">Big</hi>. <lb/>
+            34 aliis <hi rend="italic">cod.,</hi> ab iis <hi rend="italic">Balulius,</hi> ab illis <hi rend="italic">fort</hi>. </note> <lb n="35"/>
+             
+<pb n="71"/>
+            <sic>obseroari</sic> manifeste ac fortiter ostendatur, ita ut etsi paribus argumentis <lb/>
+            ex utraque parte congrederemur, tamen quia non poterat id <lb/>
+            quod <sic n="poss">innonabatur</sic> sine dissensione fratrum et damno ecclesiastico <lb/>
+            consistere, utique non debeat contra fas quod aiunt et nefas id est <lb/>
+            contra bonum et aequum ecclesiae matri quasi <choice><sic>macnla</sic><corr>macula</corr></choice> temere infligi, <lb n="5"/>
+            eisque qui hoc adtentarent <choice><sic>andaciae</sic><corr>audaciae</corr></choice> huius atque impietatis ignominia <lb/>
+            merito deberet adscribi. sed quoniam non est in nostra potestate ut <lb/>
+            secundum praeceptum apostoli id ipsum dicamus omnes neue sint in <lb/>
+            nobis schismata, tamen in quantum possumus conitimur huius tractatus <lb/>
+            statum demonstrare et turbulentis hominibus ut uel nunc suum <lb n="10"/>
+            negotium agere incipiant persuadere, consecuturis plurimum etiam <lb/>
+            nobis, si hoc quoque consilio sano tandem <choice n="0.27"><sic n="13">noluerint</sic><corr n="34">uoluerint</corr></choice> adquiescere. <lb/>
+            et ideo quaecumque sanctarum scripturarum ad hanc partem pertinentia <lb/>
+            sunt capitula necessario in unum congeremus, et quae uidentur <lb/>
+            esse <sic>dinena</sic> aut uaria quantum poterit manifeste inter se <sic n="poss">conglutinabimus</sic> <lb n="15"/>
+            et utilitatem ac commodum singulorum pro mediocritate <lb/>
+            nostra examinabimus, ut agendi in ecclesia formam et consuetudinem <lb/>
+            <choice><sic>salnberrimam</sic><corr>saluberrimam</corr></choice> atque pacificam <choice><sic>uninersis</sic><corr>uniuersis</corr></choice> fratribus insinuemus. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p>Igitur adgredientibus tractatum salutaris et noui hoc est spiritalis  <lb/>
+            et euangelici baptismatis in primis occurrit notissima omnibus praedicatio <lb n="20"/>
+            celebrata atque coepta ab Ioanne baptista, qui aliquantum desciscens <lb/>
+            a lege id est Moysi antiquissimo baptismate et uiam nouae et <lb/>
+            uerae gratiae praesternens [et] baptismate quod interim exercebat <lb/>
+            aquae et paenitentiae sensim <choice n="0.42"><sic n="457">auras</sic><corr n="606">aures</corr></choice> Iudaeorum praeueniebat et occupabat <lb/>
+            spiritalis baptismatis futuri annuntiatione, adhortans eos et <lb n="25"/>
+            dicens: qui post me <choice><sic>nenit</sic><corr>uenit</corr></choice> fortior me est, cuius ego non <lb/>
+            sum dignus corrigiam calciamenti soluere. ipse uos <lb/>
+            baptizabit in spiritu sancto et igni. propter quod nobis <lb/>
+            quoque huius sermonis orsus hinc incipere debebit. nam et Dominus <lb/>
+            hanc eandem uocem Ioannis post suam resurrectionem in actis
+
+<note type="footnote"> 26 Matth. 3, 11. Marc. 1, 7. Luc. 3, 16. lo. 1, 27. </note>
+
+<note type="footnote"> 7 debeat <hi rend="italic">Big</hi>. 15 poterit; <hi rend="italic">cf. Front. p. 48, 21 (Nab.)</hi> 17 agendi <lb/>
+            <hi rend="italic">teripsi,</hi> accendi <hi rend="italic">cod.,</hi> tacendi <hi rend="italic">coni. BigaltiuB,</hi> accedenti <hi rend="italic">coni. Oxon.,</hi> attendi <lb/>
+            <hi rend="italic">coni. Baiueius</hi> 22 moyse <hi rend="italic">cod. et v,</hi> moysis <hi rend="italic">Bal.; cf. epist</hi>. 791, 6 </note> <lb n="30"/>
+             
+<pb n="72"/>
+            apostolorum confirmans praecepit eis ab Hierosolymis non <lb/>
+            discedere, sed exspectare illam promissionem patris <lb/>
+            quam audistis a me, quia Ioannes quidem <choice><sic>baptizau</sic><corr>baptizauit</corr></choice> it <lb/>
+            aqua, uos autem baptizabimini spiritu sancto non post <lb/>
+            multos hos dies. itemque Petrus eadem uerba Domini percensuit,<lb n="5"/>
+            rationem pro se apud apostolos reddens dicendo: cum autem <lb/>
+            inciperem loqui ego, irruit spiritus sanctus super <lb/>
+            eos, sicut et super nos in principio, et recordatus sum <lb/>
+            sermonem Domini sicut dicebat: Ioannes quidem baptizauit <lb/>
+            aqua, uos autem baptizabimini spiritu sancto. <lb n="10"/>
+            si ergo aequale donum dedit eis sicut et nobis credentibus <lb/>
+            Dominum legum Christum, ego quis eram qui <lb/>
+            possem probibere Domino? et iterum: uiri fratres, scitis <lb/>
+            quia a diebus antiquis in nobis Deus elegit per os <lb/>
+            meum audire gentes uerbum euangelii et credere et <lb n="15"/>
+            qui corda nouit Deus testimonium perhibuit dans eis <lb/>
+            spiritum sanctum sicut et nobis. ac propterea huius <lb/>
+            sententiae quae sit uis et potestas considerare debemus. ait enim Dominus <lb/>
+            eis qui postmodum baptizari haberent, quia crederent, baptizandos <lb/>
+            esse, non quemadmodum a se in aqua in paenitentiam, sed in<lb n="20"/>
+            spiritu sancto. de qua praedicatione cum utique nemo nostrum possit <lb/>
+            ambigere, manifestum est qua ratione homines in spiritu sancto <lb/>
+            baptizati sint. nam et proprie in ipso solo sancto spiritu baptizati <lb/>
+            sunt qui crediderunt, quia Ioannes discreuit et dixit <choice><sic>diceus</sic><corr>dicens</corr></choice> se quidem <lb/>
+            in aqua baptizare, uenturum autem qui in spiritu sancto baptizet. <lb n="25"/>
+            gratia et uirtute Dei sunt t et hoc et occulta largiente et operante, <lb/>
+            nihilominus autem etiam in baptismate spiritus et aquae, praeterea <lb/>
+            etiam in baptismate spiritus in sanguine proprio uniuscuiusque, sicut <lb/>
+            declarant nobis sanctae scripturae , quarum per singula quaeque <lb/>
+            eorum quae enarrabimus adferemus perspicuas probationes. <lb n="30"/>
+            
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> Ad quae forte tu, qui nouum quid inducis, continuo impatienter <lb/>
+            respondeas ut soles dixisse in euangelio Dominum: nisi quis <lb/>
+            denuo natus fuerit ex aqua et spiritu, non potest <lb/>
+            introire in regnum caelorum. ex quo manifeste apparet illi
+
+<note type="footnote"> 1 Act. 1, 4. 5. 6 Act. 11, 15-17. 18 Act. 15, 7, 8. <lb/>
+            32 Io. 3, 3. 5. </note> <lb/>
+             
+<pb n="73"/>
+            baptisma solum prodesse cui <choice><sic>posait</sic><corr>possit</corr></choice> etiam spiritus sanctus inesse: super <lb/>
+            ipsum enim Dominum cum baptizaretur spiritum sanctum descendisse <lb/>
+            factumque eius atque dictum pariter congruere nec alia ulla ratione <lb/>
+            mysterium istud posse consistere. cui responso nemo nostrum adeo <lb/>
+            ita insanus reperitur aut contumax ut audeat contra fas aut contra <lb n="5"/>
+            <sic>neram</sic> contradicere, scilicet rebus integris et omni modo ita in ecclesia <lb/>
+            <choice><sic>gernndis</sic><corr>gerundis</corr></choice> et secundum disciplinae ordinem perpetuo a nobis\' <lb/>
+            obseruandis. sed si in eodem nouo testamento haec quae in isto negotio <lb/>
+            deprehendimus adunata nonnumquam reperiantur quodam modo <lb/>
+            <sic>dinisa</sic> ac separata et proinde disposita atque si sint singula, <choice><sic>uideamos</sic><corr>uideamus</corr></choice> <lb n="10"/>
+            utrum possint esse aliquando etiam singulariter solitaria,, quasi <lb/>
+            non sint mutila sed tamquam integra atque perfecta. nam cum per <lb/>
+            manus impositionem episcopi datur unicuique credenti spiritus sanctus, <lb/>
+            sicut apostoli circa Samaritanos post Philippi baptisma manum <lb/>
+            eis imponendo fecerunt, et hac ratione spiritum sanctum in eos <choice n="0.17"><sic n="16">contulerant</sic><corr n="75">contulerunt</corr></choice>, <lb n="15"/>
+            quod ut fieri posset ipsi pro eis orauerunt, nondum enim <lb/>
+            super quemquam eorum descenderat spiritus, tantum autem baptizati <lb/>
+            erant in nomine Domini Iesu: Dominus quoque noster post resurrectionem, <lb/>
+            cum <sic>insufflasset</sic> et dixisset apostolis suis accipite spiritum <lb/>
+            sanctum, ita demum largitus eis spiritum sanctum. <lb n="20"/>
+            
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p>Cum ita inuenitur, quid tibi, frater, uidetur? si quis non ab episcopo  <lb/>
+            baptizatus, ita ut si in continenti etiam manus ei imponatur, <lb/>
+            priusquam tamen accipiat spiritum sanctum fuerit defunctus, utrum <lb/>
+            censeas salutem percepisse eum necne: quoniam quidem et ipsi apostoli <lb/>
+            et discipuli, qui etiam alios baptizabant, [qui etiam] a Domino <lb n="25"/>
+            baptizati non statim spiritum sanctum acceperint, qui nondum erat, <lb/>
+            quia Iesus nondum fuerat clarificatus, sed post resurrectionem eius <lb/>
+            nec modicum interuallum temporis quo id gestum est intercesserit <lb/>
+            <choice><sic>sicnti</sic><corr>sicuti</corr></choice> et cum baptizati sunt a Philippo Samaritani, donec Samariam <lb/>
+            rogati ab Hierusalem apostoli descenderent ad illos, ut eis manum <lb n="30"/>
+            imponerent et spiritum sanctum per manus impositionem in eos
+
+<note type="footnote"> 19 Io. 20, 22. </note>
+
+<note type="footnote"> 7 gerendis <hi rend="italic">Big</hi>. 9 non <hi rend="italic">om. Big</hi>. 14 sic et <hi rend="italic">fort</hi>. 17 descenderat <lb/>
+            <hi rend="italic">Bigaltius,</hi> deciderat <hi rend="italic">Baluzius</hi>. 19 spiritum sanctum com <lb/>
+            ita inaenitur <hi rend="italic">non distinguit Baiuzius</hi> 23 acciperet <hi rend="italic">Big</hi>. 25 qui <lb/>
+            etiam <hi rend="italic">inclusi</hi> 26 sint baptizati <hi rend="italic">Baluzius</hi> erat] <hi rend="italic">cf. cap. 14</hi> <lb/>
+            29 sunt <hi rend="italic">om. Big</hi>. </note> <lb/>
+             
+<pb n="74"/>
+            conferrent, quoniam uel illo <choice><sic>internallo</sic><corr>interuallo</corr></choice> temporis aliquis eorum non <lb/>
+            adeptus spiritum sanctum morte potuit intercipi et defraudatus gratia <lb/>
+            spiritus sancti <choice><sic>defllngi</sic><corr>defungi</corr></choice>. quod hodierna quoque die non potest dubitari <lb/>
+            esse usitatum et euenire solitum ut plerique post baptisma sine impositione <lb/>
+            manus episcopi de saeculo exeant, et tamen pro perfectis<lb n="5"/>
+            fidelibus habentur. sicuti Aethiops <choice><sic>ennuchus</sic><corr>eunuchus</corr></choice> cum rediret ab Hierusalem <lb/>
+            et legeret prophetam Esaiam et haesitaret suggerente spiritu <lb/>
+            audita ueritate a Philippo diacono credidit et baptizatus est, et cum <lb/>
+            ascendisset de aqua, spiritus Domini rapuit Philippum, et non <choice><sic>nidit</sic><corr>uidit</corr></choice> <lb/>
+            eum iam nunc amplius eunuchus: abibat enim uiam suam gaudens. <lb n="10"/>
+            quamquam, ut <choice><sic>apimaduertis</sic><corr>animaduertis</corr></choice>, imposita ei manus non est ab episcopo, <lb/>
+            ut spiritum sanctum acciperet. quod si hoc admittis et salutare esse <lb/>
+            credis nec opinioni omnium fidelium refragaris, necesse est confitearis, <lb/>
+            proinde autem atque hoc latius <choice><sic>tractatn</sic><corr>tractatu</corr></choice> procedit, etiam illud aliud <lb/>
+            latius posse consistere, id est ut per solam manus impositionem<lb n="15"/>
+            episcopi, quia baptisma in nomine Iesu Christi Domini nostri praecessit, <lb/>
+            possit alio homini paenitenti atque credenti etiam spiritus <lb/>
+            sanctus tribui, quoniam eos qui in Christum credituri essent scriptura <lb/>
+            sancta praedixit oportere in spiritu baptizari, ita ut et hi quoque non <lb/>
+            uideantur minus aliquid habere quam illi qui perfecti sunt christiani,<lb n="20"/>
+            nec necesse sit quaeri quale illud baptisma fuerit quod in nomine <lb/>
+            Iesu Christi sunt consecuti. nisi forte in illo quoque superiore <choice><sic>tractatn</sic><corr>tractatu</corr></choice> <lb/>
+            circa eos qui tantum modo in nomine Christi Iesu baptizati <lb/>
+            fuerint statuas etiam sine spiritu sancto posse saluos fieri, t aut non <lb/>
+            hac sola ratione, sed si per manus impositionem episcopi spiritum<lb n="25"/>
+            sanctum consuesse praestari aut etiam non episcopum dicas spiritum <lb/>
+            sanctum solitum esse largiri. 
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p> Quod si ita est et potest aliquid horum eueniens salutem homini <lb/>
+            credenti non praeripere, tu quoque ipse annuis quoniam modo dimidiatum <lb/>
+            et non ut contendis consummatum mysterium fidei, <hi rend="italic">si</hi> qua <lb n="30"/>
+            necessitas interuenit, <choice><sic>salntem</sic><corr>salutem</corr></choice> adimere non posse credenti et
+
+<note type="footnote"> 1 quoniam uel <hi rend="italic">scripsi,</hi> uel quoniam <hi rend="italic">cod.,</hi> quoniam <hi rend="italic">Big</hi>. aliqui <hi rend="italic">Rig</hi>. <lb/>
+            11 quamquam <hi rend="italic">coni. nescio quis,</hi> quoniam <hi rend="italic">cod. et</hi> b 21 nec] ne <lb/>
+            <hi rend="italic">Big</hi>. 27 solum <hi rend="italic">Rig,</hi> 29 quoniam modo] quonam modo <hi rend="italic">coni,<lb/>
+             Gallandius;</hi> non modo dimidiatum ut contendis sed consummatur <hi rend="italic">conu <lb/>
+            nescio quis, sed nihil mutandum; cf. Cypr. epist. p</hi>. 536,12 30 si <hi rend="italic">addidi</hi> </note> <lb/>
+             
+<pb n="75"/>
+            paenitenti homini. aut si dicis huiusmodi hominem saluum non posse fieri, <lb/>
+            omnibus episcopis salutem adimimus, quos ita periculis quam certissimis <lb/>
+            adstringis, ut omnibus hominibus qui sub cura eorum agunt <lb/>
+            et hac atque <choice n="0.09"><sic n="34">illac</sic><corr n="307">illae</corr></choice> dispersis regionibus ipsorum infirmantur per semet <lb/>
+            ipsos <choice><sic>snbnenire</sic><corr>subuenire</corr></choice> debeant, quia ceteri homines minores clericis qui <lb n="5"/>
+            periclitantur hoc idem praestare non possint, ne sanguis eorum qui <lb/>
+            uacui de saeculo exisse uidebuntur de manu episcoporum necesse <lb/>
+            habeat requiri. porro autem, ut non ignoratis, credentibus hominibus <lb/>
+            <choice><sic>muenitur</sic><corr>inuenitur</corr></choice> spiritus sanctus a Domino datus sine baptismate aquae, <lb/>
+            sicut actis apostolorum continetur in hunc modum: adhuc loquente <lb n="10"/>
+            Petro <choice><sic>nerba</sic><corr>uerba</corr></choice> haec irruit spiritus sanctus super omnes <lb/>
+            qui audiebant uerbum, et <choice><sic>obstnpefacti</sic><corr>obstupefacti</corr></choice> sunt qui erant <lb/>
+            ex circumcisione fideles quotquot simul uenerant <lb/>
+            cum Petro, quia et super gentes donum spiritus sancti <lb/>
+            effusum est. audiebant enim eos loquentes linguis <lb n="15"/>
+            suis et magnificabant Deum. tunc respondit Petrus: <lb/>
+            <choice><sic>nnmquid</sic><corr>numquid</corr></choice> aliquis aquam prohibere potest ut non baptizentur <lb/>
+            isti qui spiritum sanctum acceperunt sicut et <lb/>
+            nos? et praecepit eos baptizari in nomine Iesu Christi. <lb/>
+            sicut etiam idem Petrus postmodum de eisdem gentibus plenissime <lb n="20"/>
+            docuit nos dicens: et nihil discreuit inter <choice><sic>_nos</sic><corr>nos</corr></choice> et ipsos, <lb/>
+            fide emundatis cordibus eorum. atque hoc non erit <choice><sic>dnbium</sic><corr>dubium</corr></choice> <lb/>
+            in spiritu sancto homines posse sine aqua baptizari, sicut <choice><sic>animadnertis</sic><corr>animaduertis</corr></choice> <lb/>
+            baptizatos hos prius quam aqua baptizarentur ut satisfieret et <lb/>
+            Ioannis et ipsius Domini praedicationibus, quandoquidem et hi sine <lb n="25"/>
+            manus impositione apostolorum et sine lauacro quod postea adepti <lb/>
+            sunt gratiam repromissionis acceperint et sic paullo ante emundatis <lb/>
+            cordibus eorum Deus per fidem ipsorum etiam remissionem peccatorum <lb/>
+            simul eis largitus sit, ut hoc solum eis baptisma subsequons <lb/>
+            praestiterit, ut inuocationem quoque nominis Iesu Christi acciperent, <lb n="30"/>
+            ne quid eis deesse uideretur ad integritatem ministerii et fidei. 
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart"><p>Quod etiam e contrario latere tractatus huius sunt consecuti ipsi  <lb/>
+            illi discipuli Domini nostri, <choice><sic>snper</sic><corr>super</corr></choice> quos iam pridem baptizatos postremo
+
+<note type="footnote"> 10 Act. 1, 44 -48. 21 Act. 15, 9. </note>
+
+<note type="footnote"> 5 clerici <hi rend="italic">fort</hi>. 7 uidebantur <hi rend="italic">Rig</hi>. 20 idem om. <hi rend="italic">ffig</hi>. 25 et hi] <lb/>
+            haec <hi rend="italic">Rig</hi>. 27 et sic panllo ante emundatis <hi rend="italic">Baluzius,</hi> et inundatis <hi rend="italic">Rig.,</hi> <lb/>
+            et emundatis <hi rend="italic">Oxon</hi>. 31 mysterii fidei <hi rend="italic">fort.; cf. pag. 81, 20</hi> </note> <lb/>
+             
+<pb n="76"/>
+            die pentecostes superuenit spiritus sanctus, uoluntate Dei quidem non <lb/>
+            . sua sponte caelo lapsus, sed ad hoc ipsum munus effusum sedet super <lb/>
+            unumquemque eorum, cum iusti iam pridem, ut diximus, baptismate <lb/>
+            Domini fuissent baptizati, sicut et ipsi apostoli, qui tamen omnes <lb/>
+            Dominum nocte qua apprehensus est deseruisse inueniuntur, et ille<lb n="5"/>
+            ipse qui gloriatus est perseueraturum se in sua fide Petrus et aduersus <lb/>
+            ipsius Domini praedictum obstinatissime repugnauit, postremo <lb/>
+            tamen tum ipsum negauit: ut hac ratione ostenderetur nobis quae <lb/>
+            medio tempore quoquo modo contraxerant delicta, eadem haec in eis <lb/>
+            fide postmodum sincera per baptisma spiritus sancti non dubie esse<lb n="10"/>
+            dimissa. nec ulla, ut puto, alia ex causa apostoli his quos in spiritu <lb/>
+            sancto adloquebantur praeceperant ut in nomine Christi Iesu baptizarentur, <lb/>
+            nisi quia uirtus nominis Iesu super quemcumque hominum <lb/>
+            baptismate inuocata ad salutem adsequendam non modicam praerogatiuam <lb/>
+            ei qui baptizaretur praestare posset, sicuti Petrus in actis<lb n="15"/>
+            apostolorum enarrat dicens: nec enim aliud est nomen sub <lb/>
+            caelo quod datum est hominibus, in quo oportet saluos <lb/>
+            fieri nos. sicut etiam apostolus Paulus aperit ostendens, quia <lb/>
+            Deus exaltauit Iesum Dominum nostrum et donauit illi <lb/>
+            nomen ad hoc ut sit super omne nomen, ut in nomine <lb n="20"/>
+            Iesu omnes genua curuent caelestium et terrestrium <lb/>
+            et infernorum, et omnis lingua confiteatur <lb/>
+            quia Dominus est Iesus in gloria patris, et ille in quo <lb/>
+            cum baptizaretur inuocatum esset in nomine Iesu, licet in aliquo errore <lb/>
+            consequeretur, tamen quandoque non prohiberetur rectum sapere et <lb n="25"/>
+            errorem suum corrigere et ad ecclesiam et ad episcopum uenire et <lb/>
+            sinceriter confiteri Iesum nostrum coram hominibus, ut tunc cum ab <lb/>
+            episcopo ei manus imponeretur, etiam spiritum sanctum acciperet, nec <lb/>
+            inuocationem illam pristinam nominis Iesu amitteret, quam nemini <lb/>
+            nostrum licet damnare, quum haec nuda et singularis si in errore sit <lb n="30"/>
+            constituta non posset ad salutem praestandam sufficere, ne hac
+
+<note type="footnote">16 Act. 4, 12. 19 Phil. 2, 9-11. </note>
+
+<note type="footnote"> 2 effusu3 <hi rend="italic">coni. nescio quis</hi> 3 iusti] isti <hi rend="italic">coni. Big</hi>. 5 domino <lb/>
+            <hi rend="italic">Rig</hi>. 8 tum ipsum] eum etiam <hi rend="italic">Baiuziua,</hi> ter ipsum coni. Iti- <lb/>
+            <hi rend="italic">galtius</hi> 9 quoque <hi rend="italic">Big</hi>. 10 sincerata <hi rend="italic">Rig</hi>. 12 praeceperant.. <lb/>
+            baptizarentur <hi rend="italic">om. Rig</hi>. 16 narrat <hi rend="italic">Rig</hi>. 30 si <hi rend="italic">om. Big</hi>. </note> <lb/>
+             
+<pb n="77"/>
+            ratione etiam ethnicos et haereticos abutentes nomen Iesu credamus ad <lb/>
+            salutem sine uera re atque integra posse peruenire. quam tamen <lb/>
+            inuocationem nominis Iesu correctione erroris et agnitione fidei ueritatis <lb/>
+            et abscisa omni labe praeteritae conuersationis mysterio Dei <lb/>
+            circa eiusmodi homines rite perpetratam locum quem habitura non <lb n="5"/>
+            erat obtinere et postremo in fide recta et ad integritatem signi praestandam <lb/>
+            non obesse supplemento eius quod deerat accedente perquam <lb/>
+            utile est credere, et tot annorum totque ecclesiarum itemque <lb/>
+            apostolorum et episcoporum auctoritati cum bona ratione adquiescere, <lb/>
+            cum sit maximum incommodum ac dispendium sanctissimae matris <lb n="10"/>
+            ecclesiae aduersus prisca consulta post tot saeculorum tantam seriem <lb/>
+            nunc primum repente ac sine ratione insurgere. nec enim propter <lb/>
+            aliud Petrus, qui iam fuerat baptizatus et quid sentiret de Domino <lb/>
+            ab ipso Domino erat interrogatus, et ueritate reuelationis patris caelestis <lb/>
+            in eum collocata, quod Dominus noster non solum Christus, <lb n="15"/>
+            <choice n="0.04"><sic n="127">ueram</sic><corr n="2510">uerum</corr></choice> etiam filius Dei uiui esset confessus, postmodum eidem Christo <lb/>
+            praedicanti de sua passione refragatus esse monstratus est, et propterea <lb/>
+            satanas dici ostensus est, nisi quia futurum erat ut quidam <lb/>
+            tametsi uariantes in sententia propria et claudicantes aliquando in <lb/>
+            fide atque doctrina, cum in nomine Iesu baptizarentur, tamen si interuallo <lb n="20"/>
+            quodam temporis recorrigere id potuissent, non propterea a <lb/>
+            salute exciderent, sed quandoque resipuissent, integram spem salutis <lb/>
+            paenitendo <choice><sic>obtinerfot</sic><corr>obtinerent</corr></choice>, praesertim cum spiritum sanctum, quo baptizari <lb/>
+            <choice><sic>nnusquisque</sic><corr>unusquisque</corr></choice> hominum debet, acciperent, t aliquid tale <sic>designassent</sic>, <lb/>
+            sicuti non solum Petrum hoc passum esse in euangelio deprehendimus, <lb n="25"/>
+            uerum uniuersos quoque discipulos, quibus iam baptizatis postea <lb/>
+            Dominus ait quia uos omnes scandalizabimini in me: <lb/>
+            qui omnes ut animaduertimus correcta fide sua post resurrectionem <lb/>
+            Domini in spiritu sancto sunt baptizati, ut non immerito hodie quoque <lb/>
+            credamus homines correctos a pristino errore in spiritu sancto <lb n="30"/>
+            posse baptizari. qui cum aqua baptizarentur in nomine Domini <lb/>
+            aliquando scabram habuissent fidem, quoniam multum interest utrum <lb/>
+            in totum quis non sit baptizatus in nomine Domini nostri Iesu Christi,
+
+<note type="footnote"> 15 cf. Matth. 16, 16. 27 Marc. 14, 27. </note>
+
+<note type="footnote"> 32 aliquando <hi rend="italic">Baluzius,</hi> aliquo (t. <hi rend="italic">e</hi>. aliquatenus) <hi rend="italic">coni. Rigaltius,</hi> <lb/>
+            aliquod <hi rend="italic">cod</hi>. ? </note> <lb/>
+             
+<pb n="78"/>
+            an uero in aliquo <choice><sic>elaudicet</sic><corr>claudicet</corr></choice> cum baptizatur baptismate aquae, quod <lb/>
+            minus est, dummodo postea constet in ueritate sincera fides in baptismate <lb/>
+            spiritus, quod non dubie maius est. 
+</p>
+          </div>
+
+<div n="7" subtype="section" type="textpart"><p> Nec aestimes huic tractatui contrarium esse quod dixit Dominus: <lb/>
+            ite, docete gentes, tinguite eos in nomine patris et <lb n="5"/>
+            filii et* spiritus sancti. quia cum hoc uerum et rectum et <lb/>
+            omnibus modis in ecclesia <choice><sic>obsernandum</sic><corr>obseruandum</corr></choice> sit et obseruari quoque solitum <lb/>
+            sit, tamen <choice><sic>consideraro</sic><corr>considerare</corr></choice> oportet quod inuocatio nominis Iesu non <lb/>
+            debet a nobis futilis uideri propter uenerationem et uirtutem ipsius <lb/>
+            nominis, in quo nomine uirtutes omnes solent fieri et nonnumquam <lb n="10"/>
+            aliquae etiam ab hominibus extraneis. ceterum quo pertinent illa <lb/>
+            uerba Christi, qui negaturum se esse dixit nec nosse eos qui sibi in <lb/>
+            die iudicii dicturi essent: Domine, Domine, nonne in tuo nomine <lb/>
+            prophetauimus et in nomine tuo daemonia eiecimus <lb/>
+            et in nomine tuo uirtutes magnas fecimus, respondendo<lb n="15"/>
+            eis etiam cum iureiurando quia, numquam cognoui <lb/>
+            uos, discedite a me qui operamini iniquitatem, nisi <lb/>
+            ostenderetur nobis nonnumquam etiam ab his qui operarentur iniquitatem <lb/>
+            posse per nimiam uirtutem nominis Iesu etiam haec fieri. idcircoque <lb/>
+            debet inuocatio haec nominis Iesu quasi initium quoddam mysterii<lb n="20"/>
+            dominici commune nobis et ceteris omnibus accipi, quod possit <lb/>
+            postmodum residuis rebus impleri, alias non profutura talis inuocatio <lb/>
+            cum sola permanserit, quia post mortem eiusmodi hominis non potest <lb/>
+            ei quicquam omnino adici uel suppleri aut in aliquo prodesse in die <lb/>
+            iudicii, cum illi a Domino nostro quae supra memorauimus coeperint<lb n="25"/>
+            exprobrari: qui tamen uniuersi hodie ut sibi his modis subueniant <lb/>
+            quibus supra ostendimus, non possunt ab ullo hominum tam dure tamque <lb/>
+            crudeliter prohiberi. 
+</p>
+          </div>
+
+<div n="8" subtype="section" type="textpart"><p> Sed ad haec, ut soles, contradices, opponendo nobis tunc cum baptizarentur <lb/>
+            <choice n="0.9"><sic n="171">integra</sic><corr n="19">integre</corr></choice> ac recte discipulos ac non ut hos haereticos esse <lb n="30"/>
+            baptizatos. quod ex persona ipsorum et eius qui baptizauit illos sumas <lb/>
+            necesse est. et ideo nos ad propositionem hanc tuam non ut accusatores <lb/>
+            discipulorum Domini respondemus, sed sicuti compellimur, quia
+
+<note type="footnote"> 5 Matth. 28, 19. 13 Matth. 7, 22. 23. </note>
+
+<note type="footnote"> 1 baptismate ea quae <hi rend="italic">cod</hi>. 3 non dubie <hi rend="italic">om. Big</hi>. 19 idcirco <lb/>
+            quae <hi rend="italic">Big</hi>. 21 quod] quia <hi rend="italic">Rig</hi>. 25 illa <hi rend="italic">Big</hi>. </note> <lb/>
+             
+<pb n="79"/>
+            necesse est ubi et quando et quemadmodum unicuique nostrum salus <lb/>
+            sit praestita rationibus inuestigemus. namque natum esse Dominum <lb/>
+            nostrum et Christum esse eum multis rationibus a discipulis eius non <lb/>
+            immerito credi uidebatur, quod ex tribu Iuda, quod ex genere Dauid <lb/>
+            quodque in <choice><sic>cinitate</sic><corr>ciuitate</corr></choice> Bethleem fuisset natus et quod <choice><sic>pastohbus</sic><corr>pastoribus</corr></choice> ab angelis <lb n="5"/>
+            quoniam saluator illis natus esset eodem momento fuisset <choice><sic>annuntiatus</sic><corr>aununtiatus</corr></choice>, <lb/>
+            quo in oriente uisa eius stella sollicitissime fuisset a magis <lb/>
+            requisitus et adoratus et illustribus donis et insignibus muneribus <lb/>
+            honoratus, quod puer admodum in templo sedens cum legis doctoribus <lb/>
+            prudenter et cum admiratione omnium disputasset, quod cum baptizaretur, <lb n="10"/>
+            ita ut nulli alii contigerat, caelis apertis descensione spiritus <lb/>
+            sancti et super eum mansione testimonio etiam patris sui itemque <lb/>
+            Ioannis baptistae fuisset clarificatus, quod supra humanam mediocritatem <lb/>
+            corda et cogitationes uniuersorum intelligeret, quod languores <lb/>
+            et uitia et ualetudines cum potestate maxima curaret atque sanaret, <lb n="15"/>
+            quod remissiones peccatorum cum euidenti probatione praestaret, <lb/>
+            quod daemonia iussu expelleret, quod leprosos uerbo mundaret, quod <lb/>
+            aquam in uinum conuertendo conuiuium nuptiale admirabili laetitia <lb/>
+            amplificaret, quod caecis uisionem restitueret aut indulgeret, quod <lb/>
+            doctrinam patris cum omni fiducia assereret, quod in loco deserto de <lb n="20"/>
+            quinque panibus quinque milia hominum saturaret, quod reliquiae <lb/>
+            atque buccellae plus quam duodecim cophinos implerent, quod mortuos <lb/>
+            pro sua pietate passim suscitaret, quod <choice><sic>nentis</sic><corr>uentis</corr></choice> et mari ut quiescerent <lb/>
+            imperaret, quod super mare pedibus <choice><sic>artbularet</sic><corr>ambularet</corr></choice>, quod <choice><sic>uirtutos</sic><corr>uirtutes</corr></choice> omnes <lb/>
+            omnino perficeret. <lb n="25"/>
+            
+</p>
+          </div>
+
+<div n="9" subtype="section" type="textpart"><p>Quibus rebus et huiuscemodi compluribus factis ad claritatem eius  <lb/>
+            pertinentibus consequens esse uidebatur ut quemadmodum Iudaei de <lb/>
+            Christo sentiunt, quod tamen de Iesu Christo Domino nostro non <lb/>
+            credunt, ut etiam ipsi <choice><sic>ezistimarent</sic><corr>existimarent</corr></choice>, ut talis et tantus nulla obita <lb/>
+            morte in aeternum perseueret, et regnum Israel <sic>ot</sic> totius orbis in <lb n="30"/>
+            perpetuum quod non corriperetur possideret. unde etiam Iudaei ausi <lb/>
+            fuerunt eum rapere et in regnum unguere: quod quidem necesse <lb/>
+            habuit ille subterfugere: ac propterea discipuli eius arbitrabantur
+
+<note type="footnote"> 7 quo <hi rend="italic">scripsi,</hi> quod <hi rend="italic">cod. et b</hi> 28 sentiant <hi rend="italic">Big</hi>. 81 corriperetur] <lb/>
+            corrumperetur <hi rend="italic">conI. Baluzius</hi> 32 fuerant <hi rend="italic">Big</hi>. 33 auperfugere <lb/>
+            COlli. <hi rend="italic">Big</hi>. </note> <lb/>
+             
+<pb n="80"/>
+            quod nulla alia ratione uitam aeternam <choice n="0.12"><sic n="852">bis</sic><corr n="5798">his</corr></choice> praestaturus esset, nisi <lb/>
+            primum ipse uitam hanc temporalem cum illa aeterna in se ipso <lb/>
+            continuasset. denique cum conuersarentur in Galilaea dixit eis Iesus: <lb/>
+            incipit filius hominis tradi in manus hominum et <lb/>
+            interficient eum, et post triduum resurget. et contristati <lb n="5"/>
+            sunt nimis, quia, sicuti diximus, longe diuersum prius animis ac mente <lb/>
+            conceperant. denique hic fuit etiam Iudaeorum sermo contradictionis <lb/>
+            aduersus eum, cum se ipse quidem doceret eos et futura annuntiaret, <lb/>
+            illi autem dicerent: nos audiuimus a lege quia Christus <lb/>
+            manet in aeternum: et quomodo <sic>tji</sic> dicis quia exaltari <lb n="10"/>
+            oportet filium hominis? itaque fuit discipulorum eadem haec <lb/>
+            praesumptio de Christo, prorumpente in istum sermonem incrudelitatis <lb/>
+            suae Petro ipso duce ac principe apostolorum. cum enim a Domino <lb/>
+            simul cum ceteris fuisset interrogatus quidnam sentiret de ipso, <lb/>
+            id est quem esse eum existimaret, et primo ueritatem confessus fuisset<lb n="15"/>
+            dicens esse eum Christum filium Dei uiui et propterea beatus ab illo <lb/>
+            iudicatus esset, quod hoc non carnaliter sed per patris caelestis reuelationem <lb/>
+            adsecutus esset, idem tamen, ubi coepit Iesus ostendere <lb/>
+            discipulis suis quia oporteret eum Hierosolymam ire et multa pati a <lb/>
+            senioribus et sacerdotibus et scribis et interfici et post diem tertium <lb n="20"/>
+            resurgere, nihilominus ille uerus Christi confessor post pauculos dies <lb/>
+            assumpto eo coepit illum corripere dicens: propitius sit tibi, <lb/>
+            non erit istud, ita ut propterea audire a Domino commeruerit: <lb/>
+            uade post me satanas, scandalum mihi es, ob hoc quod <lb/>
+            non saperet ea quae sunt Dei sed ea quae sunt hominum. quae increpatio<lb n="25"/>
+            aduersus Petrum magis magisque eluxit adprehenso Domino, <lb/>
+            cum a muliercula conterritus diceret: nescio quid dicas, neque <lb/>
+            noui te, et iterum cum hoc idem diceret adhibito iureiurando et <lb/>
+            tertio deuotans et iurans adfirmaret quoniam non nosset hominem et <lb/>
+            non semel sed saepius eum negasset, quod consilium ei quoniam usque <lb n="30"/>
+            ad passionem Domini perseueraturum erat multo prius a Domino <lb/>
+            palam factum est, ut nos quoque id non ignoremus. denique post
+
+<note type="footnote"> 4 Matth. 9, 30. 9 Io. 12, 34. 22 Matth. 16, 16 sq. <lb/>
+            27 Matth. 26, 70 sq. </note>
+
+<note type="footnote"> 6 quia ... animis <hi rend="italic">om. Rig</hi>. 19 oportet illum <hi rend="italic">Rig</hi>. 28 ita <lb/>
+            <hi rend="italic">om. Big</hi>. 28 idem om. <hi rend="italic">Rig</hi>. </note> <lb/>
+             
+<pb n="81"/>
+            resurrectionem Domini unus e discipulis eius Cleopas cum esset <lb/>
+            <choice><sic>maeetus</sic><corr>maestus</corr></choice> secundum errorem omnium condiscipulorum suorum, ipsi <lb/>
+            Domino tamquam alicui ignoto referens quod contigerat, sic locutus <lb/>
+            est dicens de Iesu Nazareno, qui fuit propheta potens in factis et <lb/>
+            dictis in conspectu Dei et uniuersi populi, quomodo hunc tradiderunt <lb n="5"/>
+            sacerdotes et principes nostri in damnationem mortis et cruci eum <lb/>
+            fixerunt. nos autem sperabamus quod ipse erat redempturus <lb/>
+            Israel. iuxta quae omnes quoque discipuli adseuerationem quoque <lb/>
+            mulierum, quae post resurrectionem uiderant Dominum, <lb/>
+            <sic>iudicanerunt</sic> deliramenta et quidam ipsorum uiso eo non crediderunt <lb n="10"/>
+            sed dubitauerunt, quique tunc non interfuerunt omnino <lb/>
+            non crediderant, nisi postmodum ab ipso Domino omnibus modis <lb/>
+            <choice><sic>foissent</sic><corr>fuissent</corr></choice> obiurgati atque increpati: quoniam mors eos ita offenderat <lb/>
+            ut putarent eum non resurrexisse, quem innuerant mori non <lb/>
+            debuisse, quia contra opinionem ipsorum semel mortuus, fuisset. <lb n="15"/>
+            itaque quod ad ipsos discipulos pertinet, neque integram neque perfectam <lb/>
+            fidem habuisse his modis quibus retulimus inueniuntur, et <lb/>
+            quod multo grauius est, sicut in euangelio cata Ioannem scriptum est, <lb/>
+            etiam alios baptizabant. 
+</p>
+          </div>
+
+<div n="10" subtype="section" type="textpart"><p>Praeterea quid dicturus es de his qui plerumque ab episcopis  <lb n="20"/>
+            pessimae <choice><sic>conuersatioms</sic><corr>conuersationis</corr></choice> baptizantur: qui tamen tandem cum <choice n="0.00"><sic n="2">Dens</sic><corr n="2571">Deus</corr></choice> <lb/>
+            uoluerit, in sceleribus suis conuicti, etiam ipso aut prorsus etiam <lb/>
+            communicatione priuantur? aut quid statues de eis qui ab episcopis <lb/>
+            praue sentientibus aut imperitioribus fuerint baptizati? quando non <lb/>
+            ad liquidum et <choice n="0.9"><sic n="171">integra</sic><corr n="19">integre</corr></choice> uel etiam aliter quam oportet in traditione <lb n="25"/>
+            sacramenti fuerint locuti, certe aut interrogauerint quid aut interrogantes <lb/>
+            a respondentibus audierint quod minime ita interrogari aut <lb/>
+            responderi. debet, quod tamen non ualde illam nostram rectam fidem <lb/>
+            laedat, sed non tam ornate ut tu et composite, isti quoque simpliciores <lb/>
+            homines mysterium fidei tradant. dicturus es enim utique <lb n="30"/>
+            pro tua <choice><sic>singnlari</sic><corr>singulari</corr></choice> diligentia hos quoque denuo baptizandos esse, cum <lb/>
+            maxime eis res desit aut obstet quo minus inuiolabile illud diuinum
+
+<note type="footnote"> 18 cf. lo. 3, 22. </note>
+
+<note type="footnote"> 6 eum <hi rend="italic">om. Big</hi>. 14 innuerant <hi rend="italic">Big.,</hi> crediderant <hi rend="italic">Bal.,</hi> timuerant <hi rend="italic">cod</hi>. <lb/>
+            22 ipso aut <hi rend="italic">cod.,</hi> ipso monere <hi rend="italic">Oxon.,</hi> epatu (i. <hi rend="italic">e</hi>. episcopatu) aut <hi rend="italic">fort</hi>. </note>
+
+<note type="footnote"> m A </note>
+
+<note type="footnote"> 6 </note> <lb/>
+             
+<pb n="82"/>
+            mysterium fidei intemeratum possint accipere. sed enim, <choice><sic>oirorum</sic><corr>uirorum</corr></choice> <lb/>
+            optime, reddamus et permittamus uirtutibus caelestibus uires suas, <lb/>
+            et dignationi diuinae maiestatis concedamus operationes proprias, <lb/>
+            et intellegentes quantum in ea sit emolumentum libenter ei adquiescamus. <lb/>
+            et ideo cum salus nostra in baptismate spiritus, quod plerumque<lb n="5"/>
+            cum baptismate aquae coniunctum est, sit constituta, siquidem <lb/>
+            per nos baptisma tradetur, <choice n="0.13"><sic n="19">integre</sic><corr n="119">integro</corr></choice> et sollemniter et per omnia quae <lb/>
+            scripta sunt adsignetur atque sine ulla ullius rei separatione tradatur: <lb/>
+            aut si a minore clero per necessitatem traditum fuerit, euentum exspectemus <lb/>
+            ut aut suppleatur a nobis aut [a] Domino supplendum<lb n="10"/>
+            reseruetur: si uero ab alienis traditum fuerit, ut potest hoc negotium <lb/>
+            et ut admittit corrigatur, quia spiritus sanctus extra ecclesiam non <lb/>
+            sit, fides quoque non solum apud haereticos, uerum etiam apud eos <lb/>
+            qui in schismate constituti sunt sana esse non possit, idcircoque <lb/>
+            paenitentiam agentibus correctisque per doctrinam ueritatis et per <lb n="15"/>
+            fidem ipsorum, quae postea emendata est purificato corde eorum, <lb/>
+            tantummodo baptismate spiritali id est manus impositione episcopi <lb/>
+            et spiritus sancti subministratione subueniri debeat. signum quoque <lb/>
+            fidei integrum hoc modo et hac ratione tradi in ecclesia merito consueuit, <lb/>
+            ne inuocatio nominis Iesu quae aboleri non potest contemptui<lb n="20"/>
+            a nobis uideatur habita, quod utique non oportet, quamquam talis <lb/>
+            inuocatio, si nihil eorum quae memorauimus secutum fuerit, ab <lb/>
+            operatione salutis cesset ac uacet. dicente enim apostolo unum esse <lb/>
+            baptisma, necesse est inuocatione nominis Iesu perseuerante, quia <lb/>
+            non potest a quoquam hominum quae semel inuocata est auferri, si<lb n="25"/>
+            eam contra decretum apostolorum geminare ausi fuerimus nimietate <lb/>
+            praestandi immo superaddendi baptismatis studio: si ille qui ad <lb/>
+            <choice><sic>occlesiam</sic><corr>ecclesiam</corr></choice> reuertitur nolit denuo baptizari, futurum est ut defraudemus <lb/>
+            baptismate spiritali eum quem putamus defraudandum non <lb/>
+            esse baptismate aquae. <lb n="30"/>
+            
+</p>
+          </div>
+
+<div n="11" subtype="section" type="textpart"><p> Quid autem statues in personam eius uerbum audientis qui forte <lb/>
+            adprehensus in nomine Christi statim confessus ac priusquam baptizari <lb/>
+            aqua permitteretur ei fuerit punitus, utrum perisse eum pronuntiabis <lb/>
+            quia non est aqua baptizatus, an uero aliquid extrinsecus
+
+<note type="footnote"> 1 uinorum <hi rend="italic">cod., em. Baluzius</hi> 4 et] ut <hi rend="italic">Big</hi>. libentes <hi rend="italic">Big</hi>. <lb/>
+            10 a <hi rend="italic">inchtsi</hi> 18 debet <hi rend="italic">fort</hi>. 22 secutum] seruatum <hi rend="italic">Big</hi>. 26 aut <lb/>
+            si <hi rend="italic">cod</hi>. 27 studiosi. Si <hi rend="italic">Big</hi>. 28 noluit <hi rend="italic">Big</hi>. </note> <lb/>
+             
+<pb n="83"/>
+            patrocinari ei ad salutem <choice><sic>sxistimabis</sic><corr>existimabis</corr></choice>, licet non sit aqua baptizatus ? <lb/>
+            quod perisse eum existimabis, obuiam tibi ueniet sententia Domini <lb/>
+            dicentis: quicumque me confessus fuerit coram hominibus, <lb/>
+            confitebor illum et ego coram patre meo qui in <lb/>
+            caelis est: quia nihil interest utrum hic uerbum audiens an fidelis <lb n="5"/>
+            sit qui <choice><sic>conStetur</sic><corr>confitetur</corr></choice> Dominum, dummodo ipsum Christum quem confiteri <lb/>
+            oportet confiteatur, quia Dominus pari uice confitendo et ipse confessorem <lb/>
+            suum apud patrem honore eum martyrii sui, ut pollicitus <lb/>
+            est, exornet. quod utique non debet latius accipi, quasi possit usquequaque <lb/>
+            porrigi, quia potest Christi nomen etiam haereticus aliquis, <lb n="10"/>
+            qui tamen ipsum Christum negat, confiteri, quia in alium Christum <lb/>
+            credit, cum Christus confiteatur quod ei prodesse minime possit, <lb/>
+            si quidem Dominus non <hi rend="italic">nisi</hi> se ipsum in confessionem a nobis coram <lb/>
+            hominibus deduci oportere dixit, quod sine ipso et sine uenerando <lb/>
+            nomine eius non potest fieri. et ideo integrum ac sincerum et <choice><sic>incontaminatmn</sic><corr>incontaminatum</corr></choice> <lb n="15"/>
+            et inuiolatum utrumque debet consistere confitenti, nullo <lb/>
+            delectu habito ipsius confessoris, siue ille iustus sine peccator, <sic>perrectusque</sic> <lb/>
+            <sic>christlanus</sic> an uero etiam nunc imperfectus, qui summo <lb/>
+            discrimine suo Dominum confiteri non timuit. nec est hoc contrarium <lb/>
+            superiori tractatui: quia illic quidem tempus supererat ad corrigenda <lb n="20"/>
+            quae mutila uel praua sunt, et quoniam quaedam concessa sunt ipsi <lb/>
+            tantummodo nomini Domini nostri, martyrium autem non nisi in <lb/>
+            ipso et per ipsum Dominum possit consummari, et idcirco neque <lb/>
+            Christum sine ipsius nomine quis possit confiteri neque nomen Christi <lb/>
+            sine ipso Christo ad confessionem cuiquam possit patrocinari. <lb n="25"/>
+            
+</p>
+          </div>
+
+<div n="12" subtype="section" type="textpart"><p>Quapropter totus discernendas est tractatus hic, ut possit manifestior  <lb/>
+            fieri. namque inuocatio nominis Iesu ideo tantum patrocinari <lb/>
+            potest, si rite suppleta postea fuerit, quia et prophetae et apostoli ita <lb/>
+            <sic n="poss">praedicanerunt</sic>. ait enim Iacobus in actis apostolorum: uiri fratres, <lb/>
+            audite: Simon exposuit quemadmodum primum <lb n="30"/>
+            Deus uisitauerit accipere ex gentibus populum nomini <lb/>
+            <sic n="poss">3uo</sic>, et huic consonant sermones prophetarum, sicut <lb/>
+            scriptum est: post haec reuertar et reaedificabo
+
+<note type="footnote"> 3 Matth. 10, 32. 29 Act. 15, 13-17. </note>
+
+<note type="footnote"> 2 quod] quando <hi rend="italic">fort</hi>. 6 dominum <hi rend="italic">scripsi,</hi> domino <hi rend="italic">cod. et v</hi> <lb/>
+            13 nisi <hi rend="italic">addidi</hi> 19 domino <hi rend="italic">Rig</hi>. 21 quae mutila <hi rend="italic">coni. BcUuzius,</hi> <lb/>
+            quam multa <hi rend="italic">cosi. Big.,</hi> quae multa <hi rend="italic">cod. et v</hi> 32 buic] si <hi rend="italic">Rig</hi>. </note>
+
+<note type="footnote"> 6 * </note> <lb/>
+             
+<pb n="84"/>
+            tabernaculum illud Dauid quod cecidit et quae demolita <lb/>
+            sunt eius reaedificabo, et denuo <choice n="0.5"><sic n="1">erigam</sic><corr n="1">origam</corr></choice> illud, uti <lb/>
+            exquirant residui hominum Deum et omnes gentes <lb/>
+            super quas inuocatum est nomen meum super eas, <lb/>
+            dicit Dominus faciens haec. itaque et residui hominum id est<lb n="5"/>
+            quidam <choice><sic>ludaeorum</sic><corr>Iudaeorum</corr></choice> et omnes gentes super quas inuocatum est nomen <lb/>
+            Domini possunt et necesse habent requirere Dominum, quia ipsa inuocatio <lb/>
+            nominis praebet eis occasionem uel etiam imponit necessitatem <lb/>
+            requirendi Dominum: cum quibus praecipiunt scripturas sanctas, <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> <lb/>
+            uniuersas siue quasdam, tamen audentius de ueritate tractare quam<lb n="10"/>
+            cum gentibus, super quos non est inuocatum nomen Domini Iesu filii <lb/>
+            Dei uiui, sicuti nec super Iudaeos, qui ueteres tantum scripturas <lb/>
+            recipiunt. et ideo utriusque huius generis homines id est Iudaei et <lb/>
+            gentiles plene ut oportet credentes pari modo baptizantur. haeretici <lb/>
+            uero iam baptizati aqua in nomine Iesu Christi, tantum in spiritu<lb n="15"/>
+            sancto baptizandi sunt: et in Iesu, quod nomen solum datum est sub <lb/>
+            caelo, in quo oporteat saluos fieri nos, merito mors contemnitur, <lb/>
+            quoniam si sic perseuerent, salui esse non possunt, quia non requisiuerunt <lb/>
+            Dominum post inuocationem nominis eius super eos, sicut <lb/>
+            et illi t qui in eos Christus qui forte credere noluerunt, de quibus<lb n="20"/>
+            Dominus ait: cauete ne quis uos in errorem inducat. <lb/>
+            multi enim uenient in nomine meo dicentes: ego sum <lb/>
+            Christus et multos in errorem inducent. et iterum ait: <lb/>
+            tunc si qui dixerit uobis: ecce hic Christus aut hic, <lb/>
+            nolite credere. surgent enim pseudochristi et pseudoprophetae <lb n="25"/>
+            et dabunt signa magna et portenta, ita ut <lb/>
+            errent, si*fieri potest, etiam electi. quas uirtutes non <lb/>
+            dubie tunc illi sub nomine Christi facient. in quo nomine uidentur <lb/>
+            quidam etiam modo quasdam uirtutes facere et falso prophetare. sed <lb/>
+            certum est eos, quod ipsi non sint Christi, propterea ad Christum non <lb n="30"/>
+            pertinere: quemadmodum etiam si quis <choice><sic>desciacat</sic><corr>desciscat</corr></choice> a Christo, inhaerens <lb/>
+            solo nomini eius [qui] non multum adiuuatur, immo magis hoc nomine <lb/>
+            etiam oneratur, licet fuerit antea fidelissimus aut iustissimus aut claro <lb/>
+            aliquo honoratus aut confessionis dignitate praeditus. hi enim omnes
+
+<note type="footnote"> 21 Matth. 24, 4. 5. 11. 24 Matth. 24, 23. 24. </note>
+
+<note type="footnote"> 11 iesu] id est iesu <hi rend="italic">Big</hi>. 16 et in] etenim <hi rend="italic">fort</hi>. 18 quoniam] <lb/>
+            quam <hi rend="italic">Rig</hi>. 20 illi qui ob pseudochristos forte <hi rend="italic">coni. Oxon</hi>. 32 qui <lb/>
+            <hi rend="italic">inclusi</hi>. </note> <lb/>
+             
+<pb n="85"/>
+            negando uerum Christum introducendo aut sequendo alium, cum sit <lb/>
+            <choice><sic>nnllus</sic><corr>nullus</corr></choice> omnino alius, nihil spei aut salutis sibi relinquunt, non aliter <lb/>
+            quam illi qui coram hominibus negauerunt Christum, quos negari <lb/>
+            necesse est a Christo, non habita ulla ratione ipsorum ex praecedenti <lb/>
+            <sic>connersatione</sic> eorum aut sensu aut dignitate, proinde atque ipsi ausi <lb n="5"/>
+            sunt Christum id est salutem suam abrogare, damnati per huiusmodi <lb/>
+            <choice><sic>clansnlam</sic><corr>clausulam</corr></choice>, quia <choice n="0.71"><sic n="5">manifestissime</sic><corr n="2">manifestissimo</corr></choice> a Domino dictum est: quicumque <lb/>
+            me <choice><sic>neganerit</sic><corr>negauerit</corr></choice> coram hominibus, negabo eum et ego <lb/>
+            coram patre meo qui in caelis est. ut <choice><sic>nerbum</sic><corr>uerbum</corr></choice> hoc quicumque <lb/>
+            etiam in clausula confessionis plenissime nobis ostendat <lb n="10"/>
+            quod nulla conditio ipsius confitentis obesse possit, licet negator ille <lb/>
+            antea uel haereticus fuerit uel audiens ant audire incipiens, qui <choice><sic>nondmn</sic><corr>nondum</corr></choice> <lb/>
+            baptizatus sit, uel de haeresi ad ueritatem fidei conuersus uel <lb/>
+            ab ecclesia digressus et postea reuersus sit, et tunc cum rediret <lb/>
+            prius quam ei manus ab episcopo imponeretur adprehensus confiteri <lb n="15"/>
+            Christum coram hominibus necesse habuerit, sicut iterum neganti <lb/>
+            Christum nulla propria uetus dignitas potest ad salutem patrocinari. 
+</p>
+          </div>
+
+<div n="13" subtype="section" type="textpart"><p>Quodcnmque enim in homine ultimum in hac specie deprehensum  <lb/>
+            <choice><sic>fnerit</sic><corr>fuerit</corr></choice>, in illo quisque nostrum iudicari necesse habebit, abolitis et obliteratis <lb/>
+            omnibus quae prius gessit. et ideo cum in martyrio tanta sit <lb n="20"/>
+            mutatio rerum in momento temporis, ut in re perquam ueloci possint <lb/>
+            mutari <choice><sic>uninersa</sic><corr>uniuersa</corr></choice>, nemo sibi blandiatur qui occasionem amiserit gloriosae <lb/>
+            <choice><sic>salntis</sic><corr>salutis</corr></choice>, si forte se ab ea excluserit propria sua culpa, sicuti <lb/>
+            et illa uxor Loth, quae similiter in angustiis rerum contra praeceptum <lb/>
+            angelorum tantummodo post se respexit et <choice><sic>tnmulus</sic><corr>tumulus</corr></choice> salis facta est. <lb n="25"/>
+            qua ratione etiam ille haereticus qui confitendo Christi nomen trucidatur <lb/>
+            nihil postea potest corrigere, si quid de Deo aut de Christo <lb/>
+            male senserit, cum in alium Deum uel in alium Christum credendo <lb/>
+            semet ipsum fefellit, confessor non Christi, sed solitario Christi <lb/>
+            nomine, quando et apostolus consequenter dicat: etsi corpus <lb n="30"/>
+            meum tradidero, ita ut exurar igni, dilectionem autem <lb/>
+            non habeam, nihil proficio. quia hoc facto nihil proficit qui <lb/>
+            non habet dilectionem eius Dei et Christi, qui per legem et prophetas
+
+<note type="footnote"> 7 Matth. 10, 33. 30 I. Cor. 13, 3. </note>
+
+<note type="footnote"> 5 ausi] aut si <hi rend="italic">cod</hi>. 14 ac postea <hi rend="italic">Big</hi>. 15 quam <hi rend="italic">om. cod. </hi>? <lb/>
+            18 quocamque <hi rend="italic">coni. Gallandius</hi> 19 quisque <hi rend="italic">scripsi,</hi> quis <hi rend="italic">cod. et b</hi> </note> <lb/>
+             
+<pb n="86"/>
+            et in euangelio in hoc modo praedicatur: diliges Dominum Deum <lb/>
+            tuum in toto <choice n="0.29"><sic n="283">corda</sic><corr n="684">corde</corr></choice> tuo et in tota anima tua et in tota <lb/>
+            cogitatione tua, et, diliges proximum tibi tamquam <lb/>
+            te. in his enim duobus praeceptis tota lex pendet et <lb/>
+            prophetae, sicut et Ioannes euangelista dicit: et omnis qui <lb n="5"/>
+            diligit ex Deo natus est et cognoscit Deum, quia Deus <lb/>
+            dilectio est. sicuti et Deus ait: ita enim dilexit Deus <lb/>
+            mundum ut filium suum unicum daret, ut omnis qui <lb/>
+            in eum crederet non periret, sed haberet uitam aeternam. <lb/>
+            ut manifeste appareret eum qui hanc diligendi nos et diligendi <lb n="10"/>
+            a nobis dilectionem in se non habeat inani confessione et passione <lb/>
+            nihil proficere, quando ipsum apparet et constat haereticum esse qui <lb/>
+            in alium Deum credat siue Christum alium accipiat quam quem <lb/>
+            scripturae noui et ueteris testamenti manifeste praedicant, quae <lb/>
+            patrem omnipotentem creatorem omnium et fiiium eius sine obscuritate<lb n="15"/>
+            <sic>annuntiant</sic>. eueniet enim eis ut alii ab alio Deo salutem <lb/>
+            exspectanti, <hi rend="italic">ut</hi> tunc demum contra opinionem suam a Christo Dei patris <lb/>
+            omnipotentis creatoris filio, quem blasphemauerunt, in poenam aeternam <lb/>
+            damnentur, cum iudicare Deus coeperit absconsa hominum <lb/>
+            secundum euangelium per Christum Iesum, eo quod in ipsum non<lb n="20"/>
+            crediderint, licet ipsius nomine abluti sint. 
+</p>
+          </div>
+
+<div n="14" subtype="section" type="textpart"><p> Et usque adeo omne illud haereticorum baptisma intercedente <lb/>
+            aliquo interuallo temporis corrigi potest , si quia superuixerit et <lb/>
+            fidem correxerit, ut Deus noster in euangelio secundum Lucam ad <lb/>
+            discipulos suos locutus est dicens: habeo autem aliud baptisma<lb n="25"/>
+            baptizari. item secundum Marcum ad filios Zebedaei eadem <lb/>
+            ratione dixerit: potestis bibere calicem quem ego bibo <lb/>
+            aut baptismate quo ego baptizor baptizari? quod sciret <lb/>
+            homines non solum aqua uerum etiam sanguine suo proprio habere <lb/>
+            baptizari, ita ut et solo hoc baptismate baptizati fidem integram et <lb n="30"/>
+            dignationem sinceram lauacri possint adipisci et utroque modo
+
+<note type="footnote"> 1 Dent. 6, 5. Matth. 22, 37 -40. 5 I. Io. 4, 7. 8. 7 Io. 3, 16. <lb/>
+            25 Luc. 12, 50. 27 Marc. 10, 38. </note>
+
+<note type="footnote"> 12 quando ipsum <hi rend="italic">scripsi,</hi> quam ut ipsa <hi rend="italic">cod.,</hi> quoniam re ipsa coni. <lb/>
+            <hi rend="italic">JBaluzius;</hi> quam ut ipsum appareat et constet <hi rend="italic">coni. Bigaltius</hi> 17 ut <lb/>
+            <hi rend="italic">addidi</hi> 24 deum nostrum <hi rend="italic">cod. et b</hi> 31 dignationem] dilectionem <hi rend="italic">Rig</hi>. </note> <lb/>
+             
+<pb n="87"/>
+            <sic>baptitari</sic>, aeque tamen unum baptisma salutis et honoris pariter et aequaliter <lb/>
+            consequi. quod enim dictum est a Domino: habeo aliud baptisma <lb/>
+            baptizari, hoc in loco non ut secundum baptisma ac si <lb/>
+            sint duo baptismata significat, sed alterius quoque speciei baptisma ad <lb/>
+            eandem salutem concurrens donatum nobis esse demonstrat. quas <lb n="5"/>
+            utrasque species ab ipso Domino nostro primum initiari et sanctificari <lb/>
+            oportebat, ut nobis quoque alterutra <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> utraque species unum non <lb/>
+            duplex salutiferum atque honorificum baptisma praestaret, et uiae <lb/>
+            quaedam unius baptismatis sic nobis patefierent ut aliquando impune <lb/>
+            aliqua illarum deesset, sicut in uerbum audientibus martyribus impune <lb n="10"/>
+            aquae baptisma deest, quos tamen certi sumus, si quid laxamenti <lb/>
+            habeant, etiam aqua solitos baptizari, itemque illis qui legitimi sunt <lb/>
+            fideles effecti impune deest baptisma sanguinis proprii, quia baptizati <lb/>
+            in nomine Christi <choice><sic>redompti</sic><corr>redempti</corr></choice> sunt pretiosissimo sanguine Domini, cum <lb/>
+            <choice><sic>ntraque</sic><corr>utraque</corr></choice> haec ex uno atque eodem fonte procedant flumina baptismatis <lb n="15"/>
+            dominici, ut omnis qui sitit ueniat et bibat, sicut scriptura dicit: <lb/>
+            flumina de uentre eius currebant aquae uiuae. quae <lb/>
+            <choice n="0.00"><sic n="1">fiumina</sic><corr n="450">flumina</corr></choice> primum apparuerunt in Domini <choice><sic>pasaione</sic><corr>passione</corr></choice>, cuius de latere perforato <lb/>
+            lancea militari sanguis et aqua manauit, ut emitteret duo <lb/>
+            flumina diuersae speciei, sed tamen eiusdem ac singulare latus, ita ut <lb n="20"/>
+            impleatur spiritu sancto quicumque credens biberit ex utroque flumine. <lb/>
+            haec enim de fluminibus his loquens ostendebat Dominus <lb/>
+            significans spiritum sanctum quem accepturi essent qui credituri erant <lb/>
+            in illum. nondum autem erat spiritus, quia Iesus nondum <lb/>
+            erat clarificatus. igitur dicens quemadmodum generari <lb n="25"/>
+            potest baptisma quod apostolus unum esse praedicat, utique manifestum <lb/>
+            est illa ratione, quia diuersae sunt species unius atque eiusdem <lb/>
+            baptismatis ex uno uulnere profluentis in aquam et sanguinem, cum <lb/>
+            illic duo sint de quibus locuti sumus baptismata aquae, id est <choice><sic>unins</sic><corr>unius</corr></choice> <lb/>
+            atque eiusdem species, cum unum esse debeat baptisma uniuscuiusque <lb n="30"/>
+            species, sicut plenius sumus locuti. 
+</p>
+          </div>
+
+<div n="15" subtype="section" type="textpart"><p>Et quoniam uidemnr omne baptisma spiritale trifariam diuisisse,  <lb/>
+            <sic>nemamus</sic> etiam ad probationem narrationis propositae, ne uideamur <lb/>
+            proprio sensu et temere hoc fecisse. ait enim Ioannes de Domino <lb/>
+            nostro in epistola sua nos docens: hic est qui uenit per aquam
+
+<note type="footnote"> 17 Io. 7, 38. 24 Io. 7, 39. 35 I Io. 5, 6. 8. , </note>
+
+<note type="footnote"> 3 si om. <hi rend="italic">Big</hi>. 6 initiari] ministrari <hi rend="italic">Big</hi>. 7 non <hi rend="italic">scripsi,</hi> hoc <lb/>
+            <hi rend="italic">eod. et v</hi> 21 utroue <hi rend="italic">fort</hi>. </note> <lb n="35"/>
+             
+<pb n="88"/>
+            et sanguinem Iesus Christus, non in aqua tantum, sed <lb/>
+            in aqua et sanguine. et spiritus est qui testimonium <lb/>
+            perhibet, quia spiritus est ueritas: quia tres testimonium <lb/>
+            perhibent, spiritus et aqua et sanguis. et <lb/>
+            isti tres unum sunt. ut ex illis colligamus et aquam praestare <lb n="5"/>
+            spiritum solitum, et sanguinem proprium hominibus praestare spiritum <lb/>
+            solitum et ipsum quoque spiritum praestare spiritum solitum. nam <lb/>
+            cum effundatur aqua sicuti et sanguis, spiritus etiam effusus <choice n="0.00"><sic n="110">sita</sic><corr n="12431">sit</corr></choice> <lb/>
+            Domino super omnes qui crediderunt: utique et aqua et nihilominus <lb/>
+            proprio sanguine, tunc deinde et spiritu sancto possunt homines<lb n="10"/>
+            baptizari. ait enim Petrus : sed hoc est quod dictum est per <lb/>
+            prophetam: erit in nouissimis diebus, dicit Dominus, <lb/>
+            effundam spiritum meum super omnem carnem, et prophetabunt <lb/>
+            filii eorum et filiae eorum et iuuenes uisiones <lb/>
+            uidebunt et seniores somnia somniabunt. et quidem <lb n="15"/>
+            super seruos et super ancillas effundam de spiritu <lb/>
+            meo. quem spiritum in ueteri testamento, non quidem passim nec <lb/>
+            effuse, sed <choice><sic>communicatupi</sic><corr>communicatum</corr></choice> cum aliis aut etiam sponte <sic>insiluisso</sic> in <lb/>
+            quosdam homines uel induisse eos uel fuisse super eos deprehendimus, <lb/>
+            sicuti Moysi de septuaginta presbyteris a Domino dictum esse animaduertimus:<lb n="20"/>
+            et auferam spiritum qui super te est, et imponam <lb/>
+            super eos. propter quod etiam secundum pollicitationem <lb/>
+            suam Deus ab alio ex spiritu qui super Moysen fuerat imposuit super <lb/>
+            illos, et prophetauerunt in castris, quod Moyses ut homo spiritalis <lb/>
+            ita contigisse gaudebat, licet ab Iesu filio Naue ut huic rei intercederet <lb n="25"/>
+            inuito suadebatur, et idcirco non fuisse t permotus. porro autem in <lb/>
+            libro Iudicum, item in Regnorum libris animaduertimus super plerosque <lb/>
+            aut fuisse spiritum Domini aut insiluisse in eos, tamquam super <lb/>
+            <sic>Gothoniel</sic> Gedeon <sic>lephthe</sic> Samson Saul Dauid et ceteros alios. quod <lb/>
+            usque adeo ita se habet ut spiritus sancti sponte accedendi ab eis <lb n="30"/>
+            libertatem ac facultatem manifestissime nos Dominus docuerit dicens: <lb/>
+            spiritus ubi uult spirat, et uocem eius audis et nescis <lb/>
+            unde ueniat aut quo uadat. ita ut idem spiritus etiam super
+
+<note type="footnote"> 11 Act. 2, 17. 18. 21 Num. 11, 17. 32 Io. 3, 8. </note>
+
+<note type="footnote"> 5 in unum <hi rend="italic">Rig</hi>. 6 <hi rend="italic">prius</hi> spiritum <hi rend="italic">om. cod</hi>. 28 ab alio] ablato <lb/>
+            <hi rend="italic">fort</hi>. </note> <lb/>
+             
+<pb n="89"/>
+            indignos quoque sui nonnumquam inueniatur esse, non utique otiose <lb/>
+            nec sine ratione, sed necessariae alicuius operationis gratia: sicuti <lb/>
+            super Saul fuit, super quem factus est spiritus Dei et prophetauit, <lb/>
+            quamquam posteriore tempore postquam recessit ab eo spiritus Domini <lb/>
+            et postquam angebat eum spiritus malignus a Domino, quoniam <lb n="5"/>
+            tone ad hoc postremus uenerat post nuntios quos ante assidue praemiserat <lb/>
+            ut interficeret Dauid, qui idcirco inciderunt in chorum prophetarum <lb/>
+            et <sic n="poss">prophetanerunt</sic>, ne id quod <choice><sic>inssi</sic><corr>iussi</corr></choice> fuerant perficere possent <lb/>
+            aut <choice><sic>nellent</sic><corr>uellent</corr></choice>, quod admirabili ratione per uoluntatem Dei spiritum <lb/>
+            qui super illos omnes fuit credimus operatum esse. qui spiritus impleuit <lb n="10"/>
+            etiam Ioannem baptistam adhuc ab utero matris suae, et <choice><sic>incnboit</sic><corr>incubuit</corr></choice> <lb/>
+            super eos qui cum Cornelio centurione erant prius quam <sic n="poss">baptizurentur</sic> <lb/>
+            aqua. ita dum cohaeret baptismati hominum spiritus aut <lb/>
+            antecedit aut sequitur uel cessante baptismate aquae incumbit super <lb/>
+            eos qui credunt, dat nobis consilium quod aut ex integro rite baptisma <lb n="15"/>
+            seruare aut forte dato a quocumque in nomine Iesu Christi baptismate <lb/>
+            supplere id debeamus, <choice><sic>cnstodita</sic><corr>custodita</corr></choice> nominis Iesu Christi, sicuti <choice><sic>pleniasime</sic><corr>plenissime</corr></choice> <lb/>
+            exposuimus, sanctissima inuocatione, custodita praeterea tanti <lb/>
+            temporis tot <choice><sic>uiroram</sic><corr>uirorum</corr></choice> ueneranda nobis <choice><sic>consuetndine</sic><corr>consuetudine</corr></choice> et auctoritate. 
+</p>
+          </div>
+
+<div n="16" subtype="section" type="textpart"><p>Quoniam autem prima pars disputationis huius uidetur explicata,  <lb n="20"/>
+            etiam sequentem eius propter haereticos debemus attingere, quia <lb/>
+            perquam necessarium est eum tractatum qui semel in manus incidit <lb/>
+            non praeterire, ne forte eos qui sunt simpliciores ex fratribus aliquis <lb/>
+            haereticorum uersutia sua audeat attentare. nam quia Ioannes dixit <lb/>
+            nos baptizandos esse in spiritu sancto et igni, eo quod addiderit dicens <lb n="25"/>
+            et igni, idcirco quidam desperati homines ausi sunt usquequaque <lb/>
+            prauitatem suam porrigere et propterea homines nasutissimi <choice n="0.17"><sic n="33">quaerant</sic><corr n="157">quaerunt</corr></choice> <lb/>
+            quomodo sanctitatis baptisma ita corrumpant ac uiolent ut etiam <lb/>
+            <choice><sic>enacnent</sic><corr>euacuent</corr></choice>: qui originem iam exinde trahunt a Simone mago multiformi <lb/>
+            peruersitate per uarios <choice><sic>orrores</sic><corr>errores</corr></choice> eam exercentes. cui Simoni Petrus in <lb n="30"/>
+            actis apostolorum dixit: pecunia tua tecum sit in perditionem, <lb/>
+            quia gratiam Dei existimasti per pecunias <lb/>
+            posse possideri. non est tibi portio neque sors in sermone <lb/>
+            hoc. cor enim tuum non est rectum coram Deo. <lb/>
+            et agunt isti haec omnia dum fallere cupiunt eos qui sunt
+
+<note type="footnote"> 3 I Reg. 19, 23. 31 Act. 8, 20. 21. </note>
+
+<note type="footnote"> 4 quamquam] quoniam <hi rend="italic">fort</hi>. 5 a domino) adm. <hi rend="italic">cod</hi>. 10 illos <lb/>
+            om. <hi rend="italic">Rig</hi>. 16 obseruare <hi rend="italic">Big</hi>. 27 uersutissimi <hi rend="italic">Baiueius</hi> </note> <lb n="35"/>
+             
+<pb n="90"/>
+            <sic>simplicioores</sic> aut curiosiores, et temptant nonnulli illorum tractare se solos <lb/>
+            integrum atque perfectum, non sicuti nos mutilatum et decurtatum, <lb/>
+            baptisma tradere, quod taliter dicuntur adsignare ut quam mox in <lb/>
+            aquam descenderunt, statim super aquam ignis appareat. quod si <lb/>
+            aliquo lusu perpetrari potest, sicut adfirmantur plerique huiusmodi <lb n="5"/>
+            lusus Anaxilai esse, <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> naturale quid est, quo pacto possit hoc contingere, <lb/>
+            siue illi putant hoc se conspicere <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> maligni opus et <lb/>
+            magicum uirus ignem potest in aqua exprimere: illi tamen talem fallaciam <lb/>
+            et stropham praedicant perfectum baptisma esse, quod fideles <lb/>
+            homines si coacti fuerunt accipere, utique non dubitabitur eos id quod<lb n="10"/>
+            habuerant amisisse, perinde ac si quis sacramento miles dicto desertis <lb/>
+            suis castris in hostium diuersissimis castris longe aliud sacramentum <lb/>
+            uelit dicere, hac ratione constat eum uetere sacramento exauctoratum <lb/>
+            esse. 
+</p>
+          </div>
+
+<div n="17" subtype="section" type="textpart"><p> Item si huiusmodi homo rursus ad te redeat, utique haesitabis <lb n="15"/>
+            utrum habeat baptisma necne: et tamen oportebit te huic quoque paenitentiam <lb/>
+            agenti quibuscumque modis potueris <choice><sic>subnenire</sic><corr>subuenire</corr></choice>. est autem <lb/>
+            adulterini huius immo internecini baptismatis si qui alius auctor, tum <lb/>
+            etiam quidam ab eisdem ipsis haereticis propter hunc eundem errorem <lb/>
+            confictus liber qui inscribitur PAVLLI PRAEDICATIO. in quo <lb n="20"/>
+            libro contra omnes scripturas et de peccato proprio confitentem <choice><sic>innenies</sic><corr>inuenies</corr></choice> <lb/>
+            Christum, qui solus omnino nihil deliquit, et ad <choice><sic>aecipiendum</sic><corr>accipiendum</corr></choice> <lb/>
+            Ioannis baptisma paene inuitum a matre sua Maria esse compulsum, <lb/>
+            item cum baptizaretur ignem super aquam esse <choice n="0.00"><sic n="1">nisum</sic><corr n="588">uisum</corr></choice>, quod in euangelio <lb/>
+            nullo est scriptum, et post tanta tempora Petrum et Paulum <lb n="25"/>
+            post conlationem euangelii in Hierusalem et mutuam cogitationem et <lb/>
+            altercationem et rerum agendarum dispositionem postremo in urbe <lb/>
+            quasi tunc primum inuicem sibi esse cognitos, et quaedam alia huiuscemodi <lb/>
+            absurde ac turpiter conficta, quae omnia in illum librum <lb/>
+            inuenies congesta. qui autem non ignorant spiritus sancti qualitatem <lb n="30"/>
+            intellegunt quod dictum est de igni de ipso spiritu dictum esse. nam <lb/>
+            in actis apostolorum secundum hanc eandem promissionem Domini <lb/>
+            nostri ipso die Pentecostes cum descendisset spiritus sanctus super <lb/>
+            discipulos ut in illo baptizarentur, uisae sunt insidentes super
+
+<note type="footnote"> 1 illorum] iterum <hi rend="italic">Rig</hi>. 3 dicantur <hi rend="italic">JRig</hi>. 20 Paulli <hi rend="italic">cod.,</hi> Petri <lb/>
+            <hi rend="italic">Bigaltius; cf. Clem. Alex. Strom. VI. p</hi>. 639, <hi rend="italic">Lactant. lnst. IV c. 21</hi> <lb/>
+            26 cogitationem et <hi rend="italic">om. Big</hi>. 34 ut] et <hi rend="italic">Big</hi>. </note> <lb/>
+             
+<pb n="91"/>
+            <sic>singolos</sic> linguae quasi ignis, ut constaret eos spiritu sancto et in igne <lb/>
+            baptizatos, hoc est eo spiritu qui esset siue ignis siue quasi ignis, <lb/>
+            qualis ignis fuit qui in rubo ardebat et rubum non comburebat qualisque <lb/>
+            est ille ignis qui est angelorum spiritus, sicut scriptura dicit: <lb/>
+            qui facit angelos suos spiritus et ministros suos ignem <lb n="5"/>
+            ardentem. cui cum similis aut socius aut particeps fueris, <lb/>
+            poteris nullum ignem timere nec illum quidem qui antecedens Domino <lb/>
+            in die iudicii conflagrabit totum orbem terrae absque eis qui baptizati <lb/>
+            sunt in spiritu sancto et igni. 
+</p>
+          </div>
+
+<div n="18" subtype="section" type="textpart"><p>Et hominibus quidem spiritus perseuerat hodie inuisibilis, sicut  <lb n="10"/>
+            Dominus dicit: spiritus ubi uult spirat, et nescis unde <lb/>
+            <choice><sic>neniat</sic><corr>ueniat</corr></choice> uel quo uadat. sed in principio mysterii fidei et spiritalis <lb/>
+            baptismatis hic idem spiritus manifeste uisus est et super discipulos <lb/>
+            insedisse quasi ignis. item caelis apertis descendisse super Dominum <lb/>
+            <choice><sic>colombae</sic><corr>columbae</corr></choice> similem, quoniam pleraque immo paene omnia quae essent <lb n="15"/>
+            futura manifesta sunt: quae tamen modo essent inuisibilia nihilominus, <lb/>
+            nunc quoque oculis et incredulitati hominum uel ox parte uel <lb/>
+            aliquando <choice><sic>vel</sic><corr>uel</corr></choice> in figura sunt monstrata ad corroborandam et confirmandam <lb/>
+            fidem nostram. sed nec aliud omiserim quod euangelium <lb/>
+            merito praedicat. ait enim paralytico Dominus noster: bono animo <lb n="20"/>
+            esto, fili, dimittuntur tibi peccata, ut ostenderet fide mundari <lb/>
+            corda ad remissionem peccatorum consequendam. quam remissionem <lb/>
+            peccatorum consecuta est etiam illa quae erat mulier peccatrix <lb/>
+            in ciuitate, cui Dominus ait: dimittuntur tibi <choice><sic>petceata</sic><corr>peccata</corr></choice>. et <lb/>
+            cum coepissent qui simul <choice><sic>discnmbebant</sic><corr>discumbebant</corr></choice> apud semet ipsos dicere: quis <lb n="25"/>
+            est hic qui peccata dimittit? quod et circa paralyticum <choice><sic>acerbins</sic><corr>acerbius</corr></choice> <lb/>
+            scribae et Pharisaei obmurmurauerant: ait ad mulierem Dominus: <lb/>
+            fides <choice><sic>tna</sic><corr>tua</corr></choice> te saluam fecit, uade in pace. ex quibus <lb/>
+            uniuersis ostenditur fide emundari corda, spiritu autem ablui animas. <lb/>
+            porro autem per aquam lauari corpora, sanguine quoque festinantius <lb n="30"/>
+            perueniri per compendium ad salutis praemia.
+
+<note type="footnote"> 5 Ps. 103, 4. 11 Io. 3, 8. 20 Matth. 9, 2. 25 Luc. <lb/>
+            7, 48 sq. </note>
+
+<note type="footnote"> 5 fecit <hi rend="italic">Big</hi>. 19 aliud] illud <hi rend="italic">Big</hi>. 23 etiam <hi rend="italic">om. Big</hi>. <lb/>
+            30 lauacri <hi rend="italic">Bdg</hi>. 31 ad salutis praemia puto <hi rend="italic">non distinguit<lb/>
+             Bahuius</hi> </note> 
+<pb n="92"/>
+            
+</p>
+          </div>
+
+<div n="19" subtype="section" type="textpart"><p> Puto nos plene exsecutos praedicationem baptistae Ioannis, unde <lb/>
+            sermonem sumus exorsi, qui dixit <sic>adludaeos</sic>: ego quidem nos <lb/>
+            baptizo aqua in poenitentiam. qui <choice n="5.61"><sic n="1">antem</sic><corr n="17824">autem</corr></choice> post me <choice><sic>nenit</sic><corr>uenit</corr></choice> <lb/>
+            fortior me est, cuius ego non sum dignus <choice><sic>solnere</sic><corr>soluere</corr></choice> corrigiam <lb/>
+            calciamenti. ipse nos baptizabit in spiritu <lb n="5"/>
+            sancto et igni. arbitror autem et apostoli Ioannis doctrinam nos <lb/>
+            non inepte disposuisse, qui ait: quia tres testimonium perhibent, <lb/>
+            spiritus et aqua et sanguis, et isti tres unum <lb/>
+            sunt. nisi fallor autem etiam illud explanauimus quod Dominus <lb/>
+            noster ait: Ioannes quidem baptizauit aqua, nos autem<lb n="10"/>
+            baptizabimini in spiritu sancto. praeterea existimo nos non <lb/>
+            infirmam rationem reddidisse consuetudinis <choice><sic>cansam</sic><corr>causam</corr></choice>. tueamur tamen, <lb/>
+            etsi posteriore loco id facimus, ne qui putet nos unico <choice><sic>articnlo</sic><corr>articulo</corr></choice> praesentem <lb/>
+            altercationem suscitare. quamquam haec consuetudo etiam <lb/>
+            sola deberet apud homines timorem Dei habentes et humiles praecipuum<lb n="15"/>
+            locum obtinere. 
+</p>
+        
+</div>
+        </div>
+</body>
+</text>
+</TEI>

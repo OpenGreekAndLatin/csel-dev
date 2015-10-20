@@ -1,0 +1,3197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL31.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Carolus Wotke</name>
+                  <addName xml:lang="de">Karl Wotke</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1779.1">Eucherius</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117.stoa002">Formulae Spiritalis Intelligentiae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117.stoa003">Instructiones</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117.stoa004">Passio Agaunensium Martyrum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117.stoa001">De Laude Heremi</title>
+              <title>Epistulae ab Salviano et Hilario et Rustico ad Eucherium Datae</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1894</date>
+              </imprint>
+              <biblScope unit="volume">31</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru15wissgoog">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0117.stoa002.opp-lat1">
+<head>
+            <title type="main">FORMULAE SPIRITALIS INTELLEGENTIAE. </title>
+          </head>
+<div subtype="preface" type="textpart">
+          <ab>
+            <title type="sub">PRAEFATIO. </title>
+          </ab>
+          <p>Eucherius <sic>Verano</sic> filio in Christo salutem. 
+</p>
+          <p rend="script">Formulas spiritalis intellegentiae conponendas tibique mittendas <lb/>
+            pro studio paternae erga te sollicitudinis existimaui, <lb n="5"/>
+            quibus perceptis in omnia scripta diuina facile se ad intellectum <lb/>
+            sequax sensus intenderet. nam cum littera occidat, spiritus <lb/>
+            autem uiuificet, necesse est ad illa spiritalium interiora sermonum <lb/>
+            spiritu uiuificante penetrari. uniuersam porro scripturam <lb/>
+            tam ueteris instrumenti quam noui ad intellectum allegoricum <lb n="10"/>
+            esse sumendam admonet nos uel illud, quod in ueteri <choice><sic>testamente</sic><corr>testamento</corr></choice> <lb/>
+            legimus: aperiam in parabolis os meum, loquar aenigmata <lb/>
+            antiqua, uel illud, quod in nouo testamento scribitur: <lb/>
+            haec omnia locutus est Iesus in parabolis ad turbas et <lb/>
+            sine parabolis non loquebatur eis. nec mirandum quod <lb n="15"/>
+            sermo diuinus prophetarum apostolorumque ore prolatus ab usitato <lb/>
+            illo hominibus scribendi modo multum recesserit facilia in <lb/>
+            promptu habens, magna in interioribus suis continens, quia et re <lb/>
+            uera fuit congruum, ut sacra dei dicta a ceteris scriptis sicut <lb/>
+            merito ita et specie discernerentur, ne illa caelestium arcanorum
+
+<note type="footnote"> 7 II Cor. 3, 6. 12 Ps. 77, 2. 14 Matth. 13, 34. </note>
+
+<note rend="script" type="footnote"> <lb/>
+            3 <hi rend="italic">inscriptio deest in GM</hi> 4 spiritalis] principalis S intellent (ge <lb/>
+            <hi rend="italic">m. 1) P</hi> conponendas (m. <hi rend="italic">m. 1) P</hi> 5 paternae sollicitudinis <hi rend="italic">SGM</hi> <lb/>
+            i <lb/>
+            6 scribta <hi rend="italic">S</hi> 8 uuficet <hi rend="italic">P</hi> uiuificaet Sl 9 porro] prorsus S 11 ammonet <lb/>
+            <hi rend="italic">PM</hi> alleguricum illut S 12 parabulis <hi rend="italic">P</hi> inigmata <hi rend="italic">S</hi> <lb/>
+            13 uel item <hi rend="italic">S</hi> item in <hi rend="italic">G</hi> scribitur] legitur S 16 profetarum <hi rend="italic">(sic</hi> <lb/>
+            P <lb/>
+            <hi rend="italic">semper) P</hi> 17 modum <hi rend="italic">S</hi> faciliora <hi rend="italic">S</hi> 18 promtu (p <hi rend="italic">m. 2) P</hi> promptum <lb/>
+            <hi rend="italic">S •</hi> in <hi rend="italic">om. S</hi> 18 continent S 19 ut <hi rend="italic">om. S</hi> scribtis <hi rend="italic">S</hi> <lb/>
+            20 speciae <hi rend="italic">SGM</hi> celestium <hi rend="italic">S</hi> archanorum <hi rend="italic">S</hi> </note>
+
+<note type="footnote"> 1* </note> <lb n="20"/>
+             
+<pb n="4"/>
+            dignitas passim atque indiscrete cunctis pateret sanctumque <lb/>
+            canibus et margaritas porcis exponeret, ut uere <sic>adillius</sic> <lb/>
+            columbae deargentatae modum, cuius posteriora specie auri <lb/>
+            splendentis inradiant, ita scripturae diuinae prima quaeque argento <lb/>
+            fulgerent, auro occultiora rutilarent. recte itaque procuratum<lb n="5"/>
+            est, ut illa eloquiorum castitas a promiscuis cunctorum oculis <lb/>
+            abdito suo quasi quodam uelamine pudicitiae contegeretur; <lb/>
+            ac diuina optime dispensatione prouisum est, ut scripta ipsa <lb/>
+            ita tegerentur caelestibus obumbrata mysteriis, sicut secreto <lb/>
+            suo ipsa diuinitas operiebatur. igitur cum in libris sanctis<lb n="10"/>
+            oculi domini, uterus domini, pedes, arma etiam domini scripta <lb/>
+            reperiantur longeque absit a catholica ecclesiarum fide deum <lb/>
+            corpore determinari, qui sit inuisibilis inconprehensibilis incommutabilis <lb/>
+            infinitus, requirendum est, <sic>qualiteristaper</sic> spiritum <lb/>
+            sanctum figurali expositione reserentur. hic enim inueniuntur<lb n="15"/>
+            illa dominici interiora templi, hic illa sancta sanctorum. corpus <lb/>
+            ergo scripturae sacrae, sicut traditur, in littera est, anima in <lb/>
+            morali sensu, qui tropicus dicitur, spiritus in superiore <lb/>
+            intellectu, qui anagoge appellatur. quam triplicem scripturarum <lb/>
+            regulam conuenienter obseruat confessio trinitatis sanctificans<lb n="20"/>
+            nos per omnia, ut integer spiritus noster et anima et <lb/>
+            corpus sine querella in <sic>aduentumdomini</sic> dei <sic>nostrilesu</sic> <lb/>
+            Christi iudiciumque seruetur. sapientia mundi huius philosophiam <lb/>
+            suam in tres partes diuisit: physicam ethicam logicam,
+
+<note type="footnote"> 1 (Matth. 7, 6.) 2 Ps. 67, 14. 21 I. Thes. 5, 23. </note>
+
+<note rend="script" type="footnote"> g <lb/>
+            1 dinitas (g <hi rend="italic">m. 1) S adque SM</hi> 2 et <hi rend="italic">om. S</hi> exponerentur <hi rend="italic">GM</hi> <lb/>
+            3 deargentate S speciae S 4 splendentes <hi rend="italic">S</hi> inradiat <hi rend="italic">G</hi> ita <lb/>
+            <hi rend="italic">om. P</hi> uta (u <hi rend="italic">eras.) S</hi> scribturae <hi rend="italic">(sic semper) S</hi> 5 oscultiora <hi rend="italic">(sic) S</hi> <lb/>
+            6 ille loquiorum <hi rend="italic">G</hi> a <hi rend="italic">om. S</hi> ocolis <hi rend="italic">S</hi> 7 quasiqquodam <hi rend="italic">(sic) P</hi> <lb/>
+            pudicitiae uelamine <hi rend="italic">SM</hi> 8 obtima <hi rend="italic">M</hi> 9 celestibus S 12 repperiantur <lb/>
+            <hi rend="italic">(prius</hi> p <hi rend="italic">eras.) P</hi> repperiantur <hi rend="italic">S</hi> deo S 13 in corpore <hi rend="italic">M</hi> , <lb/>
+            m <lb/>
+            inuisebilis <hi rend="italic">S</hi> inconpraehensibilis (m <hi rend="italic">m. 2,</hi> a <hi rend="italic">erasum) P</hi> incomprensebilis <lb/>
+            <hi rend="italic">S</hi> est <hi rend="italic">om. S</hi> 15 ficurali S 17 est <hi rend="italic">om. S</hi> 18 superiori <hi rend="italic">M</hi> <lb/>
+            19 anagogen <hi rend="italic">SG</hi> 20 obserbat S sanctificans] saluificans S 22 querellam <lb/>
+            S in <hi rend="italic">om. S</hi> 23 philosofiam <hi rend="italic">M</hi> 24 phisicam <hi rend="italic">S</hi> fysicam P <lb/>
+            fisicam <hi rend="italic">M</hi> aethicam <hi rend="italic">S</hi> haeticam <hi rend="italic">G</hi> logicam <hi rend="italic">om. G</hi> </note> <lb/>
+             
+<pb n="5"/>
+            id est naturalem moralem rationalem, sed naturalem illam <lb/>
+            pertinentem ad causas naturae, quae uniuersa contineat. moralem <lb/>
+            uero, quae respiciat ad mores, rationalem autem, quae <lb/>
+            de sublimioribus disputans deum omnium patrem esse confirmet. <lb/>
+            quam tripertitam doctrinae distributionem non adeo <lb n="5"/>
+            abhorret illa nostrorum in disputatione distinctio, qua docti <lb/>
+            quique hanc caelestem scripturarum philosophiam secundum <lb/>
+            historiam secundum tropologiam secundum anagogen <sic n="poss">disserendam</sic> <lb/>
+            putant. quapropter historia ueritatem nobis factorum ac <lb/>
+            fidem relationis inculcat, tropologia ad uitae emendationem <lb n="10"/>
+            mysticos intellectus refert, anagoge ad sacratiora caelestium <lb/>
+            figurarum secreta perducit. sunt etiam qui allegoriam in hoc <lb/>
+            scientiae genere quarto in loco adiciendam putent, quam <lb/>
+            gestorum narratione futurorum umbram praetulisse confirment. <lb/>
+            haec uero ipsa ut subiectis plenius manifestentur exemplis, <lb n="15"/>
+            caelum est secundum historiam hoc quod intuemur, secundum <lb/>
+            tropologiam uita caelestis; aquae secundum allegoriam baptismus, <lb/>
+            secundum anagogen angeli, unde <sic>estillud</sic>: et aquae quae <lb/>
+            super caelos sunt laudent nomen domini. omnis autem <lb/>
+            disciplina nostrae religionis ex illo duplici scientiae fonte manauit, <lb n="20"/>
+            cuius primam practicen secundam theoreticen uocauerunt, id <lb/>
+            est actualem et contemplatiuam; unam, quae actualem uitam <lb/>
+            morum emendatione consummet, aliam, quae in contemplatione <lb/>
+            caelestium et diuinarum scripturarum disputatione uersetur.
+
+<note type="footnote"> 18 Ps. 148, 4. </note>
+
+<note rend="script" type="footnote"> 1 sed <hi rend="italic">supra lin. P om. S</hi> naturalem] rationalem S 3 respecet S <lb/>
+            respicit <hi rend="italic">M</hi> respicet <hi rend="italic">G</hi> mores] morales S 4 sublimibus S patrem <lb/>
+            omnium <hi rend="italic">S</hi> 5 tripertitae 8 tripartitam <hi rend="italic">P</hi> doctrinae suae <hi rend="italic">M</hi> <lb/>
+            6 aborret <hi rend="italic">S</hi> 7 philosofiam <hi rend="italic">P</hi> 8 istoriam <hi rend="italic">M</hi> trophologiam S <lb/>
+            disserendum <hi rend="italic">S</hi> disserenda <hi rend="italic">G</hi> 9 historiae S 10 tropologiam <hi rend="italic">SM <lb/>
+            11 misticus SM anagogen SM</hi> 12 perducitur S <hi rend="italic">14 narrationem SGM</hi> <lb/>
+            m go <lb/>
+            umbra (m <hi rend="italic">m. 1) P</hi> 15 manifestetur <hi rend="italic">SM</hi> 16 storiam <hi rend="italic">M</hi> 18 anagen <lb/>
+            (go <hi rend="italic">m</hi>. 1) <hi rend="italic">P</hi> angelis S nnde-domini <hi rend="italic">om. S</hi> 20 fontem S <lb/>
+            ti <lb/>
+            21 practicem S theorecen (ti <hi rend="italic">m. 1) P</hi> theoricen <hi rend="italic">M</hi> theoreticem S <lb/>
+            m <lb/>
+            23 emendationem S consumet (m <hi rend="italic">m. 1) P</hi> </note> <lb/>
+             
+<pb n="6"/>
+            ergo actualis scientia in diuersa studia diffunditur, contemplatiua <lb/>
+            autem in duas deriuatur partes, id est in historica <lb/>
+            disputatione et spiritalis intellegentiae interpretatione consistit. <lb/>
+            sed his nunc remotis formulas intellegentiae spiritalis quas <lb/>
+            spopondimus proponamus currentes per singulorum nominum<lb n="5"/>
+            figuras, quibus ista in illo diuinae lectionis inserta textu <lb/>
+            accipi solent. oremus itaque dominum, ut reuelet condensa <lb/>
+            scripturarum suarum et proferamus, quo modo secretiore <lb/>
+            intellectu sentiendum sit:
+</p>
+          </div>
+
+<div subtype="toc" type="textpart">
+<div n="1" subtype="section" type="textpart">
+
+<p>de his, quae appellantur membra domini uel quae de<lb n="10"/>
+            eo significantur,
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart">
+
+<p>de supernis creaturis,
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart">
+
+<p>de terrenis,
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart">
+
+<p>de animantibus,
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart">
+
+<p>de uariis nominum appellationibus,<lb n="15"/>
+            
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart">
+
+<p>de interiore homine,
+</p>
+          </div>
+
+<div n="7" subtype="section" type="textpart">
+
+<p>de his, quae in usu atque in medio habentur, . 
+</p>
+          </div>
+
+<div n="8" subtype="section" type="textpart">
+
+<p>de uariis uerborum uel nominum significationibus,
+</p>
+          </div>
+
+<div n="9" subtype="section" type="textpart">
+
+<p>de Hierusalem uel aduersis eius,
+</p>
+          </div>
+
+<div n="10" subtype="section" type="textpart">
+
+<p>de numeris. <lb n="20"/>
+            
+</p>
+          <p rend="script">Ergo ipsas nunc nominum atque uerborum significantias, <lb/>
+            secundum quas uel maxime in allegoriam trahuntur, prout , <lb/>
+            donum domini suggesserit, explicemus. \'
+
+<note rend="script" type="footnote"> 2 in duas in duas <hi rend="italic">(II posteriora uerba erasa) P</hi> deriuata <hi rend="italic">GM</hi> <lb/>
+            deriuatas S storica <hi rend="italic">MS</hi> 3 interpraetatione <hi rend="italic">S</hi> interpraetatione (a <lb/>
+            po <lb/>
+            <hi rend="italic">prius erasum) P</hi> 4 formolas <hi rend="italic">S</hi> spondimus (po <hi rend="italic">m. 1) P</hi> 7 accepi S <lb/>
+            9 EXPLICIT PROLOGUS INCIPIT CAPITULA FORMULARUM <hi rend="italic">S</hi> <lb/>
+            INCIPIUNT CAPITULA LIBRI PRIMI ERUDITIONUM <hi rend="italic">M</hi> 12 craeaturis <lb/>
+            <hi rend="italic">S</hi> 16 interiorem hominem <hi rend="italic">S</hi> 17 adque <hi rend="italic">SM</hi> 20 EXP. CAPI- <lb/>
+            TULA. INCIP. LIBER I. S 21 ergo-explicemus <hi rend="italic">om. S</hi> ipsas iam <hi rend="italic">GM</hi> <lb/>
+            23 dei <hi rend="italic">GM</hi> expl. caplam <hi rend="italic">G</hi> INCIPIT LIBER ERUDITIONUM <hi rend="italic">M</hi> </note> 
+<pb n="7"/>
+             
+</p>
+          
+</div></div>
+
+<div n="1" subtype="chapter" type="textpart">
+<ab> <title>I.  DE HIS QVAE APPELLANTUR MEMBRA DOMINI UEL QVAE DE EO SIGNIFICANTUR. </title> </ab>
+          <p>Oculi domini intelleguntur inspectio diuina; in psalmo: <lb/>
+            oculi domini super iustos. 
+</p>
+          <p>Aures domini cum exaudire dignatur; in psalmo: et aures <lb n="5"/>
+            eius in preces eorum. 
+</p>
+          <p>Os domini sermo ad homines; in propheta: os domini <lb/>
+            locutum est. 
+</p>
+          <p>Uerbum domini filius; in psalmo: eructauit cor meum <lb/>
+            uerbum bonum. <lb n="10"/>
+            
+</p>
+          <p>Bracchium domini filius, per quem omnia operatus est; in <lb/>
+            propheta: bracchium domini cui reuelatum est. 
+</p>
+          <p>Dextera domini idem quod supra; in psalmo: dextera <lb/>
+            domini fecit uirtutem. 
+</p>
+          <p>Uterus domini secretum, ex quo filium protulit; in psalmo: <lb n="15"/>
+            ex utero ante luciferum genui te. 
+</p>
+          <p>Pedes domini stabilitas aeternitatis; in psalmo: et caligo <lb/>
+            sub pedibus eius. 
+</p>
+          <p>Uestigia domini operum secretorum signa; in psalmo: et <lb/>
+            uestigia tua non cognoscentur.
+
+<note type="footnote"> 3 Ps. 33, 16. 5 ib. 7 Es. 1, 20. 9 Ps. 44, 2. <lb/>
+            11 Es. 53, 1. 13 Ps. 117, 16. 15 ib. 109, 3. 17 ib. 17, 10. <lb/>
+            19 ib. 76, 20. </note>
+
+<note type="footnote"> <hi rend="italic">1 inscriptio deest semper in P, legitur solus numerus in margine</hi>. <lb/>
+            uel significantur <hi rend="italic">om</hi>. S 3 ps. XXXIII S 5 domini quid est <hi rend="italic">S<lb/>
+             (semper haec adduntur in I. cap.)</hi> psal. <hi rend="italic">(sic fere semper.) P</hi> qui <lb/>
+            supra et aures S 6 ad precis S 7. <hi rend="italic">et</hi> 8. <hi rend="italic">uersus deest in S</hi> 9 ps. <lb/>
+            XLIIII S 12 et bracchium S 13 ps. CXVII S 15 segretum S <lb/>
+            ps. CVIIII 8 16 lucifero <hi rend="italic">S</hi> 17 ps. XVII <hi rend="italic">S</hi> galigo M 19 segretorum <lb/>
+            S insignia S </note> <lb n="20"/>
+            
+<pb n="8"/>
+            
+</p>
+          <p>Gressus domini aduentus uel uisitatio domini; in psalmo: <lb/>
+            uisi sunt gressus tui, deus. 
+</p>
+          <p>Arma domini adiutoria eius in sanctos; in psalmo: adprehende <lb/>
+            arma et scutum. 
+</p>
+          <p>Scutum protectio dei; in psalmo: domine, ut scuto<lb n="5"/>
+            bonae uoluntatis tuae coronasti nos. 
+</p>
+          <p>Framea ultio diuina; in psalmo: effunde frameam et <lb/>
+            conclude in impios.,
+</p>
+          <p>Arcus intentio conminationis diuinae; in psalmo: arcum <lb/>
+            suum tetendit et parauit illum. <lb n="10"/>
+            
+</p>
+          <p>Sagittae praecepta diuina uel apostoli; in psalmo: misit <lb/>
+            sagittas suas et dissipauit eos. 
+</p>
+          <p>Gladius uindicta uel sermo domini; in apostolo: uiuus <lb/>
+            est enim sermo dei et efficax et penetrabilior omni\' <lb/>
+            gladio ancipiti. <lb n="15"/>
+            
+</p>
+          <p><sic>Romphea</sic> idem quod supra. 
+</p>
+          <p>Tuba dei uox manifesta domini; in apostolo: in iussu et <lb/>
+            uoce archangeli et in tuba dei. 
+</p>
+          <p>Currus dei sedes dei uel quadriformitas euangeliorum; in <lb/>
+            psalmo: currus dei decem milibus multiplex. <lb n="20"/>
+            
+</p>
+          <p>Uirga dei regni significatio uel correptio disciplinae; in <lb/>
+            psalmo: uirga aequi tatis, uirga regni tui. 
+</p>
+          <p rend="script">Baculum dei sustentatio consolationis dei; in psalmo: <lb/>
+            uirga tua et baculum tuum ipsa me consolata sunt.
+
+<note type="footnote"> 1 ib. 67, 25. 3 ib. 34, 2. 5 ib. 5, 13. 7 ib. 34, 3. 9 ib. 7, 13. <lb/>
+            11 ib. 17, 15. 13 Hebr. 4, 12. 17 I. \'l\'hess. 4, 15. 19 Ps. 67, 18. <lb/>
+            21 ib. 44, 7. 23 ib. 22, 4. </note>
+
+<note rend="script" type="footnote"> P <lb/>
+            1 ingressus <hi rend="italic">M</hi> 3 sanctis <hi rend="italic">M</hi> ps. XXXIIII <hi rend="italic">S</hi> adpraehende (p <lb/>
+            a <lb/>
+            <hi rend="italic">m. 2</hi> a <hi rend="italic">erasum)</hi> P adpraehinde <hi rend="italic">S</hi> 5 domini <hi rend="italic">G</hi> ps. V <hi rend="italic">S</hi> 6 bone <lb/>
+            (a <hi rend="italic">m. 1) P</hi> bone <hi rend="italic">GMS</hi> nos <hi rend="italic">om. G</hi> 7 ps. XXXIIII <hi rend="italic">S</hi> framea <hi rend="italic">S</hi> \' <lb/>
+            8 impi;;is <hi rend="italic">M</hi> 9 comminationis <hi rend="italic">PS</hi> ps. X <hi rend="italic">(sic) S</hi> 10 illum <hi rend="italic">om. G</hi> <lb/>
+            11 dinina apostoli ut prophete <hi rend="italic">G</hi> ps. XVII <hi rend="italic">S</hi> 13 gladium <hi rend="italic">M</hi> <lb/>
+            apostolo ad hebreos <hi rend="italic">M</hi> 14 domini <hi rend="italic">SGM</hi> penetrauilior <hi rend="italic">S</hi> 16 romfea <lb/>
+            <hi rend="italic">P</hi> rumphea <hi rend="italic">G</hi> 17 in psalmo <hi rend="italic">M</hi> 18 in uoce <hi rend="italic">GM</hi> 19 sedis <hi rend="italic">M</hi> <lb/>
+            ps. LXVII 20 dece milia <hi rend="italic">S</hi> 22 ps. XLIIII <hi rend="italic">S</hi> equitatis <hi rend="italic">P</hi> 23 ps. <lb/>
+            XXII <hi rend="italic">S</hi> 24 baculos tuos <hi rend="italic">S</hi> consolatae <hi rend="italic">S</hi> </note> 
+<pb n="9"/>
+             
+</p>
+          <p>Carbones ignis caritatis aut exemplorum aut paenitentiae; <lb/>
+            in psalmo: cum carbonibus desolatoriis. 
+</p>
+          <p>Fumus initia conpunctionis futurae uel ipsius conminationis <lb/>
+            dei; in psalmo: ascendit fumus in ira eius. item in aliam <lb/>
+            partem sicut fumus oculis noxius, id est uanitas. <lb n="5"/>
+            
+</p>
+          <p>Ignis spiritus sanctus; in Actibus apostolorum: et apparuerunt <lb/>
+            illis dispertitae linguae tamquam ignis seditque <lb/>
+            super singulos eorum et repleti sunt omnes <lb/>
+            spiritu sancto. 
+</p>
+          
+</div>
+
+<div n="2" subtype="chapter" type="textpart">
+<ab> <title>II.  DE SUPERNIS CREATURIS. </title> </ab>
+          <p>Caeli apostoli siue sancti, ideo quod dominus habitet in <lb/>
+            eis; in psalmo: caeli enarrant gloriam dei.,
+</p>
+          <p>Nubes prophetae siue sancti, quia pluant uerbum domini; <lb/>
+            in Esaia: mandabo nubibus desuper ne pluant. 
+</p>
+          <p>Tonitrua uoces euangelii, eo quod de caelo intonent; in <lb n="15"/>
+            psalmo: uox tonitrui in rota. 
+</p>
+          <p>Coruscationes splendores euangelii; in psalmo: inluxerunt <lb/>
+            coruscationes tuae orbi terrae.,
+</p>
+          <p>Fulgura uirtutes uel uerba Iesu Christi; in psalmo: et <lb/>
+            fulgura multiplicauit et conturbauit eos. <lb n="20"/>
+            
+</p>
+          <p rend="script">Throni angeli uel sancti uel ipsa regnandi potestas; in <lb/>
+            psalmo: thronus tuus deus in saeculum saeculi; item
+
+<note type="footnote"> 2 Ps. 119, 4. 4 ib. 17, 9. 6 Act. 2, 3- 4. 11 Ps. <lb/>
+            18, 2. 14 Es. 5, 6. 16 Ps. 76, 19. 17 ib. 19 Ps. 17, 15. <lb/>
+            22 ib. 44, 7. </note>
+
+<note rend="script" type="footnote"> 1 <hi rend="italic">alterum</hi> aut <hi rend="italic">om. S</hi> aut paenitentiae <hi rend="italic">om. G</hi> 2 ps. CXVIIII <hi rend="italic">S</hi> <lb/>
+            b. m <lb/>
+            carboni§ (b <hi rend="italic">m. 2) P</hi> 3 conpunctionis (m <hi rend="italic">m. 1) P</hi> 4 ps. XVII <hi rend="italic">S</hi> <lb/>
+            gu <lb/>
+            5 idem fatuitas <hi rend="italic">M</hi> 8 supra <hi rend="italic">G M</hi> sincolas (gu <hi rend="italic">m. 2) S</hi> 12 ps. <lb/>
+            XVIII. <hi rend="italic">S innarrant S</hi> 13 nubes quid sunt <hi rend="italic">(sic semper usque<lb/>
+             ad</hi> abyssus) <hi rend="italic">S</hi> prophetice <hi rend="italic">M</hi> qui <hi rend="italic">S</hi> dei <hi rend="italic">S</hi> 14 pluant <lb/>
+            super ea pluuium <hi rend="italic">S</hi> 15 ps. LXXVI tonitrui tui <hi rend="italic">S et dett</hi>.e <lb/>
+            <lb/>
+            17 choruscationes <hi rend="italic">(bis) S</hi> 19 uirtutis (e <hi rend="italic">m. 2) S</hi> ps. XVII <hi rend="italic">S</hi> <lb/>
+            et <hi rend="italic">om. M</hi> 19 fulgora <hi rend="italic">G</hi> 21 siue-siue <hi rend="italic">S</hi> 22 ps. XLIIII <hi rend="italic">S</hi> <lb/>
+            u <lb/>
+            tuos (u <hi rend="italic">m. 2) S</hi> </note> <lb/>
+             
+<pb n="10"/>
+            in aliam partem de diabolo: ponam thronum meum ad <lb/>
+            aquilonem. 
+</p>
+          <p>Sedes idem quod supra, angeli uel sancti, quod in his <lb/>
+            dominus sedeat; in psalmo: deus sedet super sedem <lb/>
+            sanctam suam. <lb n="5"/>
+            
+</p>
+          <p>Sol dominus Iesus Christus, quia fulgeat terris; in Salamone: <lb/>
+            ergo sol iustitiae non luxit nobis. 
+</p>
+          <p>Luna ecclesia, eo quod in hac mundi nocte resplendeat; <lb/>
+            in psalmo: fecit lunam in tempora. 
+</p>
+          <p>Stellae sancti siue docti; in Daniele: docti tamquam<lb n="10"/>
+            stellae fulgebunt; interdum et angeli. 
+</p>
+          <p>Nebula uelamentum mysteriorum dei; in propheta: et <lb/>
+            nebulae puluis pedum eius. 
+</p>
+          <p>Caligo diuinorum secretorum operimentum; in psalmo: et <lb/>
+            caligo sub pedibus eius. <lb n="15"/>
+            
+</p>
+          <p>Abyssus profunditas scripturarum; in psalmo: abyssus <lb/>
+            abyssum inuocat. 
+</p>
+          <p>Ros uerbum domini, ideo quod madefaciat hominum terram: <lb/>
+            in psalmo: sicut ros Hermon qui descendit super <lb/>
+            montem Sion. <lb n="20"/>
+            
+</p>
+          <p>Pluuia praecepta uel mandata domini, eo quod terram, id <lb/>
+            est homines, inriget; in psalmo: pluuiam uoluntariam <lb/>
+            segregabis deus hereditati tuae. 
+</p>
+          <p rend="script">Niues pro candore iustitiae maxime; in psalmo: lauabis <lb/>
+            me et super niuem dealbabor.
+
+<note type="footnote"> 1 Es. 14, 13. 4 Ps. 46, 9. 6 Sap. 5, 6. 8 Ps. 103, 19. <lb/>
+            10 Dan. 12, 3. 12 Nah. 1, 3. 14 Ps. 17. 10. 16 ib. 41, 8. <lb/>
+            19 Ps. 132, 3. 22 ib. 67, 10. 24 ib. 50, 9. </note>
+
+<note rend="script" type="footnote"> 1 malam partem <hi rend="italic">M</hi> diabulo <hi rend="italic">PGM</hi> et ponam <hi rend="italic">M</hi> 3 eo quod <hi rend="italic">M</hi> <lb/>
+            hiis <hi rend="italic">GM</hi> 4 ps. XLVI <hi rend="italic">S</hi> sedit <hi rend="italic">G</hi> 6 solomone <hi rend="italic">(sic fere semper) S</hi> <lb/>
+            salomone <hi rend="italic">GM</hi> 9 ps. CIII S luna <hi rend="italic">SG</hi> tempore <hi rend="italic">SM</hi> 10 uel <hi rend="italic">M</hi> <lb/>
+            e <lb/>
+            danihelo <hi rend="italic">G</hi> 11 stille (e <hi rend="italic">m. 2) S</hi> 12 misteriorum <hi rend="italic">M</hi> 13 pedum puluis <lb/>
+            <hi rend="italic">M</hi> 14 calico <hi rend="italic">G</hi> galigo <hi rend="italic">M</hi> perimentum <hi rend="italic">G</hi> ps. XVII S <lb/>
+            15 kaligo <hi rend="italic">G</hi> 16 ps. XLI <hi rend="italic">S</hi> abissus S 18 in eo <hi rend="italic">M</hi> ualde faciat <hi rend="italic">S</hi> <lb/>
+            terra S 19 ermon M quod SG <hi rend="italic">discendit PSGM</hi> super] <hi rend="italic">in GM</hi> <lb/>
+            22 ps. LXVII S pluaia uoluntaria segregans <hi rend="italic">S</hi> 24 ps. L S </note> <lb n="25"/>
+            
+<pb n="11"/>
+            
+</p>
+          <p>Grando conminationes domini, quibus contumaces euerberet; <lb/>
+            in psalmo: grando et carbones ignis. item in aliam <lb/>
+            partem: et occidit in grandine uineas eorum. 
+</p>
+          <p>Pruina abstinentia, eo quod per hanc frigescat calor corporis; <lb/>
+            in psalmo: factus sum sicut uter in pruina. <lb n="5"/>
+            
+</p>
+          <p>Tempestas persecutionum uel tribulationum impetus; in <lb/>
+            psalmo: qui saluum me fecit a pusillo animo et tempestate. <lb/>
+            </p>
+          <p>Glacies durities peccatorum; in Salamone: et sicut in <lb/>
+            sereno glacies ita soluentur peccata tua. <lb n="10"/>
+            
+</p>
+          <p>. Uenti animae sanctorum; in psalmo: uolauit super pinnas <lb/>
+            uentorum. item in malam partem in Matthaeo: et <lb/>
+            flauerunt uenti. 
+</p>
+          <p>Aquilo diabolus uel homines infideles aut mali; in pro- pheta: <lb/>
+            ab aquilone exardescent mala super terram. <lb n="15"/>
+            
+</p>
+          <p>Dexter idem quod supra; in Salamone: aquilo durus est <lb/>
+            uentus. nomine autem dexter uocatur, eo quod diabolus <lb/>
+            nomen sibi dextri praesumat tamquam boni, siue quod occidentem, <lb/>
+            id est peccatum, respicientibus dexter fiat. <lb/>
+            Auster calor fidei; in psalmo: sicut torrens in austro. <lb n="20"/>
+            
+</p>
+          <p>Aer inanitatis enuntiatio; in apostolo: sic pugno non <lb/>
+            quasi aerem uerberans, id est: non inania consectans. 
+</p>
+          <p>Tempora oportuna distributio uoluntatis diuinae; in psalmo: <lb/>
+            fecit lunam in tempora.
+
+<note type="footnote"> 2 ib. 17, 13. 3 ib. 77, 47. 5 ib. 118, 83. 7 ib. 54, 9. <lb/>
+            9 Eccli. 3, 17. 11 Ps. 17, 11. 12 Matth. 7, 25 15 Hier. 1, 44. <lb/>
+            16 Prou. 25, 23. 20 Ps. 125, 4. 21 L Cor. 9, 26. 24 Ps. 103, 19. </note>
+
+<note type="footnote"> 1 comminationes <hi rend="italic">PM</hi> erueret <hi rend="italic">S</hi> euerberat <hi rend="italic">G</hi> euerueret <hi rend="italic">M</hi> 2 ps. <lb/>
+            XVII <hi rend="italic">S</hi> 4 frigiscat <hi rend="italic">PG</hi> 5 ps. CXVIII S proina <hi rend="italic">S</hi> 6 impetus <lb/>
+            tribulationum uel persecutionum <hi rend="italic">S</hi> ps. LIIII S 7 facit <hi rend="italic">M</hi> 9 glacies <lb/>
+            in sereno S glazies <hi rend="italic">(bis) G</hi> 10 soluuntur <hi rend="italic">S</hi> 11 uentus <hi rend="italic">S</hi> ps. <lb/>
+            X <hi rend="italic">(sic)</hi> S 12 mattheo <hi rend="italic">SM</hi> matheo <hi rend="italic">G</hi> 14 diabulus <hi rend="italic">PGM</hi> in propheta <lb/>
+            <hi rend="italic">om. S</hi> 15 ab <hi rend="italic">om. G</hi> arescent <hi rend="italic">.G</hi> 17 uentus durus est <hi rend="italic">M</hi> <lb/>
+            nomen <hi rend="italic">M</hi> autem <hi rend="italic">om. S</hi> diabulus <hi rend="italic">GM</hi> 19 respit <hi rend="italic">G</hi> 20 calore <lb/>
+            fidei succensus <hi rend="italic">M</hi> ps. CXXV/9 torrente1 <hi rend="italic">S</hi> 21 inanitas enuntiationisilf <lb/>
+            apostulo <hi rend="italic">G</hi> pugno non quasi in incertum S 22 id hoc S non—consectans] <lb/>
+            inaniniter <hi rend="italic">S</hi> 23 uolumptatis <hi rend="italic">M</hi> ps. CIII <hi rend="italic">S</hi> 24 luna <hi rend="italic">SG</hi> </note> 
+<pb n="12"/>
+            
+</p>
+          <p>Uer uitae renouatio uel per baptismum uel per resurrectionem; <lb/>
+            in psalmo: aestatem et uer tu fecisti ea. 
+</p>
+          <p>Aestas uenturae iucunditatis praefiguratio; in psalmo idem <lb/>
+            quod supra. 
+</p>
+          <p>Hiemps persecutio uel tribulatio; in euangelio: ut non<lb n="5"/>
+            fiat fuga uestra hieme uel sabbato. 
+</p>
+          <p>Anni aliquando pro aeternitate accipiuntur ut ibi: anni <lb/>
+            tui non deficient, interdum et pro breuitate uitae, ut hic: <lb/>
+            anni nostri tamquam aranea meditabuntur. 
+</p>
+          <p>Dies et nox iustitia et iniquitas, fides et infidelitas, prospera<lb n="10"/>
+            et aduersa; in psalmo: in die mandauit dominus <lb/>
+            misericordiam suam et nocte declarauit. 
+</p>
+          <p>Lumen et tenebrae ita maxime accipiuntur ut dies et nox; <lb/>
+            in epistula Iohannis: qui diligit fratrem suum, in lumine <lb/>
+            manet, qui autem odit fratrem suum, in tenebris est. <lb n="15"/>
+            
+</p>
+          <p>Umbra protectio diuina; in psalmo: sub umbra alarum <lb/>
+            tuarum protege me. 
+</p>
+          <p>Hora quingenti, ut putant quidam, anni, si quando dies <lb/>
+            pro toto mundi istius saeculo accipitur; in epistula Iohannis: <lb/>
+            filioli, nouissima hora est. <lb n="20"/>
+            
+</p>
+          <p rend="script">Oriens saluator maxime; in Luca: uisitauit nos oriens <lb/>
+            ex alto; et in Zaccharia: ecce uir oriens nomen eius.
+
+<note type="footnote"> 2 Ps. 73, 17. 5 Matth. 24, 20. 7 Ps. 101, 28. 9 ib. 89, 9. <lb/>
+            11 ib. 41, 9. 14 I. Ioh. 2, 10-11. 16 Ps. 16, 8. 20 I. Ioh. 2, 18. <lb/>
+            21 Luc. 1, 78. 22 Zach. 6, 12. </note>
+
+<note rend="script" type="footnote"> 1 per <hi rend="italic">ante</hi> resurrectionem <hi rend="italic">om. M</hi> 2 ps. LXXIII S aestate <hi rend="italic">S</hi> <lb/>
+            uir (e <hi rend="italic">m. 2) S</hi> eam <hi rend="italic">G</hi> 3 aestus S iocunditatis <hi rend="italic">SM</hi> praeficuratio <lb/>
+            S 5 orate ut non <hi rend="italic">M</hi> uestra fuga <hi rend="italic">G</hi> 8 defitient <hi rend="italic">G</hi> <lb/>
+            i i <lb/>
+            9 tamquam] sicut <hi rend="italic">M</hi> 10 fedes (i <hi rend="italic">m</hi>. 2) S infedelitas (i <hi rend="italic">m. 2) S</hi> <lb/>
+            11 ps. XLI <hi rend="italic">S</hi> 13 maximae S <hi rend="italic">i</hi> (i <hi rend="italic">m 2) S</hi> <lb/>
+             <lb/>
+            15 manet (i <hi rend="italic">m. 2) S</hi> 16 ps. <hi rend="italic">XVI S</hi> 17 protige (e <hi rend="italic">1n. 2) S</hi> me <hi rend="italic">om. G</hi> <lb/>
+            u <lb/>
+            18 ut anni <hi rend="italic">M</hi> quidam putant 8 19 toto (u <hi rend="italic">m. 2) S</hi> accipiuna <lb/>
+            i <lb/>
+            tur <hi rend="italic">M</hi> 20 nouissimi (a m. <hi rend="italic">2) S</hi> 21 maximae <hi rend="italic">S</hi> uisetauit (i <hi rend="italic">ex</hi> e <hi rend="italic">corr. <lb/>
+            m. 2) S</hi> </note> 
+<pb n="13"/>
+            
+</p>
+          <p>Occidens uitae melioris defectus; in propheta: occidet <lb/>
+            uobis sol meridie. 
+</p>
+          <p>Mane lux actuum bonorum uel baptismum uel resurrectio; <lb/>
+            in psalmo: mane adstabo tibi et uidebo te. 
+</p>
+          <p>Meridies plena doctrinarum factorumque claritas; in Salamone: <lb n="5"/>
+            ubi <choice><sic>cubus</sic><corr>cubas</corr></choice> in meridie? et in malam partem in <lb/>
+            psalmo: a daemonio meridiano id est manifesto. 
+</p>
+          <p>Uespere finis uitae uel saeculi uel poena; in psalmo: ad <lb/>
+            uesperum demorabitur fletus et ad matutinum laetitia:
+</p>
+          
+</div>
+
+<div n="3" subtype="chapter" type="textpart">
+<ab> <title>III.  DE TERRENIS. </title> </ab>
+          <p>Terra homo ipse; in euangelio: aliud cecidit in terram <lb/>
+            bonam. item in malam partem de peccatore: terram edes <lb/>
+            omnibus diebus uitae tuae. 
+</p>
+          <p>Arida infructuosi hominis caro; in Ecclesiastico: cooperire <lb/>
+            aridam malitia et dolositate. <lb n="15"/>
+            
+</p>
+          <p>.Puluis peccatores uel carnis uanitas; in psalmo: sicut <lb/>
+            puluis, quem proicit uentus. 
+</p>
+          <p>Lutum peccatorum glutinum; in psalmo: eripe me de <lb/>
+            <choice><sic>Iuto</sic><corr>luto</corr></choice>, ut non infigar; item in aliam partem in Iohanne: <lb/>
+            lutum fecit et liniuit oculos meos. <lb n="20"/>
+            
+</p>
+          <p rend="script">Montes dominus ecclesia apostoli siue sancti a celsitudine <lb/>
+            uirtutum; in psalmo: qui descendit super montem Sion.
+
+<note type="footnote"> 1 Am. 8, 9. 4 Ps. 5, 5. 6 Cant. 1, 6. 7 Ps. 90, 6. <lb/>
+            8 ib. 29, 6. 11 Marc. 4, 8. 12 Gen. 3, 14. 14 Eccli. 37, 3. <lb/>
+            16 Ps. 1, 4 18 ib. 68, 15. 20 Ioh. 9, 11. 22 Ps. 132, 3. </note>
+
+<note rend="script" type="footnote"> 1 occidit <hi rend="italic">SGM</hi> 2 meridie] ueritatis S 4 ps. V S astabo <hi rend="italic">PM</hi> <lb/>
+            te om. S 5 que <hi rend="italic">om. S</hi> salomone <hi rend="italic">GM</hi> 7 ps. XC <hi rend="italic">S</hi> 8 uespere <hi rend="italic">PGM</hi> <lb/>
+            b <lb/>
+            uesper <hi rend="italic">S</hi> poena] bene <hi rend="italic">M</hi> ps. <hi rend="italic">XXVIIII S</hi> 9 demorauitur S (b <hi rend="italic">m. 2)</hi> a <lb/>
+            f <lb/>
+            matotinum <hi rend="italic">S</hi> 11 aliut <hi rend="italic">M</hi> 12 item] et <hi rend="italic">SM</hi> aedes <hi rend="italic">M</hi> 13 omnebus <lb/>
+            (i <hi rend="italic">m, 2) S</hi> 14 caro est et <hi rend="italic">M</hi> ecclesiastico] salomone <hi rend="italic">S</hi> cooperiere S <lb/>
+            15 malitiam et dolositatem <hi rend="italic">SM</hi> 17 proiciet <hi rend="italic">SM</hi> 18 loto <hi rend="italic">S</hi> 19 infigar] <lb/>
+            i <lb/>
+            inaeream <hi rend="italic">S</hi> euangelio iohannis <hi rend="italic">S</hi> 20 leniuit (i <hi rend="italic">ex</hi> e <hi rend="italic">corr. m. 2) S</hi> <lb/>
+            e <lb/>
+            liniuit <hi rend="italic">GM</hi> 22 qui] quod S discendit <hi rend="italic">S (corr. m. 2)</hi> discendit <hi rend="italic">GM</hi> </note> <lb/>
+             
+<pb n="14"/>
+            item in aliam partem in propheta: ne quando offendant <lb/>
+            pedes uestri ad montes caligosos, id est hereticos. 
+</p>
+          <p><sic>Oolles</sic>, sancti sed minoris meriti; in psalmo: montes et <lb/>
+            omnes colles. item in malam partem in euangelio: omnis <lb/>
+            collis et mons humiliabitur. <lb n="5"/>
+            
+</p>
+          <p>Valles contritione cordis humiles; in psalmo: et conualles <lb/>
+            abundabunt frumento. et in malam partem propheta: <lb/>
+            uallem filiorum Ennom. 
+</p>
+          <p>Petra Christus a firmitate; in apostolo: petra autem <lb/>
+            erat Christus. <lb n="10"/>
+            
+</p>
+          <p>Lapides interdum Christus aut sancti; in psalmo: lapis <lb/>
+            quem reprobauerunt aedificantes. item in aliam partem: <lb/>
+            potens est deus de lapidibus istis suscitare <choice n="0.67"><sic n="825">filios</sic><corr n="398">fili</corr></choice> <lb/>
+            Abrahae. 
+</p>
+          <p>Ager hic mundus; in euangelio: ager est hic mundus. <lb n="15"/>
+            
+</p>
+          <p>Campi sancti siue scripturae diuinae, eo quod pastum <lb/>
+            animarum praebeant; in psalmo: et campi tui replebuntur <lb/>
+            ubertate. item in malam partem: in campo Taneos.\'
+</p>
+          <p>Pascua refectio spiritalis; in psalmo: in loco pascui <lb/>
+            ibi me conlocauit. <lb n="20"/>
+            
+</p>
+          <p rend="script">Cultura sancti, qui excoluntur in deum; apostolus: dei <lb/>
+            agricultura estis.
+
+<note type="footnote"> 1 Hier. 13, 16. 3 Ps. 148, 9. 4 Luc. 3, 5. 6 Ps. 64, 14. <lb/>
+            8 Hier. 19, 2. 9 I. Cor. 10, 4. 11 Ps. 117. 22. 13 Matth. 3, 9. <lb/>
+            15 ib. 18, 38. 17 Ps. 64, 12. 18 ib. 77, 43. 19 ib. 22, 2. <lb/>
+            21 I. Cor. 3, 9. </note>
+
+<note rend="script" type="footnote"> .1 in <hi rend="italic">om. P</hi> 2 ad hereticos <hi rend="italic">S</hi> hereticorum <hi rend="italic">G</hi> 3 minores <hi rend="italic">M</hi> <lb/>
+             <lb/>
+            ps. <hi rend="italic">CXLVIII S</hi> 4 malam] aliam <hi rend="italic">n</hi> omnes <hi rend="italic">P</hi> omnes (i m. 2) <hi rend="italic">S</hi> <lb/>
+            5 mons et collis <hi rend="italic">S</hi> 6 ps. LXIIII <hi rend="italic">S</hi> comualles (n m. <hi rend="italic">2) S</hi> 7 habundabunt <lb/>
+            S et] item <hi rend="italic">S</hi> in propheta <hi rend="italic">S</hi> 8 emnom <hi rend="italic">S</hi> 9 christus <lb/>
+            sicut in apostolo <hi rend="italic">G</hi> 11 ps. CXVII <hi rend="italic">S</hi> lapidem quem <hi rend="italic">M</hi> 12 aedificantes. <lb/>
+            et in in propheta. sancti lapides soluuntur super terram <hi rend="italic">M</hi> <lb/>
+            b <lb/>
+            partem in euangelio <hi rend="italic">S</hi> 16 sancti siue <hi rend="italic">om. S</hi> 17 praeneant (b <hi rend="italic">m. 2) S</hi> <lb/>
+            ps. LXIIII <hi rend="italic">S</hi> 18 item] et <hi rend="italic">M</hi> item in psalmo LXXII: in campo <lb/>
+            thaneos; in psalmo LXXII: in loco pascue ibi me conlocauit <hi rend="italic">S</hi> 19 <hi rend="italic">om. S</hi> <lb/>
+            pascuae <hi rend="italic">GM</hi> 21 domino in apostolo <hi rend="italic">S</hi> </note> 
+<pb n="15"/>
+             
+</p>
+          <p>Agricola deus, in euangelio dominus: ego sum uitis uera <lb/>
+            et pater meus agricola est. 
+</p>
+          <p>Sulci corda sanctorum; in psalmo: sulcos eius inebrians. 
+</p>
+          <p>Semen diuina praedicatio; in euangelio: exiit qui seminat <lb/>
+            seminare semen suum. <lb n="5"/>
+            
+</p>
+          <p>Messis ubertas uel copia fidelium; in euangelio: leuate <lb/>
+            oculos uestros et uidete regiones quia albae sunt <lb/>
+            iam ad messem; et aliter: messis consummatio saeculi <lb/>
+            sicut messores angeli. <lb/>
+            Manipuli fructus iustitiae; in psalmo: portantes manipulos <lb n="10"/>
+            suos. 
+</p>
+          <p>Stipula aridi ad fidem uel inanes; in apostolo: ligna <lb/>
+            faenum stipula, et in propheta: heu mihi quia factus <lb/>
+            sum sicut qui colligit stipulam in messe, hoc est: <lb/>
+            nullos boni operis fructus inueni. <lb n="15"/>
+            
+</p>
+          <p>Area ecclesia; in euangelio: et permundabit aream <lb/>
+            suam. 
+</p>
+          <p>Uentilabrum examen iustitiae dei; in euangelio: cuius <lb/>
+            uentilabrum in manu sua. 
+</p>
+          <p>Triticum sancti uel electi dei; in euangelio: et congregabit <lb n="20"/>
+            triticum suum in horeum. 
+</p>
+          <p rend="script">Hordeum legis littera; in euangelio: est puer unus hic, <lb/>
+            qui habet quinque panes hordiacios.
+
+<note type="footnote"> 1 Ioh. 15, 1. 3 Ps. 64, 11. 4 Luc. 8, 5. 6 Ioh. 4, 35. <lb/>
+            8 Matth. 13, 39. 10 Ps. 125, 6. 12 I. Cor. 3, 12. 13 Mich. 7, 1. <lb/>
+            16 Matth. 3, 12. 18 ib. 20 ib. 22 Ioh. 6, 9. </note>
+
+<note rend="script" type="footnote"> 1 deus dominus S in euangelio secundum iohannem S dominus <lb/>
+            <hi rend="italic">om. SGM</hi> 3 sulcus <hi rend="italic">S</hi> 4 praedicatione <hi rend="italic">M</hi> 6 messes P cupia <hi rend="italic">GM</hi> <lb/>
+            7 uedete <hi rend="italic">(i ex e corr. m. 2) S 8 iam om. S messes P</hi> saecoli S <lb/>
+            e <lb/>
+            9 sicut et messores <hi rend="italic">G</hi> 10 ps. CXXY S portantis (e <hi rend="italic">m. 2) S</hi> <lb/>
+            n <lb/>
+            12 inanes ignis <hi rend="italic">S</hi> 13 feno S (m <hi rend="italic">m. 2)</hi> 14 messem <hi rend="italic">GM</hi> 15 nulli <hi rend="italic">S</hi> <lb/>
+            fructos <hi rend="italic">GM</hi> 16 permundauit <hi rend="italic">S</hi> 18 uentelabrum <hi rend="italic">PS</hi> dei <lb/>
+            <hi rend="italic">om. M</hi> 20 congregauit <hi rend="italic">S</hi> 21 suum <hi rend="italic">om. S</hi> horreo suo <hi rend="italic">S</hi> 22 ordeum <lb/>
+            <hi rend="italic">M</hi> hic <hi rend="italic">om. M</hi> 23 habit S quinque <hi rend="italic">om. S</hi> ordiacios <lb/>
+            <hi rend="italic">SGM</hi> </note> 
+<pb n="16"/>
+            
+</p>
+          <p>Paleae peccatores; in euangelio: paleas. autem conburet <lb/>
+            igni inextinguibili; et Hieremias: quid paleis ad triticum <lb/>
+            dicit dominus? 
+</p>
+          <p>Zizania scandala uel male uiuentes; in euangelio: uenit <lb/>
+            inimicus eius et superseminauit zizania in medio<lb n="5"/>
+            tritici. 
+</p>
+          <p>Uinea ecclesia uel populus Israhel; in psalmo; uineam <lb/>
+            de Aegypto transtulisti. item in malam partem: ex uinea <lb/>
+            enim Sodomorum uitis eorum. 
+</p>
+          <p>Uitis Christus; in euangelio: ego sum uitis uera. item<lb n="10"/>
+            in aliam partem ut supra in cantico deuteronomii: ex uinea <lb/>
+            Sodomorum uitis eorum. 
+</p>
+          <p>Palmites apostoli uel sancti; in euangelio: ego sum uitis, <lb/>
+            uos palmites. et in malam partem in cantico deuteronomii: <lb/>
+            \'et palmes eorum ex Gomorra. <lb n="15"/>
+            
+</p>
+          <p>Uuae fructus iustitiae; in cantico Esaiae: exspectaui ut <lb/>
+            faceret uuam. item in malam partem in deuteronomio: una <lb/>
+            eorum uua fellis. 
+</p>
+          <p>Botrus ecclesia siue corpus domini; in numeris: eo quod <lb/>
+            botrum inde portassent filii Israhel. <lb n="20"/>
+            
+</p>
+          <p rend="script">Uindemia consummatio saeculi uel uindicta in populum; <lb/>
+            in psalmo: uindemiant eam omnes qui praetergrediuntur <lb/>
+            uiam. et Iohel: mittite falces et <sic>uindemiate</sic> uineam <lb/>
+            terrae, quia maturae sunt uuae eius.
+
+<note type="footnote"> 1 Matth. 3, 12. 2 Hier. 23, 28. 4 Matth. 13, 25. 7 Ps. 79, 9. <lb/>
+            8 Deut. 32, 32. 10 Ioh. 15, 1. 11 Deut. 32, 32. <hi rend="italic">13 et 15 Ioh. 15, 5</hi>. <lb/>
+            16 Es. 5, 4. 17 Deut. 32, 32. 19 Num. 13, 25. 22 Ps. 79, 13. <lb/>
+            23 Ioel 3, 13. </note>
+
+<note rend="script" type="footnote"> u <lb/>
+            1 conburit <hi rend="italic">S</hi> conpuret <hi rend="italic">M</hi> 5 inimicos (u <hi rend="italic">m. 2) S</hi> eius <hi rend="italic">om. S</hi> 6 trici P <lb/>
+            8 aliam partem <hi rend="italic">S</hi> 10 uitis <hi rend="italic">legitur in S post</hi> palmites uites <hi rend="italic">P <lb/>
+            (altero loco)</hi> 11 quod supra <hi rend="italic">M (cetera sunt omissa) 14 in-deutero-</hi> <lb/>
+            u <lb/>
+            nomii <hi rend="italic">om. M</hi> deutheronomii <hi rend="italic">(sic semper) S</hi> 15 palmites S 16 ubae <lb/>
+            U <lb/>
+            (u <hi rend="italic">m. 1) S</hi> et expectauet facere ubam (u <hi rend="italic">m. 2) S</hi> uua <hi rend="italic">M</hi> <lb/>
+            d <lb/>
+            19 quo <hi rend="italic">S</hi> (d <hi rend="italic">m. 2)</hi> 20 portarent <hi rend="italic">M</hi> strahel <hi rend="italic">S</hi> 22 transeunt uia <hi rend="italic">S</hi> <lb/>
+            transeunt uiam <hi rend="italic">G M</hi> uindimiante S </note> 
+<pb n="17"/>
+            
+</p>
+          <p>Torcular altare ab eo, quod ibi oblationes tamquam fructus <lb/>
+            conferantur; in cantico Esaiae: et torcular fodi in ea. et <lb/>
+            aliter torcular tribulationum pressura, in qua fideles probantur; <lb/>
+            in titulo psalmi: in finem pro torcularibus. 
+</p>
+          <p>Faenum caro uel uana gloria; in propheta: omnis caro <lb n="5"/>
+            faenum et omnis gloria eius ut flos faeni. 
+</p>
+          <p>Herbae iucunditas quaedam proficientis animae; in Genesi: <lb/>
+            producat terra herbam uirentem. item in malam partem: <lb/>
+            mane sicut herba transeat. 
+</p>
+          <p><sic>Flored</sic> Christus uel specimen iustitiae; in psalmo: iustus <lb n="10"/>
+            ut palma florebit. 
+</p>
+          <p>Lilium Christus uel angeli a candore iustitiae; in Salamone: <lb/>
+            ego flos campi et lilium conuallium. 
+</p>
+          <p>Rosae martyres a rubore sanguinis; in Salamone: sicut <lb/>
+            rosa germinat super uuida fluenta. <lb n="15"/>
+            
+</p>
+          <p>Uiolae confessores ob similitudinem liuidorum corporum; <lb/>
+            in cantico canticorum: flores in terra uisi sunt. 
+</p>
+          <p rend="script">Siluae gentes; in psalmo: inuenimus eam in campis <lb/>
+            siluae. de his siluis egressi sunt duo ursi reges Romanorum <lb/>
+            ad praeceptum figurati Helisaei et post XLII annos ascensionis <lb n="20"/>
+            eius ad caelos Iudaeos pueros comederunt.
+
+<note type="footnote"> 2 Ea. 5, 2. 4 Ps. 8, 1. 5 Es. 40, 6. 8 Gen. 1, 11. 9 Ps. <lb/>
+            89, 6. 10 Ps. 91, 13. 13 Cant. 2, 1. 14 Eccli. 39, 17 17 Cant. 2, 12. <lb/>
+            18 Ps. 131, 6. 19 [IIII Reg. 2, 24.] </note>
+
+<note rend="script" type="footnote"> r u <lb/>
+            1 ab <hi rend="italic">om. SM</hi> tamquam fructus <hi rend="italic">om. S</hi> 2 torcolar <hi rend="italic">S</hi> 3 tocolar <lb/>
+            <hi rend="italic">(r et u m. 2) S</hi> praessura S 4 propter <hi rend="italic">(pter erasum) S</hi> torcoi <lb/>
+            <lb/>
+            laribus S 5 fenum <hi rend="italic">(semper) SGM</hi> omnes (i <hi rend="italic">ex</hi> e <hi rend="italic">corr. m. 2) S</hi> 7 herba <lb/>
+            <hi rend="italic">S</hi> iocunditas <hi rend="italic">S</hi> 8 terram <hi rend="italic">S</hi> et in aliam partem <hi rend="italic">S</hi> 10 specimen] <lb/>
+            <hi rend="italic">species S ps. XCI S</hi> 11 florit <hi rend="italic">(e m. 1) S</hi> florebit. et de hominum <lb/>
+            quoque uita presente in aliam partem: mane floreat et pertranseat <hi rend="italic">M</hi> <lb/>
+            14 martires robore <hi rend="italic">PS</hi> 15 uuida fluenta] riuum umectum <hi rend="italic">S</hi> <lb/>
+            16 similitudine <hi rend="italic">M</hi> liuidorum diuinorum <hi rend="italic">S</hi> 17 uisi sunt—comederunt <lb/>
+            <hi rend="italic">om. G</hi> in terram <hi rend="italic">S</hi> 18 in psalmo om. <hi rend="italic">S</hi> ea <hi rend="italic">S</hi> 19 siluae] <lb/>
+            silua <hi rend="italic">M</hi> reges romanorum uespasianus et titus <hi rend="italic">SM</hi> </note>
+
+<note type="footnote"> XXXI. pars I. </note>
+
+<note type="footnote"> 2 </note> 
+<pb n="18"/>
+            
+</p>
+          <p>Condensa opaca uel contecta scripturae diuinae; in psalmo: <lb/>
+            et reuelauit condensa. 
+</p>
+          <p>Ligna peccatores igni deputandi; in Ecclesiaste: qui <lb/>
+            scindit ligna, periclitabitur in eis. item in bonam <lb/>
+            partem: et erit tamquam lignum quod plantatum est. <lb n="5"/>
+            
+</p>
+          <p>Radix origo; in apostolo: quod si radix sancta et rami. <lb/>
+            et in malam partem in psalmo: et radicem tuam de terra <lb/>
+            uiuentium. 
+</p>
+          <p>Arbor homo a fructu operum; in euangelio: aut facite <lb/>
+            arborem bonam et fructum eius bonum. et in malam<lb n="10"/>
+            partem: aut facite arborem malam et fructum eius <lb/>
+            malum. quidam in hoc testimonio arborem hanc uoluntatem <lb/>
+            hominis magis quam ipsum hominem accipiendam putant. 
+</p>
+          <p>Ramus successio; in apostolo: quod si radix sancta et <lb/>
+            rami. item in malam partem in Daniele: praecidite ramos<lb n="15"/>
+            eius. 
+</p>
+          <p>Folium sermo doctrinae; in psalmo: et folium eius non <lb/>
+            defluet. et aliter folium uestitus et decor cum protectione <lb/>
+            diuinae gratiae. 
+</p>
+          <p>.Poma sanctorum in uirtutibus fructus: in cantico canticorum:<lb n="20"/>
+            et manducet fructum pomorum suorum. 
+</p>
+          <p rend="script">Palma perfectio uel uictoria; in psalmo: iustus ut palma <lb/>
+            florebit.
+
+<note type="footnote"> 2 Ps. 28, 9. 3 Eccle. 10, 9. 5 Ps. 1, 8. 6 Rom. 11, 16. <lb/>
+            7 Ps. 51, 7. 9 <hi rend="italic">et</hi> 11 Matth. 12, 33. 14 Rom. 11, 16. 15 Dan. 4, 11. <lb/>
+            17 Ps. 1, 3. 21 Cant. 5, 1. 22 Ps. 91, 13. </note>
+
+<note rend="script" type="footnote"> 1 opoca P ps. XXVIII <hi rend="italic">S</hi> 2 et <hi rend="italic">om. M</hi> 3 depotandi <hi rend="italic">S ec-</hi> <lb/>
+            clesiasten <hi rend="italic">S</hi> 4 incendit <hi rend="italic">S</hi> periglitabitur <hi rend="italic">S</hi> 5 in—pariem] in psalmo <lb/>
+            i <lb/>
+            primo <hi rend="italic">S</hi> 6 apostulo <hi rend="italic">M</hi> radex <hi rend="italic">S</hi> (i <hi rend="italic">m. 2)</hi> 9 a] ob <hi rend="italic">M</hi> fructus S <lb/>
+            12 uolumtatem <hi rend="italic">M</hi> 13 quidam-putant <hi rend="italic">om. G</hi> accipiendum <hi rend="italic">S</hi> <lb/>
+            i <lb/>
+            hominem accipiunt <hi rend="italic">M</hi> 14 apostulo <hi rend="italic">GM</hi> radex (i <hi rend="italic">ex</hi> e <hi rend="italic">corr. m 2) S</hi> <lb/>
+            i <lb/>
+            15 in propheta <hi rend="italic">S</hi> danihelo <hi rend="italic">GM</hi> praecedite (i <hi rend="italic">ex</hi> e <hi rend="italic">corr. m. 2) S</hi> <lb/>
+            17 ps. I <hi rend="italic">S</hi> 18 defluet] dccidit <hi rend="italic">S</hi> et <hi rend="italic">ante</hi> aliter <hi rend="italic">om. G</hi> decorum <hi rend="italic">S</hi> <lb/>
+            21 manducit (e <hi rend="italic">m. 2) S</hi> 22 ps. <hi rend="italic">XCI S</hi> iustos (u <hi rend="italic">m. 2) S</hi> 23 floriet <hi rend="italic">S</hi> <lb/>
+            florebit. et in apostolo: omnes quidem currunt, sed unus accipiet palmam. <lb/>
+            id est inter omnes ereses solus catholicus populus coronatur <hi rend="italic">M</hi> </note> 
+<pb n="19"/>
+            
+</p>
+          <p>Caedri excelsioris potentiae uiri; in psalmo: ut caedri <lb/>
+            Libani multiplicabuntur. et in malam partem in psalmo: <lb/>
+            et confringet dominus caedros Libani. 
+</p>
+          <p>Olea sanctus misericordiae abundans fructibus; in psalmo: <lb/>
+            ego autem sicut oliua fructifera. <lb n="5"/>
+            
+</p>
+          <p>Oleaster homo sine fructu uel gentilis; in apostolo: si <lb/>
+            autem tu ex naturali excisus es oleastro. 
+</p>
+          <p>Ficus synagoga interdum; in euangelio: et arefacta est <lb/>
+            continuo ficulnea. et in Habacuc: ficus non adferet <lb/>
+            fructum. <lb n="10"/>
+            
+</p>
+          <p>Malogranata ecclesia de multis gentibus siue diuersas <lb/>
+            gratias habens; in canticis canticorum: emissiones tuae <lb/>
+            paradisus malogranatorum cum fructu pomorum. 
+</p>
+          <p>Harundo peccator uel fragilis in fide; in euangelio: <lb/>
+            harundinem quassatam non confringet. item harundo <lb n="15"/>
+            infirmum auxilium; in propheta: quid confides in baculo <lb/>
+            isto harundineo aegyptio? cui si quis incubuerit, conquassabitur <lb/>
+            et perforabit manum eius. 
+</p>
+          <p rend="script">Rubus ut quidam opinantur, sanctae Mariae uirginis praefiguratio, <lb/>
+            eo quod quasi de humani corporis rubo saluatorem
+
+<note type="footnote"> 1 Ps. 91, 13. 3 ib. 28, 5. 5 ib. 51, 10. 6 Rom. 11, 24. <lb/>
+            8 Matth. 21, 19. 9 Ab. 3, 17. 12 Cant. 4, 13. 15 Matth. 12, 20. <lb/>
+            16 Es. 36, 6. </note>
+
+<note rend="script" type="footnote"> 1 ps. XCI <hi rend="italic">S</hi> caedros (u m. 2) <hi rend="italic">S</hi> cedrus <hi rend="italic">G</hi> cedrum <hi rend="italic">M</hi> 2 liuani (b <lb/>
+            b <lb/>
+            <hi rend="italic">m. 2 bis) S</hi> multiplicauitur (b <hi rend="italic">m. 2) S</hi> multiplicabitur <hi rend="italic">GM</hi> ps. <lb/>
+            XXVIII <hi rend="italic">S</hi> 3 confringit (e <hi rend="italic">m. 2) S</hi> confringit M 4 olea] oliua <hi rend="italic">S</hi> <lb/>
+            o autem <hi rend="italic">om. S</hi> 6 gentiles <hi rend="italic">S</hi> apostulo <hi rend="italic">GM</hi> 8 sinagoga <hi rend="italic">S</hi> 9 ficulc <lb/>
+            e ? <lb/>
+            nea continuo <hi rend="italic">M</hi> abbacum (c <hi rend="italic">m. 2) S</hi> abbacuc <hi rend="italic">GM</hi> affer//t P <lb/>
+            adferit (e <hi rend="italic">m. 2) S</hi> dabit <hi rend="italic">M</hi> 11 malagranata <hi rend="italic">PSGM</hi> ecclesiam S <lb/>
+            12 emissionis <hi rend="italic">PS</hi> 13 paradisum S malagranatorum <hi rend="italic">S</hi> malorumgras <lb/>
+            e <lb/>
+            norum <hi rend="italic">M</hi> 15 confringit (e <hi rend="italic">m. 2)</hi> S confringit <hi rend="italic">M</hi> arundo <hi rend="italic">PM</hi> <lb/>
+            eV u <lb/>
+            16 confid//s <hi rend="italic">P</hi> cofides <hi rend="italic">S</hi> contidis <hi rend="italic">GM</hi> baculum <hi rend="italic">S</hi> 17 arundinem in <lb/>
+            b <lb/>
+            ęgypto M aegipti S 18 perforauit (b <hi rend="italic">m. 2) S</hi> perforauit <hi rend="italic">GM</hi> 19 opin <lb/>
+            1 ubu <lb/>
+            natur <hi rend="italic">S</hi> sanctae <hi rend="italic">om. G</hi> uirgenis (i <hi rend="italic">ex</hi> e <hi rend="italic">corr. m. 2) S</hi> 20 rouos <lb/>
+            (ubu <hi rend="italic">m. 2) S</hi> </note>
+
+<note type="footnote"> 2* </note> <lb n="20"/>
+             
+<pb n="20"/>
+            tamquam rosam emiserit, aut quod uim diuini fulgoris sine <lb/>
+            sui absumptione <choice><sic>pertulorit</sic><corr>pertulerit</corr></choice>; in Exodo: apparuitque ei <lb/>
+            dominus in flamma ignis de medio rubi et uidebat <lb/>
+            quod rubus arderet et non conbureretur. 
+</p>
+          <p>Spinae interdum noxiae diuitiarum curae animum suffocantes;<lb n="5"/>
+            in euangelio: aliud cecidit in spinas. 
+</p>
+          <p>Tribuli aculei uitiorum uel temptationum; in genesi: <lb/>
+            spinas et tribulos generauit tibi. 
+</p>
+          <p>Fontes baptismum; in psalmo: sicut ceruus desiderat <lb/>
+            ad fontes aquarum. <lb n="10"/>
+            
+</p>
+          <p>Aqua populi uel temptationes; in psalmo: forsitam ut <lb/>
+            aqua absorbuisset nos. item in bonam partem in Hieremia: <lb/>
+            me dereliquerunt fontem aquae uiuae. et in propheta: <lb/>
+            qui sititis, ite ad aquam, id est ad doctrinam. 
+</p>
+          <p>Torrens persecutionis incursus; in psalmo: de torrente<lb n="15"/>
+            in uia bibet. et in bonam partem: et torrentem uoluntatis <lb/>
+            tuae potum dabis eis. 
+</p>
+          <p rend="script">Flumina infidelium populi; in psalmo: super flumina <lb/>
+            Babyllonis. item in bonam partem: flumina de uentre <lb/>
+            eius fluent aquae uiuae, id est gratiae spiritalis.
+
+<note type="footnote"> 2 Ex. 3, 2. 6 Luc. 8, 7. 8 Gen., 3, 18. 9 Ps. 41, 2. 11 ib. 123, 4. <lb/>
+            13 Hier. 2, 13. 14 Es. 55, 1. 15 Ps. 109, 7. 16 ib. 35, 9. 18 Ps. <lb/>
+            136, 1 19 Ioh. 7, 38. </note>
+
+<note rend="script" type="footnote"> 1 tanquam <hi rend="italic">P</hi> fulguris <hi rend="italic">S</hi> 2 absumtione <hi rend="italic">P</hi> adsumptionem S <lb/>
+            assumptione <hi rend="italic">GM</hi> exhodo P apparuique P ei <hi rend="italic">om. G</hi> 4 robus P <lb/>
+            u re <lb/>
+            rubos (u <hi rend="italic">m. 2) S</hi> ardebat <hi rend="italic">S</hi> conburetur <hi rend="italic">S</hi> 5 suffocandi <hi rend="italic">G</hi> <lb/>
+            6 spinis <hi rend="italic">SGM</hi> 7 temtationum <hi rend="italic">(sic semper) P</hi> 8 generauit] <lb/>
+            b. <lb/>
+            germinauit (b <hi rend="italic">m</hi>. 2) <hi rend="italic">S</hi> germinabit <hi rend="italic">GM</hi> 9 ps. XLI <hi rend="italic">S</hi> 11 ps- <lb/>
+            11 <lb/>
+            CXXIII <hi rend="italic">S</hi> forsitans uel ut <hi rend="italic">S</hi> 12 absorbuisset (n <hi rend="italic">m. 2) S</hi> obsori <lb/>
+            <lb/>
+            buissent <hi rend="italic">M</hi> item] et <hi rend="italic">M</hi> heremia (i <hi rend="italic">m. 2) S</hi> 13 de- <lb/>
+            O <lb/>
+            relinquerunt <hi rend="italic">M</hi> fontes S et <hi rend="italic">om. M</hi> 15 ps. CVIIII <hi rend="italic">S</hi> turrentem <lb/>
+            (0 <hi rend="italic">m. 2) S</hi> 16 bebet (i <hi rend="italic">m. 2) S</hi> 17 putum P bonae uoluntatis <lb/>
+            tuae potabis eos S eis] nobis <hi rend="italic">M</hi> 18 ps. CXXXVI <hi rend="italic">S</hi> 19 babillonis <lb/>
+            S babilonis <hi rend="italic">GM</hi> 20 spiritales S </note> <lb n="20"/>
+            
+<pb n="21"/>
+            
+</p>
+          <p>Lacus infernum; in psalmo: posuerunt me in lacu <lb/>
+            inferiore, id est in illo inferni loco, in quo peccatores soli <lb/>
+            poenali custodia detinentur. 
+</p>
+          <p>Mare saeculum siue populi; in psalmo: hoc mare magnum <lb/>
+            et spatiosum. <lb n="5"/>
+            
+</p>
+          <p>Pisces sancti; in euangelio; et traxerunt plenum rete <lb/>
+            piscibus magnis. item in malam partem: malos autem <lb/>
+            foras miserunt. 
+</p>
+          <p>Fluctus temptationes; in psalmo: omnia excelsa tua et <lb/>
+            fluctus tui super me transierunt. <lb n="10"/>
+            
+</p>
+          <p>Unda idem quod supra; in cantico: gelauerunt undae <lb/>
+            in medio mari. 
+</p>
+          <p>. Insulae uel animae uel ecclesiae dei, quae diuersis temptationum <lb/>
+            tunduntur fluctibus; in psalmo: laetentur insulae <lb/>
+            multae. <lb n="15"/>
+            
+</p>
+          <p>Litus finis saeculi; in euangelio: et secus litus sedentes <lb/>
+            elegerunt bonos in uasa. 
+</p>
+          <p rend="script">Harena maris innumerae gentium multitudines; in Genesi: <lb/>
+            et multplicabo semen tuum sicut stellas caeli et ut <lb/>
+            harenam, quae est ad oram maris.
+
+<note type="footnote"> 1 Ps. 87, 7. 4 Ps. 103, 25. 6 Ioh. 21, 11. 7 Matth. 13, 48. <lb/>
+            9 Ps. 41, 8. 11 Ex. 15, 8. 14 Ps. 96, 1. 16 Matth. 13, 48. <lb/>
+            19 Gen. 22, 17. </note>
+
+<note rend="script" type="footnote"> 1 in psalmo] LVIII <hi rend="italic">S</hi> laco inferim <hi rend="italic">G</hi> 3 poenali] in inferu <lb/>
+            i i <lb/>
+            nali S costodia (u <hi rend="italic">m. 2) S</hi> detenentur <hi rend="italic">P</hi> detenentur (i <hi rend="italic">m. 2) S <lb/>
+            I/tenentnr M 5 et spatiosum om. M 6 sanctus M</hi> sancti <lb/>
+            i <lb/>
+            siue euangeli <hi rend="italic">S</hi> rete plenum <hi rend="italic">SM</hi> retem <hi rend="italic">S</hi> 7 piscebus (i <hi rend="italic">ex</hi> e <lb/>
+            <hi rend="italic">corr. m. 2) S</hi> malam] aliam 8 11 quod supraj temptationes S <lb/>
+            i <lb/>
+            cantico exodi <hi rend="italic">SGM</hi> undae] gutte <hi rend="italic">S</hi> 12 mare (i <hi rend="italic">m. 2) S</hi> 13 uel <lb/>
+            <hi rend="italic">(priore loco) om. G</hi> qui <hi rend="italic">G</hi> 14 ps. XCVI <hi rend="italic">S</hi> 17 elegebant <hi rend="italic">S</hi> <lb/>
+            18 arena <hi rend="italic">M</hi> innumerabiles gentium multitudo <hi rend="italic">S</hi> innumer egentium <lb/>
+            e <lb/>
+            <hi rend="italic">(sic) M</hi> 19 stillas (e <hi rend="italic">m. 2) S</hi> caeli id est sanctus et peccatores <lb/>
+            sicut harena quae S </note> <lb n="20"/>
+            
+<pb n="22"/>
+            
+</p>
+          
+</div>
+
+<div n="4" subtype="chapter" type="textpart">
+<ab> <title>IIII.  DE ANIMANTIBUS. </title> </ab>
+          <p>Aues sancti, quod ad superiora corde euolent; in euangelio: <lb/>
+            et fecit ramos magnos ita ut possent sub umbra eius <lb/>
+            aues caeli habitare. 
+</p>
+          <p>Uolatus sanctorum excessus in deo uel in scripturis intellectus;<lb n="5"/>
+            in psalmo: et uolabo et requiescam. 
+</p>
+          <p>Alae duo testamenta; in Ezechiele: unumquodque duabus <lb/>
+            alis uelabat corpus suum. 
+</p>
+          <p>Pinnae scripturae; in psalmo: pinnae columbae deargentatae. <lb/>
+            <lb n="10"/>
+            
+</p>
+          <p>Nidus ecclesia aut requies excelsa sanctis; in psalmo: et <lb/>
+            turtur nidum sibi ubi reponat pullos suos. et aliter <lb/>
+            nidus bona conscientia, in qua bonarum cogitationum fetus <lb/>
+            fouentur atque in opera pariuntur, ut postea filii appellentur; <lb/>
+            in psalmo: filii tui sicut nouella oliuarum in circuitu<lb n="15"/>
+            mensae tuae. 
+</p>
+          <p>Pulli sancti; in psalmo ut supra. et in malam partem in <lb/>
+            Salamone: et pulli aquilarum deuorent eum. 
+</p>
+          <p rend="script">Aquilae sancti; in euangelio: ubi fuerit corpus, illuc <lb/>
+            congregabuntur aquilae. et in malam partem: pulli aquilarum<lb n="20"/>
+            deuorent eum.- <lb/>
+            Struthio hereticus uel philosophus, quod quasi cum pinnis
+
+<note type="footnote"> 3 Marc. 4, 32. 6 Ps. 54 7. 7 Ez. 1, 23. 9 Ps. 67, 14. <lb/>
+            11 ib. 83, 4. 15 ib. 127, 3. <hi rend="italic">18 et 20 Prou. 30, 17</hi>. 19 Matth. 24, 28. </note>
+
+<note rend="script" type="footnote"> n u <lb/>
+            3 possent <hi rend="italic">om</hi>. 8 possint <hi rend="italic">G</hi> umbra eius possit <hi rend="italic">M</hi> 4 habes (u <lb/>
+            <hi rend="italic">m. 2) S</hi> habitarent <hi rend="italic">S</hi> 5 excessus] excelsus 8 ascensus <hi rend="italic">M</hi> exitus <hi rend="italic">G</hi> <lb/>
+            scripturis sanctis item <hi rend="italic">M</hi> ps. LIIII <hi rend="italic">S</hi> 7 ezechielo <hi rend="italic">SM</hi> hiezechiel <hi rend="italic">G</hi> <lb/>
+            eo 8 <lb/>
+            du//bus P duobus <hi rend="italic">S</hi> 8 uolabant (e m. <hi rend="italic">2) S</hi> uelabant <hi rend="italic">M</hi> 9 <hi rend="italic">pr</hi>. <lb/>
+            i u <lb/>
+            pennae (i <hi rend="italic">m. 2)</hi> S ps. LXVII S 12 turtor (u m. <hi rend="italic">2) S</hi> sibi <lb/>
+            t <lb/>
+            <hi rend="italic">om. M</hi> aliter] iterum <hi rend="italic">S</hi> 13 nidos bonae S 14 adque (t <hi rend="italic">m. 2) S</hi> <lb/>
+            ut] et <hi rend="italic">S</hi> appellantur S 15 ps. CXXVII S nouellae <hi rend="italic">SG</hi> olib <lb/>
+            a <lb/>
+            uarum (b <hi rend="italic">m. 2) S</hi> 18 solomone S 19 illic <hi rend="italic">SM</hi> 20 et aquilae <hi rend="italic">M</hi> <lb/>
+            20 pulli--eum] ut supra <hi rend="italic">SM</hi> 22 strutio <hi rend="italic">SGM</hi> haereticus <hi rend="italic">GM</hi> <lb/>
+            pennis S </note> <lb/>
+             
+<pb n="23"/>
+            sapientiae tamen non euolat; in Esaia: et erit cubile draconum <lb/>
+            et pascua struthionum. 
+</p>
+          <p>Pelecanus dominus Christus in passione aut uir sanctus <lb/>
+            solitudini deditus; in psalmo: similis factus sum pelecano <lb/>
+            solitudinis. <lb n="5"/>
+            
+</p>
+          <p>Coruus nigredo peccatoris uel daemonis; in Salamone: <lb/>
+            effodiant eum corui de conuallibus. item in bonam partem <lb/>
+            in cantico canticorum de sponso: crines eius ut abietes, <lb/>
+            nigri sicut corui. 
+</p>
+          <p>Perdix diabolus; in propheta: clamauit perdix, congregauit <lb n="10"/>
+            quae non peperit. 
+</p>
+          <p>Columba spiritus sanctus; in euangelio: et uidi spiritum <lb/>
+            dei descendentem sicut columbam. item in aliam partem: <lb/>
+            in Ephraim columba sine sensu non habens cor. 
+</p>
+          <p>Turtur spiritus sanctus aut uir sanctus aut intellegentia <lb n="15"/>
+            spiritalis; in canticis canticorum: uox turturis in terra <lb/>
+            nostra audita est. sed tunc columba spiritus sanctus <lb/>
+            dicitur, quando scripturae sacrae manifesta dissertio est; tunc <lb/>
+            uero turtur spiritus sanctus intellegitur, cum scripturae altis <lb/>
+            atque obscuris mysteriis eleuantur. <lb n="20"/>
+            
+</p>
+          <p rend="script">Miluus significat, ut puto, rapacem uel elatum; in psalmo <lb/>
+            secundum Hebraeum: milui abies domus est.
+
+<note type="footnote"> 1 Es. 34,13. 4 Ps. 101, 7. 6 Prou. 30, 17. 8 Cant. 5, 11. 10 Hier. <lb/>
+            17, 11. 12 Ioh. 1, 32. 14 Os. 7, 11. 16 Cant. 2, 12. 22 Ps. 103, 17. </note>
+
+<note rend="script" type="footnote"> 1 et <hi rend="italic">om. SM</hi> drachonum S 2 structionum S strutionum <hi rend="italic">GM</hi> <lb/>
+            3 pelicanus <hi rend="italic">GM</hi> uir <hi rend="italic">om. S</hi> 4 solitudine <hi rend="italic">GM</hi> ps. CI S 5 solitudine <lb/>
+            S in solitudine <hi rend="italic">M post</hi> solitudinis <hi rend="italic">haec leguntur in 8:</hi> ideo <lb/>
+            i <lb/>
+            dominus peleganus (i <hi rend="italic">m</hi>. 1.) cognominatur quia in passione ab omnibus <lb/>
+            discipolis derelectus est qua (quia?) pelicanu9 solitudine amat hel <lb/>
+            c <lb/>
+            <hi rend="italic">(in marg.)</hi> 6 ngredo <hi rend="italic">S</hi> nigrido <hi rend="italic">G</hi> peccatores P peccatorum S <lb/>
+            demones S 8 abietis P abietes <hi rend="italic">S</hi> habies <hi rend="italic">G</hi> abies <hi rend="italic">M</hi> 10 diabulus <hi rend="italic">GM</hi> <lb/>
+            i <lb/>
+            perdex (i <hi rend="italic">m. 2) S</hi> perdex// P 11 peperat <hi rend="italic">G</hi> 12 uidit <hi rend="italic">GM</hi> 13 disr <lb/>
+            <lb/>
+            cendentem <hi rend="italic">PS</hi> 14 efraim P epharaim S (r <hi rend="italic">m</hi>. 2) effraim <hi rend="italic">GM</hi> 16 spiriu <lb/>
+            u <lb/>
+            tales S tortoris S turtor <hi rend="italic">G</hi> 17 spiritus spiritus P 18 disertio P <lb/>
+            u <lb/>
+            19 turtor S 20 misteriis <hi rend="italic">S</hi> 21 significat-puto] significatur S uel <lb/>
+            <hi rend="italic">om. S</hi> in psalmo <hi rend="italic">om. M</hi> in iob S </note> 
+<pb n="24"/>
+            
+</p>
+          <p>Accipiter interdum sanctus, ut puto, rapiens regnum dei; <lb/>
+            in Iob: numquid in sapientia tua plumescit accipiter? 
+</p>
+          <p>Nycticorax Christus uel uir sanctus infidelibus despicabilis; <lb/>
+            in psalmo: factus sum sicut nycticorax in domicilio. 
+</p>
+          <p>Passer nonnumquam dominus aut uir sanctus; in psalmo:<lb n="5"/>
+            etenim passer inuenit sibi domum. est et aliter passer, <lb/>
+            de quo dicitur ad sanctum: transmigra in montem sicut <lb/>
+            passer. 
+</p>
+          <p>Gallus dominus, ut puto, aut sanctus; in Salamone: et <lb/>
+            gallus ambulans inter gallinas laetus. et in Iob: quis<lb n="10"/>
+            dedit gallo intellegentiam, et in alteram partem: et <lb/>
+            asportari te faciam sicut asportatur gallus gallinacius. <lb/>
+            </p>
+          <p>Gallina sapientia siue ecclesia siue anima; in euangelio: <lb/>
+            sicut gallina congregat pullos suos sub alis suis. <lb n="15"/>
+            
+</p>
+          <p>Uespertiliones idolorum monstra tenebris dedita; in propheta: <lb/>
+            ut adoretis talpas et uespertiliones. 
+</p>
+          <p>Scarabeus in propheta: et scarabeus de ligno clamabit, <lb/>
+            ut putant quidam, de domino. 
+</p>
+          <p>Lucustae populi; in euangelio: esca autem eius erat<lb n="20"/>
+            lucustae. 
+</p>
+          <p>Apes forma uirginitatis siue sapientiae; in Salamone: <lb/>
+            uade ad apem et disce quam operatrix sit; et in malam <lb/>
+            partem in propheta: et api quae est in Assur. 
+</p>
+          <p>Musca diabolus; in Salamone: muscae moriturae exterminant<lb n="25"/>
+            oleum suauitatis.
+
+<note type="footnote"> 2 Iob. 39, 26. 4 Ps. 101, 7. 6 ib. 83, 4. 7 ib. 10,- 2. <lb/>
+            9 Prou. 30, 31. 10 Iob. 38, 36. 11 Es. 22, 17. 15 Mattb. 23, 37. <lb/>
+            17 Es. 2, 20. 18 Ab. 2, 11 20 Mattb. 3, 4. 23 Prou. 6, 6. 24 Es. <lb/>
+            7, 18. 25 Eccle. 10, 1. </note>
+
+<note type="footnote"> 1 interdum sanctus <hi rend="italic">om, S</hi> 3 nicticorax <hi rend="italic">(bis) GM</hi> 6 et est <hi rend="italic">GM</hi> <lb/>
+            18 scaraueus <hi rend="italic">S</hi> clamauit <hi rend="italic">GM</hi> 19 domino eo quod dominus in cruce <lb/>
+            fuerit <hi rend="italic">S</hi> 20 lugustae <hi rend="italic">S</hi> locustae <hi rend="italic">GM</hi> 23 opera traxit <hi rend="italic">M</hi> 24 adsur <hi rend="italic">S</hi> <lb/>
+            25 diabulus <hi rend="italic">GM</hi> solomone <hi rend="italic">P</hi> salamone <hi rend="italic">G</hi> salomone <hi rend="italic">M</hi> exterminatis <lb/>
+            oleum suauitatis suauitatem unguenti <hi rend="italic">M</hi> </note> 
+<pb n="25"/>
+            
+</p>
+          <p>Bestiae diabolus uel omnes <choice><sic>fen</sic><corr>feri</corr></choice>; <choice><sic>m</sic><corr>in</corr></choice> psalmo: ne tradas <lb/>
+            bestiis animas confitentes tibi. 
+</p>
+          <p>Leo dominus: uicit leo de tribu Iuda; item in aliam <lb/>
+            partem: ne quando rapiat ut leo animam meam. 
+</p>
+          <p>Pardus diabolus uel peccator moribus uarius; in propheta: <lb n="5"/>
+            sicut Aethiops non mutabit pellem et pardus uarietatem. <lb/>
+            </p>
+          <p>Elephans peccator inmanis; in regnorum: et adducebant <lb/>
+            ad Salamonem simias et elephantos. 
+</p>
+          <p>Ursus diabolus aut duces saeui; in regnorum: et egressi <lb n="10"/>
+            sunt duo ursi et comederunt eos. 
+</p>
+          <p>Ceruus Christus uel sancti: sicut ceruus desiderat ad <lb/>
+            fontes aquarum. 
+</p>
+          <p>Lupus diabolus uel heretici; in euangelio: intrinsecus . <lb/>
+            autem sunt lupi rapaces. item in bonam partem: <lb n="15"/>
+            Beniamin lupus rapax, apostolum Paulum significans. 
+</p>
+          <p>Aper diabolus; in psalmo: exterminauit eam aper de <lb/>
+            silua. 
+</p>
+          <p>Tigris feminea interdum arrogantia; in libro Iob secundum <lb/>
+            Hebraeum: tigris periit eo quod non habuerit praedam. <lb n="20"/>
+            
+</p>
+          <p>Rinoceron fortis quique uel in bonam uel in malam <lb/>
+            partem; in libro <choice><sic>lob</sic><corr>Iob</corr></choice> secundum Hebraeum: numquid uolet <lb/>
+            rinoceros seruire tibi.
+
+<note type="footnote"> 1 Ps. 73, 19. 3 Apoc. 5, 5. 4 Ps. 7, 3. 6 Hier. 13, 23. , <lb/>
+            8 III Keg. 10, 22. 10 IIII Reg. 2, 24. 12 Ps. 41, 2. 14 Matth. <lb/>
+            7, 15. 16 Gen. 49. 27. 17 Ps. 79. 14. 20 Iob. 4. 11. 22 Iob. 39. 9. </note>
+
+<note type="footnote"> 1 diabulus <hi rend="italic">M</hi> ps. LXXIII <hi rend="italic">S</hi> 2 besteis <hi rend="italic">PSG</hi> confitentem <hi rend="italic">S</hi> <lb/>
+            3 dominus in apocalipsin <hi rend="italic">M</hi> 4 partem in psalmo VII <hi rend="italic">S</hi> 5 diabulus <hi rend="italic">P</hi> <lb/>
+            diabus <hi rend="italic">M</hi> uariis <hi rend="italic">M</hi> in propheta <hi rend="italic">om. S</hi> 6 ethyops <hi rend="italic">G</hi> ethyobs <hi rend="italic">M</hi> <lb/>
+            mutauit <hi rend="italic">S</hi> 8 elefans <hi rend="italic">PM</hi> elefantus S eleuans <hi rend="italic">G</hi> 9 salomonem <hi rend="italic">M</hi> salamoncm <lb/>
+            <hi rend="italic">G</hi> elefantos <hi rend="italic">PS</hi> elifantos <hi rend="italic">G</hi> 10 diabulus <hi rend="italic">GM</hi> saeui] <lb/>
+            serui <hi rend="italic">G</hi> et <hi rend="italic">om. G</hi> 11 eum S 12 sancti in psalmo <hi rend="italic">SM</hi> 14 hereticus <lb/>
+            <hi rend="italic">SGM</hi> 16 beniamin] ueniam <hi rend="italic">S</hi> significat <hi rend="italic">31</hi> 17 diabulus <hi rend="italic">GM</hi> <lb/>
+            ea <hi rend="italic">S</hi> 19 adrogantia <hi rend="italic">S</hi> 20 hebreum <hi rend="italic">S</hi> 21 <hi rend="italic">uocabula se hoc modo <lb/>
+            excipiunt in S:</hi> tigris, monocheron, rinocheron onager rinocheron <hi rend="italic">S</hi> <lb/>
+            rinoceron <hi rend="italic">GM</hi> fortes <hi rend="italic">S</hi> 22 hebreum <hi rend="italic">S</hi> uult <hi rend="italic">S</hi> 23 rinochero <hi rend="italic">S</hi> <lb/>
+            rinocerus <hi rend="italic">GM</hi> </note> 
+<pb n="26"/>
+            
+</p>
+          <p>Monoceron hoc est unicornis; in psalmo: et dilectus <lb/>
+            quem ad modum filius unicornium, id est singularis <lb/>
+            potentiae uel sanctorum, qui teneant unicum dei uerbum. et <lb/>
+            in aliam partem: et a cornibus unicornium humilitatem <lb/>
+            meam. unicornes hic superbos uel unum testamentum<lb n="5"/>
+            habentes. 
+</p>
+          <p>Onager heremita; in Iob: quis dimittet onagrum liberum? <lb/>
+            potest et populus ille Iudaeorum onager dici, quia <lb/>
+            sequitur in eodem libro: et uincula eius quis soluit? <lb/>
+            uincula utique praeceptorum. <lb n="10"/>
+            
+</p>
+          <p>Inuleus Christus aut sanctus propter gratiarum uarietatem; <lb/>
+            in Salamone: similis esto tu, fratruelis meus, dammulae <lb/>
+            aut hinulo ceruorum. 
+</p>
+          <p>Damma idem quod supra. 
+</p>
+          <p>Lepus timens deum; in psalmo: petram refugium leporibus<lb n="15"/>
+            et erinaciis. 
+</p>
+          <p>Erinacius idem quod supra; et erinacii gens inualida, qui <lb/>
+            fecerunt in petris domos sibi. 
+</p>
+          <p>Uulpes hereticus uel diabolus uel peccator callidus; in <lb/>
+            euangelio: ite, dicite uulpi illi. <lb n="20"/>
+            
+</p>
+          <p>Animal homo carnalis; in apostolo: animalis autem <lb/>
+            homo non percipit ea quae sunt spiritus dei.
+
+<note type="footnote"> 1 Ps. 28. 6. 4 ib. 21, 22. 7 Iob. 39, 5. 9 ib. 12 Cant. 2, 9. <lb/>
+            15 Ps. 103, 18. 20 Luc. 13, 32. 21 I Cor. 2, 14. </note>
+
+<note type="footnote"> 1 monocheron 8 monoceron <hi rend="italic">GM</hi> hec S unicornex S ps. XXVII <hi rend="italic">S</hi> <lb/>
+            2 quem ad modum J sicut <hi rend="italic">SM</hi> unicomuorum <hi rend="italic">SGM</hi> singulares <hi rend="italic">S</hi> <lb/>
+            3 potentiae uel spiritus uel quique sanctorum <hi rend="italic">M</hi> 4 partem in psalmo <lb/>
+            XXI S unicornuorum <hi rend="italic">SG M</hi> 5 superuos <hi rend="italic">S</hi> 7 herimida P qui <hi rend="italic">M</hi> <lb/>
+            demittit <hi rend="italic">S</hi> demitit <hi rend="italic">GM</hi> 8 iudeorum S dicere <hi rend="italic">M</hi> 9 soluet <hi rend="italic">GM</hi> <lb/>
+            11 inulus <hi rend="italic">G</hi> 12 salomone <hi rend="italic">PSM</hi> salamone <hi rend="italic">G</hi> esto tu] estu <hi rend="italic">M</hi> <lb/>
+            13 dammula <hi rend="italic">S</hi> hinnulo <hi rend="italic">S</hi> inulo <hi rend="italic">G</hi> inoleo <hi rend="italic">M</hi> damna-supra <hi rend="italic">om GM</hi> <lb/>
+            15 dominum <hi rend="italic">M</hi> ps. CIII <hi rend="italic">S</hi> petra <hi rend="italic">SGM</hi> 16 herinacius <lb/>
+            <hi rend="italic">S</hi> erenacius <hi rend="italic">GM</hi> 17 herinacius <hi rend="italic">S</hi> erenacius <hi rend="italic">M</hi> herenacii <hi rend="italic">PS</hi> <lb/>
+            eienacii <hi rend="italic">GM</hi> 18 qui fecerunt] quae ferunt <hi rend="italic">S</hi> 19 haereticus <hi rend="italic">GM</hi> <lb/>
+            uulpis haereticus aut diabulus aut <hi rend="italic">GM</hi> 20 ite et S 21 apostulo <hi rend="italic">M</hi> </note> 
+<pb n="27"/>
+            
+</p>
+          <p>Iumentum intellectu et eloquio carens; in psalmo: ut <lb/>
+            iumentum factus sum apud te. 
+</p>
+          <p>Equus uir sanctus; in Abacuc: qui ascendis super <lb/>
+            equos tuos; et in malam partem: fallax equus in salutem. <lb/>
+            Mulus inrationabilis quisque; in psalmo: nolite fieri <lb n="5"/>
+            sicut equus et mulus quibus non est intellectus. 
+</p>
+          <p>Asinus corpus humanum uel populus gentilium; in euangelio: <lb/>
+            et adduxerunt ad Iesum asinam et pullum eius <lb/>
+            et eum desuper sedere fecerunt. 
+</p>
+          <p>Asina corona uel plebs carens dei notitia; in euangelio <lb n="10"/>
+            idem quod supra. 
+</p>
+          <p>Camelus diuites rebus saeculi onusti uel moribus distorti; <lb/>
+            in euangelio: facilius est camelum per foramen acus <lb/>
+            transire quam diuitem intrare in regna caelorum. <lb/>
+            <choice><sic>Taun</sic><corr>Tauri</corr></choice> principes populorum; in psalmo; tauri pingues <lb n="15"/>
+            obsederunt me. 
+</p>
+          <p>Boues apostoli, qui suscepto iugo Christi euangelii in <lb/>
+            uomere mundum exarauerint; in psalmo: offeram tibi boues <lb/>
+            cum hircis. 
+</p>
+          <p rend="script">Uaccae carnalibus uitiis pleni; in psalmo: inter uaccas <lb n="20"/>
+            populorum.
+
+<note type="footnote"> 1 Ps. 72, 23. 3 Ab. 3, 8. 4 Ps. 32, 17. 5 ib. 31, 9. <lb/>
+            8 Matth. 21, 7. 13 ib. 19, 24. 15 Ps. 21, 13. 18 ib. 65, 15. <lb/>
+            20 ib. 67, 31. </note>
+
+<note rend="script" type="footnote"> 1 inj;ellectum S homo intellectu <hi rend="italic">M</hi> ps. LXXII S ut] uelut <hi rend="italic">M</hi> <lb/>
+            b c <lb/>
+            3 aequus S ambacuc <hi rend="italic">P</hi> ambacuin (b <hi rend="italic">et</hi> c <hi rend="italic">m. 2) S</hi> abbacuc <hi rend="italic">GM</hi> ascendes <lb/>
+            <hi rend="italic">GM</hi> 4 aeqos <hi rend="italic">GM</hi> tuus P falsus <hi rend="italic">M</hi> aequus <hi rend="italic">M</hi> ad <lb/>
+            salutem <hi rend="italic">SM</hi> in salute <hi rend="italic">G</hi> 5 quisque <hi rend="italic">om. S</hi> ps. XXXI S 6 in quibus <lb/>
+            <hi rend="italic">SGM</hi> 7 homanum S 8 ad iesum <hi rend="italic">om. S</hi> 10 asinam S corona] <lb/>
+            caro <hi rend="italic">SGM</hi> notitiam S 12 camellus S rebus] huius <hi rend="italic">M</hi> 13 gamellus <lb/>
+            <hi rend="italic">S</hi> camellus <hi rend="italic">G</hi> agus S 14 intrare <hi rend="italic">om. S</hi> 15 princepis S <lb/>
+            b <lb/>
+            salmo XXI <hi rend="italic">S</hi> 17 boues (b <hi rend="italic">m. 2) S</hi> euangelio S in euan- <lb/>
+            U <lb/>
+            gelio <hi rend="italic">G</hi> in <hi rend="italic">om. SGM</hi> 18 exarauerunt <hi rend="italic">SGM</hi> ps. LXV S bobes <lb/>
+            (u <hi rend="italic">m. 2) S</hi> 19 bercis S (i <hi rend="italic">m. 2)</hi> 20 baccae (u <hi rend="italic">m. 2) S</hi> <lb/>
+            ps. LXVII 8 salmo <hi rend="italic">G</hi> </note> 
+<pb n="28"/>
+             
+</p>
+          <p><sic>Uitulus</sic>, Christus siue sancti: tunc inponent super altare <lb/>
+            tuum uitulos. et in aliam partem: circumdederunt me <lb/>
+            uituli multi, hoc est lasciuientes. 
+</p>
+          <p>Sues peccatores inmundi; in epistula Petri: et sus lota <lb/>
+            in uolutabro luti. <lb n="5"/>
+            
+</p>
+          <p>Arietes apostoli uel ecclesiarum principes; in psalmo: adferte <lb/>
+            domino filios arietum. 
+</p>
+          <p>Oues populi fideles; in euangelio: oues meae uocem <lb/>
+            meam audiunt. 
+</p>
+          <p>Pecora simpliciores quique, minus praediti rationandi<lb n="10"/>
+            subtilitate; in Salamone: pasce animas pecorum tuorum. 
+</p>
+          <p>Hirci peccatores siue gentiles; in Daniele: ecce autem <lb/>
+            hircus caprarum ueniebat ab occidente super faciem <lb/>
+            totius terrae. item in bonam partem: offeram tibi boues <lb/>
+            cum hircis. <lb n="15"/>
+            
+</p>
+          <p>Caprae iusti interdum ex gentibus uenientes; in Salamone; <lb/>
+            capillatura tua sicut grex caprarum, quae reuelatae <lb/>
+            sunt de Galaad. 
+</p>
+          <p>Agni Christus uel apostoli aut sancti; in euangelio: pasce <lb/>
+            agnos meos. <lb n="20"/>
+            
+</p>
+          <p rend="script">Haedi peccatores; in euangelio: haedos autem a sinistris <lb/>
+            Talpae idola uel heretici, qui non uident ueritatem; in <lb/>
+            Esaia: ut adoretis talpas et uespertiliones.
+
+<note type="footnote"> 1 ib. 50, 21. 2 ib. 21, 13. 4 II Petr. 2, 22. 6 Ps. 28, 1. <lb/>
+            S Iob. 10, 27. 11 Prou. 27, 23. 12 Dan. 8, 5. 14 Ps. 65, 15. <lb/>
+            17 Cant. 6, 4. 19 Ioh. 21, 15. 21 Matth. 25, 33. 24 Es. 2, 20. </note>
+
+<note rend="script" type="footnote"> 1 sancti in psalmo L <hi rend="italic">GMS</hi> (L <hi rend="italic">om. GM)</hi> 2 malam partem <hi rend="italic">M</hi> <lb/>
+            partem in psalmo XXI <hi rend="italic">SGM</hi> (XXI <hi rend="italic">om. GM)</hi> 4 sancti petri <hi rend="italic">S</hi> sues <hi rend="italic">S<lb/>
+             (altero loco)</hi> 6 arietis <hi rend="italic">G</hi> ps. XXVIII S 8 obes (u <hi rend="italic">m</hi>. 2) <hi rend="italic">S (bis) <lb/>
+             <lb/>
+            fedeles S (i m. 2) meM</hi> 10 quaequae <hi rend="italic">(pr. e eras.)S</hi> quicque G etmi- <lb/>
+            <hi rend="italic">nus M</hi> 11 salomone <hi rend="italic">PM</hi> salamone <hi rend="italic">G</hi> psalmo <hi rend="italic">S</hi> pecorum] peccatorum <hi rend="italic">S</hi> <lb/>
+            12 hyrcus <hi rend="italic">GM</hi> peccatores] pastores <hi rend="italic">S</hi> danihel <hi rend="italic">G</hi> 13 ab-hircis <lb/>
+            <hi rend="italic">om. S</hi> 20 agnus meus <hi rend="italic">SG</hi> 21 hedi <hi rend="italic">SG</hi> edi <hi rend="italic">M</hi> hedos <hi rend="italic">SG</hi> edos <hi rend="italic">M</hi> <lb/>
+            22 <hi rend="italic">uocabula in M hoc modo se excipiunt:</hi> haedi, canis talpae talpe S <lb/>
+            i e <lb/>
+            haeretici <hi rend="italic">M</hi> 23 esaiam (m <hi rend="italic">eras.) S</hi> uespertelionis <hi rend="italic">S (corr. m. 2)</hi> </note> 
+<pb n="29"/>
+            
+</p>
+          <p>Canis diabolus uel Iudaeus uel gentilis; in psalmo et de <lb/>
+            manu canis unicam meam. et in aliam partem in Ecclesiaste: <lb/>
+            melior est canis uiuus leone mortuo. hic leonem <lb/>
+            diabolum, canem uero gentilem uel hominem peccatorem <lb/>
+            accipiendum putant, quod ille ad fidem uel paenitentiam possit <lb n="5"/>
+            uenire, ille non ueniat. 
+</p>
+          <p>Ranae daemones: in Apocalypsi: et uidi de ore draconis <lb/>
+            spiritus tres inmundos in modum ranarum, sunt <lb/>
+            autem spiritus daemoniorum. item ranae heretici, qui <lb/>
+            in caeno uilissimorum sensuum conmorantes uana garrulitate <lb n="10"/>
+            blaterare non desinant. 
+</p>
+          <p>Formica prouidus uel operarius; in <sic>Salamone</sic>: uade ad <lb/>
+            formicam, o piger. 
+</p>
+          <p>Uermis Christus pro humilitate adsumpti hominis; in <lb/>
+            psalmo: ego autem sum uermis et non homo. item in <lb n="15"/>
+            aliam partem in Esaia: uermis eorum non morietur, id <lb/>
+            est, siue ipse uermis siue peccati conscientia. 
+</p>
+          <p>Aranea.humana fragilitas; <sic>inpsalmo</sic>: et tabescere fecisti <lb/>
+            uelut araneam animam eius. 
+</p>
+          <p rend="script">Serpens diabolus uel maligni homines; in euangelio: <lb n="20"/>
+            serpentes genimina uiperarum. item in alteram partem <lb/>
+            in euangelio: sicut Moses exaltauit serpentem in deserto. <lb/>
+            <note type="footnote"> 1 Ps. 21, 21. 3 Eccle. 9, 4. 7 Apoc. 16, 13-14. 12 Prou. 6, 6. <lb/>
+            15 Ps. 21, 7. 16 Es. 66, 24. 1ti Ps. 38, 12. 21 Matth. 23, 33. <lb/>
+            22 Ioh. 3, 14. </note>
+
+<note rend="script" type="footnote"> 1 canes <hi rend="italic">S</hi> diabulus <hi rend="italic">M</hi> iudeos <hi rend="italic">S</hi> gentiles <hi rend="italic">S</hi> ps. <hi rend="italic">XXI S</hi> <lb/>
+            eripe et de manu <hi rend="italic">M</hi> 2 ecclesiasten <hi rend="italic">SGM</hi> 3 melius <hi rend="italic">S</hi> canes P <lb/>
+            hic uero <hi rend="italic">S</hi> 5 penitentiam <hi rend="italic">S</hi> 7 apocalipsi S apocalypsin G apocalipsin <lb/>
+            <hi rend="italic">M</hi> drachonis <hi rend="italic">S</hi> 8 inmuudus <hi rend="italic">G</hi> mondum <hi rend="italic">(n eras.) S</hi> <lb/>
+            9 heritici <hi rend="italic">S</hi> 10 nobilissimorum <hi rend="italic">G</hi> 11 oblaterare <hi rend="italic">S</hi> blasphemare <lb/>
+            <hi rend="italic">M</hi> 12 salamone <hi rend="italic">G</hi> salomone <hi rend="italic">M</hi> 13 piier <hi rend="italic">G</hi> 14 humilitatem <lb/>
+            (m <hi rend="italic">erm.) S</hi> assumpti <hi rend="italic">PM</hi> 15 ite <hi rend="italic">S</hi> 16 malam partem <hi rend="italic">M</hi> 18 tani <lb/>
+            <lb/>
+            biscere <hi rend="italic">PSG</hi> 21 gemina <hi rend="italic">S</hi> aliam <hi rend="italic">S</hi> 22 in euangelio <hi rend="italic">om. S</hi> <lb/>
+            moises <hi rend="italic">(sic semper) S</hi> moyses <hi rend="italic">G</hi> monses <hi rend="italic">M</hi> </note> 
+<pb n="30"/>
+            
+</p>
+          <p>Draco, diabolus uel apertus persecutor; in psalmo: tu confregisti <lb/>
+            caput draconis, dedisti eum escam populo <lb/>
+            Aethiopum. 
+</p>
+          <p>Scorpius diabolus uel ministri eius; in euangelio: dedi <lb/>
+            uobis potestatem calcandi super serpentes et scorpiones.<lb n="5"/>
+            </p>
+          <p>Uipera idem quod supra in euangelio: serpentes genimina <lb/>
+            uiperarum. 
+</p>
+          
+</div>
+
+<div n="5" subtype="chapter" type="textpart">
+<ab> <title>V.  DE UARIIS NOMINUM APPELLATIONIBUS. </title></ab>
+          <p>Homo aut homo totus aut mens; in Genesi: fecit deus<lb n="10"/>
+            hominem ad imaginem et similitudinem suam. et <lb/>
+            in malam partem in psalmo: exurge, domine, non confortetur <lb/>
+            homo, hoc est caro uel diabolus. 
+</p>
+          <p>Uir spiritus, id est mens; in apostolo: caput mulieris <lb/>
+            uir. item uir in malam partem in Genesi: bona <choice><sic>facieis</sic><corr>facie</corr></choice> <lb n="15"/>
+            ualde uirgo, quam uir non cognouerat, id est diabolus, <lb/>
+            qui plerumque mentem cogitatione corrumpit. 
+</p>
+          <p>Mulier anima siue caro humana; in apostolo: caput <lb/>
+            mulieris uir. 
+</p>
+          <p rend="script">Uirgo ecclesia uel sanctae animae; in apostolo: des <sic>pondi</sic><lb n="20"/>
+            enim uos uni <choice n="0.39"><sic n="1160">uiro</sic><corr n="1796">uir</corr></choice> uirginem castam exhibere <lb/>
+            Christo.
+
+<note type="footnote"> 1 Ps. 73, 14. 4 Luc. 10, 19. 7 Matth. 23, 33. <hi rend="italic">et</hi> Luc. 3, 7. <lb/>
+            10 Gen. 1, 27. 12 Ps. 9, 20. 14 I Cor. 11, 3. 15 Gen. 24, 16. <lb/>
+            18 I Cor. 11, 3. 20 II Cor. 11, 2. </note>
+
+<note rend="script" type="footnote"> e <lb/>
+            1 dracho <hi rend="italic">S</hi> diabulus <hi rend="italic">G</hi> confrigisti (e m. <hi rend="italic">2)</hi> S confringisti <hi rend="italic">N</hi> <lb/>
+            2 et esca S in escam <hi rend="italic">M</hi> 3 ethyopum <hi rend="italic">G</hi> 4 scorpio <hi rend="italic">SM</hi> 5 scorpionis ■ <lb/>
+            (e <hi rend="italic">m. 2) S</hi> 6 gemina <hi rend="italic">N</hi> 9 INCIPIT DE <hi rend="italic">N</hi> 12 ps. VIIII <hi rend="italic">S</hi> <lb/>
+            exurge <hi rend="italic">SN</hi> confortetur] praeualeat homo homo S 14 spiritus] <lb/>
+            Christus <hi rend="italic">M</hi> id est] uel S apostulo capud <hi rend="italic">G</hi> 15 in <hi rend="italic">om. S</hi> bona <lb/>
+            bona faciae <hi rend="italic">N</hi> faciae S 16 quam uir] quamuis <hi rend="italic">N</hi> 17 mentes <hi rend="italic">S</hi> <lb/>
+            mente <hi rend="italic">N</hi> conrumpit <hi rend="italic">N</hi> 19 mulieri <hi rend="italic">N</hi> 20 uel] siue <hi rend="italic">N</hi> in apostolo] <lb/>
+            ubi supra <hi rend="italic">N</hi> dispondi <hi rend="italic">SN</hi> 21 uos <hi rend="italic">om</hi>. S exibere <hi rend="italic">SM</hi> <lb/>
+            22 deo S </note> 
+<pb n="31"/>
+            
+</p>
+          <p>Rex dominus; in apostolo: rex regum et dominus <lb/>
+            dominantium. 
+</p>
+          <p>Regina ecclesia; in psalmo: adstitit regina a dextris <lb/>
+            tuis. et iterum regina anima <choice><sic>imperaiis</sic><corr>imperans</corr></choice> corpori. 
+</p>
+          <p>Pater dominus; in propheta: et ero uobis in patrem <lb n="5"/>
+            et uos eritis mihi in filios et filias, dicit dominus <lb/>
+            omnipotens.,
+</p>
+          <p>Mater ecclesia uel Hierusalem caelestis; in apostolo: illa <lb/>
+            autem quae sursum est Hierusalem libera est, quae <lb/>
+            est mater nostra. <lb n="10"/>
+            
+</p>
+          <p>Frater Christus uel proximus; in psalmo: narrabo <lb/>
+            nomen tuum fratribus meis. 
+</p>
+          <p>Soror ecclesia, synagogae uel Christo anima; in canticis <lb/>
+            canticorum: soror mea sponsa. 
+</p>
+          <p>Uir et uxor Christus et ecclesia, intellectus spiritalis et <lb n="15"/>
+            historia scripturarum; in apostolo: uiri, diligite uxores <lb/>
+            uestras sicut et Christus dilexit ecclesiam. 
+</p>
+          <p>Sponsus Christus ideo quod a patre ab initio sit promissus; <lb/>
+            in psalmo: et ipse tamquam sponsus procedens <lb/>
+            de thalamo suo. <lb n="20"/>
+            
+</p>
+          <p>Sponsa ecclesia, quae utique diuinis sponsionibus sit promissa; <lb/>
+            in cantico canticorum: ueni a Libano, sponsa, <lb/>
+            ueni a Libano. 
+</p>
+          <p rend="script">Filius populus credentium; in apostolo: iam non est <lb/>
+            seruus sed filius; quod si filius, et heres per deum.
+
+<note type="footnote"> 1 I Tim. 6, 15. 3 Ps. 44, 10. 5 Hier. 31, 33. 8 Gal. 4, 26. <lb/>
+            11 Ps. 21, 23. 14 Cant. 4, 9. 16 Eph. 5, 25. 19 Ps. 18, 6. 22 Cant. 4, 8. <lb/>
+            24 Gal. 4, 7. </note>
+
+<note rend="script" type="footnote"> 1 in apostolo] ubi supra <hi rend="italic">N</hi> 3 ps. XLIIII <hi rend="italic">S</hi> astitit P 4 imperans <lb/>
+            i <lb/>
+            corpori <hi rend="italic">om. S</hi> 5 patre <hi rend="italic">SN</hi> 6 heretis <hi rend="italic">S</hi> 8 aecclesiam <hi rend="italic">N</hi> caelestes <hi rend="italic">S</hi> <lb/>
+            in illa S 13 aecclesia <hi rend="italic">S</hi> sinagoga <hi rend="italic">S</hi> cantica <hi rend="italic">N</hi> 14 sponsa] <lb/>
+            i i <lb/>
+            speciosa mea S 16 storia <hi rend="italic">S</hi> scribturarum <hi rend="italic">N</hi> dilegete <hi rend="italic">S (corr. m</hi> 2) <lb/>
+            18 ideo] eo <hi rend="italic">S</hi> 19 ps, XVIII S procidens <hi rend="italic">N</hi> 20 thalamo <hi rend="italic">N</hi> <lb/>
+            i o <lb/>
+            21 u//tique <hi rend="italic">N</hi> deuinus <hi rend="italic">S</hi> 22 cantic// <hi rend="italic">P</hi> canticis <hi rend="italic">SGM</hi> cantica <hi rend="italic">N</hi> <lb/>
+            23 ueni sponsa a libano <hi rend="italic">M</hi> 25 dominum <hi rend="italic">S</hi> </note> <lb n="25"/>
+            
+<pb n="32"/>
+            
+</p>
+          <p>Filia anima fidelis siue ecclesia; in psalmo: audi, filia, <lb/>
+            et uide. 
+</p>
+          <p>Proximi fide propinqui; in Salamone: uenite manducate <lb/>
+            et bibite et inebriamini proximi. 
+</p>
+          <p>Amici concordes in deum; in euangelio: uos amici mei<lb n="5"/>
+            estis. 
+</p>
+          <p>Senex consummatae iustitiae; in Genesi: et mortuus <lb/>
+            Abraham senex et plenus dierum. et in Salamone: <lb/>
+            cani sunt hominis sensus et aetas senectutis uita <lb/>
+            inmaculata. <sic>etin</sic> alteram partem de Salamone: cumque<lb n="10"/>
+            iam senex esset, deprauatum est cor eius. 
+</p>
+          <p>Iuuenes alacres in deum; in epistula Iohannis: scribo <lb/>
+            <choice><sic>aobis</sic><corr>uobis</corr></choice>, iuuenes, quia fortes estis et uerbum dei in <lb/>
+            uobis manet et uicistis malignum. et in malam <lb/>
+            partem in regnorum libro de Roboam: derelicto consilio<lb n="15"/>
+            seniorum locutus est secundum consilium iuuenum. <lb/>
+            </p>
+          <p>Paruulus mente humilis et simplex; in euangelio: abscondisti <lb/>
+            haec a sapientibus et prudentibus et <lb/>
+            reuelasti ea paruulis; item in alteram partem in<lb n="20"/>
+            apostolo: cum essem paruulus, loquebar ut paruulus. 
+</p>
+          <p rend="script">Meretrix anima peccatrix, quae relicto caelesti uiro suo,
+
+<note type="footnote"> 1 Ps. 44, 11. 3 Cant. 5, 1. 5 Ioh. 15, 14. 7 Gen. 25, 8. <lb/>
+            9 Sap. 4, 8-9. 10 III Reg. 11, 4. 12 I Ioh. 2, 14. 15 III Reg. <lb/>
+            12-13. 18 Matth. 11, 25. 21 I Cor. 13, 11. </note>
+
+<note rend="script" type="footnote"><lb/>
+            1 <hi rend="intraline">i i</hi>fedeles <hi rend="italic">S</hi> (i <hi rend="italic">m</hi>. 2) fidelix <hi rend="italic">N</hi> 3 <hi rend="intraline">a</hi>solomone <hi rend="italic">S</hi> salomone <hi rend="italic">M</hi> solomone <hi rend="italic">N</hi> <lb/>
+            i <lb/>
+            nenite et <hi rend="italic">S</hi> 4 bebite <hi rend="italic">S</hi> (i <hi rend="italic">m</hi>. 2) proximi <hi rend="italic">om. IV</hi> 5 concordis P dominum <lb/>
+            <hi rend="italic">S</hi> 6 estis si feceritis quae mando uobis <hi rend="italic">M</hi> 7 <hi rend="italic">et</hi> 8 senes S <lb/>
+            a <lb/>
+            consumatae <hi rend="italic">S</hi> 8 habraam <hi rend="italic">N</hi> solomone <hi rend="italic">S</hi> (a <hi rend="italic">m</hi>. 2) salomone <hi rend="italic">(bis) MN</hi> <lb/>
+            9 uitam inmaculataip (m <hi rend="italic">eras.) SN</hi> 10 malam partem <hi rend="italic">M</hi> 11 deprauaturn] <lb/>
+            desabbatum <hi rend="italic">N</hi> cumquam senes <hi rend="italic">S</hi> 12 iuuenis alacris <hi rend="italic">MN</hi> <lb/>
+            b e <lb/>
+            iohannes <hi rend="italic">N</hi> scriuo (b <hi rend="italic">m. 2) S</hi> 13 bouis <hi rend="italic">N</hi> iuuenis (e <hi rend="italic">m. 2) S</hi> <lb/>
+            iuuenis <hi rend="italic">N</hi> fortis <hi rend="italic">N</hi> 14 manit (e <hi rend="italic">m. 2) S</hi> manet in uobis <hi rend="italic">M</hi> uicisti <lb/>
+            <hi rend="italic">N</hi> et-partem <hi rend="italic">om. M</hi> 15 libro <hi rend="italic">om. S</hi> qui derelicto <hi rend="italic">N</hi> 18. et <lb/>
+            i <lb/>
+            in <hi rend="italic">S</hi> 20 eam <hi rend="italic">N</hi> 22 uero <hi rend="italic">S</hi> (i <hi rend="italic">m. 2)</hi> </note> <lb/>
+             
+<pb n="33"/>
+            id est Christo, adulterinos de diabolo iniquitatis fructus concipit; <lb/>
+            in Hieremia: facies mulieris meretricis facta <lb/>
+            est tibi. 
+</p>
+          <p>Operarii apostoli uel praedicatores euangelii; in euangelio; <lb/>
+            messis quidem multa, operarii autem pauci. <lb n="5"/>
+            
+</p>
+          <p>Pastor dominus: ego sum pastor bonus. item pastor <lb/>
+            apostolus; in euangelio: pasce oues meas. 
+</p>
+          <p>Mercennarii seruientes domino non pro amore tantum diuino <lb/>
+            sed pro temporali retributione; in euangelio: quanti mercennarii <lb/>
+            patris mei abundant panibus! <lb n="10"/>
+            
+</p>
+          <p>Piscatores apostoli uel doctores; in euangelio: et faciam <lb/>
+            uos fieri piscatores hominum. 
+</p>
+          <p>Medicus Christus uel doctus; in Salamone: mansuetus <lb/>
+            uir cordis est medicus. et iterum; non egent sani <lb/>
+            medico sed male habentes. <lb n="15"/>
+            
+</p>
+          <p rend="script">Diues fidelis abundans spiritalibus bonis; in apostolo: <lb/>
+            quia diuites facti estis in illo in omni scientia et <lb/>
+            in omni uerbo. et in malam partem: uae uobis diuitibus <lb/>
+            in euangelio. <lb/>
+            Pauper humilis; in euangelio: et erat quidam Lazarus <lb n="20"/>
+            pauper. et iterum: beati pauperes spiritu. in malam <lb/>
+            partem in psalmo: quia pauperes facti sumus nimis.
+
+<note type="footnote"> .2 Hier. 3, 3. 5 Matth. 9, 37. 6 Ioh. 10, 11. 7 Ioh. 21, 17. <lb/>
+            9 Luc. 15, 17. 11 Matth. 4, 19. 13? 14 Luc. 5, 31. 17 I Cor. 1, 5. <lb/>
+            18 Luc. 6. 24. 20 Luc. 16, 20. 21 Matth. 5, 3. 22 Ps. 78, 8. </note>
+
+<note rend="script" type="footnote"> 1 diabulo <hi rend="italic">PMN</hi> fructos <hi rend="italic">N</hi> concepit <hi rend="italic">MN</hi> 2 iheremia <hi rend="italic">N</hi> <lb/>
+            i <lb/>
+            4 euangelii <hi rend="italic">om. S</hi> in euangelio <hi rend="italic">M</hi> 5 messes P messes <hi rend="italic">S</hi> 6 domi- <lb/>
+            11 <lb/>
+            nus in euangelio <hi rend="italic">SM</hi> 7 in euangelio <hi rend="italic">om. M</hi> obes <hi rend="italic">S</hi> 8 amoreip <lb/>
+            <hi rend="italic">S</hi> diuino tantum <hi rend="italic">N</hi> 9 pro <hi rend="italic">om. N</hi> retributione] <lb/>
+            deuotione <hi rend="italic">N</hi> mercennarii in domo <hi rend="italic">S</hi> 14 et iterum] item <hi rend="italic">N</hi> <lb/>
+            i <lb/>
+            iterum] in euangelio <hi rend="italic">M</hi> 15 medicum <hi rend="italic">SN</hi> 16 fedelis <hi rend="italic">S</hi> fidelix <hi rend="italic">N</hi> <lb/>
+            17 qui S 18 item in malam partem in euangelio <hi rend="italic">MN</hi> 20 in <lb/>
+            euangelio] ubi supra <hi rend="italic">N</hi> pauper Lazarus <hi rend="italic">S</hi> eleazarus <hi rend="italic">M</hi> 21 iterum <lb/>
+            <hi rend="italic">om. M</hi> item <hi rend="italic">S</hi> et in malam partem <hi rend="italic">S</hi> item in malam partem <hi rend="italic">M</hi> <lb/>
+            22 ps. LXXVm S </note>
+
+<note type="footnote"> XXXI. pars 1. </note>
+
+<note type="footnote"> 8 </note> 
+<pb n="34"/>
+            
+</p>
+          <p>Uestitus habens baptismi uel fidei integritatem; in euangelio: <lb/>
+            et uidit ibi hominem non uestitum ueste <lb/>
+            nuptiali. 
+</p>
+          <p>Nudus carens baptismi uestimento uel diuino adiutorio; <lb/>
+            in Apocalypsi: tu autem es nudus et miser. et in bonam<lb n="5"/>
+            partem in euangelio: et reiecta, inquit, sindone nudus <lb/>
+            profugit ab eis, id est nudus terrena facultate. 
+</p>
+          <p>Uiui iusti; in psalmo: placebo domino in regione <lb/>
+            uiuorum. et in alteram partem: et laudaui magis <lb/>
+            mortuos quam uiuentes, in Ecclesiaste. <lb n="10"/>
+            
+</p>
+          <p>Mortui peccatores uel infideles; in euangelio: sine <lb/>
+            mortui sepeliant mortuos suos. et in bonam partem: <lb/>
+            beati mortui qui in domino moriuntur. item et: <lb/>
+            mortui estis et uita uestra abscondita est cum <lb/>
+            Christo in deo. <lb n="15"/>
+            
+</p>
+          <p>Cadauera infidelium corpora; in propheta: et impleam <lb/>
+            uallem Iosaphat cadaueribus mortuorum. item in <lb/>
+            aliam partem: posuerunt cadauera seruorum tuorum. 
+</p>
+          <p rend="script">Sepulchrum corpus peccatoris mortuam uitiis animam <lb/>
+            intrinsecus retinens; in euangelio: quia similes <choice><sic>estiss</sic><corr>estis</corr></choice>
+
+<note type="footnote"> 2 Matth. 22, 11. 5 Apoc. 3,17. 6 Marc. 14, 52. 8 Ps. 114, 9. <lb/>
+            9 Eccle. 4, 2. 11 Matth. 8, 22. 13 Apoc. 14, 13. 14 Col. 3, 3. <lb/>
+            16 Ioel 3, 3 18 Ps. 78, 2. 20 Matth. 23, 27. </note>
+
+<note rend="script" type="footnote"> 1 <lb/>
+            1 habens baptismi uestitum <hi rend="italic">S</hi> uestitum baptismi habens <hi rend="italic">M</hi> fedei S (i <lb/>
+            <hi rend="italic">m. 2) S</hi> 2 ibi] sibi <hi rend="italic">N</hi> 3 nuptiale <hi rend="italic">N</hi> 4 uestimentum <hi rend="italic">S</hi> 5 apocai <lb/>
+            <lb/>
+            lapsi S (i <hi rend="italic">m. 2)</hi> apocalipsin <hi rend="italic">M</hi> nudus <hi rend="italic">S</hi> est <hi rend="italic">N-</hi> 6 in <hi rend="italic">om. N</hi> <lb/>
+            reiecta] relicta <hi rend="italic">SM</hi> 7 profugiitfi1 a terrenaM 8 ps. eXITS 9 aliamM <lb/>
+            in salomone <hi rend="italic">post</hi> partem <hi rend="italic">add. S</hi> 10 ecclesiasten <hi rend="italic">M</hi> 11 mortuo S <lb/>
+            i <lb/>
+            infideles <hi rend="italic">S</hi> fidelix <hi rend="italic">N</hi> mortuos <hi rend="italic">PSN</hi> mortui <hi rend="italic">scripsi secutus cod. Par. <lb/>
+            Lat. 11955 s. VIII cf. Nouum testamentum domini nostri Iesu Christi<lb/>
+             recensuit Ioh. Wordsworth. Oxonii MDCCCLXXXIX tom. I fasc. I <lb/>
+            p. 69</hi> sine ut mortui <hi rend="italic">M</hi> 13 et item <hi rend="italic">N</hi> 14 mortui enim <hi rend="italic">N</hi> cum] <lb/>
+            i <lb/>
+            in <hi rend="italic">S</hi> 15 domino <hi rend="italic">M</hi> 16 infedelium <hi rend="italic">S</hi> 17 iosafat P iosaph <hi rend="italic">S</hi> <lb/>
+            iosafhat <hi rend="italic">N</hi> kadaueribus <hi rend="italic">M</hi> 18 partem psalmo <hi rend="italic">M</hi> tuorum et ubi <lb/>
+            fuerit cadauer, illic congregabuntur et aquilae <hi rend="italic">M</hi> 19 morftium <hi rend="italic">S</hi> <lb/>
+            i i <lb/>
+            mortua uitae animam <hi rend="italic">M</hi> 20 similis P semeles <hi rend="italic">S (corr. m. 2)</hi> </note> <lb n="20"/>
+             
+<pb n="35"/>
+            sepulchris dealbatis, quae foris parent hominibus <lb/>
+            speciosa, intus uero plena sunt ossibus mortuorum. 
+</p>
+          
+</div>
+
+<div n="6" subtype="chapter" type="textpart">
+<ab> <title>VI.  DE INTERIORE HOMINE. </title> </ab>
+          <p>Interior homo anima rationalis ; in apostolo: in interiore <lb/>
+            homine habitare Christum per fidem in cordibus <lb n="5"/>
+            uestris. 
+</p>
+          <p>Caput eius Christus; in apostolo: caput uiri Christus. <lb/>
+            Uertex summitas iustitiae; in Salamone: coronam enim <lb/>
+            gratiarum accipiet tuus ueitex. item in malam partem: <lb/>
+            uerticem capilli perambulantium in deliciis suis, <lb n="10"/>
+            id est, summa nequitiae. 
+</p>
+          <p>Capilli ornatus iustitiae uel sensus; in euangelio: uestri <lb/>
+            autem et capilli capitis omnes numerati sunt. 
+</p>
+          <p>Oculi intellectus fidelis et simplex; in euangelio: uestri <lb/>
+            autem beati oculi quia uident. et in malam partem in <lb n="15"/>
+            euangelio: si oculus tuus nequam fuerit. 
+</p>
+          <p>Aures obaudientia fidelis; in euangelio: et aures uestrae <lb/>
+            quia audiunt. 
+</p>
+          <p rend="script">Nares spiraculum fidei bonarumque uirtutum; in <choice><sic>lob</sic><corr>Iob</corr></choice>: et <lb/>
+            spiritus diuinus in naribus meis. et in malam partem <lb n="20"/>
+            in Iob: de naribus eius procedit fumus, id est <lb/>
+            diaboli.
+
+<note type="footnote"> 4 Ephes. 3, 16. 17. 7 I Cor. 11, 3. 8 Prou. 4, 9. 10 Ps. 67, 22. <lb/>
+            12 Matth. 10, 30. 14 ib. 13, 16. 16 ib. 6, 23. 17 ib. 13, 16. <lb/>
+            19 lob. 27, 3. 21 ib. 41, 11._-</note>
+
+<note rend="script" type="footnote"> 1 sepulchris] monumentis 8 <hi rend="italic">hominis S 4 rationabilis M</hi> interioreip <lb/>
+            homineip <hi rend="italic">S</hi> 7 apostulo <hi rend="italic">M</hi> in apostolo] ubi supra <hi rend="italic">N</hi> <lb/>
+            8 salomone <hi rend="italic">NM</hi> 9 uertix uno <hi rend="italic">N</hi> partem in psalmo LXVII <hi rend="italic">S</hi> <lb/>
+            uii <lb/>
+            10 diliciis <hi rend="italic">P</hi> dilectis <hi rend="italic">SMN</hi> 13 et <hi rend="italic">om. SM</hi> nomerati S 14 fedeles S <lb/>
+            8 <lb/>
+            <hi rend="italic">(eorr. m. 2)</hi> fidelix <hi rend="italic">N (corr. m. 2)</hi> 15 oculi beati <hi rend="italic">M</hi> qui <hi rend="italic">SN</hi> in <lb/>
+            euangelio] ubi supra <hi rend="italic">NM</hi> 16 nequa <hi rend="italic">S</hi> 17 obaudientia <hi rend="italic">etiam cod. <lb/>
+            Par</hi>. 1791 obedientia <hi rend="italic">SMN</hi> fidelium <hi rend="italic">S</hi> fidelix <hi rend="italic">N</hi> (s <hi rend="italic">m. 2)</hi> 18 quae <hi rend="italic">SM</hi> <lb/>
+            19 fidei <hi rend="italic">om. M</hi> bonârumquae <hi rend="italic">S</hi> et <hi rend="italic">om</hi>. S 21 in Iob <hi rend="italic">om</hi>. S ubi <lb/>
+            supra <hi rend="italic">N</hi> </note>
+
+<note type="footnote"> 3* </note> 
+<pb n="36"/>
+            
+</p>
+          <p>Fauces iudicium intellectus; in libro <choice><sic>lob</sic><corr>Iob</corr></choice>: et fauces <lb/>
+            meae nonne sapientiam meditantur? et in malam <lb/>
+            partem: raucae factae sunt fauces meae. 
+</p>
+          <p>Os sermo ipse; in psalmo: os iusti meditabitur <lb/>
+            sapientiam. <lb n="5"/>
+            
+</p>
+          <p>Lingua idem quod supra; in psalmo: et lingua eius <lb/>
+            loquetur iudicium. 
+</p>
+          <p>Manus opus; in psalmo: et laui inter innocentes <lb/>
+            manus meas. 
+</p>
+          <p>Dextera opera bona; in euangelio: nesciat <sic>sinistratua</sic><lb n="10"/>
+            quid faciat dextera tua. 
+</p>
+          <p>Sinistra opera non bona; in euangelio idem quod supra. <lb/>
+            Pectus arcanum intellegentiae; in euangelio: discumbebat <lb/>
+            autem super pectus domini discipulus quem Iesus <lb/>
+            amabat plurimum. <lb n="15"/>
+            
+</p>
+          <p>Uenter capacitas rationis; in Abacuc: uenter meus <lb/>
+            turbatus est intra me. 
+</p>
+          <p>Renes interiora sensus; in psalmo: Insuper et usque <lb/>
+            ad noctem erudierunt me renes mei. 
+</p>
+          <p>Lumbi fortitudo animi; in apostolo: accingite lumbos<lb n="20"/>
+            mentis uestrae. 
+</p>
+          <p rend="script">Umbilicus appetitus concupiscentiae; in <choice><sic>lob</sic><corr>Iob</corr></choice>: et uirtus
+
+<note type="footnote"> 1 Iob. 12, 11. 3 Ps. 68, 4. 4 ib. 36, 30. 6 ib. 8 Ps. 25, 6. <lb/>
+            10 Matth. 6, 3. 13 Ioh. 21, 20. 16 Ab. 3, 16. 18 Ps. 15, 7. <lb/>
+            20 Ephes. 6, 14. 22 Iob. 40, 11. </note>
+
+<note rend="script" type="footnote"> 1 intellectum <hi rend="italic">N</hi> in libro iob] ubi supra <hi rend="italic">N</hi> in iob <hi rend="italic">S</hi> 2 sapientia <lb/>
+            <hi rend="italic">SN</hi> meditabitur <hi rend="italic">N</hi> 3 faucis <hi rend="italic">MN</hi> meae <hi rend="italic">om. S</hi> 4 ps. <lb/>
+            b <lb/>
+            XXXVI S in psalmo <hi rend="italic">om. M</hi> meditauitur sapientia <hi rend="italic">S</hi> 6 psalmo qui <lb/>
+            supra <hi rend="italic">SN</hi> 7 loquitur <hi rend="italic">N</hi> 8 ps. LXXII <hi rend="italic">S</hi> labi <hi rend="italic">N</hi> 12 sinestra <hi rend="italic">N</hi> <lb/>
+            opera mala ubi supra idem quod supra <hi rend="italic">N</hi> in euangelio <hi rend="italic">om. S</hi> 13 in <lb/>
+            euangelio] ubi supra <hi rend="italic">N</hi> 14 supra <hi rend="italic">N</hi> discipolus <hi rend="italic">S</hi> 15 plurimum] <lb/>
+            b 0 <lb/>
+            multum <hi rend="italic">M</hi> 16 ambacuc P anibacuiji <hi rend="italic">S (corr. m. 2)</hi> abbacuc <hi rend="italic">M</hi> <lb/>
+            abbacum <hi rend="italic">N</hi> 17 in me <hi rend="italic">S</hi> 19 erudierunt P <hi rend="italic">et cod. Par. 1791</hi> increpao <lb/>
+            i <lb/>
+            uerunt <hi rend="italic">SMN</hi> 20 adcingite <hi rend="italic">N</hi> lumbus (0 <hi rend="italic">m. 2) S</hi> 22 umbelicum <hi rend="italic">S</hi> <lb/>
+            adpetitus <hi rend="italic">SN</hi> </note> <lb/>
+             
+<pb n="37"/>
+            eius super umbilicum uentris, id est. quod feminae <lb/>
+            genitalia per hoc significet sicut in lumbis uirorum. 
+</p>
+          <p>Adeps pinguedo gratiae diuinae in psalmo: sicut adipe <lb/>
+            et pinguedine repleatur anima mea. item in malam <lb/>
+            partem adeps crassitudo malitiae; in psalmo: adipem suum <lb n="5"/>
+            concluserunt. 
+</p>
+          <p>Ossa firmitas animae; in psalmo: omnia ossa mea <lb/>
+            dicent: domine, quis similis tibi? et in malam partem <lb/>
+            in libro Iob: ossa eius uelut fistula aeris. 
+</p>
+          <p>Uiscera affectus pietatis et misericordiae; in apostolo: si <lb n="10"/>
+            quid uiscera et miserationes. et in alteram partem in <lb/>
+            actibus apostolorum de Iuda: et diffusa sunt uiscera <lb/>
+            eius. 
+</p>
+          <p>Pelles signum mortalitatis; in Genesi: et fecit eis <lb/>
+            pellicias tunicas. <lb n="15"/>
+            
+</p>
+          <p>Sanguis operatio carnalis; in psalmo: libera me de sanguinibus <lb/>
+            deus, deus salutis meae. et item: caro et <lb/>
+            sanguis regnum dei non possidebunt. 
+</p>
+          <p>Caro homo exterior; <sic>inapostolo</sic>: caro enim concupiscit <lb/>
+            aduersus spiritum, spiritus autem aduersus carnem. <lb n="20"/>
+            </p>
+          <p rend="script">Genua confessio humilitatis; in cantico: et nunc flecto <lb/>
+            genua cordis mei. aliquando uirtus fidei; in propheta:
+
+<note type="footnote"> 3 Ps. 62, 6. 5 ib. 16. 10. 7 ib. 34, 10. 9 Iob. 40, 13. <lb/>
+            10 Philipp. 2, 1. 12 Act. 1, 18. 14 Gen. 3, 21. 16 Ps. 50, 16. <lb/>
+            17 I Cor. 15, 50. 19 Gal. 5, 17. 22 Ephes 3. 14. </note>
+
+<note rend="script" type="footnote"> 1 feminis S 2 significit S <hi rend="italic">(corr. m. 2)</hi> in <hi rend="italic">om. N</hi> 3 pine <lb/>
+            <lb/>
+            guido <hi rend="italic">N</hi> pinguido S <hi rend="italic">(corr. m. 2)</hi> 4 et <hi rend="italic">om. S</hi> pinguidine <hi rend="italic">P</hi> <lb/>
+            pinguidinis S pinguidem <hi rend="italic">N</hi> animam meam <hi rend="italic">N</hi> item] et S 5 partem <lb/>
+            <hi rend="italic">om. N</hi> adeps <hi rend="italic">om. S</hi> grassitudo S ps. XVI S 7 ps. <lb/>
+            i j <lb/>
+            XXXIIII S 8 domine <hi rend="italic">om. M</hi> semelis <hi rend="italic">S</hi> 9 libro <hi rend="italic">om</hi>. S ossa <lb/>
+            eius <hi rend="italic">om. P et cod. Par. 2182</hi> fistola <hi rend="italic">M</hi> 10 aut misericordia S <lb/>
+            11 miseratione//// <hi rend="italic">M</hi> miserationis <hi rend="italic">N</hi> aliam S 12 omnia uiscera <hi rend="italic">S et<lb/>
+             cod. Par. 2727</hi> 15 tunicas pellicias <hi rend="italic">SMN</hi> 16 ps. L S 17 et <hi rend="italic">om. M</hi> <lb/>
+            item] iterum S item in malam partem <hi rend="italic">M</hi> 18 possedebunt <hi rend="italic">N</hi> 19 apostulo <lb/>
+            <hi rend="italic">M</hi> 22 canticis <hi rend="italic">N</hi> 23 propheta] profundo <hi rend="italic">N</hi> </note> <lb/>
+             
+<pb n="38"/>
+            reliqui mihi septem milia. uirorum. qui non curuauerunt <lb/>
+            genua Bahal. 
+</p>
+          <p>Pedes cursus uitae uel stabilitas mentis uel fidei; in <lb/>
+            psalmo: stantes erant pedes nostri. et in malam partem <lb/>
+            in propheta: cur claudicatis utroque pede? et: ueloces<lb n="5"/>
+            pedes eorum ad effundendum sanguinem. 
+</p>
+          <p>Calcaneum supplantatio uitiorum; in Genesi: ipse tuum <lb/>
+            obseruabit caput et tu illius calcaneum. et in <lb/>
+            malam partem: leuauit contra me calcaneum. 
+</p>
+          <p>Gressus profectus operum; in psalmo: perfice gressus<lb n="10"/>
+            meos in semitis tuis. 
+</p>
+          <p>Uestigia signa uirtutum; in psalmo: ut non moueantur <lb/>
+            uestigia mea. et in alteram partem in Salamone: et <lb/>
+            transiit uita nostra id est impiorum tamquam uestigium <lb/>
+            nauis. <lb n="15"/>
+            
+</p>
+          <p rend="script">Stola indumentum baptismi uel fidei; in euangelio: cito <lb/>
+            proferte stolam primam,
+
+<note type="footnote"> 1 m Reg. 19, 18. 4 Ps. 121. 2. 5 III Reg. 18, 21. Ps. 13, 3. <lb/>
+            7 Gen. 3, 15. 9 Ioh. 13, 18. 10 Ps. 16, 5. 12 ib. 13 Sap. 2, 3. <lb/>
+            16 Luc. 15, 22. </note>
+
+<note rend="script" type="footnote"> <hi rend="italic">1 septe S curbauerunt S 2 baal N ante bahal S 3 mentes S</hi> <lb/>
+            et fidei <hi rend="italic">S</hi> ac fidei <hi rend="italic">N</hi> 4 ps. CXXI <hi rend="italic">S</hi> stantis <hi rend="italic">S</hi> pedis <hi rend="italic">N</hi> 5 prophetaiji <lb/>
+            (m <hi rend="italic">eras.) S</hi> profetam <hi rend="italic">N</hi> quur <hi rend="italic">PM</hi> u//troque <hi rend="italic">S</hi> 6 sanguine <lb/>
+            <hi rend="italic">N</hi> 7 subplantatio <hi rend="italic">M</hi> supplicatio <hi rend="italic">N</hi> 8 obseruauit <hi rend="italic">N</hi> <lb/>
+            8 et-calcaneum <hi rend="italic">om. SN</hi> 10 ps. XVI <hi rend="italic">S</hi> 11 meus <hi rend="italic">S</hi> semetis <hi rend="italic">S</hi> <lb/>
+            12 ut] et <hi rend="italic">M</hi> 13 aliam <hi rend="italic">M</hi> salomone <hi rend="italic">PMN</hi> 14 <hi rend="italic">uoce</hi> tamquam <lb/>
+            <hi rend="italic">fol</hi>. 4* explicit, <hi rend="italic">folium sequens est mutilum, cuius permagna pars est<lb/>
+             auulsa. haec legi possunt:</hi> sus multa condit in aby reuocare ita <lb/>
+            cinoribus tenecr mecum id est sapie morauimus ignis ac nis carii(t) <lb/>
+            <lb/>
+            tas circumsep ignis flammae cllus ign examinasti sicut igne e ignis <lb/>
+            ira et consummam e ait dns ignis uoluntat omn sicut clibanus corda <lb/>
+            eorum canimus significatur protec umbra aliquando peccata saedenbris <lb/>
+            et in umbra mortis umbra aliq poenae in iob. ubi umbra mortis <lb/>
+            et null <hi rend="italic">sequitur fol. 5a explicatio uerbi (p. 43 l</hi>. 8) umbra: cuius est <lb/>
+            umbra ita et <hi rend="italic">in N</hi> 14 uestegium <hi rend="italic">S</hi> 16 eito-primam <hi rend="italic">om. S</hi> </note> 
+<pb n="39"/>
+            
+</p>
+          <p>Cilicium paenitentiae testimonium; in euangelio: <choice><sic>oiim</sic><corr>olim</corr></choice> in <lb/>
+            cinere et cilicio paenitentiam egissent. 
+</p>
+          <p>Cingulum spiritalis operis accinctus: in psalmo: et praecinxisti <lb/>
+            me laetitia. 
+</p>
+          <p>Calciamenta praeparatio pacis; in apostolo: calciati <lb n="5"/>
+            pedes in praeparatione euangelii pacis. 
+</p>
+          <p>Arma interioris hominis in apostolo: induti loricam <lb/>
+            iustitiae et <choice n="0.39"><sic n="50">acutum</sic><corr n="78">scutum</corr></choice> fidei et galeam salutis et <lb/>
+            gladium spiritus, quod est uerbum dei. 
+</p>
+          
+</div>
+
+<div n="7" subtype="chapter" type="textpart">
+<ab> <title>VII.  DE HIS, QVAE IN USU ATQVE IN MEDIO HABENTUR. </title> </ab>
+          <p>Panis Christus uel sermo domini; in euangelio: ego sum <lb/>
+            panis uiuus. 
+</p>
+          <p><sic>Uinum</sic> idem quod supra; in Salamone: et bibite <lb/>
+            uinum, quod miscui uobis. <lb n="15"/>
+            
+</p>
+          <p>Oleum misericordia uel sanctus spiritus; in psalmo: in <lb/>
+            oleo sancto meo linui eum. item in aliam partem: <lb/>
+            oleum autem peccatoris non inpinguet caput <lb/>
+            meum, id est adulatio. 
+</p>
+          <p>Porcina peccata; in psalmo: saturati sunt porcina. <lb n="20"/>
+            
+</p>
+          <p>Azymum sine fermento malitiae; in apostolo: in azymis <lb/>
+            sinceritatis et ueritatis. 
+</p>
+          <p rend="script">Similago puritas mentis et fortitudo caritatis; in Leuitico: <lb/>
+            si autem anima offeret munus sacrificium deo, <lb/>
+            similago sit munus eius.
+
+<note type="footnote"> 1 Matth. 11, 21. 3 Ps. 29, 12. 5 Ephes. 6, 15. 7 ib. 6, 16. 17. <lb/>
+            12 Ioh. 6, 41. 14 Prou. 9, 5. 16 Ps. 88, 21. 18 ib. 140, 5. <lb/>
+            20 Ps. 16, 14. 21 I Cor 5, 8. 24 Leu. 2, 1. </note>
+
+<note rend="script" type="footnote"> 1 eilicium-euangelio <hi rend="italic">om. S</hi> 2 cenere <hi rend="italic">S</hi> (i <hi rend="italic">m. 2)</hi> cinere et <hi rend="italic">om. M</hi> 3 ps. <lb/>
+            i <lb/>
+            XXVIIII <hi rend="italic">S</hi> praecenxisti <hi rend="italic">SM</hi> (i <hi rend="italic">m. 2)</hi> 5 apostulo <hi rend="italic">M</hi> 7 hominis <lb/>
+            a ibi <lb/>
+            monumenta <hi rend="italic">M</hi> luricam <hi rend="italic">S</hi> 8 <hi rend="italic">pr</hi>. et <hi rend="italic">om. S</hi> 14 solomone <hi rend="italic">S</hi> beuete <hi rend="italic">S<lb/>
+             (corr. m 2)</hi> 16 ps. LXXXVIII <hi rend="italic">S alt</hi>. in <hi rend="italic">om. S</hi> 17 meo <hi rend="italic">om. M</hi> <lb/>
+            malam <hi rend="italic">M</hi> 18 oleo S peccatorum <hi rend="italic">S</hi> capud <hi rend="italic">S</hi> 20 ps. XVI. <hi rend="italic">S</hi> <lb/>
+            e <lb/>
+            21 azimum <hi rend="italic">et</hi> azimis S 23 karitatis <hi rend="italic">M</hi> 24 afferit S </note> <lb n="25"/>
+            
+<pb n="40"/>
+            
+</p>
+          <p>Subcinericium humilitatis oblatio; in Genesi: festinanter <lb/>
+            consperge tres mensuras similaginis et fac subcinericia. <lb/>
+            </p>
+          <p>Lac mentis sinceritas; in epistula Petri: rationale sine <lb/>
+            dolo lac concupiscite. item in aliam partem: lac uobis<lb n="5"/>
+            potum dedi non escam; nondum enim poteratis. <lb/>
+            hic lac exiguitas sensus. 
+</p>
+          <p>Coagulatum uitiis concretum; in psalmo: coagulatum <lb/>
+            est sicut lac cor eorum. 
+</p>
+          <p>Sal condimentum sapientiae; in euangelio: uos estis<lb n="10"/>
+            sal terrae. 
+</p>
+          <p><sic>Mel</sic> dulcedo praeceptorum dei; in psalmo: quam dulcia <lb/>
+            faucibus meis eloquia tua, domine, super <choice n="0.13"><sic n="291">mel</sic><corr n="1831">mei</corr></choice> ori <lb/>
+            meo. item aliter in Salamone: inueniens <choice n="0.13"><sic n="291">mel</sic><corr n="1831">mei</corr></choice> manduca, <lb/>
+            quod satis est, ne forte satiatus euomas, id est,<lb n="15"/>
+            altiora te ne quaesieris. 
+</p>
+          <p>Fel amaritudo malitiae; in psalmo: dederunt in escam <lb/>
+            meam fel. 
+</p>
+          <p>Acetum asperitas corruptae mentis; in psalmo: et in siti <lb/>
+            mea potauerunt me aceto. <lb n="20"/>
+            
+</p>
+          <p>Pix inquinamentum et nigredo delictorum; in Salamone: <lb/>
+            qui tangit picem inquinabitur ab ea. 
+</p>
+          <p rend="script">Sicera confectio quaedam nequitiae; in euangelio: uinum<lb/>
+            et siceram non bibet.
+
+<note type="footnote"> 1 Gen. 18, 6. 4 1 Petr. 2, 2. 5 1 Cor. 3, 2. 8 Ps. 118, 70. <lb/>
+            10 Matth. 5, 13. 12 Ps. 118, 103. 14 Prou. 25, 16. 16 Eccle. <lb/>
+            3, 22. 17 Ps. 68, 22. 19 ib. 22 Eccli. 13, 1. 23 Luc. 1, 15. </note>
+
+<note rend="script" type="footnote"> e i <lb/>
+            2 conspirge <hi rend="italic">S</hi> consparge <hi rend="italic">M</hi> getres S subceneritas S 4 ratioi <lb/>
+            e <lb/>
+            <hi rend="italic">nales M</hi> 8 coagolatum S 9 eorum] <hi rend="italic">meum S</hi> 10 estes S 12 dulcido S <lb/>
+            13 domine <hi rend="italic">om. SM</hi> mel et fabum S 16 an te (an <hi rend="italic">eras.) S</hi> exquisieris <lb/>
+            <hi rend="italic">SM</hi> 17 ps. LXVIII S esca mea <hi rend="italic">SM</hi> 19 acetum <hi rend="italic">praecedit</hi> <lb/>
+            b <lb/>
+            fel <hi rend="italic">in M</hi> psalmo qui supra S 21 nigrido <hi rend="italic">S</hi> 22 inquinauitur S <lb/>
+            eo <hi rend="italic">M</hi> 23 quidam <hi rend="italic">M</hi> malitiae et nequitiae S 24 sicera <hi rend="italic">PSN</hi> </note> 
+<pb n="41"/>
+            
+</p>
+          <p>Calix domini passio; in psalmo: calicem salutaris <lb/>
+            accipiam. 
+</p>
+          <p>Merum sinceritas iudicii aut ueritatis uel calor fidei; in <lb/>
+            psalmo: uini meri plenus est mixto. 
+</p>
+          <p>Fex ultimum iudicii; in psalmo: uerumtamen fex eius <lb n="5"/>
+            non est exinanita. 
+</p>
+          <p>Cibus sermo uel uoluntas domini; in euangelio: meus <lb/>
+            cibus est ut faciam uoluntatem eius qui me misit <lb/>
+            patris. 
+</p>
+          <p>Potus idem quod supra; in psalmo: et torrente uoluntatis <lb n="10"/>
+            tuae potabis eos, id est spiritu sancto. item in <lb/>
+            aliam partem: non est regnum dei esca et potus. 
+</p>
+          <p>Promptuaria cordis receptacula; in cantico deuteronomii: <lb/>
+            et in promptuariis timor. 
+</p>
+          <p>Pera uictus <choice><sic>Bollicitudo</sic><corr>sollicitudo</corr></choice>; in euangelio: non peram in uia. <lb n="15"/>
+            
+</p>
+          <p>Sacculus thesaurizatio in deum; in euangelio: facite <lb/>
+            uobis sacculos qui non ueterescant. et in aliam <lb/>
+            partem: sacculum communem possideamus, id est <lb/>
+            auaritiam. 
+</p>
+          <p>Pecunia uerba diuina; in euangelio: oportuit ergo te <lb n="20"/>
+            mittere pecuniam meam nummulariis. 
+</p>
+          <p rend="script">Uellus populus; in psalmo: et descendet tamquam <lb/>
+            pluuia in uellus.
+
+<note type="footnote"> 1 Ps. 115, 13. 4 Ps. 74, 9. 5 ib. 7 Ioh. 4, 34. 10 Ps. 35, 9. <lb/>
+            12 Rom. 14, 17. 14 Deut. 33, 16. 15 Matth. 10, 10. 16 Luc. 12, 33. <lb/>
+            18 Prou. 1, 14. 20 Matth. 25, 27. 22 Ps. 71, 6. </note>
+
+<note rend="script" type="footnote"> <hi rend="italic">1 passio domini S ps. CXV S</hi> 2 accepiam <hi rend="italic">P 3 uel om. S</hi> <lb/>
+            u <lb/>
+            5 iudicii ultionum <hi rend="italic">M</hi> psalmo qui supra <hi rend="italic">S</hi> 8 uolontatem <hi rend="italic">S</hi> eiuspatris] <lb/>
+            patris mei qui S 10 ps. XXXV <hi rend="italic">S</hi> torrentem <hi rend="italic">M</hi> bone uoluntatis <lb/>
+            <hi rend="italic">S</hi> 11 potum dabis eis <hi rend="italic">M</hi> spiritum sanctum <hi rend="italic">S</hi> id-sancto <lb/>
+            <hi rend="italic">om. M</hi> 13 propmtuaria <hi rend="italic">S</hi> 15 pera <hi rend="italic">(altero loco) S</hi> 16 thensaurizatio <lb/>
+            <hi rend="italic">S</hi> facete <hi rend="italic">S</hi> 17 ueteriscant <hi rend="italic">PS</hi> 18 partem in solomone <hi rend="italic">S</hi> <lb/>
+            i <lb/>
+            possideamus commune sacculum <hi rend="italic">M</hi> 20 deuina <hi rend="italic">S</hi> te ergo <hi rend="italic">S</hi> <lb/>
+            e <lb/>
+            21 nummolariis <hi rend="italic">M</hi> 22 ps. LXXI <hi rend="italic">S</hi> discendet <hi rend="italic">PM</hi> discendat <hi rend="italic">S</hi> <lb/>
+            23 uellum <hi rend="italic">M</hi> </note> 
+<pb n="42"/>
+            
+</p>
+          <p>Linum spiritalis fortitudo uel candor; in Exodo: porro <lb/>
+            filiis Aaron tunicas lineas parabis. 
+</p>
+          <p>Utres <choice><sic>aasa</sic><corr>uasa</corr></choice> humani corporis; in euangelio: uinum nouum <lb/>
+            in utres nouos mitti debet. 
+</p>
+          <p>Farina opus bonum uel scientia; in euangelio: abscondit<lb n="5"/>
+            mulier in farinae sata tria. 
+</p>
+          <p>Mola uitae conuersio; in euangelio: duae molentes in <lb/>
+            mola. possunt et duo testamenta lapides molae significare, <lb/>
+            per quos labore disserentium triticum ueteris instrumenti in <lb/>
+            farinam euangelii conuertatur. <lb n="10"/>
+            
+</p>
+          <p>Haec igitur nomina cum in textu sacrae lectionis occurrunt <lb/>
+            ita uel maxime, ut exprimimus, apertioribus accipienda traduntur, <lb/>
+            licet in diuersas plerumque significationes pro persona <lb/>
+            uel tempore uel loco exeant atque in figuras locis congruas <lb/>
+            pro ratione allegoricae interpretationis erumpant. Nam et<lb n="15"/>
+            
+</p>
+          <p>Abyssus intellegitur, sicut supra diximus, profunditas <lb/>
+            scripturarum et item abyssus aquae inmensitas: et rupti <lb/>
+            sunt fontes abyssi multae. item abyssus ineffabilia <lb/>
+            iudicia dei: iudicia tua abyssus multa; item abyssus <lb/>
+            infernus: aut quis descendit in abyssum? id est Christum<lb n="20"/>
+            de mortuis reuocare. item abyssus corda hominum facinoribus <lb/>
+            tenebrosa: abyssus dixit: non est mecum id est sapientia. 
+</p>
+          <p rend="script">Ignis, sicut superius memorauimus, accipitur spiritus <lb/>
+            sanctus. et item ignis caritas circumsepta eius, ignis
+
+<note type="footnote"> 1 Ex. 28, 40.. 3 Luc. 5, 38. 5 Luc. 13, 21. 7 Matth. 24, 41. <lb/>
+            17 Gen. 7, 11. 19 Ps. 35, 7. 20 Rom. 10, 7. 22 Iob. 28, 14. </note>
+
+<note rend="script" type="footnote"> » b <lb/>
+            2 aron <hi rend="italic">S (corr. m. 2)</hi> tonicas <hi rend="italic">S</hi> parauis <hi rend="italic">S</hi> 3 nas <hi rend="italic">M</hi> 5 abscondit-tria <lb/>
+            <hi rend="italic">om. S</hi> 6 farina <hi rend="italic">M</hi> 7 mola-euangelio <hi rend="italic">om. S</hi> in mola <lb/>
+            <hi rend="italic">om. M</hi> 9 labor <hi rend="italic">S</hi> strumenti <hi rend="italic">M</hi> 11 hec <hi rend="italic">S</hi> 12 maximae <hi rend="italic">S</hi> <lb/>
+            expraemimus S <hi rend="italic">tradantur S</hi> 13 licet] illic etJf <hi rend="italic">diuersis M</hi> 14 uel <lb/>
+            loco <hi rend="italic">om. M</hi> figuris <hi rend="italic">S</hi> 15 interpraetationes S 16 habissus <hi rend="italic">(sic semper) S</hi> <lb/>
+            m <lb/>
+            17 aquae] adque <hi rend="italic">S</hi> inmensitas P (m <hi rend="italic">m. 2)</hi> erupti <hi rend="italic">S</hi> 18 multae] <lb/>
+            e e <lb/>
+            magnae 19 dei in psalmo XXXV uelut S 20 discindet S discendit <hi rend="italic">M</hi> <lb/>
+            i <lb/>
+            21 de] a S 23 accepitur <hi rend="italic">S</hi> 24 item] iterum <hi rend="italic">S</hi> eius circumsepta <lb/>
+            <hi rend="italic">om. SM post</hi> eius <hi rend="italic">repetitur</hi> circumsepta <hi rend="italic">PSM</hi> </note> <lb/>
+             
+<pb n="43"/>
+            flammae eius. ignis tribulatio: igne nos examinasti <lb/>
+            sicut igne examinatur argentum. ignis ira: et consumam <lb/>
+            eos in igne irae meae, ait dominus. ignis uoluptas: <lb/>
+            omnes adulterantes sicut clibanus corda eorum. 
+</p>
+          <p>Umbra, ut indicauimus, significatur protectio diuina; item <lb n="5"/>
+            umbra aliquando peccata: sedentes in tenebris et <lb/>
+            umbra mortis. umbra aliquando poenae; in <choice><sic>lob</sic><corr>Iob</corr></choice>: ubi <lb/>
+            umbra mortis et nullus ordo. et quia umbra non longe <lb/>
+            est ab ea re, cuius est umbra, ita et mors non longe est <lb/>
+            a poena, quae infert mortem, umbra aliquando est delectatio <lb n="10"/>
+            peccatorum; in Iob de diabolo: sub umbra dormit <lb/>
+            in secreto calami et locis umentibus, et rursum <lb/>
+            species alia qua specie unam rem multa significant. 
+</p>
+          <p>Duo testamenta eo quod duo hic illi lapides molares <lb/>
+            possint significare memorauimus, et item duo testamenta duo <lb n="15"/>
+            
+</p>
+          <p rend="script">Cherubin in Exodo; duo animalia in Abacuc; duae petrae in <lb/>
+            Exodo et in canticis canticorum, quarum uelamento sponsa <lb/>
+            et Moses proteguntur; duo montes aenei in <sic>Zacharia</sic>,\'
+
+<note type="footnote"> 1 Ps. 65, 10. 2 Ezech. 22, 31. 4 Os. 7, 4. 6 Ps. 106, 10. <lb/>
+            7 Iob. 10, 22. 11 ib. 40, 16. 16 (Ex. 25,18] [Ab. 3, 8] 17 [Ex. 17, 61 <lb/>
+            Cant. 2, 14. 19 [Zach. 6, 1-4]. </note>
+
+<note rend="script" type="footnote"> <hi rend="italic">1 eius et iterum S 2 igne om. S consummam P 3in om. S 6 et in S</hi> <lb/>
+            7 item umbra aliquando <hi rend="italic">S</hi> quia umbra est longe <hi rend="italic">S</hi> quia umbra ita et <lb/>
+            mors non longe est a poena quae infert mortem <hi rend="italic">M</hi> 10 inferunt <hi rend="italic">PS</hi> <lb/>
+            item umbra aliquando <hi rend="italic">S</hi> 11 diabulo <hi rend="italic">P</hi> dormitio <hi rend="italic">S</hi> 12 in secreto <lb/>
+            <hi rend="italic">om. S</hi> humentibus <hi rend="italic">M</hi> rursus <hi rend="italic">SMN</hi> 13 <hi rend="italic">alt. I</hi>. speciem <hi rend="italic">S</hi> rursus <lb/>
+            species aliqua speciae una rem multa <hi rend="italic">N</hi> 14 hic duo illi <hi rend="italic">N</hi> 15 signib <lb/>
+            <lb/>
+            ficari <hi rend="italic">M</hi> et <hi rend="italic">om. M</hi> 16 cherufin <hi rend="italic">S</hi> duo-exodo <hi rend="italic">om. S</hi> abbacuc <hi rend="italic">M</hi> <lb/>
+            abbacu <hi rend="italic">N</hi> duo petrae <hi rend="italic">N</hi> 17 uelamentum <hi rend="italic">S</hi> montes <hi rend="italic">est ultima<lb/>
+             uox in N fol</hi>. 5a, <hi rend="italic">quae fol</hi>. 5b <hi rend="italic">legi possunt, sunt haec:</hi> egrediu migris al <lb/>
+            iodas signiS equi nomini umensi uerum librati sumus nunc dationis <lb/>
+            modum ad aululum pro neces terrupimus reuertamur li in <lb/>
+            euangelio et tulerunt duodecim cofinos frau rum plenos. it, in aliam. <lb/>
+            par anus eius in cofinos serui t id est in seruitute uel tributione <lb/>
+            quam aegyptii intulerunt <hi rend="italic">uoce p. 44</hi> cathedra <hi rend="italic">incipit iterum tota <lb/>
+            linea quae legi potest</hi> 18 duo <hi rend="italic">om S</hi> </note> <lb/>
+             
+<pb n="44"/>
+            de quorum frutectis myrtinis et obscura opacitate egrediuntur <lb/>
+            quadrigae cum equis rufis nigris albis et uariis. 
+</p>
+          <p>Sed has tam multimodas significationes in singulis persequi <lb/>
+            nominibus non solum laboris inmensi uerum etiam <lb/>
+            inpossibile arbitrati sumus. nunc ergo ad eum interpretationis<lb n="5"/>
+            modum atque ordinem, quem paululum pro necessitate disputandi <lb/>
+            interrupimus, reuertamur. 
+</p>
+          <p>Cophini apostoli; in euangelio: et tulerunt reliquias <lb/>
+            duodecim cophinos fragmentorum plenos. item in <lb/>
+            aliam partem: manus eius in cophino seruierunt, id<lb n="10"/>
+            est in seruitute uel tribulatione, quam Aegyptii intulerunt. 
+</p>
+          <p>Cathedra doctrina; in psalmo: et in cathedra seniorum <lb/>
+            laudent eum. item in malam partem: et in cathedra <lb/>
+            pestilentiae non sedit, id est in doctrina hereticorum. 
+</p>
+          <p>Scabillum humiliatorum subiectio; in psalmo: donec<lb n="15"/>
+            ponam inimicos tuos scabellum pedum tuorum. 
+</p>
+          <p>Statera aequitas uel diuinae gubernationis potentia; in <lb/>
+            Esaia: et librauit in pondere montes et colles in <lb/>
+            statera. 
+</p>
+          <p>Cinis humanae fragilitatis inanitas; in Salamone: quid<lb n="20"/>
+            superbit terra et cinis? 
+</p>
+          <p rend="script">Olla prosapia; in psalmo: Moab olla spei meae, id
+
+<note type="footnote"> 8 Matth. 14, 20. 10 Ps. 80, 7. 12 ib. 106, 32. 13 ib. 1, 1. <lb/>
+            15 ib. 109, 1. 18 Es. 40, 12. 20 Eccli. 10, 9. 22 Ps. 59, 10. </note>
+
+<note rend="script" type="footnote"> e i <lb/>
+            1 mivtinia <hi rend="italic">SM</hi> 3 significationis S in <hi rend="italic">om. M</hi> 4 labores S <hi rend="italic">(corr. <lb/>
+            m</hi>. 2) 5 inpossebile S interpraetationis S 6 adque <hi rend="italic">SM</hi> ordinem <lb/>
+            redeamus S disputandum <hi rend="italic">S</hi> 7 interrumpimus <hi rend="italic">M</hi> reuertamur <lb/>
+            <hi rend="italic">om. S</hi> 8 cofini <hi rend="italic">(sic semper) S</hi> 9 fraumentorum <hi rend="italic">M</hi> 10 cofinus <hi rend="italic">S</hi> <lb/>
+            11 in tribulatione <hi rend="italic">M</hi> 12 <hi rend="italic">solum ultimum</hi> a <hi rend="italic">uocis</hi> cathedra <hi rend="italic">legi potest in N</hi> <lb/>
+            kathedra <hi rend="italic">M</hi> ps. CVI S 13 item] et <hi rend="italic">S</hi> 14 pistilentiae <hi rend="italic">N</hi> <lb/>
+            ereticorum <hi rend="italic">M</hi> hereticorum secundo apostolorum S 15 scabellum <lb/>
+            <hi rend="italic">SMN</hi> humiliatorium <hi rend="italic">N</hi> ps. CVIIII <hi rend="italic">S</hi> dum haec <lb/>
+            \'u i <lb/>
+            ponam <hi rend="italic">N</hi> 17 gobernationes <hi rend="italic">S</hi> guuernationis <hi rend="italic">N</hi> uel diuinae potentiae <lb/>
+            gubernatio <hi rend="italic">M</hi> 20 fiagilitatis <hi rend="italic">S</hi> inanitatis <hi rend="italic">N</hi> salomone <hi rend="italic">PMN</hi> <lb/>
+            b <lb/>
+            21 superuit S 22 prosapientia <hi rend="italic">N</hi> ps. LVIIII <hi rend="italic">S</hi> bolla S. </note> <lb/>
+             
+<pb n="45"/>
+            est quod de Ruth Moabitide Christi secundum carnem prosapia <lb/>
+            descenderit. item in aliam partem olla tribulationis <lb/>
+            excoctio; in propheta: et uidi ollam succensam et <lb/>
+            facies eius a facie aquilonis. <lb/>
+            Lampades animae iustitia fulgentes; in euangelio: et <lb n="5"/>
+            parauerunt lampades suas. 
+</p>
+          <p>Lucerna ecclesia uel anima; in euangelio; sint lumbi <lb/>
+            uestri accincti et lucernae ardentes. aliquotiens <lb/>
+            lucernae opera bona: sic luceat lumen uestrum, ut <lb/>
+            uideant opera uestra bona. <lb n="10"/>
+            
+</p>
+          <p>Modius corpus humanum uel legis littera uel populus <lb/>
+            <sic>ludaeorum</sic>; in euangelio: nemo accendit lucernam et <lb/>
+            ponit eam sub modio. 
+</p>
+          <p>Candelabrum ecclesia uel corpus domini aut sancta scriptura; <lb/>
+            in propheta: et uidi a dextris altaris candelabra <lb n="15"/>
+            duo ardentia. 
+</p>
+          <p>Mensa altare uel refectio spiritalis; in psalmo: parasti <lb/>
+            in conspectu meo mensam. 
+</p>
+          <p><sic>CIaues</sic> adapertio scientiae spiritalis; in Luca: uae uobis <lb/>
+            legis peritis, quia tulistis clauem scientiae: ipsi <lb n="20"/>
+            non introistis et eos. qui introibant, prohibuistis. <lb/>
+            item claues iustitiae misericordiae pietatisque uirtutes; in <lb/>
+            euangelio: tibi dabo claues regni caelorum. 
+</p>
+          <p>Serae repagula aduersus impios diuinorum praeceptorum: <lb/>
+            quoniam confirmauit seras portarum tuarum.
+
+<note type="footnote"> 3 Hier. 1, 13. 5 Matth. 25, 7. 7 Luc. 12, 35. 9 Matth. 5,16. <lb/>
+            12 Matth. 5, 15. 15 Zach. 4, 2. 17 Ps. 22, 5. 19 Luc. 11, 52. <lb/>
+            23 Matth. 16, 19. 25 Ps. 147, 13. </note>
+
+<note type="footnote"> 1 moabitidae <hi rend="italic">PS</hi> 2 discendent P descenderet S 4 faciem <hi rend="italic">S</hi> <lb/>
+            faciae S aquolonis <hi rend="italic">P</hi> aqui//lonis <hi rend="italic">N</hi> 5 iuste S 6 lampadas <hi rend="italic">N</hi> <lb/>
+            7 ecclesiae <hi rend="italic">S</hi> animae <hi rend="italic">SMN</hi> 8 adcincti <hi rend="italic">S</hi> 12 iudeorum <hi rend="italic">SMN</hi> <lb/>
+            lucerna <hi rend="italic">N 13 ponet P ea N modium SN 14 scribtura N</hi> 15 altaris <lb/>
+            om. <hi rend="italic">S</hi> candilabra <hi rend="italic">PN</hi> 16 argentea <hi rend="italic">M</hi> 17 ps. XXII <hi rend="italic">S</hi> 18 conspecto <lb/>
+            <hi rend="italic">N</hi> 19 clauis <hi rend="italic">S</hi> periti <hi rend="italic">N</hi> 20 tollitis <hi rend="italic">N</hi> 22 item <hi rend="italic">om. N</hi> <lb/>
+            clauis <hi rend="italic">S</hi> pietatis quae <hi rend="italic">SN</hi> uertutes <hi rend="italic">P</hi> uirtutis <hi rend="italic">N</hi> 23 clauis <hi rend="italic">S</hi> <lb/>
+            24 serrae <hi rend="italic">SN</hi> aduersum <hi rend="italic">N</hi> praeceptorum in psalmo <hi rend="italic">SMN</hi> 26 confortauit <lb/>
+            <hi rend="italic">SN</hi> serras <hi rend="italic">SN</hi> </note> <lb n="25"/>
+            
+<pb n="46"/>
+            
+</p>
+          <p>Ascia prauorum persecutio; in psalmo: in bipenne et <lb/>
+            ascia deiecerunt eam. 
+</p>
+          <p>Bipennis geminata adflictio; in psalmo idem quod supra. <lb/>
+            Nauis ecclesia; in euangelio: nauicula multis in <lb/>
+            medio mari iactabatur fluctibus. Solet et homo<lb n="5"/>
+            nauicula dici, ut nautae cogitationes hominem gubernantes <lb/>
+            <choice><sic>adueltantur</sic><corr>aduertantur</corr></choice>. 
+</p>
+          <p>Retia praedicatio; in euangelio: et mitte retia in capturam. <lb/>
+            </p>
+          <p>Trabes peccatum grauius; in euangelio: <choice n="0.00"><sic n="12">eice</sic><corr n="4909">ei</corr></choice> primum<lb n="10"/>
+            trabem de oculo tuo. 
+</p>
+          <p>Fistuca peccatum leuius; in euangelio: et tum uidebis <lb/>
+            eicere fistucam de oculo fratris tui. 
+</p>
+          <p>Laqueus dolus; in psalmo: laqueos parauerunt pedibus <lb/>
+            meis. <lb n="15"/>
+            
+</p>
+          <p>Funes sors uel hereditas; in psalmo; funes ceciderunt <lb/>
+            mihi in praeclaris. item funes peccata: uae qui trahitis <lb/>
+            peccata uelut funem longum. et: funes peccatorum <lb/>
+            circumplexi sunt me. 
+</p>
+          <p rend="script">Rota orbis aut uita humana; in psalmo: uox tonitrui<lb n="20"/>
+            in rota. et item: deus meus pone illos ut rotam, id <lb/>
+            est, uolubiles uel instabiles effice in malitia sua.
+
+<note type="footnote"> 1 ib. 73, 6. 4 Matth. li, 24. 8 Luc. 5, 4. 10 Matth. 7, 5. <lb/>
+            12 ib. 14 Ps. 56, 7. 16 ib. 15, 6. 17 Es. 5, 18. 18 Ps. 118, 61. <lb/>
+            20 Ps. 76, 19 21 ib. 82, 14. </note>
+
+<note rend="script" type="footnote"> -e <lb/>
+            1 persaecutio <hi rend="italic">N</hi> in <hi rend="italic">ante</hi> bipenne <hi rend="italic">om. N</hi> bipinnae <hi rend="italic">S</hi> uipinne <hi rend="italic">N<lb/>
+             2ascaJf . deicerunt P ea M 3 bipinnis N gemina S afflictio P</hi> <lb/>
+            .4 naues <hi rend="italic">P</hi> 5 et <hi rend="italic">om. S</hi> 6 hominis gopernantis <hi rend="italic">S</hi> guuernantis <hi rend="italic">N</hi> <lb/>
+            8 retiam in capturam piscium <hi rend="italic">M</hi> captura <hi rend="italic">N</hi> 10 trauis <hi rend="italic">S</hi> <lb/>
+            traues <hi rend="italic">N</hi> graue <hi rend="italic">SN</hi> peccato graues <hi rend="italic">M</hi> 11 trauem <hi rend="italic">SN</hi> 12 leue <hi rend="italic">S</hi> <lb/>
+            in euangelio] ubi supra <hi rend="italic">N</hi> tunc <hi rend="italic">SJfN</hi> 13 festucam eicere <hi rend="italic">M</hi> 14 laquaeus <lb/>
+            <hi rend="italic">(priore loco) N</hi> laqueos <hi rend="italic">S</hi> ps. LVI 16 ps. XV <hi rend="italic">S</hi> caecii <lb/>
+            <lb/>
+            deruut <hi rend="italic">N</hi> 17 uae] uel <hi rend="italic">N</hi> traitis <hi rend="italic">M</hi> 18 et item <hi rend="italic">S</hi> 19 circumplexe <hi rend="italic">S</hi> <lb/>
+            circumplexsi <hi rend="italic">N</hi> 20 orbis-uolubiles <hi rend="italic">om. N</hi> ps. LXXVI S thonitrui <lb/>
+            S 22 effice-sua <hi rend="italic">om. S</hi> effici <hi rend="italic">M</hi> </note> 
+<pb n="47"/>
+            
+</p>
+          <p>Spongia <choice n="0.69"><sic n="162">caua</sic><corr n="71">cana</corr></choice> infidelitas Iudaeorum; in euangelio: illi <lb/>
+            autem spongiam plenam aceto hyssopo circumponentes <lb/>
+            obtulerunt ori eius. 
+</p>
+          <p>Scalae sanctorum profectus; in Genesi: uiditque in <lb/>
+            somnis scalam stantem super terram et cacumen <lb n="5"/>
+            illius tangens caelum angelos quoque dei ascendentes <lb/>
+            et descendentes super eam.. 
+</p>
+          <p>Scopae curae superstitionis per uanam gloriam; in euangelio: <lb/>
+            et ueniens inuenit uacantem, scopis mundatam <lb/>
+            et ornatam. <lb n="10"/>
+            
+</p>
+          <p>Margarita doctrina euangelica uel spes regni caelorum; in <lb/>
+            euangelio: inuenta autem una pretiosa margarita <lb/>
+            abiit et uendidit omnia, quae habuit, et emit eam. 
+</p>
+          <p>Anulus signaculum fidei; in euangelio: et date anulum <lb/>
+            in manu eius. item de hoc in psalmo: signatum est <lb n="15"/>
+            super nos lumen uultus tui domine. 
+</p>
+          <p>Chlamis laudis ornatus; in Salamone: chlamides fecit <lb/>
+            uiro suo, id est uestimentum, quod tamquam de duobus <lb/>
+            testamentis confectum sit. 
+</p>
+          <p>Aurum interior scripturarum intellectus; in psalmo: et <lb n="20"/>
+            posteriora dorsi eius in specie auri. 
+</p>
+          <p rend="script">Argentum eloquia diuina siue intellectus litterae uel
+
+<note type="footnote"> 1 Ioh. 19, 29. 4 Gen. 28, 12 9 Luc. 11, 25. 12 Matth. 13, 46. <lb/>
+            14 Luc. 15, 22. 15 Ps. 4, 7. 17 Prou. 31, 22. 20 Ps. 67, 14. </note>
+
+<note rend="script" type="footnote"> o . <lb/>
+            <hi rend="italic">1 spungia (semper) SN iudeorum S 2 sfongiam M spungia plena N</hi> <lb/>
+            acheto <hi rend="italic">N</hi> et isopo <hi rend="italic">SN</hi> (ysopo N) 3 optulerunt <hi rend="italic">PSN</hi> 6 eius <hi rend="italic">SN</hi> <lb/>
+            7 et descendentes <hi rend="italic">om. S</hi> discendentes <hi rend="italic">P</hi> discindentes <hi rend="italic">N</hi> super] <lb/>
+            per <hi rend="italic">M</hi> 8 cura <hi rend="italic">S</hi> curam <hi rend="italic">N</hi> 9 eam uacantem <hi rend="italic">S et cod. Par. 2182,<lb/>
+             et cod. Par. 1791</hi> 11 margaritam <hi rend="italic">N</hi> euangeliaca <hi rend="italic">S</hi> 12 unam praetiosam <lb/>
+            margaritam <hi rend="italic">N</hi> praetiosam <hi rend="italic">S</hi> 13 habiit <hi rend="italic">SN</hi> 15 manum <hi rend="italic">N</hi> <lb/>
+            in psalmo <hi rend="italic">om. S,</hi> 17 clamis <hi rend="italic">SMN</hi> salomone <hi rend="italic">lYIN</hi> clamidem <hi rend="italic">M</hi> — s <hi rend="italic">SN</hi> <lb/>
+            18 id est quod de duobus testamentis confecit <hi rend="italic">N</hi> quod <hi rend="italic">om. S</hi> 20 scrie <lb/>
+            <lb/>
+            bturarum <hi rend="italic">N</hi> intellictus <hi rend="italic">S</hi> 21 speciae <hi rend="italic">SN</hi> 22 aeloquia <hi rend="italic">(bis) N</hi> <lb/>
+            e u <lb/>
+            intellictus <hi rend="italic">S</hi> storiae <hi rend="italic">S</hi> storie <hi rend="italic">M</hi> storiae <hi rend="italic">(sic) N</hi> </note> <lb/>
+             
+<pb n="48"/>
+            historiae; in psalmo: eloquia domini, eloquia casta, <lb/>
+            argentum igne examinatum. 
+</p>
+          <p>Lapides pretiosi apostoli uel sancti siue ipsa opera uirtutum; <lb/>
+            in Apocalypsi: fundamenta muri ciuitatis omni <lb/>
+            lapide pretioso ornata. <lb n="5"/>
+            
+</p>
+          <p>Aes uanitas uel inanitas fidei; in apostolo: factus sum <lb/>
+            <choice n="0.11"><sic n="1398">uelut</sic><corr n="10367">uel</corr></choice> aes sonans. item in aliam partem: posuisti ut <lb/>
+            arcum aereum bracchia mea. hic aereum fortem uel <lb/>
+            firmum. 
+</p>
+          <p>Ferrum tribulatio uel homo ipse; in psalmo: ferrum<lb n="10"/>
+            pertransiit anima eius. 
+</p>
+          <p>Plumbum pondera peccatorum; in propheta: et uidi <lb/>
+            iniquitatem super talentum plumbi. 
+</p>
+          <p>Fictile fragilitas carnis; in apostolo: habemus thensaurum <lb/>
+            hunc in uasis fictilibus. <lb n="15"/>
+            
+</p>
+          
+</div>
+
+<div n="8" subtype="chapter" type="textpart">
+<ab> <title>VIII.  DE UARIIS UERBORUM UEL NOMINUM SIGNIFICATIONIBUS. </title> </ab>
+          <p>Aedificare bona opera facere uel bene docere; in apostolo: <lb/>
+            si quis autem aedificat supra fundamentum hoc <lb/>
+            aurum argentum lapides pretiosos. <lb n="20"/>
+            
+</p>
+          <p rend="script">Destruere mala opera exercere uel male docere; in Salamone: <lb/>
+            unus aedificans et unus destruens.
+
+<note type="footnote"> 1 ib. 11, 7. 4 Apoc. 21, 19. 6 I Cor. 13, 1. 7 Ps. 17, 35. <lb/>
+            10 ib. 104, 18. 11 Zacch. 5, 7. 13 II Cor. 4, 7. 18 I Cor. 3, 12. <lb/>
+            21 Eccle. 34, 28. </note>
+
+<note rend="script" type="footnote"> 1 <lb/>
+            3 praetiosi <hi rend="italic">SN</hi> uel <hi rend="italic">om. S</hi> uirtutum] uistotum <hi rend="italic">N</hi> 4 apocalepsi S <lb/>
+            apocalipsi <hi rend="italic">M</hi> apocalypse <hi rend="italic">N</hi> muri] auri <hi rend="italic">S</hi> ciuitatia auro et <hi rend="italic">S</hi> <lb/>
+            omnia <hi rend="italic">N</hi> 5 praetiosi S praetioso <hi rend="italic">N</hi> ornata <hi rend="italic">om. S</hi> ornato <hi rend="italic">N</hi> 6 aes], <lb/>
+            aeramentum S 7 partem in psalmo XVII S 8 brachia <hi rend="italic">SM</hi> bracia <hi rend="italic">N</hi> <lb/>
+            n <lb/>
+            aerum in fortem <hi rend="italic">N</hi> 10 ps. CIIII <hi rend="italic">S</hi> 11 pertransibit S pertransiuit <hi rend="italic">N</hi> <lb/>
+            12 profeta <hi rend="italic">N</hi> 13 blumbi <hi rend="italic">N</hi> 14 fictilae <hi rend="italic">N</hi> thesaurum <hi rend="italic">SM</hi> thensaumm <lb/>
+            aurum P 15 hunc <hi rend="italic">om. S</hi> 18 uel—docere <hi rend="italic">om. S</hi> 20 praetiosos <lb/>
+            <hi rend="italic">SN</hi> 21 male <hi rend="italic">om</hi>. S salomone <hi rend="italic">MN</hi> 22 destruns <hi rend="italic">P</hi> distruens S </note> 
+<pb n="49"/>
+            
+</p>
+          <p>Mundare uitiis expurgare; in euangelio: tetigit eum <lb/>
+            Iesus dicens: uolo mundare, et confestim mundata <lb/>
+            est lepra eius. 
+</p>
+          <p>Stare fide consistere; in apostolo: state in fide. <lb/>
+            Ambulare ad dominum tendere; in psalmo: et am b <sic>ulabam</sic> <lb n="5"/>
+            in latitudinem. 
+</p>
+          <p>Sedere in deum humiliter resumere; in euangelio: uos <lb/>
+            autem sedete in ciuitate. 
+</p>
+          <p>Iacere aut uitiis aut temptationibus succumbere; in euangelio: <lb/>
+            et inuenit eam iacentem in lecto. <lb n="10"/>
+            
+</p>
+          <p>Currere in operibus bonis properare; in apostolo: sic <lb/>
+            currite ut conprehendatis. 
+</p>
+          <p>Uigilare custodiam cordis adhibere uel in deum resurgere; <lb/>
+            in psalmo: a uigilia matutina usque ad noctem. 
+</p>
+          <p>Dormire transitu apud Christum requiescere; in psalmo: <lb n="15"/>
+            numquid qui dormit non adiciet ut resurgat? et <lb/>
+            aliter dormire peccatorum sopore torpescere; in apostolo: <lb/>
+            surge qui dormis. 
+</p>
+          <p>Ascensus profectus in deum; in psalmo: <sic>ascensusincorde</sic> <lb/>
+            eius. <lb n="20"/>
+            
+</p>
+          <p rend="script">Descensus defectus a deo; in euangelio: homo quidam <lb/>
+            descendebat ab Hierusalem in Hiericho.
+
+<note type="footnote"> 1 Matth. 8, 3.. 4 I Cor. 16, 13. 5 Ps. 118, 45. 7 Luc. 24, 49. <lb/>
+            10 Marc. 7, 80. 11 I Cor. 9, 24. 14 Ps. 129, 6. 16 ib. 40, 9. <lb/>
+            18 Ephes. 5. 14. 19 Ps. 83, 6. 21 Luc. 10, 30. </note>
+
+<note rend="script" type="footnote"> 1 in euangelio <hi rend="italic">om. N</hi> 3 libra <hi rend="italic">N</hi> 4 sta <hi rend="italic">S</hi> 5 deum <hi rend="italic">SN</hi> 6 latitudine <lb/>
+            <hi rend="italic">M</hi> 7 <hi rend="italic">sumere S rerumere N</hi> 8 sodite <hi rend="italic">N</hi> ciuitatae <hi rend="italic">S</hi> ciuii <lb/>
+            <lb/>
+            tatem <hi rend="italic">M</hi> 9 subcumbere <hi rend="italic">SN</hi> 10 ea <hi rend="italic">N</hi> iacente <hi rend="italic">N</hi> 12 currete <hi rend="italic">S</hi> <lb/>
+            i <lb/>
+            conpraehendatis <hi rend="italic">PS</hi> 13 uigelare S adibere <hi rend="italic">M</hi> 14 nocte M <lb/>
+            15 transitu <hi rend="italic">P et cod. Par. 2182</hi> transitum <hi rend="italic">Aafy aput M</hi> 17 tori <lb/>
+            <lb/>
+            pescere sopore S torpiscere <hi rend="italic">N</hi> 19 ascensus profectus in domino; in <lb/>
+            euangelio: homo quidam descindebat ab iherusalem in iherico <hi rend="italic">N</hi> ase <lb/>
+            e <lb/>
+            cinsus <hi rend="italic">(secundo l.) S</hi> 21 descensus—Hiericho <hi rend="italic">om. N</hi> discinsus S <lb/>
+            22 discendebat <hi rend="italic">PS</hi> hericho <hi rend="italic">S</hi> </note>
+
+<note type="footnote"> XXXI. pars 1. </note>
+
+<note type="footnote"> 4 </note> 
+<pb n="50"/>
+            
+</p>
+          <p>Uia Christus; in euangelio: ego sum uia et ueritas <lb/>
+            et uita; et aliter uia uita hominis; in psalmo: uias meas <lb/>
+            enuntiaui et exaudisti me. 
+</p>
+          <p>Spatiosa uitiorum inlecebris dilatata; in \'euangelio: lata <lb/>
+            porta et spatiosa uia quae ducit ad perditionem. <lb n="5"/>
+            
+</p>
+          <p>Arta districta uel tribulationibus pressa; in euangelio: <lb/>
+            quam angusta porta et arta uia quae ducit ad <lb/>
+            uitam. 
+</p>
+          <p>Directa praeceptis dei ordinata; in Esaia: rectas facite <lb/>
+            semitas eius. <lb n="10"/>
+            
+</p>
+          <p>Praua a dei praeceptis deuia; in Esaia: et erunt praua <lb/>
+            in directa et aspera in uias planas. 
+</p>
+          <p>Plana oboedientia praeceptorum exaequata; in Esaia idem <lb/>
+            quod supra. 
+</p>
+          <p>Aspera inoboedientiae asperitate horrida; in Esaia idem<lb n="15"/>
+            quod supra. 
+</p>
+          <p>A dextris a parte iustitiae; in euangelio: statuit oues <lb/>
+            quidem a dextris suis, haedos autem a sinistris. 
+</p>
+          <p>A sinistris a parte iniustitiae; in euangelio idem quod supra. 
+</p>
+          <p>Fouea dolus uel lapsus in mortem; in psalmo: foderunt<lb n="20"/>
+            ante faciem meam foueam. 
+</p>
+          <p rend="script">Puteus diabolus uel infernum; in psalmo: neque urgeat <lb/>
+            super me puteus os suum. et in bonam partem in <lb/>
+            Genesi: ad puteum iuramenti, id est aquam fidei.
+
+<note type="footnote"> 1 Ioh. 14, 6. 2 Ps. 118, 26. 4 Matth. 7, 13. 7 ib. 14. <lb/>
+            9 Es. 40, 3. 11 Es. 40, 4. 17 Matth. 25, 33. 20 Ps. 56, 7. <lb/>
+            22 ib. 68, 16. 24 Gen. 46, 1. </note>
+
+<note rend="script" type="footnote"> 1 et <hi rend="italic">om. S</hi> 2 <hi rend="italic">alt</hi>. et] item <hi rend="italic">S</hi> 3 annuntiaui <hi rend="italic">N</hi> 5 porta <lb/>
+            <hi rend="italic">om. N</hi> perditionem] mortem <hi rend="italic">S</hi> 6 distincta N praessa <hi rend="italic">S</hi> 8 uia <lb/>
+            i <lb/>
+            est <hi rend="italic">N</hi> 9 facete <hi rend="italic">S</hi> 11 deuia] diuisa JV <hi rend="italic">12 dereta P 13 obidientia P</hi> <lb/>
+            na <lb/>
+            <hi rend="italic">exequata SN idem om. N 15 ordita N 17 parte] perte N</hi> 18 suissinistris <lb/>
+            <hi rend="italic">om. S</hi> edos <hi rend="italic">M</hi> autem <hi rend="italic">om. N</hi> sinestris <hi rend="italic">N</hi> 19 perte S <lb/>
+            in <lb/>
+            iustitie <hi rend="italic">M</hi> idem--supra] hedos autem a sinistris <hi rend="italic">S</hi> 20 fouea-quam <lb/>
+            saluanda <hi rend="italic">(p. 51, l. 21) desunt in S. quia folium excisum est</hi> fobea <hi rend="italic">N</hi> <lb/>
+            labsus <hi rend="italic">N</hi> montem <hi rend="italic">N</hi> 22 infernus] infirmus N 23 sum M et] <lb/>
+            a <lb/>
+            laeti <hi rend="italic">N</hi> 24 genesim <hi rend="italic">N</hi> quam <hi rend="italic">N (corr. tn. 2)</hi> </note> 
+<pb n="51"/>
+            
+</p>
+          <p>Sanitas mentis integritas; in psalmo: <sic>clamaili</sic> ad te, <lb/>
+            sanasti me. 
+</p>
+          <p>Languor uitiorum morbus; in psalmo: qui sanat omnes <lb/>
+            languores tuos. 
+</p>
+          <p>Lepra peccatorum contaminatio; in euangelio: et confestim <lb n="5"/>
+            mundata est lepra eius. 
+</p>
+          
+</div>
+
+<div n="9" subtype="chapter" type="textpart">
+<ab> <title>VIIII.  DE HIERUSALEM UEL ADUERSIS EIUS. </title> </ab>
+          <p>Hierusalem ecclesia uel anima; in psalmo: lauda Hierusalem <lb/>
+            dominum. et notandum, quod quaecumque in <lb/>
+            ecclesiam generaliter conueniunt haec et ad animam referri <lb n="10"/>
+            possunt. 
+</p>
+          <p>Sion idem quod supra; in psalmo: lauda deum tuum <lb/>
+            Sion. 
+</p>
+          <p>Filii Sion filii ecclesiae; in psalmo: et filii Sion exultent <lb/>
+            super rege suo. <lb n="15"/>
+            
+</p>
+          <p>Filiae Hierusalem idem quod supra. 
+</p>
+          <p>Tabernaculum corpus domini uel ecclesia; in psalmo: in <lb/>
+            sole posuit tabernaculum suum. 
+</p>
+          <p>Arca caro dominica uel corda sanctorum deo plena; in <lb/>
+            psalmo: tu et arca sanctificationis tuae. item <choice n="0.53"><sic n="139">area</sic><corr n="120">arca</corr></choice> <lb n="20"/>
+            ecclesia intra quam saluanda claudantur; in Genesi: remansit <lb/>
+            autem solus Noe et qui cum eo erant in arca. 
+</p>
+          <p rend="script">Tabulae lapideae duae, ut puto, propter testamenta duo uel <lb/>
+            propter duo praecepta dilectionis dei et proximi; in Exodo: <lb/>
+            et dixit dominus ad <choice n="0.94"><sic n="229">Mosen</sic><corr n="13">Mos</corr></choice> : excide tibi duas tabulas.
+
+<note type="footnote"> 1 Ps. 29, 3. 3 ib. 102, 3. 5 Matth. 8, 3. 8 Ps. 147, 12. <lb/>
+            12 ib. 14 ib. 149, 2. 17 ib. 18, 6. 20 ib. 131,8 21 Gen. 7, 23. <lb/>
+            25 Ex. 34, 1. </note>
+
+<note rend="script" type="footnote"> 1 in mentis <hi rend="italic">N</hi> 2 et sanasti <hi rend="italic">MN</hi> 8 iherusalem <hi rend="italic">(semper) N</hi> 9 quod <lb/>
+            <hi rend="italic">quaecumque] quidquid M</hi> 10 ecclesiam2HAr <hi rend="italic">etoni.iS7</hi> animaN 12 in <lb/>
+            psalmo <hi rend="italic">om. N</hi> 14 ecclesiae uel sensus anima <hi rend="italic">M</hi> fili <hi rend="italic">(secundo loco) P</hi> <lb/>
+            15 regem suum <hi rend="italic">M</hi> 16 iherusalem N 17 tauernaculum <hi rend="italic">N</hi> in psalmo <lb/>
+            n <lb/>
+            <hi rend="italic">om. N</hi> 21 qua <hi rend="italic">N</hi> clauduntur <hi rend="italic">SMN</hi> 22 solus <hi rend="italic">om. S</hi> erat <hi rend="italic">S</hi> <lb/>
+            24 dei proximi <hi rend="italic">N</hi> 25 deus <hi rend="italic">S</hi> moysen <hi rend="italic">MN</hi> </note>
+
+<note type="footnote"> 4* </note> <lb n="25"/>
+            
+<pb n="52"/>
+            
+</p>
+          <p>Lex praecepta diuina; in psalmo: lex domini inmaculata. <lb/>
+            </p>
+          <p>Chirographum conscriptio hominis peccatoris cum diabolo <lb/>
+            per manum iniquitatis: in apostolo: chirographumpeccati <lb/>
+            quod erat contrarium nobis. <lb n="5"/>
+            
+</p>
+          <p>Pactum confoederatio gratiae diuinae cum homine; in <lb/>
+            psalmo: uidi non seruantes pactum. 
+</p>
+          <p>Testamentum confirmatio uoluntatis diuinae: in propheta: <lb/>
+            et confirmabo testamentum super domum Iuda. 
+</p>
+          <p>Praeputium uita gentilis; in apostolo: in praeputio aliquis<lb n="10"/>
+            uocatus est, non circumcidatur, id est, etiam qui <lb/>
+            ex gentibus ad fidem Christi uenit corpore non circumcidatur. 
+</p>
+          <p>Circumcisio expoliatio uitiorum; in apostolo: circumcisi <lb/>
+            estis circumcisione non manu <sic>factainexpoliatione</sic> <lb/>
+            corporis carnis. <lb n="15"/>
+            
+</p>
+          <p>Cornu fortitudo uel regnum; in Regnorum: et exaltauit <lb/>
+            cornu Christi sui. 
+</p>
+          <p>Purpura martyrii species per cruorem; in Exodo: omnis, <lb/>
+            qui percipit corde, adferet initia domino aurum <lb/>
+            argentum aeramentum hyacinthum purpuram coccum<lb n="20"/>
+            netum et byssum. 
+</p>
+          <p>Coccus idem quod supra uel caritatis ardor uel crucis <lb/>
+            mentio; in Exodo sicut supra. 
+</p>
+          <p>Byssus castitatis uel continentiae candor; in Exodo idem <lb/>
+            quod supra.
+
+<note type="footnote"> 1 Ps. 18, 8. 4 Col. 2, 14. 7 Ps. 77, 57. <hi rend="italic">9 Hier. 81, 81 et</hi> <lb/>
+            Hebr. 8, 8. 10 I Cor. 7, 18. 13 Col. 2, 11. 16 I Reg. 2, 10. <lb/>
+            18 Ex. 35, 5. 6. </note>
+
+<note type="footnote"> 1 ps. XVIII S <hi rend="italic">3 chirografum SNcirografum (semper) M 4cliirografum PS</hi> <lb/>
+            cirografum <hi rend="italic">N</hi> 6 confideratio <hi rend="italic">M</hi> hominem <hi rend="italic">N</hi> 9 meum super N <lb/>
+            14 non circumcisione <hi rend="italic">S</hi> 16 cornum <hi rend="italic">(semper) SN</hi> regum <hi rend="italic">N</hi> et <hi rend="italic">om. N</hi> <lb/>
+            18 martiris <hi rend="italic">S</hi> 19 percepit <hi rend="italic">SN</hi> afferet <hi rend="italic">P</hi> adferit <hi rend="italic">S</hi> offert <hi rend="italic">N</hi> 20 hyacintum <lb/>
+            <hi rend="italic">PN</hi> hiacinctum <hi rend="italic">S</hi> purpura coccu <hi rend="italic">N</hi> 21 netum <hi rend="italic">om. S</hi> <lb/>
+            bissum <hi rend="italic">M</hi> 22 cruor mentis <hi rend="italic">N</hi> 23 exhodo <hi rend="italic">P (semper)</hi> idem quod <lb/>
+            supra <hi rend="italic">S</hi> quod supra <hi rend="italic">N</hi> sicut <hi rend="italic">om. M</hi> 24 bissus <hi rend="italic">et</hi> hyacinthus <hi rend="italic">sunt <lb/>
+            permutata in N</hi> bissum <hi rend="italic">SMN</hi> </note> <lb n="25"/>
+            
+<pb n="53"/>
+            
+</p>
+          <p>Hyacinthus <sic>confessomm</sic> liuores; in Exodo idem quod supra. 
+</p>
+          <p>Superumerale operum ab umeris significatio; in Exodo: et <lb/>
+            fecerunt superumerale de auro et hyacintho et <lb/>
+            <sic>purpuraetcocconetoetbyssotorta</sic>. <lb/>
+            Rationale doctrinae uel rationis a pectore declaratio; in <lb n="5"/>
+            
+</p>
+          <p>Exodo: <sic>etfecerunt</sic> rationale opere textili secundum <lb/>
+            opus superumeralis. 
+</p>
+          <p><sic>Puderes</sic> doctrina secretior atque perfectior; in Exodo: et <lb/>
+            fecerunt uestimentum poderem sub umbone opus <lb/>
+            textile totum <choice><sic>hyacinthinuin</sic><corr>hyacinthinum</corr></choice>. <lb n="10"/>
+            
+</p>
+          <p>Lamina aurea in fronte crucis suprafiguratio; in Exodo: <lb/>
+            et fecerunt laminam auream et infra scripserunt, <lb/>
+            inquit, in ea litteras deformatas signaculum <lb/>
+            sanctitatis domini, id est nomen tetragrammaton domini. <lb/>
+            Templum corpus domini uel sancti; in apostolo: uos <lb n="15"/>
+            enim estis templum dei uiui. 
+</p>
+          <p>Altare fidei altitudo; in psalmo: tunc inponent super <lb/>
+            altarem tuum uitulos. 
+</p>
+          <p>Sacrificium oblatio iustitiae; in psalmo: sacrificate <lb/>
+            sacrificium iustitiae. <lb n="20"/>
+            
+</p>
+          <p>Holocaustum totus fidei accensus; in psalmo: holocausta <lb/>
+            medullata offeram tibi. 
+</p>
+          <p>Hostia Christus uel anima dicata deo; in apostolo: oblationem <lb/>
+            et hostiam deo in odorem suauitatis.
+
+<note type="footnote"> 2 Ex. 39, 2. 6 ib. 39, 8. 8 ib. 39, 20. 12 ib. 39, 29. 151I <lb/>
+            Cor. 6, 16. 17 Ps. 50, 21. 19 Ps. 4, 6. 21 ib. 65, 15. 23 Epbes. 5, 2. </note>
+
+<note type="footnote"> 1 hiacinctus <hi rend="italic">S</hi> liyacintus <hi rend="italic">N (cf. p. 52 l. 24)</hi> libores <hi rend="italic">N</hi> 2 super- <lb/>
+            <hi rend="italic">humeralem N 4 neto om. S bisso S torto N</hi> 5 spectore declamatio <lb/>
+            <hi rend="italic">S</hi> 6 ficerunt <hi rend="italic">N</hi> operae testili <hi rend="italic">N</hi> 8 segretior <hi rend="italic">S</hi> adque <hi rend="italic">N</hi> <lb/>
+            perfectio <hi rend="italic">SN</hi> 9 podorem <hi rend="italic">S</hi> podere <hi rend="italic">N</hi> umbonem <hi rend="italic">S</hi> 10 testile <hi rend="italic">N</hi> <lb/>
+            hiacintinum in exodo <hi rend="italic">S</hi> 11 crucis in fronte <hi rend="italic">P</hi> praefiguratio <hi rend="italic">SMK</hi> <lb/>
+            12 lamminam <hi rend="italic">P</hi> lamina auream <hi rend="italic">N</hi> scribserunt <hi rend="italic">SN</hi> 13 inquid <hi rend="italic">MN</hi> <lb/>
+            14 nomen <hi rend="italic">om. N</hi> thetragrammaton <hi rend="italic">S</hi> tethragrammatom <hi rend="italic">N</hi> tetragrammon <lb/>
+            M 15 domini <hi rend="italic">om. S</hi> 16 enim om. <hi rend="italic">S</hi> 17 ps. L <hi rend="italic">S</hi> altare <hi rend="italic">M</hi> <lb/>
+            altareip <hi rend="italic">P</hi> 19 ps. XIII <hi rend="italic">S</hi> 21 olocaustum-a <hi rend="italic">M</hi> 24 ostia <hi rend="italic">M</hi>. <lb/>
+            in-suauitatis <hi rend="italic">om. S</hi> suabitatis <hi rend="italic">N</hi> </note> 
+<pb n="54"/>
+            
+</p>
+          <p>Myrra mortalitatis indicium; in psalmo: myrra et gutta <lb/>
+            et cassia a uestimentis tuis. 
+</p>
+          <p>Unguentum diffusa nominis <choice><sic>Chnsti</sic><corr>Christi</corr></choice> gratia; in Salamone: <lb/>
+            unguentum effusum nomen tuum. 
+</p>
+          <p>Sancta sanctorum interiora quaeque mysteria dei uel regna<lb n="5"/>
+            caelorum; in epistula ad Hebraeos: 11 <choice n="0.00"><sic n="118">on</sic><corr n="65020">non</corr></choice> enim in manu <lb/>
+            facta sancta Iesus introiit exemplaria uerorum <lb/>
+            sed in ipsum caelum, ut appareat nunc uultui dei <lb/>
+            pro nobis.,
+</p>
+          <p>Sabbatum requies spiritalis; in Genesi: et requieuit<lb n="10"/>
+            dominus ab omnibus operibus suis. 
+</p>
+          <p>Quadragensima figura praesentis uitae ac laboris; in euangelio: <lb/>
+            et cum ieiunasset quadraginta diebus et <lb/>
+            quadraginta noctibus. 
+</p>
+          <p>Pasca praenuntiatio dominici transitus; in euangelio: ante<lb n="15"/>
+            diem autem festum Pascae sciens Iesus quia uenit <lb/>
+            eius hora, ut transeat ex hoc mundo ad patrem. 
+</p>
+          <p>Quinquagensima manifestatio futurae beatitudinis uel remissionis; <lb/>
+            in Leuitico: numerabitis ergo septem hebdomadas <lb/>
+            plenas usque ad alteram diem et infra id<lb n="20"/>
+            est quinquaginta dies. 
+</p>
+          <p rend="script">Iubeleus uenturae quietis significatio; in Leuitico: annus <lb/>
+            remissionis est; signum sanctum erit uobis.
+
+<note type="footnote"> 1 Ps. 44, 9. 4 Cant. 1, 2. 6 Hebr. 9, 24. 10 Gen. 2, 2. <lb/>
+            13 Matth. 4, 2. 15 Ioh. 13, 1. 19 Leu. 23, 15. 16. 22 ib. 25, 10. </note>
+
+<note rend="script" type="footnote"> 1 mirra <hi rend="italic">S</hi> indicio <hi rend="italic">S</hi> ps. XLIIII <hi rend="italic">S</hi> 3 diffusum S effusa <hi rend="italic">JV</hi> <lb/>
+            5 quoque misteria domini <hi rend="italic">S</hi> quaeque que <hi rend="italic">N</hi> interior aut misteria <lb/>
+            dei <hi rend="italic">M</hi> 7 factis sanctis <hi rend="italic">PSMN</hi> introibit <hi rend="italic">S</hi> uirorum <hi rend="italic">PSMN</hi> <lb/>
+            nerorum <hi rend="italic">cod. Paris. 2182</hi> 8 adpareant <hi rend="italic">N</hi> 12 quadragesima <hi rend="italic">IIIN</hi> <lb/>
+            presentis <hi rend="italic">N</hi> 18 <hi rend="italic">et</hi> 14 quadragenta <hi rend="italic">S</hi> 15 pascha <hi rend="italic">SMN</hi> dominico N <lb/>
+            dominicae <hi rend="italic">M</hi> 17 hora eius <hi rend="italic">MN</hi> transiret <hi rend="italic">S</hi> 18 fnturae <hi rend="italic">om. M</hi> <lb/>
+            a <lb/>
+            19 leuiticum <hi rend="italic">S</hi> ebdomadas <hi rend="italic">P</hi> ebdomata <hi rend="italic">S</hi> eudomada <hi rend="italic">N</hi> 20 ad <hi rend="italic">om. M <lb/>
+            <lb/>
+            e u</hi>altarem <hi rend="italic">S (corr. m. 2)</hi> 21 quinquagenta <hi rend="italic">S</hi> 22 iobeleus <hi rend="italic">P u</hi>iobeleus <hi rend="italic">S</hi> <lb/>
+            significatio] signum <hi rend="italic">S</hi> annum <hi rend="italic">S</hi> 23 est <hi rend="italic">om. S</hi> </note> 
+<pb n="55"/>
+            
+</p>
+          <p>Ciuitas dei ecclesia uel anima; in psalmo: in ciuitate <lb/>
+            dei nostri. 
+</p>
+          <p>.Ciues fideles; in apostolo: sed estis <sic>cieus</sic> sanctorum <lb/>
+            et domestici dei. <lb/>
+            Muri munimenta scripturae diuinae uel prophetae aut <lb n="5"/>
+            sancti; in psalmo: aedificentur muri Hierusalem. item <lb/>
+            in aliam partem: in deo meo transgrediar murum. 
+</p>
+          <p>Turres apostoli uel perfecti quique; in psalmo: et abundantia <lb/>
+            in turribus tuis. 
+</p>
+          <p>Portae scripturae sanctae uel iustitiae uel apostoli aut <lb n="10"/>
+            angeli; in psalmo: et eleuamini portae aeternales. <lb/>
+            item in aliam partem: quia lata porta et spatiosa uia <lb/>
+            quae ducit ad noctem. 
+</p>
+          <p>Plateae beatitudo dilatata sanctorum; in Apocalypsi: et <lb/>
+            plateae ciuitatis aurum mundum tamquam uitrum <lb n="15"/>
+            perlucidum. 
+</p>
+          <p>Fundamentum Christus uel fides; in apostolo: fundamentum <lb/>
+            enim aliud nemo potest ponere praeterquam <lb/>
+            id quod positum est Christus Iesus. 
+</p>
+          <p>Maceria lex uel angelorum custodia; in cantico Esaiae: et <lb n="20"/>
+            maceriam circumdedi et calamos adfixi et <choice n="0.06"><sic n="4">plantaui</sic><corr n="58">planta</corr></choice> <lb/>
+            uineam. 
+</p>
+          <p rend="script">Domus anima in qua Christus habitat uel ecclesia; in <lb/>
+            psalmo: in domum domini ibimus.
+
+<note type="footnote"> 1 Ps. 47, 2. 3 Ephes. 2, 19. 6 Ps. 50, 20. 7 ib. 17, 30. <lb/>
+            8 ib. 121, 7. 11 ib. 23, 7. 12 Matth. 7, 13. 14 Apoc. 21, 21. <lb/>
+            17 I Cor. 3, 11. 20 Es. 5, 2. 24 Ps. 121, 1. </note>
+
+<note rend="script" type="footnote"> <hi rend="italic">3 fideles om..N</hi> estes S 5 scribturae N <hi rend="italic">(i ps. L S</hi> ifiierusalem <lb/>
+            <hi rend="italic">N</hi> 7 in aliam partem <hi rend="italic">erasa in M</hi> partem in psalmo XVII <hi rend="italic">S</hi> <lb/>
+            transgredear <hi rend="italic">N</hi> 8 profecti <hi rend="italic">2V</hi> ps. CXXI <hi rend="italic">S</hi> 10 scribturae <hi rend="italic">SN</hi> <lb/>
+            11 euangeli P seu angeli? euangelistae <hi rend="italic">cod. Par. 2182</hi> ps. XXIII <hi rend="italic">S</hi> <lb/>
+            i <lb/>
+            aelebamini <hi rend="italic">N</hi> 12 quia] quam <hi rend="italic">M</hi> 14 apocalapsi <hi rend="italic">S</hi> apocalypsae K <lb/>
+            16 perlucidum et in aliam partem: sponsus meus in plateus <hi rend="italic">(sic)</hi> non inuenitur <lb/>
+            <hi rend="italic">M</hi> 18 praeterquam] quam <hi rend="italic">MN</hi> 20 macheria <hi rend="italic">S</hi> 21 macheria <hi rend="italic">S</hi> <lb/>
+            um i <lb/>
+            maceria <hi rend="italic">N</hi> affixi P fixi <hi rend="italic">S</hi> 24 domo <hi rend="italic">S</hi> domo <hi rend="italic">N</hi> ibemus <hi rend="italic">S</hi> </note> 
+<pb n="56"/>
+            
+</p>
+          <p>Cenaculum altitudo meritorum uel scientiae; in euangelio: <lb/>
+            et ipse uobis ostendet cenaculum magnum. 
+</p>
+          <p>Ostia adapertio fidei; in apostolo: ostium enim mihi <lb/>
+            apertum est magnum et euidens. 
+</p>
+          <p>Columna firmamentum uel stabilitas spiritalis; in apostolo<lb n="5"/>
+            Iacobus et Iohannes et Cephas qui uidebantur <lb/>
+            columnae esse. 
+</p>
+          <p>Paries interdum structura bonorum operum; in cantico <lb/>
+            canticorum: ecce hic retro post parietem nostrum <lb/>
+            prospiciens per fenestras. <lb n="10"/>
+            
+</p>
+          <p>Fenestrae uisus uel ceteri sensus; ut supra: prospiciens <lb/>
+            per fenestras; item in malam partem: mors introibit <lb/>
+            per fenestras uestras. 
+</p>
+          <p>Gradus spiritalis ascensus; in psalmorum titulo: canticum <lb/>
+            graduum. <lb n="15"/>
+            
+</p>
+          <p>Pauimentum humiliatio uel adflictio animae siue in terrena <lb/>
+            declinatio; in psalmo: adhaesit pauimento anima mea. 
+</p>
+          <p>Psalterium opera bona; in <choice><sic>psaimo</sic><corr>psalmo</corr></choice>: psalterium iucundum <lb/>
+            cum cithara. 
+</p>
+          <p>Cithara pectus <choice><sic>denotum</sic><corr>deuotum</corr></choice> in quo tamquam nerui sunt uirtutes,<lb n="20"/>
+            hoc est spiritalia bona; in psalmo: exsurge psalterium <lb/>
+            et cithara, id est opera cum fide; uel de ipso <lb/>
+            domino resurrectio carnis cum diuina uirtute. 
+</p>
+          <p rend="script">Decachordum praecepta decem uel geminati quinque sensus
+
+<note type="footnote"> 2 Luc. 22, 12. 3 I Cor. 16, 9. 6 Gal. 2, 9. 9 Cant. 2, 9. <lb/>
+            12 Hier. 9, 21. 14 Ps. 119, 1. 17 ib. 118, 25. 18 ib. 80, 3. <lb/>
+            21 ib. 107, 3. </note>
+
+<note rend="script" type="footnote"> 2 ostendit <hi rend="italic">SN</hi> 3 ostea <hi rend="italic">S</hi> ostium <hi rend="italic">M</hi> apostolum <hi rend="italic">N</hi> hoateum N <lb/>
+            U <lb/>
+            5 colomna <hi rend="italic">S</hi> 6 ceras <hi rend="italic">PMN</hi> chefas <hi rend="italic">S</hi> 7 colomnas <hi rend="italic">S</hi> 8 parietes <hi rend="italic">M</hi> <lb/>
+            10 respiciens <hi rend="italic">S</hi> fenestram <hi rend="italic">SMN</hi> 11 ceteri-introibit <hi rend="italic">desunt in N mutilo</hi> <lb/>
+            13 fenestram <hi rend="italic">M</hi> 14 gradum <hi rend="italic">MN</hi> in psalmo <hi rend="italic">M</hi> 16 afflictio <hi rend="italic">P</hi> <lb/>
+            siue—declinatio <hi rend="italic">om. S</hi> terrina <hi rend="italic">N</hi> interna M 18 iocundum <hi rend="italic">S</hi> 21 ps. <lb/>
+            <hi rend="italic">ex (sic) S cxurgeSN</hi> psalterium iocundum <hi rend="italic">S</hi> 22 et] cum <hi rend="italic">S</hi> ex <hi rend="italic">P</hi> cum <lb/>
+            cithara <hi rend="italic">om. M</hi> 24 deaorda <hi rend="italic">S (corr. m. 2)</hi> precepta <hi rend="italic">N</hi> decacordum <lb/>
+            a <lb/>
+            uel decem praecepta uel certe illic quae totidem psalmis XIV continet <lb/>
+            uel geminata <hi rend="italic">31</hi> </note> <lb/>
+             
+<pb n="57"/>
+            hominis exterioris cum interiore; in psalmo: in <sic>deeachorclo</sic>, <lb/>
+            psalterio cum cantico et cithara. 
+</p>
+          <p>Organum homo uel ille qui est adsumptus a domino; in <lb/>
+            psalmo: laudate eum in chordis et organo. 
+</p>
+          <p>Tympanum adtenuatum corpus in ieiunio; in psalmo: laudate <lb n="5"/>
+            eum in tympano et choro. 
+</p>
+          <p>Chorus concordia; in psalmo ut supra. 
+</p>
+          <p>Tuba uocis exaltatio in praedicatione diuina; in propheta: <lb/>
+            exalta uelut tuba uocem tuam. 
+</p>
+          <p>Cymbala labia deum <sic>confitentia</sic> uel dilectio dei et dilectio <lb n="10"/>
+            proximi; in psalmo: laudate eum in cymbalis bene <lb/>
+            sonantibus. 
+</p>
+          <p>Iubilatio clamor spiritali feruore expressior; in psalmo: <lb/>
+            laudate eum in cymbalis iubilationis. 
+</p>
+          <p>Aegyptus mundus uel gentilium populus; in psalmo: uenient<lb n="15"/>
+            legati ex Aegypto. 
+</p>
+          <p>Aethiopia ecclesia ex gentibus; in psalmo: Aethiopia <lb/>
+            praeueniet manus eius; item in aliam partem in <lb/>
+            psalmo: dedisti eum escam populo Aethiopum. 
+</p>
+          <p rend="script">Babyllon aut mundus aut Roma; in Apocalypsi: et
+
+<note type="footnote"> 1 Ps. 91, 4. 4 ib. 100, 4. 5 ib. 9 Es. 58, 1. 11 Ps. 150, 5. <lb/>
+            14 ib. 15 ib. 67, 82. 17 ib. 19 ib. 73, 14. 20 Apoc. <lb/>
+            16, 19. </note>
+
+<note rend="script" type="footnote"> e <lb/>
+            1 dicacorda psalterium S 2 canticum <hi rend="italic">SN</hi> chitara <hi rend="italic">N</hi> 3 assumptus <lb/>
+            <hi rend="italic">P</hi> in psalterio <hi rend="italic">M</hi> 4 cordis <hi rend="italic">SMN</hi> 5 timpanum <hi rend="italic">S</hi> attenatum P <lb/>
+            tirnphanum adtinuatum <hi rend="italic">M</hi> in <hi rend="italic">om. MN</hi> psalterio <hi rend="italic">M</hi> 7 psalterio <hi rend="italic">M</hi> <lb/>
+            ut] quod <hi rend="italic">S</hi> 8 exultatio <hi rend="italic">SMN</hi> predicatione <hi rend="italic">N</hi> 9 exalta uelutj <lb/>
+            exaltant S exalta ut <hi rend="italic">N</hi> exalta <hi rend="italic">om. M</hi> 10 cimbala-is <hi rend="italic">SM</hi> 11 eum— <lb/>
+            sonantibus <hi rend="italic">om. N mutil</hi>. 13 <hi rend="italic">in N mutil. solum haec legi possunt:</hi> <lb/>
+            spiritalis feruor expresmo laudate eum in cymba spiritalis <hi rend="italic">S</hi> expraessior <lb/>
+            S 14 cimbalis <hi rend="italic">SM</hi> iubelationis S 15 aegiptus S <lb/>
+            e <lb/>
+            mundus hic S gentium <hi rend="italic">M</hi> 16 <hi rend="italic">ligati S (corr. m</hi>. 2) 17 <hi rend="italic">ethyopia M</hi> <lb/>
+            psalmo qui supra <hi rend="italic">S</hi> 18 eius deo <hi rend="italic">S</hi> 19 in psalmo <hi rend="italic">om</hi>. b in escam <hi rend="italic">S</hi> <lb/>
+            in esca <hi rend="italic">MN</hi> 20 babilon <hi rend="italic">(semper) SM</hi> mundum <hi rend="italic">N</hi> apocalipsi <hi rend="italic">SM</hi> <lb/>
+            apocalibsi <hi rend="italic">N</hi> </note> <lb n="20"/>
+             
+<pb n="58"/>
+            Babylon magna uenit in memoriam ante deum <choice n="0.95"><sic n="1118">dare</sic><corr n="55">clare</corr></choice> <lb/>
+            ei calicem uini indignationis irae suae. 
+</p>
+          <p>Inimici diabolus uel uitia; in psalmo: 11 <choice n="0.00"><sic n="118">on</sic><corr n="65020">non</corr></choice> confundetur, <lb/>
+            cum loquetur inimicis suis in porta. 
+</p>
+          <p>Fures heretici uel pseudoprophetae; in euangelio: omnes<lb n="5"/>
+            quotquot uenerunt ante me fures fuerunt et latrones. <lb/>
+            </p>
+          <p>Gentes uitia; in Pentateucho: cum introduxerit te <lb/>
+            dominus deus tuus in terram quam possessurus <lb/>
+            ingredieris et deleuerit gentes multas coram te. <lb n="10"/>
+            item in aliam partem: omnes gentes plaudite manibus. 
+</p>
+          <p>Pugna certamen aduersus nequitias spiritales uel aduersum <lb/>
+            uitia conflictus; in apostolo: sic pugno non quasi aerem <lb/>
+            uerberans. 
+</p>
+          <p>Pax carnis in bonum spiritusque concordia; in psalmo:<lb n="15"/>
+            rogate quae pacis sunt Hierusalem. item <sic>paxChristus</sic>: <lb/>
+            in apostolo: ipse est enim pax nostra. 
+</p>
+          <p>Uictoria de diabolo uel de aduersis triumphus; in apostolo: <lb/>
+            deo autem gratias qui dedit nobis uictoriam per <lb/>
+            dominum nostrum Iesum Christum. <lb n="20"/>
+            
+</p>
+          <p rend="script">Brabium consummatorum praemium meritorum; in apostolo: <lb/>
+            ad destinatum persequor ad brabium supernae uocationis <lb/>
+            dei.
+
+<note type="footnote"> 3 Ps. 126, 5. 5 Ioh. 10, 8. 8 Dent. 7, 1. 11 Ps. 46, 2. <lb/>
+            18 I Cor. 9, 26. 16 Ps. 121, 6. 17 Ephes. 2, 14. 19 I Cor. 15,57. <lb/>
+            r22 Phil. 3, 14. </note>
+
+<note rend="script" type="footnote"> e <lb/>
+            .1 ueniet S memoria <hi rend="italic">SN</hi> 2 eius irae <hi rend="italic">SMN</hi> 4 dum loquitur <hi rend="italic">S</hi> loquitur <lb/>
+            <hi rend="italic">MN</hi> 5 eretici <hi rend="italic">M</hi> seudoprofetae <hi rend="italic">PN</hi> eudoprophetae <hi rend="italic">S</hi> 6 quodquod <lb/>
+            <hi rend="italic">SMN</hi> sunt <hi rend="italic">S</hi> 8 pentatheuco <hi rend="italic">S</hi> pentateuco <hi rend="italic">M</hi> penthatico <hi rend="italic">N</hi> <lb/>
+            9 terra <hi rend="italic">N</hi> 10 ingrederis <hi rend="italic">S</hi> deleueris <hi rend="italic">S</hi> 11 plaudite-aduersum <hi rend="italic">in S<lb/>
+             mutilo a m. 3</hi> plaudete <hi rend="italic">M</hi> 12 aduersus <hi rend="italic">S</hi> 14 ueruerans M <lb/>
+            15 et spiritus <hi rend="italic">S</hi> spiritus quae <hi rend="italic">N</hi> 16 ihierusalem <hi rend="italic">MN</hi> 17 enim est <hi rend="italic">S</hi> <lb/>
+            nostra et in aliam partem: non enim ueni pacem mittere sed gladium <hi rend="italic">M</hi> <lb/>
+            U <lb/>
+            18 diabulo <hi rend="italic">PM alterum</hi> de <hi rend="italic">om. M</hi> aduersariis S . 21 brabium <hi rend="italic">S <lb/>
+            (corr. m</hi> 2) brachium <hi rend="italic">N</hi> brauium <hi rend="italic">M apostulo M</hi> 22 brabrium <hi rend="italic">N</hi> <lb/>
+            brauium <hi rend="italic">M</hi> </note> 
+<pb n="59"/>
+            
+</p>
+          <p>Corona aeternae gloriae pro iustitia merces; in apostolo: <lb/>
+            de reliquo reposita est mihi corona iustitiae. 
+</p>
+          <p>Quoniam spiritalium profectuum consummatio prouehit ad <lb/>
+            coronam, recte horum quoque spiritalem nominum interpretationem <lb/>
+            corona consummat. quae tamen nomina uniuersa <lb n="5"/>
+            conplecti arduum duximus, sicut etiam illud, ut depromerentur <lb/>
+            cuncta, quae se in utramque partem gemina significatione <lb/>
+            diffundunt. 
+</p>
+          
+</div>
+
+<div n="10" subtype="chapter" type="textpart">
+<ab> <title>X.  DE NUMERIS. </title> </ab>
+          <p>Sane his nominibus absolutis numeros quoque breuiter <lb n="10"/>
+            digeramus, quos mystica exemplorum ratio inter sacratos <lb/>
+            celebriores efficit. 
+</p>
+          <p><num>I</num>. hic numerus ad unitatem deitatis refertur; in Pentateucho: <lb/>
+            audi Israhel, dominus deus tuus deus <lb/>
+            unus est. <lb n="15"/>
+            
+</p>
+          <p><num>II</num>. ad duo testamenta; in Regnorum: et fecit in
+</p>
+          <p>Dabir duo Cherubin in decem cubitorum <lb/>
+            magnitudinem. 
+</p>
+          <p><num>III</num>. ad trinitatem; in Iohannis <choice><sic>epistnla</sic><corr>epistula</corr></choice>: tria sunt quae <lb/>
+            testimonium perhibent: aqua sanguis spiritus. <lb n="20"/>
+            </p>
+          <p rend="script"><num>IIII</num>. ad quattuor euangelia; in Ezechiele: et ex medio <lb/>
+            eorum similitudo quattuor animalium.
+
+<note type="footnote"> 2 II Tim. 4, 8. 14 Dent. 6, 4. 16 III Reg. 6, 23. 19 I Ioh. 5. 8 <lb/>
+            22 Ezech. 1, 5.\' </note>
+
+<note rend="script" type="footnote"> 1 corona—corona] <hi rend="italic">desunt iu S mutilo, sunt adscripta a m. 3. s. X</hi> <lb/>
+            mercis <hi rend="italic">SM</hi> 2 de cetero mihi reposita <hi rend="italic">S</hi> 3 <hi rend="italic">prouexit jtf</hi> 4 corona <hi rend="italic">X</hi> <lb/>
+            nominum] numerum S interpraetationem <hi rend="italic">SX</hi> 6 arduum conplecti <hi rend="italic">X</hi> <lb/>
+            7 quaequae S parte <hi rend="italic">N</hi> geminata S 9 <hi rend="italic">inscriptio deest in X<lb/>
+             10 apsolutis S brebiter X</hi> 11 <hi rend="italic">degeramus S degeneramus X</hi> mistica <lb/>
+            <hi rend="italic">SM</hi> intra sagratos S sacros <hi rend="italic">N</hi> 12 <hi rend="italic">post</hi> efficit <hi rend="italic">legitur in X</hi> <lb/>
+            u <lb/>
+            <hi rend="italic">DE XUMERIS 13 1] unus X</hi> nomeru S <hi rend="italic">ad diuinitatem S</hi> pentatheuco <lb/>
+            <hi rend="italic">S</hi> pentateuco <hi rend="italic">M</hi> penthatico <hi rend="italic">N</hi> 14 srahel <hi rend="italic">X</hi> 16 II] duo <hi rend="italic">N</hi> <lb/>
+            17 dauir <hi rend="italic">S</hi> cherofin <hi rend="italic">S</hi> in <hi rend="italic">om. S</hi> cerubint decem gubitorum <hi rend="italic">X</hi> <lb/>
+            19 III] tres <hi rend="italic">N</hi> iohannes <hi rend="italic">N</hi> trea <hi rend="italic">N</hi> qui <hi rend="italic">S</hi> 20 adqua <hi rend="italic">X</hi> <lb/>
+            22 quartuor S ezechielem <hi rend="italic">M</hi> et ex] uidi et <hi rend="italic">X</hi> </note> 
+<pb n="60"/>
+            
+</p>
+          <p><num>V</num>. ad quinque libros Mosi; apostolus: in ecclesia <lb/>
+            uolo quinque uerba sensu meo loqui. 
+</p>
+          <p><num>VI</num>. ad diem sextum quo dominus hominem cum uniuersis <lb/>
+            terrae animantibus fecit; in Genesi: faciamus <lb/>
+            hominem ad imaginem et similitudinem nostram;<lb n="5"/>
+            item paulo post: et factum est uespere <lb/>
+            et factum est mane dies sextus. 
+</p>
+          <p><num>VII</num>. ad diem septimum in quo perfectis omnibus deus <lb/>
+            requieuit; in Genesi: et requieuit die septimo <lb/>
+            ab uniuerso opere quod patrarat. <lb n="10"/>
+            
+</p>
+          <p><num>VIII</num>. ad diem dominicum resurrectionis, id est octauum; <lb/>
+            in titulo psalmi: in finem pro octaua. 
+</p>
+          <p><num>VIIII</num>. ad sacramentum, quod hora nona dominus spiritum <lb/>
+            emisit; in euangelio: et circa horam nonam clamauit <lb/>
+            Iesus uoce magna. <lb n="15"/>
+            
+</p>
+          <p><num>X</num>. ad decalogum; <sic>inpsalmo</sic>: in psalterio decachordo <lb/>
+            psallam tibi. 
+</p>
+          <p><num>XII</num>. ad apostolos; in euangelio: duodecim autem <lb/>
+            apostolorum nomina sunt haec. 
+</p>
+          <p><num>XIIII</num>. ad sacramentum dominicae generationis; in euangelio:<lb n="20"/>
+            ab Abraham usque ad Dauid generationes <lb/>
+            quattuordecim. 
+</p>
+          <p><num>XV</num>. ad quindecim gradus templi. 
+</p>
+          <p><num>XVI</num>. ad numerum prophetarum. 
+</p>
+          <p rend="script"><num>XXII</num>. ad sacramentum diuinorum uoluminum secundum<lb n="25"/>
+            litteras Hebraeorum.
+
+<note type="footnote"> 1 I Cor. 14,19. 4 Gen. 1, 26. (j ib 1,31. 9 ib. 2, 2. 12 Ps. 11, 1. <lb/>
+            14 Matth. 27, 46. 16 Ps. 143, 9. 18 Matth. 10, 2. 21 ib. 1, 17 </note>
+
+<note rend="script" type="footnote"> 1 moysi <hi rend="italic">MN</hi> in apostolo M 2 uolo <hi rend="italic">om. M</hi> 3 quod S 5 semilitudinem <lb/>
+            S 6 item-post <hi rend="italic">om. S</hi> 8 septimum <hi rend="italic">om. N</hi> 9 diae <hi rend="italic">S</hi> 10 omni <hi rend="italic">S</hi> <lb/>
+            u <lb/>
+            <hi rend="italic">parauit S pararat N quo operauerat M</hi> 11 domicum P <hi rend="italic">octabuni S octa</hi>. <lb/>
+            bum <hi rend="italic">N</hi> 13 sagramentum Sora <hi rend="italic">N</hi> 14 hora nona <hi rend="italic">SN</hi> 16 decalogum <lb/>
+            id est decem uerba quae in tabulis duabus scripta snnt S psalterium <hi rend="italic">N<lb/>
+             om. S</hi> decacorda <hi rend="italic">S</hi> decacordarum <hi rend="italic">M</hi> 18 duodecem <hi rend="italic">S</hi> autem] enim <hi rend="italic">S</hi> <lb/>
+            19 haec sunt <hi rend="italic">S</hi> 21 ab <hi rend="italic">om. M</hi> abraam <hi rend="italic">N</hi> generationis <hi rend="italic">SM<lb/>
+             22 sunt XIIII S quattuordicem P 23 grados SM 26 hebreorum SMN</hi> </note> 
+<pb n="61"/>
+            
+</p>
+          <p><num>XXIIII</num>. ad mysterium numeri seniorum; in Apocalypsi: et <lb/>
+            super thronos uiginti quattuor seniores sedentes. <lb/>
+            </p>
+          <p><num>XXX</num>. ad fructus fidelium coniugiorum; in euangelio: et <lb/>
+            dabunt fructum aliud centensimum et aliud <lb n="5"/>
+            sexagensimum aliud tricensimum. 
+</p>
+          <p><num>XXXIII</num>. ad mysterium aetatis qua dominus in carne uersatus <lb/>
+            est; in apostolo, sicut quibusdam ex hoc uidetur: <lb/>
+            donec occurramus in unitate fidei et agnitionis <lb/>
+            filii dei in uirum perfectum in mensuram <lb n="10"/>
+            aetatis plenitudinis Christi. 
+</p>
+          <p><num>XL</num>. ad quadragensimae sacramentum; in euangelio: et <lb/>
+            agebatur a spiritu in deserto diebus quadraginta.\' <lb/>
+            </p>
+          <p><num>XLII</num>. ad numerum in heremo mansionum uel ad numerum <lb n="15"/>
+            generationum quae ab Abraham sunt usque ad <lb/>
+            dominum legum Christum. 
+</p>
+          <p><num>L</num>. ad Pentecosten; in actibus apostolorum: et cum <lb/>
+            conplerentur dies Pentecostes. 
+</p>
+          <p><num>LX</num>. ad fructum uiduis siue continentibus debitum; in <lb n="20"/>
+            euangelio: et dabunt fructum aliud sexagensimum. <lb/>
+            </p>
+          <p rend="script"><num>LXXII</num>. ad numerum presbyterorum Mosi uel discipulorum <lb/>
+            quos dominus elegit; in euangelio: post haec
+
+<note type="footnote"> 1 Apoc. 4, 4. 4 Matth. 13, 8. 9 Ephes. 4, 13. 12 Luc. 4, 1-2. <lb/>
+            17 cf. Matth. 1. 18 Act. 2, 1. 21 Matth. 13, 8. 24 Luc. 10, 1. </note>
+
+<note rend="script" type="footnote"> 1 misterium <hi rend="italic">SM</hi> in apocalipsi <hi rend="italic">SM om. N</hi> 2 tronos <hi rend="italic">SM</hi> <lb/>
+            uigenti <hi rend="italic">S</hi> et quattuor S 4 coniuuorum S 5 dabant <hi rend="italic">S <lb/>
+            pr. I</hi>. alium <hi rend="italic">N Otn. M</hi> centesimum <hi rend="italic">PM</hi> aliut <hi rend="italic">(et 6) N</hi> 6 trigesimum <hi rend="italic">S<lb/>
+             7 misterium SM etatis 5 actatis N</hi> 8 in his <hi rend="italic">S</hi> ex <hi rend="italic">Otn, N</hi> uede- <lb/>
+             <lb/>
+            <hi rend="italic">turS 9 unitatem SN</hi> agnitioncm S 10 fili N <hi rend="italic">uerum S (i m. 2)</hi> et <lb/>
+            in mensuram S mensura <hi rend="italic">N</hi> 13 a <hi rend="italic">om. S</hi> ab <hi rend="italic">N</hi> diserto <hi rend="italic">N</hi> <lb/>
+            quadragenta <hi rend="italic">S</hi> 15 ad heremu S eremum <hi rend="italic">M</hi> aeremum <hi rend="italic">N</hi> ad numero <lb/>
+            <hi rend="italic">(utroque l.) M</hi> 16 generationis S 17 christum iesum S 18 penthecosten <lb/>
+            <hi rend="italic">N</hi> 19 pentecosten <hi rend="italic">SMN</hi> 20 debitu <hi rend="italic">M</hi> 21 aliut <hi rend="italic">M</hi> <lb/>
+            23 praesbyterorum <hi rend="italic">S</hi> moysi <hi rend="italic">MN</hi> discepolorum <hi rend="italic">S</hi> 24 quod <hi rend="italic">N</hi> hec S </note> <lb/>
+             
+<pb n="62"/>
+            autem designauit dominus et alios septuaginta <lb/>
+            duos et misit illos binos ante faciem <lb/>
+            suam in omnem ciuitatem. 
+</p>
+          <p><num>C</num>. ad martyrum fructum siue uirginum; in euangelio: <lb/>
+            et dabunt fructum aliud centensimum. <lb n="5"/>
+            
+</p>
+          <p rend="script">Hos igitur certos sacratosque numeros exempli tantum <lb/>
+            causa protulimus. sunt uero praeter eos plurimi uel paene <lb/>
+            omnes sacrati qui quomodo fiant ipse diuinae lectionis scrutator <lb/>
+            inuenies.
+
+<note type="footnote"> 5 Matth. 13, 8. </note>
+
+<note rend="script" type="footnote"> 1 septuagenta duo <hi rend="italic">S</hi> 2 et duos M uinos <hi rend="italic">N</hi> ante-ciuitatem <lb/>
+            i <lb/>
+            <hi rend="italic">om. S</hi> 4 martirum <hi rend="italic">S</hi> martyrium <hi rend="italic">N</hi> 6 egitur <hi rend="italic">S</hi> sagratosque <hi rend="italic">S</hi> <lb/>
+            um <lb/>
+            tantium <hi rend="italic">S</hi> 7 protolimus <hi rend="italic">S</hi> praeter eorum. (um <hi rend="italic">add. m. 2) N</hi> plurimi <lb/>
+            uel in ueteri uel in nouo testamento <hi rend="italic">M</hi> pene <hi rend="italic">S</hi> poene <hi rend="italic">MN</hi> <lb/>
+            u <lb/>
+            8 sagrati <hi rend="italic">S</hi> praediuinae <hi rend="italic">N</hi> escrotator <hi rend="italic">S</hi> 9 inuenias <hi rend="italic">M</hi> EXPLI- <lb/>
+            CIT P EXPL. EUCHERII EFI LIBER PRIMUS <hi rend="italic">S</hi> EXPLICIT LIBER <lb/>
+            ERUDITIONUM <hi rend="italic">N</hi> </note> 
+<pb n="63"/>
+            
+</p>
+
+</div>
+        
+</div>
+</body>
+</text>
+</TEI>

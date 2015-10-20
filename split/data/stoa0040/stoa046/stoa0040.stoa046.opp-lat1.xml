@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL42.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Carolus Vrba</name>
+                  <addName xml:lang="de">Karl Vrba</addName>
+                </persName>
+              </editor> 
+              <editor>
+                <persName>
+                  <name xml:lang="la">Iosephus Zycha</name>
+                  <addName xml:lang="de">Joseph Zycha</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa057a">De Perfectione Iustitiae Hominis</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa044">De Gestis Pelagii</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa046">De Gratia Christi</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa056c">De Peccato Originali</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa056a">De Nuptiis et Concupiscentia</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1902</date>
+              </imprint>
+              <biblScope unit="volume">42</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/CorpusScriptorumEcclesiasticorumLatinorum42/Corpus_Scriptorum_Ecclesiasticorum_Latinorum_42#page/n5/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0040.stoa046.opp-lat1">
+<ab>
+            <title type="sub">III. DE GRATIA CHRISTI ET DE PECCATO ORIGINALI LIBRI DVO. LIBER PRIMVS. DE GRATIA CHRISTI. </title>
+          </ab>
+<div n="1" subtype="section" type="textpart">
+          <p><milestone n="1" unit="altchapter"/>Quantum de uestra corporali et maxime spiritali <lb n="5"/>
+            salute gaudeamus, sincerissimi fratres dilecti a deo Albina, <lb/>
+            Piniane et Melania, quia effari non possumus, uobis cogitandum <lb/>
+            credendumque dimittimus, ut ea de quibus nos <lb/>
+            consuluistis potius iam loquamur. festinante etenim perlatore. <lb/>
+            inter occupationes nostras multo apud Carthaginem quam <lb n="10"/>
+            ubicumque alibi densiores quantum deus donare dignatus est, <lb/>
+            ut potuimus, ista dictauimus. 
+</p>
+          
+</div>
+
+<div n="2" subtype="section" type="textpart">
+<p><milestone n="2" unit="altchapter"/> Scripsistis mihi cum Pelagio uos egisse, ut quaecumque <lb/>
+            aduersus eum dicerentur scripto damnaret, eumque <lb/>
+            dixisse audientibus uobis: \'<sic>anathemo</sic> qui uel sentit uel dicit <lb n="15"/>
+            gratiam dei, qua Christus uenit in hunc mundum peccatores <lb/>
+            saluos facere, non solum per singulas horas aut per <lb/>
+            singula momenta, sed etiam per singulos actus nostros non <lb/>
+            esse necessariam et qui hanc conantur auferre poenas sortiantur <lb/>
+            aeternas\\ quisquis haec audit et <choice n="0.97"><sic n="343">sensum</sic><corr n="9">pensum</corr></choice> eius ignorat, <lb n="20"/>
+            quem in libris suis satis euidenter expressit, non illis quos
+
+<note type="footnote"> 16 I Tim. 1, 15 </note>
+
+<note rend="script" type="footnote"> 2 finit lib III de baptismo paraulorum. Inč ad PinianQ lib I <hi rend="italic">M</hi> Inč <lb/>
+            lib Aurelii Aug epi de gra xpi contra Pelagift et Celestiu C Inc lib <lb/>
+            prim\' Aurelii Augustini epi contra Pelagium et Celestium de gra xpi et <lb/>
+            de peccato originali ad Albinã PinianQ et Melaniã <hi rend="italic">ChTP</hi> 5 et <lb/>
+            corporali <hi rend="italic">MC</hi> 6 gaudemus C dilectissima deo albina <hi rend="italic">V</hi> Albine <hi rend="italic">b</hi> <lb/>
+            7 Melanie <hi rend="italic">b</hi> 8 committimus <hi rend="italic">bd</hi> 9 enim <hi rend="italic">b</hi> 10 cartaginem <hi rend="italic">ChTP</hi> <lb/>
+            12 tractauimus <hi rend="italic">C</hi> 14 dampnaret <hi rend="italic">CChT</hi> 15 anathematizo <hi rend="italic">CVd</hi> <lb/>
+            sentit] dixit <hi rend="italic">M</hi> 19 sortiuntur <hi rend="italic">TPCh m. 1, b</hi> 21 illos <hi rend="italic">V</hi> </note> <lb/>
+             
+<pb n="126"/>
+            dicit inemendatos sibi fuisse subreptos aut omnino suos negat, <lb/>
+            sed in illis quos litteris suis quas Romam misit commemorat, <lb/>
+            omnino eum putat hoc sentire quod ueritas habet; quisquis <lb/>
+            autem quid in eis apertius dicat aduertit, debet habere etiam <lb/>
+            ista uerba suspecta, quia, etsi gratiam dei, qua Christus <lb n="5"/>
+            uenit in mundum peccatores saluos facere, in sola peccatorum <lb/>
+            remissione constituat, potest huic sensui uerba ista <lb/>
+            coaptare dicens ideo eam per singulas horas, per singula <lb/>
+            momenta et per actus singulos necessariam, ut semper in <lb/>
+            memoria retinentes et reminiscentes dimissa nobis esse peccata<lb n="10"/>
+            non peccemus ulterius adiuti non aliqua subministratione uirtutis, <lb/>
+            sed uiribus propriae uoluntatis quid sibi remissione <lb/>
+            peccatorum praestitum fuerit per actus singulos recordantis. <lb/>
+            item quoniam solent dicere nobis in eo Christum ad non <lb/>
+            peccandum praebuisse adiutorium, quia iuste ipse uiuendo<lb n="15"/>
+            iusteque docendo reliquit exemplum, possunt etiam ad hoc <lb/>
+            ista uerba coaptare, ut dicant per singula momenta, per singulos <lb/>
+            actus necessariam nobis esse huius modi gratiam, id est <lb/>
+            ut in omni conuersatione nostra intueamur dominicae conuersationis <lb/>
+            exemplum. peruidet autem fides uestra a confessione<lb n="20"/>
+            gratiae, de qua quaestio est, quam sit distinguenda ista confessio <lb/>
+            et tamen obtegi potest istorum ambiguitate uerborum. 
+</p>
+          
+</div>
+
+<div n="3" subtype="section" type="textpart">
+<p><milestone n="3" unit="altchapter"/> Sed quid mirum? quandoquidem ipse Pelagius, cum <lb/>
+            episcopalibus gestis sine ulla recusatione damnauerit eos, qui <lb/>
+            dicunt gratiam dei et adiutorium non ad singulos actus dari,<lb n="25"/>
+            sed in libero arbitrio esse uel in lege atque doctrina — ubi <lb/>
+            putabamus eius de hac re omnes tergiuersationes esse consumptas <lb/>
+            — damnauerit etiam eos, qui docent gratiam dei <lb/>
+            secundum merita nostra dari, tamen in libris, quos edidit pro
+
+<note type="footnote"> 5 I Tim. 1, 15 24 cf. pag. 84, B sqq. </note>
+
+<note type="footnote"> 2 if). litteris <hi rend="italic">C</hi> 4 aptius <hi rend="italic">b</hi> aduerti* <hi rend="italic">M</hi> 6 remissione peccatorum <lb/>
+            <hi rend="italic">Vd</hi> 7 ista uerba <hi rend="italic">b</hi> 11 adiutorium <hi rend="italic">M</hi> 13 recordantibus <hi rend="italic">V</hi> recordantes <lb/>
+            <hi rend="italic">b</hi> 14 in eo nobis <hi rend="italic">M</hi> 16 iusteque docendo <hi rend="italic">in ras. M</hi> iusteque <lb/>
+            dicendo <hi rend="italic">b</hi> 18 modi <hi rend="italic">om. V</hi> 22 ista <hi rend="italic">V</hi> 23 quoniamquidem <hi rend="italic">V</hi> <lb/>
+            26 ubi] si <hi rend="italic">V</hi> 27 esse <hi rend="italic">in ras. M</hi> </note> <lb/>
+             
+<pb n="127"/>
+            libero arbitrio, quorum mentionem facit in epistula, quam <lb/>
+            Romam misit, nihil aliud sentire monstratur quam id quod <lb/>
+            damnasse uidebatur. nam gratiam dei et adiutorium, quo <lb/>
+            adiuuamur ad non peccandum, aut in natura et libero ponit <lb/>
+            arbitrio aut in lege atque doctrina, ut uidelicet, cum adiuuat <lb n="5"/>
+            deus hominem, ut declinet a malo et faciat bonum, reuelando <lb/>
+            et ostendendo quid fieri debeat adiuuare credatur, non <lb/>
+            etiam cooperando et dilectionem inspirando, ut id quod faciendum <lb/>
+            esse cognouerit faciat. 
+</p>
+          
+</div>
+
+<div n="4" subtype="section" type="textpart">
+<p>Nam cum tria constituat atque distinguat, quibus diuina <lb n="10"/>
+            mandata dicit inpleri: possibilitatem, uoluntatem, actionem — <lb/>
+            possibilitatem scilicet, qua potest homo esse iustus, uoluntatem, <lb/>
+            qua uult esse iustus, actionem, qua iustus est — <lb/>
+            horum trium primum, id est possibilitatem datam confitetur <lb/>
+            a creatore naturae nec esse in nostra potestate, sed eam nos <lb n="15"/>
+            habere, etiamsi nolimus, duo uero reliqua, id est uoluntatem <lb/>
+            et actionem nostra esse asserit atque ita nobis tribuit, ut <lb/>
+            nonnisi a nobis esse contendat. denique gratia dei non ista <lb/>
+            duo, quae nostra omnino uult esse, id est uoluntatem et <lb/>
+            actionem, sed illam, quae in potestate nostra non est et nobis <lb n="20"/>
+            ex deo est, id est possibilitatem, perhibet adiuuari, tamquam <lb/>
+            illa quae nostra sunt, hoc est uoluntas et actio, tam sint <lb/>
+            ualentia ad declinandum a malo et faciendum bonum, ut <lb/>
+            diuino adiutorio non indigeant, illud uero, quod nobis ex deo <lb/>
+            est, hoc sit inualidum, id est possibilitas, ut semper gratiae <lb n="25"/>
+            adiuuetur auxilio. 
+</p>
+          
+</div>
+
+<div n="5" subtype="section" type="textpart">
+<p><milestone n="4" unit="altchapter"/> Sed ne quis forsitan dicat nos uel non recte intellegere <lb/>
+            quae loquitur uel maleuolo animo in alium sensum quae <lb/>
+            non ita dicta sunt uertere, ipsa iam uerba eius accipite. &lt;nos&gt;. <lb/>
+            inquit, \'sic tria ista distinguimus et certum uelut in ordinem
+
+<note type="footnote"> 6 I Petr. 3, 11 (cf. Ps. 33, 15; 36, 27) </note>
+
+<note type="footnote"> 4 in libero <hi rend="italic">C</hi> 6 declinat <hi rend="italic">b</hi> faciat <hi rend="italic">om. V</hi> 10 distingat C <lb/>
+            11 et actionem <hi rend="italic">b</hi> 14 confitetur datam C 16 nolumus <hi rend="italic">b</hi> 17 nobis <lb/>
+            ita C 18 esse a nobis <hi rend="italic">ChP</hi> gratia* <hi rend="italic">Ch</hi> in ista <hi rend="italic">Ch</hi> 19 il) <lb/>
+            nostra C uult omnino <hi rend="italic">TP</hi> id est <hi rend="italic">om. P</hi> 20 nostra e§t <hi rend="italic">C</hi> non <lb/>
+            <hi rend="italic">om. V</hi> 23 uoler.tia <hi rend="italic">m. 1 ChT</hi> 28 malinolo <hi rend="italic">CTPb</hi> 29 eius uerba <hi rend="italic">b</hi> </note> <lb n="30"/>
+             
+<pb n="128"/>
+            digesta partimur. primo loco posse statuimus, secundo uelle, <lb/>
+            tertio esse; posse in natura, uelle in arbitrio, esse in effectu <lb/>
+            locamus. primum illud, id est posse ad deum proprie pertinet, <lb/>
+            qui illud creaturae suae contulit, duo uero reliqua, hoc est <lb/>
+            uelle et esse ad hominem referenda sunt, quia de arbitrii<lb n="5"/>
+            fonte descendunt. ergo in uoluntate et opere bono laus hominis <lb/>
+            est, immo et hominis et dei, qui ipsius uoluntatis et operis <lb/>
+            possibilitatem dedit quique ipsam possibilitatem gratiae suae <lb/>
+            adiuuat semper auxilio; quod uero potest homo uelle bonum <lb/>
+            atque perficere, solius dei est. potest itaque illud unum esse,<lb n="10"/>
+            etiamsi duo ista non fuerint, ista uero sine illo esse non <lb/>
+            possunt. itaque liberum mihi est nec uoluntatem bonam habere <lb/>
+            nec actionem, nullo autem modo possum non habere possibilitatem <lb/>
+            boni; inest mihi, etiamsi noluero, nec otium sui aliquando <lb/>
+            in hoc natura recipit. quem nobis sensum exempla<lb n="15"/>
+            aliqua faciant clariorem. quod possumus uidere oculis, nostrum <lb/>
+            non est, quod uero bene aut male uidemus, hoc nostrum est; <lb/>
+            quod loqui possumus, dei est, quod <choice><sic>vero</sic><corr>uero</corr></choice> bene aut male loquimur, <lb/>
+            nostrum est. et ut generaliter uniuersa complectar: quod possumus <lb/>
+            omne bonum facere, dicere, cogitare, illius est, qui hoc posse<lb n="20"/>
+            donauit, qui hoc posse adiuuat; quod uero bene uel agimus <lb/>
+            uel loquimur uel cogitamus, nostrum est, quia haec omnia <lb/>
+            uertere in malum etiam possumus. unde, quod propter calumniam <lb/>
+            uestram saepe repetendum est, cum dicimus posse <lb/>
+            hominem esse sine peccato, et confessione possibilitatis acceptae<lb n="25"/>
+            laudamus deum, qui nobis hoc posse largitus est, nec est ibi <lb/>
+            ulla laudandi hominis occasio, ubi solius dei causa tractatur; <lb/>
+            non enim de uelle nec de esse, sed tantummodo de eo quod <lb/>
+            potest esse disseritur\'.  
+</p>
+
+</div>
+
+<div n="6" subtype="section" type="textpart">
+<p><milestone n="5" unit="altchapter"/> Ecce est totum dogma Pelagii in libro eius tertio pro 
+
+
+
+<note type="footnote">2 affectu CV <hi rend="italic">4 illut C (saepius) 9 homo potest b 11 ullo M</hi> <lb/>
+            15 hoc] illo <hi rend="italic">b</hi> 16 facient <hi rend="italic">Vbd 17 pr</hi>. est <hi rend="italic">om. V</hi> 18 quod loqui—nostrum <lb/>
+            est <hi rend="italic">om. CChTPVbd; cf. pag. 139, 10</hi> 21 uero <hi rend="italic">om. C</hi> 23 etiam <lb/>
+            in malum b calumpniam <hi rend="italic">CT</hi> 24 nostram <hi rend="italic">b</hi> hominem posse <hi rend="italic">Vbd</hi> <lb/>
+            25 et <hi rend="italic">om. CChTP</hi> 30 tertio eius P </note> <lb/>
+             
+<pb n="129"/>
+            libero arbitrio his omnino uerbis diligenter expressum, quo <lb/>
+            tria ista, unum quod est posse, alterum quod est uelle, tertium <lb/>
+            quod est esse, id est possibilitatem, uoluntatem, actionem, <lb/>
+            tanta curauit subtilitate distinguere, ut quandocumque legimus <lb/>
+            uel audimus eum diuinae gratiae adiutorium confiteri, ut a malo <lb n="5"/>
+            declinemus bonumque faciamus, siue in lege atque doctrina <lb/>
+            siue ubilibet constituat, sciamus quid loquitur nec erremus <lb/>
+            aliter eum intellegendo quam sentit. scire quippe debemus, <lb/>
+            quod nec uoluntatem nostram nec actionem diuino adiuuari <lb/>
+            credit auxilio, sed solam possibilitatem uoluntatis atque operis, <lb n="10"/>
+            quam solam in his tribus nos habere affirmat ex deo, tamquam <lb/>
+            hoc sit infirmum, quod deus ipse posuit in natura, cetera <lb/>
+            uero duo, quae nostra esse uoluit, ita sint firma et fortia et <lb/>
+            sibi sufficientia, ut nullo indigeant eius auxilio, et ideo non <lb/>
+            adiuuet ut uelimus, non adiuuet ut agamus, sed tantummodo <lb n="15"/>
+            adiuuet ut uelle et agere ualeamus. contra autem apostolus <lb/>
+            cum timore, inquit, et tremore uestram ipsorum salutem <lb/>
+            operamini. et ut scirent, quia non tantum in eo quod operari <lb/>
+            possint — hoc etenim in natura et in doctrina iam <lb/>
+            acceperant — sed etiam in eo quod operantur diuinitus adiuuantur, <lb n="20"/>
+            non ait: deus est enim qui operatur in uobis posse, <lb/>
+            tamquam ipsi iam et uelle et operari per se ipsos habeant <lb/>
+            nec in his duobus adiutorio eius indigeant, sed ait: deus <lb/>
+            est enim qui operatur in uobis et uelle et perficere, <lb/>
+            uel, sicut in aliis et maxime graecis codicibus legitur, et <lb n="25"/>
+            uelle et operari. uidete si non apostolus gratiae dei futuros <lb/>
+            aduersarios sancto spiritu tanto ante praeuidit et haec duo, <lb/>
+            id est et uelle et operari, quae iste ita nostra esse uoluit,
+
+<note type="footnote">17 Phil. 2, 12 23 Phil. 2, 13 </note>
+
+<note rend="script" type="footnote"> 3 accionem C <hi rend="italic">4 subtilitate curauit b 5 eum om. CChTPVbd</hi> 7 quod <lb/>
+            <hi rend="italic">MCP</hi> loquimur <hi rend="italic">m. 1 T</hi> 12 ipse deus <hi rend="italic">b</hi> 13 uelit <hi rend="italic">b</hi> 16 adiuuat <hi rend="italic">b</hi> <lb/>
+            17 urm <hi rend="italic">CChT m. 1</hi> operamini salutem <hi rend="italic">Vbd</hi> 19 possent <hi rend="italic">M</hi> enim <lb/>
+            <hi rend="italic">Vbd</hi> 20 adiuuentur <hi rend="italic">b</hi> 21 nobis <hi rend="italic">V</hi> 22 <hi rend="italic">pr</hi>. et <hi rend="italic">om. b</hi> 24 enim <lb/>
+            est <hi rend="italic">Vbd</hi> 25 maxime et <hi rend="italic">M</hi> 28 <hi rend="italic">pr</hi>. et <hi rend="italic">om. C</hi> operari pej. §e iuşQş C <lb/>
+            iste <hi rend="italic">om. M</hi> </note>
+
+<note type="footnote"> XXXXII Aug. Sect. VIII pars II. </note>
+
+<note type="footnote"> 9 </note> <lb/>
+             
+<pb n="130"/>
+            tamquam ipsa diuinae gratiae non adiuuentur auxilio, deum in <lb/>
+            nobis dixit operari. 
+</p>
+          
+</div>
+
+<div n="7" subtype="section" type="textpart">
+<p><milestone n="6" unit="altchapter"/> Neque hinc Pelagius incautos fallat et simplices uel <lb/>
+            etiam se ipsum, quoniam cum dixisset: (ergo in uoluntate et <lb/>
+            opere bono laus hominis est\', uelut correxit atque addidit:<lb n="5"/>
+            \'immo et hominis et dei\'. non enim hoc propterea dixit, quia <lb/>
+            secundum sanam doctrinam intellegi uoluit, quod et uelle et <lb/>
+            operari deus operetur in nobis, sed cur hoc dixerit satis euidenter <lb/>
+            ostendit continuo subiungendo: \'qui ipsius uoluntatis <lb/>
+            et operis possibilitatem dedit\'. hanc autem possibilitatem in<lb n="10"/>
+            natura eum ponere de uerbis eius superioribus clarum est. <lb/>
+            sed ne nihil de gratia dixisse uideretur, adiunxit: \'quique ipsam <lb/>
+            possibilitatem gratiae suae adiuuat semper auxilio\'; non ait: <lb/>
+            ipsam uoluntatem uel ipsam operationem — quod si diceret, <lb/>
+            non abhorrere a doctrina apostolica uideretur — sed ait:<lb n="15"/>
+            \'ipsam possibilitatem\', illud uidelicet ex tribus, quod in natura <lb/>
+            locauit, \'gratiae suae adiuuat semper auxilio\', ut scilicet in <lb/>
+            uoluntate et actione non ideo laus sit et dei et hominis, quia <lb/>
+            sic uult homo, ut tamen deus uoluntati eius ardorem dilectionis <lb/>
+            inspiret, et sic operatur homo, ut tamen deus cooperetur<lb n="20"/>
+            — sine cuius adiutorio quid est homo? — sed ideo ad <lb/>
+            hanc laudem adiunxit et deum, quia nisi natura esset in qua <lb/>
+            nos condidit, qua uelle et agere possemus, nec uellemus nec <lb/>
+            ageremus. 
+</p>
+          
+</div>
+
+<div n="8" subtype="section" type="textpart">
+<p>Hanc autem naturalem possibilitatem quod adiuuari dei<lb n="25"/>
+            gratia confitetur, non est hic apertum uel quam dicat gratiam <lb/>
+            uel quatenus ea naturam sentiat adiuuari; sed sicut aliis locis, <lb/>
+            in quibus euidentius loquitur, intellegi potest, non uult aliud <lb/>
+            accipi quam legem atque doctrinam, qua naturalis possibilitas <lb/>
+            adiuuetur. <lb n="30"/>
+            
+</p>
+          <p><milestone n="7" unit="altchapter"/>Nam quodam loco ait: \'hic nos imperitissimi hominum
+
+<note type="footnote"> <hi rend="italic">2 dicit b 3 Ptlagius hic b</hi> 5 laus] <hi rend="italic">locus M 8 dixit b</hi> 12 adiun*xit <lb/>
+            <hi rend="italic">T</hi> 15 aborrere» C 18 <hi rend="italic">med</hi>. et <hi rend="italic">om. C</hi> 19 sic] si##sicut M <lb/>
+            si sic <hi rend="italic">CChTPVb</hi> eius uoluntati deus <hi rend="italic">TPb</hi> 21 cuius] eius <hi rend="italic">b</hi> <lb/>
+            quis <hi rend="italic">Vb</hi> 22 adiuncxit <hi rend="italic">T</hi> 25 quam <hi rend="italic">V</hi> </note> <lb/>
+             
+<pb n="131"/>
+            putant iniuriam diuinae gratiae facere, quia dicimus eam sine <lb/>
+            uoluntate nostra nequaquam in nobis perficere sanctitatem — <lb/>
+            quasi deus gratiae suae aliquid imperauerit et non illis, quibus <lb/>
+            imperauit, etiam gratiae suae auxilium subministret, ut quod <lb/>
+            per liberum homines facere iubentur arbitrium, facilius possent <lb n="5"/>
+            implere per gratiam\' — et tamquam explicaturus quam dicat <lb/>
+            gratiam secutus adiunxit dicens: \'quam nos non, ut tu putas, <lb/>
+            in lege tantummodo, sed et in dei esse adiutorio confitemur\'. <lb/>
+            quis non hic desideret ut ostendat quam uelit intellegi gratiam? <lb/>
+            propter hoc enim maxime de illo expectare debemus, <lb n="10"/>
+            ut dicat hoc quod dicit non in lege tantummodo se gratiam <lb/>
+            confiteri. sed nobis hac expectatione suspensis quid addiderit <lb/>
+            intuemini. \'adiuuat enim nos deus\', inquit, <sic>cper</sic> doctrinam et <lb/>
+            reuelationem suam, dum cordis nostri oculos aperit; dum <lb/>
+            nobis, ne praesentibus occupemur, futura demonstrat; dum <lb n="15"/>
+            diaboli pandit insidias; dum nos multiformi et ineffabili dono <lb/>
+            gratiae caelestis illuminat\'. deinde sententiam suam quadam <lb/>
+            uelut absolutione concludens <sic>cqui</sic> haec dicit\', inquit, \'gratiam <lb/>
+            tibi uidetur negare an et liberum hominis arbitrium et dei <lb/>
+            gratiam confitetur\'? in his omnibus non recessit a commendatione <lb n="20"/>
+            legis atque doctrinae, hanc esse adiuuantem gratiam <lb/>
+            diligenter inculcans et hoc exequens quod proposuerat, <sic>cumdiceret</sic>: <lb/>
+            <sic>lsed</sic> in dei esse adiutorio confitemur\'. denique dei <lb/>
+            adiutorium multipliciter insinuandum putauit commemorando <lb/>
+            doctrinam et reuelationem et oculorum cordis adapertionem et <lb n="25"/>
+            demonstrationem futurorum et apertionem diabolicarum imidiarum <lb/>
+            et multiformi atque ineffabili dono gratiae caelestis <lb/>
+            illuminationem, ad hoc utique, ut diuina praecepta et promissa
+
+<note type="footnote"> 2 nostra] naturae <hi rend="italic">V</hi> 4 subministrat <hi rend="italic">MCChTP</hi> 6 dicaijt <hi rend="italic">T</hi> 7 sequutus <lb/>
+            <hi rend="italic">m. 1 Ch</hi> 8 dei] legis <hi rend="italic">M</hi> 10 de] ab <hi rend="italic">V</hi> 11 hoc] homo <hi rend="italic">M</hi> qui <lb/>
+            <hi rend="italic">MC</hi> quid <hi rend="italic">Ch</hi> se] sed <hi rend="italic">M</hi> 12 hae <hi rend="italic">M</hi> 13 inquit deus <hi rend="italic">b</hi> 14 apperit <lb/>
+            <hi rend="italic">T</hi> 15 dum <hi rend="italic">bis leg. P</hi> 20 omnibus his <hi rend="italic">C</hi> 21 gratiam adiuuantem <lb/>
+            C 22 exsequens <hi rend="italic">MPbd</hi> 23 sed et in legis esse arbitrio con- <lb/>
+            Stemur adiutorium <hi rend="italic">M</hi> confitemur adiutorium C dei] legis <hi rend="italic">M om. <lb/>
+             VCh m. 1</hi> 24 adiutorium <hi rend="italic">om. MCTPVCh m. 1</hi> 27 multiformem <lb/>
+            atque ineffabilem <hi rend="italic">b</hi> 28 ut] et <hi rend="italic">M</hi> </note>
+
+<note type="footnote"> 9* </note> <lb/>
+             
+<pb n="132"/>
+            discamus. hoc est ergo gratiam dei ponere in lege atque <lb/>
+            doctrina. 
+</p>
+          
+</div>
+
+<div n="9" subtype="section" type="textpart">
+<p><milestone n="8" unit="altchapter"/> Hinc itaque apparet hanc eum gratiam confiteri, <lb/>
+            qua demonstrat et reuelat deus quid agere debeamus, non <lb/>
+            qua donat atque adiuuat, ut agamus, cum ad hoc potius<lb n="5"/>
+            ualeat legis agnitio, si gratiae desit opitulatio, ut fiat mandati <lb/>
+            praeuaricatio; ubi enim non est lex, ait apostolus, <choice><sic>uec</sic><corr>nec</corr></choice> <lb/>
+            praeuaricatio, et: concupiscentiam nesciebam, nisi <lb/>
+            lex diceret: non concupisces. ac per hoc usque adeo <lb/>
+            aliud est lex, aliud gratia, ut lex non solum nihil prosit,<lb n="10"/>
+            uerum etiam plurimum obsit, nisi adiuuet gratia, et haec <lb/>
+            ostendatur legis utilitas, quoniam quos facit praeuaricationis <lb/>
+            reos, cogit confugere ad gratiam liberandos et ut concupiscentias <lb/>
+            malas superent adiuuandos. iubet enim magis quam <lb/>
+            iuuat, docet morbum esse, non sanat; immo ab ea potius<lb n="15"/>
+            quod non sanatur augetur, ut attentius et sollicitius gratiae <lb/>
+            medicina quaeratur, quia littera occidit, spiritus autem <lb/>
+            uiuificat. si enim data esset lex, quae posset uiuificare, <lb/>
+            omnino ex lege esset iustitia; in quantum tamen <lb/>
+            etiam lex adiuuet, adiungit et dicit: sed conclusit scriptura<lb n="20"/>
+            omnia sub peccato, ut promissio ex fide Iesu <lb/>
+            Christi daretur credentibus. itaque lex, inquit, paedagogus <lb/>
+            noster fuit in Christo Iesu. hoc ipsum ergo <lb/>
+            superbis est utile sub peccato artius manifestiusque concludi, <lb/>
+            ne ad faciendam iustitiam de liberi arbitrii quasi propriis<lb n="25"/>
+            uiribus praesumatur, sed omne os obstruatur et reus fiat <lb/>
+            omnis mundus deo, quia non iustificabitur ex lege <lb/>
+            omnis caro coram illo; per legem enim cognitio
+
+<note type="footnote">7 Rom. 4, 15 8 Rom. 7, 7 17 II Cor. 3, 6 18 Gal. 3, 21 <lb/>
+            20 Gal. 3, 22. 24 2li Rom. 3, 19-21 </note>
+
+<note type="footnote"><hi rend="italic">3 hic CChTP 4 debemus b 6 oppitulatio C 7 lex om. m. 1 C</hi> <lb/>
+            10 aliud est gratia <hi rend="italic">Vd</hi> 11 adiunat C hic <hi rend="italic">V</hi> 12 quos] quod <hi rend="italic">M</hi> <lb/>
+            14 iuuet <hi rend="italic">V</hi> 16 qua C solliticius C solicitius <hi rend="italic">T</hi> 18 quae omnino <lb/>
+            <hi rend="italic">M</hi> quo <hi rend="italic">V</hi> iustificare <hi rend="italic">ChC m. 2, b</hi> 20 ptiam <hi rend="italic">Ch om. b</hi> 24 utilis <hi rend="italic">M</hi> <lb/>
+            27 iustificatur <hi rend="italic">CChTP</hi> </note> <lb/>
+             
+<pb n="133"/>
+            peccati. nunc autem sine lege iustitia dei manifestata est, <lb/>
+            testificata per legem et prophetas. quomodo ergo sine <lb/>
+            lege manifestata, si per legem testificata? non itaque sine <lb/>
+            lege manifestata, sed sine lege iustitia, quia iustitia dei est, <lb/>
+            id est quae nobis non ex lege sit, sed ex deo, non quae illo <lb n="5"/>
+            imperante cognoscendo timeatur, sed quae illo donante diligendo <lb/>
+            teneatur, ut et qui gloriatur in domino glorietur. 
+</p>
+          
+</div>
+
+<div n="10" subtype="section" type="textpart">
+<p><milestone n="9" unit="altchapter"/> Quid ergo est, quod iste legem atque doctrinam <lb/>
+            deputat gratiam, qua iuuamur ad operandam iustitiam, quae <lb/>
+            ut multum adiuuet, ad hoc adiuuat ut gratia requiratur? <lb n="10"/>
+            nemo enim legem potest implere per legem; plenitudo enim <lb/>
+            legis caritas, caritas autem dei non per legem diffusa <lb/>
+            est in cordibus nostris, sed per spiritum sanctum qui <lb/>
+            datus est nobis. proinde per legem gratia demonstratur. ut <lb/>
+            lex per gratiam compleatur. quid enim iuuat Pelagium, quia <lb n="15"/>
+            diuersis uerbis eandem rem dicit, ut non intellegatur in lege <lb/>
+            atque doctrina gratiam constituere, qua possibilitatem naturae <lb/>
+            asserit adiuuari? quantum autem existimo, ideo ueretur intellegi, <lb/>
+            quia damnauit eos, qui dicunt gratiam dei et adiutorium <lb/>
+            non ad singulos actus dari, sed in libero arbitrio esse <lb n="20"/>
+            uel in lege atque doctrina, et tamen latere se putat, cum <lb/>
+            aliis atque aliis locutionibus uersat significationem legis atque <lb/>
+            doctrinae. 
+</p>
+          
+</div>
+
+<div n="11" subtype="section" type="textpart">
+<p><milestone n="10" unit="altchapter"/> Et alio quippe loco, cum diu asseruisset non adiutorio <lb/>
+            dei, sed ex nobis ipsis in nobis effici uoluntatem bonam, <lb n="25"/>
+            opposuit sibi ex apostoli epistola quaestionem atque ait: \'et <lb/>
+            quomodo\', inquit, <sic>lstabit</sic> illud apostoli: deus est enim qui <lb/>
+            operatur in uobis et uelle et perficere\'? deinde ut hanc <lb/>
+            oppositionem ueluti solueret, quam uidebat dogmati suo uehementer <lb/>
+            esse contrariam, secutus adiunxit: \'operatur in nobis <lb n="30"/>
+            uelle quod bonum est, uelle quod sanctum est, dum nos
+
+<note type="footnote"> 7 I Cor. 1, 31 11 Rom. 13, 10 12 Rom. 5, 5 27 Phil. 2, 13 <lb/>
+            3 manifestata est C ita <hi rend="italic">b</hi> 7 et <hi rend="italic">om. M</hi> 11 potest legem <hi rend="italic">Vbd</hi> <lb/>
+            15 pellagium <hi rend="italic">T</hi> 22 loquutionibus <hi rend="italic">m. 1 Ch</hi> 26 posuit <hi rend="italic">MCChTP</hi> <lb/>
+            27 inquies <hi rend="italic">M</hi> 28 nobis <hi rend="italic">CT</hi> 30 sequutus <hi rend="italic">PCh m. 1</hi> adiuncxit <hi rend="italic">T</hi> </note> <lb/>
+             
+<pb n="134"/>
+            terrenis cupiditatibus deditos et mutorum more animalium <lb/>
+            tantummodo praesentia diligentes futurae gloriae magnitudine <lb/>
+            et praemiorum pollicitatione succendit; dum reuelatione sapientiae <lb/>
+            in desiderium dei stupentem suscitat uoluntatem; dum <lb/>
+            <sic n="poss">nobis1</sic> — quod tu alibi negare non metuis — \'suadet omne<lb n="5"/>
+            quod bonum est\'. quid manifestius nihil aliud eum dicere <lb/>
+            gratiam, qua deus in nobis operatur uelle quod bonum est, <lb/>
+            quam legem atque doctrinam? in lege namque et doctrina <lb/>
+            sanctarum scripturarum futurae gloriae atque praemiorum <lb/>
+            promittitur magnitudo, ad doctrinam pertinet etiam quod<lb n="10"/>
+            sapientia reuelatur, ad doctrinam pertinet cum suadetur omne <lb/>
+            quod bonum est. et si inter docere et suadere uel potius <lb/>
+            exhortari distare aliquid uidetur, etiam hoc tamen doctrinae <lb/>
+            generalitate concluditur, quae quibusque sermonibus uel <lb/>
+            litteris continetur; nam et sanctae scripturae et docent et<lb n="15"/>
+            exhortantur et potest esse in docendo et exhortando etiam <lb/>
+            hominis operatio. sed nos eam gratiam uolumus isti aliquando <lb/>
+            fateantur, qua futurae gloriae magnitudo non solum promittitur, <lb/>
+            uerum etiam creditur et speratur, nec solum reuelatur sapientia, <lb/>
+            uerum et amatur nec solum suadetur omne quod <lb n="20"/>
+            bonum est, uerum et persuadetur. non enim omnium est <lb/>
+            fides, qui audiunt per scripturas regnum caelorum dominum <lb/>
+            pollicentem, aut omnibus persuadetur quibuscumque suadetur, <lb/>
+            ut ueniant ad eum qui dicit: uenite ad me omnes qui <lb/>
+            laboratis; quorum autem sit fides et quibus persuadetur, ut <lb n="25"/>
+            ad eum ueniant, satis ipse demonstrauit, ubi ait: nemo uenit <lb/>
+            ad me, nisi pater qui misit me traxerit eum, et paulo <lb/>
+            post, cum de non credentibus loqueretur, dixi, inquit, uobis,
+
+<note type="footnote"> 21 II Thess. 3, 2 24 Matth. 11, 28 26 loh. 6, 44 <lb/>
+            28 Ioh. 6, 65 </note>
+
+<note type="footnote"> 1 debitos <hi rend="italic">M</hi> et <hi rend="italic">om. b</hi> 2 diligenter <hi rend="italic">M</hi> 5 quod tamen alibi negare <lb/>
+            non metuit <hi rend="italic">F</hi> 11 suadetur] studetur <hi rend="italic">M</hi> 12 potius <hi rend="italic">om. m. 1 C</hi> 13 ex- <lb/>
+            <hi rend="italic">ortari C 14 quibusque] quibus quia C 16 exortantur CT exortando CP</hi> <lb/>
+            17 nolumus <hi rend="italic">b</hi> iste aliquando fateatur <hi rend="italic">d</hi> 18 futura lege <hi rend="italic">M</hi> 20 etiam <lb/>
+            et <hi rend="italic">CTPb</hi> snadetur solum <hi rend="italic">b</hi> 22 dominum regnum caelorum <hi rend="italic">ChVbd</hi> <lb/>
+            24 ad me <hi rend="italic">post</hi> laboratis <hi rend="italic">C</hi> 26 uenient <hi rend="italic">b</hi> monstrauit M </note> <lb/>
+             
+<pb n="135"/>
+            quia nemo potest uenire ad me, nisi fuerit ei datum <lb/>
+            a patre meo. hanc debet Pelagius gratiam confiteri, si uult <lb/>
+            non solum uocari, uerum etiam esse <choice><sic>christianus</sic><corr>Christianus</corr></choice>. 
+</p>
+          
+</div>
+
+<div n="12" subtype="section" type="textpart">
+<p><milestone n="11" unit="altchapter"/> Quid autem dicam de reuelatione sapientiae? <lb/>
+            neque enim facile quisquam sperauerit in hac uita posse peruenire <lb n="5"/>
+            ad magnitudinem reuelationum apostoli Pauli et utique <lb/>
+            in eis quid aliud credendum est ei reuelari solere, nisi quod <lb/>
+            ad sapientiam pertineret? et tamen dicit: in magnitudine <lb/>
+            reuelationum mearum ne extollar, datus est mihi stimulus <lb/>
+            carnis meae, angelus satanae, qui me colaphizet. <lb n="10"/>
+            propter quod ter dominum rogaui. ut auferret eum a <lb/>
+            me, et dixit mihi: sufficit tibi gratia mea; nam uirtus <lb/>
+            in infirmitate perficitur. procul dubio si iam summa et <lb/>
+            cui nihil esset addendum caritas in apostolo tunc fuisset, <lb/>
+            quae omnino non posset inflari, numquid necessarius esset <lb n="15"/>
+            angelus satanae, quo colaphizante reprimeretur elatio, quae in <lb/>
+            magnitudine reuelationum posset existere? quid est autem <lb/>
+            aliud elatio quam inflatio? et utique de caritate uerissime <lb/>
+            dictum est: caritas non aemulatur, non inflatur. haec <lb/>
+            itaque caritas adhuc etiam in tanto apostolo de die in. diem <lb n="20"/>
+            profecto augebatur, quamdiu homo eius interior de die in <lb/>
+            diem renouabatur, perficienda sine dubio ubi iam non posset <lb/>
+            <choice><sic>iuflari</sic><corr>inflari</corr></choice>. tunc autem mens eius adhuc erat, ubi inflaretur <lb/>
+            magnitudine reuelationis, donec impleretur solido aedificio <lb/>
+            caritatis; nondum enim perueniendo apprehenderat, quo proficiendo <lb n="25"/>
+            currebat. 
+</p>
+          
+</div>
+
+<div n="13" subtype="section" type="textpart">
+<p><milestone n="12" unit="altchapter"/> Ideoque nolenti perpeti molestiam, qua eius cohiberetur <lb/>
+            elatio, antequam esset in eo caritatis ultima et summa <lb/>
+            perfectio, rectissime dicitur: sufficit tibi gratia mea; nam
+
+<note type="footnote"> 8 II Cor. 12, 7-9 19 I Cor. 13, 4 21 cf. II Cor. 4, 16 <lb/>
+            29 II Cor. 12, 9 </note>
+
+<note rend="script" type="footnote"> 1 quia <hi rend="italic">om. m. 1 C</hi> ad me <hi rend="italic">om. M</hi> 2 graru <hi rend="italic">(s. I. m</hi>. 2) debet <hi rend="italic">C</hi> <lb/>
+            gratiam <hi rend="italic">om. C</hi> 6 pauli apostoli paiilj <hi rend="italic">C</hi> 8 tamen] cum <hi rend="italic">b</hi> 10 sa- <lb/>
+            <hi rend="italic">thanae MCChP 14 a&lt;Jesset Ch</hi> 15 nunquid <hi rend="italic">TP nunquum V</hi> 16 sathanae <lb/>
+            <hi rend="italic">MCP</hi> 19 inflatur non emulatur C 23 erat adhuc <hi rend="italic">C</hi> 27 uolenti <hi rend="italic">b</hi> </note> <lb/>
+             
+<pb n="136"/>
+            uirtus in infirmitate perficitur.; in infirmitate scilicet <lb/>
+            non, ut ille putat, carnis tantum, sed et carnis et animi, <lb/>
+            quia et animus erat in comparatione summae illius perfectionis <lb/>
+            infirmus, quando extolleretur. proinde stimulus carnis angelus <lb/>
+            satanae intellegebatur datus, quamuis esset in carnalium uel <lb n="5"/>
+            animalium nondum percipientium quae sunt spiritus dei <lb/>
+            comparatione firmissimus. quocirca si uirtus in infirmitate <lb/>
+            perficitur, quisquis se non fatetur infirmum, non perficitur. <lb/>
+            haec autem gratia, qua uirtus in infirmitate perficitur. <lb/>
+            praedestinatos et secundum propositum uocatos ad summam<lb n="10"/>
+            perfectionem <sic>glorilicationemque</sic> perducit. qua gratia agitur <lb/>
+            non solum ut facienda nouerimus, uerum etiam ut cognita <lb/>
+            faciamus nec solum ut diligenda credamus, <choice><sic>ucrum</sic><corr>uerum</corr></choice> etiam <lb/>
+            ut credita diligamus. 
+</p>
+          
+</div>
+
+<div n="14" subtype="section" type="textpart">
+<p><milestone n="13" unit="altchapter"/> Haec gratia si doctrina dicenda est, certe sic<lb n="15"/>
+            dicatur, ut altius et interius eam deus cum ineffabili suauitate <lb/>
+            credatur infundere non solum per eos, qui plantant et rigant <lb/>
+            extrinsecus, sed etiam per se ipsum, qui incrementum <lb/>
+            suum ministrat occultus, ita ut non ostendat tantummodo <lb/>
+            ueritatem, uerum.etiam inpertiat caritatem. sic enim docet<lb n="20"/>
+            deus eos, qui secundum propositum uocati sunt, simul donans <lb/>
+            et quid agant scire et quod sciunt agere. unde ad Thessalonicenses <lb/>
+            sic apostolus loquitur: de caritate autem fraternitatis <lb/>
+            non opus habetis uobis scribi; nam ipsi uos a <lb/>
+            deo didicistis, ut diligatis inuicem. atque ut probaret<lb n="25"/>
+            eos a deo didicisse, subiunxit: etenim facitis illud in <lb/>
+            omnes fratres in uniuersa Macedonia, tamquam hoc sit <lb/>
+            certissimum indicium, quod a deo didiceris, si id quod didiceris <lb/>
+            feceris. isto modo sunt omnes secundum propositum
+
+<note type="footnote"> 6 I Cor. 2, 14 9 II Cor. 12. 9 10 Rom. 8, 28 17 cf. I Cor. <lb/>
+            3. 7 23 1 Thess. 4, 9 26 I Thess. 4, 10 </note>
+
+<note type="footnote"> 1 in <hi rend="italic">alt. om. C</hi> 3 corporatione <hi rend="italic">M</hi> 4 quando] quin <hi rend="italic">IIICh in mg</hi>. <lb/>
+            quandone <hi rend="italic">P</hi> cui ne <hi rend="italic">Vd</hi> 9 quia <hi rend="italic">M</hi> 11 ait <hi rend="italic">M</hi> 16 ineffabilis <hi rend="italic">M</hi> <lb/>
+            22 tessalonicenses <hi rend="italic">MChT</hi> 23 loquitur apostolus <hi rend="italic">C</hi> 26 didi§cisse C <lb/>
+            subiuncxit <hi rend="italic">T</hi> 28 didiceritis <hi rend="italic">b</hi> didiceritis feceritis <hi rend="italic">b</hi> </note> <lb/>
+             
+<pb n="137"/>
+            uocati, sicut scriptum est in Prophetis, docibiles dei. qui <lb/>
+            autem nouit quidem quid fieri debeat et non facit, nondum a <lb/>
+            deo didicit secundum gratiam, sed secundum legem, non <lb/>
+            secundum spiritum, sed secundum litteram, quamuis multi <lb/>
+            quod imperat lex facere uideantur timore poenae, non amore <lb n="5"/>
+            iustitiae, quam dicit apostolus iustitiam suam, quae ex lege <lb/>
+            est, tamquam sit imperata, non data; si autem data est, non <lb/>
+            dicitur iustitia nostra, sed dei, quia sic fit nostra, ut sit nobis <lb/>
+            ex deo. dicit enim: ut inueniar in illo non habens meam <lb/>
+            iustitiam quae ex lege est, sed eam quae ex fide est <lb n="10"/>
+            Iesu, iustitiam ex deo. tantum igitur inter legem distat et <lb/>
+            gratiam, ut, cum lex esse non dubitetur ex deo, iustitia tamen, <lb/>
+            quae ex lege est, non sit ex deo, sed iustitia, quae per gratiam <lb/>
+            consummatur, ex deo. quia ex lege iustitia dicitur, quae <lb/>
+            fit propter legis maledictum, iustitia ex deo dicitur, quae <lb n="15"/>
+            datur per gratiae beneficium, ut non sit terribile, sed suaue <lb/>
+            mandatum, sicut oratur in psalmo: suauis es, domine, et <lb/>
+            in tua suauitate doce me iustitiam tuam, id est, ut <lb/>
+            non formidine poenae seruiliter cogar esse sub lege, sed <lb/>
+            libera caritate delecter esse cum lege. praeceptum quippe <lb n="20"/>
+            liber facit, qui libens facit. et hoc modo quisquis discit, agit <lb/>
+            omnino quicquid agendum didicerit. 
+</p>
+          
+</div>
+
+<div n="15" subtype="section" type="textpart">
+<p><milestone n="14" unit="altchapter"/> De isto docendi modo etiam dominus ait: <lb/>
+            omnis, qui audiuit a patre meo et didicit, uenit ad me. <lb/>
+            qui ergo non uenerit, non de illo recte dicitur \'audiuit quidem <lb n="25"/>
+            et didicit sibi esse ueniendum\', sed facere non uult quod <lb/>
+            didicit, prorsus non recte dicitur de isto docendi modo, quo <lb/>
+            per gratiam docet deus. si enim, sicut ueritas loquitur, <lb/>
+            omnis, qui didicit, uenit, quisquis non uenit, profecto nec
+
+<note type="footnote"> 1 Es. 54, 13; Ioh. 6, 45 9 Phil. 3, 9 17 Ps. 118, 68 24. 29 <lb/>
+            Ioh. 6, 45 </note>
+
+<note type="footnote"> 2 nouit quid est quod <hi rend="italic">P</hi> quidem] quid e§t <hi rend="italic">(corr. m. 2) Ch</hi> quod <lb/>
+            <hi rend="italic">bd</hi> nundum <hi rend="italic">m. 1 Ch</hi> 10 est ex lege C 14 consummaturj est su- <lb/>
+            <hi rend="italic">matur M ex deo est quia V</hi> dicitur iustitia C 15 maledictum] <lb/>
+            mandatum <hi rend="italic">TPb</hi> 21 dicit <hi rend="italic">V</hi> agit <hi rend="italic">om. V</hi> 22 quidquid <hi rend="italic">M</hi> quicquit <hi rend="italic">C</hi> <lb/>
+            27 prorsus-didicit <hi rend="italic">om. Ch V</hi> </note> <lb/>
+             
+<pb n="138"/>
+            didicit. quis autem non uideat et uenire quemquam et non <lb/>
+            uenire arbitrio uoluntatis? sed hoc arbitrium potest esse solum, <lb/>
+            si non uenit; non autem potest nisi adiutum esse, si uenit, <lb/>
+            et sic adiutum, ut non solum quid faciendum sit sciat, sed <lb/>
+            quod scierit etiam faciat. ac per hoc, quando deus docet non<lb n="5"/>
+            per legis litteram, sed per spiritus gratiam, ita docet, ut <lb/>
+            quod quisque didicerit non tantum cognoscendo uideat, sed <lb/>
+            etiam uolendo appetat agendoque perficiat. et isto diuino <lb/>
+            docendi modo etiam ipsa uoluntas et ipsa operatio, non sola <lb/>
+            uolendi et operandi naturalis possibilitas adiuuatur. si enim<lb n="10"/>
+            solum posse nostrum hac gratia iuuaretur, ita diceret dominus: <lb/>
+            omnis, qui audiuit a patre et didicit, potest uenire ad me; <lb/>
+            non autem ita dixit, sed omnis, qui audiuit, inquit, a <lb/>
+            patre et didicit, uenit ad me. uenire posse in natura <lb/>
+            ponit Pelagius uel etiam, ut modo dicere coepit, in gratia,<lb n="15"/>
+            qualemlibet eam sentiat, &lt;qua ipsa\', ut dicit, \'possibilitas <sic>aditiuatur</sic>\'; <lb/>
+            uenire autem iam in uoluntate et opere est. non est <lb/>
+            autem consequens, ut qui potest uenire, etiam ueniat, nisi id <lb/>
+            uoluerit atque fecerit. sed omnis qui didicit a patre non <lb/>
+            solum potest uenire, sed uenit. ubi iam et possibilitatis profectus<lb n="20"/>
+            et uoluntatis affectus et actionis effectus est. 
+</p>
+          
+</div>
+
+<div n="16" subtype="section" type="textpart">
+<p><milestone n="15" unit="altchapter"/> Quid sibi ergo uolunt exempla, nisi quia reuera <lb/>
+            nobis eius sensum fecerunt, sicut est pollicitus, clariorem? <lb/>
+            non ut ea sentire debeamus, sed ut id quod ipse sensit manifestius <lb/>
+            apertiusque noscamus. <sic>lquod</sic> possumus\', inquit, \'uidere<lb n="25"/>
+            oculis, nostrum non est; quod uero bene aut male uidemus, <lb/>
+            hoc nostrum est\'. respondeat illi psalmus, ubi deo dicitur: <lb/>
+            auerte oculos meos, ne uideant uanitatem. quod etsi de <lb/>
+            oculis mentis dictum est, inde utique procedit in <choice><sic>hoa</sic><corr>hos</corr></choice> oculos
+
+<note type="footnote"> 13 Ioh. 6, 45 28 Ps. 118, 37 </note>
+
+<note type="footnote"> 5 facit <hi rend="italic">b</hi> 15 pellagius <hi rend="italic">T</hi> uellem ut modo diceret in gratia qualem <lb/>
+            eam sentiat <hi rend="italic">V</hi> 16 qualemibet <hi rend="italic">P</hi> adiuuetur <hi rend="italic">C</hi> 19 adque <hi rend="italic">M</hi> <lb/>
+            20 est possibilitatis <hi rend="italic">V</hi> possibilitas <hi rend="italic">m. 1 T</hi> 21 est <hi rend="italic">om. V</hi> 22 ergo <lb/>
+            sibi <hi rend="italic">b</hi> nobis reuera <hi rend="italic">C</hi> 23 pollicitus est <hi rend="italic">Vbd</hi> 26 non <hi rend="italic">om. m. 1 T</hi> <lb/>
+            27 hoc <hi rend="italic">om. C</hi> deo] de eo <hi rend="italic">b</hi> 28 de <hi rend="italic">om. m. 1 T</hi> </note> <lb/>
+             
+<pb n="139"/>
+            carnis uel bene uidere uel male, non quemadmodum dicuntur <lb/>
+            bene uidere sanis oculis intuentes et male lippientes, sed bene <lb/>
+            uidere ad subueniendum, male uidere ad concupiscendum. <lb/>
+            quamuis enim per hos exteriores oculos uideatur et pauper, <lb/>
+            cui subuenitur, et mulier, quae concupiscitur, tamen ex interioribus <lb n="5"/>
+            ad male uel bene <choice><sic>uidenduin</sic><corr>uidendum</corr></choice> misericordia uel libido <lb/>
+            procedit. cur ergo dicitur deo: auerte oculos meos, ne <lb/>
+            uideant uanitatem? cur petitur quod ad nostram pertinet <lb/>
+            potestatem, si deus non adiuuat uoluntatem? 
+</p>
+          
+</div>
+
+<div n="17" subtype="section" type="textpart">
+<p><milestone n="16" unit="altchapter"/> \'Quod loqui possumus\', inquit, \'dei est, quod uero <lb n="10"/>
+            bene uel male loquimur, nostrum est\'. non hoc docet ille, qui <lb/>
+            loquitur bene; non enim uos estis, inquit, qui loquimini, <lb/>
+            sed spiritus patris uestri qui loquitur in uobis. <choice><sic>let</sic><corr>et</corr></choice> ut <lb/>
+            generaliter\', inquit, \'uniuersa complectar: quod possumus omne <lb/>
+            bonum facere, dicere, cogitare, illius est qui hoc posse donauit, <lb n="15"/>
+            qui hoc posse adiuuat\'. ecce etiam hic superiorem repetit <lb/>
+            sensum, quod illorum trium, id est. possibilitatis, uoluntatis, <lb/>
+            actionis, nonnisi possibilitas adiuuatur. denique adiungens, ut <lb/>
+            inpleat quod intendit, \'quod uero bene\\ inquit, \'uel agimus uel <lb/>
+            loquimur uel cogitamus, nostrum est\'. oblitus est quod superius <lb n="20"/>
+            quasi correxerat, ubi, cum dixisset: <choice><sic>lergo</sic><corr>ergo</corr></choice> in uoluntate et <lb/>
+            opere bono laus hominis est\\ adiunxit atque ait <sic>limmo</sic> et <lb/>
+            hominis et dei, qui ipsius uoluntatis et operis possibilitatem <lb/>
+            dedit\'. cur etiam in his exemplis hoc non recordatus est, ut <lb/>
+            saltem in eorum fine diceret: quod possumus omne bonum <lb n="25"/>
+            facere, dicere, cogitare, illius est qui hoc posse <choice><sic>donanit</sic><corr>donauit</corr></choice>, qui <lb/>
+            hoc posse adiuuat; quod uero bene uel agimus uel loquimur <lb/>
+            uel cogitamus, et nostrum est et illius? non hoc dixit, sed, <lb/>
+            nisi fallor, uideor mihi uidere quod timuit.
+
+<note type="footnote"> 7 Ps. 118, 37 12 Matth. 10, 20 </note>
+
+<note type="footnote"> 1 dicuntur] deum <hi rend="italic">V 2 male uidere lippientes M</hi> 6 bene uel <lb/>
+            male C 11 uel bene uel male <hi rend="italic">C</hi> qui locuturis <hi rend="italic">MCh m</hi>. 2 quod <lb/>
+            loquuturi <hi rend="italic">m. 1 Ch</hi> qui loquutis (,...,., <hi rend="italic">add. m. 2) C</hi> quod locuturi <hi rend="italic">T</hi> <lb/>
+            12 inquit estis <hi rend="italic">ChTP</hi> estis inquit estis <hi rend="italic">M</hi> 13 uestri] mei P 16 etiam <lb/>
+            <hi rend="italic">om. V</hi> 17 sensum] sermonem <hi rend="italic">V</hi> 25 fine <hi rend="italic">C</hi> 29 quid <hi rend="italic">TVbd</hi> </note> 
+<pb n="140"/>
+            
+</p>
+          
+</div>
+
+<div n="18" subtype="section" type="textpart">
+<p><milestone n="17" unit="altchapter"/> Cum enim uellet ostendere quare nostrum sit, <lb/>
+            \'quia haec\', inquit, <sic>lomnia</sic> uertere etiam in malum possumus\'. <lb/>
+            illud ergo timuit, ut non diceret <sic>tet</sic> nostrum est et dei&gt;, ne sibi <lb/>
+            responderetur: si quod bene agimus, loquimur, cogitamus, <lb/>
+            ideo est et nostrum et dei, quia ille nobis hoc posse donauit,<lb n="5"/>
+            ergo et quod malum agimus, loquimur, cogitamus, et nostrum <lb/>
+            est et dei, quia illud posse ad utrumque donauit atque ita, <lb/>
+            quod absit, quemadmodum cum deo laudamur in operibus <lb/>
+            bonis, sic cum illo culpamur in malis. possibilitas quippe illa, <lb/>
+            quam dedit, tam nos facit bona posse quam mala. <lb n="10"/>
+            
+</p>
+          
+</div>
+
+<div n="19" subtype="section" type="textpart">
+<p><milestone n="18" unit="altchapter"/> De qua possibilitate Pelagius in libro primo pro <lb/>
+            libero arbitrio ita loquitur: \'habemus autem\', inquit, \'possibilitatem <lb/>
+            utriusque partis a deo insitam uelut quandam, ut ita <lb/>
+            dicam, radicem fructiferam atque fecundam, quae ex uoluntate <lb/>
+            hominis diuersa gignat et pariat et quae possit ad proprii <lb n="15"/>
+            cultoris arbitrium uel nitere flore uirtutum uel sentibus horrere <lb/>
+            uitiorum\'. ubi non intuens quid loquatur unam eandemque <lb/>
+            radicem constituit bonorum et malorum contra euangelicam <lb/>
+            ueritatem doctrinamque apostolicam. nam et dominus nec <lb/>
+            arborem bonam dicit posse facere fructus malos nec malam<lb n="20"/>
+            bonos; et apostolus Paulus, cum dicit radicem malorum <lb/>
+            omnium esse cupiditatem, admonet utique intellegi radicem <lb/>
+            bonorum omnium caritatem. unde si duae arbores, bona et <lb/>
+            mala duo sunt homines, bonus et malus, quid est bonus <lb/>
+            homo nisi uoluntatis bonae, hoc est arbor radicis bonae? et<lb n="25"/>
+            quid est homo malus nisi uoluntatis malae, hoc est arbor <lb/>
+            radicis malae? fructus enim harum radicum atque arborum <lb/>
+            facta sunt, dicta sunt, cogitata sunt, quae bona de bona <lb/>
+            uoluntate procedunt et mala de mala.
+
+<note type="footnote"> 20 cf. Mntth. 7, 18 21 cf. I Tim. 6, 10 </note>
+
+<note type="footnote"> 2 etiam <hi rend="italic">om. m. 1 C</hi> 3 ne] quasi <hi rend="italic">V</hi> 5 ideo ęşt et liostrum est <hi rend="italic">C</hi> <lb/>
+            hoc nobis <hi rend="italic">C</hi> nobis <hi rend="italic">post</hi> posse <hi rend="italic">leg. in b</hi> 8 bonis operibus P 16 nitereI <lb/>
+            ridere <hi rend="italic">V</hi> 17 eamdemque <hi rend="italic">T</hi> 18 constituit radicem <hi rend="italic">Ch</hi> 23 omnium <lb/>
+            bonorum <hi rend="italic">ChP</hi> 25 radicis-arbor <hi rend="italic">om. V</hi> 27 radicis mala <hi rend="italic">V</hi> enim] <lb/>
+            autem <hi rend="italic">Vbd</hi> ej)ji|i <hi rend="italic">(in mg. m</hi>. 2 autem) <hi rend="italic">Ch</hi> radič C </note> 
+<pb n="141"/>
+            
+</p>
+          
+</div>
+
+<div n="20" subtype="section" type="textpart">
+<p><milestone n="19" unit="altchapter"/> Facit autem homo arborem bonam. quando dei <lb/>
+            accipit gratiam; non enim se ex malo bonum per se ipsum <lb/>
+            facit, sed ex illo et per illum et in illo qui semper est bonus <lb/>
+            nec tantum ut arbor sit bona, sed etiam ut faciat fructus <lb/>
+            bonos, eadem gratia necessarium est ut adiuuetur, sine qua <lb n="5"/>
+            boni aliquid facere non potest. ipse quippe in bonis arboribus <lb/>
+            cooperatur fructum, qui et forinsecus rigat atque excolit per <lb/>
+            quemlibet ministrum et per se dat intrinsecus incrementum. <lb/>
+            malam uero arborem homo facit, quando se ipsum malum <lb/>
+            facit, quando a bono incommutabili deficit; ab eo quippe <lb n="10"/>
+            defectus est origo uoluntatis malae. qui defectus non aliam <lb/>
+            naturam malam initiat, sed eam quae bona condita est uitiat; <lb/>
+            sanato autem uitio nullum malum remanet, quia uitium <lb/>
+            naturae quidem inerat, sed uitium natura non erat. 
+</p>
+          
+</div>
+
+<div n="21" subtype="section" type="textpart">
+<p><milestone n="20" unit="altchapter"/> Illa ergo possibilitas non, ut iste opinatur, una <lb n="15"/>
+            eademque radix est bonorum et malorum; aliud est enim <lb/>
+            caritas radix bonorum, aliud cupiditas radix malorum <lb/>
+            tantumque inter se differunt quantum uirtus et uitium. sed <lb/>
+            plane illa possibilitas utriusque radicis est capax, quia non <lb/>
+            solum potest homo habere caritatem, qua sit arbor bona, sed <lb n="20"/>
+            potest etiam cupiditatem, qua sit arbor mala. sed cupiditas <lb/>
+            hominis, quae uitium est, hominem habet auctorem uel <lb/>
+            hominis deceptorem, non hominis creatorem; ipsa est enim <lb/>
+            concupiscentia carnis et concupiscentia oculorum <lb/>
+            et ambitio saeculi, quae non est ex patre, sed ex <lb n="25"/>
+            mundo est. quis autem nesciat mundi nomine solere appellare <lb/>
+            scripturam a quibus habitatur hic mundus? 
+</p>
+          
+</div>
+
+<div n="22" subtype="section" type="textpart">
+<p><milestone n="21" unit="altchapter"/> Caritas autem, quae uirtus est, ex deo nobis est, <lb/>
+            non ex nobis scriptura teste, quae dicit: caritas ex deo
+
+<note type="footnote"> 7 cf. I Cor. 3, 7 17 cf. I Tim. 6, 10 24 I Ioh. 2, 16 <lb/>
+            29 I Ioh. 4, 7. 8 </note>
+
+<note type="footnote"> 1 dei] a deo <hi rend="italic">P</hi> 5 ut <hi rend="italic">om.. M</hi> 9 homo] hõç <hi rend="italic">C</hi> 10 defecit <hi rend="italic">M</hi> <lb/>
+            defficit <hi rend="italic">C</hi> 11 uoluntatis malae origo C 12 initiat] nuntiat V est <lb/>
+            condita <hi rend="italic">Pb</hi> 16 malorum et bonorum <hi rend="italic">C</hi> enim est <hi rend="italic">b</hi> 17 radix est <lb/>
+            bonorum <hi rend="italic">b</hi> 18 quanto <hi rend="italic">M</hi> 23 est <hi rend="italic">om. m. 1 C</hi> 25 est <hi rend="italic">om. TP</hi> </note> <lb/>
+             
+<pb n="142"/>
+            est, et omnis qui diligit ex deo natus est et cognouit <lb/>
+            deum, quia deus caritas est. secundum istam caritatem <lb/>
+            melius intellegitur dictum: qui natus est ex deo, non <lb/>
+            peccat et quia non potest peccare, quia caritas, secundum <lb/>
+            quam natus ex deo est, non agit perperam nec cogitat<lb n="5"/>
+            malum. cum ergo peccat homo, non secundum caritatem, <lb/>
+            sed secundum cupiditatem peccat, secundum quam non est <lb/>
+            natus ex deo, quoniam illa possibilitas, ut dictum est, utriusque <lb/>
+            radicis est capax. cum ergo dicat scriptura: caritas <lb/>
+            ex deo est uel, quod est amplius, deus caritas est,<lb n="10"/>
+            cum apertissime clamet Iohannes apostolus: ecce qualem <lb/>
+            caritatem dedit nobis pater, ut filii dei uocemur et <lb/>
+            simus, iste audiens <sic>ldeus</sic> caritas <sic>estf</sic> quare adhuc usque <lb/>
+            contendit, quod ex illis tribus tantummodo possibilitatem <lb/>
+            habeamus ex deo, bonam uero uoluntatem bonamque actionem<lb n="15"/>
+            habeamus ex nobis? quasi uero aliud sit bona uoluntas quam <lb/>
+            caritas, quam scriptura nobis esse clamat ex deo et a patre <lb/>
+            datam, ut filii eius essemus. 
+</p>
+          
+</div>
+
+<div n="23" subtype="section" type="textpart">
+<p><milestone n="22" unit="altchapter"/> Sed forte, ut daretur nobis, praecedentia merita <lb/>
+            nostra fecerunt, sicut iste de gratia dei sentit in eo libro,<lb n="20"/>
+            quem ad sacram uirginem scripsit, cuius etiam commemorationem <lb/>
+            fecit in litteris, quas Romam misit. ibi enim interposito <lb/>
+            <choice><sic>Jacobi</sic><corr>Iacobi</corr></choice> apostoli testimonio, quo ait: subditi estote deo, <lb/>
+            resistite autem diabolo, et fugiet a uobis, subiungit et <lb/>
+            dicit: \'ostendit quomodo resistere debeamus diabolo, si utique<lb n="25"/>
+            subditi simus deo eiusque faciendo uoluntatem diuinam mereamur <lb/>
+            gratiam et facilius nequam spiritui sancti spiritus <lb/>
+            auxilio resistamus\'. ecce quam ueraci corde damnauit in ecclesiastico <lb/>
+            iudicio Palaestino eos, qui dicunt gratiam dei secundum <lb/>
+            merita nostra dari! an adhuc eum id sentire et apertissime
+
+<note type="footnote"> 3 I Ioh. 3, 9 5 1 Cor. 13, 5 9 1 Ioh. 4, 7. 8 21 ep. ad <lb/>
+            Pemetriadem c. 25 (XXX 40 M.) 23 Iac. 4, 7 29 cf. pag. 84, 13 sqq. </note>
+
+<note type="footnote"> 3 dictum e§t <hi rend="italic">C</hi> 4 <hi rend="italic">pr</hi>. quia] quare <hi rend="italic">V</hi> 9 quum <hi rend="italic">M</hi> 11 cum] ut <hi rend="italic">V</hi> <lb/>
+            clamat <hi rend="italic">V</hi> 15 habemus <hi rend="italic">TP</hi> 16 habemus <hi rend="italic">TP</hi> 21 scribit <hi rend="italic">MC <lb/>
+            ChTP</hi> 25 resistemus <hi rend="italic">V</hi> 26 sumus <hi rend="italic">MT</hi> </note> <lb n="30"/>
+             
+<pb n="143"/>
+            1 <lb/>
+            praedicare dubitamus? quomodo ergo uerax fuit in episcopali <lb/>
+            examine illa confessio? an forte iam istum scripserat librum, <lb/>
+            ubi apertissime dicit gratiam secundum merita nostra dari, <lb/>
+            quod in orientali synodo sine ulla recusatione damnauit? <lb/>
+            confiteretur ergo sic se aliquando tenuisse, sed iam non tenere, <lb n="5"/>
+            ut de correctione eius apertissime gauderemus. nunc uero cum <lb/>
+            illi inter cetera et hoc fuisset obiectum, respondit: <sic>Chaec</sic> utrum <lb/>
+            Caelestii sint, ipsi uiderint, qui dicunt ea Caelestii esse; ego <lb/>
+            uero numquam sic tenui, sed anathematizo qui sic tenent\\ <lb/>
+            quomodo numquam sic tenuit, si hunc antea condiderat librum? <lb n="10"/>
+            aut quomodo anathematizat eos qui sic tenent, si hunc librum <lb/>
+            postea condidit? 
+</p>
+          
+</div>
+
+<div n="24" subtype="section" type="textpart">
+<p>Sed ne forte respondeat ita se hic dixisse \'dei faciendo <lb/>
+            uoluntatem diuinam mereamur gratiam\', sicut fidelibus et pie <lb/>
+            uiuentibus additur gratia, qua resistant fortiter temptatori, <lb n="15"/>
+            cum tamen gratiam etiam primitus accepissent, ut dei facerent <lb/>
+            uoluntatem, ne forte ergo ita respondeat, alia de hac re uerba <lb/>
+            eius accipite. <sic>fqui</sic> currit\', inquit, \'ad dominum et ab eo se regi <lb/>
+            cupit, id est uoluntatem suam ex eius uoluntate suspendit, <lb/>
+            qui ei adhaerendo iugiter unus secundum apostolum cum <lb n="20"/>
+            eo fit spiritus, non hoc nisi de arbitrii efficit libertate\\ uidete <lb/>
+            quantam rem dixerit non effici nisi arbitrii libertate, ac per <lb/>
+            hoc sine adiutorio dei nos deo existimat adhaerere. hoc est <lb/>
+            enim \'nonnisi de arbitrii libertate\', ut cum adhaeserimus eo <lb/>
+            non adiuuante, tunc iam quoniam adhaesimus, etiam adiuuari <lb n="25"/>
+            mereamur. 
+</p>
+          <p><milestone n="23" unit="altchapter"/>Sequitur enim et dicit: (qua qui bene utitur\', id est
+
+<note type="footnote"> 7 de gestis Pelagii pag. 84, 14 20 cf. I Cor. 6, 17 </note>
+
+<note type="footnote"> 1 dubitauimus <hi rend="italic">M</hi> 4 sinodo <hi rend="italic">CChTP</hi> 5 confiteatur <hi rend="italic">V</hi> 6 correctione <lb/>
+            <hi rend="italic">(alt</hi>. c <hi rend="italic">in ms.) P</hi> correptione <hi rend="italic">TCh m. 1</hi> gaudeamus <hi rend="italic">V</hi> 8 caelestii <lb/>
+            <hi rend="italic">(bis) M</hi> celestii <hi rend="italic">(bis) CT</hi> 10 hunc] haec <hi rend="italic">V</hi> ante <hi rend="italic">bd</hi> <lb/>
+            librum condiderat C librum <hi rend="italic">om. V</hi> 11 librum <hi rend="italic">ponit post</hi> condidit <hi rend="italic">M</hi> <lb/>
+            13 <hi rend="italic">num</hi>. 24 <hi rend="italic">om. b</hi> hoc <hi rend="italic">V</hi> 15 gratia <hi rend="italic">om. V</hi> 16 dii <hi rend="italic">m</hi>. 1 <hi rend="italic">T</hi> <lb/>
+            18 deum <hi rend="italic">b</hi> ab eo] ado <hi rend="italic">M</hi> a deo <hi rend="italic">CClib</hi> ad\'o <hi rend="italic">P</hi> ad eo <hi rend="italic">T</hi> 20 adherendo <lb/>
+            <hi rend="italic">MCTP</hi> 27 et <hi rend="italic">om. m. 1 C</hi> dixit <hi rend="italic">m</hi>. 1 <hi rend="italic">T</hi> </note> <lb/>
+             
+<pb n="144"/>
+            arbitrii libertate qui bene utitur, \'ita se\', inquit, \'totum tradit <lb/>
+            deo omnemque suam mortificat uoluntatem, ut cum apostolo <lb/>
+            possit dicere: uiuo autem iam non ego, uiuit autem in <lb/>
+            me Christus, ponitque cor suum in manu dei, ut illud quo <lb/>
+            uoluerit ipse declinet\'. magnum profecto adiutorium diuinae<lb n="5"/>
+            gratiae, ut cor nostrum quo uoluerit deus ipse declinet! sed <lb/>
+            hoc tam magnum adiutorium, sicut iste desipit, tunc meremur, <lb/>
+            cum sine ullo adiutorio nonnisi de arbitrii libertate ad <lb/>
+            dominum currimus, ab eo nos regi cupimus, uoluntatem <lb/>
+            nostram ex eius uoluntate suspendimus eique adhaerendo<lb n="10"/>
+            iugiter unus cum illo efficimur spiritus. haec scilicet tam <lb/>
+            ingentia bona nonnisi de arbitrii secundum istum efficimus <lb/>
+            libertate, ut his praecedentibus meritis sic eius gratiam consequamur, <lb/>
+            ut cor nostrum quo uoluerit ipse declinet. quomodo <lb/>
+            est ergo gratia, si non gratis datur? quomodo est gratia, si<lb n="15"/>
+            ex debito redditur? quomodo uerum dicit apostolus: non ex <lb/>
+            uobis, sed dei donum est; non ex operibus, ne forte <lb/>
+            quis extollatur, et iterum, si autem gratia, inquit, iam <lb/>
+            non ex operibus, alioquin gratia iam non est gratia? <lb/>
+            quomodo, inquam, hoc uerum est, si opera tanta praecedunt, <lb n="20"/>
+            quae nobis adipiscendae gratiae meritum faciant, quo nobis <lb/>
+            non donetur gratuito, sed reddatur ex debito? ergone ut perueniatur <lb/>
+            ad adiutorium dei, ad deum curritur sine adiutorio <lb/>
+            dei? et ut deo adhaerentes adiuuemur a deo, a deo non adiuti <lb/>
+            adhaeremus deo? quid homini maius quidue tale poterit gratia <lb n="25"/>
+            ipsa praestare, si iam sine illa unus cum domino spiritus <lb/>
+            effici potuit nonnisi de arbitrii libertate?
+
+<note type="footnote"> 3 Gal. 2, 20 5 cf. Prou. 21, 1 10. 26 cf. I Cor. 6, 17 16 Eph. <lb/>
+            2, 8. 9 18 Rom. 11, 6 </note>
+
+<note type="footnote"> 4 quod <hi rend="italic">P</hi> 5 ipse declinet-quo uoluerit <hi rend="italic">om. b</hi> 7 merebimur <hi rend="italic">M</hi> <lb/>
+            8 illo <hi rend="italic">CPCh m. 1,</hi> (8. <hi rend="italic">l. m. 2) T</hi> 11 cum illo unius efficimur <hi rend="italic">V</hi> <lb/>
+            12 eficimus <hi rend="italic">C</hi> 13 hiis <hi rend="italic">PCh m. 1</hi> 21 faciunt <hi rend="italic">m. 1 M</hi> 22 gratuita b <lb/>
+            sed] non <hi rend="italic">P</hi> praeueniatur adiutorium dei <hi rend="italic">V</hi> 23 currit <hi rend="italic">M 24 alt</hi>. <lb/>
+            a deo <hi rend="italic">om. b</hi> 25 adlierebimus <hi rend="italic">MCCh</hi> </note> 
+<pb n="145"/>
+            
+</p>
+          
+</div>
+
+<div n="25" subtype="section" type="textpart">
+<p><milestone n="24" unit="altchapter"/> Sed uellem ut iste diceret, utrum rex ille <lb/>
+            Assyrius, cuius Esther sancta mulier execrabatur cubile, quando <lb/>
+            considebat in throno regni sui et omni stola illustrationis <lb/>
+            suae indutus erat, totus auro uariegatus lapidibusque <lb/>
+            pretiosis, et erat formidolosus ualde. et <lb n="5"/>
+            eleuata facie sua inflammata in claritate intuitus est <lb/>
+            eam tamquam taurus in impetu indignationis suae; <lb/>
+            et timuit regina et conuersus est color eius per dissolutionem <lb/>
+            et inclinauit se super caput delicatae suae, <lb/>
+            quae praecedebat eam — uellem ergo diceret iste nobis, <lb n="10"/>
+            utrum rex ille ad dominum iam cucurrerat et ab eo se regi <lb/>
+            cupiuerat suamque uoluntatem ex eius uoluntate suspenderat <lb/>
+            et ei iugiter adhaerendo unus cum illo spiritus factus erat <lb/>
+            nonnisi de arbitrii libertate, utrum se totum deo tradiderat <lb/>
+            omnemque suam mortificauerat uoluntatem et cor suum in <lb n="15"/>
+            manu dei posuerat. puto non desipere, sed insanire hominem, <lb/>
+            quisquis de illo rege, qualis tunc erat, haec senserit; et tamen <lb/>
+            conuertit deus et transtulit indignationem eius in lenitatem. quis <lb/>
+            autem non uideat multo maius esse indignationem a contrario in <lb/>
+            lenitatem conuertere atque transferre quam cor neutra affectione <lb n="20"/>
+            praeoccupatum, sed inter utramque medium in aliquid declinare? <lb/>
+            legant ergo et intellegant, intueantur atque fateantur non <lb/>
+            lege atque doctrina insonante forinsecus, sed interna et occulta, <lb/>
+            mirabili ac ineffabili potestate operari deum in cordibus hominum <lb/>
+            non solum ueras reuelationes, sed bonas etiam uoluntates. <lb n="25"/>
+            
+</p>
+          
+</div>
+
+<div n="26" subtype="section" type="textpart">
+<p><milestone n="25" unit="altchapter"/> Desinat itaque iam Pelagius et se ipsum et alios <lb/>
+            fallere contra dei gratiam disputando. non propter illorum <lb/>
+            unum trium, id est propter possibilitatem bonae uoluntatis
+
+<note type="footnote"> 8 Esther (15, 9.10) D 6. 7 13 cf. I Cor. 6,17 18 cf. Esther (15, 11) D 8 </note>
+
+<note type="footnote"> 2 assirius <hi rend="italic">CCkTP</hi> assuerus <hi rend="italic">cod. Colb. test. Ben</hi>. hester <hi rend="italic">MCTP</hi> <lb/>
+            ester <hi rend="italic">Ch</hi> hesther <hi rend="italic">b</hi> 3 considerabat <hi rend="italic">T</hi> 4 uariatus <hi rend="italic">CChTPVbd</hi> 5 et <lb/>
+            extra formis ualde et eleuata facie sua non inflammata caritate intuitus <lb/>
+            est eam <hi rend="italic">sqq. V</hi> 6 charitate b 7 in <hi rend="italic">om. MCChTP</hi> 9 se. <hi rend="italic">C</hi> 11 deum <hi rend="italic">b</hi> <lb/>
+            13 inherendo <hi rend="italic">MVbd</hi> 17 hoc <hi rend="italic">b</hi> 19 indignationeni <hi rend="italic">om. m. 1 C</hi> 20 afflictione <lb/>
+            <hi rend="italic">TP</hi> 21 utrumque <hi rend="italic">V</hi> 24 ac] atque <hi rend="italic">C</hi> 25 etiam bonas <hi rend="italic">b</hi> <lb/>
+            26 Pelagius iam C a*lios C 28 trium unum <hi rend="italic">Vbd</hi> </note>
+
+<note type="footnote"> XXXXII Aug. Sect. VIII pars II. </note>
+
+<note type="footnote"> 1U </note> <lb/>
+             
+<pb n="146"/>
+            atque operis, sed etiam propter uoluntatem atque operationem <lb/>
+            bonam erga nos gratia dei praedicanda est; nam illam possibilitatem <lb/>
+            ad utrumque ualere definit. et tamen non ideo tribuenda <lb/>
+            sunt deo etiam nostra peccata, sicut et propter eandem <lb/>
+            possibilitatem uult tribuere bona opera nostra, non ideo tantum<lb n="5"/>
+            adiutorium diuinae gratiae commendetur, quia possibilitatem <lb/>
+            adiuuat naturalem. desinat dicere:$quod possumus omne bonum <lb/>
+            facere, dicere, cogitare, illius est qui hoc posse donauit, qui <lb/>
+            hoc posse adiuuat; quod uero bene uel agimus uel loquimur <lb/>
+            uel cogitamus, nostrum est\', desinat, inquam, ista dicere. non<lb n="10"/>
+            solum enim deus posse nostrum donauit atque adiuuat, sed <lb/>
+            etiam uelle et operari operatur in nobis, non quia nos <lb/>
+            non uolumus aut nos non agimus, sed quia sine ipsius <choice><sic>adiutono</sic><corr>adiutorio</corr></choice> <lb/>
+            nec uolumus aliquid boni nec agimus. quomodo enim <lb/>
+            dicitur: \'quod possumus bene agere, dei est, quod autem<lb n="15"/>
+            agimus, nostrum est\\ cum dicat apostolus orare se ad deum <lb/>
+            pro eis, ad quos scribebat, ne quid mali faciant et ut quod <lb/>
+            bonum est faciant? non enim ait: oramus, ut possitis nihil <lb/>
+            facere mali, sed ne quid faciatis mali, nec: ut possitis <lb/>
+            bonum facere, sed: ut bonum faciatis, quoniam de quibus<lb n="20"/>
+            scriptum est: quotquot enim spiritu dei aguntur, hi <lb/>
+            filii sunt dei, profecto ut agant quod bonum est, ab illo <lb/>
+            aguntur qui bonus est. quomodo dicit Pelagius: \'quod bene <lb/>
+            loqui possumus, dei est, quod bene loquimur, nostrum est\\ <lb/>
+            cum dicat dominus: spiritus patris uestri est qui loquitur<lb n="25"/>
+            in uobis? neque enim ait: non uos estis, qui dedistis uobis <lb/>
+            posse bene loqui, sed ait: non uos estis qui loquimini, <lb/>
+            nec ait: spiritus patris uestri est, qui uobis dat uel dedit <lb/>
+            posse bene loqui, sed ait: qui loquitur in uobis, non
+
+<note type="footnote"> 12 Phil. 2, 13 18-?O II Cor. 13, 7 21 Rom. 8, 14 25—29 <lb/>
+            Matth. 10, 20 </note>
+
+<note type="footnote"> <hi rend="italic">1 fin</hi>. atque] et <hi rend="italic">bd</hi> 2 de gratia <hi rend="italic">CChTP</hi> 5 bona <hi rend="italic">om. C</hi> 8 <hi rend="italic">fin</hi>. <lb/>
+            (lui-adiuuat <hi rend="italic">om. b</hi> 11 donat <hi rend="italic">V</hi> 13 quia <hi rend="italic">om. m. 1 T</hi> 16 iiiajo <lb/>
+            agimus C <hi rend="italic">19 mali facere bd 20 ut om. b 21 liii C hi* Ch</hi> <lb/>
+            27 bene posse <hi rend="italic">CChTPVbd</hi> 28 qui dedit uobis uel dat <hi rend="italic">C</hi> </note> <lb/>
+             
+<pb n="147"/>
+            significans possibilitatis profectum, sed exprimens cooperationis <lb/>
+            effectum. quomodo dicit arbitrii liberi elatus assertor: <sic>cquod</sic> <lb/>
+            possumus bene cogitare, dei est, quod autem bene cogitamus <lb/>
+            nostrum est\'? cui respondit humilis gratiae praedicator: non <lb/>
+            quia idonei sumus cogitare aliquid a nobis quasi ex <lb n="5"/>
+            nobismet ipsis, sed sufficientia nostra ex deo est; non <lb/>
+            enim ait \'posse cogitare\' sed cogitare. 
+</p>
+          
+</div>
+
+<div n="27" subtype="section" type="textpart">
+<p><milestone n="26" unit="altchapter"/> Istam dei gratiam in diuinis eloquiis manifestam <lb/>
+            etiam Pelagius manifeste fateatur seque tamdiu contra sensisse <lb/>
+            non operiat inpudentissimo pudore, sed dolore saluberrimo <lb n="10"/>
+            aperiat, ut sancta ecclesia non turbetur peruicaci eius obstinatione, <lb/>
+            sed ueraci correctione laetetur. cognitionem et dilectionem, <lb/>
+            sicut sunt discernenda, discernat, quia scientia inflat, <lb/>
+            caritas aedificat — et tunc scientia non inflat, quando caritas <lb/>
+            aedificat — et cum sit utrumque donum dei, sed unum minus, <lb n="15"/>
+            alterum maius, non hic iustitiam nostram super laudem nostri <lb/>
+            iustificatoris extollat, ut horum duorum quod minus est diuino <lb/>
+            tribuat adiutorio, quod autem maius est humano usurpet arbitrio, <lb/>
+            et si consenserit nos gratia <choice><sic>flei</sic><corr>dei</corr></choice> accipere caritatem, non <lb/>
+            sic sentiat, tamquam ulla merita bona nostra praecesserint. <lb n="20"/>
+            nam quae merita bona tunc habere poteramus, quando deum <lb/>
+            non diligebamus? ut enim acciperemus dilectionem, qua diligeremus, <lb/>
+            dilecti sumus, cum eam nondum haberemus. hoc <lb/>
+            Iohannes apostolus apertissime dicit: non quod nos dilexerimus <lb/>
+            deum, sed quia ipse dilexit nos, et alibi: nos <lb n="25"/>
+            diligamus, inquit, quia ipse prior dilexit nos. optime <lb/>
+            omnino atque uerissime. non enim haberemus, unde illum <lb/>
+            diligeremus, nisi hoc ab illo, cum prior nos diligeret, sumeremus. <lb/>
+            quid autem boni faceremus, nisi diligeremus? aut
+
+<note type="footnote"> 4 II Cor. 3, 5 13 I Cor. 8, 1 24 I Ioh. 4, 10. 25 I Ioh. 4, 19 </note>
+
+<note type="footnote"> 1 prouectum <hi rend="italic">CChTP</hi> 2 liberi arbitiii <hi rend="italic">bd</hi> 4 respondet <hi rend="italic">bd</hi> 5 ex] <lb/>
+            a <hi rend="italic">C</hi> 9 fatetur <hi rend="italic">m. 1 T</hi> 11 apperiat <hi rend="italic">T</hi> pertinaci <hi rend="italic">Vb</hi> 12 correptione <lb/>
+            <hi rend="italic">m. 1 T</hi> cogitationem <hi rend="italic">TPb</hi> 15 un\' min\' <hi rend="italic">T</hi> 16 hic] sic <hi rend="italic">Vd</hi> <lb/>
+            superj per <hi rend="italic">TPV</hi> iustificatoris nostri <hi rend="italic">bd</hi> 24 nos <hi rend="italic">om. TP</hi> 25 ipse <lb/>
+            prior <hi rend="italic">b</hi> 26 diligimus <hi rend="italic">M</hi> </note>
+
+<note type="footnote"> 10* </note> <lb/>
+             
+<pb n="148"/>
+            quomodo bonum non facimus, si diligamus? etsi enim dei mandatum <lb/>
+            uidetur aliquando non a diligentibus, sed a timentibus fieri, <lb/>
+            tamen ubi non est dilectio, nullum bonum opus inputatur <lb/>
+            nec recte bonum opus uocatur, quia omne quod non est <lb/>
+            ex fide peccatum est et fides per dilectionem operatur. <lb n="5"/>
+            ac per hoc gratiam dei, qua caritas dei diffunditur in <lb/>
+            cordibus nostris per spir.itum sanctum qui datus est <lb/>
+            nobis, sic confiteatur qui uult ueraciter confiteri, ut omnino <lb/>
+            nihil boni sine illa quod ad pietatem pertinet ueramque iustitiam <lb/>
+            fieri posse non dubitet, non quomodo iste, qui cum dicit<lb n="10"/>
+            \'propterea dari gratiam, ut quod a deo praecipitur, facilius <lb/>
+            inpleatur\', quid de illa sentiat satis ostendit, scilicet quod etiam <lb/>
+            sine illa, etsi minus facile, fieri tamen quod diuinitus praecipitur <lb/>
+            potest. 
+</p>
+          
+</div>
+
+<div n="28" subtype="section" type="textpart">
+<p><milestone n="27" unit="altchapter"/> In libro quippe ad uirginem sacram, quod et <lb n="15"/>
+            supra commemoraui, cum dicit: \'diuinam mereamur gratiam <lb/>
+            et facilius nequam spiritui sancti spiritus auxilio resistamus\'. <lb/>
+            significat profecto quid sapiat. ut quid enim hoc uerbum <lb/>
+            interposuit, id est facilius? an uero non erat integer sensus. <lb/>
+            ut <choice n="0.18"><sic n="28">aequam</sic><corr n="125">nequam</corr></choice> spiritui sancti spiritus auxilio resistamus? sed <lb n="20"/>
+            quantum detrimentum hoc additamento fecerit, quis non intellegat? <lb/>
+            uolens utique credi tantas esse naturae uires, quas <lb/>
+            extollendo praecipitat, ut etiam sine auxilio spiritus sancti, <lb/>
+            etsi minus facile, tamen aliquo modo nequam spiritui resistatur. 
+</p>
+          
+</div>
+
+<div n="29" subtype="section" type="textpart">
+<p><milestone n="28" unit="altchapter"/> Item in primo libro pro libero arbitrio \'cum<lb n="25"/>
+            autem tam forte\', inquit, <sic>ltam</sic> firmum ad non peccandum liberum <lb/>
+            in nobis habeamus arbitrium, quod generaliter naturae humanae <lb/>
+            creator inseruit, rursus pro inaestimabili eius benignitate <lb/>
+            cotidiano ipsius munimur auxilio\'. quid opus est hoc auxilio.
+
+<note type="footnote"> 4 Rom. 14, 23 5 Gal. 5, 6 6 Rora. 5, 5 15 cf. 142, 20 sqq. </note>
+
+<note rend="script" type="footnote"> 1 non <hi rend="italic">s. l. T</hi> mandatum dei <hi rend="italic">C</hi> 2 non a diligentibus <hi rend="italic">Ch</hi> 4 ex <lb/>
+            fide est <hi rend="italic">bd</hi> est <hi rend="italic">om. T</hi> 10 non posse <hi rend="italic">M</hi> 17 resistemus <hi rend="italic">V</hi> <lb/>
+            18 quid segtiS-t sapiat C 20 spu <hi rend="italic">pr. M</hi> 24 resistatur (tur <hi rend="italic">s. ras. m. 2) C</hi> <lb/>
+            26 firmum ęşţ <hi rend="italic">C</hi> 27 habemus <hi rend="italic">m. 1 T</hi> 28 eius inaestimabili <hi rend="italic">b</hi> <lb/>
+            29 quotidiano <hi rend="italic">Pb</hi> </note> <lb/>
+             
+<pb n="149"/>
+            si tam forte, tam firmum est ad non peccandum liberum arbitrium? <lb/>
+            sed etiam hic uult intellegi ad hoc esse auxilium, ut <lb/>
+            <choice><sic>faeilius</sic><corr>facilius</corr></choice> fiat per gratiam, quod etsi minus facile tamen putat <lb/>
+            fieri praeter gratiam. 
+</p>
+          
+</div>
+
+<div n="30" subtype="section" type="textpart">
+<p><milestone n="29" unit="altchapter"/> Item in eodem libro alio loco \'ut quod per <lb n="5"/>
+            liberum\', inquit, \'homines facere iubentur arbitrium, facilius <lb/>
+            possint inplere per gratiam\'. tolle \'<sic n="poss">facilius1</sic>, et non solum <lb/>
+            plenus, uerum etiam sanus est sensus, si ita dicatur: ut quod <lb/>
+            per liberum homines facere iubentur arbitrium, possint inplere <lb/>
+            per gratiam; cum autem \'facilius\' additur, adinpletio boni operis <lb n="10"/>
+            etiam sine dei gratia posse fieri tacita significatione suggeritur. <lb/>
+            quem sensum redarguit qui dicit: sine me nihil potestis <lb/>
+            facere.\'
+</p>
+          
+</div>
+
+<div n="31" subtype="section" type="textpart">
+<p><milestone n="30" unit="altchapter"/> Emendet haec omnia, ne, si in rerum magnarum <lb/>
+            profunditate humana errauit infirmitas, etiam diabolica huic <lb n="15"/>
+            accedat errori uel fallacia uel animositas siue negando quod <lb/>
+            sensit siue defendendo quod perperam sensit, cum id se non <lb/>
+            debuisse sentire commemorata perspicua ueritate cognouerit. <lb/>
+            istam quippe gratiam, qua iustificamur, id est qua caritas <lb/>
+            dei diffunditur in cordibus nostris per spiritum <choice n="0.00"><sic n="1">sanetum</sic><corr n="273">sanctum</corr></choice> <lb n="20"/>
+            qui datus est nobis, in Pelagii et Caelestii scriptis, <lb/>
+            quaecumque legere potui, nusquam eos inueni quemadmodum <lb/>
+            confitenda est confiteri, prorsus numquam eos aduerti, sicut <lb/>
+            agnoscendi sunt, agnoscere filios promissionis, de quibus dicit <lb/>
+            apostolus: non hi qui filii carnis. hi filii dei, sed filii <lb n="25"/>
+            promissionis deputantur in semen. quod enim promittit <lb/>
+            deus, non facimus nos per arbitrium seu naturam, sed facit <lb/>
+            ipse per gratiam. 
+</p>
+          
+</div>
+
+<div n="32" subtype="section" type="textpart">
+<p>Nam ut de Caelestii opusculis interim taceam uel <lb/>
+            libellis eius, quos iudiciis ecclesiasticis allegauit, quae uobis
+
+<note type="footnote"> 12 Ioh. 15, 5 19 Rom. 5, 5 25 Rom. 9, 8 29 cf. contra duas <lb/>
+            ep. Pel. II 5 (XLIV 574 M.) et ep. Zosimi CSEL XXXV 99 sqq. </note>
+
+<note type="footnote"> 2 hic] hoc <hi rend="italic">V</hi> 6 facilius <hi rend="italic">om. m. 1 C</hi> 8 est] r.-\' şest C 14 ne <hi rend="italic">om. T</hi> <lb/>
+            15 non etiam <hi rend="italic">M</hi> 17 <hi rend="italic">alt</hi>. sentit <hi rend="italic">b</hi> 21 celestii <hi rend="italic">Ch</hi> 23 nusquam <hi rend="italic">Pbd</hi> <lb/>
+            26 semine b 27 per naturam <hi rend="italic">b</hi> 29 celestii <hi rend="italic">CCh</hi> 30 alligauit <hi rend="italic">MTP, <lb/>
+            m. 1 CCh</hi> </note> <lb n="30"/>
+             
+<pb n="150"/>
+            omnia cum aliis quas necessarias existimauimus litteris mittenda <lb/>
+            curauimus, quibus omnibus diligenter inspectis possitis <lb/>
+            aduertere non eum ponere dei gratiam, qua iuuamur uel ad <lb/>
+            declinandum a malo uel ad faciendum bonum praeter naturale <lb/>
+            arbitrium uoluntatis nisi in lege atque doctrina, ita ut ipsas<lb n="5"/>
+            quoque orationes ad hoc asserat necessarias, ut ostendatur <lb/>
+            homini quid concupiscat et diligat — ut ergo haec interim <lb/>
+            omittam, nempe ipse Pelagius et litteras nuper et libellum <lb/>
+            Romam fidei suae misit scribens ad beatae memoriae papam <lb/>
+            Innocentium, quem defunctum esse nesciebat. in his ergo litteris<lb n="10"/>
+            \'duo\' dicit \'esse de quibus eum homines infamare conantur: <lb/>
+            unum, quod neget paruulis baptismi sacramentum et absque <lb/>
+            redemptione Christi aliquibus caelorum regna promittat, aliud, <lb/>
+            quod ita dicat posse hominem uitare peccatum, ut dei excludat <lb/>
+            auxilium et in tantum libero confidat arbitrio. ut gratiae repudiet<lb n="15"/>
+            adiutorium\'. sed de baptismo paruulorum, quamuis eis <lb/>
+            dandum esse concedat, quam peruerse contra fidem <choice><sic>christianam</sic><corr>Christianam</corr></choice> <lb/>
+            et catholicam sentiat ueritatem, non hic locus est ut diligentius <lb/>
+            disseramus; nunc enim de adiutorio gratiae quod instituimus <lb/>
+            peragendum est. unde ad id quod proposuit quid etiam hinc<lb n="20"/>
+            respondeat uideamus. ut enim omittamus eius inuidiosas de <lb/>
+            suis inimicis querelas, ubi ad rem uentum est, ita locutus est. 
+</p>
+          
+</div>
+
+<div n="33" subtype="section" type="textpart">
+<p><milestone n="31" unit="altchapter"/> &lt;Ecce&gt;, inquit, &lt;apud beatitudinem tuam <sic>epistulaista</sic> <lb/>
+            me purget, in qua pure atque simpliciter ad peccandum et <lb/>
+            non peccandum integrum liberum arbitrium habere nos dicimus,<lb n="25"/>
+            quod in omnibus bonis operibus <choice><sic>dinino</sic><corr>diuino</corr></choice> adiuuatur semper <lb/>
+            auxilio\'. cernitis utique pro intellectu, quem uobis dominus dedit, <lb/>
+            haec eius uerba soluendae non sufficere quaestioni. quaerimus <lb/>
+            enim adhuc, quo auxilio liberum adiuuari dicat arbitrium, ne
+
+<note type="footnote"> 3 cf. I Petr. 3, 11 </note>
+
+<note type="footnote"> <hi rend="italic">2 potui b</hi> 3 eumj <hi rend="italic">enira M uel om. V 4 uel ad] et V</hi> naturalS <lb/>
+            <hi rend="italic">MC</hi> 7 ergo haec] enim <hi rend="italic">TPV</hi> 8 omittatur <hi rend="italic">V</hi> libellum] <lb/>
+            alium <hi rend="italic">P</hi> 11 duo <hi rend="italic">om. CChTPVbd</hi> de <hi rend="italic">om. M</hi> 13 regna caelorum <hi rend="italic">b</hi> <lb/>
+            promitat <hi rend="italic">M</hi> 17 peruersae <hi rend="italic">MC</hi> 2o ad non peccandum <hi rend="italic">bd</hi> 26 semper <lb/>
+            adiuuatur <hi rend="italic">b</hi> iuuatur <hi rend="italic">CChTP</hi> iuuamur <hi rend="italic">V</hi> 27 itaque <hi rend="italic">CChTPVbd</hi> <lb/>
+            29 dicat adiuuari <hi rend="italic">TP</hi> </note> <lb/>
+             
+<pb n="151"/>
+            forte, sicut solet, uelit intellegi legem atque doctrinam. si . <lb/>
+            enim quaeras cur dixerit \'semper\', poterit respondere, quia <lb/>
+            dictum est: et in lege eius meditabitur die ac nocte. <lb/>
+            deinde cum de hominis conditione et ad peccandum atque non <lb/>
+            peccandum naturali eius possibilitate quaedam interposuisset, <lb n="5"/>
+            adiunxit dicens: \'quam liberi arbitrii potestatem dicimus in <lb/>
+            omnibus esse generaliter, in <choice><sic>christianis</sic><corr>Christianis</corr></choice>, Iudaeis atque gentilibus. <lb/>
+            in omnibus est liberum arbitrium aequaliter per naturam, <lb/>
+            sed in solis <choice><sic>christianis</sic><corr>Christianis</corr></choice> iuuatur a gratia\'. iterum quaerimus: <lb/>
+            qua gratia? et adhuc poterit respondere: lege atque doctrina <lb n="10"/>
+            christiana. 
+</p>
+          
+</div>
+
+<div n="34" subtype="section" type="textpart">
+<p>Deinde quamlibet sentiat gratiam, ipsis <choice><sic>christianis</sic><corr>Christianis</corr></choice> <lb/>
+            secundum merita dari dicit, cum eos qui hoc dicunt iam in <lb/>
+            Palaestina, sicut supra commemoraui, sua illa praeclara purgatione <lb/>
+            damnauerit. nam uerba eius ista sunt: &lt;in illis\', inquit, <lb n="15"/>
+            \'nudum et inerme est conditionis bonum\' — in eis dicit, qui <lb/>
+            christiani non sunt — deinde cetera <choice><sic>coutexens</sic><corr>contexens</corr></choice> \'in his uero\', inquit, <lb/>
+            \'qui ad Christum pertinent, Christi munitur auxilio\'. uidetis <lb/>
+            adhuc incertum esse quo auxilio secundum ea quae supra <lb/>
+            diximus. sed adhuc sequitur de his qui christiani non sunt et <lb n="20"/>
+            dicit: \'illi ideo iudicandi atque damnandi sunt, quia cum <lb/>
+            habeant liberum arbitrium, per quod ad fidem uenire possent <lb/>
+            et dei gratiam promereri, male utuntur libertate concessa. hi <lb/>
+            uero remunerandi sunt qui bene libero utentes arbitrio merentur <lb/>
+            domini gratiam et eius mandata custodiunt\'. nempe manifestum <lb n="25"/>
+            est eum gratiam dicere secundum merita dari, quamlibet eam <lb/>
+            uel qualemlibet significet, quam tamen aperte non exprimit. <lb/>
+            nam cum eos remunerandos dicit, qui bene utuntur libero <lb/>
+            arbitrio, et ideo mereri domini gratiam, debitum eis reddi
+
+<note type="footnote">3 P&gt;\\ 1, 2 14 pag. 142, 28 </note>
+
+<note type="footnote"> 1 solent 3f 2 cur] quare <hi rend="italic">CChTP</hi> 7 gentibus <hi rend="italic">P</hi> 9 iuuatur a <lb/>
+            gratia] est natura cum gratia <hi rend="italic">(in mg</hi>. af est natura adiuta per gratiam) <hi rend="italic">V</hi> <lb/>
+            a <hi rend="italic">om. b</hi> 13 haec <hi rend="italic">b</hi> 14 palestina <hi rend="italic">MCT</hi> 17 non <hi rend="italic">om. m. 1 C</hi> <lb/>
+            18 muniuntur <hi rend="italic">b</hi> 20 his] illis <hi rend="italic">b</hi> 22 finè <hi rend="italic">m. 1 T</hi> ą,(}ul\'nire <hi rend="italic">C</hi> <lb/>
+            23 liii <hi rend="italic">TP</hi> hi* <hi rend="italic">Ch</hi> 24 utentes libero <hi rend="italic">C</hi> 26 dicere gratiam <hi rend="italic">bd</hi> </note> <lb/>
+             
+<pb n="152"/>
+            fatetur. ubi est ergo illud apostoli: iustificati gratis per <lb/>
+            gratiam ipsius? ubi est et illud: gratia salui facti estis? <lb/>
+            et ne putarent <sic>lper</sic> opera\', addidit: per fidem. rursus ne ipsam <lb/>
+            fidem sine dei gratia sibi putarent esse tribuendam, et hoc, <lb/>
+            inquit, non ex uobis, sed dei donum est. nempe ergo<lb n="5"/>
+            illud, unde incipit omne quod merito accipere dicimur, sine <lb/>
+            merito accipimus, id est ipsam fidem. aut si negatur dari, <lb/>
+            quid est quod dictum est: sicut unicuique deus partitus <lb/>
+            est mensuram fidei? si autem sic dicitur dari, ut reddatur <lb/>
+            meritis, non donetur, quid est quod iterum dicit: uobis donatum<lb n="10"/>
+            est pro Christo non solum ut credatis in eum, <lb/>
+            uerum etiam patiamini pro eo? utrumque enim donatum <lb/>
+            esse testatus est, et quod credit in Christum et quod patitur <lb/>
+            quisque pro Christo. isti autem libero arbitrio sic applicant <lb/>
+            fidem, ut fidei uidelicet reddi uideatur non gratuita, sed<lb n="15"/>
+            debita gratia, ac per hoc iam nec gratia, quia nisi gratuita <lb/>
+            non est gratia. 
+</p>
+          
+</div>
+
+<div n="35" subtype="section" type="textpart">
+<p><milestone n="32" unit="altchapter"/> Sed ab his litteris Pelagius ad fidei suae librum <lb/>
+            uult transire lectorem, cuius uobis commemorationem fecit, in <lb/>
+            quo ea de quibus non interrogabatur multa disseruit. sed nos<lb n="20"/>
+            de quibus cum illis agimus, ipsa uideamus. cum enim ab <lb/>
+            unitate trinitatis usque ad resurrectionem carnis, quod ab illo <lb/>
+            nemo quaerebat, disputationem quantam uoluit terminasset, <lb/>
+            \'et baptisma\', inquit, <sic>lunum</sic> tenemus, quod isdem sacramenti <lb/>
+            uerbis in infantibus quibus etiam in maioribus dicimus esse<lb n="25"/>
+            celebrandum\'. hoc certe uos et a praesente audisse dixistis; <lb/>
+            sed quid prodest, quod eisdem uerbis in paruulis quibus et
+
+<note type="footnote"> 1-5 Rom. 3, 24 2 Eph. 2, 8 8 Rom. 12, 3 10 Phil. 1, 29 <lb/>
+            24 Pel. lib. fid. 8 (XLV 1718 M.) </note>
+
+<note type="footnote"> 1 est <hi rend="italic">om. C</hi> 2 ubi est illud <hi rend="italic">in ras. P</hi> facti <hi rend="italic">om. CliTP</hi> 5 donum <lb/>
+            dei <hi rend="italic">P</hi> 6 unde incipit <hi rend="italic">om. V</hi> 8 deus <hi rend="italic">om. C</hi> 10 hoc quod <hi rend="italic">b</hi> 12 ut <lb/>
+            patiamini <hi rend="italic">bd</hi> patimini <hi rend="italic">m. 1 T</hi> 13 creditur <hi rend="italic">M</hi> 16 iam <hi rend="italic">om. m. 1 T</hi> <lb/>
+            18 ad-librum <hi rend="italic">in ras. m. 2 C</hi> 19 nobis <hi rend="italic">m. 2 Ch, b</hi> 21 agimus cum <lb/>
+            illis <hi rend="italic">bd</hi> 23 noluit <hi rend="italic">M</hi> uolui <hi rend="italic">m. 1 C</hi> 24 et <hi rend="italic">in Pel. fid. libello deest</hi> <lb/>
+            tenemus et iisdem sacram <hi rend="italic">V</hi> 26 dixisti <hi rend="italic">C</hi> </note> <lb/>
+             
+<pb n="153"/>
+            in maioribus celebrari dicit baptismi sacramentum, cum res a <lb/>
+            nobis, non sola uerba quaerantur? plus est quod uobis ore <lb/>
+            proprio interrogantibus respondit, uti scribitis, <sic>linfantes</sic> in <lb/>
+            remissionem peccatorum accipere baptismum\\ non enim et <lb/>
+            hic dixit \'in uerbis remissionis peccatorum\\ sed eos baptizari <lb n="5"/>
+            in ipsam remissionem confessus est; et tamen si ab eo quaereretis, <lb/>
+            quid peccati eis credatur remitti, non eos aliquid habere <lb/>
+            contenderet. 
+</p>
+          
+</div>
+
+<div n="36" subtype="section" type="textpart">
+<p><milestone n="33" unit="altchapter"/> Quis crederet sub hac quasi manifesta confessione <lb/>
+            sensum latere contrarium, nisi eum Caelestius aperuisset? <lb n="10"/>
+            qui in libello suo, quem Romae gestis ecclesiasticis allegauit, <lb/>
+            \'paruulos et baptizari in peccatorum remissionem\' confessus <lb/>
+            est et negauit &lt;ullum habere originale peccatum\'. sed nunc <lb/>
+            non de baptismate paruulorum, sed de adiutorio gratiae potius <lb/>
+            etiam in libello fidei suae, quem Romam misit, quid Pelagius <lb n="15"/>
+            senserit attendamus. <sic>tliberum</sic>\\ inquit, \'sic confitemur arbitrium, <lb/>
+            ut dicamus nos indigere dei semper auxilio\'. ecce iterum quaerimus, <lb/>
+            quo auxilio nos indigere fateatur, et iterum inuenimus <lb/>
+            ambiguum, quoniam potest respondere legem se dicere doctrinamue <lb/>
+            <choice><sic>christianam</sic><corr>Christianam</corr></choice>, qua naturalis illa possibilitas adiuuetur. <lb n="20"/>
+            nos autem illam gratiam in eorum confessione requirimus, de <lb/>
+            qua dicit apostolus: non enim dedit nobis deus spiritum <lb/>
+            timoris, sed uirtutis et caritatis et continentiae. non <lb/>
+            est autem consequens, ut qui habet donum scientiae, quo <lb/>
+            nouerit quid agere debeat, habeat etiam caritatis, ut agat. <lb n="25"/>
+            
+</p>
+          
+</div>
+
+<div n="37" subtype="section" type="textpart">
+<p><milestone n="34" unit="altchapter"/> Illos etiam, quos in eisdem litteris, quas <lb/>
+            misit ad sanctae memoriae papam Innocentium, libros suos
+
+<note type="footnote"> 16 Pel. lib. fid. 13 (XLV 1718 M.) 22 II Tim. 1, 7 </note>
+
+<note rend="script" type="footnote"> 3 ut <hi rend="italic">CTP</hi> ubi <hi rend="italic">b</hi> 4 remissione <hi rend="italic">M</hi> percipere <hi rend="italic">CChTPVbd</hi> 5 dicit <hi rend="italic">b</hi> <lb/>
+            ait C baptizari omissa remissione confessus est <hi rend="italic">V</hi> 6 ipsa remissione <hi rend="italic">M</hi> <lb/>
+            tam <hi rend="italic">M</hi> 7 aliquit <hi rend="italic">C</hi> 10 contrarium latere <hi rend="italic">C</hi> celestius eum <hi rend="italic">C</hi> <lb/>
+            apperuisset <hi rend="italic">T</hi> 11 alligauit <hi rend="italic">V</hi> 12 remissionem peccatorum <hi rend="italic">bd</hi> 13 illum <lb/>
+            <hi rend="italic">M</hi> nunc <hi rend="italic">om. TPV</hi> nunc non de] non de <hi rend="italic">(in mg. m</hi>. 2 uc ii) <hi rend="italic">Ch</hi> <lb/>
+            14 non <hi rend="italic">om. M</hi> 17 dei indigere <hi rend="italic">CChTP</hi> 18 fateamur <hi rend="italic">M</hi> 22 spiritum <lb/>
+            timoris deus C 24 habent <hi rend="italic">M</hi> 26 jij illos <hi rend="italic">C</hi> eidem <hi rend="italic">m. 1 M</hi> <lb/>
+            quos <hi rend="italic">M</hi> </note> <lb/>
+             
+<pb n="154"/>
+            uel scripta commemorat, legi praeter unam epistulam, quam <lb/>
+            se breuem misisse ad sanctum Constantium episcopum dicit, <lb/>
+            nec alicubi potui reperire hanc eum gratiam confiteri, qua non <lb/>
+            solum possibilitas naturalis uoluntatis et actionis, quam dicit <lb/>
+            nos habere etiamsi nec uolumus nec agimus bonum, sed<lb n="5"/>
+            ipsa etiam uoluntas et actio subministratione sancti spiritus <lb/>
+            adiuuatur. 
+</p>
+          
+</div>
+
+<div n="38" subtype="section" type="textpart">
+<p><milestone n="35" unit="altchapter"/> \'<sic>Legant</sic>\', inquit, &lt;illam epistulam, quam ad sanctum <lb/>
+            uirum Paulinum episcopum ante duodecim fere annos scripsimus, <lb/>
+            quae trecentis forte uersibus nihil aliud quam dei<lb n="10"/>
+            gratiam et auxilium confitetur nosque nihil omnino boni facere <lb/>
+            posse sine deo\'. hanc ergo epistulam legi et inueni eum paene <lb/>
+            per totam non immorari nisi in facultate ac possibilitate <lb/>
+            naturae et paene ibi tantum dei gratiam constituere; <choice><sic>christianam</sic><corr>Christianam</corr></choice> <lb/>
+            uero gratiam tanta breuitate sola nominis commemoratione<lb n="15"/>
+            perstringit, ut nihil aliud uideatur quam eam tacere timuisse. <lb/>
+            utrum tamen eam in remissione peccatorum uelit intellegi an <lb/>
+            etiam in doctrina Christi, ubi est et conuersationis eius exemplum, <lb/>
+            quod aliquot locis suorum opusculorum facit, an credat <lb/>
+            aliquod adiutorium bene agendi adiunctum naturae atque doctrinae<lb n="20"/>
+            per <choice><sic>iaspirationem</sic><corr>inspirationem</corr></choice> flagrantissimae et luminosissimae <lb/>
+            caritatis non apparet omnino. 
+</p>
+          
+</div>
+
+<div n="39" subtype="section" type="textpart">
+<p><milestone n="36" unit="altchapter"/> \'<sic>Legant</sic> etiam), inquit, \'ad sanctum Constantium <lb/>
+            episcopum, ubi breuiter quidem, sed plane libero hominis <lb/>
+            arbitrio dei gratiam auxiliumque coniunxi\'. hanc epistulam, ut<lb n="25"/>
+            superius dixi, ego non legi; sed si non est dissimilis ceteris, <lb/>
+            quae mihi nota commemorat, non habet etiam ipsa quod <lb/>
+            quaerimus.
+
+<note type="footnote"> 25 cf. supra 1. 2 </note>
+
+<note type="footnote"> 3 potuit repire <hi rend="italic">(s. l</hi>. t reperiri) <hi rend="italic">P</hi> repperire <hi rend="italic">MCTCh m. 1</hi> eam <hi rend="italic">b</hi> <lb/>
+            5 uelimus nec agamus <hi rend="italic">V</hi> 12 posse <hi rend="italic">om. V</hi> 13 minorari <hi rend="italic">T</hi> ac] <lb/>
+            et <hi rend="italic">bd</hi> 17 remissionem <hi rend="italic">MChTP</hi> remissoe C 18 et <hi rend="italic">om. m. 1 C</hi> <lb/>
+            conuersionis m. <hi rend="italic">1 T</hi> 19 aliquod <hi rend="italic">M</hi> locis <hi rend="italic">ante</hi> facit <hi rend="italic">leg. in bd</hi> <lb/>
+            2:3 epm constantiuni <hi rend="italic">C</hi> 24 plene <hi rend="italic">M</hi> 25 sicut C 26 ego <hi rend="italic">om. M</hi> </note> 
+<pb n="155"/>
+            
+</p>
+          
+</div>
+
+<div n="40" subtype="section" type="textpart">
+<p><milestone n="37" unit="altchapter"/> \'<sic>Legant</sic>\', inquit, \'<choice><sic>etiara</sic><corr>etiam</corr></choice> quam ad sacram Christi <lb/>
+            uirginem Demetriadem in Oriente conscripsimus, et inuenient <lb/>
+            nos ita hominis laudare naturam, ut dei semper gratiae addamus <lb/>
+            <sic>anxilium</sic>). istam sane legi mihique paene persuaserat <lb/>
+            hanc illum gratiam, de qua quaestio est, confiteri, quamuis in <lb n="5"/>
+            multis eius opusculi locis sibi ipse contradicere uideretur; sed <lb/>
+            cum in manus meas et alia uenissent, quae posterius latiusque <lb/>
+            conscripsit, uidi quemadmodum potuerit etiam illic gratiam <lb/>
+            nominare sub ambigua generalitate quid sentiret abscondens, <lb/>
+            gratiae tamen uocabulo frangens inuidiam offensionemque <lb n="10"/>
+            declinans. nam in ipsius principio, ubi ait: \'proposito insudemus <lb/>
+            operi nec mediocritate diffidamus ingenii, quod credimus et <lb/>
+            fide matris et merito uirginis adiuuari\', gratiam, qua adiuuamur <lb/>
+            ad aliquid agendum, mihi uisus fuerat confiteri nec attenderam <lb/>
+            hanc eum ponere potuisse in sola reuelatione doctrinae. <lb n="15"/>
+            
+</p>
+          
+</div>
+
+<div n="41" subtype="section" type="textpart">
+<p>Item in eodem opere alio loco \'quodsi etiam sine deo\\ <lb/>
+            inquit, \'homines ostendunt quales a deo facti sunt, uide quid <lb/>
+            christiani facere possint, quorum in melius per Christum <lb/>
+            instaurata natura est et qui diuinae quoque gratiae iuuantur <lb/>
+            auxilio\'. naturam in melius instauratam remissionem uult intellegi <lb n="20"/>
+            peccatorum, quod alio loco in hoc ipso libro satis demonstrauit, <lb/>
+            ubi ait: \'etiam illi, qui longo peccandi <choice><sic>usn</sic><corr>usu</corr></choice> quodam <lb/>
+            modo obduruere, instaurari per paenitentiam possunt\'. auxilium <lb/>
+            uero diuinae gratiae potest et <sic>hicponere</sic> in reuelatione doctrinae. 
+</p>
+          
+</div>
+
+<div n="42" subtype="section" type="textpart">
+<p><milestone n="38" unit="altchapter"/> Item alibi in eadem epistula \'nam si etiam <lb n="25"/>
+            ante legem\', inquit, \'ut diximus, ac multo ante domini nostri <lb/>
+            et saluatoris aduentum iuste quidam et sancte uixisse referuntur, <lb/>
+            quanto magis post illustrationem aduentus eius nos
+
+<note type="footnote"> 1 ep. ad Demetriadem XXX 15 sqq. M 11 ib. c. 1 16 ib. c. 3 <lb/>
+            22 ib. c. 17 25 ib. c. 8 </note>
+
+<note rend="script" type="footnote"> 1 etiam inquit <hi rend="italic">CVbd</hi> 5 illam <hi rend="italic">b</hi> 10 confessiouemque <hi rend="italic">V</hi> 11 ipso <lb/>
+            <hi rend="italic">m. 1 C</hi> 12 mediocritati <hi rend="italic">d</hi> de mediocritate <hi rend="italic">in ep. ad Demetr</hi>. et <hi rend="italic">om. <lb/>
+             bd</hi> 15 in hanc <hi rend="italic">b</hi> 17 factu <hi rend="italic">M</hi> uide] unde <hi rend="italic">TP</hi> 18 per <hi rend="italic">om. b</hi> <lb/>
+            22 peccati <hi rend="italic">m. 1 T</hi> 23 obduruerx <hi rend="italic">C</hi> obruere naturae <hi rend="italic">M; in ep. ad <lb/>
+            Demetr,:</hi> bonum quodam modo obruere naturae 24 uero] hoc <hi rend="italic">V</hi> 25 si <lb/>
+            etiam] et si <hi rend="italic">b</hi> 27 scae <hi rend="italic">M</hi> 28 nosJ instaurati <hi rend="italic">b</hi> </note> <lb/>
+             
+<pb n="156"/>
+            id posse credendum est, qui instaurati per Christi gratiam et <lb/>
+            in meliorem hominem renati sumus, qui sanguine eius expiati <lb/>
+            atque mundati ipsiusque exemplo ad perfectiorem incitati <lb/>
+            iustitiam meliores illis esse debemus. qui ante legem fuere\'! <lb/>
+            uidete quemadmodum et hic aliis quidem uerbis, sed tamen <lb n="5"/>
+            in remissione peccatorum et in exemplo Christi adiutorium <lb/>
+            gratiae constituerit. deinde subiungit et dicit: \'meliores etiam <lb/>
+            quam fuerunt sub lege dicente apostolo: peccatum uobis <lb/>
+            non dominabitur; non enim sub lege estis, sed sub <lb/>
+            gratia. et quoniam hinc\', inquit, \'sufficienter, ut puto, diximus,<lb n="10"/>
+            nunc perfectam instituamus uirginem, quae ex utroque semper <lb/>
+            accensa et naturae simul et gratiae bonum morum sanctitate <lb/>
+            testetur\'. et in his uerbis debetis aduertere ideo illum quod <lb/>
+            dicebat sic uoluisse concludere, ut naturae bonum intellegamus, <lb/>
+            quod cum crearemur accepimus, gratiae autem, <choice n="0.03"><sic n="1419">cura</sic><corr n="42581">cum</corr></choice> Christi <lb n="15"/>
+            intuemur exemplum, tamquam ideo peccatum non indultum <lb/>
+            fuerit eis qui sub lege fuerunt uel sunt, quia exemplum Christi <lb/>
+            siue non habuerunt siue non credunt. 
+</p>
+          
+</div>
+
+<div n="43" subtype="section" type="textpart">
+<p><milestone n="39" unit="altchapter"/> Hoc autem istum sapere et alia uerba eius <lb/>
+            ostendunt non in hoc libro, sed in tertio pro libero arbitrio, <lb n="20"/>
+            ubi ad eum loquens contra quem disputat, quoniam ille <lb/>
+            posuerat uerba apostoli dicentis: non quod uolo ago, et: <lb/>
+            uideo aliam legem in membris meis repugnantem <lb/>
+            legi mentis meae et cetera quae ibi dicuntur, iste respondit <lb/>
+            atque ait: <sic>lhoc</sic> enim, quod tu de apostolo intellegere cupis,<lb n="25"/>
+            omnes ecclesiastici uiri in peccatoris et sub lege adhuc positi <lb/>
+            asserunt eum dixisse persona, qui nimia uitiorum consuetudine <lb/>
+            uelut quadam teneretur necessitate peccandi et quamuis bonum <lb/>
+            appeteret uoluntate, usu tamen praecipitaretur in malum. in
+
+<note type="footnote"> 7 ib. c. 8 8 Rooi. 6, 14 22 Rom. 7, 15 23 Rom. 7, 23 </note>
+
+<note type="footnote"> 1 instaurati] nos <hi rend="italic">b</hi> 3 perfectionem incitati iustitiae <hi rend="italic">CChTPVbd</hi> <lb/>
+            peifectam iustitiam incitati <hi rend="italic">in ep. ad Demetr</hi>. 7 melior est <hi rend="italic">M</hi> 8 fuerant <lb/>
+            <hi rend="italic">M</hi> fuere <hi rend="italic">b</hi> dicento <hi rend="italic">Ch</hi> 9 sed-hinc <hi rend="italic">in ras. m. 1 P</hi> 16 intueremur <lb/>
+            <hi rend="italic">V</hi> imitemur <hi rend="italic">b</hi> 17 fuerunt] fuerint <hi rend="italic">m. 1 7\'</hi> 18 habuerint <hi rend="italic">m. 1 T</hi> <lb/>
+            19 eius uerba <hi rend="italic">bd</hi> 21 quoniam] quando <hi rend="italic">V</hi> 22 ueiba posuerat <hi rend="italic">C</hi> <lb/>
+            28 teneretur (re <hi rend="italic">m. 2 s. ras.) M</hi> 29 appareret <hi rend="italic">(in mg. m</hi>. 2 appeteret) <hi rend="italic">T</hi> </note> <lb/>
+             
+<pb n="157"/>
+            persona autem hominis unius\', inquit, \'designat populum sub <lb/>
+            uetere adhuc lege peccantem, quem ab hoc consuetudinis <lb/>
+            malo dicit liberandum esse per Christum, qui credentibus sibi <lb/>
+            primo omnia per baptismum peccata dimittit, deinde imitatione <lb/>
+            sui ad perfectam incitat sanctitatem et uitiorum consuetudinem <lb n="5"/>
+            uirtutum uincit exemplo\'. ecce quomodo uult intellegi adiuuari <lb/>
+            eos qui sub lege peccant, ut per gratiam Christi iustificati <lb/>
+            liberentur, tamquam eis non sufficiat sola lex propter nimiam <lb/>
+            peccandi consuetudinem, nisi Christi accedat non inspiratio <lb/>
+            caritatis per spiritum sanctum, sed intuendum et imitandum <lb n="10"/>
+            in doctrina euangelica uirtutis eius exemplum. et certe maxima <lb/>
+            hic erat causa exprimendi, quam diceret gratiam, ubi locum <lb/>
+            ipsum, de quo respondet, sic conclusit apostolus, ut diceret: <lb/>
+            infelix ego homo, quis me liberabit de corpore mortis <lb/>
+            huius? gratia dei per Iesum Christum dominum <lb n="15"/>
+            nostrum. hanc iste cum constituit non in uirtutis eius auxilio, <lb/>
+            sed imitationis eius exemplo, quid amplius de illo sperare <lb/>
+            debemus, ubicumque gratiae nomen sub ambigua generalitate <lb/>
+            commemorat? 
+</p>
+          
+</div>
+
+<div n="44" subtype="section" type="textpart">
+<p><milestone n="40" unit="altchapter"/> Item in eodem libro ad uirginem sacram, unde <lb n="20"/>
+            iam etiam supra disseruimus, ubi ait: \'subditi simus deo <lb/>
+            eiusque faciendo uoluntatem diuinam mereamur gratiam et <lb/>
+            facilius nequam spiritui sancti spiritus auxilio resistamus\'. in <lb/>
+            quibus eius uerbis certe manifestum est ita eum uelle nos <lb/>
+            adiuuari gratia spiritus sancti, non quia sine illo etiam per <lb n="25"/>
+            solam naturae possibilitatem non possumus resistere temptatori, <lb/>
+            sed ut facilius resistamus. quod tamen qualecumque et
+
+<note type="footnote"> 14 Rom. 7, 24. 25 21 ep. ad Demetr. 25 (XXX 40 M.) </note>
+
+<note rend="script" type="footnote"> 1 inquit hominis unius <hi rend="italic">bd</hi> sub uetere] sub uertere <hi rend="italic">Ch</hi> sub uertere <lb/>
+            C sub uetere (ue <hi rend="italic">in ras.) P</hi> subuertere <hi rend="italic">b</hi> 4 dimittet <hi rend="italic">m. 1 C</hi> 8 peccandi <lb/>
+            nimiam <hi rend="italic">MC</hi> 11 euuangelica <hi rend="italic">Ch</hi> et certe maxima <lb/>
+            <hi rend="italic">om. V</hi> 13 qua C 14 liberauit <hi rend="italic">M</hi> 16 ipse <hi rend="italic">V</hi> c m. 2 <lb/>
+            <hi rend="italic">8. l. C</hi> 17 eius <hi rend="italic">om. bd</hi> de <hi rend="italic">in ras. m. 2 C</hi> 18 auibigua* <hi rend="italic">Ch</hi> <lb/>
+            20 eiusdem <hi rend="italic">M</hi> sacram uirginem C 21 sim\' (m\' <hi rend="italic">in ras. m. 2) C</hi> <lb/>
+            sumus <hi rend="italic">b</hi> 23 sci sps auxilio nequam spiritui <hi rend="italic">C</hi> spiritus sancti <hi rend="italic">b</hi> <lb/>
+            resistemus <hi rend="italic">V</hi> 25 personam <hi rend="italic">m. 1 ChT</hi> 27 qualecumque et <hi rend="italic">om. V</hi> </note> <lb/>
+             
+<pb n="158"/>
+            quantulumcumque adiutorium eum credibile est in hoc constituere, <lb/>
+            quod nobis additur scientia reuelante spiritu per doctrinam, <lb/>
+            quam uel non possumus uel difficile habere possumus per <lb/>
+            naturam. ista sunt quae in libro, quem scripsit ad uirginem <lb/>
+            Christi, aduertere potui, ubi uidetur gratiam confiteri. quae<lb n="5"/>
+            profecto qualia sint, utique cernitis. 
+</p>
+          
+</div>
+
+<div n="45" subtype="section" type="textpart">
+<p><milestone n="41" unit="altchapter"/> \'<sic>Legant</sic>\', inquit, \'etiam recens meum opusculum, <lb/>
+            quod pro libero nuper arbitrio edere compulsi sumus, et <lb/>
+            agnoscent quam inique nos negatione gratiae infamare gestierint, <lb/>
+            qui per totum paene ipsius textum operis perfecte atque integre<lb n="10"/>
+            et liberum arbitrium confitemur et gratiam\'. quattuor sunt <lb/>
+            libri operis huius. et hos legi et ex illis sumpsi quae tractanda <lb/>
+            et discutienda proposui et ut potui pertractaui, antequam <lb/>
+            ad eius has litteras, quae Romam missae sunt, ueniremus. sed <lb/>
+            in his etiam quattuor libris quaecumque pro gratia uidetur<lb n="15"/>
+            dicere, qua iuuamur, ut declinemus a malo bonumque faciamus, <lb/>
+            ita dicit, ut nullo modo a uerborum ambiguitate discedat, <lb/>
+            quam discipulis sic possit exponere, ut nullum auxilium <lb/>
+            gratiae credant. qua naturae possibilitas adiuuetur, nisi in lege <lb/>
+            atque doctrina, ita ut ipsas quoque orationes, ut in scriptis<lb n="20"/>
+            suis apertissime affirmat, ad nihil aliud adhibendas opinetur, <lb/>
+            nisi ut nobis doctrina etiam diuina reuelatione aperiatur, non <lb/>
+            ut adiuuetur mens hominis, ut id quod faciendum esse didicerit <lb/>
+            etiam dilectione et actione perficiat. ab illo enim suo <lb/>
+            manifestissimo dogmate non recedit omnino, ubi tria illa<lb n="25"/>
+            constituit, possibilitatem, uoluntatem, actionem, et solam <lb/>
+            possibilitatem dicit diuino adiuuari semper auxilio, uoluntatem <lb/>
+            autem et actionem nullo dei adiutorio existimat indigere. ipsum <lb/>
+            uero auxilium, \'quo possibilitatem naturalem perhibet adiuuari, <lb/>
+            in lege constituit atque doctrina, quam nobis fatetur etiam
+
+<note rend="script" type="footnote"> 2 spm M 4 <hi rend="italic">uoce</hi> Ista <hi rend="italic">incipit cap</hi>. XLI <hi rend="italic">b</hi> 8 arbitrio nuper <hi rend="italic">P <lb/>
+            10 integrae M 12 his (i in ras.) M et hos legi repetnntur<lb/>
+             in C</hi> sflsi <hi rend="italic">C</hi> 20 ut <hi rend="italic">alt. om</hi>. M 26 uolunt et <hi rend="italic">V</hi> Bolam] <lb/>
+            uolunt <hi rend="italic">V</hi> 27 semper adiuuari <hi rend="italic">b</hi> uolunt in primis et acticnem <lb/>
+            <hi rend="italic">Y</hi> </note> <lb n="30"/>
+             
+<pb n="159"/>
+            sancto spiritu reuelari, propter quod et orandum esse concedit. <lb/>
+            sed hoc adiutorium legis atque doctrinae etiam propheticis <lb/>
+            fuisse temporibus, adiutorium autem gratiae, quae proprie <lb/>
+            gratia nuncupatur, in Christi esse arbitratur exemplo, quod <lb/>
+            nihilominus ad doctrinam pertinere perspicitis, quae nobis <lb n="5"/>
+            euangelica praedicatur, ut uidelicet tamquam uia demonstrata, <lb/>
+            qua ambulare debeamus, iam uiribus liberi arbitrii adiutorio <lb/>
+            nullo alterius indigentes sufficiamus nobis. ne deficiamus in <lb/>
+            uia, quamuis et ipsam uiam contendat etiam sola inueniri <lb/>
+            posse natura, sed facilius, si adiuuet gratia. <lb n="10"/>
+            
+</p>
+          
+</div>
+
+<div n="46" subtype="section" type="textpart">
+<p><milestone n="42" unit="altchapter"/> Hoc ergo pro meo captu intellegere potui in <lb/>
+            Pelagii scriptis, quando nominat gratiam. uidetis autem, quod <lb/>
+            qui ista sentiunt ignorantes dei iustitiam suam uolunt <lb/>
+            constituere et longe ab illa sunt, quae nobis ex deo est, <lb/>
+            non ex nobis, quam in scripturis, maxime sanctis canonicis, <lb n="15"/>
+            aduertere atque agnoscere debuerunt. sed quia eas secundum <lb/>
+            suum sensum legunt. profecto in illis nec aperta contuentur. <lb/>
+            utinam ergo saltem in catholicorum uirorum scriptis, a quibus <lb/>
+            eas recte intellectas esse non dubitant, quid sit de adiutorio <lb/>
+            diuinae gratiae sentiendum non neglegenter attenderent nec <lb n="20"/>
+            suae sententiae amore nimio praeterirent! nam iste ipse Pelagius <lb/>
+            in illo ipso recenti opusculo suo, cuius se commemoratione <lb/>
+            defendit, id est in tertio libro pro libero arbitrio, sanctum <lb/>
+            Ambrosium quemadmodum laudet accipite. 
+</p>
+          
+</div>
+
+<div n="47" subtype="section" type="textpart">
+<p><milestone n="43" unit="altchapter"/> \'Beatus\', inquit, \'Ambrosius episcopus, in cuius <lb n="25"/>
+            praecipue libris Romana elucet fides, qui scriptorum inter <lb/>
+            Latinos flos quidam speciosus enituit, cuius fidem et purissimum <lb/>
+            in scripturis sensum ne inimicus quidem ausus est
+
+<note type="footnote"> 8 cf. Matth. 15, 32 13 cf. Rora. 10. 3 14 cf. Phil. 3, 9 25 cf. <lb/>
+            Aug. op. imperf. c. Iul. I 2 (XLV 1052 M.) et saepius </note>
+
+<note type="footnote"> 1 adorandum <hi rend="italic">V</hi> concedunt <hi rend="italic">M</hi> 3 propriae <hi rend="italic">M</hi> 4 arbitrantur M <lb/>
+            6 euuangelica <hi rend="italic">Ch</hi> 9 contendant <hi rend="italic">M</hi> 11 Haec <hi rend="italic">bd</hi> in <hi rend="italic">om. m. 1 M</hi> <lb/>
+            pelagii in scriptis <hi rend="italic">Ch</hi> 12 quam <hi rend="italic">V</hi> nominauit <hi rend="italic">Vb</hi> quod hi <hi rend="italic">M</hi> <lb/>
+            15 scripturis etiam sanctis canonicis maxime aduertere <hi rend="italic">Vb</hi> 16 cognoscere <lb/>
+            P 17 aperte <hi rend="italic">TPb</hi> 20 diuinae <hi rend="italic">om. m. 1 C</hi> 21 praeterierint <hi rend="italic">M</hi> <lb/>
+            22 recente <hi rend="italic">C</hi> 27 pciosus <hi rend="italic">m. 1 Ch</hi> procipuus <hi rend="italic">TP V</hi> emanauit <hi rend="italic">V</hi> </note> <lb/>
+             
+<pb n="160"/>
+            reprehendere\'. ecce qualibus et quantis praedicat laudibus <lb/>
+            quamlibet sanctum et doctum uirum, nequaquam tamen auctoritati <lb/>
+            scripturae canonicae comparandum. quem propterea sic <lb/>
+            iste commendat, quia uidetur sibi in quodam loco librorum <lb/>
+            eius eo teste uti, quo probet hominem posse esse sine peccato. <lb n="5"/>
+            unde nunc non agitur, sed agitur de auxilio gratiae, quo ad <lb/>
+            non peccandum adiuuamur iusteque uiuendum. 
+</p>
+          
+</div>
+
+<div n="48" subtype="section" type="textpart">
+<p><milestone n="44" unit="altchapter"/> Audiat ergo illum uenerabilem antistitem <lb/>
+            dicentem et docentem in secundo libro expositionis euangelii <lb/>
+            secundum Lucam cooperari dominum etiam uoluntatibus nostris. <lb n="10"/>
+            \'uides utique\', inquit, \'quia ubique domini uirtus studiis cooperatur <lb/>
+            humanis, ut nemo possit aedificare sine domino, nemo custodire <lb/>
+            sine domino, nemo quicquam incipere sine domino. et <lb/>
+            ideo iuxta apostolum siue manducatis siue bibitis, omnia <lb/>
+            in dei gloriam facite\'. uidetis quemadmodum sanctus Ambrosius<lb n="15"/>
+            etiam illud quod solent homines dicere \'nos incipimus <lb/>
+            et deus perficit\' his uerbis abstulit dicens neminem quicquam <lb/>
+            uel incipere sine deo. item in sexto libro eiusdem operis, cum <lb/>
+            de duobus illis unius feneratoris debitoribus ageret, \'secundum <lb/>
+            homines\', inquit, \'plus fortasse offendit, qui plus debuerat; sed<lb n="20"/>
+            per misericordiam domini causa mutatur, ut amplius diligat <lb/>
+            qui amplius debuit, si tamen gratiam consequatur\'. ecce apertissime <lb/>
+            praedicat catholicus doctor etiam ipsam dilectionem, <lb/>
+            qua quisque amplius diligit, ad beneficium gratiae pertinere. 
+</p>
+          
+</div>
+
+<div n="49" subtype="section" type="textpart">
+<p><milestone n="45" unit="altchapter"/> Ipsam denique paenitentiam, quam procul<lb n="25"/>
+            dubio uoluntas agit, domini misericordia et adiutorio fieri ut
+
+<note type="footnote"> 9 Ambr. expos. cuang. sec. Luc. II 84 (XV 1583 M.) 14 I Cor. <lb/>
+            10, 31 18 Ambros. ib. VI 25 </note>
+
+<note type="footnote"> 1 qualibus] quamlibet <hi rend="italic">b</hi> 2 quemlibet <hi rend="italic">b</hi> auctoritatis <hi rend="italic">M</hi> 5 quo <lb/>
+            probet] quolibet <hi rend="italic">TP</hi> quemlibet <hi rend="italic">V</hi> sine peccato esse posse C 7 peccandum <lb/>
+            non <hi rend="italic">POlt m. 1</hi> 10 deum <hi rend="italic">CTPCh m. 1</hi> 11 utique utiqui? <hi rend="italic">C</hi> <lb/>
+            itaque <hi rend="italic">TPVd</hi> est studiis <hi rend="italic">M</hi> 13 nemo-domino <hi rend="italic">om. TPC m. 1</hi> <lb/>
+            15 uidetis enim <hi rend="italic">C</hi> 19 feneratoris unius <hi rend="italic">bd</hi> faeneratoris <hi rend="italic">MC</hi> <lb/>
+            20 hominem <hi rend="italic">b</hi> debuerit <hi rend="italic">M</hi> 21 di <hi rend="italic">C</hi> 22 gratia <hi rend="italic">M</hi> eccepertinere <lb/>
+            <hi rend="italic">om. V</hi> 24 quaiji <hi rend="italic">Ch</hi>. </note> <lb/>
+             
+<pb n="161"/>
+            agatur, in nono eiusdem operis libro beatus dicit Ambrosius <lb/>
+            ita loquens: \'bonae lacrimae, quae culpam lauant. denique <lb/>
+            quos Iesus respicit, plorant. negauit primo Petrus et non fleuit, <lb/>
+            quia non <choice><sic>Tespexerat</sic><corr>respexerat</corr></choice> dominus; negauit secundo, non fleuit, <lb/>
+            quia adhuc non respexerat dominus; negauit et tertio, respexit <lb n="5"/>
+            Iesus, et ille amarissime fleuit\'. legant isti euangelium et <lb/>
+            uideant dominum Iesum tunc intus fuisse, cum a sacerdotum <lb/>
+            principibus audiretur, apostolum uero Petrum foris et deorsum <lb/>
+            in atrio cum seruis ad focum nunc sedentem, nunc stantem, <lb/>
+            sicut ueracissima et concordissima euangelistarum narratione <lb n="10"/>
+            monstratur. unde non potest dici, quod corporalibus oculis <lb/>
+            eum dominus uisibiliter admonendo respexerit. et ideo quod <lb/>
+            ibi scriptum est: respexit eum dominus, intus actum est, <lb/>
+            in mente actum est, in uoluntate actum est. misericordia <lb/>
+            dominus latenter subuenit, cor tetigit, memoriam reuocauit, <lb n="15"/>
+            interiorem gratia sua uisitauit Petrum, interioris hominis usque <lb/>
+            ad exteriores lacrimas mouit et produxit affectum. ecce quemadmodum <lb/>
+            deus adiuuando adest uoluntatibus et actionibus nostris! <lb/>
+            ecce quemadmodum et uelle et operari operatur in nobis! <lb/>
+            
+</p>
+
+</div>
+
+<div n="50" subtype="section" type="textpart">
+<p>Item in eodem libro idem sanctus Ambrosius \'nam si <lb n="20"/>
+            Petrus\', inquit, \'lapsus est, qui dixit: et si alii scandalizati <lb/>
+            fuerint, ego non scandalizabor, quis alius iure de se <lb/>
+            praesumat? denique Dauid quia dixerat: ego dixi in mea <lb/>
+            abundantia: non mouebor in aeternum, suam sibi iactantiam <lb/>
+            obfuisse profitetur dicens: auertisti faciem tuam et <lb n="25"/>
+            factus sum conturbatus\'. audiat iste tantum uirum docentem,
+
+<note type="footnote"> 1 Ambr. expo3. euang. sec. Luc. X 89 3 cf. Luc. 22, 58-62 <lb/>
+            9 cf. Matth. 26, 58. 69. 71; Marc. 14, 54. 66-68; Luc. 22, 55 sq.; Ioh. <lb/>
+            18, 16. 18. 25 13 Luc. 22, 61 19 Pbil. 2, 13 20 Ambros. ib. X 91 <lb/>
+            21 Matth. 26, 33 23 Ps. 29, 7 25 Ps. 29, 8 </note>
+
+<note type="footnote"> 1 decimo b <hi rend="italic">libro om. V beatus ambroeius aperit ita V</hi> ambrosius <lb/>
+            dicit <hi rend="italic">C</hi> 3 plorant delictum <hi rend="italic">b</hi> 4 secundo et non <hi rend="italic">Pb</hi> 6 legant <lb/>
+            autem <hi rend="italic">M</hi> 10 uerissima <hi rend="italic">m. 1 T</hi> 11 ostenditur C 12 ammonendo <lb/>
+            <hi rend="italic">CTCh m. 1 respexit P 14 in mente actum in ras. P alt. actum</hi> <lb/>
+            est <hi rend="italic">om. CTP</hi> 15 latente <hi rend="italic">M</hi> 16 interiore <hi rend="italic">CChTPVbd</hi> in interiore <lb/>
+            homine <hi rend="italic">V</hi> 17 perduxit ad fletum <hi rend="italic">V</hi> 18 actionibus] affectionibus <hi rend="italic">V</hi> <lb/>
+            24 habundantia <hi rend="italic">MP</hi> 25 obfuisse <hi rend="italic">om. m. 1 C</hi> 26 uirum <hi rend="italic">om. P</hi> </note>
+
+<note type="footnote"> XXXXII Aug. Sect. VIII pars II. </note>
+
+<note type="footnote"> 11 </note> <lb/>
+             
+<pb n="162"/>
+            imitetur credentem, cuius doctrinam fidemque laudauit; audiat <lb/>
+            humiliter imitetur fideliter; non de se pertinaciter praesumat, <lb/>
+            ne pereat. quid in eo pelago uult mergi Pelagius, unde per <lb/>
+            petram liberatus est Petrus? \'
+</p>
+          
+</div>
+
+<div n="51" subtype="section" type="textpart">
+<p><milestone n="46" unit="altchapter"/> Audiat eundem antistitem dei in sexto itidem<lb n="5"/>
+            libro eiusdem operis dicentem: &lt;cur autem non receperint eum, <lb/>
+            euangelista ipse memorauit dicens: quia facies eius erat <lb/>
+            euntis in Hierusalem. discipuli autem recipi intra Samariam <lb/>
+            gestiebant. sed deus quos dignatur uocat et quem uult religiosum <lb/>
+            facit\'. o sensum hominis dei ex ipso haustum fonte<lb n="10"/>
+            gratiae dei! \'deus\', inquit, <sic>lquos</sic> dignatur uocat et quem uult <lb/>
+            religiosum facit\'. uidete, si non illud est propheticum: miserebor, <lb/>
+            cuius misertus ero, et misericordiam praestabo, <lb/>
+            cui misericors fuero, et illud apostolicum: igitur non <lb/>
+            uolentis neque currentis, sed miserentis est dei, qui,<lb n="15"/>
+            ut dicit etiam nostrorum temporum homo eius, \'quem dignatur <lb/>
+            uocat et quem uult religiosum facit\'. numquid aliquis dicere <lb/>
+            audebit nondum esse religiosum, (qui currit ad dominum et <lb/>
+            ab eo se regi cupit et uoluntatem suam ex eius uoluntate <lb/>
+            suspendit et qui ei adhaerendo iugiter unus secundum apostolum<lb n="20"/>
+            cum eo fit spiritus\'? at hoc totum tam magnum <lb/>
+            religiosi hominis opus Pelagius \'non\' dicit (effici nisi arbitrii <lb/>
+            libertate\'. contra autem beatus Ambrosius ipsius tam excellenter <lb/>
+            ore laudatus <sic>Mominus</sic> deus\', inquit, \'quem dignatur uocat et <lb/>
+            quem uult religiosum facit\\ ergo ut currat ad dominum et ab<lb n="25"/>
+            eo se regi cupiat suamque uoluntatem ex eius uoluntate
+
+<note type="footnote"> 5 Ambros. ib. VII 27 7 Luc. 9, 53 12 Ex. 33, 19; Rora. 9, 15 <lb/>
+            14 Rom. 9, 16 18 cf. 143, 18 20 cf. I Cor. 6, 17 </note>
+
+<note type="footnote"> 1 audiat fideliter imitetur humiliter <hi rend="italic">C</hi> 3 per petram] perperam <hi rend="italic">b</hi> <lb/>
+            6 eiusdem operis <hi rend="italic">om. V</hi> reperint <hi rend="italic">M</hi> 8 hyerusalem <hi rend="italic">M</hi> ihertm <hi rend="italic">Ch</hi> <lb/>
+            iertm P intra samariam recipi C 10 austum <hi rend="italic">m. 1 T, MC</hi> 11 quos <lb/>
+            <hi rend="italic">(s in ras.) M</hi> 14 ero C igitur <hi rend="italic">om. b</hi> 15 est <hi rend="italic">om. bd</hi> quia <lb/>
+            <hi rend="italic">CChTPVbd</hi> 16 etiam <hi rend="italic">om. V</hi> eius dignatur quem uocat <hi rend="italic">V</hi> eius] dei C <lb/>
+            18 religiosum esse <hi rend="italic">C</hi> deum <hi rend="italic">b</hi> et <hi rend="italic">om. T</hi> 19 uoluntate eius C <lb/>
+            20 suspendat <hi rend="italic">M</hi> aderendo <hi rend="italic">CTP</hi> 22 dicit non C 23 excellenti <hi rend="italic">b</hi> <lb/>
+            24 inquit] non <hi rend="italic">M</hi> 26 regi se <hi rend="italic">TP</hi> </note> <lb/>
+             
+<pb n="163"/>
+            suspendat eique adhaerendo iugiter unus secundum apostolum <lb/>
+            cum eo fiat spiritus, deus quem uult religiosum facit: et <lb/>
+            hoc totum homo nisi religiosus non facit. quapropter nisi a <lb/>
+            deo fiat, ut hoc faciat, quis hoc facit? 
+</p>
+          
+</div>
+
+<div n="52" subtype="section" type="textpart">
+<p><milestone n="47" unit="altchapter"/> Sed quia ista quaestio, ubi de arbitrio <lb n="5"/>
+            uoluntatis et dei gratia disputatur, ita est ad discernendum <lb/>
+            difficilis, ut, quando defenditur liberum arbitrium, negari dei <lb/>
+            gratia uideatur, quando autem asseritur dei gratia, liberum <lb/>
+            arbitrium putetur auferri, potest Pelagius ita se latebris obscuritatis <lb/>
+            huius inuoluere, ut etiam his quae a sancto Ambrosio <lb n="10"/>
+            conscripta posuimus consentire se dicat et ea se quoque sentire <lb/>
+            proclamet semperque sensisse atque ita singula conetur exponere, <lb/>
+            ut etiam eius sententiae conuenire credantur. quapropter <lb/>
+            quantum attinet ad istam de diuina gratia et adiutorio quaestionem, <lb/>
+            tria illa quae apertissime distinxit attendite: posse, <lb n="15"/>
+            uelle, esse, id est possibilitatem, uoluntatem, actionem. si <lb/>
+            ergo consenserit nobis non solam possibilitatem in homine, <lb/>
+            etiamsi nec uelit nec agat bene, sed ipsam quoque uoluntatem <lb/>
+            et actionem, id est ut bene uelimus et bene agamus. quae <lb/>
+            non sunt in homine, nisi quando bene uult et bene agit — si, <lb n="20"/>
+            ut dixi, consenserit etiam ipsam uoluntatem et actionem diuinitus <lb/>
+            adiuuari et sic adiuuari, ut sine illo adiutorio nihil bene <lb/>
+            uelimus et agamus, eamque esse gratiam dei per Iesum <lb/>
+            Christum dominum nostrum, in qua nos sua non nostra <lb/>
+            iustitia iustos facit, ut ea sit uera nostra iustitia, quae nobis <lb n="25"/>
+            ab illo est, nihil de adiutorio gratiae dei, quantum arbitror, <lb/>
+            inter nos controuersiae relinquetur.
+
+<note type="footnote"> 1 cf. I Cor. 6, 17 5 cf. contra Iulianum Pelag. IV 47 (XLIV <lb/>
+            762 M.) 28 cf. Rom. 7, 25 25 cf. Phil. 3, 9 </note>
+
+<note rend="script" type="footnote"> 1 suspensadat <hi rend="italic">M</hi> unus sit <hi rend="italic">M</hi> unus cum eo fit sps ds C 2 fieri <hi rend="italic">M</hi> <lb/>
+            di <hi rend="italic">M</hi> et-facit <hi rend="italic">om. V</hi> 5 arbitrio libert$ti§ C 9 auferri pute- <lb/>
+            <hi rend="italic">tur C pe.lagius T se om. CV latebras V 10 huius om. b</hi> huius <lb/>
+            se <hi rend="italic">C</hi> 12 proclamat (a <hi rend="italic">fin. sup</hi>. e <hi rend="italic">add.) T</hi> 15 ista <hi rend="italic">b</hi> distincxit <hi rend="italic">T</hi> <lb/>
+            dicit <hi rend="italic">V</hi> distinguit <hi rend="italic">C</hi> 16 esse] et agere <hi rend="italic">V</hi> 17 solll C possibilitatem <lb/>
+            dicit esse <hi rend="italic">M</hi> 22 et sic adiuuari <hi rend="italic">om. b</hi> 24 nos adiuuat <hi rend="italic">V</hi> <lb/>
+            25 iustos-iustitia <hi rend="italic">om. Vb</hi> iustos] saluos nos <hi rend="italic">C</hi> </note>
+
+<note type="footnote"> 11* </note> 
+<pb n="164"/>
+            
+</p>
+          
+</div>
+
+<div n="53" subtype="section" type="textpart">
+<p><milestone n="48" unit="altchapter"/> Illud autem propter quod sanctum sic laudauit <lb/>
+            Ambrosium, quia scilicet in scriptis eius inuenit ex <lb/>
+            laudibus Zachariae et Elisabeth posse hominem in hac uita <lb/>
+            esse sine peccato, quamquam negandum non sit, si hoc uelit <lb/>
+            deus, apud quem sunt omnia possibilia, consideret tamen <lb n="5"/>
+            diligentius quemadmodum dictum sit. dictum enim est, quantum <lb/>
+            mihi uidetur, secundum quandam inter homines conuersationem <lb/>
+            probabilem atque laudabilem, quam nullus hominum iuste <lb/>
+            posset in accusationis et criminationis querelam uocare. quam <lb/>
+            propterea in dei conspectu Zacharias et eius uxor habuisse<lb n="10"/>
+            referuntur, quia in ea homines nulla dissimulatione fallebant, <lb/>
+            sed ut apparebant hominibus, ita noti erant oculis dei. non <lb/>
+            autem dictum est hoc secundum illam perfectionem iustitiae, <lb/>
+            in qua uere atque omnimodo inmaculati perfectique uiuemus. <lb/>
+            nam et apostolus Paulus dixit secundum iustitiam, quae<lb n="15"/>
+            ex lege est, se fuisse sine querela, in qua lege etiam <lb/>
+            Zacharias sine querela conuersabatur; sed hanc apostolus <lb/>
+            iustitiam in stercoribus et detrimentis deputauit in comparatione <lb/>
+            iustitiae, quam speramus et quam nunc esurire ac sitire <lb/>
+            debemus ut ea quandoque saturemur in specie, quae nunc est<lb n="20"/>
+            in fide, quamdiu iustus ex fide uiuit. 
+</p>
+          
+</div>
+
+<div n="54" subtype="section" type="textpart">
+<p><milestone n="49" unit="altchapter"/> Audiat denique ipsum uenerabilem antistitem, <lb/>
+            cum exponeret Esaiam prophetam, dicentem neminem in hoc <lb/>
+            mundo esse sine peccato, ubi nemo potest dicere &lt;in hoc <lb/>
+            mundo\' eum dixisse uelut in dilectione huius mundi. de apostolo<lb n="25"/>
+            etenim loquebatur, qui dixit: conuersatio nostra in <lb/>
+            caelis est. hunc ergo sensum memoratus episcopus explicans, <lb/>
+            \'perfectos\', inquit, \'secum multos ait apostolus in hoc adhuc <lb/>
+            mundo sitos, qui, si ad perfectionem ueram respicias, perfecti
+
+<note type="footnote"> 10 cf. Luc. 1, 6 15 Phil. 3, 6 18 cf. Phil. 3, 8 19 cf. <lb/>
+            Jlatth. 5, 6 21 Rom. 1, 17 26 Phil. 3, 20 </note>
+
+<note type="footnote"> <hi rend="italic">1 sic laudauit Banctum bd 2 scripturis P</hi> 3 zacariae C helizabeth <lb/>
+            <hi rend="italic">CCh</hi> 6 est enim <hi rend="italic">CChTP</hi> 12 noti <hi rend="italic">om. V</hi> 19 ad <hi rend="italic">m. 1 Ch</hi> <lb/>
+            20 deberemus <hi rend="italic">M</hi> 23 isaiam <hi rend="italic">P</hi> isayam <hi rend="italic">Ch</hi> ysayam C 26 dicit <hi rend="italic">b</hi> <lb/>
+            28 adhuc <hi rend="italic">om. m. 1 C</hi> 29 qua (s. a <hi rend="italic">add</hi>. ae) <hi rend="italic">M</hi> </note> <lb/>
+             
+<pb n="165"/>
+            esse non poterant, quia ipse dixit: uidemus nunc per speculum <lb/>
+            in aenigmate, tunc autem facie ad faciem; <lb/>
+            nunc cognosco ex parte, tunc autem cognoscam sicut <lb/>
+            et cognitus sum. ita et inmaculati sunt in hoc mundo et <lb/>
+            inmaculati erunt in regno dei, cum utique, si minutius excutias, <lb n="5"/>
+            inmaculatus esse nemo possit, quia nemo sine peccato\'. illud <lb/>
+            ergo sancti Ambrosii testimonium, quo pro <choice><sic>sna</sic><corr>sua</corr></choice> sententia <lb/>
+            Pelagius utitur, aut secundum quendam modum dictum est, <lb/>
+            probabilem quidem, sed non minutius excussum, aut certe, si <lb/>
+            ille uir sanctus atque humilis Zachariam et Elisabeth summae <lb n="10"/>
+            atque omnimodo perfectae iustitiae, cui nihil addi iam posset, <lb/>
+            fuisse existimauit, profecto sententiam suam minutius excutiendo <lb/>
+            correxit. 
+</p>
+          
+</div>
+
+<div n="55" subtype="section" type="textpart">
+<p><milestone n="50" unit="altchapter"/> Attendat sane iste in eodem ipso loco, unde hoc <lb/>
+            Ambrosianum testimonium, quod ei placebat, assumpsit, etiam <lb n="15"/>
+            illud eum dixisse, quod \'ab initio esse inmaculatum humanae <lb/>
+            inpossibile sit naturae\', ubi omnino illam naturalem possibilitatem, <lb/>
+            quam Pelagius non uult fideliter respicere peccato esse <lb/>
+            uitiatam et ideo iactanter extollit, eneruem infirmamque testatur <lb/>
+            uenerandus Ambrosius, procul dubio contra istius uoluntatem, <lb n="20"/>
+            sed non contra apostolicam ueritatem, ubi legitur: fuimus et <lb/>
+            nos aliquando natura filii irae sicut et ceteri. ipsa est <lb/>
+            enim per peccatum primi hominis, quod ex libero eius uenit <lb/>
+            arbitrio, uitiata et damnata natura, cui sola per mediatorem <lb/>
+            dei et hominum et omnipotentem medicum diuina subuenit <lb n="25"/>
+            gratia. de cuius adiutorio ad iustificationem nostram, quo <lb/>
+            deus diligentibus eum omnia cooperatur in bonum, quos <lb/>
+            prior dilexit, donans eis ut diligeretur ab eis, quia iam diu <lb/>
+            est ut disserimus, deinceps incipiamus, quantum dominus
+
+<note type="footnote"> 1 I Cor. 13, 12 21 Eph. 2, 3 24 cf. I Tira. 2, 5 27 cf. <lb/>
+            Rom. 8, 28 28 cf. I Ioh. 4, 19 </note>
+
+<note type="footnote"> 2 enigmate <hi rend="italic">MCP</hi> faciae <hi rend="italic">M</hi> 5 minucius <hi rend="italic">C</hi> 9 minutius quidem C <lb/>
+            10 adque <hi rend="italic">M</hi> aut P helisabeth <hi rend="italic">Ch</hi> helisabet <hi rend="italic">C</hi> 14 attenda P 15 as- . <lb/>
+            sflsit <hi rend="italic">C</hi> 18 pellagius <hi rend="italic">T</hi> 27 deum <hi rend="italic">b</hi> cooperantur <hi rend="italic">b</hi> 29 utI <lb/>
+            quod <hi rend="italic">V</hi> disseruimus <hi rend="italic">Vb</hi> </note> <lb/>
+             
+<pb n="166"/>
+            adiuuerit, etiam de peccato, quod per unum hominem <choice n="0.96"><sic n="42581">cum</sic><corr n="1419">cura</corr></choice> <lb/>
+            morte intrauit in mundum atque ita in omnes homines <lb/>
+            pertransiit aduersus istos, qui in errorem huic <lb/>
+            contrarium ueritati apertius eruperunt, quae satis esse uidebuntur <lb/>
+            exprimere.
+
+<note type="footnote"> 2 Rom. 5, 12 </note>
+
+<note rend="script" type="footnote"> 4 erumpunt <hi rend="italic">V</hi> uidetur <hi rend="italic">V</hi> 5 Explicit liber primus. Inč secundus <lb/>
+            ad scm Pinianum <hi rend="italic">M</hi> ExpJ lib primus. Incipit secundus <hi rend="italic">C</hi> Explicit <lb/>
+            liber primus Aurelii Augustini epi de gra xpi II de peccato originali <lb/>
+            çQųtrą. Pelagiv.H1 ęţ çęlęŞţjŲlll Inč lib II\' <hi rend="italic">Ch</hi> Explicit liber primus Aurelii <lb/>
+            Augustini epi de gra xpi et de peccato originali contra Pelagium <lb/>
+            et Celestium. Inč liber scds <hi rend="italic">T</hi> Explicit liber primus contra Pelagium <lb/>
+            et Celestium ad Albinam, Pinianum et Melaniam de gra xpi. InC scds <lb/>
+            ad eosdem de peccato originali P </note><lb n="5"/>
+            
+</p>
+<pb n="167"/>
+
+</div>
+
+</div>
+</body>
+</text>
+</TEI>

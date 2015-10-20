@@ -1,0 +1,2455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL39.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Paulus Geyer</name>
+                  <addName xml:lang="de">Paul Geyer</addName>
+                </persName>
+              </editor> 
+              <author>Anonymous</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0329.stoa001">Itinerarium Burdigalense</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1898</date>
+              </imprint>
+              <biblScope unit="volume">39</biblScope>
+            </monogr>
+            <monogr> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1485.1">Pseudo-Silvia</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0111.stoa001">Peregrinatio ad Loca Sancta</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1898</date>
+              </imprint>
+              <biblScope unit="volume">39</biblScope>
+            </monogr>
+            <monogr> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1773.1">Petrus Diaconus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0227b.stoa001">De Locis Sanctis</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1898</date>
+              </imprint>
+              <biblScope unit="volume">39</biblScope>
+            </monogr>
+            <monogr> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117p">Pseudo-Eucherius</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117p.stoa001">De Situ Hierusolimitanae Urbis</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1898</date>
+              </imprint>
+              <biblScope unit="volume">39</biblScope>
+            </monogr>
+            <monogr> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1797.1">Theodosius</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0278a.stoa001">De Situ Terrae Sanctae</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1898</date>
+              </imprint>
+              <biblScope unit="volume">39</biblScope>
+            </monogr>
+            <monogr> 
+              <author>Anonymous</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0329c.stoa001">Breviarius de Hierosolyma</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1898</date>
+              </imprint>
+              <biblScope unit="volume">39</biblScope>
+            </monogr>
+            <monogr> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1678.1">Antoninus Placentinus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0028e.stoa001">Itinerarium</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1898</date>
+              </imprint>
+              <biblScope unit="volume">39</biblScope>
+            </monogr>
+            <monogr> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1652.1">Adamnan</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0007.stoa002">De Locis Sanctis</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1898</date>
+              </imprint>
+              <biblScope unit="volume">39</biblScope>
+            </monogr>
+            <monogr> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1437.1">Beda Venerabilis</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0054.stoa001a">Liber De Locis Sanctis</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1898</date>
+              </imprint>
+              <biblScope unit="volume">39</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru17wissgoog#page/n9/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0329.stoa001.opp-lat1">
+<div n="549" subtype="section" type="textpart">
+<head>ITINERARIUM A BURDIGALA HIERUSALEM USQVE ET AB HERACLEA PER AULONAM ET PER URBEM ROMAM MEDIOLANUM USQVE SIC:</head>
+<p>
+Ciuitas Burdigala, ubi est fluuius Garonna, per quem facit mare Oceanum accessa et recessa per leugas plus minus centum.
+
+</p>
+<p>mutatio Stomatas.............................leug\tVII
+
+</p>
+
+</div>
+
+<div n="550" subtype="section" type="textpart">
+<p>1 mutatio Sirione..............................leug\tVIII
+</p>
+<p>2 Ciuitas Vasatas..............................leug\tVIIII
+</p>
+<p>3 mutatio Tres Arbores ........................leug\tV
+</p>
+<p>4 mutatio Oscincio ............................leug\tVIII
+</p>
+<p>5 mutatio Scittio..............................leug\tVIII
+</p>
+<p>6 Ciuitas Elusa................................leug\tVIII
+</p>
+<p>7 mutatio Vanesia...............................leug\tXII
+</p>
+<p>8 Ciuitas Auscius..............................leug\tVIII
+</p>
+<p>9 mutatio Ad Sextum............................leug\tVI
+</p>
+<p>10 mutatio Hungunuerro..........................leug\tVII
+</p>
+
+          <p rend="script">
+
+<note rend="script" type="footnote"> <hi rend="italic">In margine codicis Parisini fol</hi>. 66 <hi rend="italic">a legitur: Hinc editum ab Andrea</hi> <lb/>
+            g <lb/>
+            <hi rend="italic">Schotto</hi> 2 BORDEGALA <hi rend="italic">V</hi> 3 DERACLA 2. <hi rend="italic">m. corr. P</hi> ERACLA <hi rend="italic">V</hi> <lb/>
+            ALAVNA P 4 ORBEM <hi rend="italic">primitus fuit littera 0, post in U mutata,<lb/>
+             ut uidetur V</hi> 5 MEDIOLANIVM <hi rend="italic">V lineae 1-6 rubris litteris <lb/>
+            uncialibus scriptae sunt</hi> 7 bordegala <hi rend="italic">V</hi> 8 accessa <hi rend="italic">postrema littera <lb/>
+            1</hi>. m. <hi rend="italic">correcta V</hi> 9 numerum centum <hi rend="italic">V</hi> 10 <hi rend="italic">Hinc duae columnae PY</hi> <lb/>
+            mut Ciut roam <hi rend="italic">semper abbreuiantur Y, raro P</hi> leugs <hi rend="italic">est abbreuiatio<lb/>
+             codicis V,</hi> leug <hi rend="italic">codicis P</hi> leugs n. VII <hi rend="italic">V</hi> 11 senone <hi rend="italic">V,</hi> sirione <hi rend="italic">etiam <lb/>
+            It. Ant. 461,</hi> 4 ęleog <hi rend="italic">corr</hi>. 2. <hi rend="italic">m. P</hi> 12 <hi rend="italic">inde a linea 12 post</hi> leugs <lb/>
+            <hi rend="italic">add</hi>. N <hi rend="italic">Y</hi> oasataB leugs n. VIII <hi rend="italic">V</hi> 13 tria arboris i <hi rend="italic">ex</hi> e <hi rend="italic">1. m</hi>. <lb/>
+            corr. <hi rend="italic">V</hi> 14 oscyneio <hi rend="italic">V</hi> 15 socio <hi rend="italic">Y</hi> 16 tolosa <hi rend="italic">V</hi> 20 hungunerras <lb/>
+            <hi rend="italic">ex</hi> hungunerro <hi rend="italic">1. m. corr. V</hi> </note>
+
+<note type="footnote"> l* </note>
+            
+</p>
+<pb n="4"/>
+
+
+\t
+<p>11\tmutatio Bucconis...........................leug\tVII
+</p>
+
+</div>
+
+<div n="551" subtype="section" type="textpart">
+\t
+<p>1\tmutatio ad Iouem...........................leug\tVII
+</p>
+<p>2\tCiuitas Tholosa.............................leug\tVII
+</p>
+<p>3\tmutatio Ad Nonum\tmil\tVIIII
+</p>
+<p>4\t<choice><sic>mutatib</sic><corr>mutatio</corr></choice> Ad Vicesimum\tmil\tXI\t5
+</p>
+<p>5\tmansio Elusione\tmil\tVIIII
+</p>
+<p>6\tmutatio Sostomago\tmil\tVIIII
+</p>
+<p>7\tuicus Hebromago\tmil\tX
+</p>
+<p>8\tmutatio Cedros .  \tmil\tVI
+</p>
+<p>9\tcastellum Carcassone\tmil\tVIII\t10
+</p>
+<p>10\tmutatio Tricensimum..........................mil\tVIII
+</p>
+
+</div>
+
+<div n="552" subtype="section" type="textpart">
+ 
+<p>1\tmutatio Hosuerbas............................mil\tXV
+</p>
+<p>2\tCiuitas Narbone\tmil\tXV
+</p>
+<p>3\tCiuitas Biterris\tmil\tXVI
+</p>
+<p>4\tmansio Cessarone\tmil\tXII\t15
+</p>
+<p>5\tmutatio Foro Domiti\tmil\tXVIII
+</p>
+<p>6\tmutatio Sostantione\tmil\tXVII
+</p>
+<p>7\tmutatio Ambrosio\tmil\tXV
+</p>
+<p>8\tCiuitas Nemauso \tmil\tXV
+</p>
+<p>9\tmutatio Ponte Aerarium\tmil\tXII\tso
+</p>
+<p>10\tCiuitas Arellate.............................mil\tVIII
+</p>
+
+</div>
+
+<div n="553" subtype="section" type="textpart">
+ 
+<p>1 Fit a Burdigala Arillate usque milia CCCLXXI, 
+</p>
+<p>2 mutationes XXX, mansiones XI. 
+</p>
+
+
+
+
+<note type="footnote"> <hi rend="italic">13-19 cf. It. Ant. p</hi>. 389, <hi rend="italic">6-388, 6 et</hi> 397, 2-396, 1 </note>
+
+<note rend="script" type="footnote"> 1 buccones <hi rend="italic">V</hi> 2 leugnas nufii VII <hi rend="italic">V</hi> 3 tolosa <hi rend="italic">V</hi> 6 eleusione <hi rend="italic">V</hi> <lb/>
+              7 sustomago <hi rend="italic">V</hi> 8 ebromago <hi rend="italic">V</hi> 9 cpedros <hi rend="italic">litt</hi>. o 2. <hi rend="italic">m. expuncta P</hi> cędros <lb/>
+              <hi rend="italic">V 10 carcassona V</hi> 11 <hi rend="italic">tricencimum P trecesimura V</hi> 12 busuerbas <lb/>
+              <hi rend="italic">V</hi> 18 narbonp V 14 beterris <hi rend="italic">Y</hi> beterras <hi rend="italic">It. Ant. p</hi>. 389, 5 beterris <lb/>
+              <hi rend="italic">p. 397, 1</hi> 15 cesserone <hi rend="italic">It. Ant. p. 389, 4 et</hi> 396, 9 17 sustanciooe <hi rend="italic">V</hi> <lb/>
+              sextatione <hi rend="italic">It. Ant. p. 389, 2,</hi> sertantione p. <hi rend="italic">306,</hi> 7 18 ambrusi <hi rend="italic">V</hi> <lb/>
+              ambrussum <hi rend="italic">It. Ant. p. 389, 1 et 396,</hi> 6 19 nemausum <hi rend="italic">It. Ant. p. 388,<lb/>
+               7 et 396, 5</hi> 20 herarum <hi rend="italic">V</hi> X5II <hi rend="italic">eraso n. V V</hi> 21 arelate <hi rend="italic">V et It. <lb/>
+              Ant. p. 388, 6</hi> 22 aburdigala P bordegala <hi rend="italic">V</hi> arillate <hi rend="italic">P</hi> arelate <hi rend="italic">Y</hi> <lb/>
+              milia CCCLXXII: <hi rend="italic">V numeri collecti efficiunt CCCLXXY milia passuum, <lb/>
+              ei pro singulis leugis MD passus posueris. Mutationes autem sunt <lb/>
+              XXXII. mansiones praeter uictm et castellum X</hi> </note> 
+<pb n="5"/>
+
+
+<p>3 mutatio Arnagine..............................mil\tVIII
+</p>
+<p>4 mutatio Bellinto...............................mil\tX
+</p>
+<p>5 Ciuitas <sic>Auenione</sic> ..............................mil\tV
+</p>
+<p>6 mutatio Cypresseta.............................mil\tV
+</p>
+<p>7 Ciuitas Arausione..............................mil\tXV
+</p>
+<p>8 mutatio Ad Letoce..............................mil\tXIII
+</p>
+<p>9 mutatio Nouem Craris...........................mil\tX
+</p>
+<p>10 mansio Acuno...................................mil\tXV
+</p>
+
+
+
+</div>
+
+<div n="554" subtype="section" type="textpart">
+
+<p>1 mutatio <sic>Vacianis</sic> ..............................mil\tXII
+</p>
+<p>2 mutatio Umbenno................................mil\tXII
+</p>
+<p>3 Ciuitas Valentia...............................mil\tVIIII
+</p>
+<p>4 mutatio Cerobelliaca...........................mil\tXII
+</p>
+<p>5 mansio Augusta.................................mil\tX
+</p>
+<p>6 mutatio Darentiaca.............................mil\tXII
+</p>
+<p>7 Ciuitas <sic>Dea</sic> Vocontiorum........................mil\tXVI
+</p>
+<p>8 mansio Luco....................................mil\tXII
+</p>
+<p>9 mutatio Vologatis..............................mil\tVIIII
+</p>
+
+
+
+</div>
+
+<div n="555" subtype="section" type="textpart">
+
+<p>1 Inde ascenditur Gaura mons. 
+</p>
+<p>2 mutatio Cambono................................mil\tVIII
+</p>
+<p>3 mansio monte Seleuci...........................mil\tVIII
+</p>
+<p>4 mutatio Dauiano................................mil\tVIII
+</p>
+<p>5 mutatio Ad Fine................................mil\tXII
+</p>
+<p>6 mansio <sic>Vapinco</sic>...............................  mil\tXI
+</p>
+<p>7 mansio <sic>Catorigas</sic> ..............................mil\tXII
+</p>
+<p>8 mansio <sic>Hebriduno</sic>..........................  .\tmil\tXVI
+</p>
+
+
+
+
+<note type="footnote"> <hi rend="italic">11-25 cf. It. Ant. p. 358, 2-357, 5 23-25 cf. etiam It. <lb/>
+              Ant. p. 342,</hi> 3-342, <hi rend="italic">1</hi> </note>
+
+<note rend="script" type="footnote"> 1 arnagene <hi rend="italic">V</hi> ernagino <hi rend="italic">It. Ant. p. 344, 1</hi> VIIII <hi rend="italic">V</hi> S auinione <hi rend="italic">V</hi> <lb/>
+              4 cepresaata <hi rend="italic">Y</hi> 5 XIII <hi rend="italic">V</hi> 6 <hi rend="italic">hic uersus deest V</hi> 7 nouencrares <hi rend="italic">V</hi> <lb/>
+              N <lb/>
+              8 mil X <hi rend="italic">V</hi> 9 uacianis <hi rend="italic">2. m. corr. P</hi> Bantianis <hi rend="italic">V</hi> mil XI <hi rend="italic">V</hi> 10 <hi rend="italic">nu-</hi> <lb/>
+              merus <hi rend="italic">deest V</hi> 13 agusta <hi rend="italic">V</hi> 15 deanocontinorum <hi rend="italic">V</hi> dea bocontiorum <lb/>
+              N <lb/>
+              <hi rend="italic">It. Ant. p. 357, 10</hi> 17 uolocatea <hi rend="italic">V</hi> 18 mOTa <hi rend="italic">2. m. corr. P</hi> 20 monte <lb/>
+              seleuco <hi rend="italic">It. Ant. p</hi>. 357, <hi rend="italic">8</hi> 22 ad finem <hi rend="italic">V</hi> 23 nuappinco <hi rend="italic">V</hi> <lb/>
+              24 catoricas <hi rend="italic">Y</hi> caturrigas <hi rend="italic">It. Ant. p. 342, 2 et 357, 6</hi> 25 ebreduno <hi rend="italic">Y</hi> <lb/>
+              eburoduno <hi rend="italic">It. Ant p. 342, 1 et 357, 5</hi> </note> 
+<pb n="6"/>
+
+<p>9               Inde incipiunt Alpes Cottiae. 
+</p>
+<p>10      mutatio <sic>Rame</sic>............................                mil     XVII
+</p>
+<p>11      mansio  Byrigantum ......................               mil     XVII
+</p>
+
+</div>
+
+<div n="556" subtype="section" type="textpart">
+     
+<p>1               Inde ascendis Matronam. 
+</p>
+<p>2       mutatio <sic>Gesdaone</sic>........................                mil     X
+</p>
+<p>3       mansio  Ad Marte.........................               mil     VIIII
+</p>
+<p>4       Ciuitas <sic>Secussione</sic>.......................               mil     XVI
+</p>
+<p>5               Inde incipit Italia,
+</p>
+<p>6       mutatio Ad Duodecimum.................          mil     XII
+</p>
+<p>7       mansio  Ad Fines.......................         mil     XII
+</p>
+<p>8       mutatio Ad Octauum.......................               mil     VIII
+</p>
+<p>9       Ciuitas Taurinis.......................         mil     VIII
+</p>
+<p>10      mutatio Ad Decimum ...................          mil     X
+</p>
+
+</div>
+
+<div n="557" subtype="section" type="textpart">
+     
+<p>1       mansio  <sic>Quadratis</sic>......................         mil     XII
+</p>
+<p>2       mutatio Ceste...........................                mil     XI
+</p>
+<p>3       mansio  <sic>Rigomago</sic>.........................               mil     VIII
+</p>
+<p>4       mutatio Ad Medias.....................          mil     X
+</p>
+<p>5       mutatio Ad Cottias ......................               mil     XIII
+</p>
+<p>6       mansio  Laumello ........................               mil     XII
+</p>
+<p>7       mutatio <sic>Duriis</sic>..........................                mil     VIIII
+</p>
+<p>8       Ciuitas Ticeno ..........................               mil     XII
+</p>
+<p>9       mutatio Ad Decimum ...................          mil     X
+</p>
+<p>10      Ciuitas Mediolanum.......................               mil     X
+</p>
+<p>11      [mansio Fluuio Frigido          mil     XII]
+</p>
+
+              <figure type="illustration">
+              <graphic url="CSEL39_fig9.jpg"/></figure>
+
+<note type="footnote"> <hi rend="italic">2-p. 7, 1 cf. It. Ant. p</hi>. 341, 6-339, <hi rend="italic">8 et p. 357, 4-<lb/>
+               356, 1</hi> </note>
+
+<note type="footnote"> 1 pennine <hi rend="italic">V</hi> 3 byrigane <hi rend="italic">y eadem m. ex i corr. V</hi> brigantione <hi rend="italic">It. <lb/>
+               Ant. p. 341, 5 et 357, 3</hi> 4 ascendes <hi rend="italic">V</hi> matroniam <hi rend="italic">V</hi> 6 admarte <lb/>
+              <hi rend="italic">V</hi> ad martis <hi rend="italic">It. Ant. p</hi>. 341, 4 <hi rend="italic">et 357, 2</hi> 7 segucio <hi rend="italic">V</hi> segusione <lb/>
+              <hi rend="italic">It. Ant. p. 341, 3 et 357, 1</hi> 8 Italia] alia P 11 ad octauu <hi rend="italic">V</hi> <lb/>
+              12 taurines <hi rend="italic">V</hi> 16 regomago <hi rend="italic">V</hi> 19 laumellum <hi rend="italic">It. Ant. p. 340, 2 et<lb/>
+               347, 2;</hi> laumello <hi rend="italic">p. 356. 9</hi> 20 dunis <hi rend="italic">V</hi> 21 ticino <hi rend="italic">V</hi> ticinum <hi rend="italic">It. <lb/>
+               Ant. p. 340, 1 et 356, 8</hi> 23 mediolano <hi rend="italic">V</hi> 24 fluuio frigdo <hi rend="italic">P cum <lb/>
+              haec mansio post finem itineris Mediolanensis hic superflua sit, Parthey <lb/>
+              huc ex pagina sequente uersum translatum esse statuit</hi>. </note> 
+<pb n="7"/>
+
+
+</div>
+
+<div n="558" subtype="section" type="textpart">
+
+
+
+<p>1\tFit ab Arillato Mediolanum usque milia CCCCLXXV,\t
+</p>
+<p>2\tmutationes LXIII, mansiones XXII.\t
+</p>
+<p>3\tmutatio Argentia . . . .\t\tmil X
+</p>
+<p>4\tmutatio Ponte Aurioli . .\t\tmil X
+</p>
+<p>5\tCiuitas <sic>Vergamo</sic>\t\t\tmil XIII
+</p>
+<p>6\tmutatio Tellegate . . . .\t\tmil XII
+</p>
+<p>7\tmutatio Tetellus\t\t\tmil X
+</p>
+<p>8\tCiuitas Brixa\t\t\tmil X
+</p>
+<p>9\tmansio Ad Flexum . . . .\t\tmil XI
+</p>
+<p>10\tmutatio Beneuentum . . .\t\tmil X
+</p>
+<p>11\tCiuitas Verona\t\t\tmil X
+</p>
+<p>12\tmutatio Cadiano\t\t\tmil X
+</p>
+<p>13\tmutatio Auraeos\t\t\tmil X
+</p>
+
+</div>
+
+<div n="559" subtype="section" type="textpart">
+
+<p>1\tCiuitas Vincentia . . . .\t\tmil XI
+</p>
+<p>2\tmutatio Ad Finem . . . .\t\tmil XI
+</p>
+<p>3\tCiuitas Pataui\t\t\tmil X
+</p>
+<p>4\tmutatio Ad Duodecimum .\t\tmil XII
+</p>
+<p>5\tmutatio Ad Nonum . . .\t\tmil XI
+</p>
+<p>6\tCiuitas Altino\t\t\tmil VIIII
+</p>
+<p>7\tmutatio Sanos\t\t\tmil X
+</p>
+<p>8\tCiuitas Concordia . . . .\t\tmil VIIII
+</p>
+
+
+
+
+
+<note type="footnote"> <hi rend="italic">3 -10 cf. It. Ant. p. 127, 10-128, 4 21 cf. It. Ant. p. 128, 5</hi> </note>
+
+<note type="footnote"> 1 arelate <hi rend="italic">V</hi> usque mediolano <hi rend="italic">V</hi> mille <hi rend="italic">corr. 2. m. P</hi> CCCLXXV <hi rend="italic">P</hi> <lb/>
+              2 mnt. LXIII. mut. LXIII. <hi rend="italic">alterum 2. m. deletum est P. It. Ant. p</hi>. <lb/>
+              339, 7 <hi rend="italic">a Mediolano Arelate per Alpes Cottias CCCCXI milia passuum<lb/>
+               esse feruntur. Hoc loco si singulos numeros collegeris efficiuntur omisso <lb/>
+              uersu 12 milia CCCCLXXXVI, mut. sunt XLIIII, mans. XXI</hi> 3 argentea <lb/>
+              <hi rend="italic">V</hi> 4 aureoli <hi rend="italic">V</hi> 5 bergamo <hi rend="italic">V</hi> bergame ciuitas <hi rend="italic">It. Ant. p. <lb/>
+              127, 10</hi> 6 tallegate <hi rend="italic">F</hi> 7 mille <hi rend="italic">2. m. corr. P</hi> 8 brixia ciuitas <lb/>
+              <hi rend="italic">It. Ant. p. 127, 11</hi> 9 <hi rend="italic">haec mansio nominatur</hi> Sermione <hi rend="italic">It. Ant. p. <lb/>
+              127, 12</hi> 10 beneauentum <hi rend="italic">V</hi> 12 caclianno <hi rend="italic">V</hi> 13 aureos <hi rend="italic">V</hi> <lb/>
+              14 uinoentia, <hi rend="italic">litt</hi>. ui <hi rend="italic">in rasura V</hi> 16 patanis <hi rend="italic">It. Ant. p. 128, 3</hi> 17 Ad <lb/>
+              Duodecimum <hi rend="italic">om. V, sed a librario huius saeculi in margine adscriptum</hi> <lb/>
+              est 19 altinum <hi rend="italic">It. Ant. p. 128, 4</hi> 20 sanus <hi rend="italic">V</hi> 21 VIII <hi rend="italic">V</hi> </note> 
+<pb n="8"/>
+
+
+<p>9 mutatio Apicilia............................mil\tVIIII
+</p>
+<p>10 mutatio Ad Undecimum........................mil\tX
+</p>
+<p>11 Ciuitas Aquileia............................mil\tXI
+</p>
+<p>12 Fit a Mediolanum Aquileia usque milia CCLI, mutationes XXIIII, mansiones VIIII. 
+</p>
+<p>13 ----
+</p>
+<p>14 mutatio Ad Undecimum ........................mil XI
+</p>
+
+
+</div>
+
+<div n="560" subtype="section" type="textpart">
+
+<p>1 mutatio Ad Fornolus..........................mil XII
+</p>
+<p>2 [mutatio Castra  ............................mil XII]
+</p>
+<p>3 Inde sunt Alpes Iuliae. 
+</p>
+<p>4 Ad Pirum summas Alpes........................mil VIIII
+</p>
+<p>5 mansio Longatico.............................mil X
+</p>
+<p>6 mutatio Ad Nonum.............................mil VIIII
+</p>
+<p>7 Ciuitas Emona................................mil XIIII
+</p>
+<p>8 mutatio Ad Quartodecimo......................mil X
+</p>
+<p>9 mansio Hadrante..............................mil XIII
+</p>
+<p>10 Fines Italiae et Norici. 
+</p>
+<p>11 mutatio Ad Medias ...........................mil XIII
+</p>
+<p>12 Ciuitas Celeia...............................mil XIII
+</p>
+
+</div>
+
+<div n="561" subtype="section" type="textpart">
+
+<p>1 mutatio Lotodos..............................mil XII
+</p>
+<p>2 mansio Ragindoue.............................mil XII
+</p>
+
+
+
+
+
+<note type="footnote"> <hi rend="italic">3-20 cf. It. Ant. p. 128, 6-129, 5</hi> </note>
+
+<note type="footnote"> 1 adpacilia <hi rend="italic">V</hi> 2 <hi rend="italic">rectius</hi> XI <hi rend="italic">V</hi> 4 mediolano <hi rend="italic">V</hi> 5 <hi rend="italic">numcri collecti<lb/>
+               efficiunt</hi> CCXXVIIII, <hi rend="italic">mutationes autem sunt XXII. It. Ant. p. 124, 1<lb/>
+               CCLXX (CCLX P) milia ponuntur</hi> 7 furnoluB <hi rend="italic">V</hi> 8 <hi rend="italic">hunc uermm<lb/>
+               a librario omissum 2. maum addidit. Sed hic excidisse uersum supra<lb/>
+               seclusum</hi> mansio Fluuio Frigdo mil XII <hi rend="italic">recte suspicatur Parthey coli. <lb/>
+              It. Ant. p. 128, 7, ubi haec mansio XXXVI m. p. ultra Aquileiam <lb/>
+              ponitur</hi> 9 surgunt alpes iuli$ad pirum summas alpes <hi rend="italic">V</hi> Inde snnt <lb/>
+              alpes iuliae ad II f. 67 a Pirum summas <hi rend="italic">etc. P</hi> 10 mil VIIII <hi rend="italic">om. V</hi> <lb/>
+              12 mutaatio 2. <hi rend="italic">m. corr. P</hi> 18 semona <hi rend="italic">V</hi> hemona <hi rend="italic">It. Ant. p. 129, 2</hi> <lb/>
+              15 <hi rend="italic">hunc uersum om. V</hi> adrante <hi rend="italic">It. Ant. p. 129, 3</hi> mansio hadrante <lb/>
+              finos italiae II et norci milia XIII <hi rend="italic">P</hi> fines <hi rend="italic">itali$omisso</hi> et norici <hi rend="italic">V post</hi> <lb/>
+              italiae <hi rend="italic">duae lineae uacant</hi> 17 mutAatio <hi rend="italic">2. m. corr. P</hi> 18 ceiia <hi rend="italic">V</hi> <lb/>
+              20 ragendone <hi rend="italic">V</hi> ragundone <hi rend="italic">It. Ant. p. 129, 5</hi> </note> 
+<pb n="9"/>
+
+<p>3       mutatio Pultouia...............................mil      XII
+</p>
+<p>4       Ciuitas Potouione..............................mil      XII
+</p>
+<p>5       Transis pontem, intras Pannoniam        
+</p>
+<p>6       inferiorem.     
+</p>
+<p>7       mutatio Ramista................................mil      VIIII
+</p>
+<p>8       mansio Aqua uiua...............................mil      VIIII
+</p>
+<p>9       mutatio Popolis................................mil      X
+</p>
+<p>10      Ciuitas Iouia..................................mil      VIIII
+</p>
+<p>11      mutatio Sunista................................mil      VIIII
+</p>
+
+
+</div>
+
+<div n="562" subtype="section" type="textpart">
+
+<p>1       mutatio Peritur................................mil      <sic>xn</sic>
+</p>
+<p>2       mansio Lentolis................................mil      XII
+</p>
+<p>3       mutatio Cardono................................mil      X
+</p>
+<p>4       mutatio Cocconis...............................mil      XII
+</p>
+<p>5       mansio Serota..................................mil      X
+</p>
+<p>6       mutatio Bolentia...............................mil      X
+</p>
+<p>7       mansio Maurianis...............................mil      VIIII
+</p>
+<p>8       Intras Pannoniam superiorem.    
+</p>
+<p>9       mutatio Serena.................................mil      VIII
+</p>
+<p>10      mansio Yereis..................................mil      X
+</p>
+<p>11      mutatio Ioualia................................mil      VIII
+</p>
+<p>12      mutatio Mersella ..............................mil      VIII
+</p>
+<p>13      Ciuitas Mursa..................................mil      X
+</p>
+
+
+</div>
+
+<div n="563" subtype="section" type="textpart">
+
+<p>1       mutatio Leutuano...............................mil      XII
+</p>
+<p>2       Ciuitas Cibalis................................mil      XII
+</p>
+<p>3       mutatio Celena.................................mil      XI
+</p>
+
+
+
+
+<note type="footnote"> <hi rend="italic">2—24 cf. It. Ant. p. 129, 6-131, 3</hi> </note>
+
+<note rend="script" type="footnote"> 1 mutijatio 2. <hi rend="italic">m. corr. P</hi> poltouia <hi rend="italic">V</hi> XVI <hi rend="italic">V</hi> 2 potouione, <lb/>
+              ui <hi rend="italic">corr. ex</hi> m <hi rend="italic">V</hi> patauione <hi rend="italic">uel</hi> poetouione <hi rend="italic">It. Ant. p. 129,</hi> 6 Ciut <lb/>
+              potouione j transis ponte intras in pannonia I inferiore mut rameeta mil <lb/>
+              VIIII <hi rend="italic">V</hi> 5. 7 <hi rend="italic">et</hi> 10 mutgatio <hi rend="italic">2. m. corr. P</hi> populis <hi rend="italic">V</hi> 8 iouia <hi rend="italic">litt</hi>. <lb/>
+              i <lb/>
+              ia <hi rend="italic">etfaftuenmt V</hi> 11 lertoles <hi rend="italic">V</hi> 13 coccones <hi rend="italic">V</hi> 15 bolenta 2. m. <lb/>
+              <hi rend="italic">corr. P</hi> 16 maurianes <hi rend="italic">Y</hi> marinianis <hi rend="italic">It. Ant. p. 130, 5</hi> 17 auperiore <lb/>
+              <hi rend="italic">V</hi> 20 iouenalia <hi rend="italic">V</hi> 22 morsa <hi rend="italic">V</hi> 23 leutuano <hi rend="italic">V</hi> 24 ciliciales <lb/>
+              <hi rend="italic">V</hi> cibalas <hi rend="italic">It. Ant. p. 131, 2</hi> 25 cęlena <hi rend="italic">V</hi> </note> 
+<pb n="10"/>
+
+
+<p>4 mansio <sic>Ulmo</sic>\tmil\tXI
+</p>
+<p>5 mutatio Spaneta.................................mil\tX
+</p>
+<p>6 mutatio <sic>Vedulia</sic> . .  ...........................mil\tVIII
+</p>
+<p>7 Ciuitas Sirmium\tmil\tVIII
+</p>
+<p>8 Fit ab Aquileia Sirmium usque milia CCCCXII, 
+</p>
+<p>9 mansiones XIIII, mutationes XXXVIIII. 
+</p>
+<p>10      Fossis..............................mil VIIII
+</p>
+<p>11      Bassianis ...........................mil        X
+</p>
+<p>12      Nouiciani...........................mil XII
+</p>
+<p>13      Altina..............................mil XI
+</p>
+<p>14      Singiduno............................mil        VIII
+</p>
+
+
+</div>
+
+<div n="564" subtype="section" type="textpart">
+
+<p>1       Finis Pannoniae et Misiae.      
+</p>
+<p>2 mutatio       Ad Sextum...........................mil VI
+</p>
+<p>3 mutatio       Tricornia Castra....................mil VI
+</p>
+<p>4 mutatio       Ad Sextum Miliare...................mil VII
+</p>
+<p>5 Ciuitas       Aureo Monte..........................mil        VI
+</p>
+<p>6 mutatio       Vingeio.............................mil VI
+</p>
+<p>7 Ciuitas       Margo................................mil        VIIII
+</p>
+<p>8 Ciuitas       Viminatio............................mil        X,
+</p>
+<p>9       ubi Diocletianus occidit Carinum.       
+</p>
+<p>10 mutatio      Ad Nonum ...........................mil VIIII
+</p>
+
+
+</div>
+
+<div n="565" subtype="section" type="textpart">
+
+<p>1 mansio        Municipio............................mil        VIIII
+</p>
+<p>2 mutatio       Iouis Pago..........................mil X
+</p>
+
+
+
+
+<note type="footnote"> <hi rend="italic">1-22 cf. It. Ant. p. 131, 3-134, 1</hi> </note>
+
+<note type="footnote"> 1 ulmos uicus <hi rend="italic">It. Ant. p. 131, 3</hi> 2 X in <hi rend="italic">rasura 1. m. V</hi> 3 uidualia <lb/>
+              <hi rend="italic">V</hi> 4 sirmi <hi rend="italic">It. Ant. p. 131, 4</hi> 5 CCCCXII <hi rend="italic">primum C obscuriore<lb/>
+               atramento 2. m. add. P. numeri collecti efficiunt</hi> CCCCXI. <hi rend="italic">It. Ant. p. <lb/>
+               124, 2 inter Aquileiam et Sirmium</hi> CCCCI <hi rend="italic">m. p. interesse dicuntur</hi> <lb/>
+              6 mansiones XliII <hi rend="italic">2. m. corr. in</hi> XVII <hi rend="italic">P; reuera sunt XVI</hi> 8 bassianes <lb/>
+              <hi rend="italic">V</hi> 11 singiduno castra <hi rend="italic">It. Ant. p. 132, 1</hi> 12 fines <hi rend="italic">V</hi> misie <hi rend="italic">V</hi> <lb/>
+              15 <hi rend="italic">hunc uersum om. V</hi> ad sextu railiare <hi rend="italic">P</hi> 17 <hi rend="italic">uinceial*. Ant. p. 132, 3</hi> <lb/>
+              19 uiminacio <hi rend="italic">V et It. Ant. p. 133, 2</hi> 20 dioclicianue <hi rend="italic">V</hi> 21 mut. ad <lb/>
+              nonQ. mil. VIIII <hi rend="italic">P</hi> 22 mans. niuncipio <hi rend="italic">P</hi> munecipio <hi rend="italic">V</hi> 23 iooes <hi rend="italic">Y</hi> </note> 
+<pb n="11"/>
+
+<p>3 mutatio Bao..................................mil\tVII
+</p>
+<p>4 mansio Idomo.................................mil\tVIIII
+</p>
+<p>5 mutatio Ad Octauum..........................mil\tVIIII
+</p>
+<p>6 mansio Oromago..............................mil VIII
+</p>
+<p>7 <choice><sic>Pinis</sic><corr>Finis</corr></choice> <sic>Myssiae</sic> et Daciae. 
+</p>
+<p>8 mutatio Sarmatorum..........................mil\tXII
+</p>
+<p>9 mutatio Cametas........................ mil\tXI
+</p>
+
+
+</div>
+
+<div n="566" subtype="section" type="textpart">
+
+<p>1 mansio Ipompeis..............................mil\tVIIII
+</p>
+<p>2 mutatio Rappiana.............................mil\tXII
+</p>
+<p>3 Ciuitas Naisso...............................mil\tXII
+</p>
+<p>4 mutatio Redicibus............................mil\tXII
+</p>
+<p>5 mutatio Ulmo................................mil\tVII
+</p>
+<p>6 mansio Romansiana ..........................mil\tVIIII
+</p>
+<p>7 mutatio Latina..............................mil\tVIIII
+</p>
+<p>8 mansio Turribus.............................mil\tVIIII
+</p>
+<p>9 mutatio Translitis..........................mil\tXII
+</p>
+<p>10 mutatio Ballanstra..........................mil\tX
+</p>
+<p>11 mansio Meldia ..............................mil\tVIIII
+</p>
+<p>12 mutatio Seretisca...........................mil\tXII
+</p>
+
+
+</div>
+
+<div n="567" subtype="section" type="textpart">
+
+<p>1 Ciuitas Serdica.............................mil\tXI
+</p>
+<p>2 Fit a Syrmium Serdica usque milia CCCXIIII, 
+</p>
+<p>3 mutationes XXIIII, mansiones XIII. 
+</p>
+<p>4 mutatio Extuomne...........................mil\tVIII
+</p>
+<p>5 mansio Buragara............................mil\tVIIII
+</p>
+<p>6 mutatio Sparata............................mil\tVIII
+</p>
+<p>7 mansio Iliga...............................mil\tX
+</p>
+
+
+
+
+
+<note type="footnote"> <hi rend="italic">2-:?6 cf. It. Ant. p. 134, 2-136, 1</hi> </note>
+
+<note type="footnote"> 2 idimo <hi rend="italic">It. Ant. p. 134, 2</hi> 4 horreo margi <hi rend="italic">It. Ant. p. 134, 3 uer-<lb/>
+               SUS</hi> 5 <hi rend="italic">et</hi> 6 <hi rend="italic">om. V</hi> et asiae P 7 caminitas <hi rend="italic">V</hi> 8 pompeis <hi rend="italic">It. Ant. <lb/>
+              p. 134, 4</hi> 9 rampiana <hi rend="italic">Y</hi> 11 <hi rend="italic">hunc uersum om. V</hi> 13 remisiana <lb/>
+              <hi rend="italic">It. Ant. p. 135, 1</hi> 16 translites <hi rend="italic">V</hi> 19 scretesca <hi rend="italic">V</hi> 21 sirmia <hi rend="italic">V <lb/>
+              numeri collecti efjtciunt CCCXVII, mutationes sunt XXXIIII, mantiones <lb/>
+              XlIII</hi>. 23 extaome <hi rend="italic">V</hi> 24 buracara <hi rend="italic">V</hi> bagaraca <hi rend="italic">lt. Ant. <lb/>
+               p. 135,</hi> ã mil VIII <hi rend="italic">V</hi> 26 liilica <hi rend="italic">V</hi> helice <hi rend="italic">It. Ant. p. 136,</hi> 1 (elice <hi rend="italic">P)</hi> </note> 
+<pb n="12"/>
+
+\t
+<p>8\tmutatio Soneio.................................mil\tVIIII
+</p>
+<p>9\tFinis\tDaciae\tet\tTraciae. 
+</p>
+<p>10\tmutatio Ponte Ucasi............................mil\tVI
+</p>
+<p>11\tmansio Bona Mansio.............................mil\tVI
+</p>
+
+</div>
+
+<div n="568" subtype="section" type="textpart">
+\t
+<p>1\tmutatio Alusore................................mil\tVIIII
+</p>
+<p>2\tmansio Basapare................................mil\tXII
+</p>
+<p>3\tmutatio Tugugero...............................mil\tVIIII
+</p>
+<p>4\tCiuitas Filopopuli.............................mil\tXII
+</p>
+<p>5\tmutatio\tSyrnota...............................mil\tX
+</p>
+<p>6\tmutatio\tParamuole............................mil\tVIII
+</p>
+<p>7\tmansio Cillio..................................mil\tXII
+</p>
+<p>8\tmutatio Carassura..............................mil\tVIIII
+</p>
+<p>9\tmansio Arzo....................................mil\tXI
+</p>
+<p>10\tmutatio Palae..................................mil\tVII
+</p>
+<p>11\tmansio Castozobra..............................mil\tXI
+</p>
+<p>12\tmutatio <sic>Rhamis</sic>...............................  mil\tVII
+</p>
+
+</div>
+
+<div n="569" subtype="section" type="textpart">
+
+\t
+<p>1\tmansio Burdista................................mil\tXI
+</p>
+<p>2\tmutatio Daphabae...............................mil\tXI
+</p>
+<p>3\tmansio Nicae...................................mil\tVIIII
+</p>
+<p>4\tmutatio\tTarpodizo............................mil\tX
+</p>
+<p>5\tmutatio\t<sic>Urisio</sic> ..............................mil\tVII
+</p>
+<p>6\tmansio Virgolis................................mil\tVII
+</p>
+<p>7\tmutatio Narco..................................mil\tVIII
+</p>
+<p>8\tmansio Drizupara...............................mil\tVIIII
+</p>
+
+
+
+<note type="footnote"> <hi rend="italic">4-24 cf. It. Ant. p. 136, 2-197, 7 20-24 cf. etiam It. Ant</hi>. <lb/>
+              323, 1-329, 3 </note>
+
+<note type="footnote"> 1 mut <hi rend="italic">ex aliis litteris 2. m. corr. P</hi> mut. SO. <hi rend="italic">V</hi> 2 flnes <hi rend="italic">Y</hi> dacie P <lb/>
+              datie <hi rend="italic">V</hi> 3 ponteugas <hi rend="italic">V</hi> 4 <hi rend="italic">ab Helice XXI m. p. mansio Lissas collocatur<lb/>
+               It. Ant. p. 136, 2</hi> 6 bessapara <hi rend="italic">It. Ant. p. 136, 3</hi> 8 eilopopuli <lb/>
+              <hi rend="italic">P</hi> philippopoli <hi rend="italic">It. Ant. p. 136, 4</hi> 9 semota <hi rend="italic">V</hi> 11 cillis <hi rend="italic">It. <lb/>
+              Ant. p. 136, 5</hi> 13 arso <hi rend="italic">It. Ant. p. 136, 7</hi> 15 subzupara <hi rend="italic">uel</hi> sazanara <lb/>
+              <hi rend="italic">It. Ant. p. 137. 1</hi> 16 rammes <hi rend="italic">V</hi> 17 busdicta <hi rend="italic">V</hi> burdicta, burdipa <lb/>
+              <hi rend="italic">It. Ant. p. 137, 2</hi> 18 dapabe mil X <hi rend="italic">V</hi> 20 iarpodico <hi rend="italic">2. m. corr, P</hi> <lb/>
+              arboditio <hi rend="italic">V</hi> burtudizo <hi rend="italic">It. Ant. p. 137,</hi> 5 burdidizo <hi rend="italic">p. 323, 1</hi> 22 uirgoles <lb/>
+              <hi rend="italic">V</hi> bergule <hi rend="italic">It. Ant. p. 137, 6 et</hi> 323, 2 23 narco <hi rend="italic">2. m. corr. in</hi> <lb/>
+              nargo P 24 dritiopara <hi rend="italic">V</hi> drizipara <hi rend="italic">It. Ant. p. 137. 7</hi> druzipara <hi rend="italic">p. 323, 3</hi> </note> 
+<pb n="13"/>
+
+<p>9 mutatio <sic>Tipso</sic>\tmil\tX
+</p>
+<p>10 mansio <sic>Tunorullo</sic>\tmil\tXI
+</p>
+
+
+</div>
+
+<div n="570" subtype="section" type="textpart">
+
+<p>1 mutatio <sic>Beodizo</sic>\tmil\tVIII
+</p>
+<p>2 Ciuitas Heraclea\tmil\tVIIII
+</p>
+<p>3 mutatio <sic>Baunne</sic>\tmil\tXII
+</p>
+<p>4 mansio <sic>Salamembria</sic>\tmil\tX
+</p>
+<p>5 mutatio Callum..................................mil\tX
+</p>
+<p>6 mansio Atyra....................................mil\tX
+</p>
+<p>7 mansio Regio....................................mil\tXII
+</p>
+<p>8\tCiuitas Constantinopoli........................mil\tXII
+</p>
+
+</div>
+
+<div n="571" subtype="section" type="textpart">
+
+<p>1 Fit a Serdica Constantinopolim milia CCCCXIII, 
+</p>
+<p>2 mutationes XII, mansiones XX. 
+</p>
+<p>3 Fit omnis summa a Burdigala Constantinopolim 
+</p>
+<p>4 uicies bis centena uiginti unum milia,
+</p>
+<p>5\tmutationes CCXXX,\tmansiones CXIL
+</p>
+<p>6 Item ambulauimus Dalmatico et Zenofilo.cons. III. 
+</p>
+<p>7 kal. <sic>Iun</sic>. a <sic>Caleidonia</sic> et reuersi sumus 
+</p>
+<p>8 Constantinopolim VII. kal. Ian. consule suprascripto. 
+</p>
+<p>9 A Constantinopoli transis Pontum, uenis Calcedoniam, 
+</p>
+<p>10 ambulas prouintiam Bithiniam. 
+</p>
+
+
+
+<note type="footnote"> <hi rend="italic">2-4 cf. It. Ant. p. 138, 1-138, 2 2-10 cf. etiam It. Ant. <lb/>
+              p. 323, 4-323, 8</hi> </note>
+
+<note type="footnote"> 1 mil VIII <hi rend="italic">V</hi> 2 tanorollo <hi rend="italic">V</hi> izirallo <hi rend="italic">It. Ant. p. 138,1</hi> tirallo <hi rend="italic">p. 323, 4</hi> <lb/>
+              mil VIII <hi rend="italic">V inter Drizupara et Izirallo XVI m. p. esse feruntur It. <lb/>
+               Ânt. p. 138, 1 et 323. 4</hi> 3 mil VIIIl <hi rend="italic">V</hi> 4 herachlea 1. <hi rend="italic">m. corr. P</hi> eraclea <lb/>
+              <hi rend="italic">V</hi> heraclia <hi rend="italic">lt. Ant. p. 138, 2</hi> perintho herac. m. p. XVIII. <hi rend="italic">It. <lb/>
+               Ant, p. 323, 5 quocum congruunt numeri codicis V</hi> 5 baunnę <hi rend="italic">V</hi> <lb/>
+              6 salambrie <hi rend="italic">V</hi> 7 eallum <hi rend="italic">V</hi> 8 alesra <hi rend="italic">V</hi> 10 Ciuitatea 2. <hi rend="italic">m. corr. P</hi> <lb/>
+              11 constantinopoli <hi rend="italic">V</hi> mille <hi rend="italic">2. m. corr. P. A/umeri collecti efficiunt <lb/>
+              GGOXLVIIII; mutationes autem sunt XXXVII, mansiones XVIII</hi>. <lb/>
+              13 omnes <hi rend="italic">V</hi> bordegala <hi rend="italic">V</hi> conBtantinopoli <hi rend="italic">V</hi> 14 <hi rend="italic">singuli numeri <lb/>
+              cotlecti efficiunt MMCLX VII. summae sex itinerum in codice indicatae <lb/>
+              MMCXXXVI</hi> 15 <hi rend="italic">sunt potius mutationes CaVIll, mansiones<lb/>
+               LXXXVIII; si summas supra scriptas collegeris, inuenies mutationes <lb/>
+              CXCIl, mansiones LXXXVIIII</hi> 16 dalmaticei zenofilo <hi rend="italic">const P</hi> ienophilo <lb/>
+              consolibua <hi rend="italic">V</hi> 17 tt III kal. jun <hi rend="italic">V</hi> calccdonia <hi rend="italic">V</hi> constantino- <lb/>
+              <hi rend="italic">poli V</hi> 18 <hi rend="italic">VIII Y COS UPO V 19 calcedonia F prouinciam bitynam V</hi> </note> 
+<pb n="14"/>
+
+<p>11\tmutatio Nassete\t\t. mil VII S
+</p>
+
+</div>
+
+<div n="572" subtype="section" type="textpart">
+
+<p>1\tmansio Pandicia\t\t. mil VII S
+</p>
+<p>2\tmutatio Pontamus\t\t. mil XIII
+</p>
+<p>3\tmansio Libissa\t\t. <sic>mii</sic> <sic>vnn</sic>
+</p>
+<p>4\tIbi positus est rex Annibalianus,\tqui fuit
+</p>
+<p>5\tAfrorum.\t
+</p>
+<p>6\tmutatio Brunga\t\t. mil XII
+</p>
+<p>7\tCiuitas Nicomedia\t\t. mil XIII
+</p>
+<p>8\tFit a Constantinopolim Nicomedia usque milia..\t
+</p>
+<p>9\tVIII, mutationes VII, mansiones III.\t
+</p>
+
+
+</div>
+
+<div n="573" subtype="section" type="textpart">
+
+<p>1\tmutatio Hyribolum\t\t. mil X
+</p>
+<p>2\tmansio Libum\t\t. mil XI
+</p>
+<p>3\tmutatio Liada\t\t. mil XII
+</p>
+<p>4\tCiuitas Nicia\t\t. mil VIII
+</p>
+<p>5\tmutatio Schinae\t\t. mil VIII
+</p>
+<p>6\tmansio Mido\t\t. mil VII
+</p>
+<p>7\tmutatio Chogeae\t\t. mil VI
+</p>
+<p>8\tmutatio Thateso\t\t. mil X
+</p>
+<p>9\tmutatio Tutaio\t\t. mil VIIII
+</p>
+<p>10\tmutatio Protunica\t\t. mil XI
+</p>
+<p>11\tmutatio <sic>Artemis</sic>\t\t. mil XII
+</p>
+
+
+
+
+
+
+<note type="footnote"> <hi rend="italic">2-19 cf. It. Ant. p. 139, 9-141, 3</hi> </note>
+
+<note type="footnote"> 1 narsite <hi rend="italic">Y</hi> VII <hi rend="italic">V</hi> VIII <hi rend="italic">sed per postremam lineolam haec nota<lb/>
+               2. m. ducta est</hi> 8 <hi rend="italic">P ititem in linea 2</hi> 2 panticio <hi rend="italic">It: Ant. <lb/>
+               p. 139, 3</hi> 4 libosa <hi rend="italic">V</hi> 7 brunca <hi rend="italic">1. m, corr. m. 2 in</hi> brunga <hi rend="italic">P</hi> mil <lb/>
+              Vllll <hi rend="italic">V</hi> 9 a constantinopoli <hi rend="italic">V</hi> mil. VIII. mntatiofi <hi rend="italic">(uirgula 2. m. <lb/>
+              add.)</hi> VII. mans VIII (V <hi rend="italic">1. m. expunct.) P</hi> milia <hi rend="italic">L V; sunt autem <lb/>
+              numeris collectis milia LXII; LXI efficiuntur lt. Ant. p. 231, 1-3</hi> <lb/>
+              11 hiribolum <hi rend="italic">Y</hi> 12 libo <hi rend="italic">It. Ant. p. 140, 3</hi> X <hi rend="italic">V rectiorem esse <lb/>
+              numerum XI apparet ex. Itin. Ant</hi>. 14 VIIII <hi rend="italic">V ne id quidem recte, <lb/>
+              cf. It. Ant</hi>. 15 echeng <hi rend="italic">V</hi> 16 moedo orientis <hi rend="italic">It. Ant. p. 141, 2</hi> <lb/>
+              mido <hi rend="italic">ubi</hi> o 2. <hi rend="italic">m. ex</hi> e <hi rend="italic">corr. P</hi> 17 chogia <hi rend="italic">V</hi> 19 maii. tutado mil. <lb/>
+              VIII <hi rend="italic">V</hi> mutx tutaio mi* VIIII P tottaio <hi rend="italic">It. Ant. p. 141, 3</hi> 20 protoniaca <lb/>
+              <hi rend="italic">Y</hi> </note> 
+<pb n="15"/>
+
+
+</div>
+
+<div n="574" subtype="section" type="textpart">
+
+<p>1\tmansio Dablae\t\t. mil VI
+</p>
+<p>2\tmansio Ceratae\t\t. mil VI
+</p>
+<p>3\tFinis Bithiniae et Galatiae.\t
+</p>
+<p>4\tmutatio Finis\t\t. mil X
+</p>
+<p>5\tmansio Dadastan \t\t. mil VI
+</p>
+<p>6\tmutatio Trans Monte\t .\t. mil VI
+</p>
+<p>7\tmutatio Milia\t\t. mil XI
+</p>
+<p>8\tCiuitas Iuliopolis\t\t. mil VIII
+</p>
+<p>9\tmutatio <sic>Hycronpotamum</sic>\t\t. mil XIII
+</p>
+<p>10\tmansio Agannia\t\t. mil XI
+</p>
+<p>11\tmutatio <sic>lpetobrogen</sic>\t\t. mil VI
+</p>
+
+
+</div>
+
+<div n="575" subtype="section" type="textpart">
+
+<p>1\tmansio Mnizos\t\t. mil X
+</p>
+<p>2\tmutatio Prasmon\t\t. mil XII
+</p>
+\t
+<p>mansio Malagordis\t\t. mil VIIII
+</p>
+<p>3\tmutatio Cenaxem paludem ....\t. mil XIII
+</p>
+<p>4\tCiuitas Anchira Galatia\t\t. mil XIII
+</p>
+<p>5\tFit a Nicomedia Anchira Galatia usque\t
+</p>
+<p>6\tmilia CCLVHI,\t
+</p>
+<p>7\tmutationes XXVI, mansiones XII.\t
+</p>
+<p>8\tmutatio Delemna\t\t. mil X
+</p>
+<p>9\tmansio Curueunta\t\t. mil XI
+</p>
+
+
+
+<note type="footnote"> <hi rend="italic">1-21 cf. It. Ant. p. 141, 4-143, 2</hi> </note>
+
+<note rend="script" type="footnote"> 1 doble <hi rend="italic">V</hi> dablia <hi rend="italic">It. Ant. p.141, 4</hi> 2 cęratę <hi rend="italic">V</hi> 3 finea bitinie et galacif <lb/>
+              <hi rend="italic">V</hi> 4 fines <hi rend="italic">V</hi> 5 dadartano <hi rend="italic">V</hi> dabastana <hi rend="italic">It. Ant.p. 142,1</hi> 7 melia <hi rend="italic">V</hi> <lb/>
+              9 hyponcrotamQ <hi rend="italic">2. m. corr. P</hi> hicronpotama <hi rend="italic">V</hi> 10 laganeos <hi rend="italic">It. Ant</hi>. <lb/>
+              i <lb/>
+              <hi rend="italic">p. 142, 3</hi> 11 petobrogen <hi rend="italic">corr. 1. m. P</hi> petobrogen <hi rend="italic">V</hi> 12 sinonizous <hi rend="italic">Y<lb/>
+               wdetur esse eadem mansio, quae It. Ant. p. 142,</hi> 4 minizo <hi rend="italic">vocatur</hi> <lb/>
+              13 trasmon <hi rend="italic">V</hi> 14 <hi rend="italic">hunc uersum om. P; mansio Manegordo collocatur <lb/>
+              XXVIII m. p. a Minieo It. Ant. p. 142, 5</hi> 15 cenaxempalidem <hi rend="italic">P</hi> <lb/>
+              cenaxempalide <hi rend="italic">Y</hi> 16 galacię <hi rend="italic">V</hi> mil XIII <hi rend="italic">om. P</hi> 17 ancira galacia <hi rend="italic">Y</hi> <lb/>
+              19 mut. XVI <hi rend="italic">V numeri coUecti efficiunt CCXLIIII uel, omissis numeris <lb/>
+              mans. Malogordis mil VIIII et Ciuitas Anchira mil. XIII, mil. <lb/>
+              CCXII, mansiones auiem sunt XI</hi>. 21 curaeonta <hi rend="italic">V</hi> corbeunca uel cnrbeunca <lb/>
+              <hi rend="italic">It. Ant. p. 143, 2</hi> </note> 
+<pb n="16"/>
+
+
+<p>10\tmutatio Rosolodiaco . . .\t\tmil XII
+</p>
+<p>11\tmutatio Aliassum . . . .\t\tmil XIII
+</p>
+<p>12\tCiuitas Aspona\t\t\tmil XVIII
+</p>
+
+
+</div>
+
+<div n="576" subtype="section" type="textpart">
+ 
+<p>1\tmutatio Galea\t\t\tmil XIII
+</p>
+<p>2\tmutatio Andrapa\t\t\tmil VIIII
+</p>
+<p>3\tFinis Galatiae et Cappadociae.\t
+</p>
+<p>4\tmansio Parnasso\t\t\tmil XIII
+</p>
+<p>5\tmansio Iogola\t\t\tmil XVI
+</p>
+<p>6\tmansio Nitalis\t\t\tmil XVIII
+</p>
+<p>7\tmutatio Argustana . . . .\t\tmil XIII
+</p>
+<p>8\tCiuitas Colonia\t\t\tmil XVI
+</p>
+
+
+</div>
+
+<div n="577" subtype="section" type="textpart">
+ 
+<p>1\tmutatio Momoassan . .\t\tmil XII
+</p>
+<p>2\tmansio Anathiango . . . .\t\tmil XII
+</p>
+<p>3\tmutatio <choice><sic>Chusa</sic><corr>Clausa</corr></choice> ....\t\tmil XII
+</p>
+<p>4\tmansio Sasima\t\t\tmil <sic>xn</sic>
+</p>
+<p>5\tmansio Andauilis . . . .\t\tmil XVI
+</p>
+<p>6\tIbi est uilla Pampati, unde ueniunt equi curules.\t
+</p>
+<p>7\tCiuitas <sic>Thiana</sic> \t\t\tmil XVI
+</p>
+
+
+</div>
+
+<div n="578" subtype="section" type="textpart">
+ 
+<p>1\tInde fuit Appollonius magus.\t
+</p>
+<p>2\tCiuitas Faustinopoli . .\t\tmil XII
+</p>
+<p>3\tmutatio Caena \t\t\tmil XIII
+</p>
+<p>4\tmansio Opodanda . . .\t\tmil XII
+</p>
+
+
+
+<note type="footnote"> <hi rend="italic">1-22 cf. It. Ant. p. 143, 3-145, 4 et p. 206, 1 88</hi>. </note>
+
+<note type="footnote"> 1 rosolodiacho <hi rend="italic">V</hi> rosolaciaco <hi rend="italic">It. Ant. p. 143,</hi> 3 orsolagiaco <hi rend="italic">p. 206, 1</hi> <lb/>
+              2 aliasil <hi rend="italic">V</hi> 3 arpona P aspona <hi rend="italic">It. Ant. 143, 4 et 206, 2</hi> 4 mntyatio <lb/>
+              <hi rend="italic">2. m. corr. P</hi> 6 gallatiae <hi rend="italic">2. m. corr</hi>. P fines galacig et cappad <lb/>
+              <hi rend="italic">V</hi> 8 iogula <hi rend="italic">V</hi> ozzala <hi rend="italic">It. Ant. p. 144, 2</hi> 9 nitazi <hi rend="italic">It. Ant. p. <lb/>
+              144, 3</hi> 10 XlIII <hi rend="italic">quo eraso manu recentiore</hi> VIII <hi rend="italic">suprascriptum est V</hi> <lb/>
+              11 coloniam Arcilaida <hi rend="italic">It. Ant. p. 144, 4</hi> milia XV <hi rend="italic">V</hi> 13 nmmmoastun <lb/>
+              i.m.azmnmmaasum <hi rend="italic">corr. V</hi> 13 anachiango mil XIII Vnantianulus <hi rend="italic">It.Ant. <lb/>
+              p. 144, 5</hi> 15 saeem. <hi rend="italic">V</hi> 16 andauiles <hi rend="italic">V</hi> andabilis <hi rend="italic">It. Ant. p. 145, 1</hi> <lb/>
+              17 pammati <hi rend="italic">V</hi> aequi 1,:::1 (ui <hi rend="italic">erasum) P</hi> curulis 2. <hi rend="italic">m. corr. P</hi> <lb/>
+              curolea <hi rend="italic">V</hi> 18 mil XVI <hi rend="italic">om. P</hi> thyana mil XVIII <hi rend="italic">V</hi> tiana mpm XVI <lb/>
+              <hi rend="italic">It. Ant. p. 145, 2</hi> 19 apollonius <hi rend="italic">V</hi> 20 mil \'X\' <hi rend="italic">V</hi> faustinopolim <lb/>
+              mpm XVIII <hi rend="italic">It. Ant. p. 145, 3</hi> 21 cona mil VIIII <hi rend="italic">V</hi> 22 opodando <hi rend="italic">V</hi> <lb/>
+              podando <hi rend="italic">It. Ant. p. 145, 4</hi> </note> 
+<pb n="17"/>
+
+
+<p>5\tmutatio Pilas...............................mil\tXIIII
+</p>
+
+</div>
+
+<div n="579" subtype="section" type="textpart">
+ 
+<p>1\tFinis.\tCappadociae et Ciliciae. 
+</p>
+<p>2\tmansio Mansucrinae..........................mil\tXII
+</p>
+<p>3\tCiuitas Tharso..............................mil\tXII
+</p>
+<p>4\tInde\tfuit apostolus Paulus. 
+</p>
+<p>5 Fit ab Anchira Galatia Tharso usque milia CCCXLIII,
+</p>
+
+
+</div>
+
+<div n="580" subtype="section" type="textpart">
+\t
+<p>1\tmutationes XXV,\tmansiones XVIII. 
+</p>
+
+<p>2 mutatio Pargais................................mil\tXIII
+</p>
+<p>3 Ciuitas Adana..................................mil\tXIIII
+</p>
+<p>4 Ciuitas Mansista...............................mil\tXVIII
+</p>
+<p>5 mutatio Tardequeia .........................mil XV
+</p>
+<p>6 mansio Catauolo................................mil\tXVI
+</p>
+<p>7 mansio Baiae.................................. mil\tXVII
+</p>
+<p>8 mansio Alexandria Scabiosa.....................mil\tXVI
+</p>
+
+
+</div>
+
+<div n="581" subtype="section" type="textpart">
+
+<p>1 mutatio Pictanus ........................mil VIIII
+</p>
+<p>2 Fines Ciliciae et Syriae. 
+</p>
+<p>3 mansio Pangrios................................mil\tVIII
+</p>
+<p>4 Ciuitas Antiochia..............................mil\tXVI
+</p>
+<p>5 Fit a Tharso Cilicia Antiochiam milia CXLI, 
+</p>
+<p>6 mutationes X, mansiones VII. 
+</p>
+<p>7 ad palatium Pafne...............................mil\tV
+</p>
+
+
+</div>
+
+<div n="582" subtype="section" type="textpart">
+
+<p>1 mutatio Hysdata.................................mil\tXI
+</p>
+
+
+
+
+
+
+<note type="footnote"> <hi rend="italic">3-18 cf. It. Ant. p. 145, 5-146, 4</hi> </note>
+
+<note rend="script" type="footnote"> 0 <lb/>
+              1 mil XIII <hi rend="italic">Y</hi> 2 fines <hi rend="italic">V</hi> 3 mansuerin? 2. <hi rend="italic">m. corr. P</hi> nampsncrone <lb/>
+              t <lb/>
+              <hi rend="italic">It. Ant. p. 145, 5</hi> 4 tarso cilicie <hi rend="italic">V</hi> fui <hi rend="italic">supra lineam 1. m. add. V</hi> <lb/>
+              6 ga]latia <hi rend="italic">corr. 2. m. P</hi> galacia <hi rend="italic">V</hi> tarso <hi rend="italic">V numeri collecti efficiunt <lb/>
+              CCCXVII,</hi> si <hi rend="italic">addideris 577, 7 numerum XVI, mutationes sunt XXIIII, <lb/>
+              mansiones XlIII</hi> 8 pargas <hi rend="italic">V</hi> 9 abdana <hi rend="italic">corr. 2. m. P</hi> gadana <hi rend="italic">V</hi> <lb/>
+              12 mans. catauo lorais P catabolo <hi rend="italic">It. Ant. p. 146, 1</hi> 13 bais <hi rend="italic">It. <lb/>
+              Ant. p 146, 2</hi> 15 platanus <hi rend="italic">V</hi> 16 fines <hi rend="italic">PY corr. 2. m. P</hi> et <hi rend="italic">add. <lb/>
+               2. m. P</hi> 17 pagrius <hi rend="italic">V</hi> pagria <hi rend="italic">It. Ant. p. 146, 4</hi> 18 anchiotia <hi rend="italic">V</hi> <lb/>
+              19 tarao cilicio <hi rend="italic">V</hi> anchiochia usque <hi rend="italic">V</hi> mil <hi rend="italic">add. 2</hi>. m. <hi rend="italic">P numeri <lb/>
+              collecti efficiunt CXLII</hi> 22 stadata <hi rend="italic">V</hi> </note>
+
+<note type="footnote"> XXXVUII Itin. Hierogo]. </note>
+
+<note type="footnote">2 </note> 
+<pb n="18"/>
+
+\t
+<p>2\tmansio\tPlatanus...............................mil\tVIII
+</p>
+<p>3\tmutatio\tBachaias...............................mil\tVIII
+</p>
+<p>4\tmansio\tCattelas................................mil\tXVI
+</p>
+<p>5\tCiuitas\tLadica..................................mil\tXVI
+</p>
+<p>6\tCiuitas\tGauala..................................mil\tXIIII
+</p>
+<p>7\tCiuitas\tBalaneas...............................mil\tXIII
+</p>
+<p>8\tFinis Syriae Coelis et Foenicis. 
+</p>
+<p>9\tmutatio\tMaraccas................................mil\tX
+</p>
+<p>10\tmansio\tAntaradus..............................mil\tXVI
+</p>
+<p>11\test ciuitas in mare a ripa mil II,
+</p>
+<p>12\tmutatio\tSpiclin...............................mil\tXII
+</p>
+
+</div>
+
+<div n="583" subtype="section" type="textpart">
+\t
+<p>1\tmutatio\tBasiliscum ...........................mil\tXII
+</p>
+<p>2\tmansio\tArcas...................................mil\tVIII
+</p>
+<p>3\tmutatio\tBruttus.................................mil\tIIII
+</p>
+<p>4\tCiuitas\tTripoli.................................mil\tXII <sic n="poss">i5</sic>
+</p>
+<p>5\tmutatio\tTrielis................................mil\tXII
+</p>
+<p>6\tmutatio\tBruttos alia..........................mil\tXII
+</p>
+<p>7\tmutatio\tAlcobile..............................mil\tXII
+</p>
+<p>8\tCiuitas\tBirito..................................mil\tXII
+</p>
+<p>9\tmutatio\tHeldua................................mil\tXII
+</p>
+<p>10\tmutatio\tPorphirion............................mil\tVIII
+</p>
+<p>11\tCiuitas\tSidona.................................mil\tVIII
+</p>
+<p>12 Ibi Helias ad uiduam ascendit et petiit sibi cybum. 
+</p>
+<p>13 mutatio Ad Nonum ........ mil IIII 
+</p>
+
+
+
+<note type="footnote"> <hi rend="italic">1-22 cf. It. Ant. p. 147, 2-149, 2</hi> </note>
+
+<note rend="script" type="footnote"> 1 platanos <hi rend="italic">It. Ant. p. 147, 2</hi> 2 baccaias <hi rend="italic">Y</hi> 3 catelas <hi rend="italic">corr. <lb/>
+             2. m. V</hi> catela <hi rend="italic">It. Ant. p. 148, 1</hi> 4 laedeca <hi rend="italic">V</hi> laudicia <hi rend="italic">It. Ant. <lb/>
+             p. 147, 4</hi> 5 gabala <hi rend="italic">V et It. Ant. p. 148, 1</hi> XIII <hi rend="italic">V</hi> XVIII <hi rend="italic">It. Ant</hi>. <lb/>
+            6 balanea mpm XXIIII <hi rend="italic">It. Ant. p. 148, 2</hi> 7 fines <hi rend="italic">V</hi> fohine <hi rend="italic">V</hi> <lb/>
+            9 antarado <hi rend="italic">It. Ant. p. 148, 3</hi> 12 baselisco <hi rend="italic">V</hi> 14 brutius <hi rend="italic">corr. 2</hi>. m. <hi rend="italic">P</hi> <lb/>
+            15 trepoli <hi rend="italic">V</hi> 16 trecles <hi rend="italic">V</hi> 17 bratto salia <hi rend="italic">V</hi> 18 alcouile <hi rend="italic">V</hi> <lb/>
+            a <lb/>
+            19 bireto <hi rend="italic">Y</hi> berito <hi rend="italic">It. Ant. p. 149, 1</hi> 20 beldu?e <hi rend="italic">corr. 2. m. P</hi> eldua <hi rend="italic">V</hi> <lb/>
+            21 parphiiion <hi rend="italic">P</hi> parpinon <hi rend="italic">V</hi> 22 Inde Sarepta mil VIIII <hi rend="italic">add. Y, recte, <lb/>
+            ut uidetur</hi> 23 cibum <hi rend="italic">V</hi> 24 <hi rend="italic">numerus corruptus uidetur; inter Sidona<lb/>
+             et Tyrum milia XXIIII statuit It. Ant. p. 149, 3</hi> </note> 
+<pb n="19"/>
+
+
+</div>
+
+<div n="584" subtype="section" type="textpart">
+\t
+<p>1\tCiuitas Tyro.....................................mil\tXII
+</p>
+<p>2\tFit\tab Antiochia Tyro\tusque\tmilia CLXXIIII,
+</p>
+<p>3\tmutationes XX, mansiones\tXI. 
+</p>
+<p>4\tmutatio Alexandroschene..........................mil\tXII
+</p>
+<p>5\tmutatio <sic>Ecdeppa</sic> \tmil\tXII
+</p>
+<p>6\tCiuitas Ptolomaida  \tmil\tVIII
+</p>
+<p>7\tmutatio Calamon..................................mil\tXII
+</p>
+<p>8\tmansio Sicamenos.................................mil\tIII
+</p>
+
+
+</div>
+
+<div n="585" subtype="section" type="textpart">
+\t
+<p>1\tIbi est mons Carmelus, ubiHelias sacrificium faciebat,
+</p>
+<p>2\tmutatio Certha................................mil\tVIII
+</p>
+<p>3\tFinis Syriae et Palestinae. 
+</p>
+<p>4 Ciuitas Caesarea Palestina, id est Iudaea mil VIII
+</p>
+<p>5\tFit\ta Tyro Caesarea Palestina milia LXXIII,
+</p>
+<p>6\tmutationes II, mansiones III. 
+</p>
+<p>7\tIbi\test balneus Cornelii\tcenturionis,\tqui\tmultas
+</p>
+<p>8 aelymosinas faciebat. In tertio miliario est mons
+</p>
+
+
+</div>
+
+<div n="586" subtype="section" type="textpart">
+\t
+<p>1\tSyna,\tubi fons est in\tquem\tmulier\tsi\tlauerit,
+</p>
+<p>2\tgrauida fit. 
+</p>
+<p>3 Ciuitas <sic>Maximianopoli</sic>\tmil\tXVII
+</p>
+<p>4\tCiuitas Stradela..........................mil\tX
+</p>
+<p>5\tIbi\tsedit Achab rex et\tHelias\t<choice><sic>proplietauit</sic><corr>prophetauit</corr></choice>; ibi est
+</p>
+<p>6\tcampus, ubi Dauid Goliat\toccidit. 
+</p>
+<p>7\tCiuitas <sic>Sciopoli</sic>\tmil\tXII
+</p>
+
+
+</div>
+
+<div n="587" subtype="section" type="textpart">
+\t
+<p>1\tAser,\tubi fuit uilla Iob..............mil\tVI
+</p>
+<p>2\tCiuitas Neapoli...........................mil\tXV
+</p>
+
+
+
+<p>
+
+<note type="footnote"> <hi rend="italic">1-8 cf. It. Ant. p. 149, 3—5</hi> </note>
+
+<note type="footnote"> 2 anciocia <hi rend="italic">V numeri collecti efficiunt CCLVII, mutationes sunt <lb/>
+              XXIIII</hi> 4 alexadroschene <hi rend="italic">V</hi> 5 ecdeppa <hi rend="italic">altero</hi> p <hi rend="italic">2. m. ex</hi> t <hi rend="italic">correcto <lb/>
+              ut uidetur</hi> P hec deppa <hi rend="italic">V</hi> 6 Ciuit ptolomaida. m. VIII P ptomaida <lb/>
+              mil VIllI <hi rend="italic">V</hi> 7 calomon <hi rend="italic">V</hi> 8 secaminus <hi rend="italic">V</hi> sjcamina <hi rend="italic">It. Ant. p. 149, 5</hi> <lb/>
+              10 cirtha <hi rend="italic">V</hi> 9 ibi <hi rend="italic">V</hi> 11 fines <hi rend="italic">corr. 2. m. P</hi> fines syrie finices et <lb/>
+              palestina <hi rend="italic">Y</hi> 12 palastina <hi rend="italic">V</hi> iudea <hi rend="italic">V</hi> mil VII <hi rend="italic">V</hi> 13, tiro <hi rend="italic">V numeri<lb/>
+               collecti efficiunt LXIII, mutationes sunt VII</hi> 15 cornilii <hi rend="italic">corr</hi>. 2. m. P <lb/>
+              corneli <hi rend="italic">V</hi> centoriones <hi rend="italic">V</hi> 16 elymosynas <hi rend="italic">V</hi> Inde est IIL miliario <hi rend="italic">V</hi> <lb/>
+              18 graueda <hi rend="italic">V</hi> 19 maxianopoli P mil XVIII <hi rend="italic">V</hi> 20 isdradela <hi rend="italic">V</hi> <lb/>
+              21 acap <hi rend="italic">Y</hi> 22 golis <hi rend="italic">V</hi> 23 cithopoli V 24 XVI <hi rend="italic">V</hi> 25 neapolini <hi rend="italic">V</hi> </note>
+
+<note type="footnote">2* </note> 
+              
+</p>
+<pb n="20"/>
+
+          <p> <milestone n="3" unit="alt"/> Ibi est mons Agazaren; ibi dicunt Samaritani Abraham <lb/>
+            <choice><sic>gacrificium</sic><corr>sacrificium</corr></choice> obtulisse, et ascenduntur ad summum montem <lb/>
+            gradi numero CCC. 
+</p>
+</div>
+
+<div n="588" subtype="section" type="textpart"><p> Inde ad pede montis ipsius locus est,  <lb/>
+            cui nomen est Sechim. Ibi positum est monumentum, ubi <lb/>
+            positus est Ioseph in uilla, quam dedit ei Iacob pater eius. <lb n="5"/>
+            Inde rapta est et Dina filia Iacob a filiis Amorreorum. Inde <lb/>
+            passus mille locus est, cui nomen Sechar, unde descendit <lb/>
+            mulier Samaritana ad eundem locum, ubi Iacob puteum fodit, <lb/>
+            ut de eo aquam impleret, et dominus noster Iesus Christus <lb/>
+            cum ea locutus est; ubi sunt et arbores platani, quas plantauit<lb n="10"/>
+            Iacob, et balneus, qui de eo puteo lauatur. 
+</p>
+          <p>Inde milia XXVIII euntibus Hierusalem in parte sinistra <lb/>
+            est uilla, quae dicitur Bethar. Inde passus mille est locus, <lb/>
+            ubi <choice><sic>lacob</sic><corr>Iacob</corr></choice>, cum iret in Mesopotamia, addormiuit, et est ibi <lb/>
+            arbor amigdala, et uidit uisum, et angelus cum eo luctatus<lb n="15"/>
+            est. 
+</p>
+</div>
+
+<div n="589" subtype="section" type="textpart"><p> Ibi fuit rex Hieroboam, ad quem missus fuit propheta,  <lb/>
+            ut conuerteretur ad deum excelsum, et iussum fuerat prophetae, <lb/>
+            ne cum pseudoprophetam, quem secum rex habebat, manducaret, <lb/>
+            et quia seductus est a <choice><sic>pseudopropbetam</sic><corr>pseudoprophetam</corr></choice> et cum eo <lb/>
+            manducauit rediens, occurrit prophetae leo in uia et occidit<lb n="20"/>
+            eum leo. 
+</p>
+          <p><milestone n="6" unit="alt"/> Inde Hierusalem ... milia XII.
+
+<note type="footnote"> <hi rend="italic">16 cf. I Reg. c. 13</hi> </note>
+
+<note type="footnote"> 1 agazam <hi rend="italic">V</hi> ubi <hi rend="italic">V</hi> samaretani <hi rend="italic">corr. 2. m. P</hi> 2 ascenditur <lb/>
+            usque montem summum gradibus <hi rend="italic">S</hi> 3 gradi/// <hi rend="italic">P</hi> nuiii <hi rend="italic">1. m.,</hi> nd. <lb/>
+            <hi rend="italic">tti corr. 2. m. P</hi> numerum <hi rend="italic">V</hi> pedem <hi rend="italic">VS</hi> montes <hi rend="italic">V</hi> 4 est <lb/>
+            <hi rend="italic">om. S</hi> sicem <hi rend="italic">V</hi> aichem <hi rend="italic">S</hi> positum <hi rend="italic">om. V</hi> monimentum <hi rend="italic">V</hi> <lb/>
+            ibi positus est <hi rend="italic">S</hi> 6 et <hi rend="italic">om. V</hi> 7 milia <hi rend="italic">S</hi> sicar <hi rend="italic">V</hi> sichar <hi rend="italic">S</hi> <lb/>
+            discendit <hi rend="italic">V</hi> 8 ibi iacob <hi rend="italic">S</hi> 9 aqua P implerit <hi rend="italic">V</hi> noster <lb/>
+            <hi rend="italic">om. VS</hi> 10 et <hi rend="italic">om. P</hi> platani] plantati S 11 palneos <hi rend="italic">S</hi> <lb/>
+            de eo] deo <hi rend="italic">V</hi> 13 qui, <hi rend="italic">corr. 1. m. ut uidetur</hi> in que <hi rend="italic">V</hi> betar <hi rend="italic">V</hi> <lb/>
+            est <hi rend="italic">om. V</hi> 14 ubi <hi rend="italic">om. S</hi> in mesopotamiam <hi rend="italic">S</hi> dormiuit <hi rend="italic">V</hi> obdormiuit <lb/>
+            <hi rend="italic">S</hi> et <hi rend="italic">om. V est om</hi>. S 15 amigdale <hi rend="italic">V</hi> amigdoli <hi rend="italic">S</hi> uisa <hi rend="italic">V</hi> <lb/>
+            locutus <hi rend="italic">S</hi> 17 conuertatur <hi rend="italic">S</hi> 18 seodoprophetam <hi rend="italic">V</hi> pseudoprophete S <lb/>
+            quos <hi rend="italic">S</hi> secum habebat rex <hi rend="italic">V</hi> rex secum habebat <hi rend="italic">S</hi> 19 ad seodopropheta <lb/>
+            <hi rend="italic">V</hi> et quia-mauducauit <hi rend="italic">om. S</hi> 20 et <hi rend="italic">om. S</hi> 21 leo <lb/>
+            <hi rend="italic">om. VS</hi> </note> 
+<pb n="21"/>
+            
+</p>
+          <p><note type="margin"> <sic>Wen</sic>. </note> Fit a Caesarea Palestina Hierusalem usque milia CXVI, <lb/>
+            <choice><sic>manftiones</sic><corr>mansiones</corr></choice> IIII, mutationes IIII. 
+</p>
+          <p>Sunt in Hierusalem piscinae magnae duae ad latus templi, <lb/>
+            id est una ad dextera, alia ad sinistra, quas Salomon fecit, <lb/>
+            interius uero ciuitati sunt piscinae gemellares, quinque porticos <lb n="5"/>
+            habentes, quae appellantur Betsaida. Ibi aegri multorum <lb/>
+            annorum sanabantur. Aqua autem habent hae piscinae in <lb/>
+            modum coccini turbatam. 
+</p>
+</div>
+
+<div n="590" subtype="section" type="textpart"><p> Est ibi et creta ubi Salomon  <lb/>
+            daemones torquebat. Ibi est angulus turris <choice><sic>eIcelsiasimae</sic><corr>excelsissimae</corr></choice>, ubi <lb/>
+            dominus ascendit, et dixit ei his, qui temptabat eum .... <lb n="10"/>
+            Et ait ei dominus: Non temptabis dominum deum <lb/>
+            tuum, sed illi soli seruies. Ibi est et lapis angularis <lb/>
+            magnus, de quo dictum est: Lapidem, quem reprobauerunt <lb/>
+            aedificantes, hic factus est ad capud anguli. <lb/>
+            Et sub pinna turris ipsius sunt cubicula plurima, ubi <lb n="15"/>
+            Salomon palatium habebat. Ibi etiam constat cubiculus, in <lb/>
+            quo sedit et sapientiam descripsit; ipse uero cubiculus <choice><sic>uuo</sic><corr>uno</corr></choice> <lb/>
+            lapide est tectus. 
+</p>
+</div>
+
+<div n="591" subtype="section" type="textpart"><p> Sunt ibi et excepturia magna aquae subterraneae  <lb/>
+            et piscinae magno opere aedificatae. Et in aede ipsa,
+
+<note type="footnote"> <hi rend="italic">11 Matth. 4, 7 Luc. 4, 12 12 Matth. 4, 10 Luc. 4, 8 13 Matth. <lb/>
+            21, 42 Luc. 20, 17 Pealm. 118, 22</hi> </note>
+
+<note type="footnote"> 1 ad S hierusalem <hi rend="italic">om. V</hi> usque in hierusalem <hi rend="italic">S numeri collecti<lb/>
+             efficiunt C</hi> 2 manS. IIII, <hi rend="italic">primum I add. 2. m. P</hi> mutationes IIII <lb/>
+            <hi rend="italic">om. V Titulm:</hi> DE VIRTVTIBVS HIERVSAL <hi rend="italic">S</hi> 3 alatus P <lb/>
+            4 ad dexterã (— <hi rend="italic">2. m.) P</hi> ad dextris <hi rend="italic">S</hi> et alia <hi rend="italic">V</hi> ad sinistrA (— 2. <lb/>
+            <hi rend="italic">m.) P</hi> a sinistris <hi rend="italic">S</hi> 5 ciuitate <hi rend="italic">V</hi> ciuitatis <hi rend="italic">S</hi> pigne <hi rend="italic">S</hi> gemillares <hi rend="italic">V</hi> <lb/>
+            T beta <lb/>
+            porticos <hi rend="italic">corr. 2. m. P</hi> porticus <hi rend="italic">V</hi> 6 y$§taida <hi rend="italic">corr. 2. m. P</hi> uetaide <lb/>
+            <hi rend="italic">littera</hi> t in <hi rend="italic">ras. V</hi> liethsaide <hi rend="italic">S</hi> 7 sanantur <hi rend="italic">S</hi> aqua (~ 2. <hi rend="italic">m.) P</hi> <lb/>
+            aquam <hi rend="italic">8</hi> habentę piscinę <hi rend="italic">V</hi> habent in modum piscine <hi rend="italic">S</hi> 8 cocci <lb/>
+            natura <hi rend="italic">V</hi> coccini turbatum <hi rend="italic">S</hi> et <hi rend="italic">om. V</hi> et ibi Scripta <hi rend="italic">V</hi> adv <lb/>
+            <lb/>
+            scripta <hi rend="italic">S</hi> 9 demon ac torquebat <hi rend="italic">S</hi> Et ibi <hi rend="italic">S</hi> angulis <hi rend="italic">corr. 2. m. P</hi> <lb/>
+            10 his <hi rend="italic">corr. 2. m. P</hi> his <hi rend="italic">om. S</hi> 11 <hi rend="italic">edd. addunt:</hi> si filius dei es, mitte <lb/>
+            te deorsum. 12 Et ibi est <hi rend="italic">S</hi> 14 aedificantes-pinna <hi rend="italic">om. S</hi> hie <lb/>
+            factus est] item <hi rend="italic">P</hi> caput VS 15 turre <hi rend="italic">V</hi> 16 ibi <hi rend="italic">om. S</hi> ibi sedit <hi rend="italic">S</hi> <lb/>
+            17 diacripsit <hi rend="italic">V</hi> describsit <hi rend="italic">S</hi> 18 scepturia <hi rend="italic">V excepturiae S</hi> magne <hi rend="italic">S</hi> <lb/>
+            e <lb/>
+            subterrane <hi rend="italic">corr. 2. m. P</hi> subterrinae <hi rend="italic">S</hi> 19 edificatae <hi rend="italic">V</hi> in gdem <lb/>
+            ipsam <hi rend="italic">V</hi> in aede <hi rend="italic">ipsaip corr. 2. m. P</hi> in eadem ipsa <hi rend="italic">S</hi> </note> 
+<pb n="22"/>
+            
+</p>
+          <p><note type="margin"> <sic>Wew</sic>. </note> ubi templum fuit, quem Salomon aedificauit, in marmore ante <lb/>
+            aram sanguinem Zachariae ibi dicas hodie fusum, etiam parent <lb/>
+            uestigia clauorum militum, qui eum occiderunt, per totam <lb/>
+            aream, ut putes in cera fixum esse. Sunt ibi et statuae duae <lb/>
+            Adriani, est et non longe de statuas lapis pertusus, ad quem<lb n="5"/>
+            ueniunt Iudaei singulis annis et unguent eum et lamentant <lb/>
+            se cum gemitu et uestimenta sua scindunt et sic recedunt. <lb/>
+            Est ibi et domus Ezechiae regis Iudae. 
+</p>
+          <p>
+</p>
+</div>
+
+<div n="592" subtype="section" type="textpart"><p>Item exeuntibus Hierusalem, ut ascendas Sion, in parte  <lb/>
+            sinistra et deorsum in ualle iuxta murum est piscina, quae<lb n="10"/>
+            dicitur Silua; habet <sic>quadliporticum</sic>; et alia piscina grandis <lb/>
+            foras. Haec fons sex diebus atque noctibus currit, septima <lb/>
+            uero die est sabbatum; in totum nec nocte nec die currit. 
+</p>
+          <p>In eadem ascenditur Sion et paret, ubi fuit domus Caifae <lb/>
+            sacerdotis, et columna adhuc ibi est, in qua Christum flagellis<lb n="15"/>
+            ceciderunt. Intus autem intra murum Sion paret locus, ubi <lb/>
+            palatium habuit Dauid. Et septem synagogae, quae illic fuerunt, <lb/>
+            una tantum remansit, reliquae autem arantur et seminantur, <lb/>
+            sicut Isaias propheta dixit. 
+</p>
+          <p>
+</p>
+</div>
+
+<div n="593" subtype="section" type="textpart"><p> Inde ut eas foris murum de Sion, euntibus ad porta Neapolitana<lb n="20"/>
+            ad partem dextram deorsum in ualle sunt parietes, <lb/>
+            ubi domus fuit siue praetorium Ponti Pilati; ibi dominus <lb/>
+            auditus est, antequam pateretur; a sinistra autem parte est  <lb/>
+            monticulus Golgotha, ubi dominus crucifixus est. 
+</p>
+<p>
+</p>
+</div>
+
+<div n="594" subtype="section" type="textpart"><p> Inde quasi <lb/>
+            ad lapidem missum est capta, ubi corpus eius positum fuit
+
+<note type="footnote"> <hi rend="italic">19 cf. Isai. c. 1, 8</hi> </note>
+
+<note type="footnote"> 1 quod <hi rend="italic">S</hi> salom. <hi rend="italic">S</hi> 2 zacchari§ <hi rend="italic">Y</hi> Ibi <hi rend="italic">PV om. S</hi> dicunt usque <lb/>
+            hodie <hi rend="italic">S</hi> hodie <hi rend="italic">F</hi> quod etiam <hi rend="italic">S</hi> parentij <hi rend="italic">corr. 2. m. P</hi> 8 in <lb/>
+            r <lb/>
+            totam P 4 ut pote s.incera <hi rend="italic">corr. 2. m. P</hi> filum fuisse S 5 hadriaui <hi rend="italic">V</hi> <lb/>
+            adriaria <hi rend="italic">S</hi> et est <hi rend="italic">S</hi> pertunsus <hi rend="italic">S</hi> 8 est ibi et domus, et <hi rend="italic">1. m. suprascr. P</hi> <lb/>
+            9 Inter euntibus <hi rend="italic">S</hi> in liierfm <hi rend="italic">P</hi> 10 qui <hi rend="italic">S</hi> silua, 0 <hi rend="italic">ex</hi> u <hi rend="italic">corr. 2. m. P</hi> <lb/>
+            grandes <hi rend="italic">V</hi> 12 septimo autem die <hi rend="italic">S</hi> 13 nec die nec nocte <hi rend="italic">S</hi> 14 caiphae <hi rend="italic">S</hi> <lb/>
+            16 caecidef P cederunt <hi rend="italic">VS</hi> Itus <hi rend="italic">S</hi> parit <hi rend="italic">Y</hi> 17 palacium <hi rend="italic">V</hi> quam <lb/>
+            <hi rend="italic">habuit S septe V synagoge V sinagoge S</hi> fuerant <hi rend="italic">V 19 esaias V</hi> <lb/>
+            20 murusF ad portaneappolitani,-w corr.-J.m.PportamFiSnapolitanamV <lb/>
+            neapolitanam S 21 partem, t <hi rend="italic">ex</hi> i <hi rend="italic">corr. 2. m. P</hi> dexteram <hi rend="italic">S</hi> 22 sine S <lb/>
+            <hi rend="italic">pontii alt. i 2. m. P pontii S ubi VS 23 ad F 24 golgutta F</hi> 25 scriptas </note> <lb n="25"/>
+            
+<pb n="23"/>
+            
+</p>
+          <p><note type="margin"> <sic>Viere</sic>. </note> et tertia die resurrexit; ibidem modo iusso Constantini imperatoris <lb/>
+            basilica facta est, id est dominicum, mirae pulchritudinis, <lb/>
+            habens ad latus excepturia, unde aqua leuatur, et <lb/>
+            balneum a tergo, ubi infantes lauantur. 
+</p>
+          <p>Item ab Hierusalem euntibus ad porta, quae est contra <lb n="5"/>
+            oriente, ut ascendatur in monte Oliueti, uallis quae dicitur <lb/>
+            Iosafath;
+</p>
+<p>
+</p>
+</div>
+
+<div n="595" subtype="section" type="textpart"><p> ad partem sinistram, ubi sunt uineae, est et petra  <lb/>
+            ubi ludas Scarioth Christum tradidit, a parte uero dextra est <lb/>
+            arbor palmae, de qua infantes ramos tulerunt et ueniente <lb/>
+            Christo substrauerunt. Inde non longe quasi ad lapidem missum <lb n="10"/>
+            sunt monumenta duo monubiles mirae pulchritudinis <lb/>
+            facta: in unum positus est Isaias propheta, qui est uere monolitus, <lb/>
+            et in alio Ezechias, rex Iudaeorum. 
+</p>
+          <p>Inde ascendis in montem Oliueti, ubi dominus ante passione <lb/>
+            apostolos docuit. Ibi facta est basilica iusso Constantini. Inde <lb n="15"/>
+            non longe est monticulus. ubi dominus ascendit orare et apparuit <lb/>
+            illic Moyses et Helias, quando Petrum et Iohannem  <lb/>
+            secum duxit. 
+</p>
+<p>
+</p>
+</div>
+
+<div n="596" subtype="section" type="textpart"><p> Inde ad orientem passus mille quingentos est <lb/>
+            uilla, quae appellatur Bethania. Est ibi cripta, ubi <choice><sic>Lazams</sic><corr>Lazarus</corr></choice> <lb/>
+            positus fuit, quem dominus suscitauit. <lb n="20"/>
+            
+</p>
+          <p>Item ab Hierusalem in Hiericho milia XVIII. 
+</p>
+          <p rend="script">Descendentibus montem in parte dextra retro monumentum
+
+<note rend="script" type="footnote"> 1 tercia diP surrexit <hi rend="italic">V</hi> ibi <hi rend="italic">V</hi> iusso <hi rend="italic">corr. 2. m. P</hi> iussu S <lb/>
+            2 mire pulchre S 3 exceptoria, o <hi rend="italic">ex</hi> u <hi rend="italic">corr</hi>. 2. m. <hi rend="italic">P</hi> excepturiae S <lb/>
+            lauatur <hi rend="italic">S</hi> 4 atergo <hi rend="italic">V</hi> a dergo S labantur <hi rend="italic">V</hi> 5 ad portå. <lb/>
+            - 2. <hi rend="italic">m. P</hi> portam <hi rend="italic">VS</hi> 6 orientê, — <hi rend="italic">2. m. P</hi> orientem <hi rend="italic">S</hi> ascenditur <hi rend="italic">S</hi> <lb/>
+            in montem S ualles <hi rend="italic">V</hi> 7 iosaphat <hi rend="italic">S</hi> ad parte sinistrS <hi rend="italic">V</hi> uinae S <lb/>
+            est <hi rend="italic">om. S</hi> 8 prata <hi rend="italic">V</hi> iuda <hi rend="italic">P</hi> scariot <hi rend="italic">V</hi> ad parte <hi rend="italic">V</hi> autem dextera <lb/>
+            S est <hi rend="italic">om. S</hi> 9 rama S tollerunt <hi rend="italic">V</hi> detulerunt <hi rend="italic">S</hi> 10 non <lb/>
+            <hi rend="italic">om</hi>. S ad <hi rend="italic">om</hi>. &amp;Y lapidis, i <hi rend="italic">ex</hi> e <hi rend="italic">corr</hi>. 2. <hi rend="italic">m. P</hi> lapidcs <hi rend="italic">V</hi> 11 monouiles <hi rend="italic">V</hi> <lb/>
+            munibulis <hi rend="italic">S</hi> 12 positum est aesaias <hi rend="italic">S</hi> esaias <hi rend="italic">V</hi> monolitus] munibulis S <lb/>
+            13 et in alio-Iudaeorum <hi rend="italic">om. S</hi> ezezias <hi rend="italic">V</hi> 14 ascendes <hi rend="italic">V</hi> in <lb/>
+            montem in montem S passiong -- <hi rend="italic">2. m. P</hi> passiong <hi rend="italic">V</hi> 15 discipu- <lb/>
+            T <lb/>
+            los <hi rend="italic">S</hi> iusso <hi rend="italic">corr. 2. nt. P</hi> iusau S mire puchritudinis <hi rend="italic">add. S</hi> 16 Ibi <lb/>
+            b h <lb/>
+            apparuit illi <hi rend="italic">S</hi> 17 elias <hi rend="italic">S</hi> 18 oriente <hi rend="italic">V</hi> quingentus <hi rend="italic">V</hi> 19 vetania <lb/>
+            <hi rend="italic">corr. 2. m. P</hi> uetania <hi rend="italic">V</hi> Ibi est scripta <hi rend="italic">S</hi> 20 positus est <hi rend="italic">V</hi> fuit positus <lb/>
+            <hi rend="italic">S</hi> suscitauit dominus <hi rend="italic">S</hi> 21 hierico <hi rend="italic">V</hi> 22 de monte <hi rend="italic">S</hi> dextera S </note> 
+<pb n="24"/>
+            <note type="margin"> <sic>Wesa</sic>. </note> <lb/>
+            est arbor sicomori, in qua Zachaeus ascendit, ut Christum <lb/>
+            uideret. A ciuitate passos mille quingentos est ibi fons Helisei <lb/>
+            prophetae. 
+</p>
+          <p>Antea si qua mulier ex ipsa aqua bibebat, non faciebat <lb/>
+            natos. Ad latum est uas fictile. Helyseo misit in in eo sales<lb n="5"/>
+            et uenit et stetit super fontem et dixit: Haec dicit dominus: <lb/>
+            sanaui aquas <choice><sic>bas</sic><corr>has</corr></choice>; ex eo si qua mulier inde biberit, filios  <lb/>
+            faciet. 
+</p>
+<p>
+</p>
+</div>
+
+<div n="597" subtype="section" type="textpart"><p> Supra eandem uero fontem est domus Rachab fornicariae, <lb/>
+            ad quam exploratores introierunt et occultauit eos, <lb/>
+            quando Hiericho euersa est, et sola euasit. Ibi fuit ciuitas<lb n="10"/>
+            Hiericho, cuius muros girauerunt cum arca testamenti filii <lb/>
+            Israel et ceciderunt muri. Ex eo non paret nisi locus, ubi <lb/>
+            fuit arca testamenti et lapides duodecim quos filii Israel de <lb/>
+            Iordane leuauerunt. Ibidem Iesus filius Naue circumcidit filios <lb/>
+            Israel et circumcisiones eorum sepeliuit. <lb n="15"/>
+            
+</p>
+          <p rend="script">Item ab Hiericho ad mare mortuo milia nouem. Est aqua <lb/>
+            ipsius ualde amarissima, ubi in totum nullius generis piscis <lb/>
+            est nec aliqua nauis, et si qui hominum miserit se, ut natet,  <lb/>
+            ipsa aqua eum uersat. 
+</p>
+<p>
+</p>
+</div>
+
+<div n="598" subtype="section" type="textpart"><p> Inde ad Iordane, ubi dominus a Iohanne <lb/>
+            baptizatus est milia quinque. Ibi est locus super flumen,<lb n="20"/>
+            monticulus in illa ripa, ubi raptus est Helias in caelo.
+
+<note type="footnote"> <hi rend="italic">4 cf. II Reg. 2, 19 88. 6 II Reg. 2, 21</hi> </note>
+
+<note rend="script" type="footnote"> C <lb/>
+            1 sigomori <hi rend="italic">corr. 2. m. P</hi> sichomori <hi rend="italic">V</hi> in quam <hi rend="italic">S</hi> descendit <hi rend="italic">S</hi> 2 uiderit <lb/>
+            <hi rend="italic">V</hi> passos (v <hi rend="italic">2. rr..) P</hi> passus <hi rend="italic">VS</hi> mille <hi rend="italic">D (sic) Vmille</hi> quing. est <lb/>
+            ibi <hi rend="italic">om. S</hi> 4 antea] id &amp; <hi rend="italic">S Illex ante</hi> ex <hi rend="italic">rasura P</hi> 5 lielysei i <hi rend="italic">ex</hi> 0 <hi rend="italic">corr. <lb/>
+             2. m. P</hi> heliseo <hi rend="italic">V</hi> helisei et <hi rend="italic">S</hi> in eosaales <hi rend="italic">corr. 2. m. P</hi> 6 supra <hi rend="italic">S</hi> <lb/>
+            V <lb/>
+            dixit <hi rend="italic">om. S</hi> 7 inde biberitj haberet <hi rend="italic">S</hi> filius faciit <hi rend="italic">V</hi> 8 eandem <lb/>
+            <hi rend="italic">curro 2</hi>. m. <hi rend="italic">P</hi> uero <hi rend="italic">om. S</hi> raab <hi rend="italic">VS</hi> 10 hiericho <hi rend="italic">om. S</hi> uersa <hi rend="italic">P</hi> <lb/>
+            11 hierico <hi rend="italic">V</hi> murus <hi rend="italic">V</hi> archa <hi rend="italic">S</hi> testamenti <hi rend="italic">om. S</hi> 12 caecider <lb/>
+            P 13 archa <hi rend="italic">S</hi> XII <hi rend="italic">PS</hi> quos leuauercnt de lordanen filii <lb/>
+            Israel <hi rend="italic">S</hi> isrtil <hi rend="italic">V</hi> 14 ibi <hi rend="italic">S</hi> 15 circumcisio S 16 Item lt <hi rend="italic">in rasura</hi> <lb/>
+            -V <lb/>
+            <hi rend="italic">2. m. P</hi> Ita hiericho S hierico <hi rend="italic">V</hi> mortuo <hi rend="italic">corr. 2. m. P</hi> id VIII <hi rend="italic">S</hi> <lb/>
+            VIIII <hi rend="italic">V</hi> 17 nullis <hi rend="italic">S</hi> 18 naues <hi rend="italic">V</hi> quis <hi rend="italic">S</hi> et natet S 19 Inde a <lb/>
+            iordane P De iordanen <hi rend="italic">S</hi> de iohanne <hi rend="italic">S</hi> _20 V rs est locus <lb/>
+            X* <lb/>
+            Buper-ripa ubi <hi rend="italic">om. V</hi> supra <hi rend="italic">S</hi> 21 caelo <hi rend="italic">corr. 2. m. P</hi> </note> 
+<pb n="25"/>
+            
+</p>
+          <p><note type="margin"> WCM. </note> Item ab Hierusalem euntibus Bethleem milia quattuor super <lb/>
+            strata in parte dextra est monumentum, ubi Rachel posita <lb/>
+            est, uxor Iacob. Inde milia duo a parte sinistra est Bethleem. <lb/>
+            Ubi natus est dominus Iesus Christus, ibi basilica facta est <lb/>
+            iusso Constantini; inde non longe est monumentum Ezechihel. <lb n="5"/>
+            
+</p>
+          <p>Asaph, Iob, et Iesse, Dauid, Salomon, et habet in ipsa cripta <lb/>
+            ad latus deorsum descendentibus hebraeis litteris scriptum <lb/>
+            nomina supra scripta. 
+</p>
+          <p>
+</p>
+</div>
+
+<div n="599" subtype="section" type="textpart"><p> Inde Bethasora milia XllU, ubi est fons, in quo Philippus <lb/>
+            eunuchum baptizauit. <lb n="10"/>
+            
+</p>
+          <p>Inde Terebintho milia <sic>vnn</sic>. Ubi Abraham habitauit et puteum <lb/>
+            fodit sub arbore terebintho et cum angelis locutus est <lb/>
+            et cibum sumpsit, ibi basilica facta est iussu Constantini <lb/>
+            mirae pulchritudinis. 
+</p>
+          <p>Inde Terebintho Cebron milia II. Ubi est memoria per quadrum <lb n="15"/>
+            ex lapidibus mirae pulchritudinis, in qua positi sunt <lb/>
+            Abraham, Isaac, Iacob, Sarra, Rebecca et Lia. 
+</p>
+
+
+</div>
+
+<div n="600" subtype="section" type="textpart">
+
+<p>1\tItem\tab\tHierusolyma\tsic:
+</p>
+<p>2\tCiuitas Nicopoli.........................................mil\tXXII
+</p>
+<p>3 Ciuitas Lidda............................................mil\tX
+</p>
+<p>4\tmutatio Antipatrida......................................mil\tX
+</p>
+<p>5\tmutatio Betthar..........................................mil\tX
+</p>
+<p>6\tCiuitas Caesarea.............................................mil XVI
+</p>
+
+
+
+
+<note type="footnote"> 1 bethlem <hi rend="italic">sic semper VS</hi> rait VI <hi rend="italic">V</hi> mil VII <hi rend="italic">S</hi> supra strata S <lb/>
+            2 in parte dextra <hi rend="italic">om. S</hi> ibi rachael S 3 mil II <hi rend="italic">VS</hi> a parte a <hi rend="italic">corr</hi>. <lb/>
+            y <lb/>
+            <hi rend="italic">2. m. P</hi> 4 dna <hi rend="italic">om. S</hi> 5 iusso <hi rend="italic">corr. 2. m. P</hi> iuseu <hi rend="italic">VS</hi> ezechiel VS <lb/>
+            6 aaap <hi rend="italic">S</hi> iob iesse <hi rend="italic">om</hi>. et <hi rend="italic">V</hi> scripta <hi rend="italic">V</hi> 7 a latus <hi rend="italic">S</hi> deorum <lb/>
+            <hi rend="italic">S</hi> descentibus S ebreis <hi rend="italic">V</hi> litteris om. <hi rend="italic">P</hi> 8 sup scripta <hi rend="italic">P</hi> <lb/>
+            sup scripta <hi rend="italic">V</hi> 9 bettasora <hi rend="italic">V</hi> basabe dittha ossa <hi rend="italic">S</hi> ibi est fons S pylyppus <lb/>
+            <hi rend="italic">V</hi> 10 eunucum <hi rend="italic">V</hi> 11 therebinto P terebinto <hi rend="italic">V ad</hi> tyribentum <hi rend="italic">S <lb/>
+            VIII VB Ibi S 12 terebinto V tyribentum 5</hi> lScybumP sumsit V <lb/>
+            14 mirae pulchritudinis <hi rend="italic">om. S</hi> 15 therebintho P terebinto <hi rend="italic">V</hi> terebintum <hi rend="italic">S</hi> <lb/>
+            Ibi <hi rend="italic">VS</hi> 16 in quo <hi rend="italic">S</hi> 17 <hi rend="italic">in codice S hic sequuntur:</hi> Est ciuitas Necpolim; <lb/>
+            ibi est mors Agar. Ibi dicunt Samaritani <hi rend="italic">et quae seq. p. 20,<lb/>
+             1-21, 2, deinde:</hi> De monte Arminiae (= <hi rend="italic">Theod. § 62 et 75 ed. Gildetn.), <lb/>
+            denique</hi>. De uirtutibus Hierusalem, <hi rend="italic">cf. supra p. 21, 1 88</hi>. hierusolima <hi rend="italic">Y <lb/>
+            hinc duae columnae PV</hi> 19 nicopolg <hi rend="italic">Y</hi> 22 bettartl <hi rend="italic">V</hi> </note> 
+<pb n="26"/>
+
+
+</div>
+
+<div n="601" subtype="section" type="textpart">
+\t
+<p>1\tFit\tomnis\tsumma a Constantinopoli usque Hierusalem
+</p>
+<p>2  milia undecies centena LXIIII, mutationes 
+</p>
+<p>3 LXVIIII, mansiones LVIII. 
+</p>
+<p>4 Item per Nicopolim Caesaream milia LXXIII S, 
+</p>
+<p>5 mutationes Y, mansiones III. 
+</p>
+
+<p>6 Item ab Heraclea per Macedoniam. 
+</p>
+<p>7 mutatio Aerea.................................mil       XVI
+</p>
+<p>8 mansio Registo.................................mil      XII
+</p>
+<p>9 mutatio Bedizo.................................mil      XII
+</p>
+<p>10 Ciuitas Apris .  ..............................mil      XII
+</p>
+
+
+</div>
+
+<div n="602" subtype="section" type="textpart">
+
+<p>1 mutatio Zesutera...............................mil      XII
+</p>
+<p>2 Finis Europae et Rhodopeae.     
+</p>
+<p>3 mansio Sirogellis .............................mil      X
+</p>
+<p>4 mutatio Drippa.................................mil      XIIII
+</p>
+<p>5 mansio Gipsila.................................mil      XII
+</p>
+<p>6 mutatio Demas..................................mil      XII
+</p>
+<p>7 Ciuitas Traianopoli...........................mil       XIII
+</p>
+<p>8 mutatio ad Unimpara............................mil      VIII
+</p>
+<p>9 mutatio Salei..................................mil      VII S
+</p>
+<p>10 mutatio Melalico ..............................mil      VIII
+</p>
+<p>11 mansio Berozicha...............................mil      XV
+</p>
+
+
+</div>
+
+<div n="603" subtype="section" type="textpart">
+
+<p>1 mutatio Breierophara...........................mil      X
+</p>
+
+
+
+
+<note type="footnote"> <hi rend="italic">6-21 cf. It. Ant. p. 332, 6-331, 8; 16-21 cf. It. Ant. <lb/>
+              p. 322, 5-1</hi> </note>
+
+<note type="footnote"> 1 seqq. <hi rend="italic">hic desunt duo folia in cod. Veronensi</hi>. 2 LX. IIII rai <hi rend="italic">P <lb/>
+              singuli numeri collecli faciunt MCXXXXVII, sed duo versus numeris<lb/>
+               caretit; summae autem septem itinerum in codice P indicatae efficiunt<lb/>
+               MCXIII</hi> 3 <hi rend="italic">sunt mutationes CII, mansiones LIII; si summas</hi> in <hi rend="italic">codice<lb/>
+               scriptas collegeris, efifcientur mutationes XCIIII, tnansiones LVIII</hi>. <lb/>
+              4 per nicopoli caesarea <hi rend="italic">P numeri collecti efficiunt LXVIII</hi> 6 machedonia <lb/>
+              P 8 reBiato <hi rend="italic">It. Ant. p. 332, 5</hi> syracella <hi rend="italic">It. Ant. p. 332, 3</hi> <lb/>
+              15 gripsala <hi rend="italic">corr. 2. m. P</hi> gypsala <hi rend="italic">It. Ant. p. 332, 2</hi> 16 dymis <hi rend="italic">It. <lb/>
+              Ant. p. 333, 4 et 322,</hi> 5 18 timpiro <hi rend="italic">It. Ant. p. 322, 3</hi> 20 milolito <lb/>
+              <hi rend="italic">It. Ant. p. 322, 2</hi> 21 brendice <hi rend="italic">It. Ant. p. 322, 1</hi> brizice <hi rend="italic">It. Ant. <lb/>
+               p</hi>. 331, 8 </note> 
+<pb n="27"/>
+
+
+
+<p>2\tCiuitas <sic>Maximianopoli</sic> ....\t. . . mil X
+</p>
+<p>3\tmutatio Ad Stabulo Dio<add><sic>medis</sic></add>\t. . mil XII
+</p>
+<p>4\tmutatio <sic>Rumbodona</sic>\t\t. . . mil X
+</p>
+<p>5\tCiuitas <sic>Epyrum</sic>\t\t. . . mil X
+</p>
+<p>6\tmutatio <sic>Purdis</sic>\t\t. . mil VIII
+</p>
+<p>7\t<choice><sic>Pinis</sic><corr>Finis</corr></choice> Rhodopeae et Macedoniae.\t
+</p>
+<p>8\tmansio <sic>Hercontroma</sic>\t\t. . mil VIIII
+</p>
+<p>9\tmutatio Neapolim\t\t. . . mil VIIII
+</p>
+<p>10\tCiuitas Philippis\t\t
+</p>
+
+</div>
+
+<div n="604" subtype="section" type="textpart">
+
+<p>1\tubi Paulus et Sileas in carcere fuerunt.\t
+</p>
+<p>2\tmutatio ad <sic>Duodecimum</sic> t, . .\t. . . mil XII
+</p>
+<p>3\tmutatio <sic>Domeros</sic>\t\t. . mil VII
+</p>
+<p>4\tCiuitas <sic>Amphipolitn</sic>\t\t. . mil XIII
+</p>
+<p>5\tmutatio Pennana \t\t. . . mil X
+</p>
+<p>6\tmutatio Euripidis\t\t. . . mil X
+</p>
+<p>7\tIbi positus est Euripidis\tpoeta. 
+</p>
+
+</div>
+
+<div n="605" subtype="section" type="textpart">
+
+<p>1\tmansio Apollonia\t\t. . mil XI
+</p>
+<p>2\tmutatio <sic>Heracleustibus</sic> ....\t. . . mil XI
+</p>
+<p>3\tmutatio <sic>Duodea</sic>\t\t. . mil XIIII
+</p>
+<p>4\tCiuitas Thessalonica\t\t. . . mil <sic>xm</sic>
+</p>
+<p>5\tmutatio Ad Decimum ....\t. . . mil X
+</p>
+<p>6\tmutatio <sic>Gephira</sic>\t\t. . . mil X
+</p>
+
+</div>
+
+<div n="606" subtype="section" type="textpart">
+
+<p>1\tCiuitas Pelli, unde fuit Alexander Magnus\t
+</p>
+<p>2\tMacedo \t\t. . . mil X
+</p>
+<p>3\tmutatio <sic>Scurio</sic>\t\t. . . mil XV
+</p>
+<p>4\tCiuitas <sic n="poss">Edissa</sic> \t\t. . . mil XV
+</p>
+ 
+
+
+
+<note type="footnote"> <hi rend="italic">1-26 cf. It. Ant. p</hi>. 331, <hi rend="italic">6-990, 5 et 321, 5-319, 3</hi> </note>
+
+<note type="footnote"> 2 stabnlo dio. mł XII P stabulo diomedis <hi rend="italic">It. Ant. p. 331, 5</hi> <lb/>
+              3 rumbodona <hi rend="italic">eadem esse uidetur atque</hi> cosinto <hi rend="italic">It. Ant. p. 321, 4</hi> 4 topiro <lb/>
+              <hi rend="italic">It. Ant. p. 321, 3</hi> otopisco <hi rend="italic">It. Ant. p. 331, 4</hi> 7 acontisma <lb/>
+              <hi rend="italic">It. Ant. p. 321, 2 et</hi> 331, 3 8 VIIII <hi rend="italic">corr. 2. m. P</hi> 11 ad duodecim. <lb/>
+              P 13 amphipholim <hi rend="italic">P</hi> 15 peripidis P 16 euripidis poet (- <lb/>
+              <hi rend="italic">2. m.) P</hi> 17 appollonia P 19 duo dea P 23 polli P dio <lb/>
+              cletianopolis <hi rend="italic">It. Ant. p. 330, G</hi> 26 edessa <hi rend="italic">It. Am. p. 330, 5</hi> </note> 
+<pb n="28"/>
+
+
+<p>5 mutatio Ad Duodecimum........................mil\tXII
+</p>
+<p>6 mansio Cellis................................mil\tXVI
+</p>
+<p>7 mutatio Grande...............................mil\tXIIII
+</p>
+<p>8 mutatio <sic>Melitonus</sic> .  ........................<sic>mil</sic>\tXIIII
+</p>
+<p>9 Ciuitas Heraclea.............................mil\tXIII
+</p>
+
+
+</div>
+
+<div n="607" subtype="section" type="textpart">
+
+<p>1 mutatio Parambole............................mil\tXII
+</p>
+<p>2 mutatio Brucida..............................mil\tXVEII1
+</p>
+<p>3 Finis Macedoniae et Epiri. 
+</p>
+<p>4 Ciuitas Cledo................................mil\tXIII
+</p>
+<p>5 mutatio Patras...............................mil\tXII
+</p>
+<p>6 mansio Claudanon.............................mil\tIIII
+</p>
+<p>7 mutatio In Tabernas..........................mil\tV1HI
+</p>
+<p>8 mansio Grandauia.............................mil\tVIIII
+</p>
+
+
+</div>
+
+<div n="608" subtype="section" type="textpart">
+
+<p>1 mutatio Treiecto.............................mil\tVIUI
+</p>
+<p>2 mansio Hiscampis.............................mil\tVIIII
+</p>
+<p>3 mutatio Ad Quintum...........................mil\tVI
+</p>
+<p>4 mansio Coladiana.............................mil\tXV
+</p>
+<p>5 mansio Marus io..............................mil\tXIII
+</p>
+<p>6 mansio Absos.................................mil\tXIIII
+</p>
+<p>7 mutatio Stefanaphana.........................mil\tXII
+</p>
+<p>8 Ciuitas Apollonia............................mil\tXVIII
+</p>
+<p>9 mutatio Stefana..............................mil\tXII
+</p>
+<p>10 mansio Aulona <sic>treiectum</sic>.....................\t<sic>mil</sic>\tXII
+</p>
+
+
+</div>
+
+<div n="609" subtype="section" type="textpart">
+
+<p>1 Fit omnis summa ab Heraclea per Macedoniam 
+</p>
+<p>2 Aulona usque milia DCLXXXVHI, 
+</p>
+<p>3 mutationes LVIII, mansiones XXV. 
+</p>
+<p>4 Trans mare stadia mille, quod facit milia centum, 
+</p>
+<p>5 et uenis Odronto mansio mille passus, 
+</p>
+<p>6 mutatio Ad Duodecimum................mil\tXIII
+</p>
+
+
+
+
+<note type="footnote"> <hi rend="italic">2-28 cf. It. Ant. p. 330, 4-329, 1 2 cf. It. Ant. p. 319, 2</hi> </note>
+
+<note type="footnote"> 1 ad duo decimn P 8 ephyri P 24 per machedoniam <hi rend="italic">P 25 numeri<lb/>
+               collecti efficiunt DCLXXVIIII</hi> S <hi rend="italic">26 mutationes sunt LVIIII</hi> <lb/>
+              28 hydrunto <hi rend="italic">It. Ant. p. 118,</hi> 4 <hi rend="italic">et</hi> 329, <hi rend="italic">1</hi> </note> 
+<pb n="29"/>
+
+
+<p>7\tmansio\tClipeas\tmil\tXII
+</p>
+<p>8\tmutatio\tValentia\tmil\tXITT
+</p>
+<p>9\tCiuitas\tBrindisi...............................mil\tXI
+</p>
+<p>10\tmansio\tSpilenaes..............................mil\tXIIII
+</p>
+<p>11\tmutatio\tAd Decimum\tmil\tXI
+</p>
+<p>12\tCiuitas\tLeonatiae..............................mil\tX
+</p>
+<p>13\tmutatio\tTurres Aurilianas.....................mil\tXV
+</p>
+<p>14\tmutatio\tTurres <choice n="0.33"><sic n="1">Iulian</sic><corr n="2">Iuliana</corr></choice> a.......................mil\tVIIII
+</p>
+<p>15\tCiuitas\tBeroes.................................mil\tXI
+</p>
+<p>16\tmutatio\tButontones ............mil\tXI
+</p>
+
+
+
+</div>
+
+<div n="610" subtype="section" type="textpart">
+ 
+<p>1\tCiuitas\tRubos\tmil\tXI
+</p>
+<p>2\tmutatio\tAd Quintodecimo\tmil\tXV
+</p>
+<p>3\tCiuitas\tCanusio\tmil\tXV
+</p>
+<p>4\tmutatio\tUndecimum\tmil\tXI
+</p>
+<p>5\tCiuitas\tSerdonis..............................mil\tXV
+</p>
+<p>6\tCiuitas Aecas\tmil\tXVIII
+</p>
+<p>7\tmutatio Aquilonis................................mil\tX
+</p>
+<p>8\t<choice><sic>Pinis</sic><corr>Finis</corr></choice> Apuliae et Campaniae. 
+</p>
+<p>9\tmansio Ad Equum\tMagnum...................mil\tVIII
+</p>
+<p>10\tmutatio\tuicus Forno Nouo......................mil\tXII
+</p>
+<p>11\tCiuitas\tBeneuento..............................mil\tX
+</p>
+<p>12\tCiuitas\tet mansio Claudiis ....................mil\tXII
+</p>
+<p>13\tmutatio\tNouas.................................mil\tVIIII
+</p>
+<p>14\tCiuitas\tCapua..................................mil\tXII
+</p>
+
+
+</div>
+
+<div n="611" subtype="section" type="textpart">
+\t
+<p>1\tFit\tsumma ab Aulona usque Capua
+</p>
+
+
+
+<note type="footnote"> <hi rend="italic">1-19 cf. It. Ant. p. 118, 9-115, 7 3-9 ct. It. Ant. p. 315,</hi> <lb/>
+              2-6 19-24 <hi rend="italic">cf. It. Ant. p. 112, 2-111, 7</hi> </note>
+
+<note rend="script" type="footnote"> 1 lupias <hi rend="italic">It. Ant. p. 118, 3</hi> 3 brundisium <hi rend="italic">It. Ant. p. 118, 2</hi> 4 spe- % <lb/>
+              toncas mpm. XX <hi rend="italic">It. Ant. p. 118, 1</hi> 6 egnatiae <hi rend="italic">It. Ant. p. 117, 4</hi> <lb/>
+              7 turribus <hi rend="italic">It. Ant. p. 117, 3</hi> 9 uaria <hi rend="italic">It. Ant. p. 117,</hi> 2 barimn <hi rend="italic">p</hi>. <lb/>
+              315, 2 XV <hi rend="italic">ex</hi> XI <hi rend="italic">corr. 2. m. P</hi> 10 butuntonee <hi rend="italic">corr. 2. m. P</hi> butruntus <lb/>
+              T y <lb/>
+              <hi rend="italic">It. Ant. p. 117, 1</hi> 12 ad quinto decimo <hi rend="italic">corr. 2. m. P</hi> 15 erdonias <lb/>
+              Y <lb/>
+              <hi rend="italic">It. Ant. p. 116, 2</hi> 18 apoliae <hi rend="italic">corr. 2. m. P</hi> 19 aequam <hi rend="italic">P</hi> equo <lb/>
+              tutico <hi rend="italic">It. Ant. p. 112, 2</hi> 22 caudis <hi rend="italic">It. Ant. p. 111, 9</hi> </note> 
+<pb n="30"/>
+
+
+<p>2 milia CCLXXXVIIII, mutationes 
+</p>
+<p>3 XXV, mansiones XIII. 
+</p>
+<p>4 mutatio Ad Octauum...........................mil\tVIII
+</p>
+<p>5 mutatio Ponte Campano........................mil\tVIIII
+</p>
+<p>6 Ciuitas <sic>Sonuessa</sic>\tmil\tVIIII
+</p>
+<p>7 Ciuitas Menturnas............................mil\tVIIII
+</p>
+<p>8 Ciuitas Formis\tmil\tVIIII
+</p>
+<p>9 Ciuitas Fundis ..............................mil\tXII
+</p>
+<p>10 Ciuitas Tarracina ...........................mil\tXIII
+</p>
+<p>11 mutatio Ad Medias ...........................mil\tX\tio
+</p>
+<p>12 mutatio Appi Foro............................mil\tVIIII
+</p>
+
+
+</div>
+
+<div n="612" subtype="section" type="textpart">
+
+<p>1 mutatio Sponsas\tmil\tVII
+</p>
+<p>2 Ciuitas Aricia et <sic>Albona</sic>\tmil\tX1III
+</p>
+<p>3 mutatio Ad Nono..............................mil\tVII
+</p>
+<p>4 in urbe Roma.................................mil\tVIIII\tis
+</p>
+<p>5 Fit a Capua usque ad urbem Romam milia CXXXVI, 
+</p>
+<p>6 mutationes XIIII, mansiones VIIII. 
+</p>
+<p>7 Fit ab Heraclea per Aulona in urbe Roma usque 
+</p>
+<p>8 milia undecies centena XIII, 
+</p>
+<p>9 mutationes XVII, mansiones XLVI.\t20
+</p>
+<p>10\tAb\turbe Mediolanium. 
+</p>
+<p>11 mutatio Rubras..........................mil VIIII
+</p>
+
+
+
+
+<note type="footnote"> <hi rend="italic">6-15 cf. It. Ant. p. 109, 1-107, 2</hi> </note>
+
+<note rend="script" type="footnote"> 1 CCLXXXVIllr <hi rend="italic">recte, si iter maritimum omiseris. Cum ab Hydrunto <lb/>
+              usque Equo Tutico p. 115. 8 CCXXXV mpm statuantur, ab Equo <lb/>
+              Tutico Capuam mpm LIII It. Ant. p. 111, 7, idem fere</hi> numerus <lb/>
+              <hi rend="italic">(CCLXXXYIII) efficitur</hi>. 2 <hi rend="italic">mansiones sunt XlIII</hi> 5 sinuessa <hi rend="italic">It. <lb/>
+               Ant. p. 108, 4</hi> 6 minturniB <hi rend="italic">It. Ant. p. 108, 3</hi> 7 <hi rend="italic">hinc denuo incipit</hi> <lb/>
+              c <lb/>
+              <hi rend="italic">cod. V</hi> tarragina <hi rend="italic">corr. 2. m. P</hi> terracina <hi rend="italic">It. Ant. p. 107, 5</hi> (tarracina P) <lb/>
+              ad <lb/>
+              9 mil VIII <hi rend="italic">V</hi> 13 aritia et albuna <hi rend="italic">V</hi> 14 ad ionQ <hi rend="italic">V</hi> 16 usque urbe <lb/>
+              roma <hi rend="italic">corr. 1. m. V</hi> urbg romft (—\' <hi rend="italic">corr. 2. m.) P numeri collecti <lb/>
+              efficiunt CXXV; CXXIIII efifciuntur ex It. Ant. p. 107, 2-109, 1, <lb/>
+              mutationes sunt XIII</hi> 18 eraclea <hi rend="italic">V</hi> 19 mil. XI centena mil. XIII <hi rend="italic">V <lb/>
+              hunc numerum efficiunt trium</hi> itinerum <hi rend="italic">sunvmae supra indicatae, numeri <lb/>
+              singuli collecti faciunt MXCIII 8</hi> </note> 
+<pb n="31"/>
+
+
+</div>
+
+<div n="613" subtype="section" type="textpart">
+
+<p>1 mutatio Ad Vicensimum...........................mil\tXI
+</p>
+<p>2 mutatio Aqua Vina...............................mil\tXII
+</p>
+<p>3 Ciuitas Ucriculo................................mil\tXII
+</p>
+<p>4 Ciuitas Narniae.................................mil\tXII
+</p>
+<p>5 Ciuitas Interamna...............................mil\tVIIII
+</p>
+<p>6 mutatio Tribus Tabernis.........................mil\tIII
+</p>
+<p>7 mutatio Fani Fugitiui...........................mil\tX
+</p>
+<p>8 Ciuitas Spolitio................................mil\tVII
+</p>
+<p>9 mutatio Sacraria................................mil\tVIII
+</p>
+<p>10 Ciuitas Treuis..................................mil\tIIII
+</p>
+<p>11 Ciuitas Fulginis................................mil\tV
+</p>
+
+
+</div>
+
+<div n="614" subtype="section" type="textpart">
+
+<p>1 Ciuitas Foro Flamini............................mil\tIII
+</p>
+<p>2 Ciuitas Noceria.................................mil\tXII
+</p>
+<p>3 Ciuitas Ptanias.................................mil\tVIII
+</p>
+<p>4 mansio Herbelloni...............................mil\tVII
+</p>
+<p>5 mutatio Ad Hesis................................mil\tX
+</p>
+<p>6 mutatio Ad Cale.................................mil\tXIIII
+</p>
+<p>7 mutatio Intercisa...............................mil\tVIIII
+</p>
+
+
+</div>
+
+<div n="615" subtype="section" type="textpart">
+
+<p>1 Ciuitas Foro Simproni...........................mil\tVIIII
+</p>
+<p>2 mutatio Ad Octauo ..............................mil\tVIIII
+</p>
+<p>3 Ciuitas Fano Fortunae...........................mil\tVIII
+</p>
+<p>4 Ciuitas Pisauro ........................................... 
+</p>
+<p>5 .........................................................mil\tXXIIII
+</p>
+
+
+
+
+
+<note type="footnote"> <hi rend="italic">3-23 cf. It. Ant. p. 125, 1-126, 4</hi> </note>
+
+<note type="footnote"> 1 ad <hi rend="italic">om. V</hi> uicesimtl <hi rend="italic">V</hi> 8 uericulo <hi rend="italic">corr. 2. m. ex</hi> ucriculo P <lb/>
+              ucricolo mans <hi rend="italic">V</hi> utriculi ciuitas <hi rend="italic">It. Ant. p. 125. 1</hi> 4 narnia ciuitas <lb/>
+              <hi rend="italic">It. Ant. p. 125, .2</hi> 5 interamnia ciuitas mil VIII <hi rend="italic">(al</hi>. VHIIj <hi rend="italic">It. Ant. <lb/>
+               p. 125, 3</hi> 6 taernis <hi rend="italic">V</hi> 7 fugenui <hi rend="italic">V</hi> 9 aeraria <hi rend="italic">V</hi> 10 tranes V <lb/>
+              12 flameni <hi rend="italic">V</hi> foro Flamini uicus <hi rend="italic">It. Ant. p. 125, 5</hi> 15 eibello Ir <lb/>
+              heluillo uicus <hi rend="italic">It. Ant. p. 125, 6</hi> 16 adesse <hi rend="italic">V</hi> 17 ad calce <hi rend="italic">V</hi> <lb/>
+              calle uicus <hi rend="italic">It. Ant. p. 125, 7</hi> 19 semproni <hi rend="italic">V It. Ant. p. 126, 1</hi> <lb/>
+              20 ad octauum <hi rend="italic">V</hi> 21 furtane <hi rend="italic">V</hi> 22 ss. <hi rend="italic">quae codices tradunt corrupta<lb/>
+               esse apparet; recte Parthey Wesselingum aecutus: Exspectaueris</hi> Ciuitas <lb/>
+              Pisauro ... mil VIII I Ciuitas Arimino ... mil XXIIII. Fit a Roma <lb/>
+              usque Ariminum milia CCXXIIII, mutationes XXIIII, mansiones Xllll. <lb/>
+              <hi rend="italic">cf. It. Ant. p. 126,</hi> 3 <hi rend="italic">et 4</hi> </note> 
+<pb n="32"/>
+
+
+<p>6\t usque\tAriminum........................ 
+</p>
+<p>7\tmutatio\t<sic>Conpetu</sic>\tmil\tXII
+</p>
+<p>8\tCiuitas\tCesena\tmil\tVI
+</p>
+
+
+</div>
+
+<div n="616" subtype="section" type="textpart">
+\t
+<p>1\tCiuitas\tForo Populi............................mil\tVI
+</p>
+<p>2\tCiuitas\tForo Liui\tmil\tVI
+</p>
+<p>3\tCiuitas\tFauentia\tmil\tV
+</p>
+<p>4\tCiuitas\tForo Corneli\tmil\tX
+</p>
+<p>5\tCiuitas\tClaterno\tmil\tXIII
+</p>
+<p>6\tCiuitas\tBononia\tmil\tX
+</p>
+<p>7\tmutatio\tAd Medias \tmil\tXV
+</p>
+<p>8 mutatio Victuriolas \tmil\tX
+</p>
+<p>9\tCiuitas\tMutena.................................mil\tIII
+</p>
+<p>10\tmutatio\tPonte Secies...........................mil\tV
+</p>
+<p>11\tCiuitas\tRegio..................................mil\tVIII
+</p>
+<p>12\tmutatio Canneto.................................mil\tX
+</p>
+<p>13\tCiuitas Parme...................................mil\tVIII
+</p>
+<p>14\tmutatio Ad Tarum................................mil\tVII
+</p>
+<p>15\tmansio <sic>Fidentiae</sic>..............................  mil\tVIII
+</p>
+<p>16\tmutatio Ad Fonteclos............................mil\tVIII
+</p>
+<p>17\tCiuitas Placentia...............................mil\tXIII
+</p>
+
+
+</div>
+
+<div n="617" subtype="section" type="textpart">
+\t
+<p>1\tmutatio\tAd. Rota .............................mil\tXI
+</p>
+<p>2\tmutatio\tTribus Tabernis\tmil\tV
+</p>
+<p>3\tCiuitas\tLaude  \tmil\tVIIII
+</p>
+<p>4\tmutatio\tAd Nonum\tmil\tVII
+</p>
+<p>5\tCiuitas\tMediolanum\tmil\tVII
+</p>
+
+
+
+
+<note type="footnote"> <hi rend="italic">3-25 cf. It. Ant. p. 1:26, 10-127, 9</hi> </note>
+
+<note rend="script" type="footnote"> 1 usqui ad riminQ <hi rend="italic">V</hi> 4 foropuli <hi rend="italic">V</hi> 5 <hi rend="italic">hic uersus a librario omissus <lb/>
+              2. manu in spatio quod est inter lineam 4 et 6 additus est V</hi> <lb/>
+              man foro liti <hi rend="italic">V</hi> 6 <hi rend="italic">numero VII1. m. eraso 2. m. X scriptum est in <lb/>
+              codice V inter Caesenam et Fauentiam XXIIIl milia passuum interesse<lb/>
+               feruntur It. Ant. p. 126, 11</hi> 11 uictoriolas <hi rend="italic">V</hi> 12 motena <hi rend="italic">V</hi> mutina <lb/>
+              <hi rend="italic">lt. Ant. p. 127, 3</hi> 16 parma ciuitas <hi rend="italic">It. Ant. p. 127, 5</hi> 18 aidoncie <hi rend="italic">V</hi> <lb/>
+              fidentiola uicus <hi rend="italic">It. Ant. p. 127, 6</hi> 19 fonteclus <hi rend="italic">V</hi> 21 <hi rend="italic">post</hi> mnt. /// <lb/>
+              <hi rend="italic">rasura trium litterarum V</hi> 23 VIII <hi rend="italic">V a Placentia usque Laude <lb/>
+              XXIIIl m. p. feruntur It. Ant. p. 127, 8</hi> 25 mediolanium <hi rend="italic">V</hi> </note> 
+<pb n="33"/>
+
+
+<p>6 Fit omnis summa ab urbe Roma Mediolanum
+</p>
+<p>7  usque milia CCCCXVI
+</p>
+<p>8 mutationes XLII, mansiones XXIIII
+</p>
+<p>
+
+
+<note type="footnote"> <hi rend="italic">1 cf. It. Ant. p. 123, 8 et 9</hi> </note>
+
+<note type="footnote"> 1 omnes <hi rend="italic">V</hi> mediolano <hi rend="italic">V</hi> 2 mille <hi rend="italic">corr. 2. m. in</hi> mii P mit <lb/>
+              CCCCXCI, mut XLini, mans, XXXIIII <hi rend="italic">V Ab urbe usque Mediolanum <lb/>
+              mpm CCCCXXXIll collocantur It. Ant. p. 123, 9; eandem summam</hi> <lb/>
+              numeri <hi rend="italic">collecti p. 124, 8-127, 9 efficiunt. Nurneri Itinerarii Hierosolymitani <lb/>
+              collecti faciunt milia CCCCXVII, mutationes sunt XLVllI, <lb/>
+              mansiones XXVIII</hi> EXPLICIT ITINERARIVM P </note>
+
+<note type="footnote"> XXXVIIII Iiin. Hleroiol. </note>
+
+<note type="footnote"> 3 </note> 
+<pb n="34"/>
+               
+<pb n="35"/>
+              
+</p>
+
+</div>
+        
+</div>
+</body>
+</text>
+</TEI>

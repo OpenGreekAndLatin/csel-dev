@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL3_3.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Guilelmus Hartelius</name>
+                  <addName xml:lang="de">Wilhelm von Hartel</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1785.1">Pseudo-Cyprianus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa013">De Spectaculis</title>
+              <title>De Bono Pudicitiae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa007">De Laude Martyrii</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa001">Ad Novatianum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa010">De Rebaptismate</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa018">De Aleatoribus</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa008">De Montibus Sina et Sion</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa002">Ad Vigilium de Iudaica Incredulitate</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa020">Adversus Iudaeos</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa019 http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa015">Orationes</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa014">De Duodecim Abusivis Saeculi</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa011">De Singularitate Clericorum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa006">De Duplici Martyrio</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa009">De Pascha Computens</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa016">Epistulae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa003">Carmina</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1871</date>
+              </imprint>
+              <biblScope unit="volume">3.3</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru0swissgoog#page/n7/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0104p.stoa002.opp-lat1">
+<head>
+            <title type="main">VIII. AD VIGILIVM EPISCOPVM DE IVDAICA INCREDVLITATE. </title>
+          </head>
+          
+
+<div n="1" subtype="section" type="textpart"><p>Etsi plurimos gentilium scio, Vigili sanctissime, ab ordine atque  <lb/>
+            ratione ueritatis auersos, quominus Dominum noscant, caecitate mentis <lb/>
+            errare, tamen magis Iudaicae plebis insaniam <choice n="0.02"><sic n="12">noni</sic><corr n="585">noui</corr></choice> aduersus nomen <lb/>
+            Domini pertinaci etiam nunc duritia cordis ingenita patrum iniquitate <lb n="10"/>
+            perstare, <choice><sic>anersantes</sic><corr>auersantes</corr></choice> ueram salutem nec inquirentes aeternae uitae <lb/>
+            datorem, ut qui delictis stirpis antiquae sint pari merito nequitiae <lb/>
+            genitalis obnoxii, saltim uel sero credentes possint conuerso ad Deum
+
+<note type="footnote"> 1 clamauit <hi rend="italic">M</hi> 2 confriget <hi rend="italic">T</hi> lignum <hi rend="italic">T1<foreign xml:lang="grc">μ</foreign></hi> conlocauit <lb/>
+            <hi rend="italic">MT,</hi> eitinguet v 3 contione <hi rend="italic">M</hi> 4 credentx, credent et <lb/>
+            sperabunt <foreign xml:lang="grc">υ</foreign>. — OaecUi Cypriani de duobus montibus explicit <hi rend="italic">MT,</hi> om <lb/>
+            . <foreign xml:lang="grc">μ</foreign>. — <lb/>
+            Incipit ad Vigilium episcopum de iudaica incredulitate <hi rend="italic">TtZ<foreign xml:lang="grc">μ</foreign>. —</hi> <lb/>
+            7 etsi] Cipcrianus uigilio fratri Balutem. etsi apud <hi rend="italic">Z</hi> uigili carissime<lb/>
+             scio <hi rend="italic">Z</hi> 9 errarent <hi rend="italic">Ttl</hi> tamen p*, tunc <hi rend="italic">TtZfi1</hi> <lb/>
+            10 ingenitam <hi rend="italic">Z</hi> patruum <hi rend="italic">Tt1,</hi> et patrum <hi rend="italic">cod. Remigianus (r) ex</hi> <lb/>
+            quo <hi rend="italic">Bahuiua hunc librum emendauit</hi> iniquitatem <hi rend="italic">Tt Z</hi> 11 adrersantes <lb/>
+            <hi rend="italic">Z,</hi> conuexsantee <foreign xml:lang="grc">μ</foreign> uitae aeternae v 12 delicte <hi rend="italic">Z</hi> <lb/>
+            annquae) sclque <hi rend="italic">Z</hi> sunt <hi rend="italic">Z</hi><foreign xml:lang="grc">μυ</foreign> nequeuitia <hi rend="italic">T</hi> 13 obnoxios <lb/>
+            <hi rend="italic">TZ,</hi> obnexi p1 saltem <hi rend="italic">Ztfi</hi> possunt <hi rend="italic">Tt</hi> conuersi <hi rend="italic">Ztt)</hi> <lb/>
+            domini <hi rend="italic">TtZv</hi> </note> <lb/>
+             
+<pb n="120"/>
+            timore satisfactione omni paenitentiae ab iniquitatibus liberari. sed <lb/>
+            perstat et durat adhuc et semper puto durabit ad deque progeniem <lb/>
+            <choice><sic>snccidaneam</sic><corr>succidaneam</corr></choice> innata patrum inreligiosa perfidia, quae aduersus odium <lb/>
+            nominis Domini incredulitatis insania roborata nec ad noscendam <lb/>
+            ueritatem potest corrigi nec ad timorem Dei ipsius monitis doceri <lb n="5"/>
+            atque suaderi. cum autem doceat <choice><sic>Dominos</sic><corr>Dominus</corr></choice> et ostendat dicens: ego <lb/>
+            sum lumen saeculi: et qui me secutus fuerit non ambulabit <lb/>
+            in tenebris, sed habebit lumen uitae, quam malum <lb/>
+            ratio est ostensum diuinitus uitae lumen omittere et mentis caecitatem <lb/>
+            malle, tenebras mortis eligere, ut ostendant damnationis suae<lb n="10"/>
+            propriae uoluntatis libera et licita perditione contra Deum etiam <lb/>
+            illa nolle quae prosunt ? secundum quod et per Domini uocem increpatam <lb/>
+            Hierusalem, quod colligi noluerit Deo illam <choice n="0.34"><sic n="16">nolente</sic><corr n="30">uolente</corr></choice> colligere, <lb/>
+            loquitur spiritus sanctus et bonitatem Dei manifestat peccatoribus <lb/>
+            <choice><sic>snbuenire</sic><corr>subuenire</corr></choice> iugiter uelle: Hierusalem Hierusalem, quae interficis <lb n="15"/>
+            prophetas et lapidas eos qui ad te missi sunt, <lb/>
+            quotiens <choice n="0.18"><sic n="64">nolui</sic><corr n="275">uolui</corr></choice> colligere filios tuos, sicut gallina <lb/>
+            colligit filios suos sub ascellas <choice><sic>snas</sic><corr>suas</corr></choice>, et noluisti? <lb/>
+            adeo Dei uoce manifeste perfidi populi contumacia denotatur, ut <lb/>
+            etiam salutem propriam suam semper aduersus clementem
+
+<note type="footnote"> 6 Io. 8, 12. 15 Matth. 23, 37. </note>
+
+<note type="footnote"> 1 timorem <hi rend="italic">Ztv; cf. p</hi>. 126, 1 omnis <foreign xml:lang="grc">μ</foreign> 2 qui perstat <hi rend="italic">Z</hi> <lb/>
+            puto durabit <hi rend="italic">om. Ttfi</hi> ad] et <hi rend="italic">Z</hi> 3 succedentem <hi rend="italic">Z</hi> innotam <lb/>
+            <hi rend="italic">Z</hi> patraum <hi rend="italic">Tt, om. Z</hi> inreligiosam in perfidiam <hi rend="italic">Z</hi> <lb/>
+            4 christi domini <hi rend="italic">Z</hi> insaniam <hi rend="italic">Z,</hi> infamia v roboratam <hi rend="italic">Z</hi> <lb/>
+            agnoscendam n 5 potest] potestate <hi rend="italic">Tt1</hi> 7 et qui] qui <hi rend="italic">Zv</hi> <lb/>
+            ambulauit <hi rend="italic">T</hi> 8 quam <hi rend="italic">TZ,</hi> haec <hi rend="italic">t,</hi> quae <foreign xml:lang="grc">μυ</foreign> mala <hi rend="italic">Z,</hi> maluit <hi rend="italic">t</hi> <lb/>
+            9 ratio est) ratione tft1 uitae om. <hi rend="italic">Z</hi> dimittere <hi rend="italic">Z</hi> caecitate <lb/>
+            <foreign xml:lang="grc">μυ</foreign> 10 malle] male fi, alere <hi rend="italic">t,</hi> uel <hi rend="italic">Z</hi> mortis <hi rend="italic">ex</hi> montis <lb/>
+            <hi rend="italic">T</hi> ostendat <hi rend="italic">t\'tJ</hi> 11 propriam uoluntatem <hi rend="italic">Z</hi> liberam <hi rend="italic">Z</hi> <lb/>
+            illicitam <hi rend="italic">Z,</hi> illicita <hi rend="italic">T</hi> perditione <hi rend="italic">t2<foreign xml:lang="grc">μ</foreign>,</hi> perditionem <hi rend="italic">TZt1</hi> 12 increpatum <lb/>
+            <hi rend="italic">T,</hi> ad increpitam p. 18 quod] quo <hi rend="italic">Tt,</hi> que <hi rend="italic">ex</hi> qui (i <lb/>
+            noluit <hi rend="italic">Z</hi> deo] idem <hi rend="italic">Z</hi> illam ... <hi rend="italic">I. 20</hi> salut <hi rend="italic">post</hi> esset <lb/>
+            <hi rend="italic">p. 124,</hi> 9 <hi rend="italic">exhibet Z</hi> nolentem fJ, uoluntem <hi rend="italic">Tl</hi> 14 dni <hi rend="italic">Z</hi> <lb/>
+            qua peccatoribus iugiter subuenire nellet <hi rend="italic">Z</hi> 16 misi <hi rend="italic">T</hi> 17 filios] <lb/>
+            pullos <hi rend="italic">Z</hi> 18 asoellas <hi rend="italic">Ttft,</hi> alas <hi rend="italic">Z,</hi> axillas b snas <hi rend="italic">om. Z</hi><foreign xml:lang="grc">μυ</foreign> <lb/>
+            19 ut] et <hi rend="italic">Z</hi> 20 <hi rend="italic">post</hi> salut <hi rend="italic">exh. Z</hi> tionem hominis <hi rend="italic">122, 8 ..</hi>. solum <lb/>
+            <hi rend="italic">123, 11</hi> propriam] sanctus adnentum eius in propriam <hi rend="italic">Z</hi> </note> <lb n="20"/>
+             
+<pb n="121"/>
+            misericordiam Domini spreuisse doceatur. propheta item alius beniuolentiam <lb/>
+            Dei exhortatione praedicationis offerens et insinuans proclamat et <lb/>
+            suadet dicens: <choice><sic>renertimini</sic><corr>reuertimini</corr></choice> ad me, et ego <choice><sic>renertar</sic><corr>reuertar</corr></choice> <sic>aduos</sic>, <lb/>
+            dicit Dominus. alius <choice n="0.00"><sic n="1">nero</sic><corr n="7062">uero</corr></choice> similiter: misericordiam <choice><sic>snam</sic><corr>suam</corr></choice> Deus <lb/>
+            sempiternam manere demonstrans addidit dicens: nolo mortem <lb n="5"/>
+            morientis, quantum ut reuertatur et uiuat, dicit Dominus. <lb/>
+            </p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p rend="script">Quid est ergo renerti, quam in Christum credendo per eum qui est  <lb/>
+            uia <choice><sic>neniendi</sic><corr>ueniendi</corr></choice> ad patrem Deo reconciliatum posse <choice><sic>salnari</sic><corr>saluari</corr></choice> ? quomodo <lb/>
+            <choice n="0.00"><sic n="29">amem</sic><corr n="17824">autem</corr></choice> reuerti ad Deum possunt qui ei per quem est agnitio et <sic>reaeraio</sic> <lb n="10"/>
+            ad Deum uoluntatem Dei praedicanti credere noluerunt ? aut <lb/>
+            quomodo Deum satisfactione placare poterunt, qui eum qui est satisfactio <lb/>
+            et placatio pro nobis apud patrem sacrilega impugnatione persequi <lb/>
+            <sic n="poss">malnerunt</sic>? si enim <choice><sic>adnocatum</sic><corr>aduocatum</corr></choice> Christum habemus <lb/>
+            apud Deum patrem, initiare utique ea quae nos <choice><sic>docnit</sic><corr>docuit</corr></choice> et <choice><sic>monnit</sic><corr>monuit</corr></choice> <lb n="15"/>
+            quaeque apud patrem <choice><sic>locnturus</sic><corr>locuturus</corr></choice> est sollicito timore facere debemus. <lb/>
+            igitur nos qui mente in Domini metum prona mandatorum eius <lb/>
+            monitis insistimus et religiosi ac uenerabilis cordis fide credulitatem <lb/>
+            de eius timore concepimus, quid aliud sequi, quid cupere, quid magis <lb/>
+            uelle ac tenere debemus, quam ut omni a nobis mentis antiquae
+
+<note type="footnote"> 3 MaL 3, 7. 5 Ez. 18, 23. 14 I Io. 2, 1. </note>
+
+<note rend="script" type="footnote"> 1 dum <hi rend="italic">Z</hi> propheta item alins] inde propheta <hi rend="italic">Baluzius</hi> 2 in<lb/>
+             exhortatione <hi rend="italic">Z</hi> praedicatione <hi rend="italic">T,</hi> praedicans <hi rend="italic">Z</hi> offerens et<lb/>
+             (et om. fi, in T) insinuans <hi rend="italic">Tta,</hi> om. <hi rend="italic">Z</hi> proclamet <hi rend="italic">T</hi> 8 suadeat<lb/>
+             p1, insnadeat <hi rend="italic">T,</hi> insoadet <hi rend="italic">t</hi> 4 nero] quoque <hi rend="italic">Z<foreign xml:lang="grc">μ</foreign></hi>. suam<lb/>
+             deos <hi rend="italic">TZ,</hi> dei <foreign xml:lang="grc">μ</foreign>, domini <hi rend="italic">t</hi> 5 sempiternum <hi rend="italic">T</hi> 8 ergo] alind <hi rend="italic">Z,</hi> <lb/>
+            . ergo aliud p reuerti] ad dominum <hi rend="italic">add. Balusius ex r</hi> credentem<lb/>
+             <hi rend="italic">Z</hi> 9 a patre <hi rend="italic">Tt</hi> saluari] salntari <hi rend="italic">Z</hi> 10 dum p <lb/>
+            ad deum possnnt reuerti <hi rend="italic">Z</hi> quam <hi rend="italic">T</hi> agnitione <hi rend="italic">Ttx</hi> 11 dum <hi rend="italic">Z</hi> <lb/>
+            uolnntate Z 12 deo <hi rend="italic">Z</hi> satisfactione aliqua <hi rend="italic">Z</hi> placere <lb/>
+            <hi rend="italic">TZfk1</hi> potuerunt <hi rend="italic">TZD,</hi> poten <hi rend="italic">p,</hi> potuerint <hi rend="italic">Remig</hi>. 13 sacrilegam <lb/>
+            inpngnationem <hi rend="italic">T</hi> 14 maluerint p haberemus <hi rend="italic">Тta</hi> <lb/>
+            15 dum <hi rend="italic">Z</hi> initiare <hi rend="italic">scripsi,</hi> uitiare. <hi rend="italic">T, om. ZTfi,</hi> seruare b utique <lb/>
+            om v ea <hi rend="italic">ex</hi> re ea <hi rend="italic">t</hi> monuit] nonit <hi rend="italic">Z</hi> 16 quaeque] que <hi rend="italic">Z</hi> <lb/>
+            apud] ad <foreign xml:lang="grc">μ</foreign> locutua <hi rend="italic">Zt2<foreign xml:lang="grc">μ</foreign>2</hi> 17 nos om. <hi rend="italic">Z</hi> mente dni <hi rend="italic">T,</hi> in deum<lb/>
+             meate <hi rend="italic">Z</hi> metu prona <hi rend="italic">t<foreign xml:lang="grc">μ</foreign>,</hi> prona metum <hi rend="italic">Z</hi> 18 corde et <hi rend="italic">Z</hi> <lb/>
+            fide et <hi rend="italic">Z,</hi> fidem et <hi rend="italic">Baluzius ex r</hi> 19 quid magis] ac magis <hi rend="italic">Z</hi> <lb/>
+            20 ac om. <hi rend="italic">Z</hi> omni a] oma <hi rend="italic">T,</hi> omnino a <hi rend="italic">t</hi> antequae <hi rend="italic">T</hi> </note><lb n="20"/>
+             
+<pb n="122"/>
+            nocte <choice><sic>discassa</sic><corr>discussa</corr></choice> et caligine uitae prioris abstersa mandatorum Domini <lb/>
+            <choice><sic>salntarium</sic><corr>salutarium</corr></choice> memores ac uitae aeternae promissa retinentes ad eius <lb/>
+            monita <sic n="poss">nertamur</sic> et in <choice><sic>ipsins</sic><corr>ipsius</corr></choice> lumine quod ostendit firmata credulitate <lb/>
+            gradiamur: ut qui ignari aliquando salutis futurae in erroribus implicati <lb/>
+            uitae prioris ac tenebris <choice><sic>oberranimus</sic><corr>oberrauimus</corr></choice> <choice><sic>inlnminati</sic><corr>inluminati</corr></choice> nunc <choice n="0.00"><sic n="4">cius</sic><corr n="14268">eius</corr></choice> <lb n="5"/>
+            ueri luminis claritate et ostenso nobis atque patefacto melioris uiae <lb/>
+            limite Domini mandata sequenda et gerenda teneamus. 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> Hoc lumen nobis uitae salutaris exortum, hoc in reparationem <lb/>
+            hominis natum de Dei patris procuratione ac miseratione praesidium. <lb/>
+            magi primi ab orientali parte uenientes et stella eius duce <choice><sic>ludaeorum</sic><corr>Iudaeorum</corr></choice><lb n="10"/>
+            regem palam praescia praedicatione quaerentes, adferentes etiam <lb/>
+            munera testificata omnibus inquisitione monstrarunt. et ne aliquibus <lb/>
+            quis ille esset esset <sic>abeconsum</sic>, inuentum puerum procidentes genibus <lb/>
+            <choice><sic>adoraront</sic><corr>adorarunt</corr></choice>, sicut testificatur euangelium dicens: cum autem <lb/>
+            Iesus natus esset in Bethleem Iudae in diebus Herodis <lb n="15"/>
+            regis, ecce magi ab oriente uenerunt in Hierosolymam <lb/>
+            dicentes: ubi ost qui natus est rex <choice><sic>Iudaaorum</sic><corr>Iudaeorum</corr></choice>. <lb/>
+            uidimus enim stellam eius in orientem et uenimus <lb/>
+            adorare eum. testificantes scilicet ueritatem de eo etiam <lb/>
+            stellam sibi signum atque indicium natiuitatis ipsius esse monstratam,<lb n="20"/>
+            qua indice natum illum magis praedicantibus et adfirmantibus <lb/>
+            et Hierosolymis crederetur. Simeon quoque iustus qui in caecitate <lb/>
+            constitutus diuino monitu audierat se non ante moriturum quam
+
+<note type="footnote"> ,14 Matth, 2, 1. sq. </note>
+
+<note type="footnote"> 1 Bubteraa <hi rend="italic">Z</hi> 3 renertamur <hi rend="italic">Ztv</hi> in <hi rend="italic">om. Z</hi> 4 in <hi rend="italic">om. Z <lb/>
+            5 uitae om. Z</hi> ac] <hi rend="italic">a T</hi> aberrauimus u 6 uiae] <hi rend="italic">uitae fiv</hi> . <lb/>
+            7 limite] lumine <hi rend="italic">Z</hi> 8 in <hi rend="italic">om. Tt</hi> reparationemJ reperabile <hi rend="italic">Z; <lb/>
+            cf. p. 120, 20</hi> 9 ac miBeratione <hi rend="italic">om. Z</hi> 10 magi ex migi. <hi rend="italic">T</hi> <lb/>
+            orientalis <hi rend="italic">Ttl</hi> et <hi rend="italic">om. Z</hi> eius <hi rend="italic">om. b</hi> 12 ne <hi rend="italic">om. T,</hi> in <hi rend="italic">Z</hi> <lb/>
+            13 esset absconsum p, absconsus <hi rend="italic">Z,</hi> absconsum <hi rend="italic">Tt,</hi> absconsum foret <lb/>
+            <hi rend="italic">Baluzius ex r</hi> procedentes <hi rend="italic">T</hi> 14 testatur <hi rend="italic">Z,</hi> testificans j» <lb/>
+            euangelista <hi rend="italic">Z</hi> 15 natus esset iesu b bethlem <hi rend="italic">T</hi> iudeae (i <lb/>
+            16 et ecce <hi rend="italic">Tt</hi> in om. <hi rend="italic">Z</hi> 18 eius stellam p oriente <hi rend="italic">t2</hi><foreign xml:lang="grc">μυ</foreign><hi rend="italic">;<lb/>
+             ct: Cypr. p. 98, 17</hi> 19 neritatem <hi rend="italic">om. Z</hi> etiam nobis <hi rend="italic">Z</hi> 20 iudicium <lb/>
+            <hi rend="italic">T</hi> 21 quam <hi rend="italic">T</hi> natum esse <hi rend="italic">Z</hi> illum <hi rend="italic">om. Z</hi> <lb/>
+            22 et om. <hi rend="italic">Zuv</hi> hierusolimis <hi rend="italic">T</hi> 23 monitus <hi rend="italic">Z,</hi> monitus oraculo <lb/>
+            <hi rend="italic">Baluzius ex r</hi> </note> <lb/>
+             
+<pb n="123"/>
+            uidisset Christum, cum in templum omni populo praesente infantem <lb/>
+            secum mater inferret, in <choice><sic>spiritn</sic><corr>spiritu</corr></choice> Christum natum esse sensit, <choice><sic>acceptom</sic><corr>acceptum</corr></choice> <lb/>
+            in manus puerum <choice><sic>nidit</sic><corr>uidit</corr></choice> et benedicens Deum in <choice><sic>conepectu</sic><corr>conspectu</corr></choice> et <lb/>
+            <choice><sic>andita</sic><corr>auditu</corr></choice> omnium dixit: nunc dimittis seruum tuum Domine <lb/>
+            secundum uerbum tuum in pace quoniam uiderunt <lb n="5"/>
+            oculi mei salutare tuum. Simeon quod caecus audierat euidenti <lb/>
+            ueritate perfectum est, et ueritatem quam accepto lumine <choice n="0.60"><sic n="220">uident</sic><corr n="146">uiderat</corr></choice> <lb/>
+            benedicendo palam Deum populo praedicabat. ad hoc enim uiderat, <lb/>
+            ut referret, ut reuelatione sua quod Christus. natus fuisset <lb/>
+            ostenderet et perfidi populi initia prima incredulitatis instrueret. <lb n="10"/>
+            
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p rend="script">Nec hoc solum testimonium de eo scripturarum caelestium ueritas  <lb/>
+            perhibet, uerum et per prophetas ante spiritus sanctus aduentum eius <lb/>
+            in hunc mundum futurum palam mente omnium conscia <choice><sic>praedicanit</sic><corr>praedicauit</corr></choice>, <lb/>
+            ne esset obtentus excusationis incredulis uel ignorasse Dei filium Christum <lb/>
+            uel nescisse futurum saluatoris aduentum, sicut Dauid <choice><sic>manifeetat</sic><corr>manifestat</corr></choice> <lb n="15"/>
+            dicens: dies diei eructat uerbum et nox nocti indicat <lb/>
+            scientiam: non sunt sermones nec uerba, quorum <lb/>
+            non audiantur uoces eorum. in omnem terram <lb/>
+            <choice><sic>eiiit</sic><corr>exiit</corr></choice> sonus eorum et trans fines terrae uerba eorum. <lb/>
+            in <choice n="0.47"><sic n="478">sole</sic><corr n="537">solo</corr></choice> posuit tabernaculum suum. id est in manifesto in
+
+<note type="footnote"> 4 Luc. 2, 29. 16 Ps. 18, 3. </note>
+
+<note rend="script" type="footnote"> 1 templo <hi rend="italic">Z</hi> 2 inferret mater v in] et in pv natum <lb/>
+            esse christum v, natum esse fi sensisset <hi rend="italic">Z</hi><foreign xml:lang="grc">μυ</foreign> et acceptam <hi rend="italic">Zt1</hi> <lb/>
+            3 manibus <hi rend="italic">Z</hi> 4 audito <hi rend="italic">Tl</hi> 5 quoniam] quia <hi rend="italic">Z</hi> 6 et uidenti <lb/>
+            <hi rend="italic">Z</hi> 7 neritatem <hi rend="italic">Tt1</hi> perfectum est] perfectum esse annnntitbat <lb/>
+            <hi rend="italic">Baluzius ex r</hi> et om. <hi rend="italic">Zt</hi><foreign xml:lang="grc">μυ</foreign> acceptam lumen <hi rend="italic">Z</hi> <lb/>
+            8 dom palam <hi rend="italic">Z</hi> 9 referretur <hi rend="italic">T</hi> ut <hi rend="italic">tp., om. TZ,</hi> et b <lb/>
+            reoelationem suam <hi rend="italic">Z,</hi> relatione sua <hi rend="italic">Tp</hi>. christus] dns <hi rend="italic">Z</hi> 10 ostendere <lb/>
+            et <hi rend="italic">T,</hi> et ostenderet <hi rend="italic">Z</hi> 11 <hi rend="italic">poet</hi> solum <hi rend="italic">exh</hi>. Z: sanctus adnentom <lb/>
+            eius in propriam suam semper aduersus clementem misericordiam <lb/>
+            dum apreuisse nideatnr <hi rend="italic">(cf. p. 120, 20)</hi> nenisset et ipse <hi rend="italic">p</hi>. 124, 9... <lb/>
+            eredentibus <hi rend="italic">125, 4</hi> 13 hunc... <hi rend="italic">p. 124, 9</hi> esset <hi rend="italic">post</hi> christum <hi rend="italic">p. <lb/>
+             136,</hi> 13 <hi rend="italic">exh. Z</hi> conscia iy, conscientia <hi rend="italic">TZt1<foreign xml:lang="grc">μ</foreign>1,</hi> consciente n <lb/>
+            praedieabit T 14 ne p, me <hi rend="italic">T,</hi> que <hi rend="italic">Z,</hi> neo <hi rend="italic">tx</hi> esset] eit <hi rend="italic">Ztv</hi> <lb/>
+            contentus <hi rend="italic">Z</hi> 17 non om. <hi rend="italic">T,</hi> et non <hi rend="italic">Z</hi> neque <hi rend="italic">Z</hi> 18 andiontur <lb/>
+            <hi rend="italic">Tt</hi> 19 exinit <hi rend="italic">Z</hi><foreign xml:lang="grc">μυ</foreign>trans] in <hi rend="italic">Z</hi> terrae om. <hi rend="italic">P</hi> <lb/>
+            nerba] fines v 20 id est] idem <hi rend="italic">Z</hi> manifesta luce <hi rend="italic">Baluzius <lb/>
+            ex r</hi> </note> <lb n="20"/>
+             
+<pb n="124"/>
+            luce palam se ipsum uenisse monstrauit et praedicationem per prophetas <lb/>
+            sui ostensione quodammodo omnibus suae praesentiae conprobauit. <lb/>
+            hoc etiam Esaias, per quem Dominus ipse praesentiam suam clara <lb/>
+            adnuntiationis manifestatione monstrauit, prophetat et dicit : ipse <lb/>
+            qui loquebar ueni, id est, qui per prophetas ante aduentus<lb n="5"/>
+            mei futuri <sic n="poss">praeloqudus</sic> fueram, is propria nunc atque praeclara <lb/>
+            uoce praesentiam meam testis mei ipse manifesto. quid euidentius, <lb/>
+            quid luce praeclarius, quid uerius potest dici ? ut oculis quodammodo <lb/>
+            perspectus esset uenisse, ipse qui fuerat <choice><sic>uentulUs</sic><corr>uenturus</corr></choice>, antequam ueniret <lb/>
+            ostendit, et <choice><sic>incrednlitate</sic><corr>incredulitate</corr></choice> mentes populi <choice><sic>perfldi</sic><corr>perfidi</corr></choice> obstruente uenientem<lb n="10"/>
+            nemo cognouit. sicut idem Esaias in prima increpatione populi proclamat <lb/>
+            dicens: cognouit bos possessorem suum et asinus <lb/>
+            praesepe domini sui, Israel autem me <choice><sic>nescinit</sic><corr>nesciuit</corr></choice> et plebs <lb/>
+            me non intellexit. palam cunctis sicut ipse praedixit apparuit <lb/>
+            et sedentibus in tenebris manifestum uitae lumen effulsit, et iniustitia <lb n="15"/>
+            perfidorum pectus obsessum postposita propria ac reiecta salute tenebras <lb/>
+            potius caecitate cordis elegit.\'
+
+<note type="footnote"> 4 ? ? 12 Es. 1, 3. </note>
+
+<note type="footnote"> 1 lucem <hi rend="italic">Tt</hi> praedicatione per r, per praedicationem <hi rend="italic">Bal. <lb/>
+            ex r</hi> prophetarum <hi rend="italic">Bal</hi>. 2 sui] suos <hi rend="italic">Zp., om. Bal</hi>. <lb/>
+            ostensione] OBtendit <hi rend="italic">Z, om. Bal</hi>. suam praesentiam v, praesentiae <lb/>
+            ostensionem <hi rend="italic">Bal</hi>. 3 esaias ... <hi rend="italic">l</hi>. 4 monatrauit om. <hi rend="italic">Z</hi> ipse <lb/>
+            om. <hi rend="italic">Zv</hi> 4 prophetauit et dixit <hi rend="italic">Z</hi> ego ipse v 5 aduentum <lb/>
+            meum futurum <hi rend="italic">Zv</hi> 6 praelocutus <hi rend="italic">Z</hi> is p. n. atque <lb/>
+            (atq. nunc <hi rend="italic">t)</hi> p. u. p. m. testis mei (testemei <hi rend="italic">T,</hi> testis meus p., teste <lb/>
+            me Z) ipse (ipso Z) manifesto (manifestem. <hi rend="italic">Tt) TZtfi,</hi> ipse nunc ueni <lb/>
+            ut omnibus praesentiam meam ipse ego testis mei manifeetem <hi rend="italic">Bal</hi>. <lb/>
+            8 hac luce <hi rend="italic">Bal</hi>. luce praeclariua om. fi quidue u. dici <lb/>
+            potest <hi rend="italic">Z</hi> ut] ut ergo <hi rend="italic">Bal</hi>. occuloa <hi rend="italic">Z</hi> 9 perspectus] <lb/>
+            persecutos <hi rend="italic">Z</hi> se uenisse <hi rend="italic">Bal.,</hi> uenisset et <hi rend="italic">Z (cf. 180,13)</hi> <lb/>
+            iam uenturus <hi rend="italic">Bal</hi>. 10 incredulitatem <hi rend="italic">Z</hi> mentis <hi rend="italic">TZt</hi> <lb/>
+            perfldia <hi rend="italic">Z</hi> obstruentem <hi rend="italic">Z,</hi> obseruente et p. <hi rend="italic">ets. I. m. 2</hi> 11 populi <lb/>
+            om. <hi rend="italic">Z</hi> 12 clamat <hi rend="italic">Z</hi> suum om. ft 13 praeeepium n <lb/>
+            sui <hi rend="italic">om</hi>. fi me autem <hi rend="italic">Z</hi> nesciit p, cognouit <hi rend="italic">Z</hi> * plebe] <lb/>
+            populus <hi rend="italic">Z</hi> 14 me] mea <hi rend="italic">t</hi> palam ... praedixit tm. <hi rend="italic">Z</hi> sicut <lb/>
+            cunctis p. 15 manifestam uitam et <hi rend="italic">Z</hi> efulsit <hi rend="italic">Z</hi> in iustitia <lb/>
+            <hi rend="italic">Zt2,</hi> iuatitia <hi rend="italic">Тt1</hi><foreign xml:lang="grc">μυ</foreign> 16 reiectas a luce <hi rend="italic">Z,</hi> recta salute <hi rend="italic">T</hi> <lb/>
+            17 caecitatem <hi rend="italic">Z,</hi> caecitatemque <hi rend="italic">Bai</hi>. ex r </note> 
+<pb n="125"/>
+            
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p>Frequentat ubique atque manifestat prophetatio cunctorum, qui  <lb/>
+            sancto spiritu praemonente aduentus Domini metatores esse sortiti <lb/>
+            sunt. hunc lumen saeculo datum et diem nobis salutis exortum uiuificandis <lb/>
+            quoque in eum credentibus destinatum docet hoc in psalmis <lb/>
+            spiritus sanctus et ostendit dicens: lapis quem reprobauerunt <lb n="5"/>
+            aedificantes hic factus est in caput anguli: a Domino <lb/>
+            factus est iste, et adest mirabilis in oculis nostris. iste <lb/>
+            dies est quem fecit Dominus, ambulemus et iocundemur <lb/>
+            in eo. in hoc die nos ambulare Paulus quoque apostolus <lb/>
+            praecipiens et docens ac praemonens dicit: nunc enim propius <lb n="10"/>
+            est nobis salus quam cum credidimus. nox praecessit, <lb/>
+            dies autem adpropinquauit. abiciamus opera tenebrarum <lb/>
+            et induamur arma lucis, sicut in die honeste ambulemus. <lb/>
+            id est in Christo et mandatis eius, cuius lumine ac <lb/>
+            monitis luminati et in claritate diei eius inuenti proximam nobis <lb n="15"/>
+            salutem credulitatis in eum mente conspicimus. 
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart"><p>Solem quoque esse Christum cunctis timentibus eum Malachias  <lb/>
+            propheta testatur et promittit dicens: uobis autem timentibus <lb/>
+            meum nomen orietur sol iustitiae, et sanitas in alis <lb/>
+            eius, ostendens ex nullo nobis salutem posse conferri, nisi in passionem <lb n="20"/>
+            crucis eius, qua extendens manus cuncta saeculi saluaturus
+
+<note type="footnote"> 6 PB. 117, 22 sq. 10 Rom. 13, 11. 12. 18 Mal. 4, 2. </note>
+
+<note type="footnote"> 1 frequentatnr v, frequentaturum <hi rend="italic">Z</hi> utrobique <hi rend="italic">Ttfi,</hi> obitque <hi rend="italic">Z</hi> <lb/>
+            2 sancto spiritu <hi rend="italic">om. Z</hi> adaentum <hi rend="italic">Z</hi> 8 hunc <hi rend="italic">Tt1Z<foreign xml:lang="grc">μ</foreign>,</hi> <lb/>
+            hoc t2<foreign xml:lang="grc">υ</foreign> lumen saeculi <hi rend="italic">Z,</hi> saeculo lumen-saeculo <hi rend="italic">Tt</hi> die <hi rend="italic">Z</hi> <lb/>
+            4 in eum] et cum <hi rend="italic">Z</hi> credentibus] <hi rend="italic">sequitur in Z</hi> docens atque <lb/>
+            <hi rend="italic">etc. ef. 123,11</hi> hoc <hi rend="italic">om. n</hi> in psalmis <hi rend="italic">om</hi>. p1 5 et <hi rend="italic">om. Z</hi> <lb/>
+            6 capite <hi rend="italic">TZ</hi> 7 adest <hi rend="italic">Tt,</hi> est <hi rend="italic">Zpv</hi> mirabile <hi rend="italic">Z,</hi> admirabilis<lb/>
+             <foreign xml:lang="grc">μυ</foreign> 8 est dies <hi rend="italic">Zft</hi> quem] qUOD <hi rend="italic">T</hi> ambulemus) exultemus <lb/>
+            <hi rend="italic">Z</hi> 9 quoque om. <hi rend="italic">Z,</hi> quaeque <hi rend="italic"><foreign xml:lang="grc">μ</foreign>1</hi> 10 et d. a. p. dicit]<lb/>
+             docet dicens <hi rend="italic">Z</hi> proprius <foreign xml:lang="grc">μ</foreign>1, proprior <hi rend="italic">Z</hi> 11 nobis] nr<foreign xml:lang="grc">̃</foreign>a <hi rend="italic">Z</hi> <lb/>
+            eredimus v proceesit <hi rend="italic">T,</hi> tranainit <hi rend="italic">Z; cf. Cypr. p. 425,23</hi> 12 abiiciamua<lb/>
+             ergo b 13 arma] opera <hi rend="italic">Ttp</hi> 15 diei] dei <hi rend="italic">Z</hi> 16 crednlitatis <lb/>
+            <hi rend="italic">Zt2<foreign xml:lang="grc">μ</foreign>,</hi> cradelitatie <hi rend="italic">Ttl,</hi> credula <hi rend="italic">Bal. ex r</hi> 18 autem otn. p<lb/>
+             19 nomen meum v, nomen dm <hi rend="italic">Z</hi> in aUis <hi rend="italic">T,</hi> in malis <hi rend="italic">Z</hi> <lb/>
+            20 nome <hi rend="italic">Z</hi> paaaione Zn 21 qua] que <hi rend="italic">Z</hi> cunctas <hi rend="italic">Z</hi> <lb/>
+            saecula <hi rend="italic">T\',</hi> saeculum <hi rend="italic">Z</hi> saluatoris <hi rend="italic">T,</hi> saluator <hi rend="italic">ex</hi> saluatioris <hi rend="italic">t</hi> </note> <lb/>
+             
+<pb n="126"/>
+            amplexus est, conuerso ad eum timore credamus et ad aeternitatem <lb/>
+            uitae spe futuri regni eius animemur. quis ergo tam stolidus ac <lb/>
+            demens, quis sic ab intellectu suae salutis alienus, qui in tot et tantis <lb/>
+            testimoniis ueritatis incredulus non <choice><sic>adnersus</sic><corr>aduersus</corr></choice> sinceram fidem obduratum <lb/>
+            pectus intellectu ueritatis emolliat et e tenebris uitae quondam mortalis<lb n="5"/>
+            exutos in lumine praeceptorum caelestium gradiens ad diuina <lb/>
+            monita et Domini salutaria gerenda mandata inluminato corde tota <lb/>
+            mentis credulitate conuertat, ut quem prophetae praedicauerunt <lb/>
+            Dominum noscat, ut Christum qui se mundo palam uenisse monstrauit <lb/>
+            intellegat, ut scripturis diuinitus testificantibus Dei filium et <lb n="10"/>
+            Deum credat. sicut ipse quae sit uita aeterna manifestat dicens: <lb/>
+            haec est autem uita aeterna, ut cognoscant te solum <lb/>
+            et uerum Deum et quem misisti Iesum Christum, docens <lb/>
+            atque ostendens nihil aliud esse Deum nosse quam credere et oculos <lb/>
+            cordis in Dominum prona et immutata pectoris fide deuotae mentis<lb n="15"/>
+            aperire. inde iam fit ut credendo intellegas, intellegendo quod credis <lb/>
+            in sensu Deum illuminato corde conspicias, sicut idem ipse Dominus <lb/>
+            et per Esaiam ante monet dicens: si non credideritis, nec <lb/>
+            intellegetis. tam facilis et praestans et larga est atque abundans
+
+<note type="footnote"> 12 Io. 17, 3. 18 Es. 6, 7. 9. </note>
+
+<note type="footnote"> 1 conuersi <hi rend="italic">Z,</hi> ut conuerso <hi rend="italic">Bal. ex r</hi> in timore <hi rend="italic">Z</hi> et ad <lb/>
+            <hi rend="italic">om. Z et Bal</hi>. aeternitate <hi rend="italic">Z</hi> 2 spei <hi rend="italic">TtlZ,</hi> et spe <hi rend="italic">Bal</hi>. <lb/>
+            amemur <hi rend="italic">Ztl</hi> ergo <hi rend="italic">om. Z,</hi> enim <hi rend="italic">v</hi> 3 sic <hi rend="italic">om. Z</hi> qui] <lb/>
+            quis <hi rend="italic">Zt</hi> in <hi rend="italic">om. t\'v</hi> et tantis] tantis <hi rend="italic">Tt\',</hi> tantisque <hi rend="italic">t*</hi> <lb/>
+            4 ueritatis testimoniis v sinceram <hi rend="italic">Z,</hi> in ueram <hi rend="italic">T\',</hi> meram <hi rend="italic">T2<foreign xml:lang="grc">μυ</foreign></hi> <lb/>
+            5 ab intellectu <hi rend="italic">Z</hi> emolliat et] et mollicie <hi rend="italic">Z,</hi> emolliate <hi rend="italic">Ttl</hi> e om. <lb/>
+            <hi rend="italic">TtZv</hi> quodam mortali <hi rend="italic">Z</hi> 6 exitus <hi rend="italic">Тt\',</hi> exitu <hi rend="italic">Z</hi> in <hi rend="italic">om. Z</hi> <lb/>
+            7 inluminatio <hi rend="italic">T</hi> 8 mentis] <hi rend="italic">add</hi>. fidei <hi rend="italic">Tt1 (exp. t1),</hi> ac fidei fi, et <lb/>
+            fidei <hi rend="italic">Z</hi> crudelitate <hi rend="italic">Tt</hi> conuertatur <hi rend="italic">Z</hi> dicauerunt <hi rend="italic">T</hi> <lb/>
+            9 deum <hi rend="italic">fiv</hi> palam mundo v monstrabat p, 10 diuinis <hi rend="italic">Z</hi> <lb/>
+            11 quae sit] qui est <hi rend="italic">Z</hi> uitae <hi rend="italic">Ttx</hi> 12 autem ait <hi rend="italic">fiv</hi> cognoscat <lb/>
+            <hi rend="italic">T</hi> 13 et uerum] uerum <hi rend="italic">Zt2; cf. Cypr. 63, 10</hi> christum] <lb/>
+            christum hunc <hi rend="italic">etc. Z; cf. 123, 13;</hi> docens atque <hi rend="italic">etc. exh. post</hi> credentibus <lb/>
+            <hi rend="italic">125, 4</hi> 14 oculis <hi rend="italic">Z</hi> 15 deum <hi rend="italic">Zp,</hi> et <hi rend="italic">om. T2t<foreign xml:lang="grc">μυ</foreign></hi> <lb/>
+            immotata <hi rend="italic">T,</hi> inmotota <hi rend="italic">t,</hi> immo tota <hi rend="italic"><foreign xml:lang="grc">μυ</foreign></hi> 15 fidem <hi rend="italic">Z</hi> — deuotae <hi rend="italic">T,</hi> <lb/>
+            et deuotione <hi rend="italic">Bal. ex r; uidetur esse graecismus pro</hi> denota mente <lb/>
+            17 in sensum dm (dni Z) <hi rend="italic">Zt, om. Bal</hi>. aspiciat <hi rend="italic">Z</hi> ipse <hi rend="italic">om. Z</hi> <lb/>
+            18 et om. <hi rend="italic">Z</hi> ante monet] ammonet <hi rend="italic">Z</hi> 19 elarga Tt* </note> <lb/>
+             
+<pb n="127"/>
+            de Domini pietate clementia, ut si quis semel sese in eum toto timore <lb/>
+            conuerterit ad caeleste munus admissus statim iam eius non nisi ad <lb/>
+            diuina mens pateat et ad caelum ac superna oculos cordis attollens <lb/>
+            Christi lumen partae iam salutis <choice><sic>aapiciat</sic><corr>aspiciat</corr></choice>. 
+</p>
+          </div>
+
+<div n="7" subtype="section" type="textpart"><p>Exemplum ac documentum nostri timoris et fidei ex ipsius Abrahae  <lb n="5"/>
+            patriarchae fideli credulitate monstratur, qui repromissioni Dei mente <lb/>
+            simplici statim credidit et ideo ad iustitiam deputari ei condigna <lb/>
+            remuneratione commeruit. hoc Deus diligit, hoc adpetit, hoc in semis <lb/>
+            <choice><sic>snis</sic><corr>suis</corr></choice> benignus remunerat et honorat, simplicitatem mundi cordis quo <lb/>
+            Deum <sic>cemiinus</sic>, timorem dilectionis Domini quo probamur, credulam <lb n="10"/>
+            fidem mentis qua iustitiae deputamur. hanc fidem sequi, hunc Dei <lb/>
+            timorem seruare nos conuenit, qui custodientes uerba caelestia et <lb/>
+            sperantes promissa diuina filii Abrahae meruimus nuncupari. quod <lb/>
+            apostoli Pauli qui Dei uoce uas electionis est dictus contestatione <lb/>
+            firmatur dicentis: sicut Abraham credidit Deo, et accepto <lb n="15"/>
+            latum est ei ad iustitiam. cognoscite ergo quoniam <lb/>
+            qui ex fide sunt hi sunt filii Abrahae. hoc Iudaicus <lb/>
+            populus, cui a primordio legis monita loquebantur, incredulae <lb/>
+            mentis duritia et perfidi cordis insania seruare noluit, et ideo pro <lb/>
+            diffidentiae merito filiorum nomen amisit. non tamen omnium perfidae <lb n="20"/>
+            gentis aduersus nomen Domini, quominus intellegerent ueritatem,
+
+<note type="footnote"> 15 Gal. 3, 6. </note>
+
+<note type="footnote"> 1 ut] aut <hi rend="italic">Z</hi> sese] se <hi rend="italic">Z,</hi> esse <hi rend="italic">t</hi> in] ad <hi rend="italic">Bal</hi>. 2 conuerteret <lb/>
+            <hi rend="italic">t\',</hi> auerterit <hi rend="italic">Z</hi> ad <hi rend="italic">ex</hi> et <hi rend="italic">t m</hi>. 2, et ad p acmissus <hi rend="italic">Ttl</hi> <lb/>
+            mens eius non iam nisi ad diuina <hi rend="italic">Bal</hi>. 3 ac] ad <hi rend="italic">Z</hi> 4 partae <lb/>
+            iam] per id pertem iam <hi rend="italic">Z,</hi> ac patriam <hi rend="italic">Bal.; est graecismus pro</hi> parta <lb/>
+            iam salute; <hi rend="italic">cf. Rönsch pag</hi>. 436 5 ac] ad <hi rend="italic">t</hi> 6 se promissioni <hi rend="italic">Z</hi> <lb/>
+            7 et om. <hi rend="italic">Z</hi> condigne Tl 8 adpeciit <hi rend="italic">Z</hi> 9 Bimplicitatem <lb/>
+            uidelicet <hi rend="italic">Bal. ex r</hi> quo deum <hi rend="italic">scripsi,</hi> quod eum <hi rend="italic">Ttl,</hi> quo eum <hi rend="italic">t2<foreign xml:lang="grc">μ</foreign>,</hi> <lb/>
+            quoquod cum <hi rend="italic">Z,</hi> qui quidem eius <hi rend="italic">v</hi> 10 domini <hi rend="italic">om. Z,</hi> dei <hi rend="italic">t</hi> <lb/>
+            probamus <hi rend="italic">Z</hi> 11 que iusticia <hi rend="italic">Z</hi> 12 timorem dei <hi rend="italic">Z</hi> 13 et <lb/>
+            diuina <hi rend="italic">Ttl</hi> meremur <hi rend="italic">ex</hi> meruit <hi rend="italic">t m. 2</hi> 14 <hi rend="italic">pauli...1.15</hi> abraham <lb/>
+            om. <hi rend="italic">Z</hi> 15 sicut] sic <hi rend="italic">v</hi> accepti latum p, deputatum <hi rend="italic">Z</hi> <lb/>
+            16 cognoscitis <hi rend="italic">Z</hi> quoniam] quia <hi rend="italic">Z</hi> 17 hi 8. f. abrahae] benedicti <lb/>
+            stmt cum fideli abraham <hi rend="italic">Z</hi> 18 a om. <hi rend="italic">Z</hi> incredula <hi rend="italic">T</hi> <lb/>
+            19 perfidis <hi rend="italic">Ttt,</hi> perfidia <hi rend="italic">t\'</hi> cordis <hi rend="italic">om. Tt</hi> insaniam <hi rend="italic">Z</hi> <lb/>
+            20 diffbdentiae <hi rend="italic">T,</hi> differentie <hi rend="italic">Z</hi> nomina misit <hi rend="italic">T</hi> perfidiam <lb/>
+            gentes <hi rend="italic">Z</hi>. </note> <lb/>
+             
+<pb n="128"/>
+            odio durata mens est. etiamque spiritus sanctus id est Christus <lb/>
+            Dominus noster qui profectus ex Deo patre uenit ut saluum faceret <lb/>
+            quod perierat Israelis: qui maior ac fortior ad subigenda contumacium <lb/>
+            colla in timorem sui nominis et potestatem eos qui aduersus sui <lb/>
+            luminationis claritatem obstinata etiam tunc mentis caecitate <choice n="0.91"><sic n="418">dura</sic><corr n="39">duras</corr></choice><lb n="5"/>
+            bant ad notitiam claritatis et gloriae suae tam facile conuertit, quam <lb/>
+            ut omnes saluos faceret prouidentia diuinae misericordiae suae dignatus <lb/>
+            aduenit. 
+</p>
+          </div>
+
+<div n="8" subtype="section" type="textpart"><p> Nam ut duri cordis tunc et impiae plebis ad Domini metum ipso <lb/>
+            Domino euangelizante conuersas mentes sileam, ut apostolorum eius<lb n="10"/>
+            praedicatione multiplicatum in orbe toto et refersum credentium <lb/>
+            populum conticiscam: illud praeclarum atque memorabile gloriosumque <lb/>
+            Iasonis Hebraei <choice><sic>Ghristiani</sic><corr>Christiani</corr></choice> et Papisci Alexandrini Iudaei <lb/>
+            disceptationis occurrit, Iudaici cordis obstinatam duritiam Hebraei <lb/>
+            admonitione ac leni increpatione mollitam, uictricem in Papisci corde <lb n="15"/>
+            Iasonis de spiritus sancti <choice><sic>infnsione</sic><corr>infusione</corr></choice> doctrinam, qua Papiscus ad <lb/>
+            intellectum ueritatis admissus et ad timorem Domini ipso Domino <lb/>
+            miserante formatus et legum Christum Dei filium credidit et ut <lb/>
+            signaculum sumeret deprecatus Iasonem postulauit. probat hoc <lb/>
+            scriptura concertationis ipsorum, quae collidentium inter se Papisci<lb n="20"/>
+            aduersantis ueritati et Iasonis adserentis et uindicantis dispositionem
+
+<note type="footnote"> 1 obdurata <hi rend="italic">Bal. ex r</hi> etiam quod p. spiritus ... id est <lb/>
+            om. <hi rend="italic">Z</hi> 2 qui <hi rend="italic">om. v</hi> profectus] prophetas (i, pro se totus <hi rend="italic">Z</hi> <lb/>
+            ex] a <hi rend="italic">Z</hi> 3 israel his <hi rend="italic">Tt,</hi> israel <hi rend="italic">Zp</hi>. ac prior ac fortior <hi rend="italic">Z</hi> <lb/>
+            ad] ac <hi rend="italic">TZ</hi> subieienda p. 4 timore <hi rend="italic">Zp*</hi> potestate <hi rend="italic">Z<foreign xml:lang="grc">μ</foreign></hi> <lb/>
+            sui (suae <hi rend="italic">t\')</hi> luminationis <hi rend="italic">Tt,</hi> luminis sui <hi rend="italic">pv,</hi> luminis <hi rend="italic">Z</hi> 5 obstina <hi rend="italic">T</hi> <lb/>
+            mens <hi rend="italic">Z</hi> cecitatem <hi rend="italic">Z</hi> 6 gloriam <hi rend="italic">Z</hi> suae tam om. <hi rend="italic">Z</hi> <lb/>
+            7 suae diuinae misericordiae e dignatus] ac dignatione r 9 nam] <lb/>
+            nunc <hi rend="italic">Z</hi> ut <hi rend="italic">om. Tt,</hi> in <hi rend="italic">Z</hi> nunc <hi rend="italic">Z, om</hi>. (i 10 mentes] <lb/>
+            mones <hi rend="italic">T</hi> sileam et] sibi amitti <hi rend="italic">Z</hi> eius] metus <hi rend="italic">Z</hi> 11 toto <lb/>
+            orbe <hi rend="italic">v</hi> refersum <hi rend="italic">Tt,</hi> respersum p., reformatum <hi rend="italic">Z,</hi> reuersum v; <hi rend="italic">cf</hi>. confersus <lb/>
+            <hi rend="italic">Luc</hi>. 6, 38 <hi rend="italic">in eod. JRehd. apud Haasium,</hi> farsus <hi rend="italic">Tert. Ieitm. 12</hi> <lb/>
+            12 conticescam v illum <hi rend="italic">T,</hi> illuc <hi rend="italic">Z</hi> 13 hebraei] ebichi <hi rend="italic">Z</hi> <lb/>
+            christianis <hi rend="italic">T</hi> 14 dispectationia p. cordis iudaici <hi rend="italic">Z</hi> hebrea <lb/>
+            <hi rend="italic">TZtfi,</hi> breui <hi rend="italic">Bal.</hi>. e:c <hi rend="italic">r</hi> 15 monitionem <hi rend="italic">T,</hi> municione <hi rend="italic">Z</hi> <lb/>
+            et uictricem <hi rend="italic">Bol</hi>. papisci] pacis <hi rend="italic">Z</hi> 16 spu <hi rend="italic">t</hi> quam <hi rend="italic">TZt1</hi> <lb/>
+            18 fllium dei v et <hi rend="italic">om. Z</hi> 19 designauit postulauit fi* <lb/>
+            hoc <hi rend="italic">om. Z</hi> 21 ueritatis <hi rend="italic">tlp,</hi> et uindicantis <hi rend="italic">om. Z</hi> </note> <lb/>
+             
+<pb n="129"/>
+            et plenitudinem Christi Graeci sermonis opere signata est: ad cuius <lb/>
+            <choice><sic>iranslationem</sic><corr>translationem</corr></choice> in <choice><sic>intellectttm</sic><corr>intellectum</corr></choice> Latinum animante Domini ope et <choice><sic>niuentis</sic><corr>uiuentis</corr></choice> <lb/>
+            fidei firmitate <choice><sic>semata</sic><corr>seruata</corr></choice> uerborum proprietate intrepidus accessi: et <lb/>
+            his qui ab intellectu Graecae docilitatis alieni sunt interpretata integra <lb/>
+            significatione uerborum et intellectus omnis ac ueritatis manifestatione <lb n="5"/>
+            patefacta Romani sermonis ratione discussa disserui. cuius <lb/>
+            laboris probationem tibi, carissime, qui utriusque linguae instructione <lb/>
+            fundatus es, impensa petitione committo: ut qui sancti spiritus <lb/>
+            <choice><sic>neneratione</sic><corr>ueneratione</corr></choice> <sic>nerecundus</sic> es conlata utriusque operis lectione audaciam <lb/>
+            uerecundae temeritatis explores et examine iudicii tui quae minus a <lb n="10"/>
+            nobis uel improprie forte digesta sunt auctoritate spiritus sancti, qui <lb/>
+            in pectus tuum inundatione gratiae caelestis influxit, comprobes et <lb/>
+            emendes: sitque ad te de ista lectione ab humilitate nostra mandata <lb/>
+            legatio et insinuanda tibi in nos prima dilectionis petitio, ut paruitatem <lb/>
+            fidei meae cum discipulorum tuorum instructione atque eruditione <lb n="15"/>
+            coniungas et me, quem in alia parte huius prouinciae constitutum <lb/>
+            propter uisendos uultus tuos non itineris longinquitas terruit <lb/>
+            nec senium ac difficultas fatigati ac fessi iam corporis redarguit, sed <lb/>
+            animante stimulatu Domini et urgente festinato cupiditate properandi, <lb/>
+            contempta quoque omni tribulatione inopiae atque penuriae quantacumque <lb n="20"/>
+            <choice><sic>nirium</sic><corr>uirium</corr></choice> facultate ueniendi, sanctimoniae tuae celebris huc fama <lb/>
+            perduxit, ad promixtum dilectus tui caritate cum unanimitate fraternitatis <lb/>
+            admittas et amori tuo quem discipulis suis Dominus hereditatis
+
+<note type="footnote"> 1 graeci] gregis <hi rend="italic">Z</hi> 2 inj ad v, <hi rend="italic">om. Z</hi> animantem <hi rend="italic">Tt I, om. Z</hi> <lb/>
+            dnõ u, dei <hi rend="italic">Zf)</hi> ope] opere (t uiuent <hi rend="italic">T,</hi> iuuantis <hi rend="italic">r t sed t in ras</hi>. <lb/>
+            3 eis fidei <hi rend="italic">Tt\'</hi> . firmitati <hi rend="italic">Z</hi> trepidus accessit is qui <hi rend="italic">Z</hi> 4 et integra <lb/>
+            <hi rend="italic">Z</hi> 6 romanis <hi rend="italic">Z</hi> disseruit <hi rend="italic">Z</hi> 9 uerecumdatus <hi rend="italic">Z</hi> <lb/>
+            utriusque] uirtusque <hi rend="italic">Z</hi> 10 uerecunda et <hi rend="italic">Z,</hi> inuerecundae <hi rend="italic">fort</hi>. <lb/>
+            exploras et <hi rend="italic">T,</hi> exflorente <hi rend="italic">Z</hi> ex semine <hi rend="italic">Tp.,</hi> semine <hi rend="italic">Z</hi> <lb/>
+            11 uel] ad <hi rend="italic">Z</hi> digesta sunt] <hi rend="italic">Z hic inserit partem libri</hi> de bono <lb/>
+            pudicitiae, <hi rend="italic">p. 13, 10</hi> mei <hi rend="italic">operis...15, 11</hi> pudicitia 12 inundatione ... <lb/>
+            <hi rend="italic">I</hi>. 21 facultate om. <hi rend="italic">Z</hi> 17 uiscendos <foreign xml:lang="grc">μ</foreign> 18 nec... redarguit <lb/>
+            cm. f*. redarguit] retardauit <hi rend="italic">v;</hi> redarguit <hi rend="italic">i. e</hi>. impediuit; <hi rend="italic">cf. Cae- <lb/>
+            Ihis Aurel. de m. acutis 1, 15, 121 (Amst. 1709)</hi> 19 stimulatu] <lb/>
+            famulatu <hi rend="italic">Bal. ex r</hi> festinata <hi rend="italic">Zfiv</hi> 20 contemptata p, contenta <lb/>
+            <hi rend="italic">Tt</hi> 21 celebres <hi rend="italic">Tt</hi> hac <hi rend="italic">Z</hi> 22 produxit <foreign xml:lang="grc">μ</foreign> <lb/>
+            promixtam <hi rend="italic">Tt,</hi> proximam <hi rend="italic">Zuv</hi> dilectos tui <hi rend="italic">Z,</hi> dilectionis tuae v <lb/>
+            caritatem <hi rend="italic">Zpv; cf. p. 132, 6</hi> </note>
+
+<note type="footnote"> A m </note>
+
+<note type="footnote"> 9 </note> <lb/>
+             
+<pb n="130"/>
+            titulo reliquit coniungas pariter et adsciscas, <choice><sic>ezspectem</sic><corr>exspectem</corr></choice> cum fratribus <lb/>
+            pariter in apertione oris tui splendorem gratiae luminis Christi, <lb/>
+            sequar in tractatibus tuis lumen quod Dominus ostendit, quod Christus <lb/>
+            adueniens aeternam uitam esse monstrauit. 
+</p>
+          </div>
+
+<div n="9" subtype="section" type="textpart"><p> Certe quam mihi laeta iila, quam exoptabilis dies est, cum misericordiae<lb n="5"/>
+            Domini fauore arcessitione dilata senectam istam meam proferre <lb/>
+            contigerit, ut et orationibus sanctorum impense et iugiter <lb/>
+            deprecantium Dominum Christi martyrem uideam, ut coronam <lb/>
+            iustitiae quae tibi penes Dominum deposita est portare conspiciam. <lb/>
+            nec putaueris autem martyrii tibi secundum praesens uotum desiderii<lb n="10"/>
+            nostri gloriam tribui. tunc inde felicitatis huius conlata dignatio est, <lb/>
+            tunc iudicio suo iusto Dominus elegit destinatum martyrem, cum te <lb/>
+            exemptum de iustorum grege atque adsumptum sibi de inopinato constituit <lb/>
+            altario sacerdotem. praeclara prorsus et gloriosa uocationis <lb/>
+            electio et de Domini dignatione noua atque inaudita et <choice n="0.91"><sic n="220">mira</sic><corr n="21">mini</corr></choice> felicitas<lb n="15"/>
+            transmarinae peregrinationis necessitatibus occupatum ad destinatum <lb/>
+            tibi munus ignarum ac nescium repente uenisse atque ita regressus <lb/>
+            tui tempus ad hoc esse libratum, ut insperata celeritate ueniendi <lb/>
+            intellegeres atque <sic>dinosceres</sic> honorem sacerdotii caelestis inter <lb/>
+            ceteros tibi potissimum destinatum et quod iussione Domini exspectatus<lb n="20"/>
+            uenires atque occurreres reseruatum. ut ecclesiae suae
+
+<note type="footnote"> 1 derelinquit <hi rend="italic">Z</hi> coniugas <hi rend="italic">Tt</hi> adscissas <hi rend="italic">T,</hi> assis eos <hi rend="italic">Z,</hi> <lb/>
+            adsciscas ut <hi rend="italic">Bal. ex r</hi> exspectem] expertum v 2 pariter cum <lb/>
+            fratribus v apersionc <hi rend="italic">Z</hi> luminis tui christum <hi rend="italic">Z</hi> 3 sequaris <lb/>
+            <hi rend="italic">Z,</hi> tu enim sequeris <hi rend="italic">Bal. ex r</hi> lumen <hi rend="italic">T,</hi> uitae lumen <hi rend="italic">tp,</hi> <lb/>
+            lumen uitae <hi rend="italic">Zv</hi> 4 esse uitam Z, se esse uitam <hi rend="italic">Bal</hi>. Õ est <lb/>
+            <hi rend="italic">om. Z</hi> misericordia domini ac <hi rend="italic">Bal. ex r</hi> 6 accersitione v, <lb/>
+            accersione p, arcessione <hi rend="italic">Z</hi> istam om. <hi rend="italic">Z</hi> proferrem <hi rend="italic">T</hi> <lb/>
+            7 contingent Z<foreign xml:lang="grc">μ</foreign>1 ut et] ut (i sanctorum — deprecantium] <lb/>
+            <hi rend="italic">graecismum non intellegens Baluzius ex r add.:</hi> coniungi merear ut <lb/>
+            8 christum <hi rend="italic">Z</hi> ut] et <hi rend="italic">Zp,</hi> 10 non autem putaueris <hi rend="italic">Bal</hi>. praesens <lb/>
+            notum <hi rend="italic">om. Z</hi> desideri nri <hi rend="italic">t<foreign xml:lang="grc">μ</foreign>,</hi> defideri nri <hi rend="italic">T,</hi> fidei notrae <lb/>
+            <hi rend="italic">Zv,</hi> fidei <hi rend="italic">Bal</hi>. 11 inde] inte <foreign xml:lang="grc">μ</foreign> 12 suo <hi rend="italic">om. Bal</hi>. 13 exemplum <lb/>
+            <hi rend="italic">TZ</hi> istorum (i opinato <hi rend="italic">Т\'Zt,</hi> opinatum <hi rend="italic">T1</hi> 14 alterio <lb/>
+            <hi rend="italic">T,</hi> altari <hi rend="italic">t,</hi> altari suo <hi rend="italic">v</hi> uocationis] pcacionis <hi rend="italic">Z</hi> 16 ad] <lb/>
+            ac <hi rend="italic">Z</hi> 17 tibi munus] terminus <hi rend="italic">Z</hi> 18 liberandum <hi rend="italic">Z</hi> <lb/>
+            inspirata <hi rend="italic">Bal. ex r,</hi> inspirate <hi rend="italic">Z,</hi> inseparata (i alacritate <hi rend="italic">Z</hi> <lb/>
+            20 cetera <hi rend="italic">Z</hi> uisione (i 21 seruatum <hi rend="italic">Z,</hi> reseruatus v ut] enim <lb/>
+            add. <hi rend="italic">Bal. ex r</hi> suae om. <hi rend="italic">Z</hi>. </note> <lb/>
+             
+<pb n="131"/>
+            Dominus tota miserationis pietate consuleret, dimicationis plebis mora <lb/>
+            quem potius eligeret episcopum te quaerenti populo suo Christus <lb/>
+            inopinatum repente obtulit . et complacitum sibi caelestis prouidentia <lb/>
+            manifeste aduentus tui improuisa occursione <choice><sic>monstranit</sic><corr>monstrauit</corr></choice>: documentum <lb/>
+            repentini ac pernicis occursus procurationem Dei <choice><sic>nolnntatis</sic><corr>uoluntatis</corr></choice> ostendit, <lb n="5"/>
+            ut quod difficili expeditione uix potuisset <choice><sic>occnrrere</sic><corr>occurrere</corr></choice> celeritate facili <lb/>
+            perfectum sit urguentis Domini iussione et ut prius te in ecclesia Dei <lb/>
+            episcopum stare conspiceres et stuperes quam uenisse <sic>dinosceres</sic>. 
+</p>
+          </div>
+
+<div n="10" subtype="section" type="textpart"><p rend="script">Inde dilectionem iam tecum suam Dominus initiata caritate  <lb/>
+            <choice><sic>firmanit</sic><corr>firmauit</corr></choice>, inde amicitiam tecum quam discipulis suis sub triumpho <lb n="10"/>
+            crucis suae tradidit dedicauitque dicens: si feceritis quae <lb/>
+            mando <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice>, iam non dicam <choice><sic>sernos</sic><corr>seruos</corr></choice> uos sed amicos, <lb/>
+            inde martyrium, inde sacerdotii electionem signauit. amicitia est, per <lb/>
+            quam ad Christi uultus admitteris, extraordinaria hostia peruenire. <lb/>
+            sic eliguntur iusti, sic probantur religiosi ac simplices in Christi <lb n="15"/>
+            timore electi, ut ante <sic>remunerationi</sic> fidei destineris, ante praemio <lb/>
+            <choice><sic>denotae</sic><corr>deuotae</corr></choice> mentis in Domino dignus habearis, quam uenerit hora decreti, <lb/>
+            quam exceperis sententiam Christi, probatam te et paratam <lb/>
+            hostiam electio caelestis inueniat. etenim ille te qui non mendax est <lb/>
+            Deus, qui episcopum plebi suae de improuiso constituit, ille plena
+
+<note type="footnote"> 11 Io. 15, 14. </note>
+
+<note type="footnote"> 1 miaerationee <hi rend="italic">T1,</hi> miseratione <hi rend="italic">t</hi> dimicationis <hi rend="italic">TZtp.,</hi> dimicantis <lb/>
+            <hi rend="italic">Bal. ex r</hi> 2 -eligeret] eriperet <hi rend="italic">Z</hi> 3 repentem <hi rend="italic">Z</hi> pronidentiae <lb/>
+            manifestae manifestum p. 4 improuisi <hi rend="italic">Z,</hi> inrobisa <hi rend="italic">Tl</hi> <lb/>
+            et docnmentum <hi rend="italic">Bal.,</hi> 5 pernicis <hi rend="italic">scrvpsi,</hi> perennicis <hi rend="italic">Tt1<foreign xml:lang="grc">μ</foreign>1,</hi> perennis <hi rend="italic">t2<foreign xml:lang="grc">μ</foreign>2<foreign xml:lang="grc">υ</foreign>,</hi> <lb/>
+            perhempnis <hi rend="italic">Z</hi> procuratione p. 6 uii <hi rend="italic">om. v</hi> occurrere] <lb/>
+            occupare <hi rend="italic">Z</hi> facili celeritate <hi rend="italic"><foreign xml:lang="grc">μυ</foreign>,</hi> facilitate <hi rend="italic">Z</hi> 7 sit] si <hi rend="italic">Z</hi> <lb/>
+            urgente ftv uisione p. et <hi rend="italic">om</hi>. p. dni <hi rend="italic">Z</hi> 8 te stare <lb/>
+            <hi rend="italic">Z</hi> et] et ut <hi rend="italic">Z</hi> dinosoeris <hi rend="italic">Z,</hi> dignoscereris <hi rend="italic">Bal. ex r</hi> <lb/>
+            9 in dei dilectione <hi rend="italic">Z</hi> iam] una <hi rend="italic">Z</hi> suam <hi rend="italic">om. Z</hi> initiata] <lb/>
+            mutata <hi rend="italic">Z</hi> 10 sub] cum v 11 dedificauitque <hi rend="italic">T,</hi> dedicauit p. <lb/>
+            12 dico uos semos <hi rend="italic">Zav</hi> 13 inde] idem <hi rend="italic">Z</hi> martirem <hi rend="italic">TZfi</hi> <lb/>
+            sacerdotem <hi rend="italic">Z</hi> electione <hi rend="italic">TZ</hi> magna amicitia <hi rend="italic">Bal. ex r</hi> <lb/>
+            est <hi rend="italic">om. Z</hi> 14 quem <hi rend="italic">Tt</hi> peruenires <hi rend="italic">Tt\',</hi> peruenis <hi rend="italic">v</hi> 15 christum <lb/>
+            <hi rend="italic">T</hi> 16 timoris electum <hi rend="italic">T</hi> remunerationem T*, remonerationis <lb/>
+            <hi rend="italic">Z,</hi> rem inhonorate <hi rend="italic">t in ras</hi>. destineris] id est item <hi rend="italic">T</hi> <lb/>
+            praemium <hi rend="italic">Z</hi> 17 decreti hora <hi rend="italic">Z</hi> 19\' est <hi rend="italic">om. Zt</hi> 20 plehis <lb/>
+            <hi rend="italic">TZt</hi> illa <hi rend="italic">t</hi> </note>
+
+<note type="footnote"> 9 * </note> <lb n="20"/>
+             
+<pb n="132"/>
+            dilectione suae uoluntatis te coronabit. tantum tunc ut nostri memineris <lb/>
+            petimus et oramus, cum pudicitia t adlectionis Domini probata <lb/>
+            atque immaculata hostia ante Christi <choice><sic>tribnnal</sic><corr>tribunal</corr></choice> adstiteris, cum gloriam <lb/>
+            gratiae Dei praemio deuotae mentis ac remunerationem exceperis, <lb/>
+            memoriter haereat et tenaciter sensibus tuis maneat quam nobis <lb n="5"/>
+            impertire dignaris dilectio caritatis: ut orationibus tuis peccata <lb/>
+            nostra uel ueniam consequantur, ut meritis <choice><sic>institiae</sic><corr>iustitiae</corr></choice> tuae <choice><sic>nitae</sic><corr>uitae</corr></choice> nostrae <lb/>
+            delicta purgentur. etenim martyrii instar esse confido, peccatorem <lb/>
+            iusti martyris petitione meruisse saluari, et ut cum ipse pro te <choice><sic>promonere</sic><corr>promouere</corr></choice> <lb/>
+            quid precibus tuis minus possis martyris meritis libereris. sic<lb n="10"/>
+            Iob iustus pro amicorum trium peccatis a Deo rogaturus et impetraturus <lb/>
+            ostenditur, et probatio timoris eius et fidei Domini uoce teste <lb/>
+            signatur. cum ergo in die liberationis tuae, <choice n="0.90"><sic n="83">carissime</sic><corr n="9">carissimo</corr></choice>, repraesentare <lb/>
+            te Christi uultibus coeperis, cum in aeternitatem <choice><sic>perpetnitatemque</sic><corr>perpetuitatemque</corr></choice> <lb/>
+            uiuendi regnare cum Christo felici sorte successeris, pro Domini<lb n="15"/>
+            misericordia in mente me habe Celsum puerum tuum, sanctissime.
+
+<note rend="script" type="footnote"> 1 sue et <hi rend="italic">Z</hi> te] et <hi rend="italic">Ztl,</hi> et p., et <hi rend="italic">exp. t*</hi> coronabis <hi rend="italic">T</hi> <lb/>
+            tunc tantum <hi rend="italic">Z</hi> 2 ut cum <hi rend="italic">Z</hi> pudica <hi rend="italic">Z,</hi> pudice <hi rend="italic">Bal.,</hi> iudicio p <lb/>
+            *** adlectionis <hi rend="italic">T,</hi> dilectionis <hi rend="italic">Z,</hi> electionis fi ,3 christi om. <hi rend="italic">p</hi> <lb/>
+            4 praemium <hi rend="italic">v</hi> ac] ad <hi rend="italic">t</hi> remunerationis <hi rend="italic">T/i</hi> acceperis v, <lb/>
+            ceperis <hi rend="italic">Z</hi> 5 memoriae <hi rend="italic">Zv</hi> tenaciter <hi rend="italic">tp.,</hi> censeat iter <hi rend="italic">T,</hi> <lb/>
+            intenatium <hi rend="italic">Z</hi> in sensibus <hi rend="italic">Zx</hi> 6 dilectio caritatis <hi rend="italic">om. Z</hi> <lb/>
+            7 uel <hi rend="italic">om. Ztfiv</hi> 8 quod enim <hi rend="italic">Z</hi> 9 martyris <hi rend="italic">om. Bal</hi>. ut <lb/>
+            et <hi rend="italic">Bal</hi>. pro te promouere] promereri <hi rend="italic">Bai. ex r</hi> 11 iostias p. <lb/>
+            et impetrataras <hi rend="italic">om. Z</hi> 12 domini Doce teste] dno protegente <hi rend="italic">Z</hi> <lb/>
+            14 uultibus] militibus <hi rend="italic">Z</hi> cum in ae.] coeternitati <hi rend="italic">Z</hi> perpetnitamque <lb/>
+            <hi rend="italic">exp. t</hi> 15 uiuendi] ueniendi <hi rend="italic">Z</hi> pro <hi rend="italic">T,</hi> in. <hi rend="italic">Ztp</hi>. <lb/>
+            16 me <hi rend="italic">om. Z,</hi> iam <hi rend="italic">v</hi> celsum <hi rend="italic">TZa,</hi> cecilium <hi rend="italic">t et Remigianus</hi> <lb/>
+            sanctissime] carissime <hi rend="italic">Z</hi>. — Ad (Caecili Cypriani ad) Vigilium epm de <lb/>
+            iadaica incredulitate eiplicit <hi rend="italic">TZ,</hi> Explicit ad Vigilium epm de iadaica <lb/>
+            incredulitate <hi rend="italic">t,</hi> om. p. — \' </note>
+</p>
+        
+</div>
+        </div>
+</body>
+</text>
+</TEI>

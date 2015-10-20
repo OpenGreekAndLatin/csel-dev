@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL41.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Iosephus Zycha</name>
+                  <addName xml:lang="de">Joseph Zycha</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa006">De Fide et Symbolo</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa041">De Fide et Operibus</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa032">De Agone Christiano</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa037a">De Continentia</title>
+              <title>De Bono Coniugali</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa060">De Sancta Virginitate</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa035">De Bono Viduitatis</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa036">De Adulterinis Coniugiis</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa050">De Mendacio</title>
+              <title>Contra Mendacium</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa055">De Opere Monachorum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa038a">De Divinatione Daemonum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa037c">De Cura pro Mortuis Gerenda</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa056b">De Patientia</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1900</date>
+              </imprint>
+              <biblScope unit="volume">41</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru1swiengoog#page/n9/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="">
+<ab>
+            <title type="sub">XIII. DE CVRA PRO MORTVIS GERENDA AD PAVLINVM. </title>
+          </ab>
+          <div n="1" subtype="section" type="textpart">
+<p><milestone n="1" unit="altchapter"/>Diu sanctitati tuae, coepiscope uenerande Pauline, <lb/>
+            rescriptorum debitor fui, ex quo mihi scripsisti per homines <lb/>
+            filiae nostrae religiosissimae Florae, quaerens a me, utrum <lb n="5"/>
+            prosit cuique post mortem, quod corpus eius apud sancti <lb/>
+            alicuius memoriam sepelitur. hoc enim abs te uidua memorata <lb/>
+            petiuerat pro defuncto in eis partibus suo filio et rescripseras <lb/>
+            consolans eam: idque etiam nuntians de cadauere fidelis iuuenis <lb/>
+            <sic>Cynegii</sic>, quod materno et pio affectu desiderauit, esse <lb n="10"/>
+            conpletum, ut scilicet in beatissimi Felicis confessoris basilica <lb/>
+            poneretur. qua occasione factum est, ut per eosdem perlatores <lb/>
+            litterarum tuarum etiam mihi scriberes, ingerens huiusce
+
+<note rend="script" type="footnote"> 2 Incipit liber sci Aagustini epi ad Paulinum Nolensem (nolanum <hi rend="italic">E)</hi> <lb/>
+            epm de cura pro mortuis gerenda <hi rend="italic">fol</hi>. 35. <hi rend="italic">T fol. 164. B fol. 133 F, <lb/>
+            A. fol. 1 E, Ch</hi> Incipit ad scm Paulinum de cura pro mortuis gerenda <lb/>
+            <hi rend="italic">fol. 79x N</hi> Incipit liber de cura pro mortuia agenda ad Paulinum epm. <lb/>
+            liber Aurelii Augustini ad Paulinum Nolanum epm <hi rend="italic">fol. 17*</hi> m Incipit liber <lb/>
+            aci Augustini ad Paulinum <hi rend="italic">fol</hi>. 6,2b <hi rend="italic">K</hi> Incipit beati Aurelii Augustini <lb/>
+            epi de cura gerenda pro mortuis ad Paulinum epm <hi rend="italic">fol</hi>. 9sb <hi rend="italic">I fol</hi>. 68* <hi rend="italic">Z</hi> <lb/>
+            Incipitde cura pro mortuis gerenda liber unus ad Paulinum <hi rend="italic">epmfol.164 Y</hi> <lb/>
+            Incipit liber sci Augustini de cura pro mortuis gerenda <hi rend="italic">fol. 153h V</hi> De <lb/>
+            cura pro mortuis gerenda uel quibus sacrificium prosit aut locus martirum <lb/>
+            in quo quispiam sepelitur. Ei libro de cura pro mortuis gerenda ad <lb/>
+            Paulinum epm <hi rend="italic">fol</hi>. 54b <hi rend="italic">X</hi> 3 sanctitatis <hi rend="italic">K-p</hi> coepyscope <hi rend="italic">K</hi> pauline <lb/>
+            <hi rend="italic">T;</hi> pauline sanctitati tue <hi rend="italic">(sic iungitur) F</hi> 4 rescribtorum <hi rend="italic">NB1</hi> <lb/>
+            scriptorum &lt;p scripsisti <hi rend="italic">om</hi>. « 5 religiosissime debitor <hi rend="italic">T</hi> 6 cuique] <lb/>
+            alicui <hi rend="italic">V</hi> memoria sci alicuius P 8 defuncto»»» (rum <hi rend="italic">er.)</hi> &lt;p <lb/>
+            filio suo <hi rend="italic">B$bd</hi> 9 id e etiam <hi rend="italic">om. V</hi> nontians 11 cadabere <lb/>
+            (b <hi rend="italic">pro</hi> u <hi rend="italic">semper fere) N</hi> canere <hi rend="italic">Yl</hi> 10 cenegii <hi rend="italic">V</hi> cinegii fi pio] <lb/>
+            ipso <hi rend="italic">Ch</hi> 12 perlafctores <hi rend="italic">T</hi> 13 huius modi <hi rend="italic">B</hi> </note> <lb/>
+             
+<pb n="622"/>
+            modi quaestionem, atque ut responderem quid inde <choice n="7.04"><sic n="1">mibi</sic><corr n="14192">mihi</corr></choice> <lb/>
+            uideretur, exposcens nec tacens ipse quid sentias. nam dicis <lb/>
+            uideri tibi non esse inanes motus animorum religiosorum <lb/>
+            atque fidelium pro suis ista curantium. adiungis etiam uacare <lb/>
+            non posse, quod uniuersa pro defunctis ecclesia <choice><sic>snpplicare</sic><corr>supplicare</corr></choice><lb n="5"/>
+            consueuit, ut hinc et illud conici possit, homini prodesse <lb/>
+            post mortem, si fide suorum humando eius corpori talis <lb/>
+            prouideatur locus, in quo appareat opitulatio etiam isto modo <lb/>
+            quaesita sanctorum. 
+</p>
+          
+</div>
+
+<div n="2" subtype="section" type="textpart">
+<p>Sed cum haec ita sint, quomodo huic opinioni contrarium<lb n="10"/>
+            non sit quod dicit apostolus: omnes enim astabimus ante <lb/>
+            tribunal Christi, ut ferat unusquisque secundum ea <lb/>
+            quae per corpus gessit, siue bonum siue malum, non <lb/>
+            te satis uidere significas. haec quippe apostolica sententia <lb/>
+            ante mortem admonet fieri quod possit prodesse post mortem. <lb n="15"/>
+            non tunc, quando iam recipiendum est quod quisque gesserit <lb/>
+            ante mortem. uerum haec ita soluitur quaestio, quoniam <lb/>
+            quodam uitae genere adquiritur, dum in hoc corpore uiuitur, <lb/>
+            ut aliquid adiuuent ista defunctos, ac per hoc secundum ea <lb/>
+            quae per corpus gesserunt eis quae post corpus religiose pro<lb n="20"/>
+            illis facta fuerint adiuuantur. sunt enim, quos nihil omnino
+
+<note type="footnote"> 11 II Cor. 5, 10 </note>
+
+<note rend="script" type="footnote"> 1 inde responderem P mihi inde <hi rend="italic">B</hi> inde <hi rend="italic">om. F$2</hi> uidetur <lb/>
+            <hi rend="italic">IZMACh</hi> sentio <hi rend="italic">B</hi> Scripsisti mihi querens a me utrum prosit <lb/>
+            cura post mortem quod corpus eius apud aci alicuius memoriam sepeliretur <lb/>
+            et cetera. nam dicis <hi rend="italic">sqq. X</hi> 3 tibi uideri P 4 ita <hi rend="italic">K</hi> etiam <lb/>
+            <hi rend="italic">om</hi>. P uocare <hi rend="italic">ZI1</hi> 6 hinc et illud] illud hi <hi rend="italic">X</hi> potest <hi rend="italic">Ch</hi> <lb/>
+            prodesse <hi rend="italic">om. F</hi> 7 suorum parentum <hi rend="italic">E</hi> 8 oppitulatio Ij) 10 oppinioni <lb/>
+            y 11 non <hi rend="italic">om. B ait</hi> apostolus <hi rend="italic">KEXVY ÂChFpIj)Eug</hi> apostolus <lb/>
+            ait <hi rend="italic">T</hi> adstauimus <hi rend="italic">N</hi> adstabimus <hi rend="italic">MAYoCh</hi> 12 uti <hi rend="italic">T</hi> ne 1x <lb/>
+            eferat <hi rend="italic">T</hi> referat <hi rend="italic">IZMEXYy</hi> ..ferat <hi rend="italic">F</hi> 13 per <hi rend="italic">om</hi>. P malum sit <hi rend="italic">T</hi> <lb/>
+            15 ammonet <hi rend="italic">NKFXy</hi> post mortem possit prodesse <hi rend="italic">TE</hi> posse <lb/>
+            <hi rend="italic">Ch1 om</hi>. <foreign xml:lang="grc">β</foreign> 16 est iam <hi rend="italic">A</hi> accipiendum iam <hi rend="italic">E</hi> iam <hi rend="italic">om. TMFXYAK,<lb/>
+             8. 1. B, post</hi> est <hi rend="italic">Ch</hi> 17 ita <hi rend="italic">8. l. B</hi> 18 quoddam Ip genere uite P <lb/>
+            19 aliquit o adiubent <hi rend="italic">Kl</hi> ac per] atque <hi rend="italic">X</hi> haec X ea-eis <lb/>
+            <hi rend="italic">om. X</hi> 20 per <hi rend="italic">om. V1</hi> eis quae] eisque <hi rend="italic">MAT1</hi> religiosae <hi rend="italic">NM<lb/>
+             religiosisaime$21 adiuuabunt N</hi> omnino nihil B <hi rend="italic">adiuuant omnino E</hi></note> <lb/>
+             
+<pb n="623"/>
+            adiuuant ista, siue pro eis fiant, quorum tam mala sunt <lb/>
+            merita, ut nec talibus digni sint adiuuari, siue pro eis, quorum <lb/>
+            tam bona, ut talibus non indigeant adiumentis. genere <lb/>
+            igitur uitae, quod gessit quisque per corpus. efficitur, ut <lb/>
+            prosint uel non prosint, quaecumque pro illo pie fiunt, cum <lb n="5"/>
+            reliquerit corpus. nam meritum per quod ista prosint, si <lb/>
+            nullum conparatum est in hac uita, frustra post hanc quaeritur <lb/>
+            uitam. ita fit, ut neque inaniter ecclesia uel suorum <lb/>
+            cura pro defunctis quod potuerit religionis inpendat et tamen <lb/>
+            ferat unusquisque secundum ea quae per corpus gessit, <lb n="10"/>
+            siue bonum siue malum reddente domino unicuique <lb/>
+            secundum opera eius. ut enim hoc, quod inpenditur, possit <lb/>
+            ei prodesse post corpus, in ea uita est adquisitum, quam <lb/>
+            gessit in corpore. 
+</p>
+          
+</div>
+
+<div n="3" subtype="section" type="textpart">
+<p>Poterat inquisitioni tuae sufficere mea breuis ista responsio; <lb n="15"/>
+            sed quae alia moueant, quibus respondendum existimo, <lb/>
+            parumper adtende. in Machabaeorum libris legimus <lb/>
+            oblatum pro mortuis sacrificium. sed et si nusquam in scripturis <lb/>
+            ueteribus omnino legeretur, non parua est uniuersae <lb/>
+            ecclesiae quae in hac consuetudine claret auctoritas, ubi in
+
+<note type="footnote"> 10 cf. II Cor. 5, 10 17 cf. II Macch. 12, 43 </note>
+
+<note type="footnote"> 1 adiuuent <hi rend="italic">N</hi> ista <hi rend="italic">om. A</hi> sunt <hi rend="italic">s. l. K</hi> 2 neque <hi rend="italic">bd</hi> tabulis <lb/>
+            (8. bulis <hi rend="italic">add</hi>. libus) <hi rend="italic">K</hi> st p meritis adiuuari his <hi rend="italic">X Eug</hi> 3 bona <lb/>
+            sunt <hi rend="italic">Eug</hi> indigent <hi rend="italic">Ch</hi> 4 quam <hi rend="italic">V</hi> 5 possint <hi rend="italic">V</hi> quae <hi rend="italic">X</hi> piae <hi rend="italic">N <lb/>
+            om. V</hi> 7 uitae <hi rend="italic">F</hi> frustra quaeritur post hanc uitam <hi rend="italic">bd</hi> 9 poterit <lb/>
+            <hi rend="italic">F</hi> impendit A1 tamen <hi rend="italic">om. TM</hi> 10 quae <hi rend="italic">om</hi>. j3 gessit <lb/>
+            per corpus <hi rend="italic">BTMAFKYCh</hi> per <hi rend="italic">om. V</hi> 11 deo reddente <hi rend="italic">FJ3</hi> domino] <lb/>
+            deo <hi rend="italic">NFRXy om. Y</hi> 12 cius} sua N,3 13 corpns] caro Y <lb/>
+            mortem <hi rend="italic">V</hi> adquisitum est poM 14 <hi rend="italic">cum uoce</hi> corpore <hi rend="italic">finitur X</hi> <lb/>
+            15 mea] lea <foreign xml:lang="grc">β</foreign> ista breuis o 16 quae] quia <hi rend="italic">NTEFAVMMfcCh</hi> <lb/>
+            alia me <hi rend="italic">ACh</hi> mouent <hi rend="italic">ERVaCh1</hi> monent <hi rend="italic">F</hi> moneat <hi rend="italic">N</hi> mouebant » <lb/>
+            17 macchabaeorum <hi rend="italic">NIKME</hi> machabeorum <hi rend="italic">FoCh</hi> libro cp legib; p <lb/>
+            18 sed <hi rend="italic">om. MACh</hi> et <hi rend="italic">om. F</hi> in scripturis ueteribus <hi rend="italic">om. F</hi> 19 ueteribus <lb/>
+            <hi rend="italic">om. Chl</hi> legitur <hi rend="italic">K</hi> legeretur omnino in scripturis ueteribus <hi rend="italic">F</hi> <lb/>
+            non-ubi in <hi rend="italic">om. MACh</hi> est-quae in <hi rend="italic">om. TF</hi> nniuersa p 20 mansuetudine <lb/>
+            <hi rend="italic">B</hi> claret <hi rend="italic">in ras. T</hi> daret P? auctoritati 9 </note> <lb n="20"/>
+             
+<pb n="624"/>
+            precibus sacerdotis quae domino deo ad eius altare funduntur <lb/>
+            locum suum habet etiam commendatio mortuorum. 
+</p>
+          <p><milestone n="2" unit="altchapter"/>Sed utrum aliquid prosit animae mortui locus corporis <lb/>
+            sui, operosius inquirendum est. ac primum utrum intersit <lb/>
+            aliquid ad inferendam uel augendam miseriam post hanc uitam<lb n="5"/>
+            spiritibus hominum, si eorum corpora sepulta non fuerint, <lb/>
+            non secundum opinionem utcumque uulgatam, sed potius <lb/>
+            secundum religionis nostrae sacras litteras est uidendum. <lb/>
+            neque enim credendum est, sicut apud Maronem legitur, <lb/>
+            insepultos nauigando atque transeundo inferno amne prohiberi,<lb n="10"/>
+            quia scilicet <lb/>
+            nec ripas datur horrendas et rauca <choice><sic>flnenta</sic><corr>fluenta</corr></choice> <lb/>
+            transportare prius, quam sedibus ossa quierunt. <lb/>
+            quis cor christianum inclinet his poeticis fabulosisque figmentis, <lb/>
+            cum dominus Iesus, ut inter manus inimicorum, qui<lb n="15"/>
+            eorum corpora in potestate haberent, securi occumberent christiani, <lb/>
+            nec capillum capitis eorum adserat periturum, <choice><sic>exbortans</sic><corr>exhortans</corr></choice> <lb/>
+            ne timeant eos, qui cum corpus occiderint, amplius non <lb/>
+            habent quid faciant? unde in primo libro de \'Ciuitate dei\' <lb/>
+            satis, quantum existimo, sum locutus, ut eorum dentem retunderem,<lb n="20"/>
+            qui barbaricam uastitatem, praecipue quam nuper <lb/>
+            Roma perpessa est, <choice><sic>christianis</sic><corr>Christianis</corr></choice> temporibus inputando etiam
+
+<note type="footnote"> 12 Yerg. Aen. 6, 327. 328 </note>
+
+<note rend="script" type="footnote"> 1 praecibua <hi rend="italic">Mo</hi> quod &lt;p altare eius P 3 prosit aliquid <hi rend="italic">NY</hi> <lb/>
+            aliquid <hi rend="italic">om. B</hi> locu <hi rend="italic">T</hi> loci Y 4 operiosius <hi rend="italic">VCh</hi> aliquid intersit <lb/>
+            <hi rend="italic">T</hi> 5 inferenda Y auferendaxn <hi rend="italic">F</hi> augenda \'P 8 sacris (i a. a) <hi rend="italic">K</hi> <lb/>
+            litteris <hi rend="italic">K</hi> 9 aput <hi rend="italic">T</hi> 10 insepulta ossa f a nauigando <hi rend="italic">NKEVYQbd</hi> <lb/>
+            nauigando? <hi rend="italic">M</hi> inferni <hi rend="italic">IZE</hi> amne] aie <hi rend="italic">V</hi> am.ne <hi rend="italic">I</hi> anne <hi rend="italic">KlRl</hi> <lb/>
+            11 scilet <hi rend="italic">Y</hi> 12 et] nec <hi rend="italic">bd</hi> 13 quieuerint <hi rend="italic">NBEFY</hi> quieuerunt <hi rend="italic">TYACh</hi> <lb/>
+            quierint ffy quier <hi rend="italic">(sed f exp. et</hi> rint <hi rend="italic">suprapos.) K</hi> quiev§rint <hi rend="italic">M</hi> 14 cor <lb/>
+            <hi rend="italic">post</hi> inclinet <hi rend="italic">s. I. m. 2 A, om. Ch</hi> hiis <hi rend="italic">Y</hi> atque fabulosis p <lb/>
+            15 ut <hi rend="italic">om. BMA</hi> inimicorum manus <hi rend="italic">bd</hi> 16 ut securi <hi rend="italic">BMCh, (s. l.) A</hi> <lb/>
+            17 asserit &lt;p exortans <hi rend="italic">TMEKFV$yCh</hi> 18 neç <hi rend="italic">K</hi> eos—626, 22 <lb/>
+            sustulerunt <hi rend="italic">om</hi>. Y cum <hi rend="italic">om</hi>. &lt;p 19 habeant <hi rend="italic">V</hi> quod <hi rend="italic">Nrt</hi> in <lb/>
+            <hi rend="italic">om. Ch</hi> 20 quantum] ut <hi rend="italic">8. I. N</hi> 21 quae praecipue <hi rend="italic">M</hi> praecipae; <lb/>
+            pbuere <hi rend="italic">(exp. m. 2) A, om. Ch</hi> quam <hi rend="italic">om. M</hi> </note> <lb/>
+             
+<pb n="625"/>
+            id obiciunt, quod suis illic non subuenerit Christus. quibus <lb/>
+            cum responsum fuerit animas fidelium pro suae fidei meritis <lb/>
+            ab illo fuisse susceptas, insultant de cadaueribus insepultis. <lb/>
+            totum itaque istum de sepultura locum uerbis talibus explicaui. 
+</p>
+          
+</div>
+
+<div n="4" subtype="section" type="textpart">
+<p>(At enim in tanta, inquam, strage cadauerum nec sepeliri <lb n="5"/>
+            potuerunt. neque istud pia fides nimium reformidat, tenens <lb/>
+            praedictum nec absumentes bestias resurrecturis corporibus <lb/>
+            obfuturas, quorum capillus capitis non peribit. nullo modo <lb/>
+            diceret ueritas: nolite timere eos, qui corpus occidunt, <lb/>
+            animam autem non possunt occidere, si quidquam obesset <lb n="10"/>
+            futurae uitae quidquid inimici de corporibus occisorum facere <lb/>
+            uoluissent. nisi forte quispiam sic absurdus est, ut contendat <lb/>
+            eos, qui corpus occidunt, non debere timeri ante mortem, ne <lb/>
+            corpus occidant, et timeri debere post mortem, ne corpus <lb/>
+            occisum sepeliri non sinant. falsum est ergo quod ait: <lb n="15"/>
+            qui corpus occidunt et postea non habent quid faciant, <lb/>
+            si habent tanta, quae de cadaueribus faciant? absit, <lb/>
+            ut falsum sit quod ueritas dixit. dictum est enim aliquid eos <lb/>
+            facere, cum occidunt, quia in corpore sensus est occidendo,
+
+<note type="footnote"> 5 cf. De ciu. dei I 12. 13 8 cf. Luc. 21, 18 9 Matth. 10, 28 <lb/>
+            16 Luc. 12, 4 </note>
+
+<note rend="script" type="footnote"> 1 obiciunt illic suis quod <hi rend="italic">E</hi> illic <hi rend="italic">om. B</hi> 2 cum <hi rend="italic">om. MAl<lb/>
+             fuerat M fidei suae Tbd suae om. V fidaei K 3 de er. I</hi> <lb/>
+            4 explicabam &lt;p 5 at enim <hi rend="italic">om</hi>. cp inquam in tanta p strage] <lb/>
+            stare <hi rend="italic">T</hi> cadauera <hi rend="italic">E</hi> sepelire ñ potuer £ 6 neque istud] neque§tu <lb/>
+            <hi rend="italic">(supra</hi> §tu <hi rend="italic">add</hi>. ista) <hi rend="italic">K</hi> istuc <hi rend="italic">ACh</hi> id nimium pia fides p tenentes <lb/>
+            P 7 absummentes &lt;p adsumentes <hi rend="italic">Ch1</hi> resuirecturi <hi rend="italic">Y</hi> corporis <hi rend="italic">V</hi> <lb/>
+            8 capillus <hi rend="italic">in mg. V</hi> capitis <hi rend="italic">om. B</hi> capitis Illęi <hi rend="italic">A</hi> nullo] nec <lb/>
+            ullo <hi rend="italic">Vbd</hi> 9 eos <hi rend="italic">om. V</hi> 10 quisquam <hi rend="italic">VTl</hi> quicquam <hi rend="italic">ChBNEMAKFfi</hi> <lb/>
+            11 uitae futurae <hi rend="italic">bd</hi> quicquid <hi rend="italic">ChTNIKMEFa</hi> 12 si <hi rend="italic">MACh</hi> <lb/>
+            quispiam (pi <hi rend="italic">in ras.) IN</hi> ita p absurdQ Ai 13 non-occidant <lb/>
+            <hi rend="italic">om. Keht</hi> timere <hi rend="italic">T</hi> nec p 14 et-occisum <hi rend="italic">repetita del.; sed</hi> <lb/>
+            occidant <hi rend="italic">pro</hi> occisum <hi rend="italic">T</hi> 15 est <hi rend="italic">om. K</hi> ergo est <hi rend="italic">ACh</hi> hoc quod <hi rend="italic">Ch</hi> <lb/>
+            ait Christus <hi rend="italic">bd; etiam apud Dombart</hi> xps AtKI <hi rend="italic">om</hi>. 16 postea] post <lb/>
+            hec <hi rend="italic">E</hi> habeant <hi rend="italic">F</hi> qui <hi rend="italic">K</hi> quod rţI faciunt <hi rend="italic">K</hi> 17 si-faciant <lb/>
+            <hi rend="italic">om. TKMAFCh</hi> apsit cp absit autem <hi rend="italic">K</hi> 18 ut] ne <hi rend="italic">BTMAChVfi,</hi> <lb/>
+            (ut <hi rend="italic">supra</hi> ne <hi rend="italic">pos.) F</hi> </note>
+
+<note type="footnote"> XXXXI Aug. Seot. V pars III. </note>
+
+<note type="footnote"> 40 </note> <lb/>
+             
+<pb n="626"/>
+            postea uero nihil habere quod faciant, quia nullus sensus est <lb/>
+            in corpore occiso. multa itaque corpora <choice><sic>christianorum</sic><corr>Christianorum</corr></choice> terra <lb/>
+            non texit, sed nullum eorum quisquam a caelo et terra <lb/>
+            separauit, quam totam inplet praesentia sui, qui nouit unde <lb/>
+            resuscitet quod creauit. dicitur quidem in psalmo: posuerunt<lb n="5"/>
+            mortalia seruorum tuorum escam uolatilibus caeli, <lb/>
+            carnes sanctorum tuorum bestiis terrae; effuderunt <lb/>
+            sanguinem eorum tamquam aquam in circuitu Hierusalem, <lb/>
+            et non erat qui sepeliret, sed magis ad <choice><sic>eiaggerandam</sic><corr>exaggerandam</corr></choice> <lb/>
+            crudelitatem eorum, qui ista fecerunt, non ad eorum<lb n="10"/>
+            infelicitatem, qui ista perpessi sunt. quamuis enim haec in <lb/>
+            conspectu hominum dura et dira uideantur, sed pretiosa in <lb/>
+            conspectu domini mors sanctorum eius. proinde ista <lb/>
+            omnia, id est curatio funeris, conditio sepulturae, pompa <lb/>
+            exequiarum, magis sunt uiuorum solacia quam subsidia mortuorum.<lb n="15"/>
+            si aliquid prodest inpio sepultura pretiosa, oberit pio <lb/>
+            uilis aut nulla. praeclaras exequias in conspectu hominum <lb/>
+            purpurato illi diuiti turba exhibuit famulorum, sed multo <lb/>
+            clariores in conspectu domini ulceroso illi pauperi ministerium <lb/>
+            praebuit angelorum, qui eum non extulerunt in marmoreum<lb n="20"/>
+            tumulum, sed in <choice><sic>Abraliae</sic><corr>Abrahae</corr></choice> gremium sustulerunt. rident
+
+<note type="footnote"> 5 Ps. 78, 2. 3 12 Ps. 115, 15 18 cf. Luc. 16, 19 sqq. </note>
+
+<note type="footnote"> 1 est sensus <hi rend="italic">T</hi> 2 itaque <hi rend="italic">T</hi> cristianorum <hi rend="italic">Z</hi> 3 quisquam a] <lb/>
+            qaisqui <hi rend="italic">K</hi> 4 seperauit <hi rend="italic">Ch</hi> que <hi rend="italic">E</hi> tota <hi rend="italic">E</hi> totum <foreign xml:lang="grc">βφ</foreign> sua Ks <lb/>
+            6 escam-tuorum <hi rend="italic">om. IZ</hi> escas <hi rend="italic">$yCh</hi> uolatibus <hi rend="italic">V</hi> 7 scotuorum c <lb/>
+            8 tamquam] sicut <hi rend="italic">NIZIf et Dombart 22, 18</hi> iherusalem <hi rend="italic">F</hi> ierusalem <lb/>
+            <hi rend="italic">V$vbd</hi> 9 est P exagerandam <hi rend="italic">N</hi> execrandum <hi rend="italic">K</hi> 10 creduiitatem K1 <lb/>
+            ad infelicitatem eorum <hi rend="italic">E</hi> 11 iniidelitatem <hi rend="italic">Ch</hi> ita perspexi f: <lb/>
+            enim <hi rend="italic">om. E</hi> hoc <hi rend="italic">V</hi> uideantur in conspectu p 12 praetiosa <hi rend="italic">B</hi> <lb/>
+            praeciosa <hi rend="italic">M</hi> 14 pompr <hi rend="italic">F</hi> pompe <foreign xml:lang="grc">β</foreign> pompa exequiarum] pompę qu+: <lb/>
+            earum <hi rend="italic">T</hi> 15 exsequiarum <hi rend="italic">Kbd</hi> mortuorum subsidia <hi rend="italic">F$16</hi> prae»iosa <lb/>
+            (s er.) &lt;r 17 exsequias <hi rend="italic">Kbd</hi> 18 fecit purpurato <hi rend="italic">N</hi> illi-multo in <lb/>
+            <hi rend="italic">mg. IZ</hi> famulorum exhibuit &lt;s exhibuit <hi rend="italic">om. N</hi> clariores <lb/>
+            multo <hi rend="italic">ACh</hi> multi Kl 19 clarior es» (t <hi rend="italic">er.)</hi> &lt;p 20 intel*«lexerant A1 <lb/>
+            marmoreo <hi rend="italic">EF</hi> 21 tumulo <hi rend="italic">EF</hi> titulum <hi rend="italic">V</hi> habrahae <hi rend="italic">IKMs</hi> <lb/>
+            habrae <hi rend="italic">E</hi> gremium] sinum <hi rend="italic">TMAEChFa</hi> tectum <hi rend="italic">V</hi> extulerunt <hi rend="italic">F</hi> <lb/>
+            rideant <hi rend="italic">E</hi> </note> <lb/>
+             
+<pb n="627"/>
+            haec illi, contra quos defendendam suscepimus ciuitatem dei. <lb/>
+            uerum tamen sepulturae curam etiam eorum philosophi contempserunt. <lb/>
+            et saepe uniuersi exercitus, dum pro terrena <lb/>
+            patria morerentur, ubi postea iacerent uel quibus bestiis <lb/>
+            esca fierent, non curarunt, licuitque de hac re poetis plausibiliter <lb n="5"/>
+            dicere: <lb/>
+            caelo tegitur, qui non habet <sic>nrnam</sic>. <lb/>
+            quanto minus debent de corporibus insepultis insultare <choice><sic>christianis</sic><corr>Christianis</corr></choice>, <lb/>
+            quibus et ipsius carnis membrorumque omnium <sic>reformatio</sic> <lb/>
+            non solum ex terra, uerum etiam ex aliorum elementorum <lb n="10"/>
+            secretissimo sinu, quo dilapsa cadauera recesserunt, in <lb/>
+            temporis puncto reddenda et <choice><sic>rediutegranda</sic><corr>redintegranda</corr></choice> promittitur! 
+</p>
+          
+</div>
+
+<div n="5" subtype="section" type="textpart">
+<p><milestone n="3" unit="altchapter"/> Nec ideo tamen contemnenda et abicienda sunt <lb/>
+            corpora defunctorum maximeque iustorum atque fidelium, <lb/>
+            quibus tamquam organis et uasis ad omnia bona opera sancte <lb n="15"/>
+            usus est spiritus. si enim paterna uestis et anulus ac si quid <lb/>
+            huius modi tanto carius est posteris, quanto erga parentes <lb/>
+            maior affectus, nullo modo ipsa spernenda sunt corpora, quae <lb/>
+            utique multo familiarius atque coniunctius quam quaelibet <lb/>
+            indumenta gestamus. haec enim non ad ornamentum uel <lb n="20"/>
+            adiutorium, quod adhibetur extrinsecus, sed ad ipsam naturam <lb/>
+            hominis pertinent. unde et antiquorum iustorum funera
+
+<note type="footnote">7 Lucan. Phar. 7, 819 12 cf. I Cor. 15, 52 </note>
+
+<note type="footnote"> 1 suscepimus defendendam <hi rend="italic">T</hi> domini <foreign xml:lang="grc">β</foreign> 2 uerumptamen <hi rend="italic">V</hi> illorum <lb/>
+            o phylosophy 9 contemserant <hi rend="italic">T</hi> condempserunt <hi rend="italic">Kl</hi> 3 uniuersua <lb/>
+            9 4 uel-curarunt <hi rend="italic">om. TAFMYRlCh</hi> 5 curauerunt <hi rend="italic">Bbd</hi> <lb/>
+            5 licuit <hi rend="italic">TAChMF</hi> licuitque quae Y poetis de hac <hi rend="italic">Mbd</hi> plausabiliter <lb/>
+            <hi rend="italic">IZ</hi> 7 teagitur <hi rend="italic">K</hi> urnam] urciam <hi rend="italic">V</hi> urnam <hi rend="italic">in ras. Z</hi> <lb/>
+            9 carnis <hi rend="italic">om. F</hi> 10 elementorum aliorum <hi rend="italic">E</hi> 11 quod ilapsa <hi rend="italic">Y</hi> quod <lb/>
+            dilapsa <hi rend="italic">B</hi> quo illa ipsa o 12 et—cantemnenda <hi rend="italic">om. Y</hi> et <hi rend="italic">om. ACh</hi> <lb/>
+            retentegranda Kl redintegrandaque <hi rend="italic">Aex,</hi> 13 condemnenda Kl abitienda <lb/>
+            9 14 atque] ac <hi rend="italic">bd</hi> 15 tamquam <hi rend="italic">om. F</hi> uasis et organis <hi rend="italic">V</hi> <lb/>
+            sanctae <hi rend="italic">NBlI</hi> sca <hi rend="italic">MEFMVChfab, er. T</hi> 16 UBUR <hi rend="italic">Ch</hi> spiritus] xps I <lb/>
+            ac] lac (s 17 quantum <hi rend="italic">IZ</hi> 18 ipsa corpora sp. sunt <foreign xml:lang="grc">β</foreign> Bpernanda <lb/>
+            <hi rend="italic">(s</hi>. 3 <hi rend="italic">add</hi>. e) <hi rend="italic">T</hi> 22 antiquorum patrum <hi rend="italic">T</hi> officiosa] cum <hi rend="italic">F</hi> </note>
+
+<note type="footnote"> 40* </note> <lb/>
+             
+<pb n="628"/>
+            officiosa pietate curata sunt et exequiae celebratae et sepultura <lb/>
+            prouisa, ipsique, cum uiuerent, de sepeliendis uel etiam <lb/>
+            transferendis suis corporibus filiis mandauerunt. et Tobis <lb/>
+            sepeliendo mortuos deum promeruisse teste angelo commendatur. <lb/>
+            ipse quoque dominus die tertio resurrecturus religiosae<lb n="5"/>
+            mulieris bonum opus praedicat praedicandumque commendat. <lb/>
+            quod unguentum pretiosum super membra eius effuderit atque <lb/>
+            hoc ad eum sepeliendum fecerit. et laudabiliter commemorantur <lb/>
+            in euangelio qui corpus eius de cruce acceptum diligenter <lb/>
+            atque honorifice tegendum sepeliendumque curarunt. <lb n="10"/>
+            uerum istae auctoritates non hoc admonent, quod insit ullus <lb/>
+            cadaueribus sensus, sed ad dei prouidentiam, cui placent etiam <lb/>
+            talia pietatis officia, corpora quoque mortuorum pertinere <lb/>
+            significant propter fidem resurrectionis astruendam. ubi et illud <lb/>
+            salubriter discitur, quanta possit esse remuneratio pro elemosynis,<lb n="15"/>
+            quas uiuentibus et sentientibus exhibemus, si neque <lb/>
+            hoc apud deum perit, quod exanimis hominum membris <lb/>
+            officii diligentiaeque persoluitur. sunt quidem et alia, quae <lb/>
+            sancti patriarchae de corporibus suis uel condendis uel
+
+<note type="footnote"> 2 cf. Gen. 23; 25, 9. 10; 47, 30 3 cf. Tob. 2, 9; 12, 12 5 cf. <lb/>
+            Matth. 26, 7 sqq. 9 cf. Ioh. 19, 38 sqq. 18 cf. Gen. 47, 30; 50, 25 </note>
+
+<note type="footnote"> 1 cum pietate <hi rend="italic">E</hi> et <hi rend="italic">om. E</hi> exequae <hi rend="italic">11</hi> sepultara Y 2 conuiuerent <lb/>
+            <hi rend="italic">K</hi> dum uiuerent <hi rend="italic">Dombart. p. 23, 27</hi> etiam <hi rend="italic">otn. V</hi> <lb/>
+            3 tobias <hi rend="italic">TBaYaEFVbd</hi> tobi.s <hi rend="italic">M</hi> tobis m 5 tertia <hi rend="italic">EY</hi> religiosum Ar <lb/>
+            religiose <hi rend="italic">IK</hi> 6 opus bonum <hi rend="italic">E</hi> 7 ungentum <hi rend="italic">M</hi> praetiosum <hi rend="italic">K</hi> <lb/>
+            praesiosum tp eius membra F 8 sepeliendum fecerit eum <hi rend="italic">N</hi> sepeliendum <lb/>
+            eum <hi rend="italic">TV</hi> fecerat <hi rend="italic">TMACh</hi> commemorat <hi rend="italic">K</hi> 9 euuangelio <hi rend="italic">T</hi> <lb/>
+            euangelio quoque o 10 currar P 11 istae <hi rend="italic">in mg. T</hi> hoc non <hi rend="italic">Y</hi> <lb/>
+            ammonent <hi rend="italic">NKMF</hi> 12 dei <hi rend="italic">om. ACh</hi> etiam placent P 13 pietaiis <lb/>
+            <hi rend="italic">om. V</hi> ad corpora <hi rend="italic">E</hi> 14 fidem <hi rend="italic">om</hi>. F1 adstruendam <hi rend="italic">ChNI<lb/>
+             ZEYM\'cp</hi> asstruendam <hi rend="italic">TK*</hi> adinstruendam Kl salubriter illud 8 <lb/>
+            15 dicitur 2Tj3 discutitur <hi rend="italic">BTMYAF</hi> elemoaynis <hi rend="italic">BNIM</hi> elemoainis <lb/>
+            <hi rend="italic">TEVfiYFACh</hi> elimosinis &lt;p elymosinis <hi rend="italic">ZK</hi> 16 exibemus <hi rend="italic">FV</hi> 17 hec <hi rend="italic">F</hi> <lb/>
+            pereunt F qup F brfibris <hi rend="italic">P</hi> 18 offitii <hi rend="italic">T</hi> officio <hi rend="italic">ME</hi> officia <hi rend="italic">AFCh</hi> <lb/>
+            diligentiaque <hi rend="italic">ME</hi> persoluuntur <hi rend="italic">EF</hi> 19 corporibus suis <hi rend="italic">post</hi> transferendis <lb/>
+            <hi rend="italic">leg. in E</hi> uel <hi rend="italic">om. E</hi> condiendis <hi rend="italic">ChBTIZMYAF</hi> cond.endis <lb/>
+            <hi rend="italic">R</hi> </note> <lb/>
+             
+<pb n="629"/>
+            transferendis prophetico spiritu dicta intellegi uoluerunt; non autem <lb/>
+            hic locus est, ut ea pertractemus, cum sufficiant ista quae <lb/>
+            diximus. sed si ea quae sustentandis uiuentibus sunt necessaria, <lb/>
+            sicut uictus et amictus, quamuis cum graui afflictione <lb/>
+            desint, non frangunt in bonis perferendi tolerandique uirtutem <lb n="5"/>
+            nec eradicant ex animo pietatem, sed exercitatam faciunt fecundiorem: <lb/>
+            quanto magis, cum desunt ea, quae curandis funeribus <lb/>
+            condendisque corporibus defunctorum adhiberi solent, <lb/>
+            non efficiunt miseros in occultis piorum sedibus iam quietos! <lb/>
+            ac per hoc, quando ista cadaueribus <choice><sic>christianorum</sic><corr>Christianorum</corr></choice> in <lb n="10"/>
+            illa magnae urbis uel etiam aliorum oppidorum uastatione <lb/>
+            defuerunt, nec uiuorum culpa est, qui non potuerunt ista <lb/>
+            praebere, nec poena mortuorum, qui non possunt ista sentire\\ <lb/>
+            haec est mea de sepulturae causa atque ratione sententia. <lb/>
+            quam propterea ex alio libro meo in istum transtuli, <lb n="15"/>
+            quia facilius hoc a me recenseri potuit, quam\' id ipsum alio <lb/>
+            modo eloquendum fuit. 
+</p>
+          
+</div>
+
+<div n="6" subtype="section" type="textpart">
+<p><milestone n="4" unit="altchapter"/> Quod si uerum est, profecto etiam prouisus sepeliendis <lb/>
+            corporibus apud memorias sanctorum locus bonae <lb/>
+            affectionis humanae est erga funera suorum, quoniam, si nonnulla <lb n="20"/>
+            religio est, ut sepeliantur, non potest nulla esse,
+
+<note type="footnote">2 hoc loco <hi rend="italic">T</hi> est <hi rend="italic">om. TEAMBlCh</hi> ut] et <hi rend="italic">T</hi> pertractem <hi rend="italic">Y</hi> <lb/>
+            cum] intenditur cum <hi rend="italic">EF</hi> ista] ea <foreign xml:lang="grc">β</foreign> 3 sed <hi rend="italic">om. M</hi> si om. <lb/>
+            <hi rend="italic">TAVxCh</hi> sustendandis (dan 8. <hi rend="italic">l.) A, CWfi</hi> 4 amictusque <hi rend="italic">E</hi> que <lb/>
+            quamuis <hi rend="italic">F</hi> 5 perferendis <hi rend="italic">N</hi> perfruendi Y tolerandisque <hi rend="italic">N</hi> <lb/>
+            6 exercitatem <hi rend="italic">IKV</hi> excitatam <hi rend="italic">MAEBxCh</hi> exercitata Y faecundiorem <lb/>
+            <hi rend="italic">N</hi> 7 quae condiendis corporibus atque curandis funeribus <hi rend="italic">N</hi> <lb/>
+            de curandis m 8 de condendisque <hi rend="italic">K</hi> condiendisque <hi rend="italic">BlZAtEMCh</hi> <lb/>
+            colendisque <hi rend="italic">V</hi> solent <hi rend="italic">om. TMABlCh</hi> 9 ocultis <hi rend="italic">K</hi> priorum <hi rend="italic">BM</hi> <lb/>
+            11 illam <hi rend="italic">N</hi> magna <hi rend="italic">K</hi> aliorum <hi rend="italic">om. T</hi> opidorum <hi rend="italic">Afi</hi> 12 poterunt <lb/>
+            <hi rend="italic">Y</hi> 13 praebere-ista <hi rend="italic">om. MACh</hi> mortuorum poena <hi rend="italic">bd</hi> <lb/>
+            potuerunt <hi rend="italic">BTKYEFVB&amp;</hi> possint tp 14 sepultura <hi rend="italic">BMACh</hi> 16 recensiri <lb/>
+            <hi rend="italic">Y</hi> ab alio <hi rend="italic">B TM A</hi> 17 fui <hi rend="italic">I</hi> 18 etiam] etiam loaton <hi rend="italic">ACh</hi> <lb/>
+            prouisus itaque <hi rend="italic">X qui hic incipit</hi> 19 memoriam <hi rend="italic">ChTVXEMKFA$&lt;o <lb/>
+            Eug</hi> bene ® 20 est humanae <hi rend="italic">T</hi> u?] burpsoe hominft est <hi rend="italic">E</hi> nonnula] <lb/>
+            nulla <hi rend="italic">V</hi> 21 ut <hi rend="italic">om. V</hi> sepelliantur <hi rend="italic">Y</hi> ulla <hi rend="italic">NZl</hi> esse <lb/>
+            <hi rend="italic">om. Nl</hi> </note> <lb/>
+             
+<pb n="630"/>
+            quando ubi sepeliantur adtenditur. sed cum talia uiuorum <lb/>
+            solacia requiruntur, quibus eorum pius in suos animus adpareat, <lb/>
+            non uideo quae sunt adiumenta mortuorum nisi ad <lb/>
+            hoc, ut, dum recolunt, ubi sint posita <choice><sic>eorura</sic><corr>eorum</corr></choice> quos diligunt <lb/>
+            corpora, eisdem sanctis illos tamquam patronis susceptos<lb n="5"/>
+            apud dominum adiuuandos orando commendent. quod quidem <lb/>
+            facere possent, etiamsi talibus locis eos humare non <lb/>
+            possent. sed non ob aliud uel \'memoriae\' uel (monumenta&gt; <lb/>
+            dicuntur ea quae insignite fiunt sepulcra mortuorum, nisi <lb/>
+            quia eos, qui uiuentium oculis morte subtracti sunt, ne obliuione<lb n="10"/>
+            etiam cordibus subtrahantur, in memoriam reuocant <lb/>
+            et admonendo faciunt cogitari. nam et (memoriae) nomen id <lb/>
+            apertissime ostendit et (monumentum) eo quod moneat mentem, <lb/>
+            id est admoneat, nuncupatur. propter quod et Graeci <lb/>
+            <foreign xml:lang="grc">μ</foreign><sic>v</sic><foreign xml:lang="grc">ημεῑο</foreign><choice><sic>vuocant</sic><corr>uocant</corr></choice>, quod nos memoriam seu monumentum<lb n="15"/>
+            appellamus, quoniam lingua eorum memoria ipsa, qua meminimus, <lb/>
+            <foreign xml:lang="grc">μ</foreign><sic>v</sic><foreign xml:lang="grc">ήμη</foreign> dicitur. cum itaque recolit animus, ubi sepultum <lb/>
+            sit carissimi corpus, et occurrit locus nomine martyris <lb/>
+            uenerabilis, eidem martyri animam dilectam commendat <lb/>
+            recordantis et precantis affectus. qui cum defunctis a fidelibus<lb n="20"/>
+            carissimis exhibetur, eum prodesse non dubium est his, qui
+
+<note type="footnote">1 talia] alia <hi rend="italic">Y</hi> 2 snos] suorum <hi rend="italic">IZ</hi> an\'i?99 <hi rend="italic">(in mg</hi>. m. <hi rend="italic">2</hi> animus) <hi rend="italic">T</hi> <lb/>
+            3 sint <hi rend="italic">ChNVXEKYAFfif Eug</hi> 4 ut <hi rend="italic">om</hi>. j3 quos] que <hi rend="italic">F</hi> diligentur <lb/>
+            P 5 susceptis <hi rend="italic">pCA</hi> 6 deum p adiuuando et orando <hi rend="italic">EFVfs</hi> <lb/>
+            7 possint <hi rend="italic">TMYB1</hi> possit Kl 8 possunt <hi rend="italic">K</hi> ob <hi rend="italic">om. V</hi> ab <hi rend="italic">Y</hi> uel <lb/>
+            <hi rend="italic">alt. om. V</hi> 9 dicentur p insignitae <hi rend="italic">BMCh</hi> inaigniter <hi rend="italic">©NX Ewj</hi> <lb/>
+            sepulcbra <hi rend="italic">BNIZMKy</hi> 10 morte <hi rend="italic">om</hi>. P 11 subtraantur <hi rend="italic">FX</hi> memoria <lb/>
+            <hi rend="italic">Yrp</hi> 12 ammonendo <hi rend="italic">BKYy</hi> nomine <hi rend="italic">BMF</hi> id om. <hi rend="italic">F</hi> <lb/>
+            13 ostenditur <hi rend="italic">F</hi> et mentem <hi rend="italic">BM</hi> 14 id est-nuncupatur osn. <hi rend="italic">F</hi> <lb/>
+            ammona <hi rend="italic">Chl</hi> noncupatur <hi rend="italic">X</hi> grece o greci <hi rend="italic">T</hi> lo MNEMION <hi rend="italic">E</hi> <lb/>
+            mnemion <hi rend="italic">KBNVfi</hi> MNEMIN (MI s. <hi rend="italic">ras.) TF</hi> mnemio <hi rend="italic">R</hi> mnimion <hi rend="italic">Y</hi> <lb/>
+            orne <hi rend="italic">X</hi> MNHMHN <hi rend="italic">IZ</hi> MEKEMION <hi rend="italic">ChA om. M</hi> anaeizant (i a. I.) f <lb/>
+            seu] uel <hi rend="italic">V</hi> monimentum <hi rend="italic">T</hi> 16 qua <hi rend="italic">FX</hi> 17 mneme <hi rend="italic">BN</hi> <lb/>
+            MNEME <hi rend="italic">TYF</hi> MNMH <hi rend="italic">IZ</hi> MENIMA <hi rend="italic">ACh</hi> mneme <hi rend="italic">(svper</hi> init. m <hi rend="italic">tuUL</hi> <lb/>
+            a) <hi rend="italic">V</hi> netne <hi rend="italic">K</hi> mem.nion &lt;p ne <hi rend="italic">X, om. M</hi> 18 corpus carissimi P <lb/>
+            locus et nomen <hi rend="italic">X</hi> 20 ac fidelibus <hi rend="italic">KV</hi> 21 exibetur <hi rend="italic">TMEV</hi> hiis <lb/>
+            <hi rend="italic">Yr iis bd</hi></note> <lb/>
+             
+<pb n="631"/>
+            cum in corpore uiuerent, talia sibi post hanc uitam prodesse <lb/>
+            meruerunt. uerum et si aliqua necessitas uel humari corpora <lb/>
+            uel in talibus locis humari nulla data facultate permittat, non <lb/>
+            sunt praetermittendae supplicationes pro spiritibus mortuorum, <lb/>
+            quas faciendas pro omnibus in christiana et catholica societate <lb n="5"/>
+            defunctis etiam tacitis nominibus eorum sub generali <lb/>
+            commemoratione suscepit ecclesia, ut quibus ad ista desunt <lb/>
+            parentes aut filii aut quicumque cognati uel amici, ab una <lb/>
+            eis exhibeantur pia matre communi. si autem deessent istae <lb/>
+            supplicationes, quae fiunt recta fide ac pietate pro mortuis, <lb n="10"/>
+            puto, quod nihil prodesset spiritibus eorum, quamlibet locis <lb/>
+            sanctis exanima corpora ponerentur. 
+</p>
+          
+</div>
+
+<div n="7" subtype="section" type="textpart">
+<p><milestone n="5" unit="altchapter"/> Cum ergo fidelis mater fidelis filii defuncti corpus <lb/>
+            desiderauit in basilica martyris poni, si quidem credidit eius <lb/>
+            animam meritis martyris adiuuari, hoc, quod ita credidit, supplicatio <lb n="15"/>
+            quaedam fuit, et haec profuit, si quid profuit. et <lb/>
+            quod ad idem sepulcrum recurrit animo et filium precibus <lb/>
+            magis magisque commendat, adiuuat defuncti spiritum non <lb/>
+            mortui corporis locus, sed ex loci memoria uiuus matris affectus. <lb/>
+            simul enim et quis et cui commendatus sit, non utique <lb n="20"/>
+            infructuose religiosam mentem precantis adtingit. nam
+
+<note type="footnote"> 1 sibi] si <hi rend="italic">X</hi> 2 humari-locis <hi rend="italic">om. YX</hi> 3 nullor 11 nullius 12 <lb/>
+            facultas I2 permittant <hi rend="italic">N\'f</hi> permittit <hi rend="italic">A</hi> 4 praemittendae <hi rend="italic">T</hi> 5 et <lb/>
+            <hi rend="italic">om. MF</hi> catholica <hi rend="italic">om. TMF</hi> 6 tacitis-ista <hi rend="italic">om. V</hi> eorum] <lb/>
+            quorum <hi rend="italic">ChBTMA om. EF</hi> quos sub <hi rend="italic">F</hi> 7 uocabulo commemoratione <lb/>
+            <hi rend="italic">T</hi> suscipit <hi rend="italic">FE</hi> 8 uelj aut <foreign xml:lang="grc">β</foreign> 9 exhibeatur <hi rend="italic">BNTEKXYAfi</hi> <lb/>
+            exibeatur <hi rend="italic">F</hi> matri <hi rend="italic">TB\'</hi> iste <hi rend="italic">IZT</hi> 11 prodesse <hi rend="italic">YM</hi> spiritug.Jibus <lb/>
+            <hi rend="italic">T</hi> in locis <hi rend="italic">EFBfibd</hi> 12 sanctis si <hi rend="italic">ACh</hi> exanimata <lb/>
+            <hi rend="italic">EXt&gt;o2C%2 13 lidelis alt. om. K 14 basilicam BTZMAEKRCh</hi> BiJ <lb/>
+            sic &lt;p <hi rend="italic">om</hi>. Y credidit <hi rend="italic">ex</hi> tradidit <hi rend="italic">Ch</hi> animam eius <hi rend="italic">T</hi> 15 martyris <lb/>
+            meritis <hi rend="italic">E</hi> martyris <hi rend="italic">om. Y</hi> 16 et-quid profuit <hi rend="italic">om. A1</hi> haec <lb/>
+            <hi rend="italic">om. T</hi> si quid profuit <hi rend="italic">om. F</hi> 17 sepulchrum <hi rend="italic">BNZKX</hi> sepulchro <hi rend="italic">T</hi> <lb/>
+            animo recurrit <hi rend="italic">V</hi> filium] fidelium <hi rend="italic">F</hi> 18 magis <hi rend="italic">om. V</hi> et <lb/>
+            adinuat <hi rend="italic">EF</hi> 19 loco memoriae <hi rend="italic">X</hi> 20 <hi rend="italic">alt</hi>. et <hi rend="italic">om. I</hi> cui] cQ Y <lb/>
+            commendans <hi rend="italic">TMBxAxChl</hi> commendandus <hi rend="italic">A2Ch2b</hi> 21 infructuosae <hi rend="italic">K</hi> <lb/>
+            religioea <hi rend="italic">XY</hi> et religiosam p mente <hi rend="italic">XY</hi> </note> <lb/>
+             
+<pb n="632"/>
+            et orantes de membris sui corporis faciunt quod supplicantibus <lb/>
+            congruit, cum genua figunt, cum extendunt manus uel <lb/>
+            etiam prosternuntur solo et si quid aliud faciunt uisibiliter, <lb/>
+            quamuis eorum inuisibilis uoluntas et cordis intentio deo <lb/>
+            nota sit nec ille indigeat his indiciis, ut animus ei pandatur<lb n="5"/>
+            humanus. sed hinc magis se ipsum excitat homo ad orandum <lb/>
+            gemendumque humilius atque feruentius, et nescio quomodo, <lb/>
+            cum hi motus corporis fieri nisi motu animi praecedente non <lb/>
+            possint, eisdem rursus exterius uisibiliter factis ille interior <lb/>
+            inuisibilis qui eos fecit augetur, ac per hoc cordis affectus. <lb n="10"/>
+            qui, ut fierent ista, praecessit, quia facta sunt crescit. uerum <lb/>
+            tamen si eo modo quisque teneatur uel etiam ligetur, ut haec <lb/>
+            de suis membris facere nequeat, non ideo non orat interior <lb/>
+            homo et ante oculos dei in secretissimo cubili, ubi conpungitur, <lb/>
+            sternitur. ita etiam cum plurimum intersit, ubi ponat<lb n="15"/>
+            corpus mortui sui, qui pro spiritu eius deo supplicat, quia <lb/>
+            et praecedens affectus locum elegit sanctum et illic corpore <lb/>
+            posito recordatus locus sanctus eum qui praecesserat renouat <lb/>
+            et auget affectum, tamen etiamsi non possit ubi religiosus <lb/>
+            animus elegit humare quem diligit, nullo modo debet a
+
+<note type="footnote"> 1 orantes cQ <hi rend="italic">E</hi> de corporis sui membris <hi rend="italic">F</hi> suiş <hi rend="italic">K</hi> subplicantibus <lb/>
+            <hi rend="italic">JM</hi> 2 cum scilicet <hi rend="italic">E</hi> fipgunt X manus extendunt F <lb/>
+            3 proternuntur K1 si <hi rend="italic">om. Tl</hi> aliter <hi rend="italic">N</hi> uisibiliter faciunt <hi rend="italic">bd</hi> <lb/>
+            4 inuisibilis eorum P 5 iudiciis <hi rend="italic">V</hi> indictis <hi rend="italic">Z</hi> ut] aut <hi rend="italic">MV</hi> humanus <lb/>
+            ei paudatur animus <hi rend="italic">bd</hi> 6 sed] tamen <hi rend="italic">E</hi> hic <hi rend="italic">BNX9</hi> his <lb/>
+            <hi rend="italic">ChlKMAFY »»his</hi> (in <hi rend="italic">er.) Z</hi> excitet <hi rend="italic">X</hi> 8 his <hi rend="italic">B</hi> anime T <lb/>
+            9 possunt <hi rend="italic">T</hi> exterius] et\'nis <hi rend="italic">V</hi> factus Kl nisi ille <hi rend="italic">T</hi> 10 nisibilis <lb/>
+            <hi rend="italic">BTl</hi> facit <hi rend="italic">EXCh Eug</hi> augeatur <hi rend="italic">T</hi> 11 uernmptamen <hi rend="italic">X</hi> <lb/>
+            12 se Kl quisque eo modo <foreign xml:lang="grc">β</foreign> legetur <hi rend="italic">Ml</hi> 13 non ideo] nå <lb/>
+            ideo <hi rend="italic">IZ</hi> orat] erit X 14 et] ut <foreign xml:lang="grc">β</foreign> in secr. cubili <hi rend="italic">om. T</hi> cubiculi <lb/>
+            <hi rend="italic">Y</hi> ubi] qui <hi rend="italic">V</hi> 15 n plurimum <hi rend="italic">E</hi> ponant <hi rend="italic">T</hi> 16 sui qui] <lb/>
+            ei quis <hi rend="italic">Y</hi> supplicaus <hi rend="italic">N</hi> qui <hi rend="italic">X om. Y</hi> quia et] tamen cO <hi rend="italic">E</hi> <lb/>
+            17 et locum eligit P locus K eligit <hi rend="italic">AefiCh</hi> et <hi rend="italic">om. E</hi> 18 recordatur <lb/>
+            <hi rend="italic">MF</hi> locum sanctum <hi rend="italic">F</hi> 19 augit Y etiamsi (ai <hi rend="italic">s. I. <lb/>
+             m. 2) N</hi> religionis <hi rend="italic">K</hi> 20 animus] amicus <hi rend="italic">ChMAEFB1</hi> eligit <lb/>
+            <hi rend="italic">AXVfl</hi> deligit o humari <hi rend="italic">X</hi> quiem X debeat <hi rend="italic">TKMAFYChz</hi> <lb/>
+            a <hi rend="italic">om. TEKMA ChYBxz&gt;</hi> </note> <lb n="20"/>
+             
+<pb n="633"/>
+            supplicationibus necessariis in eius commendatione cessare. ubicumque <lb/>
+            enim iaceat uel non iaceat defuncti caro, spiritui <lb/>
+            requies adquirenda est, qui cum inde exiret, secum abstulit <lb/>
+            sensum, quo interesse possit quomodo quisque sit siue in <lb/>
+            bonis siue in malis, nec ab ea carne expectat adiuuari suam <lb n="5"/>
+            uitam, cui praebebat ipse uitam, quam detraxit excedens et <lb/>
+            redditurus est rediens, quoniam non caro spiritui, sed spiritus <lb/>
+            carni etiam ipsius resurrectionis meritum comparat, utrum ad <lb/>
+            poenam an ad gloriam reuiuescat. 
+</p>
+          
+</div>
+
+<div n="8" subtype="section" type="textpart">
+<p><milestone n="6" unit="altchapter"/> Legimus in ecclesiastica historia, quam graece scripsit <lb n="10"/>
+            Eusebius et in latinam linguam uertit Rufinus, martyrum <lb/>
+            corpora in Gallia canibus exposita canumque reliquias atque <lb/>
+            ossa mortuorum usque ad extremam consumptionem ignibus <lb/>
+            concremata eosdemque cineres fluuio Rhodano, ne quid ad <lb/>
+            memoriam qualemcumque relinqueretur, inspersos. quod non <lb n="15"/>
+            ob aliud credendum est diuinitus fuisse permissum, nisi ut <lb/>
+            discerent christiani in confitendo Christum, dum contemnunt <lb/>
+            hanc uitam, multo magis contemnere sepulturam. hoc enim <lb/>
+            quod ingenti saeuitia de corporibus <choice><sic>martvrum</sic><corr>martyrum</corr></choice> factum est, si <lb/>
+            eis quidquam noceret, quo minus beate requiescerent eorum <lb n="20"/>
+            uictoriosissimi spiritus, non utique fieri sineretur. re ipsa
+
+<note type="footnote"> 11 cf. Ruf. Patrol. 21 sqq.; Euseb. 5, 1 ed. Migne <hi rend="italic">uol</hi>. 19-24 </note>
+
+<note rend="script" type="footnote"> 1 cessare. Ubi copungitur sternitur ubi dns ac deus requirebat ubicumque <lb/>
+            <hi rend="italic">sqq. X</hi> 2 enim om. <hi rend="italic">T;</hi> enim-requies <hi rend="italic">om. MACh</hi> iacet <lb/>
+            <hi rend="italic">pr. K</hi> spiritus <hi rend="italic">T</hi> 4 quod <hi rend="italic">Xv</hi> siue sit <hi rend="italic">E</hi> 5 exspectat <hi rend="italic">N</hi> <lb/>
+            expe.tat <hi rend="italic">M</hi> uitam suam <hi rend="italic">$bd</hi> 6 cui-uitam <hi rend="italic">om. TMKAFYCh</hi> <lb/>
+            detraxerat <hi rend="italic">K</hi> exiens X 7 sed <hi rend="italic">om. K</hi> 8 carng <foreign xml:lang="grc">β</foreign> ad poenam] <lb/>
+            eusebius <hi rend="italic">(in mg</hi>. ad penii) <hi rend="italic">V</hi> 9 reuiaescant <hi rend="italic">NTATB1</hi> reuiuescat <hi rend="italic">Chi</hi> <lb/>
+            reuiuiscant <hi rend="italic">KE</hi> reuiuescapt <hi rend="italic">F hic finittur cod. X</hi> 10 istoria <hi rend="italic">FY</hi> <lb/>
+            Jjjstoria <hi rend="italic">N</hi> grecae <hi rend="italic">B</hi> 11 eusibus <hi rend="italic">E</hi> rufinus (s. <hi rend="italic">I</hi>. hieronimus) <hi rend="italic">A</hi> <lb/>
+            12 galliis &lt;p canumque] eorflque <hi rend="italic">ACh</hi> Naquf <hi rend="italic">(s. I</hi>. I nec non) <hi rend="italic">F</hi> <lb/>
+            atque <hi rend="italic">om. V</hi> 13 ossaque <hi rend="italic">V</hi> consummationem <hi rend="italic">NKo</hi> consumationem <hi rend="italic">Y</hi> <lb/>
+            14 rodano <hi rend="italic">BTIZEKFVY15</hi> inspresos <hi rend="italic">Y</hi> 16 diuinis <hi rend="italic">1</hi> 17 discenrent <lb/>
+            <hi rend="italic">K</hi> drent 3 in <hi rend="italic">om. AEM</hi> xpo <hi rend="italic">A</hi> contempnunt <lb/>
+            <hi rend="italic">TMYK1</hi> 18 contempnere <hi rend="italic">B</hi> condemnere <hi rend="italic">Kx</hi> 19 ingente <hi rend="italic">IZ</hi> seuitia <lb/>
+            <hi rend="italic">TMKE martirum K 20 quicquam NTEMKfcCh beato NBIZMKCh</hi> <lb/>
+            beati <hi rend="italic">EFR</hi> 21 sineretur fieri <foreign xml:lang="grc">β</foreign> sinerent (n <hi rend="italic">fin. s. I.) K</hi> ergo ipsa fs </note> <lb/>
+             
+<pb n="634"/>
+            ergo declaratum est non ideo dixisse dominum: nolite timere <lb/>
+            eos qui corpus occidunt et postea non habent quid <lb/>
+            faciant, quod non esset permissurus aliquid eos facere de <lb/>
+            <choice><sic>suomm</sic><corr>suorum</corr></choice> corporibus mortuorum, sed quoniam quidquid facere <lb/>
+            permissi essent, nihil quo minueretur christiana defunctorum<lb n="5"/>
+            felicitas fieret, nihil inde ad sensum post mortem uiuentium <lb/>
+            perueniret, nihil ad detrimentum saltem ipsorum corporum. <lb/>
+            quo minus integra resurgerent, pertineret. 
+</p>
+          
+</div>
+
+<div n="9" subtype="section" type="textpart">
+<p><milestone n="7" unit="altchapter"/> Et tamen ex illo humani cordis affectu, quo nemo <lb/>
+            umquam carnem suam odio habet, si cognoscant homines<lb n="10"/>
+            aliquid post mortem suam suis corporibus defuturum, quod <lb/>
+            in sua cuiusque gente uel patria poscit sollemnitas sepulturae. <lb/>
+            contristantur ut homines et quod ad eos post mortem non <lb/>
+            pertinet, ante mortem suis corporibus timent: ita ut inueniatur <lb/>
+            in Regnorum libris deus per prophetam minari alteri prophetae,<lb n="15"/>
+            qui eius transgressus est uerbum, quod non inferretur <lb/>
+            cadauer eius in sepulcrum patrum eius. quae scriptura sic <lb/>
+            se habet. haec dicit dominus: quia inoboediens fuisti <lb/>
+            ori domini et non custodisti mandatum quod tibi
+
+<note type="footnote"> 1 Luc. 12, 4 9 cf. Eph. 5, 29 18 III Reg. 13, 21. 22 </note>
+
+<note type="footnote"> 1 est <hi rend="italic">om. I</hi> 2 occidunt corpus <hi rend="italic">T,1</hi> habeant <hi rend="italic">M</hi> 3 aliquid permissurus <lb/>
+            <hi rend="italic">T eos om. V</hi> 4 mortuorum1 martirum <hi rend="italic">Y</hi> quicquid <lb/>
+            <hi rend="italic">TMYCh</hi> quid Kl facere <hi rend="italic">om. T</hi> 5 permisisset cp 6 ad sensum] <lb/>
+            assensum <hi rend="italic">T</hi> uiuendum <hi rend="italic">N</hi> 7 proueniret Ncp nihil-pertineret <lb/>
+            <hi rend="italic">om. F</hi> ealtim <hi rend="italic">BMKCh</hi> 8 resurgent <hi rend="italic">MAE</hi> 9 humani <hi rend="italic">in mg. T</hi> <lb/>
+            quod <hi rend="italic">N</hi> 10 hodio Yjft habuit <hi rend="italic">E</hi> agnoscant <hi rend="italic">N</hi> 11 post mortem <lb/>
+            suam aliquid <hi rend="italic">F</hi> defuncturum <hi rend="italic">Bl</hi> defunctorum <hi rend="italic">TYb</hi> defunctis obesae <lb/>
+            (8. <hi rend="italic">l</hi>. defuturum) <hi rend="italic">R</hi> defunctis obesse <hi rend="italic">EF</hi> 12 poscitj possit <hi rend="italic">Y</hi> eollempnitas <lb/>
+            <hi rend="italic">TV</hi> solempnitas <hi rend="italic">Ch</hi> 13 et] ut m quos <foreign xml:lang="grc">β</foreign> non pertinet <lb/>
+            post mortem <hi rend="italic">A Ch</hi> post mortem <hi rend="italic">in mg. T</hi> 14 pertinet] pertiaebit <lb/>
+            pertinet <hi rend="italic">IZNB</hi> pertinebit pertineat cp pertinet dolent K suis corporibus <lb/>
+            timent <hi rend="italic">om. ChNBTIZYMKAy</hi> ita utj quod <hi rend="italic">EF</hi> inoeniatur <lb/>
+            (ni 8. <hi rend="italic">I.) T</hi> inuenitur <hi rend="italic">EF</hi> 15 regum <hi rend="italic">E</hi> 16 est <hi rend="italic">om. V</hi> inferetur <lb/>
+            <hi rend="italic">MKX</hi> ferretur <hi rend="italic">Al</hi> 17 eius <hi rend="italic">om. N\'fi</hi> sepulchrum <hi rend="italic">MEKY</hi> eias- <lb/>
+            <hi rend="italic">635,</hi> 4 patrum <hi rend="italic">om. V</hi> sic scriptura <hi rend="italic">ACh</hi> sic habet <hi rend="italic">RYbd</hi> 18 quoniam <lb/>
+            <hi rend="italic">TRbd</hi> 19 praecepit tibi <hi rend="italic">NIZRţrbà</hi> </note> <lb/>
+             
+<pb n="635"/>
+            praecepit dominus deus tuus, et reuersus es et comedisti <lb/>
+            panem et bibisti aquam in loco in quo praecepit <lb/>
+            tibi, ne comederes panem neque biberes aquam, <lb/>
+            non inferetur cadauer tuum in sepulcrum patrum <lb/>
+            tuorum. quanti haec poena pendenda sit, si secundum euangelium <lb n="5"/>
+            cogitemus, ubi post corpus occisum nihil metuendum <lb/>
+            esse didicimus, ne membra exanima patiantur, nec poena <lb/>
+            dicenda est. si autem humanum erga suam carnem consideremus <lb/>
+            affectum, potuit inde terreri uel contristari uiuus, quod <lb/>
+            sensurus non erat mortuus; et haec erat poena, quoniam <lb n="10"/>
+            dolebat animus id de suo corpore futurum, quamuis cum <lb/>
+            fieret non doleret. hactenus enim uoluit dominus seruum <lb/>
+            suum plectere, qui non sua contumacia spreuerat praeceptum <lb/>
+            eius inplere, sed aliena decipiente fallacia oboedire se credidit, <lb/>
+            quando non oboediuit. neque enim putandum est ita <lb n="15"/>
+            fuisse interemptum morsu bestiae, ut ad supplicium tartareum <lb/>
+            eius deinde anima raperetur, quandoquidem ipsum eius corpus <lb/>
+            idem leo qui occiderat custodiuit iumento etiam, quo uehebatur, <lb/>
+            inlaeso et simul cum illa inmani fera intrepida praesentia <lb/>
+            ad sui domini funus adstante. quo mirabili signo adparet <lb n="20"/>
+            hominem dei cohercitum potius temporaliter usque ad mortem, <lb/>
+            quam punitum esse post mortem. de qua re apostolus, <lb/>
+            cum propter quasdam offensas commemorasset infirmitates
+
+<note type="footnote"> 1 reuersusJ <hi rend="italic">regressus E es et om</hi>. p <hi rend="italic">2 praecepitibi Z</hi> 3 comederis <lb/>
+            <hi rend="italic">N</hi> biberis <hi rend="italic">N</hi> 4 inferretur <hi rend="italic">T</hi> sepulchrum <hi rend="italic">TME</hi> sepulchro 9 <lb/>
+            5 quanta <hi rend="italic">V</hi> si <hi rend="italic">om. NTIZFYB\'KlJIA.tRI</hi> 7 dicinius <hi rend="italic">IY</hi> nec o <lb/>
+            membrae <hi rend="italic">K</hi> exanimata <hi rend="italic">FEpAICh</hi> 8 dicendum <hi rend="italic">eltt</hi> carnem <lb/>
+            suam p Y10 erat poena haec <hi rend="italic">E</hi> quoniam] quod Fp qua F 12 non <lb/>
+            <hi rend="italic">om. Ax</hi> actenus <hi rend="italic">ChTEKBlMY</hi> 13 qui. <hi rend="italic">B</hi> contumatia <hi rend="italic">ZY</hi> contomatia <lb/>
+            sp 14 adimplere p 15 putandum] credendum <hi rend="italic">F</hi> 16 interemtum <lb/>
+            <hi rend="italic">BY</hi> baestiae <hi rend="italic">K</hi> thartareum <hi rend="italic">N</hi> 17 eius deinde] eiusdem <hi rend="italic">Yy</hi> <lb/>
+            anima deinde <hi rend="italic">E</hi> quodquidem <hi rend="italic">ACh1</hi> 18 leo] loco <hi rend="italic">T</hi> quod <hi rend="italic">Ch1</hi> <lb/>
+            uebatur <hi rend="italic">Ch1</hi> 19 inmani] in manu <hi rend="italic">V</hi> intrepidę.\' F 20 ad] <lb/>
+            et ad <hi rend="italic">F</hi> aetante <hi rend="italic">Vbd</hi> signtt Y appareret <hi rend="italic">IZE</hi> 21 coercitum <lb/>
+            <hi rend="italic">IZFR$f</hi> potius <hi rend="italic">om. K</hi> temporaliter] corporaliter <hi rend="italic">E</hi> 23 propter] <lb/>
+            pro <hi rend="italic">EFV$quibusdam EFV p quaadam</hi> quorundam 9 offensis <hi rend="italic">EF$</hi> </note> <lb/>
+             
+<pb n="636"/>
+            mortesque multorum, si enim nos ipsos, inquit, iudicaremus, <lb/>
+            a domino non iudicaremur; cum iudicamur <lb/>
+            autem, a domino corripimur, ne cum mundo damnemur. <lb/>
+            eum sane ipse qui deceperat in monumento proprio <lb/>
+            satis honorifice sepeliuit seque sepeliendum iuxta eius ossa<lb n="5"/>
+            curauit, ita sperans parci posse quoque ossibus suis, cum <lb/>
+            ueniret tempus, quando secundum illius hominis dei prophetiam <lb/>
+            Iosias rex Iuda in illa terra multorum eruit ossa mortuorum <lb/>
+            eisdemque ossibus sacrilega altaria, quae sculptilibus <lb/>
+            constituta fuerant, funestauit. pepercit quippe illi monumento,<lb n="10"/>
+            ubi iacebat propheta, qui ante annos <choice><sic>amplitis</sic><corr>amplius</corr></choice> quam trecentos <lb/>
+            ista praedixerat; et propter ipsum nec illius, qui eum <sic>sedugerat</sic>, <lb/>
+            sepultura uiolata est. affectu namque illo, quo nemo <lb/>
+            umquam carnem suam odio habet, prouiderat cadaueri suo. <lb/>
+            qui occiderat mendacio animam suam. ex hoc igitur, quod<lb n="15"/>
+            carnem suam quisque naturaliter diligit, et illi poena fuit <lb/>
+            addiscere non eum futurum in sepulcro patrum suorum et <lb/>
+            huic cura prospicere, ut parceretur ossibus suis, si iuxta eum <lb/>
+            iaceret, cuius sepulcrum nemo uiolaret. 
+</p>
+          
+</div>
+
+<div n="10" subtype="section" type="textpart">
+<p><milestone n="8" unit="altchapter"/> Hunc affectum martyres Christi certantes pro<lb n="20"/>
+            ueritate uicerunt. nec mirum quia contempserunt, quod non <lb/>
+            fuerant peracta morte sensuri, qui non potuerunt eis, quos <lb/>
+            uiuentes sentiebant, cruciatibus uinci. poterat utique deus.
+
+<note type="footnote"> 1 I Cor. 11, 31. 32 5 cf. III Reg. 13, 24 sqq.; IV Reg. 23, 16 sqq. </note>
+
+<note type="footnote"> 1 mortes (que <hi rend="italic">er.) M</hi> nos-3 a domino <hi rend="italic">om. V</hi> inquid &lt;p <hi rend="italic">om. T</hi> <lb/>
+            2 a domino <hi rend="italic">om. E</hi> non] non a domino j3 non utique <hi rend="italic">E</hi> 3 autt-m <lb/>
+            <hi rend="italic">om</hi>. ? ac] ut non F hoc mundo Eff dampnemur Y 4 eum] <lb/>
+            cum <hi rend="italic">BM</hi> 5 oasa eius <hi rend="italic">bd</hi> curauit ossa <hi rend="italic">A</hi> 6 parci posse sperans <hi rend="italic">E</hi> <lb/>
+            quoque posse <hi rend="italic">Vp quoque om. Nf</hi> 8 iude <hi rend="italic">IZ</hi> 9 sculptibilibus X <lb/>
+            scultilibus <hi rend="italic">IZy1</hi> 10 funestauit] festinauit <hi rend="italic">F</hi> 12 seduierit <hi rend="italic">T</hi> 13 affectuip <lb/>
+            <hi rend="italic">K</hi> qua <hi rend="italic">T A</hi> 14 habuit <hi rend="italic">(s. l</hi>. t habet) <hi rend="italic">E</hi> prouidit <hi rend="italic">IZ</hi> <lb/>
+            15 mendatio <hi rend="italic">KM</hi> 16 naturaliter quisque <hi rend="italic">E</hi> paena <hi rend="italic">M</hi> 17 sepnlchro <lb/>
+            <hi rend="italic">IZ</hi> sepulcrum <hi rend="italic">E</hi> sepulcr$18 hac <hi rend="italic">F</hi> pasceretur <hi rend="italic">IZl</hi> iwcta; <lb/>
+            iusta <hi rend="italic">Y</hi> 19 uigjlaret (s. gi <hi rend="italic">pos. o) K</hi> 20 pro ueritate certantea <hi rend="italic">bd</hi> <lb/>
+            21 nec mirum <hi rend="italic">om. TAMFB1</hi> contemserunt <hi rend="italic">NT</hi> condemserunt A\' <lb/>
+            22 perhacta <hi rend="italic">I</hi> more <hi rend="italic">Tl</hi> securi Y qui] quod <hi rend="italic">Y</hi> 23 cruciantibus;. <lb/>
+            itaque <hi rend="italic">F</hi> </note> <lb/>
+             
+<pb n="637"/>
+            qui leonem prophetae corpus, quod ipse occiderat, ulterius <lb/>
+            non permisit adtingere et fecit de peremptore custodem, poterat, <lb/>
+            inquam, a suorum interfectis corporibus canes, quibus <lb/>
+            fuerant proiecta, prohibere; poterat et ipsorum hominum innumerabilibus <lb/>
+            modis terrere saeuitiam, ne cadauera incendere, <lb n="5"/>
+            ne cineres dispergere auderent: sed hoc quoque experimentum <lb/>
+            multiplici uarietati temptationum deesse non debuit, ne fortitudo <lb/>
+            confessionis, quae inmanitati persecutionis pro corporis <lb/>
+            salute non cederet, pro sepulcri honore trepidaret, postremo, <lb/>
+            ne fides resurrectionis consumptionem corporum formidaret. <lb n="10"/>
+            debuerunt ergo et ista permitti, ut etiam post haec tanti <lb/>
+            horroris exempla martyres in Christi confessione feruentes <lb/>
+            huius quoque testes fierent ueritatis, in qua didicerant eos, <lb/>
+            a quibus sua corpora interficerentur, postea nihil habere quod <lb/>
+            facerent, quoniam quidquid mortuis corporibus facerent, utique <lb n="15"/>
+            nihil facerent, quando in carne omni uita carente nec <lb/>
+            aliquid sentire posset, qui inde migrauit, nec aliquid inde <lb/>
+            perdere, qui creauit. sed inter haec, quae fiebant de corporibus <lb/>
+            occisorum, cum martyres non ea metuentes magna fortitudine <lb/>
+            paterentur, tamen apud fratres luctus ingens erat, quod nulla <lb n="20"/>
+            dabatur potestas sanctorum funeribus iusta persoluere nec <lb/>
+            occulte subtrahere aliquid, sicut eadem testatur historia,
+
+<note type="footnote"> 2 peremtorem <hi rend="italic">M</hi> 3 aų <hi rend="italic">K</hi> 4 ipaorum] ipsam <hi rend="italic">BTKMAFVY}</hi> <lb/>
+            5 teneri <hi rend="italic">Å</hi> nec Y 6 ne cineres] nec ineres <hi rend="italic">Kl</hi> nec in auras <hi rend="italic">K2</hi> <lb/>
+            nec in aerem ?p disperdere <hi rend="italic">Y</hi> huic <hi rend="italic">EF</hi> experimento <hi rend="italic">EF <lb/>
+            7 multiplex EF multiplici uarietate] multiplicauerit TA</hi> uarietateBM <lb/>
+            <hi rend="italic">om. EF</hi> tentationi <hi rend="italic">N</hi> tentatio <hi rend="italic">EF</hi> ne <hi rend="italic">om. Tl</hi> 8 immanidati <hi rend="italic">V</hi> <lb/>
+            9 pro <hi rend="italic">om</hi>. 9 10 consummationem <hi rend="italic">N</hi> consumgtionem <hi rend="italic">(s</hi>. 4 <hi rend="italic">add</hi>. p) <hi rend="italic">F</hi> <lb/>
+            11 ergo <hi rend="italic">om. E</hi> ista] ita <hi rend="italic">N</hi> 12 horroris] honoris <hi rend="italic">BTMAFYob</hi> <lb/>
+            martyres (tyres <hi rend="italic">add. m. 2) K</hi> 13 didicerant <hi rend="italic">ex</hi> dicerent <hi rend="italic">m. 2 T\'</hi> <lb/>
+            15 quicquid <hi rend="italic">TMY</hi> quiquid <hi rend="italic">Nl</hi> facerent mortuis corporibus <hi rend="italic">K</hi> utique <lb/>
+            nihil <hi rend="italic">om. K;</hi> utique nihil facerent <hi rend="italic">om. TMAFY</hi> 17 aliquid] aliud <hi rend="italic">V</hi> <lb/>
+            sentire-aliquid <hi rend="italic">om. At</hi> posse <hi rend="italic">T</hi> possit <hi rend="italic">IZE</hi> migraret <hi rend="italic">TMKAFY</hi> <lb/>
+            18 perderet <hi rend="italic">NA2rp</hi> sed (ed 8. <hi rend="italic">1. m. 2) A</hi> qui <hi rend="italic">BFT1</hi> 19 ea non <hi rend="italic">bd</hi> <lb/>
+            eft etuentes <hi rend="italic">Kx</hi> 20 ingens iactus <hi rend="italic">E</hi> fluctus <hi rend="italic">B</hi> erat <hi rend="italic">om. N</hi> <lb/>
+            21 iusta] ista <hi rend="italic">K</hi> 22 occultae <hi rend="italic">B</hi> oculte <hi rend="italic">K</hi> occulta ^ aliquid occulte <lb/>
+            snbtrahere <hi rend="italic">EK</hi> enptrahere m hystoria <hi rend="italic">E</hi> istoria FjJ </note> <lb/>
+             
+<pb n="638"/>
+            crudelium custodum uigiliae permittebant. ita cum illos, qui <lb/>
+            occisi fuerant, in dilaceratione membrorum suorum, in conflagratione <lb/>
+            ossuum, in dispersione cinerum miseria nulla contingeret, <lb/>
+            istos tamen, qui nihil eorum sepelire poterant, magna <lb/>
+            misericordia cruciabat, quia in nullo modo sentientibus ipsi<lb n="5"/>
+            quodam modo sentiebant et, ubi iam illorum nulla erat passio, <lb/>
+            erat istorum misera conpassio. 
+</p>
+          
+</div>
+
+<div n="11" subtype="section" type="textpart">
+<p><milestone n="9" unit="altchapter"/> Secundum istam quam dixi miseram conpassionem <lb/>
+            laudantur illi et a rege Dauid benedicuntur, qui Saulis <lb/>
+            et Ionathae ossibus aridis sepulturae misericordiam praestiterunt.<lb n="10"/>
+            quae tandem misericordia praestatur nihil sentientibus: <lb/>
+            an forte reuocandum est in opinionem, quod infernum fluuium <lb/>
+            insepulti non poterant transmeare? absit hoc a fide christiana: <lb/>
+            alioquin pessime actum est cum tanta martyrum multitudine, <lb/>
+            quorum non potuerunt corpora sepeliri, et fallaciter eis ueritas<lb n="15"/>
+            dixit: nolite timere eos, qui corpus occidunt et <lb/>
+            postea non habent quid faciant, si eis tanta mala
+
+<note type="footnote"> 1 cf. Eus. Hist. eccl. V, 1 9 cf. II Reg. 2, 5 12 cf. Yerg. <lb/>
+            Aen. 6, 327 16 Luc. 12, 4 </note>
+
+<note type="footnote"> 1 qui <hi rend="italic">in mg. m. 2 T</hi> 2 occisi <hi rend="italic">om. TMAFB1</hi> fuerant in <hi rend="italic">mg. <lb/>
+            m. 2 T</hi> in <hi rend="italic">fin. om. V</hi> 3 ossuum <hi rend="italic">BNITyehZMKIElcpp ossurn</hi> r os <lb/>
+            suum A ossium <hi rend="italic">FREPKlbd</hi> dispersione m. 2 <hi rend="italic">ex</hi> dispensatione <hi rend="italic">T</hi> <lb/>
+            contingeret et 9 4 in istos <hi rend="italic">F</hi> nichil <hi rend="italic">T</hi> sepelire] sentire <hi rend="italic">F</hi> <lb/>
+            potuerant <hi rend="italic">IZ</hi> magnal iniusti magna F 5 misericordia] seuitia <hi rend="italic">F</hi> <lb/>
+            cruciebat <hi rend="italic">T</hi> cruciabant Y in] his <hi rend="italic">Mom. EFNlf</hi> sentientibus— <lb/>
+            modo <hi rend="italic">om. Y</hi> sentientibus] his seuientibus <hi rend="italic">F</hi> his sentientibus <hi rend="italic">E</hi> <lb/>
+            6 illorumj eorum p erit <hi rend="italic">1Z</hi> 7 erit <hi rend="italic">F</hi> iustorft <hi rend="italic">K1</hi> miseraJ <lb/>
+            mira <hi rend="italic">Nco</hi> miseria Blp misericordis <hi rend="italic">IZ</hi> cQ passio cp 8 quam dixi <lb/>
+            <hi rend="italic">in mg. T</hi> miram <hi rend="italic">N Acp</hi> misericordem <hi rend="italic">IZ</hi> miseria p co. passionem ? <lb/>
+            9 Dauid-qui <hi rend="italic">om. Nl</hi> sauli <hi rend="italic">F</hi> 10 ionathe <hi rend="italic">NMYo</hi> ionate T <lb/>
+            misericordie <hi rend="italic">I</hi> 11 qug Y tandem] tafli <hi rend="italic">EF</hi> misericorda <hi rend="italic">IZ</hi> <lb/>
+            misericordia praestatur] multo. pdg misericordii e4 pstantibus mesericordia <lb/>
+            co. pstatur <hi rend="italic">sqq. F</hi> misericordia cD. pstatur nihil sentientibus multum prodest <lb/>
+            misericorditer eam praestantibus <hi rend="italic">E</hi> praestantur sp 12 hoc <lb/>
+            reuocandum <hi rend="italic">TEFBVfod</hi> in opinionem] ad illam opinionem <hi rend="italic">EFRVp</hi> <lb/>
+            in opinione <hi rend="italic">NKYT2</hi> inferni <foreign xml:lang="grc">β</foreign> 13 transmittere <hi rend="italic">A</hi> 14 niultitudine <lb/>
+            martyrum <hi rend="italic">T</hi> 15 poterunt <hi rend="italic">B</hi> sepelire <hi rend="italic">Tl</hi> eos <hi rend="italic">N</hi> 16 et <hi rend="italic">om. As</hi> <lb/>
+            17 habeant <hi rend="italic">M</hi> </note> <lb/>
+             
+<pb n="639"/>
+            facere potuerunt, quibus inpedirentur ad loca exoptata transire. <lb/>
+            sed quia hoc sine ulla dubitatione falsissimum est nec <lb/>
+            aliquid obest fidelibus negata eorum corporibus sepultura nec <lb/>
+            aliquid, si exhibeatur infidelibus, prodest, cur ergo illi, qui <lb/>
+            Saulem et eius filium sepelierunt, misericordiam fecisse dicuntur <lb n="5"/>
+            et ob hoc a rege pio benedicuntur, nisi quia bene <lb/>
+            afficiuntur corda miserantium, quando ea dolent in mortuorum <lb/>
+            corporibus alienis, quae illo <choice><sic>atfectu</sic><corr>affectu</corr></choice>, quo nemo umquam carnem <lb/>
+            suam odio habet, nolunt fieri post mortem suam corporibus <lb/>
+            suis, et quod sibi exhiberi uolunt, quando sensuri non <lb n="10"/>
+            sunt, aliis non sentientibus curant exhibere, dum ipsi sentiunt? 
+</p>
+          
+</div>
+
+<div n="12" subtype="section" type="textpart">
+<p><milestone n="10" unit="altchapter"/> Narrantur uisa quaedam, quae huic disputationi non <lb/>
+            neglegendam uideantur inferre quaestionem. feruntur quippe <lb/>
+            mortui nonnulli uel in somnis uel alio quocumque modo adparuisse <lb/>
+            uiuentibus atque ubi eorum corpora iacerent inhumata <lb n="15"/>
+            nescientibus locisque monstratis admonuisse, ut sibi <lb/>
+            sepultura quae defuerat praeberetur. haec si falsa esse responderimus, <lb/>
+            contra quorundam scripta fidelium et contra eorum <lb/>
+            sensus, qui talia sibi accidisse confirmant, inpudenter uenire
+
+<note type="footnote"> 1 iinpepdirentur <hi rend="italic">K</hi> exoptataj exobtata <hi rend="italic">IZrr</hi> exportata <hi rend="italic">MEAK</hi> (s. <hi rend="italic">I</hi>. <lb/>
+            f expectata) F experta (erta in <hi rend="italic">ras.; in mg</hi>. pectata) <hi rend="italic">T</hi> 2 ullaj aliqua <lb/>
+            <hi rend="italic">E</hi> 3 eorum-7 in mortuorum <hi rend="italic">in mg. inf. m. 2 T</hi> 4 exibeatur <lb/>
+            <hi rend="italic">Ef</hi> fidelibug &lt;p quur <hi rend="italic">AM</hi> ergo <hi rend="italic">om. V</hi> qui] cQ <hi rend="italic">V</hi> <lb/>
+            5 saule <hi rend="italic">V</hi> saul <hi rend="italic">FE</hi> et-sepelierunt <hi rend="italic">om. V$filium</hi> eius <hi rend="italic">TRbd</hi> <lb/>
+            sepeliendo <hi rend="italic">E</hi> 6 et] sed et <hi rend="italic">F</hi> sed <hi rend="italic">TMA1 om. E</hi> ob] ex <hi rend="italic">BFYTMEA</hi> <lb/>
+            pio rege <hi rend="italic">V;i 7</hi> quando et a <hi rend="italic">(om. F)</hi> dolentibus pro mortuorum corporibus <lb/>
+            nondumque (que <hi rend="italic">om. F)</hi> alienis illo affectu <hi rend="italic">sqq. EF;</hi> quando et <lb/>
+            adolentift (8. <hi rend="italic">l</hi>. I ea dolent <hi rend="italic">B)</hi> mortuorum <hi rend="italic">BTAKM</hi> et ea dolentium <hi rend="italic">Y</hi> <lb/>
+            dolent non fieri mortuorum &lt;p in] et <hi rend="italic">Z</hi> 8 umquamj tamquam <lb/>
+            <hi rend="italic">N</hi> 9 relicti nolunt <hi rend="italic">EF</hi> quod <hi rend="italic">(s. I. m. 2)</hi> uolunt <hi rend="italic">A</hi> in <lb/>
+            corporibus <hi rend="italic">EF</hi> 10 que o exiberi <hi rend="italic">E</hi> 11 suntj possunt <hi rend="italic">BM</hi> non <lb/>
+            <hi rend="italic">om. MA1</hi> exibere <hi rend="italic">TE</hi> dum <hi rend="italic">om. A1</hi> ipsi <hi rend="italic">om. BTIZAMY, er. <lb/>
+             in</hi> f 12 narratur <hi rend="italic">Y</hi> quaedam <hi rend="italic">om. TV</hi> 13 neglegenda <hi rend="italic">FY</hi> inferre <lb/>
+            <hi rend="italic">8. I. m. 2 N</hi> inserere <hi rend="italic">FY</hi> quaestionem <hi rend="italic">om</hi>. F 14 nonnulli <lb/>
+            mortuorum <hi rend="italic">T</hi> 15 corpora eorum <hi rend="italic">F</hi> eorum <hi rend="italic">om. E</hi> tacerent <hi rend="italic">Bl</hi> <lb/>
+            iaterent <hi rend="italic">M</hi> 16 ammonuisse <hi rend="italic">NY</hi> 17 praeberent <hi rend="italic">IZ</hi> praeberet Y <lb/>
+            esse <hi rend="italic">om. V</hi> 19 sensum &lt;p qui taliaJ qualia Y sibi talia p </note> <lb/>
+             
+<pb n="640"/>
+            uidebimur. sed respondendum est non ideo putandum esse <lb/>
+            mortuos ista sentire, quia haec dicere uel indicare uel petere <lb/>
+            uidentur in somnis. nam et uiuentes adparent saepe uiuentibus <lb/>
+            dormientibus, dum se ipsi nesciant adparere, et ab eis <lb/>
+            haec quae somniauerint audiunt dicentibus, quod eos in somnis<lb n="5"/>
+            uiderint agentes aliquid uel loquentes. si ergo me potest <lb/>
+            aliquis in somnis uidere sibi aliquid quod factum est indicantem <lb/>
+            uel etiam quod futurum est praenuntiantem, cum id <lb/>
+            ego prorsus ignorem et omnino non curem, non solum quid <lb/>
+            ille somniet, sed utrum dormiente me uigilet, an uigilante<lb n="10"/>
+            me dormiat, an uno eodemque tempore uigilemus ambo siue <lb/>
+            dormiamus, quando ille somnium uidet, in quo me uidet: <lb/>
+            quid mirum, si nescientes mortui nec ista sentientes tamen <lb/>
+            a uiuentibus uidentur in somnis et aliquid dicunt, quod euigilantes <lb/>
+            uerum esse cognoscant? angelicis igitur operationibus<lb n="15"/>
+            fieri crediderim, siue permittatur desuper siue iubeatur, ut <lb/>
+            aliquid dicere de sepeliendis corporibus suis uideantur in <lb/>
+            somnis, cum id penitus nesciant, quorum illa sunt corpora. <lb/>
+            id autem aliquando utiliter fit siue ad uiuorum qualecumque <lb/>
+            solacium, ad quos pertinent illi mortui, quorum adparent<lb n="20"/>
+            imagines somniantibus, siue ut his admonitionibus generi <lb/>
+            humano sepulturae commendetur humanitas, quae, licet defunctis <lb/>
+            non opituletur, culpanda tamen inreligiositate
+
+<note type="footnote"> 1 uidemur <hi rend="italic">N</hi> 2 quia-indicare <hi rend="italic">om. K</hi> qui (3 dicere om. <hi rend="italic">A</hi> <lb/>
+            3 sompnis <hi rend="italic">V</hi> 4 ipsis <hi rend="italic">M</hi> apparerere <hi rend="italic">Y</hi> 5 quae] qui <hi rend="italic">BNTIZÃFEf<lb/>
+             Eug</hi>. sompniauerint <hi rend="italic">V</hi> somniauef p dicentes Bl somnis agentes <lb/>
+            aliquid uel loquentes uiderint <hi rend="italic">bd</hi> 6 aliquis potest g 8 etiam] etiam <lb/>
+            id <hi rend="italic">Eug</hi> 9 prorsus ego i3 ergo <hi rend="italic">B</hi> e.go <hi rend="italic">IT</hi> omnino] prorsus <hi rend="italic">E</hi> <lb/>
+            omnino prorsus o 10 illi <hi rend="italic">Z</hi> dormientg <hi rend="italic">IZ</hi> me <hi rend="italic">om. IZ</hi> euigilet <lb/>
+            <hi rend="italic">IZ</hi> uigilantem <hi rend="italic">I</hi> 11 me <hi rend="italic">om. I</hi> edormiat <hi rend="italic">I</hi> dormit <hi rend="italic">BAl</hi> <lb/>
+            dormiet <hi rend="italic">V</hi> 12 somnum <hi rend="italic">Tl</hi> sumpnium <hi rend="italic">V</hi> uidit Kl in quo] et in <lb/>
+            quo <hi rend="italic">Eug</hi>. 13 quid] quod <hi rend="italic">Tl</hi> ita <hi rend="italic">N</hi> sapientes <hi rend="italic">F</hi> 14 et] sed 1" <lb/>
+            15 cognoscantur <hi rend="italic">IZ</hi> 16 crederim <hi rend="italic">Y</hi> crediderint &lt;p permittantur 1\' <lb/>
+            17 suis corporibus p 18 paenitus <hi rend="italic">BM</hi> 19 id] ita <hi rend="italic">F</hi> qualelJlcum. <lb/>
+            que <hi rend="italic">B</hi> quale.cumque <hi rend="italic">M</hi> 20 pertinet Bt 21 hiis <hi rend="italic">Y</hi> ammonitionibus <lb/>
+            <hi rend="italic">NKVY</hi> 23 opituleretur cp opitulentur <hi rend="italic">TY</hi> in religione <hi rend="italic">Y</hi> </note> <lb/>
+             
+<pb n="641"/>
+            neglegitur. aliquando autem fallacibus uisis homines in magnos <lb/>
+            mittuntur errores, quos talia perpeti iustum est. uelut si quisquam <lb/>
+            uideat in somnis, quod Aeneas uidisse apud <choice><sic>infens</sic><corr>inferos</corr></choice> <lb/>
+            poetica falsitate narratur, et ei cuiuspiam non sepulti adpareat <lb/>
+            imago loquaturque talia, qualia fertur locutus illi fuisse Palinurus, <lb n="5"/>
+            et cum euigilauerit, ibi corpus eius inueniat, ubi <lb/>
+            iacere inhumatum, cum somniaret, audiuit, admonitus et rogatus, <lb/>
+            ut sepeliret inuentum, et quia id uerum esse comperit, <lb/>
+            credat ideo mortuos sepeliri, ut eorum animae ad loca transeant, <lb/>
+            unde insepultorum animas inferna prohiberi lege somniauit: <lb n="10"/>
+            nonne ita credens plurimum a tramite ueritatis exorbitat? <lb/>
+            </p>
+          
+</div>
+
+<div n="13" subtype="section" type="textpart">
+<p><milestone n="11" unit="altchapter"/> Sic autem infirmitas humana sese habet, ut, cum <lb/>
+            mortuum in somnis quisque uiderit, ipsius animam se uidere <lb/>
+            arbitretur, cum autem uiuum similiter somniauerit, non eius <lb n="15"/>
+            animam neque corpus, sed hominis similitudinem sibi adparuisse <lb/>
+            non dubitet. quasi non possint et mortuorum hominum <lb/>
+            eodem modo nescientium non animae, sed similitudines adparere <lb/>
+            dormientibus. pro certo, cum Mediolani essemus,
+
+<note type="footnote"> 5 cf. Verg. Aen. 6, 337 sqq.\' </note>
+
+<note type="footnote"> 1 fallatibus <hi rend="italic">T1</hi> fallaciis <hi rend="italic">F</hi> nisis] suis his <hi rend="italic">B</hi> suis hi <hi rend="italic">FM</hi> uisis hig <hi rend="italic">T</hi> <lb/>
+            uisis hii <hi rend="italic">A</hi> 2 mittantur A talia perpeti] tali delusione appeti (delasione <lb/>
+            <hi rend="italic">a. I.) F</hi> uelud Y 3 eneas <hi rend="italic">NAEFYq</hi> 4 poetica] poetica <lb/>
+            usus (usus <hi rend="italic">in ras.) B, IZM</hi> poetica 1134 <hi rend="italic">T</hi> poetice causa <hi rend="italic">EF</hi> falsitatis <lb/>
+            <hi rend="italic">E</hi> et] et ut <hi rend="italic">TIZEAKIMF</hi> eius <hi rend="italic">NT\'MF</hi> non sepulti] <lb/>
+            insepulti <hi rend="italic">F</hi> ó loquaturque] et loquatur <hi rend="italic">EF</hi> loquatur <hi rend="italic">Y</hi> loquatur qui T <lb/>
+            talia <hi rend="italic">om. EFYA1</hi> qualia <hi rend="italic">om. TB1</hi> refertur <hi rend="italic">NIZBlf</hi> illi locutus <lb/>
+            <hi rend="italic">bd</hi> locutus illis <hi rend="italic">F</hi> locutus ille p locutus fuisse illi <hi rend="italic">E</hi> pallinurus <lb/>
+            <hi rend="italic">(in mg</hi>. polidorus) <hi rend="italic">K</hi> 6 inueniatur <hi rend="italic">Y</hi> 7 somniared <hi rend="italic">Y</hi> ammonitus <lb/>
+            <hi rend="italic">NKY</hi> 8 inuentumj uiuentum <hi rend="italic">V</hi> 9 sepelire <hi rend="italic">V</hi> 10 prohiberi <lb/>
+            inferna <hi rend="italic">F</hi> prohibere KL 11 nonne (ne <hi rend="italic">s. I. m</hi>. 2) <hi rend="italic">K</hi> ita] ista <lb/>
+            <hi rend="italic">NTKVfyd Eug</hi> a] ad <hi rend="italic">Y</hi> exorbitatur f exhorbitat <hi rend="italic">V</hi> 13 Sic] <lb/>
+            si <hi rend="italic">TMFBlAa</hi> se <hi rend="italic">M</hi> esse <hi rend="italic">FAl cum]</hi> quem <hi rend="italic">BTMKYEAFCh</hi> <lb/>
+            que <hi rend="italic">F</hi> 14 mortuum <hi rend="italic">post</hi> uiderit <hi rend="italic">habent NlZVMfobd</hi> quemque <hi rend="italic">EF</hi> <lb/>
+            arbitretur animam se uidere <hi rend="italic">E</hi> anima Y 15 arbitratur <hi rend="italic">V</hi> autem <lb/>
+            uiderit similiter uiuum <hi rend="italic">E</hi> somniauerit <hi rend="italic">om. E</hi> 16 neque] nec <hi rend="italic">V</hi> <lb/>
+            homines in similitudinem <hi rend="italic">F</hi> sibi similitudinem <hi rend="italic">N</hi> 19 pro certo] <lb/>
+            porro Vf \' porro certe <hi rend="italic">EF</hi> </note>
+
+<note type="footnote"> XXXXI Ang. Sect. V par. Iir. </note>
+
+<note type="footnote"> 41 </note> <lb/>
+             
+<pb n="642"/>
+            audiuimus, quod cum debitum repeteretur a quodam defuncti <lb/>
+            patris cautione prolata, quod filio nesciente a patre iam fuerat <lb/>
+            persolutum, contristari homo grauissime coepit atque mirari. <lb/>
+            quod ei pater <choice n="0.06"><sic n="11">monens</sic><corr n="168">moriens</corr></choice> non dixerit, quid deberet, cum fecisset <lb/>
+            etiam testamentum. tunc ei nimis anxio adparuit idem pater<lb n="5"/>
+            eius in somnis et ubi esset recautum, quo illa cautio uacuata <lb/>
+            fuerat, indicauit. quo inuento iuuenis atque monstrato non <lb/>
+            solum falsi debiti calumniam propulsauit, sed etiam paternum <lb/>
+            recepit chirographum, quod pater non receperat, quando est <lb/>
+            pecunia persoluta. hic utique putatur anima hominis curam<lb n="10"/>
+            gessisse pro filio et ad eum uenisse dormientem, ut docens. <lb/>
+            quod ignorabat, magna molestia liberaret. sed eodem ipso <lb/>
+            ferme tempore, quo id audiuimus, id est nobis apud Mediolanum <lb/>
+            constitutis Carthaginis rhetor Eulogius, qui meus in <lb/>
+            eadem arte discipulus fuit, sicut mihi ipse, posteaquam in<lb n="15"/>
+            Africam remeauimus, retulit, cum rhetoricos Ciceronis libros <lb/>
+            discipulis suis traderet, recensens lectionem, quam postridie <lb/>
+            fuerat traditurus, quendam locum offendit obscurum, quo non <lb/>
+            intellecto uix potuit dormire sollicitus. qua nocte somnianti
+
+<note type="footnote"> 3 grauissime homo coepit p \'coepit grauissime <hi rend="italic">E</hi> mirari] minari JI <lb/>
+            4 quod deberet <hi rend="italic">Eug</hi> 5 ei <hi rend="italic">om. TKAEFMVYBa</hi> nimis <hi rend="italic">om. Eug</hi> <lb/>
+            ancxio <hi rend="italic">Y</hi> 6 eius <hi rend="italic">om. Fj3</hi> essent <hi rend="italic">V</hi> recautum] reuocatum <hi rend="italic">MAFE1,<lb/>
+             (in mg. m. 2) T</hi> recantum <hi rend="italic">V</hi> quod <hi rend="italic">TIZABaM</hi> uacua <hi rend="italic">M</hi> euacuata <lb/>
+            <hi rend="italic">Eug</hi> 7 fuerit <hi rend="italic">EFIJ(</hi> 8 falsi solum <hi rend="italic">E</hi> paternum om. <hi rend="italic">F</hi> <lb/>
+            9 cyrographum <hi rend="italic">NVY</hi> cirographum <hi rend="italic">BFa1 T*</hi> cirografum <hi rend="italic">ETX</hi> chirografum <lb/>
+            <hi rend="italic">IZ</hi> chyrographum &lt;p chiragraphum <hi rend="italic">M1</hi> 10 persoluta pecunia <hi rend="italic">bd</hi> <lb/>
+            pecuniag persoluta (soluta Y) <foreign xml:lang="grc">Υβ</foreign> itaque <hi rend="italic">BTMKYEAFRVCksf</hi> <lb/>
+            anima hominis putatur <hi rend="italic">Y</hi> animam <hi rend="italic">T</hi> 11 pro <hi rend="italic">om. 1</hi> filioli T <lb/>
+            dormiente YT* 12 a magna <hi rend="italic">ITVbd</hi> magnam ? magna eum <lb/>
+            <hi rend="italic">EFVBabd</hi> molestiam o liberaretur <hi rend="italic">Eug</hi> terme ipso <hi rend="italic">E</hi> 13 quo <lb/>
+            id] quod <hi rend="italic">I</hi> id est] id <hi rend="italic">A</hi> item <hi rend="italic">bd om. Er\'Yp mediolanium HZ</hi> <lb/>
+            14 cartaginis <hi rend="italic">K</hi> cartagini* p rethor <hi rend="italic">ZKE</hi> retor <hi rend="italic">MA Y</hi> rhetor Eulogiusl <lb/>
+            rhetoricus cp 15 ipse mihi <hi rend="italic">NTFayEug</hi> mihi <hi rend="italic">om. A</hi> postea ipse T <lb/>
+            16 affricam (af <hi rend="italic">add. 8. 1. tn. 2) T, E}</hi> africa <hi rend="italic">Yy</hi> rettulit <hi rend="italic">NP</hi> rethoricos <lb/>
+            <hi rend="italic">BTKAEM</hi> 17 dispulis Tl posttriduo <hi rend="italic">IZ</hi> post tridufl <hi rend="italic">F</hi> <lb/>
+            post diem <hi rend="italic">NEVfa Eug</hi> post tridue <hi rend="italic">A</hi> postero die <hi rend="italic">K</hi> post tridie <hi rend="italic">BM</hi> <lb/>
+            postremo <hi rend="italic">(in mg</hi>. tridig m. <hi rend="italic">2) T</hi> 18 offendit] ostendit <hi rend="italic">V</hi> 19 quadi <hi rend="italic">T</hi> <lb/>
+            somniante <hi rend="italic">TAF</hi>. </note> <lb/>
+             
+<pb n="643"/>
+            ego illi quod non intellegebat exposui, immo non ego, sed <lb/>
+            imago mea nesciente me et tam longe trans mare aliquid <lb/>
+            aliud siue agente siue somniante et nihil de illius curis <lb/>
+            omnino curante. quomodo fiant ista nescio; sed quomodolibet <lb/>
+            fiant. cur non eodem modo fieri credimus, ut in somnis quisque <lb n="5"/>
+            uideat mortuum, quomodo fit, ut uideat et uiuum? ambobus <lb/>
+            utique nescientibus neque curantibus, quis uel ubi uel <lb/>
+            quando eorum imagines somniet. 
+</p>
+          
+</div>
+
+<div n="14" subtype="section" type="textpart">
+<p><milestone n="12" unit="altchapter"/> Similia sunt autem somniis nonnulla etiam uisa <lb/>
+            uigilantium, qui turbatos habent sensus, sicut phrenetici uel <lb n="10"/>
+            quocumque furentes modo. nam et ipsi loquuntur secum, <lb/>
+            quasi uere praesentibus loquantur, &lt;loquuntur&gt; etiam cum <lb/>
+            absentibus quam praesentibus, quorum imagines cernunt siue <lb/>
+            uiuorum siue mortuorum. sed quemadmodum hi, qui uiuunt, <lb/>
+            ab eis se uideri et cum eis se colloqui nesciunt — neque <lb n="15"/>
+            enim re uera ipsi adsunt aut ipsi sermocinantur, sed turbatis <lb/>
+            sensibus homines talia uisa imaginaria patiuntur — eo modo <lb/>
+            et hi, qui ex hac uita migrarunt, sic affectis hominibus uidentur <lb/>
+            quasi praesentes, cum sint absentes et, utrum aliquis <lb/>
+            eos imaginaliter uideat, omnino nescientes.
+
+<note type="footnote"> 1 illi ego <hi rend="italic">E</hi> quae <hi rend="italic">M</hi> quod non] ut <hi rend="italic">A</hi> et immo <hi rend="italic">E</hi> 2 et <lb/>
+            trans <hi rend="italic">E</hi> B curis <hi rend="italic">om. Eug</hi> 4 cnrente <hi rend="italic">BxMl</hi> ista fiant <hi rend="italic">V</hi> quomodolibet <lb/>
+            fiant] sicut hec fiunt F quomodouiuet (do uiuot <hi rend="italic">in ras.) M</hi> <lb/>
+            5 fiant <hi rend="italic">om. A</hi> quur M credimus fieri <hi rend="italic">BTMAFV$6</hi> mortuumuideat <lb/>
+            <hi rend="italic">in mg. m. 2 T</hi> uideat eum <hi rend="italic">N Eug</hi> 7 uel ubi <hi rend="italic">om. V</hi> <lb/>
+            \'8 quorum <hi rend="italic">Vj}</hi> 9 somnis <hi rend="italic">MAtp</hi> sompniis V in somnis <hi rend="italic">F</hi> 10 frenetici <lb/>
+            <hi rend="italic">BTIZAEFMYfo</hi> 11 modo furentes <hi rend="italic">T</hi> nam et ipsi locuntur saepe <lb/>
+            cum uere praesentibus, locuntur etiam cum absentibus quorum imagines <lb/>
+            <hi rend="italic">sqq. Eug</hi> secum quasi] saepe cum <hi rend="italic">NVWp</hi> 12 quorum loquantur et <lb/>
+            tam cum absentibus quam praesentibus <hi rend="italic">lincola subducta delenda assignantur<lb/>
+             in K</hi> loquantur] locuntur <hi rend="italic">Noj</hi> locuntur <hi rend="italic">addidi</hi> etiam J <lb/>
+            et tam <hi rend="italic">Kbd</hi> 13 quam praesentibus <hi rend="italic">om</hi>. &lt;p quam] quasi cum <hi rend="italic">EFR</hi> <lb/>
+            tamquam <hi rend="italic">N</hi> quasi p quam cum <hi rend="italic">VlJd</hi> si uiuortt <hi rend="italic">Kl</hi> 14 sed] sed et o <lb/>
+            at <hi rend="italic">EF</hi> quomodo <hi rend="italic">EF</hi> hii <hi rend="italic">AB</hi> 15 eis <hi rend="italic">om</hi>. g se colloqui] quos <hi rend="italic">F</hi> <lb/>
+            colloqui] cQloqui <hi rend="italic">IZTIM</hi> conloqui <hi rend="italic">K</hi> loqui <hi rend="italic">AEVfc Eug</hi> nesciunt putant <lb/>
+            <hi rend="italic">F</hi> 16 assunt <hi rend="italic">V</hi> sunt tp turbati <hi rend="italic">AFTEMB1</hi> 18 liii <hi rend="italic">BA</hi> <lb/>
+            affectibus <hi rend="italic">EFM</hi> affectus <hi rend="italic">T</hi> hominum <hi rend="italic">EF</hi> 19 quasi <hi rend="italic">om. Y</hi> eos <lb/>
+            aliquis <hi rend="italic">Pp aliqui Nz Eug</hi> 20 eos <hi rend="italic">om. A</hi> eorum <hi rend="italic">T Eug</hi> uideant © </note>
+
+<note type="footnote"> 41* </note> <lb n="20"/>
+            
+<pb n="644"/>
+            
+</p>
+          
+</div>
+
+<div n="15" subtype="section" type="textpart">
+<p>Huic rei simile est etiam illud, cum homines altius, <lb/>
+            quam si dormirent, subtrahuntur corporis sensibus et occupantur <lb/>
+            talibus uisis. et his enim adparent imagines uiuorum <lb/>
+            atque mortuorum; sed cum fuerint sensibus redditi, quoscumque <lb/>
+            mortuos uidisse se <choice><sic>diierint</sic><corr>dixerint</corr></choice>, uere cum eis fuisse <sic>ereduntur</sic><lb n="5"/>
+            nec adtendunt qui haec audiunt similiter ab eis absentium <lb/>
+            atque nescientium quorundam etiam imagines uisas <lb/>
+            esse uiuorum. homo quidam Curma nomine municipii Tulliensis, <lb/>
+            quod Hipponi proximum est, curialis pauper, uix illius <lb/>
+            loci duumuiralicius et simpliciter rusticanus, cum aegrotaret,<lb n="10"/>
+            ablatus a sensibus paene mortuus iacuit aliquot diebus: <lb/>
+            tenuissimus flatus in naribus, qui manu admota utcumque <lb/>
+            sentiebatur et erat exiguum uiuentis indicium, sepeliri ut <lb/>
+            exanimem non sinebat. nullos artus mouebat, nulla sumebat <lb/>
+            alimenta; nihil oculis, nihil ullo alio sensu corporis qualibet<lb n="15"/>
+            inpacta molestia sentiebat. uidebat tamen multa uelut in <lb/>
+            somnis, quae tandem aliquando post dies plurimos quasi euigilans <lb/>
+            uisa narrauit. ac primum mox ut aperuit oculos, eat <lb/>
+            aliquis, inquit, ad domum Curmae fabri ferrarii et uideat, <lb/>
+            quid ibi agatur. quo cum itum esset, inuentus est mortuus
+
+<note type="footnote">1 cum homines etiam illud cum homines altius quam <hi rend="italic">sqq. A</hi> altius <lb/>
+            quam] subito si <hi rend="italic">E</hi> altius <hi rend="italic">om. F</hi> 2 quasi <hi rend="italic">Fm</hi> dormiant <hi rend="italic">EF,</hi> <lb/>
+            corporalibus <hi rend="italic">Eug</hi> et-uisis <hi rend="italic">om. TMAEFKBlYCh</hi> 3 et <hi rend="italic">s. I. o</hi> hi.\'l <lb/>
+            *is If&gt; 5 se <hi rend="italic">om. Eug</hi> eis <hi rend="italic">8. l. m. 2 y</hi> 6 ab eis om. m 7 scientium<lb/>
+             <hi rend="italic">BTMAFY</hi> uisas] uiuas <hi rend="italic">TMVA1</hi> 8 uiuorumj mortuorum <hi rend="italic">T</hi> <lb/>
+            Cnrma] de turma curma <hi rend="italic">BTRMAFCh</hi> tuliensis o 9 ipponi <hi rend="italic">IZMAF <lb/>
+            YNBTEKy</hi> ypponi <hi rend="italic">V</hi> pauper erat <hi rend="italic">E</hi> 10 duumuiralicius <hi rend="italic">BNTEF</hi> <lb/>
+            duumuiroclicius <hi rend="italic">IZ</hi> duumuir alitjus <hi rend="italic">K</hi> duumuir alicius <hi rend="italic">RY</hi> duumuir ali- <lb/>
+            <hi rend="italic">cuius MACh</hi> duumuir alitius <hi rend="italic">(pr</hi>. i <hi rend="italic">s. I.)</hi> m alicius <hi rend="italic">rp</hi> 11 ablatis <hi rend="italic">TEFVa</hi> <lb/>
+            a <hi rend="italic">om. TEMFA$paene</hi> (ne <hi rend="italic">s. l. m. Sf) N</hi> aliquod <hi rend="italic">TYFZ1</hi> diebus <lb/>
+            ita ut <hi rend="italic">F</hi> 12 flatus erat <hi rend="italic">N</hi> naribus eius <hi rend="italic">EF</hi> quibus <hi rend="italic">JVFp</hi> <lb/>
+            utcumque] uii <hi rend="italic">EF</hi> ut cfi <hi rend="italic">A</hi> quod illa <hi rend="italic">F</hi> 13 et <hi rend="italic">om. E</hi> erat in eo <hi rend="italic">E</hi> <lb/>
+            exigium <hi rend="italic">M</hi> uiuentis in eo <hi rend="italic">F</hi> iudicium Tl inditll <hi rend="italic">A;</hi> iudicium quod <lb/>
+            illum sepeliri <hi rend="italic">sqq. EF</hi> ut <hi rend="italic">a. I. E</hi> 14 sinibat <hi rend="italic">N</hi> nullos] nullo <lb/>
+            modo <hi rend="italic">T</hi> nullo A1 15 alio ullo <hi rend="italic">N</hi> ullo <hi rend="italic">om. T</hi> 19 inquid <hi rend="italic">Y</hi> ait <lb/>
+            <hi rend="italic">EFVp</hi> cur me <hi rend="italic">Y</hi> curmoe II( curme <hi rend="italic">IAEV</hi> 20 quo] quod <hi rend="italic">Y</hi> fuisset <lb/>
+            <foreign xml:lang="grc">β</foreign> </note> <lb n="20"/>
+             
+<pb n="645"/>
+            eo momento, quo iste fuerat sensibus redditus et paene a <lb/>
+            morte reuixerat. tunc intentis, qui aderant, illum exhiberi <lb/>
+            iussum esse, quando ipse dimissus est. indicauit seque illic <lb/>
+            unde redierat dixit audisse, quod non Curma curialis, sed <lb/>
+            Curma faber ferrarius ad loca illa mortuorum praeceptus <lb n="5"/>
+            fuisset adduci. in illis ergo uisis, tamquam somniis suis, inter <lb/>
+            eos defunctos, quos uidebat pro meritorum diuersitate tractari, <lb/>
+            agnouit etiam nonnullos, quos nouerat uiuos. ipsos autem <lb/>
+            uere forsitan credidissem, si non inter illa quasi somnia sua <lb/>
+            uidisset etiam quosdam, qui nunc usque adhuc uiuunt, clericos <lb n="10"/>
+            uidelicet aliquos regionis suae, a quorum ibi presbytero <lb/>
+            audiuit, ut apud Hipponem baptizaretur a me, quod et factum <lb/>
+            esse dicebat. uiderat itaque in illa uisione presbyterum, clericos, <lb/>
+            me ipsum, nondum scilicet mortuos, in qua postea <lb/>
+            uidit et mortuos. cur non etiam illos sicut nos uidisse credatur, <lb n="15"/>
+            utrosque scilicet absentes atque nescientes, ac per hoc <lb/>
+            non ipsos, sed similitudines eorum, sicut etiam locorum? nam <lb/>
+            et fundum uidit, ubi erat ille cum clericis presbyter, et Hipponem, <lb/>
+            ubi a me quasi baptizatus est: in quibus locis profecto <lb/>
+            non erat, quando illic sibi esse uidebatur. nam quid ibi
+
+<note type="footnote">1 in quo <hi rend="italic">N</hi> poenae <hi rend="italic">K</hi> 2 reuiuexerat <hi rend="italic">Y</hi> intenti 2n aderant <lb/>
+            <hi rend="italic">om. Y</hi> adherant <hi rend="italic">M</hi> dixit illum <hi rend="italic">EF</hi> exiberi <hi rend="italic">E</hi> exliibere <hi rend="italic">AM</hi> <lb/>
+            3 iussum] uisum f indicabat <hi rend="italic">BTM</hi> ut dicebat <hi rend="italic">EF</hi> iudicauit 9 seque) <lb/>
+            sicque <hi rend="italic">E.F</hi> 4 se audisse <hi rend="italic">EF</hi> 6 in <hi rend="italic">om. F</hi> uisis <hi rend="italic">in mg. m. 2 T</hi> <lb/>
+            somnis <hi rend="italic">ATl</hi> in aomniie <hi rend="italic">F</hi> suis] fuit <hi rend="italic">IZFAM</hi> suis fuit Eb sillic nonnullos <lb/>
+            <hi rend="italic">KY</hi> autem uere] ant umare (a <hi rend="italic">ex</hi> e tn. 2) <hi rend="italic">K</hi> 9 somnia] omnia <hi rend="italic">Y</hi> <lb/>
+            10 etiam <hi rend="italic">om. E</hi> 11 scilicet <foreign xml:lang="grc">β</foreign> <hi rend="italic">om. Y</hi> aliquos <hi rend="italic">om</hi>. Tp religionis <hi rend="italic">NK</hi> <lb/>
+            a (s. <hi rend="italic">l. paene euan.) B;</hi> a <hi rend="italic">legitur ante</hi> presbytero <hi rend="italic">in BTMA&amp;F</hi> praesbitero <lb/>
+            <hi rend="italic">B</hi> prespitero <hi rend="italic">T</hi> presbitero <hi rend="italic">M</hi> 12 aput T ipponem <hi rend="italic">IZFT<lb/>
+             MNEAYv</hi> ypponem <hi rend="italic">V</hi> baptizetur <hi rend="italic">M.A</hi>. 13 est esse <hi rend="italic">V</hi> uidera <hi rend="italic">Kl</hi> <lb/>
+            itaque] quippe P presbyrum <hi rend="italic">N</hi> praesbiterum <hi rend="italic">B</hi> presbiterorum <hi rend="italic">FE</hi> <lb/>
+            presbiterQ <hi rend="italic">KM</hi> clericos (cle <hi rend="italic">8. I. et</hi> cos <hi rend="italic">ex</hi> cum <hi rend="italic">m. 2) T</hi> clericorumque <lb/>
+            <hi rend="italic">EF</hi> 14 mortuum <hi rend="italic">EF</hi> 15 quur <hi rend="italic">BIM</hi> et nos <hi rend="italic">Y</hi> crederetur <lb/>
+            <hi rend="italic">M.A</hi>. credetur <hi rend="italic">BT1</hi> creditur <hi rend="italic">TlF</hi> 16 absentes <hi rend="italic">ex</hi> habentes <hi rend="italic">K</hi> 17 eorum] <lb/>
+            ipsorum <hi rend="italic">N</hi> 18 presbiter ille cum clericis p presbiter <hi rend="italic">BK</hi> <lb/>
+            prespiter <hi rend="italic">TA</hi> et <hi rend="italic">om. IZ</hi> ipponem <hi rend="italic">NTIZEFYKMA</hi> ypponem <hi rend="italic">V</hi> <lb/>
+            19 quasi a <hi rend="italic">me N</hi> me 8 (8 8. <hi rend="italic">I. m. 2) K</hi> est <hi rend="italic">om. K</hi> 20 namnesciebat <lb/>
+            <hi rend="italic">in mg. Z</hi> </note> <lb n="20"/>
+             
+<pb n="646"/>
+            ageretur eo tempore, nesciebat: quod procul dubio sciret, si <lb/>
+            uere ibi esset. uisa sunt igitur ista, quae non praesentantur <lb/>
+            in ipsis rebus, ut sunt, sed in quibusdam rerum imaginibus <lb/>
+            adumbrantur. denique post multa, quae uidit, etiam in paradisum <lb/>
+            se introductum esse narrauit dictumque sibi esse, cum<lb n="5"/>
+            inde dimitteretur rediturus ad suos: uade, baptizare, si uis <lb/>
+            esse in isto loco beatorum. deinde, ut a me baptizaretur, <lb/>
+            admonitus iam factum esse respondit. cui rursus ille, qui <lb/>
+            cum eo loquebatur, uade, inquit, uere baptizare; nam illud <lb/>
+            in uisione uidisti. post ista conualuit, perrexit Hipponem. <lb n="10"/>
+            pascha iam propinquabat. dedit nomen inter alios conpetentes, <lb/>
+            pariter cum plurimis incognitus nobis; nec illam mihi uisionem <lb/>
+            nec cuiquam nostrorum indicare curauit. baptizatus est, <lb/>
+            peractis diebus sanctis remeauit ad propria. biennio uel amplius <lb/>
+            transacto ego haec cuncta cognoui: primo per quendam<lb n="15"/>
+            meum eiusque amicum in conuiuio meo, cum quaedam talia <lb/>
+            loqueremur; deinde institi ac feci, ut haec mihi praesens ipse <lb/>
+            narraret adtestantibus honestis ciuibus suis et de mirabili <lb/>
+            eius aegritudine, ut iacuerit paene mortuus per dies plurimos, <lb/>
+            et de illo alio Curma fabro ferrario, quod commemoraui. <lb n="20"/>
+            superius, et de his omnibus, quae cum mihi diceret, iam
+
+<note rend="script" type="footnote">2 essent <hi rend="italic">IZ</hi> praestantur <hi rend="italic">BAEMT*yb</hi> praesentatar <hi rend="italic">IZ</hi> restantur 1" <lb/>
+            praestatur <hi rend="italic">T1</hi> 3 imaginibus rerum <hi rend="italic">F</hi> 4 in <hi rend="italic">post</hi> paradisum <hi rend="italic">T</hi> paradysum <lb/>
+            <hi rend="italic">Z</hi> 6 mitteretur <hi rend="italic">IAEFMV$re*diturus K</hi> 7 isto] illo <lb/>
+            <hi rend="italic">BTAEF</hi> beatorumj scorum <hi rend="italic">V</hi> baptizatorum <hi rend="italic">F</hi> deinde] denique <hi rend="italic">A</hi> <lb/>
+            8 iam-respondit <hi rend="italic">om. Y</hi> cui rursus] curiosus Y 9 aere baptizarej <lb/>
+            rebaptizare <hi rend="italic">MA</hi> baptizari <hi rend="italic">.FFp 10</hi> ita <hi rend="italic">F</hi> cflualuit XA ipponem <lb/>
+            <hi rend="italic">NTIZAEF</hi> 11 pasca <hi rend="italic">TEF</hi> pascha autem <hi rend="italic">A</hi> appropinquabat <hi rend="italic">pr</hi> <lb/>
+            12 pluribus <hi rend="italic">N</hi> aliis plurimis <foreign xml:lang="grc">β</foreign> incognitis <hi rend="italic">Fc</hi> ne <hi rend="italic">M</hi> ille <hi rend="italic">BTMA</hi> <lb/>
+            uisionem mihi P mihi] hi cp 13 nec) uel <hi rend="italic">NIZAEYK</hi> cuiquamj <lb/>
+            alicui p nostrorum] conseruorum <hi rend="italic">BTAFM</hi> 14 uiennio <hi rend="italic">N</hi> 15 cnncta <lb/>
+            haec <hi rend="italic">bd</hi> ista cuncta <hi rend="italic">E</hi> primum <hi rend="italic">N</hi> 16 meum om. <hi rend="italic">B TAM</hi> nostrum <lb/>
+            cp cuiusque <hi rend="italic">Y eiusdem N</hi> eias <hi rend="italic">TE</hi> cum] dum <hi rend="italic">IKEVYfibd</hi> <lb/>
+            quendam Y 17 loqueretur I ipse <hi rend="italic">om. KY</hi> 18 onestis cp suis <lb/>
+            ciuibus P 19 iacuerat <hi rend="italic">KY</hi> poenae <hi rend="italic">K</hi> 20 alio illo <hi rend="italic">E</hi> ferrario <lb/>
+            fabro <hi rend="italic">E</hi> fabri cp cdmemoraui <hi rend="italic">I</hi> 21 cum <hi rend="italic">ex</hi> eum <hi rend="italic">m</hi>. 2 <hi rend="italic">T</hi> mihiJ <lb/>
+            nichil p iam <hi rend="italic">scripsi:</hi> etiam <hi rend="italic">BNTIZKMAEFRYChfabd</hi> om. <hi rend="italic">Y</hi> </note> <lb/>
+             
+<pb n="647"/>
+            et se tunc ab illo audisse recolebant atque firmabant. quamobrem <lb/>
+            sicut uidit baptismum suum et me ipsum et Hipponem <lb/>
+            et basilicam et baptisterium non in rebus ipsis, sed in quibusdam <lb/>
+            similitudinibus rerum, ita et alios quosdam uiuos eisdem <lb/>
+            nescientibus uiuis. <lb n="5"/>
+            
+</p>
+          <p><milestone n="13" unit="altchapter"/>Cur non ergo ita et illos mortuos eisdem nescientibus <lb/>
+            mortuis? 
+</p>
+          
+</div>
+
+<div n="16" subtype="section" type="textpart">
+<p>Cur non istas operationes angelicas credimus per dispensationem <lb/>
+            prouidentiae dei bene utentis et bonis et malis <lb/>
+            secundum inscrutabilem altitudinem iudiciorum suorum? siue <lb n="10"/>
+            instruantur hinc mentes mortalium siue fallantur siue consolentur <lb/>
+            siue terreantur, sicut unicuique uel praebenda est <lb/>
+            misericordia uel inroganda uindicta ab illo, cui misericordiam <lb/>
+            et iudicium non inaniter cantat ecclesia. ut uolet <lb/>
+            accipiat quisque quod dicam. si rebus uiuentium interessent <lb n="15"/>
+            animae mortuorum et ipsae nos, quando eas uidemus, adloquerentur <lb/>
+            in somnis, ut de aliis taceam, me ipsum pia mater <lb/>
+            nulla nocte desereret, quae terra marique secuta est, ut mecum <lb/>
+            uiueret. absit enim, ut facta sit uita feliciore crudelis usque <lb/>
+            adeo ut, quando aliquid angit cor meum, nec tristem filium <lb n="20"/>
+            consoletur, quem dilexit unice, quem numquam uoluit maestum <lb/>
+            uidere. sed profecto quod sacer psalmus personat, uerum
+
+<note type="footnote"> 10 cf. Rom. 11, 33 13 cf. Pa. 100, 1 </note>
+
+<note type="footnote"> 1 et se tunc ab illo] se tunc ab illo <hi rend="italic">NKE</hi> se nunc ab illo Y et nunc <lb/>
+            ab illo <hi rend="italic">TAChy</hi> tunc ab illo <hi rend="italic">V$BF</hi> et tunc ab illo <hi rend="italic">M</hi> tunc ab illo se <hi rend="italic">bd</hi> <lb/>
+            audisse se <hi rend="italic">V$adque</hi> firmabant 11 et adfirmabant 12 2 et <hi rend="italic">fin. <lb/>
+             om. N</hi> ipponem <hi rend="italic">NTIZAEFK Ycp</hi> 3 in <hi rend="italic">pr. om. F</hi> 4 alius <hi rend="italic">Y</hi> uiros <hi rend="italic">F</hi> <lb/>
+            5 nioie-nescientibus <hi rend="italic">om. Y</hi> uiuis attestabatur <hi rend="italic">F</hi> 6 quur <hi rend="italic">IZMB1</hi> <lb/>
+            ita-angelicas <hi rend="italic">in mg. m. 2 add. T</hi> 8 quur <hi rend="italic">ZM</hi> ista <hi rend="italic">Y</hi> orationes <lb/>
+            <hi rend="italic">Y</hi> fieri credimus <hi rend="italic">E</hi> dispensatione Y 9 dei prouidentiae <hi rend="italic">E</hi> <lb/>
+            dei <hi rend="italic">om. K</hi> 10 altitudinem inscrutabilem <hi rend="italic">T</hi> 11 ut instruantur <hi rend="italic">N</hi> <lb/>
+            falluntur K1 12 uel <hi rend="italic">om. BAM</hi> est <hi rend="italic">om. K</hi> 14 non \\1i4 (w. <hi rend="italic">2<lb/>
+             exp.) T</hi> 15 dicemus <hi rend="italic">E</hi> uiuentibus <hi rend="italic">BTJlAEF</hi> 16 ipse <hi rend="italic">NIZE</hi> <lb/>
+            ipsi cp eos <hi rend="italic">NKYcp</hi> uidemus eas <hi rend="italic">E</hi> 17 in somnis <hi rend="italic">om. AFM</hi> <lb/>
+            18 nocte] ratione <hi rend="italic">KY</hi> 19 crudelis] crudis I credula <hi rend="italic">F</hi> 20 quid <foreign xml:lang="grc">β</foreign> <lb/>
+            agit <hi rend="italic">NY</hi> angitur <hi rend="italic">BTIZF</hi> ne Tcp 21 unicae <hi rend="italic">B</hi> mestum <lb/>
+            <hi rend="italic">TIZEBFKY</hi> </note> <lb/>
+             
+<pb n="648"/>
+            est: quoniam pater meus et mater mea dereliquerunt <lb/>
+            me, dominus autem adsumpsit me. si ergo dereliquerunt <lb/>
+            nos parentes nostri, quomodo nostris curis et rebus <lb/>
+            intersunt? si autem parentes non intersunt, qui sunt alii mortuorum, <lb/>
+            qui nouerint, quid agamus quidue patiamur? Esaias<lb n="5"/>
+            propheta dicit: tu es enim pater noster, quia Abraham <lb/>
+            nesciuit nos, et Israhel non cognouit nos. si <lb/>
+            tanti patriarchae, quid erga populum ex eis procreatum ageretur, <lb/>
+            ignorauerunt, quibus deo credentibus populus ipse de <lb/>
+            illorum stirpe promissus est, quomodo mortui uiuorum rebus<lb n="10"/>
+            atque actibus cognoscendis adiuuandisque miscentur? quomodo <lb/>
+            dicimus esse eis consultum, qui obierunt, antequam <lb/>
+            uenirent mala, quae illorum obitum consecuta sunt, si et post <lb/>
+            mortem sentiunt quaecumque in uitae humanae calamitate <lb/>
+            contingunt? an forte nos errando ista dicimus et hos putamus<lb n="15"/>
+            quietos, quos inquieta uiuorum uita sollicitat? quid est ergo, <lb/>
+            quod piissimo regi Iosiae pro magno beneficio promisit deus, <lb/>
+            quod esset ante moriturus, ne uideret mala, quae uentura illi <lb/>
+            loco et populo minabatur? quae dei uerba ista sunt. haec <lb/>
+            dicit dominus deus Israhel: uerba mea, quae audisti<lb n="20"/>
+            et ueritus es a facie mea, cum audisti, quae <lb/>
+            locutus sum de loco isto et qui commorantur in <lb/>
+            eo, ut deseratur et in maledicto sit, et conscidisti
+
+<note type="footnote"> 1 Ps. 26, 10 5 Es. 63, 16 19 IV Reg. 22, 18-20 </note>
+
+<note type="footnote"> 1 derelinquerunt <hi rend="italic">KyB1</hi> 2 autem <hi rend="italic">om. K</hi> ssumpsit Tl assumsit <hi rend="italic">X</hi> <lb/>
+            me <hi rend="italic">om. M</hi> ergo] ego <hi rend="italic">Z</hi> 8 parentes] patres <hi rend="italic">BTVAEFMTp</hi> <lb/>
+            4 quid <hi rend="italic">Y</hi> 5 nouerunt <hi rend="italic">TFV$quidue]</hi> quid <hi rend="italic">E</hi> yaaias <hi rend="italic">Y</hi> isajas £ <lb/>
+            6 enim <hi rend="italic">om. Tl</hi> abraam <hi rend="italic">F</hi> 7 nos et] nosset Kl et—nos <hi rend="italic">om. F</hi> <lb/>
+            cognoui cpi nos <hi rend="italic">om. N</hi> 8 eis] his <hi rend="italic">BTMAFVfrbd</hi> 9 populis <foreign xml:lang="grc">β</foreign> <lb/>
+            ipse <hi rend="italic">om. AM</hi> 10 promissus] creatus <hi rend="italic">E</hi> 12 esse eis] eis faisse <hi rend="italic">BTMA <lb/>
+            EFRfiV</hi> eis esse <hi rend="italic">NKYy</hi> 13 post <hi rend="italic">om. A</hi> 14 morte <hi rend="italic">N</hi> 15 continguntur <lb/>
+            cp extingunt <hi rend="italic">F</hi> ista <hi rend="italic">om. E</hi> hos] eos <hi rend="italic">JVFYptp</hi> 16 inquiêtayi <lb/>
+            (i <hi rend="italic">med</hi>. 8. <hi rend="italic">1.) K</hi> inquietam <hi rend="italic">M</hi> uita uiuorum <hi rend="italic">BTEFRVYfcbd</hi> <lb/>
+            uita <hi rend="italic">om. AM</hi> solitat <hi rend="italic">Z</hi> qui <hi rend="italic">Z</hi> ergo est V 17 piissimi <hi rend="italic">BA</hi> <lb/>
+            iosie <hi rend="italic">E</hi> 18 uentura ęTą.Qţ <hi rend="italic">T</hi> 19 ista <hi rend="italic">om. BTAEFM</hi> sunt] sunt <lb/>
+            hec <hi rend="italic">E</hi> 20 pro eo quod uerba <hi rend="italic">sqq. E</hi> 22 isto loco <hi rend="italic">Tbd</hi> commemorantur <lb/>
+            <hi rend="italic">BKX</hi> 23 ut-649, <hi rend="italic">5</hi> in eo <hi rend="italic">in mg. m. 1 T</hi> </note> <lb/>
+             
+<pb n="649"/>
+            uestimenta tua, et fleuisti in conspectu meo, et <lb/>
+            ego audiui, dixit dominus sabaoth. non sic, <choice><sic>occe</sic><corr>ecce</corr></choice> <lb/>
+            ego adponam te ad patres tuos, et adponeris cum <lb/>
+            pace; et non uidebunt oculi tui omnia mala, quae <lb/>
+            ego induco in locum hunc et qui commorantur in <lb n="5"/>
+            eo. territus iste dei comminationibus fleuerat et sua uestimenta <lb/>
+            consciderat; et fit omnium malorum futurorum de properatura <lb/>
+            morte securus, quod ita requieturus esset in pace, <lb/>
+            ut illa omnia non uideret. ibi ergo sunt spiritus defunctorum, <lb/>
+            ubi non uident quaecumque aguntur aut eueniunt in ista uita <lb n="10"/>
+            hominum. quomodo ergo uident tumulos suos aut corpora <lb/>
+            sua, utrum abiecta iaceant, an sepulta? quomodo intersunt <lb/>
+            miseriae uiuorum, cum uel sua ipsi mala patiantur, si talia <lb/>
+            merita contraxerunt, uel in pace requiescant, sicut huic Iosiae <lb/>
+            promissum est, ubi mala ulla nec patiendo nec conpatiendo <lb n="15"/>
+            sustineant, liberati ab omnibus malis, quae patiendo et conpatiendo, <lb/>
+            cum hic uiuerent, sustinebant? 
+</p>
+          
+</div>
+
+<div n="17" subtype="section" type="textpart">
+<p><milestone n="14" unit="altchapter"/> Dixerit aliquis: si nulla est mortuis cura de <lb/>
+            uiuis, quomodo ille diues, qui apud inferos torquebatur, rogabat <lb/>
+            Abraham patrem, ut mittat Lazarum ad quinque fratres <lb n="20"/>
+            suos nondum mortuos et agat cum eis, ne ueniant et ipsi in <lb/>
+            eundem tormentorum locum? sed numquid quia hoc ille diues
+
+<note type="footnote"> 1 tua] mea <hi rend="italic">BIKI</hi> 2 dicit <hi rend="italic">E</hi> sabahot <hi rend="italic">IZ</hi> IJQO şįç <hi rend="italic">K</hi> idcirco <hi rend="italic">E</hi> <lb/>
+            3 in pace Y 4 occuli <hi rend="italic">K</hi> 5 inducam <hi rend="italic">EFV$</hi> commemorantur BxYl <lb/>
+            in eo in <hi rend="italic">mg. N</hi> 6 comminationibus dei <foreign xml:lang="grc">β</foreign> dei] de <hi rend="italic">TAFM</hi> de <lb/>
+            comminationibus <hi rend="italic">B</hi> comminatione <hi rend="italic">N</hi> 7 conciderat <hi rend="italic">V</hi> sit <hi rend="italic">Tl</hi> deproperata <lb/>
+            çp deproperatur amorte <hi rend="italic">K</hi> 8 eeset quieturus <hi rend="italic">E</hi> pace] <lb/>
+            parte ji 10 istam uitam <hi rend="italic">E</hi> hominum uita <hi rend="italic">Eug</hi> 11 hominibus <lb/>
+            <hi rend="italic">TEFRftbd</hi> ergo <hi rend="italic">om. Eug</hi> 12 utrum] aut utrum <hi rend="italic">IZ</hi> obiecta <hi rend="italic">Y</hi> <lb/>
+            iacent <hi rend="italic">IZ</hi> 13 miseria K1 miseriis <hi rend="italic">K2</hi> ipsi sua <hi rend="italic">NE;. ipsa AFM<lb/>
+             om. T</hi> patiuntur <hi rend="italic">MAE</hi> 14 huic <hi rend="italic">om. NEug</hi> Iosiae] ipsi <lb/>
+            <hi rend="italic">BTMdEFV3</hi> iosie <hi rend="italic">Y</hi> iosiae <hi rend="italic">ex</hi> iosuae <hi rend="italic">K</hi> 15 promissum est] promisaione <lb/>
+            confirmatum est <hi rend="italic">E</hi> nec mala ulla <hi rend="italic">Eug</hi> ulla] nulla (n 8. <hi rend="italic">I.)<lb/>
+             I,</hi> nulla <foreign xml:lang="grc">β</foreign> non <hi rend="italic">K</hi> nec conpatiendo <hi rend="italic">om. FMf</hi> 16 liberata <hi rend="italic">E</hi> <lb/>
+            17 hyic <hi rend="italic">K</hi> 18 mortuis est p 19 debes Y1 quia <hi rend="italic">K</hi> 20 abraam <hi rend="italic">F</hi> <lb/>
+            mitteret <hi rend="italic">EFVPZ*$bd</hi> 21 ageret <hi rend="italic">EFVpbd</hi> uenirent <hi rend="italic">EFV$bd</hi> et <lb/>
+            <hi rend="italic">om. T</hi> 22 diues ille hoc p dixit diuea ille <hi rend="italic">Y</hi> diues ille <hi rend="italic">NTEY</hi> </note> <lb/>
+             
+<pb n="650"/>
+            dixit, ideo quid fratres agerent uel quid paterentur illo tempore <lb/>
+            sciuit? ita illi fuit cura de uiuis, quamuis quid agerent <lb/>
+            omnino nesciret, quemadmodum est nobis cura de <choice><sic>mortnis</sic><corr>mortuis</corr></choice>, <lb/>
+            quamuis quid agant utique nesciamus. nam si nihil de mortuis <lb/>
+            curaremus, non utique pro illis deo supplicaremus. denique<lb n="5"/>
+            Abraham nec Lazarum misit et Moysen ac prophetas hic <lb/>
+            eos habere respondit, quos audire deberent, ut ad illa supplicia <lb/>
+            non uenirent. ubi rursus occurrit, quomodo quid hic <lb/>
+            ageretur Abraham pater ipse nesciebat, ubi sciebat esse Moysen <lb/>
+            et prophetas, id est libros eorum, quibus homines oboediendo<lb n="10"/>
+            tormenta inferna euitarent, ubi denique nouerat diuitem illum <lb/>
+            in deliciis, pauperem uero Lazarum in laboribus doloribusque <lb/>
+            uixisse. nam et hoc illi ait: memento, fili, quia percepisti <lb/>
+            bona in uita tua, Lazarus autem mala. sciebat <lb/>
+            ergo haec, quae utique apud uiuos, non apud mortuos gesta<lb n="15"/>
+            fuerant. uerum non cum agerentur in uiuis, sed eis mortuis <lb/>
+            potuit Lazaro indicante cognoscere, ne falsum sit, quod ait <lb/>
+            propheta: Abraham nesciuit nos. 
+</p>
+          
+</div>
+
+<div n="18" subtype="section" type="textpart">
+<p><milestone n="15" unit="altchapter"/> Proinde fatendum est nescire quidem mortuos quid <lb/>
+            hic agatur, sed dum hic agitur, postea uero audire ab eis. <lb n="20"/>
+            qui hinc ad eos moriendo pergunt, non quidem omnia, sed <lb/>
+            quae sinuntur indicare, qui sinuntur etiam ista meminisse,
+
+<note type="footnote"> 1 cf. Luc. 16, 22 sqq. 13 Luc. 16, 25 </note>
+
+<note type="footnote"> 1 quod <hi rend="italic">pr. T</hi> in illo <hi rend="italic">MAEFV$2</hi> fuit illi <hi rend="italic">E</hi> cura fuit AT <lb/>
+            facerent <hi rend="italic">F</hi> 3 omnino <hi rend="italic">om</hi>. Tl nescirept <hi rend="italic">F</hi> nobis est <hi rend="italic">Fp</hi> uobis <lb/>
+            <hi rend="italic">M</hi> cura <hi rend="italic">om. T</hi> 4 omnino utique p 6 abraam <hi rend="italic">F</hi> ac] et At <lb/>
+            hac A2 prophetas quin immo hic <hi rend="italic">sqq. EFpV</hi> hic-respondit om. <lb/>
+            <hi rend="italic">TK</hi> 7 quos-prophetas <hi rend="italic">in mg. m. 2 T</hi> ad om. <hi rend="italic">Kl</hi> 8 hic om. <hi rend="italic">TY</hi> <lb/>
+            9 abraam <hi rend="italic">T</hi> pater abraam <hi rend="italic">F</hi> ipse <hi rend="italic">om. TMAFV$ibi B esse</hi> <lb/>
+            sciebat <hi rend="italic">FYp</hi> moysen esse et prophetae <hi rend="italic">E</hi> 11 infemi <hi rend="italic">ME ou*. V</hi> <lb/>
+            uitarent <hi rend="italic">NIZAKv</hi> deuitarent p 12 diliciis <hi rend="italic">Ttp</hi> delitiis <hi rend="italic">Y</hi> 13 recepisti <lb/>
+            <hi rend="italic">NEVp 14</hi> bona] bona tua <hi rend="italic">NBAM</hi> similiter mala <hi rend="italic">V,1 15</hi> quae) <lb/>
+            quia <hi rend="italic">VF om. BTMA</hi> utique <hi rend="italic">om</hi>. F[3 aput <hi rend="italic">Y</hi> 16 faerant] sunt <foreign xml:lang="grc">β</foreign> <lb/>
+            non non <hi rend="italic">Y</hi> cum non <hi rend="italic">T</hi> in eis <hi rend="italic">T</hi> mortuus <hi rend="italic">Y</hi> defunctos <lb/>
+            18 habraham <hi rend="italic">T</hi> abraam <hi rend="italic">F</hi>. 19 <hi rend="italic">cum uoce</hi> Proinde <hi rend="italic">incipit cod</hi>. X <lb/>
+            quod <hi rend="italic">MA</hi> 20 nondum ? agatur <hi rend="italic">K1</hi> uero <hi rend="italic">om. XV1</hi> non audire F <lb/>
+            22 sinunt <hi rend="italic">BTA1</hi> indicare-sinuntur <hi rend="italic">om. X</hi> quae <hi rend="italic">Kf</hi> isti &lt;p ita <hi rend="italic">KY</hi> </note> <lb/>
+             
+<pb n="651"/>
+            et quae illos, quibus haec indicant, oportet audire.. possunt <lb/>
+            et ab , angelis, qui rebus, quae aguntur hic, praesto sunt, <lb/>
+            audire aliquid mortui, quod unumquemque illorum audire <lb/>
+            debere iudicat, cui cuncta subiecta sunt. nisi enim essent <lb/>
+            angeli, qui possent interesse et uiuorum et mortuorum locis, <lb n="5"/>
+            non dixisset dominus Iesus: contigit autem mori inopem <lb/>
+            illum et auferri ab angelis in sinum Abrahae. <lb/>
+            nunc ergo hic, nunc ibi esse potuerunt, qui hinc illuc <lb/>
+            quem deus uoluit abstulerunt. possunt etiam spiritus mortuorum <lb/>
+            aliqua, quae hic aguntur, quae necessarium est eos <lb n="10"/>
+            nosse et quos necessarium est ea nosse, non solum praesentia <lb/>
+            uel praeterita, uerum etiam futura spiritu dei reuelante cognoscere, <lb/>
+            sicut non omnes homines, sed prophetae, dum hic <lb/>
+            uiuerent, cognoscebant, nec ipsi omnia, sed quae illis esse <lb/>
+            reuelanda dei prouidentia iudicabat. mitti quoque ad uiuos <lb n="15"/>
+            aliquos ex mortuis, sicut e contrario Paulus ex uiuis in paradisum <lb/>
+            raptus est, diuina scriptura testatur. nam Samuhel <lb/>
+            propheta defunctus uiuo regi Sauli etiam futura praedixit: <lb/>
+            quamuis nonnulli non ipsum fuisse, qui potuisset magicis <lb/>
+            artibus euocari, sed aliquem spiritum tam malis operibus
+
+<note type="footnote"> 6 Luc. 16, 22 16 cf. II Cor. 12, 2 18 cf. I Reg. 28, 7 sqq. <lb/>
+            20 cf. de diu. quaest. ad Simpl. II quaest. III </note>
+
+<note type="footnote"> 1 haec <hi rend="italic">om. Eug</hi> 3 aliquid audire <hi rend="italic">F</hi> unumquemque] none quemque <lb/>
+            <hi rend="italic">BTMA</hi> eorum <hi rend="italic">F</hi> 4 subiacent <hi rend="italic">E</hi> enim <hi rend="italic">om. Eug</hi> 5 possunt <lb/>
+            <hi rend="italic">NMA YEug pr</hi>. et <hi rend="italic">om. V</hi> 6 ccntingit Kl 7 auferre Kx <lb/>
+            ferri <hi rend="italic">AEFXVfy</hi> ferre <hi rend="italic">M</hi> afferri <hi rend="italic">ex</hi> auferri &lt;p sinu <hi rend="italic">JJNTKAY</hi> habraham <lb/>
+            <hi rend="italic">T</hi> abraae <hi rend="italic">F</hi> abraham <hi rend="italic">ABl</hi> 8 nunc] non <hi rend="italic">IZ</hi> \' ibi] illic ? <lb/>
+            ubi <hi rend="italic">X</hi> hunc <hi rend="italic">X</hi> illud <hi rend="italic">I</hi> illum <hi rend="italic">NcpX</hi> 10 quae <hi rend="italic">alt.]</hi> quos Y quia <hi rend="italic">F</hi> <lb/>
+            ea <hi rend="italic">BTMAKYF</hi> 11 et-nosse <hi rend="italic">in mg. Z om. F</hi> quod <hi rend="italic">Y</hi> quae <hi rend="italic">MABT</hi> <lb/>
+            non est <hi rend="italic">BTKMA</hi> est <hi rend="italic">om. E</hi> ea nosse] eos non nosse <hi rend="italic">BMT2YA</hi> <lb/>
+            non solum necessarium non est eos non nosse non solum praesentia <lb/>
+            <hi rend="italic">sqq. F</hi> praeterita uel praesentia <hi rend="italic">bd</hi> 12 etiam <hi rend="italic">om. MA</hi> 14 illizi] <lb/>
+            ipsi <hi rend="italic">Y</hi> 15 iudicat <hi rend="italic">M</hi> audiebat YKl mittit <hi rend="italic">Y</hi> ad uinos <hi rend="italic">om. X</hi> <lb/>
+            16 aliquos (os <hi rend="italic">add. m. 2) N</hi> aliquis Kl e <hi rend="italic">om. BMA</hi> paulus quod <lb/>
+            <hi rend="italic">EF</hi> paradysum <hi rend="italic">N\'</hi> 17 raptus <hi rend="italic">in mg. m. 2 T</hi> est] esse <hi rend="italic">X <lb/>
+            samuel EFRYVX}vbd</hi> 18 defunctus] mortuus <foreign xml:lang="grc">β</foreign> <hi rend="italic">Sauli etiam regi bd</hi> <lb/>
+            19 nonnulli <hi rend="italic">om. V</hi> potuit <hi rend="italic">Zl</hi> potuisse <hi rend="italic">TJlIA</hi> 20 tam <hi rend="italic">om. F</hi> </note> <lb n="20"/>
+             
+<pb n="652"/>
+            congruentem illius <choice><sic>eiistiment</sic><corr>existiment</corr></choice> similitudinem figurasse: cum <lb/>
+            liber Ecclesiasticus, quem Iesus filius Sirach scripsisse traditur <lb/>
+            et propter eloquii nonnullam similitudinem Salomonis <lb/>
+            pronuntiatur, contineat in laude patrum, quod Samuhel etiam <lb/>
+            mortuus prophetauerit. sed si et huic libro ex Hebraeorum<lb n="5"/>
+            quia in eo non est canone contradicitur, quid de Moyse <lb/>
+            dicturi sumus, qui certe et in Deuteronomio mortuus et in <lb/>
+            euangelio cum Helia, qui mortuus non est, legitur adparuisse <lb/>
+            uiuentibus? 
+</p>
+          
+</div>
+
+<div n="19" subtype="section" type="textpart">
+<p><milestone n="16" unit="altchapter"/> Hinc et illa soluitur quaestio, quomodo martyres<lb n="10"/>
+            ipsis beneficiis, quae dantur orantibus, indicant se interesse <lb/>
+            rebus humanis, si nesciunt mortui, quid agant uiui. non enim <lb/>
+            solis beneficiorum effectibus, uerum ipsis etiam hominum <lb/>
+            aspectibus confessorem adparuisse Felicem, cuius inquilinatum <lb/>
+            pie diligis, cum a barbaris Nola obpugnaretur, audiuimus non<lb n="15"/>
+            incertis rumoribus, sed testibus certis. <sic>uemm</sic> ista diuinitus <lb/>
+            exhibentur longe aliter, quam sese habet usitatus ordo singulis <lb/>
+            creaturarum generibus adtributus. non enim quia in
+
+<note type="footnote"> 2 cf. de doctr. chr. II 8, 13 4 cf. Eccli. 46, 13 7 cf. Dent. 34, 5 <lb/>
+            cf. Matth. 17, 3 18 cf. Ioh. 2, 9 </note>
+
+<note type="footnote"> 1 existimant Y similitudinem <hi rend="italic">om. Y</hi> flgura esset <hi rend="italic">IZ</hi> 2 hie- <lb/>
+            SUS <hi rend="italic">N</hi> filius <hi rend="italic">om. BIZKMAYy1</hi> syrae <hi rend="italic">B</hi> syralic <hi rend="italic">T</hi> syraac <hi rend="italic">V</hi> sirac <lb/>
+            <hi rend="italic">IZKMAF</hi> ae scripsisse <hi rend="italic">Y</hi> traditur] testatur <hi rend="italic">KY</hi> 3 eloquium <hi rend="italic">BT</hi> <lb/>
+            nonnulla <hi rend="italic">V</hi> nullam p 4 contineatyr <hi rend="italic">(exp. m. 2) T</hi> laudem <hi rend="italic">K</hi> <lb/>
+            samueel <hi rend="italic">Y</hi> samuel <hi rend="italic">EFVfrbd</hi> etiam] et <hi rend="italic">MAKFVYBE</hi> 5 et om. <lb/>
+            <hi rend="italic">B TMKAEFVYfibd,</hi> ebreorum <hi rend="italic">KM</hi> ebraeorum <hi rend="italic">BT</hi> hebreorum <hi rend="italic">F</hi> <lb/>
+            6 in eo] in eorum <hi rend="italic">bd om. AE,</hi> in eo <hi rend="italic">post</hi> ost <hi rend="italic">legitur in T</hi> canhone <lb/>
+            <hi rend="italic">B</hi> cannone &lt;p in canone <hi rend="italic">E</hi> moysi <hi rend="italic">Z</hi> 7 deuthoronomio <hi rend="italic">N</hi> deuteronomium <lb/>
+            <hi rend="italic">Y</hi> 8 elya <hi rend="italic">EV</hi> Elia <hi rend="italic">bd</hi> legitur <hi rend="italic">om. T1</hi> 9 uidentibus c <lb/>
+            uiuens <hi rend="italic">F</hi> 10 <hi rend="italic">Incipit cod. X</hi> Hic <hi rend="italic">X</hi> quaestio soluitur <hi rend="italic">T</hi> quonftmodo <lb/>
+            <hi rend="italic">KNEug</hi> quodammodo (quod <hi rend="italic">add. m. 2) Y</hi> sancti martyres <hi rend="italic">T</hi> <lb/>
+            11 ipsi <hi rend="italic">NyEug</hi> orationibus <hi rend="italic">Eug</hi> 12 agunt <hi rend="italic">BTAFMVXa</hi> 13 affectibus <lb/>
+            <hi rend="italic">FVp</hi> uerum-aspectibus <hi rend="italic">in mg. Z</hi> etiam ipsis <hi rend="italic">Abd</hi> ipsis <lb/>
+            <hi rend="italic">om. X</hi> 14 cuiuB-diligis] ciuibus vel inquilinis (inquilis F) pie a se <lb/>
+            dilectis (delictis <hi rend="italic">E) EFVfy</hi> 15 a <hi rend="italic">om</hi>. Yep oppugnabatur <hi rend="italic">V</hi> expugnaretur <lb/>
+            g pugnaretur <hi rend="italic">X</hi> 16 certis testibus <hi rend="italic">E</hi> testibus] certibus ..:V <lb/>
+            <hi rend="italic">om. T</hi> certis rebus <hi rend="italic">T</hi> 17 exibentur <hi rend="italic">EF</hi> quam] ca <hi rend="italic">Y</hi> ae <lb/>
+            <hi rend="italic">BMAF$18</hi> adtribuit Y </note> <lb/>
+             
+<pb n="653"/>
+            uinum aqua, cum uoluit dominus, repente conuersa est, ideo <lb/>
+            non debemus, quid aqua ualeat in elementorum ordine proprio, <lb/>
+            ab istius diuini operis raritate uel potius singularitate <lb/>
+            discernere; nec quoniam Lazarus resurrexit, ideo mortuus <lb/>
+            omnis, quando uult, surgit aut eo modo exanimis a uiuente <lb n="5"/>
+            quomodo a uigilante dormiens excitatur. alii sunt humanarum <lb/>
+            limites rerum, alia diuinarum signa uirtutum; alia sunt, quae <lb/>
+            naturaliter, alia, quae mirabiliter fiunt, quamuis et naturae <lb/>
+            deus adsit, ut sit, et miraculis natura non desit. non igitur <lb/>
+            ideo putandum est uiuorum rebus quoslibet interesse posse <lb n="10"/>
+            defunctos, quoniam quibusdam sanandis uel adiuuandis martyres <lb/>
+            adsunt, sed ideo potius intellegendum est, quod per <lb/>
+            diuinam potentiam martyres uiuorum rebus intersunt, quoniam <lb/>
+            defuncti per naturam propriam uiuorum rebus interesse non <lb/>
+            possunt. <lb n="15"/>
+            
+</p>
+          
+</div>
+
+<div n="20" subtype="section" type="textpart">
+<p>Quamquam ista quaestio uires intellegentiae meae uincit, <lb/>
+            quemadmodum opitulentur martyres his, quos per eos certum <lb/>
+            est adiuuari: utrum ipsi per se ipsos adsint uno tempore <lb/>
+            tam diuersis locis et tanta inter se longinquitate discretis, <lb/>
+            siue ubi sunt eorum memoriae siue praeter suas memorias, <lb n="20"/>
+            ubicumque adesse sentiuntur, an ipsis in loco suis meritis <lb/>
+            congruo ab omni mortalium conuersatione remotis et tamen
+
+<note type="footnote"> 4 cf. Ioh. 11, 44 </note>
+
+<note type="footnote"> 1 uinum] unum <hi rend="italic">M</hi> uolait fecit T1 3 ab] ad <hi rend="italic">IZFA</hi> caritaţę <lb/>
+            <hi rend="italic">(in mg</hi>. raritate) <hi rend="italic">T</hi> rarite <hi rend="italic">Bl</hi> raritatem <hi rend="italic">IZAF</hi> singularitatem <hi rend="italic">IZAF</hi> <lb/>
+            4 neque <hi rend="italic">V</hi> ideo] ita <hi rend="italic">V</hi> 5 surget <hi rend="italic">Eug</hi> surgit—modo] resurrexerunt <lb/>
+            tantummodo <hi rend="italic">X</hi> eo] quo <hi rend="italic">Y</hi> 6 uigiljante <hi rend="italic">K</hi> exitatur <hi rend="italic">F</hi> <lb/>
+            humanoram <hi rend="italic">BTA1</hi> 7 limites] milites <hi rend="italic">TFAX</hi> rerum <hi rend="italic">om. X</hi> alia <lb/>
+            sunt p diuinorum <hi rend="italic">MB om. T\'</hi> 9 Bssit <hi rend="italic">NV</hi> ut sit <hi rend="italic">om. KYf</hi> <lb/>
+            10 rebus <hi rend="italic">om. X</hi> posse <hi rend="italic">om. KY</hi> 11 defunctis X 12 adBunt-martyres <lb/>
+            <hi rend="italic">om. X</hi> 13 prouidentia <hi rend="italic">(a</hi>. i potentia <hi rend="italic">m. 2) T</hi> rebus <hi rend="italic">om. T*</hi> <lb/>
+            intersont-rebus <hi rend="italic">om. X</hi> 14 interesse non possunt] intersunt <hi rend="italic">K</hi> 16 meae <lb/>
+            intellegentiae <hi rend="italic">F</hi> uincat <hi rend="italic">KYXM</hi> uicit f uicerit <hi rend="italic">Eug</hi> 17 quemammodum <lb/>
+            <hi rend="italic">NBX</hi> oppitulentur tp <hi rend="italic">iis$bd</hi> quod <hi rend="italic">Y</hi> 18 utrum <hi rend="italic">om. MA</hi> <lb/>
+            ipsis T assint <hi rend="italic">K</hi> asserit <foreign xml:lang="grc">β</foreign>19 longitudine <hi rend="italic">E</hi> 20 sine <hi rend="italic">pr. om. X</hi> <lb/>
+            propter <hi rend="italic">X</hi> 21 locis <hi rend="italic">Tl</hi> 22 omni <hi rend="italic">om</hi>. tp semotis <hi rend="italic">NKYrp</hi> </note> <lb/>
+             
+<pb n="654"/>
+            generaliter orantibus pro indigentia supplicantum — sicut <lb/>
+            nos oramus pro mortuis, quibus utique non praesentamur nec <lb/>
+            ubi sint uel quid agant scimus — deus omnipotens, qui est <lb/>
+            ubique praesens nec concretus nobis nec remotus a nobis. <lb/>
+            exaudiens martyrum preces, per angelica ministeria usquequaque<lb n="5"/>
+            diffusa praebeat hominibus ista solacia, quibus in <lb/>
+            huius uitae miseria iudicat esse praebenda, et suorum martyrum <lb/>
+            merita ubi uult, quando uult, quomodo uult, maximeque <lb/>
+            per eorum memorias, quoniam hoc nouit expedire nobis <lb/>
+            ad aedificandam fidem Christi, pro cuius illi confessione sunt<lb n="10"/>
+            passi, mirabili atque ineffabili potestate ac bonitate <choice><sic>commenrlet</sic><corr>commendet</corr></choice>. <lb/>
+            res est haec altior, quam ut a me possit adtingi, et <lb/>
+            abstrusior, quam ut a me ualeat perscrutari. et ideo quid <lb/>
+            horum duorum sit, an uero fortassis utrumque sit, ut aliquando <lb/>
+            ista fiant per ipsam praesentiam martyrum, aliquando<lb n="15"/>
+            per angelos suscipientes personam martyrum, definire non <lb/>
+            audeo. mallem ab scientibus ista perquirere. neque enim nemo <lb/>
+            est, qui haec sciat, non qui sibi scire uideatur et nesciat. <lb/>
+            dona enim dei sunt his alia et illis alia largientis secundum <lb/>
+            apostolum, qui dicit unicuique dari manifestationem spiritus
+
+<note type="footnote"> 1 orantes X orationibus <hi rend="italic">EtlfJ</hi> indigentiis <hi rend="italic">IZEbd</hi> supplicantiura <lb/>
+            <hi rend="italic">TAFVXp</hi> 3 Bcimusj sed X omnipotens deus <hi rend="italic">VX</hi> 4 nobis <hi rend="italic">pr. <lb/>
+             om. X</hi> 5 exaudiat <hi rend="italic">FA2</hi> exaudiet <hi rend="italic">BTMAX</hi> misteria <hi rend="italic">Y</hi> ministerifi ; <lb/>
+            6 et praebeat <hi rend="italic">A</hi> 7 praebendum <hi rend="italic">F</hi> merita martyrum (martyrum <lb/>
+            <hi rend="italic">Onl. K) KMKEVRXfibdEug</hi> meritum martyrum <hi rend="italic">BT1</hi> meritortl martvrura <lb/>
+            <hi rend="italic">T1</hi> martirum meritum <hi rend="italic">F</hi> merito martyrum <hi rend="italic">A</hi> 8 uult expedire nobis X <lb/>
+            quomodo uult, quando uult <hi rend="italic">Eug</hi> quando uult <hi rend="italic">om. I</hi> quomodo uult <lb/>
+            <hi rend="italic">om. X</hi> maxime qui <hi rend="italic">BF</hi> 9 nouit] nobis 1" expedire om. <hi rend="italic">T</hi> <lb/>
+            nobis <hi rend="italic">om. Y</hi> 11 mirabiliaque Kl hac <hi rend="italic">X</hi> bonitatS o commendat <lb/>
+            <hi rend="italic">E</hi> commendata X 12 res haec altior est <hi rend="italic">TEFVabd</hi> est <lb/>
+            <hi rend="italic">om. BMA</hi> haec <hi rend="italic">om. A</hi> ut-quam <hi rend="italic">om. V</hi> possit] debeat <hi rend="italic">EłI!I</hi> <lb/>
+            13 ualeat] possit <hi rend="italic">E</hi> 14 duum <hi rend="italic">V</hi> utrumque sit <hi rend="italic">om. V</hi> ut om. JET <lb/>
+            15 ista-aliquando <hi rend="italic">om. X</hi> ipsa praesentia <hi rend="italic">N</hi> aliquando-martyrulO <lb/>
+            <hi rend="italic">om. Tx</hi> 16 persona YXl personas X3 17 mallem enim <hi rend="italic">E</hi> a <hi rend="italic">EVbd</hi> <lb/>
+            ab scientibus] absentibus <hi rend="italic">M</hi> 18 non qui] numquid <hi rend="italic">X</hi> sibi om. FA <lb/>
+            uideatur scire <hi rend="italic">X post</hi> nesciat <hi rend="italic">repetuntur</hi> numquid-nesciat in <hi rend="italic">X</hi> <lb/>
+            19 alia sfyyt K illis] his <hi rend="italic">X</hi> largiendis &lt;p largientes <hi rend="italic">Bl</hi> 20 dati T </note> <lb n="20"/>
+             
+<pb n="655"/>
+            ad utilitatem. alii quidem, inquit, datur per spiritum <lb/>
+            sermo sapientiae; alii sermo scientiae secundum <lb/>
+            eundem spiritum; alteri autem fides in eodem spiritu; <lb/>
+            alii donatio curationum in uno spiritu; alii <lb/>
+            operationes uirtutum; alii prophetia; alii diiudicatio <lb n="5"/>
+            spirituum; alii genera linguarum; alii interpretatio <lb/>
+            sermonum: omnia autem haec operatur <lb/>
+            unus atque idem spiritus diuidens propria unicuique <lb/>
+            prout uult. horum omnium spiritalium donorum, <lb/>
+            quae commemorauit apostolus, cuicumque data est diiudicatio <lb n="10"/>
+            spirituum, ipse scit ista sicut scienda sunt. 
+</p>
+          
+</div>
+
+<div n="21" subtype="section" type="textpart">
+<p><milestone n="17" unit="altchapter"/> Talem fuisse credendum est illum Iohannem <lb/>
+            monachum, quem de belli ciuilis euentu maior Theodosius <lb/>
+            consuluit imperator: habebat quippe etiam prophetiam. neque <lb/>
+            enim singulos singula munerum istorum, sed etiam plura <lb n="15"/>
+            unum habere posse non ambigo. Iohannes ergo iste cuidam <lb/>
+            mulieri religiosissimae inpatienter eum uidere cupienti atque <lb/>
+            ut hoc inpetraret per maritum suum uehementer instanti, cum <lb/>
+            ille nollet, quoniam id numquam permiserat feminis, uade, <lb/>
+            inquit, dic uxori tuae, uidebit me nocte proxima, sed in <lb n="20"/>
+            somnis. et factum est: monuitque illam quidquid fidelem <lb/>
+            coniugatam moneri oportebat. quae cum euigilasset, talem se <lb/>
+            uidisse hominem dei uiro suo, qualem ille eum nouerat, et <lb/>
+            quid ab illo audierit, iudicauit. qui hoc ab eis conperit, retulit
+
+<note type="footnote"> 1 I Cor. 12, 7-11 </note>
+
+<note rend="script" type="footnote"> 1 <hi rend="italic">cum uocabulo</hi> utilitatem <hi rend="italic">finitur X</hi> quidem <hi rend="italic">om. YK</hi> inquid <hi rend="italic">Y</hi> <lb/>
+            3 autem <hi rend="italic">om. TE</hi> epm <hi rend="italic">N</hi> 4 alii-spiritu <hi rend="italic">om. MARF</hi> alii] alteri <lb/>
+            <hi rend="italic">BKEFVabd</hi> donatio] gratia <hi rend="italic">T</hi> curationumJ sanitatum <hi rend="italic">T</hi> 5 operatio <lb/>
+            <hi rend="italic">T</hi> prophetiae <hi rend="italic">T VMAeaF</hi> prophetatio o 7 sermonum] linguarum <lb/>
+            <hi rend="italic">BFKMRIZ er. in I</hi> 8 idem <hi rend="italic">om, F</hi> propria unicuique] <lb/>
+            singulis <hi rend="italic">E</hi> cuique <hi rend="italic">K</hi> 10 quem <hi rend="italic">N</hi> cuique <hi rend="italic">Y</hi> 12 in illum <hi rend="italic">F</hi> <lb/>
+            13 euentum <hi rend="italic">N</hi> 14 inperator <hi rend="italic">F</hi> habeat <hi rend="italic">K</hi> etiam <hi rend="italic">om. T</hi> 15 unum <lb/>
+            plura <hi rend="italic">E</hi> 16 quadam muliere <hi rend="italic">Vf-bd</hi> 17 religiosissime <hi rend="italic">TY</hi> religiosissima <lb/>
+            <hi rend="italic">VNbd</hi> cupiente <hi rend="italic">Vpbd</hi> 18 maritum] uirtl <hi rend="italic">E</hi> instante <hi rend="italic">Fpbd</hi> <lb/>
+            19 femini <hi rend="italic">K</hi> 20 in] tu p 21 quicquid <hi rend="italic">KEF</hi> 22 coniuugatam <hi rend="italic">K</hi> <lb/>
+            moneri <hi rend="italic">ex</hi> moueri <hi rend="italic">Y</hi> 24 illo] eo <foreign xml:lang="grc">β</foreign> audierat <hi rend="italic">T,</hi> (a <hi rend="italic">fin. in ras.) I</hi> <lb/>
+            indicabit l"1 rettulit <hi rend="italic">N</hi> </note> <lb/>
+             
+<pb n="656"/>
+            mihi, uir grauis et nobilis et dignissimus credi. sed si illum <lb/>
+            sanctum monachum ipse uidissem, quia, sicut fertur, patientissime <lb/>
+            interrogabatur et sapientissime respondebat, quaesissem <lb/>
+            ab eo, quod ad istam pertinet quaestionem, utrum <lb/>
+            ipse ad illam feminam uenisset in somnis, id est spiritus<lb n="5"/>
+            eius in effigie corporis sui, sicut nos ipsos in effigie nostri <lb/>
+            corporis somniamus, an ipso aliud agente uel, si dormiebat, <lb/>
+            aliud somniante siue per angelum siue quocumque alio modo <lb/>
+            in mulieris somnio talis facta sit uisio, atque id futurum, <lb/>
+            ut ipse promitteret, prophetiae spiritu <choice><sic>renelante</sic><corr>reuelante</corr></choice> praesciuerit. <lb n="10"/>
+            si enim ipse interfuit somnianti, mirabili gratia utique id <lb/>
+            potuit, non natura, et dei munere, non propria facultate; si <lb/>
+            autem ipso aliud agente, siue dormiente et uisis aliis occupato, <lb/>
+            cum mulier uidit in somnis, profecto tale aliquid factum <lb/>
+            est, quale illud est, quod in apostolorum Actibus legimus,<lb n="15"/>
+            ubi dominus Iesus loquitur Ananiae de Saulo et indicat ei, <lb/>
+            quod Saulus uidit ad se uenientem Ananiam, cum hoc Ananias <lb/>
+            ipse nesciret. quodlibet horum mihi responderet ille <lb/>
+            homo dei, et de martyribus ab illo pergerem quaerere, utrum <lb/>
+            ipsi adsint in somnis uel quocumque alio modo uidentibus<lb n="20"/>
+            eos in qua figura uoluerint, et maxime quando ab eis se
+
+<note type="footnote"> 15 cf. Act. 9, 10 sqq. </note>
+
+<note type="footnote"> 1 grauissimus YK dignissimus <hi rend="italic">ex</hi> grauissimua <hi rend="italic">F</hi> credidi <hi rend="italic">TBI]{2F</hi> <lb/>
+            2 ipse <hi rend="italic">8. l. T om. E</hi> 4 ista <hi rend="italic">Y</hi> 5 ille ipse &lt;p illam] ipsam f <lb/>
+            faeminam <hi rend="italic">N</hi> 6 effigiae <hi rend="italic">B</hi> sui-corporie <hi rend="italic">om. K</hi> nos <hi rend="italic">om</hi>. 4 <lb/>
+            ipsi <hi rend="italic">E</hi> corporis nostri <hi rend="italic">AV$bd</hi> 7 an] ante <hi rend="italic">Y</hi> 8 eine per angelum <lb/>
+            <hi rend="italic">om. K</hi> siue a quocumque <hi rend="italic">BTF</hi> alio quocumque <hi rend="italic">E</hi> 9 somniam <lb/>
+            <hi rend="italic">BMAEF</hi> atque si <hi rend="italic">E</hi> 10 ut <hi rend="italic">om. E</hi> promiserit <hi rend="italic">E</hi> prophetiaeque <lb/>
+            <hi rend="italic">E</hi> praesciuerit] cognouerit <hi rend="italic">E</hi> II si enim ipse somniante <lb/>
+            interfluit P somnianti interfuit V iJ utique gratia N utique <lb/>
+            <hi rend="italic">om. Tl</hi> 13 uisis] ųjş (s. ųiş <hi rend="italic">add</hi>. in) <hi rend="italic">K</hi> occnpata <hi rend="italic">IZ</hi> 14 aliquid <lb/>
+            quicquid <hi rend="italic">V</hi> 15 actibus apostolorum <hi rend="italic">BTMAEFVRfibd</hi> 16 annaniae <lb/>
+            <hi rend="italic">AB</hi> iudicauit <hi rend="italic">KE</hi> ei <hi rend="italic">om. MA</hi> 17 et cura P hoc om. <hi rend="italic">E</hi> <lb/>
+            anania <hi rend="italic">Y</hi> 18 mihi ipse <hi rend="italic">KY</hi> responderit <hi rend="italic">F1</hi> resporet Kl 19 pergerem <lb/>
+            ab illo <hi rend="italic">V</hi> ab illo <hi rend="italic">om. T</hi> pergerem quaererej peterem <hi rend="italic">E</hi> <lb/>
+            peterem quwe <hi rend="italic">F</hi> 20 ipsa A assint <hi rend="italic">K</hi> absint 11 uel in Jquo <lb/>
+            modo cumque aliter <hi rend="italic">E</hi> 21 eo <hi rend="italic">Tl</hi> uoluerit <hi rend="italic">Tl</hi> </note> <lb/>
+             
+<pb n="657"/>
+            torqueri daemones in hominibus <choice><sic>conStentur</sic><corr>confitentur</corr></choice> et rogant eos, ut <lb/>
+            pareant sibi, an ista fiant dei nutu per angelicas potestates <lb/>
+            in honorem commendationemque sanctorum ad utilitatem <lb/>
+            hominum illis in summa quiete positis et ad alia longe meliora <lb/>
+            uisa uacantibus seorsum a nobis orantibusque pro nobis; <lb n="5"/>
+            nam Mediolani apud sanctos Protasium et Geruasium martyres <lb/>
+            <choice><sic>eipresso</sic><corr>expresso</corr></choice> nomine sicut defunctorum, quos eodem modo <lb/>
+            commemorabant, adhuc uiuum daemones episcopum confitebantur <lb/>
+            Ambrosium atque ut sibi parceret obsecrabant illo <lb/>
+            aliud agente atque hoc cum ageretur omnino nesciente; an <lb n="10"/>
+            uero aliquando per ipsam praesentiam martyrum fiant ista, <lb/>
+            aliquando per angelorum; et utrum possint uel quibus signis <lb/>
+            possint a nobis duo ista discerni, an ea sentire ac diiudicare <lb/>
+            non ualeat, nisi qui habeat illud donum per dei spiritum <lb/>
+            diuidentem propria unicuique prout uult: dissereret mihi, ut <lb n="15"/>
+            arbitror, ille Iohannes haec omnia, sicut uellem, ut aut eo <lb/>
+            docente discerem et ea quae audirem uera et certa esse cognoscerem, <lb/>
+            aut ego crederem quae nescirem illo dicente <lb/>
+            quae sciret. quodsi mihi forsitan de sancta scriptura responderet <lb/>
+            ac diceret: altiora te ne quaesieris, et fortiora
+
+<note type="footnote"> 20 Eccli. 3, 21 </note>
+
+<note rend="script" type="footnote"> 1 a demones Y 4 ad alia] talia <hi rend="italic">A</hi> 5 seorsus <hi rend="italic">N</hi> 6 geruaaium <lb/>
+            et prothasium (protaeium <hi rend="italic">T) TF</hi> gerbasium <hi rend="italic">NK1</hi> 7 expresso nomine] <lb/>
+            xp? sno nomine (a. xpg <hi rend="italic">add</hi>. demones) <hi rend="italic">F</hi> defunctos <hi rend="italic">A</hi> 8 daemones <lb/>
+            <hi rend="italic">om. F</hi> epyscopum <hi rend="italic">K</hi> 9 atque <hi rend="italic">om. Tl</hi> sibi] eis <hi rend="italic">TKM$</hi> <lb/>
+            10 agente aliud <hi rend="italic">E</hi> cum hoc <hi rend="italic">V</hi> 11 uero] forte <hi rend="italic">BAEFfiV</hi> aliquando <lb/>
+            <hi rend="italic">om. V</hi> 12 uel-possint <hi rend="italic">leguntur post</hi> discerni in <hi rend="italic">V</hi> 13 possunt <lb/>
+            <hi rend="italic">YKl</hi> an ea] as (s <hi rend="italic">sup. exp</hi>. n) <hi rend="italic">K</hi> ea <hi rend="italic">om. Y</hi> iudicare <lb/>
+            <hi rend="italic">BTMAy</hi> 14 ualeat <hi rend="italic">K</hi> ualet <hi rend="italic">Y</hi> habet <hi rend="italic">NVFYfyybd-, cum uoce</hi> habgt <lb/>
+            <hi rend="italic">cod</hi>. \'P <hi rend="italic">fol. 21b finitur; unum folium. mutilum est, ut paucae uoculae <lb/>
+            dinosci possint</hi> illQ <hi rend="italic">BTAY</hi> aliud <hi rend="italic">K</hi> 15 diuidente <hi rend="italic">Y</hi> prout uult <lb/>
+            unicuique <hi rend="italic">BTEAF</hi> disserere <hi rend="italic">BAF</hi> 16 ille Iohannes <hi rend="italic">om. BTMAF</hi> <lb/>
+            ille] ipse <hi rend="italic">NEbd</hi> haec omnia ipse iohannes <hi rend="italic">post</hi> uellem <hi rend="italic">pos. in E</hi> <lb/>
+            sicut uellem <hi rend="italic">om. T post</hi> uellem <hi rend="italic">add. F:</hi> ipse dedisset ut <hi rend="italic">om. E</hi> <lb/>
+            aut] autem Y aut enim <hi rend="italic">E</hi> eo <hi rend="italic">om. Y</hi> 17 <hi rend="italic">et pr.]</hi> ut F certa] <lb/>
+            cetera <hi rend="italic">A</hi> 18 aut ego crederem <hi rend="italic">om. K</hi> ego] eo <hi rend="italic">F</hi> docente <hi rend="italic">E$</hi> <lb/>
+            19 sciret] aera sunt <hi rend="italic">YK</hi> 20 ac] et <hi rend="italic">E</hi> ac diceret <hi rend="italic">om. NMAFV$te<lb/>
+             om. V</hi> forciora <hi rend="italic">B</hi> </note>
+
+<note type="footnote"> XXXXI Aug. Seot. V para III. </note>
+
+<note type="footnote"> 42 </note> <lb n="20"/>
+             
+<pb n="658"/>
+            te ne scrutatus fueris, sed quae tibi praecepit <lb/>
+            dominus, illa cogita semper, id etiam gratanter acciperem. <lb/>
+            non enim paruus est fructus, si aliqua obscura et incerta, <lb/>
+            quae conprehendere non ualemus, clarum saltem certumque <lb/>
+            sit nobis non esse quaerenda, et quod unusquisque<lb n="5"/>
+            uult discere putans prodesse si sciat, discat non obesse, si <lb/>
+            nesciat. 
+</p>
+          
+</div>
+
+<div n="22" subtype="section" type="textpart">
+<p><milestone n="18" unit="altchapter"/> Quae cum ita sint, non existimemus ad mortuos, <lb/>
+            pro quibus curam gerimus, peruenire, nisi quod pro eis siue <lb/>
+            altaris siue orationum siue elemosynarum sacrificiis sollemniter<lb n="10"/>
+            supplicamus, quamuis non pro quibus fiunt omnibus <lb/>
+            prosint, sed eis tantum quibus dum uiuunt conparatur, ut <lb/>
+            prosint. sed quia non discernimus, qui sint, oportet ea pro <lb/>
+            regeneratis omnibus facere, ut nullus eorum praetermittatur, <lb/>
+            ad quos haec beneficia possint et debeant <choice><sic>pemenire</sic><corr>peruenire</corr></choice>. melius<lb n="15"/>
+            enim supererunt ista eis, quibus nec obsunt nec prosunt, <lb/>
+            quam eis deerunt, quibus prosunt. diligentius tamen facit <lb/>
+            haec quisque pro necessariis suis, quo pro illo fiat similiter <lb/>
+            a suis. corpori autem humando quidquid inpenditur, non est <lb/>
+            praesidium salutis, sed humanitatis officium secundum affectum,<lb n="20"/>
+            quo nemo umquam carnem suam odio habet <lb/>
+            unde oportet ut quam potest pro carne proximi curam gerat.
+
+<note type="footnote">21 cf. Eph. 5, 29 </note>
+
+<note type="footnote"> 1 acrutaueris <hi rend="italic">TMAE</hi> praecepit tibi <hi rend="italic">BTMAEFbd</hi> preceperat <hi rend="italic">K</hi> <lb/>
+            4 saltemj sane <hi rend="italic">E</hi> J&gt; nobis sit <foreign xml:lang="grc">β</foreign> 6 si sciat] sic*. <hi rend="italic">I</hi> discat <hi rend="italic">om. I</hi> <lb/>
+            abesse <hi rend="italic">Tl</hi> 8 <hi rend="italic">Incipit cod. X</hi> 10 orationum sacrificiis sine elemosinarum <lb/>
+            muneribus sollemniter supplicamus <hi rend="italic">E</hi> elemosinarum <hi rend="italic">TIZKM <lb/>
+            Al1EVYIl$</hi> elemosynarum <hi rend="italic">BN</hi> aelaemosinarum <hi rend="italic">X</hi> solempniter <hi rend="italic">F</hi> <lb/>
+            sollempniter <hi rend="italic">V</hi> 11 non his <hi rend="italic">E</hi> 12 eis] his <hi rend="italic">BTEFAKMTH</hi> hiis p <lb/>
+            iis <hi rend="italic">bd</hi> pro quibus <hi rend="italic">Eug</hi> dum uiuunt <hi rend="italic">om</hi>. X comparantur <hi rend="italic">BA</hi> <lb/>
+            14 generatis <hi rend="italic">V</hi> regeratis <hi rend="italic">Y</hi> 15 possint haec beneficia <hi rend="italic">T</hi> 16 superest <lb/>
+            <hi rend="italic">IZ</hi> ne <hi rend="italic">fin</hi>. P 17 deerant <hi rend="italic">IZ</hi> haec facit N 18 suis] meis <hi rend="italic">K</hi> <lb/>
+            quod <hi rend="italic">BNTIZKMAEYXF*</hi> pro illo] per illius r fiant VR<foreign xml:lang="grc">β</foreign>bd <lb/>
+            19 corpora <hi rend="italic">X</hi> liumano <hi rend="italic">BMAEF</hi> quicquid <hi rend="italic">AEX</hi> est] esse <hi rend="italic">X</hi> <lb/>
+            20 offitium <hi rend="italic">F</hi> 21 qua X umquam] quecQque X hodio <hi rend="italic">M</hi> <lb/>
+            habuit <hi rend="italic">N</hi> 22 quam] qui <hi rend="italic">X</hi> potest homo <hi rend="italic">E</hi> proximi pro carne <hi rend="italic">IZ</hi> <lb/>
+            carnem <hi rend="italic">N</hi> </note> <lb/>
+             
+<pb n="659"/>
+            cum ille inde recesserit qui gerebat. et si haec faciunt, qui <lb/>
+            carnis <choice><sic>resnrrectionem</sic><corr>resurrectionem</corr></choice> non credunt, quanto magis debent facere <lb/>
+            qui credunt, ut corpori mortuo, sed tamen resurrecturo et in <lb/>
+            aeternitate mansuro inpensum eius modi officium sit etiam <lb/>
+            quodam modo eiusdem fidei testimonium! quod uero quisque <lb n="5"/>
+            apud memorias martyrum sepelitur, hoc tantum mihi uidetur <lb/>
+            prodesse defuncto, ut commendans eum etiam martyrum patrocinio <lb/>
+            affectus pro illo supplicationis augeatur. 
+</p>
+          
+</div>
+
+<div n="23" subtype="section" type="textpart">
+<p>Habes ad ea, quae a me putasti esse quaerenda, qualem <lb/>
+            reddere potui responsionem meam: quae si ultra quam <lb n="10"/>
+            sat est prolixa est, da ueniam; id enim factum est amore <lb/>
+            diutius loquendi tecum. hunc ergo librum quemadmodum <lb/>
+            acceperit uenerabilis dilectio tua, rescriptis tuis nouerim, <lb/>
+            quem tibi perlator eius faciet sine dubio gratiorem, frater <lb/>
+            scilicet et conpresbyter noster Candidianus, quem per tuas <lb n="15"/>
+            litteras cognitum toto corde suscepi inuitusque dimisi. multum <lb/>
+            enim nos in caritate Christi sua praesentia consolatus est et, <lb/>
+            quod fatendum est, eius tibi parui instantia. nam cor meum <lb/>
+            tanta distendunt, ut, nisi ipso assidue commonente me non <lb/>
+            sineret obliuisci, profecto interrogationi tuae mea responsio <lb n="20"/>
+            defuisset.
+
+<note rend="script" type="footnote"> 1 inde] in <hi rend="italic">Y om. BMAFT$decesserit</hi> X <hi rend="italic">om. T</hi> gerebat] regebat <lb/>
+            <hi rend="italic">BTZMAEF</hi> faciunt <hi rend="italic">om. K</hi> 4 aeternitatem <hi rend="italic">NVbd</hi> 5 quodadmodo <lb/>
+            <hi rend="italic">Z</hi> 6 memoria <hi rend="italic">BAEFMEug</hi> mihi <hi rend="italic">om. MA</hi> prodesse <lb/>
+            uidetur <hi rend="italic">N</hi> 7 ut-patrocinio <hi rend="italic">om. Y</hi> etiam <hi rend="italic">om. Tl</hi> etiam affectus <lb/>
+            patrocinio martyrum X 8 <hi rend="italic">uoce</hi> augeatur <hi rend="italic">fin. cod. X</hi> 9 abes <hi rend="italic">I</hi> <lb/>
+            qua ea eputasti 2P putatis Y esse <hi rend="italic">om</hi>. V quaerenda esse F <lb/>
+            10 potui reddere <hi rend="italic">BTMAEFVRfibd</hi> responsionem] rationem <hi rend="italic">F</hi> <lb/>
+            11 satis <hi rend="italic">bd</hi> enim <hi rend="italic">om. Y</hi> 12 tecum loquendi <hi rend="italic">E</hi> quemamrnoduin <lb/>
+            <hi rend="italic">KMN</hi> 18 acciperit <hi rend="italic">N</hi> dilectio tua uenerabilis <hi rend="italic">T</hi> uenerabilis <lb/>
+            <hi rend="italic">om. V</hi> tradit uenerabilis P tua dilectio <hi rend="italic">V ante</hi> rescriptis »»- <lb/>
+            <hi rend="italic">culcant</hi> "peto" <hi rend="italic">NEVRPfabd</hi> 14 quam <hi rend="italic">Y</hi> sine dubio faciet <hi rend="italic">V</hi> <lb/>
+            fñj Yl 15 compresbyter <hi rend="italic">IZ</hi> comprespiter <hi rend="italic">TA</hi> 18 eius instantia tibi <lb/>
+            parui <hi rend="italic">BNTKMAEFRVY$bd</hi> 19 assidue <hi rend="italic">om. Tl</hi> me <hi rend="italic">om. BNKM <lb/>
+            AEFRYfi</hi> 20 sineretur <hi rend="italic">BNRIØ</hi> sinerer <hi rend="italic">bd</hi> 21 defuisse tx amen <hi rend="italic">KY</hi> <lb/>
+            Explicit ad scm Paulinum epm Nolensem de cura pro mortuis gerenda <lb/>
+            <hi rend="italic">B, fol. 190 JR, A</hi> Explicit ad scm Paulinum epm Nolensem de cura </note>
+
+<note type="footnote"> 42* </note><lb/>
+             
+<pb n="660"/>
+            gerenda pro <choice><sic>mortuie</sic><corr>mortuis</corr></choice> <hi rend="italic">fol</hi>. ą3b <hi rend="italic">M</hi> Explicit ad Paulinum <hi rend="underline">epm</hi>. <choice><sic>Ind</sic><corr>In</corr></choice> de octo <lb/>
+            questionibus ad Dulcitium <hi rend="italic">fol. 105 <sic>JExplicit</sic></hi> ad Paulinum epm <hi rend="italic">fol</hi>. 75* <hi rend="italic">Z</hi> <lb/>
+            Explicit epistula sci Augustini de cura pro mortuis <hi rend="italic">gerenda fol. 951 N</hi> <lb/>
+            Explicit liber Aurelii Augustini ad Paulinum Nolanae urbis epm de cura <lb/>
+            pro <choice><sic>mortuie</sic><corr>mortuis</corr></choice> gerenda <hi rend="italic">fol. 48* T</hi> Explicit liber sci Augustini de cura pro <lb/>
+            mortuis gerenda <hi rend="italic">fol. 158* V</hi> Explicit liber sci Augustini ad <choice n="0.38"><sic n="12">beatissimam</sic><corr n="19">beatissimum</corr></choice> <lb/>
+            <choice><sic>Panlinum</sic><corr>Paulinum</corr></choice>. <sic n="poss">In6</sic> sci Augustini de immortalitate animae <hi rend="italic">fol</hi>. <sic n="poss">7Ib</sic> <hi rend="italic">K</hi> Explicit <lb/>
+            liber de cura pro mortuis gerenda <hi rend="italic">fol. 37*</hi> P Explicit liber sci <choice><sic>AuguBtini</sic><corr>Augustini</corr></choice> <lb/>
+            ad beatissimum Paulinum <hi rend="italic">Y Cod. E subscriptione caret</hi> Explicit liber <lb/>
+            <hi rend="italic">fol. 142* F</hi> 
+</p>
+
+</div>
+        
+</div>
+</body>
+</text>
+</TEI>

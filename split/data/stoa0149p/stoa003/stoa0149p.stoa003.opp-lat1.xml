@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL23.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Rudolfus Peiper</name>
+                  <addName xml:lang="de">Rudolf Peiper</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1733.1">Cyprianus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104c.stoa001">Heptateuchos</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1891</date>
+              </imprint>
+              <biblScope unit="volume">23</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru12wiengoog#page/n5/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:l[@n='$1'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0149p.stoa003.opp-lat1">
+<head>
+            <title type="main">S. HILARII IN GENESIN</title>
+          </head>
+          <ab>
+            <title type="sub">AD LEONEM PAPAM. </title>
+          </ab>
+          <l n="1"><milestone unit="para"/>Paruimus monitis tua dulcia iussa secuti,  </l>
+            <l n="2">antistes Christi. quae <choice><sic>dabus</sic><corr>dabas</corr></choice> ore pio.  </l>
+            <l n="3">an ego non canerem tanti <choice><sic>praęconia</sic><corr>praeconia</corr></choice> patris,  </l>
+            <l n="4">munus opusque dei dum mihi lingua foret?  </l>
+            <l n="5">rauca quidem stridens et nullis digna coturnis,  </l>
+            <l n="6">ingeniumque iacens: sed libet alta loqui.  </l>
+
+          <l n="7"><milestone unit="para"/>Dignum opus et iustum semper tibi dicere grates.  </l>
+            <l n="8">omnipotens mundi genitor, quo principe cuncta  </l>
+            <l n="9">em sumpsere diem atque exorta repente  </l>
+            <l n="10">post tenebras stupidi spectarunt lumina caeli:  </l>
+            <l n="11">gens hominum pecudesque ferae milleque uolucres  </l>
+            <l n="12">et quae per liquidos discurrunt agmina campos,  </l>
+            <l n="13">omnia per temet, ex te, qui maxima condis:  </l>
+            <l n="14">ex te nata, pater; nec patris est pater alter:  </l>
+            <l n="15">tu caput es capiti, primi tu fontis origo,  </l>
+            <l n="16">primus apex rerum, primus sator, omnia condens;  </l>
+            <l n="17">nec tamen ex alio ducis genus: ipse perennis </l>
+
+<note type="footnote"> lu nomine domini nostri iesu christi incipit metrum sancti hilarii <lb/>
+            pectauensis episcopi in ge . n . si. ad leonem papam <hi rend="italic">B (Laudun. 273),<lb/>
+             titulus cum uu. 1-131 interiit in A (Laudun</hi>. 279) Hilarii pictauiensis <lb/>
+            Episcopi genesis: ad Leonem papam <hi rend="italic">m</hi> (Morelii <hi rend="italic">ed. Paris. a. 1560)<lb/>
+             b = Basiliense exemplar a. 1570, cuius lectiones Ioh. Weitzim exscripвit,<lb/>
+             f = G. Fabricius, littera p meas indicaui correcturas</hi>. </note>
+
+<note type="footnote"> 2 antestis <hi rend="italic">B</hi> dabus <hi rend="italic">Bb</hi> dabat <hi rend="italic">m</hi> 3 nonjnunc <hi rend="italic">Bb</hi> 5 <hi rend="italic">strident f</hi> <lb/>
+            coturnis] <hi rend="italic">coronis m 6 iacetf 7 iustum est m</hi> 9 adque B <hi rend="italic">reperte B</hi> <lb/>
+            10 stupido-caelo <hi rend="italic">B corr. p</hi> lumine <hi rend="italic">B</hi> 11 mille adque <hi rend="italic">m</hi> pictaeque <hi rend="italic">f</hi> <lb/>
+            13 temet] te sunt <hi rend="italic">f</hi> ex te] per te <hi rend="italic">m</hi> 14 nata <hi rend="italic">m</hi> nate <hi rend="italic">Bb</hi> nec iam <lb/>
+            patris <hi rend="italic">m</hi> 15 caput es <hi rend="italic">m</hi> capitis <hi rend="italic">B</hi> capiti primi tu] primique caput <lb/>
+            tn m </note> <lb/>
+             
+<pb n="232"/>
+            <l n="18">spiritus. antiquo uiuens per saecula motu.  </l>
+            <l n="19">semper eris. quia semper eras: non mortis egenus,  </l>
+            <l n="20">qui natalis inops nec finem noueris aeui.  </l>
+            <l n="21">ex se principium cui contigit. haut manet alter  </l>
+            <l n="22">auctorem casus: nascentia terminus urget.  </l>
+            <l n="23">omnia cum tegeret nigrum chaos altaque moles  </l>
+            <l n="24">desuper urgeret informis corpora mundi  </l>
+\t     <l n="25">et caliganti premeret serotina morte.  </l>
+            <l n="26">nec species nec forma foret, deus intus <choice><sic>agebus</sic><corr>agebas</corr></choice>  </l>
+            <l n="27">corporibus tectis mixtus, secreta potestas.  </l>
+            <l n="28">iam tum disponens nascentia moenia mundi  </l>
+            <l n="29">et uarias rerum facies animasque futuras.  </l>
+            <l n="30">utque caput uicta prompsisti caligine noctis.  </l>
+            <l n="31">sublimem attollens uultum sensere tenebrae.  </l>
+            <l n="32">mox dominus rerum somnos discussit inertes,  </l>
+            <l n="33">pigraque materies trepidauit nomine pulsa  </l>
+            <l n="34">commotaque simul maturo conscia partu.  </l>
+            <l n="35">scinditur ingentis cumuli per.plurima corpus  </l>
+            <l n="36">membra, locosque simul metantur semina iussu.  </l>
+            <l n="37">et confusa simul descendunt uiscera molis.  </l>
+            <l n="38">sectaque per partes formas spectantia frustra  </l>
+            <l n="39">iam calor intus alit et blando suscitat igni.  </l>
+
+          <l n="40"><milestone rend="script" unit="para"/>Ac primum caeli pansus liber, omnia mundi  </l>
+            <l n="41">conplectens spatia, celso suspenditur orbe:  </l>
+            <l n="42">terra grauis pigro descendit pondere ad imum  </l>
+            <l n="43">ac, semet defixa, salo fundata resedit.  </l>
+            <l n="44">esset ut spatium uacuae regionis apertum. </l>
+
+<note rend="script" type="footnote"> 20 nouerit <hi rend="italic">Jib corr. m</hi> 21 ex te <hi rend="italic">m</hi> haut <hi rend="italic">B1</hi> haud <hi rend="italic">B2</hi> 25 et <lb/>
+            atque <hi rend="italic">m</hi> premerent <hi rend="italic">m</hi> 28 tum disponens <hi rend="italic">B</hi> tumidis ponens <hi rend="italic">b</hi> tumidi <lb/>
+            ponens m 30 promsisti <hi rend="italic">B</hi> prompsit ipse m prompsit <hi rend="italic">(om</hi>. ipse) <hi rend="italic">f</hi> <lb/>
+            31 tenebras <hi rend="italic">B corr. m</hi> 33 nomine <hi rend="italic">bm</hi> numine <hi rend="italic">B</hi> momine <hi rend="italic">Weitz</hi>. <lb/>
+            34 Motaque <hi rend="italic">B corr. m</hi> Et commota <hi rend="italic">f</hi> maturo] natura <hi rend="italic">m</hi> 36 locus <hi rend="italic">Bb <lb/>
+            corr. m</hi> 37 et confusa simulj et confusa prius <hi rend="italic">JVeitz</hi>. (ex <hi rend="italic">b ?)</hi> et iam <lb/>
+            confusae m 38 formas <hi rend="italic">B</hi> frusta m 40 passus m 41 conpl.] <hi rend="italic">B</hi> <lb/>
+            spacio m 43 scelo <hi rend="italic">B</hi> 44 essetque ut <hi rend="italic">m</hi> aperto <hi rend="italic">Bb corr. m</hi> apertae <lb/>
+            <hi rend="italic">Coustant</hi>. </note> <lb/>
+             
+<pb n="233"/>
+            <l n="45">qua tener incedens mortalia pasceret aether.  </l>
+            <l n="46">quoue exire patris possent tot munera rerum.  </l>
+            <l n="47">ortaque ferrentur nullo per inane labore.  </l>
+            <l n="48">diffusae coguntur aquae: mox limine certo  </l>
+            <l n="49">liquuntur maria nec finem transilit unda.  </l>
+
+          <l n="50"><milestone unit="para"/>Tunc oritur lux alma. dies quae iussa uocari  </l>
+            <l n="51">nascentem tenero perfudit lumine mundum.  </l>
+            <l n="52">munus opusque tuum prodens. tua maxima dona.  </l>
+            <l n="53">condere quae genitor patria pietate <choice><sic>parabus</sic><corr>parabas</corr></choice>.  </l>
+            <l n="54">utque hominum sollers posset clarescere uita.  </l>
+            <l n="55">artibus aetheriis quae totas ducere luces  </l>
+            <l n="56">gaudet et ingenium diuersa laude fatigat.  </l>
+            <l n="57">insequitur nox atra diem densaeque tenebrae.  </l>
+            <l n="58">corporibus somnos quae ferrent. otia fessis.  </l>
+            <l n="59">et cunctis unam faciem similemque figuram.  </l>
+            <l n="60">namque dies uarie rerum discriminat ora  </l>
+            <l n="61">et dat cuique suum disiecta nocte colorem:  </l>
+            <l n="62">instigat animos opera ad maiora calentes.  </l>
+            <l n="63">exacuens uariis mortalia pectora curis.  </l>
+            <l n="64">quo mage forma dies uitae, nox mortis imago est.  </l>
+
+          <l n="65"><milestone unit="para"/>Tunc condens pater astra polo ac lumina didens,  </l>
+            <l n="66">sidera distinguens uariis pertecta figuris.  </l>
+            <l n="67">lucifer exsurgit roseus et fulgidus ore  </l>
+            <l n="68">uesper: puniceos spargit Aurora capillos.  </l>
+            <l n="69">Anguis agit sudum, inportant Pliades imbres.  </l>
+            <l n="70">sunt luga, sunt Plaustra. gemmantes flore Coronae </l>
+
+<note type="footnote"> 62-Mico: Instigat—calentes. Alchimus. </note>
+
+<note type="footnote"> 46 quoque <hi rend="italic">Ooustant</hi>. 47 <hi rend="italic">post u</hi>. 48. <hi rend="italic">sed ordine statim correcto, B</hi> <lb/>
+            laborum <hi rend="italic">B eorr. m</hi> 48 limite <hi rend="italic">Cottstant</hi>. 49 linquuntur m. ac finem <lb/>
+            non t. u. m 50 alma <hi rend="italic">ex</hi> cclma <hi rend="italic">B</hi> 53 parabat <hi rend="italic">b</hi> 54 solers <hi rend="italic">m</hi> <lb/>
+            55 aethereis <hi rend="italic">m</hi> 60 uarie <hi rend="italic">bm</hi> uaria <hi rend="italic">B</hi> uarias-oras <hi rend="italic">JVeitz</hi>. 62 instigatque <lb/>
+            <hi rend="italic">m</hi> que <hi rend="italic">om. B Mico</hi>. opera <hi rend="italic">ltlico m</hi> opere <hi rend="italic">B</hi> 64 est <hi rend="italic">om. m</hi> <lb/>
+            65 polo ac lumine uidens <hi rend="italic">Bb corr. p</hi> polos quoque 1. donans m (polos <lb/>
+            ac <hi rend="italic">Weitz.)</hi> 66 distinguens <hi rend="italic">Bb</hi> distinguit <hi rend="italic">m</hi> pertexta <hi rend="italic">Weitz</hi>. per tecta <lb/>
+            <hi rend="italic">Coustant</hi>. 67 exurgit <hi rend="italic">m</hi> roseusque <hi rend="italic">m</hi> 68 spargitque <hi rend="italic">m</hi> 69 inportant <lb/>
+            <hi rend="italic">B ast</hi> important <hi rend="italic">m</hi> Pleiades wt 70 plaustra et <hi rend="italic">m</hi> coronas <hi rend="italic">B</hi> </note> <lb n="70"/>
+             
+<pb n="234"/>
+            <l n="71">signaque bis senis annum uoluentia formis,  </l>
+            <l n="72">multaque praeterea celsae domus ornamenta.  </l>
+            <l n="73">quis saeclum fulcit signis et regia summi  </l>
+            <l n="74">picta parens uaria stellarum luce coruscat..  </l>
+            <l n="75">sed soli lux maior inest, quem munere largo  </l>
+            <l n="76">excultum, genitor, pleno dignaris honore.  </l>
+            <l n="77">igneus ille iubar praecelso uertice tollit;  </l>
+            <l n="78">ore rubens patulo, caeli per moenia fertur  </l>
+            <l n="79">astrorum ductor, mundi uigor atque elementa.  </l>
+            <l n="80">ecce aliud mirum, mirum decus o, noua cursum  </l>
+            <l n="81">mutat luna suum; quos perdit colligit ignes  </l>
+            <l n="82">cornuaque extinguens perturbat lumine frontem;  </l>
+            <l n="83">mox tamen ardescit conpleto circulus orbe,  </l>
+            <l n="84">noctilucum lumen pascit sata sidera luce:  </l>
+            <l n="85">haec tamen, aeterno quae uoluit machina aethrae,  </l>
+            <l n="86">non tantum pictura poli est, nec celsa uoluntas:  </l>
+            <l n="87">mens ratioque subest et rebus utilis ordo.  </l>
+            <l n="88">hinc doctrina uenit terris, hinc denique cunctis  </l>
+            <l n="89">consilium agricolis et qui maria alta pererrant,  </l>
+            <l n="90">ut, se quaque ferant, luces praedicere possint,  </l>
+            <l n="91">uenturos norint imbres siccumque serenum,  </l>
+            <l n="92">tempore quo tauros campis inducat arator  </l>
+            <l n="93">et dubium temptet securus nauita pontum.  </l>
+
+          <l n="94"><milestone unit="para"/>Instructos ignes caelo, pater optime, <sic>teiTas</sic>  </l>
+            <l n="95">excolere adgrederis et munere donas opimo  </l>
+            <l n="96">regna hominum pecudumque larem requiemque uolucrum  </l>
+            <l n="97">planescunt campi, colles tumor arduus effert.  </l>
+
+
+
+<note type="footnote"> 72 ornamenta domus sunt <hi rend="italic">m</hi> 73 queis <hi rend="italic">m</hi> fulcis <hi rend="italic">m</hi> fulsit <hi rend="italic">Weitz</hi>. <lb/>
+            summa <hi rend="italic">m</hi> 74 parens <hi rend="italic">Bbm</hi> patens f 79 adque <hi rend="italic">B</hi> elementi <hi rend="italic">f</hi> <lb/>
+            80 o <hi rend="italic">B</hi> en <hi rend="italic">nt</hi> nona cursum omnia <hi rend="italic">B</hi> 81 et quos <hi rend="italic">f</hi> limite <hi rend="italic">m</hi> 88 ardescet <lb/>
+            <hi rend="italic">B</hi> conpletoj <hi rend="italic">B</hi> 84 lumen aeter noque pascit <hi rend="italic">(sed media uerba <lb/>
+            pr. m. del.) B</hi> 85 Haec <hi rend="italic">B Weitz</hi>. Nec <hi rend="italic">bm</hi> aeter noquę <hi rend="italic">B</hi> machina <lb/>
+            uoluitur <hi rend="italic">m</hi> aethrae petre <hi rend="italic">B</hi> aethre <hi rend="italic">b</hi> aethere <hi rend="italic">m</hi> axe <hi rend="italic">f</hi> 86 nec c. u. <lb/>
+            sed celsa uolanti <hi rend="italic">OBarth</hi>. 87 utilis <hi rend="italic">Bb</hi> commodus <hi rend="italic">m</hi> 90 quaque <hi rend="italic">m</hi> <lb/>
+            quaeque <hi rend="italic">B</hi> 93 tentet <hi rend="italic">m</hi> 94 ignibus instructo <hi rend="italic">m</hi> 95 aggrederis <hi rend="italic">m</hi> <lb/>
+            donas et munere m </note> <lb/>
+             
+<pb n="235"/>
+            <l n="98">subsidunt ualles. <choice><sic>Horeutia</sic><corr>florentia</corr></choice> prata uirescunt  </l>
+            <l n="99">saxaque durantur, pinguis se gleba resoluit,  </l>
+            <l n="100">rumpuntur fontes, fluuiis genus arduum unde est;  </l>
+            <l n="101">herbarum uaria consurgunt gramina campis.  </l>
+
+          <l n="102"><milestone unit="para"/>Iamque seges tenera fructum fundebat arista.  </l>
+            <l n="103">cum iuga nulla forent nec uomis nullus aratro.  </l>
+            <l n="104">mugiret nullus proscissis taurus in aruis.  </l>
+            <l n="105">ecce etiam uitis madido iam plena racemo,  </l>
+            <l n="106">expers falcis adhuc et duri nescia ferri,  </l>
+            <l n="107">pampineas celsis texebat collibus umbras.  </l>
+            <l n="108">diuersa exoritur uariarum forma ferarum,  </l>
+            <l n="109">quadripedes animae nec non repentia terris  </l>
+\t    <l n="110">nascuntur, pictis uolucres per nubila pinnis.  </l>
+
+          <l n="111"><milestone rend="script" unit="para"/>His ubi perfectis genitor iam diuite mundo  </l>
+            <l n="112">cuncta uidet curam magni deposcere regis,  </l>
+            <l n="113">qui mare. qui terras atque omnia nata <choice><sic>gubemet</sic><corr>gubernet</corr></choice>.  </l>
+            <l n="114">quique altum spectet caelum laudetque potenter  </l>
+            <l n="115">munera magna dei, ne sint haec condita frustra:  </l>
+            <l n="116">tunc Faciamus, ais. hominem." dic. optime. cum quo  </l>
+            <l n="117">conloqueris ? clarum est: iam tum tibi filius alto  </l>
+            <l n="118">adsidet in solio et terras spectat amicas.  </l>
+            <l n="119">sed Faciamus, ais, hominem, cui uultus imago  </l>
+            <l n="120">noster erit, manibusque meis procedat in aeuum."  </l>
+            <l n="121">inde, opifex rerum, adsumis mollia terrae  </l>
+            <l n="122">atque uirum formas, cuius de costa cupito  </l>
+            <l n="123">fit mulier uultu: mulier de costa uiri fit,  </l>
+
+
+
+<note type="footnote"> ) <lb/>
+            99 g cba <hi rend="italic">B</hi> 100 11. genus arduum u. e. <hi rend="italic">Bb</hi> 11. cunctis genus u. e. <hi rend="italic">m</hi> <lb/>
+            cunctis genus amnibus u. e. <hi rend="italic">f</hi> 101 uariis <hi rend="italic">m</hi> 103 uomis <hi rend="italic">B</hi> uomer <hi rend="italic">m</hi> <lb/>
+            ullus <hi rend="italic">Weitz. (b ?)</hi> aratro : <hi rend="italic">incerta</hi> o <hi rend="italic">litt. B</hi> aratri <hi rend="italic">m</hi> 106 expres <hi rend="italic">B</hi> <lb/>
+            108 ferarum: f <hi rend="italic">ex</hi> m <hi rend="italic">corr. B</hi> 109 quadrupedes <hi rend="italic">m</hi> 110 <hi rend="italic">pennis m</hi> <lb/>
+            111 perfectis: is <hi rend="italic">ex</hi> as <hi rend="italic">corr. B</hi> 112 magni curam <hi rend="italic">m</hi> 118 adque B <lb/>
+            <hi rend="italic">corr. m quique f</hi> gubernat <hi rend="italic">b</hi> 114 potentis <hi rend="italic">m</hi> 116 ais <hi rend="italic">B</hi> eis b ait <hi rend="italic">m</hi> <lb/>
+            quocum <hi rend="italic">uel</hi> quicum <hi rend="italic">Weitz</hi>. 117 Conloqueris <hi rend="italic">B</hi> Non loqueris <hi rend="italic">b</hi> Nunc <lb/>
+            <hi rend="italic">loqueris m 118 respectat m exspectat (i. spectat) Oovstant. 119 cui m</hi> <lb/>
+            cuius <hi rend="italic">B</hi> 121 adsumis tibi mollia m 122 formans <hi rend="italic">B corr. m</hi> de <hi rend="italic">B</hi> <lb/>
+            mox <hi rend="italic">m</hi> cupido <hi rend="italic">B corr. m</hi> 123 de <hi rend="italic">B</hi> nam <hi rend="italic">m</hi> </note> <lb/>
+             
+<pb n="236"/>
+            <l n="124">quo mage cara uiro et lateri sit coniugis apta.  </l>
+            <l n="125">o felix animal. summi cui dextra tonantis -  </l>
+            <l n="126">est pater; o felix nimium. qui ducis olympo  </l>
+            <l n="127">et genus et formam; si te non noxia terrae  </l>
+            <l n="128">decipiant uitia nec blandus subruat error.  </l>
+            <l n="129">numen eris caeloque redux mirabere regna,  </l>
+            <l n="130">quae promissa bonis fido pater exhibet ore.  </l>
+            <l n="131">nam tibi multa deus nascenti contulit ultro:  </l>
+            <l n="132">aetheriam primum faciem uultumque paternum  </l>
+            <l n="133">incessumque pedum rectum. sublimia colla,  </l>
+            <l n="134">ne qua mora in caelum oculis spectantibus esset;  </l>
+            <l n="135">tunc alacres promptasque manus uitaeque ministras,  </l>
+            <l n="136">atque domum diuae pectus rationis et alti  </l>
+            <l n="137">sedem consilii. facundae uocis honorem.  </l>
+            <l n="138">haec soli concessa homini : nam cetera mutum  </l>
+            <l n="139">et pecus obtinuit. uentrem, praecordia, neruos.  </l>
+            <l n="140">uenarum riuos et sparsum corpore sanguem,  </l>
+            <l n="141">&lt;et&gt; iusti laeuique simul sensusque doloris.  </l>
+            <l n="142">tu uero. omnipotens, priuato munere largus  </l>
+            <l n="143">erga hominem manibusque tuis operisque fauore  </l>
+            <l n="144">inpendens, patria pignus pietate colendo.  </l>
+            <l n="145">ne quid diuinis modo desit uultibus, ignem  </l>
+            <l n="146">aetheris inspiras et sacrae mentis opimam  </l>
+            <l n="147">indulges partem permixtus corpore toto.  </l>
+            <l n="148">hinc meminisse licet ueterum. praesentia nosse </l>
+
+<note rend="script" type="footnote"> 124 chara <hi rend="italic">m</hi> lateri <hi rend="italic">B</hi> 128 nec) et non <hi rend="italic">m</hi> 132-137 <hi rend="italic">initia tantum<lb/>
+             et exitus uersuum adparent, intermedia abrepta sunt A</hi> 132 aetheream m <lb/>
+            i i» <lb/>
+            faciem primum m 133 sublim a <hi rend="italic">B</hi> 134 coelus <hi rend="italic">m</hi> ex pectantibus <hi rend="italic">B</hi> <lb/>
+            .. spectantibus <hi rend="italic">A</hi> 135 manus <hi rend="italic">Ab</hi> many (i. manum) <hi rend="italic">B</hi> 136 adque <hi rend="italic">B<lb/>
+             (non A)</hi> domumum <hi rend="italic">B</hi> 137 facundae <hi rend="italic">p B teste Quesnellio</hi> fecundae <hi rend="italic">B,<lb/>
+             in A lacuna est,</hi> fundendae <hi rend="italic">m</hi> 138 mutum <hi rend="italic">CBarth</hi>. motu <hi rend="italic">ABb <lb/>
+            motum m</hi> 189 <hi rend="italic">et p est Al&gt;b ut m</hi> 140 Venarum: a <hi rend="italic">ex e B</hi> sanguem <lb/>
+            <hi rend="italic">B</hi> sangug <hi rend="italic">(et fIlarg</hi>. Nota sanguS) <hi rend="italic">A</hi> sanguen <hi rend="italic">m</hi> 141 Et iusti <hi rend="italic">p</hi> <lb/>
+            Iusti <hi rend="italic">B</hi> Iuste <hi rend="italic">A</hi> Iuste <hi rend="italic">b</hi> leni <hi rend="italic">ABb</hi> Laetitiaeque sinus duri <hi rend="italic">m (in cod. <lb/>
+             Sti Victoris sic al. add.)</hi> doloris <hi rend="italic">bm</hi> dolores <hi rend="italic">AB</hi> 144 inpendens] <hi rend="italic">AB <lb/>
+            14fi et] set AB</hi> 147 permiscens m <hi rend="italic">toto b totam Abm 148 Hincpcum<lb/>
+             CBarthio et TVeitzio</hi> Tunc m <hi rend="italic">I.une A Lun%B</hi> Et <hi rend="italic">Vi</hi> praescientia <hi rend="italic">menti b</hi> </note> <lb/>
+             
+<pb n="237"/>
+            <l n="149">hinc datur atque animae fas est uentura <choice><sic>uklere</sic><corr>uidere</corr></choice>;  </l>
+            <l n="150">hinc loquimur canimusque deum. hinc sidera cuncta.  </l>
+            <l n="151">terrarumque uiget cultus, pontusque mouetur;  </l>
+            <l n="152">hinc artes nomenque, pudor. prudentia, iustum:  </l>
+            <l n="153">hinc animae surgunt fortes. hinc pergit honestum  </l>
+            <l n="154">et uia quae ducit castos ad limina caeli.  </l>
+
+          <l n="155"><milestone unit="para"/>Ergo hominem pleno perfectum <choice><sic>muuere</sic><corr>munere</corr></choice> <sic>tems</sic>  </l>
+            <l n="156">praeponis, genitor, <sic>pt</sic> rerum tradis habenas:  </l>
+            <l n="157">cuncta habeat subdatque sibi. uice sit genitoris:  </l>
+            <l n="158">telluris dominus, famulus tuus, omnia mundi  </l>
+            <l n="159">possideat, tantum domino tibi seruiat uni.  </l>
+
+          <l n="160"><milestone unit="para"/>Postquam primus homo uetito se pascere ligno  </l>
+            <l n="161">non timuit captusque dolis se praebuit angui,  </l>
+            <l n="162">stat reus. et nudus deiecto lumine uestem  </l>
+            <l n="163">inplorans dominumque fugit uultumque recondit.  </l>
+            <l n="164">culpa comes sequitur, peccato obnoxia uita  </l>
+            <l n="165">debilitat uires, caelo uenientia dona.  </l>
+            <l n="166">aethere demissus paulatim deficit ignis.  </l>
+            <l n="167">frigore peccati torpentia corda rigescunt :  </l>
+            <l n="168">cura cibi uentrisque subit et cura tegendi  </l>
+            <l n="169">corporis. et sacrum subeunt mortalia pectus.  </l>
+
+          <l n="170"><milestone rend="script" unit="para"/>Nascitur hinc proles peccati, germinat inde  </l>
+            <l n="171">deterior multo suboles, peiorque priori  </l>
+            <l n="172">progenies sequitur, gradibus ad crimina <choice n="0.96"><sic n="32">crescens</sic><corr n="1">crescetis</corr></choice>.  </l>
+            <l n="173">crimina quae stimulis acuunt dementia corda </l>
+
+<note rend="script" type="footnote"> «• n <lb/>
+            149 adque <hi rend="italic">B</hi> 150 hinc quoque sidera <hi rend="italic">m</hi> cun ta <hi rend="italic">B</hi> 151 po tus <hi rend="italic">B</hi> <lb/>
+            158 animi <hi rend="italic">m</hi> 154 et uia] uirtus <hi rend="italic">m</hi> 156 et rerumJ rerum cui <hi rend="italic">m</hi> <lb/>
+            157-165 <hi rend="italic">sinistra pars uersuum obrepta A</hi> 157 uice sit genitoris <hi rend="italic">uel</hi> <lb/>
+            uice sitque regentis <hi rend="italic">haesitans scripsi p</hi> uices • aq : erogau\' <hi rend="italic">AB</hi> fieretque <lb/>
+            b uiuatque perennis <hi rend="italic">(ex Victorini secundis curis) m</hi> fiatque perennis <lb/>
+            <hi rend="italic">Weite</hi> 159 possedeat <hi rend="italic">B</hi> 160 uetitu <hi rend="italic">AB</hi> pasceret <hi rend="italic">A</hi> parceret <hi rend="italic">B</hi> <lb/>
+            161 agui A 162 ues/tem B <hi rend="italic">163 inplorans] B</hi> fuitif 164 culpas AB <lb/>
+            161aguiA162ues/temB163inploransnfuitB164culpasAВ <lb/>
+            165 uires] uirus (i. ut uirus) <hi rend="italic">CBarth</hi> 166 pa llatim <hi rend="italic">B</hi> 168 subit et] <lb/>
+            subibat <hi rend="italic">m</hi> 170 <hi rend="italic">geminat AB</hi> 171 multa <hi rend="italic">A</hi> soboles multo <hi rend="italic">m</hi> prior <lb/>
+            est <hi rend="italic">B (non A)</hi> 172 ad ] per <hi rend="italic">m</hi> </note> <lb/>
+             
+<pb n="238"/>
+            <l n="174">teque. pater. uariis armant terroribus ultro.  </l>
+
+          <l n="175"><milestone unit="para"/>Tum primum uenti coepere incumbere terris,  </l>
+            <l n="176">intempestiuus descendere nubibus imber:  </l>
+            <l n="177">fulmina tum primum caelo deiecta sereno.  </l>
+            <l n="178">horrida tum grando turbatos uerberat agros.  </l>
+            <l n="179">tonitrua altisono infractus murmurat aether.  </l>
+            <l n="180">nec tamen ista malos reuocant: furor impius orbem  </l>
+            <l n="181">obsidet et laxis rabies defertur habenis.  </l>
+            <l n="182">bella placent caedesque simul. periuria. fraudes.  </l>
+            <l n="183">mentirique libet. rapere est amor. abdere furta:  </l>
+            <l n="184">nulla fides populis. nulla est iam ueritas usquam.  </l>
+
+          <l n="185"><milestone unit="para"/>Diluuio abluitur terrarum crimen et undis,  </l>
+            <l n="186">uirque unus residet generis populique refector. <milestone n="189" unit="altchapter"/>   </l>
+      <l n="187">atque unus. multi per quem data luce renati; <milestone n="187" unit="altchapter"/>   </l>
+      <l n="188"><choice n="0.53"><sic n="139">area</sic><corr n="120">arca</corr></choice> tegit paucos. castrorum semina seruans.  </l>
+            <l n="189">iam tum uenturi facies monstrata lauacri.  </l>
+            <l n="190">susceptos fido seruans ecclesia partu.  </l>
+            
+
+          <l n="191"><milestone unit="para"/>Postquam diluuii cecidit tumor, unda resedit,  </l>
+            <l n="192">ales paciferae folium portauit oliuae.  </l>
+            <l n="193">iam siccis reuolans pinnis dedit omina pacis.  </l>
+
+          <l n="194"><milestone rend="script" unit="para"/>Tum populus surgit melior, tum purior undis  </l>
+            <l n="195">gens hominum. magnos terris paritura nepotes.  </l>
+            <l n="196">inde sacerdotis in caelum dedita corda. </l>
+
+<note rend="script" type="footnote"> 174 armante proribus ultro <hi rend="italic">AB corr. p</hi> armsnt <hi rend="italic">ceteris omissis b m,</hi> in <lb/>
+            <hi rend="italic">Victorino sec. m</hi>. ad fulmina factis <hi rend="italic">adsuitur;</hi> armant punire periclis <hi rend="italic">f</hi> <lb/>
+            175 uenti <hi rend="italic">coepere p</hi> uenit <hi rend="italic">opere ABb</hi> uenienti operas m mala coeperunt <hi rend="italic">f</hi> <lb/>
+            176 descenderc <hi rend="italic">ABb</hi> descendit <hi rend="italic">m</hi> nubis <hi rend="italic">B ymber AB</hi> 179 Et <lb/>
+            <hi rend="italic">tonitrua AB</hi> Et tonitru m Et <hi rend="italic">del. p</hi> confractus <hi rend="italic">m</hi> 180 <hi rend="italic">orbe AB</hi> <lb/>
+            m <lb/>
+            181 <hi rend="italic">obsidit AB</hi> 182 cedes AB simul// <hi rend="italic">B</hi> 184 umquam <hi rend="italic">A</hi> usquaai <hi rend="italic">B</hi> <lb/>
+            usquam m nulla est reuerentia ueri <hi rend="italic">f</hi> 186 uirque et unus <hi rend="italic">B</hi> <lb/>
+            189 <hi rend="italic">ante</hi> 187 et 188 <hi rend="italic">posui p</hi> 189 adque <hi rend="italic">B multi p cum CBarthio</hi> <lb/>
+            multis <hi rend="italic">AB m</hi> 188 iam tum] iam iam <hi rend="italic">m</hi> 190 susceptos <hi rend="italic">A</hi> susceptor <hi rend="italic">B</hi> <lb/>
+            O <lb/>
+            fldo <hi rend="italic">B fidos A</hi> ec lesia <hi rend="italic">B</hi> sed septus seruans ecclesia partim <hi rend="italic">m</hi> sed <lb/>
+            septos serbans ecclesia parua tenetur <hi rend="italic">/</hi> 191 undal et unda <hi rend="italic">A</hi> et <lb/>
+            und? <hi rend="italic">B</hi> 192 alis <hi rend="italic">AB</hi> 193 pennis m omina <hi rend="italic">B9m</hi> omnia <hi rend="italic">ABxb</hi> <lb/>
+            194 meliorj maior <hi rend="italic">f uu</hi>. 197—203 <hi rend="italic">initia tantum restant A</hi> </note> <lb/>
+             
+<pb n="239"/>
+            <l n="197">hinc inter flammas <choice><sic>puen</sic><corr>pueri</corr></choice> cantare parati.  </l>
+            <l n="198">et puer, inpasti quem non tetigere leones.  </l>
+            <l n="199"><choice><sic>tuni</sic><corr>tum</corr></choice> reges cecinere deum, tum uera prophetis  </l>
+            <l n="200">ora sonant caeli subole splendentia terris.  </l>
+            <l n="201">quamuis cuncta deo seruirent crimine uicto,  </l>
+            <l n="202">attamen antiqui etiamnum gutta ueneni  </l>
+            <l n="203">spargebat populos et erant uestigia fraudis.  </l>
+            <l n="204">quae bonus ablueret doctor melioribus undis. </l>
+
+<note type="footnote"> 197 flam///inas <hi rend="italic">(postea</hi> mas <hi rend="italic">ex</hi> inas <hi rend="italic">corr.) B</hi> 198 inpastij <hi rend="italic">AB</hi> <lb/>
+            199 profe/tis <hi rend="italic">B</hi> 200 sobole <hi rend="italic">m</hi> 202 antiqui <hi rend="italic">Bb</hi> antiquos <hi rend="italic">m</hi> etiam <lb/>
+            nunc <hi rend="italic">m post</hi> 204 <hi rend="italic">sequitur</hi> Proba de Aeptatico <hi rend="italic">AB</hi> </note>
+
+<pb n="240"/>
+
+
+
+            
+
+
+        
+</div>
+</body>
+</text>
+</TEI>
