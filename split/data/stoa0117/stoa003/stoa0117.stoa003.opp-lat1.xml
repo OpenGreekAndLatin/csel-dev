@@ -95,9 +95,9 @@
 <div n="1" subtype="book" type="textpart">
         <ab>
             <title type="sub">LIBER PRIMUS. </title>
-\t    </ab>
-\t<div subtype="preface" type="textpart">
-\t  <head><title>PRAEFATIO AD SALONIUM. </title></head>
+    </ab>
+  <div n="pr" subtype="chapter" type="textpart">
+  <head><title>PRAEFATIO AD SALONIUM. </title></head>
           <p rend="script">Saepe a me requiris multarum rerum absolutionem quae <lb/>
             in diuinis uoluminibus interpretem postulant; colligam, prout <lb/>
             redierint in memoriam quae a te, mi Saloni, studio cognoscendi <lb n="5"/>
@@ -4539,7 +4539,7 @@
           <head>
             <title type="main">LIBER SECUNDUS. </title>
           </head>
-\t<div subtype="preface" type="textpart">
+          <div n="pr" subtype="chapter" type="textpart">
           <head> <title type="sub">PRAEFATIO AD SALONIUM. </title> </head>
           <p>Quoniam, fili carissime, superiore libro propositionibus tuis <lb/>
             se rettulit iam crebra responsio, et uereor, ne adsiduae interrogationes, <lb/>
