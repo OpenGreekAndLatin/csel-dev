@@ -93,6 +93,7 @@
 <head>
             <title type="main">II. EXCERPTA EX REMIGII EXPOSITIONE IN PASCHALE CARMEN. </title>
           </head>
+  <div subtype="book" type="textpart">
           <p rend="script">In catalogo uirorum illustrium id est in libro, quem beatus <lb/>
             Hieronymus inchoauit, sed Paterius discipulus eius perfecit, ibi <lb/>
             legitur quia fuerit iste <choice><sic>Seduliua</sic><corr>Sedulius</corr></choice>. Fuit enim primo <choice><sic>laicua</sic><corr>laicus</corr></choice> saeculari <lb/>
@@ -255,7 +256,8 @@
              in filio, filium minorem patre asserentes. <lb n="5"/>
             
 </p>
-          <ab>
+  </div><div subtype="book" type="textpart">
+        <ab>
             <title type="sub">IN LIBRVM I. </title>
           </ab>
           <p rend="script"><note type="margin"> T. 1-9 </note> Paschales <milestone unit="lemmmaend"/> sollemnes. Metaphorice alloquitur lectorem <sic>sab</sic> <lb/>
@@ -738,7 +740,8 @@
             <sic>eiigo</sic>. Ab hoc loco incipit poeta exequi quod promisit. Promisit <lb/>
             enim se <choice n="0.72"><sic n="36">scripturam</sic><corr n="14">scripturum</corr></choice> ab Adam usque ad natiuitatem Christi. 
 </p>
-          <ab>
+  </div><div subtype="book" type="textpart">
+    <ab>
             <title type="sub">IN LIBRVM II. </title>
           </ab>
           <p rend="script"><note type="margin"> <sic>v</sic>. 1—52 </note> Primogenitum  <milestone unit="lemmmaend"/>  <sic>protoplastum</sic>. Protos graece primus, <lb/>
@@ -990,7 +993,8 @@
             Hierusalem, pascua est dulcedo diuinae <sic>nisionis</sic>. <lb n="10"/>
             
 </p>
-          <ab>
+  </div><div subtype="book" type="textpart">
+    <ab>
             <title type="sub">IN LIBRVM III. </title>
           </ab>
           <p rend="script"><note type="margin"> <sic>v</sic>. 1—34 </note> Thalamis pro nuptiis: thalame graece uoluptas, inde thalamus <lb/>
@@ -1219,7 +1223,8 @@
 <pb n="344"/>
             
 </p>
-          <ab>
+  </div><div subtype="book" type="textpart">      
+    <ab>
             <title type="sub">IN LIBRVM IIII. </title>
           </ab>
           <p rend="script"><note type="margin">T. 1—52             </note>Placidas  <milestone unit="lemmmaend"/>  tranquillas. <sic>ludea</sic> generaliter regnum omne Iudeorum dicitur, specialiter uero illa pars meridiana, in qua erat <lb/>
@@ -1433,7 +1438,8 @@
             qui agnouit Christum in praesepi. In solido  <milestone unit="lemmmaend"/>  duro. Alloquitur <lb/>
             <choice><sic>gentilee</sic><corr>gentiles</corr></choice>. 
 </p>
-          <ab>
+  </div><div subtype="book" type="textpart">
+    <ab>
             <title type="sub">IN LIBRVM V. </title>
           </ab>
           <p rend="script">Coeperat  <milestone unit="lemmmaend"/>  aduenerat dies, in qua <sic>ludei</sic> pascha <choice><sic>Celebrare</sic><corr>celebrare</corr></choice> <note type="margin"> T, 1—19 </note> <lb/>
@@ -1717,7 +1723,8 @@
             referre. <lb n="20"/>
             
 </p>
-          <ab>
+  </div><div subtype="book" type="textpart">
+    <ab>
             <title type="sub">IN HVMNVM I. </title>
           </ab>
           <p><note type="margin"> <sic>v</sic>. 1—14 </note> Honorem  <milestone unit="lemmmaend"/>  gloriam. O re  <milestone unit="s"/> nostro. Pio i. glorioso. <sic>Paraotera</sic> <lb/>
@@ -1818,7 +1825,8 @@
 <pb n="359"/>
             
 </p>
-          <ab>
+  </div><div subtype="book" type="textpart">
+    <ab>
             <title type="sub">IN HVMNVM II. </title>
           </ab>
           <p rend="script">Baiolat  <milestone unit="lemmmaend"/>  portat. Secreta  <milestone unit="lemmmaend"/>  caelestia. Collisa pignora <note type="margin"> <sic>v</sic>. 1—35 <lb/>
@@ -1846,7 +1854,7 @@
             
 </p>
         
-</div>
+</div></div>
 </body>
 </text>
 </TEI>
