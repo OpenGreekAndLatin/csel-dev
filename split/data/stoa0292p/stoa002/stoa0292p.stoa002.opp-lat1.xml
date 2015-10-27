@@ -95,14 +95,24 @@
           </head>
           
 <pb n="116"/>
-            
+     
+  <div subtype="MSS" type="textpart">
+    <pb n="2"/>
+    
+    <p>P = codex quondam Palatinus, nunc Vaticanus num. 824 saec. xi.
+      
+    </p>
+    <p>b = editio princeps <sic>Basileensis</sic> a 1556.
+      
+    </p>
+    
           <p><hi rend="italic">A</hi> = cod. Laudunensis 113 saec. IX; cf. praef. p. XII. 
 </p>
           <p>H = cod. Halleri apud Ortelium in Thes. geogr. (Antverp. 1596). 
-</p>
+          </p></div>
 <pb n="117"/>
            
-
+  <div subtype="chapter" type="textpart">
           <p rend="script">Incipiunt nomina episcoporum catholicorum diuersarum <lb/>
             prouinciarum, qui Carthagine ex praecepto regali uenerunt pro <lb/>
             reddenda ratione fidei die KL Februarias anno sexto regis <lb/>
@@ -191,10 +201,11 @@
             Uictor Teudalensis. <lb/>
             Pascasius Tulanensis. <lb/>
             Sunt numero <sic>Lim</sic>. 
-</p>
+</p></div>
+  <div subtype="chapter" type="textpart">
           <p>Nomina episcoporum prouinciae Numidiae. 
 </p>
-          <p>Felix Berceritanus. <lb n="1"/>
+            <p>Felix Berceritanus. <lb n="1"/>
              <lb/>
             Augentius Gazaufalensis. prbt. <lb/>
             Quoduultdeus Calamensis. <lb/>
@@ -368,12 +379,15 @@
             Cardelus Lamiggigensis. <lb/>
             Flauianus <sic>Uico</sic> - Pacensis. <lb/>
             Sunt numero <sic>cxxv</sic>. 
-</p>
-          <p><hi rend="italic">Nomina episcoporum prouinciae Byzacenae.</hi>. <lb/>
+</p></div>
+    
+    <div subtype="chapter" type="textpart">
+                <p><hi rend="italic">Nomina episcoporum prouinciae Byzacenae.</hi>. <lb/>
             Uassinassensis. <lb/>
             Et Aquis. <lb/>
              Liberatus Amudarsensis prbt. <lb n="1"/>
             Mansuetus Afufeniensis.
+                </p>
 
 <note type="footnote"> 103 uagormelitanuB <hi rend="italic">H</hi> Magarmelitanus <hi rend="italic">Baluzius</hi> 105 turris<lb/>
              sammeriarum <hi rend="italic">H</hi> 106 balesasensis <hi rend="italic">H</hi> 111 uagradensis <hi rend="italic">H</hi> <lb/>
@@ -382,7 +396,7 @@
             118 tagartensis <hi rend="italic">H</hi> 119 maximinensis <hi rend="italic">H</hi> 120 Zaradtensis <hi rend="italic">Ruin.:</hi> <lb/>
             zaradtassis <hi rend="italic">AH</hi> 123 flabianus <hi rend="italic">A</hi> uicas pacensis <hi rend="italic">H</hi> <lb/>
             Nomina etc. <hi rend="italic">desunt in A</hi> 1 prbt amudarsensis <hi rend="italic">A: transposui</hi> </note>
-</p>
+
 <pb n="124"/>
           <p>Pascasius Septimuniciensis. <lb/>
             Hortulanus <sic>Beaefensis</sic>. <lb/>
@@ -623,6 +637,7 @@
 </p>
           <p>Sunt numero <sic>cvu</sic>. 
 </p>
+            
           <p>Et cathedrae quae episcopos non habuerunt. 
 </p>
           <p>Madassuma. <lb n="110"/>
@@ -647,7 +662,10 @@
             <hi rend="italic">H</hi> </note>
 </p>
 <pb n="128"/>
-            
+         
+    </div>
+    <div subtype="chapter" type="textpart">
+      
           <p>Nomina episcoporum <sic>Manr</sic> Caesariensis. 
 </p>
           <p>1 <sic>Glorinus</sic> Iuncensis. 
@@ -949,7 +967,7 @@
              Lucius <choice><sic>Tamazncensis</sic><corr>Tamazucensis</corr></choice>. <lb n="120"/>
             
 </p>
-          <p rend="script">\'Sunt N. cxx.
+          <p rend="script">\'Sunt N. cxx.</p>
 
 <note type="footnote"> 93 nobensis A 96 Bassinus Elefantariensis scripsi: uassinus <lb/>
             elfantariensiB A 98 Uincemalos] <hi rend="italic">cf. Drac. Satisf. 302</hi> Duhn. <lb/>
@@ -962,9 +980,9 @@
 
 <note type="footnote"> 9* </note> <lb/>
              
-<pb n="132"/>
-            et cathedrae quae episcopos non habuerunt. 
-</p>
+            <pb n="132"/>
+          
+           <p> et cathedrae quae episcopos non habuerunt. </p>
           <p>Maiucensis. <sic>Maurensis</sic>. 
 </p>
           <p><sic>Nabalensis</sic>. <sic>Tingariensis</sic>. 
@@ -972,7 +990,9 @@
           <p><sic>Tubunensis</sic>. <sic>Oboritanus</sic>. 
 </p>
           <p rend="script">N. m. 
-</p>
+          </p></div>
+    <div subtype="chapter" type="textpart">
+      
           <p>Nomina episcoporum prouin. Maur. Sitif. 
 </p>
           <p><choice><sic>Bufinus</sic><corr>Rufinus</corr></choice> Tamallumensis. <lb n="1"/>
@@ -1075,7 +1095,9 @@
 </p>
           <p>Flauianus Uamallensis. sunt n. <sic>XLIIll</sic>. 
 </p>
-          <p rend="script">Nomina episcoporum prouin Tripolitanae. 
+    </div>
+    <div subtype="chapter" type="textpart">
+      <p rend="script">Nomina episcoporum prouin Tripolitanae. 
 </p>
           <p>Callippides Lepti - Magnensis. <lb n="1"/>
             
@@ -1089,7 +1111,9 @@
           <p>Seruilius Tacapitanus. sunt n. v. <lb n="5"/>
             
 </p>
-          <p>Nomina episcoporum insulae Sardiniae. 
+    </div>
+    <div subtype="chapter" type="textpart">
+      <p>Nomina episcoporum insulae Sardiniae. 
 </p>
           <p>Lucifer Calaritanus. <lb n="1"/>
             
@@ -1118,7 +1142,9 @@
 </p>
           <p>Opilio de Ebuso. sunt n. VIII. 
 </p>
-          <p><choice><sic>Ao</sic><corr>Ac</corr></choice> sic fiunt omnes <choice><sic>episcbpi</sic><corr>episcopi</corr></choice> diuersarum prouinciarum numero
+    </div>
+    <div subtype="chapter" type="textpart">
+      <p><choice><sic>Ao</sic><corr>Ac</corr></choice> sic fiunt omnes <choice><sic>episcbpi</sic><corr>episcopi</corr></choice> diuersarum prouinciarum numero
 </p>
           <p>CCCCLXVI
 </p>
@@ -1145,7 +1171,7 @@
 </p>
 <pb n="135"/>
             
-        
+  </div>       
 </div>
 </body>
 </text>
