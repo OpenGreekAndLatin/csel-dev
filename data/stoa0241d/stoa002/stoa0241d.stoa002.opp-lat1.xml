@@ -76,7 +76,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter'])"/>
+        <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -1723,7 +1723,7 @@
             referre. <lb n="20"/>
             
 </p>
-  </div><div n="1" subtype="book" type="textpart">
+  </div><div n="6" subtype="book" type="textpart">
     <ab>
             <title type="sub">IN HVMNVM I. </title>
           </ab>
@@ -1825,7 +1825,7 @@
 <pb n="359"/>
             
 </p>
-  </div><div n="2" subtype="book" type="textpart">
+  </div><div n="7" subtype="book" type="textpart">
     <ab>
             <title type="sub">IN HVMNVM II. </title>
           </ab>
