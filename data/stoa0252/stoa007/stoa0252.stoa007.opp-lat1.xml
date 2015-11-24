@@ -64,7 +64,7 @@
               </imprint>
               <biblScope unit="volume">10</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru09wiengoog#page/n7/mode/2up">Internet Archive</ref>
+            <ref target="http://archive.org/stream/corpusscriptoru09wiengoog#page/n265/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
@@ -76,7 +76,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -93,7 +93,7 @@
 <head>
             <title type="main">HVMNVS I. </title>
           </head>
-          <p rend="script">Cantemus, socii, Domino, cantemus honorem, <lb/>
+          <p n="1" rend="script">Cantemus, socii, Domino, cantemus honorem, <lb/>
             Dulcis amor Christi personet ore pio. <lb/>
             Primus ad ima ruit magna de luce superbus: <lb/>
             Sic homo, cum tumuit, primus ad ima ruit. <lb/>
