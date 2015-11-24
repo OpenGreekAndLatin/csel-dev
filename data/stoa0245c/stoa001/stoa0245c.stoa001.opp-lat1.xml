@@ -76,7 +76,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -91,7 +91,7 @@
 <body>
 <div type="edition" n="urn:cts:latinLit:stoa0245c.stoa001.opp-lat1">
 <head> <title type="sub">III. DOMINO UERO SANCTO ATQVE AMICO DEI ET MIHI IN CHRISTO OMNI CULTU SUSCIPIENDO PAPAE EUCHERIO RUSTICUS PRESBVTER. </title> </head>
-          <p rend="script">Transcriptis exultanter ac raptim quae deprecante me exemplanda <lb/>
+          <p n="1" rend="script">Transcriptis exultanter ac raptim quae deprecante me exemplanda <lb/>
             misisti illico ad beatitudinem uestram uolumen utrumque <lb/>
             direxi; unica uero illa et sine comparatione doctrina, qua ex utroque <lb/>
             testamento magnorum aenigmatum absolutissime aperiens quaestiones <lb/>
