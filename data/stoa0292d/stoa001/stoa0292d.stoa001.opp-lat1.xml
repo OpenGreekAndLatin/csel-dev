@@ -63,7 +63,7 @@
               </imprint>
               <biblScope unit="volume">7</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru10wissgoog#page/ns55/mode/2up">Internet Archive</ref>
+            <ref target="http://archive.org/stream/corpusscriptoru10wissgoog#page/n855/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
@@ -75,7 +75,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='chapter'])"/>
+        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='section'])"/>
         <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book'])"/>
       </refsDecl>
     </encodingDesc>
