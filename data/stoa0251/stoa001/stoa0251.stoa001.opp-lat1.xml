@@ -79,7 +79,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -96,10 +96,10 @@
 <ab>
             <title type="sub">VIIII. <sic>SECUNDINl</sic> MANICHAEI AD SANCTUM AUGUSTINUM KPISTULA. </title>
           </ab>
-          <p>Domino merito honorabili atque laudabili et unice <sic>percojendo</sic> <lb/>
+          <p n="1">Domino merito honorabili atque laudabili et unice <sic>percojendo</sic> <lb/>
             5 Augustino Secundinus. 
 </p>
-          <p rend="script">Habeo et ago gratias ineffabili ac sacratissimae maiestati <lb/>
+          <p n="2" rend="script">Habeo et ago gratias ineffabili ac sacratissimae maiestati <lb/>
             eiusque primogenito omnium luminum regi Iesu Christo, habeo <lb/>
             gratias et <sic>subpJei</sic> sancto refero spiritui. quod dederint praebuerintque <lb/>
             occasionem, qua ego securus salutarem tuam egregiam <lb/>
@@ -140,7 +140,7 @@
             corpora arma peccati sunt, ita <choice><sic>salntaria</sic><corr>salutaria</corr></choice> praecepta arma <lb/>
             iustitiae. hoc Paulus, hoc ipse testatur Manichaeus. 
 </p>
-          <p>Non ergo armorum pugna est, sed spirituum, qui iisdem  <lb n="10"/>
+          <p n="3">Non ergo armorum pugna est, sed spirituum, qui iisdem  <lb n="10"/>
             utuntur; pugnant autem <choice><sic>animaium</sic><corr>animarum</corr></choice> gratia. horum in medio <lb/>
             posita est anima, cui a principio natura sua dedit uictoriam. <lb/>
             haec si una cum spiritu uirtutum fecerit, habebit cum eo <lb/>
@@ -179,7 +179,7 @@
             tuam ad ueritatem, quae per timorem facta est, conuerte, <lb/>
             noli his mendaciis excusare. 
 </p>
-          <p>Legit enim aliquanta exile meum et qualecumque Romani <lb/>
+          <p n="4">Legit enim aliquanta exile meum et qualecumque Romani <lb/>
             hominis ingenium reuerendae tuae dignationis scripta, in <sic n="poss">quihus</sic> <lb/>
              sic <choice><sic>irasceriB</sic><corr>irasceris</corr></choice> ueritati ut philosophiae <choice><sic>Hortenaius</sic><corr>Hortensius</corr></choice>. haec  <lb n="10"/>
             itaque cum suspenso animo agilique oculo iterum iterumque <lb/>
@@ -263,7 +263,7 @@
              <sic>mortificarent</sic>, quae animas <choice><sic>niuificarent</sic><corr>uiuificarent</corr></choice>. quis igitur ille est,  <lb n="5"/>
             qui te repente mutauit? 
 </p>
-          <p>Quamquam haec tuae <choice><sic>sanciitati</sic><corr>sanctitati</corr></choice> dicere nimis absurdum sit. <lb/>
+          <p n="5">Quamquam haec tuae <choice><sic>sanciitati</sic><corr>sanctitati</corr></choice> dicere nimis absurdum sit. <lb/>
             ipse enim non ignoras, quam pessimus sit quamque malignus <lb/>
             quique etiam tanta calliditate aduersus fideles et summos <lb/>
              uiros militat, ut et Petrum coegerit sub una nocte tertio <choice><sic>domiuum</sic><corr>dominum</corr></choice>  <lb n="10"/>
@@ -315,7 +315,7 @@
             ferre, utrumque ridere et ad illud tantum niti, quod beatitudinem <lb/>
             conciliat, quod parturit uitam. 
 </p>
-          <p>Et tamen iterum atque iterum subplex deprecor, oro, etiam  <lb n="16"/>
+          <p n="6">Et tamen iterum atque iterum subplex deprecor, oro, etiam  <lb n="16"/>
             atque etiam obsecro, primum quidem ueniam largiri digneris, <lb/>
             si quo sermone fuerit tuum titillatum aureum pectus: ardore <lb/>
             enim hoc nimio feci, quia nolo te a nostro grege diuelli, a <lb/>
@@ -359,7 +359,7 @@
             uae, qui accipient, qui, quod dulce est, in amaritudinem <lb/>
             15 transferunt! 
 </p>
-          <p rend="script">Sed si dubitas de principio, si ambigis de pugnae exordio, <lb/>
+          <p n="7" rend="script">Sed si dubitas de principio, si ambigis de pugnae exordio, <lb/>
             . poterit diurno tractatu pacificoque conloquio reddi ratio. illud <lb/>
             tamen notum facio tuae sagacissimae bonitati, quia sunt quaedam <lb/>
             res, quae exponi sic non possunt, ut <choice><sic>intellegantUr</sic><corr>intellegantur</corr></choice>; excedit <lb/>
@@ -429,7 +429,7 @@
             quae naturae haec non sonant, duo pro certo significant et <lb/>
             ab inuicem separata. 
 </p>
-          <p rend="script">Sed tuae admirandae sublimique prudentiae cum talia a <lb/>
+          <p n="8" rend="script">Sed tuae admirandae sublimique prudentiae cum talia a <lb/>
             me exponuntur, tale est, quale si Iordanis oceano aquam <lb/>
              commodet, aut soli lucerna lucem, aut populus episcopo  <lb n="5"/>
             sanctitatem. quam ob rem ferre oportet quicquid haec epistula <lb/>
