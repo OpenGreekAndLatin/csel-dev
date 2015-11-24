@@ -76,7 +76,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -99,7 +99,7 @@
             
 
           <head><title type="sub">I. DOMINO ET DULCI SUO EUCHERIO EPISCOPO SALUIANUS. </title> </head>
-          <p>Legi libros, quos transmisisti, stilo breues, doctrina uberes, <lb/>
+          <p n="1">Legi libros, quos transmisisti, stilo breues, doctrina uberes, <lb/>
             lectione expeditos, instructione perfectos, menti tuae et pietati pares. <lb/>
             nec miror, quod tam utile ac pulchrum opus ad institutionem <lb n="5"/>
             potissimum sanctorum ac beatorum pignorum condidisti. cum enim <lb/>

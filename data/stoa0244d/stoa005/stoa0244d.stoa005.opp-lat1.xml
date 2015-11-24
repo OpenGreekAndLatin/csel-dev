@@ -71,7 +71,7 @@
       <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture.</p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:p[@n='$2'])"/>
         <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book'])"/>
       </refsDecl>
     </encodingDesc>
@@ -201,7 +201,7 @@
           <ab>
             <title type="sub">I. APOLOGETICUS.</title>
           </ab>
-          <p>1. Uictus sum et fateor me esse superatum; subiectus <lb/>
+          <p n="1">1. Uictus sum et fateor me esse superatum; subiectus <lb/>
             sum domino et obsecraui eum. dignum etenim est, ut <lb/>
             mihi beatus Dauid aperiat sermonis ostium, immo uero ille <lb n="5"/>
             ipse qui in Dauid loquebatur et qui etiam nunc per eum <lb/>
@@ -233,7 +233,7 @@
             etiam his qui odio permouentur, in quibusdam quidem ipse <lb/>
             mei accusator existens, pro quibusdam uero etiam satis <lb/>
             faciens.</p>
-          <p>2. Et ut nobis secundum ordinem sermo procedat, primo<lb n="5"/>
+          <p n="2">2. Et ut nobis secundum ordinem sermo procedat, primo<lb n="5"/>
             de formidine mea ac metu pristino disseram. neque enim <lb/>
             patiar in me suspiciones cuiquam remanere eorum qui uel <note type="chapter"> 2 </note> <lb/>
             bona nostra uel contraria curiosa examinatione discutiunt. est <lb/>
@@ -245,7 +245,7 @@
             enim scandalizanti unum ex minimis quam sit a domino grauis <lb/>
             animaduersio constituta.<lb n="15"/>
             </p>
-          <p>3. Ego igitur, 0 optimi et religiosi uiri, neque ut inperitus <lb/>
+          <p n="3">3. Ego igitur, 0 optimi et religiosi uiri, neque ut inperitus <lb/>
             haec aut stultus incurri neque — ut et ego parum aliquid <lb/>
             glorier — adrogans quis et diuinas leges statutaque despiciens. <lb/>
             noui etenim quia, sicut in corpore nostro alia sunt membra <lb/>
@@ -272,7 +272,7 @@
             diuersitate consonantia facta per spiritum perfectum et integrum <lb/>
             atque aptum ad omnia corpus existat et dignum quod Chri­ <lb/>
             stum habeat caput.</p>
-          <p>4. Quamuis ergo ne aliis quidem ullis animantibus absque <lb/>
+          <p n="4">4. Quamuis ergo ne aliis quidem ullis animantibus absque <lb/>
             rectoribus esse et gubernaculis tutum sciam, multo tamen <lb n="10"/>
             magis hominibus idcirco quod amplius his et maius periculum <lb/>
             inpendet errantibus, a quibus siquidem illud quod primum <lb/>
@@ -299,7 +299,7 @@
             ubi nam a nobis <hi rend="italic">v</hi> 21 colitur <hi rend="italic">ROCv</hi> colatur <hi rend="italic">V</hi> quo pacto-sociamur <lb/>
             <hi rend="italic">om. A</hi> 22 misteria <hi rend="italic">Ca.c.</hi> 25 nobis <hi rend="italic">illa A</hi> 26 accedent <hi rend="italic">OC,Ra.c.</hi> </note> <pb n="10"/>
             </p>
-          <p>5. Uerum ne hoc quidem nouum aut peregrinum est his, <lb/>
+          <p n="5">5. Uerum ne hoc quidem nouum aut peregrinum est his, <lb/>
             apud quos diuinae philosophiae studia uigent, ut ex ordine <lb/>
             discipulorum quis in magistrorum adsumatur officium, sicut <lb/>
             ne nautae quidem probabili, si res poscat, ad inspectionem <lb/>
@@ -315,7 +315,7 @@
             non magnum arbitrer uniuersae naturae mortalium quoquolibet <lb/>
             modo et in quolibet ordine adpropinquare deo, qui solus in-<lb n="15"/>
             accessibilem omni creaturae habitat lucem.</p>
-          <p>6. Quae igitur ratio est inoboedientiae meae? nisus sum <lb/>
+          <p n="6">6. Quae igitur ratio est inoboedientiae meae? nisus sum <lb/>
             etenim in illo tempore nihil meum habere nec meis moribus <lb/>
             simile, sed audacius contra dicere inpudentiusque resistere. <lb/>
             causas ergo huius rei, quod iam dudum desideratis, audite.<lb n="20"/>
@@ -342,7 +342,7 @@
             non tuli me uiolenter in medias turbas pertrahi populorum <lb/>
             et uelut de templo quodam quietis tnmultuosis uitae huius <lb/>
             fragoribus obici.</p>
-          <p>7. Nihil enim re uera mihi ad beatam uitam praestantius <lb/>
+          <p n="7">7. Nihil enim re uera mihi ad beatam uitam praestantius <lb/>
             uidebatur quam uelut clausis carnalibus sensibus et extra <lb n="10"/>
             carnem mundumque effectum quempiam in semet ipsum con­ <lb/>
             uerti, id est suos sensus atque animos conspicari alienumque <lb/>
@@ -374,7 +374,7 @@
             derogandum bonis studiis quam ad imitandum, ut sit eis <lb/>
             omni genere delictum, uel dum manifesta et publica mala<lb n="5"/>
             non uitant uel dum occultis et reconditis non credunt bonis.</p>
-          <p>8. Ad haec accessit etiam illud — proferam etenim omnia <lb/>
+          <p n="8">8. Ad haec accessit etiam illud — proferam etenim omnia <lb/>
             apud uos et nihil iam tegam secreti —, quod siue rusticitatis <lb/>
             siue libertatis meae fuerit uos probate. erubui de quibusdam, <lb/>
             quos uidebam nihil penitus ad emendationem uitae suae, nihil<lb n="10"/>
@@ -408,7 +408,7 @@
             meritorum iudicio deferuntur. cuius rei uitium uel labem <lb/>
             etiamsi prohibere supra nos est, at certe erubescere et auer­ <lb n="5"/>
             sari pars aliqua pietatis est.</p>
-          <p>9. Quod uero me maius omnibus et supra cuncta quae <lb/>
+          <p n="9">9. Quod uero me maius omnibus et supra cuncta quae <lb/>
             superius diximus deterrebat illud est — ueniendum namque <lb/>
             est ad summum ipsum uerbi fastigium et proferendum quae <lb/>
             uera sunt; neque enim fas est in talibus fallere —: arbitrabar <lb n="10"/>
@@ -443,7 +443,7 @@
             animi et industriae nulla cura huiuscemodi pastoribus inminet, <lb/>
             per quam necesse habeant uoluptati gregis magis quam suae <lb/>
             obsequi.</p>
-          <p>10. Homini uero cum perdifficile sit scire regi, id est <lb/>
+          <p n="10">10. Homini uero cum perdifficile sit scire regi, id est <lb/>
             regenti se obtemperare, multo difficilius est scire alios regere<lb n="10"/>
             et regere secundum istam nostram disciplinam, quae ex diuina <lb/>
             lege descendit atque ad deum ducit. cuius quanto spes et <lb/>
@@ -458,7 +458,7 @@
             ciosius, quanto numerosioris populi rector extiterit, sicut <lb/>
             certe grauius est in multos diffundi pestem quam unum <lb/>
             pestilentia consumi.</p>
-          <p>11. Nec cadaueris foetor ita perniciosus est, si unum polluat <lb/>
+          <p n="11">11. Nec cadaueris foetor ita perniciosus est, si unum polluat <lb/>
             locum, sicut si sparsim saeuo nidore diffuso corrupti aeris<note type="footnote"> 19 cf. I Cor. 3, 13 </note> <note type="footnote"> <hi rend="italic">1 recumbentium A 2 sinire Ca.c.</hi> propter] <hi rend="italic">prope Cv</hi> decur­ <lb/>
             <hi rend="italic">rentibus riuia Cv</hi> 3 unda] <hi rend="italic">umbra A 4 uel om. A 5 in om. A</hi> <lb/>
             in pretium] impetum <hi rend="italic">V</hi> ueritatis <hi rend="italic">A</hi> 7 uoluptati (rjSoyijs) <hi rend="italic">scripsi</hi> <lb/>
@@ -491,7 +491,7 @@
             ditia contigerit uestimentum mundi, utrum polluat <lb/>
             eum? et dixerunt quia polluit. <lb n="20"/>
             </p>
-          <p>12. Hoc est ergo quod etiam noster hic nunc sermo recen­ <lb/>
+          <p n="12">12. Hoc est ergo quod etiam noster hic nunc sermo recen­ <lb/>
             suit, quoniam perdifficilis est adsumptio boni naturae morta­ <lb/>
             lium, uelut si ignis humidae alicui materiae adhibeatur. parati <lb/>
             autem sumus ad recipiendum malum quam plurimi et apti, <lb/>
@@ -513,13 +513,13 @@
             dulcedo. sic breuis gleba fluuii ripae subducta pondus totius<lb n="5"/>
             fluminis deriuat in praeceps, obsistere uero et auertere lap­ <lb/>
             sum fluuii uix magnis molibus et inmensis machinis queas.</p>
-          <p>13. Propter quod primo omnium uerendum, ne inueniamur <lb/>
+          <p n="13">13. Propter quod primo omnium uerendum, ne inueniamur <lb/>
             pulchrae et decorae uirtutis quidam pictores pessimi uel certe <lb/>
             aliis pictoribus, id est plebi, quae eam debet in semet ipsa<lb n="10"/>
             depingere, imaginis eius pessima praebentes exemplaria, uel <lb/>
             certe ne accidat nobis res usitati prouerbii, ut, qui ad alios <lb/>
             curandos praesumus, inueniamur ipsi scatentes ulceribus.</p>
-          <p>14. Tum deinde quod, etiamsi se ipsum aliquis a totius <lb/>
+          <p n="14">14. Tum deinde quod, etiamsi se ipsum aliquis a totius <lb/>
             peccati contaminatione custodiat, ne hoc quidem sufficere<lb n="15"/>
             aestimo huic qui erudiendis atque instituendis ad uirtutem <note type="chapter">2 </note> <lb/>
             populis praeest. neque enim satis est malum non esse eum <lb/>
@@ -556,7 +556,7 @@
             pimus, a quo omnia et in quo omnia et ad quem omnia <lb/>
             referuntur. <lb n="15"/>
             </p>
-          <p>15. Nec putandum est eadem omnibus conuenire, sicut <lb/>
+          <p n="15">15. Nec putandum est eadem omnibus conuenire, sicut <lb/>
             nec aetas una omnibus est nec uultuum liniamenta uniuersis <lb/>
             eadem nec totius terrae una est qualitas nec stellarum unus <lb/>
             est splendor. conuenire ergo idiotae et simpliciori cuique <lb/>
@@ -587,7 +587,7 @@
             scilicet uinculis propriae uoluntatis adstrictum. unde et regere <lb/>
             gregem uoluntarie et non ex necessitate ad Hebraeos scribens <lb/>
             apostolus praecipit.</p>
-          <p>16. Sed est aliquis neque malus neque qui ad uirtutis <lb/>
+          <p n="16">16. Sed est aliquis neque malus neque qui ad uirtutis <lb/>
             summam peruenerit, et non uideo, qua confidentia ad do-<lb n="15"/>
             cendum ueniat qui ipse hac fide non accessit ut disceret. <lb/>
             re enim uera mihi uidetur esse ars artium et disciplina <lb/>
@@ -617,7 +617,7 @@
             certum est enim quod uel aegritudine uel tempore corpus <lb/>
             omne resoluitur nec ultra naturae suae terminos perduvare <lb/>
             fragilitatis condicione permittitur.</p>
-          <p>17. Anima autem, quae est diuina et a deo ueniens, super- <lb/>
+          <p n="17">17. Anima autem, quae est diuina et a deo ueniens, super- <lb/>
             nae nobilitatis est consors, ad quam etiam redire festinat, licet <lb n="10"/>
             socio deteriori conligata est et deuincta, fortassis etiam propter <lb/>
             alias causas, quas solus nouit ille qui uinxit et conligauit <lb/>
@@ -649,7 +649,7 @@
             fiat etiam anima corpori gubernans ministram sibi materiam <lb/>
             et deo secum offerens fidelem conseruam.<lb n="5"/>
             </p>
-          <p>18. Locorum ac temporum et aetatis ceterorumque similium <lb/>
+          <p n="18">18. Locorum ac temporum et aetatis ceterorumque similium <lb/>
             differentias medici requirent, quando et qualibus uel medica­ <lb/>
             mentis uel cibis opus sit uel qualiter a noxiis abstinendum, <lb/>
             uti ne artis disciplina superetur per desideria aegrotantium; <lb/>
@@ -668,7 +668,7 @@
             prima est lex dei et optime constituta per uniuersam eius <lb/>
             creaturam obseruanda sine uisibilem siue etiam quae sensum <lb/>
             uisus excedit.</p>
-          <p>19. Considero etiam illud quod haec omnia, quae supra<lb n="25"/>
+          <p n="19">19. Considero etiam illud quod haec omnia, quae supra<lb n="25"/>
             memorauimus a medicis obseruari, singula quaeque secundum <note type="footnote"> 1 rursum <hi rend="italic">V 3 quare tardatur V ut eras. V</hi> 4 ministru (a s. <lb/>
             u) <hi rend="italic">0</hi> 6 et <hi rend="italic">om. V aetatis BO,]ra.c.,v</hi> aetates <hi rend="italic">C,Vp.c.</hi> 7 requirunt <lb/>
             medici <hi rend="italic">v</hi> requirunt <hi rend="italic">OCV</hi> 10 uirolentioribus <hi rend="italic">CV</hi> 12 corregere <hi rend="italic">Ca.c.</hi> <lb/>
@@ -692,7 +692,7 @@
             dum unusquisque tantum studii gerit in contegendis et occul­ <lb/>
             tandis morbis ac uitiis peccatorum, quantum habere oportebat <lb/>
             studii ad aegritudinem medico reuelandam.</p>
-          <p>20. In quo et fortes sibi ac constantes uidentur aduersum <lb/>
+          <p n="20">20. In quo et fortes sibi ac constantes uidentur aduersum <lb/>
             salutem suam et prudentes aduersum uitam suam, dum uelut <lb n="15"/>
             furtum aliquod intra se atque intra arcana mentis suae <lb/>
             abscondunt peccatum, tamquam ab illo oculo qui uidet omnia <lb/>
@@ -722,7 +722,7 @@
             tum semet ipsos punientes, quantum amplius in aduersarios <lb/>
             desaeuierint, sicut hi qui insania et furore correpti proprias <lb/>
             carnes laniant, quas mente capti alienas putant.</p>
-          <p>21. Haec sunt, pro quibus ego hanc nostrae disciplinae<lb n="10"/>
+          <p n="21">21. Haec sunt, pro quibus ego hanc nostrae disciplinae<lb n="10"/>
             medicinam multo difficiliorem puto quam illam quae corporibus <lb/>
             solis medetur. quae quanto difficilior est, tanto utique pretio­ <lb/>
             sior et utilior. nam illa quidem pauca quaedam de profundio­ <lb/>
@@ -739,7 +739,7 @@
             curare animas a languoribus uitiorum uel purgare a maculis <lb/>
             peccatorum.<lb n="25"/>
             </p>
-          <p>22. Finis autem utriusque medicinae — hoc enim restat <lb/>
+          <p n="22">22. Finis autem utriusque medicinae — hoc enim restat <lb/>
             ostendere — unius quidem est, ut sanitas corporis uel, si est, <note type="footnote">5 cf. Am. 5, 10 </note><note type="footnote"><hi rend="italic">1 et utroque loco om. V 2 omni 0 flagicium (ci s. Z.) B</hi> 5 red­ <lb/>
             <hi rend="italic">argunt 0</hi> 6 execrantes <hi rend="italic">0</hi> exsegrantes <hi rend="italic">Ca.c. 7 quanto 0,Ap.e. <lb/>
             8 deseuierint RO dese*uierint C hii JtOCv 9 laniunt A</hi> 10 hanc] <lb/>
@@ -765,7 +765,7 @@
             filium doi facere atque in caelesti beatitudine cum caelestibus <lb/>
             conlocare. <lb n="15"/>
             </p>
-          <p>23. Ad hoc nobis paedagogus data est lex, ad hoc medii <lb/>
+          <p n="23">23. Ad hoc nobis paedagogus data est lex, ad hoc medii <lb/>
             legis et Christi missi sunt prophetae, ad hoc spiritalis lex <lb/>
             adinpletur et finis omnium Christus aduenit. hoc est quod <lb/>
             agit euacuata diuinitas, hoc promouet carnis adsumptio et <lb/>
@@ -789,7 +789,7 @@
             sicut in carne et anima fuerat condemnatio, ita in carne et <lb/>
             anima fieret salus. Christus ergo pro Adam, pro eo qui factus<lb n="5"/>
             est sub peccato ille qui erat sine peccato.</p>
-          <p>24. Et introducitur pro uetere nouus, ut huius passione <lb/>
+          <p n="24">24. Et introducitur pro uetere nouus, ut huius passione <lb/>
             uoluntaria ille qui inuifus passus fuerat curaretur, quo scilicet <lb/>
             pro singulis nobis hoc quod supra nos erat redderetur. con­ <lb/>
             pletur ergo nouum misericordiae sacramentum erga eum qui<lb n="10"/>
@@ -802,8 +802,8 @@
             et testimonium ei de caelestibus perhibetur et ieiunat et <lb/>
             temptatur et uincit eum qui uicerat; propterea daemones <lb/>
             fugantur, aegritudines curantur et magnorum praedicatio mini­ <lb/>
-            mis iniungitur.<lb n="20"/>
-            25. Propterea infremescunt gentes et populi inania meditan­ <lb/>
+            mis iniungitur.<lb n="20"/></p>
+            <p n="25">25. Propterea infremescunt gentes et populi inania meditan­ <lb/>
             tur; propterea lignum aduersum lignum et manus patienter <note type="footnote"> 6 cf. I Ioli. 3, 5. I Petr. 2, 22 12 cf. Gen. 2, 8 cf. Luc. <lb/>
             2, 16 14 cf. Matth. 2, 9-11 16 cf. Matth. 3, 13—17 17 cf. Matth. <lb/>
             4, 2 18 cr. Matth. 4, 3-10 cf. Luc. 8, 30 19 cf. Matth. 9, 3-5 <lb/>
@@ -828,12 +828,12 @@
             unde decidit reparans et reformans atque ad arborem uitae <lb/>
             restituens, unde nos arbor sciendi boni et mali inportune <lb n="10"/>
             et extra tempus sumpta depulerat.</p>
-          <p>26. Huius ergo uos medicinae et curationis ministri et <lb/>
+          <p n="26">26. Huius ergo uos medicinae et curationis ministri et <lb/>
             adiutores sumus, quicumque praeesse populis uidemur. qui <lb/>
             nescio an in id saltim profecerimus, ut uel proprias infirmi- <lb/>
             tates curare ualeamus, nedum alienis languoribus medicari et <lb n="15"/>
             animarum maculas sollicita eruditione purgare.</p>
-          <p>27. Tum deinde corporum quidem medici laborem, uigi­ <lb/>
+          <p n="27">27. Tum deinde corporum quidem medici laborem, uigi­ <lb/>
             lias ac sollicitudines tolerant et, sicut ait quidam sapientis- <lb/>
             simus eorum, alienos casus propriis maeroribus perferunt <lb/>
             aliqua ipsi proprio labore exquirentes et inuenientes ad meden­ <lb n="20"/>
@@ -861,7 +861,7 @@
             que bonorum ex hac uita lucretur, cum certum sit quia nemo <lb/>
             prudentium diligere id debeat quod omni pacto paulo post <lb/>
             omissurus sit?</p>
-          <p>28. Nos uero, quibus periculum pro salute est animarum<lb n="10"/>
+          <p n="28">28. Nos uero, quibus periculum pro salute est animarum<lb n="10"/>
             et quibus pro inmortalitate certamen est et uel de gloriae <lb/>
             uel de poenae aeternitate contentio — e quibus alterum <lb/>
             uirtus, alterum desidia praeparabit —, quantum oportet laboris <lb/>
@@ -875,7 +875,7 @@
             incommodis et uegetis, principibus et subiectis. sapientibus <lb/>
             et inperitis, timidis et audacibus, iracundis et mitibus, profi­ <lb/>
             cientibus et declinantibus.</p>
-          <p>29. Et ut adhuc interiora perquiram, non eadem con­ <lb/>
+          <p n="29">29. Et ut adhuc interiora perquiram, non eadem con­ <lb/>
             uenient his qui in coniugiis sunt et his qui liberi sunt a<lb n="25"/>
             coniugali iugo. sed et inter ipsos rursum differentia est, eo- <note type="footnote">10 cf. I Petr. 1, 9 </note><note type="footnote"><hi rend="italic">1 terram v 3 discedere Cp.c. cornmuno R</hi> 4 consulunt per <lb/>
             Jiaec <hi rend="italic">Y</hi> 8 prudentum <hi rend="italic">Cp.c.,v</hi> dilegere <hi rend="italic">C 9 obniissurus</hi> (b <hi rend="italic">ins.) R</hi> <lb/>
@@ -901,7 +901,7 @@
             subsistamus elementis, tamen uniuscuiusque corporis est quod- <lb/>
             dam proprium temperamentum. <lb n="15"/>
             </p>
-          <p>30. Et propter hoc non omnibus eadem medicamenta condu­ <lb/>
+          <p n="30">30. Et propter hoc non omnibus eadem medicamenta condu­ <lb/>
             cunt, sed alius alio indiget uel medicamento uel cibo uel <lb/>
             potu et singulis diuersa conueniunt. ita etiam animas diuersus <lb/>
             ac uarie conpositus sermo curabit. et erunt mihi testes horum <note type="chapter"> 2 </note> <lb/>
@@ -920,7 +920,7 @@
             (h s. <hi rend="italic">l.) 0</hi> 14 elimentis <hi rend="italic">R</hi> et (est <hi rend="italic">s.</hi> et) <hi rend="italic">R</hi> 15 proprium <hi rend="italic">om. v<lb/>
              curauit V 24 feruentes 0 26 pullus iugique v</hi> </note> <pb n="28"/>
             </p>
-          <p>31. Multis laudari profuit, aliis uituperari, utraque tamen <lb/>
+          <p n="31">31. Multis laudari profuit, aliis uituperari, utraque tamen <lb/>
             si in tempore proferantur, alioquin magis inportune prolata <lb/>
             nocuerunt. alios consolatorius sermo correxit, alios increpatio, <lb/>
             et aliis conuenit coram omnibus argui, aliis secretius commo- <note type="chapter">2 </note> <lb/>
@@ -929,7 +929,7 @@
             tiores fiunt secretae increpationis mysterium uenerantes et <lb/>
             oboedientiam sui uelut quoddam munus honesto ac sedulo <lb/>
             officio retribuentes.</p>
-          <p>32. Aliorum conuenit obseruari omnia diligentius et usque<lb n="10"/>
+          <p n="32">32. Aliorum conuenit obseruari omnia diligentius et usque<lb n="10"/>
             ad minimum discuti, eorum praecipue qui, dum mala sua arte <lb/>
             quadam celare se putant, eriguntur aduersum ceteros et <lb/>
             intlalltur; aliorum uero oportet nonnulla praeterire, ut uidentes <lb/>
@@ -948,7 +948,7 @@
             uinci interdum melius fuit; et aliorum quidem prosperitatem <lb/>
             et potentiam, aliorum uero paupertatem et deiectionem conlau­ <lb/>
             dare nonnumquam conuenit et amplecti.</p>
-          <p>33. Non enim, sicut uirtutis et ignauiae ordo se ac species <lb/>
+          <p n="33">33. Non enim, sicut uirtutis et ignauiae ordo se ac species <lb/>
             habet, ut una semper in laude sit et alia semper in culpa, <note type="footnote">13 cf. Matth. 13, 13 </note><note type="footnote"> 6 inpudicitiores (ci <hi rend="italic">s. l.) R</hi> 7 secrete <hi rend="italic">RO</hi> secreti <hi rend="italic">Ca.c.</hi> 10 obseruareii <lb/>
             11 sua <hi rend="italic">om. V</hi> 12 se <hi rend="italic">om. C</hi> 14 non-tamqnam <hi rend="italic">om. V</hi> 16 ultimum <lb/>
             <hi rend="italic">otn. V 21 disperare 0,Ca.c. 22 disperantes 0 ita om. V</hi> requi­ <lb/>
@@ -965,7 +965,7 @@
             ordinem describamus, inpossibile puto etiam his qui sapien- <lb/>
             tiae ipsius meruerunt arcana cognoscere. <lb n="10"/>
             </p>
-          <p>34. Quantum autem nobis per uerbum dei patefactum est <lb/>
+          <p n="34">34. Quantum autem nobis per uerbum dei patefactum est <lb/>
             et breuis experientia potuit inuenire, illud generali intentione <lb/>
             obseruandum puto: ut sicut his, quibus per districtos in <lb/>
             excelso funes incedere disciplina est, huc uel illuc declinare <lb/>
@@ -993,8 +993,8 @@
             curam a bono pastore deposcant, ab eo scilicet, qui secundum <lb/>
             scripturae sententiam scienter scit animas pecorum suorum <lb/>
             et regit gregem secundum uerbum dominicum et disciplinam <lb/>
-            pastoralem. quam a uero pastore omnium suscepimus Christo.<lb n="5"/>
-            35. Ipsam uero uerbi dei curam et doctrinae rationem quo­ <lb/>
+            pastoralem. quam a uero pastore omnium suscepimus Christo.<lb n="5"/></p>
+          <p n="35">35. Ipsam uero uerbi dei curam et doctrinae rationem quo­ <lb/>
             modo explicare ualeam — ut ultimum dicam quod primum <lb/>
             est et magnum —, quoniam quidem hodie, ut uideo, omnes <note type="chapter"> 2 </note> <lb/>
             magistri sunt et omnes philosophantur? quod ego satis miror, <lb/>
@@ -1010,7 +1010,7 @@
             quae uel contra rationem accidere — humanam uidelicet — uel <lb/>
             iuxta rationem uidentur.<lb n="20"/>
             </p>
-          <p rend="script">36. 37. Sed et de primo nostro statu ac nouissima reforma­ <lb/>
+          <p n="36" rend="script">36. 37. Sed et de primo nostro statu ac nouissima reforma­ <lb/>
             tione, de praefigurationibus et ueritate, de utroque testamento, <lb/>
             de aduentu Christi primo ac secundo, de incarnatione eius <note type="footnote"> 3 cf. Prou. 27, 23 5 cf. Ioh. 10, 11. 14. Ezech. 34, 23 8 cf. <lb/>
             Matth. 23, 10 11 cf. Luc. 12. 42 </note> <note rend="script" type="footnote"> 1 ac sui cura <hi rend="italic">C</hi> 2 a bono] abuno <hi rend="italic">R</hi> deposcunt <hi rend="italic">R</hi> deposcat <hi rend="italic">OA V</hi> <lb/>
@@ -1051,7 +1051,7 @@
             rursum ad paganorum errores, unde discessum fuerat, redire <lb/>
             uideantur. <lb n="25"/>
             </p>
-          <p>38. Neque in tres substantias alienas a se inuicem et <lb/>
+          <p n="38">38. Neque in tres substantias alienas a se inuicem et <lb/>
             diuersas fas est dirimi deitatem secundum Arrium. oportet <note type="footnote"> 1 et] <hi rend="italic">ac OA</hi> ac] <hi rend="italic">et OA 2 fide R de aZ#.] et A tribulatione R</hi> <lb/>
             4 tenenti <hi rend="italic">Vp.c.</hi> et trin. <hi rend="italic">V</hi> 5 periculum summum <hi rend="italic">v</hi> 8 uitantes <lb/>
             qui-plltent--estimantes-declinent-putant-designent <hi rend="italic">v</hi> qui <hi rend="italic">AC <lb/>
@@ -1077,7 +1077,7 @@
             mur et patrem ac filium et spiritum sanctum in sua quemque <lb/>
             subsistere substantia sentiamus.<lb n="15"/>
             </p>
-          <p>39. Haec plus fortasse quam tempus sinebat protraxerim <lb/>
+          <p n="39">39. Haec plus fortasse quam tempus sinebat protraxerim <lb/>
             uolens uel uitam uel sermonem uel intellectum demonstrare <lb/>
             eius qui populis praeest, quo possit in utroque perfectus <lb/>
             fieri habitaculum spiritus sancti, per quem solum deus et <lb/>
@@ -1107,7 +1107,7 @@
             in aliis quibusque studiis et doctrinis facile uel profertur <lb/>
             sermo uel recipitur, in his uero nostris scholis ipsa auditorum <lb n="10"/>
             expectatio dicturo periculum generat.</p>
-          <p>40. Tamquam enim de deo audituri et de summa om­ <lb/>
+          <p n="40">40. Tamquam enim de deo audituri et de summa om­ <lb/>
             nium spe ac salute suscepturi uerbum quanto calidiores <lb/>
             erga fidem fuerint, tanto adtentiores et scrupulosiores erga <lb/>
             audiendum fient, ita ut, sicubi aliquid secus dicentis sermo <lb n="15"/>
@@ -1138,7 +1138,7 @@
             et conpetenter adhibitus cor pulsauerit, continuo sicut ignifer <lb/>
             lapis pulsatus a simili ex ea quae sibi naturaliter inest lucis <lb/>
             scintilla lampadas confestim ueritatis accendit.</p>
-          <p>41. De illis uero quid dicamus qui, dum iactantiae gloriam <lb/>
+          <p n="41">41. De illis uero quid dicamus qui, dum iactantiae gloriam <lb/>
             quaerunt et praeesse populis delectantur, iniquitatem in ex-<lb n="10"/>
             celsum loquuntur, qui uelut Iannes quidam et Mambres non <lb/>
             tam Moysi quam ueritati resistunt et aduersum sanam doctri- <note type="chapter">2 </note> <lb/>
@@ -1148,7 +1148,7 @@
             forte ipsi protulerint, hostiliter et insolenter occurrunt. a <lb/>
             quibus secundum domini dictum porcorum more ueritatis <lb/>
             margaritae pedibus conculcantur.</p>
-          <p>42. Alii quoque sunt qui nullam quidem ex proprio sensu <lb/>
+          <p n="42">42. Alii quoque sunt qui nullam quidem ex proprio sensu <lb/>
             opinionem deferunt neque aliquam formam de fide dei obtinent <lb n="20"/>
             uel bonam uel malam, sed omnibus se tradunt magistris <lb/>
             atque omnem suscipiunt sermonem uelut quod melius est et <lb/>
@@ -1178,7 +1178,7 @@
             quod accidere solet his qui oculos dolent et solis lumen <lb/>
             accusant uel qui aures, et uoces hominum minus esse sono­ <lb/>
             ras queruntur.</p>
-          <p>43. Propterea ergo multo utilius est animae simpliciter et <lb/>
+          <p n="43">43. Propterea ergo multo utilius est animae simpliciter et <lb/>
             pure ueritatis elementa suscipere et uelut ceris ea nondum <lb n="15"/>
             charaxatis inscribere quam super illa quae ante male scripta <lb/>
             sunt superducere, id est supra malam doctrinam et peruersa <lb/>
@@ -1206,7 +1206,7 @@
             disciplina uigere debet apud eum, cui animarum instituen-<lb n="5"/>
             darum cura committitur. ex quibus nos quam plurima nunc <lb/>
             breuitatis studio praetermittimus.</p>
-          <p>44. Sicut enim uerbi gratia, si fieri posset ut ex multis <lb/>
+          <p n="44">44. Sicut enim uerbi gratia, si fieri posset ut ex multis <lb/>
             animalibus ac bestiolis genere ac specie diuersis, magnis et <lb/>
             exiguis, ferocioribus et mitioribus, asperioribus et lenioribus,<lb n="10"/>
             unum aliquod animal uel bestia una constaret, haec utique <lb/>
@@ -1240,7 +1240,7 @@
             habet tamen singulorum se et moribus et institutionibus <lb/>
             conformare ac sermonem suum aptare singulis oportunum.. <lb n="5"/>
             </p>
-          <p>45. Quoniam quidem alii lacte indigent, hi uidelicet quibus <lb/>
+          <p n="45">45. Quoniam quidem alii lacte indigent, hi uidelicet quibus <lb/>
             prima adhuc religionis rudimenta traduntur, et cum sint <lb/>
             paruuli in fide, uirilis adhuc, ut ita dixerim, cibi uigorem <lb/>
             ferre non possunt; quem utique contra uires si quis ingeratr <lb/>
@@ -1257,7 +1257,7 @@
             crescent laudabili incremento, quo oportet omnem perfectum <lb n="20"/>
             in ipso crescere in uirum perfectum, in mensuram <lb/>
             aetatis plenitudinis Christi.</p>
-          <p>46. Et ad haec quis idoneus? non enim debemus esse <lb/>
+          <p n="46">46. Et ad haec quis idoneus? non enim debemus esse <lb/>
             sicut plurimi adulterantes uerbum dei et miscentes aquam <lb/>
             nino, id est laetificanti cor hominis uerbo sermonem uilem <note type="footnote"> 6 cf. Hebr. 5, 12. I Cor. 3, 1 sq. 14 cf. I Cor. 2, 6 15 Hebr. <lb/>
             5, 14 17 cf. Rom. 14, 2 20 cf. Col. 2, 19 21 Eph. 4, 13 23 II <lb/>
@@ -1280,7 +1280,7 @@
             centem effundimus, id est animarum simplicium uitam in <lb/>
             interitum damus, quae utique de nostris manibus exquirentur.<lb n="10"/>
             </p>
-          <p>47. Pro his ergo omnibus considerabam multo esse melius <lb/>
+          <p n="47">47. Pro his ergo omnibus considerabam multo esse melius <lb/>
             peritioribus aliis cedere regendi habenas quam currus praeci­ <lb/>
             pites per inperitiam dare, et magis accommodare aurem ad <lb/>
             oboedientiae auditum quam linguam inperitam mouere. haec <lb/>
@@ -1302,9 +1302,9 @@
             <hi rend="italic">R,Ca.c.</hi> ad oboedientiam et auditum <hi rend="italic">V</hi> 15 egomet] ego et <hi rend="italic">R</hi> ergo <lb/>
             et <hi rend="italic">Cv</hi> 16 sin] sint <hi rend="italic">A</hi> factaque] quantaq; <hi rend="italic">0</hi> 17 discedere <hi rend="italic">V</hi> <lb/>
             18 ultimum <hi rend="italic">Ra.c.</hi> 19 discere s. <hi rend="italic">I. m2 C</hi> 20 effectare <hi rend="italic">Ra.c.</hi> eum] <lb/>
-            et <hi rend="italic">A</hi> 23 disce«*re <hi rend="italic">C</hi> stulti mihi satis <hi rend="italic">RCv</hi> satis mihi stulti <hi rend="italic">A</hi> </note> <lb/>
+            et <hi rend="italic">A</hi> 23 disce«*re <hi rend="italic">C</hi> stulti mihi satis <hi rend="italic">RCv</hi> satis mihi stulti <hi rend="italic">A</hi> </note> <lb/></p>
              <pb n="39"/>
-            48. Hebraeorum seniores tradunt quod fuerit talis quaedam <lb/>
+            <p n="48">48. Hebraeorum seniores tradunt quod fuerit talis quaedam <lb/>
             apud eos antiquitus laudabilis obseruatio, ut non omni aetati <lb/>
             omnis scriptura uel legenda uel discenda committeretur pro <lb/>
             eo quod non expediret omnes omnia cito discere, quia nec <lb/>
@@ -1320,7 +1320,7 @@
             et intellegentiae capacitas apparebit; qui utique iam ualeant <lb/>
             bene et confidenter ascendere ab inferioribus litterae ad supe­ <lb n="15"/>
             riora spiritus et excelsa.</p>
-          <p>49. Quid ergo? apud nos inter docere et doceri nulla erit <lb/>
+          <p n="49">49. Quid ergo? apud nos inter docere et doceri nulla erit <lb/>
             differentia, nulla discretio? nec inter tribum et tribum fiet <lb/>
             ulla diuisio? nec illi ultra Iordanem et isti intra Iordanem <lb/>
             hereditatem sorte suscipient? nullus populis nostris finalis <lb n="20"/>
@@ -1379,7 +1379,7 @@
             isti fastidiosi iudicantes singulos et condemnantes et pro <lb/>
             nihilo omnino ducentes, si ita libuerit, abscedunt etiam commu­ <lb/>
             nionem nostram uelut inpiam recusantes.</p>
-          <p>50. Quodsi aliquem eorum lenioribus monitis adire uelimus <lb n="5"/>
+          <p n="50">50. Quodsi aliquem eorum lenioribus monitis adire uelimus <lb n="5"/>
             et adsertione rationabili conuenire dicentes: \'quaeso te, o <lb/>
             uirorum optime, respondeas mihi: artem aliquam uel disci­ <lb/>
             plinam ducis esse tibia canere uel citharam ferire?\', sine <lb/>
@@ -1421,7 +1421,7 @@
             apud se sapiens esse. hoc autem sine dubio longe ne-<lb n="10"/>
             quius, si is etiam doctor subrogetur aliorum qui semet ipsum <lb/>
             ignorat esse inperitum.</p>
-          <p>51. Qui languor lacrimis ingentibus et luctu magis quam <lb/>
+          <p n="51">51. Qui languor lacrimis ingentibus et luctu magis quam <lb/>
             uerbis indiget. unde et ego frequenter apud memet ipsum <lb/>
             miseratus sum huiusmodi homines sciens quod uelle uideri<lb n="15"/>
             sapientem hoc est omnino non esse sapientem. sed grande <lb/>
@@ -1432,7 +1432,7 @@
             bus tamen omnia facti sunt, ut omnes lucrifacerent. nobis <lb/>
             uero satis est, si uel gubernari nos recte patiamur et regi ab <lb/>
             his quibus regendi gratia gubernandique concessa est.</p>
-          <p>52. Uerum quoniam Pauli et ceterorum similium eius <lb/>
+          <p n="52">52. Uerum quoniam Pauli et ceterorum similium eius <lb/>
             fecimus mentionem, omittentes, si uidetur, ceteros omnes qui<note type="footnote"> 5 cf. Luc. 8, 6 cf. Eccli. 25, 9 (12) 8 Eccle. 10, 5. Prou. 26, 12 <lb/>
             20 cf. I Cor. 9, 22 </note> <note type="footnote"> 1 ita et <hi rend="italic">A</hi> leue (xou^ov ts <hi rend="italic">1tpãjp.a)] leue R,Cp.c.,v</hi> existimabimus <lb/>
             (•jnoXyj^o^s^a)] estimabimus <hi rend="italic">C</hi> estimabimus <hi rend="italic">v</hi> 3 disperabilis <hi rend="italic">O,Ca.c.</hi> <lb/>
@@ -1458,7 +1458,7 @@
             prudentiae requirit aut parum consilii laborisque deposcit. <lb/>
             uideamus ergo quid Paulus dicit de Paulo et ex ipso quid <lb/>
             istud sit negotii de quo agitur addiscamus.</p>
-          <p>53. Omitto enumerare labores et uigilias, in siti et fame <lb n="15"/>
+          <p n="53">53. Omitto enumerare labores et uigilias, in siti et fame <lb n="15"/>
             miserias toleratas, in frigore et nuditate; omitto illos extrin. <lb/>
             secus insidiantes, intrinsecus resistentes; omitto persecutiones, <lb/>
             Iudaica concilia, carceres, uincula, accusatores, iudicia, cotti­ <lb/>
@@ -1489,7 +1489,7 @@
             cors, erga omnes fraterno distentus affectu: offendiculum quis <lb/>
             patiebatur, et Paulus infirmabatur; scandalizabatur alius, et <lb n="10"/>
             Paulus urebatur.</p>
-          <p>54. Sed docendi enumerem studium ac laborem? sed cura­ <lb/>
+          <p n="54">54. Sed docendi enumerem studium ac laborem? sed cura­ <lb/>
             rum uarietatem? sed lenitatem dicam et iterum austeritatem <lb/>
             aut ex utroque temperamentum, ut neque multa .asperitate <lb/>
             exulceraret neque nimia benignitate resolueret? leges dat seruis <lb n="15"/>
@@ -1525,8 +1525,8 @@
             filiorum sunt eorum, quos in Christo per euangelium genuit. <lb/>
             quod utique singulariter obseruandum est his qui spiritalibus <lb/>
             populis praesunt, ut in omnibus quae sua sunt neglegant et <lb/>
-            contemnant pro utilitate ceterorum. <lb/>
-            55. Gloriatur ergo Paulus, sed in infirmitatibus ac tribulatio­ <lb n="15"/>
+            contemnant pro utilitate ceterorum. <lb/></p>
+            <p n="55">55. Gloriatur ergo Paulus, sed in infirmitatibus ac tribulatio­ <lb n="15"/>
             nibus suis, et uelut pretioso quodam monili mortificatione <lb/>
             Christi adornatur; excelsior est supra omne quod carnale est, <lb/>
             exultat autem in spiritalibus et gloriatur; et cum non sit <lb/>
@@ -1559,7 +1559,7 @@
             portauit et elegit, ut ita dicam, extra pietatem fieri pro<lb n="10"/>
             pietate, dum anathema esse a Christo patitur, tantum ut isti <lb/>
             salui fiant.</p>
-          <p>.56. Et quid dicam per singula? uiuit non sibi sed Christo <lb/>
+          <p n="56">56. Et quid dicam per singula? uiuit non sibi sed Christo <lb/>
             et praedicationi uerbi; mundum sibi crucifigit et se mundo; <lb/>
             omnia parua ducit et exigua pro desiderio Christi. etiamsi ab<lb n="15"/>
             Hierusalem in circuitu usque ad Illyricum repleat euangelium, <lb/>
@@ -1589,7 +1589,7 @@
             certe nobis deest, ut simus sacerdotes loquentes in corde <lb/>
             Hierusalem. quae omnia Esaias inputat et exprobrat, cuius <lb/>
             labia per Seraphin ignea pruna purgantur.</p>
-          <p>57. Sed quid? opus quidem tantum ac tale est et tam <lb/>
+          <p n="57">57. Sed quid? opus quidem tantum ac tale est et tam <lb/>
             laboriosum cordi sensibili, periculum uero leue aut nullum <lb n="10"/>
             et lapsus contemptibilis? et quidem multum mihi metum <lb/>
             intentat. hinc quidem beatus Osee iudicium dicens esse de <note type="chapter"> 2 </note> <lb/>
@@ -1600,7 +1600,7 @@
             minatur et igni consumendos iudices eorum. cessandum quoque <lb/>
             esse ab ungendis regibus et principibus ordinandis, quoniam <lb/>
             ipsi sibi statuerunt reges et non per deum.</p>
-          <p>58. Hinc autem deterret beatus Michaeas non ferens fabri­ <lb n="20"/>
+          <p n="58">58. Hinc autem deterret beatus Michaeas non ferens fabri­ <lb n="20"/>
             cari Sion in sanguine et Hierusalem in iniquitate principum <note type="footnote"> 1 Esai. 3, 4 3 cf. Esai. 3, 7 4 cf. Esai. 9, 15 6 cf. Esai. <lb/>
             40, 2 8 cf. Esai. 6, 6 13 Os. 5, 1 16 cf. Os. 6, 5 17 cf. Os. <lb/>
             7, 7 19 cf. Os. 8, 4 20 cf. Micli. 3, 10 </note> <note type="footnote"> 1 aut etiam] esaias etiam <hi rend="italic">A</hi> de quibus <hi rend="italic">om. V</hi> 2 pueri sensibus <lb/>
@@ -1628,7 +1628,7 @@
             uerba ad gratiam loquentes et paene similiter sicut beatus<lb n="10"/>
             Dauid exclamat: saluum me fac, domine, quoniam defe­ <lb/>
             cit sanctus.</p>
-          <p>59. Iohel autem nobis beatus etiam lamentationem iniungit <lb/>
+          <p n="59">59. Iohel autem nobis beatus etiam lamentationem iniungit <lb/>
             et luctum praecipit his qui altari deseruiunt, cum famis <lb/>
             uastitas inmineret — in tantum deliciae et afluentia prohibentur<lb n="15"/>
             in penuria ceterorum —, denique sanctificare iubentur ieiunium <lb/>
@@ -1638,7 +1638,7 @@
             niam quidem misera facta est terra et ablata est de domo<lb n="20"/>
             domini libatio et hostia —, ut per nimiam humilitatem <lb/>
             misericordiam mererentur.\'</p>
-          <p>60. Quid uero dicam de Ambacum? qui feruentioribus usus <lb/>
+          <p n="60">60. Quid uero dicam de Ambacum? qui feruentioribus usus <lb/>
             eloquiis ad ipsum sermonem suum contulit deum et uelut <note type="footnote">1 cf. Mich. 3, 11 4 Mich. 3, 12 6 cf. Mich. 7, 1. 2 9 cf. Mich. <lb/>
             7, 3 11 Ps. 11, 2 13 cf. Ioel 1, 13 16 cf. Ioel 1, 14 19 cf. <lb/>
             Esai. 58, 5 20 cf. Ioel 1, 13 <lb/>
@@ -1675,7 +1675,7 @@
             praeparare, quod est in animas auditorum cogitationes malas <lb n="20"/>
             inicere et consilia uenenata demergere. isti quidem talia ad <lb/>
             nos et de talibus disputant.</p>
-          <p>61. Malachiam uero quomodo feremus nunc increpan­ <lb/>
+          <p n="61">61. Malachiam uero quomodo feremus nunc increpan­ <lb/>
             tem sacerdotes amarissime, nunc etiam obiurgantem quod <note type="footnote"> 2 Hab. 1, 2-4 10 ibid. 1, 5. Act. 13, 41 15 cf. Hab. 2, 15 <lb/>
             23 cf. Mal. 1, 6 </note> <note type="footnote"> 1 iudiciu <hi rend="italic">Rv</hi> 2 domino <hi rend="italic">Ra.c.</hi> 3 domine (xupis) <hi rend="italic">codd. quidam<lb/>
              deteriores, om. codd. nostri et v</hi> uociferabo <hi rend="italic">V</hi> 7 accipit (Xajj$avEt)| <lb/>
@@ -1708,7 +1708,7 @@
             stias uestras necsuscipiameasdemanibusuestris. <lb/>
             et tantum est quod exacerbat dominum iniuria sacerdotum,<lb n="20"/>
             ut etiam ipsa sacrificia repellat ac respuat.</p>
-          <p rend="script">62. Zachariae autem cum recordatus fuero, perhorresco <lb/>
+          <p n="62" rend="script">62. Zachariae autem cum recordatus fuero, perhorresco <lb/>
             falcem deferentis e caelo, qui et ipse similiter aduersum <lb/>
             sacerdotes multa testatur. sed et lesum ipsum, sacerdotem <lb/>
             magnum, sordidis uestibus introducit, quibus ablatis candidis<note type="chapter"> 2 </note> <lb n="25"/>
@@ -1727,7 +1727,7 @@
             dextris stare diabolus dicitur et aduersari ei. quae res utique <lb/>
             mihi fragili homini multo maiorem incutit metum cautelam­ <lb n="5"/>
             que denuntiat.</p>
-          <p>63. Quantum uero ceteros pastores incusat et culpat, quan­ <lb/>
+          <p n="63">63. Quantum uero ceteros pastores incusat et culpat, quan­ <lb/>
             tum castigat et corripit! quis est tam saxei cordis et adaman­ <lb/>
             tinae duritiae, qui non audiens intremescat? uox, inquit, <lb/>
             lamentantium pastorum, quia misera facta est glo­ <lb n="10"/>
@@ -1756,7 +1756,7 @@
              <pb n="52"/>
             tibus minis. uerum ego metuo, ne molestior uidear per ordinem <lb/>
             cuncta dinumerans, et ideo omitto plura retexere.</p>
-          <p>64. Praetereo et duos illos qui apud Danihelum referuntur <lb/>
+          <p n="64">64. Praetereo et duos illos qui apud Danihelum referuntur <lb/>
             seniores, de quibus praedixerat dominus: quia processit <lb/>
             iniquitas ex Babylone a senioribus. qui uideban-<note type="chapter"> 2 </note> <lb n="5"/>
             tur populum gubernare. Ezechihelum sane penitus prae-_ <lb/>
@@ -1766,7 +1766,7 @@
             eam uenientem, quia neque ipsis expedit reticere neque his<lb n="10"/>
             qui delinquunt profuit non audire. sed et illis ponitur silentii <lb/>
             sui poena et istos interitus non moratur.</p>
-          <p>65. Sed et alio loco quomodo luctum quendam super pastores <lb/>
+          <p n="65">65. Sed et alio loco quomodo luctum quendam super pastores <lb/>
             introducit dicens: uae super uae erit et nuntius super <lb/>
             nuntium, et requiretur uisio a propheta et lex <lb n="15"/>
             peribit a sacerdote et consilium a senioribus. et <lb/>
@@ -1796,7 +1796,7 @@
             dicitur, qui declinant, inquit, domum Israhel secundum <lb/>
             cor suum, quod alienatum estin concupiscentiis suis. <lb n="5"/>
             </p>
-          <p>66. Praetereo uero commemorare quaecumque dicit de his <lb/>
+          <p n="66">66. Praetereo uero commemorare quaecumque dicit de his <lb/>
             qui se ipsos pascunt, qui lac comedunt et lana induuntur, <lb/>
             qui quod crassius est iugulant et se ipsos pascunt et oues <lb/>
             non pascunt, qui infirmum non confortant, qui contritum non <lb/>
@@ -1812,7 +1812,7 @@
             exquiram oue3 meas de manibus eorum. et illas <lb/>
             quidem congregara se dicit ac reparare, illos uero passuros <lb n="20"/>
             ea quae malis past/.ibus praeparata sunt.</p>
-          <p>67. Uerum ne si gula quaeque dinumerans prophetarum <lb/>
+          <p n="67">67. Uerum ne si gula quaeque dinumerans prophetarum <lb/>
             dicta sermonem in longius protraham, unius adhuc tantum­ <lb/>
             modo prophetae faciens mentionem, illius scilicet qui ante- <lb/>
             quam plasmaretur in utero agnitus est et antequam ex uulua <lb n="25"/>
@@ -1829,7 +1829,7 @@
             praeteribo. quaerit hic aquam capiti suo et oculis suis fontem <lb/>
             lacrimarum, ut digne possit deSere Israhel uel eorum qui prae­ <lb/>
             sunt ei malitiam.</p>
-          <p>68. Dicit enim ad eum dominus de sacerdotibus: sacer­ <lb/>
+          <p n="68">68. Dicit enim ad eum dominus de sacerdotibus: sacer­ <lb/>
             dotes non dixerunt: ubi est dominus? et qui obti-<lb n="5"/>
             nent legem meam non sciebant me, et pastores <lb/>
             inpie agebant in me. tum deinde dicit: pastores inpru­ <lb/>
@@ -1847,7 +1847,7 @@
             lare quoque pastores praecipit et lugere arietes ouium, quia <lb/>
             adinpleti sunt dies eorum ad iugulandum.<lb n="20"/>
             </p>
-          <p>69. Sed quid demoror tam multa de ueteribus proferens, <lb/>
+          <p n="69">69. Sed quid demoror tam multa de ueteribus proferens, <lb/>
             quasi uero Pauli regulae non sufficiant, quas de episcopis et <lb/>
             presbyteris statuit? uigilantes esse iubet et sobrios, non <lb/>
             uinolentos, non percussores, docibiles, in omnibus inculpabiles. <note type="chapter"> 2 </note> <lb/>
@@ -1868,7 +1868,7 @@
             et, ut ita dicam, caelestes incedere super terras, ut non minus <lb n="5"/>
             exemplo uitae uirtutem quam uerbis docerent ac dictorum <lb/>
             fidem gestorum ueritas conprobaret.</p>
-          <p>70. Sed et illud quoque me non minus commouet, cum <lb/>
+          <p n="70">70. Sed et illud quoque me non minus commouet, cum <lb/>
             Pharisaei arguuntur et scribae, quos utique longe nos oportebat <lb/>
             in uirtute ac iustitia superare. et uereor nunc, ne forte eos <lb n="10"/>
             in malitia superemus, ita ut conpetat nobis etiam illud dici: <lb/>
@@ -1877,7 +1877,7 @@
             intrinsecus inmundi et extrinsecus religiosi, parapsides mundae <lb/>
             deforis\' et alia quaecumque in illos uel dicta uel exprobrata <lb n="15"/>
             sunt.</p>
-          <p>71. Has egomet mecum cogitationes diebus ac noctibus <lb/>
+          <p n="71">71. Has egomet mecum cogitationes diebus ac noctibus <lb/>
             uoluens in ipsis, ut ita dicam, medullis meis conficior et <lb/>
             consumor continuatisque suspiriis tabesco carnibus ac toto <lb/>
             corpore deliquesco. non me permittit hic angor erecto ac resu­ <lb n="20"/>
@@ -1907,7 +1907,7 @@
             alios sanctificare, manus habere rectas et sic indigentibus <lb/>
             porrigere manum, recti esse consilii et sic aliis rectum dare<lb n="10"/>
             consilium.</p>
-          <p>72. Et quando, inquiunt, ista erunt? hi qui omnia cita <lb/>
+          <p n="72">72. Et quando, inquiunt, ista erunt? hi qui omnia cita <lb/>
             malunt esse quam cauta, qui tam cito aedificant quam cito <lb/>
             destruunt. et quando, aiunt, lucerna ponetur super candela­ <lb/>
             brum? quando talentum dabitur nummulariis? dei, inquiunt,<note type="chapter">2 </note> <lb n="15"/>
@@ -1932,7 +1932,7 @@
             22 multo <hi rend="italic">addidi coll. lin. 20, om. codd. v</hi> 24 dicitur (u <hi rend="italic">s. pr.</hi> i) <hi rend="italic">0</hi> <lb/>
             dicitur <hi rend="italic">A</hi> </note> <pb n="57"/>
             </p>
-          <p>73. Et omnis pars quae in primis perurguetur in nouissimo <lb/>
+          <p n="73">73. Et omnis pars quae in primis perurguetur in nouissimo <lb/>
             non bene dirigetur. nam et illud quod super petrosa semina­ <lb/>
             tum est cito quidem exortum est, sed quia non habuit <lb/>
             altitudinem terrae, ad primos statim aestus solis exaruit. et <lb/>
@@ -1951,7 +1951,7 @@
             superiori mundo habitatores sui reddantur et — ut simul to­ <lb/>
             tum dicam —, ut ex hominibus in deorum numerum <lb/>
             transeant.</p>
-          <p>74. Scimus cuius sumus ministri et ubi et quali sacer­ <lb n="20"/>
+          <p n="74">74. Scimus cuius sumus ministri et ubi et quali sacer­ <lb n="20"/>
             dotio fungimur, ubi sumus et quo mittimus quos praeparamus. <note type="footnote"> 2 ct\'. Matth. 13, 5. 6. Marc. 4. 5. 6. Luc. 8, 6 5 cf. Matth. 7, <lb/>
             26. 27. Luc. 6, 49 7 Eccle. 10, 16 8 Eccle. 5, 1 11 cf. Hiob 10, 9 <lb/>
             15 cf. Rom. 12, 2 </note> <note type="footnote"> <hi rend="italic">1 perurgetur Vv</hi> 2 bene dirigetur] <hi rend="italic">benedicitur Cv</hi> • <hi rend="italic">diregituv O<lb/>
@@ -1980,7 +1980,7 @@
             uniuersam terram pugillo, qui statuit montespon­ <lb/>
             dere et colles statera? quis erit locus requietionis eius et <lb/>
             cui adsimilabitur?</p>
-          <p>75. Quis conprehendere poterit eum qui uerbo et sapientia<lb n="15"/>
+          <p n="75">75. Quis conprehendere poterit eum qui uerbo et sapientia<lb n="15"/>
             fabricatus est hominem et a se inuicem dissidentia in unum <lb/>
             adduxit atque conposuit, miscuit terram spiritui et conpagi­ <lb/>
             nauit animal uisibile et inuisibile, temporale et inmortale, <lb/>
@@ -2006,7 +2006,7 @@
             quae inuenta sunt per scientiam, quantum contristant illa <lb n="5"/>
             quae effugiunt et conprehendi non possunt, sicut euenire solet <lb/>
             his quibus adhuc sitientibus abstrahitur poculum.</p>
-          <p>76. Haec sunt quae mihi suadebant melius esse audire <lb/>
+          <p n="76">76. Haec sunt quae mihi suadebant melius esse audire <lb/>
             uocem doctorum quam supra uires fieri doctorem: si altitudo <lb/>
             caelestium et puritas supernorum uix possunt capere clari­ <lb n="10"/>
             tatem dei, cuius abyssus opertorium est, cuius tenebrae lati­ <lb/>
@@ -2017,7 +2017,7 @@
             licet, ut, dum ipse ultra refugit et abscedit, prouocet et <lb/>
             inuitet ad interiora amatorem sui et amplius desideretur, dum <lb/>
             iam quasi conprehensus elabitur.</p>
-          <p>77. Cum ergo talis et tantus sit quem quaerimus et quem <lb/>
+          <p n="77">77. Cum ergo talis et tantus sit quem quaerimus et quem <lb/>
             desideramus, quem sequimur et ad quem festinamus, qualem <lb n="20"/>
             oportet esse eum, per quem desiderantes animae accessum <lb/>
             habere debent ad illum qui quaeritur et desideratur? mihi <lb/>
@@ -2053,7 +2053,7 @@
             prout potuimus studium gessimus non satis esse ceteris <lb/>
             inferiores.<lb n="20"/>
             </p>
-          <p>78. Philosophari uero secundum deum et scire animarum <lb/>
+          <p n="78">78. Philosophari uero secundum deum et scire animarum <lb/>
             gubernacula continere et praeesse ceteris ac regere alios, <lb/>
             cum ipse recte regentibus oboedire nondum didicerim, supra <lb/>
             me esse negotium duxi praecipue in hoc tempore, in quo <note type="footnote">3 cf. Ps. 21, 11 12 cf. Ps. 118, 103. 18, 11. Prou. 16, 24 <lb/>
@@ -2075,7 +2075,7 @@
             illae sunt, caritatis, dum noua nomina nouis sacerdotibus <lb/>
             adquiruntur et, sicut scriptum est, effusum est obpro­ <lb/>
             brium super principes.</p>
-          <p>79. Effugatus est timor omnis ex animis et ubique obtinet <lb/>
+          <p n="79">79. Effugatus est timor omnis ex animis et ubique obtinet <lb/>
             inpudentia. quicumque uoluerit scientiae sibi uindicat summam <lb n="10"/>
             et profunda spiritus intra se esse deputat. omnes autem ex <lb/>
             hoc docti et catholici uolumus uideri, si alios reprehendamus <lb/>
@@ -2104,7 +2104,7 @@
             tare uel certe qui subtiliter et figuraliter momorderint et sub <lb/>
             lingua sua posuerint laborem et dolorem, et uenenum aspidum <lb/>
             fuerit sub labiis eorum.</p>
-          <p>80. Obseruamus inuicem diligenter non nostra sed aliena <lb/>
+          <p n="80">80. Obseruamus inuicem diligenter non nostra sed aliena <lb/>
             peccata, non ut plangamus sed ut inputemus et exprobremus,<lb n="5"/>
             nec ut curemus sed ut amplius uulneremus. malos autem et <lb/>
             bonos non ex moribus neque ex conuersatione sed ex partibus <lb/>
@@ -2114,7 +2114,7 @@
             nos in admiratione habentur. ignoscimus autem omnia facile <lb/>
             et libenter fautoribus nostris, etiamsi inpie committantur, ut in <lb/>
             malis benigni uideamur et magnifici.</p>
-          <p>81. Facta sunt omnia sicut ab initio, cum mundus nondum <lb/>
+          <p n="81">81. Facta sunt omnia sicut ab initio, cum mundus nondum <lb/>
             erat per ordinem suum speciesque dispositus, sed cum erant<lb n="15"/>
             confusa omnia et inconposita et potentem conditoris manum <note type="chapter">2 </note> <lb/>
             uirtutemque poscebant. sumus ergo uelut in nocturno quodam <lb/>
@@ -2137,7 +2137,7 @@
              <pb n="63"/>
             et mordemus inuicem ac laniamus, scilicet ut ab inuicem <lb/>
             consumamur.</p>
-          <p>82. Sed fortassis plebs quidem ita est, sacerdos uero aliter. <lb/>
+          <p n="82">82. Sed fortassis plebs quidem ita est, sacerdos uero aliter. <lb/>
             immo uero illud mihi nunc uidetur inpleri quod dictum est: <lb/>
             factus est sacerdos sicut populus, quod aliquando in <lb n="5"/>
             maledicti loco clicebatur. aut fortasse uulgus quidem ignobile <lb/>
@@ -2158,7 +2158,7 @@
             quae separat a deo; propterea enim et mansuetum bellatorem <lb/>
             inbet esse spiritus sanctus. non ergo de huiuscemodi bellato­ <lb/>
             ribus dico, in quorum numero me quoque cupio inueniri.</p>
-          <p>83. Sed sunt quidam qui ingentes rixas mouent ex rebus <lb/>
+          <p n="83">83. Sed sunt quidam qui ingentes rixas mouent ex rebus <lb/>
             uel sermonibus paruis, uel etiam non diuinis sed humanis <lb n="25"/>
             motibus incitati. hi quam plurimos adsciscunt insaniae suae <note type="footnote"> 5 Esai. 24, 2. Os. 4, 9 </note> <note type="footnote"> 3 sacerdos uero (6 oh :sps6c) <hi rend="italic">B sacerdotes uero cet. v 4 nunc om.<lb/>
              Cv</hi> 6 maledicto <hi rend="italic">OCv</hi> 7 urgeatur <hi rend="italic">R</hi> urgetur <hi rend="italic">A V</hi> nobiles <hi rend="italic">V</hi> <lb/>
@@ -2176,7 +2176,7 @@
             quia oderunt nos gratis. sed et ipsi nostrorum populo pessime <lb/>
             commendamur, et his praecipue qui uel honesti uel religiosi <lb/>
             uidentur in plebe.</p>
-          <p>84. Hi enim cum aliquid aduersum quempiam de sacerdo­ <lb/>
+          <p n="84">84. Hi enim cum aliquid aduersum quempiam de sacerdo­ <lb/>
             tibus uel ministris dei culpabile uel reprehensibile ab istis<lb n="10"/>
             qui supra dorsum nostrum fabricantur audierint, tamquam <lb/>
             pro honestate ac religione animi sui exsecrabilius quod crimina­ <lb/>
@@ -2200,9 +2200,9 @@
             «ovirjpot;) <hi rend="italic">scripsi</hi> abiectis hominibus <hi rend="italic">codd. v</hi> 18 omneş <hi rend="italic">R</hi> 19 con­ <lb/>
             uiuiis <hi rend="italic">(ui pr. s. I.) C consiliis RC conciliis OV 20 schena 0 <lb/>
             scenam RC dicam V 22 ita iam delectabile V 23 comoediis R</hi> <lb/>
-            co.mediis 0 comediis <hi rend="italic">Cv</hi> cristianus <hi rend="italic">0</hi> </note> <lb/>
+            co.mediis 0 comediis <hi rend="italic">Cv</hi> cristianus <hi rend="italic">0</hi> </note> <lb/></p>
              <pb n="65"/>
-            85. Hoc autem nobis inde descendit, dum nos inuicem <lb/>
+            <p n="85">85. Hoc autem nobis inde descendit, dum nos inuicem <lb/>
             inpugnamus, dum uidemur nobis nimis catholici, nimis fideles <lb/>
             et zelo dei excitari, sed non sicut expedit, et certare pro deo, <lb/>
             sed non sicut fas est nec ut lex certaminum continet, quia <lb/>
@@ -2213,15 +2213,15 @@
             artis athleticae instituta seruauerit. tu autem, ut uideo, pro <lb/>
             Christo aduersum Christum pugnas. nomen enim dei per <lb n="10"/>
             uos blasphematur inter gentes, sicut scriptum est.</p>
-          <p>86. Daemones quidem usque adhuc cum inuocatur nomen <lb/>
+          <p n="86">86. Daemones quidem usque adhuc cum inuocatur nomen <lb/>
             Christi contremescunt, et ne nostra quidem malitia euanescere <lb/>
             fecit uirtutem tanti nominis et potestatem; et nos non reuere- <lb/>
             mur hoc nomen sed agimus omnia ad iniuriam tanti nominis, <lb n="15"/>
             et pro eo quod mandatum habemus ita agere, ut uidentes <lb/>
             homines opera nostra bona magnificent patrem nostrum qui <lb/>
             in caelis est, nos uim praecepti in contrarium permutantes per <lb/>
-            contentioneS nostras blasphemari facimus in gentibus nomen dei. <lb/>
-            87. Et quidem externa bella non metuo nec istam bestiam <lb n="20"/>
+            contentioneS nostras blasphemari facimus in gentibus nomen dei. <lb/></p>
+            <p n="87">87. Et quidem externa bella non metuo nec istam bestiam <lb n="20"/>
             quae nunc insurrexit ecclesiis pertimesco — in quo inest <lb/>
             .diaboli plenitudo —, licet ignes minetur, licet gladios intentet <note type="footnote"> 7 II Tim. 2, 5 10 Rom. 2, 24; cf. Esai. 52, 5 12 cf. Iac. 2, 19 <lb/>
             16 cf. Matth. 5, 16 </note> <note type="footnote"> 1 inde] interim <hi rend="italic">R</hi> 2 pugnamus <hi rend="italic">Oa.c.</hi> nimis et fideles <hi rend="italic">v</hi> 3 ex­ <lb/>
@@ -2243,7 +2243,7 @@
             ista remedium, una uictoria, libenter mortem suscepisse pro <lb/>
             Christo.<lb n="5"/>
             </p>
-          <p>88. Ad istud autem intestinum bellum quid agam nescio, <lb/>
+          <p n="88">88. Ad istud autem intestinum bellum quid agam nescio, <lb/>
             quae mihi auxilia conparem, qui mihi sapientiae sermo succur­ <lb/>
             rat, quod donum spiritus inuocem, quibus armis spiritalibus <lb/>
             aduersum diaboli astutias me circumdem, quis Moyses extensis <lb/>
@@ -2254,7 +2254,7 @@
             aptatus ad proelium, quis Samuhel orationibus caelum concitans. <lb/>
             imbrem eliciens, tonitrua mouens — quis haec digne lamen-<lb n="15"/>
             tabit et flebit?</p>
-          <p>89. Hieremias nempe aliquis nouam lamentationem pro <lb/>
+          <p n="89">89. Hieremias nempe aliquis nouam lamentationem pro <lb/>
             nostra noua hac captiuitate conscribens exclamet iterum ad <lb/>
             deum et dicat: parce, domine, populo tuo et non <lb/>
             tradas in obprobrium hereditatem tuam, ut domi-<note type="footnote">7 cf. I Cor. 12, 8 8 cf. Eph. 3, 7 cf. ib. 6, 11 9 cf. Ex. <lb/>
@@ -2281,7 +2281,7 @@
             dei ludas et Israhel dicatur nec Roboam et Hieroboam nec <lb/>
             Hierusalem et Samaria, quae nunc in captiuitatem traduntur, <lb/>
             nunc domi lamentantur?</p>
-          <p>90. Et ego quidem fateor inualidissimum me esse ad huiusce- <lb/>
+          <p n="90">90. Et ego quidem fateor inualidissimum me esse ad huiusce- <lb/>
             modi proelia et propterea terga me dedisse confiteor. unde <lb n="10"/>
             et uelans faciem meam confusione sedi singularis, quia amaritu­ <lb/>
             dine repletus sum. quaesiui et tacere tamquam intellegens <lb/>
@@ -2294,7 +2294,7 @@
             paratus est subire certamina, hunc ego et beatum dico pro <lb/>
             confidentia sua et prae me fero. <lb n="20"/>
             </p>
-          <p>91. Illorum uero bellorum nondum facio mentionem, quibus <note type="footnote"> 1 cf. Ezech. 14, 14. 20 11 cf. Thren. 3, 28 et 1, 20 13 cf. <lb/>
+          <p n="91">91. Illorum uero bellorum nondum facio mentionem, quibus <note type="footnote"> 1 cf. Ezech. 14, 14. 20 11 cf. Thren. 3, 28 et 1, 20 13 cf. <lb/>
             Mich. 2, 3 cf. Deut. 32, 15 14 cf. Os. 10, 1. Hier. 2, 21 15 cf. <lb/>
             Sap. 5, 17 et Os. 4, 7 16 cf. I Cor. 9. 2 17 cf. I Thess. 2, 19 <lb/>
             21 <hi rend="italic">Illorum-p. 68, 17 subleuarej</hi> cf. Aug. c. Iul. Pel. II 7 (XLIV 677 M) </note> <note type="footnote"> <hi rend="italic">1 gentes eorum Ov et pr. om. v 2 orabant 0 cessit Ca.c.</hi> <lb/>
@@ -2344,7 +2344,7 @@
             rec.</hi> 14 uel] et <hi rend="italic">v cum codd. quibusdam deterioribus</hi> eo] deo <hi rend="italic">Aug.</hi> <lb/>
             reuocauit <hi rend="italic">0</hi> 15 assidua <hi rend="italic">Cp.c.</hi> insuescit <hi rend="italic">v</hi> 17 astrictam <hi rend="italic">A</hi> </note> <pb n="69"/>
             </p>
-          <p>92. Uerum unde in hunc metum uenerim, ne forte me <lb/>
+          <p n="92">92. Uerum unde in hunc metum uenerim, ne forte me <lb/>
             arbitremini plus iusto esse meticulosum, indicare uobis debeo, <lb/>
             ut non tam timidum me quam consulentem mihimet iudicetis. <lb/>
             deus cum ad Moysen loqueretur in monte plures quoque alios <lb/>
@@ -2365,7 +2365,7 @@
             et tabulas suscipit, ad multitudinem quidem uulgi tabulas <lb/>
             litterae, ad eos autem, qui capiunt quae sunt spiritus, tabulas <lb n="20"/>
             scriptas spiritu dei uiui.</p>
-          <p>93. Nadab uero et Abiud, quoniam alienum ignem ad <note type="footnote"><lb/>
+          <p n="93">93. Nadab uero et Abiud, quoniam alienum ignem ad <note type="footnote"><lb/>
             4 cf. Exod. 24, 1-9 11 cf. Exod. 19, 16 14 cf. Hebr. 12, 18-20 <lb/>
             17 cf. Exod. 24, 15. 18 20 cf. II Cor. 3, 6-8 cf. I Cor. 2, 14 <lb/>
             21 cf. II Cor. 3, 3 </note><note type="footnote"> 2 meticolosum <hi rend="italic">0</hi> cum <hi rend="italic">ante</hi> indicare <hi rend="italic">add. sed del. C</hi> 3 dimi­ <lb/>
@@ -2393,7 +2393,7 @@
             lapsuram manu sedula ac sollicita sustentasset, nonne tantum­ <lb/>
             modo pro hoc, quod sancta tetigerat, a deo morte multatus <lb/>
             est?</p>
-          <p rend="script">94. Scio ego ne corporis quidem maculas in sacerdotibus prae-<lb n="15"/>
+          <p n="94" rend="script">94. Scio ego ne corporis quidem maculas in sacerdotibus prae-<lb n="15"/>
             termitti sed perscrutari et requiri omnia per legem, ne quid corpo­ <lb/>
             ralis uitii uel hostia habeat uel sacerdos. quae utique figurae <lb/>
             sunt perfectionis eius et puritatis, quae esse debet in corde et <lb/>
@@ -2422,7 +2422,7 @@
             uelum licebat et arcam testamenti ac propitiatorium et Cherubin <lb/>
             uidere, quae nunc omnes sibi et uidere et contingere licitum <lb/>
             putant!</p>
-          <p>95. Haec igitur ego sciens et quoniam nemo dignus est <lb n="10"/>
+          <p n="95">95. Haec igitur ego sciens et quoniam nemo dignus est <lb n="10"/>
             summi dei uel sacerdos esse uel sacrificium, qui non prius <lb/>
             semet ipsum exhibuit hostiam uiuam sanctam placentem deo <lb/>
             et rationabile suum obsequium gessit et immolauit deo sacrifi­ <lb/>
@@ -2463,7 +2463,7 @@
             me mortalitas absorbeatur a uita et subiecta sit caro spiri­ <lb/>
             tui?<lb n="15"/>
             </p>
-          <p rend="script">96-99. Quis audeat adire ad istum gradum, antequam castis <lb/>
+          <p n="96" rend="script">96-99. Quis audeat adire ad istum gradum, antequam castis <lb/>
             et igne examinatis eloquiis domini cor accendatur et mentem, <lb/>
             dum adaperit ei scripturas? antequam describat ea tripliciter <lb/>
             in latitudine cordis sui, ita ut sensum habeat Christi? ante- <note type="footnote"> 1 cf. Esai. 6, 10 cf. Prou. 25, 12 3 cf. Ps. 118, 131 <lb/>
@@ -2533,12 +2533,12 @@
             plenitudinem Christi — quomodo potest audere quis accedere ad <lb/>
             magisterii gradum et docere ea quae in semet ipso nondum <lb/>
             sentit inpleta?</p>
-          <p>100. Dicebam apud memet ipsum: nauigent alii et ingen-<lb n="15"/>
+          <p n="100">100. Dicebam apud memet ipsum: nauigent alii et ingen-<lb n="15"/>
             tium lucrorum spe subeant marina discrimina, mihi gratius <lb/>
             est supra solidam terram stanti exigui caespitis sulcis herbam <lb/>
             frumenti requirere et in egenis rebus tenuem uitam ducere <lb/>
             quam peregrinas diuitias in fluctuum periculis quaerere.</p>
-          <p>101. Fortioribus quidem et potentibus damnum est non<lb n="20"/>
+          <p n="101">101. Fortioribus quidem et potentibus damnum est non<lb n="20"/>
             officia administrare maiora neque erga plurimos exercere uirtu­ <lb/>
             tem, sed in paruis rebus et modicis coartari, uelut si quis <lb/>
             ingenti luminis lampade locum parui conclauis inluminet aut <note type="footnote"> 2 cf. Col. 1, 15 cf. Col. 1, 18 7 cf. I Cor. 2, 7 8 cf. I Cor. <lb/>
@@ -2559,7 +2559,7 @@
             culum subeant, sicut ne turrem quidem aedificare conuenit <lb/>
             alii nisi ei cui inpensae quoque perficiendi praesto sunt. <lb n="5"/>
             </p>
-          <p>102. 103. Haec est apologia et excusatio fugae meae et hae <lb/>
+          <p n="102">102. 103. Haec est apologia et excusatio fugae meae et hae <lb/>
             causae sunt quae me a uobis, o fratres et amici carissimi, separa­ <lb/>
             uerant uel abstraxerant; tales namque tunc me cogitationes <lb/>
             ut longius abscederem perurguebant. reuocauit autem me primo <lb/>
@@ -2600,7 +2600,7 @@
             tumor, quoniam quidem et uinci tempus est, sicut et omni <lb/>
             rei tempus est. et fortassis expedit interdum bene uinci quam<lb n="10"/>
             male uincere.</p>
-          <p>104. 105. Tertium uero est quod me maxime et supra omnia <lb/>
+          <p n="104">104. 105. Tertium uero est quod me maxime et supra omnia <lb/>
             subiecit et subdidit. quod cum exposuero, de reliquis iam <lb/>
             tacebo. recordatus sum dies antiquos et in tantis <lb/>
             rebus tam difficilibus tamque arduis. non fui ausus satis cre-<lb n="15"/>
@@ -2626,7 +2626,7 @@
              <pb n="77"/>
             randi nos necessitas inuenit, ad maiorum exempla redeuntes <lb/>
             inde discamus quid nobis eligendum sit, quid cauendum.</p>
-          <p>106. Cuius ergo historiae recordatus sum et unde mihi <lb/>
+          <p n="106">106. Cuius ergo historiae recordatus sum et unde mihi <lb/>
             occasio consilii huius exorta est? dicam ego breuiter et uos <lb/>
             patienter audite. fugiebat aliquando Ionas a facie dei, immo <lb n="5"/>
             potius fugere se putabat. sed conprehendebatur ab insecta­ <lb/>
@@ -2640,7 +2640,7 @@
             uidebat, si infamaretur macula falsitatis, dum uulgus ignarum <lb/>
             et inperitum intellegere ac prospicere non potest profundam <lb n="15"/>
             futurae dispensationis scientiam.</p>
-          <p>107-109. Ego autem audiui sapientissimum quendam uirum de <lb/>
+          <p n="107">107-109. Ego autem audiui sapientissimum quendam uirum de <lb/>
             his exponentem et rationem huius historiae, quae quasi absurda <lb/>
             uidetur, ita reddentem, quo ne hanc quidem causam fugae <lb/>
             poneret beati Ionae, ut in Ioppen descenderet et ex Ioppe <lb n="20"/>
@@ -2696,14 +2696,14 @@
              <pb n="79"/>
             his nos sermo paulisper expectet, ut postmodum, si deus <lb/>
             dederit, latius et diligentius explanetur.</p>
-          <p>110. Nunc autem id quo nobis sermo directus fuerat <lb/>
+          <p n="110">110. Nunc autem id quo nobis sermo directus fuerat <lb/>
             prosequamur, quoniam quidem illi fortassis et uenia fuit <lb/>
             propter hanc quam diximus causam officium differre prophe­ <lb n="5"/>
             ticum; mihi uero quae excusatio sufficiet, quae causa subue­ <lb/>
             niet, qui relinquetur satis faciendi locus ulterius reluctanti? <lb/>
             et nescio utrum graue aut lene dicam sacerdotii quoquo modo <lb/>
             inpositum iugum pertinacius recusanti.</p>
-          <p>111. Si enim hoc, quod solum inter omnes excusationes <lb n="10"/>
+          <p n="111">111. Si enim hoc, quod solum inter omnes excusationes <lb n="10"/>
             fortius habemus, concedatur nobis, quod longe inferiores sumus <lb/>
             quam sufficiat ad sacerdotium perfungendum, sed quid facie­ <lb/>
             mus quod ex alia parte perniciosius inoboedientiae crimen <lb/>
@@ -2711,7 +2711,7 @@
             putamus esse ex temeritate discrimen, quoniam quidem delin­ <lb n="15"/>
             quenti in hanc partem nullus emendandi ultra aut corrigendi <lb/>
             superest locus.</p>
-          <p>112. Medius ergo inter duos istos timores ascendendi ac <lb/>
+          <p n="112">112. Medius ergo inter duos istos timores ascendendi ac <lb/>
             descendendi positus et memet ipsum hinc atque hinc aequa <lb/>
             lance perpendens et nunc in illam nunc in istam partem uelut <lb n="20"/>
             uentis inpellentibus uergens ad ultimum cessi huic qui amplius <lb/>
@@ -2738,7 +2738,7 @@
             quidem uerecundiores his qui ad indebitos honores foeda <lb/>
             ambitione nituntur et paulo confidentiores his qui futuri <lb/>
             iudicii metu etiam bonorum actuum cuncta refugiunt.</p>
-          <p>113. Ita ergo in talibus ego deliberans et unumquodque<lb n="10"/>
+          <p n="113">113. Ita ergo in talibus ego deliberans et unumquodque<lb n="10"/>
             suis ponderibus metiens addidi etiam hoc ad animi confiden­ <lb/>
             tiam, quod mereatur aliquid retributionis a deo oboedientiae <lb/>
             fides et inpleatur id quod deest, dum integre creditur id quod <lb/>
@@ -2770,7 +2770,7 @@
             talia audire responsa neque ueniat ad nos uox ista ab eo, <lb n="5"/>
             cui quamuis misericordiam cantemus, sed et iudicium simul <lb/>
             cantabimus.</p>
-          <p>114. Sed iterum ad antiquorum historias et ueterum nobi­ <lb/>
+          <p n="114">114. Sed iterum ad antiquorum historias et ueterum nobi­ <lb/>
             lium gesta reuoluimur. e quibus uidemus quosdam quidem, <lb/>
             cum ad regendos populos subrogarentur uel ad officium prophe­ <lb n="10"/>
             ticum per dei gratiam uocarentur, promptissime cessisse inui­ <lb/>
@@ -2784,7 +2784,7 @@
             sed iuuenilem Hieremias formidabat aetatem nec prius prophe- <lb/>
             tiae ministerium suscepit quam a deo pollicitationem uirtutis <lb n="20"/>
             ac stabilitatis acciperet.</p>
-          <p>115. His ego rursum cogitationibus reparatus sum et <lb/>
+          <p n="115">115. His ego rursum cogitationibus reparatus sum et <lb/>
             huiuscemodi consiliis adsidua conluctatione mitigatus ac uelut <note type="footnote"> 6 cf. Ps. 100, 1 17 Marc. 9, 22 </note> <note type="footnote"> 2 uos <hi rend="italic">R</hi> et uos <hi rend="italic">OCVv</hi> inuocaueritis (õTay ejtty.aXea^c&amp;s) <hi rend="italic">R</hi> in­ <lb/>
             uocabitis <hi rend="italic">OCVv</hi> 4 accedat (i <hi rend="italic">s.</hi> e) <hi rend="italic">0</hi> accedat <hi rend="italic">C</hi> 6 cantemus] <hi rend="italic">in mg. <lb/>
             add.</hi> Isaiam et hieremiam inducit <hi rend="italic">U m. rec.</hi> 7 cantauimus <hi rend="italic">R</hi> 8 anti­ <lb/>
@@ -2814,7 +2814,7 @@
             latio nasceretur. nunc uero ueni in ecclesiis exaltare domi­ <lb/>
             num et in cathedra seniorum conlaudare eum. si illud culpam<lb n="15"/>
             habuit, ueniam hoc meretur.</p>
-          <p>116. Sed quid adhuc uerbis prolixioribus opus est? habetis <lb/>
+          <p n="116">116. Sed quid adhuc uerbis prolixioribus opus est? habetis <lb/>
             iam nos, o pastores et conpastores; obtines nos, o sanctissime <lb/>
             et dignissime grex Christi; obtines nos, pater, in omnibus <lb/>
             uictos et cedentes in omnibus, magis tibi subiectos Christi<lb n="20"/>
@@ -2837,7 +2837,7 @@
             quoniam elegi eam, ut ab hac ecclesia et ab hac domo ad <lb/>
             ecclesiam primitiuorum, quae in caelis adscripta est, trans­ <lb/>
             ferri pariter mereamur.</p>
-          <p rend="script">117. Nostra quidem haec est satisfactio apud uos et ser­ <lb n="5"/>
+          <p n="117" rend="script">117. Nostra quidem haec est satisfactio apud uos et ser­ <lb n="5"/>
             monis nostri istud exodium. deus autem pacis, qui fecit utra­ <lb/>
             que unum et nos inuicem reddidit nobis, qui sedere facit <lb/>
             potentes in sedibus etqui eleuat de terra inopemetde <lb/>
@@ -2876,7 +2876,7 @@
             PHANIIS SIUE DE NATALI DOMINI <hi rend="italic">v</hi> </p>
         </div><pb n="-"/>
         
-  <div n="2" subtype="book" type="textpart">
+  <div subtype="MSS" type="textpart">
           <head>
             <title type="main">II. DE EPIPHANIIS 8IUE DE NATALI DOMINI.</title>
           </head><pb n="-"/>
@@ -2896,7 +2896,7 @@
           <ab>
             <title type="sub">VII. DE RECONCILIATIONE ET UNITATE MONACHOKUM.</title>
           </ab>
-          <p>1. Linguam nostram soluit alacritas et hominum legem <lb/>
+          <p n="1">1. Linguam nostram soluit alacritas et hominum legem <lb/>
             contemnimus propter sancti spiritus legem nec cedimus cui- <lb/>
             quam, sed pacis iam uerba proferimus. ante hoc, dum aduer­ <lb n="5"/>
             sum se membra certarent, dum sanctum et uenerabile corpus <lb/>
@@ -2978,7 +2978,7 @@
             cere iam portum et iam iamque ingredi sperat, multo est <lb/>
             securior ac beatior eo, cui adhuc multum marini discriminis <lb/>
             superest?</p>
-          <p>4. Noli ergo claudere linguam, quae multa bona edocuit, <lb n="20"/>
+          <p n="4">4. Noli ergo claudere linguam, quae multa bona edocuit, <lb n="20"/>
             cuius fructus multi et infinitae procreationes iustitiae, cuius <lb/>
             quanti sint filii et quanti thesauri, eleua in circuitu oculos <note type="footnote"> 7 Ps. 110, 10 10 cf. Prou. 16, 31 11 cf. Eccli. 11, 30 12 cf. <lb/>
             Prou. 27, 1 13 cf. Phil. 3, 21 22 Esai. 49, 18 </note> <note type="footnote"> 1 extendit <hi rend="italic">A</hi> 2 astipulatione <hi rend="italic">A</hi> 3 posita <hi rend="italic">A</hi> 4 sicut illae—con­ <lb/>
@@ -3033,7 +3033,7 @@
             monitionibus et correptionibus nolunt curari, quin immo et <lb/>
             lenitate amplius indurantur secundum durissimum Pharaonem, <lb/>
             qui ad exemplum uirtutis dei reseruatus est inpiis.</p>
-          <p>5. Dic ergo nobis: unde tales istae plagae et unde flagella <lb n="5"/>
+          <p n="5">5. Dic ergo nobis: unde tales istae plagae et unde flagella <lb n="5"/>
             et quae horum ratio est? utrumne uniuersitatis ipsius motus <lb/>
             passim et fortuitu ac sine ullis gubernaculis incitatur et uelut <lb/>
             nullo rectore casu haec fiunt. sicut uidetur illis insipienter <lb/>
@@ -3079,7 +3079,7 @@
             sed ut in correptione domini humiliemur, uti ne, dum in <lb/>
             hac neglegimus et contemnimus, maiorem aduersum nos dei <lb/>
             iracundiam prouocemus.</p>
-          <p>6. Grauis est terrae sterilitas, grauis est uastatio fructnum —<lb n="15"/>
+          <p n="6">6. Grauis est terrae sterilitas, grauis est uastatio fructnum —<lb n="15"/>
             quis enim negat? — maxime cum in spe esset eorum laetitia et <lb/>
             cum iam horreis ipsis essent uicina frumenta. graue est quod <lb/>
             messis inmatura sublata est et flentes agricolae prostratas <lb/>
@@ -3141,7 +3141,7 @@
             bonitate sua a minoribus incipit, ne maioribus et grauioribus <lb/>
             egeamus. qui utique adhibebit et maiora, si ea prouocauerimus, <lb/>
             dum haec minora contemnimus.</p>
-          <p>7. Noui ego uibrantem frameam et inebriatum gladium in<lb n="5"/>
+          <p n="7">7. Noui ego uibrantem frameam et inebriatum gladium in<lb n="5"/>
             caelo interiicientem et spernentem et orbantem, qui iubetur <lb/>
             usque ad carnes et medullas non parcere. scio occurrentem <lb/>
             sicut ursam rapidam illum, qui inpassibilis est, et sicut pardalin <lb/>
@@ -3175,7 +3175,7 @@
              <pb n="245"/>
             permissa est agendi quae uolumus, ibi uero gestorum nostro­ <lb/>
             rum reddere rationem.</p>
-          <p>8. Quid ergo faciemus in illa die, de qua uehementissime <lb/>
+          <p n="8">8. Quid ergo faciemus in illa die, de qua uehementissime <lb/>
             perterret quidam prophetarum, cum deum nobiscum dicit esse <lb/>
             iudicaturum in montibus et collibus et consedere aduersum <lb n="5"/>
             nos et disceptare atque ante faciem nostram statuere peccata <lb/>
@@ -3186,7 +3186,7 @@
             nis dignitatem oblitteratam eam inuenerit et obfuscatam, cum <lb/>
             ad ultimum certe propria unusquisque notatus sententia con­ <lb/>
             demnabitur?</p>
-          <p>9. Quis ergo ibi aduocatus erit? quae interuentio? quae <lb/>
+          <p n="9">9. Quis ergo ibi aduocatus erit? quae interuentio? quae <lb/>
             figmenta? quae artes? quae aduersum ueritatem forensis calli­ <lb n="15"/>
             ditas proferetur? quibus praemiis iudicium corrumpetur? omnia <lb/>
             pendebunt in statera iustitiae, gesta et uerba et cogitati­ <lb/>
@@ -3225,7 +3225,7 @@
             sunt cum reliquis ceteris erit etiam haec maior omnium poena,<lb n="15"/>
             quod proiciuntur a deo, et ipse pudor et confusio conscientiae, <lb/>
             cuius finis ac remedium nusquam est. sed de his postmodum.</p>
-          <p>10. Nunc uero quid faciamus, fratres contriti et humiliati <lb/>
+          <p n="10">10. Nunc uero quid faciamus, fratres contriti et humiliati <lb/>
             et inebriati non uino neque sicera, ex quo parum quid commo­ <lb/>
             uentur homines et conturbantur, sed inebriati a fortitudine plagae, quam inuexit dominus dicens: (et tu commouere et <lb n="20"/>
             conturbare\', qui potauit contemptores spiritu tristitiae et <lb/>
@@ -3279,7 +3279,7 @@
              <pb n="248"/>
             uestram resecare non potui et nunc agnoui quia durus es <lb/>
             et neruus ferreus ceruix tua.\'</p>
-          <p>11. Haec puto quia dicat ad nos dominus, si flagellis eius <lb/>
+          <p n="11">11. Haec puto quia dicat ad nos dominus, si flagellis eius <lb/>
             non emendamur, quoniam quidem et contemptor permanet in <lb/>
             contemptu et iniquus in iniquitate perdurat. nec aliquid in<lb n="5"/>
             nobis agit caelitus inlata correptio, nihil flagella proficiunt. <lb/>
@@ -3299,7 +3299,7 @@
             testamenti institutionibus consignauit, qui Christo concrucifixus<lb n="20"/>
             est, qui consepultus est ei et resurrexit cum eo, ut et conglori­ <lb/>
             ficetur cum ipso et nunc et in ultimo eius aduentu.\'</p>
-          <p>12. Absit autem a nobis, ut cum ceteris correptionibus <note type="footnote"> lEsai. 48,4 7 Hier. 6,29 12 cf. Ex. 9, 10 sqq. 21cf.Rom.6,4.8,17 </note> <note type="footnote"> <hi rend="italic">1 quia] quod A</hi> es et] <hi rend="italic">esset B est et V</hi> 2 ferueus <hi rend="italic">(r s. u) R <lb/>
+          <p n="12">12. Absit autem a nobis, ut cum ceteris correptionibus <note type="footnote"> lEsai. 48,4 7 Hier. 6,29 12 cf. Ex. 9, 10 sqq. 21cf.Rom.6,4.8,17 </note> <note type="footnote"> <hi rend="italic">1 quia] quod A</hi> es et] <hi rend="italic">esset B est et V</hi> 2 ferueus <hi rend="italic">(r s. u) R <lb/>
             3 puta U 0 s. a) R</hi> quod A <hi rend="italic">dicit if 4 conterator C remanet A</hi> <lb/>
             5 contemptus <hi rend="italic">A</hi> iniquitatem <hi rend="italic">A</hi> 6 cogit <hi rend="italic">Ca.c.</hi> 7 deficit <hi rend="italic">utroque <lb/>
             loco V</hi> iam <hi rend="italic">om. A</hi> tibiis (ti <hi rend="italic">ex</hi> tu <hi rend="italic">fact.,</hi> u <hi rend="italic">in</hi> ii <hi rend="italic">mutat. uid.) JiC</hi> <lb/>
@@ -3393,7 +3393,7 @@
             ripe nos, domine, uerumtamen in misericordia et non in ira, <lb/>
             uti ne exiguos nos facias, domine, praeter omnes qui habitant <lb n="10"/>
             terram.</p>
-          <p>13. His ego uerbis atque his precibus inuoco et inuito <lb/>
+          <p n="13">13. His ego uerbis atque his precibus inuoco et inuito <lb/>
             misericordiam domini. quodsi et holocaustum possem offerre <lb/>
             me ipsum sacrificium, ut iram domini mitigarem, non par- <lb/>
             cerem, non differrem. sed et uos, o religiosa plebs, etiam <lb n="15"/>
@@ -3432,7 +3432,7 @@
             conpunctionem domini, quia adfligimur pro nobis, et emenda­ <lb/>
             tionem uestri offerte nobiscum, ut et nos inmiuentis plagae <lb/>
             ueniam inpetrare mereamur.</p>
-          <p>14. Uenite ergo omnes, adoremusetprocidamusante<lb n="15"/>
+          <p n="14">14. Uenite ergo omnes, adoremusetprocidamusante<lb n="15"/>
             eum et ploremus in conspectu domini, qui fecit nos. <lb/>
             ordinemus communem luctum, omnis aetas et sexus suo quis­ <lb/>
             que ordine elenemus planctuum uocem et pro illis iniustitiae <lb/>
@@ -3467,7 +3467,7 @@
             amus et cum ascendente sole ingrediamur. non stemus in omni <lb n="10"/>
             regione nec respiciamus post nos, ne efficiamur staticulum salis, <lb/>
             inmortalis peccati memoria.</p>
-          <p>15. Sciamus quoniam numquam quidem peccare supra <lb/>
+          <p n="15">15. Sciamus quoniam numquam quidem peccare supra <lb/>
             hominem est et solius dei est; de angelis enim nihil dico, ne <lb/>
             iter uitiis aperiamus et malignis contradictionibus aditum rese­ <lb n="15"/>
             remus. non ergo peccare dei est, insanabile uero peccatum <lb/>
@@ -3507,7 +3507,7 @@
             est populus meus auersione pessima? ex qua usque <lb/>
             ad nouissimum conteretur et exterminabitur.<lb n="15"/>
             </p>
-          <p>16. Sed et illud terribile est incidere in manus dei <lb/>
+          <p n="16">16. Sed et illud terribile est incidere in manus dei <lb/>
             uiuentis, et quod dictum est: uultus autem domini <lb/>
             super facientes mala, utperdat de terra memoriam <lb/>
             eorum. neque enim latet aliquid auditum dei, quippe qui etiam <lb/>
@@ -3544,7 +3544,7 @@
             inquit, malagma inponere neque oleum neque alliga­ <lb n="15"/>
             turas. sed omitto comminationem quae sequitur, ne forte <lb/>
             grauior uobis efficiar quam est ipsa praesentis plagae molestia.</p>
-          <p>17. Uerumtamen agnoscere debemus malorum causas, unde <lb/>
+          <p n="17">17. Uerumtamen agnoscere debemus malorum causas, unde <lb/>
             aruerunt agriculturae, unde confusa sunthorrea. unde pascuagre. <lb/>
             gibus defecerunt, unde ablatus est decor suus e terris et quare <lb n="20"/>
             non repleti sunt campi ubertate, sed luctus ubique et maeror. <lb/>
@@ -3585,7 +3585,7 @@
             profero contemptum et neglegentiam populi mei mea faciens <lb n="20"/>
             uulnera ipsorum. si forte uel hoc modo aliquid diuinae misera­ <lb/>
             tionis et clementiae consequamur.</p>
-          <p>18. Igitur alius nostrum depressit pauperem et partem <note type="footnote"> 2 cf. Ps. 64, 10 4 cf. Ps. 59, 0 10 cf. Agg. 1, 6 11 cf. <lb/>
+          <p n="18">18. Igitur alius nostrum depressit pauperem et partem <note type="footnote"> 2 cf. Ps. 64, 10 4 cf. Ps. 59, 0 10 cf. Agg. 1, 6 11 cf. <lb/>
             Soph. 1, 13 12 Esai. 5, 10 17 cf. Ezech. 33, 3 </note> <note type="footnote"> 2 omnem <hi rend="italic">0</hi> foenum <hi rend="italic">0</hi> fenum C uisi§tasti <hi rend="italic">R</hi> 4 orridum <hi rend="italic">Oa.c.</hi> <lb/>
             5 et uix (ial p.ob;)] et uix (ut <hi rend="italic">s.</hi> et) <hi rend="italic">R</hi> 6 aliquit (s s. t) <hi rend="italic">R</hi> aliqui <hi rend="italic">V<lb/>
              inueniet Cp.c ,v</hi> collegere <hi rend="italic">OCa.c.</hi> 7 orrea <hi rend="italic">V condant V</hi> manu­ <lb/>
@@ -3641,7 +3641,7 @@
             dei super nos, filios perditionis. propter haec clauditur caelum<lb n="5"/>
             et multo adhuc amplius claudetur, si non uel post flagella <lb/>
             conuertimur et huic qui nobis adproximat proximamus.</p>
-          <p rend="script">19. Quid ad haec dicimus, qui frumenta recondimus et <lb/>
+          <p n="19" rend="script">19. Quid ad haec dicimus, qui frumenta recondimus et <lb/>
             mercamur alienam famem, qui obseruamus mala tempora, ut <lb/>
             bene sit nobis, qui spectamus, ut alienus luctus fiat nostra<lb n="10"/>
             laetitia, qui dicimus: quando transiet mensis, ut pretia <lb/>
@@ -3690,7 +3690,7 @@
             gellatis ipsi consequi salutem, cum utique posset fieri, ut <lb/>
             ipsis flagellatis alii emendarentur. <lb n="20"/>
             </p>
-          <p rend="script">20. Haec nobiscum pariter populis dissere, o uenerandum <lb/>
+          <p n="20" rend="script">20. Haec nobiscum pariter populis dissere, o uenerandum <lb/>
             mihi et placidissimum caput, quoniam multi temporis multa <note type="footnote"> 9 cf. Am. 6, 4 10 cf. Am. 6, 6. 5 16 cf. Zach. 11, 2 </note> <note type="footnote"> 1 uelut (ojjioudi;) <hi rend="italic">Rp.c.</hi> uel <hi rend="italic">cet. male intellexit liujinus uerla Gre­<lb/>
              goriana</hi> xata rJjv 2oX&amp;fx&amp;vts:ov pSeXXav SfjLTtXTjofKjval p.-ţĮ <foreign xml:lang="grc">δυναμένην δμοίως</foreign> <lb/>
             \'A.ta.n xat 111 xai nup: xa- <hi rend="italic">Soatt (c/. Prou. 30, 15)</hi> inferQs (nu s. Q) <lb/>
@@ -3772,7 +3772,7 @@
           <head>
             <title type="main">--IX.._ DE ARRIANIS.</title>
           </head>
-          <p>1. Ad eos qui in sermone callent sermo nobis est et de scrip­ <lb/>
+          <p n="1">1. Ad eos qui in sermone callent sermo nobis est et de scrip­ <lb/>
             turis incipiam. ecce ego ad te, inquit, contumeliosa. sunt <lb/>
             etenim quidam auribus prurientes et lingua, iam uero, ut uideo, <lb n="5"/>
             etiam manu, qui profanis uocum nouitatibus et quaestionibus <lb/>
@@ -3786,7 +3786,7 @@
             dei uacarent! minus fortasse sophistae quidam in uerbis essent <lb/>
             et de scripturarum simplicitate controuersias commouerent. <lb n="15"/>
             </p>
-          <p>2. Omnes etenim ceteras pietatis uias relinquentes ad hoc <lb/>
+          <p n="2">2. Omnes etenim ceteras pietatis uias relinquentes ad hoc <lb/>
             unum spectant atque prospiciunt, si quid forte in quaestionibus <note type="footnote"> 4 Hier. 27 (50), 31 5 cf. II Tim. 4, 3 7 cf. I Tim. 6, 4 <lb/>
             \\9 cf. Rom. 9, 28 </note> <note type="footnote"> 2 DE ARRIANIS QUOD NON LICET SEMPER ET PUBLICE DE <lb/>
             DEO CONTENDERE <hi rend="italic">R</hi> Contra arrianos <hi rend="italic">C man, rec.</hi> DE HIS L DE <lb/>
@@ -3845,7 +3845,7 @@
             consuetudinem et legem, qui omnia uel scire uos uel docere <lb n="5"/>
             pollicemini pollicitatione magnifica et elata, ut non dicam intem­ <lb/>
             perata et inproba, ne forte contristemini.</p>
-          <p>3. Non est omnium, o prudentissimi uiri, disputare de deo, <lb/>
+          <p n="3">3. Non est omnium, o prudentissimi uiri, disputare de deo, <lb/>
             non est omnium diuinam discutere naturam. non ita uilis est <lb/>
             sacrae scripturae sermo, ut uulgo indocili et per terram adhuc <lb n="10"/>
             repentibus homunculis pateat. addam et hoc quod nec semper <lb/>
@@ -3909,7 +3909,7 @@
             <hi rend="italic">om. R 19 honera 0 20 nimis OC perurgetur RV 21 quicquid RVv</hi> <lb/>
             22 ergo <hi rend="italic">om. Cv</hi> quia] quod <hi rend="italic">R</hi> pregaruatus <hi rend="italic">C</hi> 23 nimigitate <hi rend="italic">OC</hi></note><pb n="269"/>
              </p>
-          <p>4. Et non hoc dico quia non oporteat semper meminisse dei, <lb/>
+          <p n="4">4. Et non hoc dico quia non oporteat semper meminisse dei, <lb/>
             ne forte iterum ex alia nobis parte insurgant hi qui ueloces <lb/>
             sunt ad hoc, ut quae simpliciter dicta sunt ad peruersam intel­ <lb/>
             legentiam declinent. semper oportet meminisse dei, crebrius etiam <lb/>
@@ -3946,7 +3946,7 @@
             languenti <hi rend="italic">Ov</hi> langenti <hi rend="italic">C</hi> geometricum <hi rend="italic">Cv</hi> 21 ingere <hi rend="italic">R</hi> conuium C <lb/>
             uia ergo <hi rend="italic">v</hi> 22 requirent <hi rend="italic">0,Ra.c.,v</hi> redderent <hi rend="italic">C</hi> 23 temporis <hi rend="italic">V</hi> praecipio <hi rend="italic">V</hi></note><pb n="270"/>
              </p>
-          <p>5. Nequaquam, quaeso uos, o amici et fratres — fratres enim <lb/>
+          <p n="5">5. Nequaquam, quaeso uos, o amici et fratres — fratres enim <lb/>
             uos adhuc uoco, licet nihil fraternum erga nos seruare uelitis —, <lb/>
             non ita de rebus maximis consulamus neque, sicut feruentes <lb/>
             equi et inquieti facere solent, auriga nostro, id est timore dei, <lb/>
@@ -3993,7 +3993,7 @@
             ceteras, quas de deo proferre appellationes hominibus fas est <lb/>
             et uirtutes, etiam uerbum eum nominamus. iam ergo, si con­ <lb n="10"/>
             tendendi propositum est, sit uel contentio ipsa nostra legitima.</p>
-          <p>6. Natiuitatem dei et creationem et deum ex nullis exstantibus <lb/>
+          <p n="6">6. Natiuitatem dei et creationem et deum ex nullis exstantibus <lb/>
             et substantiae sectionem atque scissionem et resolutionem ut <lb/>
             quid audit profanus auditor? ut quid uerborum nostrorum iudices <lb/>
             accusatores et inimicos nostros uocamus? ut quid gladios nostros <lb n="15"/>
@@ -4025,7 +4025,7 @@
             quodam modo id quod patiuntur insani, qui domos proprias suis <lb/>
             manibus incendunt uel suos filios iugulant aut parentes repellunt<lb n="5"/>
             putantes alienos.</p>
-          <p>7. Quia ergo destruximus ea quae aliena sunt a religione <lb/>
+          <p n="7">7. Quia ergo destruximus ea quae aliena sunt a religione <lb/>
             uerbi dei et in gregem porcorum reiecimus multiformem legionem, <lb/>
             quae et praecipitata est in profundum, nunc quod ad nos ipsos <lb/>
             pertinet uideamus. illud est ergo quod primum considerandum <lb n="10"/>
@@ -4059,7 +4059,7 @@
             quo uolunt et quomodo nolunt concedimus euagandi et solam <lb/>
             in disputationibus et quaestionibus uidemur nobis seruare cau­ <lb/>
             telam.</p>
-          <p>8. Et quidem, o loquax dialectice, interrogabo te paululum <lb n="5"/>
+          <p n="8">8. Et quidem, o loquax dialectice, interrogabo te paululum <lb n="5"/>
             aliquid, tu mihi responde, ut ait ille qui per turbinem et nubem <lb/>
             loquebatur ad Iob. nonne multae sunt mansiones apud deum? <lb/>
             puto te non negare quod scriptum est. quid igitur? repleri <lb/>
@@ -4107,7 +4107,7 @@
             Paulus, qui post enumerationem spiritalium gratiarum repetit <lb/>
             et dicit: numquid omnes apostoli? numquid omnes pro-<lb n="15"/>
             phetae? numquid omnes magistri? et reliqua.</p>
-          <p>9. Esto tu excelsus aliquis et excelsorum superior et supra <lb/>
+          <p n="9">9. Esto tu excelsus aliquis et excelsorum superior et supra <lb/>
             nubes ascende, si libet, et inuisibilia conspicare et ineffabilia <lb/>
             sermone conplectere, supra Heliam adsumere et supra Moysen <lb/>
             facie ad faciem uide, si potueris, deum, supra Paulum quoque<lb n="20"/>
@@ -4138,7 +4138,7 @@
             nitur. sed si tantus est amor huius belli, si tanta cura certa- <lb/>
             minis, si dialectici proelii capere iuuat triumphos, desistamus, <lb n="10"/>
             quaeso, a ciuilibus bellis: externa atque hostilia bella subeamus.</p>
-          <p>10. Dimicemus aduersum Pythagorica silentia et Orpheicas <lb/>
+          <p n="10">10. Dimicemus aduersum Pythagorica silentia et Orpheicas <lb/>
             destruamus fabas. confutemus praesumptam illam Pythagori­ <lb/>
             corum de magistro sententiam: cnbioi [q;a, arguamus Platonis <lb/>
             ideas et transfundendae per diuersas corporum species animae <lb n="15"/>
