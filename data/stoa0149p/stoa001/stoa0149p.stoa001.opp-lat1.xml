@@ -76,7 +76,7 @@
     CTS/CITE Architecture. 
    </p>
    <refsDecl n="CTS">
-    <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:l[@n='$1'])"/>
+    <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']//tei:l[@n='$1'])"/>
    </refsDecl>
   </encodingDesc>
   
@@ -287,11 +287,6 @@
     
     <note type="footnote"> 105 humo <hi rend="italic">G</hi> corr. ic 106 morbi * 109 <hi rend="italic">marg</hi>. de caeco nato <hi rend="italic">(J</hi> </note>
     <pb n="275"/>
-    
-    
-    
-    
-    
    </div>
   </body>
  </text>
