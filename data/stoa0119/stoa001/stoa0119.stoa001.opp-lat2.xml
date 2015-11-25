@@ -73,7 +73,6 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="line" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter']//tei:div[@n='$2' and @subtype='section']//tei:l[@n='$3'])"/>
         <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter']//tei:div[@n='$2' and @subtype='section'])"/>
         <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter'])"/>
       </refsDecl>
@@ -89,7 +88,7 @@
 <text>
 <body>
 <div type="edition" n="urn:cts:latinLit:stoa0119.stoa001.opp-lat2">
-<div subtype="work" type="textpart">
+<div n="letter1" subtype="chapter" type="textpart">
           <head>
             <title type="main">EPISTOLA EVGIPPII PRESBVTERI AD PASCASIVM DIACONVM. </title>
 
@@ -3401,7 +3400,7 @@
 
 <pb n="68"/>
             
-        <div subtype="work" type="textpart">
+  <div n="letter2" subtype="chapter" type="textpart">
           <head>
             <title type="main">EPISTOLA PASCASII DIACONI AD EVGIPPIVM PRESBVTERVM. </title>
           </head>
@@ -3504,7 +3503,7 @@
         </div>
 <pb n="71"/>
             
-<div subtype="poem" type="textpart">
+  <div n="hymnus" subtype="chapter" type="textpart">
           <head>
             <title type="main">HVMNVS IN LAVDEM SANCTI SEVERINI. </title>
           </head>
