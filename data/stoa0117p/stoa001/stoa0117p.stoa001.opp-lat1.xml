@@ -152,7 +152,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -168,15 +168,15 @@
 <div type="edition" n="urn:cts:latinLit:stoa0117p.stoa001.opp-lat1">
 <pb n="125"/>
             
-          <p>Fausto presbytero insulano Eucherius episcopus. 
+          <p n="1">Fausto presbytero insulano Eucherius episcopus. 
 </p>
-          <p>Hierusolimitanae urbis situm atque ipsius Iudaeae, ut mihi <lb/>
+          <p n="2">Hierusolimitanae urbis situm atque ipsius Iudaeae, ut mihi <lb/>
             uel relatione cognitus erat uel lectione conpertus, breuiter <lb/>
             amplexus sum breui et ipsum praefatione indicans, quia opusculo <lb/>
             non diffuso nequaquam esse diffusam praefationem decet. <lb n="5"/>
             Vale in Christo, decus et praesidium meum. 
 </p>
-          <p>Hierusalem ab Aelio Adriano Aelia uocitatur, nam post <lb/>
+          <p n="3">Hierusalem ab Aelio Adriano Aelia uocitatur, nam post <lb/>
             subuersionem Titi conditoris Aelii nomen cum opere suscepit. <lb/>
             Natura loci edita adeuntibus eam qualibet ex parte haut dubie <lb/>
             ascendendum erit, diutino quippe, sed molli tractu adsurgit. <lb n="10"/>
@@ -187,7 +187,7 @@
             humilioris collis sita. <lb n="15"/>
             
 </p>
-          <p rend="script">Mons Sion latere uno, quod aquilonem respicit, clericorum <lb/>
+          <p n="4" rend="script">Mons Sion latere uno, quod aquilonem respicit, clericorum <lb/>
             religiosorumque habitationibus sequestratur, cuius in uertice
 
 <note rend="script" type="footnote"> A + U), In ne dni nri ihu xpi. Incipit opusculum sancti Eucherii <lb/>
@@ -211,11 +211,11 @@
             dominicae reuerentia, eo quod ibi promisso quondam <lb/>
             per Dominum paracleto repleti sunt spiritu. 
 </p>
-          <p>Celebriores tres sunt portarum exitus, unus ab occasu, <lb n="5"/>
+          <p n="5">Celebriores tres sunt portarum exitus, unus ab occasu, <lb n="5"/>
             alter ab oriente, tertius a septentrione ingressis a septentrionali <lb/>
             parte urbem. 
 </p>
-          <p>Primum de locis sanctis pro conditione platearum deuertendum <lb/>
+          <p n="6">Primum de locis sanctis pro conditione platearum deuertendum <lb/>
             est ad basilicam, quae <choice><sic>Martyiium</sic><corr>Martyrium</corr></choice> appellatur, a Constantino <lb/>
             magno cultu nuper <choice n="0.8"><sic n="4">extructam</sic><corr n="1">extractam</corr></choice>. Dehinc cohaerentia ab<lb n="10"/>
             occasu loca uisuntur Golgotha atque Anastasis; sed Anastasis <lb/>
@@ -225,7 +225,7 @@
             Atque haec tamen extra montem Sion posita cernuntur, quo<lb n="15"/>
             se ad aquilonem deficiens loci tumor porrexit. 
 </p>
-          <p rend="script">Templum uero in inferiore parte urbis in uicinia muri ab oriente <lb/>
+          <p n="7" rend="script">Templum uero in inferiore parte urbis in uicinia muri ab oriente <lb/>
             locatum magnificeque extructum quondam miraculum fuit, ex <lb/>
             quo parietis unius in ruinis quaedam pinna superest reliquis <lb/>
             a fundamentis usque distructis. Paucae illic cisternae in usum
@@ -252,12 +252,12 @@
             aquarum ostenduntur in ea parte ciuitatis, quae ad septentrionem <lb/>
             tenditur. 
 </p>
-          <p>Vicina templo Bethsaida piscina gemino apparet insignis <lb/>
+          <p n="8">Vicina templo Bethsaida piscina gemino apparet insignis <lb/>
             lacu, quorum alter hibernis plerumque impletur imbribus, alter <lb/>
             rubris est discolor aquis. <lb n="5"/>
             
 </p>
-          <p>Ab ea fronte montis Sion, quae praerupta rupe orientalem <lb/>
+          <p n="9">Ab ea fronte montis Sion, quae praerupta rupe orientalem <lb/>
             plagam spectat, intra muros atque ad radices collis fons Siloa <lb/>
             prorumpit, qui alternante aquarum accessu in meridiem <choice n="0.00"><sic n="1">fiuit</sic><corr n="124">fluit</corr></choice>. <lb/>
             Iuxta murum Hierusalem uel templi ab oriente Geennon <sic>occuvrit</sic>, <lb/>
@@ -265,14 +265,14 @@
             porrecta, per quam Cedron torrens, si quando pluuiarum aquas <lb/>
             recipit, decurrit. 
 </p>
-          <p>Circumiecta Hierusolimitanae urbis aspera ac montuosa cernuntur, <lb/>
+          <p n="10">Circumiecta Hierusolimitanae urbis aspera ac montuosa cernuntur, <lb/>
             quae etiam montem Oliueti mille a se discretum <lb/>
             passibus in orientem prospectat. Duae in eo ecclesiae celeberrimae <lb n="15"/>
             habentur, una in eo fundata loco, in quo Dominus <lb/>
             ad discipulos habuisse sermonem, alia in illo loco, de quo in <lb/>
             caelum ascendisse traditur. 
 </p>
-          <p rend="script">Sex milibus ab Hierusolima Bethlem in meridiano latere <lb/>
+          <p n="11" rend="script">Sex milibus ab Hierusolima Bethlem in meridiano latere <lb/>
             secedit, quae humili muro et absque turribus angustissimo <lb n="20"/>
             spatio circumdatur, ubi praesepe Domini exornatum insuper <lb/>
             argento atque auro fulgenti cella ambitur.
@@ -295,7 +295,7 @@
 <pb n="128"/>
              
 </p>
-          <p>Hiericho uero ab Hierusolima in orientem aestiuum decem <lb/>
+          <p n="12">Hiericho uero ab Hierusolima in orientem aestiuum decem <lb/>
             et octo milibus excurrit. Iordanis quoque ab eadem caeli parte <lb/>
             ludaeae terrae praetenditur, quarto et uicesimo lapide ab <lb/>
             Aelia separatus, qui primum mare Tiberiadis intersecans atque <lb/>
@@ -303,14 +303,14 @@
             mare mortuum conditur, quod mare Hierusolimam uiginti <lb/>
             circiter milibus respicit. 
 </p>
-          <p>Chebron ciuitas quondam gigantum lapide ferme uicesimo <lb/>
+          <p n="13">Chebron ciuitas quondam gigantum lapide ferme uicesimo <lb/>
             et secundo ab Hierusalem infra meridianam plagam distat. 
 </p>
-          <p>Mare magnum nusquam uicinius quam circa Ioppen oppidum<lb n="10"/>
+          <p n="14">Mare magnum nusquam uicinius quam circa Ioppen oppidum<lb n="10"/>
             possidet, quod quadraginta ab ea in occasum aestiuum milibus <lb/>
             abest. 
 </p>
-          <p>Longitudo uerum terrae Iudaeae a Dan usque Bersabee <lb/>
+          <p n="15">Longitudo uerum terrae Iudaeae a Dan usque Bersabee <lb/>
             praetenditur ab aquilonali plaga in meridiem producta. Dan <lb/>
             quippe uicus exiguus est in exterioribus Iudaeae, quae septentrionalem<lb n="15"/>
             partem contuentur, in quarto a Paneade miliario <lb/>
@@ -320,7 +320,7 @@
             maximus uicesimo a Chebron miliario. <lb n="20"/>
             
 </p>
-          <p rend="script">Igitur longitudo siue etiam latitudo Iudaeae quanta sit,
+          <p n="16" rend="script">Igitur longitudo siue etiam latitudo Iudaeae quanta sit,
 
 <note rend="script" type="footnote"> 1 hietico <hi rend="italic">E</hi> hierosolima <hi rend="italic">EV</hi> hierusolimam P oriente aestiuo <hi rend="italic">V</hi> <lb/>
             estibum <hi rend="italic">E</hi> XCII P 2 iordannis <hi rend="italic">E</hi> iordanes <hi rend="italic">P</hi> 3 inde terrae <hi rend="italic">E</hi> <lb/>
@@ -346,7 +346,7 @@
             excerpsimus, in qua aduersum Iudaeos de terra repromissionis <lb/>
             disserens etiam haec addidit:
 </p>
-          <p>"<sic>Respondeant</sic> mihi, qui hanc terram, quae nunc nobis Christi <lb n="5"/>
+          <p n="17">"<sic>Respondeant</sic> mihi, qui hanc terram, quae nunc nobis Christi <lb n="5"/>
             passione et resurrectione terra repromissionis effecta est, possessam <lb/>
             putant a populo Iudaeorum, postquam reuersus est <lb/>
             ex Aegypto, quantum possederit; utique a Dan usque ad <lb/>
@@ -364,7 +364,7 @@
             solitudo plena ferocium barbarorum." <lb n="20"/>
             
 </p>
-          <p>Item paulo post: "Quod si obieceris terram repromissionis <lb/>
+          <p n="18">Item paulo post: "Quod si obieceris terram repromissionis <lb/>
             dici, quae in Numerorum uolumine continetur, a meridie
 
 <note type="footnote"> 1 Hieron. ep. ad Dardanum CXXIX, Migne Patrol. lat. 22 p. 1104 <lb/>
@@ -400,7 +400,7 @@
             tribus Manasse: et ego fatebor haec tibi repromissa, non<lb n="10"/>
             tradita."
 </p>
-          <p>Item postea addidit: "Et mihi in euangelio promittuntur regna <lb/>
+          <p n="19">Item postea addidit: "Et mihi in euangelio promittuntur regna <lb/>
             caelorum, quae instrumentum uetus omnino non nominat; sed <lb/>
             si non fecero, quae praecepta sunt, nequaquam erit culpa in <lb/>
             promittente, sed in me, qui promissum accipere non merui. <lb n="15"/>
@@ -408,7 +408,7 @@
             sis coartatus intelleges". Haec Hieronymus, uir in omni scripturarum <lb/>
             scientia omnium eruditissimus. 
 </p>
-          <p>Sed etiam et Iosephus nobilis historicus Iudaeorum situm
+          <p n="20">Sed etiam et Iosephus nobilis historicus Iudaeorum situm
 
 <note type="footnote"> 18 Hegeaipp. III c. 6, p. 181—184, 70 ed. Iul. Caesar </note>
 
@@ -447,7 +447,7 @@
             ab urbe Tiberiade usque ad urbem, cui nomen Zabulon, supra <lb n="15"/>
             maritima Ptolomaidis extenta longitudine diffundatur. 
 </p>
-          <p>Latitudo autem eius a uico <sic>Cbaloth</sic>, qui est in campo maximo, <lb/>
+          <p n="21">Latitudo autem eius a uico <sic>Cbaloth</sic>, qui est in campo maximo, <lb/>
             usque ad Bersabe haud dubie deducitur. Unde etiam superiori
 
 <note type="footnote"> <hi rend="italic">1 eias om. P</hi> regiones P <hi rend="italic">quia E quae P, qui scripsi</hi> utrique galileae <lb/>
@@ -482,7 +482,7 @@
             confinia. Hac igitur suae magnitudinis aestimatione utraque <lb/>
             Galilaea distinguitur. 
 </p>
-          <p>Terra autem pinguis, herbosa, diuerso culturae genere <lb/>
+          <p n="22">Terra autem pinguis, herbosa, diuerso culturae genere <lb/>
             nitens, distincta arboribus, ut quemuis adliciat ad sui gratiam <lb/>
             et fugitantem laborum ad studia culturae inuitet atque excitet<lb n="10"/>
             Denique nulla hic uel exigua terrae portio uacat, frequentatur <lb/>
@@ -490,7 +490,7 @@
             hominum innumerabilis, ut exiguus uicus in suo tractu <lb/>
             habeat XV milia inhabitantium. 
 </p>
-          <p>Item paulo post: "Samaritana quoque regio, inquit, inter <lb n="15"/>
+          <p n="23">Item paulo post: "Samaritana quoque regio, inquit, inter <lb n="15"/>
             Iudaeam ac Galilaeam media iacet, incipiens a uico, cui nomen <lb/>
             est Helias, deficiens in terra Acrabatthenorum, natura consimili <lb/>
             nec ullo <choice><sic>diiferens</sic><corr>differens</corr></choice> a Iudaea. Utraque enim montuosa atque <lb/>
@@ -539,7 +539,7 @@
             praescripserit et uirtutum fertilitate. <lb n="20"/>
             
 </p>
-          <p>Principium Samariae de Arabiae finibus a uico, cui nomen
+          <p n="24">Principium Samariae de Arabiae finibus a uico, cui nomen
 
 <note type="footnote"> 18 Exod. 23, 26 </note>
 
@@ -566,7 +566,7 @@
             quae usque uicum extenditur Iuliadem, in quo Iudaeorum <lb n="5"/>
             pariter ac Tyriorum communis habitatio. 
 </p>
-          <p>In medio autem Iudaeae ciuitas Hierusolima quasi umbilicus <lb/>
+          <p n="25">In medio autem Iudaeae ciuitas Hierusolima quasi umbilicus <lb/>
             regionis totius, ut prudentibus placuit, nuncupatur, abundans <lb/>
             regio mediterraneis copiis nec fraudata maritimis, quia praetendit <lb/>
             usque Ptolomaidem et totum illud mare praetexit littoribus<lb n="10"/>
@@ -574,7 +574,7 @@
             ita ut quasi caput in suo corpore non obumbret sua membra, <lb/>
             sed regat atque eis tuitioni sit et pulchritudini."
 </p>
-          <p>Hactenus Iosephus, quem idcirco relationi huic inserendum <lb/>
+          <p n="26">Hactenus Iosephus, quem idcirco relationi huic inserendum <lb/>
             putaui, ut ueritatem studiose inquirentibus maiorem Iudaeus<lb n="15"/>
             relator de Iudaeae situ fidem faceret.
 
