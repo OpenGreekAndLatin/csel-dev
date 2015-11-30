@@ -76,7 +76,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -91,7 +91,7 @@
 <body>
 <div type="edition" n="urn:cts:latinLit:stoa0149c.stoa001.opp-lat1">
 <head> <title type="sub">II. DOMINO BEATISSIMO ET MERITO SUSCIPIENDO ET IN CHRISTO DEUINCTISSIMO PAPAE EUCHERIO EPISCOPO HLLARIUS EPISCOPUS. </title> </head>
-          <p rend="script">Cum me libellos tuos mecum relaturum praecedentibus litteris <lb/>
+          <p n="1" rend="script">Cum me libellos tuos mecum relaturum praecedentibus litteris <lb/>
             indicassem, instantiam et exactionem pueri quem miseras lentare
 
 <note rend="script" type="footnote"> ns <lb/>
