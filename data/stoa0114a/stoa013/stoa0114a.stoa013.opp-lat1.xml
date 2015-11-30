@@ -84,7 +84,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -101,7 +101,7 @@
 <ab>
             <title type="sub">VIII. PETITORIVM QVO ABSOLVTVS EST GERONTIVS PVER AGAPITL</title>
           </ab>
-          <p rend="script">Deus arbiter uniuersitatis et conditor illa res humanas <lb/>
+          <p n="1" rend="script">Deus arbiter uniuersitatis et conditor illa res humanas <lb/>
             lance dispensat, ut et fideles praemium et poenam rebelles <lb/>
             excipiant. lassis enim deuotorum obsequiis ualitudinem tribuit,<lb n="15"/>
             dum muneris oblatione succurrit. perdit laboris memoriam <lb/>

@@ -84,7 +84,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -105,7 +105,7 @@
   <ab>
             <title type="sub">PRAEFATIO. </title>
           </ab>
-          <p rend="script">Solet dicendi <choice><sic>affeotum</sic><corr>affectum</corr></choice> multarum rerum ardor exigere, si <lb n="5"/>
+          <p n="1" rend="script">Solet dicendi <choice><sic>affeotum</sic><corr>affectum</corr></choice> multarum rerum ardor exigere, si <lb n="5"/>
             aut auarus laudis est animus et fauorem desiderat sudore <lb/>
             mercari, ut per blandimenta gloriae <choice><sic>cruoem</sic><corr>crucem</corr></choice> narrantis ignoret, <lb/>
             aut <choice><sic>luori</sic><corr>lucri</corr></choice> <choice><sic>adstrictue</sic><corr>adstrictus</corr></choice> compedibus linguae uendit obsequium, ut
@@ -191,7 +191,7 @@
             <sic>aeetimo</sic>, opus incipiam. <lb n="10"/>
             
 </p>
-          <p rend="script"><sic>Suffieeret</sic> quidem schismaticam inperitiam propositione <choice><sic>ceeidisse</sic><corr>cecidisse</corr></choice>, <lb/>
+          <p n="2" rend="script"><sic>Suffieeret</sic> quidem schismaticam inperitiam propositione <choice><sic>ceeidisse</sic><corr>cecidisse</corr></choice>, <lb/>
             maxime cum secum habeant obiecta responsum et mereatur <lb/>
             titulus sine lectionis discussione cum <choice><sic>anotore</sic><corr>auctore</corr></choice> damnari, <lb/>
             cum in praenotatione ipsa significantia operis innotescat inmundi <lb/>
@@ -233,7 +233,7 @@
             Paulo proclamante: oboedite praepositis uestris, quoniam <lb/>
             ipsi exorabunt pro uobis? 
 </p>
-          <p rend="script">Sed redeamus ad <choice><sic>granem</sic><corr>grauem</corr></choice> et <choice><sic>nenerabilem</sic><corr>uenerabilem</corr></choice>, non solum ex hara <lb/>
+          <p n="3" rend="script">Sed redeamus ad <choice><sic>granem</sic><corr>grauem</corr></choice> et <choice><sic>nenerabilem</sic><corr>uenerabilem</corr></choice>, non solum ex hara <lb/>
             productam, sed mephiticam propositionem. "non omnes" inquiunt <lb/>
             "sacerdotes regis ad concilium adsciuit auctoritas, nec<lb n="10"/>
             omnes in <choice><sic>indicatione</sic><corr>iudicatione</corr></choice> senserunt". mancipia tartari et liquido <lb/>
@@ -268,7 +268,7 @@
             delitiscere <hi rend="italic">BLV</hi> nostris <hi rend="italic">T*</hi> absoondito <hi rend="italic">B</hi> per] p <hi rend="italic">L</hi> <lb/>
             21 enangelio <hi rend="italic">B m</hi> </note>
 </p>
-          <p>
+          <p n="4">
 <pb n="291"/>
             Post haec adseritis <choice><sic>adnersarios</sic><corr>aduersarios</corr></choice> papae Romani dici non debuisse <lb/>
             qui praedictum prolatis petitionibus <choice><sic>accnsabant</sic><corr>accusabant</corr></choice>, ad <lb/>
@@ -280,9 +280,7 @@
             errata quae dicitis. <choice><sic>inhnicum</sic><corr>inimicum</corr></choice> <choice><sic>uooet</sic><corr>uocet</corr></choice> aliquis accusantem <lb/>
             et tragico nomine appellet contumeliam non merentem? dehinc <lb/>
             <sic>subinnctam</sic> quaestionem rhetorica fibula momordistis allegando: <lb n="10"/>
-            
-</p>
-          <p>"testis est Romana ciuitas, si omnes episcopi senes et debiles <lb/>
+            "testis est Romana ciuitas, si omnes episcopi senes et debiles <lb/>
             conuenerunt". ecce orationem ueri neruis nitentem et ipsi Cepasio <lb/>
             praeferendam nitore sermonum. ergo quia se aetate ualentes <lb/>
             et corpore <choice><sic>inbeoillos</sic><corr>inbecillos</corr></choice> esse dixerunt, ipsi se ineptos iudicio <lb/>
@@ -333,7 +331,7 @@
             pro tali inpendio paleas, quibus gehennae in perniciem<lb n="15"/>
             <choice n="0.00"><sic n="1">nestram</sic><corr n="297">uestram</corr></choice> ignis animetur. 
 </p>
-          <p rend="script">Sed nunc, ut quidam fertur dixisse, quae quibus anteferam? <lb/>
+          <p n="5" rend="script">Sed nunc, ut quidam fertur dixisse, quae quibus anteferam? <lb/>
             <choice n="0.00"><sic n="1">eontra</sic><corr n="4543">contra</corr></choice> apostolum dicitis <choice><sic>inpngnatores</sic><corr>inpugnatores</corr></choice> summi pontificis <lb/>
             non auditos, qui <choice><sic>oaelestis</sic><corr>caelestis</corr></choice> mandati memores partem <choice><sic>snam</sic><corr>suam</corr></choice> <lb/>
             a consortio <choice><sic>adnlteri</sic><corr>adulteri</corr></choice> <choice><sic>snbdnxerunt</sic><corr>subduxerunt</corr></choice>. hic non incesso ignorantiam,<lb n="20"/>
@@ -409,7 +407,7 @@
             creditur qui meruit ad examen adduci et hoc est reum existere <lb/>
             quod libram disceptationis intrare. 
 </p>
-          <p rend="script"><sic>Praeiocutioni</sic> <choice><sic>tameu</sic><corr>tamen</corr></choice> optime diuinum <choice><sic>snbdidistis</sic><corr>subdidistis</corr></choice> <choice><sic>elemplum</sic><corr>exemplum</corr></choice>, <lb/>
+          <p n="6" rend="script"><sic>Praeiocutioni</sic> <choice><sic>tameu</sic><corr>tamen</corr></choice> optime diuinum <choice><sic>snbdidistis</sic><corr>subdidistis</corr></choice> <choice><sic>elemplum</sic><corr>exemplum</corr></choice>, <lb/>
             quod ita quadratis constat alloquiis, ut ipsum in eo Chrysippum<lb n="10"/>
             tenere lineam putes: <choice><sic>peceatori</sic><corr>peccatori</corr></choice> dicit deus: quare <lb/>
             tu enarras iustitias meas? huic dicto conserentes quasi ad <lb/>
@@ -483,7 +481,7 @@
             23 lichnos <hi rend="italic">ABT,</hi> lignoB <hi rend="italic">BV1,</hi> licghnos <hi rend="italic">L</hi> 24 adcendi <hi rend="italic">B</hi> eet <lb/>
             enim ARm </note>
 </p>
-          <p>
+          <p n="7">
 <pb n="296"/>
              Sed in illa parte quis argumentis <choice><sic>uesbris</sic><corr>uestris</corr></choice> audeat respondere, <lb/>
             nisi quia sine arte dicitur uerum et fides mendacio sermonum <lb/>
@@ -497,7 +495,7 @@
             sententia diuina <sic>perceileret</sic>, <choice n="0.00"><sic n="1">ques</sic><corr n="5334">quos</corr></choice> a <choice><sic>oapitis</sic><corr>capitis</corr></choice> sui conpage in<lb n="10"/>
             salutis detrimento insanus <sic>feruorabsciderat</sic> P
 </p>
-          <p>Post Esau mentionem operi uestro nescio uerbis an latratibus <lb/>
+          <p n="8">Post Esau mentionem operi uestro nescio uerbis an latratibus <lb/>
             indidistis, <choice><sic>bonparantes</sic><corr>conparantes</corr></choice> ei antistitem uestrum, qui senioris <lb/>
             naturae beneficium unius cibi commutatione perdiderit et <lb/>
             primogeniti canam dignitatem amiserit faucibus obsequendo<lb n="15"/>
@@ -532,7 +530,7 @@
             sint qui calces stimulis intulerunt ? <choice><sic>aredite</sic><corr>credite</corr></choice> mihi, pacis inimica <lb/>
             sunt, <sic>inpagnationi</sic> non sunt idonea quae profertis. 
 </p>
-          <p>Sed sequitur uinculum cum aenigmate, quod <choice><sic>nesoio</sic><corr>nescio</corr></choice> qua <lb n="5"/>
+          <p n="9">Sed sequitur uinculum cum aenigmate, quod <choice><sic>nesoio</sic><corr>nescio</corr></choice> qua <lb n="5"/>
             <choice><sic>replioationis</sic><corr>replicationis</corr></choice> arte soluamus. Tullianae enim <choice><sic>profnnditatis</sic><corr>profunditatis</corr></choice> pelagus <lb/>
             ingressi <choice><sic>cumbnlam</sic><corr>cumbulam</corr></choice> nostram quaestionum <choice><sic>fiatibus</sic><corr>flatibus</corr></choice> per <lb/>
             litorum incerta transmittunt. in qua tamen Christo clauum <lb/>
@@ -588,7 +586,7 @@
             sentinam criminum, dum simulato <choice n="0.18"><sic n="127">ferant</sic><corr n="542">ferunt</corr></choice> <choice><sic>perseeutionem</sic><corr>persecutionem</corr></choice> se <lb/>
             debere criminibus, agnouisset? 
 </p>
-          <p rend="script">Post illa, quae de <choice><sic>accnsatoribus</sic><corr>accusatoribus</corr></choice> prolata sunt, addidistis, <lb/>
+          <p n="10" rend="script">Post illa, quae de <choice><sic>accnsatoribus</sic><corr>accusatoribus</corr></choice> prolata sunt, addidistis, <lb/>
             cur personae iussae sint praesentari, quas saepe imperialis<lb n="20"/>
             <sic>fiagitasset</sic> <choice><sic>auetoritas</sic><corr>auctoritas</corr></choice>, ad <sic>defraadationem</sic> genii pertinere eius, <lb/>
             qui nunc in sede <choice><sic>apostolioa</sic><corr>apostolica</corr></choice> quasi in quadam arce consistit. <lb/>
@@ -713,7 +711,7 @@
             uobis. <lb n="15"/>
             
 </p>
-          <p rend="script">Hoc etiam <choice n="0.22"><sic n="95">nono</sic><corr n="329">nouo</corr></choice> aduersus nos subdidistis inuento, ipsum <lb/>
+          <p n="11" rend="script">Hoc etiam <choice n="0.22"><sic n="95">nono</sic><corr n="329">nouo</corr></choice> aduersus nos subdidistis inuento, ipsum <lb/>
             dominum et redemptorem nostrum seruorum subisse iudicia <lb/>
             et caeli operatorem particulae cuidam sponte subiacuisse terrenae, <lb/>
             dum testatur et loquitur: homo Iuda et qui habitas <lb/>
@@ -801,7 +799,7 @@
             uocem et praestat et subruit, dum illos quos in clamorem <lb/>
             coegerit eorum etiam grauitate facti uerba confundit. 
 </p>
-          <p rend="script">Quis patiatur uos aequo animo garrientes ? ergo nos secundum <lb/>
+          <p n="12" rend="script">Quis patiatur uos aequo animo garrientes ? ergo nos secundum <lb/>
             adsertionem uestram nouellae utilitatis commoda non amamus, <lb n="20"/>
             dum definitis senioribus praestamus obsequium ? hic tota ingenii <lb/>
             uela suspenditis: hic resupinae <choice><sic>ceraicis</sic><corr>ceruicis</corr></choice> ex secessu pectoris <lb/>
@@ -834,7 +832,7 @@
             potuit prodesse neglegimus? alia sunt, inprobissimi hominum, <lb/>
             quae ad usum recentem sine iniuria uetustatis adhibemus. 
 </p>
-          <p rend="script"><choice><sic>Nonam</sic><corr>Nouam</corr></choice> deinde culpam et quam inuestigatio nostra <choice><sic>transiorat</sic><corr>transierat</corr></choice><lb n="10"/>
+          <p n="13" rend="script"><choice><sic>Nonam</sic><corr>Nouam</corr></choice> deinde culpam et quam inuestigatio nostra <choice><sic>transiorat</sic><corr>transierat</corr></choice><lb n="10"/>
             <choice><sic>reolusistis</sic><corr>reclusistis</corr></choice>: "quare papa sine exempli instituto praecedentis <lb/>
             synodum conuocauit, ut de criminum eius obiectione cognosceret?" <lb/>
             post haec nos falsitatis arguitis, cur a principe, quae <lb/>
@@ -923,7 +921,7 @@
             et diuinum censum nocendi quo exuberat <choice><sic>theeaurus</sic><corr>thesaurus</corr></choice><lb n="10"/>
             inuidit. 
 </p>
-          <p rend="script">Sed promissi memores uniuersa, quae operi ipsorum recolimus <lb/>
+          <p n="14" rend="script">Sed promissi memores uniuersa, quae operi ipsorum recolimus <lb/>
             inserta, tangamus. arguitur stilo splendidissimo papa <lb/>
             Symmachus, quare conuentionem praeueniens cum populorum <lb/>
             coetibus examen intrauerit et postea iudicia, cum euocatus<lb n="15"/>
@@ -974,7 +972,7 @@
             beneficii gratiam qui aliquid praestat inuito, quia non est <lb/>
             munus nisi quod uelis accipere. 
 </p>
-          <p rend="script">Nunc longa non opus est admonitione iam perditis: odium <lb/>
+          <p n="15" rend="script">Nunc longa non opus est admonitione iam perditis: odium <lb/>
             debemus operi, de cuius iam non superest quod damnetur auctoribus. <lb/>
             mulierum turbas adseritis <choice><sic>nrbanis</sic><corr>urbanis</corr></choice> coloribus cum praefato <lb n="25"/>
             ad iudicia conuenisse, et <choice n="0.02"><sic n="165">ilia</sic><corr n="6591">illa</corr></choice> uestra subtilitate ostenditur <lb/>
@@ -1007,7 +1005,7 @@
             super quem dilatastis os et eiecistis linguam? numquid<lb n="10"/>
             non uos fili scelesti estis, semen mendax? 
 </p>
-          <p>Quae quibus copulatis, aduertite, dicentes: "indicta causa, <lb/>
+          <p n="16">Quae quibus copulatis, aduertite, dicentes: "indicta causa, <lb/>
             derelictis defensoribus papa discessit", fori nobis in negotio <lb/>
             praesenti et platearum quarum estis hypocritae exempla proponentes. <lb/>
             nobis scriptum est per Paulum apostolum: quibus<lb n="15"/>
@@ -1060,7 +1058,7 @@
             <lb n="20"/>
             
 </p>
-          <p rend="script">"Quis eum" inquiunt "uidit cum <choice><sic>acctisatoribus</sic><corr>accusatoribus</corr></choice> suis aperta, ut <lb/>
+          <p n="17" rend="script">"Quis eum" inquiunt "uidit cum <choice><sic>acctisatoribus</sic><corr>accusatoribus</corr></choice> suis aperta, ut <lb/>
             aiunt, pugna confligere?" inpudentissimi hominum, quem cum <lb/>
             quibus <choice><sic>nultis</sic><corr>uultis</corr></choice> decertare, respicite et utriusque partis, si quid <lb/>
             salutis in uobis resedit, loca tempora personas <choice><sic>adteñdite</sic><corr>adtendite</corr></choice>: et <lb/>
@@ -1125,12 +1123,10 @@
             fidelium <sic>blanGtiis</sic> non <choice><sic>legator</sic><corr>legatur</corr></choice>. sed haec deo melius narrantur, <lb/>
             a quo frugis <choice><sic>huins</sic><corr>huius</corr></choice> planta descendit
 </p>
-          <p>Ad <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> me reducit propositi operis non <choice><sic>amioa</sic><corr>amica</corr></choice> condicio, qui <lb/>
+          <p n="18">Ad <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> me reducit propositi operis non <choice><sic>amioa</sic><corr>amica</corr></choice> condicio, qui <lb/>
             melioribus <choice><sic>hactenas</sic><corr>hactenus</corr></choice> operam <choice><sic>uolni</sic><corr>uolui</corr></choice> nauare sermonibus, dum <lb/>
             captiuam orationem exigit imperiosa necessitas. dixistis enim: <lb n="5"/>
-            
-</p>
-          <p>"quomodo de causa uel qualitate eius primitus tractabatis, cum <lb/>
+            "quomodo de causa uel qualitate eius primitus tractabatis, cum <lb/>
             necdum haberet synodus firmitatem ?" o frontem dictionis inmundae <lb/>
             et faciem libelli, quam non sola <choice><sic>macnlanit</sic><corr>maculauit</corr></choice> inperitia. <lb/>
             tractatus nostri <choice><sic>proninoiam</sic><corr>prouinciam</corr></choice> et narratis et quaeritis. <choice><sic>hino</sic><corr>hinc</corr></choice> <lb/>
@@ -1139,7 +1135,7 @@
             plus adhuc remanserat in reuerentia pulsati, quam esset ia <lb/>
             nostri integritate collegii. 
 </p>
-          <p rend="script">Deinde pro quaestionum tormentis uenerabilem <choice><sic>Lanrentium</sic><corr>Laurentium</corr></choice> <lb/>
+          <p n="19" rend="script">Deinde pro quaestionum tormentis uenerabilem <choice><sic>Lanrentium</sic><corr>Laurentium</corr></choice> <lb/>
             et Petrum episcopos a communione papae se suspendisse replicatis <lb n="15"/>
             et quicquid prouidit cautio conuocatorum ducitis ad <lb/>
             crimen inpetiti. ullone ergo tempore, dum <choice><sic>eelebrarentttr</sic><corr>celebrarentur</corr></choice> ab <lb/>
@@ -1175,7 +1171,7 @@
             scriptum est enim: animalis homo non percipit <lb/>
             quae sunt spiritus. 
 </p>
-          <p rend="script">Fost haec uersis in fugam ordinibus <choice><sic>lymphatioi</sic><corr>lymphatici</corr></choice> more sermonis <lb n="10"/>
+          <p n="20" rend="script">Fost haec uersis in fugam ordinibus <choice><sic>lymphatioi</sic><corr>lymphatici</corr></choice> more sermonis <lb n="10"/>
             addidistis: "ergo <choice><sic>conoilia</sic><corr>concilia</corr></choice> <choice><sic>saeerdotum</sic><corr>sacerdotum</corr></choice> ecclesiasticis legibus <lb/>
             quotannis decreta. per <choice><sic>prouineias</sic><corr>prouincias</corr></choice>, quia praesentiam papae non <lb/>
             habent, ualitudinem perdiderunt?" legite, insanissimi, aliquando <lb/>
@@ -1210,7 +1206,7 @@
 </p>
 <pb n="313"/>
             
-          <p rend="script">His enim nos eloquii uepribus, dum gradimur per <choice><sic>plaaa</sic><corr>plana</corr></choice>, <lb/>
+          <p n="21" rend="script">His enim nos eloquii uepribus, dum gradimur per <choice><sic>plaaa</sic><corr>plana</corr></choice>, <lb/>
             retinetis, <choice n="0.16"><sic n="8584">eum</sic><corr n="42581">cum</corr></choice> <choice><sic>dicttis</sic><corr>dicitis</corr></choice> laesum <choice><sic>ptineipem</sic><corr>principem</corr></choice>, quare adtributum <lb/>
             <choice><sic>nisitatorem</sic><corr>uisitatorem</corr></choice> contra <choice><sic>eoeksiastioas</sic><corr>ecclesiasticas</corr></choice> regulas prima <choice><sic>uolnimus</sic><corr>uoluimus</corr></choice> <choice><sic>frante</sic><corr>fronte</corr></choice> <lb/>
             <choice><sic>disedere</sic><corr>discedere</corr></choice>, ut nihil amplius liceret tunc uitiis, ne duresceret <lb/>
@@ -1269,7 +1265,7 @@
             probandam. in electione enim uenerandorum iudicum ipse <lb/>
             <choice><sic>accnsantes</sic><corr>accusantes</corr></choice> extra ordinem <choice><sic>reppnlit</sic><corr>reppulit</corr></choice>, ipse ad spem retulit accusatum. <lb/>
             </p>
-          <p rend="script">Videamus tamen, ista si facta sunt, si dei inimici <sic>etiun</sic><lb n="20"/>
+          <p n="22" rend="script">Videamus tamen, ista si facta sunt, si dei inimici <sic>etiun</sic><lb n="20"/>
             terreni domini non <choice><sic>faistis</sic><corr>fuistis</corr></choice>, dum Christum et regem parili <lb/>
             temeritate despicitis et unus <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> ad utramque contumeliam <lb/>
             ductus est criminum. destinatus antistes ab <choice><sic>ipeo</sic><corr>ipso</corr></choice> conplendae
@@ -1314,7 +1310,7 @@
             subsidium : , ecce post <choice><sic>caelestep</sic><corr>caelestem</corr></choice> commotionem iuste <sic>ups</sic> et <lb/>
             principalis, quam sperni fecistis, censura percellit. 
 </p>
-          <p rend="script">Videamus si superest aliqua de regulari propositione <choice n="0.31"><sic n="25">der</sic><corr n="54">deas</corr></choice> <lb/>
+          <p n="23" rend="script">Videamus si superest aliqua de regulari propositione <choice n="0.31"><sic n="25">der</sic><corr n="54">deas</corr></choice> <lb/>
             fensio. "<sic>uisitatores</sic>" inquiunt "et aliis episcopis ipse dedit, et <lb n="25"/>
             iustum est, ut facti sui lege teneatur". non uos in hoc titulo
 
@@ -1357,7 +1353,7 @@
             humiliatur, ad cuius <choice><sic>fngietis</sic><corr>fugietis</corr></choice> auxilium, et ubi relinquetis <lb/>
             gloriam uestram ? 
 </p>
-          <p rend="script">Quid si inmunda mihi labia habenti et nullis <choice><sic>sucoensi</sic><corr>succensi</corr></choice>
+          <p n="24" rend="script">Quid si inmunda mihi labia habenti et nullis <choice><sic>sucoensi</sic><corr>succensi</corr></choice>
 
 <note type="footnote"> 16 Uatth. 16, 18 et 19 22 Ea. 10, 8 </note>
 
@@ -1431,7 +1427,7 @@
             qui sic saeuit in gratiae suae <choice><sic>germins</sic><corr>germina</corr></choice>, ut plantas abscidat: <lb/>
             liberior iusto iracundia plus quam alios lacessit auctorem". <lb/>
             </p>
-          <p rend="script">"Symmachi quos uocatis excessus, si sunt, illa qua et <lb/>
+          <p n="25" rend="script">"Symmachi quos uocatis excessus, si sunt, illa qua et <lb/>
             uos expectatione sustineo: nefas est peccantem patientiam <lb n="15"/>
             iudicis non amare. quid nisi ultionem <choice><sic>fiagitat</sic><corr>flagitat</corr></choice>, qui dum reus <lb/>
             et ipse sit, <choice><sic>nindictae</sic><corr>uindictae</corr></choice> in altero moras accusat? haec illis a me <lb/>
@@ -1476,7 +1472,7 @@
             freta sustentat: ditat probatum in captione hominum rete, <lb n="15"/>
             quod cernitis". 
 </p>
-          <p rend="script">"Redite ergo, quia fuga uos nec dum essetis agrestes <lb/>
+          <p n="26" rend="script">"Redite ergo, quia fuga uos nec dum essetis agrestes <lb/>
             eripuit: currite ad ouile, ne luporum uos exponatis insidiis, <lb/>
             ne per moram amittatis gratiam sponte uenientum, quia <lb/>
             contemptam <choice><sic>innitationem</sic><corr>inuitationem</corr></choice> gehenna subsequitur. ego si quid <lb n="20"/>
@@ -1557,7 +1553,7 @@
             ista nec <choice><sic>nou</sic><corr>noua</corr></choice> sunt, quia, dum <choice><sic>iile</sic><corr>ille</corr></choice> truditur, iste firmatur, <lb/>
             uester mihi militauit adsensus". 
 </p>
-          <p rend="script">"Deinde cur in perniciem uestram laeditis sacerdotale concilium <lb/>
+          <p n="27" rend="script">"Deinde cur in perniciem uestram laeditis sacerdotale concilium <lb/>
             ? cur laceratis sententiam, in qua inspirante Christo <lb/>
             oracula <choice><sic>snperna</sic><corr>superna</corr></choice> patuerunt ei inter deum atque homines <lb n="15"/>
             interpres extitit <choice><sic>liDgua</sic><corr>lingua</corr></choice> pontificum ? quid generalis ecclesiae <lb/>
@@ -1642,7 +1638,7 @@
             quia liquido nocens est qui insontibus aut <choice><sic>merittim</sic><corr>meritum</corr></choice> <choice><sic>cnlpabilis</sic><corr>culpabilis</corr></choice> <lb n="10"/>
             aut nomen opponit". 
 </p>
-          <p rend="script">"Reliqua obiectionum uestrarum capita non reuoluam: praestat <lb/>
+          <p n="28" rend="script">"Reliqua obiectionum uestrarum capita non reuoluam: praestat <lb/>
             silentio damnanda sepeliri. \' nobilitatem dat facinoribus <lb/>
             qui uentilationem ipsorum multiplici ad aures posteras <lb/>
             relatione transmittit. beati Pauli est sequenda sententia, <lb n="15"/>
@@ -1691,7 +1687,7 @@
             cathedram <choice><sic>quaai</sic><corr>quasi</corr></choice> ultimum uidere sedile despectam". <lb n="15"/>
             
 </p>
-          <p rend="script">. Cuius <sic>uoeem</sic> <choice><sic>beatua</sic><corr>beatus</corr></choice> <choice><sic>Paalus</sic><corr>Paulus</corr></choice> excepit et illa qua semper usus <lb/>
+          <p n="29" rend="script">. Cuius <sic>uoeem</sic> <choice><sic>beatua</sic><corr>beatus</corr></choice> <choice><sic>Paalus</sic><corr>Paulus</corr></choice> excepit et illa qua semper usus <lb/>
             est eloquii <choice><sic>intoouit</sic><corr>intonuit</corr></choice> <choice><sic>Ubertate</sic><corr>libertate</corr></choice>, apostolorum principem lenitatis <lb/>
             incessens, quod fluxis et profligatis mentibus parentis adhuc <lb/>
             seruaret. affectum nec in profundum ductis ulceribus ferro <lb/>
@@ -1721,7 +1717,7 @@
             mortem languentibus qui <sic>oam</sic> possit non <choice><sic>excladit</sic><corr>excludit</corr></choice> inflixit. his <lb/>
             ergo aduersus eos oris ianuam patefecit alloquiis:
 </p>
-          <p rend="script">"Omnis qui iudicas, in quo <sic>allum</sic> <choice n="0.09"><sic n="8">indicas</sic><corr n="74">iudicas</corr></choice>, te ipsum <lb/>
+          <p n="30" rend="script">"Omnis qui iudicas, in quo <sic>allum</sic> <choice n="0.09"><sic n="8">indicas</sic><corr n="74">iudicas</corr></choice>, te ipsum <lb/>
             condemnas: eadem enim agis qui iudicas. <lb n="5"/>
             scimus autem quia iudicium dei est secundum <lb/>
             ueritatem in eos, qui talia agunt, et iterum: beatus <lb/>
@@ -1784,7 +1780,7 @@
             imperauit, inrumpit. nihil <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> ultra plus eloquar: quod de <lb/>
             oratione remanet lamenta <sic>subplebunt</sic>". 
 </p>
-          <p rend="script">Post haec si inter manus medicorum curatione aegrescitis
+          <p n="31" rend="script">Post haec si inter manus medicorum curatione aegrescitis
 
 <note type="footnote"> 2 Rom. 1, 29 15 II Tim. 3, 8 et 4; ef. Gen. 7, 11 , </note>
 
@@ -1805,8 +1801,8 @@
             nec aliqua a <choice n="0.03"><sic n="1">eoepto</sic><corr n="28">coepto</corr></choice> salutis <choice><sic>cobsideraiio</sic><corr>consideratio</corr></choice> <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> reducit, saltem <lb/>
             orbis parentem <choice><sic>nrbem</sic><corr>urbem</corr></choice> uestram respicite : ipsa <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> post defensores <lb/>
             suos apostolos maerens adgreditur, ipsa <choice><sic>eonpellat</sic><corr>conpellat</corr></choice> et, I ei <lb/>
-            quid est pietatis in reliquum, orditur impetratura <choice><sic>sermanem</sic><corr>sermonem</corr></choice> : <lb/>
-            "Me, quam dei summi templa <choice><sic>repndiatis</sic><corr>repudiatis</corr></choice> fanorum <choice><sic>cnltibus</sic><corr>cultibus</corr></choice> <lb n="5"/>
+            quid est pietatis in reliquum, orditur impetratura <choice><sic>sermanem</sic><corr>sermonem</corr></choice> : <lb/></p>
+            <p n="32">"Me, quam dei summi templa <choice><sic>repndiatis</sic><corr>repudiatis</corr></choice> fanorum <choice><sic>cnltibus</sic><corr>cultibus</corr></choice> <lb n="5"/>
             et nouae lucis nitore gaudentem <sic>federUnt</sic>, ecce conspicuam, <lb/>
             quam post sacella sordentia et multo <choice><sic>pecndum</sic><corr>pecudum</corr></choice> tabo polluta <lb/>
             ab hostiarum <choice><sic>crnore</sic><corr>cruore</corr></choice> dominici et apostolici sanguinis effusio <lb/>
@@ -1881,7 +1877,7 @@
 <pb n="329"/>
              
 </p>
-          <p rend="script">"Quis tempore, quo pretiosis siccamus <sic>ubara</sic> partubus, quo <lb/>
+          <p n="33" rend="script">"Quis tempore, quo pretiosis siccamus <sic>ubara</sic> partubus, quo <lb/>
             prolem nostram aeterna genetrix rursus paritura nunc suscipit, <lb/>
             <choice><sic>cuins</sic><corr>cuius</corr></choice> post primam natiuitatem grandaeuis <choice><sic>fetitus</sic><corr>fetibus</corr></choice> aluus impletur, <lb/>
             quae mihi <sic>pradem</sic> <sic>negenerando</sic> dulcem <choice n="0.78"><sic n="6258">fuit</sic><corr n="1750">facit</corr></choice> esse quam <lb/>
