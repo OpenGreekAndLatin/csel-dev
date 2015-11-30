@@ -84,7 +84,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -101,7 +101,7 @@
 <ab>
             <title type="sub">IIII. DE VITA BEATI ANTONI MONACHI. PRAEFATIO. </title>
           </ab>
-          <p rend="script">Vt proeliantes adsurgunt bucinis, ut equorum celeritas ad <lb/>
+          <p n="1" rend="script">Vt proeliantes adsurgunt bucinis, ut equorum celeritas ad <lb/>
             potiorem cursum ferrata calce prouocatur, ita dum maiorum <lb n="10"/>
             <sic n="poss">nirtus</sic> sollicitat, ingenia <choice><sic>nonella</sic><corr>nouella</corr></choice> confortat. qui cana exercitia <lb/>
             et <choice><sic>neterum</sic><corr>ueterum</corr></choice> gesta relegit, ad disciplinarum frugem propositis <lb/>
@@ -147,7 +147,7 @@
             religiosa auctoritate firmaueris, uidebitur iudicii tui clauda fides <lb n="15"/>
             delegisse minus idoneum, cui uenerandi laboris prouinciam commisisti. <lb/>
             </p>
-          <p rend="script">Igitur beati Antoni narraturus insignia primum sancti spiritus <lb/>
+          <p n="2" rend="script">Igitur beati Antoni narraturus insignia primum sancti spiritus <lb/>
             mihi maiestas inuocanda est, ut qui illum rebus diuitem fecit <lb/>
             me in his explicandis per linguae frena moderetur et labiorum <lb n="20"/>
             sordes prophetici carbonis diluere maturet incendio, ne conscientiae <lb/>
@@ -187,7 +187,7 @@
             hunc sibi futurum participem pia ubique uoce praedicabat, <lb n="15"/>
             credo, ut incipientis tirocinia spes adnuntiata solidaret. 
 </p>
-          <p rend="script">Sed postquam beatus uir humanis rebus exemptus est, Constanti <lb/>
+          <p n="3" rend="script">Sed postquam beatus uir humanis rebus exemptus est, Constanti <lb/>
             antistitis ea tempestate florentissimi iunctus obsequiis <lb/>
             gloriosis operibus uitae rudimenta dedicauit: qui eum inter <lb/>
             ecclesiasticos exceptores caelestem militiam iussit ordiri: erat <lb n="20"/>
@@ -232,7 +232,7 @@
             ne quid in mundo haberet subsidii, terra hospitibus <choice><sic>depntata</sic><corr>deputata</corr></choice> <lb/>
             <choice><sic>hamana</sic><corr>humana</corr></choice> lege liberatus est. 
 </p>
-          <p rend="script">Post cuius <choice><sic>reeolutionem</sic><corr>resolutionem</corr></choice> Antonium nostrum famuli ad Italiae <lb/>
+          <p n="4" rend="script">Post cuius <choice><sic>reeolutionem</sic><corr>resolutionem</corr></choice> Antonium nostrum famuli ad Italiae <lb/>
             partes, quibus <choice><sic>oaelitus</sic><corr>caelitus</corr></choice> fuerat <choice><sic>daputatus</sic><corr>deputatus</corr></choice>, Christo duce <choice><sic>perducont</sic><corr>perducunt</corr></choice>. <lb/>
             principe loco Tellinae uallis, quae id sortita est uocabuli,<lb n="20"/>
             limen ingreditur: quam montium ex utroque latere <lb/>
@@ -267,7 +267,7 @@
             patienter praetulit regali dominatui. <lb n="10"/>
             
 </p>
-          <p rend="script">Ne tamen diu humanae conuersationis mixtus inlecebris <lb/>
+          <p n="5" rend="script">Ne tamen diu humanae conuersationis mixtus inlecebris <lb/>
             societatem contagionis hauriret, elegit secessum haud procul <lb/>
             a beati martyris Fidelis sepulcro, ubi <choice><sic>Larrus</sic><corr>Larius</corr></choice> Ionii <choice><sic>matmoris</sic><corr>marmoris</corr></choice> <lb/>
             minas deponit, quando, ne euagetur longius, obiectis ripis <lb/>
@@ -345,8 +345,8 @@
             mundana toruos oculos et <choice><sic>indefeesa</sic><corr>indefessa</corr></choice> contra <choice><sic>saeoali</sic><corr>saeculi</corr></choice> blanditias Christi <lb/>
             militem bella tractare. <choice><sic>quasdo</sic><corr>quando</corr></choice> illa imago statum suum <choice><sic>resolnit</sic><corr>resoluit</corr></choice> <lb/>
             in risum et ab ordinis proprii rigore laetitiae debilitate <lb/>
-            confracta est ?. <lb/>
-            Interea dum uelut obsignatum monachi in <choice><sic>nniuersis</sic><corr>uniuersis</corr></choice> <lb n="5"/>
+            confracta est ?. <lb/></p>
+        <p n="6" rend="script">    Interea dum uelut obsignatum monachi in <choice><sic>nniuersis</sic><corr>uniuersis</corr></choice> <lb n="5"/>
             inplet officium, uir quidam, quem sponsae suae amor in <lb/>
             facinus impulerat et ad effusionem <choice><sic>hnmani</sic><corr>humani</corr></choice> sanguinis affectu <lb/>
             et indignatione prouocarat, dum <choice><sic>couscientiam</sic><corr>conscientiam</corr></choice> se credit fugere <lb/>
@@ -395,7 +395,7 @@
             et expiatum scelus patratoris morte nuntiauit. ita sermo <choice n="0.00"><sic n="1">insti</sic><corr n="181">iusti</corr></choice> <lb n="10"/>
             uiribus carere non potuit. 
 </p>
-          <p rend="script">Interea sanctus <choice><sic>nir</sic><corr>uir</corr></choice> per regiones finitimas insidiatricis <lb/>
+          <p n="7" rend="script">Interea sanctus <choice><sic>nir</sic><corr>uir</corr></choice> per regiones finitimas insidiatricis <lb/>
             famae linguis <choice><sic>innotnit</sic><corr>innotuit</corr></choice>, quae ne pareret de celebritate <lb/>
             <choice><sic>iaetantiam</sic><corr>iactantiam</corr></choice>, ante prouisa <choice><sic>sont</sic><corr>sunt</corr></choice> remedia, quam morbus adolesceret. <lb/>
             qui enim <choice><sic>grandaeaus</sic><corr>grandaeuus</corr></choice> aut debilis <sic>dnoe</sic> diligentia <lb n="15"/>
@@ -433,7 +433,7 @@
             sola iussione turbatam iter fecit aperire et occupata uiae <lb/>
             <choice><sic>olaustra</sic><corr>claustra</corr></choice> deserere. 
 </p>
-          <p rend="script">Sed ecce iterum alis pernicibus per proditionis suae ordinem <lb/>
+          <p n="8" rend="script">Sed ecce iterum alis pernicibus per proditionis suae ordinem <lb/>
             dei seruum in quo loci degeret fama uulgauit, aliud <lb n="10"/>
             de ipso pro sententiarum uarietate diuersis <choice><sic>opinantibua</sic><corr>opinantibus</corr></choice>. <lb/>
             tunc liquido patuit per occursus multiplices nihil obstare <lb/>
@@ -473,7 +473,7 @@
             eruditos et fortes reddidit cotidiana <choice><sic>deoertatio</sic><corr>decertatio</corr></choice>, quomodo prolixior <lb/>
             pax solutos". 
 </p>
-          <p>His dictis dimissa fratribus cellula, quos ibidem praedicti <lb/>
+          <p n="9">His dictis dimissa fratribus cellula, quos ibidem praedicti <lb/>
             amor congregauerat, apud Lirinum inprouisus apparuit. <lb/>
             nuntiauit uirum insignium meritorum facies ieiunii pallore<lb n="10"/>
             decorata. nam dum secreti nitorem hominis <choice><sic>aplendidissima</sic><corr>splendidissima</corr></choice> <lb/>
