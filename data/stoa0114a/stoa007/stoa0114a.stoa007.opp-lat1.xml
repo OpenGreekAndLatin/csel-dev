@@ -84,7 +84,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -101,7 +101,7 @@
 <ab>
             <title type="sub">VI. ENNODIVS AMBROSIO ET BEATO. </title>
           </ab>
-          <p rend="script">Deo obsequimur, dum eius conuenientia monitis imperamus: <lb/>
+          <p n="1" rend="script">Deo obsequimur, dum eius conuenientia monitis imperamus: <lb/>
             nam quod petitioni <choice><sic>nestrae</sic><corr>uestrae</corr></choice> studio caritatis adquiescimus, <lb n="15"/>
             mystica sunt praecepta. multis etenim supplicationibus exegistis, <lb/>
             ut pagina uobis concinnationis didascalicae fingeretur. <lb/>
@@ -154,7 +154,7 @@
             <l>Quantum dat genius uigorque ueri. </l> <lb n="20"/>
             <l>Christi militis insitum rigorem </l> <lb/>
             <l>Elumbem patimur <choice><sic>caDere</sic><corr>cauere</corr></choice> ductum. </l> </quote> <lb/>
-          <p rend="script">Ergo <choice><sic>diotorum</sic><corr>dictorum</corr></choice> aliquotiens amoena fugientes, materiam solidam <lb/>
+          <p n="2" rend="script">Ergo <choice><sic>diotorum</sic><corr>dictorum</corr></choice> aliquotiens amoena fugientes, materiam solidam <lb/>
             suo ore celebremus, ne sentiat <choice><sic>uirilitaa</sic><corr>uirilitas</corr></choice> operis eneruati <lb/>
             damna sermonis. non refugit professionem meam monitoris. <lb n="25"/>
             officium, quia decet praecedentes emendatio, et sicut post <lb/>
@@ -175,11 +175,10 @@
             diuisi <sic>nooe</sic> constet hortaminis: argue sapientem, amabit <lb/>
             te, et non reticeat saecularis adsertor:
 </p>
-          <p>Qui praeceptorem sancti uoluere parenti\'s
+          <p n="3">Qui praeceptorem sancti uoluere parenti\'s<lb/>
+            Esse loco. 
 </p>
-          <p>Esse loco. 
-</p>
-          <p>iure enim in affectionis supercilio conlocatur quem benignitas <lb n="5"/>
+          <p n="4">iure enim in affectionis supercilio conlocatur quem benignitas <lb n="5"/>
             corrigendi promptius <choice><sic>adaerit</sic><corr>adserit</corr></choice> quam ipsa <choice><sic>naturo</sic><corr>natura</corr></choice> generis. genuisse <lb/>
             etenim <choice><sic>libidiais</sic><corr>libidinis</corr></choice> <sic>testimoniumest</sic>, erudisse pietatis. ergo ad <lb/>
             disciplinarum. arcem. properantes matrem bonorum operum <lb/>
@@ -196,7 +195,7 @@
             <l><sic>Canor</sic> sudans tenerum roscida colla feras. </l> <lb/>
             <l>Nil tibi plus <choice><sic>lingal</sic><corr>lingua</corr></choice> tribuas quam schemate frontis. </l> <lb/>
             <l>Quicquid amare libet, <choice><sic>hino</sic><corr>hinc</corr></choice> tibi concilia. </l> </quote><lb/>
-          <p rend="script">Nefas est huic tam sacro manus negare consilio, quando <lb/>
+          <p n="5" rend="script">Nefas est huic tam sacro manus negare consilio, quando <lb/>
             et ipsa, quae loquitur, quaestuosi decoris dote redimita nobilitatis <lb n="20"/>
             uel amplificat bona <choice><sic>vel</sic><corr>uel</corr></choice> <choice><sic>snggerit</sic><corr>suggerit</corr></choice>. pudori ergo cognatam <lb/>
             semper sociate Pudicitiam, quae <choice><sic>aetitis</sic><corr>aetatis</corr></choice> <choice><sic>praerudicium</sic><corr>praeiudicium</corr></choice> cana <lb/>
@@ -239,7 +238,7 @@
             <l>Ad me currentes puerum seponite factis </l> <lb/>
             <l>Deque meo, iuuenes, canam praesumite uitam. </l> <lb n="15"/>
             </quote>
-          <p rend="script">Hanc admittentes Fidei ornate consortio, quia, sicut in emendatis <lb/>
+          <p n="6" rend="script">Hanc admittentes Fidei ornate consortio, quia, sicut in emendatis <lb/>
             moribus principem locum obtinet, ita suis spoliata <lb/>
             dotibus non tenetur, nec fas est quasi singulare occupari quod <lb/>
             constat ex pluribus. nobilia serta nisi multiplicibus pratorum <lb/>
@@ -286,7 +285,7 @@
             <l>Ditium tutus manet in <choice n="0.69"><sic n="160">minis</sic><corr n="69">ruinis</corr></choice>, </l> <lb n="15"/>
             <l>Ille nec legem patitur sepulcri </l> <lb/>
               <l>Nec mala uitae. </l></lg> </quote>
-          <p rend="script">De praefatis uirtutibus facessat studiorum liberalium deesse <lb/>
+          <p n="7" rend="script">De praefatis uirtutibus facessat studiorum liberalium deesse <lb/>
             diligentiam, per quam diuinarum bona rerum quasi pretiosi <lb/>
             monilis <choice><sic>Ince</sic><corr>luce</corr></choice> sublimentur, quia non multum a foeditate seiungitur <lb n="20"/>
             inperfecta formositas et qui non sufficienter magnorum <lb/>
@@ -325,7 +324,7 @@
             ista sic loquitur;<lb n="15"/>
             
 </p>
-<p>
+<p n="8">
           <quote>
             <title type="sub">GRAMMATICA. </title>
          
@@ -354,7 +353,7 @@
             23 optimus <hi rend="italic">B</hi> 26 tumiscens <hi rend="italic">B</hi> siminis B1 vt uidetur, nominis <lb/>
             coni. Schottus </note>
 </p>
-          <p rend="script">
+          <p n="9" rend="script">
 <pb n="407"/>
             Hoc uos digredientes iam instituto rhetoricis lituis <sic>eaooat</sic> <lb/>
             Mauors eloquentiae et quasi loricam hamis, ita conponit <lb/>
@@ -411,7 +410,7 @@
             <l>Quid sunt ad nostrum iuncta supercilium? </l> <lb/>
             <l>Qui nostris seruit studiis, mox imperat orbi. </l> <lb n="10"/>
             <l>Nil dubium metuens ars mihi regna dedit. </l> </quote><lb/>
-          <p rend="script">Haec ergo, <choice><sic>dulcisaimi</sic><corr>dulcissimi</corr></choice>, et adsequi contendite et adepta <lb/>
+          <p n="10" rend="script">Haec ergo, <choice><sic>dulcisaimi</sic><corr>dulcissimi</corr></choice>, et adsequi contendite et adepta <lb/>
             custodite. sed replicetis, quibus ad ista magistris, quibus <lb/>
             utamur institutoribus, quorum erigamur <choice><sic>eiemplis</sic><corr>exemplis</corr></choice>, cum Faustum <lb/>
             et Auienum, saeculi nostri beatitudinem et Latiaris <lb n="15"/>
@@ -449,9 +448,7 @@
             in quo <choice n="0.02"><sic n="47">nix</sic><corr n="1561">uix</corr></choice> discendi annos respicis et <choice><sic>intellegie</sic><corr>intellegis</corr></choice> peritiam <lb/>
             sufficere iam docendi, de quo emendatorum <choice><sic>iudioauit</sic><corr>iudicauit</corr></choice> electio. <lb/>
             est <sic n="poss">Agapitus</sic> <choice><sic>patrioius</sic><corr>patricius</corr></choice>, et honestate dines et scientia. est <lb n="10"/>
-            
-</p>
-          <p rend="script">Probus V. I., quem si sequamini, illum Faustum et Auienum, <lb/>
+            Probus V. I., quem si sequamini, illum Faustum et Auienum, <lb/>
             quos <sic>praediiistis</sic>, praesentes, etiam cum desunt, habebitis. <lb/>
             ceteros claros uiros, quos tantum ad me opinio detulit, silentio <lb/>
             relinquo:, per hos, si uobis iam cordi est maturitas, aut per <lb/>
@@ -494,7 +491,7 @@
             et facere. ergo si pomposa oratione non <choice><sic>nalui</sic><corr>ualui</corr></choice>, oratione uos<lb n="10"/>
             memor professionis adiuui
 </p>
-          <p rend="script">
+          <p n="11" rend="script">
 <quote>
      <l>Per te, per qui te talem genuere parentes, </l> <lb/>
             <l>Symmache, ne nostram maneat sors dura tabellam, </l> <lb/>
