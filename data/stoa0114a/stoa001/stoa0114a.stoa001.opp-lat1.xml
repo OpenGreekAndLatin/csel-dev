@@ -84,7 +84,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -99,9 +99,9 @@
 <body>
 <div type="edition" n="urn:cts:latinLit:stoa0114a.stoa001.opp-lat1">
 <ab>
-            <title type="sub">VIIII. BENEDICTIO CEREI. </title>
+            <title type="sub">VIIII. BENEDICTIO CEREI.</title>
           </ab>
-          <p rend="script">Dignam et iustum est. uere dignum et <choice><sic>instum</sic><corr>iustum</corr></choice> est, ut quod <lb/>
+          <p n="1" rend="script">Dignam et iustum est. uere dignum et <choice><sic>instum</sic><corr>iustum</corr></choice> est, ut quod <lb/>
             a te, domine, accipimus pretio saltem uocis soluamus. et <lb n="25"/>
             licet nostra lingua auctoris sui beneficiis digno nequaquam
 
@@ -252,7 +252,6 @@
             incolumitate seruata <choice><sic>abertatem</sic><corr>ubertatem</corr></choice> temporum sine aduersa tempestate <lb/>
             concede
 </p>
- 
 </div>
 </body>
 </text>
