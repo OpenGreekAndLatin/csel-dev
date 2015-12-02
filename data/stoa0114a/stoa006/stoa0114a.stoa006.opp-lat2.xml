@@ -80,11 +80,11 @@
       
     </fileDesc>
     <encodingDesc>
-      <p>The following text is encoded in accordance with EpiDoc standards and with the
+      <p n="">The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -101,7 +101,7 @@
 <ab>
             <title type="sub">I. PANEGVRICVS DICTVS CLEMENTISSIMO REGI THEODERICO. </title>
           </ab>
-          <p rend="script">Illi, princeps <choice><sic>nenerabilis</sic><corr>uenerabilis</corr></choice>, in laudibus tuis perscribat professio, <lb/>
+          <p n="1" rend="script">Illi, princeps <choice><sic>nenerabilis</sic><corr>uenerabilis</corr></choice>, in laudibus tuis perscribat professio, <lb/>
             illum a praeconiis propositi repellat consideratio, quem <lb n="5"/>
             a defensione tua aliquod subtraxit officium. <sic>refdndat</sic> tibi generalitas <lb/>
             rebus obligata sermonem, dum inaequalis uicissitudo <lb/>
@@ -147,7 +147,7 @@
             qui obstare putabatur, inuitat: utinam mundior professio habeat <lb/>
             concordiam cum secretis nec dissentiat splendor cordis a corpore. 
 </p>
-          <p rend="script"><choice><sic>Salae</sic><corr>Salue</corr></choice> nunc, regum maxime, in cuius dominio saporem suum <lb/>
+          <p n="2" rend="script"><choice><sic>Salae</sic><corr>Salue</corr></choice> nunc, regum maxime, in cuius dominio saporem suum <lb/>
             ingenuitatis uigor agnouit. salue, status reipublicae: nam nefas <lb/>
             est, speciatim a te simul conlata narrare et unius bona temporis<lb n="20"/>
             uerborum diuisione discernere. si bella regis mei numerem, <lb/>
@@ -225,7 +225,7 @@
             quis ferat in <choice><sic>geetorum</sic><corr>gestorum</corr></choice> suorum <choice><sic>elooutione</sic><corr>elocutione</corr></choice> torporem, <lb/>
             quem in actione non pertulit? 
 </p>
-          <p rend="script">Educauit te in gremio ciuilitatis Graecia praesaga <choice><sic>ueDturi</sic><corr>uenturi</corr></choice>: <lb/>
+          <p n="3" rend="script">Educauit te in gremio ciuilitatis Graecia praesaga <choice><sic>ueDturi</sic><corr>uenturi</corr></choice>: <lb/>
             quem ita ingressum uitae limen erudiuit, ut dum adhuc de <lb/>
             puero haberet hilaritatem, mox eam sequeretur securitas de <lb n="15"/>
             tutore. adhuc in cano <choice><sic>fiore</sic><corr>flore</corr></choice> <sic>degebus</sic> <choice><sic>aduleecentiae</sic><corr>adulescentiae</corr></choice> nec uirtutum <lb/>
@@ -268,8 +268,8 @@
             damno possis adquisita retinere. par te, inclyte domine, laus <lb/>
             <choice><sic>reepicit</sic><corr>respicit</corr></choice> donati diadematis et defensi. si te illarum rector <choice n="0.88"><sic n="227">partium</sic><corr n="29">paris</corr></choice> <lb/>
             non <choice><sic>amanit</sic><corr>amauit</corr></choice>, perculsus praefuit reipublicae, si dilexit, <lb n="15"/>
-            obnoxius: usus es in tuorum fide meritorum teste purpurato. <lb/>
-            <choice><sic>lam</sic><corr>Iam</corr></choice> tunc in ius tuum se palatia ipsa contulerant: nemo credidit <lb/>
+            obnoxius: usus es in tuorum fide meritorum teste purpurato. <lb/></p>
+            <p n="4"><choice><sic>lam</sic><corr>Iam</corr></choice> tunc in ius tuum se palatia ipsa contulerant: nemo credidit <lb/>
             non te posse ad quem <choice n="0.14"><sic n="4">noluisses</sic><corr n="24">uoluisses</corr></choice> transferre quod reddideras. <lb/>
             sed parcus in exigendis praemiis, quasi <sic n="poss">suffioer«ut</sic> ad <lb/>
             uicissitudinem operum tuorum, fasces accepisti, non quo tibi <lb n="20"/>
@@ -307,7 +307,7 @@
             eum non liceat inprobari, ita agere, quasi inter imperatores <lb/>
             adhuc precetur adiungi. 
 </p>
-          <p rend="script">Sed quid faciam, <choice n="0.00"><sic n="28">oui</sic><corr n="4256">cui</corr></choice> fecunda actuum tuorum seges occurrit, <lb/>
+          <p n="5" rend="script">Sed quid faciam, <choice n="0.00"><sic n="28">oui</sic><corr n="4256">cui</corr></choice> fecunda actuum tuorum seges occurrit, <lb/>
             ubi uniuersa eligentem superant? nescio <choice><sic>quad</sic><corr>quas</corr></choice> aristas horreis<lb n="15"/>
             inferam, quas relinquam. stat ante <choice><sic>ocnlos</sic><corr>oculos</corr></choice> meos Bulgarum <lb/>
             ductor libertatem <choice n="0.16"><sic n="61">dexter</sic><corr n="313">dextera</corr></choice>, tua adserente <choice><sic>prostratul</sic><corr>prostratus</corr></choice>, nec <choice><sic>extinotus</sic><corr>extinctus</corr></choice>, <lb/>
@@ -352,8 +352,8 @@
             <choice><sic>miuidus</sic><corr>mundus</corr></choice> <choice><sic>peruins</sic><corr>peruius</corr></choice> esse credebatur: nunc illam sibi tantum orbis <lb n="15"/>
             partem interclusam aestimant, quam tueris. <sic>cnreim</sic> multa <lb/>
             transcendo, <sic>nepigrioris</sic> stili <choice><sic>uitie</sic><corr>uitio</corr></choice> serus <choice><sic>MUnias</sic><corr>aduenias</corr></choice>, <sic>neRomanae</sic> <lb/>
-            fax curiae diu in umbram coacta tardius <choice><sic>eluoescat</sic><corr>elucescat</corr></choice>. <lb/>
-            <choice n="0.02"><sic n="7">later</sic><corr n="331">Inter</corr></choice> uitae tirocinia et triumphorum maturitatem pectori sacro <lb/>
+            fax curiae diu in umbram coacta tardius <choice><sic>eluoescat</sic><corr>elucescat</corr></choice>. <lb/></p>
+        <p n="6">    <choice n="0.02"><sic n="7">later</sic><corr n="331">Inter</corr></choice> uitae tirocinia et triumphorum maturitatem pectori sacro <lb/>
             affectum nostri caelestis fauor infudit. iam diuturnae quietis dispendio <lb n="20"/>
             per gubernantium <choice><sic>nilitatem</sic><corr>uilitatem</corr></choice> potens terra consenuerat: <lb/>
             iam attulerat publicis opibus pax intemerata defectum, cum apud <lb/>
@@ -421,7 +421,7 @@
             agminibus tuis aut <sic>indenotae</sic> nationes aut <sic>ednoata</sic> lustris <lb/>
             fera <choice><sic>snggessit</sic><corr>suggessit</corr></choice>
 </p>
-          <p rend="script">Inter haec, quae tibi cum <choice><sic>glaoie</sic><corr>glacie</corr></choice> <sic>atit</sic> ardore cesserunt, unam <lb/>
+          <p n="7" rend="script">Inter haec, quae tibi cum <choice><sic>glaoie</sic><corr>glacie</corr></choice> <sic>atit</sic> ardore cesserunt, unam <lb/>
             <sic>eertaminis</sic> tui lineam <sic n="poss">snmmotenus</sic> libet adtingere. <sic>Vlca</sic> fluuius <lb n="5"/>
             est <choice><sic>tntela</sic><corr>tutela</corr></choice> Gepidarum, quae <sic>nioe</sic> aggerum munit <sic>andaoes</sic> et <lb/>
             in iugorum morem latus <choice><sic>proninoiae</sic><corr>prouinciae</corr></choice> quibusdam muris amplectitur <lb/>
@@ -507,7 +507,7 @@
             digesta sufficiant. transeo <choice><sic>Sarmataa</sic><corr>Sarmatas</corr></choice> cum statione <choice><sic>migrantea</sic><corr>migrantes</corr></choice> <lb/>
             et plebem conflictuum numeratam sileo de tropaeis. 
 </p>
-          <p rend="script">Tibi cum rectore <sic>IDeO</sic>, Odouacar, occurro, qui uniuersas <lb/>
+          <p n="8" rend="script">Tibi cum rectore <sic>IDeO</sic>, Odouacar, occurro, qui uniuersas <lb/>
             contra eum <choice><sic>nationee</sic><corr>nationes</corr></choice> quasi <choice><sic>ovbis</sic><corr>orbis</corr></choice> <sic>concuseor</sic> exciueras. tot reges <lb/>
             tecum ad bella conuenerant, quot sustinere <choice><sic>geaeralitas</sic><corr>generalitas</corr></choice> milites <lb n="10"/>
             uix ualeret: deprehensum est <choice><sic>narias</sic><corr>uarias</corr></choice> <choice><sic>eese</sic><corr>esse</corr></choice> mentes <sic>coaoernatae</sic> <lb/>
@@ -636,14 +636,14 @@
             beluarum. <lb n="10"/>
             
 </p>
-          <p>Illic <choice><sic>nellem</sic><corr>uellem</corr></choice> ut aetatis inmemor, Roma, conmeares. si uenires <lb/>
+          <p n="9">Illic <choice><sic>nellem</sic><corr>uellem</corr></choice> ut aetatis inmemor, Roma, conmeares. si uenires <lb/>
             lapsantibus tremebunda uestigiis, aeuum gaudia conmutarent. <lb/>
             quid semper delubris inmersa concluderis? hic actum est, ut <lb/>
             plures habeas consules, quam ante uideris candidatos. agnosce <lb/>
             clementiam domini tui: saporem te uoluit haurire triumphorum,<lb n="15"/>
             quam dubia elegit nescire certaminum. 
 </p>
-          <p rend="script">Ecce iterum ad deditionem sibi cognitam hostium leto <lb/>
+          <p n="10" rend="script">Ecce iterum ad deditionem sibi cognitam hostium leto <lb/>
             debita pars cucurrit, et cum excessissent occumbentes numerum, <lb/>
             ad seruitium tamen armis instructa radiantibus agmina conuenerunt. <lb/>
             flexus est animus tuus pronus semper ad ueniam: <lb n="20"/>
@@ -727,7 +727,7 @@
             de se praebuit.. <lb n="15"/>
             
 </p>
-          <p rend="script">Trahit me ad <sic>aMam</sic> partem <choice><sic>uonerabilium</sic><corr>uenerabilium</corr></choice> pars magna meritorum. <lb/>
+          <p n="11" rend="script">Trahit me ad <sic>aMam</sic> partem <choice><sic>uonerabilium</sic><corr>uenerabilium</corr></choice> pars magna meritorum. <lb/>
             uideo insperatum decorem urbium cineribus <choice><sic>eneoisse</sic><corr>euenisse</corr></choice> <lb/>
             et sub ciuilitatis <choice><sic>plenitndine</sic><corr>plenitudine</corr></choice> palatina ubique tecta rutilare. <lb/>
             <choice><sic>mdeo</sic><corr>uideo</corr></choice> ante perfecta aedificia, quam me contigisset (<choice><sic>soire</sic><corr>scire</corr></choice>) disposita. <lb/>
@@ -769,7 +769,7 @@
             inter homines a quo uideatur <choice><sic>snmpsisse</sic><corr>sumpsisse</corr></choice> quod exhibet. <lb n="15"/>
             
 </p>
-          <p rend="script">Sed <choice><sic>ecoe</sic><corr>ecce</corr></choice> rursus post quietem solidam ad <choice n="0.13"><sic n="86">ames</sic><corr n="562">acies</corr></choice> uerba reuocamus: <lb/>
+          <p n="12" rend="script">Sed <choice><sic>ecoe</sic><corr>ecce</corr></choice> rursus post quietem solidam ad <choice n="0.13"><sic n="86">ames</sic><corr n="562">acies</corr></choice> uerba reuocamus: <lb/>
             iterum ad se tuba <sic>uoeat</sic> <choice><sic>eloquiunL</sic><corr>eloquium</corr></choice> Sirmiensium <choice><sic>cinitas</sic><corr>ciuitas</corr></choice> <lb/>
             olim limes Italiae fuit, in qua seniores domini excubabant, <lb/>
             ne <choice><sic>coaoernata</sic><corr>coaceruata</corr></choice> illinc finitimarum <choice><sic>nulnera</sic><corr>uulnera</corr></choice> gentium in Romanum <lb/>
@@ -850,9 +850,7 @@
             latere pugnandi surrexisset asperitas. concurrebant duae <choice><sic>nationee</sic><corr>nationes</corr></choice>, <lb/>
             quibus numquam inter gladios fuga <choice><sic>Bubuenerat</sic><corr>subuenerat</corr></choice>: miratae <lb/>
             sunt mutuo sui similes inueniri et in humano genere uel <lb n="15"/>
-            
-</p>
-          <p>Gothos resistentem uidere uel Bulgares. interea dum anceps <lb/>
+            Gothos resistentem uidere uel Bulgares. interea dum anceps <lb/>
             esset fortuna certaminis et pennatae mortes sibi aethera <choice><sic>uindioarent</sic><corr>uindicarent</corr></choice>, <lb/>
             superauit nostri memoria <choice n="0.25"><sic n="156">principia</sic><corr n="457">principis</corr></choice>, dum agerent, ut <lb/>
             singulorum apud eum merita campus adsereret. uersa est in <lb/>
@@ -895,7 +893,7 @@
             tua? <choice><sic>enagari</sic><corr>euagari</corr></choice> ultra possibilitatem nesciunt duce sapientia:<lb n="15"/>
             adfines esse meruerunt, quia oboedire non abnuunt. 
 </p>
-          <p rend="script">\' <choice><sic>Haee</sic><corr>Haec</corr></choice> de gestorum tuorum cumulis maior <choice n="0.24"><sic n="48">noto</sic><corr n="148">uoto</corr></choice> quam eloquentia <lb/>
+          <p n="13" rend="script">\' <choice><sic>Haee</sic><corr>Haec</corr></choice> de gestorum tuorum cumulis maior <choice n="0.24"><sic n="48">noto</sic><corr n="148">uoto</corr></choice> quam eloquentia <lb/>
             <choice><sic>strietim</sic><corr>strictim</corr></choice> digesta <choice><sic>replicani</sic><corr>replicaui</corr></choice>, melioribus intacta derelinquens. <lb/>
             uidero quis me uincat facundia: nemo <choice><sic>ciroa</sic><corr>circa</corr></choice> te <lb/>
             transcendere ualebit affectu. habes hanc deo inspirante<lb n="20"/>
@@ -922,7 +920,7 @@
             regem <choice><sic>omai</sic><corr>omni</corr></choice> tranquillitate conpositum, qui deuotioni nostrae <lb/>
             imputat quod. inpendimus seruituti ! 
 </p>
-          <p>Quid quod a te Alamanniae generalitas intra Italiae <choice><sic>terminoe</sic><corr>terminos</corr></choice> <lb/>
+          <p n="14">Quid quod a te Alamanniae generalitas intra Italiae <choice><sic>terminoe</sic><corr>terminos</corr></choice> <lb/>
             sine detrimento Romanae possessionis <choice><sic>inclosa</sic><corr>inclusa</corr></choice> est, cui <lb n="5"/>
             euenit habere regem, postquam meruit perdidisse? facta <sic>eet</sic> <lb/>
             Latiaris custos imperii semper nostrorum <choice><sic>popalatione</sic><corr>populatione</corr></choice> grassata, <lb/>
@@ -934,7 +932,7 @@
             terram incolens, quae hactenus dehiscentibus domiciliis <lb/>
             solidioris <sic>scboeni</sic> emergebat beneficio. 
 </p>
-          <p rend="script">Par fuit etiam, ut eloquentiam laudis praemiis incitares, <lb n="15"/>
+          <p n="15" rend="script">Par fuit etiam, ut eloquentiam laudis praemiis incitares, <lb n="15"/>
             ne adoreas tuas silentio <choice><sic>penderemus</sic><corr>perderemus</corr></choice>. nullarum artium cessat <lb/>
             industria: sollers <choice><sic>ubioumque</sic><corr>ubicumque</corr></choice> latet inquiritur : magistratum, <lb/>
             etiam si <sic>looge</sic> deguerit, exiget qui meretur: numquam absconditur <lb/>
@@ -966,7 +964,7 @@
             moderata cum homine, cum propter retributionem quaerat <choice><sic>tna</sic><corr>tua</corr></choice> <lb/>
             pietas successorem. 
 </p>
-          <p>Restant adhuc multa quae dicerem, sed inter plures actuum<lb n="5"/>
+          <p n="16">Restant adhuc multa quae dicerem, sed inter plures actuum<lb n="5"/>
             tuorum praecones conuenit inlibatum aliquid reseruari. debent <lb/>
             tibi ueneranda studia quod locuntur. amauerunt praecessores <lb/>
             tui inscitiam, quia numquam laudanda gesserunt sordebat <lb/>
@@ -979,7 +977,7 @@
             sectanda. uide diuitias saeculi <choice><sic>tni</sic><corr>tui</corr></choice>: tunc uix fora habuere perfectos,<lb n="15"/>
             nunc ecclesia dirigit laudatorem. 
 </p>
-          <p rend="script">Eat nunc et. coturnatis relationibus Alexandrum <choice><sic>iaotet</sic><corr>iactet</corr></choice> antiquitas, <lb/>
+          <p n="17" rend="script">Eat nunc et. coturnatis relationibus Alexandrum <choice><sic>iaotet</sic><corr>iactet</corr></choice> antiquitas, <lb/>
             cui famae opulentiam peperit dos loquentum, ut per <lb/>
             adiutricem facundiam uideatur crescere rebus mendica laudatio. <lb/>
             regis nostri merita solacium non postulant adserentis:<lb n="20"/>
@@ -1022,7 +1020,7 @@
             nuda iactantiae, in cuius moribus ueritati militant blandimenta <lb/>
             maiorum. 
 </p>
-          <p>Vellem, fateor, ad orationis terminum <sic n="poss">uiotus</sic> gestorum tuorum <lb/>
+          <p n="18">Vellem, fateor, ad orationis terminum <sic n="poss">uiotus</sic> gestorum tuorum <lb/>
             enormitate descendere et nouellas adoreas hebetatus <choice><sic>prisoorum</sic><corr>priscorum</corr></choice> <lb n="20"/>
             luce transire. quemadmodum, si aetherii axis in numerum <lb/>
             redigere ornamenta uoluissem et trionum fulgore conprehenso <lb/>
@@ -1047,7 +1045,7 @@
             <sic>humiliam</sic> scintilla sermonum: haec me <choice><sic>eondicio</sic><corr>condicio</corr></choice> resignat inparem, <lb/>
             quae testata <sic>eet</sic> obsequentem. 
 </p>
-          <p rend="script">Nam illud quo ore celebrandum est, quod Getici instrumenta <lb/>
+          <p n="19" rend="script">Nam illud quo ore celebrandum est, quod Getici instrumenta <lb/>
             roboris, dum <choice><sic>pronides</sic><corr>prouides</corr></choice> ne interpellentur otia nostra, <lb/>
             custodis et pubem indomitam <sic>enb</sic> oculis <choice><sic>tnis</sic><corr>tuis</corr></choice> inter bona tranquillitatis<lb n="5"/>
             facis bella proludere P adhuc manent in soliditate <lb/>
@@ -1093,7 +1091,7 @@
             <choice><sic>effnndere</sic><corr>effundere</corr></choice> nec in <choice><sic>anras</sic><corr>auras</corr></choice> exitia manifesta torquere, tot <lb/>
             exacturi animas, quot tela uibrauerint. 
 </p>
-          <p>Sed inter proeliares forte successus, quibus omnes instruis <lb/>
+          <p n="20">Sed inter proeliares forte successus, quibus omnes instruis <lb/>
             et <choice><sic>coaeilias</sic><corr>concilias</corr></choice> omina <choice><sic>aeennda</sic><corr>secunda</corr></choice> <choice><sic>uinoendi</sic><corr>uincendi</corr></choice>, <choice><sic>cinilitatis</sic><corr>ciuilitatis</corr></choice> <choice><sic>duloedini</sic><corr>dulcedini</corr></choice> nil <lb/>
             reseruas. quis credat heroas tuos peregrinam non respuere, <lb n="10"/>
             dum sint tranquilla, formidinem ? nam <choice><sic>iadomita</sic><corr>indomita</corr></choice> inter acies <lb/>
@@ -1104,7 +1102,7 @@
             uirtus adseruit <choice><sic>seeptra</sic><corr>sceptra</corr></choice> tibi conciliauit splendor generis, cuius <lb/>
             si deessent insignia, eligi te in principem mens fecisset. 
 </p>
-          <p rend="script">Sed nec formae tuae decus inter postrema numerandum est, <lb/>
+          <p n="21" rend="script">Sed nec formae tuae decus inter postrema numerandum est, <lb/>
             quando regii uultus purpura ostrum dignitatis inradiat. exhibete, <lb/>
             Seres, indumenta, pretioso murice quae fucatis et non <lb n="20"/>
             uno <choice n="0.15"><sic n="5">seno</sic><corr n="27">aeno</corr></choice> bibentia nobilitatem tegmina prorogate: discoloribus <lb/>

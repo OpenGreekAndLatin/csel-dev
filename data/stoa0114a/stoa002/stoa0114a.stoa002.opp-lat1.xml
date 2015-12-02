@@ -84,7 +84,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -101,7 +101,7 @@
 <ab>
             <title type="sub">X. BENEDICTIO CEREI. </title>
           </ab>
-          <p rend="script">Dignum et iustum est. <choice n="0.39"><sic n="453">aere</sic><corr n="689">uere</corr></choice> dignum et iustum est, at principe <lb/>
+          <p n="1" rend="script">Dignum et iustum est. <choice n="0.39"><sic n="453">aere</sic><corr n="689">uere</corr></choice> dignum et iustum est, at principe <lb/>
             loco fores beatae noctis adhibito praesenti ministerio <choice><sic>dignd</sic><corr>digna</corr></choice> <lb/>
             <choice><sic>quasd</sic><corr>quasi</corr></choice> <choice><sic>clane</sic><corr>claue</corr></choice> <choice><sic>reserentar</sic><corr>reserentur</corr></choice>, ut nobilis <choice><sic>nuntins</sic><corr>nuntius</corr></choice> uitae testetur aduentum, <lb/>
             ut praeconis merito <choice><sic>secutara</sic><corr>secutura</corr></choice> ponderentur, sacris fidem <lb/>

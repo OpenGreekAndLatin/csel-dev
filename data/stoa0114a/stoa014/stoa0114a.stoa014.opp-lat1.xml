@@ -84,7 +84,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -101,7 +101,7 @@
 <ab>
             <title type="sub">VII. PRAECEPTVM QVANDO IVSSI SVNT OMNES EPISCOPI CELLVLANOS HABERE. </title>
           </ab>
-          <p rend="script">Nulli dubium est, hominem, qui carnalis <choice><sic>conoupisoentiae</sic><corr>concupiscentiae</corr></choice> <lb/>
+          <p n="1" rend="script">Nulli dubium est, hominem, qui carnalis <choice><sic>conoupisoentiae</sic><corr>concupiscentiae</corr></choice> <lb/>
             inlecebras sacri amator instituti magistra uiuendi arte domuerit <lb n="5"/>
             et praeceptorum falce <choice><sic>caeleetium</sic><corr>caelestium</corr></choice> erraticos palmites de <lb/>
             conuersationis suae radice sustulerit <choice><sic>tritali</sic><corr>uitali</corr></choice> traditurus <choice><sic>incendiot</sic><corr>incendio</corr></choice> <lb/>
@@ -185,7 +185,7 @@
             <sic>diaboticis</sic> actos stimulis retardamus, ut discant <choice><sic>loquaoes</sic><corr>loquaces</corr></choice> <choice><sic>vel</sic><corr>uel</corr></choice> <lb/>
             post decreta praesentia religiosum amare silentium. ■
 </p>
-          <p rend="script">Nullum ergo sacerdotum antiquis et modernis legibus obsequentem <lb/>
+          <p n="2" rend="script">Nullum ergo sacerdotum antiquis et modernis legibus obsequentem <lb/>
             nullumque leuitarum sine bene probata <choice><sic>uolnmus</sic><corr>uolumus</corr></choice> in <lb n="10"/>
             quocumque loci manere persona, <choice><sic>vel</sic><corr>uel</corr></choice> quem substantiae exilitas <lb/>
             non permiserit habere consortem, ipse <choice><sic>conoellaneus</sic><corr>concellaneus</corr></choice> fiat <choice><sic>alteriua</sic><corr>alterius</corr></choice>. <lb/>

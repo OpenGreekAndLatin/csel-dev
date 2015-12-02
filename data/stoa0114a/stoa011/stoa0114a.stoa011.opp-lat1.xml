@@ -84,7 +84,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:p[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -101,7 +101,7 @@
 <ab>
             <title type="sub">V. [EVCHARISTICVM DE VITA SVA.] IN NOMINE PATRIS ET FILII ET SPIRITVS SANCTI. </title>
           </ab>
-          <p rend="script">Oraculum est scientissimi doctoris gentium quod pariat infirmitas <lb n="20"/>
+          <p n="1" rend="script">Oraculum est scientissimi doctoris gentium quod pariat infirmitas <lb n="20"/>
             nostra potentiam et quod terrena in contritione anima <lb/>
             conualescat, cum <sic>nirtus</sic>, quae de substantia carnis fluxerit,
 
@@ -145,7 +145,7 @@
             nobili et dulcissima molestiarum nostrarum passione <lb/>
             conprimere. 
 </p>
-          <p rend="script">Ecce ego ille, qui in longum ducta mihi alacritate plaudebam, <lb/>
+          <p n="2" rend="script">Ecce ego ille, qui in longum ducta mihi alacritate plaudebam, <lb/>
             qua dum perpeti fruerer, quasi nulla intermissione<lb n="25"/>
             solueretur, quaerebam qualiter peccati stipendium <choice n="0.46"><sic n="595">mora</sic><corr n="698">mors</corr></choice> <lb/>
             <choice><sic>neniret</sic><corr>ueniret</corr></choice>. nam eleuatus insanis successibus poetarum me
@@ -217,7 +217,7 @@
             studii <choice><sic>diuieione</sic><corr>diuisione</corr></choice> sententia. <lb n="10"/>
             
 </p>
-          <p rend="script">Interea me edax ignis interno uastabat officio et continuis <lb/>
+          <p n="3" rend="script">Interea me edax ignis interno uastabat officio et continuis <lb/>
             curantium nutribatur <choice n="0.03"><sic n="20">stadiis</sic><corr n="508">studiis</corr></choice>. nam quasi morbos aleret, ita <lb/>
             quicquid contra ipsos <choice><sic>pronidebatur</sic><corr>prouidebatur</corr></choice> <choice><sic>aoceesit</sic><corr>accessit</corr></choice>. tunc illa <choice><sic>saeonlariB</sic><corr>saecularis</corr></choice> <lb/>
             pompae philosophia Hippocratis et Galeni contrita subsidiis, ad <lb/>
@@ -307,7 +307,7 @@
             non ut pater foueret, nusquam <choice><sic>nia</sic><corr>uia</corr></choice> salutis, nusquam euadendi <lb/>
             aditus pateret. 
 </p>
-          <p rend="script">Deus meus, redemptio mea, quae mihi occurrunt de his <lb/>
+          <p n="4" rend="script">Deus meus, redemptio mea, quae mihi occurrunt de his <lb/>
             quae fecisti mecum, quae de illis quae gessi aduersum me? <lb/>
             quae si conferantur, nullum tempus ant ope tua ant delicto <lb n="20"/>
             meo sit uacuum. libet ex innumeris in me conlationibus <lb/>
@@ -389,7 +389,7 @@
             et ut pares eius existamus imperiis, ipse nobisc.um quod<lb n="15"/>
             iniungit operetur.-
 </p>
-          <p rend="script">Haec et alia plura, <choice><sic>siout</sic><corr>sicut</corr></choice> praefatus sum, per testem <lb/>
+          <p n="5" rend="script">Haec et alia plura, <choice><sic>siout</sic><corr>sicut</corr></choice> praefatus sum, per testem <lb/>
             probatissimum beatum Victorem intimanda suggessi, nec <lb/>
             requies nec mora procuranda lentauit: petitionem meam <lb/>
             suscepit <choice><sic>repiicauit</sic><corr>replicauit</corr></choice> obtinuit. hoc amplius suffragator meus<lb n="20"/>
@@ -427,8 +427,7 @@
             et secundum benignitatis tuae consuetudinem <sic n="poss">seontura</sic> dispone. <lb n="10"/>
             
 </p>
-          <p>GLORIA PATRI ET FILIO ET SPIRITVI SANCTO. 
-</p>
+          <p n="6">GLORIA PATRI ET FILIO ET SPIRITVI SANCTO.</p>
  
 </div>
 </body>
