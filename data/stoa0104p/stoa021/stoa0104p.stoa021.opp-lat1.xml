@@ -71,6 +71,9 @@
             <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture. 
             </p>
+	    <refsDecl n="CTS">
+	      <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:l[@n='$1'])"/>
+	      </refsDecl>
         </encodingDesc>
         
         <profileDesc>
@@ -82,7 +85,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="edition">
+            <div type="edition" n="urn:cts:latinLit:stoa0104p.stoa021.opp-lat1">
                 <div xmlns="http://www.tei-c.org/ns/1.0" subtype="work" type="textpart">
                     
                     <head>

@@ -72,7 +72,8 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="---" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='---'])"/>
+        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='letter']//tei:div[@n='$2' and @subtype='section'])"/>
+        <cRefPattern n="letter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='letter'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -85,7 +86,7 @@
 </teiHeader>
 <text>
 <body>
-<div type="edition" n="urn:cts:latinLit:stoa0040.stoa011.opp-lat5">
+<div type="edition" n="urn:cts:latinLit:stoa0040.stoa011.opp-lat3">
 <div n="124" subtype="letter" type="textpart">
           <head>
             <title type="main">CXXIV. DOMINIS IN DOMINO INSIGNIBUS ET SANCTITATE CARISSIMIS AC DESIDERANTISSIMIS FRATRIBUS ALBINAE, PINIANO ET MELANIAE AUGUSTINUS IN DOMINO SALUTEM. </title>
