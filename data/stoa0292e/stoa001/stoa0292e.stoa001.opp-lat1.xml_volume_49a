@@ -1,0 +1,2503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL49.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Johannis Haussleiter</name>
+                  <addName xml:lang="de">Johann Haussleiter</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292e">Victorinus Petavionensis</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292e.stoa002">Tractatus de Fabrica Mundi</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292e.stoa001">Commentarii in Apocalypsin</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1916</date>
+              </imprint>
+              <biblScope unit="volume">49</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/victoriniepiscop49victuoft#page/n5/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter']//tei:div[@n='$2' and @subtype='section'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0292e.stoa001.opp-lat1">
+<head>
+            <title type="main">EDITIO VICTORINI. </title>
+          </head>
+          
+          <div n="1" subtype="chapter" type="textpart">
+          <ab>
+            <title type="sub">CAP. I. </title>
+          </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> <milestone n="V" unit="folio"/> LPrijncipium libri beatitudinem (legenti.) audienti I et <lb/>
+            seruanti promittit, <sic>utlectioni</sic> studens I exinde opera discat et quae <note type="margin"> 1, 4 </note> <lb/>
+            praecepit I <add><sic>cus</sic></add><sic>todiat</sic>. gratia uobis et pax adeo qui est | <add>et<lb n="5"/>
+            qui e</add>rat et qui uenturus est. I <add>quia cu</add>m patre omnia fecit, <lb/>
+            non ex uirgine I <add>sumpsit</add> <add>initium</add>. uenturus est: utique ad <choice n="0.89"><sic n="74">iudicandum</sic><corr n="9">indicandum</corr></choice>. <lb/>
+            I <add><sic>septifo</sic></add><sic>rmi</sic> spiritu. | <add>in Esaia</add> legimus: spiritus
+
+<note type="footnote"> 8 Esai. 11, 2. 3 </note>
+
+<note type="footnote"> 2 Cap. I. <hi rend="italic">addidi, itidem sequentium capitulorum numeros</hi> 3 <hi rend="italic">in<lb/>
+             iis partibus codicis A, quae scissuras passae sunt, repraesentandis singulorum <lb/>
+            codicis uersuum finem signo | designaui; litterae uncis L j inclusae <lb/>
+            in cod. A abscissae sunt, exstat autem maior pars in codicibus<lb/>
+             aa</hi> legenti <hi rend="italic">addidi ex Hieronymi recensione, om. Aaa (cf. CBM)</hi> <lb/>
+            4 et exinde <hi rend="italic">au</hi>. 6 qui <hi rend="italic">(ante</hi> erat) <hi rend="italic">om. aa manifeste propter lacunam <lb/>
+            codicis A</hi> quia cum <hi rend="italic">a,</hi> qui cum <hi rend="italic">a</hi> 7 <hi rend="italic">spatium expletur uocabulo</hi> <lb/>
+            sumpsit, <hi rend="italic">quare</hi> initium <hi rend="italic">cod. A (cf. DCB) omisisse putamus</hi> </note> <lb/>
+            
+<pb n="17"/>
+<pb n="18"/>
+            sapientiae et intellectus, I <add>consilii</add> et fortitudinis, <lb/>
+            scientiae et pietatis, spiritus | <add>timoris</add> dei. <add>isti</add> septem <note type="margin"> 1, 5 </note> <lb/>
+            spiritus unius scilicet dona (sunt) spiritus sancti. et ab I <lb/>
+            <add><sic>IeS</sic></add>u Christo qui est testis fidelis primogenitus ex I <lb/>
+           <add>m</add><sic>ortuis</sic>. in homine suscepto perhibuit testimonium I <add>i</add>n<lb n="5"/>
+            mundo, in quo passus nos suo sanguine I soluit a peccato <lb/>
+            et debellato inferno primus resurrexit a mortuis, et mors ei <lb/>
+            ultra non dominabitur, sed ipso regnante mundi regnum <note type="margin"> 1, 6 </note> <lb/>
+            destructum est. et fecit nos regnum et sacerdotes, id <lb/>
+            est omnem fidelium ecclesiam, sicut Petrus apostolus dicit:<note type="margin"> 1, 7 </note> <lb n="10"/>
+            gens sancta, regale sacerdotium. ecce uenit cum <lb/>
+            nubibus et uidebunt eum omnes populi. qui primo in <lb/>
+            suscepto homine uenit occultus, post paululum in maiestate <lb/>
+            et gloria ueniet ad iudicandum manifestus. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p rend="script"> <note type="margin">1, 13 </note> Quod autem dicit: i<add>nter medium</add> candelabrorum | aureorum<lb n="15"/>
+            <sic>amb</sic><add><sic>ulantem</sic> simi</add><sic>lem</sic> filii hominis, \'<add>simi</add><sic>lem</sic>\' <lb/>
+            <add>dicit post morte</add>m deuictam. <milestone n="2r" unit="folio"/> in caelis cum ascendisset <lb/>
+            <sic>adunat</sic><add>o et isto corpore</add> I cum spiritu gloriae, quam recepit a <lb/>
+            <add>patre, potest</add> I iam quasi filius dei dici, non qu<add><sic>asi</sic> filius</add>
+
+<note type="footnote"> 7 Rom. 6, 9 11 I Petr. 2, 9 </note>
+
+<note rend="script" type="footnote"> 1 ct <hi rend="italic">(ante</hi> fortitudinis) <hi rend="italic">om. a</hi> 2 dei <hi rend="italic">scripsi cum TD,</hi> domini <hi rend="italic">A cum<lb/>
+             Vulg</hi>. 3 sunt <hi rend="italic">om. Aa</hi> spu scti <hi rend="italic">A</hi> 14 uenit <hi rend="italic">aa</hi> manifestius <hi rend="italic">A</hi> <lb/>
+            15 inter medium <hi rend="italic">om. aa. satis magno spatio relicto, cf. p. 20, 1</hi> 16 ambulantem <lb/>
+            <hi rend="italic">om. au., secl praebent lacunam</hi> filio <hi rend="italic">aa</hi> 17 dicit post <hi rend="italic">om. <lb/>
+             aa, sed exhibent lacunam</hi> celis <hi rend="italic">A saepius</hi> 18 adunato .. corpore] <lb/>
+            adunato sanct <hi rend="italic">aa cum lacuna post</hi> sanct 19 potest iam <hi rend="italic">aa</hi> non <lb/>
+            quasi filius hominis <hi rend="italic">aa</hi> </note> <lb/>
+             
+
+<pb n="19"/>
+<pb n="20"/>
+            <note type="margin"> 1, 13 </note> <lb/>
+            <add>hominis</add>. I ambulans inter medium <choice><sic>candelabror</sic><corr>candelabrorum</corr></choice><add>um. <lb/>
+            <sic>au</sic></add>reorum, I  id est inter medium ecclesiarum, <add>sicut</add> I per <lb/>
+            Salomonem dixit: inter semitas iusto<add>rum</add> I ambulo. cuius <note type="margin"> 1, 14 </note> <lb/>
+            antiquitas et inmortalitas, <add>ma</add><sic>iestatis</sic> I origo, <sic>cin</sic> capite <lb/>
+            candor\' ostenditur. I caput autem Christi deus est. <lb n="5"/>
+            
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p>
+<note type="margin"> 1, 16 c </note> In facie autem I claritas solis. facies eius apparitio illius <lb/>
+            <add>fuit</add>, I qua locutus est hominibus faciem contra fac<add><sic>iem</sic></add>. I solis <lb/>
+            autem gloria minor est quam gloria domin<add>i</add>, I sed propter ortum <lb/>
+            et occasum et rursus ortum. I quod natus sit et passus et resurrexit, <lb/>
+            I ab eodem dedit similitudinem [eius] scriptura I faciem eius<lb n="10"/>
+            gloriae solis.
+
+<note type="footnote"> o 1\'rou. 8, \'20 5 I Cor. 11, o </note>
+
+<note type="footnote"> 4 <hi rend="italic">innnortalitas A cf. haec testimonia: cuius antiquitas et iinmortalitas</hi> <lb/>
+            maiestatis origo in capite candor ostenditur <hi rend="italic">Primasius (LXVIII 801 A 31);</hi> <lb/>
+            cuius antiquitas atque aeternitas iusta huinanae consuetudinis locutionem <lb/>
+            in candore capitis demonstratur <hi rend="italic">Antpertus (Ambrosii At/suerfi in Apoc. <lb/>
+             lib. 1, 71 Iaxima Bibliotheca Patrum XIII, Lugdlllli 1677, p. 424 B);</hi> <lb/>
+            aitiquitas et immortalitas maiestatis in capite candor ostenditur <hi rend="italic">Beda<lb/>
+             (Opcra omnia ed. Giles, nol. XII, London 1844, p. 345)</hi> 5 <hi rend="italic">in mar- <lb/>
+            !JiJ/e codicis</hi> A <hi rend="italic">manus recentior haec HieroHjimi additamenta suppleuitr</hi> <lb/>
+            Et in capillis albis albatorum est similitudo: lanae similis propter oues,. <lb/>
+            similis niui propter innumerabilem candidatorum turbam de celo datonum. <lb/>
+            <hi rend="italic">et postea:</hi> Ocnli eius ut flamma ignis: precepta dei sunt, quecredentibus <lb/>
+            lumen ministrant, incredulis autem incendium 8 dominaij} <lb/>
+            dn <hi rend="italic">A</hi> sed] et <hi rend="italic">Aml,</hi> sed m2 <hi rend="italic">in mg</hi>. 10 eius <hi rend="italic">pr. uncis inclusi;</hi> dedit <lb/>
+            similitudinem <hi rend="italic">idem quod</hi> comparauit </note> <lb/>
+             
+
+<pb n="21"/>
+<pb n="22"/>
+             
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p rend="script"> <note type="margin"> 1, 13 b </note> In ueste sacerdotali carnem I quae corrupta non est a <lb/>
+            morte I et habet per passionem aeternum sacerdotium I aper- <note type="margin"> 1, 18 c </note> <lb/>
+            tissime traditum est. I zona aurea accincta pectori: <lb/>
+            conflata <sic>conscienltia</sic> et purus spiritalis sensus traditus est I <note type="margin"> 1, 16 b </note> <lb/>
+            ecclesiis. per gladium bis acutum de ore ipsius I <sic>emicantem</sic><lb n="5"/>
+            I ostenditur ipsum esse, qui et nunc euangelii I bona <lb/>
+            et prius per Moysen legis notitiam I uniuerso orbi protulit. sed <lb/>
+            quia ex eodem I uerbo omne genus humanum tam ueteris I quam <lb/>
+            noui testamenti iudicaturus est, ideo I gladius nominatus est. I <lb/>
+            [fol. 2T] Lgladius enim <sic>militejm</sic> armat, gladius hostem interficit,<lb n="10"/>
+            <sic>Ilgladius</sic> <sic>desertorjem</sic> punit. ut ostenderet aposto][lis, quia <lb/>
+            iudijcium adnuntiabat, ait: non ueni <sic>Ilpacem</sic> mittere sed <lb/>
+            gladium. et postquam <sic>conllsnmmauJerat</sic> parabolas, ait ad <lb/>
+            illos: | <sic>Lintelj</sic> 1 existis omnia? dixerunt: ita. adiecit: I <lb/>
+            <sic>LprOjpterea</sic> omnis scriba doctus de regno caelorum [<lb n="15"/>
+            <sic>Lsimjilis</sic> est patrifamilias proferenti de thesauro I suo
+
+<note type="footnote"> 12 Matth. 10, 34 14 Matth. 13, 51. 52 </note>
+
+<note rend="script" type="footnote"> 1 <hi rend="italic">ucrba</hi> non est a morte <hi rend="italic">bis leguntur in Aaa</hi> 2 apertissimum <hi rend="italic">Aaa.,</hi> <lb/>
+            aliter apertissime traditum <hi rend="italic">Am2 in mg</hi>. 3 estj Mammae duo sunt I <lb/>
+            testamenLtaj <hi rend="italic">add. Am2 partim in linea, partim in mg. dextro</hi> zona] <lb/>
+            Et zona chorus sanctorum et aurum per ignem probatum. Aliter <hi rend="italic">praemittit <lb/>
+            Am2 in mg. 4 post</hi> sensus <hi rend="italic">add</hi>. ita <hi rend="italic">Am2 s. l.,</hi> sensus ita aa <lb/>
+            6 ipsum = TOV a-jxov nunc] nuntiat <hi rend="italic">A,</hi> aliter nunc <hi rend="italic">Am2 in mg. dextro</hi> <lb/>
+            7 ojbi protulit <hi rend="intraline">orbi\' A,</hi> orbi protulit orbi aa 9 gladius] Bis acutus <lb/>
+            commemoratus est <hi rend="italic">add. Am2 in mg</hi>. 11 ut] Et ut id <hi rend="italic">add. Am2 in <lb/>
+            mg. dextro</hi> 12 <hi rend="italic">post</hi> Lmittejre <hi rend="italic">add</hi>. in terram <hi rend="italic">Am2 s. l</hi>. 14 <hi rend="italic">post</hi> <lb/>
+            Linteljlexistis <hi rend="italic">add</hi>. hec <hi rend="italic">Am2 s. l</hi>. haec omnia <hi rend="italic">aa</hi> 15 aliter in regno <lb/>
+            dei <hi rend="italic">add. Am2 in mg. d</hi>. </note>
+</p>
+          <p>
+
+<pb n="23"/>
+<pb n="24"/>
+            <sic>ncua</sic> et uetera,[Lnouja: euangelica uerba, uetera: legis et <lb/>
+            <sic>proplie</sic>[<add><sic>taru</sic></add>m. haec de ore suo processisse Petro ait: <sic>IluJaele</sic> <lb/>
+            ad mare et mitte <choice><sic>liamum</sic><corr>hamum</corr></choice>, et piscem qui primus <lb/>
+            ascenderit, aperto ore eius inuenies staterem — id <lb/>
+            est duos denarios — da pro me et I pro te. et Dauid similiter<lb n="5"/>
+            ait per spiritum: semel locutus <choice><sic>Iest</sic><corr>est</corr></choice> deus, haec duo <lb/>
+            audiui, quia I semel decreuit ab initio dominus, quod usque I <lb/>
+            ad finem futurum est. I haec ergo sunt duo testamenta, quae <lb/>
+            pro captu I temporis aut duo denarii aut noua et uetera I aut <lb/>
+            gladius bis acutus nominatur. I denique cum iudex sit ipse a<lb n="10"/>
+            patre constitutus. I nolens ostendere, quoniam uerbo <choice><sic>praedicatijonis</sic><corr>praedicationis</corr></choice> <lb/>
+            iudicabuntur homines. ait: putatis, I quia ego uos <lb/>
+            iudicabo nouissima die? uerbum [quod. <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> locutus <lb/>
+            sum, illud iudicabit in nouissima die. et Paulus contra <lb/>
+            Antichristum ad Tessalonicenses ait: quem dominus [fol. <sic n="poss">3rJ</sic><lb n="15"/>
+            interficiet spiritu oris sui. hic est ergo gladius bLis <sic>aJlcutus</sic>, <lb/>
+            procedens de ore eius. 
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p rend="script"> <note type="margin"> 1, 15 b </note> Vox eius tamquam uox aquarum multarum. aquae] <lb/>
+            multae populi esse intelleguntur, sed et donum <sic>baptislmi</sic>, quod
+
+<note type="footnote"> 2 Mattli. 17, 26 6 Ps. 61, 12 13 Ioh. 12, 48 15 II Thess. 2, 8 </note>
+
+<note rend="script" type="footnote"> deus <lb/>
+            <hi rend="italic">6 (Joinjnns A 7 audiuhv.:, A 8 liaec ergo .. I. 10 nominatur <lb/>
+            om. Ilierotnjmus</hi> 9 denarii aut <hi rend="italic">scripsi,</hi> denaria ut <hi rend="italic">Aaa</hi>. 12 uos ego <hi rend="italic">ao</hi>. <lb/>
+            14 in nouissima] aliter in nouissimo <hi rend="italic">Am2 in mg. clextro</hi> 19 sed ^ do- <lb/>
+            <hi rend="italic">num A</hi> </note> <lb/>
+             
+
+<pb n="25"/>
+<pb n="26"/>
+            <note type="margin"> 1, 15 a </note> <lb/>
+            emisit praecepto per apostolos diffundi I ad salutem hominum. I <lb/>
+            pedes eius similes aurichalco tamquam in fornace I <lb/>
+            conflatos. apostolos dicit, quia per passionem conflati praedicauerunt <lb/>
+            uerbum eius; per quos enim ambulat praedicatio, <lb/>
+            merito pedes nominantur. unde propheta anticipauit dicendo:<lb n="5"/>
+            adoremus, ubi steterunt pedes eius, quoniam ubi illi <lb/>
+            primi steterunt et ecclesiam confirmauerunt, id est Iudeam, <lb/>
+            ibi omnes sancti conuenturi sunt et deum suum adoraturi. 
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart"><p> <note type="margin">1, 16 a </note> Septem stellae in dexteram. diximus, quia spiritus <lb/>
+            sanctus septiformis uirtutis datus est in potestatem eius a<lb n="10"/>
+            patre, sicut Petrus ad Iudeos exclamauit: dextera igitur <lb/>
+            dei exaltatus acceptum a patre spiritum effudit, hunc <lb/>
+            quem uidistis et audistis. sed et <sic>Ioliannes</sic> baptista anticipauerat <lb/>
+            discipulis suis dicendo: non enim de mensura <lb/>
+            dat spiritum. pater amat filium et omnia dedit in<lb n="15"/>
+            manu eius. istae sunt septem stellae. 
+</p>
+          </div>
+
+<div n="7" subtype="section" type="textpart"><p> <note type="margin"> 1, 20 </note> Septem autem ecclesiae, quas nominatim uocabulis suis
+
+<note type="footnote"> 6 Ps. 131, 7 <hi rend="italic">(ef</hi>. <foreign xml:lang="grc">προσϰνήσμεν</foreign> <hi rend="italic">LXX cod. Alex.)</hi> 11 Act. 2, 33 <lb/>
+            14 loh. 3, 34. 35 </note>
+
+<note type="footnote"> 1 emisit <hi rend="italic">scripsi cum Hieronymo,</hi> demisit <hi rend="italic">A</hi> aliter emisit preceptum <lb/>
+            per apostolos diffunditur ad salutem hominum <hi rend="italic">Am2 in mg</hi>. 2 auricalcho <lb/>
+            <hi rend="italic">A</hi> 3 conflato <hi rend="italic">A</hi> 4 ambulat] <hi rend="italic">cf. Ps.-Augustini homil. in Apoc. I <lb/>
+            (XXXV 2418 l. 18 M)</hi> 6 adoremus] aliter adorauimus in loco <hi rend="italic">Am2<lb/>
+             in mg., item psahnortim uersio in cod. Sangerman</hi>. 9 diximus] <hi rend="italic">cf. <lb/>
+             p. 10, 8 sqq</hi>. 12 exaltatus <hi rend="italic">est A</hi> effundit <hi rend="italic">A</hi> 13 aliter uiLdetis et <lb/>
+            auditiSj/lwta <hi rend="italic">in mg</hi>. 14 de mensura <hi rend="italic">etc.]</hi> aliter ad mensuram dat deus <lb/>
+            spiritum Ieso Christo <hi rend="italic">Am2 in mg</hi>. 1G manu eius <hi rend="italic">scripsi cum Hieronymo,</hi> <lb/>
+            manibus <hi rend="italic">A,</hi> aliter in manu eius <hi rend="italic">Am2 in mg</hi>. </note> <lb/>
+             
+
+<pb n="27"/>
+<pb n="28"/>
+            uocat, ad quas (et) epistolas facit, non quia illae solae (sint) <lb/>
+            ecclesiae aut principes, sed quia quod uni dicit, omnibus <lb/>
+            dicit; nihil enim differet, utrum quis uexillationi, paucorum <lb/>
+            militum numero, an per eam toto exercitu loquatur. denique <lb/>
+            siue in Asia siue in toto I [fol. 3V] <sic>lorbe</sic>, Sjeptem ecclesias<lb n="5"/>
+            omnes et septem nominatas unam esse catholicam Paulus docuit: <lb/>
+            primum quidem, ut seruaret (ipse) et ipsum, septem ecclesiarum <lb/>
+            non excessit numerum, sed scripsit ad Romanos, ad Corinthios. <lb/>
+            ad Ephesios, ad Tessalonicenses, ad Galatas, ad Philippenses, <lb/>
+            ad Colossenses; postea singularibus personis scripsit, ne excederet<lb n="10"/>
+            numerum septem ecclesiarum, et in breui contrahens <lb/>
+            praedicationem suam ait ad Timotheum: ut scias qualiter <lb/>
+            debeas conuersari in aede dei aut quae sit ecclesia <lb/>
+            uiui dei. hunc typum a spiritu sancto per Esaiam praedicari <lb/>
+            legimus de septem mulieribus, quae adprehenderunt
+
+<note type="footnote"> 12 I Tim. 3, 15 (aut quae == rt xiq <hi rend="italic">pro</hi> rrc:) 15 Esai. 4, 1 </note>
+
+<note type="footnote"> 1 et <hi rend="italic">add. Am2</hi> sint <hi rend="italic">add. Am2 in mg</hi>. 3 differet <hi rend="italic">Aml,</hi> differt <lb/>
+            <hi rend="italic">Am2</hi> utrum] ut <hi rend="italic">Am2 in mg</hi>. aliter ucLxillationem pallcorum, milium <lb/>
+            maiori numero anteponat <hi rend="italic">Am2 in mg</hi>. 4 exercitu = exercitui 5 ecclesias <lb/>
+            esse omnes <hi rend="italic">A</hi> (e;se <hi rend="italic">add,. m. ree.)</hi> 7 aliter primo quod ut seruaret <lb/>
+            ipse <hi rend="italic">Am2 in mg</hi>. ipso <hi rend="italic">addidi ex Hieronymo, om. A</hi> et ipsum = et <lb/>
+            idem (y.cÚ <hi rend="italic">Tb CI.:)t0)</hi> 13 aede] aliter ecclesia <hi rend="italic">Am2 in mg. dextro</hi> </note> <lb n="15"/>
+             
+
+<pb n="29"/>
+<pb n="30"/>
+              hominem unum. unus autem homo Christus est, non ex semine <lb/>
+              natus. septem mulieres ecclesiae sunt, panem accipientes <lb/>
+              suum et tunicis suis uelatae, quae petunt auferri inproperium <lb/>
+              suum, ut inuocetur nomen illius super illas — <lb/>
+              \'panem\' autem: spiritum sanctum, qui nutrit in uitam aeternam:<lb n="5"/>
+              (\'suum\'): per credulitatem sibi promissum. ut <sic>ltunicas</sic> <lb/>
+              suas\' id est sibi promissas, quibus cooperiri optant; denique <lb/>
+              ait Paulus: oportet hanc fragilitatem inuiolantiam <lb/>
+              et mortale hoc uestiri inmortalitatem: \'auferri inproperium <lb/>
+              suum\': inproperium est peccatum pristinum quod<lb n="10"/>
+              aufertur in baptismo et incipit uocari homo Christianus, quod <lb/>
+              est: inuocetur nomen tuum super nos. in his ergo septem <lb/>
+              ecclesiis puta fieri de una ecclesia. 
+</p>
+          </div>
+
+<div n="8" subtype="section" type="textpart"><p> Pro qualitate fidei et electionis aut ad eos scripsit, qui et <lb/>
+            laborant in saeculo et operantur de frugalitate laboris sui et<lb n="15"/>
+            patientes sunt et, cum uideant quosdam homines in ecclesia
+
+<note type="footnote"> 2 cf. Esai. 4, 1 8 I Cor. 15, 53 12 Esai. 4, 1 14 cf. Apoc. 2, 1-7 </note>
+
+<note type="footnote"> 3 suum] aliter et cum eis sunt uelatae <hi rend="italic">Am2 in mg. d</hi>. 4 nomen] <lb/>
+            aliter domini in illis <hi rend="italic">Am,2 in mg. d</hi>. 6 suum <hi rend="italic">addidi</hi> 7 id estl <lb/>
+            stolas <hi rend="italic">add. Am2 in mg. post</hi> cooperiri <hi rend="italic">add</hi>. se <hi rend="italic">Am2 s. l</hi>. optant] <lb/>
+            temptant <hi rend="italic">add. Am2 in mg. d</hi>. 8 inuiolantiam <hi rend="italic">scripsi (=</hi> ctaaap-tctv), <lb/>
+            inuiolentiam <hi rend="italic">A; Hieronymus maluit scribere</hi> inuiolatum 11 et..homo <lb/>
+            <hi rend="italic">om. A; post</hi> Christianus <hi rend="italic">add. Am2 in linea:</hi> Et incipit uocari homo <lb/>
+            christianus 13 fieri <hi rend="italic">idem quod</hi> agi ecclesia] septem et <hi rend="italic">add. Am2<lb/>
+             in mg</hi>. </note> <lb/>
+             
+
+<pb n="31"/>
+<pb n="32"/>
+            dissipatores et pestiferos, ne dispersio fiat, portant illos — <lb/>
+            admonet tamen eos de amore, in quo fides desit, ut agant <lb/>
+            paenitentiam —: aut ad eos qui locis crudelibus inhabitant inter <lb/>
+            persecutores et perseuerant esse fideles; aut ad eos qui <lb/>
+            humiliter instructi in fide fortiter perseuerant; aut ad eos qui<lb n="5"/>
+            sub praetextu misericordiae inlicita peccata in ecclesia inducendo <lb/>
+            docent alios ea facere; (aut ad eos qui sunt in ecclesia <lb/>
+            faciles; aut ad eos qui neglegentes nomine tantum Christiani <lb/>
+            sunt:) aut arguit eos qui student scripturas et laborant cognoscere <lb/>
+            arcana praedicationis et dei opus facere nolunt, id<lb n="10"/>
+            est misericordiam et amorem. omnibus paenitentiam denuntiat, <lb/>
+            omnibus iudicium adnuntiat. 
+</p>
+
+</div>
+
+</div>
+
+<div n="2" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. II. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> <note type="margin"> 2, 2 </note> In prima quidem epistola ait: scio laborem tuum et opera <lb/>
+            &lt;et patientia&gt;m tuam — scio te et laborare et operari uideo et<note type="margin"> 2, 2-3 </note> <lb n="15"/>
+            patientem esse: ne putes me longe morari abs te —, et quia <lb/>
+            non potes portare malos, <sic>etqui</sic> se dicunt apostolos esse, <lb/>
+            inuenisti eos mendaces et patientiam habes propter <lb/>
+            nomen meum. haec uniuersa ad laudem spectant, et laudem <lb/>
+            non mediocrem. sed et tales uiros et talem classem talesque
+
+<note type="footnote"> 3 cf. Apoc. 2, h—11 4 ef. ibid. 3, 7-13 5 cf. ibid. 2. 12-17 <lb/>
+            7 cf ibid. 2, 18—29 8 cf. ibid. 3, 1-Ei 9 cf. ibid. 3, 14-22 </note>
+
+<note type="footnote"> 1 aliter dispensatores et posteros <hi rend="italic">Am2 in mg</hi>. 2 tantum <hi rend="italic">Aml,</hi> tamen <lb/>
+            <hi rend="italic">m2 s. I. post amore Am2 add. in mg.: ut in quibuSj desit</hi> ut <lb/>
+            <hi rend="italic">om. Aml 4 ut perseuerant fsic/] esse fideles Am2 in mg</hi>. aut ad <lb/>
+            eos .. <hi rend="italic">l. 5</hi> perseuerant <hi rend="italic">hoc loco om. Hieronymus et posuit ante</hi> aut arguit <lb/>
+            6 inducendo] aliter faciunt <hi rend="italic">Am2 in mg. d</hi>. 7 alios ea <hi rend="italic">scripsi,</hi> aliud <lb/>
+            eos <hi rend="italic">A</hi> aut ad eos... Christiani sunt <hi rend="italic">om. A</hi> facere] Aut ad eos qui <lb/>
+            negligentes noie tm christiani sunt <hi rend="italic">add. Am2 in mg</hi>. 9 scripturas] <lb/>
+            aliter scripturis <hi rend="italic">Am2 in mg. d</hi>. 10 archana <hi rend="italic">Aau</hi> 14 opera tua <hi rend="italic">Am2<lb/>
+             in mg. d</hi>. opera et patieutiam <hi rend="italic">scripsi,</hi> operam <hi rend="italic">A</hi> 15 Scito fsic/J te <lb/>
+            et <hi rend="italic">A; man. rcc. hacc uerba linea transuersa expunxit et in margine <lb/>
+            post</hi> operari <hi rend="italic">addidit:</hi> Scio te </note> <lb n="20"/>
+             
+
+<pb n="33"/>
+<pb n="34"/>
+            electionis homines oportet omnimodo admoneri, ne debitis <note type="margin"> 2, 4. 5 </note><lb/>
+            sibi bonis fraudentur. pauca dixit se habere aduersus illos: <lb/>
+            amorem tuum, inquit, pristinum deseruisti: memento, <lb/>
+            unde cecideris. qui cadit, [fol. 4V] de alto cadit; et ideo <lb/>
+            ait <sic>lunde</sic>, quia omnimodo usque ad nouissimum amoris opera<lb n="5"/>
+            exercenda sunt, quod est principale mandatum. denique nisi <note type="margin"> 2, 5 </note> <lb/>
+            fiat, minatus est mouere candelabrum de loco suo. id <note type="margin"> 2, 6 </note> <lb/>
+            est spargere plebem. odire se autem opera Nicolaitarum. <lb/>
+            quia et ipse odio habebat: hoc ad laudem spectat. (Nicolaitarum\' <lb/>
+            autem \'opera\': ante illud temporis factiosi homines<lb n="10"/>
+            (et) pestiferi nomine Nicolai ministri fecerant sibi heresim, <lb/>
+            ut delibatum exorcizaretur, ut manducari posset, et ut quicumque <lb/>
+            fornicatus esset, octaua die pacem acciperet. ideo <lb/>
+            conlaudat illos, ad quos scripsit, quibus talibus et tam magnis <note type="margin"> 2, 7 </note> <lb/>
+            uiris promisit lignum <choice><sic>nitae</sic><corr>uitae</corr></choice> quod est in paradiso dei sui. <lb n="15"/>
+            
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> <note type="margin"> 2, 9 </note> Sequens epistola sequentem conuersationem alterius classis <lb/>
+            et consuetudinis detegit. denique ait: scio <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> et pauperes
+
+<note type="footnote"> 2 cf. Apoc. 2, 14 6 cf. Matth. 22, 38 </note>
+
+<note type="footnote"> 1 <hi rend="italic">post</hi> electionis <hi rend="italic">add</hi>. omnis <hi rend="italic">A</hi> omnimodo] simodo <hi rend="italic">Am2 in rng.</hi>. <lb/>
+            2 pauca] <hi rend="italic">item hoc loco in codd. Vulgatae Lips. 5 et G et in editionibus <lb/>
+            ueteribux int Lugdun. 1569)</hi> 3 tuum <hi rend="italic">Am2 hoc loco expunxit et post</hi> <lb/>
+            inquit <hi rend="italic">addidit</hi> 4 qui] quia <hi rend="italic">Aml,</hi> qui <hi rend="italic">m2</hi> 5 quia] quoniam <hi rend="italic">Am2</hi> <lb/>
+            6 sunt] est <hi rend="italic">A</hi> principale <hi rend="italic">Am2</hi>. primum palam <hi rend="italic">Aml</hi> 8 odire se <lb/>
+            autem <hi rend="italic">Aml,</hi> odire autem se <hi rend="italic">Am2; pronomen</hi> se <hi rend="italic">uim habet pronomiJ/is</hi> <lb/>
+            eos 9 quia] que <hi rend="italic">Avi2</hi> spectat] Nicholaite autem erant illo tempore <lb/>
+            ficti homines et pestiferi qui sub <hi rend="italic">add. Am2 in mg. d</hi>. 10 opere <hi rend="italic">A</hi> <lb/>
+            fictersi <hi rend="italic">[sic!J A pro</hi> factiosi <hi rend="italic">ut uidetur</hi> 11 et <hi rend="italic">om. A</hi> 12 exorciszaretur <lb/>
+            <hi rend="italic">A</hi> ut <hi rend="italic">(tert.) om, av</hi>. 14 et tam magnis] aliter et ut magnis. <lb/>
+            <hi rend="italic">Am2 in mg</hi>. </note> <lb/>
+             
+
+<pb n="35"/>
+<pb n="36"/>
+            esse et laborare, sed diuites estis; scit enim apud se <lb/>
+            talibus diuitias esse reconditas, et detractationem de Iudeis <lb/>
+            quos negat esse Iudeos, sed sinagogam satanae, quoniam (ab) <lb/>
+            Antichristo colliguntur, quibus ait, ut perseuerent usque ad <note type="margin"> 2,10.11 </note> <lb/>
+            mortem, et: qui perseuerauerit, non laedetur a morte<lb n="5"/>
+            secunda, id est \'non castigabitur in inferno). 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> Tertia classis sanctorum ostendit esse uiros, qui fortes sunt <lb/>
+            in fide et non expauescunt persecutionem. sed quia in illis <note type="margin"> 2, 16 </note> <lb/>
+            alii proni sunt ad inlicitas permissiones, ait: pugnabo cum <lb/>
+            illis gladio oris mei, id est \'quid praeceperim dicam et<note type="margin"> 2, 14 </note> <lb n="10"/>
+            quid feceritis conferam\'. [fol. <sic n="poss">5r</sic>] nam Balaam doctrinam <lb/>
+            [qui] docebat mittere scandalum ante oculos filiorum <lb/>
+            Israel, esse delibata et fornicari: olim notum est; ille <lb/>
+            enim hoc consilium dedit regi Moabitarum et sic
+
+<note type="footnote"> 14 cf. Num. 25, 1. 2 et 31, 16 </note>
+
+<note type="footnote"> 2 detrectationem <hi rend="italic">Am2</hi> 3 ab <hi rend="italic">om. A</hi> 7 esse uiros uiros <hi rend="italic">A, pro</hi> esse <lb/>
+            uiros <hi rend="italic">m2 suhstituit in mg</hi>. aliter seueros 12 qui <hi rend="italic">uncis inclusi</hi> 13 esse <lb/>
+            <hi rend="italic">scripsi,</hi> sed <hi rend="italic">A</hi> (esse delibatum i. e. edere, ut in graeco hic est oayeTv <lb/>
+            <hi rend="italic">elSiuJ.daora Riuinus)</hi> olim = <hi rend="italic">TJJJJJX</hi> 14 regi <hi rend="italic">scripsi,</hi> regum <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="37"/>
+<pb n="38"/>
+            <note type="margin"> 2, 15 </note> <lb/>
+            <sic>scandalizauerat</sic> populum. sic, inquit, et uos habetis inter uos <lb/>
+            tenentes doctrinam et sub praetextu misericordiae alios <note type="margin"> 2, 17 </note> <lb/>
+            uitiatis. qui uicerit, inquit, dabo illi de manna absconsum: <lb/>
+            (\'manna absconsum\') inmortalitas est, \'gemma alba\' <lb/>
+            adoptio est in filium dei. \'nomen <sic n="poss">nouum1</sic> christianum est. <lb n="5"/>
+            
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p> Quarta classis nobilitatem fidelium operantium cotidie et <lb/>
+            maiora facientium opera significat. sed et ibi quoque esse <lb/>
+            faciles homines ad inlicitas paces dandas et nonas prophetias <lb/>
+            adtendendas ostendit et arguit et praemonet ceteros, quibus <lb/>
+            non placet hoc fieri, qui cognoscunt nequitias aduersarii,<lb n="10"/>
+            quibus malis et dolis quaerit inducere in capite fidelium <note type="margin"> 2,24 </note> <lb/>
+            <choice><sic>pencula</sic><corr>pericula</corr></choice>, et <choice><sic>ldeo</sic><corr>ideo</corr></choice> ait: non <choice><sic>rnitto</sic><corr>mitto</corr></choice> super uos aliud pondus - <lb/>
+            (id est \'non dedi uobis legis obseruationes et onera\', quod est <note type="margin"> 2, 25 </note> <lb/>
+            aliud pondus) — ut quod habetis teneatis, donec uenio. <note type="margin"> 2, 26 </note> <lb/>
+            et qui uicerit dabo illi potestatem super nationes — id<lb n="15"/>
+            est \'iudicem illum constituam inter ceteros sanctos\' — et stel <note type="margin"> 2, 28 </note> <lb/>
+            lam matutinam dabo illi; primam resurrectionem scilicet <lb/>
+            promisit. stella enim matutina noctem fugat et lucem adnuntiat, <lb/>
+            id est diei initium.
+
+<note type="footnote"> 3 de <hi rend="italic">cum accusatiuo, cf. Hoensch, Itala 2 p. 410</hi> 4 manna abscon- <lb/>
+            <hi rend="italic">sum om. A 5 christianus A 8 facile A 11 capite scripsi, capita A</hi> <lb/>
+            13 id est .. <hi rend="italic">l. 14</hi> pondus <hi rend="italic">om. A,</hi> id est, non dedi obseruationes et onera <lb/>
+            et nouas prophetias et inlicitas, quas non conuenit ecclesiae, quod est <lb/>
+            aliud pondus 33 <hi rend="italic">p. 82</hi> </note> <lb/>
+             
+
+<pb n="39"/>
+<pb n="40"/>
+            
+</p>
+
+</div>
+
+</div>
+
+<div n="3" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. III. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> Quinta classis, electio aut conuersatio sanctorum declarat <lb/>
+            homines neglegentes, aliud quam quod oportet in saeculo <lb/>
+            agentes, opere inanes, nomine tantummodo Christianos. et <lb/>
+            ideo [fol. 5V] hortatur illos, si quo modo reuersi (a) neglegentia<note type="margin"> 3, 2 </note> <lb n="5"/>
+             periclitanti possint salui esse. stabili, inquit. ea quae <lb/>
+            moritura erant; non inuenio operam tuam plenam <lb/>
+            coram deo meo. non enim satis est arborem uiuere (et <lb/>
+            <choice><sic>nirere</sic><corr>uirere</corr></choice>) et fructum non habere: sic nec satis est Christianum <lb/>
+            dici et se ipsum confiteri et Christiani opera non habere. <lb n="10"/>
+            
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> Sexta classis, [et] conuersatio electionis optima, consuetudo <lb/>
+            sanctorum (declaratur, horum scilicet, qui humiles in saeculo <lb/>
+            et rusticani in scripturis et fidem inmobiliter tenent nec <lb/>
+            omnino ullo casu timefacti retrahuntur a fide. ideo ait ad illos: <note type="margin"> 3, 8 </note> <lb/>
+            dedi ante uos ostium apertum, <sic>etait</sic>: quoniam seruasti<note type="margin"> 3,10 </note> <lb n="15"/>
+            uerbum patientiae meae — in tam paruis uiribus — et
+
+<note type="footnote"> 2 electio <hi rend="italic">scripsi,</hi> est lectio <hi rend="italic">A</hi> 4 opere inanes, <hi rend="italic">cf. p. 32, 10:</hi> dei opus <lb/>
+            <hi rend="italic">b</hi> a <hi rend="italic">addidi, om. A</hi> 8 et uirere <hi rend="italic">addidi, om. A</hi> 10 <hi rend="italic">id est:</hi> es geniigt <lb/>
+            nicht, ein Christ zu heiBen und sich selbst (als solchen) zu bekennen <lb/>
+            11 et <hi rend="italic">uncis inclusi</hi> 12 <hi rend="italic">declaratur.. p</hi>. 42, .3 fiet columna <hi rend="italic">om. A; uocem <lb/>
+            </hi> sanctorum <hi rend="italic">excipiunt haec uerba:</hi> Deinde in templo dei <hi rend="italic">etc</hi>. </note> 
+
+<pb n="41"/>
+<pb n="42"/>
+            ego te seruabo de hora temptationis: ut sciant huiusmodi <lb/>
+            gloriam suam, nec in <sic>tejnptptionem</sic> eos tradi permittit. <note type="margin"> 2, 12 </note> <lb/>
+            qui uicerit, inquit, fiet columna) in templo dei: columna <lb/>
+            autem decor est aedificii, id est <choice><sic>cqui</sic><corr>qui</corr></choice> perseuerauerit, tantam <lb/>
+            nobilitatem in ecclesia consequetur\'. <lb n="5"/>
+            
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p>Haec quoque electio, septima classis, declarat homines <lb/>
+            locupletes, credentes in dignitatibus conlocatos, sed credentes <lb/>
+            ut homines locupletes, apud quos in cubiculo scripturae <lb/>
+            quidem tractantur, foris autem an sint fideles a nemine intelleguntur, <lb/>
+            scilicet iactantes et dicentes se omnia cognoscere,<lb n="10"/>
+            praediti fiducia litteraturae, opera autem uacantes. et ideo <lb/>
+            ait ad illos neque frigidos neque calidos eos esse, id est <lb/>
+            \'neque incredibiles (neque fideles)\'; ad omnes enim omnia sunt. <lb/>
+            et quoniam (qui) neque frigidus est neque calidus est, tepidus <note type="margin"> 3, 16 </note><lb/>
+            sit necesse est, ut nausiam faciat: et euomam eum, inquit,<lb n="15"/>
+            de ore meo. nausia quia sit odibilis, neminem latet: sic et <lb/>
+            huiusmodi homines. cum fuerint proiecti. sed quia tempus est <note type="margin"> 3, 18 </note><lb/>
+            paenitentiae, ait: consulo tibi. emas a me aurum conflatum, <lb/>
+            id est &lt;si quo modo poteris pro nomine domini aliquid
+
+<note type="footnote"> 12 cf. Apoc. 3, 15 </note>
+
+<note type="footnote"> 7 in] <hi rend="italic">cum A</hi> 11 fiducia litteraturae] <hi rend="italic">fiducialiter maturo A</hi> uocantes <lb/>
+            <hi rend="italic">A</hi> 13 incredibiles = uxhxooq neque fideles <hi rend="italic">om. A</hi> 14 qui <lb/>
+            <hi rend="italic">om. A</hi> 15 nausiam <hi rend="italic">A, cf. Georges, Wortformen s. u</hi>. </note> <lb/>
+             
+
+<pb n="43"/>
+<pb n="44"/>
+             <note type="margin">3, 18 </note><lb/>
+            pati\'. <sic>collirio</sic>, inquit, inunge oculos tuos, id est <sic>lut</sic> quod <lb/>
+            libenter cognoscis per scripturas. huic et opus facere [fol. <sic n="poss">6r</sic>] <lb/>
+            coneris\'. et quoniam si huiusmodi homines de magno excidio <lb/>
+            ad magnam redeant paenitentiam, non solum sibi utiles esse, <lb/>
+            sed multis prodesse possunt, non mediocrem mercedem eis<note type="margin">3, 21 <lb/>
+            </note>promisit, id est: sedere super solium iudicii. <lb n="5"/>
+            
+</p>
+
+</div>
+
+</div>
+
+<div n="4" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. IV. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> <note type="margin"> 4, 1 </note>Ostium apertum, inquit, in caelo: noui testamenti praedicationem <lb/>
+            uidet Iohannes [baptista] et dicitur ei: ascende huc. <lb/>
+            quando apertum ostenditur, clausum fuisse ante hominibus<lb/>
+            manifestum est. satis autem et plene patefactum est, quando <lb n="10"/>
+            Christus cum corpore in caelis ad patrem ascendit. uocem autem <lb/>
+            quam audierat, cum dicat illam secum locutam esse: sine contradictione <lb/>
+            arguuntur contumaces, ipsum esse qui uenit ipsum <lb/>
+            quem (per) prophetas locutum. Iohannes enim ex circumcisione <lb/>
+            erat et omnis ille populus ueteris testamenti praedicationem <note type="margin"> 4, 1 </note><lb n="15"/>
+            audierat, illa uoce aedificatus erat. illa enim uox, inquit, quam
+
+<note type="footnote"> 12 cf. Apoc. 4, 1 13 cf. ibid. 1, 10 </note>
+
+<note type="footnote"> 1 id est] R. <hi rend="italic">(quo siglo</hi> id est, <hi rend="italic">quod hoc loco etiam Beatus p. 84 praebet, <lb/>
+            significatur) A</hi> 3 huiusmodi homines] huius hominis <hi rend="italic">A</hi> 4 paenitentiam] <lb/>
+            potentiam <hi rend="italic">A</hi> 9 baptista <hi rend="italic">uncis inclutsi; aliter p. 26, 13</hi> 12 uocem <lb/>
+            quam = uox quam <hi rend="italic">per attractionem substantiui ad casum pronominis <lb/>
+            relatiui accommodati</hi> 14 arguuntur contumaces] <hi rend="italic">id est</hi> die Widerspenstigen <lb/>
+            (d. h. die Marcioniten) werden iiberfiilirt, daB der, welcher <lb/>
+            gekommen ist, der namliche ist, der durch die Propheten geredet hat, <lb/>
+            <hi rend="italic">cf. haec testimonia:</hi> uocem primam quam dicit, legis et prophetarum <lb/>
+            eloquia, ut concordent noua ueteribus fiatque illud quod psalmographus <lb/>
+            ait: semel locutus est deus, duo haec audiui (Ps. <hi rend="italic">61, 12, cf. p. 24, G) <lb/>
+            Beatus p. 233;</hi> unusquisque electorum, ut inoffenso credulitatis pede <lb/>
+            per euangelium ad uerae fidei sacramenta pertingat, ueteris instrumenti <lb/>
+            doctrina, quae nouam praecedit, roboratur <hi rend="italic">Ps.-August. homil. III (XXXV<lb/>
+             2422 l. 35 sqq. M)</hi> ipsum = TOV OCUTOV 15 per <hi rend="italic">addidi</hi> prophetas <lb/>
+            <hi rend="italic">scripsi,</hi> prophetam <hi rend="italic">A</hi> 17 inquit, quam] quam inquit quam <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="45"/>
+<pb n="46"/>
+            audieram, illa mihi dixit: ascende huc: id est Iesus <lb/>
+            Christus. quem paulo ante quasi filium hominis inter candelabra <lb/>
+            aurea se uidisse fatetur, et nunc exinde recolit, quae <lb/>
+            per legem in similitudinibus praenuntiata erant, et per hanc <lb/>
+            scripturam coniungit omnes priores prophetas et adaperit<lb n="5"/>
+            scripturas. et quia postquam inuitauit in caelum omnes credentes <lb/>
+            in nomine suo dominus noster, statim spiritum sanctum <note type="margin">4, 2 <lb/>
+            </note>effudit, qui ferturus est hominem ad caelum, ait: statim <lb/>
+            factus sum in spiritu. et cum aperiatur per spiritum sanctum <lb/>
+            mens [fol. 6V] fidelium, illud illis manifestatur, quod et<lb/>
+            prioribus est praedicatum. <lb n="10"/>
+            
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p rend="script"><note type="margin"> 4, 2 </note>Significanter solium positum, quod est sedes iudicii et <lb/>
+            regis, super quem solium uidisse se ait similitudinem <lb/>
+            iaspidis et sardi. quia iaspis aquae color est et sardi ignis, <lb/>
+            haec duo testamenta posita esse usque ad consummationem<lb/>
+            orbis super tribunal dei exinde manifestabatur, quorum <lb n="15"/>
+            iudiciorum duum unum iam consummatum est in cataclismo <lb/>
+            per aquam, aliud autem per ignem consummabitur.
+
+<note type="footnote"> 2 cf. Apoc. 1, 13 13 cf. ibid. 4, 3 </note>
+
+<note type="footnote"> 4 similitudinibus <hi rend="italic">correxit ex</hi> similitudine <hi rend="italic">A</hi> 8 ferturus <hi rend="italic">scripsi cum<lb/>
+             TS (cf. fertilis, fertor), laturus A ait] Ait enim A</hi> 9 factus sum] <lb/>
+            factum suum <hi rend="italic">A</hi> 12 signifieanter <hi rend="italic">scripsi,</hi> significantur id est <hi rend="italic">A</hi> 13 queni] <lb/>
+            <hi rend="italic">item TD</hi> 14 sardi] <hi rend="italic">item TI)</hi> 15 <hi rend="italic">uerte:</hi> daB diese (zwei Edelsteine) <lb/>
+            als die beiden Testamente (= als die Sinnbilder der beiden Testamente) <lb/>
+            iiber dem Throne Gottes angebracht sind 16 <hi rend="italic">cf</hi>. exinde manifestatur <lb/>
+            duorum iudiciorum ordo <hi rend="italic">Beatus p. 234</hi> 17 duum <hi rend="italic">scripsi,</hi> diuinum <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="47"/>
+<pb n="48"/>
+             <note type="margin">4, 3 <lb/>
+            </note>iris autem circum solium ardentem colorem habet; iris autem <lb/>
+            arcus dicitur, de quo etiam ad Noe et filios suos locutus est <lb/>
+            deus, ne iam timerent <sic>imigationem</sic> aquae. statuam, inquit, <lb/>
+            arcum meum in nubibus, ne iam aquam timeatis sed ignem. <note type="margin"> 4, 6 </note> <lb/>
+            ante solium autem tamquam mare uitreum simile cristallo:<lb/>
+            donum est baptismi, quod per filium suum paenitentiae <lb n="5"/>
+            tempore, antequam iudicium inducat, effundit; ideo ante solium <lb/>
+            id est \'ante iudicium\'. cum autem dicat: mare uitreum <lb/>
+            simile cristallo, aquam mundam, stabilem, non uento agitatam, <lb/>
+            non pro fluuio defluentem, sed tamquam donum dei<lb/>
+            inmobilem traditam ostendit. <lb n="10"/>
+            
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> <note type="margin"> 4, 7. 8 </note> (Quattuor animalia) quattuor sunt euangelia. primum, <lb/>
+            inquit, similem <sic>leonisecundum</sic> similem uitulo, tertium <lb/>
+            similem homini, quartum similem aquilae uolanti: (habentes) <lb/>
+            alas senas in circuitu, oculos et intus et deforis:<lb/>
+            et non cessant dicere, inquit: (hagios hagios hagios)
+
+<note type="footnote"> 3 Gen. 9, 13 </note>
+
+<note type="footnote"> 1 ardentem colorem] <hi rend="italic">infra (lin. 4) uidemits irim ad ignem pertinere</hi> <lb/>
+            12 qu. animalia <hi rend="italic">om. A</hi> 13-14 similem <hi rend="italic">A quater, item T</hi> habentes <lb/>
+            <hi rend="italic">om. A</hi> 16 inquit] <hi rend="italic">item TD</hi> hagios .. hagios <hi rend="italic">om. A</hi> </note> <lb n="15"/>
+             
+
+<pb n="49"/>
+<pb n="50"/>
+            sanctus sanctus sanctus dominus deus omnipotens. <lb/>
+            XXIIII seniores habentes tribunalia XXIIII: libri (sunt) <lb/>
+            prophetarum et legis referentes testimonia [fol. <sic n="poss">7r</sic>] iudicii. <lb/>
+            sunt autem XXIIII patres XII apostoli et duodecim patriarchae. <lb/>
+            animalia igitur quod differenti uultu sunt, hanc habent<lb n="5"/>
+            rationem. 
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p>Simile leoni animal euangelium est cata Iohannem, quod, <lb/>
+            cum omnes euangelistae hominem factum Christum praedicauerunt, <lb/>
+            ille autem illum antequam descenderet et carnem <lb/>
+            sumeret deum praedicauit dicendo: deus erat uerbum et<lb n="10"/>
+            quoniam tamquam leo fremens exclamauit, leonis uultum <lb/>
+            sustinet praedicatio eius. hominis Matheus enititur enuntiare <lb/>
+            nobis genus Mariae, unde carnem accepit Christus. <lb/>
+            ergo dum enumerat ab Abraham usque ad Dauid et ab <lb/>
+            Dauid usque ad Ioseph, tamquam de homine locutus est;<lb n="15"/>
+            ideo praedicatio eius effigiem hominis accepit. Lucas quoque <lb/>
+            (a) sacerdotio Zachariae offerentis hostiam pro populo <lb/>
+            et apparente sibi angelo dum enumerat, propter sacerdotium <lb/>
+            et hostiam ipsa conscriptio uituli tulit imaginem. Marcus <lb/>
+            interpres Petri ea quae in munere docebat commemoratus
+
+<note type="footnote"> 2 cf. Apoc. 4, 4 3 <hi rend="italic">cf. Th. Zahn, Geschichte des neutestamentlichen <lb/>
+            Kanons II p. 338 sq</hi>. 7 <hi rend="italic">cf. Th. Zahn, Forschungen zur<lb/>
+             Gesell. des n. t. Kanons II p. 258 sqq</hi>. 10 Ioh. 1, 1 20 cf. Papias <lb/>
+            apud Euseb. hist. eccl. III 39 </note>
+
+<note type="footnote"> 2 sunt <hi rend="italic">om. A</hi> 3 iudicii] Indicio <hi rend="italic">A in noua sectione</hi> 7 <hi rend="italic">interpretationem <lb/>
+            inter se contrariam praebent codex A et reliqui testes: ille id<lb/>
+             quod Irenaei exemplum (lib. III 11, 8) et genus dicendi</hi> (cata Iohannem) <lb/>
+            <hi rend="italic">probant. Victorini propriam, hi id quod alii loci testificantur ex <lb/>
+            Hieronymi libris sumptam, cf. eiusdem prologum in euangelia quattuor,<lb/>
+             comment. in Ezech. lib. I c. 1, contra Iouinianum lib. I 26 etc</hi>. <lb/>
+            similem <hi rend="italic">A</hi> 13 enititur <hi rend="italic">scripsi,</hi> enim mittitur <hi rend="italic">A</hi> 14 ergo dum <lb/>
+            enumerat ab] et indumentum erat <hi rend="italic">A</hi> 16 ideo] Idem <hi rend="italic">A</hi> eius eius <hi rend="italic">A</hi> <lb/>
+            17 a <hi rend="italic">om. A</hi> offerenti <hi rend="italic">A</hi> 18 angeli <hi rend="italic">A</hi> duro enumerat] indumentum <lb/>
+            erat <hi rend="italic">A</hi> 20 in munere <hi rend="italic">scripsi,</hi> imminere <hi rend="italic">A</hi> </note> <lb n="20"/>
+             
+
+<pb n="51"/>
+<pb n="52"/>
+            conscripsit sed non ordine, et incipit prophetiae uerbo per <lb/>
+            Esaiam praenuntiato. incipiunt ergo sic dicendo, Iohannes: in <lb/>
+            principio erat uerbum et uerbum erat apud deum et <lb/>
+            deus erat uerbum — haec facies leonis —; Matheus autem: <lb/>
+            liber generationis Iesu Christi filii dei filii Dauid filii<lb n="5"/>
+            Abrahae - haec facies hominis — Lucas autem sic: fuit sacerdos <lb/>
+            nomine Zacharias de uice Abia (et) mulier illi erat <lb/>
+            de filiabus Aaron—haec est imago uituli —; [fol. <sic n="poss">7vj</sic> Marcus <lb/>
+            incipit sic: initium euangelii Iesu Christi sicut scriptum <lb/>
+            est in Esaia; aduolante spiritu coeptum est, ideo<lb n="10"/>
+            uolantis aquilae habet et effigiem. non solum autem spiritus <lb/>
+            propheticus sed et ipsum uerbum dei patris omnipotentis, qui <lb/>
+            est filius ipsius, dominus noster Iesus Christus, feret easdem <lb/>
+            imagines in tempore aduentus sui ad nos. et cum praedicatus <lb/>
+            esset tamquam leo et tamquam catulus leonis, propter<lb n="15"/>
+            salutem hominum homo factus est ad mortem deuincendam <lb/>
+            et <choice><sic>uuiuersos</sic><corr>uniuersos</corr></choice> liberandos; quod se ipsum obtulerit hostiam deo <lb/>
+            patri pro nobis, uitulus dictus est; et quod morte deuicta <lb/>
+            ascenderit in caelis extendens alas suas et protegens plebem
+
+<note type="footnote"> 3 Ioh. 1, 1 5 Matth. 1, 1 6 Luc. 1, 5 9 Marc. 1, 1. 2 (Esai. <lb/>
+            40, 3) 15 Gen. 49, 9 <hi rend="italic">(cf. Cypriani testimonia I 21:</hi> Iuda... uelut leo <lb/>
+            et uelut catulus leonis) 19 cf. Hier. 48, 40 </note>
+
+<note type="footnote"> 1 ordinem <hi rend="italic">A, cf. quae apud Eusebium legimus ex Papiae libro deprompta <lb/>
+            (hist. ecclesiast. III 39, 15):</hi> MdpMÇ epp.Yjvsbg IlsTpou .. eypattev <lb/>
+            o&gt;j fjivtoi Ta?s: <hi rend="italic">et] Scd et A 2 praenuntiatio A 5 fili A ter, item <lb/>
+            T bis 7 et om. A 10 ceptum A 12 qui] quia A 13 feret pro</hi> <lb/>
+            fert, <hi rend="italic">cf</hi>. differet <hi rend="italic">p</hi>. 28, 3 14 praedicatus = <foreign xml:lang="grc">προϕητενϑεὶς</foreign> <hi rend="italic">(cf. Koffmane, <lb/>
+            Geschichte des Kirchenlateins [1879] p. 81)</hi> </note> <lb/>
+             
+
+<pb n="53"/>
+<pb n="54"/>
+            suam, aquila uolans nominatus est. &lt;hae) ergo praedicationes <lb/>
+            quamuis quattuor sint, una tamen praedicatio est, quia de <lb/>
+            uno ore processit, sicut fluuius in paradiso de uno fonte in <lb/>
+            quattuor partes diuisus est. 
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p> <note type="margin"> 4, 6 b </note> Oculos autem intus et deforis habere ea animalia. <lb n="5"/>
+            id est (praedicationem noui testamenti\', prouidentiam spiritalem <lb/>
+            ostendit, quae et secreta cordis inspicit et superueni- <note type="margin"> 4, 8 </note> <lb/>
+            entia uidet, quae sunt intus et deforis. alae testimonia <lb/>
+            ueteris testamenti sunt librorum ideoque XXIIII sunt, tot <lb/>
+            numero. quot et seniores super tribunalia. (<choice><sic>sej</sic><corr>sed</corr></choice>) sicut animal<lb n="10"/>
+            uolare non potest nisi pennas habeat, sic nec praedicatio noui <lb/>
+            testamenti fidem habet, (nisi habeat) ad ueteris testamenti testimonium <lb/>
+            testimonia praenuntiata, per quae tollitur a terra [fol. <sic>sr</sic>] <lb/>
+            et uolat. semper enim quod ante dictum est futurum (et) <lb/>
+            postea factum inuenitur, illud est quod fidem facit indubitabilem.<lb n="15"/>
+            rursus tamen et alae si non haereant in animalibus, <lb/>
+            uitam unde trahant non habent. nisi (enim) quae (prae)dixerant <lb/>
+            prophetae in Christo essent consummata, inanis fuerat praedicatio <lb/>
+            illorum. hoc tenet ecclesia catholica et antea praedicata <lb/>
+            et postea consummata et merito uolat et tollitur a terra,<lb n="20"/>
+            uiuum animal. haeretici autem qui testimonio prophetico non <lb/>
+            utuntur, adsunt eis animalia, sed non uolant, quia sunt terrena. <lb/>
+            Iudei autem qui non accipiunt noui testamenti
+
+<note type="footnote"> 1 <hi rend="italic">tota pars a uerbis</hi> hae ergo praedicationes <hi rend="italic">usque ad uerba</hi> nisi <lb/>
+            uictori <hi rend="italic">(p. 60, 2) exstat apud Beatum (p. 264—H66)</hi> 2 cf. Apoc. <lb/>
+            1, 16 b 3 cf. Gen. 2. 10 <hi rend="italic">10 cf. p. 50, 2 (Apoc. 4, 4)</hi> </note>
+
+<note type="footnote"> <hi rend="italic">1 hae om. A 7 est secreta A (est pro et) 10 quot] quid A</hi> sed <lb/>
+            <hi rend="italic">om. A</hi> 12 nisi habeat <hi rend="italic">om. A</hi> 14 ante dictum] interdictum <hi rend="italic">A</hi> <lb/>
+            futurum] <hi rend="italic">item</hi> quod ante dictum est futurum <hi rend="italic">Ps.-August. homil. III <lb/>
+            (XXXV 2423 l. 24 M)</hi> et <hi rend="italic">om. A</hi> 16 haereant] habeant <hi rend="italic">A</hi> <lb/>
+            17 enim <hi rend="italic">om. A</hi> praedixerant <hi rend="italic">scripsi,</hi> dixerant <hi rend="italic">A</hi> 21 heresiaci <hi rend="italic">A</hi> </note><lb/>
+             
+
+<pb n="55"/>
+<pb n="56"/>
+            praedicationem, (adsunt eis alae sed non uiuunt, id est inanem uaticinationem) <lb/>
+            hominibus adferunt non audiendam facta dictis <lb/>
+            non conferentes. sunt autem libri ueteris testamenti qui excipiuntur <lb/>
+            XXIIII, quos in epitomis Theodori inuenimus. sed et <lb/>
+            XXIIII ut diximus patres et apostoli: iudicare populum<lb n="5"/>
+            suum oportet. interrogantibus enim apostolis et dicentibus: <lb/>
+            nos his omnibus relictis secuti te sumus: quid nobis <lb/>
+            erit? respondit dominus noster: cum sederit filius hominis <lb/>
+            super solium gloriae suae, sedebitis et uos super <lb/>
+            duodecim tribunalia iudicantes duodecim tribus<lb n="10"/>
+            Israel. sed et de patribus quia iudicaturi sunt. [fol. SV] ait <lb/>
+            Iacob patriarcha: et ipse iudicabit populum suum inter <lb/>
+            fratres suos sicut una tribus Israel. 
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart"><p><note type="margin"> 4, 5 </note>Exire autem fulgora et uoces et tonitrua a solio dei <lb/>
+            et septem faces: significabat praedicationes et repromissiones<lb n="15"/>
+            a deo et minas. nam fulgora aduentum domini significabant, <lb/>
+            <choice n="0.01"><sic n="7">noces</sic><corr n="473">uoces</corr></choice> autem noui testamenti praedicationes, tonitrua autem, <lb/>
+            quod caelestia sunt uerba, faces uero ignis ardentis donum <lb/>
+            spiritus sancti, quod cum in ligno perdiderit primus homo <lb/>
+            per lignum passionis est redditum.
+
+<note type="footnote"> 4 <hi rend="italic">cf. Th. Zahn, Geschichte des neutest. Kanons II p. 338 et<lb/>
+             p</hi>. 961-964 5 <hi rend="italic">cf. p. 50, 4</hi> 7 Matth. 19, 27. 28 12 Gen. 49, 16 </note>
+
+<note type="footnote"> 1 adsunt ... uaticinationem <hi rend="italic">om. A</hi> 2 adfuerunt <hi rend="italic">A</hi> audienda <hi rend="italic">A</hi> <lb/>
+            3 excipiunt <hi rend="italic">A</hi> 4 epythomis <hi rend="italic">A</hi> 5 <hi rend="italic">nominatiuum</hi> apostoli <hi rend="italic">praebet A,<lb/>
+             item TCB</hi> 11 quia] qui <hi rend="italic">A</hi> 12 et ipse] <hi rend="italic">Victorinus patriarcham <lb/>
+            generatim omisso nomine</hi> Dan <hi rend="italic">loquentem inducit</hi> 13 tribus] patribus <hi rend="italic">A</hi> <lb/>
+            15 et a septem fasces <hi rend="italic">A</hi> remissiones <hi rend="italic">A</hi> 19 primus <hi rend="italic">scripsi,</hi> ponimus <lb/>
+            <hi rend="italic">A</hi> 20 redditus <hi rend="italic">A</hi> </note> <lb n="20"/>
+             
+
+<pb n="57"/>
+<pb n="58"/>
+            
+</p>
+          </div>
+
+<div n="7" subtype="section" type="textpart"><p> <note type="margin"> 4, 10 </note> Et cum haec (fierent), cecidisse (dicit) uniuersos <note type="margin"> 4, 9 </note> <lb/>
+            maiores natu et adorasse dominum. cum darent animalia <lb/>
+            gloriam et honorem: id est cum euangelium, actio <lb/>
+            scilicet domini et doctrina, adimplesset ante per illos praenuntiatum <lb/>
+            uerbum, digne meritoque exultabant scientes se rite<lb n="5"/>
+            uerbum domini ministrasse. denique quia uenerat, qui mortem <lb/>
+            deuinceret (et) coronam inmortalitatis solus dignus sumeret, <lb/>
+            omnes quotquot habebant pro gloria actus sui optimi coronas, <note type="margin"> 4, 10 c </note> <lb/>
+            proiecerunt eas sub -pedibus eius: id est propter eminentem <lb/>
+            uictoriam Christi omnes uictorias sub pedibus eius. <lb n="10"/>
+            hoc et in euangelio suppleuit Christus dicendo — cum enim <lb/>
+            passurus nouissime ueniret Hierosolymis dominus noster (et) <lb/>
+            exisset illi populus in obuiam, alii [fol. gr] praecisis ramis palmarum <lb/>
+            uiam sternebant, alii tunicas suas subiciebant —, duos <lb/>
+            scilicet populos ostendens, unum patrum et prophetarum,<lb n="15"/>
+            magnorum uirorum, qui quascumque habebant uictoriarum <lb/>
+            suarum palmas C <sic>Jntra</sic> peccata, Christo eas sub pedibus eius
+
+<note type="footnote"> 11 cf. Ioh. 12, 13 13 cf. Matth. 21, 8 </note>
+
+<note type="footnote"> 1 fierent <hi rend="italic">om. A</hi> dicit <hi rend="italic">om. A</hi> 3 euangelium <hi rend="italic">scripsi,</hi> euangelii <hi rend="italic">A</hi> <lb/>
+            4 doctrinam <hi rend="italic">A</hi> adimplesset <hi rend="italic">scripsi,</hi> adimplens et <hi rend="italic">A</hi> 6 uerbum <lb/>
+            domini uerbum <hi rend="italic">A 7 et om. A 8 optimi] obtulerunt A 10 Christo A</hi> <lb/>
+            11 Christus <hi rend="italic">A,</hi> spiritus sanctus <hi rend="italic">reliqui testes</hi> 12 ueniret] uenire et <lb/>
+            <hi rend="italic">A</hi> et <hi rend="italic">cm. A</hi> 13 in obuiam <hi rend="italic">A, cf. cod. Cantabrig. Ioh. 12, 13:</hi> in <lb/>
+            obuiam eius = fC5 urcavTrjatv GCUTGD 15 unum] <hi rend="italic">patres et prophetae unus <lb/>
+            ordo sunt eorum, qui praecisis ramis palmarum uiam sternebant, alter <lb/>
+            ordo non explicatur: a uero sensu aberrauit recensio Hieronymi</hi> </note> 
+
+<pb n="59"/>
+<pb n="60"/>
+            iaciebant. palma autem idem significat, quoniam non datur <lb/>
+            nisi uictori. 
+</p>
+
+</div>
+
+</div>
+
+<div n="5" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. V. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p><note type="margin"> 5, 1 </note>Esse autem in manu sedentis super tribunal librum <lb/>
+            scriptum deintus, signatum sigillis VII: uetus testamentum<lb n="5"/>
+            significatur, quod est datum in manu domini nostri, <note type="margin"> 5, 2. 3 </note> <lb/>
+            qui accepit a patre iudicium. praeco, inquit, praeconauit, <lb/>
+            anne aliquis dignus esset aperire librum et soluere <lb/>
+            sigilla eius, et nemo inuentus est dignus neque in <lb/>
+            caelo neque in terra neque infra terram. aperire autem<lb n="10"/>
+            testamentum pati et pro hominibus mortem deuincere est. hoc <lb/>
+            dignus facere nemo est inuentus neque in angelis in caelo <lb/>
+            neque in hominibus in terra neque inter animas sanctorum in <note type="margin"> 5, 6</note> <lb/>
+            requie, nisi solus Christus filius dei, quem dicit uidisse <lb/>
+            agnum tamquam occisum, habentem cornua numero VII. <lb n="15"/>
+            in illum erat praedicatum: quicquid per uarias oblationes et
+
+<note type="footnote"> 1 iacebant <hi rend="italic">A</hi> 4 scdenti -1 5 ucintus] <hi rend="italic">Victorini textus uerba Apoc. <lb/>
+            5, 1 y.r..&lt;l</hi> ONICFL-SV <hi rend="italic">non praebuit, sed solum</hi> ECOJ&amp;EV, <hi rend="italic">cui lectioni interpretatio <lb/>
+            respondet 7 preconicauit A 8 anne aliquis scripsi, animali <lb/>
+            quis A 10 pati] ef. p. 62, 10 11 et scripsi, est A</hi> 15 VII] XII <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="61"/>
+<pb n="62"/>
+            sacrificia lex in illo meditata fuerat, ipsum implere oportebat. <lb/>
+            et quia ipse erat testator et mortem deuicerat, ipsum erat <lb/>
+            iustum constitui heredem (a) deo, ut possideret et substantiam <note type="margin"> 5, 5 </note><lb/>
+            <choice n="0.25"><sic n="13">monentis</sic><corr n="38">morientis</corr></choice>, id est membra humana. <choice><sic>liunc</sic><corr>hunc</corr></choice> dicit leonem de <lb/>
+            tribu Iuda uicisse [fol. 9V], radicem Dauid. <lb n="5"/>
+            
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p>Leonem de tribu luda in Genesi legimus, (ubi) Iacob <lb/>
+            patriarcha ait: <sic>luda</sic>, te collaudant fratres tui: et dormisti <lb/>
+            et surrexisti tamquam leo et tamquam catulus <lb/>
+            leonis. ad deuincendam enim mortem leo dictus est, ad <lb/>
+            patiendum pro hominibus tamquam agnus ad occisionem<lb n="10"/>
+            adductus est. hic ergo aperit et resignat, quod ipse signauerat <lb/>
+            testamentum. hoc sciens et Moyses legislator, quod <lb/>
+            oportebat esse signatum et celatum usque aduentum passionis <lb/>
+            eius, uelauit faciem suam et sic est populo locutus, <lb/>
+            ostendens uelata esse uerba praedicationis usque aduentum<lb n="15"/>
+            temporis Christi. nam et ipsam legem cum legisset populo,
+
+<note type="footnote"> 7 Gen. 49, 8. 9 10 Esai. 53, 7 (Act. 8, 32) 14 Ex. 34, 33 </note>
+
+<note type="footnote"> 1 ipsum <hi rend="italic">scripsi,</hi> ipsud <hi rend="italic">A, cf. Georges, Wortformen p. 364</hi> 3 a <hi rend="italic">om. A</hi> <lb/>
+            6 ubi <hi rend="italic">om. A</hi> 8 et tamquam <hi rend="italic">scripsi (cf. p. 52, 15),</hi> etiam quam <hi rend="italic">A</hi> <lb/>
+            11 aductus <hi rend="italic">A enuntiatum</hi> sed quia.. dictus est <hi rend="italic">(cf. p. 63, 13. 14) <lb/>
+            praebet cod. A infra p. 64, 9. 10</hi> 12 Moysi <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="63"/>
+<pb n="64"/>
+            accepta lana sucida et sanguine uituli et aqua aspersit populum <lb/>
+            uniuersum dicens: hic est sanguiş testamenti, de quo <lb/>
+            mandauit ad uos dominus. animaduertere oportet igitur hominem <lb/>
+            diligentem praedicationem uniuersam in unum cohaerere. <lb/>
+            nam nec sufficit legem illam dici, quoniam et testamentum<lb n="5"/>
+            nominatur. nulla lex testamentum dicitur nec testamentum <lb/>
+            aliud nominatur, nisi quod faciunt morituri; et quodcumque <lb/>
+            intrinsecus testati sunt, signata sunt usque ad diem mortis <lb/>
+            testatoris. sed quia mortem deuicit et praeuenit carnificis <note type="margin"> 5, 6 </note> <lb/>
+            officium, quasi occisus est dictus. ideo merito modo resignatur<lb n="10"/>
+            [fol. <sic n="poss">10r</sic>] per agnum occisum, qui tamquam leo confregit <lb/>
+            mortem et quae de se praenuntiata fuerant repleuit (et <lb/>
+            hominem liberauit). id est carnem de morte, et accepit possessionem <lb/>
+            substantiae morientis, id est membrorum humanorum; <lb/>
+            (et) <choice><sic>sicnt</sic><corr>sicut</corr></choice> per unum corpus omnes homines debito mortis successerant,<lb n="15"/>
+            sic per unum corpus uniuersi credentes in uitam <lb/>
+            aeternam resurgent. modo ergo facies Moysi operitur, modo <lb/>
+            et reuelatur ideoque apocalypsis reuelatio dicitur, modo liber <lb/>
+            eius resignatur, modo hostiarum oblationes intelleguntur, modo <lb/>
+            sacerdotia et Christi mandata et fabricatio aedis (et) testimonia<lb n="20"/>
+            aperte intellegitur.
+
+<note type="footnote"> 1 cf. Hebr. 9, 19 (Ex. 24, 8) 2 Hebr. 9, 20 9 ef. Ioh. 19, 33 <lb/>
+            13 <hi rend="italic">cf. p. G2, 4</hi> 15 cf. I Cor. 15, 21 17 cf. Ex. 34, 33. 34 </note>
+
+<note type="footnote"> 1 aquam <hi rend="italic">A</hi> 10 idem <hi rend="italic">A</hi> resignat <hi rend="italic">A</hi> 12 et homo lib. <hi rend="italic">om. A</hi> <lb/>
+            15 et <hi rend="italic">om. A</hi> 16 sic] <hi rend="italic">cf. p. 54, 11</hi> 17 operitur <hi rend="italic">scripsi,</hi> aperitur <hi rend="italic">A</hi> <lb/>
+            20 Christi mandata] <hi rend="italic">cf. p. 74, 7</hi> et <hi rend="italic">alt.] hanc uocem excipiebat</hi> <lb/>
+            Christum. <hi rend="italic">quod uerbum postea litura est sublatum</hi> edis <hi rend="italic">A</hi> et <hi rend="italic">om. A</hi> <lb/>
+            testimonia] <hi rend="italic">septem sigillis septem respondent interpretationes:</hi> facies <lb/>
+            Moysi <hi rend="italic">(p. 62, 14),</hi> liber eius <hi rend="italic">(p. 62, 16),</hi> hostiarum oblationes <hi rend="italic">(p. 64, 1),</hi> <lb/>
+            sacerdotia <hi rend="italic">(lIioysi et Christi, p. 64, 1-3 et 10-14, cf. p. 66, 10)</hi> Christi <lb/>
+            mandata <hi rend="italic">(p</hi>. 64, 3), fabricatio aedis <hi rend="italic">(id est ecclesiae credentium p. 64,16),</hi> <lb/>
+            testimonia <hi rend="italic">(seniorum et euangelistarum p. 66, .1 sqq.), quae itidem septem<lb/>
+             numerantur</hi> 21 intellegitur] <hi rend="italic">-Victorinus more Graecorum numerum <lb/>
+            -singularem posuit, cf. Roensch, Itala 2 p. 435</hi> </note><lb/>
+             
+
+<pb n="65"/>
+<pb n="66"/>
+            
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> <note type="margin"> 5, 8. 9 </note> XXIIII seniores et quattuor animalia citharas et <lb/>
+            fialas habentes, cantantes canticum nouum: (coniuncta <lb/>
+            ueteris testamenti praedicatio cum nouo populum <lb/>
+            christianum ostendit cantantem canticum nouum), id est confessionem <lb/>
+            suam publice proferentium [uidetur]. nouum est<lb n="5"/>
+            filium dei hominem fieri, nouum etiam eundem ab hominibus <lb/>
+            morti tradi, nouum tertia die resurgere, nouum cum corpore <lb/>
+            in caelis ascendere, nouum remissionem peccatorum hominibus <lb/>
+            dari, nouum spiritu sancto signari homines, nouum sacerdotium <lb/>
+            accipere obsecrationis et regnum expectare inmensae<lb n="10"/>
+            repromissionis. citharam enim extensam in ligno significabat <lb/>
+            corpus Christi passioni coniunctum [id est carnem Christi], <lb/>
+            fialam autem confessionem et <choice n="0.02"><sic n="12">noni</sic><corr n="585">noui</corr></choice> [fol. <sic>lOV</sic>] sacerdotii propa- <note type="margin"> 5, 11 </note> <lb/>
+            ginem. angelorum multorum: immo omnium. uniuersae <lb/>
+            electionis domino nostro gratulationem referentium eliberationis<lb n="15"/>
+            hominum de clade mortis. 
+</p>
+
+</div>
+
+</div>
+
+<div n="6" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. VI. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> <sic>Resignatio</sic> sigillorum, ut diximus, apertio est ueteris testamenti <lb/>
+            praedicatorum et praenuntiatio in nouissimo tempore <lb/>
+            futurorum; quae licet scriptura prophetica per singula sigilla<lb n="20"/>
+            dicat, omnibus tamen simul apertis sigillis ordinem suum
+
+<note type="footnote"> 2 <hi rend="italic">pars proxima a uerbis</hi> coniuncta ueteris testamenti <hi rend="italic">usque ad <lb/>
+            uerba</hi> de clade mortis <hi rend="italic">(lin. 16) exstat apud Beatum (p. 289 sq.)</hi> 10 cf. <lb/>
+            Apoc. 1, 6. 5, 10 15 electionis] <hi rend="italic">cf. I Tim. 5, 21:</hi> electis angelis angelos <lb/>
+            homines dicit, qui et filii dei dicuntur <hi rend="italic">Ps.-August. hornil. IV <lb/>
+            (XXXV 2424 II)</hi> </note>
+
+<note type="footnote"> 2 coniuncta .. <hi rend="italic">lin</hi>. 4 nouum <hi rend="italic">om. A propter homoeoteleuton</hi> 5 uidetur <lb/>
+            <hi rend="italic">uncis inclusi</hi> nouum <hi rend="italic">septies enumeratur</hi> 12 coniunctam <hi rend="italic">A uerba</hi> <lb/>
+            id est carnem Christi <hi rend="italic">uncis inclusi, cf. codd. T</hi> 13 sacerdoti <hi rend="italic">A</hi> 14 ulliuersae <lb/>
+            <hi rend="italic">scripsi,</hi> uniuersa <hi rend="italic">A</hi> 15 electionis <hi rend="italic">scripsi,</hi> electiones <hi rend="italic">A</hi> domino] <lb/>
+            dono <hi rend="italic">A</hi> gratulatio <hi rend="italic">A</hi> eliberationis = <foreign xml:lang="grc">̀εξελευϑ</foreign>18 sigillorum] <lb/>
+            singulorum <hi rend="italic">A</hi> est] et <hi rend="italic">A</hi> 20 quae] quem <hi rend="italic">A</hi> </note> 
+
+<pb n="67"/>
+<pb n="68"/>
+            <note type="margin"> 6, 1. 2 </note> <lb/>
+            habet praedicatio. nam aperto primo sigillo cum dicat se <lb/>
+            uidisse equum album et equitem coronatum habentem arcum <lb/>
+            — hoc enim in primo factum est —, postquam ascendit in <lb/>
+            caelis dominus noster, aperuit uniuersa et emisit spiritum <lb/>
+            sanctum. cuius uerba per praedicatores tamquam sagittae ad<lb n="5"/>
+            cor hominum pergerent et uincerent incredulitatem. corona <lb/>
+            autem est praedicatoribus super caput promissa per spiritum <lb/>
+            sanctum. ceteri tres equi: famem, (bella) et pestilentiam in <lb/>
+            euangelio dominus ostendens praedicata manifeste significat; <note type="margin">6, 1
+            </note>
+ideoque ait: unum de animalibus, quia omnia quattuor unum<lb/>
+            sunt. ueni autem et uide: \'ueni\' dicitur inuitato ad fidem et <lb n="10"/>
+            \'uide\' dicitur ei qui non uidebat. ergo equus albus uerbum <lb/>
+            praedicationis cum spiritu sancto in orbem missum: ait enim <lb/>
+            dominus: praedicabitur hoc euangelium in toto orbe <lb/>
+            terrarum in testimonium omnibus gentibus [fol. 11\']<lb/>
+            et tunc ueniet finis.
+
+<note type="footnote"> 1 <hi rend="italic">a uerbis</hi> aperto primo sigillo <hi rend="italic">usque ad uerbum</hi> magni <hi rend="italic">p. 71,</hi> 7 <lb/>
+            <hi rend="italic">cf. Beatum p. 293</hi> 8 cf. Apoc. 6, 5. 4. 8 14 Mattli. 24, 14 <lb/>
+            <hi rend="italic">1 aperte signo id est sigillo A</hi> 8 <hi rend="italic">bella om. A; infra (p. 70, 1. G)<lb/>
+             fames et bella memorantur</hi> 9 manifeste <hi rend="italic">scripsi,</hi> manifesta <hi rend="italic">A</hi> </note> <lb n="15"/>
+             
+
+<pb n="69"/>
+<pb n="70"/>
+            
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> <note type="margin"> 6, 5 </note> Equus autem niger famem significat; ait enim dominus: <lb/>
+            et erit fames per loca. proprie autem extendit se uerbum <lb/>
+            usque ad Antichristum, id est tempora, quando magna famis <lb/>
+            est futura quandoque et homines laedentur. 
+</p>
+          <p><note type="margin">6, 4 </note> Equus rufus et qui sedebat super illum habens<lb n="5"/>
+            gladium: bella sunt, quae futura significat, ut legimus in euangelio: <lb/>
+            surget enim gens aduersus gentem et regnum <lb/>
+            aduersus regnum et erit terrae motus magnus. hic est <lb/>
+            equus rufus.
+
+<note type="footnote"> 2 Mattli. 24, 7 7 Luc. 21, 10. 11 </note>
+
+<note type="footnote"> 3 famis <hi rend="italic">A, cf. Georges, Wortformen p. 268</hi> 5 ruffus <hi rend="italic">A</hi> 6 significat <lb/>
+            <hi rend="italic">scripsi,</hi> significant <hi rend="italic">A</hi> </note> 
+
+<pb n="71"/>
+<pb n="72"/>
+             
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> <note type="margin">6, 8 </note> Equus autem pallidus, et qui sedebat super illum <lb/>
+            nomen habebat mors. haec eadem quoque inter ceteras <lb/>
+            clades praedicauerat dominus: uenturas pestes et mortalitates. <lb/>
+            cum enim dicat: et infernum sequitur illum. id est <lb/>
+            ut dicat deuorationem animarum multarum impiarum. hic est<lb n="5"/>
+            equus pallidus. 
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p> <note type="margin"> 6, 9 </note> Animas autem occisorum uidisse sub ara id est sub <lb/>
+            terra. (al\'a) enim et caelum et terra dicuntur, sicut lex imaginaria <lb/>
+            ueritatis faciem meditata [<choice><sic>adj</sic><corr>ad</corr></choice> duas aras, auream intrinsecus <lb/>
+            (et aeream extrinsecus), fecerat. nos autem intellegimus<lb n="10"/>
+            aram caelum dici a domino nostro nobis testimonium
+
+<note type="footnote">3 cf. Matth. 24, 7 7 <hi rend="italic">cf. Beatum p. 301</hi> 9 cf. Es. 30, 3 et 27, 2 </note>
+
+<note type="footnote"> 4 infernurn] <hi rend="italic">item p. 74, 11</hi> illud <hi rend="italic">A</hi> id est <hi rend="italic">ponit post</hi> deuorationem <lb/>
+            <hi rend="italic">A</hi> 8 ara <hi rend="italic">om. A</hi> lex imaginaria = 6 vojj.o&lt;; 6 etxovt*6? <lb/>
+            9 ad <hi rend="italic">uncis inclusi</hi> 10 et aeream extrinsecus <hi rend="italic">om. A</hi> </note> 
+
+<pb n="73"/>
+<pb n="74"/>
+            perhibente; ait enim: (cum offeres munus tuum) ad aram <lb/>
+            — utique munera nostra orationes sunt quas efficere debemus <lb/>
+            — et ibi recordatus fueris habere aliquid fratrem <lb/>
+            tuum aduersus te, relinque ibi munus [fol. IP] <lb/>
+            tuum: utique ad caelum ascendunt orationes. sicut ergo caelum<lb n="5"/>
+            intellegitur ara aurea, quae erat interior — nam et sacerdos <lb/>
+            semel introibat in templum in anno, qui habebat Christi <lb/>
+            mandatum, ad aram auream; significabat spiritum sanctum <lb/>
+            hoc esse facturum, id est quod passus est, semel factum <lb/>
+            est —, sic et aerea terra intellegitur, sub qua est infernum,<lb n="10"/>
+            remota a poenis et ignibus regio, requies sanctorum, in <lb/>
+            qua quidem uidentur ab impiis et audiuntur iusti, sed neque <note type="margin"> 6, 10 </note> <lb/>
+            illi ad illos transire possunt. hos ergo tantos, id est animas <lb/>
+            occisorum, expectare uin dic tam sanguinis, idest corporis <lb/>
+            sui, de habitantibus super terram uoluit nos cognoscere<lb n="15"/>
+            qui omnia uidet. sed quoniam in nouissimo tempore et sanctorum <lb/>
+            remuneratio perpetua et impiorum uentura. est damnatio, <lb/>
+            dictum est \'expectare\'; et pro corporis <choice><sic>sni</sic><corr>sui</corr></choice> solatio
+
+<note type="footnote"> 1 Matth. 5, 23. 24; cf. Carm. adu. Marcion. IV 182-185: <lb/>
+            Ara nitens auro caelum declarat in alto, <lb/>
+            Quo sanctae subiere preces sine crimine missae. <lb/>
+            Hanc aram dominus dixit, qua munera si quis <lb/>
+            Offert, ut primum pacem cum fratre retractet. </note>
+
+<note type="footnote"> 6 cf. Ex. 30, 10 et Hebr. 9, 7 8 cf. Hebr. 9, 8 11 cf. Carm. adu. <lb/>
+            Marcion. IV 145 sq.: <lb/>
+            Altior a tenebris, longe semotus ab igne, <lb/>
+            Sub terra tamen, haec ara uocatur ahena. </note>
+
+<note type="footnote"> 12 cf. Luc. 16, 26 </note>
+
+<note type="footnote"> 1 cum .. tuum <hi rend="italic">om. A</hi> 2 utique] itaque <hi rend="italic">A</hi> 3 recordatus fueris] <lb/>
+            recordare debemus si <hi rend="italic">A</hi> 7 habebant <hi rend="italic">A</hi> Christi mandatum] <hi rend="italic">cf. <lb/>
+            p. 64, 20</hi> 8 spiritum sanctum] <hi rend="italic">scil</hi>. spiritum sanctum in persona <lb/>
+            Christi, <hi rend="italic">cf. p. 8, 12-17</hi> 10 Si cetera a terra <hi rend="italic">A; distinguendum est:</hi> <lb/>
+            sic et eraa <hi rend="italic">(pro</hi> aerea) terra 11 regio] regit <hi rend="italic">A</hi> 18 <hi rend="italic">post</hi> est <hi rend="italic">add</hi>. <lb/>
+            autem <hi rend="italic">A</hi> spectare <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="75"/>
+<pb n="76"/>
+            <note type="margin"> 6, 11 </note> <lb/>
+            acceperunt, inquit, stolas albas, id est donum spiritus <lb/>
+            sancti.
+
+<note type="footnote"> 2 sancti] <hi rend="italic">finitur capituli Apocalypsis sexti explanatio Victorini. ne <lb/>
+            tota pagella vacaret, ad illustrar clam Hieronymi recensionem, quae in <lb/>
+            aciuersa pagina descripta est, Jiic addere placuit eos locos, quos Beatus <lb/>
+            ex Ticonii commentariis deprompsit (cf. ree. Hieron. VI 5):</hi> <lb/>
+            In hoc (sexto) sigillo persecutio est <hi rend="italic">[p</hi>. 3&lt;9S] nouissima .... Quod dicit <lb/>
+            factum solem tamquam cilicium, id est: incredulis obscurabitur splendor <lb/>
+            doctrinae. quod est sol, hoc est luna, hoc stellae, id est ecclesia; sed a <lb/>
+            toto pars intellegitur.... In nouissimo uero Antichristi aduentu, luna <lb/>
+            quod dicit facta est sanguis, ecclesia sanctorum ostenditur pro Christo <lb/>
+            sanguinem fundere. stellas quas dicit cadere, id est fideles perturbari.... <lb/>
+            [p. 309] Quemadmodum ficus agitata iactat grossos suos, id est ficos <lb/>
+            uanos, qui boni uidebantur et non erant... , tales sunt hypocritae et <lb/>
+            simulatores intra ecclesiam, qui in tempore pacis uni esse uidentur cum <lb/>
+            ecclesia. sed mox ut persecutionis tempus aduenerit, excutiuntur ab ecclesia <lb/>
+            ... Caelum semper ecclesiam intellegimus; quod terrae motu facto <lb/>
+            recedere &lt;dicit), id est de medio <hi rend="italic">fieri 310]</hi> Caelum et montes <lb/>
+            et insulae, hoc totum unam ecclesiam dixit, facta nouissima persecutione <lb/>
+            Antichristi omnem de loco suo recessisse. sed potest in utramque partem <lb/>
+            conuenire, id est in bonos et malos, quia bona pars monebitur de loco <lb/>
+            suo fugiens et mala pars mouebitur de loco suo, id est perdet gratiam... </note> <lb/>
+             
+
+<pb n="77"/>
+<pb n="78"/>
+            
+</p>
+          <p>
+
+
+<note type="footnote"><p>
+<hi rend="italic">De Victorini editione conferantur quae ad pag. 76, 2 adnotauimus. <lb/>
+            pajfellae albae utimur opportunitate. ut sectionem 6 textus Hieronymiani, <lb/>
+            quae in aduersa pagina lin. 7-13 legitur, ab llippolyto originem ducere <lb/>
+            doceamus; nam Hippolyti capita contra Caium, quorum fragmenta apud <lb/>
+            Dionysium Bar-Salibi exstant, haec exhibent uerba e lingua Syrorum <lb/>
+            in nostram Germanorum icersa:</hi> Nicht von den Engeln sagt er, daB sie <lb/>
+            zum Kriege kommen, sondern daB vier Volker sich von der Gegend am <lb/>
+            Euphrat aufmachen und tiber die Erde kornmen und die Menschheit bękriegen. <lb/>
+            DaB er aber sagt \'vier Engel\', ist den Schriften nicht unbekannt; <lb/>
+            (denn) Mose sagt: Als er die Menscbenkinder zerstreute, errichtete er die <lb/>
+            Grenze der Volker nach der Zahl der Engel Gottes. Indem also die Volker <lb/>
+            den Engeln iibergeben wurden uncI eiJl jedes Volk je einem Engel zufiel, <lb/>
+            so hat Johannes recht, wenn er in der Offenbarung sagt: LOse diese vier <lb/>
+            Engel, welches sind die Perser, die Meder, die Babylonier und die Assyrer. <lb/>
+            Da niimlicli jene Engel, die den Volkern zuerteilt wurden, nicht den <lb/>
+            Befehl haben, die ihnen Zuerteilten aufzureizen, so ist damit eine gewisse <lb/>
+            Gebundenheit durch die Macht des Wortes ausgedriickt, welches sie <lb/>
+            zuriickhalt, bis der Tag kommen und der Herr des Alls befehlen wird. <lb/>
+            Und dies geschieht, weim der Antichrist kommt. (Hippolytus Werke, herausgegeben von Bonwetsch und Achelis, erster Band, zweite Halfte, <lb/>
+            Leipzig 1897, S. <hi rend="italic">243). Hieronymum autem uidemus loci ex Deut. 32, 8 <lb/>
+            hic laudati alibi similiter mentionem facere, cf. in Danielem librum c. 7:</hi> <lb/>
+            Quattuor uentos caeli quattuor arbitror angelicas potestates, quibus <lb/>
+            principalia regna commissa sunt, iuxta illud quod in Deuteronomio legi- mus: quando diuidebat altissimus gentes, quando separabat filios Adam, <lb/>
+            constituit terminos populorum iuxta numerum angelorum dei <hi rend="italic">(XXV 527. <lb/>
+            528 M; praeterea cf. ibid. 267 B, 420 A,</hi> 555 <hi rend="italic">U, 1206 C)</hi>. 
+</p>
+          <p><hi rend="italic">Ad lin. 9-13 cf. Commodiani carm. apolog. u. 891 sq.:</hi> <lb/>
+            Exurget iterum in istius clade Neronis <lb/>
+            Rex ad orientem cum quattuor gentibus inde. 
+</p>
+          <p><hi rend="italic">Quae leguntur in Hieronymi recensione VI 7, conferantur cum uerbis<lb/>
+             Primasii, Comment. in Apocal. III (LXVIII 851 JJI):</hi> Quos ante singulatim <lb/>
+            nominauerat, nunc in unitate consociat: stantes ante thronum <lb/>
+            et in conspectu agni et erant amicti stolis albis et palmae fuerunt in <lb/>
+            mallibus eorum .... stolis baptismum, palmis triumphum crucis insinuat. <lb/>
+
+</p>
+</note>             
+
+<pb n="79"/>
+<pb n="80"/>
+            
+</p>
+          <p><hi rend="italic">De Victorini editione, quod attinet ad cap. VI, conferantur quae ad <lb/>
+            pag. 76, 2 adnotauimus. recensionis Hieronymi cap. VI <choice n="3.56"><sic n="1">sect</sic><corr n="28081">sed</corr></choice>. 8, quae<lb/>
+             in aduersa pagina lin. 6-9 repraesentatur, ex Ticonii commentariis <lb/>
+            deprompta exstat in Ps.-Augustini homil. in Apocal. VI (XXXV 2427. <lb/>
+             2428 bis M), apud Primasium (LXVIII 854 M), apud Beatum p. 357</hi>. 
+</p>
+
+</div>
+
+</div>
+
+<div n="7" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. VII. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p><note type="margin"> 7, 2 </note> Angelum autem descendentem ab oriente sole: Heliam <lb/>
+            prophetam dicit, qui anticipaturus est tempora Antichristi ad <lb/>
+            restituendas ecclesias et stabiliendas ab intolerabili persecutione. <lb/>
+            haec in apertione libri et ueteris testamenti et nouae praedicationis<lb n="5"/>
+            legimus; ait enim dominus per Malachiam: ecce ego mitto <lb/>
+            uobis Heliam Thesbiten, conuertere corda patrum ad
+
+<note type="footnote"> 6 Mal. 4, 5. 6 </note>
+
+<note type="footnote"> 5 apertione] perditione <hi rend="italic">A</hi> nouae <hi rend="italic">scripsi,</hi> noui <hi rend="italic">A</hi> 6 mitto = <lb/>
+            ajiooteXXtu LXX </note> <lb/>
+             
+
+<pb n="81"/>
+<pb n="82"/>
+            filios et cor hominis ad proximum suum, id est ad <lb/>
+            Christum per paenitentiam; [fol. <sic n="poss">12rJ</sic> \'<sic>connertere</sic> corda patrum <lb/>
+            ad filios\': secundum tempus uocationis Iudeos ad sequentis <lb/>
+            populi fidem reuocare. et ideo ostendit etiam numerum ex <lb/>
+            <sic>Iudeis</sic> crediturum et ex gentibus magnam multitudinem. <lb n="5"/>
+            
+</p>
+
+</div>
+
+</div>
+
+<div n="8" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. VIII. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> Mitti autem de caelo orationes ecclesiae ab angelo et suscipi <lb/>
+            eas et contra effundi iram et scotomari regnum Antichristi <lb/>
+            per angelos sanctos et in euangelio legimus; ait enim: <lb/>
+            orate, ne incidatis in temptationem. erit enim angustia<lb n="10"/>
+            magna, qualis non fuit ab initio nec ab origine mundi, <lb/>
+            et nisi dominus breuiasset dies illos, non esset salua <lb/>
+            ulla caro super terram. hos ergo archangelos magnos VII <lb/>
+            ad percutiendum regnum Antichristi mittet. nam et ipse <lb/>
+            dominus dixit in euangelio: tunc filius hominis mittet<lb n="15"/>
+            nuntios suos et colligent electos eius de IIII uentis <lb/>
+            a finibus caeli usque ad fines eius. et ante ait: tunc
+
+<note type="footnote"> 5 cf. Apoc. 7, 4-9 7 cf. ibid. 8, 3 sqq. 8 cf. ibid. 8, 6 sqq. <lb/>
+            10 Matth. 26, 41 (= Marc. 14, 38; Luc. 22, 46) Matth. 24, 21. 22 <lb/>
+            cf. Marc. 13, 19. 20 15 Matth. 24, 31 17 Mich. 5, 5. 6 </note>
+
+<note type="footnote"> 3 ad sequentis] adsequentis <hi rend="italic">A</hi> 8 effudit <hi rend="italic">A</hi> scotomari <hi rend="italic">scripsi,</hi> percuti <lb/>
+            <hi rend="italic">A, cf. quod subsequitur lin. 14:</hi> ad percutiendum regnum 9 ait enim], <lb/>
+            enim ait <hi rend="italic">A</hi> 16 colligent <hi rend="italic">scripsi,</hi> colliget <hi rend="italic">A</hi> — ircioovdaEt, <hi rend="italic">cui lectioni<lb/>
+             non desunt testes</hi> </note> <lb/>
+             
+
+<pb n="83"/>
+<pb n="84"/>
+            erit pax terrae, cum surrexerint in ea VII pastores <lb/>
+            et octo morsus (hominum) et indagabunt Assur-id est <lb/>
+            Antichristum — in fossam Nebroth: in damnationem diaboli. <lb/>
+            etEcclesiastes similiter dixit: <choice n="2.34"><sic n="1">curn</sic><corr n="42581">cum</corr></choice> commoti fuerint custodes <lb/>
+            domus. ipse autem dominus sic ait: cum uenissent ad <lb n="5"/>
+            eum operarii et dixerunt ei: domine, nonne bonum <lb/>
+            semen seminasti in tuo agro? unde ergo ibi lolium? <lb/>
+            respondit eis: inimicus hoc fecit. qui dixerunt: uis <lb/>
+            imus eradicamus illud? dicit eis: non, sinite utraque <lb/>
+            ut crescant usque ad messem, et in tempore. inquit,<lb n="10"/>
+            dicam messoribus [fol. 12VJ colligere lolium et in ignem <lb/>
+            mitti, triticum autem in horrea recondere. hos messores <lb/>
+            et operarios hic apocalypsis archangelos esse ostendit. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> \'Tuba\' autem uerbum est potestatis; et licet repetat per <lb/>
+            \'fialas\', non quasi factum esse dicat, sed quoniam semel, quod
+
+<note type="footnote"> 4 Eccle. 12, 3 5 Matth. 13, 27-30 14 cf. Apoc. 8, 6 15 cf. <lb/>
+            ibid. 15, 7 </note>
+
+<note type="footnote"> 2 hominum <hi rend="italic">om. A</hi> indagabunt <hi rend="italic">respondere uidetur uerbo</hi> <foreign xml:lang="grc">πημανου̃σιν</foreign> <lb/>
+            <hi rend="italic">pro</hi> ┊┊<foreign xml:lang="grc">ιμανοῡσιν</foreign>(pascent <hi rend="italic">Vulg.)</hi> 11 lolhim <hi rend="italic">Am2,</hi> illum <hi rend="italic">Am1</hi> <lb/>
+            15 nonJ <hi rend="italic">scil</hi>. repetit factum <hi rend="italic">oppositum est sequenti</hi> futurum ("nicht <lb/>
+            als ob er sagte, dafi es schon \'geschehen sei") </note> <lb n="15"/>
+             
+
+<pb n="85"/>
+<pb n="86"/>
+            futurum est ad eos, decretum est eis ut fiat, ideo bis dicitur. <lb/>
+            quicquid igitur in tubis minus dixit, id in fialis propensius <lb/>
+            dixit. nec aspiciendus est ordo dictorum, quoniam septiformis <lb/>
+            spiritus sanctus, ubi ad nouissimum temporis finemque percucurrit, <lb/>
+            redit rursus ad eadem tempora et supplet quae minus<lb n="5"/>
+            dixit. nec requirendus est ordo in apocalypsi, sed intellectus <lb/>
+            requirendus; est enim et pseudoprophetia. sunt igitur scripta <lb/>
+            quae sunt in tubis et in fialis ant plagarum orbi missarum <lb/>
+            <sic n="poss">clades1</sic>) aut ipsius Antichristi <sic n="poss">insania2</sic>) aut populorum detractatio <lb/>
+            3) aut plagarum <sic n="poss">differentia4</sic>) aut spes in regno <sic n="poss">sanctorum5</sic>)<lb n="10"/>
+            aut ruina ciuitatum Ii) aut <choice><sic>rnina</sic><corr>ruina</corr></choice> Babylonis. id est ciuitatis <lb/>
+            <sic n="poss">Romanae7</sic>). 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> <note type="margin"> 8, 13 </note> Aquila uolans medio caelo: spiritus sanctus significatur <lb/>
+            in duobus prophetis contestans magnam plagarum iram imminere. <lb/>
+            si quo modo, quamuis sit nouissimum tempus, aliquis<lb n="15"/>
+            adhuc saluus esse possit.
+
+<note type="footnote"> \') cf. Apoc. 8, 7 et 16. 2 2) cf. ibid. 8, 8. 9 et l(j, o 3) cf <lb/>
+            ibid. 8, 10. 11 et 16, 4-7 *) cf. ibid. 8, 12 et 16, 8. 9 ■&gt;) cf. ibid <lb/>
+            9, 1 sqq. et 16, 10. 11 6) cf. ibid. 9, 13 sqq. et 16, 12-16 7) c-f. <lb/>
+            ibid. 11, 15 et 16,17-21 14 cf. ibid. 11, 3 </note>
+
+<note type="footnote"> 2 minus dixit = <foreign xml:lang="grc">ὲμει</foreign>4 sancti .1 percucurrit <hi rend="italic">scripsi,</hi> per- <lb/>
+            <hi rend="italic">currit A 5 reddit Aml 6 sed scripsi, et A</hi> 7 pseudoprophetiaj <lb/>
+            <hi rend="italic">uerte:</hi> es gibt namlich auch eine lalsche Auslegung 9 insaniam <hi rend="italic">A</hi> <lb/>
+            11 Bahilonis A </note> <lb/>
+             
+
+<pb n="87"/>
+<pb n="88"/>
+             
+</p>
+
+</div>
+
+</div>
+
+<div n="10" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. X. </title> </ab>
+         <div n="1" subtype="section" type="textpart">
+<p> <note type="margin"> 10, 1. 2 </note>  <lb/>
+            Namque angelum fortem. quem dicit descendisse <lb/>
+            de caelo. amictum nubem - et iris super caput <lb/>
+            eius et facies eius tamquam sol et pedes eius <lb/>
+            tamquam columna ignis- et habentem in manu sua<lb n="5"/>
+            librum apertum — et posuit pedes suos supra mare <lb/>
+            et terram — [fol. <sic n="poss">13rJ</sic> dominum nostrum significat, sicut superius <lb/>
+            enarrauimus de \'facie eius tamquam solis\', id est de resurrectione; <lb/>
+            super caput autem eius irim iudicium, quod <lb/>
+            factum aut facturus est. liber autem apertus apocalypsis<lb n="10"/>
+            est quam accepit Iohannes. pedes eius et superius diximus <lb/>
+            conflatos\' esse apostolos. nam calcari ab eo et mare et terram. <lb/>
+            omnia pedibus eius subdita significat. angelum illum dicit, <lb/>
+            id est nuntium patris omnipotentis; uocatur enim <choice><sic>mag</sic><corr>magni</corr></choice> ni
+
+<note type="footnote"> - <lb/>
+            7 <hi rend="italic">cf. p. 20, 6-11</hi> 11 <hi rend="italic">cf. p. 26, 3</hi> 14 Esai. 9. 6 <lb/>
+            11 quam] <hi rend="italic">quem A 12 terra A 14 icl est scripsi, esse A</hi> </note> 
+
+<pb n="89"/>
+<pb n="90"/>
+             <note type="margin">10, 3 </note> <lb/>
+            consilii nuntius. clamasse uoce magna: uox magna est <lb/>
+            caelestis, omnipotentis dei uerba hominibus nuntiare, quoniam <lb/>
+            post clausam paenitentiam spes postea futura non est. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> <note type="margin"> 10, 31 </note> Septem tonitrua locuta uoces suas: spiritus septiformis <lb/>
+            uirtutis per prophetas protestatus omnia futura uoce<lb n="5"/>
+            illius in saeculo testimonium reddidit. sed quia dicit se scripturum <lb/>
+            fuisse, quanta tonitrua locuta fuissent, id est, quaecumque <lb/>
+            in ueteri testamento erant obscure praedicata, uetatur <lb/>
+            scribere, sed requirere et relinquere. quia erat apostolus, non <lb/>
+            oportebat gratiam sequentis gradus in primo uiro collocari,<lb n="10"/>
+            quia tempus iam prope est. apostoli enim uirtutibus <lb/>
+            signis portentis magnalibus factis uicerunt incredulitatem. post <lb/>
+            illos iam fide confirmatis ecclesiis datum solatium propheticarum <lb/>
+            scripturarum [fol. <sic n="poss">13v</sic>] interpretandarum, quos interpretes <lb/>
+            prophetas dixit. ait enim apostolus: et posuit quidem in<lb n="15"/>
+            ecclesia primum apostolos, secundo prophetas, <lb/>
+            tertio doctores et reliqua. et alio loco ait: prophetae <lb/>
+            duo uel tres dicant et ceteri aestiment. et dicit: omnis
+
+<note type="footnote"> 6 cf. Apoc. 10, 4 11 Apoc. 1, 3 et 22, 10 15 I Cor. 12, 28 <lb/>
+            17 I Cor. 14, 29 18 I Cor. 11, 5 </note>
+
+<note type="footnote"> <hi rend="italic">4 spiritum A 5 protestatos A 1 quemcuinque A</hi> 10 sequentis <lb/>
+            gradus <hi rend="italic">id est</hi> prophetarum; in primo <hi rend="italic">uiro id est</hi> in apostolo, <hi rend="italic">quia seeundum<lb/>
+             I Cor. 12, 28 primum locum tenent in ecclesia apostoli, secundum <lb/>
+            prophetae</hi> 12 portentis <hi rend="italic">scripsi,</hi> potentibus <hi rend="italic">A</hi> 13 confirmatos <hi rend="italic">A</hi> <lb/>
+            ecclesiis] et legis <hi rend="italic">A</hi> 15 apostolus] Paulus <hi rend="italic">add. A in marg</hi>. 16 ecclesiam <lb/>
+            <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="91"/>
+<pb n="92"/>
+            mulier orans aut prophetans non uelato capite <lb/>
+            deturpat caput suum. cum autem dicat: prophetae duo <lb/>
+            uel tres dicant, ceteri aestiment, non de catholica prophetia <lb/>
+            dicit <choice><sic>iuaudita</sic><corr>inaudita</corr></choice> et incognita, sed iam praedicata; aestiment <lb/>
+            autem, utrumne interpretatio cum testimoniis congruat<lb n="5"/>
+            dictionis propheticae. constat ergo hoc Iohanni non fuisse <lb/>
+            necessarium superiori uirtute armato, cum corpus Christi sit <lb/>
+            ecclesia suis membris ornatum et suo loco respondere debeat. 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> <note type="margin"> 10, 10 </note> Accipere autem libellum et comedere eum ostensionem <lb/>
+            significatam memoriae est mandare. dulce esse in<lb n="10"/>
+            ore praedicationis est fructus loquenti et audientibus dulcissimus, <lb/>
+            sed praedicanti et perseuerantibus in mandatis per <note type="margin"> 10, 11 </note> <lb/>
+            passiones amarissimus. oportet, inquit, iterum praedicare, <lb/>
+            id est prophetare, in populis, linguis et nationibus: <lb/>
+            hoc est, quoniam, quando hoc uidit Iohannes, erat in insula<lb n="15"/>
+            Pathmos, in metallo damnatus a Caesare Domitiano. ibi ergo <lb/>
+            uidetur Iohannes apocalypsim [fol. <sic n="poss">14r</sic>] conscripsisse et cum <lb/>
+            iam seniorem se putasset post passionem recipi posse, interfecto <lb/>
+            Domitiano omnia iudicia eius soluta sunt et Iohannes
+
+<note type="footnote"> 2 I Cor. 14, 29 18 interfecto Domitiano] <hi rend="italic">cf. Hieronymi chronicon <lb/>
+            ad annum 211«? (Eusebii chron. ed. Schoene II 163):</hi> Senatus decreuit, <lb/>
+            ut omnia quae Domicianus statuerat in irritum deducerentur... <lb/>
+            Aiunt et apostolum Iohannem hoc tempore exilio solutum Efesum secessisse, <lb/>
+            in qua urbe et hospitiolum et amicos amantissimos sui habebat </note>
+
+<note type="footnote"> <hi rend="italic">2 deturpat scripsi, detur pereat A</hi> 5 autem] <hi rend="italic">aut A</hi> 6 dictio profetica <lb/>
+            <hi rend="italic">A</hi> 7 armatos <hi rend="italic">A</hi> 8 ecclesia <hi rend="italic">subiecti locum tenet</hi> 9 ostensionem <lb/>
+            =--= SsTyF-01; Schaustuck, <hi rend="italic">cf</hi>. erit in ostensionem sicut terebinthus <lb/>
+            <hi rend="italic">Esai. 6, 13 (Vulg.)</hi> 10 memoria <hi rend="italic">A</hi> 13 amarissimas <hi rend="italic">A</hi> 16 Pathmos <lb/>
+            <hi rend="italic">scripsi,</hi> Partha <hi rend="italic">A, quae lectio quodam modo cohaerere uidetur cum inscriptione <lb/>
+            epistularum Iohannis:</hi> ad Parthos <hi rend="italic">(cf. Th. Zahn, Forschungen<lb/>
+             zur Geschichte des neutest. Kanons III 100)</hi> metello <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="93"/>
+<pb n="94"/>
+            de metallo dimissus est et sic postea tradidit hanc eandem <lb/>
+            <sic>apocalypsim</sic> quam a domino acceperat. hoc est: iterum prophetare <lb/>
+            oportet. 
+</p>
+
+</div>
+
+</div>
+
+<div n="11" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. XI. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> <note type="margin"> 11, 1 </note> Accepisse autem illum <sic>arundinem</sic> similem uirgae,<lb n="5"/>
+            ut <sic>metiret</sic> templum dei et aram et adorantes in <lb/>
+            ea, potestatem dicit, quam dimissus postea exhibuit ecclesiis. <lb/>
+            nam et euangelium postea conscripsit. cum essent enim
+
+<note type="footnote"> 5 et accepisse autem <hi rend="italic">A</hi> harundinem <hi rend="italic">A</hi> 7 metiret, <hi rend="italic">cf. Georges, <lb/>
+            Wortformen p. 422 et Matth</hi>. 7, 2 <hi rend="italic">(Vulg.):</hi> remetietur = <foreign xml:lang="grc">μετρηϑήσετϰι</foreign>. <lb/>
+            7 potestate <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="95"/>
+<pb n="96"/>
+            Valentinus et Cerinthus et Ebion et cetera scola (satanae) sparsa <lb/>
+            per orbem, conuenerunt ad illum de finitimis ciuitatibus <lb/>
+            episcopi et compulerunt eum, ut ipse testimonium conscriberet <lb/>
+            in dominum. (mensura) autem fidei est mandatum <lb/>
+            domini nostri, patrem confiteri omnipotentem, ut didicimus. <lb n="5"/>
+            et huius filium dominum nostrum Iesum Christum ante originem <lb/>
+            saeculi spiritaliter apud patrem genitum, factum hominem <lb/>
+            et morte deuicta in caelis cum corpore a patre receptum, <lb/>
+            sanctum dominum et pignus inmortalitatis, hunc per prophetas <lb/>
+            praedicatum. hunc per legem conscriptum, hunc per manum dei et<lb n="10"/>
+            per uerbum patris omnipotentis et conditorem orbis totius mundi. <lb/>
+            haec est arundo et mensura fidei. ut nemo adoret ad aram sanctam, <lb/>
+            nisi qui haec confitetur: dominum et Christum eius. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p rend="script"> <note type="margin"> 11, 2 </note> [fol. 14v] Aulam autem interiorem eice foras. aula <lb/>
+            atrium dicitur, uacua inter parietes area. hos tales non neces-<note type="margin">11, 2 </note> <lb n="15"/>
+            sarios eici iussit de ecclesia. quia data est, inquit, calcari <lb/>
+            &lt;a&gt;g e n t i b u s, id est huiusmodi homines aut a gentibus aut cum <lb/>
+            gentibus conculcari. deinde repetit de nouissimi temporis ruina
+
+<note type="footnote">4 cf. Apoc. 11, 1 9 sanctum dominum et pignus inmortalitatis == <lb/>
+            afiov xuowv (cf. Apoc. 6, 10: 6 <foreign xml:lang="grc">δεσπότνς</foreign> o <hi rend="italic">aytoc) v.oc:</hi> apoaaujva "C"jÇ (I.aa- <lb/>
+            <hi rend="italic">vaataq</hi> (cf. Epli. 1, 14\\ <hi rend="italic">qui a patre spiritum flloriac recepit (cf. p. 18, <lb/>
+            18; 26, 9 etc.), ut eum in credentes effunderet. ipse sanctus dominits <lb/>
+            et pignus inmortalitatis nominatur</hi> 10 per manum dei] cf. Esai. 66, 2 <lb/>
+            et Act. 7, 50 13 dominum et Christum eius] cf. Ps. 2, 1 et Act. 4, 26; <lb/>
+            <hi rend="italic">haec uerba ab Hieronymo repudiata Victorini quem dicunt binitarismum <lb/>
+            demonstrant, cf. TV. MacJiolz, Spuren binitarischer Denkweise im Abendlande<lb/>
+             seit Ttrtullian, 1002, p. 16-20</hi> </note>
+
+<note rend="script" type="footnote"> 1 Corinthus <hi rend="italic">A</hi> Thesbion <hi rend="italic">A</hi> cetera scola satanae sparsa <hi rend="italic">scripsi coll. <lb/>
+             Apoc. 2,</hi> 9, ceteras scolas sparsas <hi rend="italic">A</hi> scola, <hi rend="italic">cf. Georges, Wortformenp. 622</hi> <lb/>
+            3 ut <hi rend="italic">scripsi,</hi> et <hi rend="italic">A</hi> 7 spiritalem <hi rend="italic">a</hi> 9 fcm dntn (= sanctum dommum) <hi rend="italic">A; <lb/>
+            codicis lectio dub a non est. nam quamquam</hi> sanctus <hi rend="italic">quattuor litterarum<lb/>
+             siglo designari solet (fol. P l. 12:</hi> fcti, <hi rend="italic">cf. p. 18, 3; fol. 3V l. 14:</hi> a <lb/>
+            fpu fcto <hi rend="italic">etc.), tamen non deest aliud exemplum trium litterarum:</hi> accipient <lb/>
+            fci <hi rend="italic">(fol. 22r l. 3), cuius scripturae multa exempla L. Traube in <lb/>
+            libro \']\\.\'omina Sacra, Versuch einer Geschichte der christlichen Kurzung <lb/>
+            1907, praebuit (el. p. 194 sqq.)</hi> 12 harundo <hi rend="italic">A</hi> 14 eiici <hi rend="italic">A</hi> 15 hos tales <lb/>
+            = Tab? tqigiutous 16 est <hi rend="italic">scripsi,</hi> sunt <hi rend="italic">A</hi> 17 a <hi rend="italic">om. A</hi> 18 nouissima <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="97"/>
+<pb n="98"/>
+            <note type="margin"> 11, 2. 3 </note> <lb/>
+            et excidio et ait: et ciuitatem sanctam calcabunt <sic>mensibusquadraginta</sic> <lb/>
+            duobus. et dabo duobus testibus <lb/>
+            meis et praedicabunt amicti cilicio diebus mille <lb/>
+            CCLX, id est triennio et mensibus sex; dies mille CC(LX <lb/>
+            faciunt menses) XLII. est igitur illorum praedicatio triennio<note type="margin"> 11, 5 </note> <lb n="5"/>
+            et mensibus sex et regnum Antichristi alterum tantum. de <lb/>
+            ore autem illorum prophetarum exire ignem contra <lb/>
+            aduersarios potestatem uerbi dicit. omnes plagae, quae <lb/>
+            futurae sunt ab angelis, illorum in uoce mittentur. 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p rend="script"> Multi putant cum Helia esse Heliseum aut Moysen, sed<lb n="10"/>
+            utrique mortui sunt. Hieremiae autem mors non inuenitur. <lb/>
+            per omnia ueteres nostri tradiderunt illum esse Hieremiam: <lb/>
+            nam et ipsum uerbum, quod factum est ad illum, testificatur <lb/>
+            dicens: priusquam te figurarem in utero matris tuae, <lb/>
+            noui te et prophetam in gentibus posui te. in gentibus<lb n="15"/>
+            autem propheta non fuit, et ideo utroque diuino, quod <lb/>
+            promisit, <choice><sic>neeesse</sic><corr>necesse</corr></choice> habet et exhibere, ut in gentibus sit propheta.
+
+<note type="footnote"> 10 cf. Mal. 4, 5 et Carm. adu. Marcion. III 149 sq.: <lb/>
+            Nobilis Helias, qui nondum debita mortis <lb/>
+            Gustauit, quoniam rursum uenturus in orbem est. </note>
+
+<note type="footnote"> 11 cf. ibid. III 189 de Hieremia: <lb/>
+            Nulla morte uirum constat neque caede peremptum. </note>
+
+<note type="footnote"> 14 Hier. 1, 5; cf. Carm. adu. Marcion. III 179 sq.: <lb/>
+            Sanctus Hieremias, quem gentibus esse prophetam <lb/>
+            Aeterni uirtus iussit dixitque futurum ... </note>
+
+<note rend="script" type="footnote"> 1 mensibus quadraginta duobus <hi rend="italic">scripsi,</hi> amicti cilicio diebus mille <lb/>
+            CCLX, id est triennio et mensibus sex dies I mille CCXLII <hi rend="italic">A</hi> (id est... <lb/>
+            id <lb/>
+            CCXLII <hi rend="italic">linea transuersa deleuit m2)</hi> 2 et <hi rend="italic">Aml,</hi> gt <hi rend="italic">Am2</hi> 3 amicti <lb/>
+            cilicio <hi rend="italic">hic om. A</hi> 4 dies mille CCLX faciunt menses XLII <hi rend="italic">scripsi,</hi> dies <lb/>
+            mille CCXLII <hi rend="italic">A</hi> 9 mittentur <hi rend="italic">scripsi,</hi> imitentur <hi rend="italic">A post</hi> mittentur <hi rend="italic">add</hi>. <lb/>
+            multi putant eum Heliseum esse. error hic est <hi rend="italic">a; deinde sequuntur<lb/>
+             uerba:</hi> multi putant eum Heliam <hi rend="italic">etc</hi>. 10 cum Helia <hi rend="italic">scripsi,</hi> eum He- <lb/>
+            <hi rend="italic">liam A</hi> 11 Hieremiae <hi rend="italic">scripsi,</hi> Helie <hi rend="italic">A</hi> 12 per omnia — Sia TtavTtuv, <lb/>
+            durchgangig 16 utroque diuinc <hi rend="italic">id est uaticiniis Hier. /, 5 et Apoc. <lb/>
+            11, 3 scriptis</hi> </note> <lb/>
+             
+
+<pb n="99"/>
+<pb n="100"/>
+            hos duo candelabra et duas oliuas dixit: ideo admonuit, ut, <lb/>
+            si in alio <milestone n="15r" unit="folio"/> legens non intellexisti, hic intellegas; in <lb/>
+            Zacharia enim uno ex XII prophetis scriptum est. 
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p> <note type="margin"> 11, 4 </note> Hi sunt duae oliuae et duo candelabra, qui in <lb/>
+            conspectu domini terrae stant, id est in paradiso. hos<lb n="5"/>
+            ergo oportet interfici ab Antichristo post multas plagas sae- <note type="margin"> 11, 7 </note> <lb/>
+            culo infixas, quem dicit ascendisse bestiam de abysso. <lb/>
+            (de abysso) autem eum ascensurum multa testimonia nobis <lb/>
+            in hoc capitulo contrahenda sunt. ait enim Esaias: ecce <lb/>
+            Assur cypressus in monte Libano. «Assul\'&gt;: deprimens;<lb n="10"/>
+            \'cypressus\' excelsus ramosus: id est populus multus; <lb/>
+            <sic>cin</sic> monte Libano\':) in regno regnorum; formosus in germinibus: <lb/>
+            id est fortis in exercitibus. aqua, inquit, nutriuit <lb/>
+            illum: id est multa milia hominum, quae subiecta erunt illi. <lb/>
+            abyssus <sic>auxitillum</sic>: <choice n="1.29"><sic n="1">idest</sic><corr n="77304">est</corr></choice> ructuauit eundem. nam Ezechiel
+
+<note type="footnote"> 3 cf. Zach. 4, 11-14 9 Ezech. 31, 3 13 ibid. 31, 4 15 cf. <lb/>
+            Esai. 8, 7 </note>
+
+<note type="footnote"> 4 liii <hi rend="italic">A</hi> 8 de abysso <hi rend="italic">om. A</hi> 9 Esayas <hi rend="italic">A; falso Victorinus Esaiam<lb/>
+             prophetam laudat pro Ezechiele, cf. lin. 15</hi> 10 <hi rend="italic">pr. asur A alt</hi>. Assur <lb/>
+            .. in monte Libano <hi rend="italic">om. A propter homoeoteleuton</hi> 12 formosum <hi rend="italic">A</hi> <lb/>
+            15 Ezechiel] <hi rend="italic">immo Esaias, cf. notam ad lin. 9</hi> </note> <lb n="15"/>
+             
+
+<pb n="101"/>
+<pb n="102"/>
+            paene eisdem uerbis loquitur [fuisse]. fuisse autem eum in <lb/>
+            regno regnorum et fuisse inter Caesares et Paulus contestatus <lb/>
+            est. ait enim ad Thessalonicenses: si modo tenet, qui <lb/>
+            uidetur, donec de medio tollatur. et tunc apparebit, <lb/>
+            cuius est aduentus secundum efficaciam satanae<lb n="5"/>
+            signis et mendaciis. et ut scirent illum esse uenturum, <lb/>
+            [qui tunc erat uenturus] qui tunc erat princeps, adiecit: <lb/>
+            arcanum malitiae iam molitur, id est, malitiam <lb/>
+            quam facturus est, arcane molitur, sed non uirtute sua nec <lb/>
+            patris (sui) suscitatur sed dei iussu. quare ergo Paulus dixit:<lb n="10"/>
+            idcirco quoniam non ceperunt amorem dei, mittit <lb/>
+            illis deus spiritum erroris. ut omnes persuadeantur <lb/>
+            mendacio, qui non sunt persuasi a ueritate. <lb/>
+            <milestone n="15v" unit="folio"/> Esaias ait: sustinentibus illis lucem ortae <lb/>
+            sunt tenebrae. <lb n="15"/>
+            
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p> Hos prophetas ab eodem interfici manifestat apocalypsis et <note type="margin"> 11, s </note> <lb/>
+            quarta die resurgere, ne quis aequalis deo inueniatur. Sodomam <lb/>
+            autem et Aegyptum dici Hierosolymam actus populi <lb/>
+            persecutoris effecit. diligenter ergo et cum summa sollicitudine
+
+<note type="footnote"> 3 II Thesa. 2, 7b—9 8 ibid. 2, 7a 11 ibid. 2, 10. 11 <lb/>
+            14 Esai. 59, 9 17 cf. Apoc. 11, 11 </note>
+
+<note type="footnote"> 1 fuisse <hi rend="italic">(pr.) uncis inclusi</hi> 5 secundus <hi rend="italic">A</hi> 6 sciret <hi rend="italic">A</hi> 7 qui tunc <lb/>
+            erat uenturus <hi rend="italic">uncis inclusi</hi> 8 malitiam <hi rend="italic">scripsi,</hi> malicie <hi rend="italic">A</hi> 10 sui <lb/>
+            <hi rend="italic">om. A</hi> 12 persuadeant <hi rend="italic">A</hi> 17 deo <hi rend="italic">A,</hi> domino <hi rend="italic">a</hi> Sodoma <hi rend="italic">A</hi> <lb/>
+            19 persecutores <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="103"/>
+<pb n="104"/>
+            sequi oportet propheticam praedicationem et intellegere, quoniam <lb/>
+            spiritus sanctus sparse praedicat et praeposterat et percurrit <lb/>
+            usque ad nouissimum tempus. rursus tempora superiora <lb/>
+            repetit, et quoniam quod facturus est semel, aliquoties quasi <lb/>
+            factum esse ostendit — quod nisi intellegas aliquoties dictum,<lb n="5"/>
+            non aliquoties futurum, in grandem caliginem incidis —, ergo <lb/>
+            interpretatio sequentium dictorum in eo constabit, ut non <lb/>
+            ordo lectionis sed rationis intellegatur. 
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart"><p> <note type="margin"> 11, 19 </note> Apertum esse templum dei quod est in caelo: <lb/>
+            apparitio domini nostri est. templum dei filius ipsius est, sicut<lb n="10"/>
+            ipse ait: soluite templum hoc et in tribus diebus <lb/>
+            suscitabo illud; et dicentibus Iudeis: quadraginta sex <lb/>
+            annis aedificatum est, [unde] ait euangelista: ille de <note type="margin"> 11, 19 </note> <lb/>
+            templo corporis dicebat. arca testamenti: euangelii <lb/>
+            praedicatio et indulgentia delictorum et omnia quaecumque<lb n="15"/>
+            (cum) illo aduenerunt, illud dicit apparuisse. 
+</p>
+
+</div>
+
+</div>
+
+<div n="12" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. XII. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> <note type="margin"> 12, 1. 2 </note> Mulier autem amicta sole et luna sub pedibus, <lb/>
+            habens coronam stellarum XII, parturiens in
+
+<note type="footnote"> 11 Ioh. 2, 19-21 </note>
+
+<note type="footnote"> 2 sparse = eo7tap|XEva)? <hi rend="italic">uel</hi> OTtopaSiqv 8 lectionis <hi rend="italic">scripsi,</hi> dilectionis <hi rend="italic">A</hi> <lb/>
+            13 unde <hi rend="italic">uncis inclusi</hi> 16 cum <hi rend="italic">om. A</hi> </note> <lb/>
+             
+
+<pb n="105"/>
+<pb n="106"/>
+            doloribus suis: ecclesia est antiqua patrum et prophetarum et <lb/>
+            sanctorum [fol. 16\'] apostolorum, quia gemitus et tormenta <lb/>
+            desiderii sui habuit. usque quo factum est ex plebe sua secundum <lb/>
+            carnem suam olim promissum [esse]. sole autem <lb/>
+            amictam: spem resurrectionis significat et gloriae repromissionem.<lb n="5"/>
+            luna uero: casus sanctorum corporum ex debito mortis, <lb/>
+            quod deficere numquam potest. nam quemadmodum minuitur <lb/>
+            uita hominibus. sic et augebitur nec in toto extincta est <lb/>
+            spes dormientium, ut quidam putant, sed habebunt in tenebris <lb/>
+            lucem sicut lunam. stellarum XII coronam: (coronam)<lb n="10"/>
+            patrum significat secundum carnis natiuitatem, ex quibus <lb/>
+            erat spiritus carnem sumpturus. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> <note type="margin"> 12, 3 a. 4 b </note> Draco autem rufus stans expectans, ut cum
+
+<note type="footnote"> 3 <hi rend="italic">uerte:</hi> (die alttestamentliche Gemeinde sehnte sich), bis das einst <lb/>
+            VerheWene in Erfiillung gegangen ist aus ihrem Volk nach ihrem Fleiseh <lb/>
+            secundum <hi rend="italic">scripsi,</hi> secum <hi rend="italic">A</hi> 4 esse <hi rend="italic">uncis inclusi</hi> solem <hi rend="italic">A</hi> 10 coronam <lb/>
+            <hi rend="italic">alt. om. A</hi> 12 fps (= spiritus) <hi rend="italic">DF,</hi> xps (= Christus) <hi rend="italic">A; nomen</hi> <lb/>
+            spiritus <hi rend="italic">Victorini doctrinae congruum esse testimonio est quod p. 8 lin. <lb/>
+             13 legimus, ubi notam in apparatu critico adiunctam ( post</hi> conuersum <lb/>
+            <hi rend="italic">excidisse uidetur</hi> Christum) <hi rend="italic">delendam esse nunc censeo</hi> 13 ruffus <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="107"/>
+<pb n="108"/>
+            peperisset mulier filium, deuoraret eum: diabolus est. <lb/>
+            angelus refuga scilicet, qui omnium hominum interitum per <lb/>
+            mortem aequalem posse esse opinabatur. sed ille qui non de <lb/>
+            semine natus erat, nihil morti debebat; propter quod nec <lb/>
+            deuorare eum potuit, id est in morte destinare. etenim eum<lb n="5"/>
+            temptare accesserat tamquam hominem; sed cum inuenisset <lb/>
+            non illum esse quem putabat. discessit ab eo, inquit, usque <lb/>
+            ad tempus. 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> <note type="margin"> 12, 5 b </note> Hunc dicit raptum esse ad solium dei. id nos legimus <lb/>
+            in Actis apostolorum, quemadmodum loquens cum disci-<note type="margin"> 12, 5 a </note> <lb n="10"/>
+            pulis raptus est in caelis. acturum autem eundem omnes <lb/>
+            gentes in uirga ferrea: (uirga ferrea) gladius est; [fol. <sic n="poss">16v</sic>]
+
+<note type="footnote"> 7 Luc. 4, 13 10 cf. Act. 1, 9 </note>
+
+<note type="footnote"> 2 angelus refuga] <hi rend="italic">saepius in Carm. adu. Marcion. de diabolo (cf. V 2<lb/>
+             etc.), item apud Luciferum Galaritanurn:</hi> de refuga illo angelo <hi rend="italic">(CSEL<lb/>
+             XIIII 67, 1) 3 posse esse scripsi, se esse A 12 uirga ferrea (alt.) <lb/>
+            om. A</hi> </note>
+
+<note type="footnote"> <hi rend="italic">Huius spatii utimur opportunitate, ut apparatus critici ad pag. 109. <lb/>
+             14 pertinentis finem addamus:</hi> </note>
+
+<note type="footnote"> 3) <hi rend="italic">Sg:</hi> propter <hi rend="italic">(om. g)</hi> persecutionem (-is <hi rend="italic">g)</hi> omnes uidi recessisse de <lb/>
+            suis locis (locis suis <hi rend="italic">g):</hi> id (hoc <hi rend="italic">g)</hi> est, boni mouebuntur persecutionem <lb/>
+            fugientes. et filius eius raptus est <hi rend="italic">etc. (= cap. XII u. 5 b). haec recensio<lb/>
+             rectum expositionis ordinem ita restituere studuit, ut</hi> — <hi rend="italic">id quod iam <lb/>
+            diximus</hi> — <hi rend="italic">primum uersum 5 a, deinde u. 5 b explicandum esse censeret</hi>. </note> <lb/>
+             
+
+<pb n="109"/>
+<pb n="110"/>
+            omnes enim gentes [et] sub machina Antichristi contra sanctos <lb/>
+            staturae sunt: gladio, ait, utrumque casurum. 
+</p>
+          <p><note type="margin"> 12, <sic n="poss">3b</sic> </note> Quod autem coloris dixit esse rufi, id est coccinei, operis <lb/>
+            eius fructus talem dedit illi colorem; ab initio enim fuit homicida <lb/>
+            et omne genus humanum non tantum debito mortis quantum<lb n="5"/>
+            per uarias clades ubique oppressit. 
+</p>
+          <p><note type="margin"> 12, 3 b </note> Septem capita: septem reges Romanos, ex quibus et <lb/>
+            Antichristus, in priore dicemus. cornua X: decem reges in <lb/>
+            nouissimo tempore; hos eosdem plenius ibi tractabimus. 
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p> <note type="margin"> 12, 6. 14 </note> Mulierem autem uolasse in deserto auxilio alarum
+
+<note type="footnote"> 4 cf. Ioh. 8, 44 8 <hi rend="italic">cf. pag. 118, 2-11</hi> 9 <hi rend="italic">cf.pag. 118, 15-120, 1</hi> </note>
+
+<note type="footnote"> 1 et <hi rend="italic">uncis inclusi</hi> 2 utrumque] <hi rend="italic">scil. Antichristuni et gentes</hi> 3 ruffi <hi rend="italic">A</hi> <lb/>
+            5 <hi rend="italic">tantum scripsi,</hi> tanto <hi rend="italic">A</hi> 8 in priore = ev ku <foreign xml:lang="grc">επροσϑεν</foreign> (weiterhin, <lb/>
+            im Verfolg der Rede) </note> <lb n="10"/>
+             
+
+<pb n="111"/>
+<pb n="112"/>
+            magnae aquilae — duum scilicet prophetarum —: ecclesiam <lb/>
+            omnem catholicam, in qua nouissimo tempore creditura <lb/>
+            sunt CXLIIII milia sub Helia propheta. ceterum populum <lb/>
+            binum inueniet ibi in aduentum domini nostri Iesu Christi. <lb/>
+            ipse quoque dominus Christus in euangelio ait: tunc qui<lb n="5"/>
+            in Iudea sunt fugiant in montibus, id est, quotquot in <note type="margin"> 12,6.14 </note> <lb/>
+            <sic>ludea</sic> collecti fuerint, eant in illum locum, quem paratum <lb/>
+            habent, ut <sic>nutrianturibi</sic> triennio et mensibus sex <note type="margin"> 12, 14 </note> <lb/>
+            a facie diaboli. alae aquilae magnae: duo sunt prophetae, <lb/>
+            Helias et qui cum illo erit propheta. <lb n="10"/>
+            
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p> <note type="margin"> 12, 15<lb/>
+             12, 16 </note> Aqua autem quam misit de ore suo serpens: iussu <lb/>
+            suo exercitum sequi eum significat. aperuisse autem terram <lb/>
+            (os suum) et deuorasse aquam: uindictam de persecutoribus <lb/>
+            manifestat. hanc igitur licet parturientem significet <lb/>
+            et postea partu [fol. <sic n="poss">17rJ</sic> edito fugientem ostendat, non uno<lb n="15"/>
+            tempore haec contigerunt. Christus enim quod natus sit,
+
+<note type="footnote"> 3 cf. Apoc. 7, 4 et 14, 1. 3 4 <hi rend="italic">binum] cf. Commodiani carm. <lb/>
+             apolog. u. 1058 sq. (CSEL XV 187 sq.):</hi> <lb/>
+            Ceteri qui fuerint in aduentum Christi de sanctis, <lb/>
+            De duobus populis.... </note>
+
+<note type="footnote"> 5 Luc. 21, 21 10 <hi rend="italic">cf. pag. 98, 10-17</hi> </note>
+
+<note type="footnote"> 1 duum scilicet prophetarum <hi rend="italic">scripsi collata linea</hi> 9, donum scilicet et <lb/>
+            <hi rend="italic">prophetarum A</hi> prophetarum] <hi rend="italic">add. et A 2 creditura scripsi, crediture A</hi> <lb/>
+            4 binum] <hi rend="italic">litterae in A legi possunt aut</hi> binum <hi rend="italic">aut</hi> uiuum 5 tunc <lb/>
+            <hi rend="italic">SttBi A</hi> 6 fugiant] <hi rend="italic">add</hi>. et <hi rend="italic">A</hi> 12 eum] <hi rend="italic">scil. serpentem uel diabolum</hi> <lb/>
+            13 os suum <hi rend="italic">om. A; an nihil addendum et</hi> aperuisse <hi rend="italic">sensu reflexiuo</hi> = se <lb/>
+            aperuisse <hi rend="italic">(cf</hi>. emendare, uertere, mergere <hi rend="italic">etc.) accipiendum est</hi>? </note> <lb/>
+             
+
+<pb n="113"/>
+<pb n="114"/>
+            scimus tempora intercessisse; ut illa autem fugiat (a facie serpentis\\ <lb/>
+            adhuc factum non esse. 
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart"><p> <note type="margin"> 12, 7—9 </note> Deinde ait: factum est in caelo bellum: Michael <lb/>
+            et nuntii eius pugnauerunt cum dracone, et draco <lb/>
+            <sic>pugnauitetnuntiieius</sic>, <sic>etnon</sic> est inuentus ei locus<lb n="5"/>
+            in caelo. et iactatus est draco magnus, anguis <lb/>
+            antiquus, recidit in terram. hoc est initium aduentus <lb/>
+            Antichristi. ante tamen oportet praedicare Heliam et pacifica <lb/>
+            tempora esse, et sic postea consummato triennio et mensibus <lb/>
+            sex praedicationis Heliae iactari Antichristum de caelo, ubi<lb n="10"/>
+            habuit potestatem ascendendi usque ad illud tempus, et angelos <lb/>
+            refugas uniuersos. sic Antichristum de inferno suscitari, hoc <lb/>
+            et Paulus apostolus ait: nisi prius <sic>uenerithomo</sic> peccati, <lb/>
+            filius perditionis, aduersarius, qui se eleuabit super <lb/>
+            omne quod nominatur deus aut colitur.
+
+<note type="footnote"> 1 cf. Apoc. 12, 14 9 cf. ibid. 11, 3 10 Antichristum] diabolus.. <lb/>
+            quia ipse Antichristus est <hi rend="italic">Finn. Natern. de errore prof. rel. c. 22<lb/>
+             (CSEL II 112, 18),</hi> Beliar, angelum magnum, regem huius mundi, descensurum <lb/>
+            esse <hi rend="italic">Ascensio Esaiae docet c. 4, 2 (ef. R. II. Charles, The <lb/>
+            Ascension of Isaiah 1900)</hi> 11 cf. Hiob 1, 6 et Zach. 3, 1 13 II <lb/>
+            Thess. 2, 3. 4 </note> <lb n="15"/>
+             
+
+<pb n="115"/>
+<pb n="116"/>
+            
+</p>
+          </div>
+
+<div n="7" subtype="section" type="textpart"><p> <note type="margin">12, 4 a </note>Quod autem dicit draconis caudam traxisse tertiam <lb/>
+            partem stellarum, bifarie hoc accipitur. multi autem hoc <lb/>
+            arbitrantur, tertiam partem hominum credentium posse eum <lb/>
+            seducere; sed quod uerius intellegi debet, angelorum sibi sub- <note type="margin"> 12, 18 </note> <lb/>
+            <sic>ditorum</sic>, cum adhuc princeps esset, cum \'descenderet a constitutione\'.<lb n="5"/>
+            ergo (quod) superius dicebamus, ait apocalypsis: stetit <lb/>
+            super arenam maris. 
+</p>
+
+</div>
+
+</div>
+
+<div n="13-17" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAPP. XIII et XVII. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> <note type="margin"> 13, 1. 2 </note> Et uidi de mare ascendentem bestiam similem <lb/>
+            pardo: regnum illius temporis regnum Antichristi cum uarietate<lb n="10"/>
+            [fol. <sic n="poss">17vl</sic> gentium et populorum commixtum significat. <note type="margin"> 13, 2 </note> <lb/>
+            pedes eius tamquam pedes ursi, fortis et spurcissimae <lb/>
+            bestiae; duces autem eius pedes eius dixit. os autem eius <lb/>
+            tamquam ora leonum, id est ab sanguine madente armatum. <lb/>
+            os enim iussio illius est et lingua eius, quae ad nihil<lb n="15"/>
+            aliud processura est nisi ad sanguinem effundendum.
+
+<note type="footnote"> 5 cf. ludas u. 6 6 <hi rend="italic">cf. pag. 114, 10-12</hi> </note>
+
+<note type="footnote"> 5 <hi rend="italic">discenderet A</hi> 6 quod <hi rend="italic">om. A</hi> 7 <hi rend="italic">ante</hi> arenam <hi rend="italic">exstant uocis oblitae <lb/>
+            uestigia</hi> 10 cum sic uarietate <hi rend="italic">A</hi> 15 nichil <hi rend="italic">A</hi> </note> 
+
+<pb n="117"/>
+<pb n="118"/>
+             
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> <note type="margin">17, 9-10 </note>Capita VII VII montes, super quos mulier sedet: <lb/>
+            id est ciuitas Romana: et reges VII sunt: V ceciderunt, <lb/>
+            unus est, et alius nondum uenit; et cum uenerit, <note type="margin"> 17,8.11 </note><lb/>
+            breui tempore erit. et bestia quam uidisti de VII <lb/>
+            <sic>estetoctaua</sic> est. intellegi igitur oportet (tempus), quo scribitur<lb n="5"/>
+            apocalypsis, quoniam tunc erat Caesar Domitianus. ante illum <lb/>
+            autem fuerat Titus frater ipsius et Vespasianus pater ipsorum, <lb/>
+            Otho, Vitellius et Galba. hi sunt \'V qui ceciderunt\'; \'unus <lb/>
+            est\', ait, sub quo scripta apocalypsis dicitur, scilicet Domitianus. <lb/>
+            \'alius nondum uenit\': Neruam dicit. qui \'cum uenerit,<note type="margin"> 17,8.11 </note><lb n="10"/>
+            breui tempore erit\'; biennium enim non impleuit. et bestiam <lb/>
+            quam uidisti, inquit, de VII est: quoniam ante istos <note type="margin"> 17, 11 </note><lb/>
+            reges Nero regnauit. et octaua est, ait, modo illa cum <lb/>
+            aduenerit, computans loco octauo. et quoniam in illo fiet con- <note type="margin"> 17, 12 </note><lb/>
+            summatio, adiecit: et in interitum uadit. nam decem<lb n="15"/>
+            reges accepisse regalem potestatem; cum ille mouerit <lb/>
+            ab oriente, mittentur ab urbe Romana cum exercitibus
+
+<note type="footnote"> 16 <hi rend="italic">cf. Commodiani carm. apolog. u. 909 sqq. et Instruction. I <lb/>
+            41, 6 sqq. (CSEL XV 174 et 54), ubi modo consentanea huic explanatio,<lb/>
+             modo ab hac diuersa legitur</hi> </note>
+
+<note type="footnote"> 5 tempus <hi rend="italic">addidi</hi> 8 hii <hi rend="italic">A</hi> 9 scripta] scriptura <hi rend="italic">A</hi> 12 numquid <lb/>
+            <hi rend="italic">Aml, linea deleuit et</hi> inquit <hi rend="italic">add. in marg. Am2</hi> 14 computans <hi rend="italic">A recte,<lb/>
+             item T</hi> 17 mittentur <hi rend="italic">scripsi,</hi> mittetur <hi rend="italic">A</hi> </note> 
+
+<pb n="119"/>
+<pb n="120"/>
+            suis. [fol. 18\'] haec \'cornua X\' dicit et (X zadematas\'. et Danihel <lb/>
+            ostendit: tria eradicabuntur de prioribus, hoc <lb/>
+            est, tres duces primarios ab Antichristo interfici. ceteros septem <lb/>
+            dare illi \'gloriam et honorem et solium et potestatem\', <note type="margin"> 17, 16 </note> <lb/>
+            de quibus ait: hi odient meretricem — urbem scilicet<lb n="5"/>
+            dicit —, et carnes eius comburentur igni. 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> <note type="margin"> 13, 3 </note>Unum autem de capitibus occisum in mortem et <lb/>
+            plaga mortis eius curata est: Neronem dicit. constat <lb/>
+            enim, cum eundem insequeretur equitatus missus a senatu, <lb/>
+            ipsum sibi gulam succidisse. hunc ergo deus suscitatum mittere<lb n="10"/>
+            regem dignum dignis, Iudeis et persecutoribus Christi, (et <choice><sic>Christurn</sic><corr>Christum</corr></choice>) <lb/>
+            <choice><sic>tal</sic><corr>talem</corr></choice> em, <sic>qual</sic> em meruerunt persecutores <sic>etludei</sic>. et quoniam <lb/>
+            alium nomen afferturus est, aliam etiam uitam institurus est, <lb/>
+            ut sic eundem tamquam Christum excipiant. ait enim Danihel: <lb/>
+            desiderium mulierum non cognoscet — cum sit ipse<lb n="15"/>
+            spurcissimus — et nullum deum patrum suorum cognoscet. <lb/>
+            non enim poterit seducere populum ad circumcisionem, <lb/>
+            nisi legis sit uindictor. denique sanctos non ad aliud compellet <lb/>
+            nisi ad circumcisionem accipiendam, si quos poterit seducere. <lb/>
+            ita demum fidem faciet sibi, ut ab eis Christus esse
+
+<note type="footnote"> 1 cf. Apoc. 13, 1 2 Dan. 7, 8 (<foreign xml:lang="grc">εξεριζωϑϥ</foreign><hi rend="italic">Theodotion)</hi> 4 cf. <lb/>
+            Apoc. 17, 13 9 <hi rend="italic">cf. Sueton. Nero c</hi>. 49: iamque equites appropinquabant... <lb/>
+            quod ut sensit,.. ferrum iugulo adegit 15 Dan. 11, 37 ( £ v <lb/>
+            STufroiJua <foreign xml:lang="grc">γυναιϰός οὺ μὴ</foreign> TtpovoYjt)\'-/] LXX) </note>
+
+<note type="footnote"> 1 zadematas <hi rend="italic">A, cf. Georges, Wortformen p. 212:</hi> diadema, ae <hi rend="italic">et analogiam<lb/>
+             nominum</hi> zabulus (zabuli <hi rend="italic">p. 132,</hi> 8), zaconus <hi rend="italic">pro</hi> diabolus, diaconus <lb/>
+            5 hi odient meretricem <hi rend="italic">scripsi,</hi> hodie meret meretriceni <hi rend="italic">A</hi> <lb/>
+            dici <hi rend="italic">A</hi> 9 missus <hi rend="italic">scripsi,</hi> suus <hi rend="italic">A</hi> senatum <hi rend="italic">A</hi> 10 deus] <hi rend="italic">scil</hi>. <lb/>
+            dicitur 11 et Christum <hi rend="italic">om. A</hi> 13 alium <hi rend="italic">A recte, item D</hi> afferturus <lb/>
+            <hi rend="italic">scripsi cum TFHS,</hi> allaturus <hi rend="italic">A</hi> 16 deum <hi rend="italic">scripsi,</hi> dum (= dominum) <lb/>
+            <hi rend="italic">A</hi> 18 uindictor <hi rend="italic">A recle, item T</hi> </note> <lb n="20"/>
+             
+
+<pb n="121"/>
+<pb n="122"/>
+            appelletur. de inferno autem illum resurgere et supra diximus uerbis <lb/>
+            Esaiae: aqua, inquit, nutriuit illum et abyssus auxit <lb/>
+            illum. qui tamen licet nomine mutato ueniat, ait spiritus <note type="margin"> 13, 18 </note> <lb/>
+            sanctus: numerus illius DCLXVI; ad <sic>literam</sic> <sic>grecam</sic> hunc <lb/>
+            numerum explebit.
+
+<note type="footnote"> 1 <hi rend="italic">cf. pag. 100, 8-15</hi> 2 Ezech. 31, 4 </note>
+
+<note type="footnote"> <hi rend="italic">1 resurgere A recte, itern S 4 DCLXVI scripsi, est A post gre-</hi> <lb/>
+            cam <hi rend="italic">additum est signum</hi> f, <hi rend="italic">sub quo signo in margine scriptum legimus:</hi> <lb/>
+            sexcenti sexagies sexies, cura ominem (= hominem?) enim adtulerit ad <lb/>
+            literam grecam <hi rend="italic">Am2</hi> explebit] <hi rend="italic">finitur huius uersus explanatio Victorini <lb/>
+            </hi> </note> <lb n="5"/>
+             
+
+<pb n="123"/>
+<pb n="124"/>
+            <note type="margin"> 13, 18 </note> <lb/>
+            [numerus enim hominis est, et numerus eius sic habet <note type="margin"> II = (I) </note> <lb/>
+            ex litteris grecis computatus — in compluribus inueniuntur <lb/>
+            numeri DCLXVI —; quantum enim attinet ad litteram grecam, <lb/>
+            hunc numerum nomenque explebit. interpretatur enim \'Teitan\', <lb/>
+            quem gentiles Solem Phoebumque appellant, computaturque<lb n="5"/>
+            grece sic: tau CCC, e breue V, iota X, tau CCC, alfa <lb/>
+            I, ni L, qui simul ducti fiunt DCLXVI. quod nomen si uelis <lb/>
+            in latinum conuertere, erit \'Diclux\': <hi rend="italic">D</hi> quippe quingentos <lb/>
+            figurat, <hi rend="italic">I</hi> unum, <hi rend="italic">C</hi> centum, <hi rend="italic">L</hi> quinquaginta, V quinque, X <lb/>
+            decem, qui computati fiunt similiter DCLXVI. id enim quod<lb n="10"/>
+            sonat Teitan grece, si uelis interpretatum dicere, latine Diclux, <lb/>
+            quo nomine per antiphrasin expressum intellegimus <lb/>
+            Antichristum; qui cum a luce superna priuatus sit atque <lb/>
+            abscisus, transfigurat tamen se in angelum lucis, <lb/>
+            audens se dicere lucem.l
+
+<note rend="script" type="footnote"> 4 <hi rend="italic">cf. Hieronymum de monogramma XPI (Germanus Morin, Anecdota<lb/>
+             Maredsolana, uol. III pars III, Maredsoli 1903, p. 196 lin. <lb/>
+            27 sqq.):</hi> Victorinus autem ex altero exemplari <hi rend="italic">(quod non numerum<lb/>
+             = 616, sed</hi> Z.;S\' = <hi rend="italic">666 exhibuit)</hi> aliud profert nomen, quod iuxta eum <lb/>
+            solem sonat, ad superbiam eorum uel eius qui sibi indidit referens, quod <lb/>
+            est Titan, id est DCLXVI; <hi rend="italic">cuius tractatus auctorem quoniam alteram <lb/>
+            recensionem Victorini</hi> (I)) <hi rend="italic">post Hieronymi tempora exortam ipsi Victorino <lb/>
+            attribuit, nequc Hieronymum</hi> — <hi rend="italic">id quod editor clarissimus suspicatus<lb/>
+             est</hi> — <hi rend="italic">neque coaequalem fuisse apparet</hi> 11 <hi rend="italic">Diclux .. lin. 16</hi> lucem] <lb/>
+            <hi rend="italic">cf. Beatum p. 442</hi> 14 II Cor. 11, 14 Diclux] \'Huiusmodi deductio </note>
+
+<note rend="script" type="footnote"> 1 <hi rend="italic">Beati editor, II. Florez, tabulas computationis nominum omisit</hi> \'adeo <lb/>
+            inconsulte factas, ut ipsissima semel littera pro centum, iterum pro ducentis <lb/>
+            atque iterum pro trecentis ueitatur\', <hi rend="italic">cf. p. XXXII nr. 59 et<lb/>
+             p. 443</hi> 2 exJ et <hi rend="italic">II</hi> computatum <hi rend="italic">H</hi> 3 enim <hi rend="italic">om. FH</hi> 4 explebit <lb/>
+            <hi rend="italic">IK,</hi> expleuit <hi rend="italic">FHMSQ</hi> enim <hi rend="italic">om. H</hi> tytan K, titan <hi rend="italic">1M; hoc <lb/>
+            nomen Antichristi in medium protulit Irenaeus adu. haereses V 30, 3<lb/>
+             et Ilippolytus de Antichn\'sto c.. 50 propagauit</hi> 5 quem] <hi rend="italic">quod IK</hi> 6 <hi rend="italic">sqq. <lb/>
+            FH duas tabulas numerorum supersa-iptas</hi> Graece Latine <hi rend="italic">et iuxta positas<lb/>
+             addunt atque ita explicant, ut F nomen</hi> Teitan, <hi rend="italic">H nomen</hi> Teltan, <hi rend="italic">uterque<lb/>
+             codex nomen</hi> Diclux <hi rend="italic">praebeat; M litteras graecas haud intellegens praetermisit <lb/>
+            </hi> breue <hi rend="italic">I,</hi> btie <hi rend="italic">K</hi> 7 fiunt <hi rend="italic">om. F</hi> quod] id <hi rend="italic">K</hi> 8 uertere <hi rend="italic">F</hi> <lb/>
+            erit <hi rend="italic">om. F</hi> 10 similiter <hi rend="italic">om. F</hi> 11 tytan <hi rend="italic">K,</hi> titan <hi rend="italic">IM</hi> iuterp. dicere <lb/>
+            latine] in latinum interpretari <hi rend="italic">IK</hi> 12 expresso <hi rend="italic">IK</hi> 14 abscissus <hi rend="italic">H</hi> <lb/>
+            sese <hi rend="italic">F</hi> se tamen <hi rend="italic">I</hi> 15 sese <hi rend="italic">F</hi> lucem] lumen <hi rend="italic">IK</hi> </note> <lb n="15"/>
+             
+
+<pb n="125"/>
+<pb n="126"/>
+            
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p><note type="margin"> 13, 11 </note>Aliam bestiam magnam de terra: falsum prophetam <lb/>
+            [fol. <sic n="poss">1sv</sic>], qui facturus (est) signa et portenta et mendacia <lb/>
+            ante illum (in conspectu hominum\'; quem dicit habentem
+
+<note type="footnote"> 3 cf. Apoc. 13, 13 </note>
+
+<note type="footnote"> 1 <hi rend="italic">Victorini editio continuatur (cf. p. 122)</hi> 2 est <hi rend="italic">om. A</hi> 3 con- <lb/>
+            <hi rend="italic">spectum A</hi> </note> <lb/>
+             
+
+<pb n="127"/>
+<pb n="128"/>
+            cornua quasi agnum — id est speciem quasi iusti hominis-, <lb/>
+            loquentem quasi draconem: diaboli malitia plenus. hic <lb/>
+            enim facturus est (in conspectu hominum\', ut mortui surgere <lb/>
+            uideantur — namque in conspectu hominum haec etiam magi <note type="margin"> 13, 14. 15 </note><lb/>
+            faciunt per angelos refugas —, et hoc etiam faciet, ut imago<lb n="5"/>
+            aurea Antichristi in templo Hierosolymis ponatur et intret ibi <lb/>
+            angelus refuga; et deinde uoces et sortes reddet. faciet etiam <note type="margin"> 13, 16. 17 </note><lb/>
+            ipse, ut serui et liberi accipiant notam in frontibus <lb/>
+            <sic>autinmanu</sic> dextera — numerum nominis eius —, ne quis <lb/>
+            emat uel uendat, nisi qui notam habuerit. de hac<lb n="10"/>
+            autem euersione hominum, aspernatione dei et exsecratione <lb/>
+            Danihel ante dixerat: et statuet, inquit, in templo suo <lb/>
+            inter montem maris et duo maria, id est Hierosolymis; <lb/>
+            et imaginem auream, sicut fecerat rex Nabochodonosor, tunc
+
+<note type="footnote"> 12 Dan. 11, 45, <hi rend="italic">cf. LXX:</hi> ttva p.ecrov W wv <foreign xml:lang="grc">ϑαλασσω̃ν</foreign>nat TO5 opooç <lb/>
+            rrjs $eXaaeo&gt;s <hi rend="italic">(pro</hi> <foreign xml:lang="grc">ϑελήσεως</foreign><hi rend="italic">interpres legisse uidetur</hi> <foreign xml:lang="grc">ϑαλάσσης</foreign>14 cf. <lb/>
+            Dan. 3, 1 </note>
+
+<note type="footnote"> 4 magi <hi rend="italic">scripsi,</hi> magna <hi rend="italic">A</hi> 9 ne quis emat uel uendat <hi rend="italic">scripsi,</hi> neque <lb/>
+            seminat uel undat <hi rend="italic">A</hi> 11 aspernationes <hi rend="italic">A</hi> exacrationes <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="129"/>
+<pb n="130"/>
+            hic statuet. hoc dominus recolens ad omnes ecclesias de nouissimis <lb/>
+            temporibus ait: cum uideritis aspernationem <lb/>
+            euersionis, quod dictum est per Danihel prophetam. <lb/>
+            stantem in loco sancto, ubi non licet, qui <lb/>
+            legit intellegat. \'aspernatio\' dicitur, quando exasperatur<lb n="5"/>
+            deus, quod idola colantur; \'euersio\' autem, quod instabiles <lb/>
+            homines (signis) falsis et portentis euertantur seducti de salute. <lb/>
+            </p>
+
+</div>
+
+</div>
+
+<div n="14-17" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAPP. XIV et XVII. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p><note type="margin"> 14,6 </note>[fol. <sic n="poss">19r</sic>] Angelum autem uolantem medio caelo,<lb n="10"/>
+            quem dicit se uidisse, et supra tractauimus eundem esse <note type="margin"> 14,8 </note><lb/>
+            Heliam, qui anticipat regnum Antichristi. alium autem a <sic>ngelum</sic> <lb/>
+            sequentem eundem comitem praedicationis suae <lb/>
+            prophetam significat. sed quia, ut diximus, \'composito consilio\' <lb/>
+            duces illius ciuitatem hanc magnam Babylonem sunt expugnaturi.<lb n="15"/>
+            ruinam illius est testatus. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p><note type="margin"> 17, 1 </note>AIAitenim: ueni, ostendam tibi damnationem
+
+<note type="footnote"> 2 Matth. 24, 15 et Marc. 13, 14; cf. Dan. 9, 27 <hi rend="italic">11 cf. p. 114, 8</hi> <lb/>
+            14 cf. Apoc. 17, 13 <hi rend="italic">15 cf p. 120, 5</hi> </note>
+
+<note type="footnote"> 2 ait <hi rend="italic">scripsi,</hi> Ait enim <hi rend="italic">A</hi> 3 euersionis <hi rend="italic">scripsi coll. lin</hi>. 6, uastationis <lb/>
+            <hi rend="italic">A</hi> 4 <hi rend="italic">uerba</hi> ubi non licet = oitoo ou osl <hi rend="italic">ex lIlarc. 13, 14 deprompta<lb/>
+             cum textu lIlatthaei coniuncta sunt</hi> 6 in stabiles <hi rend="italic">A</hi> 7 signis <hi rend="italic">om. A</hi> <lb/>
+            seduci <hi rend="italic">A</hi> 10 <hi rend="italic">post</hi> uolantem <hi rend="italic">add</hi>. in <hi rend="italic">Am2</hi> 14 ut <hi rend="italic">scripsi,</hi> hoc <hi rend="italic">A</hi> <lb/>
+            15 duces <hi rend="italic">scripsi,</hi> ducis <hi rend="italic">A</hi> 17 <hi rend="italic">quae sequuntur particulae A-i-B, in <lb/>
+            recensionibus mutato ordhte atque additamentis adiunctis ponuntur</hi> </note> <lb/>
+             
+
+<pb n="131"/>
+<pb n="132"/>
+            <note type="margin"> 17,6 </note> <lb/>
+            meretricis, quae sedet super aquas multas. et uidi, inquit, <lb/>
+            mulierem ebriam de sanctorum sanguine et de sanguine <lb/>
+            testium Iesu Christi. omnes enim passiones sanctorum <lb/>
+            ex decreto senatus illius semper sunt consummatae, et <lb/>
+            omne contra fidei praedicationem iam lata indulgentia ipsa<lb n="5"/>
+            dedit decretum in uniuersis gentibus. 
+</p>
+          <p><note type="margin"> 17,3 </note>Sedere autem mulierem super bestiam roseam, <lb/>
+            actricem homicidiorum, zabuli habet imaginem. ibi etiam \'capita\' <lb/>
+            haec, de quibus meminimus et tractauimus. hanc quidem <lb/>
+            \'Babylonem\' propter diffusionem populorum dicit in <sic>apocalypsi</sic><lb n="10"/>
+            et in Esaia, Ezechiel autem \'Sor\' nominauit. denique <lb/>
+            autem si compares, quae de Sor dicta sunt et quae de Babylone <lb/>
+            Esaias et apocalypsis dixit, unum omnia esse inuenies. 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> <note type="margin"> 14,18 </note> ,<hi rend="italic">B)</hi> Quod autem ait: mitte falcem acutam et uindemia <lb/>
+            botros uuae, de gentibus perituris in aduentum domini
+
+<note type="footnote"> 4 ex decreto senatus] <hi rend="italic">cf. Origenis in lib. Iesu Naue homil. IX:</hi> <lb/>
+            senatus populusque et principes Romani... decreuerunt legibus suis, ut <lb/>
+            non sint Christiani <hi rend="italic">(PG XII 879 M) et Acta Apollonii § 23:</hi> 2G S&amp;Yp.a <lb/>
+            r?^ auiy.XraoD Ê::nl <foreign xml:lang="grc">Χριστιανοὺς</foreign>p.Y] sIvai <hi rend="italic">(Analecta Bollandiana Xl V 290)</hi> <lb/>
+            8 cf. Apoc. 17, 3 9 <hi rend="italic">cf. p. 118, 1 sqq</hi>. 10 cf. Apoc. 17, 5 et Esai. <lb/>
+            21, 9 11 cf. Ezech. capp. 26—28 </note>
+
+<note type="footnote"> 4 consummata <hi rend="italic">A</hi> 5 iam <hi rend="italic">scripsi,</hi> tam <hi rend="italic">A</hi> lata indulgentia <hi rend="italic">scripsi,</hi> <lb/>
+            latam indulgentiam <hi rend="italic">A</hi> 8 capit hae <hi rend="italic">A</hi> 11 Sor (= Xdp, <hi rend="italic">Tyrus) scripsi,</hi> <lb/>
+            sorech <hi rend="italic">A</hi> (\'\'Sorech in tribu Dan, ubi Samson fuisse legimus\' <hi rend="italic">Hieronymi<lb/>
+             de situ et nom. loc. hebr. ed. P. de Lagarde p. 152, 24)</hi> 12 sorech <hi rend="italic">A</hi> <lb/>
+            14 uindemiabo tros <hi rend="italic">A</hi> 15 aduentum] <hi rend="italic">item T</hi> </note> <lb n="15"/>
+             
+
+<pb n="133"/>
+<pb n="134"/>
+            dicit; et quidem pluribus speciebus hic illud ostendit, sed <lb/>
+            semel in aduentum domini, consummationem regni Antichristi <lb/>
+            et <sic>adapertionem</sic> regni sanctorum.
+
+<note type="footnote"> 3 <hi rend="italic">hic finitur Victorini capitum XIV et XVII explicatio</hi> </note> <lb/>
+             
+
+<pb n="135"/>
+<pb n="136"/>
+        
+
+          <note type="margin">Etiam capituli XV explicatio apud Victorinum desideratur</note>. 
+</p>
+
+</div>
+
+</div>
+
+<div n="19" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. XIX. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> <note type="margin">19, 11</note> <milestone n="19v" unit="folio"/> Equum autem album et sedentem super <lb/>
+            eum dominum nostrum cum exercitu caelesti aduenientem
+
+<note type="footnote"> 2 equum] de equo albo et <hi rend="italic">cet. A in mg</hi>. sedens <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="137"/>
+<pb n="138"/>
+            ad <choice n="0.5"><sic n="2">regnandum</sic><corr n="2">regnandam</corr></choice> ostendit, cuius in aduentu omnes colligentur <lb/>
+            gentes et gladio cadent. ceterae autem, quae fuerint nobiliores, <lb/>
+            seruabuntur in seruitutem sanctorum, quas et ipsas quidem <lb/>
+            oportet in nouissimo tempore consummato regno sanctorum <lb/>
+            ante iudicium rursus dimisso diabolo interfici. de his omnibus<lb n="5"/>
+            prophetae simili modo concinunt. 
+</p>
+
+</div>
+
+</div>
+
+<div n="20" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. XX. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p><note type="margin"> 20, 2. 3 </note> \'<sic>Coccineum</sic>\' autem zabulum includi et omnes angelos <lb/>
+            eius refugas in tartarum gehennae in aduentum domini nemo <lb/>
+            ignoret (et) post mille annos dimitti propter gentes, quae <sic>seruiuerint</sic><lb n="10"/>
+            <sic>Antichristo</sic>, ut ipsae solae pereant, quia sic meruerunt; <note type="margin"> 20,4—6 </note> <lb/>
+            dein fieri catholice iudicium. ideo ait: et uixerunt, inquit,
+
+<note type="footnote"> 3 <hi rend="italic">cf. Commodiani carmen apologeticum u. 998 (CSEL XV 180):</hi> <lb/>
+            Et qui reseruantur, ut seruiant iustis, euadunt. <lb/>
+            <hi rend="italic">inde apparet Commodiano editionem Victorini integram notam fuisse</hi> </note>
+
+<note type="footnote"> 4 cf. Apoc. 20, 7-9 8 cf. Apoc. 17, 3: bestiam coccineam </note>
+
+<note type="footnote"> 8 CoccineumJ de reclusione diaboli dic&lt;it&gt; in tartarum et angelos eius <lb/>
+            <hi rend="italic">A in mg</hi>. 10 et <hi rend="italic">addidi</hi> 12 catholice = iW.S.OMXŪH; </note> <lb/>
+             
+
+<pb n="139"/>
+<pb n="140"/>
+            mortui \'scripti in libro uitae\' et regnauerunt cum <lb/>
+            Christo mille annos. haec resurrectio prima. beatus <lb/>
+            et sanctus, qui habet partem in resurrectione <lb/>
+            prima: ad hunc mors secunda non habet potestatem. <lb/>
+            de hac resurrectione inquit: <sic>etuidiagnumstantem</sic><lb n="5"/>
+            et cum co CXLIIII milia, id est cum Christo stantes, eos <lb/>
+            scilicet, qui ex Iudeis in nouissimo tempore sunt credituri <lb/>
+            per praedicationem Heliae, quos non solum testatur spiritus <lb/>
+            corpore uirgineo sed et lingua. ideo superius meminit maiores <lb/>
+            natu XXIIII dixisse: gratias agimus tibi, domine<lb n="10"/>
+            deus, qui. regnasti; et gentes indignatae sunt. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> In hac eadem prima resur[fol. 20T]rectione et ciuitas futura
+
+<note type="footnote"> 1 cf. Apoc. 21, 27 5 Apoc. 14, 1 9 cf. Apoc. 14, 4. 5 10 Apoc. <lb/>
+            11, 17. 18 </note>
+
+<note type="footnote"> 2 haec] <hi rend="italic">de prima resurrectione A in mg</hi>. 4 ad hunc (= kxi tootov) <lb/>
+            <hi rend="italic">scripsi, item Hippolytus de Antichristo c. 65:</hi> Irci todtov <hi rend="italic">(codd. HER),</hi> <lb/>
+            adhuc <hi rend="italic">A</hi> 5 inquit] inquit ait <hi rend="italic">A</hi> 8 helie <hi rend="italic">A</hi> quos <hi rend="italic">scripsi.,</hi> quod <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="141"/>
+<pb n="142"/>
+            et speciosa per hanc scripturam expressa est. hanc primam <lb/>
+            resurrectionem et Paulus ad ecclesiam Macedoniam ita dixit: <lb/>
+            hoc enim uobis ita dicimus, inquit, in uerbo dei, quia <lb/>
+            ipse dominus suscitaturus in tuba dei descendet <lb/>
+            de caelo; et mortui in Christo stabunt primi, deinde<lb n="5"/>
+            nos, qui uiuimus, simul rapiemur cum eis in <lb/>
+            nubibus in obuiam domino (in aera et ita semper <lb/>
+            cum domino) erimus. audiuimus dici \'tubam\'; obseruandum <lb/>
+            est: alio loco apostolus aliam tubam nominat. ait ergo <lb/>
+            ad Corinthios: in nouissima tuba mortui surgent —<lb n="10"/>
+            inmortales fient — et nos mutabimur. mortuos quidem
+
+<note type="footnote">3 I Thess. 4, 15-17 <hi rend="italic">(cf. Th. Zahn GeselL des neutestam. Kanons<lb/>
+             1 p. 816)</hi> 10 1 Cor. 15, 52 </note>
+
+<note type="footnote"> 1 et <hi rend="italic">scripsi,</hi> est <hi rend="italic">A</hi> hanc] Paulus <hi rend="italic">A in mg</hi>. 7 in aera .. domino <lb/>
+            <hi rend="italic">om. A propter homoeoteleuton; cf. Tevtulliani librum de resurrectione <lb/>
+            carnis c. 41, ubi statim locus I Cor. 15, 51 sq. sequitur</hi> 10 ad Corinthios] <lb/>
+            Paulus apostolus ad corinthios de nouissima tuba <hi rend="italic">A in mg</hi>. <lb/>
+            11 quidem] homo <hi rend="italic">add. A ml,</hi> deo <hi rend="italic">m2</hi> </note> <lb/>
+             
+
+<pb n="143"/>
+<pb n="144"/>
+            inmortales ad poenas sustinendas surgituros dixit, nos autem <lb/>
+            mutari et gloria contegi manifestum est. ubi esse ergo audiuimus <lb/>
+            \'nouissimam tubam\', intellegere debemus et primam; <lb/>
+            haec autem sunt duae resurrectiones. quotquot ergo non anticipauerint <lb/>
+            surgere in prima resurrectione et regnare cum Christo<lb n="5"/>
+            super orbem — super gentes uniuersas —, surgent in <lb/>
+            nouissima tuba post annos mille, id est in nouissima resurrectione, <lb/>
+            inter impios et peccatores et uarii generis commissores. <note type="margin"> 20, 6 </note> <lb/>
+            merito adiecit dicendo: beatus et sanctus, qui habet <lb/>
+            partem in prima anastase: ad hunc mors secunda<lb n="10"/>
+            non habet [fol. <sic n="poss">20v</sic>] potestatem. mors autem secunda <lb/>
+            castigatio est in infernum.
+
+<note type="footnote"> 5 cf. Apoc. 20, 6 </note>
+
+<note rend="script" type="footnote"> 1 surgiturus <hi rend="italic">A</hi> 2 esse <hi rend="italic">scripsi, est A</hi> 4 haec <hi rend="italic">A pro</hi> hae, <hi rend="italic">cf. Georges, <lb/>
+            Wortformen p. 320 uerba</hi> quotquot.. <hi rend="italic">lin</hi>. 7 in nouissima resurrectione <lb/>
+            <hi rend="italic">bis exstant in cod. A</hi> 9 adiec <hi rend="italic">A</hi> 10 prima] Quod mors secunda <lb/>
+            non habet potestatem <hi rend="italic">A in mg</hi>. anastase] <hi rend="italic">cf. Commodiani Instructionum <lb/>
+            lib. II 3, 1 (CSEL XV 63) et quae adnotaui in Th. Zahn<lb/>
+             iForschungen zur Geschichte des neutest. Kanons\' quarta parte p. 163</hi> <lb/>
+            ad hunc <hi rend="italic">scripsi (cf. p. 140,</hi> 4), adhuc <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="145"/>
+<pb n="146"/>
+            
+</p>
+
+</div>
+
+</div>
+
+<div n="21" subtype="chapter" type="textpart">
+<ab> <title type="sub">CAP. XXI. </title> </ab>
+          <div n="1" subtype="section" type="textpart">
+<p> <note type="margin"> 21, 2 </note> 
+</p>
+          <p>In regno ergo et in prima resurrectione exhibetur ciuitas <lb/>
+            sancta, quam dicit descensuram de caelo quadratam, <lb/>
+            differentium et pretiositatis et coloris et generis lapidum <note type="margin"> 21, 18 </note> <lb/>
+            circumdatam, auro mundo — id est dilucido — simi-<note type="margin"> 21, 21 </note> <lb n="5"/>
+            lem. cristallo, inquit, plateam eius stratam; flumen <note type="margin"> 22, 1. 2 </note> <lb/>
+            uitae per medium <sic>effluensetuitaefontesaquarum</sic>; <lb/>
+            lignum uitae in circuitu, per singulos menses faciens <lb/>
+            fructus differentes; lumen ibi solis non esse <note type="margin"> 21, 23 </note> <lb/>
+            propter <choice><sic>emincntiorem</sic><corr>eminentiorem</corr></choice> gloriam. agnus enim, inquit — id est<lb n="10"/>
+            deus —, lux eius est.
+
+<note type="footnote"> 3 quadratam = TSTpafiuvov Apoc. 21, 16 4 cf. Apoc. 21, 19. 20 </note>
+
+<note type="footnote"> 4 preciositatis <hi rend="italic">A genetiuus</hi> lapidum <hi rend="italic">more Graeco pro ablatiuo; an</hi> <lb/>
+            lapidum &lt;muro) <hi rend="italic">scribendum</hi>? 5 mundum <hi rend="italic">Aml</hi> delucido <hi rend="italic">A</hi> 6 cristallo] <lb/>
+            <hi rend="italic">Victorinus legit Apoc. 21, 21</hi> it?ó:na;).),Dç <hi rend="italic">pro</hi> GaÀDç 9 lumen <lb/>
+            ibi <hi rend="italic">scripsi,</hi> luminibus <hi rend="italic">A</hi> 10 id est] De agno dei <hi rend="italic">A in mg</hi>. 11 eius <lb/>
+            <hi rend="italic">scripsi,</hi> eis <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="147"/>
+<pb n="148"/>
+            
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> <note type="margin"> 21, 21. 13. <lb/>
+            25 </note> Portas uero eius de singulis margaritis, ternas <lb/>
+            ex omnibus partibus, non clausas, sed esse apertas. <note type="margin"> 21, 24. 26 </note> <lb/>
+            multam rationem ostendit scriptura adferri ibi munera regum <lb/>
+            seruiturorum, regionum et gentium: de subditione nouissimorum, <lb/>
+            de quibus tractauimus, ait. sed \'ciuitas\' non ita, ut<lb n="5"/>
+            nouimus, intellegitur; nos enim nihil amplius possumus arbitrari <lb/>
+            sine duce, quam quod audiuimus et uidimus. ceterum dicitur <lb/>
+            \'ciuitas\' omnis illa prouinciarum orientalium regio promissa <lb/>
+            patriarchae Abrahae. aspice, inquit, in caelo <sic>aloco</sic>, in <lb/>
+            quo modo tu stas — id est a flumine magno <choice><sic>Eufrateio</sic><corr>Eufrate</corr></choice> <lb n="10"/>
+            usque ad flumen Aegypti —; omnem terram quam <lb/>
+            tu aspicis, tibi dabo illam et semini tuo. deinde spiritus <lb/>
+            sanctus ait: dominabitur a mari usque ad <choice><sic>mareid</sic><corr>mare</corr></choice> <lb/>
+            est a mari rubro usque ad Arabiae et (a mari) aquilonis <lb/>
+            usque ad mare Phoenices — et usque ad fines terrae:<lb n="15"/>
+            sunt Syriae maioris partes. [fol. <sic n="poss">21rJ</sic> has igitur prouincias <lb/>
+            uniuersas aequari et mundari in aduentum domini et claritate <lb/>
+            \'descendente de caelo tamquam nebula\' superfluente lumine <lb/>
+            claritatem solis et de insuper in circuitu contegi manifestum est. 
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p> Nam et per Esaiam ita testatus est spiritus sanctus:<lb n="20"/>
+            tamquam fumus lucis in ignem ardentem omni
+
+<note type="footnote"> <hi rend="italic">5 cf. p. 138, 2 sq</hi>. ciuitas] cf. Apoc. 21, 2 9 Gen. 13, 14 <lb/>
+            10 Gen. 15, 18 11 Gen. 13, 15; <hi rend="italic">cf. Irenaei aduersus haereses V 32,</hi> <lb/>
+            2: Sic ergo et promissio dei quam promisit Abrahae firma perseuerat; <lb/>
+            dixit enim <hi rend="italic">etc. (sequitur Gen. 13, 14. 15 et Gen. 15, 18)</hi> 13 Ps. 71 <lb/>
+            (72), 8 17 aequari] cf. Esai. 40, 4 18 cf. Ps. 71 (72), 6 <lb/>
+            21 Esai. 4, 5 </note>
+
+<note type="footnote"> 4 subditionem <hi rend="italic">A; de ui nominis cf. Hebr. 5, 8 cod. Claromont.:</hi> <lb/>
+            didicit.. subditionem = jjjiaitev rJjv unaxo-rjv 6 nichil <hi rend="italic">A</hi> 10 id est, <lb/>
+            <hi rend="italic">quod post</hi> usque <hi rend="italic">praebet A, transposui</hi> 11 egipti <hi rend="italic">A</hi> 12 deinde] <lb/>
+            Quid agit spiritus sanctus <hi rend="italic">A in mg</hi>. 14 a mari <hi rend="italic">addidi</hi> aquilonis <lb/>
+            <hi rend="italic">scripsi coll. p. 139,</hi> 1, <hi rend="italic">lenonis A</hi> 15 fenicis <hi rend="italic">A</hi> 16 sirie <hi rend="italic">A</hi> maiores <lb/>
+            <hi rend="italic">A,</hi> maioris <hi rend="italic">T (cf. p. 139, 2)</hi> 19 in circuitu = ta ZY wixXo) <hi rend="italic">(cf. Esai</hi>. <lb/>
+            4, 5: jcavxa ta TCep;xuxXa&gt;) 20 Esiam <hi rend="italic">A in textu,</hi> Esaias <hi rend="italic">add. A in <lb/>
+            mg</hi>. Itajprctestatus <hi rend="italic">A</hi> 21 omni <hi rend="italic">scripsi (cf. ndo-rj</hi> rg <foreign xml:lang="grc">δόξη</foreign> <hi rend="italic">LXX),</hi> <lb/>
+            omnis <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="149"/>
+<pb n="150"/>
+            gloria contegetur; et alio loco ait: inluminare. Hierusalem; <lb/>
+            uenit enim tua lux et gloria domini tibi <lb/>
+            orta est. non enim sol inluminabit tibi (die neque. <lb/>
+            luna tibi) nocte; erit enim tibi dominus deus tuus <lb/>
+            lumen aeternum. et Dauid ait: et erit firmamentum in<lb n="5"/>
+            <sic>terrasuper</sic> cacumina montium, <sic>etexaltabitursuper</sic> <lb/>
+            <sic>Libanumfructus</sic> eius, <sic>etflorebunt</sic> de ciuitate tamquam <lb/>
+            faenum terrae. Danihel autem dixit lapidem sine <lb/>
+            manibus excisum percussisse statuam habentem quattuor in se — <lb/>
+            id est aurum et argentum, aeramentum et ferrum et in nouissimo<lb n="10"/>
+            testum — et ipsum lapidem, postquam statuam in puluerem <lb/>
+            redegerat, factum esse montem magnum, implens totam terram <lb/>
+            et ipse regi interpretatus est somnium et ait: tu es, inquit, <lb/>
+            aureum caput et gens tua. surget, inquit, regnum aliud <lb/>
+            humilius te, et tertium regnum erit, quod <sic>dominabiturtotae</sic><lb n="15"/>
+            terrae. quartum autem regnum durissimum <lb/>
+            et fortissimum tamquam ferrum. quod domat <lb/>
+            omnia et omnem arborem excidit. et in nouissimo <lb/>
+            tempore, inquit, tamquam testum ferro [fol. 2P] <lb/>
+            mixtum miscebuntur homines et non erunt concordes<lb n="20"/>
+            neque consentanei. et in illis temporibus <lb/>
+            suscitabit dominus deus regnum aliud, quod suscipient, <lb/>
+            inquit, sancti summi dei regnum. et
+
+<note type="footnote"> 1 Esai. 60, 1. 19. 20 5 Ps. 71 (72), 16 8 cf. Dan. 2, 34. 35 <lb/>
+            13 Dan. 2, 38-40 18 Dan. 2, 40: omnem arborem excidit = uav <lb/>
+            oEvopov ev.v.07sti»v LXX <hi rend="italic">(aliter Theodotion)</hi> 19 Dan. 2, 43 21 Dait. <lb/>
+            2, 44 22 Dai;. 7, 18 23 Dan. 2, 44 </note>
+
+<note type="footnote"> 1 contegetur <hi rend="italic">scripsi,</hi> contegitur <hi rend="italic">A</hi> et alio loco] de hierusalem celestem <lb/>
+            dic (— dicit) <hi rend="italic">A in mg</hi>. 3 illuminabit <hi rend="italic">A</hi> die neque luna tibi <lb/>
+            <hi rend="italic">om. A propter homoeoteleuton</hi> 4 erit enim <hi rend="italic">scripsi,</hi> enim erit <hi rend="italic">A</hi> 5 aeternum] <lb/>
+            Dauid <hi rend="italic">A in mg</hi>. 7 florebunt] Visio <hi rend="italic">danielis A in mg</hi>. 11 testum <lb/>
+            (= testam) <hi rend="italic">A, cf. Georges, Wortformen p. 680</hi> 12 implens <hi rend="italic">accus. <lb/>
+            neutr., quasi</hi> saxum, <hi rend="italic">non</hi> lapidem <hi rend="italic">scripsisset Victorinus</hi> totam terram] <lb/>
+            interpretatio somnii <hi rend="italic">A in mg</hi>. 15 et] est <hi rend="italic">A</hi> tertium] de tercio regno <lb/>
+            <hi rend="italic">A in mg</hi>. 16 terrae] de quarto <hi rend="italic">A in mg</hi>. 18 excidit <hi rend="italic">scripsi,</hi> excidet <hi rend="italic">A</hi> <lb/>
+            19 ferro <hi rend="italic">scripsi, ferrum A</hi> 21 in illis <hi rend="italic">scripsi,</hi> michi <hi rend="italic">A</hi> </note> 
+
+<pb n="151"/>
+<pb n="152"/>
+            regnum hoc alia gens non indagabit; namque deus <lb/>
+            percutiet et indagabit omnia regna terrae, <sic>etipsud</sic> <lb/>
+            manebit in perpetuum. 
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p> Huius regni mentionem meminit et Paulus ad Corinthios <lb/>
+            dicendo: oportet eum regnare, donec ponat inimicos<lb n="5"/>
+            suos sub pedibus sibi. in hoc regno dicturi sunt sancti: <lb/>
+            exultaui, quemadmodum audiuimus. in eodem regno inueniet <lb/>
+            integram fidem seruantes, quos dicit stetisse supra mare <lb/>
+            uitreum. habentes citharas et fialas, id est super <lb/>
+            baptismum suum stabiliter constitisse et confessionem suam<lb n="10"/>
+            in ore habentes ibi exultaturos. 
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p rend="script"> In hoc regno promisit seruis suis dicendd: quisquis reliquerit <lb/>
+            patrem aut matrem uel fratrem et sororem <lb/>
+            <sic>meinominiscausa</sic>, centum partibus multiplicatam <lb/>
+            recipiet mercedem et nunc, et in futurum uitam<lb n="15"/>
+            aeternam possidebit. in hoc regno, qui fraudati sunt in <lb/>
+            bonis propter nomen domini, etiam omnibus sceleribus et carceribus <lb/>
+            necati multi — sed ante aduentum domini prophetae sancti <lb/>
+            lapidati necati secati sunt —, \'accipient solatium suum\', id est <lb/>
+            coronas ac diuitias caelestes. in hoc regno promisit se dominus<lb n="20"/>
+            redditurum pro annis, quibus \'comedit lucusta et <choice><sic>brnchus</sic><corr>bruchus</corr></choice> <lb/>
+            et [fol. <sic n="poss">22r</sic>] <choice><sic>corrnptela</sic><corr>corruptela</corr></choice>\'. in hoc seruabitur creatio uniuersa et <lb/>
+            recondita in se bona iussu dei eructabit. hic accipient sancti <lb/>
+            \'pro aeramento aurum et pro ferro argentum et lapides
+
+<note type="footnote"> 5 I Cor. 15, 25 7 cf. Apoc. 19, 7 8-11 <hi rend="italic">cf. recens. Hieronymi<lb/>
+             p. 137, 9-12</hi> 8 Apoc. 15, 2 12 Matth. 19, 29; <hi rend="italic">cf. Irenaei adu. <lb/>
+            haereses libri V c. 33, 2:</hi> centuplum accipiet in hoc saeculo et in futuro <lb/>
+            uitam aeternam hereditabit 18 cf. H2bl\'. 11, 36. 37 <hi rend="italic">et Commodiani<lb/>
+             carmen apolog. u. 221:</hi> Esaiam serraut, lapidant Hieremiam erecti 19 cf. <lb/>
+            Luc. 16, 25 21 cf. Ioel 2, 25 23 cf. Apoc. 20, 13 24 cf. <lb/>
+            Esai. 60, 17 </note>
+
+<note type="footnote">2 regna terrae <hi rend="italic">scripsi,</hi> regnature <hi rend="italic">A</hi> 3 imperpetuum <hi rend="italic">A</hi> 4 mentionem] <lb/>
+            Paulus ad Corinthios <hi rend="italic">A in mg</hi>. mentionem meminit = fj.ve(av <lb/>
+            jj.ifj.vrjay.si 11 more <hi rend="italic">Aml,</hi> in ore <hi rend="italic">m2</hi> 14 causam <hi rend="italic">A</hi> multiplicatis <hi rend="italic">A</hi> <lb/>
+            18 necati multi <hi rend="italic">scripsi,</hi> necatos multos <hi rend="italic">A</hi> 21 rediturum <hi rend="italic">A</hi> 22 corruptelia <lb/>
+            <hi rend="italic">A</hi> 23 accipientes <hi rend="italic">A</hi> 24 aeramento <hi rend="italic">scripsi,</hi> aeramen <hi rend="italic">A</hi> </note> <lb/>
+             
+
+<pb n="153"/>
+<pb n="154"/>
+            pretiosos\'. hoc loco \'transferet ad eos diuitias maris et uirtutes <lb/>
+            gentium\'. in hoc regno (sacerdotes domini dicentur ministri <lb/>
+            dei\', quomodo dicuntur sacrilegi. in hoc regno \'bibent uinum <lb/>
+            et unguentur unguento et tradentur in laetitiam\'. 
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart"><p> De hoc regno meminit dominus, priusquam pateretur, ad<lb n="5"/>
+            apostolos dicens: non bibam de fructu uitis huius iam, <lb/>
+            nisi cum bibam uobiscum nouum in regno futuro. <lb/>
+            quod est \'centum partibus multiplicatum\', decies millies ad <note type="margin"> 21,18—20 </note> <lb/>
+            maiora et meliora. nam quod dicit \'differentes lapides genere <lb/>
+            et colore\' exhibebuntur, (de) hominibus hoc dicit; sed et<lb n="10"/>
+            uarietatem fidei pretiosissimam singulorum hominum significat. <note type="margin"> 21, 21 </note> <lb/>
+            portas autem margaritas apostolos esse ostendit. non <note type="margin"> 21, 25 </note> <lb/>
+            claudentur, inquit: gratia per illos data est, nunquam autem <lb/>
+            eadem clauditur. hoc loco uidebunt \'faciem contra faciem\\ et <note type="margin"> 21, 14 </note> <lb/>
+            unus alterum non requisiuit. nomina autem esse et<lb n="15"/>
+            patrum et apostolorum et in fundamentis et super por- <note type="margin"> 21, 12 </note> <lb/>
+            tas: iam de XXIIII senioribus tractauimus, et de his qui <lb/>
+            regnauerint in hoc regno, ipsi mundum iudicabunt.
+
+<note type="footnote"> 1 cf. Esai. 60, 5b 2 cf. Esai. 61, G 3 cf. Am. 6, 6 et Ps. <lb/>
+            67, 4 6 Matth. 26, 29; <hi rend="italic">cf. Irenaei adu. haereses V 33, 1</hi> 8 cf. <lb/>
+            Matth. 19, 29 decies millies ad maiora et meliora] <hi rend="italic">cf. quae apud <lb/>
+            Papiam Hierapolitem in quarto libro de summa uineae fertilitate legimus <lb/>
+            (Irenaei adu. haeres. V 33, 3. 4); Papias, ex quo Victorinus hausit,. <lb/>
+             hoc agraphon domini cum loco JJlatth. 26, 29 coniunxisse uidetur</hi> 14 cf <lb/>
+            I Cor. 13, 12 15 Esai. 34, 16 18 I Cor. 6, 2 </note>
+
+<note type="footnote">2 ministri dei = XsiToupyol 8\'eo\'3 <hi rend="italic">IJXX</hi> 3 bibpnt <hi rend="italic">scripsi,</hi> bibunt <hi rend="italic">A</hi> <lb/>
+            8 milies <hi rend="italic">A</hi> 9 genere et colore <hi rend="italic">scripsi (cf. p. 146,</hi> 4), uero et illud <hi rend="italic">A</hi> <lb/>
+            10 de <hi rend="italic">addidi</hi> 11 significat <hi rend="italic">scripsi,</hi> significare <hi rend="italic">A</hi> 14 clauditur <hi rend="italic">scripsi,</hi> <lb/>
+            claudi <hi rend="italic">A</hi> 18 iudicabunt] <hi rend="italic">add</hi>. Apocalipsis Iohannis explicit <hi rend="italic">A</hi> </note> 
+
+
+            
+</p>
+
+</div>
+        
+</div></div>
+</body>
+</text>
+</TEI>

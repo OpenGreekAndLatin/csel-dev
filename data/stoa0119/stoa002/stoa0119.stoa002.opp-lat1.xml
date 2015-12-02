@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL9_1.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Pius Knoell</name>
+                  <addName xml:lang="de">Pius Knoell</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0119">Eugippius</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0119-stoa002">Epistula ad Probam Virginem</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0119-stoa003">Excerpta ex Operibus Augustini</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1885</date>
+              </imprint>
+              <biblScope unit="volume">9.1</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/ExcerptaExOperibusSAugustini/Excerpta_ex_operibus_S_Augustini#page/n9/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0119.stoa002.opp-lat1">
+<head>
+            <title type="main">EVGIPPII EPISTVLA AD PROBAM VIRGINEM. </title>
+          </head>
+          <ab>
+            <title type="sub">DOMINAE MERITO VENERABILI ET FRVCTV SACRAE VIRGINITATIS IN CHRISTI GRATIA SEMPER INLVSTRI AC PER OMNIA PROBAE EVGIPPIVS OMNIVM SERVORVM DEI FAMVLVS IN DOMINO SALVTEM DICIT. </title>
+          </ab>
+          <p rend="script">Excerptorum codicem, quem de nonnullis operibus sancti <lb/>
+            Augustini cohortante domno meo Marino abbate uel ceteris <lb/>
+            <choice><sic>suctis</sic><corr>sanctis</corr></choice> fratribus quomodocumque compegeram, continuo transferri <lb/>
+            <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> sancto quo polletis studio uoluistis, et cum bibliothecae <lb n="10"/>
+            uestrae copia multiplex integra de quibus pauca decerpsi <lb/>
+            contineat opera, placuit tamen habere decerpta. at ego <lb/>
+            prospiciens ne forsitan a legentibus <choice><sic>temerilatis</sic><corr>temeritatis</corr></choice> arguerer, <choice><sic>neeesse</sic><corr>necesse</corr></choice> <lb/>
+            habui causas facti praefatione fateri: quae ita se habent: <lb/>
+            inter magnos et egregios catholicae doctores ecclesiae <choice n="0.21"><sic n="24">praedarum</sic><corr n="89">praeclarum</corr></choice> <lb n="15"/>
+            fuisse et esse beatum Augustinum quis ignoret episcopum? <lb/>
+            quem cum diuina et humana eruditione mirabilem <lb/>
+            omnes orthodoxi toto terrarum orbe uenerentur, praecipue <lb/>
+            tamen apostolicae sedis antistites scripta. eius sua probabiliter
+
+<note rend="script" type="footnote"> <hi rend="italic">Epistula intercidit in V et maximam partem in M. collati sunt</hi> <lb/>
+            pneter <hi rend="italic">GPTv codex Mediomontanus 12,352 (m,</hi> s. <hi rend="italic">X uel XI et</hi> <lb/>
+            cod. <hi rend="italic">Taurinensii XLVIII. d. 4. 24 (t) 8. XII</hi>. — Incipit praefatio sequentis <lb/>
+            operis G\'; eugippiue ad Probam uirginem <hi rend="italic">add. GIncipit</hi> prologus <lb/>
+            libri eogippii T; in nomino dni nri ihu xpi. incipit liber euipii <lb/>
+            P 4 xpo P 5 eugipius <hi rend="italic">Gm</hi> euvipius P eugepius <hi rend="italic">t</hi> <lb/>
+            j coticem <hi rend="italic">T</hi> 8 domino <hi rend="italic">m t</hi> abbate <hi rend="italic">om</hi>. c 9 conpigeram <lb/>
+            <hi rend="italic">T</hi> 10 bibliothaccae <hi rend="italic">P pr</hi>. 12 contineant <hi rend="italic">CP</hi> ergo 01 <lb/>
+            a fataeri <hi rend="italic">Thabet libri praeter t</hi> 15 egregiosq: (om. et) <hi rend="italic">m</hi> <lb/>
+            17 com <hi rend="italic">T</hi> 18 uonerantur <hi rend="italic">mxt</hi> 19 antestites <hi rend="italic">GI T</hi> antistes <lb/>
+            « ppabiliter P </note>
+
+<note type="footnote"> YlJII. </note>
+
+<note type="footnote"> 1 </note> <lb/>
+             
+<pb n="2"/>
+            auctoritate firmantes tanto maiori studio semper amplexi sunt, <lb/>
+            quanto ampliori solacio his usos se fuisse testantur. nam contra <lb/>
+            multos hostes ecclesiae dimicantes et maxime contra uersipelles <lb/>
+            inimicos gratiae dei doctrina eius instructi uel potius <lb/>
+            eadem inlustrati gratia semper exstitere uictores: cuius uictoriae<lb n="5"/>
+            praemia in tantum donante deo posteris prosunt, ut et ieiunos <lb/>
+            copiosius pascant et fortes armis spiritalibus muniant. catholica <lb/>
+            si quidem diuinae legis explanatio non solum esurientibus <lb/>
+            alimonia sed et dimicantibus efficitur armatura. nec immerito <lb/>
+            uicarii illius, cui pascendas oues dominus ore proprio commendauit, <lb n="10"/>
+            compastoralis officii socium copiosa gregi dominico <lb/>
+            de pratis scripturarum pabula procurantem peramplius dilexerunt, <lb/>
+            suum uerissime putantes bonum quod per fraternam <lb/>
+            scientiam gratulabantur inuentum, scientes hunc intellegibilem <lb/>
+            ad condiendos animos salem etiam pecoribus abiectissimis profuturum. <lb n="15"/>
+            quorum omnium ego prorsus abiectior ex aliquantis <lb/>
+            eiusdem beati <choice><sic>niri</sic><corr>uiri</corr></choice> praeclaris operibus perpauca ruminando <lb/>
+            quodam modo lambendoque decerpsi, quae praestantibus amicis <lb/>
+            integra legeram: nam omnia illius habere uel inuenire <choice n="0.12"><sic n="5248">quis</sic><corr n="36919">qui</corr></choice> <lb/>
+            possit? nonnulla ergo legenti mihi atque habere cupienti <lb n="20"/>
+            quia facultas minime suppetebat, idcirco quaedam uelut ex <lb/>
+            ingenti prato floribus asperso caelestibus ex librorum eius quae <lb/>
+            data est copia inops aegerque conlegi: inops scilicet peritia., <lb/>
+            aeger offensa, uel informari tanta doctrina cupiens uel sanari. <lb/>
+            ueritatem namque sententiae Salomonis, qua ait: <sic>fauns</sic> <lb n="25"/>
+            mellis uerba prudentiae, dulcedo animae, sanitas <lb/>
+            ossuum, in supra dicti uiri dulcissima et sanissima <choice><sic>erudifcione</sic><corr>eruditione</corr></choice> <lb/>
+            persensi. pauca proinde quae congessi non solum mihi qui <lb/>
+            sensu censuque sum pauper sed etiam his qui utroque praediti <lb/>
+            sunt munere profutura confido. nam cum in manus eorum
+
+<note type="footnote"> 25 Prou. 16, 24 </note>
+
+<note type="footnote"> 2 ampliori] maiori <hi rend="italic">v</hi> esse <hi rend="italic">G tJ</hi> 3 ostes <hi rend="italic">T</hi> 5 extitere <lb/>
+            <hi rend="italic">G2P</hi> 11 et copiosa <hi rend="italic">GmttJ</hi> 13 uerissimae <hi rend="italic">T</hi> 18 quodam <lb/>
+            modo <hi rend="italic">om. Gv</hi> lambendo quae <hi rend="italic">P pr</hi>. 20 posset <hi rend="italic">Pm\'t</hi> <lb/>
+            21 superpetebat <hi rend="italic">G1</hi> 22 eiusdem <hi rend="italic">Pm</hi> 23 inobs <hi rend="italic">T</hi> 25 namquae <lb/>
+            <hi rend="italic">T</hi> qui <hi rend="italic">t</hi> 27 ossium <hi rend="italic">G*P7v</hi> 28 perpensi <hi rend="italic">t</hi> 30 sint <lb/>
+            <hi rend="italic">G ex</hi> sunt </note> <lb n="30"/>
+             
+<pb n="3"/>
+            haec eadem excerpta peruenerint, aut ardore mendicantis accensi <lb/>
+            aut inordinata, ut assolet, congestione permoti dabunt <lb/>
+            operam uel plura studiosius habere uel ex his aptiora decerpere <lb/>
+            atque in unum corpus redacta saepius lectitare. ita <lb/>
+            <sic>foraian</sic> imperiti desiderium compendiis poterit militare <sic>doctornnL</sic> <lb n="5"/>
+            plerumque enim quod ineptius a paruis arripitur a <lb/>
+            magnis aptius adimpletur. certe si nullus magnorum id uel <lb/>
+            facere uel habere dignetur, saltem illi quibus plenaria tanti <lb/>
+            desunt operis his fortasse delectabuntur excerptis, quia facilius <lb/>
+            unum codicem quis poterit sibi parare quam multos. a singulis <lb n="10"/>
+            sane capitulis diuersae res uel etiam quaestiones atque sententiae <lb/>
+            de quo opere uel libro sint indicantur, ut, si quis ignorat ubi <lb/>
+            eas plene possit inuenire, cognoscat. integrum uero <choice n="0.09"><sic n="32">libram</sic><corr n="308">librum</corr></choice> <lb/>
+            <choice><sic>aisum</sic><corr>uisum</corr></choice> est excerptorum debere esse principium et ille <sic>potissiimum</sic> <lb/>
+            mihi praeponendus occurrit, quem idem beatus Augustinus <lb n="15"/>
+            antistes ad sanctum Hieronymum post primum de animae <lb/>
+            quaestione noscitur scripsisse presbyterum, soluens illam <lb/>
+            ex <choice><sic>epistnla</sic><corr>epistula</corr></choice> Iacobi apostoli quam in primo praenotaui capitulo <lb/>
+            quaestionem: in quo libro quattuor illas uirtutes, id est <lb/>
+            prudentiam, temperantiam, fortitudinem atque iustitiam, ad <lb n="20"/>
+            <choice><sic>illnd</sic><corr>illud</corr></choice> geminae dilectionis dei et proximi latum mandatum <lb/>
+            nimis, in quo tota lex pendet et prophetae, mirifice rettulit. <lb/>
+            ob hoc itaque congruum putaui atque conueniens ut his excerptis <lb/>
+            caritas, qua dispersa solent adunari integritate, libri <lb/>
+            daret exordium, quae et uirtutum omnium perfectio et supernae <lb n="25"/>
+            legis est plenitudo; ipsa quoque finem dedit operi, quae non <lb/>
+            habet finem. nam paene ultimus numeri titulus ordinem
+
+<note type="footnote"> 22 cf. Matth. 22, 37 sqq. </note>
+
+<note type="footnote"> 1 medicantia P 2 adsolet <hi rend="italic">T</hi> 3 opera <hi rend="italic">PT</hi> apertiora M <lb/>
+            5 imperiti] impleri <hi rend="italic">t</hi> 7 id <hi rend="italic">om. t</hi> 8 dignatur <hi rend="italic">GPmtv</hi> saltim <lb/>
+            Palt 9 forsitan <hi rend="italic">GPmtv</hi> 10 sibi quis poterit <hi rend="italic">t</hi> a <hi rend="italic">om. <lb/>
+             GPnt</hi> 12 ut] aut <hi rend="italic">t pr</hi>. 13 plene eas m plenas <hi rend="italic">P</hi> possint <lb/>
+            r 14 est <hi rend="italic">om. t</hi> 15 agustinus <hi rend="italic">G</hi> 16 antestes <hi rend="italic">Gm1</hi> <lb/>
+            taerommum <hi rend="italic">GPTmv</hi> post primum] postremum <hi rend="italic">Of)</hi> 17 acrib- <lb/>
+            - P* 18 ex om. m beati iacobi v 19 est om. <hi rend="italic">G1</hi> <lb/>
+            22 pendit <hi rend="italic">Of]</hi> retulit <hi rend="italic">GPmtv</hi> 25 <hi rend="italic">ab</hi> [uirtu]tum omnium <lb/>
+            IlIeåpit M 26 est om. <hi rend="italic">T</hi> 27 panultimus <hi rend="italic">mt</hi> pęne primus <hi rend="italic">Gv</hi> <lb/>
+            nmeri] libri t titulos P1 </note>
+
+<note type="footnote"> 1* </note> <lb/>
+             
+<pb n="4"/>
+            nutriendae, ultimus enutritae laudem continet <choice n="0.64"><sic n="84">caritatis</sic><corr n="47">militare</corr></choice>; per <lb/>
+            quam adiuro lecturos ut mihi indigno ueniam dignanter tribuant <lb/>
+            et orationum praesidia clementer impendant. si quis <lb/>
+            sane transferens hoc opus his quae congesta sunt alia addere <lb/>
+            forte uoluerit, congruis adiciat locis, ut praedicti duo de caritate<lb n="5"/>
+            tituli finem semper teneant <sic>excerptorum</sic>.
+
+<note rend="script" type="footnote"> 1 continet-6 excerptorum <hi rend="italic">om. T</hi> 4 hoc om. <hi rend="italic">t</hi> 5 fortej <lb/>
+            stare <hi rend="italic">t</hi> 6 Expt prqfatio <hi rend="italic">I/tib</hi> excerptord. incp capitula eiusde operis <lb/>
+            <hi rend="italic">M;</hi> Incipiunt capitula libri huius <hi rend="italic">T;</hi> Explicit praefatio. Incipiunt <lb/>
+            capitula de quibusdam opusculis sci augustini (agustini G P) epi <lb/>
+            <hi rend="italic">GPv</hi>.. </note>
+</p>
+        
+</div>
+</body>
+</text>
+</TEI>

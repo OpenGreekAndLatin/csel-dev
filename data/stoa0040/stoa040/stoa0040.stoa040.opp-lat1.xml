@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL25_1.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Iosephus Zicha</name>
+                  <addName xml:lang="de">Joseph Zicha</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa064">De Utilitate Credendi</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa040">De Duabus Animabus</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa024b">Contra Fortunatum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa017">Contra Adimantum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa021a">Contra Epistulam Fundamenti</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa024">Contra Faustum</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1891</date>
+              </imprint>
+              <biblScope unit="volume">25.1</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru27wissgoog#page/n5/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0040.stoa040.opp-lat1">
+<ab>
+            <title type="sub">II. DE DUABUS ANIMABUS. </title>
+          </ab>
+<div n="1" subtype="chapter" type="textpart">
+          <p rend="script"><sic>Opitulante</sic> dei misericordia disruptis et derelictis Manichaeorum <lb/>
+            laqueis tandem catholicae gremio restitutum libet <lb/>
+            considerare nunc saltem ac deplorare illam miseriam meam. <lb n="5"/>
+            multa enim erant, quae facere debui, ne tam facile ac diebus <lb/>
+            paucis religionis uerissimae semina mihi a pueritia salubriter <lb/>
+            insita errore uel fraude falsorum fallaciumue hominum effossa <lb/>
+            ex animo pellerentur. nam primo animarum illa duo genera, <lb/>
+            quibus ita singulas naturas propriasque tribuerunt, ut alterum <lb n="10"/>
+            de ipsa dei esse substantia, alterius uero deum ne <choice><sic>couditorem</sic><corr>conditorem</corr></choice> <lb/>
+            <choice><sic>quldem</sic><corr>quidem</corr></choice> uelint accipi. si mecum sobrie diligenterque considerassem <lb/>
+            mente in deum subplici et pia, fortasse mihi satagenti <lb/>
+            adparuisset nullam esse qualemlibet uitam, quae non eo ipso, <lb/>
+            quo uita est et in quantum omnino uita est, ad summum <lb n="15"/>
+            uitae fontem principiumque pertineat: quod nihil aliud quam <lb/>
+            summum et solum et uerum deum possumus confiteri. quapropter <lb/>
+            illas animas, quae a Manichaeis uocantur malae, aut <lb/>
+            carere uita et animas non esse neque quicquam uelle seu <lb/>
+            nolle. adpetere uel fugere, aut si uiuerent, ut et animae esse <lb n="20"/>
+            possent et aliquid tale agere, quale illi opinarentur nullo <lb/>
+            modo eas nisi uita uiuere; ac si Christum dixisse constaret, <lb/>
+            ut constat: ego sum uita. nihil esse causae, cur non omnes
+
+<note type="footnote"> 23 Ioh. 14, 0 </note>
+
+<note rend="script" type="footnote"> 2 INCIPIT AVRELII AVGVSTIM DE DVOBVS ANIMIS fol. 176 M <lb/>
+            INCIPIT LIBER AVRELIIAVGVSTINIDE DVABVS ANIMABVS fol. 1 <hi rend="italic">B</hi> <lb/>
+            Incipit lib aurelii augustini de duabus animab4 contra manicheos fol <lb/>
+            •cclle tu <lb/>
+            165 <hi rend="italic">S</hi> inscr. <hi rend="italic">om. A</hi> 4 eatholicę <hi rend="italic">B</hi> gręmio <hi rend="italic">M</hi> restitum <hi rend="italic">B</hi> 5 ac]. <lb/>
+            C <lb/>
+            et A meam miseriam <hi rend="italic">Sb</hi> 6 facerem <hi rend="italic">S</hi> debui <hi rend="italic">om. SB (s. I.)</hi> a <hi rend="italic">3t</hi> <lb/>
+            « r <lb/>
+            7 <hi rend="italic">puericia A</hi> 8 fallatiumue <hi rend="italic">B</hi> effosa <hi rend="italic">B</hi> 10 l,\'ta <hi rend="italic">A</hi> propriasque <hi rend="italic">M</hi> <lb/>
+            t <lb/>
+            tribuerent <hi rend="italic">M</hi> distribuerent A 11 esse <hi rend="italic">Bl</hi> 12 sobriae <hi rend="italic">B</hi> sobrig <hi rend="italic">A</hi> <lb/>
+            17 solum uerumque <hi rend="italic">Sb</hi> 18 animas illas <hi rend="italic">B</hi> 21 possint <hi rend="italic">B</hi> 22 ac] <lb/>
+            et A aut <hi rend="italic">S</hi> 23 ut] ut et <hi rend="italic">B</hi> quur <hi rend="italic">(sic ubique) B</hi> </note>
+
+<note type="footnote"> 4* </note> <lb/>
+             
+<pb n="52"/>
+            animas, cum animae nisi uiuendo esse non possint. per <choice><sic>Christuro</sic><corr>Christum</corr></choice>, <lb/>
+            id <sic>ejt</sic> per uitam creatas et conditas fateremur. 
+</p>
+          
+</div>
+
+<div n="2" subtype="chapter" type="textpart">
+<p>Quod si tempore illo quaestionem de ipsa uita et de <lb/>
+            participatione uitae mea cogitatio ferre ac sustinere non posset <lb/>
+            — quae profecto magna est et multum serenae disputationis<lb n="5"/>
+            inter doctissimos indigens — illud dispicere fortasse ualuissem, <lb/>
+            quod omni homini sese sine studio partium bene consideranti <lb/>
+            manifestissime adparet omne, quod scire et nosse dicimur <lb/>
+            aut sensu corporis aut intellegentia nos habere conprehensum. <lb/>
+            sensus autem corporis etiam uulgo quinque numerari: uisum,<lb n="10"/>
+            auditum, odoratum. gustatum atque tactum: quibus omnibus <lb/>
+            intellegentiam longe alteque praestare et excellere, quis mihi <lb/>
+            non uel ingratus inpiusque concederet ? quo constituto atque <lb/>
+            firmato illud consequi, ut cuncta, quae tactu et uisu uel quolibet <lb/>
+            alio modo corporaliter sentirentur. tanto essent inferiora<lb n="15"/>
+            his, quae intellegendo adsequeremur. quanto ipsos sensus intellegentiae <lb/>
+            cedere <choice><sic>nideremus</sic><corr>uideremus</corr></choice>. quamobrem cum omnis uita et <lb/>
+            ob hoc omnis anima nullo corporis sensu, sed solo intellectu <lb/>
+            percipi queat, sol autem iste atque luna omnisque lux. quae <lb/>
+            mortalibus his oculis cernitur, ab ipsis quoque Manichaeis<lb n="20"/>
+            uero et bono deo tribuenda esse dicatur: summam esse dementiam <lb/>
+            id praedicare pertinere ad deum, quod per corpus <lb/>
+            intuemur, quod uero non solum animo. sed ipsa sublimitate <lb/>
+            animi, mente scilicet atque intellegentia caperemus, id est <lb/>
+             uitam, qualiscumque illa diceretur. tamen uitam eodem deo: <lb n="25"/>
+            auctore priuandam et uiduandam putare. num enim quid sit <lb/>
+            uiuere quamque secretum ab omni corporis sensu quamque
+
+<note rend="script" type="footnote"> 1 possunt <hi rend="italic">A</hi> possent 8 3 quo <hi rend="italic">A</hi> uita <hi rend="italic">om. BS</hi> 4 sustinere] consene <lb/>
+            <lb/>
+            tire <hi rend="italic">b (in marg. al</hi>. sustinere) possit <hi rend="italic">B</hi> 5 sęręnę <hi rend="italic">B</hi> 6 inspicere <hi rend="italic">BASb</hi> <lb/>
+            d • elre <lb/>
+            8 appareret <hi rend="italic">M</hi> quo <hi rend="italic">B</hi> discere <hi rend="italic">B</hi> discere <hi rend="italic">S</hi> scire <hi rend="italic">b (tn marg. al</hi>. discere) <lb/>
+            c<foreign xml:lang="grc">ιε</foreign>ęre (de <hi rend="italic">er.) A</hi> 10 numerari solent uisum auditum odoratum gustatom atque <lb/>
+            f e <lb/>
+            tactum <hi rend="italic">B</hi> quinque modis nominari dicitur S 11 gustum-Ab 12 exelt. <lb/>
+            nlosfł <lb/>
+            lere-4 michi.4 15 tnnc ATS 16 his] atque his <hi rend="italic">b</hi> sgtsequerenror <hi rend="italic">M1</hi> <lb/>
+            ipsius <hi rend="italic">B</hi> 18 nulla <hi rend="italic">B1</hi> 19 quaat A 21 uero <hi rend="italic">(s. I.)</hi> 11 tribuendo <hi rend="italic">B</hi> <lb/>
+            summa esset dementia <hi rend="italic">b</hi> 23 quod uero] quodque <hi rend="italic">b</hi> 25 illa <hi rend="italic">om. A</hi> <lb/>
+            26 num] non <hi rend="italic">BAS</hi> </note> <lb/>
+             
+<pb n="53"/>
+            omnino incorporeum, si me ipsum inuocato deo interrogarem, <lb/>
+            respondere non possim? aut non illi quoque fateantur non <lb/>
+            solum uiuere illas, quas detestantur animas, sed etiam inmortaliter <lb/>
+            uiuere? quodque a Christo dictum est: dimitte <lb/>
+            mortuos sepelire mortuos suos, non de omnino non uiuentibus, <lb n="5"/>
+            sed de peccantibus dictum, quae inmortalis animae <lb/>
+            sola mors est scribente Paulo: mortua est uidua, quae in <lb/>
+            deliciis uiuit; simul enim et mortuam esse dixit et uiuere. <lb/>
+            quare non ego quanto decoloratius uiuat peccatrix anima, sed <lb/>
+            illud ipsum tantum, quod uiuit adtenderem. quod si percipere <lb n="10"/>
+            nisi intellegendo non possem, credo, ueniret in mentem tanto <lb/>
+            esse quamlibet animam luci, quam per hos sentimus oculos, <lb/>
+            praeferendam, quanto intellegentiam ipsis oculis praeferremus. 
+</p>
+          <p>Lucem autem illam illi quoque a patre Christi esse confirmant: <lb/>
+            egone tandem, quod ab eo esset quaecumque anima, <lb n="15"/>
+            dubitarem? ego uero non modo de anima, sed de quouis etiam <lb/>
+            corpore, quin ab ipso esset, nihil omnino ne tum quidem homo <lb/>
+            scilicet illius inperitiae atque illius aetatis ambigerem, si <lb/>
+            forma quid esset quidue formatum, quid species et quid indutum <lb/>
+            specie, deinde quid horum cui causa esset, pie cauteque <lb n="20"/>
+            cogitarem. 
+</p>
+          
+</div>
+
+<div n="3" subtype="chapter" type="textpart">
+<p>Sed de corpore interim taceo; de anima conqueror, de <lb/>
+            spontaneo et uiuido motu, de actu, de uita, de inmortalitate, <lb/>
+            denique conqueror, quod aliquam rem ista omnia sine dei <lb/>
+            bonitate habere posse miserrimus credidi, quod quanta essent, <lb n="25"/>
+            neglegenter adtendi: hoc mihi gemendum ac deflendum puto. <lb/>
+            uoluerem mecum haec, loquerer mecum, deferrem ad illos;
+
+<note type="footnote">4 Matth. 8, 22. 7 I Tim. 5, 6. <lb/>
+            t aut </note>
+
+<note rend="script" type="footnote"> 1 meipsum <hi rend="italic">A</hi> interrogarem respondere <hi rend="italic">B</hi> 2 possem <hi rend="italic">M</hi> 4 quodquę <hi rend="italic">M</hi> <lb/>
+            dimittite <hi rend="italic">M</hi> dimittex? <hi rend="italic">B</hi> 5 non olno non de b 6 dictum r <hi rend="italic">B2</hi> <lb/>
+            c decoloraii* <lb/>
+            <hi rend="italic">7 sribente B2 8 diliciis B 9 doloclaratius B 10 uiuat BASb</hi> 11 posi <lb/>
+            <lb/>
+            sim-B menteB 12 essetM 13 preferemus (re <hi rend="italic">corr. ex ri) A</hi> pferpmus <hi rend="italic">B</hi> <lb/>
+            t <lb/>
+            <hi rend="italic">pferimusiS</hi> 15 esse <hi rend="italic">Mi</hi> 16 modo <hi rend="italic">(s. I.) M</hi> 17 ctl quide <hi rend="italic">b</hi> 18 im- <lb/>
+            <hi rend="italic">pericie inperitiae atque om. b</hi> 19 ue] <hi rend="italic">uero BAS</hi> spetiesA 20 spequit. <lb/>
+            <lb/>
+            tie <hi rend="italic">A</hi> specię <hi rend="italic">M</hi> speciae <hi rend="italic">B</hi> cui <hi rend="italic">B1</hi> pię <hi rend="italic">M</hi> 24 denique conquerorrem <lb/>
+            <hi rend="italic">(infra in fllarg.) M</hi> 26 ac] hoc <hi rend="italic">b</hi> 27 alios <hi rend="italic">Sb</hi> </note> <lb/>
+             
+<pb n="54"/>
+            quae uis esset intellegendi, quam nihil esset in homine. quod <lb/>
+            huic excellentiae possemus conferre, proponerem. ubi mihi <lb/>
+            hoc homines, si modo essent homines, concessissent, quaererem, <lb/>
+            utrum his oculis uidere id est intellegere; ubi negauissent, <lb/>
+            colligerem primo longe esse sensui oculorum istorum intellegentiam<lb n="5"/>
+            mentis anteponendam; deinde subiungerem, id quod <lb/>
+            re meliore perciperemus, necessario melius iudicandum. quis <lb/>
+            hoc non daret? ergo pergerem quaerere animam illam, quam <lb/>
+            malam dicerent, oculisne sentiretur istis. an mente intellegeretur. <lb/>
+            mente faterentur. quibus omnibus inter nos conuenientibus<lb n="10"/>
+            atque firmatis. quid conficeretur ostenderem, animam <lb/>
+            illam scilicet. quam execrarentur. luce ista, quam uenerarentur, <lb/>
+            esse meliorem, quandoquidem illa intellectu mentis. haec sensu <lb/>
+            corporis innotescit. hic uero haererent fortasse ducemque rationem <lb/>
+            sequi recusarent: tanta est uis ueternosarum opinionum<lb n="15"/>
+            et diu defensae atque creditae falsitatis. sed ego instarem <lb/>
+            magis haerentibus. non aspere. non pueriliter, non peruicaciter; <lb/>
+            repeterem quae concessa sunt, et quam essent concedenda, <lb/>
+            monstrarem. hortarer ut in commune consulerent; uiderent <lb/>
+            certe. quid nobis negandum esset: utrum intellectum istis <lb n="20"/>
+            carneis luminibus praeferendum, an excellentius esse, quod <lb/>
+            animi excellentia quam quod debili sensu corporis cognoscitur, <lb/>
+            falsum putarent; an illas animas, quas alienigenas crederent. <lb/>
+            tantum intellegendo. id est ipsa animi excellentia sciri posse <lb/>
+            nollent fateri: an solem ac lunam non nisi istis oculis notos <lb n="25"/>
+            fieri uellent abnuere. quod si nihil horum nisi absurdissime <lb/>
+            atque inpudentissime negari posse animum aduerterent,
+
+<note rend="script" type="footnote"> I do <lb/>
+            2 poss?mus <hi rend="italic">A</hi> possimus <hi rend="italic">MB</hi> 3 hoc <hi rend="italic">otn. A</hi> mo <hi rend="italic">JI</hi> quererem <hi rend="italic">M</hi> <lb/>
+            t t <lb/>
+            4 hoc <hi rend="italic">Sb</hi> niderent-intelligerent <hi rend="italic">Sb</hi> niderê-intellegerè Ml uiderèintellegerg <lb/>
+            <hi rend="italic">B</hi> 6 antepponendam A anteponerg S 8 daret] diceret b <lb/>
+            ego6 querere M anima illa&gt;6 9malum.l/ lOfateremurd ofliib\'6 <lb/>
+            (in <hi rend="italic">mg. al</hi>. nolbus) 11 confirmatis <hi rend="italic">b</hi> confitereni <hi rend="italic">b</hi> 12 scilicet illam <hi rend="italic">S</hi> <lb/>
+            14 hererent M 15 opiniorum M 17 non aspere <hi rend="italic">(s. I.) M</hi> 18 quam] <lb/>
+            &lt; a <lb/>
+            q <hi rend="italic">b</hi> 19 uiderent <hi rend="italic">om. MASB (s. I.)</hi> 21 exellentius <hi rend="italic">A</hi> 22 eiellentia <hi rend="italic">A</hi> <lb/>
+            de e c <lb/>
+            uili <hi rend="italic">MASb</hi> bili <hi rend="italic">B</hi> 23 alieniginas <hi rend="italic">M</hi> 24 exellentia A 25 non <hi rend="italic">om. A</hi> <lb/>
+            26 absurdissime M 27 inpudentissime <hi rend="italic">M</hi> animaduerterent <hi rend="italic">AlSb</hi> </note> <lb/>
+             
+<pb n="55"/>
+            suaderem non eos oportere dubitare istam lucem, quam colendam <lb/>
+            praedicarent , esse anima illa uiliorem, quam fugiendam <lb/>
+            monerent. 
+</p>
+          
+</div>
+
+<div n="4" subtype="chapter" type="textpart">
+<p>Atque hic si forte turbati a me quaererent, num etiam <lb/>
+            muscae animam huic luci praestare censerem, responderem: <lb n="5"/>
+            etiam. nec me terreret musca quod parua est, sed quod uiua <lb/>
+            firmaret. quaeritur enim, quid illa membra tam exigua uegetet, <lb/>
+            quid huc atque illuc pro naturali adpetitu tantillum corpusculum <lb/>
+            ducat, quid currentis pedes in numerum moueat, aut <lb/>
+            quid uolantis pennulas moderetur ac uibret. quod qualecumque <lb n="10"/>
+            est, bene considerantibus in tam paruo tam magnum eminet, <lb/>
+            ut cuiuis fulgori praestringenti oculos praeferatur. 
+</p>
+          <p>Certe quod nemo dubitat, quicquid id est, intellegibile est, <lb/>
+            quod omni sensibili et ob hoc huic etiam luci diuinis legibus <lb/>
+            antecellit. quid enim cogitatione percipimus, quaeso, si hoc <lb n="15"/>
+            non percipimus aliud esse mente intellegere, aliud sentire per <lb/>
+            corpus et prius illud ab hoc posteriore incomparabili sublimitate <lb/>
+            distare ideoque non posse intellegibilia sensibilibus non <lb/>
+            praeferri, cum ipse intellectus tantum sensibus praeferatur? 
+</p>
+          
+</div>
+
+<div n="5" subtype="chapter" type="textpart">
+<p>Hinc illud etiam fortasse cognoscerem, quod consequens <lb n="20"/>
+            esse manifestum est, cum iniustitia et intemperantia ceteraque <lb/>
+            animi uitia non sentiantur, sed intellegantur: quomodo fiat, <lb/>
+            ut etiam ista, quae detestamur et damnanda censemus, tamen <lb/>
+            quoniam intellegibilia sunt, anteire hanc lucem queant, cum
+
+<note rend="script" type="footnote"> de <lb/>
+            2 biliorem <hi rend="italic">B</hi> 4 si <hi rend="italic">om. b</hi> õ censerem (im <hi rend="italic">corr. in</hi> em) B1 <lb/>
+            6 paruQ <hi rend="italic">BAS</hi> 7 tinnaret <hi rend="italic">b (in marg. al</hi>. formatio) 8$&lt;}huc <hi rend="italic">B</hi> <lb/>
+            e <lb/>
+            9 currentesJkL426 <hi rend="italic">aut om.BASb</hi> 10 uolantes pinnnlas Az pennullas <lb/>
+            (i <hi rend="italic">in</hi> e <hi rend="italic">corr.) B</hi> moderetur (de <hi rend="italic">ex</hi> di <hi rend="italic">corr.) B*</hi> 11 eminet (et <hi rend="italic">ex</hi> it <lb/>
+            d <lb/>
+            <hi rend="italic">tn.2corr.) B 12 p///stringenti (ex prae) A perstringenti b</hi> 18 quicquidi2 <lb/>
+            nellns <lb/>
+            id <hi rend="italic">om. MS, s. I. m 2 BA</hi> id est <hi rend="italic">om. b</hi> intellegibile esse <hi rend="italic">M</hi> 14 quod <lb/>
+            ..9 <lb/>
+            <hi rend="italic">om. b</hi> 15 cognitionS <hi rend="italic">S</hi> cognitione <hi rend="italic">b</hi> p cipimus <hi rend="italic">(ex</hi> prae) <hi rend="italic">B2</hi> percipiausM <lb/>
+            t larri <lb/>
+            16 aliud esse$liu&lt;J A* 18 <hi rend="italic">distare M1</hi> sensibilia intelligilibus p <hi rend="italic">(in<lb/>
+             ras.) A</hi> sensibilibus <hi rend="italic">om. MB (s. I.)</hi> non <hi rend="italic">om. b</hi> 19 cum ipsepraeferatur <lb/>
+            <hi rend="italic">omissa</hi> uoce tantum\' <hi rend="italic">infra in marg. B</hi> 22 <hi rend="italic">fiant A</hi> fiaijt <hi rend="italic">B</hi> <lb/>
+            mur <lb/>
+            23 detestantnr <hi rend="italic">B</hi> dampnanda <hi rend="italic">AB</hi> 24 qugant <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="56"/>
+            in suo genere ista laudanda sit. suggeritur enim animo bene <lb/>
+            se deo subicienti primo non omne, quod laudamus. omni. <lb/>
+            quod uituperamus. esse anteponendum. neque enim quia laudo <lb/>
+            purgatissimum plumbum. ob hoc illud uituperando auro pluris <lb/>
+            aestimo. in suo enim genere quidque considerandum est. inprobo<lb n="5"/>
+            iurisconsultum multas leges ignorantem, sed eum tamen <lb/>
+            probatissimo sutori sic praefero, ut ne comparandum quidem <lb/>
+            putem. at istum laudo, quod suae artis peritissimus sit; illum <lb/>
+            autem. quod suam professionem minus inpleat, iure reprehendo. <lb/>
+            ex quo reperire deberem lucem istam, quod in genere proprio<lb n="10"/>
+            perfecta esset. iure laudari; tamen quia sensibilium rerum <lb/>
+            numero includitur, quod genus intellegibilium generi cedat <lb/>
+            necesse est, infra iniustas et intemperantes animas, quoniam <lb/>
+            sunt intellegibiles, esse deputandam, quamuis istas non iniuria <lb/>
+            damnatione dignissimas iudicemus. quaerimus namque in his<lb n="15"/>
+            quod concilietur deo, non quod isti fulgori praeferatur. quapropter <lb/>
+            quisquis hoc lumen ex deo esse contenderet, non <lb/>
+            repugnarem, sed magis animas dicerem, uitiosas etiam, non in <lb/>
+            quantum uitiosae. sed in quantum animae sunt, deum sibi <lb/>
+            esse creatorem fateri oportere. <lb n="20"/>
+            
+</p>
+          
+</div>
+
+<div n="6" subtype="chapter" type="textpart">
+<p>Hoc loco si quisquam illorum cautus et uigilans iam <lb/>
+            etiam studiosior quam pertinacior me admoneret non de uitiosis <lb/>
+            animis. sed de ipsis uitiis esse quaerendum — quae quoniam <lb/>
+            sensu corporis non cognoscerentur. et tamen cognoscerentur, <lb/>
+            non nisi intellegibilia posse accipi; quae si sensibilibus
+
+<note rend="script" type="footnote"> ftlU dan <lb/>
+            1 regalilauda <hi rend="italic">B</hi> six <hi rend="italic">MB</hi> suggereretur <hi rend="italic">M</hi> suggeretur <hi rend="italic">AB</hi> 2 se deo] <lb/>
+            riau <lb/>
+            sed eo <hi rend="italic">Sb</hi> 3 esse <hi rend="italic">(s. I.) A</hi> anteponendtl esse <hi rend="italic">A</hi> laudo (dan <hi rend="italic">paene</hi> <lb/>
+            o q; <lb/>
+            <hi rend="italic">er.) B</hi> 4 plumbum purgatissimum <hi rend="italic">S</hi> 5 quid <hi rend="italic">A</hi> quid <hi rend="italic">M</hi> quidQ; <hi rend="italic">B</hi> quid <lb/>
+            tvm * <lb/>
+            quod <hi rend="italic">S</hi> 6 eu tafli <hi rend="italic">A</hi> 7 nec <hi rend="italic">AM</hi> 8 potest <hi rend="italic">(corr. ex</hi> putem) <hi rend="italic">A</hi> ad <hi rend="italic">M</hi> <lb/>
+            illam \'riftn <lb/>
+            istum <hi rend="italic">A</hi> laudo (dan <hi rend="italic">paen.e er.) B</hi> 10 repperire <hi rend="italic">MBA</hi> 13 intempe- <lb/>
+            ....lai <lb/>
+            raų.ţęę <hi rend="italic">A</hi> intemperatas <hi rend="italic">S</hi> 14 noniniuria <hi rend="italic">Bl</hi> 15 dampnatione <hi rend="italic">A</hi> 22 studiosor <lb/>
+            <hi rend="italic">A</hi> studiosior (ior <hi rend="italic">ex</hi> ius <hi rend="italic">m. 2 corr.) B</hi> pertinatior <hi rend="italic">MBA</hi> ammoh <lb/>
+            * polhlH <lb/>
+            neret <hi rend="italic">AB</hi> de <hi rend="italic">om. AB1</hi> 23 animas <hi rend="italic">li4</hi> ipsis uitiis <hi rend="italic">B1</hi> 24 et cognoscerentur <lb/>
+            <hi rend="italic">om. b</hi> cagnoscerentur (a <hi rend="italic">corr. ex</hi> e <hi rend="italic">m. 2) B</hi> 25 quel) <lb/>
+            ti <lb/>
+            sensibilibos (si <hi rend="italic">er.) A</hi> quae <hi rend="italic">sensib. B</hi> </note> <lb n="25"/>
+             
+<pb n="57"/>
+            omnibus antecellunt, cur lucem deo auctori esse tribuendam inter <lb/>
+            nos conueniret, uitiorum uero auctorem deum nemo nisi <choice n="0.16"><sic n="6">sacrilegas</sic><corr n="31">sacrilegus</corr></choice> <lb/>
+            diceret — responderem homini, si aut statim et repente. <lb/>
+            ut bonis dei cultoribus solet. diuinitus infulsisset huius solutio <lb/>
+            quaestionis, aut fuisset antea praeparata: quorum si neutrum <lb n="5"/>
+            meruissem atque potuissem, coepta differrem; quodque esset <lb/>
+            propositum, difficile esse ad dinoscendum atque arduum confiterer. <lb/>
+            recurrerem in me, prosternerer deo, alte ingemerem <lb/>
+            quaerens, ne me in medio spatio, quo certis rationibus <sic>promouissem</sic>, <lb/>
+            haerere pateretur; ne ancipiti quaestione cogerer <lb n="10"/>
+            aut intellegibilia sensibilibus submittere ac subdere. aut ipsum <lb/>
+            uitiorum dicere auctorem: cum esset utrumuis horum falsitatis <lb/>
+            inpietatisque plenissimum. nullo modo possem existimare. quod <lb/>
+            <sic>ine</sic> sic adfectum ille desereret. admoneret ergo suis illis ineffabilibus <lb/>
+            modis, ut considerarem etiam atque etiam. utrum <lb n="15"/>
+            animi uitia. de quibus aestuarem, inter intellegibilia numeranda <lb/>
+            essent. quod ut reperirem propter inbecillitatem interioris oculi <lb/>
+            mei, quae mihi peccatis meis iure accidisset, aliquem mihi ad <lb/>
+            <choice><sic>inuisihilia</sic><corr>inuisibilia</corr></choice> contuenda in ipsis uisibilibus machinarer gradum: <lb/>
+            quorum esset nobis nullo modo certior cognitio, sed consuetudo <lb n="20"/>
+            fidentior. itaque statim quaererem, quid ad sensum proprie <lb/>
+            pertineret oculorum. inuenirem colores, quorum <choice><sic>principatuni</sic><corr>principatum</corr></choice> <lb/>
+            lux ista obtineret. haec enim sunt. quae nullus alius sensus <lb/>
+            adtingit: nam motus corporum et magnitudines et interualla <lb/>
+            et figuras. quamuis et oculis. non tamen proprie. sed tactu <lb n="25"/>
+            etiam posse sentiri. unde colligerem tanto ceteris corporeis et <lb/>
+            sensibilibus praestare lucem, quanto aliis sensibus aspectus <lb/>
+            esset inlustrior. eiecta igitur ex omnibus, quae corpore
+
+<note rend="script" type="footnote"> 2 uiciorum <hi rend="italic">A</hi> 4 <hi rend="italic">solucio A</hi> 6 meruissè (&lt;—\' <hi rend="italic">m. 2 add.) B</hi> cepta <hi rend="italic">A</hi> <lb/>
+            cepta <hi rend="italic">M</hi> Ccepta <hi rend="italic">b</hi> 7 propositum <hi rend="italic">b (in marg. al</hi>. proditum) ad <lb/>
+            ft <lb/>
+            inoscendflS ntqueilf 8 recurre«f-4 <hi rend="italic">ingemescerem.4 ingemescerem Bb</hi> <lb/>
+            10 quaestione (ne <hi rend="italic">ex</hi> ni <hi rend="italic">corr. m. 2) B</hi> 11 summittere <hi rend="italic">A</hi> committere S <lb/>
+            12 dicere uitiorum A 13 impietatisquae <hi rend="italic">B1</hi> possim M existumare <hi rend="italic">B</hi> <lb/>
+            puel\' ..., <lb/>
+            <hi rend="italic">14 ergo B2</hi> 17 QtfĮ Ii\' <hi rend="italic">A repperirem MBA (pp ubique in M)</hi> 19 ipsis <lb/>
+            michi uisibilib\' <hi rend="italic">A</hi> 21 propriae B propria <hi rend="italic">MA</hi> 25 <hi rend="italic">proprił,\\e B</hi> proprie ilf <lb/>
+            28 electa <hi rend="italic">pos. ante</hi> ista luce <hi rend="italic">A</hi> ex omnibus igitur <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="58"/>
+            sentiuntur, ista luce. qua niterer et in qua gradum illum inquisitionis <lb/>
+            meae necessario conlocarem, pergerem adtendere, quid <lb/>
+            ageretur hoc modo. mecumque ista sermocinarer: si sol iste <lb/>
+            tanta claritate conspicuus et diei luce sufficiens usque ad lunae <lb/>
+            similitudinem in conspectu nostro paulatim deficeret, num aliud<lb n="5"/>
+            quicquam oculis sentiremus quam lucem utcumque fulgentem, <lb/>
+            lucem tamen quaerentes. quod fuerat, non uidendo et haurientes <lb/>
+            uidendo quod aderat? non ergo illum defectum uideremus, <lb/>
+            sed lucem. quae defectui remaneret. cum autem non <lb/>
+            uideremus, non sentiremus: quicquid enim sentimus aspectu. <lb n="10"/>
+            non potest non uideri. quare si defectus ille neque uisu neque <lb/>
+            alio sensu sentiretur, non posset inter sensibilia numerari. <lb/>
+            nihil enim sensibile est. quod sentiri non potest. referamus nunc <lb/>
+            considerationem ad uirtutem, cuius intellegibili luce splendere <lb/>
+            animum conuenientissime dicimus. porro ab hac luce uirtutis<lb n="15"/>
+            defectus quidam non perimens animam. sed obscurans uitium <lb/>
+            uocatur. potest igitur recte uitium quoque animi nequaquam <lb/>
+            inter intellegibilia numerari. ut lucis ille defectus recte de <lb/>
+            sensibilium numero eximitur: illud tamen quod remanet animae, <lb/>
+            id est hoc ipsum. quod uiuit atque anima est, tam est intellegibile<lb n="20"/>
+            quam sensibile illud, quod in hoc uisibili lumine <lb/>
+            post defectum quantumcumque fulgeret: et ideo animam in <lb/>
+            quantum anima esset et uitae participaret, sine qua nullo <lb/>
+            pacto esse anima potest. rectissime omnibus sensibilibus anteferri. <lb/>
+            quamobrem maximi erroris esse ullam animam dicere <lb n="25"/>
+            non esse ex deo. ex quo esse solem lunamque glorieris.
+
+<note rend="script" type="footnote"> V B O <lb/>
+            1 nitirer <hi rend="italic">M1</hi> inquisitioni M1 2 necessarig, <hi rend="italic">B1</hi> quod <hi rend="italic">A B S</hi> <lb/>
+            t.fe 1 P <lb/>
+            3 solis <hi rend="italic">M</hi> 4 <hi rend="italic">tanto A</hi> die <hi rend="italic">B1</hi> 5 nom <hi rend="italic">A non S</hi> 7 uiuendo <hi rend="italic">BA</hi> <lb/>
+            h e riefecturn <lb/>
+            aurientes A 8 deftnjctfl .4* defunctumJB4 11 despectus-4 12 <hi rend="italic">possit B</hi> <lb/>
+            i <lb/>
+            13 sentiri iri <hi rend="italic">ex</hi> rej A sentir? <hi rend="italic">B1</hi> 14 splendore <hi rend="italic">A</hi> splendentem <hi rend="italic">S</hi> <lb/>
+            illunolbll. esae <lb/>
+            16 uicium <hi rend="italic">B</hi> 17 anime <hi rend="italic">Sb</hi> 22 quantOq; <hi rend="italic">B</hi> fulgeret <hi rend="italic">(m 2?) M</hi> <lb/>
+            ft <lb/>
+            23 partiparet <hi rend="italic">A</hi> 24 ala esse <hi rend="italic">b</hi> nnimQ <hi rend="italic">B</hi> potest esse <hi rend="italic">A</hi> 25 erroq; <lb/>
+            <lb/>
+            ris ёjj (e <hi rend="italic">er.) B</hi> 26 lunamqn? M7 gloriaris <hi rend="italic">b</hi> </note> 
+<pb n="59"/>
+            
+</p>
+          
+</div>
+
+<div n="7" subtype="chapter" type="textpart">
+<p>Quod si iam placeret omnia sensibilia nominare, non <lb/>
+            modo ea, quae sentiremus, sed etiam ea, quae non sentiendo, <lb/>
+            tamen per corpus iudicaremus, sicut per oculos tenebras et <lb/>
+            per aures silentium — et illas enim non uidendo et hoc non <lb/>
+            audiendo cognoscimus — rursusque intellegibilia, non ea <lb n="5"/>
+            tantum, quae inlustrata mente conspicimus, sicuti est ipsa <lb/>
+            sapientia, sed etiam illa, quae ipsius inlustrationis priuatione <lb/>
+            auersamur, ut est insipientia, quam tenebras animi congrue <lb/>
+            dixerimus: nullam de uerbo facerem controuersiam, sed totam <lb/>
+            quaestionem facili diuisione dissoluerem statimque adprobarem <lb n="10"/>
+            bene adtendentibus substantias intellegibiles sensibilibus substantiis <lb/>
+            diuina et incorrupta ueritatis lege praeponi, non earum <lb/>
+            - substantiarum defectus, quamuis hos intellegibiles, <sic>iUos</sic> sensibiles <lb/>
+            appellare uellemus. quapropter qui et haec lumina uisibilia <lb/>
+            et illas intellegibiles animas substantias esse faterentur, <lb n="15"/>
+            omni modo eos cogi sublimiores partes animis tribuere atque <lb/>
+            concedere, defectus uero utriusque generis non posse alteros <lb/>
+            alteris anteponi; priuant enim tantum et non esse indicant, <lb/>
+            quod usquequaque eandem uim habent, sicut ipsae negationes. <lb/>
+            nam cum dicimus: non est aurum, et: non est uirtus, quamuis <lb n="20"/>
+            inter aurum et uirtutes plurimum, nihil tamen inter negationes, <lb/>
+            quas eis adiunximus, distat. uerum enimuero peius <lb/>
+            est non esse uirtutem quam non esse aurum, nemo sanus hinc <lb/>
+            ambigit, quod non propter ipsas negationes, sed propter res, <lb/>
+            quibus adiunguntur, accidere quis non intellegat? auro <choice><sic>eiiim</sic><corr>enim</corr></choice> <lb n="25"/>
+            uirtus quanto praestat, tanto est uirtute quam auro carere <lb/>
+            miserius. quamobrem cum res intellegibiles sensibilibus rebus <lb/>
+            antecellunt, defectum in intellegibilibus quam in sensibilibus <lb/>
+            merito aegrius toleramus, non eos defectus, sed ea, quae
+
+<note rend="script" type="footnote">1 iam-collspicimus <hi rend="italic">m. 2 in marg. A</hi> nominaret <hi rend="italic">A</hi> 6 inlustra <hi rend="italic">B</hi> <lb/>
+            i <lb/>
+            est] et <hi rend="italic">M</hi> 7 inlustrationis (es <hi rend="italic">corr. in</hi> is) <hi rend="italic">B</hi> 8 insg,pientia <hi rend="italic">B</hi> <lb/>
+            I V: <lb/>
+            quas <hi rend="italic">BA</hi> 9 dixerimys <hi rend="italic">A</hi> dixerim <hi rend="italic">Sb</hi> 10 facile <hi rend="italic">B</hi> facilem diuisionem M <lb/>
+            12 proponi-4 16 concedere atque tribuere <hi rend="italic">b</hi> 19 habet <hi rend="italic">AB</hi> 23 uir- <lb/>
+            łutèŞ <hi rend="italic">A (corr</hi>. m. 1) 25 intelligatur S 26 quantum <hi rend="italic">A</hi> 27 quam ob rem <lb/>
+            <hi rend="italic">(corr. ex</hi> quamuis) <hi rend="italic">A</hi> 28 antecellant <hi rend="italic">(m. 2</hi> u <hi rend="italic">corr. in</hi> ai <hi rend="italic">B</hi> in <lb/>
+            <hi rend="italic">a</hi>. intell. <hi rend="italic">om. AB (s. l. m. 2)</hi> in intellegilibus <hi rend="italic">om. S</hi> 29 egrius <hi rend="italic">M</hi> </note> <lb/>
+             
+<pb n="60"/>
+            <sic>desciunt</sic>, carius uel uilius aestimantes. ex quo iam illud adparet <lb/>
+            defectum uitae, quae intellegibilis est, multo miserabiliorem <lb/>
+            esse quam huius sensibilis lucis, quod scilicet multo est <lb/>
+            carior intellecta uita quam lux ista conspecta. 
+</p>
+          
+</div>
+
+<div n="8" subtype="chapter" type="textpart">
+<p>Quae cum ita sint, audebitne quisquam, cum solem ac<lb n="5"/>
+            lunam et quicquid in sideribus, quicquid denique in hoc igni <lb/>
+            nostro atque terreno luce uisibili effulget, deo tribuat, animas <lb/>
+            quaslibet, quae profecto nisi uiuendo animae non sunt, cum <lb/>
+            tanto hoc lumen uita praecedat. ex deo esse nolle concedere? <lb/>
+            et cum ille uerum dicat. qui dicit: in quantum nitet. ex deo<lb n="10"/>
+            est, egone tandem. deus magne. mentiar, si dicam: in quantum <lb/>
+            uiuit. ex deo est? non usque adeo. quaeso, caecitas mentis <lb/>
+            subpliciaque augeantur animorum. ut haec homines non <choice><sic>intcllegant</sic><corr>intellegant</corr></choice>. <lb/>
+            sed quoquo modo illorum error aut pertinacia sese <lb/>
+            haberet, his ego fretus armatusque rationibus credo, cum ad<lb n="15"/>
+            eos rem ita consideratam perspectamque detulissem et cum <lb/>
+            his placide contulissem. uererer. ne mihi quisquam eorum <lb/>
+            alicuius momenti esse uideretur, si aut intellectum aut ea, <lb/>
+            quae intellectu, non per defectum perciperentur, sensui conaretur <lb/>
+            praeferre aut saltem conparare corporeo uel his rebus, quae<lb n="20"/>
+            ad eundem sensum cognoscendum similiter pertinerent. quo <lb/>
+            constituto quando ille mihi uel quisquam negare auderet <lb/>
+            animas, quantum uellet malas, tamen, quoniam animae essent, <lb/>
+            intellegibilium rerum numero contineri neque illas per defectum <lb/>
+            intellegi ? siquidem animae non alio essent, nisi quo uiuerent<lb n="25"/>
+            licet enim per defectum intellegerentur uitiosae, quia uirtutis
+
+<note rend="script" type="footnote"> 1 uel] et <hi rend="italic">b</hi> uilius <hi rend="italic">(ex</hi> bilius <hi rend="italic">m. 2) B</hi> 2 defectum <hi rend="italic">om. A</hi> 5 audeant <lb/>
+            sut <lb/>
+            bitne] aut <hi rend="italic">debet ne B tum A</hi> ac] aut b$$A 7 luce] qui <lb/>
+            <hi rend="italic">luce A</hi> deo <hi rend="italic">om. B 9 tanto] tfli b nolle concedere ex deo esse b</hi> <lb/>
+            q:io <lb/>
+            10 et <hi rend="italic">om. S</hi> 12 adeo ce citas <hi rend="italic">A</hi> cecitas <hi rend="italic">b (in marg. al</hi>. societas) <lb/>
+            14 pertinatia <hi rend="italic">MBA</hi> 15 ergo <hi rend="italic">ASb</hi> ergo <hi rend="italic">MB1</hi> 16 detulissem (de ex <lb/>
+            rp <lb/>
+            con <hi rend="italic">corr.) A</hi> 17 uerer A2 nec <hi rend="italic">M</hi> 19 quae intellectQ <hi rend="italic">B</hi> nondtl <lb/>
+            perfecte b conarenturJ56 <hi rend="italic">20 prneferre om. A saltim B 21 noscenda BA</hi> <lb/>
+            rm i <lb/>
+            <hi rend="italic">noscendtl Sb cognoscendg, M1 22 illi BAb</hi> 23 ueliti?.S.44ft <hi rend="italic">24 numerQ Â</hi> <lb/>
+            i <lb/>
+            25 que <hi rend="italic">A</hi> 26 intellegerentur <hi rend="italic">A2</hi> uitiose <hi rend="italic">AS</hi> uirtutis (es in is) <hi rend="italic">B</hi> </note> <lb/>
+             
+<pb n="61"/>
+            egestate uitiosae, non tamen per defectum animae, quia ui. <lb/>
+            uendo animae. nec fieri potest, ut uitae praesentia sit causa <lb/>
+            deficiendi, cum tanto quidque deficiat, quanto deseritur uita. 
+</p>
+          
+</div>
+
+<div n="9" subtype="chapter" type="textpart">
+<p>Omni modo igitur cum pateret non posse ullas animas <lb/>
+            ab eo auctore separari, a quo lux ista non separaretur, iam <lb n="5"/>
+            quicquid adferrent, non acciperem admoneremque potius, ut <lb/>
+            eos mecum sequi mallent, qui omne, quicquid esset, quoniam <lb/>
+            esset, in quantumcumque esset, ex uno deo esse praedicarent. <lb/>
+            Recitarent aduersum me uoces illas euangelicas: uos propterea <lb/>
+            non auditis, quia non estis ex deo; uos ex <lb n="10"/>
+            patre diabolo estis. ego quoque contra recitarem: omnia <lb/>
+            per ipsum facta sunt et sine ipso factum est nihil, <lb/>
+            et illud apostoli: unus deus, ex quo omnia, et unus dominus <lb/>
+            Iesus Christus, per quem omnia, et iterum eiusdem <lb/>
+            apostoli: ex quo omnia, per quem omnia, in quo <lb n="15"/>
+            omnia, <sic>iosi</sic> gloria, hortarerque homines — si tamen homines <lb/>
+            inuenirem —, nihil nos iam quasi conperisse praesumeremus, <lb/>
+            sed quaereremus potius magistros, qui sententiarum istarum, <lb/>
+            quae nobis inter se pugnare uiderentur, pacem concordiamque <lb/>
+            monstrarent. non in una atque eadem auctoritate scripturarum <lb n="20"/>
+            cum alibi sonaret: omnia ex deo, et alibi: uos non estis <lb/>
+            ex deo, quoniam libros temere condemnare nefas esset, quis <lb/>
+            non uideret peritum doctorem, cui quaestionis huius solutio <lb/>
+            nota esset, inueniendum fuisse? qui profecto si esset bonus
+
+<note type="footnote"> 9 Ioh. 8, 47 et 44 11 Ioh. 1, 3 13 I Cor. 8, 6 15 Rom. <lb/>
+            11, 36 21 I Cor. 11, 12 </note>
+
+<note rend="script" type="footnote"> 3 quisque <hi rend="italic">b</hi> a uita <hi rend="italic">BSb</hi> 4 et non posset A et non posse <hi rend="italic">BS</hi> <lb/>
+            5 ab eo animo ab eo auctore <hi rend="italic">M</hi> ista lux <hi rend="italic">S</hi> 6 afferent <hi rend="italic">B</hi> monei <lb/>
+            <lb/>
+            remque <hi rend="italic">BASb</hi> 7 malent <hi rend="italic">B</hi> 8 esse <hi rend="italic">om. A</hi> 9 aduersus S 10 audistis <lb/>
+            B1 ex deo non estis ASb a patre <hi rend="italic">Mb</hi> 12 sine ipsum <hi rend="italic">A</hi> <lb/>
+            at <lb/>
+            14 et iterum—apostoli <hi rend="italic">om. b</hi> 15 p qufi omla <hi rend="italic">in marg. A</hi> 17 nihil <lb/>
+            re <lb/>
+            (ut m. <hi rend="italic">2 add.) B</hi> 18 quaeremus <hi rend="italic">B</hi> queremus <hi rend="italic">A</hi> magistros nrs <hi rend="italic">b</hi> <lb/>
+            tn <lb/>
+            istarum <hi rend="italic">(s. I. m. 2) B om. S</hi> 20 atq; eadS <hi rend="italic">Al</hi> 22 libros <hi rend="italic">(8. I.) M</hi> <lb/>
+            condimpnare <hi rend="italic">A</hi> 23 doctorem (in <hi rend="italic">ras.) A</hi> solutio (8. <hi rend="italic">I.)</hi> M </note><lb/>
+             
+<pb n="62"/>
+            intellector et. ut diuinitus dicitur, homo spiritalis. quoniam <lb/>
+            necessario faueret ueris rationibus, quas de intellegibili sensibilique <lb/>
+            natura, quantum potui, tractaui atque disserui. immo <lb/>
+            eas ipse multo melius et ad docendum aptius aperiret. nihil <lb/>
+            ab eo aliud de hac quaestione audiremus, nisi quemadmodum<lb n="5"/>
+            fieri posset, ut et nullum animarum genus non esset ex deo, <lb/>
+            et recte tamen <choice><sic>peccatonbus</sic><corr>peccatoribus</corr></choice> et infidelibus diceretur: non <lb/>
+            estis ex deo. nam et nos fortasse inplorato in auxilium deo <lb/>
+            facile uidere possemus aliud esse uiuere, aliud peccare. et <lb/>
+            quamquam uita in peccatis in conparatione iustae uitae mors<lb n="10"/>
+            appellata sit. utrumque tamen in homine uno posse inueniri, <lb/>
+            ut simul sit uiuus atque peccator. sed quod uiuus, ex deo, <lb/>
+            quod peccator. non ex deo. in qua diuisione utimur ea parte <lb/>
+            de duabus, quae nostrae sententiae conpetit, ut, cum dei conditoris <lb/>
+            omnipotentiam insinuare uolumus, etiam peccatoribus<lb n="15"/>
+            dicamus. quod ex deo sint — dicimus enim his, qui aliqua <lb/>
+            specie continentur, dicimus animantibus, dicimus rationalibus, <lb/>
+            dicimus postremo, quod ad rem maxime adtingit, uiuentibus, <lb/>
+            quae omnia per se ipsa diuina sunt munera-, cum autem malos <lb/>
+            arguere propositum est. recte dicimus: non estis ex deo. <lb n="20"/>
+            dicimus enim se a ueritate <sic>auertelltibus</sic>, infidelibus, facinorosis. <lb/>
+            <choice><sic>fiagitiosis</sic><corr>flagitiosis</corr></choice>, et quod nomine uno totum continet, <choice><sic>peccatOlibus</sic><corr>peccatoribus</corr></choice>: <lb/>
+            quae rursus omnia ex deo non esse quis dubitet? itaque <lb/>
+            Christus <choice><sic>peccatorihus</sic><corr>peccatoribus</corr></choice> id ipsum, quod peccatores erant et sibi <lb/>
+            non credebant, coarguens, quid mirum si ait: non estis ex
+
+<note type="footnote"> 1 cf. I. Tim. 2, 15 10 cf. I Tim. 6, 6 </note>
+
+<note rend="script" type="footnote"> t 1 <lb/>
+            1 dicitur <hi rend="italic">A</hi> 2 intellegibile <hi rend="italic">B</hi> 4 ipse <hi rend="italic">om. A</hi> 5 aliud ab eo A <lb/>
+            Iiel *t r <lb/>
+            6 possit <hi rend="italic">Bl</hi> esse <hi rend="italic">ABS</hi> 8 auxiliQm di <hi rend="italic">A</hi> 9 possemus uidere <hi rend="italic">A</hi> <lb/>
+            i <lb/>
+            possimus M possemus (i <hi rend="italic">in</hi> e <hi rend="italic">corr.) B</hi> 11 <hi rend="italic">inuenir? A</hi> 12 quod-deo <hi rend="italic">(8.1.) M</hi> <lb/>
+            OUOI <lb/>
+            13 quali <hi rend="italic">uisione A</hi> ea] ex <hi rend="italic">B</hi> 14 de duabus \'J alab\' B-j ut\'/,\' (rO <hi rend="italic">er.) A</hi> <lb/>
+            I <lb/>
+            16 sqnt A 17 spe <hi rend="italic">A</hi> spe t- <hi rend="italic">m. 2 add.) B</hi> dicimus-rationalibus <lb/>
+            rtifottftUb\' q.. <lb/>
+            <hi rend="italic">om. £ MA</hi> et dicimus <hi rend="italic">Bi</hi> 18 ad rem] rem <hi rend="italic">ABS</hi> attinet <hi rend="italic">b</hi> 19 <hi rend="italic">que If*</hi> <lb/>
+            O <lb/>
+            21 facin?rosis <hi rend="italic">Bi</hi> 23 non <hi rend="italic">om. A</hi> 25 si <hi rend="italic">om. b</hi> agit <hi rend="italic">B1</hi> si non estis <hi rend="italic">b</hi> <lb/>
+            ■tla <lb/>
+            ex deo <hi rend="italic">A</hi> </note> <lb n="25"/>
+             
+<pb n="63"/>
+            deo. ex alia parte illa salua manente sententia quod omnia <lb/>
+            per ipsum facta sunt, et: omnia ex deo. nam si Christo <lb/>
+            non credere, Christi aduentum repudiare. Christum non recipere <lb/>
+            certum indicium esset animarum, quae non sunt dei. <lb/>
+            et ideo dictum esset: uos propterea non auditis. quia <lb n="5"/>
+            non estis ex deo, quomodo uera esset uox illa apostoli in <lb/>
+            ipso euangelii memorabili principio, qua dictum est: in sua <lb/>
+            propria uenit et sui eum non receperunt? unde sui. si <lb/>
+            non receperunt? aut unde ideo non sui. quia non receperunt? <lb/>
+            nisi quia homines peccatores, eo quod sunt homines. ad deum. <lb n="10"/>
+            eo uero, quod <choice><sic>peccatoies</sic><corr>peccatores</corr></choice>, ad diabolum pertinent. hic ergo <lb/>
+            partem naturae tenuit qui ait: sui eum non receperunt. <lb/>
+            ille uoluntatis qui ait: non estis ex deo. euangelista enim <lb/>
+            dei opera commendabat. <choice><sic>Chnstus</sic><corr>Christus</corr></choice> hominum peccata cohercebat. <lb/>
+            
+</p>
+
+</div>
+
+<div n="10" subtype="chapter" type="textpart">
+<p>Hic fortasse quis dicat: unde ipsa peccata et omnino <lb n="15"/>
+            unde malum? si ab homine, unde homo? si ab angelo. unde <lb/>
+            angelus ? quos ex deo esse cum dicitur. quamuis recte uereque <lb/>
+            dicantur, uidentur tamen inperitis et minus ualentibus acriter <lb/>
+            res abditas intueri quasi per quandam catenam ad deum mala <lb/>
+            et peccata conecti. hac in quaestione illi regnare se putant, <lb n="20"/>
+            quasi uero interrogare sit scire. utinam id esset: nemo me <lb/>
+            scientior reperiretur. sed nescio quomodo saepe in altercando <lb/>
+            magnae quaestionis propositor personam magni doctoris ostentat
+
+<note type="footnote"> 5 Ioh. 8. 47 7 Ioh. 1. 11 </note>
+
+<note rend="script" type="footnote"> 3 credere 9913 cr?&lt;J?r?m A xpl (i in <hi rend="italic">ras. ex u 1B</hi> repudiare/I (m <hi rend="italic">er.) A</hi> <lb/>
+            4 iuditium <hi rend="italic">MA</hi> 5 audistis <hi rend="italic">B</hi> quia] qfli b 6 ex deo non estis <hi rend="italic">AS</hi> <lb/>
+            7 euangio <hi rend="italic">AB</hi> quia A 8 unde — receperunt <hi rend="italic">om. A</hi> unde — 9 <hi rend="italic">fin</hi>. <lb/>
+            ii <lb/>
+            <hi rend="italic">receperunt otn. S</hi> nonB* 9 reciperuntM aut ideo undeA reciped <lb/>
+            ulem <lb/>
+            runt <hi rend="italic">M</hi> reperunt <hi rend="italic">A</hi> 11 addiabolum <hi rend="italic">B</hi> 12 autem eum <hi rend="italic">A2</hi> reciperunt <hi rend="italic">M</hi> <lb/>
+            uero <lb/>
+            13 uoluntatis <hi rend="italic">B2</hi> uoluntates <hi rend="italic">b</hi> 14 operam <hi rend="italic">A</hi> peccata <hi rend="italic">(s. 1. m. 2) B</hi> <lb/>
+            h <lb/>
+            coercebat <hi rend="italic">SA</hi> coercebat <hi rend="italic">M</hi> 16 omine <hi rend="italic">A</hi> 17 quos esse ex deo <hi rend="italic">B</hi> <lb/>
+            uerequa <hi rend="italic">M</hi> 18 dicantur <hi rend="italic">A</hi> dicatur <hi rend="italic">Sb</hi> uidentur <hi rend="italic">om. A</hi> minusq; <hi rend="italic">A</hi> <lb/>
+            20 in <hi rend="italic">sup. lin. m. 2 add. B om. Sb</hi> 21 sit] scit <hi rend="italic">A</hi> sciret <hi rend="italic">M</hi> nam <lb/>
+            nia <lb/>
+            nemo <hi rend="italic">AB</hi> me scientior nemo <hi rend="italic">S</hi> 22 sepe <hi rend="italic">M</hi> 23 quęstio <hi rend="italic">B</hi> questionis <lb/>
+            <hi rend="italic">M</hi> propositos <hi rend="italic">M</hi> ostendat <hi rend="italic">Sb</hi> </note> <lb/>
+             
+<pb n="64"/>
+            plerumque ipse ipso. quem tenet, in eo, de quo terret, <choice><sic>iudoctior</sic><corr>indoctior</corr></choice>. <lb/>
+            itaque isti multitudini se praeferendos arbitrantur, quia <lb/>
+            priores interrogant. quod cum multitudine ignorant. sed si eo <lb/>
+            tempore, quo cum eis me, non sicut iam diu ago, egisse nunc <lb/>
+            paenitet, mihi has rationes depromenti hoc obiecissent, dicerem:<lb n="5"/>
+            quaeso. interim mecum cognoscite, quod facillimum est, si <lb/>
+            nihil potest fulgere sine deo, multo minus posse aliquid uiuere <lb/>
+            sine deo, ne in tantis monstris opinionum remaneamus, ut <lb/>
+            nescio quas animas uitam non ex deo habere praedicemus. sic <lb/>
+            enim fortasse continget, ut id quod mecum ignoratis, id est<lb n="10"/>
+            unde sit malum, uel simul uel quolibet ordine aliquando discamus. <lb/>
+            quid ? si enim cognitio summi mali sine summi boni <lb/>
+            cognitione contingere homini non potest? non enim nossemus <lb/>
+            tenebras, si in tenebris semper essemus; <sic>sod</sic> lucis notitia <lb/>
+            contrarium suum non siuit incognitum. summum autem bonum<lb n="15"/>
+            id est, quo superius esse nihil potest; deus autem bonum et <lb/>
+            deo superius nihil est: deus igitur summum bonum. cognoscamus <lb/>
+            ergo deum atque ita nos illud, quod praepropere <lb/>
+            quaerimus, non latebit. mediocrisne tandem negotii uel meriti <lb/>
+            cognitionem dei esse arbitramini? quod enim nobis aliud <lb n="20"/>
+            praemium quam uita aeterna promittitur, quae dei cognitio <lb/>
+            est? ait enim magister deus: haec est autem uita aeterna, <lb/>
+            ut cognoscant te solum et uerum deum et quem
+
+<note type="footnote"> -22 Ioh. 17, 3 </note>
+
+<note rend="script" type="footnote"> 1 ipse <hi rend="italic">om. ABb</hi> ipse ipso <hi rend="italic">om. S</hi> 2 preferendos <hi rend="italic">M</hi> pnjferendo A. <lb/>
+            f 1 r o <lb/>
+            pręferendo <hi rend="italic">B2</hi> 4 egęsse <hi rend="italic">M</hi> 5 ha <hi rend="italic">B</hi> deprimenti <hi rend="italic">A</hi> depromendi S <lb/>
+            erpo iuua mn <lb/>
+            7 potest sine deo fulgere <hi rend="italic">b</hi> 8 ne in <hi rend="italic">B2</hi> remaneas <hi rend="italic">B1</hi> remaneas A <lb/>
+            V ftltqiio <lb/>
+            9 non ex <hi rend="italic">b (in marg. al</hi>. sine) 10 contiget <hi rend="italic">B</hi> 11 uel qcĮ libet <hi rend="italic">Xt*</hi> <lb/>
+            qi-n <lb/>
+            libet <hi rend="italic">M2</hi> 12 quid (i <hi rend="italic">corr. ex</hi> o) <hi rend="italic">A</hi> enim si <hi rend="italic">Bb</hi> maliJ boni <hi rend="italic">b</hi> sine <lb/>
+            cognitione summi boni (mali <hi rend="italic">b) ASb</hi> 18 non potest homini <hi rend="italic">A</hi> 14 essect.u. <lb/>
+            e <lb/>
+            mus] s.irous (c <hi rend="italic">er.) A</hi> 15 sinit <hi rend="italic">Sb</hi> 16 potest; deus] potest deus <hi rend="italic">B2</hi> <lb/>
+            dr <lb/>
+            potest ds <hi rend="italic">M, -</hi> deus-deus <hi rend="italic">om. S</hi> 17 nihil esse potest b nihil est suyree <lb/>
+            <lb/>
+            perius A 18 qd q; propere <hi rend="italic">(p in mg. m. 2) B prepropere M</hi> 19 querirous <lb/>
+            <hi rend="italic">M</hi> negotii tandem <hi rend="italic">b</hi> 23 solum et <hi rend="italic">om. JlASb</hi> solum deum <lb/>
+            uerum <hi rend="italic">B</hi> . </note> <lb/>
+             
+<pb n="65"/>
+            misisti Iesum Christum. etenim anima quamuis sit inmortalis, <lb/>
+            tamen quia mors eius rite dicitur a dei cognitione auersio, <lb/>
+            cum se conuertit ad deum. meritum est aeternae uitae consequendae, <lb/>
+            ut sit aeterna uita, sicut dictum est, ipsa cognitio. <lb/>
+            conuerti autem ad deum nemo, nisi ab hoc mundo se auerterit, <lb n="5"/>
+            potest. hoc ego mihi arduum et difficillimum sentio; <lb/>
+            uobis si facile est, ille ipse deus uiderit. ego uellem credere, <lb/>
+            nisi me moueret, quod cum iste mundus, a quo nos auertere <lb/>
+            iubemur, uisibilis sit <choice><sic>diieritque</sic><corr>dixeritque</corr></choice> apostolus: ea quae uidentur, <lb/>
+            temporalia sunt; quae autem non uidentur, aeterna <lb n="10"/>
+            sunt, uos plus istorum oculorum quam mentis iudicio tribuitis, <lb/>
+            apud quos nullam esse fulgentem pennam, quae non <lb/>
+            ex deo fulgeat, et esse uiuentem animam, quae non ex deo <lb/>
+            uiuat, praedicatur et creditur. haec et similia uel illis etiam <lb/>
+            dicerem uel mecum ipse reputarem. possem namque deum <lb n="15"/>
+            omnibus, ut dicitur, uisceribus deprecans et scripturis, quantum <lb/>
+            licebat, intentus etiam tunc fortasse talia uel dicere uel, quod <lb/>
+            saluti sat erat, cogitare. 
+</p>
+          
+</div>
+
+<div n="11" subtype="chapter" type="textpart">
+<p>Sed me duo quaedam maxime, quae incautam illam <lb/>
+            aetatem facile capiunt, per admirabiles adtriuere circuitus: <lb n="20"/>
+            quorum est unum familiaritas nescio quomodo repens quadam <lb/>
+            imagine bonitatis tamquam sinuosum aliquod uinculum multipliciter <lb/>
+            collo inuolutum, alterum, quod quaedam noxia uictoria <lb/>
+            paene mihi semper in disputationibus proueniebat disserenti <lb/>
+            cum inperitis, sed tamen fidem suam certatim, ut quisque <lb n="25"/>
+            posset, defendere molientibus <choice><sic>christianis</sic><corr>Christianis</corr></choice>. quo successu
+
+<note type="footnote">9 n Cor. 4, 18. </note>
+
+<note rend="script" type="footnote"> di <lb/>
+            2 rite] recte <hi rend="italic">Sb</hi> 4 ipsa cognitio <hi rend="italic">B2</hi> 5 auertit <hi rend="italic">M</hi> auertat <hi rend="italic">Sb</hi> <lb/>
+            n <lb/>
+            6 ego] g <hi rend="italic">b</hi> 8 nos auerti <hi rend="italic">Sb</hi> 11 iuditio <hi rend="italic">MA</hi> tribuistis <hi rend="italic">b</hi> 12 <hi rend="italic">aput A</hi> <lb/>
+            pinnam <hi rend="italic">M</hi> pennam (i <hi rend="italic">in</hi> e <hi rend="italic">corr. m. 1) A</hi> 14 et his similia <hi rend="italic">Ab</hi> <lb/>
+            15 <hi rend="italic">dicere B</hi> ipse <hi rend="italic">om. Sb</hi> reputare <hi rend="italic">Sb</hi> possS (~ <hi rend="italic">m. 2 suprascr.) B</hi> <lb/>
+            rd <lb/>
+            16 <hi rend="italic">depcans A</hi> 17 uel <hi rend="italic">ante</hi> dicere <hi rend="italic">om. A</hi> dicerSft 18 <hi rend="italic">salutis erat Ai</hi> <lb/>
+            aderat <hi rend="italic">b</hi> cogitarS <hi rend="italic">b</hi> 20 amicabiles <hi rend="italic">b (in marg. al</hi>. admirabiles) <lb/>
+            21 nescio-bonitatis <hi rend="italic">(s. I. m. 2) B om. S</hi> 22 bonitatis <hi rend="italic">om. b</hi> 24 poene <hi rend="italic">M</hi> <lb/>
+            25 cum christianis imperitis66 26 posset (e <hi rend="italic">corr. ex i) B molentibua A</hi> <lb/>
+            molentibus B* </note>
+
+<note type="footnote">XXV. Aug. sect. 6. </note>
+
+<note type="footnote"> 5 </note> <lb/>
+             
+<pb n="66"/>
+            <sic>creberlimo</sic> gliscebat adulescentis animositas et inpetus suos in peruicaciae <lb/>
+            magnum malum inprudenter urgebat. quod altercandi <lb/>
+            genus quia post eorum auditionem adgressus eram, quicquid <lb/>
+            in eo uel qualicumque ingenio uel aliis lectionibus poteram, <lb/>
+            solis illis libentissime tribuebam. ita ex illorum sermonibus<lb n="5"/>
+            ardor in certamina, ex certaminum prouentu amor in illos <lb/>
+            cotidie nouabatur. ex quo accidebat, ut quicquid dicerent, <lb/>
+            miris quibusdam modis, non quia sciebam, sed quia optabam <lb/>
+            uerum esse, pro uero adprobarem. ita factum est, ut quamuis <lb/>
+            pedetemtim atque caute, tamen diu sequerer homines nitidam<lb n="10"/>
+            stipulam uiuenti animae praeferentes. 
+</p>
+          
+</div>
+
+<div n="12" subtype="chapter" type="textpart">
+<p>Uerum esto: non poteram illo tempore sensibilia haec <lb/>
+            ab intellegibilibus, carnalia scilicet ab spiritalibus diiudicare <lb/>
+            atque discernere. non erat aetatis. non disciplinae, non cuiusdam <lb/>
+            etiam consuetudinis. non ullorum denique meritorum non<lb n="15"/>
+            enim parui gaudii felicitatisque res est —: <choice><sic>ttane</sic><corr>itane</corr></choice> tandem <lb/>
+            ne illud quidem arripere poteram, quod in omnium hominum <lb/>
+            iudicio summi dei legibus natura ipsa constituit? 
+</p>
+          <p rend="script">Quiuis enim homines, quos modo a communi sensu generis <lb/>
+            humani nulla disrupisset amentia, quae uellent ad iudicandum <lb n="20"/>
+            studia detulissent, quamlibet inperitiam, quantamcumque etiam <lb/>
+            tarditatem, uelim experiri, quid mihi responderent roganti, <lb/>
+            utrum eis peccasse uideretur, de cuius dormientis manu
+
+<note rend="script" type="footnote"> t <lb/>
+            1 adholescentis <hi rend="italic">A</hi> adulescentęs <hi rend="italic">M</hi> adolescentis <hi rend="italic">Bl</hi> inpetu suos <hi rend="italic">M</hi> <lb/>
+            a <lb/>
+            impetu suo S peruicatię <hi rend="italic">MA</hi> paruicacię <hi rend="italic">b</hi> 2 urgebat <hi rend="italic">A</hi> uergebat <hi rend="italic">S</hi> <lb/>
+            r bmn Ia <lb/>
+            3 auditionem eorum-4 eåB2 4 in eo] <hi rend="italic">meo MSb</hi> 5 tribus <hi rend="italic">BJ</hi> 6 apuept? -41 <lb/>
+            armor S in <hi rend="italic">om. BA (s. I.)</hi> 7 nouabatur (ua <hi rend="italic">corr. m. 2 ex</hi> ue) <hi rend="italic">B</hi> mone- <lb/>
+            1 <lb/>
+            batur <hi rend="italic">ASb</hi> accedebat <hi rend="italic">Mb</hi> accędebat <hi rend="italic">B2</hi> ut (s. <hi rend="italic">I. m. 2) B</hi> 8 obtabam <lb/>
+            <hi rend="italic">ABM</hi> obstabil <hi rend="italic">b</hi> 10 pedetentim <hi rend="italic">AS</hi> 11 stippulam A <lb/>
+            12 <hi rend="italic">uerum esto non poteram ista A uerum</hi> ita <hi rend="italic">S</hi> uerum ista <hi rend="italic">B2b</hi> haecj <lb/>
+            12 uerum non poteram ista A uerum ita S uerum istaBb haecj <lb/>
+            hec ac <hi rend="italic">A om. Sb</hi> 13 diudicare <hi rend="italic">M</hi> iudicare <hi rend="italic">B2</hi> 14 dissernere <hi rend="italic">M</hi> etatis <lb/>
+            m <lb/>
+            <hi rend="italic">(corr. ex</hi> etas) <hi rend="italic">A</hi> 15 non. lllorum <hi rend="italic">A</hi> 16 ita <hi rend="italic">b</hi> 17 quidip <hi rend="italic">B1</hi> <lb/>
+            « <lb/>
+            20 dirupisset <hi rend="italic">b</hi> uellnt <hi rend="italic">A-B\'1</hi> uelint <hi rend="italic">b</hi> 21 et quamlibet (et <hi rend="italic">add. m. 2) B</hi> <lb/>
+            quantumcumque etiam tarditate <hi rend="italic">B</hi> 22 uellem <hi rend="italic">MB1</hi> responderent <lb/>
+            <lb/>
+            (ent <hi rend="italic">ex</hi> int <hi rend="italic">corr. m</hi>. 2) <hi rend="italic">B</hi> 23 is ęis <hi rend="italic">B2</hi> </note> <lb/>
+             
+<pb n="67"/>
+            scripsisset alius aliquid flagitiosum. omnes quis dubitet ita fuisse <lb/>
+            negaturos illud esse peccatum, ita reclamaturos, ut etiam <lb/>
+            succenserent fortasse, quod tali eos rogatione dignos putarim ? <lb/>
+            a quibus ego, quoque modo poteram. reconciliatis et in consilium <lb/>
+            restitutis peterem, ut me aliud tam manifestum, tam <lb n="5"/>
+            in omnium cognitione positum interrogantem non moleste <lb/>
+            ferrent. tunc quaererem: si non dormientis, sed scientis manu, <lb/>
+            qui membris tamen ceteris uinctus atque constrictus esset, <lb/>
+            quisquam ualentior aliquid similiter fecisset mali, utrum quia <lb/>
+            id nosset. quamuis omnino noluisset, ullo peccati nomine <lb n="10"/>
+            teneretur. et hic mihi omnes mirantes, quod talia sciscitarer, <lb/>
+            sine cunctatione responderent nihil etiam istum omnino peccasse. <lb/>
+            quid ita ? quia de quo nesciente uel resistere non <lb/>
+            ualente quisquam quippiam mali fecerit, iuste damnari nullo <lb/>
+            modo potest. atque id ipsum cur ita esset, si in illis hominibus <lb n="15"/>
+            naturam ipsam percontarer humanam, facile peruenirem <lb/>
+            ad id, quod cuperem, isto modo quaerens: quid? si dormiens <lb/>
+            ille iam sciret, quid alius de manu eius facturus esset, et <lb/>
+            de industria se plus potus etiam, ne expergisceretur, somno <lb/>
+            dederet, ut aliquem iurando falleret, num ei quicquam somnus <lb n="20"/>
+            ad innocentiam suffragaretur ? quid aliud illi quam nocentem <lb/>
+            hominem pronuntiarent ? quid? si et ille uolens uinctus est, <lb/>
+            ut aliquem similiter praetenta defensione deciperet, quid ei <lb/>
+            tandem, ut peccato careat. illa uincula profuerunt? quamquam <lb/>
+            his obstrictus reuera resistere non ualeret, sicut ille dormiens,
+
+<note rend="script" type="footnote"> 1 5nes h* 3 succenserent <hi rend="italic">(ex</hi> suo cernerent <hi rend="italic">corr.) B</hi> putarem <hi rend="italic">Sb</hi> <lb/>
+            putarim (e <hi rend="italic">in</hi> i <hi rend="italic">corr.) A</hi> putarl (I <hi rend="italic">corr. ex</hi> S <hi rend="italic">m. 2) B</hi> 5 <hi rend="italic">scripsi</hi> maniet <lb/>
+            <lb/>
+            festum ram : manifestum (et <hi rend="italic">man. 2 add.) B</hi> manifestum <hi rend="italic">A.\'-\'::Mb</hi> 7 ferrg <hi rend="italic">A</hi> <lb/>
+            t <lb/>
+            sed scientis <hi rend="italic">om. SM ; 8. 1. m. 2 A et B</hi> 8 menbris <hi rend="italic">A</hi> esse <hi rend="italic">M\'J <lb/>
+            11 suscitarer B 12 istA B .13 quo] aliquo A</hi> 14 quidpiam S <hi rend="italic">male M</hi> <lb/>
+            •i i IIIio <lb/>
+            dampnari <hi rend="italic">AB</hi> 15 similis <hi rend="italic">B2</hi> simillis <hi rend="italic">(ad</hi> n <hi rend="italic">add</hi>. post i) <hi rend="italic">A</hi> similem olb\' <lb/>
+            ........f <lb/>
+            naturi <hi rend="italic">b</hi> 16 percunctarer <hi rend="italic">B</hi> perconctarer <hi rend="italic">A</hi> 17 qd <hi rend="italic">B</hi> 18 aliud <hi rend="italic">B1</hi> <lb/>
+            •• i I <lb/>
+            aliud S 19 plus potu <hi rend="italic">A</hi> potus <hi rend="italic">Bz pro</hi> eipergisceretur <hi rend="italic">spatium uac</hi>. <lb/>
+            •ccns <lb/>
+            <hi rend="italic">in S</hi> 20 dederat <hi rend="italic">AB</hi> ////ando <hi rend="italic">M2</hi> quicq\'4 <hi rend="italic">A</hi> 21 aliud <hi rend="italic">////</hi> quam <hi rend="italic">B</hi> <lb/>
+            illi aliquid quam <hi rend="italic">A</hi> 22 quodsi <hi rend="italic">A</hi> </note>
+
+<note type="footnote"> b* </note> <lb n="25"/>
+             
+<pb n="68"/>
+            quid tunc fieret. omnino nesciret. numquidnam igitur dubitandum <lb/>
+            est, quin peccasse ambo iudicarentur ? quibus concessis <lb/>
+            colligerem nusquam scilicet nisi in uoluntate esse peccatum, <lb/>
+            cum mihi auxiliaretur etiam illud, quod iustitia peccantes <lb/>
+            tenet sola mala uoluntate. quamuis quod uoluerint inplere<lb n="5"/>
+            nequiuerint. 
+</p>
+          
+</div>
+
+<div n="13" subtype="chapter" type="textpart">
+<p>Quisquamne me ista tractantem possit dicere in rebus <lb/>
+            obscuris abditisque uersari. ubi propter intellegentium paucitatem <lb/>
+            uel fraudis uel ostentationis suspicio nasci solet ? <lb/>
+            secedat paulisper illa intellegibilium sensibiliumque distinctio,<lb n="10"/>
+            nulla mihi fiat inuidia, quod tardas animas subtilium disputationum <lb/>
+            stimulis persequor. liceat mihi me scire uiuere, <lb/>
+            liceat mihi scire me uelle uiuere: in quae si consentit genus <lb/>
+            humanum, tam nobis cognita est uoluntas nostra quam uita. <lb/>
+            neque cum istam scientiam profitemur, metuendum est, ne<lb n="15"/>
+            nos quisquam falli posse conuincat: hoc ipsum enim falli <lb/>
+            nemo potest, si aut non uiuat aut nihil uelit. non me arbitror <lb/>
+            quicquam obscurum adtulisse et uereor, ne cuiquam magis, <lb/>
+            quod haec nimium manifesta sint, uidear esse culpandus; sed <lb/>
+            quorsum tendant, consideremus. <lb n="20"/>
+            
+</p>
+          
+</div>
+
+<div n="14" subtype="chapter" type="textpart">
+<p>Non igitur nisi uoluntate peccatur. nobis autem uoluntas <lb/>
+            nostra notissima est: neque enim scirem me uelle, si quid <lb/>
+            sit uoluntas ipsa nescirem. definitur itaque isto modo: uoluntas <lb/>
+            est animi motus cogente nullo ad aliquid uel non <lb/>
+            amittendum uel adipiscendum. cur ergo ita tunc definire non <lb n="25"/>
+            possem? an erat difficile uidere inuitum uolenti esse
+
+<note rend="script" type="footnote">in I. e <lb/>
+            3 in] <hi rend="italic">om. A</hi> 4 quod <hi rend="italic">iustitia A</hi> 7 meis <hi rend="italic">M</hi> possit <hi rend="italic">B3</hi> posset <hi rend="italic">M</hi> <lb/>
+            8 oscuris <hi rend="italic">A</hi> 9 suspitio <hi rend="italic">MBb</hi> nasci suspicio <hi rend="italic">A</hi> 10 distincio <hi rend="italic">M</hi> <lb/>
+            12 stimulis (is <hi rend="italic">ex</hi> us <hi rend="italic">corr.) A</hi> 13 me scire <hi rend="italic">BS</hi> consestit <hi rend="italic">A</hi> consistit <hi rend="italic">B</hi> <lb/>
+            15 metuendtl (4 <hi rend="italic">ex</hi> &amp; m. <hi rend="italic">2 corr.) B</hi> 16 falli <hi rend="italic">(in marg. add.) B</hi> conc <lb/>
+            ur <lb/>
+            uinciat <hi rend="italic">b</hi> enim ipsum <hi rend="italic">A</hi> 18 quisqui <hi rend="italic">A</hi> 19 sunt <hi rend="italic">ABb</hi> 20 <hi rend="italic">quor,sum A</hi> <lb/>
+            quorsum] quorsum haec <hi rend="italic">ABS</hi> 21 nobis-neque <hi rend="italic">om. S</hi> autem] <hi rend="italic">om. AMbB <lb/>
+            (8. I.)</hi> 23 uoluntas sit <hi rend="italic">B</hi> definitur <hi rend="italic">(corr. m. 2 in</hi> diffinitur) <hi rend="italic">B</hi> <lb/>
+            o 4 tunc <lb/>
+            istę <hi rend="italic">B</hi> 25 amittendll <hi rend="italic">B*</hi> admittendQ <hi rend="italic">M</hi> nunc B2 26 possim <hi rend="italic">B</hi> <lb/>
+            possQ <hi rend="italic">b</hi> </note><lb/>
+             
+<pb n="69"/>
+            contrarium, ita ut contrarium sinistrum dextro esse dicimus, non ut <lb/>
+            nigrum albo? nam eadem res simul et nigra et alba esse <lb/>
+            non potest; duorum autem in medio quisque positus ad alterum <lb/>
+            sinister est, ad alterum dexter; simul quidem utrumque unus <lb/>
+            homo. sed simul utrumque ad unum hominem nullo modo. <lb n="5"/>
+            ita inuitus et uolens simul esse quidem unus animus potest, <lb/>
+            sed unum atque idem nolle simul et uelle non potest. cum <lb/>
+            enim quisque inuitus aliquid facit — si enim roges, utrum <lb/>
+            id facere uelit. nolle se dicit: item si roges. utrum id uelit <lb/>
+            non facere, uelle respondet —: ita inuitum ad faciendum, ad <lb n="10"/>
+            non faciendum autem uolentem reperies; id est enim unum <lb/>
+            animum uno tempore habentem utrumque. sed ad aliud atque <lb/>
+            aliud singulare referentem. cur haec dico ? quia si rursum <lb/>
+            quaeramus, quam ob causam id inuitus faciat, cogi se dicat. <lb/>
+            nam et omnis inuitus faciens cogitur et omnis qui cogitur, <lb n="15"/>
+            si facit, nonnisi inuitus facit. restat. ut uolens a cogente sit <lb/>
+            liber, etiamsi se quisquam cogi putet. et hoc enim modo <lb/>
+            omnis. qui <choice n="0.06"><sic n="9">nolens</sic><corr n="138">uolens</corr></choice> facit. non cogitur. et omnis, qui non cogitur, <lb/>
+            aut uolens facit aut non facit. haec cum in omnibus hominibus, <lb/>
+            quos interrogare non absurde possumus, a puero usque <lb n="20"/>
+            ad senem, a ludo litterario usque ad solium sapientis natura <lb/>
+            ipsa proclamet. cur ego tunc non uiderem in definitione uoluntatis <lb/>
+            ponendum esse cogente nullo\', quod nunc quasi experientia <lb/>
+            maiore cautissimus posui? at si hoc ubique manifestum <lb/>
+            a
+
+<note rend="script" type="footnote">1 dicimus <hi rend="italic">esse A</hi> 2 nigraa <hi rend="italic">A</hi> 4 <hi rend="italic">post</hi> quidem <hi rend="italic">ra in M</hi> 5 homo] <lb/>
+            homo potest <hi rend="italic">B</hi> (potest <hi rend="italic">m. 2 add.)</hi> modo] modo potest (pot. <hi rend="italic">m. 2<lb/>
+             add.) B</hi> 6 ita inuitus et uolens. Simul quidS utrtlque unus animus <lb/>
+            potest sqq. A ita inuitus et uolens unus animus simul esse potest S <lb/>
+            t <lb/>
+            8 enim] eum <hi rend="italic">b</hi> 9 facere uelle// responde (uelle et responde <hi rend="italic">in ras</hi>. t <hi rend="italic">post. <lb/>
+            add.); infra textum habentur:</hi> nelit sqq. <hi rend="italic">B</hi> non uelle <hi rend="italic">S</hi> itera <hi rend="italic">A</hi> <lb/>
+            d <lb/>
+            nelit id <hi rend="italic">A</hi> 10 respondit <hi rend="italic">AM</hi> aTnon JB1 11 in Set unum <hi rend="italic">(corr</hi>. <lb/>
+            ex ide enl m. <hi rend="italic">2) B</hi> id est animum unum <hi rend="italic">S</hi> 12 ad <hi rend="italic">om. BSb</hi> 13 ad <lb/>
+            singula referentem <hi rend="italic">MBSb</hi> ad singulare ref. A <hi rend="italic">quasi A</hi> 14 inuitus <lb/>
+            rt <lb/>
+            id <hi rend="italic">AB</hi> dicat <hi rend="italic">B*</hi> 15 fatiens <hi rend="italic">B</hi> 16 si fatiat <hi rend="italic">B</hi> 17 quispiam <hi rend="italic">b</hi> putet] <lb/>
+            O <lb/>
+            potest <hi rend="italic">A</hi> 20 non <hi rend="italic">interrogare A</hi> 22 proclamaet A cur g <hi rend="italic">A</hi> quur <lb/>
+            diC <lb/>
+            ergo <hi rend="italic">B</hi> uidere xC <hi rend="italic">b</hi> (jefinitione <hi rend="italic">B</hi> 24 ubique] ibi <hi rend="italic">MB om. S</hi> </note> <lb/>
+             
+<pb n="70"/>
+            est et non doctrina, sed natura omnibus promptum, quid restat <lb/>
+            - quod uideatur obscurum, nisi forte ullum lateat. aliquid nos <lb/>
+            uelle cum uolumus, et ad hoc moueri animum nostrum idque <lb/>
+            aut habere nos aut non habere. et, si haberemus, retinere <lb/>
+            uelle, si non haberemus, adquirere? quare aut non amittere, <lb n="5"/>
+            aut adipisci aliquid uult omnis, qui uult. quamobrem si omnia <lb/>
+            ista luce clariora sunt, sicuti sunt. neque meae tantum, sed <lb/>
+            notitiae generis humani ueritatis ipsius liberalitate donata, <lb/>
+            cur illo etiam tempore dicere non possem: uoluntas est motus <lb/>
+            animi cogente nullo ad aliquid uel non amittendum uel adipiscendum<lb n="10"/>
+            ? 
+</p>
+          
+</div>
+
+<div n="15" subtype="chapter" type="textpart">
+<p>Dicet aliquis: et hoc te aduersum Manichaeos quid <lb/>
+            adiuuaret? expecta; sine prius etiam peccatum definiamus. <lb/>
+            quod sine uoluntate esse non posse omnis mens apud se <lb/>
+            diuinitus conscriptum legit. ergo peccatum est uoluntas retinendi<lb n="15"/>
+            uel consequendi quod iustitia uetat et unde liberum <lb/>
+            est abstinere. quamquam si liberum non sit. non est uoluntas. <lb/>
+            sed malui grossius quam scrupulosius definire. etiamne hic <lb/>
+            libri obscuri mihi scrutandi erant, unde discerem neminem <lb/>
+            uituperatione subplicioue dignum, qui aut id uelit, quod <lb n="20"/>
+            iustitia uelle non prohibet, aut id non faciat. quod facere <lb/>
+            non potest? nonne ista cantant et pastores in montibus et in <lb/>
+            theatris poetae et indocti in circulis et docti in bibliothecis <lb/>
+            et magistri in scholis et antistites in sacratis locis et in orbe <lb/>
+            terrarum genus humanum? quod si nemo uituperatione uel<lb n="25"/>
+            damnatione dignus est aut non contra uetitum iustitiae faciens <lb/>
+            aut quod non potest non faciens, omne autem peccatum uel <lb/>
+            um b.
+
+<note rend="script" type="footnote"> <hi rend="italic">1 promtum M</hi> 2 <hi rend="italic">obecurain M*</hi> 4, abereÅ <hi rend="italic">aberemus B 9 possim MB</hi> <lb/>
+            d r <lb/>
+            10 amittendum <hi rend="italic">B</hi> 12 dicit <hi rend="italic">MBAS</hi> 14 te <hi rend="italic">M</hi> 18 difinire M istam <lb/>
+            C <lb/>
+            <hi rend="italic">(in ras.)</hi> rem ne hic <hi rend="italic">B</hi> scrupulosius etiam rem nec hic libri <hi rend="italic">S</hi> etiam <lb/>
+            rem <hi rend="italic">b</hi> hic <hi rend="italic">A hiç M</hi> hi <hi rend="italic">b</hi> 19 discerneremne <hi rend="italic">B</hi> 20 vel supplicio <hi rend="italic">BAS</hi> <lb/>
+            quod—aut id <hi rend="italic">(infra in marg.) M</hi> 21 facit <hi rend="italic">ASM</hi> 22 montibus <lb/>
+            CIK bl <lb/>
+            pastores <hi rend="italic">Sb</hi> 23 circulis <hi rend="italic">B</hi> docti //// bliothecis <hi rend="italic">B</hi> bibliotecis <hi rend="italic">M</hi> <lb/>
+            vel <lb/>
+            24 scolis <hi rend="italic">BA</hi> orbg BA 26 dampnatione <hi rend="italic">A</hi> 27 peccatum <hi rend="italic">B</hi> </note><lb/>
+             
+<pb n="71"/>
+            <sic>uituperaudum</sic> est uel damnandum, quis dubitet tunc esse <lb/>
+            peccatum. cum et uelle iniustum est et liberum nolle? et ideo <lb/>
+            definitionem illam et ueram et ad intellegendum esse facillimam <lb/>
+            et non modo nunc, sed tunc quoque a me potuisse dici: peccatum <lb/>
+            est uoluntas retinendi uel consequendi. quod iustitia <lb n="5"/>
+            uetat et unde liberum est abstinere ? 
+</p>
+          
+</div>
+
+<div n="16" subtype="chapter" type="textpart">
+<p>Age nunc. uideamus quid nos haec adiuuarent. primum <lb/>
+            omnium. ut nihil amplius desiderarem: totam causam quippe <lb/>
+            finirent. nam quisquis secreta conscientiae suae legesque diuinas <lb/>
+            penitus naturae inditas apud animum intus, ubi expressiores <lb n="10"/>
+            certioresque sunt, consulens has duas definitiones uoluntatis <lb/>
+            atque peccati ueras esse concedit, totam Manichaeorum <lb/>
+            haeresim paucissimis et breuissimis, sed plane inuictissimis <lb/>
+            ratiunculis sine ulla cunctatione condemnat. quod sic considerari <lb/>
+            potest. duo animarum genera esse dicunt: unum bonum, <lb n="15"/>
+            quod ita ex deo sit. ut non ex aliqua materia uel ex nihilo <lb/>
+            ab eo factum. sed de ipsa eius omnino substantia pars quaedam <lb/>
+            processisse dicatur: alterum autem malum, quod nulla <lb/>
+            prorsus ex parte ad deum pertinere credunt credendumque <lb/>
+            commendant. et ideo illud summum bonum, hoc uero summum <lb n="20"/>
+            malum esse praedicant atque ista duo genera fuisse aliquando <lb/>
+            discreta, nunc esse commixta. genus quidem commixtionis <lb/>
+            huius et causam nondum audieram; sed tamen iam quaerere <lb/>
+            poteram, utrum illud malum genus animarum, antequam bono <lb/>
+            misceretur, habuisset aliquam uoluntatem. si enim non habebat, <lb n="25"/>
+            sine peccato atque innocens erat et ideo nullo modo malum. <lb/>
+            si autem ideo malum, quia licet esset sine uoluntate. tamquam
+
+<note rend="script" type="footnote"> 111 <lb/>
+            1 est] êe <hi rend="italic">A</hi> 6 uetats. <hi rend="italic">I. B</hi> 7 primQ omnino <hi rend="italic">(ex</hi> omniQ <hi rend="italic">corr.) A</hi> 8 quippe <lb/>
+            • f <lb/>
+            causam <hi rend="italic">AS</hi> 11 certioresquae <hi rend="italic">B</hi> 12 ueraese M* 13 heresim <hi rend="italic">M</hi> <lb/>
+            breuiseimis s. <hi rend="italic">I. A</hi> sed plane inuictissimis <hi rend="italic">om. A</hi> 14 raciunculis <hi rend="italic">M <lb/>
+            ., <lb/>
+            cgfitatione B condempnat A</hi> considerari <hi rend="italic">(e corr. in i) A</hi> 17omnino <lb/>
+            <hi rend="italic">(8. I.) B</hi> 18 dicitur <hi rend="italic">A</hi> dicatur (a <hi rend="italic">corr. ex</hi> i) <hi rend="italic">B</hi> autem] d <hi rend="italic">A</hi> 19 credunt] <lb/>
+            creditur <hi rend="italic">b</hi> 20 commendent <hi rend="italic">AB</hi> sumum <hi rend="italic">A</hi> summum] illud <lb/>
+            hoiiia <lb/>
+            summum <hi rend="italic">A</hi> 23 istius A1 querere <hi rend="italic">M</hi> 24 poteram] cęperà <hi rend="italic">b</hi> 27 set <lb/>
+            <hi rend="italic">(t post add.) A</hi>... </note> <lb/>
+             
+<pb n="72"/>
+            ignis, tamen si bonum adtigisset. uiolaret atque corrumperet: <lb/>
+            quantum est nefas et naturam mali tantum ualere ad commutandam <lb/>
+            ullam dei partem et summum illud bonum corruptibile <lb/>
+            et uiolabile credere? quod si uoluntas inerat, profecto <lb/>
+            inerat cogente nullo motus animi ad aliquid uel non amittendum<lb n="5"/>
+            uel adipiscendum. hoc autem aliquid aut bonum erat <lb/>
+            aut bonum putabatur: non enim aliter adpeti posset. sed in <lb/>
+            summo malo ante commixtionem, quam praedicant, nullum <lb/>
+            umquam bonum fuit. unde igitur ibi uel scientia uel opinio <lb/>
+            boni esse potuit? an nihil uolebant, quod apud se esset,<lb n="10"/>
+            atque illud bonum uerum, quod extra erat, adpetebant? ista <lb/>
+            uero praeclara et magna laude praedicanda uoluntas est, qua <lb/>
+            summum adpetitur et uerum bonum. unde igitur in summo <lb/>
+            malo motus animi tanta laude dignissimus ? an studio nocendi <lb/>
+            adpetebant ? primo eodem reuoluitur ratio. qui enim nocere<lb n="15"/>
+            uult. bono aliquo uult priuare alium propter aliquod bonum <lb/>
+            suum. erat igitur in eis uel scientia boni uel opinio, quae <lb/>
+            summo malo nullo modo esse debebat. deinde bonum illud <lb/>
+            extra se positum, cui nocere studebant. utrum omnino esset, <lb/>
+            unde cognouerant ? si intellexerant. quid tali mente praeclarius ? <lb n="20"/>
+            an quicquam est aliud. quo magnis laboribus omnis bonorum <lb/>
+            porrigatur intentio. nisi ut summum illud et sincerum bonum <lb/>
+            intellegatur ? quod ergo nunc uix paucis bonis iustisque conceditur. <lb/>
+            id tunc illud merum malum nullo bono adiuuante iam <lb/>
+            poterat? si autem illae animae corpora gerebant et id oculis <lb n="25"/>
+            uiderant, quot linguae, quot pectora, quae ingenia laudandis <lb/>
+            istis oculis praedicandisque sufficiunt, quibus uix possunt <lb/>
+            mentes iustorum adaequari ? quanta bona inuenimus in summo
+
+<note rend="script" type="footnote"> d <lb/>
+            5 motu <hi rend="italic">b</hi> amittendum <hi rend="italic">B</hi> 7 possit <hi rend="italic">A</hi> possgt <hi rend="italic">B</hi> in] in <hi rend="italic">A</hi> si <hi rend="italic">b</hi> <lb/>
+            n <lb/>
+            10 aput <hi rend="italic">A</hi> 11 appetebat <hi rend="italic">A</hi> 15 eadem <hi rend="italic">B</hi> e/odem (a <hi rend="italic">in</hi> o <hi rend="italic">corr.) A</hi> <lb/>
+            I i <lb/>
+            18 in summo <hi rend="italic">ASb</hi> 21 qcqd <hi rend="italic">A</hi> quidqua <hi rend="italic">M</hi> 23 nc <hi rend="italic">(s. I. m. 2) A om. S</hi> <lb/>
+            que a <lb/>
+            iustisqVQQ. <hi rend="italic">B</hi> nunc conceditur <hi rend="italic">A</hi> 25 corpore <hi rend="italic">M</hi> 26 quot-quot <lb/>
+            qll-. qnc <lb/>
+            <hi rend="italic">ictripsi</hi> : qygd linguae qupd pectora <hi rend="italic">B</hi> quod linguae quod pectora <hi rend="italic">AM</hi> <lb/>
+            quae-quae <hi rend="italic">Sb</hi> </note> <lb/>
+             
+<pb n="73"/>
+            malo ? si enim uidere deum malum est, non est bonum deus; <lb/>
+            bonum est autem deus: bonum est igitur deum uidere et <lb/>
+            nescio quid huic bono conparari queat. porro quod uidere <lb/>
+            bonum est. unde fieri potest. ut posse uidere sit malum? <lb/>
+            quapropter quisquis uel in illis oculis uel in illis mentibus <lb n="5"/>
+            fecit. ut ab his posset uideri diuina substantia. magnum et <lb/>
+            ineffabili laude dignissimum bonum fecit. si autem non factum, <lb/>
+            sed ipsum per se tale ac <choice><sic>sempiternuro</sic><corr>sempiternum</corr></choice> erat difficile hoc malo <lb/>
+            quicquam melius inuenitur. 
+</p>
+          
+</div>
+
+<div n="17" subtype="chapter" type="textpart">
+<p>Postremo ut nihil horum laudandorum habeant illae <lb n="10"/>
+            animae. quae illorum rationibus habere coguntur, quaererem, <lb/>
+            utrum aliquas an nullas animas deus damnet: si nullas, nullum <lb/>
+            meritorum iudicium est. nulla prouidentia, et casu potius quam <lb/>
+            ratione mundus administratur uel potius non administratur; <lb/>
+            non enim administratio casibus danda est. hoc autem si omnibus <lb n="15"/>
+            qualibet religione deuinctis credere nefas est. restat. ut <lb/>
+            aut sit aliquarum animarum damnatio aut nulla peccata sint. <lb/>
+            sed si nulla peccata sunt, etiam nullum malum: quod isti si <lb/>
+            dixerint. haeresim suam uno ictu <choice><sic>interiicient</sic><corr>interficient</corr></choice>. conuenit igitur <lb/>
+            mihi cum eis aliquas animas diuina lege iudicioque damnari. <lb n="20"/>
+            at hae si bonae sunt, quae illa iustitia est? si malae. natura, <lb/>
+            an uoluntate? sed natura esse malae animae nullo modo queunt. <lb/>
+            unde hoc docemus? de superioribus definitionibus uoluntatis <lb/>
+            atque peccati. quia dicere animas et malas esse et nihil peccare <lb/>
+            plenum est dementiae, dicere autem peccare sine uoluntate. <lb n="25"/>
+            magnum deliramentum est. et peccati reum tenere <lb/>
+            quemquam, quia non fecit, quod facere non potuit, summae <lb/>
+            iniquitatis est et insaniae. quamobrem illae animae quicquid <lb/>
+            faciunt. si natura, non uoluntate faciunt, id est si libero et
+
+<note rend="script" type="footnote"> o <lb/>
+            3 nesci <hi rend="italic">B</hi> 5 illisl istis <hi rend="italic">Ab</hi> 6 ut <hi rend="italic">(s. I.) B</hi> possit <hi rend="italic">ASb</hi> uideri (re . <lb/>
+            i de <lb/>
+            <hi rend="italic">corr</hi>. in ri) <hi rend="italic">A</hi> uidere <hi rend="italic">B</hi> 7 ineffabile A ineffabilc <hi rend="italic">B lau B</hi> <lb/>
+            8 talemJf <hi rend="italic">11 quererem M 12 utrum om. A damnat b 13 iuditium A</hi> <lb/>
+            14 non <hi rend="italic">(s. I.) B</hi> 18 sed <hi rend="italic">om. A</hi> malum nullum <hi rend="italic">b</hi> si <hi rend="italic">(s. I.) B</hi> <lb/>
+            19 heresim <hi rend="italic">M</hi> interficiunt <hi rend="italic">Sb</hi> 20 illis <hi rend="italic">Sb</hi> animas aliquas <hi rend="italic">Sb</hi> aliqua <lb/>
+            sanitate <hi rend="italic">A</hi> iuditioque dampnari <hi rend="italic">A</hi> 21 at hae1 ade <hi rend="italic">A</hi> sint <hi rend="italic">8</hi> <lb/>
+            male <hi rend="italic">S</hi> 24 esse malas <hi rend="italic">Sb</hi> 26 teneri <hi rend="italic">b</hi> </note> <lb/>
+             
+<pb n="74"/>
+            ad faciendum et ad non faciendum motu animi carent, si <lb/>
+            denique his abstinendi ab opere suo potestas nulla conceditur, <lb/>
+            peccatum earum tenere non possumus. at omnes fatentur et <lb/>
+            malas animas iuste et eas, quae non peccauerunt, iniuste damnari: <lb/>
+            fatentur igitur eas malas esse, quae peccant. illae <lb n="5"/>
+            autem, sicut ratio docuit, non peccant; animarum ergo malarum <lb/>
+            genus nescio quod extraneum, quod a Manichaeis inducitur. <lb/>
+            nullum est. 
+</p>
+          
+</div>
+
+<div n="18" subtype="chapter" type="textpart">
+<p>Nunc bonum illud genus uideamus, quod rursus ita <lb/>
+            laudant, ut ipsam dei substantiam dicant esse. quanto autem <lb n="10"/>
+            melius est, ut suum quisque ordinem meritumque cognoscat <lb/>
+            nec ita sacrilega superbia uentiletur, ut cum se totiens commutari <lb/>
+            sentiat, summi illius boni, quod incommutabile pia <lb/>
+            ratio profitetur et docet. credat esse substantiam ? ecce enim <lb/>
+            cum manifestum sit non peccare animas in eo, quod non sunt <lb n="15"/>
+            tales, quales esse non possunt — unde iam constat nescio <lb/>
+            quas illas inducticias nullo modo peccare et propterea illas <lb/>
+            non esse omnino —: relinquitur, ut quoniam concedunt esse <lb/>
+            peccata, non inueniant, quibus ea tribuant, nisi bono generi <lb/>
+            animarum et substantiae dei. maxime autem urgentur auctoritate <lb n="20"/>
+            christiana; numquam enim negauerunt dari ueniam <lb/>
+            peccatorum, cum fuerit ad deum quisque conuersus: numquam <lb/>
+            dixerunt — ut alia multa —, quod scripturis diuinis hoc quispiam <lb/>
+            corruptor inseruerit. quibus ergo peccata <choice><sic>donanturV</sic><corr>donantur</corr></choice> si <lb/>
+            alienigenis illis malis, possunt et bonae fieri, possunt dei <lb n="25"/>
+            regnum possidere cum Christo. quod isti quia negant nec <lb/>
+            habent alterum genus nisi earum, quas de substantia dei esse <lb/>
+            perhibent, restat, ut non solum etiam ipsas, sed ipsas solas <lb/>
+            peccare fateantur. ego autem nihil pugno: non solae peccent.
+
+<note rend="script" type="footnote"> 3 at] ut M 4 iuste dampnari A 7 extraneum] extra illud <hi rend="italic">b</hi> <lb/>
+            \' a <hi rend="italic">om. ASB</hi> 10 ipsam dicant esse dl substantiil <hi rend="italic">A</hi> 11 ut (s. <hi rend="italic">I.) B <lb/>
+            om. AMSb meritumque quisque Sb 12 toties MS</hi> 16 constat iamJSfc <lb/>
+            <hi rend="italic">18 ut] et S om. A 19 retribuant b 20 urguentur AB 24 inseuerit B</hi> <lb/>
+            h <lb/>
+            25 alieni generis <hi rend="italic">ABSb</hi> 27 quas de] quasi <hi rend="italic">M</hi> 28 pibent A peribent <hi rend="italic">B</hi> <lb/>
+            N ne <lb/>
+            etiam non solum <hi rend="italic">A</hi> 29 fatentur <hi rend="italic">B</hi> autem <hi rend="italic">(post. add.) A</hi> non <hi rend="italic">A-</hi> <lb/>
+            nen,m <lb/>
+            non <hi rend="italic">SM</hi> non <hi rend="italic">B</hi> ne <hi rend="italic">b</hi> </note> <lb/>
+             
+<pb n="75"/>
+            peccant tamen. at enim mali commixtione coguntur. si ita <lb/>
+            coguntur. ut resistendi potestas nulla sit. non peccant: si est <lb/>
+            in potestate resistere sua et propria uoluntate consentiunt, <lb/>
+            cur tanta bona in summo malo, cur hoc malum in summo <lb/>
+            bono per doctrinam illorum cogimur inuenire, nisi quia neque <lb n="5"/>
+            illud malum est quod suspicione inducunt neque hoc summum <lb/>
+            bonum quod superstitione peruertunt? 
+</p>
+          
+</div>
+
+<div n="19" subtype="chapter" type="textpart">
+<p>At si de duobus istis generibus animarum delirare illos <lb/>
+            et errare docuissem aut certe ipse didicissem, quid remanere <lb/>
+            poterat, cur mihi iam de ulla re audiendi uel consulendi uiderentur? <lb n="10"/>
+            an ut discerem hinc ostendi animarum duo esse <lb/>
+            genera, quod in deliberando nunc in malam partem, nunc in <lb/>
+            bonam nutat adsensio? cur non magis hoc signum est unius <lb/>
+            animae, quae libera illa uoluntate huc et huc ferri, hinc atque <lb/>
+            hinc referri potest ? nam mihi cum accidit. unum me sentio <lb n="15"/>
+            utrumque considerantem alterutrum eligentem; sed plerumque <lb/>
+            illud libet, hoc decet, quorum nos in medio positi fluctuamus. <lb/>
+            nec mirum: ita enim nunc constituti sumus, ut et per carnem <lb/>
+            uoluptate <choice n="0.11"><sic n="7">adiici</sic><corr n="56">adfici</corr></choice> et per spiritum honestate possimus. quare non <lb/>
+            duas animas hinc fateri cogor? possumus enim melius et <lb n="20"/>
+            multo expeditius intellegere duo genera rerum bonarum, quorum <lb/>
+            tamen neutrum ab auctore deo sit alienum, animam unam ex <lb/>
+            diuersis adficere partibus, inferiore ac superiore. uel quod recte <lb/>
+            ita dici potest, exteriore atque interiore. ista sunt duo genera, <lb/>
+            quae sensibilium et intellegibilium nomine paulo ante tractauimus, <lb n="25"/>
+            quae carnalia et spiritalia libentius et familiarius nos <lb/>
+            uocamus. sed factum est nobis difficile a carnalibus abstinere, <lb/>
+            m
+
+<note rend="script" type="footnote">1 etenim <hi rend="italic">Sb</hi> 3 sua resistere <hi rend="italic">Sb</hi> 4 malQ A 6 suspitione <hi rend="italic">MB</hi> <lb/>
+            b&lt; <lb/>
+            8 delilare <hi rend="italic">B</hi> delirare (be <hi rend="italic">m. 2 adscr.) A</hi> 9 ipse <hi rend="italic">(s. I. m. 2) A</hi> <lb/>
+            t <lb/>
+            10 non poterat <hi rend="italic">b</hi> 11 aut <hi rend="italic">AB</hi> 12 genera esse <hi rend="italic">A</hi> 13 nuta assensio <hi rend="italic">A</hi> <lb/>
+            i dam <lb/>
+            est om. <hi rend="italic">B</hi> 14 ferręţ <hi rend="italic">A1</hi> 15 me esse sentio <hi rend="italic">Sb</hi> 16 eligente An <lb/>
+            17 decet (de <hi rend="italic">corr</hi>. ex <hi rend="italic">do) A</hi> 18 et <hi rend="italic">om. MS (s. I.)</hi> 19 uoluntate <hi rend="italic">BAS</hi> <lb/>
+            4: i <lb/>
+            21 bonarum rerum AS 22 anima una <hi rend="italic">B</hi> unam animam <hi rend="italic">Sb</hi> 23 afficere <hi rend="italic">B</hi> <lb/>
+            r... <lb/>
+            24 interiore (en <hi rend="italic">corr. in</hi> in) <hi rend="italic">A</hi> 26 nop <hi rend="italic">M</hi> </note> <lb/>
+             
+<pb n="76"/>
+            cum panis uerissimus noster spiritalis sit. cum labore namque <lb/>
+            nunc comedimus panem. neque enim nullo in subplicio sumus <lb/>
+            peccato transgressionis mortales ex inmortalibus facti. eo contingit, <lb/>
+            ut cum ad meliora conantibus nobis consuetudo facta <lb/>
+            cum carne et peccata nostra quodam modo militare contra <lb n="5"/>
+            nos et difficultatem nobis facere coeperint. nonnulli stulti aliud <lb/>
+            genus animarum. quod non sit ex deo. superstitione obtunsissima <lb/>
+            suspicentur. 
+</p>
+          
+</div>
+
+<div n="20" subtype="chapter" type="textpart">
+<p>Quamquam etiam si eis concedatur inferiore alio genere <lb/>
+            animarum nos inlici ad turpia. non inde conficiunt aut illas <lb n="10"/>
+            natura malas esse aut istas summum bonum. fieri enim potest. <lb/>
+            ut propria illae uoluntate adpetendo, quod non licebat, hoc <lb/>
+            est peccando, ex bonis factae sint malae rursusque fieri <lb/>
+            bonae possint. sed ut fit quamdiu manent in peccato, ad <sic n="poss">sest1</sic> <lb/>
+            alias occulta quadam suasione traducant; deinde, ut <choice><sic>omuino</sic><corr>omnino</corr></choice> <lb n="15"/>
+            malae non sint. sed in suo genere quamuis inferiore opus <lb/>
+            proprium sine ullo peccato exerceant; istae autem superiores, <lb/>
+            quibus actionem longe praestantiorem rerum moderatrix iustitia <lb/>
+            summa tribuerit. si illas inferiores. sequi et imitari uoluerint <lb/>
+            peccando fiunt malae, non quia malas, sed quia male imitantur. <lb n="20"/>
+            ab illis enim agitur proprium, ab istis adpetitur alienum: <lb/>
+            unde illae in suo gradu manent, istae ad inferiora merguntur. <lb/>
+            uelut cum homines ferina sectantur. pulchre namque incedit <lb/>
+            quadrupedans equus; at si hoc homo pedibus manibusque <lb/>
+            meditetur, quis eum uel palearum cibo dignum putet? <sic>rerte</sic> <lb n="25"/>
+            igitur plerumque inprobamus imitantem, cum eum, quem
+
+<note rend="script" type="footnote">1 panis uiuus et <hi rend="italic">uerissimus A</hi> 2 edimus <hi rend="italic">MASb suplicio A</hi> 3 morn <lb/>
+            <lb/>
+            tales (es <hi rend="italic">corr. ex</hi>. is) <hi rend="italic">B</hi> in eo <hi rend="italic">Sb</hi> ideo contigit <hi rend="italic">A</hi> 6 cęperint <hi rend="italic">M</hi> <lb/>
+            1 arbitreutar <lb/>
+            <hi rend="italic">ceperint B</hi> nulli A 7 supersticione A <hi rend="italic">obtusissima S 8 suspicenturS</hi> <lb/>
+            bonl. qd nvu <lb/>
+            12 illa <hi rend="italic">AMb</hi> 13 flpfcis <hi rend="italic">B</hi> sint] si <hi rend="italic">A</hi> 14 sed sic ut <hi rend="italic">S</hi> s?4 \\It fit B <lb/>
+            II <lb/>
+            ut sic <hi rend="italic">b</hi> maneret <hi rend="italic">A</hi> at sese <hi rend="italic">B</hi> 15 ut <hi rend="italic">om. A</hi> 16 male <hi rend="italic">M</hi> ini <lb/>
+            <lb/>
+            teriore <hi rend="italic">A</hi> 17 isti <hi rend="italic">A</hi> 18 iusticia <hi rend="italic">A</hi> 19 si I <hi rend="italic">illa A</hi> imitare <hi rend="italic">B</hi> <lb/>
+            H <lb/>
+            21 apetitur <hi rend="italic">B</hi> 22 inferiore <hi rend="italic">B</hi> 28 ferina] forma <hi rend="italic">b</hi> pulchrę A <lb/>
+            te <lb/>
+            incaedit <hi rend="italic">B</hi> 25 meditur <hi rend="italic">M</hi> imitetur <hi rend="italic">b</hi> </note> <lb/>
+             
+<pb n="77"/>
+            imitatur, probemus. inprobamus autem non quia non sit adsecutus, <lb/>
+            sed quia omnino adsequi uoluit. in equo enim probamus <lb/>
+            illud, cui quantum praeponimus hominem, tantum <lb/>
+            offendimur, quod inferiora sectatur. quid ? inter ipsos homines <lb/>
+            in inmittenda uoce nonne quod praeco bene facit, etiamsi clarius <lb n="5"/>
+            ac melius id faciat praetor, insanus est ? caelestia suspice: <lb/>
+            lucens luna laudatur suoque laudatur cursu atque uicibus <lb/>
+            bene considerantibus satis placet; tamen si eam sol uelit <lb/>
+            imitari — fingamus enim eos posse habere huiusmodi uoluntates <lb/>
+            —, cui non summe ac iure displiceat ? ex quibus illud <lb n="10"/>
+            est. quod intellegi uolo. etiam si sunt animae — quod interim <lb/>
+            incertum est — corporeis officiis non peccato, sed natura deditae <lb/>
+            nosque, quamquam sint inferiores, aliqua tamen interiore <lb/>
+            uicinitate contingunt, non illas ideo malas haberi oportere, <lb/>
+            quia nos, cum eas sequimur et corporea diligimus, mali sumus. <lb n="15"/>
+            propterea enim corporea diligendo peccamus, quia spiritalia <lb/>
+            diligere et iustitia iubemur et natura possumus et tunc in <lb/>
+            nostro genere optimi et beatissimi sumus. 
+</p>
+          
+</div>
+
+<div n="21" subtype="chapter" type="textpart">
+<p>Quamobrem quid habet argumenti aestuans in utramque <lb/>
+            partem deliberatio modo in peccatum prona, modo in recte <lb n="20"/>
+            factum subuecta, ut duo animarum genera, quorum alterius <lb/>
+            natura ex deo sit, alterius non sit, cogamur accipere, cum <lb/>
+            alias tot causas alternantis cogitationis conicere liceat? sed <lb/>
+            haec obscura esse et incassum ab animis lippientibus quaeri <lb/>
+            quisquis bonus rerum existimator est, uidet. quare illa potius, <lb n="25"/>
+            quae de uoluntate atque peccato dicta sunt, illa, inquam, <lb/>
+            quae summa iustitia neminem ratione utentem ignorare permittit, <lb/>
+            illa quae si auferuntur nobis, nihil est, unde disciplina
+
+<note rend="script" type="footnote">3 tanto <hi rend="italic">A</hi> 5 in <hi rend="italic">om. A</hi> inmittenda <hi rend="italic">Hartel:</hi> imittenda <hi rend="italic">M</hi> emittenda <lb/>
+            <hi rend="italic">BSb</hi> imitanda A 6 ac melius <hi rend="italic">om. SM</hi> praeco A senator <hi rend="italic">b</hi> <lb/>
+            suscipe <hi rend="italic">ABa</hi> 7 <hi rend="italic">alt</hi>. laud. <hi rend="italic">om. SAb</hi> cursu atque recursu aut S <lb/>
+            h <lb/>
+            mcinitataA <hi rend="italic">contingat b</hi> aberiB <hi rend="italic">15 etnos b eosA</hi> 17 iusticia.4 <lb/>
+            18 obtimi <hi rend="italic">M</hi> 19 habeat <hi rend="italic">ABS</hi> estuans <hi rend="italic">A</hi> in utraque parte <hi rend="italic">BS</hi> <lb/>
+            20 <hi rend="italic">recttt A</hi> 22 <hi rend="italic">pr</hi>. sit <hi rend="italic">om. A</hi> 23 alternantes cogitationes <hi rend="italic">Bb</hi> 24 in- <lb/>
+            ..u <lb/>
+            casum <hi rend="italic">B</hi> queri <hi rend="italic">A</hi> 25 que <hi rend="italic">potius A</hi> 27 rationem <hi rend="italic">B</hi> 28 auferuntur <hi rend="italic">B</hi> <lb/>
+            auferantur <hi rend="italic">Sb</hi> est] aliud est b </note> <lb/>
+             
+<pb n="78"/>
+            uirtutis inchoetur, nihil, unde a uitiorum morte surgatur, etiam <lb/>
+            atque etiam considerata satis clare ac dilucide Manichaeorum <lb/>
+            haeresim falsam esse conuincunt. 
+</p>
+          
+</div>
+
+<div n="22" subtype="chapter" type="textpart">
+<p>Horum simile est, quod de paenitendo nunc dicam. nam <lb/>
+            ut inter omnes sanos constat et quod ipsi Manichaei non<lb n="5"/>
+            solum fatentur. sed et praecipiunt, utile est paenitere peccati. <lb/>
+            quid ego nunc in hanc rem diuinarum scripturarum testimonia, <lb/>
+            quae usquequaque diffusa sunt, colligam? uox est etiam ista <lb/>
+            naturae: neminem stultum rei huius notitia deseruit; hoc <lb/>
+            nobis nisi esset penitus insitum, periremus. potest aliquis<lb n="10"/>
+            dicere non se peccare: non sibi esse autem, si peccauerit, <lb/>
+            paenitendum, nulla barbaries dicere audebit. quae cum ita sint, <lb/>
+            quaero ex duobus illis generibus animarum, cuius sit paenitere <lb/>
+            peccati ? scio quidem neque illius esse posse, qui male facere, <lb/>
+            neque illius, qui bene facere non potest. quare ut eorum uerbis<lb n="15"/>
+            loquar, si animam tenebrarum peccati <choice><sic>paeuitet</sic><corr>paenitet</corr></choice>, non est de <lb/>
+            substantia summi mali; si animam lucis, non est de substantia <lb/>
+            summi boni. paenitendi enim adfectio illa, quae prodest, <lb/>
+            et male fecisse paenitentem et bene facere potuisse testatur. <lb/>
+            quomodo igitur nihil ex me mali, si ego perperam feci ? aut<lb n="20"/>
+            quomodo me recte paenitet, si ego non feci? audi partem <lb/>
+            alteram: quomodo ex me nihil boni est, cui bona uolunta.s <lb/>
+            inest? aut quomodo me recte paenitet, si non inest? quamobrem <lb/>
+            aut negent isti esse paenitendi magnam utilitatem, ut <lb/>
+            non solum a christiano nomine, sed ab omni etiam uel imaginaria<lb n="25"/>
+            ratione pellantur, aut animarum duo illa genera, unum <lb/>
+            ex quo nihil mali, alterum ex quo nihil boni sit, discere atque <lb/>
+            docere iam desinant: quod si faciant, Manichaei esse utique
+
+<note rend="script" type="footnote">8 heresim <hi rend="italic">M</hi> conuincuntur <hi rend="italic">A</hi> 9 noticia <hi rend="italic">A</hi> 10 etiam penitus <lb/>
+            insitum esset <hi rend="italic">b</hi> 11 non an sibi <hi rend="italic">S</hi> non sibi autem <hi rend="italic">A</hi> 14 mala <hi rend="italic">B</hi> <lb/>
+            I yiiNBm <lb/>
+            15 non om. <hi rend="italic">A</hi> 16 loquar <hi rend="italic">B</hi> utar <hi rend="italic">b</hi> anima <hi rend="italic">BS</hi> de <hi rend="italic">(8. l.) B</hi> 17 subntali <lb/>
+            <lb/>
+            atantia] supbia <hi rend="italic">A</hi> mali] boni <hi rend="italic">S boni B</hi> si-boni <hi rend="italic">om. BS</hi> supbia <hi rend="italic">A</hi> <lb/>
+            18 qui <hi rend="italic">AS</hi> 19 potuisset <hi rend="italic">B</hi> .20 ex me nihil S 21 me <hi rend="italic">om. BM</hi> <lb/>
+            t <lb/>
+            penitet et <hi rend="italic">A</hi> 23 au <hi rend="italic">B</hi> 24 istis <hi rend="italic">M</hi> 26 illa duo <hi rend="italic">ASb</hi> 28 esse <lb/>
+            <hi rend="italic">om. A</hi> </note> <lb/>
+             
+<pb n="79"/>
+            desinent; nam tota illa secta ista bicipiti uel potius praecipiti <lb/>
+            animarum uarietate fulcitur. 
+</p>
+          
+</div>
+
+<div n="23" subtype="chapter" type="textpart">
+<p>Ac mihi quidem satis est sic scire, quod Manichaei <lb/>
+            errent, ut scio paenitendum esse peccati. et tamen si nunc <lb/>
+            amicorum meorum aliquem, qui usque adhuc illos audiendos <lb n="5"/>
+            putat. conpellam iure amicitiae et ei dicam: scisne utile esse, <lb/>
+            cum quisque peccauerit, paenitere? sine dubitatione se scire <lb/>
+            iurabit. si ergo te fecero ita scire falsam esse Manichaeorum <lb/>
+            haeresim, desiderabisne amplius? quid amplius se posse in <lb/>
+            hac re desiderare respondeat. bene quidem huc usque. sed cum <lb n="10"/>
+            ostendere coepero certas necessariasque rationes, quae illam <lb/>
+            propositionem adamantinis, ut dicitur, catenis nexae consequuntur. <lb/>
+            remque totam ad conclusionem, qua illa euertitur <lb/>
+            secta, perduxero: negabit se forsitan scire utilitatem illam <lb/>
+            paenitendi, quam nemo doctus, nemo indoctus ignorat, et <lb n="15"/>
+            potius se scire contendet, cum dubitamus et deliberamus duas <lb/>
+            in nobis animas patrocinia propria singulis quaestionis partibus <lb/>
+            adhibere. o consuetudo peccati! o comes poena peccati! uos <lb/>
+            me tunc a rerum tam manifestarum consideratione auertistis, <lb/>
+            sed non sentienti nocebatis; nunc uero in familiarissimis meis <lb n="20"/>
+            similiter non sentientibus me iam uulneratis torquetisque <lb/>
+            sentientem. 
+</p>
+          
+</div>
+
+<div n="24" subtype="chapter" type="textpart">
+<p>Adtendite ista, quaeso, carissimi; uestra ingenia bene <lb/>
+            noui. si mihi nunc uos qualiscumque hominis mentem rationemque <lb/>
+            conceditis, multo certiora sunt quam quae ibi uel uidebamur <lb n="25"/>
+            discere uel magis credere cogebamur. deus magne,
+
+<note rend="script" type="footnote">1 desinSt <hi rend="italic">A</hi> iam desinent <hi rend="italic">b</hi> 3 at <hi rend="italic">(corr. ex</hi> ac) <hi rend="italic">B</hi> 6 putet <hi rend="italic">A</hi> <lb/>
+            i <lb/>
+            compellem <hi rend="italic">B</hi> compellere <hi rend="italic">S</hi> 8 ego <hi rend="italic">B</hi> 9 heresem <hi rend="italic">M</hi> heresem <hi rend="italic">B</hi> quid <lb/>
+            amplins <hi rend="italic">om. A</hi> esse posse <hi rend="italic">B esse</hi> possit <hi rend="italic">b</hi> 10 bene . bene hucusque <lb/>
+            quidem A huc] hoc <hi rend="italic">M</hi> 11 necessarias rõne <hi rend="italic">(ex</hi> rome <hi rend="italic">corr.) A</hi> 12 adamanti\' <lb/>
+            <hi rend="italic">A</hi> innexae <hi rend="italic">ASb</hi> 18 ille uertitur <hi rend="italic">BA</hi> illa uertitur S 14 negabit <lb/>
+            <hi rend="italic">(corr. ex</hi> uit) <hi rend="italic">B</hi> 15 et potius] pocius <hi rend="italic">A</hi> 16 contendit <hi rend="italic">B</hi> 17 patroe <lb/>
+            <lb/>
+            chinia <hi rend="italic">S</hi> propria <hi rend="italic">om. B</hi> questionib\' <hi rend="italic">B</hi> 18 fomes S pone <hi rend="italic">B</hi> <lb/>
+            20 sentientib\' <hi rend="italic">A</hi> nocebatis-sentientibus <hi rend="italic">om. A</hi> 21 iam <hi rend="italic">om. BS</hi> <lb/>
+            torquetisquae <hi rend="italic">B</hi> 23 si uestra <hi rend="italic">A</hi> 24 hunc <hi rend="italic">B</hi> 25 cerciora <hi rend="italic">A</hi> <lb/>
+            quamque <hi rend="italic">b</hi> </note><lb/>
+             
+<pb n="80"/>
+            deus omnipotens, deus summae bonitatis, quem inuiolabilem <lb/>
+            atque incommutabilem credi atque intellegi fas est, trina unitas. <lb/>
+            quam catholica ecclesia colit, subplex oro expertus in me <lb/>
+            misericordiam tuam, ne homines, cum quibus mihi a pueritia <lb/>
+            in omni conuictu fuit summa consensio, in tuo cultu a me<lb n="5"/>
+            dissentire permittas. uideo maxime expectari hoc loco. quomodo <lb/>
+            etiam catholicas scripturas a Manichaeis accusatas uel <lb/>
+            tunc defenderem, si, ut dico, cautus essem, uel nunc defendi <lb/>
+            posse demonstrem. sed in aliis uoluminibus deus adiuuabit <lb/>
+            propositum meum; nam huius iam, quantum arbitror, moderata<lb n="10"/>
+            parci sibi postulat longitudo.
+
+<note rend="script" type="footnote"> 1 summe <hi rend="italic">M</hi> 3 <hi rend="italic">rogo A</hi> me <hi rend="italic">om. A</hi> 5 hominQ uictu <hi rend="italic">MBAb</hi> mihi <lb/>
+            a <lb/>
+            in hominum uictu <hi rend="italic">S</hi> 6 expectar in hoc <hi rend="italic">A</hi> 7 accusatgs <hi rend="italic">B</hi> <lb/>
+            8 <hi rend="italic">sicut Ab 10 iam om. AS</hi> inmod\'ataJ.6 11 <hi rend="italic">sibi om. M</hi> longitudo <lb/>
+            postulat <hi rend="italic">AS</hi> expl. tractatus de duabus animabus <hi rend="italic">fol</hi>. 169 <hi rend="italic">S</hi> <lb/>
+            EXPL IN XPO IHV DNO NRO <hi rend="italic">M fol. 191</hi> EXPL DE DYABVS <lb/>
+            AMMABVS: AMEN <hi rend="italic">fol. 10 B subscr. om. A</hi> </note> 
+<pb n="81"/>
+            
+</p>
+
+</div>
+        
+</div>
+</body>
+</text>
+</TEI>
