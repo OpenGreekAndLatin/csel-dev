@@ -79,7 +79,8 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="poem line" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:l[@n='$2'])"/>
+        <cRefPattern n="line" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='poem']//tei:l[@n='$3'])"/>
+        <cRefPattern n="poem" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='poem'])"/>
         <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book'])"/>
       </refsDecl>
     </encodingDesc>
@@ -451,7 +452,8 @@
         
 </div>
         <div n="2" subtype="book" type="textpart">
-          <head>
+          <div n="1" subtype="poem" type="textpart">
+                      <head>
             <title type="main">B. HVMNUS DUBIUS. </title>
           </head>
 
@@ -787,7 +789,7 @@
              
 
 
-</div>
+</div></div>
 </div>
 </body>
 </text>
