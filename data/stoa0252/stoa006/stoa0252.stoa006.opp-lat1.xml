@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL10.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Iohannes Huemer</name>
+                  <addName xml:lang="de">Johannes Huemer</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1793.1">Sedulius</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0252.stoa006">Epistula ad Macedonium</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0252.stoa002">Carmen Paschale</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0252.stoa008">Opus Paschale</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0252.stoa003">Carmina ad Sedulium Spectantia</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0241d.stoa002">Excerpta ex Remigii Expositione in Paschale Carmen</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1885</date>
+              </imprint>
+              <biblScope unit="volume">10</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru09wiengoog#page/n7/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="https://github.com/opengreekandlatin/csel-dev/blob/master/data/stoa0252/stoa006/stoa0252.stoa006.opp-lat1.xml" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='https://github.com/opengreekandlatin/csel-dev/blob/master/data/stoa0252/stoa006/stoa0252.stoa006.opp-lat1.xml'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0252.stoa006.opp-lat1">
+<head>
+            <title type="main">EPISTOLA AD MACEDONIVM. </title>
+          </head>
+          <p>SANCTO AC BEATISSIMO PATRI MACEDONIO PRESBVTERO <lb/>
+            SEDVLIVS IN CHRISTO BALVTEM. Prius quam me, uenerabilis <lb/>
+            pater, operis nostri decurso uolumine censeas et rite <lb/>
+            forsan seueritatis obiurges, utpote qui nulla ueteris scientiae <lb/>
+            praerogatiua suffultus tam inmensum paschalis pelagus <lb n="5"/>
+            maiestatis et uiris quoque peritissimis formidandum parua<lb/>
+
+
+<note type="footnote">In nomine dl summi apolagia sedoli rethoris <hi rend="italic">A2 litteris minutis,</hi> <lb/>
+            Incipit prologus sedulii amacedonu<foreign xml:lang="grc">̄</foreign> presbiterii <hi rend="italic">Beg. 1,</hi> Incipit epistola <lb/>
+            sedulii poetae ezimii ad macedonium presbyterum <hi rend="italic">Beg. 2,</hi> Incipit <lb/>
+            apoIlogeticuB prologus sednlii rethoris o, Incipit apologicns prologus <lb/>
+            Sednlii rethoris d, Incipit prologus <hi rend="italic">f; cf. subscr</hi>. 1 sancto] domino <lb/>
+            Alm., domino sco <hi rend="italic">f</hi> (= <hi rend="italic">Bern. Aa 90</hi> a. X <hi rend="italic">f. 4) EFHb,</hi> domino<unclear/><lb/>
+            <hi rend="italic">A2O,</hi> domino meo sco <hi rend="italic">CKV</hi> ac beatiseimo <hi rend="italic">om. B1,</hi> ac uenerabili <lb/>
+            <hi rend="italic">K</hi> patre K pfpitero <hi rend="italic">A,</hi> presbitero <hi rend="italic">BCPBS,</hi> prestro <hi rend="italic">E,</hi> <unclear/><lb n="15"/>
+             <hi rend="italic">F,</hi> praesbitero <hi rend="italic">H,</hi> prbiro K, prbe <hi rend="italic">T,</hi> om. <hi rend="italic">Spir. Poelm.,</hi> abbati <lb/>
+            <hi rend="italic">Fdw</hi>. 2 Sednlius Gaelins <hi rend="italic">Reg. 1 a m. rec</hi>. Christo] dno P <lb/>
+            <hi rend="italic">{in ing.) p,</hi> dno zpo 6; Domno meo patri macedonio presbitero <hi rend="italic">Beg. 3,<lb/>
+             tit</hi>. om. <hi rend="italic">D: cf. epistulam Prosae praemissam</hi> 3 decursu<foreign xml:lang="grc">̊</foreign> <hi rend="italic">AB\' cf</hi>. <lb/>
+            ti <lb/>
+            a. <hi rend="italic">t Leonis indicem Yenant. Fortun</hi>. censeas <hi rend="italic">A,</hi> censura <hi rend="italic">XB</hi> <lb/>
+            u • rite <lb/>
+            et rte <hi rend="italic">A K2O1P Beg. 1 ST,</hi> et rite <hi rend="italic">FH,</hi> ritu <hi rend="italic">B\',</hi> et more <hi rend="italic">m,</hi> et ritu <lb/>
+         
+            <hi rend="italic">C2DE Alm.,</hi> thetricQ <hi rend="italic">K</hi> (4 at. arit ] <hi rend="italic">m. 2 in mg.),</hi> tritę <hi rend="italic">(in ras. m. 2) <lb/>
+            B; prt</hi>. censura tetricae f. seneritatis <hi rend="italic">cf. Mart. XII 70, 4</hi> 4 forsitau <lb/>
+            <hi rend="italic">AO1cf SpW. Poelm.,</hi> forsam <foreign xml:lang="grc">β</foreign>seneritate <hi rend="italic">Ab,</hi> seuereque <lb/>
+            <hi rend="italic">Fabr</hi>. utpute (u, <hi rend="italic">corr.) A,</hi> utpute <hi rend="italic">K</hi> qui∗ (a eras.) <hi rend="italic">K</hi> <lb/>
+            5 sulfultus <hi rend="italic">A</hi> ego tam В\' pascalae <hi rend="italic">A</hi> pilagus A <lb/>
+            pelagis paschalis <hi rend="italic">b</hi> 6 maistatis A, magestatis <hi rend="italic">BP</hi> maiestatis <lb/>
+            <hi rend="italic">pelagis CO</hi> etiam uiris <hi rend="italic">m</hi> quoquae A paruo <hi rend="italic">Beg. 2 Poelm</hi>.</note>
+
+<note type="footnote"> X </note>
+
+<note type="footnote"> 1 </note> <lb/>
+             
+<pb n="2"/>
+            tiro lintre <choice><sic>cncurrerim</sic><corr>cucurrerim</corr></choice>: <sic>hnias</sic> apud te facti causas expurgem, <lb/>
+            ut cum me non audacem fuisse <choice><sic>probaneris</sic><corr>probaueris</corr></choice> sed <choice><sic>denotum</sic><corr>deuotum</corr></choice>, in <lb/>
+            pectoris <choice><sic>tni</sic><corr>tui</corr></choice> portum blanda tranquillitate recipias, quem <choice><sic>gabernante</sic><corr>gubernante</corr></choice> <lb/>
+            Deo laetaberis nulla pertulisse naufragia. cum <choice><sic>saecnlaribus</sic><corr>saecularibus</corr></choice> <lb/>
+            igitur studiis occupatus <choice><sic>nim</sic><corr>uim</corr></choice> inpatientis ingenii, quod<lb n="5"/>
+            <choice><sic>dininitatis</sic><corr>diuinitatis</corr></choice> in me prouidentia <choice><sic>generanit</sic><corr>generauit</corr></choice>, non utilitati animae <lb/>
+            sed inani uitae dependerem, et litterariae sollertia disciplinae <lb/>
+            lusibus infructuosi operis, non auctori seruiret: tandem misericors <lb/>
+            Deus, rerum conditor, <choice><sic>clementiuB</sic><corr>clementius</corr></choice> fabricam sui iuris aspexit <lb/>
+            et <choice><sic>stnltos</sic><corr>stultos</corr></choice> in me mundanae sapientiae diutius haberi <choice><sic>sensnsio</sic><corr>sensus</corr></choice> <lb n="10"/>
+            <choice><sic>indolnit</sic><corr>indoluit</corr></choice> ac fatuum prudentiae mortalis ingenium caelesti <lb/>
+            sale <choice><sic>condinit</sic><corr>condiuit</corr></choice>. moxque ut cordis oculos interior caligo deseruit, <lb/>
+            per sentes dumosi <choice n="0.30"><sic n="35">raris</sic><corr n="79">ruris</corr></choice> errantia in herbam florei cespitis <lb/>
+            <choice><sic>renolui</sic><corr>reuolui</corr></choice> uestigia totoque nisu melioris arbitrii cultum inlustrati
+
+<note rend="script" type="footnote"> 1 tyro <hi rend="italic">CDEFKBSTb</hi> lintri <hi rend="italic">A</hi> currerim <hi rend="italic">V,</hi> concurrerim <lb/>
+            <foreign xml:lang="grc">β</foreign> <hi rend="italic">aput Pm facti apud te A caussas A</hi> expurgem] exponam<lb/>
+             ud expromam coni. <hi rend="italic">Wopk., post v. ras. in E</hi> 2 audacem <lb/>
+            non <hi rend="italic">ACO</hi> fuisse s. L b\' 3 blandum <hi rend="italic">A</hi> tranquilitate <hi rend="italic">F</hi> <lb/>
+            blandae tranquilleque <hi rend="italic">g</hi> recipias me (me <hi rend="italic">in</hi> mg. add.) <hi rend="italic">C</hi> gubernante <lb/>
+            domino <hi rend="italic">Beg. 1 c</hi> 4 laetaneria <hi rend="italic">A</hi> naufrigia <hi rend="italic">A</hi> 5 ocute<lb/>
+             <lb/>
+             patus <hi rend="italic">AP</hi> patientis (in a m. 2) <hi rend="italic">B\' c,</hi> inpacientis plerique; d <hi rend="italic">et</hi> ti <lb/>
+            permutationes in codd. s. <hi rend="italic">IX—X non infreguentes</hi> nisi ubi <hi rend="italic">momenti <lb/>
+            esse</hi> uidebatur non notaui quod] quam Lipsiensis <hi rend="italic">s</hi>. XIII, quetn <lb/>
+            <hi rend="italic">Cellarius Grunerus Arnts. secuti sunt 6 diuinam me B\'</hi> <lb/>
+            prouidentie∗∗ A animi <hi rend="italic">A</hi> 7 literariae AK, literalie P, littera∗∗rię <lb/>
+            <hi rend="italic">B\',</hi> litteratoriae <hi rend="italic">Beg. 2 SV</hi> solertia <hi rend="italic">AK</hi> disciplinae<lb/>
+             sollertia <hi rend="italic">C</hi> 8 lussibus <hi rend="italic">A</hi> nanctori PT, auctori* <hi rend="italic">Eb</hi> <lb/>
+            % <lb/>
+            Bentirem (t a m. 2) K, deserniret PT; auctori Deo <hi rend="italic">deseruiret Ald. Spir. <lb/>
+            Podm</hi>. missericors <hi rend="italic">A</hi> 9 dens om. <hi rend="italic">AP Reg. 1 bc,</hi> expunx. <hi rend="italic">K,<lb/>
+             s. I. F; cf</hi>. Carm. <hi rend="italic">I 60 et Pros</hi>. sui inris <hi rend="italic">f. Ab,</hi> sui f. i. <hi rend="italic">Beg. 2</hi> <lb/>
+            Vad iuris <hi rend="italic">ex</hi> gnris <hi rend="italic">P,</hi> operis <hi rend="italic">Cg</hi> 10 et adultos A, et stultus <lb/>
+            В\' mundane <hi rend="italic">plerique</hi> habere <hi rend="italic">AK1</hi> 11 indol∗uit (e <hi rend="italic">uel</hi> o <lb/>
+            eras.)d,indocnitPfa.taam$12<hi rend="intraline">dit</hi>condidit <hi rend="intraline">or</hi>intior, <lb/>
+            cras.) A, <hi rend="italic">indocuit P fa∗tuum B\'</hi> 12 condidit <hi rend="italic">A</hi> intior A, <lb/>
+            intereor <hi rend="italic">C</hi> galigo <hi rend="italic">K</hi> deeerit 0 13 domoai <hi rend="italic">A,</hi> tumosi <lb/>
+            <hi rend="italic">B</hi> ruriserentia B\' (a m. <hi rend="italic">1)</hi> erbi <hi rend="italic">В\'P</hi> florei. <hi rend="italic">K,</hi> floridi <hi rend="italic">V</hi> <lb/>
+            Ald. cispitis <hi rend="italic">A</hi> 14 reuocaui <foreign xml:lang="grc">β</foreign>gm1 inlnstrate K1 eorr. <lb/>
+             m. 2, <hi rend="italic">illustrati CD</hi> </note> <lb/>
+
+             
+<pb n="3"/>
+            pectoris Deo dicaui, non praesumptione uinum sarcinam tantae <lb/>
+            molis arripiens, sed onus Christi, quod leue nimis est, <lb/>
+            humili pronus deuotione conplectens, culpa me scilicet arbitratus <lb/>
+            <choice><sic>ailentii</sic><corr>silentii</corr></choice> non carere si studiosae mentis officium, quod <lb/>
+            <choice><sic>ioanitati</sic><corr>uanitati</corr></choice> detulissem, ueritati denegarem: cum et diuina reuerenter <lb n="5"/>
+            adseri et humana possint honeste tractari. angebar alia <lb/>
+            rursus animi procella turbati et aegros anhelitus illa mihi <lb/>
+            <choice><sic>aepe</sic><corr>saepe</corr></choice> ratio conmouebat, qua me noueram uel tua, pater <choice><sic>beatisame</sic><corr>beatissime</corr></choice>, <lb/>
+            <choice><sic>vel</sic><corr>uel</corr></choice> aliorum, quos gratia similiter caelestis inlustrat, <lb/>
+            quiddam profecisse doctrina. quamquam ipsi cuncta monstrantes <lb n="10"/>
+            aliquem credatis igniculum in me posse lucere: sed torpor <lb/>
+            cordis <choice><sic>oltunsi</sic><corr>obtunsi</corr></choice> tamquam silicis uena scintillam tenuem uix
+
+<note type="footnote">7 d Yerg. Aen. IX 814 12 cf. Verg. Aen. VI 7 </note>
+
+<note rend="script" type="footnote">1 pectaris <hi rend="italic">C,</hi> pectoris <hi rend="italic">F</hi> dedicaui A psQcione P 2 honna <lb/>
+            J quia <hi rend="italic">f</hi> leuae <hi rend="italic">E</hi> L est n. <hi rend="italic">T,</hi> nimis lene est <foreign xml:lang="grc">β</foreign> 3 denoti∗one <lb/>
+            i culpamc (e <hi rend="italic">a</hi> m. 2) <hi rend="italic">K</hi> 4 muti silentii <hi rend="italic">b</hi> quam <hi rend="italic">A</hi> <lb/>
+            5 detu∗lissem <hi rend="italic">C,</hi> detullissem <hi rend="italic">F</hi> denegassem <foreign xml:lang="grc">β</foreign>1 diuina opera <lb/>
+            r reuerenter (e4 <hi rend="italic">ex</hi> u) A 6 possent P, possunt <hi rend="italic"><foreign xml:lang="grc">β</foreign> Ald</hi>. <lb/>
+            honeste// A,oneate P tractare <hi rend="italic">d</hi> angebar <hi rend="italic">(h eras.) A</hi> <lb/>
+            agebar ergo r. <hi rend="italic">C,</hi> angebar∗∗∗∗ rursus <hi rend="italic">H</hi> rursus alia <hi rend="italic">KT Bom</hi>. <lb/>
+            ut uidentur 7 anchelitus A, anhelit\' (t in ras. <hi rend="italic">m. 2) E,</hi> anelitus <lb/>
+            <hi rend="italic">F, auhelitos KR, hanhelitos S mihi s.l. FO2 8 saepe om. T</hi> <lb/>
+            t <unclear/><lb/>
+            aaepe <hi rend="italic">FH Alm</hi>. commouebat ratio <hi rend="italic">A</hi> commobeba∗∗∗(ant<unclear/><lb/>
+            ai?) <hi rend="italic">K</hi> qu*a (i <hi rend="italic">eras.) E,</hi> qu" <hi rend="italic">F,</hi> quia <hi rend="italic">H</hi> (l qua &amp; <hi rend="italic">l.) OlPS <lb/>
+            3, que</hi> 0 noueram me <hi rend="italic">Beg. 2 d</hi> 9 post similiter <hi rend="italic">ras</hi>. <lb/>
+            F<hi rend="italic">om. A</hi> celestis similiter <hi rend="italic">D</hi> cęlestia JB illuminat <lb/>
+            <lb/>
+            <hi rend="italic">Vad,</hi> illustrarat <hi rend="italic">Poelm</hi>. 10 quidam P, <hi rend="intraline">aW </hi>quiddam <hi rend="italic">F</hi> proficisee <lb/>
+            AKS doctrina P, <hi rend="intraline"><lb/>
+            cinri</hi>doctrina/// w<hi rend="italic">K</hi> carere <hi rend="italic">a m. 2,</hi> d. carere <hi rend="italic">g</hi> <lb/>
+            quanquam <hi rend="italic">AHT,</hi> qua<foreign xml:lang="grc">̃</foreign>qd<foreign xml:lang="grc">̌</foreign> <hi rend="italic">P\\</hi> quiquam <hi rend="italic">plerique</hi> uos ipsi <hi rend="italic"><foreign xml:lang="grc">β</foreign>adg</hi> <unclear/><lb/>
+            dex Barthii (add. mihi) cuncta <hi rend="italic">a. I. E*</hi> monst∗rantes <hi rend="italic">A</hi><unclear/><lb/>
+            stantes cuncta <hi rend="italic">g</hi> 11 credetis <hi rend="italic">H</hi> aliqu<foreign xml:lang="grc">̢ο̊̃</foreign>d <hi rend="italic">T</hi> turpor <hi rend="italic">A,</hi> <unclear/><lb/>
+            tapor nei <hi rend="italic">a</hi> \' 12 obtunsi cordis <hi rend="italic">b</hi> obtonsi A, obtu*si (n <hi rend="italic">eras.)<lb/>
+             CFH,</hi> obtunsi (n <hi rend="italic">corr.) E,</hi> obtensi <hi rend="italic">O1,</hi> obtumsi <hi rend="italic">p,</hi> obtusi <hi rend="italic">b Rom</hi>. <lb/>
+            cr. tanquam <hi rend="italic">ATb</hi> uenas <foreign xml:lang="grc">ΑΥ</foreign>1, per nenas <hi rend="italic">CB1 EFOP Beg. 3,</hi> <lb/>
+            P<unclear/> <hi rend="italic">Y</hi> p. nenai silicis <hi rend="italic">b Ald</hi>. tenuem <hi rend="italic">ex</hi> -am <hi rend="italic">E\'</hi> </note>
+
+<note type="footnote"> 1* </note> <lb/>
+             
+<pb n="4"/>
+            emittit, et id ipsum <choice><sic>parai</sic><corr>parui</corr></choice> fomitis nutrimentum, quod in <lb/>
+            me potuit doni caelestis oleo permanere; nefas esse pensabam <lb/>
+            muti tenacitate silentii cum nullo partiri, ne unius talenti <lb/>
+            creditam quantitatem dum nitor <choice><sic>cantins</sic><corr>cautius</corr></choice> custodire, culpa <lb/>
+            defossae <choice><sic>pecnniae</sic><corr>pecuniae</corr></choice> non carerem. inuidiae siquidem maculam <lb n="5"/>
+            de sese non <choice><sic>ablnit</sic><corr>abluit</corr></choice> qui alteri conferre denegat, quod cum <lb/>
+            dederit non amittit. inter diuersas tamen anxiae trepidationis <lb/>
+            ambages ad iaciendum <sic>hnina</sic> operis fundamentum ob hoc <lb/>
+            maxime <sic n="poss">pronocatus</sic> <choice><sic>acceesi</sic><corr>accessi</corr></choice>, at alios exhortationibus ueritatis <lb/>
+            ad frugem bonae messis inuitans, si quando infirmitatis humanae <lb n="10"/>
+            <choice><sic>nitiis</sic><corr>uitiis</corr></choice> forsitan lacessitus <choice><sic>inpngner</sic><corr>inpugner</corr></choice>, uerbis propriae disputationis <lb/>
+            ammonitus metuam, et qui furta prohibui far uideri uerear, <lb/>
+            et qui rectae soliditatis iter ostendi <choice><sic>proclinioris</sic><corr>procliuioris</corr></choice> <choice><sic>lnbrici</sic><corr>lubrici</corr></choice> <choice><sic>pericnlosa</sic><corr>periculosa</corr></choice> <lb/>
+            sectari et clipeo dominicae protectionis armatus inimicae <lb/>
+            iaculationis tela facili repulsione contemnam. <choice><sic>cnr</sic><corr>cur</corr></choice> autem
+
+<note type="footnote"> 1 cf. Verg. Aen. I 176 </note>
+
+<note rend="script" type="footnote"> 1 emitteret <hi rend="italic">A</hi> id] ad <hi rend="italic">C1 Alm.,</hi> om. <hi rend="italic"><foreign xml:lang="grc">Ρβ</foreign></hi> 2 possit dono <hi rend="italic">g <lb/>
+            permanare Fabr</hi>. putabam 0 <hi rend="italic">Fabr. 3 muta S, mitti g<lb/>
+             tinacitate A, tenacie g</hi> nec 0 4 creditum K1 creditam mihi <lb/>
+            O quantitatem creditam <hi rend="italic">a</hi> quantalitatem <hi rend="italic">g</hi> dum credo q. n. <lb/>
+            <hi rend="italic">V Ald</hi>. nito 0 <hi rend="italic">cautis KP</hi> 5 peccunie P 6 sesew <lb/>
+            <hi rend="italic">A, se K1 corr. m. 2, se∗∗ S</hi> altari C1 conferri E2, offerre <lb/>
+            <hi rend="italic">H (a m. I) K2R</hi> 7 amittat <hi rend="italic">AG,</hi> amittet <hi rend="italic">f</hi> inter has d. <hi rend="italic">Reg. 2</hi> <lb/>
+            ad tam L <foreign xml:lang="grc">Υ</foreign>2c 8 ieciendam <hi rend="italic">A,</hi> iacendd <hi rend="italic">B</hi> ob om. <lb/>
+            <hi rend="italic">Fabr</hi>. 9 accessit F1 alios] aliquoe c exortationibus <hi rend="italic">AB<lb/>
+             CEHBS</hi> 10 fructu<foreign xml:lang="grc">̄ β</foreign> <hi rend="italic">mensis V, mentis coni. Wopk</hi>. <lb/>
+            incitans <hi rend="italic">D</hi> infirmitates P humanae infirmitatis <hi rend="italic">V Ald</hi>. <lb/>
+            aliquando <hi rend="italic">g</hi> 11 uitiis] uictus neceesitate <hi rend="italic">A,</hi> oitiis necessitate <hi rend="italic">b <lb/>
+            Alm. Poelm.,</hi> nictis c for E1 corr. m. 2, <hi rend="italic">forsan OVa,</hi> foram <lb/>
+            <hi rend="italic">0 inpugnar K corr. m. 2</hi> 12 ammonitus <hi rend="italic">ACDFGHK2P <lb/>
+            BST: cf. G. Locive, Prodrom. corr. gl</hi>. L p. 369 me tuear coni. <lb/>
+            <hi rend="italic">Barthius</hi> metuam qui <hi rend="italic">G</hi> ut qui <hi rend="italic">01 Beg. 1 (a m. 1),</hi> et om. c <lb/>
+            prohibuit <hi rend="italic">P</hi> uerer (aam <hi rend="italic">2) K</hi> 13 solidatis K1 corr. m. <hi rend="italic">2</hi> <lb/>
+            ostendidi <hi rend="italic">8</hi> pericula (o eras.) <hi rend="italic">B</hi> 14 <hi rend="italic">clepeo A,</hi> cly∗peo <hi rend="italic">H,</hi> clippeo <lb/>
+            <hi rend="italic">g</hi> inimici F 15 <hi rend="italic">eontempnam A et alii</hi> </note> <lb n="15"/>
+             
+<pb n="5"/>
+            metrica uoluerim haec ratione conponere, non differam breuiter <lb/>
+            expedire. raro, pater optime, sicut uestra quoque peritia <lb/>
+            lectionis adsidnitate cognoscit, diuinae munera potestatis stilo <lb/>
+            quisquam huius modulationis aptauit, et multi sunt quos <lb/>
+            studiorum saecularium disciplina per poeticas magis delicias <lb n="5"/>
+            et carminum uoluptates oblectat. hi quicquid rhetoricae <lb/>
+            <choice><sic>facondiae</sic><corr>facundiae</corr></choice> perlegunt, neglegentius adsequuntur, quoniam illud <lb/>
+            haud diligunt: quod autem uersuum <choice><sic>niderint</sic><corr>uiderint</corr></choice> blandimento <lb/>
+            mellitum , tanta cordis auiditate suscipiunt, ut in alta <lb/>
+            memoria saepius haec iterando constituant et reponant. horum <lb n="10"/>
+            itaque mores non <choice><sic>repndiandos</sic><corr>repudiandos</corr></choice> aestimo sed pro insita consuetudine <lb/>
+            uel natura tractandos, ut quisque suo magis ingenio <lb/>
+            <choice><sic>uolnntarius</sic><corr>uoluntarius</corr></choice> adquiratur Deo. nec differt qua quis occasione <lb/>
+            <sic n="poss">hbuatur</sic> ad fidem, dum tamen uiam libertatis ingressus non
+
+<note rend="script" type="footnote"> 1 hoc <hi rend="italic">V,</hi> hac <hi rend="italic">JPoelm</hi>. haec uoluerim <hi rend="italic">EFRSb post</hi> non <hi rend="italic">ras. 1</hi> <lb/>
+            uerbi ita <hi rend="italic">K</hi> defferem A differam breuiter expedire <hi rend="italic">ACEHKOP</hi> <lb/>
+            T (explicare <foreign xml:lang="grc">Υ</foreign>) b, <hi rend="italic">breuiter expedire n. d. B\'DFGR</hi> 2 sicut—adsiduitate <lb/>
+            in <hi rend="italic">mg. add. F</hi> tua <hi rend="italic">notm. editt</hi>. 3 asiduitate <hi rend="italic">S</hi> cognouit <lb/>
+            <hi rend="italic">AGP Reg</hi>. 1 b1, agnouit K cognouit <hi rend="italic">corr</hi>. m. <hi rend="italic">2</hi> diuinQ <hi rend="italic">ex</hi> <lb/>
+            dixino B munere <hi rend="italic">El</hi> pietatis <hi rend="italic">Poelm</hi>. 4 modolationis <lb/>
+            <hi rend="italic">A</hi> qui K1 <hi rend="italic">corr. m. 2</hi> 5 saecularium studiorum <hi rend="italic">V</hi> per] <lb/>
+            ad <hi rend="italic">A</hi> dilicias <hi rend="italic">AE2K</hi> 6 uoluntates P oblectant <hi rend="italic">K,</hi> delecat <lb/>
+            <foreign xml:lang="grc">β</foreign> iiii <hi rend="italic">A,</hi> hi quoque <hi rend="italic">Poelm</hi>. quicquit P rethoricę <lb/>
+            plerique 7 perlegent <hi rend="italic">Ald</hi>. negle∗gentius <hi rend="italic">A</hi> adsecuntur <lb/>
+            <hi rend="italic">DIGOS,</hi> adsequntur <hi rend="italic">H</hi> 8 chaut A, aut P dilegunt A <lb/>
+            soxum <hi rend="italic">A</hi> blandimento uiderint <hi rend="italic">AT</hi> 9 tota <hi rend="italic">c</hi> adaiduitate <lb/>
+            A ut] et <hi rend="italic">c</hi> 10 h<foreign xml:lang="grc">̊</foreign> A, haec <hi rend="italic">B\'EHK1 PR1g,</hi> hoc <hi rend="italic">rell</hi>. et] <lb/>
+            20 7 <hi rend="italic">reponunt R constituunt et reponunt</hi> c eorum <hi rend="italic">V</hi> <lb/>
+             <lb/>
+            11 apadiendos <hi rend="italic">AH,</hi> r. esse <hi rend="italic">Reg. 1,</hi> reepuendos <hi rend="italic"><foreign xml:lang="grc">β</foreign></hi> 12 quisq. <hi rend="italic">B\',</hi> <lb/>
+            quisquis a magis suo <hi rend="italic">adg</hi> 13 uoluntarius] 8. <hi rend="italic">l. EFR, uncinam <lb/>
+            </hi><hi rend="italic">Cell. Arntz., om. Alm. Ald</hi>. uoluntarius magis <foreign xml:lang="grc">β</foreign> a deo <lb/>
+            m defert A. qua quis <hi rend="italic">occasione DR Reg. 2. 3 T Alm.,</hi> qua <lb/>
+            quisque o. <hi rend="italic">C,</hi> quis qua qua quis o. <hi rend="italic">F,</hi> quia qua o. <hi rend="italic">G,</hi> qua occasione <lb/>
+            quis <hi rend="italic">K</hi> (<unclear/> a m. 2), qua occasione quis <hi rend="italic">H Reg. 1 cd,</hi> quisquam qualibet <lb/>
+            t 0, qualibA quis o. P, qua o. quisq; <hi rend="italic">b,</hi> qua quisquam o. <hi rend="italic">g</hi> <lb/>
+            I occassine A, ocasione P 14 libertatis uiam <hi rend="italic">EFV,</hi> uiam ueriatis <lb/>
+            <foreign xml:lang="grc">β</foreign> </note> <lb/>
+             
+<pb n="6"/>
+            repetat iniquae seruitutis laqueos, quibus ante fuerat inretitus. <lb/>
+            hae sunt, pater egregie, nostri operis causae, non superuacuae, <lb/>
+            sicut didicisti, sed commodae: quae si probabili ratione non <lb/>
+            displicent, benignitatis tuae donentur fauore, quo paululum <lb/>
+            ab scripturis celsioribus uacans <choice><sic>hnmilioribus</sic><corr>humilioribus</corr></choice> te quoque libenter<lb n="5"/>
+            inpertias. non semper aquila supra nubes elata peruolitat, <lb/>
+            sed etiam remissioribus aliquando pennis <choice><sic>disoendit</sic><corr>discendit</corr></choice> ad terram. <lb/>
+            saepe belliger miles armis quibus adsuetus est dimicare <lb/>
+            delectatur et ludere. at forsitan ut ab hac te molestia perlegendi <lb/>
+            carminis in occultis abducas, talibus me blandae <lb n="10"/>
+            orationis uocibus adloqueris: cur, inquiens, adfabilis amice, <lb/>
+            quem gratia purae dilectionis amplector, dum me profusius <lb/>
+            niteris uenerari prae ceteris et fidi propositi sedulitate
+
+<note rend="script" type="footnote"> 1 rep.etat <hi rend="italic">A</hi> laqueos <hi rend="italic">iteratum deinde eras. in E,</hi> -os corr. <hi rend="italic">in P <lb/>
+            ante AEFG1KPV Reg. 1, antea reU. inretitus fuerat A</hi> in.retit\' <lb/>
+            <hi rend="italic">C</hi> 2 egregiae <hi rend="italic">A</hi> nostre <hi rend="italic">B\' a m. 1</hi> nostri operis <hi rend="italic">CDHKPb,</hi> <lb/>
+            bl <lb/>
+            operis noatri <hi rend="italic">reU</hi>. 3 probali (bi <hi rend="italic">a m. 2) K</hi> 4 displicent tibi <lb/>
+            v <lb/>
+            <hi rend="italic">V Ald. benegnitatis A</hi> tuae 8. <hi rend="italic">l. H\' fabore A</hi> fauore tuae <lb/>
+            <hi rend="italic">F</hi> palulum <hi rend="italic">A1P,</hi> paulolum <hi rend="italic">KR</hi> 5 ab] de A, a <hi rend="italic">CDEb,</hi> ad <lb/>
+            <hi rend="italic">K1 corr. m. 2</hi> Bcribturis <hi rend="italic">T</hi> uacant <hi rend="italic">T,</hi> et quo-uaces c <lb/>
+            ti <hi rend="italic">T</hi> 6 non enim <hi rend="italic">CH2</hi> senper <hi rend="italic">A</hi> supra <hi rend="italic">TS Alm. cf. <lb/>
+             Carm. II202,</hi> super <hi rend="italic">reU.,</hi> per <hi rend="italic">sched. Poelm</hi>. elata <hi rend="italic">TA</hi>. alta <hi rend="italic">f,</hi> eleuata <lb/>
+            <hi rend="italic">reU., om. g</hi> uolitat <hi rend="italic">g</hi> 7 remissionibus <hi rend="italic">T, remisioribus AP</hi> <lb/>
+            pennis aliquando 6 discendit <hi rend="italic">Tl</hi> (c <hi rend="italic">carr. ex</hi> t) <hi rend="italic">AKP cf. Ronsch, <lb/>
+            Itala u. Vulg2. p. 463, descendit reU. terras CG2V</hi> ad t. desceudit <lb/>
+            <hi rend="italic"><foreign xml:lang="grc">β</foreign></hi> 8 sepe <hi rend="italic">TA alii,</hi> saepe etiam <hi rend="italic">Alm</hi>. bel#liger (g <hi rend="italic">eras.) A</hi> <lb/>
+            milis <hi rend="italic">TK1</hi> dimicari <hi rend="italic">K,</hi> laedere <hi rend="italic">coni. Vossius</hi> (inst. <hi rend="italic">orat. V<lb/>
+             p. 324)</hi> 9 dilectatur AF1 et ludere] inludere <hi rend="italic">T,</hi> etiam 1. <hi rend="italic">Fabr.,</hi> <lb/>
+            et etiam 1. <hi rend="italic">coni. Amte</hi>. ad <hi rend="italic">TA,</hi> an <hi rend="italic">DEF2GHK2 O2<foreign xml:lang="grc">ΡΥ</foreign>b,</hi> ac <hi rend="italic">Cg</hi> <lb/>
+            forsitam <hi rend="italic">T,</hi> forsam p, forsan <hi rend="italic">adg</hi> ab hoc <hi rend="italic">T,</hi> ab hac <hi rend="italic">AB\'G</hi> <lb/>
+            moleste iam <hi rend="italic">T</hi> 10 occultas <hi rend="italic">A,</hi> ocultis <hi rend="italic">P</hi> obducas <hi rend="italic">T,</hi> subducas <lb/>
+            <hi rend="italic">K</hi> talibus (t <hi rend="italic">ex</hi> s <hi rend="italic">corr.) T</hi> blandis <hi rend="italic">A,</hi> blande <hi rend="italic">CFHK1<foreign xml:lang="grc">Υ</foreign></hi> <lb/>
+            plandiofrationis <hi rend="italic">T1 corr. m. 2</hi> blandis orationis sermonibus <hi rend="italic">bl</hi> <lb/>
+            11 adloqueris <hi rend="italic">T,</hi> alloquaris <hi rend="italic">p</hi> inquies <hi rend="italic">Spiro Poelm. al</hi>. ad- <lb/>
+            0 <lb/>
+            fabilis <hi rend="italic">T</hi> 12 gratia. (e <hi rend="italic">eras.) E</hi> ampletor (c a <hi rend="italic">m. 2) T,</hi> compleotor <lb/>
+            <hi rend="italic">a</hi> profundius <hi rend="italic">sched. Poelm.,</hi> pfussius <hi rend="italic">post</hi> fides <hi rend="italic">(sic) in A</hi> <lb/>
+            13 nitirius <hi rend="italic">T1 corr. m. 2</hi> uenerare <hi rend="italic">K</hi> citeris <hi rend="italic">T</hi> fedem <hi rend="italic">uel</hi> <lb/>
+            fidem <hi rend="italic">T1,</hi> fides A, fidei O1, fide∗∗∗ (lis <hi rend="italic">eras.) b,</hi> fida <hi rend="italic">cod. A Arevali,</hi> ficata <lb/>
+            <hi rend="italic">g</hi> fidos pr. sedulitate amicos <hi rend="italic">Spiro Poelm. alii</hi> praeponitis T1, <lb/>
+            praepositi <hi rend="italic">corr. m. 2,</hi> ppossiti <hi rend="italic">A</hi> sidulitati <hi rend="italic">Tl</hi> -te <hi rend="italic">corr. m. 2</hi> </note> <lb/>
+             
+<pb n="7"/>
+            <sic>sectaria</sic>: alios tamquam neglectos offendas, qui dum sint doctrina <lb/>
+            con inpares et una mecum soleant religiosae fidei societate <lb/>
+            <choice><sic>couiungi</sic><corr>coniungi</corr></choice>, me potissimum ac solum eligas uel secernas, <choice n="0.00"><sic n="28">oui</sic><corr n="4256">cui</corr></choice> <lb/>
+            deuotionis tuae dicta conmittas? habes antistitem plenum <lb/>
+            reuerentiae sacerdotalis Vrsinum, qui ab aetatis primaeuae <lb n="5"/>
+            tirocinio regis aeterni castra non deserens uixit inter barbaros <lb/>
+            pius, inter bella pacatus. accepit testimonium beati iam <lb/>
+            meriti <choice><sic>enangelicae</sic><corr>euangelicae</corr></choice> sacramento doctrinae. legimus enim: beati <lb/>
+            pacifici, quoniam ipsi filii Dei uocabuntur. habes <lb/>
+            Laurentium difficili conparatione presbyterum, qui substantiam <lb n="10"/>
+            sui patrimonii sic amauit, ut ecclesiis et egenis uniuersa <lb/>
+            distribuens tanti census effusione nihil <choice n="0.10"><sic n="25">perderet</sic><corr n="214">perdere</corr></choice>: sapientia <lb/>
+            peruigil, lenitate placabilis, quo et serpentis astutiam cum
+
+<note type="footnote"> 8 Matth. 5, 9 </note>
+
+<note rend="script" type="footnote"> 1 alios — neglectus <hi rend="italic">T1 corr. m. 2</hi> offendas <hi rend="italic">TA B\'F1GHOP,</hi> offendis <lb/>
+            E, offendis <hi rend="italic">reU</hi>. dum <hi rend="italic">TAK1b1f,</hi> con <hi rend="italic">B\'</hi> a m. 1, cum <lb/>
+            rell. 2 relegione <hi rend="italic">T2A,</hi> retligiosae <hi rend="italic">B\'</hi> 3 et-coniuogl om. T1 <lb/>
+            m mg. add. m. <hi rend="italic">2</hi> elegas <hi rend="italic">T</hi> 4 scripta b1 habes autem <lb/>
+            <hi rend="italic">EO Reg. 1 T</hi> anteetitem <hi rend="italic">T2A OK</hi> 5 reuerentia <hi rend="italic">H</hi> sacerdetales <lb/>
+            <hi rend="italic">T*</hi> qui dum <hi rend="italic">Ab1</hi> itatis <hi rend="italic">T1</hi> corr. <hi rend="italic">m. 2,</hi> aet. suae <lb/>
+            <lb/>
+            <hi rend="italic">B CRSb,</hi> suae <hi rend="italic">eras</hi>. in <hi rend="italic">K </hi>primiuę (ti <hi rend="italic">a m. 2) T,</hi> primae <hi rend="italic">AE1</hi> (ue <lb/>
+            s, L m. 2) 6 tyrocinio <hi rend="italic">TB\' CEFGHPRS<foreign xml:lang="grc">Υ</foreign>,</hi> tyricinio <hi rend="italic">D</hi> disserens <lb/>
+            T, desserenB P, deserenBda (do <hi rend="italic">a m. S) 8</hi> 7 pius <hi rend="italic">ex</hi> prius <lb/>
+            F paccatus <hi rend="italic">S</hi> accipet <hi rend="italic">T,</hi> accipit <hi rend="italic">A</hi> testimunium <hi rend="italic">T1 corr</hi>. <lb/>
+            8. 2 8 beatitatem meriti coni. <hi rend="italic">Wopk</hi>. mereti <hi rend="italic">A</hi> eu∗angelice<foreign xml:lang="grc">̜</foreign> <lb/>
+            (N ciam.) <hi rend="italic">T,</hi> engilcQ <hi rend="italic">S,</hi> et euangelicae <hi rend="italic">Poelm</hi>. per e. sacramentom <lb/>
+            comi Gruner. doctrina K1 ligimns <hi rend="italic">T1 corr. m. 2</hi> 9 fili <hi rend="italic">T</hi> <lb/>
+            ipsi m, <hi rend="italic">ADEGHKR<foreign xml:lang="grc">Υ</foreign></hi> uocauuntur <hi rend="italic">T1 ut uidetur</hi> habes inquit <lb/>
+            H, labes aatem <hi rend="italic">OT</hi> 10 laurentio <hi rend="italic">T1 corr. m. 2</hi> dificili <hi rend="italic">ÅF</hi> <lb/>
+            apiteu<foreign xml:lang="grc">̄</foreign> A, prbirQ В\', prabtSm <hi rend="italic">E,</hi> presbiterum <hi rend="italic">FGKP</hi> substantia <lb/>
+            (~ an. 2) <hi rend="italic">K</hi> 11 sui in <hi rend="italic">ras. E2</hi> erogauit <hi rend="italic">V Ald. Fabr</hi>. eclesis <lb/>
+            <hi rend="italic">T\\</hi> clesiis A, ecclaesiis <hi rend="italic">E,</hi> qcclesiis <hi rend="italic">H</hi> eginis <hi rend="italic">T</hi> 12 tanta <lb/>
+            E2 censas <hi rend="italic">A</hi> offensione A, de effusione <hi rend="italic">b</hi> nil <hi rend="italic">Tb</hi> perderet <lb/>
+            (t a m.2) T, perdederet A, perdiderit K1 corr. m. 2 13 qufa (<foreign xml:lang="grc">λ</foreign> ł....) <lb/>
+            <hi rend="italic">K,</hi> qa <hi rend="italic">c</hi> serentis (p a m. 2) <hi rend="italic">T,</hi> per serpentis F1 astucii <lb/>
+            <hi rend="italic">(~ a m. 2,</hi> c <hi rend="italic">eaa</hi> d ut uid.) <hi rend="italic">T,</hi> adstutiam K1. </note> <lb/>
+             
+<pb n="8"/>
+            lege custodiat ei columbae simplicis animum non amittat. <lb/>
+            habes quoque meum <choice><sic>GaUianum</sic><corr>Gallianum</corr></choice> aeque presbyterum, non in <lb/>
+            libris saecularibus eruditum sed placida bonitate mitissimum, <lb/>
+            catholicae regulam disciplinae factis potius edocentem quam <lb/>
+            sermone monstrantem. quid <sic>Yrsini</sic> dicam quoque presbyteri<lb n="5"/>
+            annosam patientiam et in Christi famulatu non deficiendo <lb/>
+            iuuenalem senectam? quidue Felicem referam uere felicem, <lb/>
+            saeculi huius inimicum, cui <choice><sic>crucifiius</sic><corr>crucifixus</corr></choice> est mundus? sunt et <lb/>
+            alii memorabiles uiri quam plurimi, quos ad hoc suscipiendum <lb/>
+            idoneos esse constat officium. nec Hieronymi, diuinae legis<lb n="10"/>
+            interpretis et caelestis bibliothecae cultoris, exemplar pudeat
+
+<note type="footnote"> 8 cf. Paul. epist. ad Gal. 6, 14 </note>
+
+<note rend="script" type="footnote"> 1 custodiat (t <hi rend="italic">a</hi> m. 2) <hi rend="italic">T</hi> semplicis <hi rend="italic">d,</hi> simplicitatem <hi rend="italic">coni. <lb/>
+            Wopk</hi>. animam <hi rend="italic">T</hi> non amittat <hi rend="italic">om, A</hi> non amittat animum <lb/>
+            t <lb/>
+            <hi rend="italic">Alm. sched. Poelm</hi>. amitat <hi rend="italic">TP,</hi> a∗mittat (m <hi rend="italic">eras.) E,</hi> amittit (i, <lb/>
+            <hi rend="italic">ex</hi> a) <hi rend="italic">F</hi> 2 mem <hi rend="italic">T,</hi> meum <hi rend="italic">om. G</hi> m. quoque <hi rend="italic">T Beg. 2 c</hi> <lb/>
+            gallienum <hi rend="italic">T2A,</hi> Grallicanum <hi rend="italic">T Beg. 2 cum. editt.,</hi> galianum <hi rend="italic">m</hi> equę <lb/>
+            <hi rend="italic">(ę a</hi> m. 2) <hi rend="italic">T</hi> pfpiterum <hi rend="italic">A sic fere semper,</hi> presbiterum <hi rend="italic">FGHP,</hi> <lb/>
+            m <lb/>
+            prbem <hi rend="italic">H</hi> 3 litteris <hi rend="italic">coni. Wopk</hi>. set—mitissimum in <hi rend="italic">mg. add. <lb/>
+            A</hi> placide <hi rend="italic">A\',</hi> placita K1 benignitate <hi rend="italic">C</hi> 4 regolã P1 <lb/>
+            du <lb/>
+            <hi rend="italic">corr</hi>. m. <hi rend="italic">2</hi> quam si <hi rend="italic">T</hi> postea <hi rend="italic">B\'</hi> dictis <hi rend="italic">Beg. 3</hi> educentem <lb/>
+            T1 corr. <hi rend="italic">m. 2</hi> 5 <hi rend="intraline"><lb/>
+            d * "</hi>ursini (ci <hi rend="italic">a m. 2) TEFO,</hi> ursini <hi rend="italic">ERS,</hi> <lb/>
+            ursicini <hi rend="italic">AB\'CGP Reg. 1.2 VTb,</hi> ursici <hi rend="italic">sched. Poelm</hi>. quoque om. <hi rend="italic">A</hi> <lb/>
+            quoque dicam <hi rend="italic"><foreign xml:lang="grc">ΕΟΥβ</foreign></hi> 6 annosam] adnos <hi rend="italic">T\' corr. m. 2 <lb/>
+            patiratUm </hi>sapientiam <hi rend="italic">E</hi> <lb/>
+            corr. <hi rend="italic">m. al.,</hi> satientiam <hi rend="italic">DK,</hi> sapientiam <hi rend="italic">Alm. Reg. 2. 3 SV</hi> xpo <hi rend="italic">Tl<lb/>
+             corr. m</hi>. 2 famulatum deficiendum <hi rend="italic">T1 corr. m. 2</hi> deficiente<foreign xml:lang="grc">̃</foreign> <hi rend="italic">E (ex<lb/>
+             corr.) F\'b sched. Poelm., sequ</hi>. ras. 2 litt. in <hi rend="italic">F</hi> 7 iuuinalem <hi rend="italic">T\',</hi> <lb/>
+            iuuenalem <hi rend="italic">AKPRb1,</hi> iuuenilem redi. felicS (~ <hi rend="italic">am</hi>. 2) <hi rend="italic">T,</hi> fetlicem (1 <lb/>
+            s a <lb/>
+            eras.) <hi rend="italic">K</hi> felicenim <hi rend="italic">(e s. l. a m. 2) T</hi> 8 hine (u <hi rend="italic">s. l. a m. 2) A</hi> <lb/>
+            huius mundi <hi rend="italic">F</hi> crucifixsus <hi rend="italic">T</hi> mondua <hi rend="italic">T1 corr. m. 2</hi> 9 memo- <lb/>
+            I <lb/>
+            rabilis <hi rend="italic">T, memorales AB*</hi> suscipendum (i <hi rend="italic">a</hi> m. 2) <hi rend="italic">T,</hi> suscipiend <hi rend="italic">(ex</hi> <lb/>
+            ent) <hi rend="italic">A</hi> quos <hi rend="italic">om. D</hi> 10 iduneus <hi rend="italic">Tl corr. m. 2</hi> constat esse <lb/>
+            <hi rend="italic">ED</hi> Rom. <hi rend="italic">praeter 0</hi> hieronimi <hi rend="italic">T cum pler.,</hi> hironimi (e <hi rend="italic">a</hi> m. 2, <lb/>
+            o <hi rend="italic">ex</hi> u corr.) <hi rend="italic">A,</hi> ieronimi <hi rend="italic">D</hi> 11 interpetris <hi rend="italic">T1 corr. m</hi>. 2 <lb/>
+            % <lb/>
+            bebliohicae <hi rend="italic">A,</hi> bibliotecę <hi rend="italic">DFO</hi> cultores <hi rend="italic">T</hi> exemplar <hi rend="italic">T,</hi> exempla <lb/>
+            rell. pudeat te <hi rend="italic">AIm</hi>. </note> <lb/>
+             
+<pb n="9"/>
+            imitari atque ad generosas quoque feminas et praeclarae indolis <lb/>
+            fama <choice><sic>subuixas</sic><corr>subnixas</corr></choice>, in quarum mentibus sacrae <choice><sic>leotionis</sic><corr>lectionis</corr></choice> <lb/>
+            instantia sobrium sapientiae domicilium <choice><sic>conIocauit</sic><corr>conlocauit</corr></choice>, propriae <lb/>
+            disputationis documenta transmittere. quis non optet et <lb/>
+            ambiat eximio Syncletices, sacrae uirginis <choice><sic>ao</sic><corr>ac</corr></choice> ministrae, placere <lb n="5"/>
+            <choice n="0.90"><sic n="1078">iudicio</sic><corr n="116">indicio</corr></choice>, quae superbi sanguinis nobilitatem sic humilitate <lb/>
+            prouexit ad gloriam, ut in caelestis patriae senatu fieri mereatur <lb/>
+            adlecta? uere dignum in quo Dominus habitet templum, <lb/>
+            ieiuniis castigatum, orationibus refectum, puritate mundissimum. <lb/>
+            scripturas autem <choice><sic>ecclesiastiei</sic><corr>ecclesiastici</corr></choice> dogmatis ita sitiens epotauit, <lb n="10"/>
+            ut nisi sexus licentia defuisset posset et docere, licet
+
+<note rend="script" type="footnote"> 1 emittari A, emitari <hi rend="italic">F,</hi> imitare <hi rend="italic">K1</hi> adque <hi rend="italic">TFl</hi> ad 8. <hi rend="italic">l. <lb/>
+             K</hi> neros (ge—as <hi rend="italic">a</hi> m. 2) <hi rend="italic">T</hi> preclare <hi rend="italic">T</hi> indoles (e <hi rend="italic">corr.) <lb/>
+            T</hi> 2 subnexas <hi rend="italic">Tl corr</hi>. m. 2 sacrę (, <hi rend="italic">a m. 2) T</hi> 8 subpremun <lb/>
+            <hi rend="italic">Tx ut uid., corr. m.2;</hi> subrium <hi rend="italic">A</hi> sapientia. <hi rend="italic">C,</hi> sapienti <lb/>
+            <hi rend="italic">Reg. 2 a m. 2</hi> conloca∗∗uit (ka <hi rend="italic">suberat) T</hi> 4 transmittere <lb/>
+            documenta <hi rend="italic">CEFSRom</hi>. putet <hi rend="italic">A,</hi> optat <hi rend="italic">K,</hi> obta <hi rend="italic">P</hi> 5 non ambiat <lb/>
+            <hi rend="italic">A Alm.,</hi> ambia <hi rend="italic">R,</hi> ambigat <hi rend="italic">g</hi> ezimiu <hi rend="italic">T\' corr. m. 2</hi> <lb/>
+            sinelyticis <hi rend="italic">T</hi> ci <hi rend="italic">expunx. m. 2,</hi> sinclitis <hi rend="italic">AS,</hi> sincleticis <hi rend="italic">C1DE2GPV<foreign xml:lang="grc">Υ</foreign>,</hi> <lb/>
+            sinclytice E1, sinclicitis (is <hi rend="italic">in ras. m. 2) F,</hi> sincliticis <hi rend="italic">B\'HR</hi> (cle <hi rend="italic">m. 2),</hi> <lb/>
+            d <lb/>
+            syncliticis K, sincliti∗∗s 0, syngleticis <hi rend="italic">Reg. 3: cf, de Seduilii poet. uit. <lb/>
+            et script. p. 24</hi> ac] e <hi rend="italic">T,</hi> et <hi rend="italic">CEFRST</hi> ministre <hi rend="italic">T et alii,</hi> <lb/>
+            ninistrae Christi <hi rend="italic">Fabr.,</hi> m. Dei <hi rend="italic">nonn. editt</hi>. placire <hi rend="italic">T1 corr. m. 2,</hi> <lb/>
+            pbcare F1 6 superui <hi rend="italic">Tl corr. m. 2</hi> humilitatem (h <hi rend="italic">a m. 2) <lb/>
+            T</hi> nobilitate sic humilitatem <hi rend="italic">A</hi> 7 prouexet <hi rend="italic">Tl corr</hi>. m. <hi rend="italic">2,</hi> produit <lb/>
+            <hi rend="italic">F\'</hi> saenatus <hi rend="italic">T1,</hi> sanatu K1, <hi rend="italic">fort</hi>. senatum 8 adt <lb/>
+            c <lb/>
+            lerat <hi rend="italic">T,</hi> an | athcleta <hi rend="italic">A,</hi> athleta <hi rend="italic">in ras. C2,</hi> adleta <hi rend="italic">S\'</hi> in <hi rend="italic">mg.,</hi> allaa. <lb/>
+            FG, anthleta O, alleta <hi rend="italic">Reg. 3,</hi> adiecta <hi rend="italic">l,</hi> allecta <hi rend="italic">rell</hi>. habitet <hi rend="italic">T C1 <lb/>
+            FG<foreign xml:lang="grc">ΚΥ</foreign>b,</hi> habitare\' (t <hi rend="italic">a m. 2) S,</hi> habitat <hi rend="italic">rell</hi>. 9 geiuniis <hi rend="italic">Tl</hi> <lb/>
+            corr. m. 2, ieinnls A, 8 ieiuniis <hi rend="italic">FH</hi> castum <hi rend="italic">F1R1S</hi> °rationibos <lb/>
+            (o <hi rend="italic">a</hi> m. 2) <hi rend="italic">T</hi> refertum <hi rend="italic">AE2G2O Rem</hi>. puretate <hi rend="italic">Tl corr</hi>. <lb/>
+            m. 2 mondissimum <hi rend="italic">Tl corr. m. 2,</hi> mitissimum <hi rend="italic">F1,</hi> dignissimum <lb/>
+            <hi rend="italic">S</hi> 10 etiam <hi rend="italic">В\'DEGKOPR1S, om. A</hi> eclisiastici <hi rend="italic">Tl corr. m. 2,</hi> <lb/>
+            aeclistici A, 28 postolice <hi rend="italic">F</hi> docmatis <hi rend="italic">P</hi> ita <hi rend="italic">ex</hi> eta <hi rend="italic">ut uid. T1</hi> <lb/>
+            sciens <hi rend="italic">A</hi> se potauit <hi rend="italic">T, seputauit A,</hi> optauit S1 11 licentiq <lb/>
+            ( a n. 2) <hi rend="italic">T,</hi> licentiae <hi rend="italic">AK,</hi> licentia <hi rend="italic">rell.;</hi> nisi sexui licentia <hi rend="italic">coni</hi>. <lb/>
+            Wopt fnesaet <hi rend="italic">T1 corr. m. 2</hi> posse et <hi rend="italic">T,</hi> posset <hi rend="italic">A,</hi> potuisset <lb/>
+            <hi rend="italic">D</hi> etiam et <hi rend="italic">CDHK</hi> (et <hi rend="italic">a m. 2) PRT</hi> edocere <hi rend="italic">B\' EFGO <lb/>
+            Reg</hi>. i et edocere etiam <hi rend="italic">Rem</hi>. </note> <lb/>
+             
+<pb n="10"/>
+            in membris feminei corporis animus sit <choice><sic>nirilis</sic><corr>uirilis</corr></choice>. de cotidianae <lb/>
+            uero misericordiae dispensatione reticeo, quam sic exercet ut <lb/>
+            sileat, sic largitur ut lateat. indicat tamen eius habitus pauper <lb/>
+            ubi census proficiat diues. et ut magnitudo tantae prudentiae <lb/>
+            gemina resplendens lampade plus luceret, habet<lb n="5"/>
+            germanam <choice><sic>nOmine</sic><corr>nomine</corr></choice> meritoque Perpetuam, annis inparem, factis <lb/>
+            aequalem, aeuo teneram, probitate grandaeuam, quae dum <lb/>
+            nominis sui dignitate pascitur, sic uiuit ut nequeat amittere <lb/>
+            quod uocatur. inlustris maritali potentia, inlustrior religione <lb/>
+            diuina, proximam uirginitatis continet palmam in coniugii<lb n="10"/>
+            foedere manens pudica. cetera, praeter conspicuos utpote <lb/>
+            nuptae conuenientes ornatus, quae de sorore diximus, in huius
+
+<note rend="script" type="footnote"> 1 faemenei <hi rend="italic">Tl</hi> corpores <hi rend="italic">T</hi> sit] sed <hi rend="italic">Tl</hi> cottidiane ex <lb/>
+            cutidiane <hi rend="italic">Tj,</hi> cottidianę <hi rend="italic">HXPT</hi> 2 dispensationem <hi rend="italic">T,</hi> dispensation∗ <lb/>
+            r <lb/>
+            (i <hi rend="italic">eras.) A</hi> quam] quod <hi rend="italic">F</hi> exercit <hi rend="italic">T\' corr. m. 2</hi> 3 lagitur <lb/>
+            (r <hi rend="italic">am. 2) T</hi> iudicat <hi rend="italic">Poelm. in textu</hi> pauper h. <hi rend="italic">T</hi> 4 tensus <lb/>
+            O <lb/>
+            <hi rend="italic">Tl</hi> corr. m. 2 <hi rend="italic">pflcia A,</hi> prificiat <hi rend="italic">K,</hi> refulgeat <hi rend="italic">Poelm. in mg</hi>. <lb/>
+            <lb/>
+            diuis <hi rend="italic">Tl corr</hi>. m. 2 ut <hi rend="italic">om. A</hi> tante <hi rend="italic">T et alii pra </hi>pdencie P <lb/>
+            5 gemena <hi rend="italic">T1 corr. m. 2,</hi> germana <hi rend="italic">AKR1,</hi> germina <hi rend="italic">FPR2</hi> la<foreign xml:lang="grc">̃</foreign>pade<foreign xml:lang="grc">̜</foreign> <lb/>
+            plus luceret <hi rend="italic">T in mg</hi>. habes B\', habet nam A, h. et <hi rend="italic">DKB («. l.) <lb/>
+            Spir. Poelm</hi>. 6 germanS (~ <hi rend="italic">a m. 2) T,</hi> germinam B\' merito <lb/>
+            nomineque <hi rend="italic">EFT</hi> perpetua <hi rend="italic">T</hi> 7 ęuo <hi rend="italic">ex</hi> eo <hi rend="italic">T2</hi> pronitatem <lb/>
+            (m <hi rend="italic">exp</hi>. m. 2) <hi rend="italic">T</hi> grandeuam <hi rend="italic">T et alii,</hi> grandeam <hi rend="italic">A</hi> qui Tl <lb/>
+            8 suae <hi rend="italic">K1 corr</hi>. m. 3 pascitur (i <hi rend="italic">corr.) T</hi> uiuit] ui, <hi rend="italic">in ras. 3 <lb/>
+            lilt. F,</hi> seruit <hi rend="italic">A</hi> neque" (at <hi rend="italic">a m. 2) K</hi> amittere. (t <hi rend="italic">eras.) d,</hi> <lb/>
+            ammittere <hi rend="italic">E1KR</hi> 9 <hi rend="italic">quę ex</hi> quod <hi rend="italic">T*,</hi> q5 <hi rend="italic">H</hi> uocator <hi rend="italic">T1 corr. <lb/>
+            m. 2</hi> inlustris enim <hi rend="italic">FH</hi> relegione <hi rend="italic">AKl</hi> 10 proxima F <lb/>
+            uirginitatis <hi rend="italic">T1 (ut uid.) EF1G1OP Reg. 3 Alm. b,</hi> uirginitati <hi rend="italic">rell</hi>. <lb/>
+            contenit <hi rend="italic">Tl corr. m. 2,</hi> contenet <hi rend="italic">A</hi> coniugi\' <hi rend="italic">E</hi> 11 federe T1 <lb/>
+            <hi rend="italic">corr. m. 2</hi> permanens <hi rend="italic">Poelm</hi>. perpudica <hi rend="italic">BartMus Adv. XII <lb/>
+            19</hi> citera <hi rend="italic">Tl corr. m. 2</hi> conspicuo (s <hi rend="italic">a</hi> m. 2) <hi rend="italic">T</hi> ut pote∗ <lb/>
+            (t <hi rend="italic">eras.) T,</hi> utpote <hi rend="italic">AK</hi> 12 nubtę (, <hi rend="italic">a m. 2) T,</hi> nupUae (i <hi rend="italic">eras.)</hi> <lb/>
+            u <lb/>
+            <hi rend="italic">F, om. A</hi> conuenientis <hi rend="italic">T</hi> ornatis (u <hi rend="italic">a</hi> m. 2) <hi rend="italic">K</hi> ornatus <lb/>
+            <hi rend="italic">post</hi> conspicuos in <hi rend="italic">A</hi> quae iam <hi rend="italic">Arev. cum Rom. ut uidetur</hi> sorore <lb/>
+            eius T huius (s <hi rend="italic">a</hi> m. 2) <hi rend="italic">T</hi> in huius quoque in <hi rend="italic">ras</hi>. »</note> <lb/>
+             
+<pb n="11"/>
+            quoque moribus inuenimus. ad haec ego congrua rursus ita <lb/>
+            responsione perfungar: ne quaeso, domine mi pater, quem <lb/>
+            diligere te profiteris abicias, quem fouere adsoles inuidiose <lb/>
+            deterreas. nullum siquidem ex his omnibus uito, de nullius <lb/>
+            <sic>meiitis</sic> aut instructione diffido; sed in te cunctos aspicio. <lb n="5"/>
+            quosdam conlationibus adsiduae disputationis ad meliora <sic>ueiisti</sic>: <lb/>
+            quosdam <choice><sic>plaeidae</sic><corr>placidae</corr></choice> maturitate doctrinae desiderio sanctae <lb/>
+            conuersationis implesti: quibusdam <choice><sic>ezemplum</sic><corr>exemplum</corr></choice> factus es ad <lb/>
+            salutem: alios intra septa tui gregis aspiciens oues fecisti: <lb/>
+            alios enutristi; omnia omnibus factus es, ut omnes saluos
+
+<note type="footnote">10 cf. I Corinth. 9, 22</note>.
+
+<note rend="script" type="footnote">1 inuenimus (mus in <hi rend="italic">ras., fuit</hi> es ?) <hi rend="italic">T, <lb/>
+            zn </hi>inueni∗us <hi rend="italic">A</hi> h<foreign xml:lang="grc">̄</foreign>ec <hi rend="italic">P,</hi> hoc <lb/>
+            (?) 0, hoc <hi rend="italic">Ald. sched. Podm</hi>. ego ad haec <hi rend="italic">EF,</hi> ego ad h. ergo <lb/>
+            <hi rend="italic">Beg</hi>. 3 congr//////uar (r a m. <hi rend="italic">2M eadem exp</hi>. r,) <hi rend="italic">T</hi> ita rursus congrus <lb/>
+            J, rursus congrua <hi rend="italic">C</hi> rorsus <hi rend="italic">T1 corr. m. 2, om. GP</hi> itaq; <hi rend="italic">F, <lb/>
+            om GP</hi> 2 perfungar ita <hi rend="italic">C</hi> ne s. 2. T* . quesso A domine <lb/>
+            <hi rend="italic">om. C,</hi> mi domine <hi rend="italic">ADEFHKS<foreign xml:lang="grc">Υ</foreign>b</hi> mi <hi rend="italic">om</hi>. B\', 8. <hi rend="italic">I. B</hi> quaem <lb/>
+            <hi rend="italic">(exp. m. 2) T</hi> 3 dilegere <hi rend="italic">T2A</hi> te in <hi rend="italic">ras</hi>. K2, <hi rend="italic">om. Beg. 2</hi> <lb/>
+            Ald, abiecias <hi rend="italic">A post</hi> quem <hi rend="italic">ras. plur. litt. in T</hi> adsolis <hi rend="italic">(corr</hi>. <lb/>
+            a 1) <hi rend="italic">TE,</hi> adsole∗s <hi rend="italic">(a eras.) F</hi> inuidiosa (, <hi rend="italic">a</hi> m. 2) <hi rend="italic">T,</hi> n" inuidiose <lb/>
+            P 4 nec deterreas c \' deteras <hi rend="italic">cod. BartA</hi>. omnibus his <hi rend="italic">D</hi> <lb/>
+            5 meretis <hi rend="italic">ex</hi> mentis <hi rend="italic">T*,</hi> -is <hi rend="italic">in ras. C*</hi> aut] i <hi rend="italic">A</hi> "struotionem <lb/>
+            (n a m. 2) <hi rend="italic">T,</hi> insUractione A, institutione a deffido <hi rend="italic">TP,</hi> defido <lb/>
+            <hi rend="italic">i7</hi> cunctis <hi rend="italic">T,</hi> cuncUs <hi rend="italic">C</hi> cspicio P 6 nam quosdam <hi rend="italic">f</hi> <lb/>
+            a ba <unclear/><lb/>
+            atsolationibus A, colloc.tionibus <hi rend="italic">C,</hi> conlationis (bu <hi rend="italic">a m. 2) K</hi> adsidue<foreign xml:lang="grc">̜</foreign> <lb/>
+            (.1 w. 5) <hi rend="italic">T</hi> dispotationis <hi rend="italic">(o, ex</hi> u) <hi rend="italic">T</hi> ad in <hi rend="italic">B\'</hi> miliora <lb/>
+            uixsti <hi rend="italic">T1 corr. m. 2</hi> 7 placid∗e (a <hi rend="italic">eras.) T,</hi> placite A maturi.. <lb/>
+            tate (e eras.) <hi rend="italic">T disidirium T1 corr. m. 2, desiderii K</hi> .8 implisti <lb/>
+            T orr. m. 2, <hi rend="italic">impleuisti A factus—intra litteris minutis scripta add</hi>. <lb/>
+            P 9 inter <hi rend="italic">B</hi> septa <hi rend="italic">T et alii, post</hi> septa <hi rend="italic">ras. in K</hi> \'ui (t <lb/>
+            Iom. 2) T gregis tui <hi rend="italic">DH</hi> aspiciens] om. <hi rend="italic">CDEFOPT,</hi> ac- <lb/>
+            \' cipius <hi rend="italic">GHK2</hi> (in <hi rend="italic">ras.) R2S Poelm.;</hi> alios accipiens intra septa gregis <lb/>
+            bi otes f. <hi rend="italic">Beg. 3</hi> 10 alias <hi rend="italic">T,</hi> alios saluos <hi rend="italic">C,</hi> alios in fide <hi rend="italic">Aed</hi>. <lb/>
+            eutrinisti <hi rend="italic">AE,</hi> nutriuisti <hi rend="italic">F,</hi> nutristi <hi rend="italic">K Reg. 4</hi> omnibus om-<unclear/> <lb/>
+            <hi rend="italic">CK</hi> ∗∗omnibus (in ? <hi rend="italic">eras.) F</hi> factis <hi rend="italic">T</hi> e" (s <hi rend="italic">a</hi> m. 2) <lb/>
+            F, oa. <hi rend="italic">T</hi> ut om. <hi rend="italic">T</hi> omnis <hi rend="italic">T</hi> </note> <lb n="10"/>
+             
+<pb n="12"/>
+             <sic>efficeres</sic>. cesset, obsecro, <choice><sic>plurimoram</sic><corr>plurimorum</corr></choice> iactura uerborum; cessent <lb/>
+            longae deinceps <choice><sic>excnsationis</sic><corr>excusationis</corr></choice> ambages, nec pigeat post tanti <lb/>
+            gurgitis emensa discrimina <choice><sic>fluctnanti</sic><corr>fluctuanti</corr></choice> adhuc paginae <choice><sic>auetoritatis</sic><corr>auctoritatis</corr></choice> <lb/>
+            tuae ancoram commodare. quatuor igitur mirabilium <lb/>
+            diuinorum libellos, quos ex pluribus pauca conplexus usque<lb n="5"/>
+            ad passionem et resurrectionem ascensionemque Domini nostri <lb/>
+            Iesu Christi quatuor euangeliorum dicta congregans ordinaui, <lb/>
+            contra omnes aemulos tuae defensioni commendo. huic autem <lb/>
+            operi fauente Domino PASCHALIS CARMINIS nomen inposui, <lb/>
+            quia PASCHA nostrum immolatus est Christus, cui honor et
+
+<note rend="script" type="footnote">1 effeceris <hi rend="italic">T,</hi> efficere∗\' (s <hi rend="italic">a m. 2) A,</hi> faceres <hi rend="italic">C</hi> cessit <hi rend="italic">T,</hi> cesset <lb/>
+            nunc <hi rend="italic">Beg. 4</hi> plurimum <hi rend="italic">T fort. recte,</hi> pluritum <hi rend="italic">G,</hi> plurium P, <lb/>
+            plurium <hi rend="italic">Beg. 1 cf. Wölfflin, Lat. u. roman. Comp. p. 70</hi> uerborum <lb/>
+            iactura <hi rend="italic">EGT Alm. cessit</hi> (n <hi rend="italic">a m, 2) T,</hi> cessa (n <hi rend="italic">a m. 2) KP</hi> <lb/>
+            cesset nunc <hi rend="italic">S</hi> 2 lunge <hi rend="italic">T1 corr. m. 2,</hi> longae <hi rend="italic">om. C</hi> deinceps <lb/>
+            (c <hi rend="italic">ex</hi> t) <hi rend="italic">T</hi> deinceps 1. <hi rend="italic">GH</hi> excussationis <hi rend="italic">A</hi> ambagis T1 <lb/>
+            nec s. <hi rend="italic">l. A*,</hi> ne <hi rend="italic">DE2RP</hi> pieat (g <hi rend="italic">a m. 2) K</hi> te <hi rend="italic">B\' (s. Z.)<lb/>
+             CEFGK2OPRS<foreign xml:lang="grc">Υ</foreign> cf. supra p. 8</hi> portandi <hi rend="italic">T,</hi> potanti (r <hi rend="italic">a m. 2)</hi> <lb/>
+            i <lb/>
+            <hi rend="italic">A,</hi> postanti <hi rend="italic">BE,</hi> p <hi rend="italic">P</hi> 3 mersa <hi rend="italic">T cf. Epist. II</hi> adhuc fluetuanti <lb/>
+            <hi rend="italic">EFBS</hi> paginem <hi rend="italic">T</hi> 4 ∗ancoram (o <hi rend="italic">ex</hi> u) <hi rend="italic">T,</hi> anchoram <lb/>
+            <hi rend="italic">pUrique</hi> accomodare <hi rend="italic">Ald. Podm</hi>. tertio <hi rend="italic">T,</hi> tres <hi rend="italic">G1HKP2R<foreign xml:lang="grc">Υ</foreign>,</hi> <lb/>
+            <lb/>
+            quattuor <hi rend="italic">EF, tres quatuor </hi>quatuor <hi rend="italic">P</hi> Igitur m. diuinorum libellos <hi rend="italic">0: cf. de Sedulii<lb/>
+             poet. uit. et script. p. 41</hi> ergo <hi rend="italic">editt</hi>. 5 libellis <hi rend="italic">T</hi> quis ud <lb/>
+            quibus ex coni. <hi rend="italic">Wopk</hi>. 6 ascensiondq; (e, in ras. <hi rend="italic">a m. 2) H</hi> <lb/>
+            dni in xpo <hi rend="italic">T ut uidetur,</hi> dni ni ihu xpi <hi rend="italic">A cum pler</hi>. 7 quattuor <lb/>
+            <hi rend="italic">EFBT</hi> euangeliorum <hi rend="italic">T,</hi> ////aeuangeliorum <hi rend="italic">A,</hi> euangeliorti <hi rend="italic">FO <lb/>
+            Beg. 1 S<foreign xml:lang="grc">β</foreign> (a m.1) cfg,</hi> euangelistarum <hi rend="italic">rell</hi>. ordenaui <hi rend="italic">T,</hi> adunaui <lb/>
+            <hi rend="italic">cod. Barthii,</hi> curaui <hi rend="italic">Poelm</hi>. 8 aemulus <hi rend="italic">T</hi> emulos omnes <hi rend="italic">A</hi> <lb/>
+            commendo  ope<foreign xml:lang="grc">̃</foreign> <hi rend="italic">A</hi> hic <hi rend="italic">T</hi> autem om. <hi rend="italic">F</hi> 9 carmini nonn. <lb/>
+            <hi rend="italic">editt. cf. Aviani fab. praef. p. 4 Fr</hi>. fauentem <hi rend="italic">T,</hi> faciente <hi rend="italic">AE1F1</hi> <lb/>
+            io <hi rend="italic">Gf pascalis TS,</hi> phascalis <hi rend="italic">A</hi> ideo nomen <hi rend="italic">C§ Poelm</hi>. nouum <lb/>
+            nomen ideo <hi rend="italic">cod. Barth</hi>. posui <hi rend="italic">T</hi> 10 q A, quod <hi rend="italic">DK,</hi> qui (ui <lb/>
+            h <lb/>
+            <hi rend="italic">in ras. m. al.) E</hi> pacha <hi rend="italic">T,</hi> pasca A, pasca S nostrom <hi rend="italic">T1</hi> am <lb/>
+            <hi rend="italic">corr. m. 2 ut uid</hi>. cni eet <hi rend="italic">DE* (s. l.) G Reg. 1. 4</hi> </note> <lb n="10"/>
+             
+<pb n="13"/>
+            gloria cum Patre et Spiritu sancto per omnia saecula <choice><sic>saecnlorum</sic><corr>saeculorum</corr></choice>. <lb/>
+            <choice n="0.88"><sic n="8">Amen</sic><corr n="1">Arnen</corr></choice>.
+
+<note rend="script" type="footnote"> 1 gloriaque <hi rend="italic">Reg. 4</hi> patre &amp; filio <hi rend="italic">P</hi> sco spu∗ (a? <hi rend="italic">eras.) T</hi><unclear/><lb/>
+            (2 a n. 2), s. sp. <hi rend="italic">Poelm.,</hi> cu spu sco <hi rend="italic">P Beg. 1</hi> in cuncta eda <lb/>
+            <hi rend="italic">Cf,</hi> in secula <hi rend="italic"><foreign xml:lang="grc">β</foreign>g</hi> secula secnlorum <hi rend="italic">T</hi> EXPLICET EPISTOLA SE- <unclear/><lb/>
+            DOL AD MACEDONEO PBE FELICITER <hi rend="italic">T,</hi> finit prologus <hi rend="italic">Al,</hi> FINIT PRO- <lb/>
+            LOGVS SEDVLII∗∗∗∗ (PRBI ?) <hi rend="italic">F,</hi> FINIT PROLOGVS SEDVLII PRAESBITERI <hi rend="italic">H,</hi> <lb/>
+            EXPLICIT PROLOGVS SEDVLII 8, Explicit epistola Sedulii ad Macedonium <lb/>
+            Beg. 4, explicit praefatio <hi rend="italic">Beg. 1 b,</hi> prologus finit md </note> 
+<pb n="14"/>
+            
+</p>
+        
+</div>
+</body>
+</text>
+</TEI>
