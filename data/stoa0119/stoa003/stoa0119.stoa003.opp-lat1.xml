@@ -73,8 +73,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter']//tei:div[@n='$2' and @subtype='section'])"/>
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter'])"/>
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -1677,15 +1676,13 @@
 </p>
  </div>       
 
+  <div n="1" subtype="section" type="textpart">
 <pb n="34"/>
-        
-        <div subtype="chapter" type="textpart">
-          <head>
+        <ab>
             <title type="main">EVGIPPII EXCERPTA EX OPERIBVS S. AVGVSTINI. </title>
-          </head>
-          </div>
-
-<div n="1" subtype="section" type="textpart"><ab>
+        </ab>
+          
+<ab>
             <title type="sub">I. LIBER AD HIERONVMVM PBESBVTERVM DE SENTENTIA IACOBI, QVA DICIT: SI TOTAM QVIS LEGEM SERVAVERIT, OF- PENDAT AVTEM IN VNO, FACTVS EST OMNIVM REVS; CVM IDEM DICAT: IN MVLTIS ENIM OFFENDIMVS OM- NES. IN QVO LIBRO DE QVATTVOB VIRTVTIBUS, PBVDENTIA, TEMPERANTIA, FORTITVDINE, IVSTITIA DILIGENTISSIME DISPVTAVIT. </title>
           </ab>
           <p rend="script"> Quod ad te scripsi, honorande mihi in Christo frater Hieronyme, <lb/>
@@ -2328,11 +2325,11 @@
 <note type="footnote"> 4 </note> 
 <pb n="50"/>
             
-</p>
-          </div>
+</p></div>
+          
 
 <div n="2" subtype="section" type="textpart"><ab>
-            <title type="sub">n. ITEM DE PRAEDICTIS QVATTVOR VIBTVTIBVS, QVAS IN SVPERIORI LIBRO DISTINXIT. IN LIBRO DE MORIBVS ECCLEJ CATHOLICAE DISPVTANS AD VNVM EAS MANDATVM REТТV CARITATIS. </title>
+            <title type="sub">II. ITEM DE PRAEDICTIS QVATTVOR VIBTVTIBVS, QVAS IN SVPERIORI LIBRO DISTINXIT. IN LIBRO DE MORIBVS ECCLEJ CATHOLICAE DISPVTANS AD VNVM EAS MANDATVM REТТV CARITATIS. </title>
           </ab>
           <p> Nihil igitur aliud est optimum hominis, cui haerere beatissimum <lb/>
             sit, nisi deus. cui haerere certe non ualemus nisi <lb/>
@@ -3556,7 +3553,8 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
             fatetur, et ideo eos a quibus contaminantur mundare <lb/>
             non possunt omnesque immundi pariter fiunt, et daemones <lb/>
             contrectatione hominum et homines cultu daemonum. 
-</p>
+</p></div>
+  <div n="7a" subtype="section" type="textpart">
           <ab>
             <title type="sub">EX LIBRO DE TRINITATE <sic>lill</sic>. DE EODEM MEDIATOUIS SACRAMENTO. </title>
           </ab>
@@ -3657,7 +3655,7 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
           </div>
 
 <div n="8" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>vm</sic>; EX LXBRO CONFESSIOHVM PRIMO INTER CETERA ET AD LOCVM. </title>
+            <title type="sub">VIII; EX LXBRO CONFESSIOHVM PRIMO INTER CETERA ET AD LOCVM. </title>
           </ab>
           <p>Da mihi, domine, scire et intellegere utrum prius sit inuocare  <lb n="25"/>
             te an laudare te, et scire te prius sit an inuocare te.
@@ -6052,7 +6050,7 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
           </div>
 
 <div n="27" subtype="section" type="textpart"><ab>
-            <title type="sub">m ITEM DE <sic>PRINClPIO</sic> LIBRI GENESIS. PRINCIPIVM LIBRI GEITESIS AD LITTERAM. </title>
+            <title type="sub">XII. ITEM DE <sic>PRINClPIO</sic> LIBRI GENESIS. PRINCIPIVM LIBRI GEITESIS AD LITTERAM. </title>
           </ab>
           <p rend="script">Omnis diuina scriptura bipertita est secundum id quod  <lb/>
             dominus significat dicens scribam eruditum in regno dei <lb n="5"/>
@@ -6393,7 +6391,7 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
           </div>
 
 <div n="28" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>xm</sic>. OOKTRA BO8 QVI DICVNT: NVMQVID IBI FVIT MOVSES, QVAHDO PBCIT DEVS CAELVM ET TBR&amp;AM, VT CREDATVB EI? EX LIBRO DE CTVITATE DEI XI 1NTBB OETBBA ET AD LOCVM. </title>
+            <title type="sub">XIII. OOKTRA BO8 QVI DICVNT: NVMQVID IBI FVIT MOVSES, QVAHDO PBCIT DEVS CAELVM ET TBR&amp;AM, VT CREDATVB EI? EX LIBRO DE CTVITATE DEI XI 1NTBB OETBBA ET AD LOCVM. </title>
           </ab>
           <p><sic>Yisibiliam</sic> omnium <sic>maiimas</sic> <choice n="0.00"><sic n="3">mundas</sic><corr n="327">mundus</corr></choice> est, <sic>innisibiliam</sic>  <lb/>
             omnium <choice n="0.36"><sic n="134">maximas</sic><corr n="238">maximus</corr></choice> deus est; sed mundum esse conspicimus, <lb n="10"/>
@@ -6629,13 +6627,13 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
               
 <pb n="155"/>
               
-</p>
-          <ab>
-            <title type="sub">XVI. CONTRA EO8 QVI DICVNT OB HOC FACTVM ESSE MVNDVM, VT ANIMAE,QVAE PECCAVERANT PRIVS, IN EO INCLVDEBENTVB: VBI BT ORIGENEM ERRASSE PROBAT CONTRA LIBROS IPSIVS, QVI APPELLAKTVR <hi rend="italic">TIEPI \'<foreign xml:lang="grc">ΑΡΧΩΝ</foreign></hi>.EX EODEM LIBRO xi INTER CETERA BT AD LOCVM. </title>
-          </ab>
-          </div>
+</p></div>
 
-<div n="31" subtype="section" type="textpart"><p rend="script">Sed multo est mirandum amplius, quod etiam quidam qui  <lb/>
+<div n="31" subtype="section" type="textpart">
+  <ab>
+    <title type="sub">XVI. CONTRA EOS QVI DICVNT OB HOC FACTVM ESSE MVNDVM, VT ANIMAE,QVAE PECCAVERANT PRIVS, IN EO INCLVDEBENTVB: VBI BT ORIGENEM ERRASSE PROBAT CONTRA LIBROS IPSIVS, QVI APPELLAKTVR <hi rend="italic">TIEPI \'<foreign xml:lang="grc">ΑΡΧΩΝ</foreign></hi>.EX EODEM LIBRO xi INTER CETERA BT AD LOCVM. </title>
+  </ab>
+  <p rend="script">Sed multo est mirandum amplius, quod etiam quidam qui  <lb/>
             anum nobiscum <choice n="0.75"><sic n="127">credunt</sic><corr n="42">credant</corr></choice> omnium rerum esse principium <choice><sic>ullamque</sic><corr>nllamque</corr></choice> <lb/>
             naturam, quae non est quod <choice n="0.95"><sic n="1292">deus</sic><corr n="54">deas</corr></choice> est, nisi ab illo conditore <lb/>
             esse non posse, noluerunt tamen istam causam fabricandi <lb n="10"/>
@@ -10033,8 +10031,6 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </div>
 <pb n="237"/>
         
-        <div subtype="chapter" type="textpart">
-          </div>
 
 <div n="55" subtype="section" type="textpart"><ab>
             <title type="sub">XL. DE PRAECEPTIS AGENDAE VITAE ET PRAECEPTIS SIGNIFICANDAE VITAE. EX LIBRO CONTRA FAVSTVM VI. </title>
@@ -25378,7 +25374,7 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 
 </div>
 
-<div n="19sa" subtype="section" type="textpart">
+<div n="198a" subtype="section" type="textpart">
           <ab>
             <title type="sub">IAM HINC EX LIBRO CONTRA MENDACIVM AD CONSENTIVM-</title>
           </ab>
@@ -28126,14 +28122,12 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
+  <div n="225" subtype="section" type="textpart">        
           <head>
             <title type="main">CCVII. </title>
           </head>
-          </div>
-
-<div n="225" subtype="section" type="textpart"><ab>
-            <title type="sub">QVOD ANTIQVA RES SIT ECCLESIA, IN ALIIS HABENS ANIMALEM PORTIONEM, IN ALIIS SPIRITALEM. </title>
+ 
+<ab><title type="sub">QVOD ANTIQVA RES SIT ECCLESIA, IN ALIIS HABENS ANIMALEM PORTIONEM, IN ALIIS SPIRITALEM. </title>
           </ab>
           <p rend="script">Quocumque ergo tempore tales homines esse coeperint in <lb/>
             hac uita, ut iam diuinis pro saeculorum distributione sacramentis<lb n="20"/>
@@ -28212,8 +28206,8 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
             usque ad haec tempora pseudochristianos in affectione animali <lb/>
             pertinaciter obduratos, siue in unitate permixti sint siue aperta<lb n="10"/>
             praecisione dissentiant. 
-</p>
-          </div>
+</p></div>
+          
 
 <div n="226" subtype="section" type="textpart"><ab>
             <title type="sub">CCVIII.QVOMODO GENERET ECCLESIA BONOS ET MALOS TAMQVAM I\'ER SE IPSAM REBECCA GEMINOS. </title>
@@ -30846,9 +30840,7 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          </div>
-
+        
 <div n="248" subtype="section" type="textpart"><ab>
             <title type="sub">CCXXVI. QVOMODO TBADITVBVS SIT REGNVM FILIVS PATBI. EX LIBRO DE TRINITATE SVPBA SCBIPTO, TITVLO X. </title>
           </ab>
@@ -42396,16 +42388,12 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCXX. </title>
-          </head>
-          </div>
-
-<div n="345" subtype="section" type="textpart"><ab>
-            <title type="sub">DE SVMPTIBVS AD TVRREM AEDIFICANDAM. EX LIBRO QVAE- STIONVM EVANGELII II. </title>
-          </ab>
-          <p rend="script"> Sumtus ad turrem aedificandam — uires ad <sic>discipuiatum</sic> <lb/>
+        
+<div n="345" subtype="section" type="textpart">
+  <ab>    <title type="main">CCXX. </title></ab>
+  <ab>    <title type="sub">DE SVMPTIBVS AD TVRREM AEDIFICANDAM. EX LIBRO QVAE- STIONVM EVANGELII II. </title></ab>
+          
+  <p rend="script"> Sumtus ad turrem aedificandam — uires ad <sic>discipuiatum</sic> <lb/>
             Christi obtinendum — et decem milia proeliaturi cum rege, <lb/>
             qui habet uiginti milia — simplicitatem Christi dimicaturi
 
@@ -42521,13 +42509,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXXII. </title>
-          </head>
-          </div>
 
-<div n="348" subtype="section" type="textpart"><ab>
+<div n="348" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXXII. </title>
+  </ab><ab>
             <title type="sub">15 DE AVCTORITATE LXX 1NTERPRETVM, QVAE SALVO HONORE HEBBAEI STILI OMNIBVS SIT INTERPRETIBVS PRAEFERENDA. EX LIBRO S. S. </title>
           </ab>
           <p>Nam cum fuerint et alii interpretes, qui ex hebraea lingua  <lb/>
@@ -42738,15 +42724,13 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXXIIII. </title>
-          </head>
-          </div>
-
-<div n="350" subtype="section" type="textpart"><ab>
-            <title type="sub">DE EO QVOD AIT APOSTOLVS: OMNE PECCATVM, QVOD- CVMQVE FECERIT HOMO, EXTRA CORPVS EST; QVI AVTEM FORNICATVR, IN CORPVS SVVM PECCAT. EX SERMONE DE EADEM RE. </title>
-          </ab>
+        
+<div n="350" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXXIIII. </title>
+  </ab>
+  <ab><title type="sub">DE EO QVOD AIT APOSTOLVS: OMNE PECCATVM, QVOD- CVMQVE FECERIT HOMO, EXTRA CORPVS EST; QVI AVTEM FORNICATVR, IN CORPVS SVVM PECCAT. EX SERMONE DE EADEM RE. </title></ab>
+          
           <p> Quaestio de epistula Corinthiorum beati Pauli apostoli, ubi <lb n="25"/>
             dicit: omne peccatum, quodcumque fecerit homo, <lb/>
             extra corpus est; qui autem fornicatur, in corpus
@@ -43211,9 +43195,7 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          </div>
-
+       
 <div n="356" subtype="section" type="textpart"><ab>
             <title type="sub">CCCXXV. DE EO QVOD SCRIPTVM EST: ET HABITV INVENTVS VT HOMO. EX LIBRO QVAESTIONVM LXXXIIII. </title>
           </ab>
@@ -43362,15 +43344,13 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXXVI. </title>
-          </head>
-          </div>
+       
 
-<div n="357" subtype="section" type="textpart"><ab>
-            <title type="sub">DE EO QVOD DICTVM EST: PAENITET ME HOMINEM FECISSE. </title>
-          </ab>
+<div n="357" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXXVI. </title>
+  </ab> <ab><title type="sub">DE EO QVOD DICTVM EST: PAENITET ME HOMINEM FECISSE. </title></ab>
+          
           <p>Diuinae scripturae a terreno et humano sensu ad diuinum  <lb/>
             et caelestem nos erigentes usque ad ea uerba descenderunt, <lb n="5"/>
             quibus inter se stultissimorum etiam utitur consuetudo. itaque <lb/>
@@ -43464,14 +43444,12 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXXVIII. </title>
-          </head>
-          </div>
-
-<div n="360" subtype="section" type="textpart"><ab>
-            <title type="sub">DE HOMINE FACTO AD IMAGINEM ET SIMILITVDINEM DEI. </title>
+      
+<div n="360" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXXVIII. </title>
+  </ab><ab>       
+  <title type="sub">DE HOMINE FACTO AD IMAGINEM ET SIMILITVDINEM DEI. </title>
           </ab>
           <p>Cum exteriorem et interiorem hominem diuina scriptura  <lb/>
             commemoret et tantum eos discernat, ut ab apostolo dictum <lb/>
@@ -43742,14 +43720,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXXX. </title>
-          </head>
-          </div>
-
-<div n="364" subtype="section" type="textpart"><ab>
-            <title type="sub">DE MAGIS PHARAONIS. EX LIBRO QVAESTIONVM <sic>LXXXIIll</sic>. </title>
+     
+<div n="364" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXXX. </title>
+  </ab>    <ab><title type="sub">DE MAGIS PHARAONIS. EX LIBRO QVAESTIONVM <sic>LXXXIIll</sic>. </title>
           </ab>
           <p>Non oportet <choice n="0.94"><sic n="382">moueri</sic><corr n="22">moneri</corr></choice>, cum magicis artibus miracula fiunt  <lb/>
             plerumque similia miraculis, quae fiunt per sanctos sernos <lb/>
@@ -44079,14 +44054,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXXII. </title>
-          </head>
-          </div>
 
-<div n="368" subtype="section" type="textpart"><ab>
-            <title type="sub">DE EO QVOD SCBIPTVM EST IN EVANGELIO: SINE IPSO FACTVM EST NIHIL, ET DE DVABVS PRAEPOSITIONIBVS DE ET EX. EX LIBRO DE NATVBA BONI. </title>
+<div n="368" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXXII. </title>
+  </ab>     <ab><title type="sub">DE EO QVOD SCBIPTVM EST IN EVANGELIO: SINE IPSO FACTVM EST NIHIL, ET DE DVABVS PRAEPOSITIONIBVS DE ET EX. EX LIBRO DE NATVBA BONI. </title>
           </ab>
           <p>In principio erat uerbum, et uerbum erat apud  <lb n="5"/>
             deum, et deus erat uerbum. hoc erat in principio <lb/>
@@ -44303,14 +44275,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXXXIIII. </title>
-          </head>
-          </div>
 
-<div n="370" subtype="section" type="textpart"><ab>
-            <title type="sub">DE CORPORE ANIMALI ET CORPORE SPIRITALI. EX EADEM EPISTVLA AD CONSENTIVM. </title>
+<div n="370" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXXXIIII. </title>
+  </ab>    <ab><title type="sub">DE CORPORE ANIMALI ET CORPORE SPIRITALI. EX EADEM EPISTVLA AD CONSENTIVM. </title>
           </ab>
           <p> Dixit apostolus: seminatur corpus animale, surget <lb/>
             corpus spiritale. proinde sicut animale corpus non est <lb/>
@@ -44480,14 +44449,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXXXVI. </title>
-          </head>
-          </div>
 
-<div n="372" subtype="section" type="textpart"><ab>
-            <title type="sub">DE ANIMAE QVAESTIONE. EX EPISTVLA SVPRA SCRIPTA. </title>
+<div n="372" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXXXVI. </title>
+  </ab>    <ab><title type="sub">DE ANIMAE QVAESTIONE. EX EPISTVLA SVPRA SCRIPTA. </title>
           </ab>
           <p> Vis etiam per me scire, utrum dei flatus ille in Adam <lb/>
             idem ipse sit anima. breuiter respondeo: aut ipse est aut <lb n="10"/>
@@ -44957,14 +44923,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXXXVIII. </title>
-          </head>
-          </div>
 
-<div n="374" subtype="section" type="textpart"><ab>
-            <title type="sub">QVAE SINT PECCATA NOLENTIVM. EX LIBRO QVAESTIONVM LIBRI NVMERORVM. </title>
+<div n="374" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXXXVIII. </title>
+  </ab>    <ab><title type="sub">QVAE SINT PECCATA NOLENTIVM. EX LIBRO QVAESTIONVM LIBRI NVMERORVM. </title>
           </ab>
           <p rend="script">Quod praecipitur, quomodo <choice n="0.5"><sic n="2">expientur</sic><corr n="2">expiantur</corr></choice> peccata, quae non  <lb/>
             sponte committuntur, merito quaeritur, quae sint ipsa peccata <lb/>
@@ -45077,14 +45040,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXL. </title>
-          </head>
-          </div>
 
-<div n="376" subtype="section" type="textpart"><ab>
-            <title type="sub">DE EO QVOD SCRIPTVM EST: NON MORIENTVR PATRES PRO FILIIS, ET DE EO QVOD AIT: REDDAM PECCATA PATRVM IN FILIOS. EX LIBRO QVAESTIONVM DEVTERONO- MII, T. XLII. </title>
+<div n="376" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXL. </title>
+  </ab>     <ab><title type="sub">DE EO QVOD SCRIPTVM EST: NON MORIENTVR PATRES PRO FILIIS, ET DE EO QVOD AIT: REDDAM PECCATA PATRVM IN FILIOS. EX LIBRO QVAESTIONVM DEVTERONO- MII, T. XLII. </title>
           </ab>
           <p> Non morientur patres pro filiis, et filii non <lb/>
             morientur pro patribus; unusquisque in suo peccato<lb n="15"/>
@@ -45241,14 +45201,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXLII. </title>
-          </head>
-          </div>
 
-<div n="378" subtype="section" type="textpart"><ab>
-            <title type="sub">QVID AMANDVM SIT. EX LIBRO QVAESTIONVM LXXXIIII. </title>
+<div n="378" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXLII. </title>
+  </ab>   <ab><title type="sub">QVID AMANDVM SIT. EX LIBRO QVAESTIONVM LXXXIIII. </title>
           </ab>
           <p> Quoniam quidem quidquid non <sic>uiait</sic> non metuit, neque <lb/>
             uita carendum quisquam persuaserit, ut metu etiam carere <lb/>
@@ -45473,14 +45430,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXLIIII. </title>
-          </head>
-          </div>
 
-<div n="380" subtype="section" type="textpart"><ab>
-            <title type="sub">QVOD QVI FRATREM DILIGIT DEVM DILIGAT, QVIA AMAT ET IPSAM DILECTIONEM, QVAE EX DEO EST ET DEVS EST. EX LIBRO 8. S. T. VIII. </title>
+<div n="380" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXLIIII. </title>
+  </ab>       <ab><title type="sub">QVOD QVI FRATREM DILIGIT DEVM DILIGAT, QVIA AMAT ET IPSAM DILECTIONEM, QVAE EX DEO EST ET DEVS EST. EX LIBRO 8. S. T. VIII. </title>
           </ab>
           <p rend="script">Nemo dicat: "non noui quod diligam". diligat fratrem et  <lb n="25"/>
             diligat eandem dilectionem. magis enim nouit dilectionem,
@@ -45675,14 +45629,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXLVI. </title>
-          </head>
-          </div>
 
-<div n="382" subtype="section" type="textpart"><ab>
-            <title type="sub">DE AMANTE ET QVOD AMATVR ET AMORE. EX EODEM LIBRO DE TRINITATE <sic>Vill</sic>. T. X. </title>
+<div n="382" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXLVI. </title>
+  </ab>    <ab><title type="sub">DE AMANTE ET QVOD AMATVR ET AMORE. EX EODEM LIBRO DE TRINITATE <sic>Vill</sic>. T. X. </title>
           </ab>
           <p> Quid est autem dilectio uel caritas, quam tantopere scriptura <lb/>
             diuina laudat et praedicat, nisi amor boni ? amor autem <lb n="10"/>
@@ -45697,14 +45648,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXLVII. </title>
-          </head>
-          </div>
-
-<div n="383" subtype="section" type="textpart"><ab>
-            <title type="sub">DE NVTRIENDA CARITATE. EX LIBRO QVAESTIONVM LXXXIDI. </title>
+ 
+  <div n="383" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXLVII. </title>
+  </ab>      <ab><title type="sub">DE NVTRIENDA CARITATE. EX LIBRO QVAESTIONVM LXXXIDI. </title>
           </ab>
           <p> Caritatem uoco, qua amantur ea quae non sunt prae ipso <lb/>
             amante contemnenda, id est quod aeternum est et quod amare
@@ -45863,14 +45811,11 @@ V            securus esse debet in ista uita, quae tota temtatio nominatur, <lb/
 </p>
         
 </div>
-        <div subtype="chapter" type="textpart">
-          <head>
-            <title type="main">CCCXLVIII. </title>
-          </head>
-          </div>
-
-<div n="384" subtype="section" type="textpart"><ab>
-            <title type="sub">SERMO DE LAVDE CARITATIS. </title>
+        
+<div n="384" subtype="section" type="textpart">
+  <ab>
+    <title type="main">CCCXLVIII. </title>
+  </ab>      <ab><title type="sub">SERMO DE LAVDE CARITATIS. </title>
           </ab>
           <p rend="script"> Diuinarum scripturarum multiplicem abundantiam latissimamque <lb/>
             doctrinam sine ullo errore comprehendit et sine ullo <lb/>
