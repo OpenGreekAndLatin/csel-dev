@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
@@ -72,7 +70,7 @@
     CTS/CITE Architecture. 
    </p>
    <refsDecl n="CTS">
-    <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='chapter'])"/>
+    <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']/tei:div[@n='$2' and @subtype='chapter'])"/>
     <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book'])"/>
    </refsDecl>
   </encodingDesc>
@@ -102,7 +100,7 @@
 <pb n="3"/>
             
 </p>
-    <div  type="textpart" subtype="book" n="pr">
+    <div type="textpart" subtype="book" n="pr">
           <head>
             <title type="main">INSTRUCTIO PSALMORUM. </title>
           </head>
@@ -17828,7 +17826,7 @@
             est, et ex quo rursum iterandae generationis coepit exordium. <lb n="20"/>
             primae igitur litterae hi uersus sunt:
 </p></div></div>
-    <div  type="textpart" subtype="book" n="aleph">
+    <div type="textpart" subtype="book" n="aleph">
      <ab> <title type="sub">ALEPH. </title> </ab>
 
 <div type="textpart" subtype="chapter" n="1">
@@ -18364,7 +18362,7 @@
 
 
 </div></div>
-    <div  type="textpart" subtype="book" n="beth">
+    <div type="textpart" subtype="book" n="beth">
 <ab> <title type="sub">BETH. </title> </ab>
 
 
@@ -18775,7 +18773,7 @@
 
 
 </div></div>
-    <div  type="textpart" subtype="book" n="gimel">
+    <div type="textpart" subtype="book" n="gimel">
 <ab> <title type="sub">GIMEL. </title> </ab>
           <p><sic>Betribue</sic> seruo tuo, uiuam: et custodiam sermones <lb/>
             tuos et reliqua. 
@@ -19449,7 +19447,7 @@
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="daleth">
+     <div type="textpart" subtype="book" n="daleth">
 <ab> <title type="sub">DALETH. </title> </ab>
           <p>Adhaesit pauimento anima mea: uiuifica me secundum <lb/>
             uerbum tuum et reliqua. <lb n="15"/>
@@ -19905,7 +19903,7 @@ significare <lb/>
 
 
 </div></div>
-      <div  type="textpart" subtype="book" n="he">
+      <div type="textpart" subtype="book" n="he">
           <head>
             <title type="main">HE. </title>
           </head>
@@ -20520,7 +20518,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
  
 </div></div>
-     <div  type="textpart" subtype="book" n="vau">
+     <div type="textpart" subtype="book" n="vau">
          <head>
             <title type="main">VAU. </title>
           </head>
@@ -20899,7 +20897,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="zain">
+     <div type="textpart" subtype="book" n="zain">
 <ab> <title type="sub">ZAIN. </title> </ab>
           <p>Memento uerbi tui seruo tuo, in quo mihi spem <lb/>
             dedisti et reliqua. 
@@ -21139,7 +21137,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
             
 
 </div></div>
-     <div  type="textpart" subtype="book" n="heth">
+     <div type="textpart" subtype="book" n="heth">
 <ab> <title type="sub">HETH. </title> </ab>
           <p>Portio mea dominus. dixi custodire legem tuam <lb/>
             et reliqua. 
@@ -21721,7 +21719,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="teth">
+     <div type="textpart" subtype="book" n="teth">
 
 <ab> <title type="sub">TETH. </title> </ab>
           <p>Bonitatem fecisti cum seruo <sic>tao</sic>, domine, secundum <lb/>
@@ -21985,7 +21983,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="iod">
+     <div type="textpart" subtype="book" n="iod">
 <ab> <title type="sub">IOD. </title> </ab>
           <p>Manus tuae fecerunt me et parauerunt me et reliqua. 
 </p>
@@ -22547,7 +22545,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="caph">
+     <div type="textpart" subtype="book" n="caph">
 <ab> <title type="sub">CAPH. </title> </ab>
           <p><sic>Defecitin</sic> salutare tuum <sic>animamea</sic>, et <sic>inuerbum</sic> <lb/>
             tuum spero et reliqua. <lb n="15"/>
@@ -22866,7 +22864,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="lamed">
+     <div type="textpart" subtype="book" n="lamed">
 <ab> <title type="sub">LAMED. </title> </ab>
           <p>In saeculum, domine, permanet uerbum tuum in <lb/>
             caelo et reliqua. 
@@ -23384,7 +23382,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="mem">
+     <div type="textpart" subtype="book" n="mem">
 <ab> <title type="sub">MEM. </title> </ab>
           <p>Quomodo dilexi legem tuam, domine! tota die <lb/>
             meditatio est mihi. 
@@ -23753,7 +23751,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="nun">
+     <div type="textpart" subtype="book" n="nun">
 <ab> <title type="sub">NUN. </title> </ab>
           <p>Lucerna pedibus meis uerbum tuum, et lumen <lb/>
             semitis meis et reliqua. <lb n="10"/>
@@ -24420,7 +24418,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="samech">
+     <div type="textpart" subtype="book" n="samech">
 <ab> <title type="sub">SAMECH</title> </ab>
           <p>Iniquos odio habui et legem tuam dilexi et <lb/>
             reliqua. 
@@ -24828,7 +24826,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="ain">
+     <div type="textpart" subtype="book" n="ain">
 <ab> <title type="sub">AIN. </title> </ab>
           <p>Feci iudicium et iustitiam: non tradas me persequentibus <lb/>
             me et reliqua. 
@@ -25356,7 +25354,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="phe">
+     <div type="textpart" subtype="book" n="phe">
 <ab> <title type="sub">PHE. </title> </ab>
           <p>Mirabilia testimonia tua, domine et reliqua. 
 </p>
@@ -25833,7 +25831,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
         
 
 </div></div>
-     <div  type="textpart" subtype="book" n="zade">
+     <div type="textpart" subtype="book" n="zade">
           <head>
             <title type="main">ZADE. </title>
           </head>
@@ -26160,7 +26158,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
         
 
 </div></div>
-     <div  type="textpart" subtype="book" n="koph">
+     <div type="textpart" subtype="book" n="koph">
           <head>
             <title type="main">KOPH. </title>
           </head>
@@ -26555,7 +26553,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
          
 
 </div></div>
-     <div  type="textpart" subtype="book" n="resch">
+     <div type="textpart" subtype="book" n="resch">
           <head>
             <title type="main">RESCH. </title>
           </head>
@@ -26866,7 +26864,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="sin">
+     <div type="textpart" subtype="book" n="sin">
           <head>
             <title type="main">SIN. </title>
           </head>
@@ -27112,7 +27110,7 @@ dicitur, trita et frequentata <choice><sic>diseursibus</sic><corr>discursibus</c
 
 
 </div></div>
-     <div  type="textpart" subtype="book" n="tau">
+     <div type="textpart" subtype="book" n="tau">
           <head>
             <title type="main">TAU. </title>
           </head>

@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
@@ -73,8 +71,8 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='chapter']//tei:div[@n='$3' and @subtype='section'])"/>
-        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='chapter'])"/>
+        <cRefPattern n="section" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']/tei:div[@n='$2' and @subtype='chapter']/tei:div[@n='$3' and @subtype='section'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']/tei:div[@n='$2' and @subtype='chapter'])"/>
         <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book'])"/>
       </refsDecl>
     </encodingDesc>
@@ -1640,23 +1638,15 @@
     
     <note type="footnote">3] cf. Conl. XXI, 11 sqq. </note>
     <note rend="script" type="footnote"> 1 quinquagensimae <hi rend="italic">GH:</hi> quinquagesimae
-      (p <hi rend="italic">in ras.) L</hi> 2 rustodire G* <lb/> 4 nobis est <hi rend="italic"
-        >GH:</hi> est nobis <hi rend="italic">Lv</hi> 6 excedat (at ix <hi rend="italic"
-          >ras</hi>. w. 2) <hi rend="italic">G</hi> honeret <lb/>
-      <hi rend="italic">HL1</hi> aut labore om. <hi rend="italic">G</hi> Explicit (LIb II- <hi
-        rend="italic">add. H)</hi> de canonico nocturnarum <lb/> (norturnarum <hi rend="italic"
-          >H)</hi> orationum et psalmorum modo liber II- (•II• om. <lb/>
-      <hi rend="italic">H) GH: ovi. L</hi> Incipiunt capitula (psentis libri <hi rend="italic"
-        >add. G) GH</hi> Incipiunt <lb/> capitula de libro tertio ex interpmetatione horarum que
+      (p <hi rend="italic">in ras.) L</hi> 2 rustodire G* <lb/> 4 nobis est <hi rend="italic">GH:</hi> est nobis <hi rend="italic">Lv</hi> 6 excedat (at ix <hi rend="italic">ras</hi>. w. 2) <hi rend="italic">G</hi> honeret <lb/>
+      <hi rend="italic">HL1</hi> aut labore om. <hi rend="italic">G</hi> Explicit (LIb II- <hi rend="italic">add. H)</hi> de canonico nocturnarum <lb/> (norturnarum <hi rend="italic">H)</hi> orationum et psalmorum modo liber II- (•II• om. <lb/>
+      <hi rend="italic">H) GH: ovi. L</hi> Incipiunt capitula (psentis libri <hi rend="italic">add. G) GH</hi> Incipiunt <lb/> capitula de libro tertio ex interpmetatione horarum que
       in syriae pwtib: <lb/> obseruantur <hi rend="italic">L</hi> 11 sollempn. <hi rend="italic">L
-        (passim)</hi> sextaeue nonaeq. <hi rend="italic">H</hi> 12 sirie <hi rend="italic"
-          >H</hi>
+        (passim)</hi> sextaeue nonaeq. <hi rend="italic">H</hi> 12 sirie <hi rend="italic">H</hi>
       <lb/> seruantur <hi rend="italic">H</hi> 13 aput LI 17 uel uouae <hi rend="italic">L:</hi>
       noneq. <hi rend="italic">H</hi> psalmiis <hi rend="italic">L</hi>
       <lb/> finiatur et orationibus <hi rend="italic">H</hi> cor <hi rend="italic">L1</hi> 18
-      specialis <hi rend="italic">H</hi> hiis <hi rend="italic">L\'</hi> his L\' <lb/> horiis <hi
-        rend="italic">L1</hi> sunt <hi rend="italic">H</hi> deputata offioia <hi rend="italic"
-          >L</hi> 19 ratione <hi rend="italic">H</hi> 20 certa <hi rend="italic">om. H</hi>
+      specialis <hi rend="italic">H</hi> hiis <hi rend="italic">L\'</hi> his L\' <lb/> horiis <hi rend="italic">L1</hi> sunt <hi rend="italic">H</hi> deputata offioia <hi rend="italic">L</hi> 19 ratione <hi rend="italic">H</hi> 20 certa <hi rend="italic">om. H</hi>
       <lb/> 21 sompnum <hi rend="italic">L</hi> reuerte L\' </note>
     
     <pb n="33"/>
@@ -1678,8 +1668,7 @@
       uigiliae statutae sint, <lb/> et quare per omnem Orientem absolutio ieiunii in die sabbati
       <lb n="10"/> praesumatur. </p>
     
-    <p>X. Unde factum sit, quod in urbe <choice n="0.00"><sic n="22">dia</sic><corr n="3386"
-      >die</corr></choice> sabbato ieiunetur. </p>
+    <p>X. Unde factum sit, quod in urbe <choice n="0.00"><sic n="22">dia</sic><corr n="3386">die</corr></choice> sabbato ieiunetur. </p>
     
     <p>XI. In quo dominicae diei <choice><sic>soilemnitas</sic><corr>sollemnitas</corr></choice> ab
       aliorum dierum <lb/>
@@ -2335,17 +2324,14 @@
     <p>II. Qua ratione usque ad ultimam senectutem apud eos in <lb/> coenobiis perseuerent.</p>
     
     
-    <note type="footnote"> 1 expectare<hi rend="italic">H</hi> 2 ebdomadadis HI scntire <hi
-      rend="italic">H1</hi> li <hi rend="italic">codd</hi>. non <hi rend="italic">di-</hi>
+    <note type="footnote"> 1 expectare<hi rend="italic">H</hi> 2 ebdomadadis HI scntire <hi rend="italic">H1</hi> li <hi rend="italic">codd</hi>. non <hi rend="italic">di-</hi>
       <lb/> stinguuntin om. <hi rend="italic">H</hi> 7 fereatis <hi rend="italic">HI</hi> 8 cacua
       <hi rend="italic">IIL</hi> 9 caenam <hi rend="italic">H</hi>
       <lb/> ipsa <hi rend="italic">GL:</hi> ipsa caena <hi rend="italic">H</hi> 11 consuetudinari
       H1 13 caonam <hi rend="italic">H</hi> cęnam <hi rend="italic">L</hi>
-      <lb/> 14 iwumchos <hi rend="italic">H</hi> 15 caudem <hi rend="italic">H</hi> cum <hi
-        rend="italic">L</hi> coguntur <hi rend="italic">II</hi> 16 hii <hi rend="italic">H1</hi>
+      <lb/> 14 iwumchos <hi rend="italic">H</hi> 15 caudem <hi rend="italic">H</hi> cum <hi rend="italic">L</hi> coguntur <hi rend="italic">II</hi> 16 hii <hi rend="italic">H1</hi>
       <lb/> 17 uolumptas L1 Explicit de cauouiro dinmarum orationum et psalmorum <lb/> modo libcr
-      tertius<hi rend="italic">G: om. HL</hi> Incipinnt capitula (spqupntis <lb/> libri <hi
-        rend="italic">M G</hi> do libro IIII add. <hi rend="italic">L) GHL</hi>
+      tertius<hi rend="italic">G: om. HL</hi> Incipinnt capitula (spqupntis <lb/> libri <hi rend="italic">M G</hi> do libro IIII add. <hi rend="italic">L) GHL</hi>
       <lb/> 22 tabinesiotas<hi rend="italic">II</hi> tabenncositas <hi rend="italic">L liii
         HL1</hi>
     </note>
@@ -2384,8 +2370,7 @@
       proficiant.a </p>
     
     
-    <p>VIIII. Quare iunioribus imperetur ut seniori suo nihil de <lb/> cogitationibus suis <sic
-      n="poss">subtrahant</sic>. </p>
+    <p>VIIII. Quare iunioribus imperetur ut seniori suo nihil de <lb/> cogitationibus suis <sic n="poss">subtrahant</sic>. </p>
     
     
     <p>X. Quanta oboedientia senioribus etiam in naturali <sic n="poss">necessitata</sic>
@@ -2404,8 +2389,7 @@
       congeratur, nullus tamen praesumat excedere statutae sufficientiae <lb/>
       <choice><sic>parcitatein</sic><corr>parcitatem</corr></choice>. <sic>j</sic></p>
     
-    <p>XV. De inmodico apud <choice n="0.41"><sic n="4236">uos</sic><corr n="6028"
-      >nos</corr></choice> studio habendi. </p>
+    <p>XV. De inmodico apud <choice n="0.41"><sic n="4236">uos</sic><corr n="6028">nos</corr></choice> studio habendi. </p>
     
     <p>XVI. De regulis diuersarum correptionum. <lb n="25"/></p>
     
@@ -2418,18 +2402,13 @@
       mensam communem quicquam <lb/> cibi potusue gustare.<lb n="30"/></p>
     
     
-    <note rend="script" type="footnote"> 1 is <hi rend="italic">om. Hv</hi> coebio <hi rend="italic"
-      >L</hi> Buscipeudus <hi rend="italic">H</hi> 4 hii <hi rend="italic">HLI</hi> 5 ab om.
+    <note rend="script" type="footnote"> 1 is <hi rend="italic">om. Hv</hi> coebio <hi rend="italic">L</hi> Buscipeudus <hi rend="italic">H</hi> 4 hii <hi rend="italic">HLI</hi> 5 ab om.
       <hi rend="italic">H</hi>
-      <lb/> indaant <hi rend="italic">H</hi> 7 sumus <hi rend="italic">L</hi> seruotur <hi
-        rend="italic">H</hi> 9 misceri <hi rend="italic">H</hi> ienedocho <hi rend="italic">L
+      <lb/> indaant <hi rend="italic">H</hi> 7 sumus <hi rend="italic">L</hi> seruotur <hi rend="italic">H</hi> 9 misceri <hi rend="italic">H</hi> ienedocho <hi rend="italic">L
           <lb/> sexodocho H</hi> xenodochio v 10 exercentur <hi rend="italic">L 11 separandas
             H</hi> 12 hunc <lb/>
-      <hi rend="italic">titulum om. H</hi> 16 cybus <hi rend="italic">L</hi> aput <hi
-        rend="italic">Lx</hi> dilicatissimus <hi rend="italic">H</hi> 17 ad <hi rend="italic"
-          >om. H</hi>
-      <lb/> 19 rriminosus <hi rend="italic">H</hi> utilusimum L1 22 congregatur <hi rend="italic"
-        >H</hi> pranumat <lb/> om. <hi rend="italic">L1</hi> excidere <hi rend="italic">H</hi>
+      <hi rend="italic">titulum om. H</hi> 16 cybus <hi rend="italic">L</hi> aput <hi rend="italic">Lx</hi> dilicatissimus <hi rend="italic">H</hi> 17 ad <hi rend="italic">om. H</hi>
+      <lb/> 19 rriminosus <hi rend="italic">H</hi> utilusimum L1 22 congregatur <hi rend="italic">H</hi> pranumat <lb/> om. <hi rend="italic">L1</hi> excidere <hi rend="italic">H</hi>
       28 parcitatem praesumptā <hi rend="italic">(del. m.2) L</hi> 24 aput LI <lb/> habeodi Htudin
       <hi rend="italic">L</hi> 25 ruguliis L1 26 actoribus <hi rend="italic">L</hi> innentum
       L2r <lb/> 27 aput <hi rend="italic">Lx</hi> 30 cybi <hi rend="italic">L</hi> putus uegustare
@@ -2488,24 +2467,14 @@
       <hi rend="italic">1 palestmam HL messopotamiam L 2 adhibeantur H</hi> 8 granis<lb/>
       lenticulae <hi rend="italic">L</hi> 4 fratruum <hi rend="italic">H</hi> monasterio Hl 5 tipO
       <hi rend="italic">H</hi> fratruum <lb/> statutis <hi rend="italic">H</hi> 8 profeotns
-      <hi rend="italic">H</hi> 9 idem beatas abbas <hi rend="italic">H</hi> iohannis <hi
-        rend="italic">HLI</hi>
-      <lb/> 10 adolendum <hi rend="italic">HIA: fort</hi>. adolescendum desistit <hi rend="italic"
-        >H</hi> 11 ab <hi rend="italic">om. HL</hi>
-      <lb/> 13 iohannis <hi rend="italic">H</hi> obqediret <hi rend="italic">H</hi> 14 ad om. <hi
-        rend="italic">H</hi> 16 oboedientiae <hi rend="italic">L</hi> patermuti <lb/>
-      <hi rend="italic">H:</hi> patermutii <hi rend="italic">L</hi> 17 in <hi rend="italic"
-        >post</hi> quam om. <hi rend="italic">H</hi> lumen <hi rend="italic">L:</hi> fluuio <hi
-          rend="italic">H</hi>
-      <lb/> paraolo <hi rend="italic">LI</hi> quam ex <hi rend="italic">H</hi> 18 esitauit <hi
-        rend="italic">H</hi> hesitauerit <hi rend="italic">L</hi> 19 abbate <hi rend="italic"
-          >H</hi>
-      <lb/> patremutio <hi rend="italic">H</hi> patrem∗tio <hi rend="italic">L</hi> 20 quod et <hi
-        rend="italic">HL</hi> abbate <hi rend="italic">H</hi> 21 in om. <hi rend="italic">H</hi>
-      <lb/> 22 deoim <hi rend="italic">HL</hi> 28 puplioe <hi rend="italic">H</hi> imperium <hi
-        rend="italic">H</hi> ad abbatis imperium v<lb/> 24 pinuphi <hi rend="italic">H</hi>
-      phynupby <hi rend="italic">L</hi> monasterio <hi rend="italic">H</hi> 25 celiberrimo <hi
-        rend="italic">H</hi> presbiter <lb/>
+      <hi rend="italic">H</hi> 9 idem beatas abbas <hi rend="italic">H</hi> iohannis <hi rend="italic">HLI</hi>
+      <lb/> 10 adolendum <hi rend="italic">HIA: fort</hi>. adolescendum desistit <hi rend="italic">H</hi> 11 ab <hi rend="italic">om. HL</hi>
+      <lb/> 13 iohannis <hi rend="italic">H</hi> obqediret <hi rend="italic">H</hi> 14 ad om. <hi rend="italic">H</hi> 16 oboedientiae <hi rend="italic">L</hi> patermuti <lb/>
+      <hi rend="italic">H:</hi> patermutii <hi rend="italic">L</hi> 17 in <hi rend="italic">post</hi> quam om. <hi rend="italic">H</hi> lumen <hi rend="italic">L:</hi> fluuio <hi rend="italic">H</hi>
+      <lb/> paraolo <hi rend="italic">LI</hi> quam ex <hi rend="italic">H</hi> 18 esitauit <hi rend="italic">H</hi> hesitauerit <hi rend="italic">L</hi> 19 abbate <hi rend="italic">H</hi>
+      <lb/> patremutio <hi rend="italic">H</hi> patrem∗tio <hi rend="italic">L</hi> 20 quod et <hi rend="italic">HL</hi> abbate <hi rend="italic">H</hi> 21 in om. <hi rend="italic">H</hi>
+      <lb/> 22 deoim <hi rend="italic">HL</hi> 28 puplioe <hi rend="italic">H</hi> imperium <hi rend="italic">H</hi> ad abbatis imperium v<lb/> 24 pinuphi <hi rend="italic">H</hi>
+      phynupby <hi rend="italic">L</hi> monasterio <hi rend="italic">H</hi> 25 celiberrimo <hi rend="italic">H</hi> presbiter <lb/>
       <hi rend="italic">HL</hi> 26 suscipieretur LI </note>
     <note type="footnote"> .11* </note>
     
@@ -2550,8 +2519,7 @@
     <p>XLI. Quarum debilitatum <choice><sic>similitudiuem</sic><corr>similitudinem</corr></choice>
       suscipere debeat: <lb/> qui in coenobio commoratur. </p>
     
-    <p>XLII. Quod bonum patientiae suae <choice n="0.00"><sic n="18">uon</sic><corr n="65020"
-      >non</corr></choice> debeat
+    <p>XLII. Quod bonum patientiae suae <choice n="0.00"><sic n="18">uon</sic><corr n="65020">non</corr></choice> debeat
       <choice><sic>mouachus</sic><corr>monachus</corr></choice>:<lb n="25"/> de aliorum
       sperare <choice><sic>uiitute</sic><corr>uirtute</corr></choice>, sed de sua potius
       longanimitate. </p>
@@ -2559,22 +2527,15 @@
     <p>XLIII. Recapitulatio <choice><sic>elpositionis</sic><corr>expositionis</corr></choice>, per
       quam monachus ad <lb/> perfectionem possit ascendere.</p>
     
-    <note rend="script" type="footnote"> 1 abbas <hi rend="italic">Lr</hi> pinuphius <hi
-      rend="italic">H</hi><hi rend="intraline"><lb/> nu I</hi> phyphua <hi rend="italic"
-        >L</hi> 2 iteruiu <hi rend="italic">Hr</hi> fugeret <hi rend="italic">H</hi>
+    <note rend="script" type="footnote"> 1 abbas <hi rend="italic">Lr</hi> pinuphius <hi rend="italic">H</hi><hi rend="intraline"><lb/> nu I</hi> phyphua <hi rend="italic">L</hi> 2 iteruiu <hi rend="italic">Hr</hi> fugeret <hi rend="italic">H</hi>
       <lb/> 3 siriae H palestiuae <hi rend="italic">L: om. Hv cf. Mommsen, Boem. Gesch. V, pog.
         546</hi>
-      <lb/> 4 dederat <hi rend="italic">H</hi> piniphius <hi rend="italic">H</hi> phymifius <hi
-        rend="italic">L</hi> 5 recipiabat <hi rend="italic">L</hi> reciperat <hi rend="italic"
-          >H</hi>
+      <lb/> 4 dederat <hi rend="italic">H</hi> piniphius <hi rend="italic">H</hi> phymifius <hi rend="italic">L</hi> 5 recipiabat <hi rend="italic">L</hi> reciperat <hi rend="italic">H</hi>
       <lb/> 7 patruum <hi rend="italic">H</hi> inaerti <hi rend="italic">H</hi> in∗∗∗∗ L poenas
       <hi rend="italic">L1</hi> 8 debere <hi rend="italic">11</hi> tam <lb/>
-      <hi rend="italic">om. Hv</hi> 9 en in <hi rend="italic">H 11</hi> crucifigi <hi
-        rend="italic">L1</hi> 13 quod ... prosit <hi rend="italic">om. H</hi>
+      <hi rend="italic">om. Hv</hi> 9 en in <hi rend="italic">H 11</hi> crucifigi <hi rend="italic">L1</hi> 13 quod ... prosit <hi rend="italic">om. H</hi>
       <lb/> renontiatio X1 hisdem <hi rend="italic">L</hi> 15 diabtilus <hi rend="italic">HLX</hi>
-      1G capnd <hi rend="italic">L*</hi> obseruare <lb/> iugiter dobm\' H 18 pauciis <hi
-        rend="italic">L\'</hi> 19 quod <hi rend="italic">L\'</hi> 20 dfii <hi rend="italic"
-          >H</hi> 22 excipere <lb/>
+      1G capnd <hi rend="italic">L*</hi> obseruare <lb/> iugiter dobm\' H 18 pauciis <hi rend="italic">L\'</hi> 19 quod <hi rend="italic">L\'</hi> 20 dfii <hi rend="italic">H</hi> 22 excipere <lb/>
       <hi rend="italic">H</hi> 23 suscipere debilitAtum similitudinem <hi rend="italic">H</hi> 24
       commoratus <hi rend="italic">L</hi>
       <lb/> 26 sed om. <hi rend="italic">H</hi> 28 Expliciunt capitula <hi rend="italic">H:</hi>
@@ -4160,15 +4121,10 @@ uidearis L</note>
       possidet expetendam.</p>
     
     <note type="footnote">3] Prou. 9, 10. </note>
-    <note rend="script" type="footnote"> 1 pacis <hi rend="italic">L</hi> 2 dificultate <hi
-      rend="italic">L</hi> 3 patientiae <hi rend="italic">G</hi> 4 conpuntio <hi rend="italic"
-        >G1</hi> 6 contentua <lb/>
-      <hi rend="italic">L</hi> 7 uoluptatum <hi rend="italic">bis НST</hi> 8 de mortificatione <hi
-        rend="italic">HLT</hi> extirpantur <lb/>
-      <hi rend="italic">G2H</hi> 9 fruticant <hi rend="italic">G2S:</hi> frutificant <hi
-        rend="italic">G1</hi> fructificant <hi rend="italic">HLTv</hi> 10 pnlulatione <lb/> G1H2
-      11 posaidetur. Eiplioit de institutis ronuntiantium <lb/> (ren. inst. <hi rend="italic"
-        >Z)</hi> iiber •IIII• <hi rend="italic">GLT: om. H</hi> Incipit de spiritu gastrimargiae
+    <note rend="script" type="footnote"> 1 pacis <hi rend="italic">L</hi> 2 dificultate <hi rend="italic">L</hi> 3 patientiae <hi rend="italic">G</hi> 4 conpuntio <hi rend="italic">G1</hi> 6 contentua <lb/>
+      <hi rend="italic">L</hi> 7 uoluptatum <hi rend="italic">bis НST</hi> 8 de mortificatione <hi rend="italic">HLT</hi> extirpantur <lb/>
+      <hi rend="italic">G2H</hi> 9 fruticant <hi rend="italic">G2S:</hi> frutificant <hi rend="italic">G1</hi> fructificant <hi rend="italic">HLTv</hi> 10 pnlulatione <lb/> G1H2
+      11 posaidetur. Eiplioit de institutis ronuntiantium <lb/> (ren. inst. <hi rend="italic">Z)</hi> iiber •IIII• <hi rend="italic">GLT: om. H</hi> Incipit de spiritu gastrimargiae
       <lb/> (castrim. <hi rend="italic">L)</hi> liber quintus (V <hi rend="italic">L) HL:</hi> om.
       <hi rend="italic">GT</hi> Incip capirul sequentis <lb/> lib. <hi rend="italic">G</hi>
       Incipiunt capitula de libro quinto <hi rend="italic">HT</hi> Incipiant tituli einsdem <lb/>
@@ -4225,19 +4181,14 @@ uidearis L</note>
       peruenire.<lb n="30"/></p>
     
     <note type="footnote"> 3 solum <hi rend="italic">H</hi> inebriatnr <hi rend="italic">HTv</hi> 4
-      puritate <hi rend="italic">L</hi> quęat <hi rend="italic">L</hi> 6 quo <hi rend="italic"
-        >L</hi>
+      puritate <hi rend="italic">L</hi> quęat <hi rend="italic">L</hi> 6 quo <hi rend="italic">L</hi>
       <lb/> pro <hi rend="italic">om. H</hi> 7 remediaque <hi rend="italic">L</hi> 9 abstinentiae
       <hi rend="italic">LT</hi> 12 eitirpatione <hi rend="italic">HT</hi>
-      <lb/> 13 spiritales ngones <hi rend="italic">H</hi> 16 possimus v 17 concupiscenti? <hi
-        rend="italic">L</hi> 20 quo- <lb/>
-      <hi rend="italic">modo HT olimpiaci H</hi> 21 posse <hi rend="italic">L</hi> conferre <hi
-        rend="italic">HT</hi> obtenuerit <hi rend="italic">HT*</hi>
-      <lb/> 23 quomodo <hi rend="italic">HT</hi> bassis <hi rend="italic">HT</hi> uasis <hi
-        rend="italic">L</hi> castrimargiae <hi rend="italic">L</hi> 25 per <hi rend="italic">om.
+      <lb/> 13 spiritales ngones <hi rend="italic">H</hi> 16 possimus v 17 concupiscenti? <hi rend="italic">L</hi> 20 quo- <lb/>
+      <hi rend="italic">modo HT olimpiaci H</hi> 21 posse <hi rend="italic">L</hi> conferre <hi rend="italic">HT</hi> obtenuerit <hi rend="italic">HT*</hi>
+      <lb/> 23 quomodo <hi rend="italic">HT</hi> bassis <hi rend="italic">HT</hi> uasis <hi rend="italic">L</hi> castrimargiae <hi rend="italic">L</hi> 25 per <hi rend="italic">om.
           H</hi>
-      <lb/> quod <hi rend="italic">H</hi> 26 subimissimi <hi rend="italic">L</hi> 27 anthletis <hi
-        rend="italic">H</hi> 30 si uult ad pugnas <lb/> om. <hi rend="italic">L, spat</hi>.
+      <lb/> quod <hi rend="italic">H</hi> 26 subimissimi <hi rend="italic">L</hi> 27 anthletis <hi rend="italic">H</hi> 30 si uult ad pugnas <lb/> om. <hi rend="italic">L, spat</hi>.
       uacuo <hi rend="italic">rdicio</hi> certAminis <hi rend="italic">L</hi>
     </note>
     <note type="footnote"> 13* </note>
@@ -4271,8 +4222,7 @@ uidearis L</note>
     <p>XXX. Eiusdem senis de nemine iudicando. <lb/></p>
     
     <p>XXXI. <sic n="poss">Increpatio</sic> eiusdem senis, cum fratres inter spiritales <lb/>
-      conlationes dormitantes ad narrationem otiosae fabulae <lb/> uidisset <sic n="poss"
-        >expergefactos</sic>. <lb n="20"/></p>
+      conlationes dormitantes ad narrationem otiosae fabulae <lb/> uidisset <sic n="poss">expergefactos</sic>. <lb n="20"/></p>
     
     <p>XXXII. De epistulis priusquam legerentur incensis. <lb/></p>
     
@@ -5993,27 +5943,22 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
     
     <note rend="script" type="footnote"> 1 acciperant <hi rend="italic">AH1</hi> degentes G1H1 4 XI.
       <hi rend="italic">H</hi> beati nobis <hi rend="italic">H</hi>
-      <lb/> macari A1; macarii A1 machari H1 macharii <hi rend="italic">GH2L</hi> proferetur <hi
-        rend="italic">ÂILr:</hi>
-      <lb/> profertur <hi rend="italic">A2Gc</hi> proferimus <hi rend="italic">H</hi> nobis <hi
-        rend="italic">om. H</hi> 6 claudet sententiam <hi rend="italic">L\'</hi>
+      <lb/> macari A1; macarii A1 machari H1 macharii <hi rend="italic">GH2L</hi> proferetur <hi rend="italic">ÂILr:</hi>
+      <lb/> profertur <hi rend="italic">A2Gc</hi> proferimus <hi rend="italic">H</hi> nobis <hi rend="italic">om. H</hi> 6 claudet sententiam <hi rend="italic">L\'</hi>
       <lb/> inquid AН1 7 annos <hi rend="italic">L1</hi> 0 contempnere <hi rend="italic">H1L1</hi>
       12 debilitatis <hi rend="italic">H</hi>
       <lb/> penrit. <hi rend="italic">Gl</hi> 14 mundi huius praeseotis <hi rend="italic">H</hi>
       dispicere <hi rend="italic">G1H1</hi> 15 aduenis <lb/> trib. q. <hi rend="italic">Hx</hi>
       aduersitatibus <hi rend="italic">H1</hi> 16 habentes <hi rend="italic">L</hi> fixum Ar
       adtixum <lb/>
-      <hi rend="italic">H</hi> 17 qua cottidie <hi rend="italic">G</hi> arcessiendum <hi
-        rend="italic">H\'</hi> 18 credit. Explicit de <lb/> spu gastrimargiae (castrim. <hi
-          rend="italic">L)</hi> liber V (liber V om. <hi rend="italic">A) AGL: om. H</hi> lucipit
+      <hi rend="italic">H</hi> 17 qua cottidie <hi rend="italic">G</hi> arcessiendum <hi rend="italic">H\'</hi> 18 credit. Explicit de <lb/> spu gastrimargiae (castrim. <hi rend="italic">L)</hi> liber V (liber V om. <hi rend="italic">A) AGL: om. H</hi> lucipit
       <lb/> de spu fornicationis (de fornicatione liber sextus <hi rend="italic">H) AH: om.
         GL</hi>
       <lb/> Capitula de spu foruicatiouis A Iucip capitł presentis liS <hi rend="italic">G</hi>
       Incipiuut <lb/> capitula de foraicatione. liber VI. <hi rend="italic">L: om. H</hi>
     </note>
     
-    <note type="footnote">22 aduersus <hi rend="italic">Hr titulum om. L;</hi> in <hi rend="italic"
-      >marg. tegitur:</hi> capłm .1. dee<foreign xml:lang="grc">̄</foreign>
+    <note type="footnote">22 aduersus <hi rend="italic">Hr titulum om. L;</hi> in <hi rend="italic">marg. tegitur:</hi> capłm .1. dee<foreign xml:lang="grc">̄</foreign>
       <lb/> 23 correptione <hi rend="italic">HLT</hi> aduersum <hi rend="italic">T</hi>
     </note>
     
@@ -6057,8 +6002,7 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
     
     <p>XVI. De alio apostoli testimonio super eadem sanctimonia 1 <lb/> castitatis. I </p>
     
-    <p>XVII. Quod spes sublimioris praemii debeat custodiam castitatis <lb/> augere. <lb n="25"
-    /></p>
+    <p>XVII. Quod spes sublimioris praemii debeat custodiam castitatis <lb/> augere. <lb n="25"/></p>
     
     <p>XVIII. Quod, sicut absque humilitate castitas obtineri non <lb/> potest, ita sine castitate
       scientia. </p>
@@ -6067,24 +6011,17 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
       <choice><sic>nirginitatis</sic><corr>uirginitatis</corr></choice>
       <lb/> suae.</p>
     
-    <note rend="script" type="footnote"> 1 suspirandum <hi rend="italic">L</hi> conferat rumedii <hi
-      rend="italic">Å</hi> 2 solitudo <hi rend="italic">om H</hi> 3 inter] <lb/> in <hi
-        rend="italic">T</hi> et <hi rend="italic">ante</hi> an <hi rend="italic">orn. A</hi> 5
-      non <hi rend="italic">om. T</hi> 7 peculiare <hi rend="italic">T</hi> 11 sint <hi
-        rend="italic">H</hi>
+    <note rend="script" type="footnote"> 1 suspirandum <hi rend="italic">L</hi> conferat rumedii <hi rend="italic">Å</hi> 2 solitudo <hi rend="italic">om H</hi> 3 inter] <lb/> in <hi rend="italic">T</hi> et <hi rend="italic">ante</hi> an <hi rend="italic">orn. A</hi> 5
+      non <hi rend="italic">om. T</hi> 7 peculiare <hi rend="italic">T</hi> 11 sint <hi rend="italic">H</hi>
       <lb/> 12 quanta <hi rend="italic">L</hi> spem per <hi rend="italic">AH</hi> puritate cordis
       pareM <hi rend="italic">L</hi> 18 debemus <hi rend="italic">T</hi>
-      <lb/> 16 sine] se <hi rend="italic">T</hi> obteneri <hi rend="italic">H</hi> obtinere <hi
-        rend="italic">L1</hi> 17 purgatio <hi rend="italic">A</hi> carnis <hi rend="italic"
-          >T</hi>
+      <lb/> 16 sine] se <hi rend="italic">T</hi> obteneri <hi rend="italic">H</hi> obtinere <hi rend="italic">L1</hi> 17 purgatio <hi rend="italic">A</hi> carnis <hi rend="italic">T</hi>
       <lb/> 18 eiercere <hi rend="italic">L</hi> caritatis <hi rend="italic">HT</hi> 19 affectum
       <hi rend="italic">L</hi> erpendere <hi rend="italic">L</hi> 20 uirtutis <lb/>
-      <hi rend="italic">L]</hi> 21 nuncupatur <hi rend="italic">HT</hi> ucnpetur <hi rend="italic"
-        >ex</hi> ucupatur <hi rend="italic">L</hi> 24 praemi <hi rend="italic">H</hi>
+      <hi rend="italic">L]</hi> 21 nuncupatur <hi rend="italic">HT</hi> ucnpetur <hi rend="italic">ex</hi> ucupatur <hi rend="italic">L</hi> 24 praemi <hi rend="italic">H</hi>
       <lb/> 25 agere <hi rend="italic">HT</hi> 26 castitatis T obteneri <hi rend="italic">H</hi>
       obtinere <hi rend="italic">LT 27</hi> caritate <hi rend="italic">H</hi>
-      <lb/> ita sinceritate <hi rend="italic">T</hi> 28 basilil <hi rend="italic">HLT</hi> de <hi
-        rend="italic">om. HT</hi>
+      <lb/> ita sinceritate <hi rend="italic">T</hi> 28 basilil <hi rend="italic">HLT</hi> de <hi rend="italic">om. HT</hi>
       <lb/> h </note>
     
     <pb n="115"/>
@@ -6834,8 +6771,7 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
       <choice><sic>liaturalia</sic><corr>naturalia</corr></choice> uitia sine creatoris <lb/>
       dicamus iniuria. </p>
     
-    <p>V. De uitiis quae extra naturalem motum <choice n="0.00"><sic n="8">uostro</sic><corr
-      n="1104">nostro</corr></choice> uitio contrahuntur.<lb n="10"/></p>
+    <p>V. De uitiis quae extra naturalem motum <choice n="0.00"><sic n="8">uostro</sic><corr n="1104">nostro</corr></choice> uitio contrahuntur.<lb n="10"/></p>
     
     <p>VI. Receptus semel filargyriae morbus quam difficile pellatur. </p>
     
@@ -6871,15 +6807,11 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
       <hi rend="italic">H (passim)</hi> fylargiriae <hi rend="italic">L</hi>
       <lb/> (passim) 5 ut <hi rend="italic">HLT:</hi> sicut et <hi rend="italic">A</hi> 6
       pernitiosus <hi rend="italic">L</hi> inoribus <hi rend="italic">L1</hi>
-      <lb/> 7 naturalis <hi rend="italic">Å</hi> 8 insint <hi rend="italic">A</hi> 0 ducamnus <hi
-        rend="italic">L om. Å</hi> 10 moilum <hi rend="italic">L <lb/> 13 inuitiis H</hi> uitiin
-      r <hi rend="italic">sylargirie L</hi><hi rend="italic">16 pecunia<foreign xml:lang="grc"
-        >̃</foreign> L 18 labore L</hi>
+      <lb/> 7 naturalis <hi rend="italic">Å</hi> 8 insint <hi rend="italic">A</hi> 0 ducamnus <hi rend="italic">L om. Å</hi> 10 moilum <hi rend="italic">L <lb/> 13 inuitiis H</hi> uitiin
+      r <hi rend="italic">sylargirie L</hi><hi rend="italic">16 pecunia<foreign xml:lang="grc">̃</foreign> L 18 labore L</hi>
       <lb/> qui ante] quantv <hi rend="italic">H</hi> 20 occasioues <hi rend="italic">H</hi> 21
-      requirpentur H 22 exemplum <lb/> enim <hi rend="italic">H</hi> 23 est obligatus <hi
-        rend="italic">H</hi> 24 conferunt scniorib. <hi rend="italic">H</hi> emeudationp <lb/>
-      <hi rend="italic">H</hi> 2A moribus <hi rend="italic">H</hi> 27 a om. <hi rend="italic"
-        >H</hi> quod <hi rend="italic">L</hi>
+      requirpentur H 22 exemplum <lb/> enim <hi rend="italic">H</hi> 23 est obligatus <hi rend="italic">H</hi> 24 conferunt scniorib. <hi rend="italic">H</hi> emeudationp <lb/>
+      <hi rend="italic">H</hi> 2A moribus <hi rend="italic">H</hi> 27 a om. <hi rend="italic">H</hi> quod <hi rend="italic">L</hi>
     </note>
     
     <pb n="129"/>
@@ -6922,24 +6854,15 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
     <p rend="script">XXXI. Quod non possit quis filargyriam uincere nisi in coenobio <lb/>
       perseuerans, et quemadmodum possit ibidem permanere.</p>
     
-    <note rend="script" type="footnote"> 1 se colere <hi rend="italic">H</hi> colore se A colore <hi
-      rend="italic">(om</hi>. se) <hi rend="italic">L</hi> quiq. <hi rend="italic">H</hi> 3
+    <note rend="script" type="footnote"> 1 se colere <hi rend="italic">H</hi> colore se A colore <hi rend="italic">(om</hi>. se) <hi rend="italic">L</hi> quiq. <hi rend="italic">H</hi> 3
       eclesiae A <lb/> primitiuorum <hi rend="italic">L</hi> 4 aplc <hi rend="italic">H</hi>
       nellimos <hi rend="italic">H</hi> debeamus <hi rend="italic">LT:</hi> deberemus A <lb/>
-      debemus <hi rend="italic">Hr</hi> 5 diffinitionibus <hi rend="italic">H</hi> diftn. <hi
-        rend="italic">L</hi> 6 basili <hi rend="italic">AT:</hi> basilii <hi rend="italic"
-          >HL</hi>
-      <lb/> sincletiam <hi rend="italic">L</hi> senolitium <hi rend="italic">T</hi> 8 sit om <hi
-        rend="italic">L</hi> 9 quemammodum <hi rend="italic">L</hi> 10 ftlargirius <lb/>
-      <hi rend="italic">H</hi> fylargicus <hi rend="italic">L</hi> 18 nisi in <hi rend="italic"
-        >H</hi> posse <hi rend="italic">H</hi> 14 sapphyrae A <lb/> saffyre <hi rend="italic"
-          >H</hi> saffire <hi rend="italic">L</hi> et Iudae om. A philargiria <hi rend="italic"
-            >L</hi> filargyria... <lb/> el <lb/> 16 quod <hi rend="italic">om. H</hi> 15 implente
+      debemus <hi rend="italic">Hr</hi> 5 diffinitionibus <hi rend="italic">H</hi> diftn. <hi rend="italic">L</hi> 6 basili <hi rend="italic">AT:</hi> basilii <hi rend="italic">HL</hi>
+      <lb/> sincletiam <hi rend="italic">L</hi> senolitium <hi rend="italic">T</hi> 8 sit om <hi rend="italic">L</hi> 9 quemammodum <hi rend="italic">L</hi> 10 ftlargirius <lb/>
+      <hi rend="italic">H</hi> fylargicus <hi rend="italic">L</hi> 18 nisi in <hi rend="italic">H</hi> posse <hi rend="italic">H</hi> 14 sapphyrae A <lb/> saffyre <hi rend="italic">H</hi> saffire <hi rend="italic">L</hi> et Iudae om. A philargiria <hi rend="italic">L</hi> filargyria... <lb/> el <lb/> 16 quod <hi rend="italic">om. H</hi> 15 implente
       <hi rend="italic">L</hi> 16 philargiria <hi rend="italic">L</hi> libram Lt 17 scribturis <lb/>
-      <hi rend="italic">AH</hi> 19 phylargiriam <hi rend="italic">L (pauim)</hi> uictoria <hi
-        rend="italic">L</hi> aliter non <hi rend="italic">H</hi>
-      <lb/> 21 monacho nuditas <hi rend="italic">(om</hi>. a) <hi rend="italic">A</hi> 28 in <hi
-        rend="italic">om. HL\'</hi> 24 permanere. Finiunt <lb/> eapitula de spu filargyriae A
+      <hi rend="italic">AH</hi> 19 phylargiriam <hi rend="italic">L (pauim)</hi> uictoria <hi rend="italic">L</hi> aliter non <hi rend="italic">H</hi>
+      <lb/> 21 monacho nuditas <hi rend="italic">(om</hi>. a) <hi rend="italic">A</hi> 28 in <hi rend="italic">om. HL\'</hi> 24 permanere. Finiunt <lb/> eapitula de spu filargyriae A
       Expliciunt capitula <hi rend="italic">L:</hi> om. <hi rend="italic">QH</hi> Ine, liber A
       <lb/> plhy m. 2 <lb/> Incdpit de sp<foreign xml:lang="grc">̃</foreign>u hlrgiriae liber
       septimus G Incipit..... liber de phylargyria <lb/>
@@ -8060,18 +7983,13 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
       <hi rend="italic">1 de om. H 2 repelli L 3 non distinguit H inplere HT: implere reU</hi>.
       <lb/> 7 nnllas <hi rend="italic">H</hi> 8 tolerare. Expl, de spu filargyriae. Inc de spu
       irae <hi rend="italic">Å</hi>
-      <lb/> Eiplicit de spiritu fllargyriae. liber • VII • Incip oap sequentis <hi
-        rend="underline">lib. G</hi> Explicit <lb/> de filargiria liber septimus. Incipit de ira
+      <lb/> Eiplicit de spiritu fllargyriae. liber • VII • Incip oap sequentis <hi rend="underline">lib. G</hi> Explicit <lb/> de filargiria liber septimus. Incipit de ira
       liber VIII • Incipnt capil <lb/> libri VIII- <hi rend="italic">H</hi> Explicit de
-      phylargiria id est amor* pecuniae liber VII :• <lb/> Incip<foreign xml:lang="grc"
-        >̃</foreign> de ira liber VIII • Incipiunt capitula eiusdem libri <hi rend="italic"
-          >L</hi>
-      <lb/> 12 quod <hi rend="italic">om. HT</hi> quantum <hi rend="italic">HL</hi> aduersum <hi
-        rend="italic">Å</hi> 13 proturbatio <hi rend="italic">H</hi>
+      phylargiria id est amor* pecuniae liber VII :• <lb/> Incip<foreign xml:lang="grc">̃</foreign> de ira liber VIII • Incipiunt capitula eiusdem libri <hi rend="italic">L</hi>
+      <lb/> 12 quod <hi rend="italic">om. HT</hi> quantum <hi rend="italic">HL</hi> aduersum <hi rend="italic">Å</hi> 13 proturbatio <hi rend="italic">H</hi>
       <lb/> 15 irascantur <hi rend="italic">Å</hi> quia] quibus <hi rend="italic">Å</hi> et om.
       <hi rend="italic">HT</hi> dicitur <hi rend="italic">Å</hi> 16 consoitudine <lb/>
-      <hi rend="italic">Å</hi> 18 quem demotabili <hi rend="italic">H</hi> quae inmutabili <hi
-        rend="italic">L(v)</hi> 19 asscribi <hi rend="italic">L</hi>
+      <hi rend="italic">Å</hi> 18 quem demotabili <hi rend="italic">H</hi> quae inmutabili <hi rend="italic">L(v)</hi> 19 asscribi <hi rend="italic">L</hi>
       <lb/> adsacrificabili <hi rend="italic">(sic!) H</hi> 21 de iusta <hi rend="italic">HT</hi>
       commotatione H uel iniusta <hi rend="italic">H</hi>
       <lb/> 22 in quo dummodo <hi rend="italic">H</hi> 23 dãd <hi rend="italic">Å</hi> 24
@@ -8118,21 +8036,16 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
     <note type="footnote"> 20] Matth. 5, 22. </note>
     
     <note rend="script" type="footnote"> 1 <hi rend="italic">hunc</hi> titulum <hi rend="italic">om.
-      H</hi> ut <hi rend="italic">om. L</hi> 2 nostram <hi rend="italic">Ar:</hi> uestram <hi
-        rend="italic">Lc</hi> 3 o.ca- sus <lb/> (c cras.) <hi rend="italic">L</hi> istius quidem
+      H</hi> ut <hi rend="italic">om. L</hi> 2 nostram <hi rend="italic">Ar:</hi> uestram <hi rend="italic">Lc</hi> 3 o.ca- sus <lb/> (c cras.) <hi rend="italic">L</hi> istius quidem
       solis <hi rend="italic">occasus A</hi> 4 modum <hi rend="italic">om. Å</hi> in-ponit <lb/> 4
-      5 fiuis <hi rend="italic">om. HT</hi> 7 momentaneum quidem spatium iram <hi rend="italic"
-        >A</hi> - <lb/> 10 de om. <hi rend="italic">L</hi> 11 emandatis <hi rend="italic">H</hi>
+      5 fiuis <hi rend="italic">om. HT</hi> 7 momentaneum quidem spatium iram <hi rend="italic">A</hi> - <lb/> 10 de om. <hi rend="italic">L</hi> 11 emandatis <hi rend="italic">H</hi>
       13 <hi rend="italic">titulon cnpp</hi>. 17 <hi rend="italic">et 18 inter se commutauit<lb/>
-        L</hi> in <hi rend="italic">om. HT</hi> 14 nostro <hi rend="italic">HT</hi> ditione <hi
-          rend="italic">LT</hi> 15 studium <lb/> LI 17 comparatione <hi rend="italic">AL</hi> suut
+        L</hi> in <hi rend="italic">om. HT</hi> 14 nostro <hi rend="italic">HT</hi> ditione <hi rend="italic">LT</hi> 15 studium <lb/> LI 17 comparatione <hi rend="italic">AL</hi> suut
       <hi rend="italic">HT</hi> tu (u in ras.) <hi rend="italic">L</hi> 19 au- putanda <lb/> A
-      20 in <hi rend="italic">anie eo om. A</hi> scribtum <hi rend="italic">AH</hi> 21 sit <hi
-        rend="italic">om. L</hi> ab-iectum <lb/>
+      20 in <hi rend="italic">anie eo om. A</hi> scribtum <hi rend="italic">AH</hi> 21 sit <hi rend="italic">om. L</hi> ab-iectum <lb/>
       <hi rend="italic">HL1</hi> est] sit <hi rend="italic">HT</hi> 23 <hi rend="italic">ira
         L</hi> eradicari <hi rend="italic">H</hi> 24 possiuius. <lb/> Finiuut capitula de apu
-      irae. Incj liber <hi rend="italic">Å</hi> Incipit de spiritu irac liber \' <lb/> octauua <hi
-        rend="italic">G</hi> Expliciunt capitula de libro VIII. locip teitus eiusdem <lb/> libri
+      irae. Incj liber <hi rend="italic">Å</hi> Incipit de spiritu irac liber \' <lb/> octauua <hi rend="italic">G</hi> Expliciunt capitula de libro VIII. locip teitus eiusdem <lb/> libri
       <hi rend="italic">L: om. H</hi>
     </note>
     <pb n="151"/>
@@ -8966,8 +8879,7 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
       tentur in nobis. </p>
     
     <p>VI. Quod nullus repentino lapsu <choice><sic>couruat</sic><corr>conruat</corr></choice>, sed
-      paulatim <choice n="0.00"><sic n="17">pe</sic><corr n="16865"
-        >per</corr></choice><unclear/><lb/> longam incuriam reccidens pereat. </p>
+      paulatim <choice n="0.00"><sic n="17">pe</sic><corr n="16865">per</corr></choice><unclear/><lb/> longam incuriam reccidens pereat. </p>
     
     <p>VII. Quod non sint fratrum deserenda consortia, ut perfectio<unclear/><lb/> conquiratur, sed
       patientia <choice><sic>ingiter</sic><corr>iugiter</corr></choice> excolenda. </p>
@@ -8991,24 +8903,15 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
     
     <p>XII. Remedia quibus tristitiam de cordibus nostris exterminare <lb/> possimus.</p>
     
-    <note type="footnote"> 4 quod quintum <hi rend="italic">ALT:</hi> quantum <hi rend="italic"
-      >H</hi> aduersum <hi rend="italic">H</hi> 5 mentis <hi rend="italic">L</hi>
+    <note type="footnote"> 4 quod quintum <hi rend="italic">ALT:</hi> quantum <hi rend="italic">H</hi> aduersum <hi rend="italic">H</hi> 5 mentis <hi rend="italic">L</hi>
       <lb/> defendaatur aeteroa <hi rend="italic">H</hi> 9 gignitur <hi rend="italic">LT: giguitur
-        A</hi> gignautur H <lb/> 10 commotationes <hi rend="italic">H</hi> excitantur <hi
-          rend="italic">HT</hi> 12 labsu A conruat <hi rend="italic">T:</hi> curmat <hi
-            rend="italic">H1</hi>
-      <lb/> corruat <hi rend="italic">ALH2</hi>18 reccideus <hi rend="italic">A:</hi> recedens <hi
-        rend="italic">HLT</hi> 14 sit <hi rend="italic">H</hi> sunt <hi rend="italic">T</hi> 15
-      couquiritur <lb/> H1 16 nostras <hi rend="italic">H</hi> 18 disperationem <hi rend="italic"
-        >AHLT</hi> 20 iu quantum<lb/> modo <hi rend="italic">HT</hi> sit nobis <hi rend="italic"
-          >L</hi> tristitiae <hi rend="italic">H</hi> utilis] uitiis <hi rend="italic">Lx</hi> 21
+        A</hi> gignautur H <lb/> 10 commotationes <hi rend="italic">H</hi> excitantur <hi rend="italic">HT</hi> 12 labsu A conruat <hi rend="italic">T:</hi> curmat <hi rend="italic">H1</hi>
+      <lb/> corruat <hi rend="italic">ALH2</hi>18 reccideus <hi rend="italic">A:</hi> recedens <hi rend="italic">HLT</hi> 14 sit <hi rend="italic">H</hi> sunt <hi rend="italic">T</hi> 15
+      couquiritur <lb/> H1 16 nostras <hi rend="italic">H</hi> 18 disperationem <hi rend="italic">AHLT</hi> 20 iu quantum<lb/> modo <hi rend="italic">HT</hi> sit nobis <hi rend="italic">L</hi> tristitiae <hi rend="italic">H</hi> utilis] uitiis <hi rend="italic">Lx</hi> 21
       quemammodum <lb/>
-      <hi rend="italic">L</hi> 22 deum om. <hi rend="italic">HT</hi> 23 salutaris <hi
-        rend="italic">HT</hi> tristitiae <hi rend="italic">H</hi> 24 repelenda <lb/>
-      <hi rend="italic">H</hi> 26 possumus <hi rend="italic">LT</hi> Finiunt (Edpliciunt <hi
-        rend="italic">L)</hi> capitula <hi rend="italic">AL</hi> Incipit <lb/> de spiritu
-      tristitiae lib VIIII <hi rend="italic">G</hi> Incipit textus eiusdem libri <hi rend="italic"
-        >L nihil</hi>
+      <hi rend="italic">L</hi> 22 deum om. <hi rend="italic">HT</hi> 23 salutaris <hi rend="italic">HT</hi> tristitiae <hi rend="italic">H</hi> 24 repelenda <lb/>
+      <hi rend="italic">H</hi> 26 possumus <hi rend="italic">LT</hi> Finiunt (Edpliciunt <hi rend="italic">L)</hi> capitula <hi rend="italic">AL</hi> Incipit <lb/> de spiritu
+      tristitiae lib VIIII <hi rend="italic">G</hi> Incipit textus eiusdem libri <hi rend="italic">L nihil</hi>
       <lb/> inscriptum in <hi rend="italic">AH</hi>
     </note>
     <pb n="167"/>
@@ -9327,8 +9230,7 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
       <title type="sub">CAPITULA. </title>
     </ab>
     
-    <p>I. Quod sextum certamen sit aduersus spiritum acediae, et <lb/> de natura eius. <lb n="5"
-    /></p>
+    <p>I. Quod sextum certamen sit aduersus spiritum acediae, et <lb/> de natura eius. <lb n="5"/></p>
     
     <p>II. Expositio acediae, uel quemadmodum serpat in corde <lb/> monachi, quaeue inferat menti
       dispendia. </p>
@@ -9359,8 +9261,7 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
     
     <p>XII. De eo quod dicit: si quis non uult operari, nec <lb/> manducet. </p>
     
-    <p>XIII. De eo quod dicit: audiuimus enim inter uos quosdam <lb/> ambulare inquiete. <lb n="25"
-    />
+    <p>XIII. De eo quod dicit: audiuimus enim inter uos quosdam <lb/> ambulare inquiete. <lb n="25"/>
     </p>
     
     <p>XIIII. Quod multa uitia amputet operatio manuum. </p>
@@ -9368,20 +9269,14 @@ quarumlibet gaudet escarum, tertia quae <sic n="poss">accuratioribus</sic> epuli
     <p>XV. De humanitate etiam otiosis et neglegentibus inpertienda.</p>
     
     <note type="footnote"> 22] II. Thess. 3,10. 24] 1. c. 11. </note>
-    <note type="footnote"> 4 acidiae <hi rend="italic">L (passim)</hi> accidie <hi rend="italic"
-      >H</hi> 6 quemammodum <hi rend="italic">L</hi> 7 quaue <hi rend="italic">L</hi>
-      <lb/> mentis <hi rend="italic">HT</hi> 8 superat acdia <hi rend="italic">H</hi> 9 acdia <hi
-        rend="italic">H</hi> excaecat <hi rend="italic">HLT</hi> 11 sit <lb/> acdie <hi
-          rend="italic">H</hi> 12 hii <hi rend="italic">HT</hi> abcidia <hi rend="italic">H</hi>
+    <note type="footnote"> 4 acidiae <hi rend="italic">L (passim)</hi> accidie <hi rend="italic">H</hi> 6 quemammodum <hi rend="italic">L</hi> 7 quaue <hi rend="italic">L</hi>
+      <lb/> mentis <hi rend="italic">HT</hi> 8 superat acdia <hi rend="italic">H</hi> 9 acdia <hi rend="italic">H</hi> excaecat <hi rend="italic">HLT</hi> 11 sit <lb/> acdie <hi rend="italic">H</hi> 12 hii <hi rend="italic">HT</hi> abcidia <hi rend="italic">H</hi>
       quatinus <hi rend="italic">L</hi> 13 testimonium <hi rend="italic">L</hi> aci- <lb/>
       <hi rend="italic">diae H(L) 16 quod HLT: quomodo A apostolos H apostoli L</hi> 18 apostolus
       <lb/> om. <hi rend="italic">HT</hi> apostolus manibus suis <hi rend="italic">Ã</hi> operatam
       <hi rend="italic">H</hi> 20 uerbis <hi rend="italic">om. H</hi>
-      <lb/> 22 si <hi rend="italic">om. L</hi> nec <hi rend="italic">AT:</hi> non <hi
-        rend="italic">HL</hi> 25 ambulantes <hi rend="italic">HT</hi> 26 quod <hi rend="italic"
-          >om. L</hi>
-      <lb/> operatio manuum (manu <hi rend="italic">T) ALT:</hi> operationum <hi rend="italic"
-        >H</hi> 27 umanitate <hi rend="italic">H</hi>
+      <lb/> 22 si <hi rend="italic">om. L</hi> nec <hi rend="italic">AT:</hi> non <hi rend="italic">HL</hi> 25 ambulantes <hi rend="italic">HT</hi> 26 quod <hi rend="italic">om. L</hi>
+      <lb/> operatio manuum (manu <hi rend="italic">T) ALT:</hi> operationum <hi rend="italic">H</hi> 27 umanitate <hi rend="italic">H</hi>
     </note>
     <pb n="173"/>
     
@@ -10476,26 +10371,19 @@ solatione L 18 sustentatos L1 inquid AGlH 20 sustentari L inquid CAGXH 21 aut re
     <p rend="script">I. Quod septimum certamen aduersus cenodoxiam sit, et de <lb/>
       <choice><sic>uatura</sic><corr>natura</corr></choice> eius.</p>
     
-    <note rend="script" type="footnote"> 8 accidiae <hi rend="italic">H</hi> acidiae <hi
-      rend="italic">L</hi> ipsias] ipsius doemone <hi rend="italic">G</hi> uictoriae <hi
-        rend="italic">L</hi> et<lb/> pergatione <hi rend="italic">H,</hi> om. <hi rend="italic"
-          >L</hi> 0 XXLIII <hi rend="italic">H, om. G</hi> mosi G* 10 accidiae <hi rend="italic"
-            >H</hi>
+    <note rend="script" type="footnote"> 8 accidiae <hi rend="italic">H</hi> acidiae <hi rend="italic">L</hi> ipsias] ipsius doemone <hi rend="italic">G</hi> uictoriae <hi rend="italic">L</hi> et<lb/> pergatione <hi rend="italic">H,</hi> om. <hi rend="italic">L</hi> 0 XXLIII <hi rend="italic">H, om. G</hi> mosi G* 10 accidiae <hi rend="italic">H</hi>
       <lb/> acidiae <hi rend="italic">L</hi> 11 externo <hi rend="italic">L</hi> 13 non to] nacte
       <hi rend="italic">L1</hi> magis eum didicium <lb/>
       <hi rend="italic">H</hi> to om. <hi rend="italic">L</hi> 15 inpugnauit L1 conspectu G1 16
       conspeximus <lb/>
-      <hi rend="italic">LI</hi> 17 congregatione <hi rend="italic">L</hi> inoougruentea <hi
-        rend="italic">L</hi> 18 tollerantia <hi rend="italic">01</hi>
+      <hi rend="italic">LI</hi> 17 congregatione <hi rend="italic">L</hi> inoougruentea <hi rend="italic">L</hi> 18 tollerantia <hi rend="italic">01</hi>
       <lb/> 19 et] sed <hi rend="italic">L</hi> unde om. <hi rend="italic">L</hi> experiment
       u<foreign xml:lang="grc">̄</foreign>
       <hi rend="italic">LI</hi> 20 accidiae <hi rend="italic">H</hi> acidiao <lb/> unde L fugandam
       <hi rend="italic">H</hi> 21 superandam Eiplicit de spu acediae (acidiu <lb/>
       <hi rend="italic">L)</hi> liber ■ X - <hi rend="italic">GL</hi> lucipit de spu caenodoiiae
-      liber XI. Incipiunt <lb/> tituli eiusdem libri <hi rend="italic">L:</hi> om, <hi
-        rend="italic">G</hi> Eiplicit liber de spu aooidiae. Item cap <lb/> de libro XI Incipit
-      de sp<foreign xml:lang="grc">̄</foreign>u oeaodox <hi rend="italic">(sic!)</hi> liber XI <hi
-        rend="italic">H</hi>
+      liber XI. Incipiunt <lb/> tituli eiusdem libri <hi rend="italic">L:</hi> om, <hi rend="italic">G</hi> Eiplicit liber de spu aooidiae. Item cap <lb/> de libro XI Incipit
+      de sp<foreign xml:lang="grc">̄</foreign>u oeaodox <hi rend="italic">(sic!)</hi> liber XI <hi rend="italic">H</hi>
       <lb/> 25 cendoxia <hi rend="italic">L</hi>
     </note>
     <pb n="194"/>
@@ -10541,24 +10429,17 @@ solatione L 18 sustentatos L1 inquid AGlH 20 sustentari L inquid CAGXH 21 aut re
     
     <p rend="script">XVIIII. Remedia quibus ceuodoxiam superare possimus.</p>
     
-    <note rend="script" type="footnote"> 1 cenodoxia <hi rend="italic">L</hi> 2 in <hi rend="italic"
-      >om. HT</hi> 3 cenodoxia L <hi rend="italic">(passim)</hi> sit K <lb/> multis formis <hi
-        rend="italic">H</hi> multiformes <hi rend="italic">LI</hi> 4 quod <hi rend="italic"
-          >H</hi> quodmodo <hi rend="italic">T</hi> 6 quia <hi rend="italic">H</hi>
+    <note rend="script" type="footnote"> 1 cenodoxia <hi rend="italic">L</hi> 2 in <hi rend="italic">om. HT</hi> 3 cenodoxia L <hi rend="italic">(passim)</hi> sit K <lb/> multis formis <hi rend="italic">H</hi> multiformes <hi rend="italic">LI</hi> 4 quod <hi rend="italic">H</hi> quodmodo <hi rend="italic">T</hi> 6 quia <hi rend="italic">H</hi>
       <lb/> naturae <hi rend="italic">L</hi> 7 ciuodoxia <hi rend="italic">H (passim)</hi> 10
       castitate <hi rend="italic">HT</hi> 12 quemamuioduni <lb/>
-      <hi rend="italic">L</hi> ciuodoiia <hi rend="italic">H</hi> cenodozia <hi rend="italic"
-        >L</hi> 15 Oziae diucrsa <hi rend="italic">L</hi> 16 cynodoiia <lb/>
-      <hi rend="italic">H</hi> 17 cenodoxia <hi rend="italic">T:</hi> cynodozia <hi rend="italic"
-        >H, om. Lv</hi> 19 cynodosia <hi rend="italic">H</hi>
+      <hi rend="italic">L</hi> ciuodoiia <hi rend="italic">H</hi> cenodozia <hi rend="italic">L</hi> 15 Oziae diucrsa <hi rend="italic">L</hi> 16 cynodoiia <lb/>
+      <hi rend="italic">H</hi> 17 cenodoxia <hi rend="italic">T:</hi> cynodozia <hi rend="italic">H, om. Lv</hi> 19 cynodosia <hi rend="italic">H</hi>
       <lb/> 20 cellula sua <hi rend="italic">L</hi> 21 deludit <hi rend="italic">L</hi> 22 possit
       <hi rend="italic">L</hi> earum <hi rend="italic">L</hi> 23 plublicate <lb/>
-      <hi rend="italic">L</hi> 24 uitatare <hi rend="italic">H</hi> episcopuh <hi rend="italic"
-        >HT</hi> 25 cynodoxiam <hi rend="italic">H</hi> caenodoxia <lb/>
+      <hi rend="italic">L</hi> 24 uitatare <hi rend="italic">H</hi> episcopuh <hi rend="italic">HT</hi> 25 cynodoxiam <hi rend="italic">H</hi> caenodoxia <lb/>
       <hi rend="italic">L</hi> superare <hi rend="italic">HT:</hi> uiUre <hi rend="italic">Lr</hi>
       Incipit de spiritu conodoiiae liber <lb/> undecimus <hi rend="italic">G</hi> Eipliciunt
-      tituli. Incip taxtus eiusdem libri <hi rend="italic">L</hi> nihil inscriptum <lb/> in <hi
-        rend="italic">H</hi>
+      tituli. Incip taxtus eiusdem libri <hi rend="italic">L</hi> nihil inscriptum <lb/> in <hi rend="italic">H</hi>
     </note>
     <lb n="25"/>
     
@@ -11110,11 +10991,9 @@ solatione L 18 sustentatos L1 inquid AGlH 20 sustentari L inquid CAGXH 21 aut re
     <p>III. Quod superbia- omnes pariter uirtutes auferat. </p>
     <p>IIII. Quod ob superbiam Lucifer ille de archangelo diabolus <lb/> factus sit. </p>
     <p rend="script">V. Quod fomites omnium uitiorum de superbia pullularint</p>
-    <note rend="script" type="footnote"> 1 coenod. <hi rend="italic">G</hi> cinod. <hi rend="italic"
-      >H</hi> caenod. <hi rend="italic">L</hi> 2 quicquid <hi rend="italic">G2L</hi> fratrum
+    <note rend="script" type="footnote"> 1 coenod. <hi rend="italic">G</hi> cinod. <hi rend="italic">H</hi> caenod. <hi rend="italic">L</hi> 2 quicquid <hi rend="italic">G2L</hi> fratrum
       om. <hi rend="italic">H</hi>
-      <lb/> 3 ut] uitii <hi rend="italic">L</hi> debitum <hi rend="italic">H</hi> 6 indicis <hi
-        rend="italic">H</hi> cinod. <hi rend="italic">H</hi> caenod. <hi rend="italic">L</hi>
+      <lb/> 3 ut] uitii <hi rend="italic">L</hi> debitum <hi rend="italic">H</hi> 6 indicis <hi rend="italic">H</hi> cinod. <hi rend="italic">H</hi> caenod. <hi rend="italic">L</hi>
       <lb/> 7 loetale <hi rend="italic">L</hi> contagione <hi rend="italic">Lx</hi> 9 quodcumque
       <hi rend="italic">L</hi> coenod. <hi rend="italic">G</hi> cinod. <hi rend="italic">H
         <lb/> caenod. L</hi> 10 fero I <hi rend="italic">mus G1</hi> 11 <hi rend="italic">utpute
@@ -11124,11 +11003,7 @@ solatione L 18 sustentatos L1 inquid AGlH 20 sustentari L inquid CAGXH 21 aut re
       <hi rend="italic">L)</hi> liber XI (undecimus <hi rend="italic">L) GHL</hi> Incipit de spu
       superbiae liber XII- <lb/> Item capi de libro X <hi rend="italic">(sic) H</hi> Incipiunt
       tituli de libro duodecimo <hi rend="italic">L: om. G</hi>
-      <lb/> 20 sunt <hi rend="italic">HlT</hi> 21 superbiae <hi rend="italic">HT</hi> 22 ob <hi
-        rend="italic">om. HT</hi> 24 uitiorum <lb/> omnium <hi rend="italic"><foreign
-          xml:lang="grc">ΗΤυ</foreign></hi> de <hi rend="italic">om. T</hi> pulularint <hi
-            rend="italic">H</hi> pullularent. <hi rend="italic">L</hi> pulularent <hi rend="italic"
-              >T</hi>
+      <lb/> 20 sunt <hi rend="italic">HlT</hi> 21 superbiae <hi rend="italic">HT</hi> 22 ob <hi rend="italic">om. HT</hi> 24 uitiorum <lb/> omnium <hi rend="italic"><foreign xml:lang="grc">ΗΤυ</foreign></hi> de <hi rend="italic">om. T</hi> pulularint <hi rend="italic">H</hi> pullularent. <hi rend="italic">L</hi> pulularent <hi rend="italic">T</hi>
       <lb/> pullulent r </note>
     <pb n="205"/>
     <p>VI. Quod <choice><sic>superljiae</sic><corr>superbiae</corr></choice> uitium, cum sit in
@@ -11153,8 +11028,7 @@ solatione L 18 sustentatos L1 inquid AGlH 20 sustentari L inquid CAGXH 21 aut re
       salutem nostram pertinet sine adiutorio dei perficere. </p>
     <p>XVIII. Quod non solum in naturali condicione, sed etiam <lb/> in cotidiana dispensatione dei
       gratia muniamur. </p>
-    <p>XVIIII. Quod haec fides ah antiquis patribus tradita sit de <lb/> gratia dei. <lb n="25"
-    /></p>
+    <p>XVIIII. Quod haec fides ah antiquis patribus tradita sit de <lb/> gratia dei. <lb n="25"/></p>
     <p>XX. De eo, qui propter blasphemiam traditus est <sic n="poss">inmundissimo</sic>
       <lb/> spiritui. </p>
     <p>XXI. Exemplum Ioas regis Iudae, quo ostenditur quid propter <lb/> superbiam meruerit.</p>
@@ -11165,12 +11039,9 @@ solatione L 18 sustentatos L1 inquid AGlH 20 sustentari L inquid CAGXH 21 aut re
         HT</hi> 5 diabuli <hi rend="italic">HT</hi>
       <lb/> 6 exitincxerit <hi rend="italic">H</hi> 7 quemammodum <hi rend="italic">L</hi> 10
       uiribus <hi rend="italic">L:</hi> uirtutibus <hi rend="italic">HT</hi>
-      <lb/> obteoere <hi rend="italic">H</hi> optinere <hi rend="italic">T</hi> 12 monatraudam <hi
-        rend="italic">T</hi> 18 beatitudine <hi rend="italic">HT</hi> 17 a <lb/> quibus <hi
-          rend="italic">L:</hi> qui <hi rend="italic">II</hi> a qui <hi rend="italic">T</hi> 19
+      <lb/> obteoere <hi rend="italic">H</hi> optinere <hi rend="italic">T</hi> 12 monatraudam <hi rend="italic">T</hi> 18 beatitudine <hi rend="italic">HT</hi> 17 a <lb/> quibus <hi rend="italic">L:</hi> qui <hi rend="italic">II</hi> a qui <hi rend="italic">T</hi> 19
       obtinentiae <hi rend="italic">H</hi> 22 conditione <hi rend="italic">LT</hi>
-      <lb/> 24 hoc <hi rend="italic">H</hi> 28 quo <hi rend="italic">L:</hi> quod <hi
-        rend="italic">HT</hi> 30 superbiam <hi rend="italic">HT</hi>
+      <lb/> 24 hoc <hi rend="italic">H</hi> 28 quo <hi rend="italic">L:</hi> quod <hi rend="italic">HT</hi> 30 superbiam <hi rend="italic">HT</hi>
     </note>
     <note type="footnote"> XVII. Com. 1</note> <note type="footnote"> 11 </note>
     <pb n="206"/>
