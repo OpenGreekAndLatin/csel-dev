@@ -77,7 +77,7 @@
 </p>
       <refsDecl n="CTS">
         <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='letter']//tei:div[@n='$2' and @subtype='section'])"/>
-        <cRefPattern n="letter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='letter'])"/>
+        <cRefPattern n="letter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
