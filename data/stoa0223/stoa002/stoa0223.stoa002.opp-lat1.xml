@@ -70,7 +70,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="line" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='letter']//tei:div[@n='$2' and @subtype='section']//tei:l[@n='$3'])"/>
+        <cRefPattern n="line" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='letter']/tei:div[@n='$2' and @subtype='section']/tei:l[@n='$3'])"/>
         <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='letter']/tei:div[@n='$2' and @subtype='section'])"/>
         <cRefPattern n="letter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='letter'])"/>
       </refsDecl>
