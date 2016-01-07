@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Corpus Scriptorum Ecclesiasticorum Latinorum</description>
+    <author>Open Greek and Latin</author>
+    <website>https://dh.uni-leipzig.de</website>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>library</type>
+    <target>ogl-csel</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+</meta>
