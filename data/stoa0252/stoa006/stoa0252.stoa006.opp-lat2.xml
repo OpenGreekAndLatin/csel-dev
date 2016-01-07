@@ -76,7 +76,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -93,7 +93,7 @@
 <ab>
             <title type="sub">EPISTOLA AD MACEDONIVM. </title>
           </ab>
-          <p rend="script">SANCTO AC BEATISSIMO PATRI MACEDONIO PRESBVTEEO <lb/>
+          <p n="1" rend="script">SANCTO AC BEATISSIMO PATRI MACEDONIO PRESBVTEEO <lb/>
             SEDVLIVS IN CHBISTO SALVTEM. Praecepisti, reuerende mi <lb/>
             domine, paschalis carminis textum, quod officium purae <choice><sic>denotionis</sic><corr>deuotionis</corr></choice> <lb/>
             simpliciter exsecutus uobis obtuli perlegendum, in <lb/>
