@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL10.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Iohannes Huemer</name>
+                  <addName xml:lang="de">Johannes Huemer</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1793.1">Sedulius</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0252.stoa006">Epistula ad Macedonium</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0252.stoa002">Carmen Paschale</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0252.stoa008">Opus Paschale</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0252.stoa003">Carmina ad Sedulium Spectantia</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0241d.stoa002">Excerpta ex Remigii Expositione in Paschale Carmen</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1885</date>
+              </imprint>
+              <biblScope unit="volume">10</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru09wiengoog#page/n7/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="paragraph" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='paragraph'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0252.stoa006.opp-lat2">
+<ab>
+            <title type="sub">EPISTOLA AD MACEDONIVM. </title>
+          </ab>
+          <p rend="script">SANCTO AC BEATISSIMO PATRI MACEDONIO PRESBVTEEO <lb/>
+            SEDVLIVS IN CHBISTO SALVTEM. Praecepisti, reuerende mi <lb/>
+            domine, paschalis carminis textum, quod officium purae <choice><sic>denotionis</sic><corr>deuotionis</corr></choice> <lb/>
+            simpliciter exsecutus uobis obtuli perlegendum, in <lb/>
+            rhetoricum me transferre sermonem. utrum quod placuerit, <lb n="5"/>
+            ideo geminari <choice n="0.24"><sic n="27">nolueris</sic><corr n="84">uolueris</corr></choice>, an quod offenderit, ut potius arbitror, <lb/>
+            stilo censueris liberiore describi: sub dubio uideor fluctuare <lb/>
+            iudicio. sanctis tamen iussionibus non resultans iniunctam <lb/>
+            suscepi prouinciam et procellosis adhuc imbribus concussae <lb/>
+            ratis uela madentia tumentis pelagi rursus fatigationi commisi <lb n="10"/>
+            per emensos cursus reuoluti discriminis et Cycladas ingentes, <lb/>
+            quas praecipitanti formidine celerius ante transiueram, <lb/>
+            longa maris circuitione discurrens, ut illos portus et litora, <lb/>
+            quae dudum praetereundo lustraui, <choice n="0.00"><sic n="1">diligentias</sic><corr n="157">diligentius</corr></choice> opera nunc
+
+<note type="footnote"> 11 cf. Hor. C. I 14, 20 </note>
+
+<note rend="script" type="footnote"> IlfCIPIT EPISTOLA SEDVLII (PRESBITERI P) <hi rend="italic">PBH,</hi> Dedicatio operis <lb/>
+            paschalis ad Macedonium v 1 presbitero <hi rend="italic">PBH</hi> 2 xpõ <hi rend="italic">PRH</hi> <lb/>
+            precepisti P 3 pascalis <hi rend="italic">H</hi> officio <hi rend="italic">H v</hi> 4 executus <hi rend="italic">B,</hi> <lb/>
+            ex∗ecutus <hi rend="italic">H</hi> optuli <hi rend="italic">R</hi> perlegemdum <hi rend="italic">H</hi> 5 rethoricum <hi rend="italic">PB</hi> <lb/>
+            me potius transferre <hi rend="italic">Gall. coni. ∗utrum</hi> (q? <hi rend="italic">eras.) P</hi> qaod utrum <lb/>
+            libri, quod utrum quod <hi rend="italic">Arev. coni</hi>. 6 geminare <hi rend="italic">P</hi> censeas neris <lb/>
+            <hi rend="italic">H</hi> 8 nonresultans <hi rend="italic">B,</hi> resi∗∗∗∗as <hi rend="italic">H,</hi> resiliens v 9 prouiatiam <hi rend="italic">P,</hi> <lb/>
+            protmica <hi rend="italic">BH</hi> 10 t amadentia P cursus <hi rend="italic">ex</hi> cursos H* <lb/>
+            11 cicladas <hi rend="italic">B</hi> 12 praecipitante <hi rend="italic">B</hi> cseleriua P transieram <lb/>
+            a o <lb/>
+            <hi rend="italic">Hv</hi> 13 portos (a <hi rend="italic">am. 2) H</hi> illas <hi rend="italic">B</hi> discurrens] s, <hi rend="italic">in ras</hi>. <lb/>
+            m <lb/>
+            <hi rend="italic">2 Jitt. P</hi> que P 14 pretereendo P diligenti.. opere <hi rend="italic">H,</hi> <lb/>
+            diligentiori o. v </note> <lb/>
+             
+<pb n="172"/>
+            uiserem tarditatis. siquidem multa pro metricae necessitatis <lb/>
+            angustia priori commentario nequaquam uidentur inserta, quae <lb/>
+            <choice><sic>postwodum</sic><corr>postmodum</corr></choice> linguae resolutio magis est adsecuta, dederimus <lb/>
+            hinc aliquam forsitan obtrectatoribus uiam, dicentque nonnulli <lb/>
+            fidem translationis esse corruptam, quia certa uidelicet sunt<lb n="5"/>
+            in oratione quae non habentur in carmine. si qui tamen istud <lb/>
+            obiciant, faciuntne intellegendo, ut nihil intellegant? <lb/>
+            nam si aut saeculares litteras adsecuti aut diuinis <choice><sic>uidebuutur</sic><corr>uidebuntur</corr></choice> <lb/>
+            libris instructi, debent exempla ueterum recensere <lb/>
+            <sic>necsimilialacerare</sic> conentur iniuste. cognoscant Hermogenianum,<lb n="10"/>
+            doctissimum iurislatorem, tres editiones sui operis confecisse, <lb/>
+            cognoscant peritissimum diuinae legis Origenem, tribus nihilominus <lb/>
+            editionibus prope cuncta quae disseruit aptauisse. nec <lb/>
+            eorum quispiam mordacis linguae <choice><sic>Iaceratur</sic><corr>laceratur</corr></choice> iniuria, cum potius <lb/>
+            inde laudis consequantur augmenta, quod prouectibus uberioris<lb n="15"/>
+            ingenii diligentiore posteros fide noscendae ueritatis instruxerint. <lb/>
+            aliud namque est mutare composita et aliud integrare <lb/>
+            non plena. quamuis spatia diuinae legis inmensa, quibus dicta <lb/>
+            semper adiciuntur et desunt, uelut mare fluuiorum penitus <lb/>
+            incrementa non sentiens, nullis terminari sensibus queant,
+
+<note type="footnote"> 7 cf. Terent. Andr. prol. 17 </note>
+
+<note rend="script" type="footnote"> I <lb/>
+            1 uiserem (i <hi rend="italic">a m</hi>. 2) <hi rend="italic">P,</hi> uisere <hi rend="italic">R,</hi> uiser*m <hi rend="italic">H</hi> traditas <hi rend="italic">1,</hi> <lb/>
+            Tradita <hi rend="italic">v</hi> 3 assecuta <hi rend="italic">RH2</hi> 4 aliquam forsitan <hi rend="italic">om. v, eras. <lb/>
+            in H</hi> 5 correpta <hi rend="italic">RH</hi> quia] <hi rend="italic">i corr. m. 2 P</hi> certe <lb/>
+            <hi rend="italic">H</hi> 6 que P siquid P 7 faciantne P ne] nae <lb/>
+            <hi rend="italic">Arev.,</hi> nec <hi rend="italic">Gall. cum reliquis patrum bibliothecis</hi> intelligendo <hi rend="italic">ex</hi> intellegendo <lb/>
+            <hi rend="italic">P2H2</hi> aut] <hi rend="italic">in</hi> ras. <hi rend="italic">litt. min. scr. R,</hi> si∗∗∗ H, sicut 1 <lb/>
+            nam si saeculares v 8 seculares <hi rend="italic">PH</hi> assecuti B 9 in <lb/>
+            libris <hi rend="italic">P</hi> 10 ne <hi rend="italic">v</hi> 11 ediciones <hi rend="italic">H</hi> 12 nihil hominus <lb/>
+            <hi rend="italic">R</hi> 13 propecunia <hi rend="italic">B,</hi> propellllcunia <hi rend="italic">H</hi> disseruisse <hi rend="italic">R,</hi> deseruit <lb/>
+            <hi rend="italic">H</hi> 14 <hi rend="italic">ante</hi> cum <hi rend="italic">rasura in H</hi> 15 consequat P <lb/>
+            augmenta] gm <hi rend="italic">corr. m. 1, 8. I. add. m. 2 P</hi> quod <hi rend="italic">v,</hi> quo P, qua <lb/>
+            <hi rend="italic">R,</hi> q///// <hi rend="italic">H</hi> prou∗∗∗ibus <hi rend="italic">H,</hi> prouentibus v 16 instruxerant v <lb/>
+            <hi rend="italic">(exc. Col.)</hi> 17 aliud est namque <hi rend="italic">PHx</hi> muta <hi rend="italic">H</hi> integrare <lb/>
+            ∗∗∗∗ena <hi rend="italic">H</hi> integrare. Nam <hi rend="italic">v</hi> 18 spatia] B <hi rend="italic">am. 2 P,</hi> spacia <hi rend="italic">H</hi> <lb/>
+            imp mensa <hi rend="italic">PB</hi> 19 addiciuntur P uelud <hi rend="italic">H</hi> paenitus P <lb/>
+            20 quaent <hi rend="italic">P,</hi> qu*eant (a <hi rend="italic">eras.) R</hi> </note> <lb n="20"/>
+             
+<pb n="173"/>
+            nullis explicari linguis eualeant: sic et nostri prorsus ab sese <lb/>
+            libelli non discrepant, sed quae <choice><sic>rdefuerant</sic><corr>defuerant</corr></choice> primis addita sunt <lb/>
+            secundis. nec impares argumento uel ordine, sed stilo uidentur <lb/>
+            et oratione dissimiles. proferant igitur sua si qui carpere <lb/>
+            nitentur aliena. promptius est omnibus iudicare quam facere <lb n="5"/>
+            et de castrensi munimine pugnantium pericula securo uultu <lb/>
+            conspicere. credo tamen, pater egregie, nullum fore quamuis <lb/>
+            inpudenter obloquum, si meruero dextrum tui pectoris adipisci <lb/>
+            iudicium. faue primus ut alii faueant, et omnium mentibus <lb/>
+            sententia se probatae iugiter auctoritatis infundat. tu facies ut <lb n="10"/>
+            delectet euasisse discrimina, cum serenior coeperis aperire tranquilla. <lb/>
+            nauigaui prius in aequore, nunc in portu iam nauigem; <lb/>
+            tandem aliquando post undas calcare liceat nos harenas! <lb/>
+            tetigimus montes ex pelago: tangamus montes ex saxo et <lb/>
+            infirmos aquis inruentibus gressus nauali positos statione firmemus. <lb n="15"/>
+            priores igitur libri, quia uersu digesti sunt, nomen <lb/>
+            PASCHAUS CARMINIS acceperunt, sequentes autem in prosam <lb/>
+            nulla cursus uarietate conuersi, PASCHALIS designantur OPERIS <lb/>
+            uocabulo nuncupati. utramque uero materiem uobis orantibus,
+
+<note type="footnote"> 3 cf. Terent. Andr. prol. 11-12, Hierou. Ep. LVII p. 305 Vall. </note>
+
+<note rend="script" type="footnote"> 1 eiplicare] e, <hi rend="italic">ex i P1 ex corr</hi>. linguis (s <hi rend="italic">am. 2) P</hi> ∗eualeant <lb/>
+            (s <hi rend="italic">eras.)</hi> P, *ualeant <hi rend="italic">H,</hi> ualeant v abee <hi rend="italic">R,</hi> *a sese (h <hi rend="italic">eras.) H</hi> <lb/>
+            2 addita∗∗ (ta <hi rend="italic">eras.) P</hi> 3 inpares <hi rend="italic">H</hi> argumento] o <hi rend="italic">corr. P2</hi> <lb/>
+            5 nituntur <hi rend="italic">Rv,</hi> nit∗∗tur <hi rend="italic">H post</hi> est <hi rend="italic">ras</hi>. (enim?) <hi rend="italic">in H</hi> facere. <lb/>
+            Sed de (t <hi rend="italic">eras.) P</hi> 6 muni**ne <hi rend="italic">H,</hi> munime <hi rend="italic">1</hi> pugnantium] <hi rend="italic">eras. <lb/>
+            2P, om. v</hi> 7 egregi*e (a <hi rend="italic">eras.) H</hi> 8 impudenter <hi rend="italic">Rv</hi> <lb/>
+            oblocum <hi rend="italic">P,</hi> obliquum <hi rend="italic">R, obloquium v, ras</hi>. in <hi rend="italic">H</hi> tui] <hi rend="italic">eras. H2, om</hi>. <lb/>
+            v 9 primu* <hi rend="italic">H,</hi> primum <hi rend="italic">v</hi> 10 sententias repbse P (repbate <hi rend="italic">in mg. <lb/>
+             add. m</hi>. 2), sententia reprobatę R, s. reprobate <hi rend="italic">H</hi> facias <hi rend="italic">H</hi> <lb/>
+            11 dilectet <hi rend="italic">H</hi> 12 <hi rend="italic">nauiga////////</hi> equore <hi rend="italic">H</hi> nauigare rursus v <lb/>
+            a <lb/>
+            nagigem P nunc in portu iam nauigem] <hi rend="italic">locum Iuretus asterisco<lb/>
+             notauit</hi> 13 Tandem aliquando post undas calcare liceat. nos arenas <lb/>
+            tetigimus montes ex pelago. Tangamus etc. <hi rend="italic">Col. Par.;</hi> calcare liceat; <lb/>
+            non arenas <hi rend="italic">Gall. in textu,</hi> c. liceat nOli arenas qui tetigimus m. e. p. <hi rend="italic">in <lb/>
+            adn</hi>. 14 ex saxo] s <hi rend="italic">a m. 2 P</hi> 15 irruentibus <hi rend="italic">Rv</hi> nauali] <lb/>
+            1 <lb/>
+            nana <hi rend="italic">H</hi> 16 qu-a <hi rend="italic">R</hi> 18 nullam <hi rend="italic">H</hi> prosa nulla <hi rend="italic">v</hi> <lb/>
+            19 utram <hi rend="italic">RH</hi> materię <hi rend="italic">R,</hi> materia <hi rend="italic">H</hi> </note> <lb/>
+             
+<pb n="174"/>
+            Domino nostro Iesu Christo, qui uota non recusat humilium, <lb/>
+            congrego supplicanter et offero, cui uirtus, honor et gloria <lb/>
+            cum Patre et Spiritu sancto per omnia saecula saeculorum. <lb/>
+            <choice n="0.88"><sic n="8">Amen</sic><corr n="1">Arnen</corr></choice>.
+
+<note rend="script" type="footnote"> 1 dūo uro ihu rpo <hi rend="italic">RH,</hi> nostro om. <hi rend="italic">Pv</hi> qu nota <hi rend="italic">H</hi> <lb/>
+            2 ∗∗grego H, et grego <hi rend="italic">Iv (uel</hi> et rogo), erogo <hi rend="italic">Arev. coni</hi>. cui <lb/>
+            e R, cui ∗∗∗ <hi rend="italic">H cf. epist. Carm. praemissam</hi> 3 spn sco <hi rend="italic">PR,</hi> sancto <lb/>
+            spiritu <hi rend="italic">H</hi> scta sclors am <hi rend="italic">R</hi> EXPLICIT EPISTOLA <hi rend="italic">R, om. PH</hi> </note> 
+<pb n="175"/>
+             
+</p>
+</div>
+</body>
+</text>
+</TEI>
