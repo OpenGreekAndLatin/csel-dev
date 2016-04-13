@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,7 +98,7 @@
           </ab>
           <l n="1">Sume, sacer meritis, ueracis dicta poetae,</l>
           <l n="2">Quae sine figmenti condita sunt uitio,</l>
-          <l n="3"><sic>Qoo</sic> caret alma fides, quo sancti gratia Christi,</l>
+          <l n="3">Quo caret alma fides, quo sancti gratia Christi,</l>
           <l n="4">Per quam iustus ait talia Sedulius.</l>
           <l n="5">Asteriique tui semper meminisse iubeto,</l>
           <l n="6">Cuius ope et cura edita sunt populis.</l>
@@ -109,10 +107,10 @@
 </div>
   <div n="2a" type="textpart" subtype="poem">
           <ab>
-            <title type="sub"><sic>IIa</sic>. VERSVS BELLESABII SCOLASTICI. </title>
+            <title type="sub">II. VERSVS BELLESABII SCOLASTICI. </title>
           </ab>
-            <l n="1">S <sic>edulius</sic> Christi miracula uersibus <sic>eden</sic> S </l>
-            <l n="2">E micat, inuitans <sic>paroae</sic> ad solemnia mensa E </l>
+            <l n="1">S edulius Christi miracula uersibus eden S </l>
+            <l n="2">E micat, inuitans paruae ad solemnia mensa E </l>
 
 <note type="footnote"> 2 cf. Sedul. p. C. I 17 2 cf. Sedul. p. C. I 2 sq. </note>
 
@@ -139,16 +137,16 @@
 <note type="footnote"> 20* </note> <lb/>
              
 <pb n="308"/>
-            <l n="3">D <choice><sic>ignum</sic><corr>ignnm</corr></choice> conuiuam, non hunc, qui carperet <choice><sic>illu</sic><corr>illa</corr></choice> D, </l>
+            <l n="3">D ignum conuiuam, non hunc, qui carperet illu D, </l>
             <l n="4">V ix quod nobilium triplici fert aula parat V, </l>
             <l n="5">L aetum quod ponit sub aurea tecta tribuna L, </l>
             <l n="6">1 n quo gemmiferi totque aurea uasa canistr I </l>
-            <l n="7">V iuida pro modico portant sibi prandia <choice><sic>uiet</sic><corr>uict</corr></choice> V, </l>
-            <l n="8">S ed quod holus <choice><sic>nile</sic><corr>uile</corr></choice> producit pauperis hortu S. </l>
+            <l n="7">V iuida pro modico portant sibi prandia uict V, </l>
+            <l n="8">S ed quod holus uile producit pauperis hortu S. </l>
             <l n="9">A t post delicias properant qui sumere magn A, </l>
-            <l n="10">10 N <sic n="poss">ituntur</sic> paruum miserorum spernere germe N: </l>
+            <l n="10">10 N ituntur paruum miserorum spernere germe N: </l>
             <l n="11">T utum quod nihil est (tutum nil uentre tumesci T), </l>
-            <l n="12">I nsidias membrisque <choice n="0.18"><sic n="33">monent</sic><corr n="148">mouent</corr></choice> animaeque ludent</l>
+            <l n="12">I nsidias membrisque mouent animaeque ludent</l>
             <l n="13">S i tamen his dapibus uesci dignantur egeni S, </l>
             <l n="14">T emnat diuitias animus paucisque quiesca T. </l>
             <l n="15">E xemplo adsumptus Domini, qui milia quinqu E </l>
@@ -228,10 +226,10 @@
             dauitico delectu <hi rend="italic">EBf (dilecto) mf</hi> (dilectn), diletus <hi rend="italic">K</hi> plecta <hi rend="italic">C</hi> </note> <lb/>
              
 <pb n="310"/>
-            <l n="12">I rrita polluti contemnens numina <choice><sic>mond</sic><corr>mund</corr></choice> I. </l>
-            <l n="13">S igna <choice><sic>crncis</sic><corr>crucis</corr></choice> fronti ponit breuiterque triumpho S</l>
+            <l n="12">I rrita polluti contemnens numina mund I. </l>
+            <l n="13">S igna crucis fronti ponit breuiterque triumpho S</l>
             <l n="14">T angit, Christe, tuos numerosaque praemia liba T. </l>
-            <l n="15">E rgo dum uario decorat sua <choice n="0.39"><sic n="169">rara</sic><corr n="257">rura</corr></choice> color E, </l>
+            <l n="15">E rgo dum uario decorat sua rura color E, </l>
             <l n="16">S tabunt hi garrula dicti testudine uersu S. </l>
             
 </div>
@@ -247,8 +245,8 @@
             <l n="6">Auspiciis, hinc progeniem uirtute futuram </l>
             <l n="7">Egregiam, et totum quae legibus occupet orbem. </l>
             <l n="8">Ne tamen in terris <milestone unit="break"/> mortalia pectora turbet </l>
-            <l n="9">Ignotum <choice><sic>numeni</sic><corr>numen</corr></choice>, Deus aethere missus ab alto </l>
-            <l n="10"><choice n="0.33"><sic n="2">Mortalia</sic><corr n="4">Mortalis</corr></choice> uisus <milestone unit="break"/> potuit, quantusque uideri. </l>
+            <l n="9">Ignotum numen, Deus aethere missus ab alto </l>
+            <l n="10">Mortalis uisus <milestone unit="break"/> potuit, quantusque uideri. </l>
 
 <note type="footnote"> 12 cf. epist. ad Mac. 2, 7 s. 13 cf. Sedul. I 343 1 Aen. <lb/>
             V 727 (alto est) 2 Aen. III 518 (uidet) 3 Aen. VIII 373 <lb/>
@@ -278,20 +276,20 @@
             
 
             <l n="11">Virgo matura fuit, iam plenis nubilis annis, </l>
-            <l n="12">Cui genus a proauis ingens<milestone unit="break"/> nomenque <choice><sic>decasque</sic><corr>decusque</corr></choice>, </l>
+            <l n="12">Cui genus a proauis ingens<milestone unit="break"/> nomenque decusque, </l>
             <l n="13">Intemerata toris <milestone unit="break"/>. talem se laeta ferebat, </l>
-            <l n="14">Casta pudicitiam<milestone unit="break"/> miro <choice><sic>sernabat</sic><corr>seruabat</corr></choice> amore. </l>
-            <l n="15"><choice><sic>Hnic</sic><corr>Huic</corr></choice> se forma Dei <milestone unit="break"/>, caelo dimissus ab alto </l>
+            <l n="14">Casta pudicitiam<milestone unit="break"/> miro seruabat amore. </l>
+            <l n="15">Huic se forma Dei <milestone unit="break"/>, caelo dimissus ab alto </l>
             <l n="16">Spiritus, intus alit et casto corpore miscet. </l>
             <l n="17">Ante tamen dubiam  <milestone unit="break"/> dictis solatur amicis: </l>
-            <l n="18">Alma parens <milestone unit="break"/>, <choice n="0.52"><sic n="944">modi</sic><corr n="851">mundi</corr></choice> Dominum paritura potentem </l>
+            <l n="18">Alma parens <milestone unit="break"/>, mundi Dominum paritura potentem </l>
             <l n="19">(Nam te digna manent generis cunabula sancti), </l>
             <l n="20">Vade, ait, o felix nati pietate <milestone unit="break"/>, quocumque uocaris, </l>
             <l n="21">Auspiciis manifesta nouis<milestone unit="break"/> ! hic uertitur ordo,, </l>
             <l n="22">Huius in aduentu fides<milestone unit="break"/> et fama perennis. </l>
             <l n="23">Dixerat: illa <milestone unit="break"/> pauens oculos suffusa nitentis, </l>
-            <l n="24"><choice><sic>Snspirans</sic><corr>Suspirans</corr></choice> imoque trahens a pectore uocem </l>
-            <l n="25">Virgo refert: <sic>lhaut</sic> equidem tali me dignor honore </l>
+            <l n="24">Suspirans imoque trahens a pectore uocem </l>
+            <l n="25">Virgo refert: haut equidem tali me dignor honore </l>
             <l n="26">Non opis est nostrae) nec fas <milestone unit="break"/>, nec coniugis umquam </l>
             <l n="27">Praetendi taedas aut haec in foedera ueni. </l>
             <l n="28">Sed post iussa Deum <milestone unit="break"/> nihil est, quod dicta recusem. </l>
@@ -320,28 +318,28 @@
             31 ammiranda C </note> <lb/>
              
 <pb n="312"/>
-            <l n="33">Sideream in sedem, terras <choice><sic>onde</sic><corr>unde</corr></choice> arduus omnis </l>
-            <l n="34">Aspicit<milestone unit="break"/>, et <choice n="0.83"><sic n="419">natum</sic><corr n="80">uatum</corr></choice><milestone unit="break"/> uerbis <choice><sic>conpeilat</sic><corr>conpellat</corr></choice> <choice><sic>amicia</sic><corr>amicis</corr></choice>: </l>
-            <l n="35">Nate, meae uires, mea <choice><sic>magsa</sic><corr>magna</corr></choice> potentia <choice n="0.94"><sic n="954">solus</sic><corr n="54">solas</corr></choice>, </l>
+            <l n="33">Sideream in sedem, terras unde arduus omnis </l>
+            <l n="34">Aspicit<milestone unit="break"/>, et natum<milestone unit="break"/> uerbis conpellat amicis: </l>
+            <l n="35">Nate, meae uires, mea magna potentia solus, </l>
             <l n="36">Nate<milestone unit="break"/>, mihi quem nulla dies ab origine rerum , </l>
-            <l n="37">Dissimilem arguerit <milestone unit="break"/>, comitem complector in <sic>omais</sic>. </l>
-            <l n="38">Te sine nil <choice><sic>altom</sic><corr>altum</corr></choice> mens inchoat<milestone unit="break"/>: omnia mecum </l>
+            <l n="37">Dissimilem arguerit <milestone unit="break"/>, comitem complector in omnis. </l>
+            <l n="38">Te sine nil altum mens inchoat<milestone unit="break"/>: omnia mecum </l>
             <l n="39">Aeternis regis imperiis<milestone unit="break"/>; et quidquid ubique est, </l>
             <l n="40">Nulla meis sine te quaeretur gloria rebus: </l>
-            <l n="41">Omnia <choice><sic>snb</sic><corr>sub</corr></choice> pedibus, qua sol utrumque recurrens </l>
-            <l n="42">Aspicit oceanum, uertique regique <choice n="0.53"><sic n="84">uidebunt</sic><corr n="74">uidebant</corr></choice>. </l>
+            <l n="41">Omnia sub pedibus, qua sol utrumque recurrens </l>
+            <l n="42">Aspicit oceanum, uertique regique uidebunt. </l>
             <l n="43">Quae tibi polliceor <milestone unit="break"/>, neque est te fallere quicquam, </l>
-            <l n="44">Haec tibi semper erunt <milestone unit="break"/> <choice n="0.83"><sic n="419">natum</sic><corr n="80">uatum</corr></choice> praedicta priorum: </l>
-            <l n="45">Nec mea iam <choice><sic>motata</sic><corr>mutata</corr></choice> loco sententia cedit. </l>
+            <l n="44">Haec tibi semper erunt <milestone unit="break"/> uatum praedicta priorum: </l>
+            <l n="45">Nec mea iam mutata loco sententia cedit. </l>
             <l n="46">Nascere praeque diem ueniens age, lucifer, almum; </l>
             <l n="47">Nascere<milestone unit="break"/>, quo toto surgat gens aurea mundo. </l>
-            <l n="48"><choice><sic>Ynde</sic><corr>Vnde</corr></choice> etiam magnus caelorum nascitur ordo. </l>
+            <l n="48">Vnde etiam magnus caelorum nascitur ordo. </l>
             <l n="49">Nascere <milestone unit="break"/>, ut incipiant magni procedere menses, </l>
-            <l n="50">Ne maneant terris<milestone unit="break"/> priscae uestigia <choice><sic>flandis</sic><corr>fraudis</corr></choice>, </l>
+            <l n="50">Ne maneant terris<milestone unit="break"/> priscae uestigia fraudis, </l>
             <l n="51">Prospera <milestone unit="break"/> uenturo laetentur ut omnia saeclo. </l>
             <l n="52">Adgredere o magnos (aderit iam tempus) honores: </l>
             <l n="53">Aspera tum positis mitescent saecula bellis </l>
-            <l n="54">Pacatumque reges patriis <choice><sic>uirtntibus</sic><corr>uirtutibus</corr></choice> orbem. </l>
+            <l n="54">Pacatumque reges patriis uirtutibus orbem. </l>
 
             <l n="55">Haut mora: continuo Patris praecepta facessit, </l>
             <l n="56">Aethere se mittit <milestone unit="break"/> figitque in uirgine uultus, </l>
@@ -365,7 +363,7 @@
             <l n="57">Nec mortale tuens, afflata est lumine quando </l>
             <l n="58">iam propiore Dei  <milestone unit="break"/>. nam tempore eodem </l>
             <l n="59">Matri longa decem tulerunt fastidia mensis, </l>
-            <l n="60">Et noua progenies <milestone unit="break"/> mox clara in luce <choice><sic>refolsit</sic><corr>refulsit</corr></choice>. </l>
+            <l n="60">Et noua progenies <milestone unit="break"/> mox clara in luce refulsit. </l>
             <l n="61">Mox etiam magni <milestone unit="break"/> processit numinis astrum,. </l>
             <l n="62">Stella facem ducens multa cum luce cucurrit. <lb/>
             .............. <lb/>
@@ -375,7 +373,7 @@
             <l n="64">Monstrat iter<milestone unit="break"/> nobis ad eum<milestone unit="break"/>, quem semper acerbum, </l>
             <l n="65">Semper honoratum <milestone unit="break"/> cuncti[ celebrate fauentes. </l>
             <l n="66">Annua uota tamen  <milestone unit="break"/> noctem non amplius unam </l>
-            <l n="67">Haut segnes <milestone unit="break"/> uigilate, uiri<milestone unit="break"/>, <choice><sic>dapibnsque</sic><corr>dapibusque</corr></choice> futuris </l>
+            <l n="67">Haut segnes <milestone unit="break"/> uigilate, uiri<milestone unit="break"/>, dapibusque futuris </l>
             <l n="68">Luce palam <milestone unit="break"/> cumulate piis altaria donis. </l>
             <l n="69">Hac uestri maneant in religione nepotes. </l>
             <l n="70">Iamque egomet patris <milestone unit="break"/> sedes arcemque reuiso. </l>
@@ -405,22 +403,22 @@
              
 <pb n="314"/>
             <l n="78">Concordes animae <milestone unit="break"/>, si non inrita dicta putatis. </l>
-            <l n="79">Nulla dies <choice><sic>nsquam</sic><corr>usquam</corr></choice> memori <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> eximet <choice><sic>aeao</sic><corr>aeuo</corr></choice>: </l>
+            <l n="79">Nulla dies usquam memori uos eximet aeuo: </l>
             <l n="80">Mortalem eripiam formam  <milestone unit="break"/> et praemia reddam </l>
             <l n="81">Fortunatorum nemorum sedesque beatas. </l>
             <l n="82">Non eritis regno indecores, nec uestra feretur </l>
             <l n="83">Fama lenis <milestone unit="break"/>, mecum pariter considere regnis. </l>
-            <l n="84">Vrbem quam statuo, <choice n="0.00"><sic n="1">nestra</sic><corr n="970">uestra</corr></choice> est <milestone unit="break"/>: intrare licebit. </l>
+            <l n="84">Vrbem quam statuo, uestra est <milestone unit="break"/>: intrare licebit. </l>
             <l n="85">Nusquam abero, et tutos patrio uos limite sistam: </l>
             <l n="86">Idem uenturos tollemus in astra nepotes. </l>
-            <l n="87">Quae <choice n="0.00"><sic n="1">nero</sic><corr n="7062">uero</corr></choice> nunc quoque uobis <milestone unit="break"/>, dum uita manebit, </l>
+            <l n="87">Quae uero nunc quoque uobis <milestone unit="break"/>, dum uita manebit, </l>
             <l n="88">Praemia digna feram<milestone unit="break"/>? non uobis numine nostro </l>
             <l n="89">Diuitis uber agri rerumque opulentia derit. </l>
             <l n="90">Fundit humo facilem nictum iustissima tellus- </l>
             <l n="91">Prouentuque onerat sulcos atque horrea uincit, </l>
             <l n="92">Floret ager, spumat plenis uindemia labris, </l>
             <l n="93">Exuberant fetus <milestone unit="break"/> ramos frondentis oliuae: </l>
-            <l n="94">Quotque in flore <choice n="0.22"><sic n="95">nono</sic><corr n="329">nouo</corr></choice> pomis se fertilis arbor </l>
+            <l n="94">Quotque in flore nouo pomis se fertilis arbor </l>
             <l n="95">Induerit, totidem autumno matura tenebit. </l>
             <l n="96">Non liquidi gregibus fontes, non gramina derunt, </l>
             <l n="97">Et quantum longis carpent armenta diebus, </l>

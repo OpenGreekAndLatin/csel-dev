@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
@@ -93,13 +91,13 @@
                         <title type="sub">EX CHRISTIANA RELIGIONE AD IDOLORUM SERVITVTESI CONVERSTM. </title>
                     </ab>
                     <l n="1">Cum te diuersis iterum uanisque uiderem </l>
-                    <l n="2">inseruire sacris priscoque errore <choice><sic>teueri</sic><corr>teneri</corr></choice>, </l>
+                    <l n="2">inseruire sacris priscoque errore teneri, </l>
                     <l n="3">obstipui motus. quia carmina semper amasti. </l>
                     <l n="4">carmine respondens properaui scribere uersus, </l>
                     <l n="5">ut te corriperem tenebras praeponere luci. </l>
                     <l n="6">quis patiatur enim te Matrem credere magnam </l>
                     <l n="7">posse deam dici rursusque putare colendam. </l>
-                    <l n="8">cuius cultores infamia turpis <choice><sic>inuritV</sic><corr>inurit</corr></choice> </l>
+                    <l n="8">cuius cultores infamia turpis inurit </l>
                     <l n="9">namque sacerdotes tunicis muliebribus idem </l>
                     <l n="10">interius uitium cultu exteriore fatentur, </l>
                     <l n="11">idque licere putant, quod non licet; unde per urbem </l>
@@ -152,7 +150,7 @@
                     <l n="34">aedibus illa tuis semper monumenta manebunt.  </l>
                     
                     <l n="35">Rumor et ad nostros peruenit publicus aures </l>
-                    <l n="36">te dixisse: „Dea, <choice><sic>elTaui</sic><corr>erraui</corr></choice>; ignosce, <sic>rediui</sic>." </l>
+                    <l n="36">te dixisse: „Dea, erraui; ignosce, rediui." </l>
                     
                     <note rend="script" type="footnote"> " <lb/>
                         15 dclebrant P 16 <hi rend="italic">ut R</hi> at <hi rend="italic">PF</hi> at <hi rend="italic">rec. carr. F*</hi> 17 peribent P <lb/>
@@ -179,7 +177,7 @@
                     <l n="40">haec iterum repetis nec te delinquere sentis: </l>
                     <l n="41">quid mereare. uide. minus esses forte notandus, </l>
                     <l n="42">si tantum hoc scires et in hoc errore maneres; </l>
-                    <l n="43">at cum uericolae <choice><sic>penetraueris</sic><corr>peuetraueris</corr></choice> ostia legis </l>
+                    <l n="43">at cum uericolae penetraueris ostia legis </l>
                     <l n="44">et tibi nosse deum paucis prouenerit annis, </l>
                     <l n="45">cur linquenda tenes aut cur retinenda relinquis? </l>
                     <l n="46">nilque colis. dum cuncta colis. nec corde retractas, </l>
@@ -219,7 +217,7 @@
                     <pb n="230"/>
                     <l n="60">pro poena posuit "sedet aeternumque sedebit </l>
                     <l n="61">infelix Theseus." semper nocet utile longum: </l>
-                    <l n="62">prandia <choice><sic>louga</sic><corr>longa</corr></choice> nocent, ieiunia longa fatigant. </l>
+                    <l n="62">prandia longa nocent, ieiunia longa fatigant. </l>
                     <l n="63">sic nimium sapere stultum facit. — improba secta. </l>
                     <l n="64">me dea sic docuit; moderamen amabile" dixit." — </l>
                     <l n="65">sed tu nec sectam modo nec moderamina curas. </l>
@@ -229,7 +227,7 @@
                     <l n="69">et dolus e contra longo cruciabitur igni. </l>
                     <l n="70">elige, quid uelis, ut digna piacula uites. </l>
                     <l n="71">sic tamen hanc ueniam mereatur creditor. inquam: </l>
-                    <l n="72">ut <choice n="0.22"><sic n="54">lene</sic><corr n="190">leue</corr></choice> crimen erit, si nolis noscere uera, </l>
+                    <l n="72">ut leue crimen erit, si nolis noscere uera, </l>
                     <l n="73">non leue crimen erit. si cognita uera relinquas.  </l>
                     
                     <l n="74">Sed te correctum forsan matura senectus </l>

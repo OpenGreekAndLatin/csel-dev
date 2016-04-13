@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -171,15 +169,15 @@
             <l n="3">natalis quae lecta deo. qua nascitur ille, </l>
             <l n="4">cum patre qui semper caeli in consortia regnans, </l>
        <milestone n="5" unit="altline"/> <l n="5">uirtus magna patris, carnis primordia nostrae, </l>
-            <l n="6">mox hominem in caelum <sic>Bhens</sic>, sic morte peracta </l>
-            <l n="7">sumere qui carnem <sic>uolujyflpiec</sic> carne senescit. </l>
+            <l n="6">mox hominem in caelum reuehens, sic morte peracta </l>
+            <l n="7">sumere qui carnem uoluit ? nec carne senescit. </l>
 </div>
             <div n="2" subtype="poem" type="textpart">
           <ab>
-            <title type="sub">II. DE <sic>EPITHETISmLUATOKIS</sic> NOSTRI. </title>
+            <title type="sub">II. DE EPITHETIS SALUATORIS NOSTRI. </title>
           </ab>
-            <l n="1">Ianua Uirgo Leo <sic>UirtugXSapientia</sic> Uerbum </l>
-            <l n="2">Rex Baculum <choice><sic>Prince</sic><corr>Princeps</corr></choice> Dux Petra Pastor Homo, </l>
+            <l n="1">Ianua Uirgo Leo Uirtus? Sapientia Uerbum </l>
+            <l n="2">Rex Baculum Princeps Dux Petra Pastor Homo, </l>
 
 <note rend="script" type="footnote"> 409 quoties <hi rend="italic">A</hi> 412 neue <hi rend="italic">Gommirius</hi> neque <hi rend="italic">A</hi> meque <hi rend="italic">Eccardus<lb/>
              et Schurzfl</hi>. 413 Epungat <hi rend="italic">A</hi> 414 quic quid <hi rend="italic">A</hi> 415 dono <hi rend="italic">A</hi> domino <lb/>
@@ -199,7 +197,7 @@
             <l n="3">Retia Sol Sponsus Semen Mons Stella Magister </l>
             <l n="4">Margarita Dies Agnus Ouis Uitulus, </l>
               <milestone n="5" unit="altline"/> <l n="5">Thesaurus Fons Uita Manus Caput Ignis Aratrum </l>
-            <l n="6">Flos Lapis anglaris Dextra *<choice><sic>Oolumna</sic><corr>Columna</corr></choice> Puer, </l>
+            <l n="6">Flos Lapis anglaris Dextra *Columna Puer, </l>
             <l n="7">Mitis Adam Digitus Speculum Uia Botruo Panis </l>
             <l n="8">Hostia Lex Ratio Uirga Piscis Aquila, </l>
             <l n="9">Iustus, Progenies regis regisque Sacerdos, </l>
@@ -410,7 +408,7 @@
               <milestone n="130" unit="altline"/>  <l n="130">cur lapis anglaris? populum quia nectit utrumque. </l>
             <l n="131">dextera, qua patrium latus assidet, ornat, honorat. </l>
             <l n="132">saepe columba: dolum quia nescit ac sine felle est. </l>
-            <l n="133">unde puer? quod purus eat <choice><sic>geuitoris</sic><corr>genitoris</corr></choice> ad arcem. </l>
+            <l n="133">unde puer? quod purus eat genitoris ad arcem. </l>
             <l n="134">uitis: adoptiuo quod se(se) herede propaget. </l>
               <milestone n="135" unit="altline"/> <l n="135">unde secundus Adam? quia sit caput ipse renatis. </l>
             <l n="136">est digitus, stylus iste: dei est lex scripta per ipsum. </l>
@@ -422,8 +420,8 @@
             <l n="142">se quia sanctificans patriis altaribus offert. </l>
             <l n="143">nunc ratio: haec ratio est, per quam stat fabrica mundi. </l>
             <l n="144">uirga: quod errantes ut uerbere corrigat actus. </l>
-              <milestone n="145" unit="altline"/> <l n="145">piscis natus aquis: auctor <choice><sic>haptismatis</sic><corr>baptismatis</corr></choice> ipse est. </l>
-            <l n="146">saepe aquila: e terris quoniam <choice><sic>reuolanit</sic><corr>reuolauit</corr></choice> ut ales. </l>
+              <milestone n="145" unit="altline"/> <l n="145">piscis natus aquis: auctor baptismatis ipse est. </l>
+            <l n="146">saepe aquila: e terris quoniam reuolauit ut ales. </l>
 </div>
   <div n="5" subtype="poem" type="textpart">
           <ab>
@@ -470,7 +468,7 @@
             <l n="172">et socier sanctis famulus tuus et timeam te </l>
             <l n="173">et placeam dum uiuo tibi, nec sim reus illo </l>
             <l n="174">tempore, cum stetero meriti memor ante tribunal, </l>
-              <milestone n="175" unit="altline"/>  <l n="175">Christe, tuum uereque colam quod praedico <choice><sic>llumell</sic><corr>numen</corr></choice>. </l>
+              <milestone n="175" unit="altline"/>  <l n="175">Christe, tuum uereque colam quod praedico numen. </l>
             <l n="176">crux tua fronte manu labiis, crux intima sidat. </l>
             <l n="177">crux clipeata domus, crux sit lorica salutis. </l>
             <l n="178">hoc melius signo fulgebit lucida turris, </l>

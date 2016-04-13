@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -95,13 +93,13 @@
           </ab>
           <p n="1" rend="script">Excerptorum codicem, quem de nonnullis operibus sancti <lb/>
             Augustini cohortante domno meo Marino abbate uel ceteris <lb/>
-            <choice><sic>suctis</sic><corr>sanctis</corr></choice> fratribus quomodocumque compegeram, continuo transferri <lb/>
-            <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> sancto quo polletis studio uoluistis, et cum bibliothecae <lb n="10"/>
+            sanctis fratribus quomodocumque compegeram, continuo transferri <lb/>
+            uobis sancto quo polletis studio uoluistis, et cum bibliothecae <lb n="10"/>
             uestrae copia multiplex integra de quibus pauca decerpsi <lb/>
             contineat opera, placuit tamen habere decerpta. at ego <lb/>
-            prospiciens ne forsitan a legentibus <choice><sic>temerilatis</sic><corr>temeritatis</corr></choice> arguerer, <choice><sic>neeesse</sic><corr>necesse</corr></choice> <lb/>
+            prospiciens ne forsitan a legentibus temeritatis arguerer, necesse <lb/>
             habui causas facti praefatione fateri: quae ita se habent: <lb/>
-            inter magnos et egregios catholicae doctores ecclesiae <choice n="0.21"><sic n="24">praedarum</sic><corr n="89">praeclarum</corr></choice> <lb n="15"/>
+            inter magnos et egregios catholicae doctores ecclesiae praeclarum <lb n="15"/>
             fuisse et esse beatum Augustinum quis ignoret episcopum? <lb/>
             quem cum diuina et humana eruditione mirabilem <lb/>
             omnes orthodoxi toto terrarum orbe uenerentur, praecipue <lb/>
@@ -140,17 +138,17 @@
             scientiam gratulabantur inuentum, scientes hunc intellegibilem <lb/>
             ad condiendos animos salem etiam pecoribus abiectissimis profuturum. <lb n="15"/>
             quorum omnium ego prorsus abiectior ex aliquantis <lb/>
-            eiusdem beati <choice><sic>niri</sic><corr>uiri</corr></choice> praeclaris operibus perpauca ruminando <lb/>
+            eiusdem beati uiri praeclaris operibus perpauca ruminando <lb/>
             quodam modo lambendoque decerpsi, quae praestantibus amicis <lb/>
-            integra legeram: nam omnia illius habere uel inuenire <choice n="0.12"><sic n="5248">quis</sic><corr n="36919">qui</corr></choice> <lb/>
+            integra legeram: nam omnia illius habere uel inuenire quis <lb/>
             possit? nonnulla ergo legenti mihi atque habere cupienti <lb n="20"/>
             quia facultas minime suppetebat, idcirco quaedam uelut ex <lb/>
             ingenti prato floribus asperso caelestibus ex librorum eius quae <lb/>
             data est copia inops aegerque conlegi: inops scilicet peritia., <lb/>
             aeger offensa, uel informari tanta doctrina cupiens uel sanari. <lb/>
-            ueritatem namque sententiae Salomonis, qua ait: <sic>fauns</sic> <lb n="25"/>
+            ueritatem namque sententiae Salomonis, qua ait: fauus <lb n="25"/>
             mellis uerba prudentiae, dulcedo animae, sanitas <lb/>
-            ossuum, in supra dicti uiri dulcissima et sanissima <choice><sic>erudifcione</sic><corr>eruditione</corr></choice> <lb/>
+            ossuum, in supra dicti uiri dulcissima et sanissima eruditione <lb/>
             persensi. pauca proinde quae congessi non solum mihi qui <lb/>
             sensu censuque sum pauper sed etiam his qui utroque praediti <lb/>
             sunt munere profutura confido. nam cum in manus eorum
@@ -169,7 +167,7 @@
             aut inordinata, ut assolet, congestione permoti dabunt <lb/>
             operam uel plura studiosius habere uel ex his aptiora decerpere <lb/>
             atque in unum corpus redacta saepius lectitare. ita <lb/>
-            <sic>foraian</sic> imperiti desiderium compendiis poterit militare <sic>doctornnL</sic> <lb n="5"/>
+            forsitan imperiti desiderium compendiis poterit militare doctorum <lb n="5"/>
             plerumque enim quod ineptius a paruis arripitur a <lb/>
             magnis aptius adimpletur. certe si nullus magnorum id uel <lb/>
             facere uel habere dignetur, saltem illi quibus plenaria tanti <lb/>
@@ -177,15 +175,15 @@
             unum codicem quis poterit sibi parare quam multos. a singulis <lb n="10"/>
             sane capitulis diuersae res uel etiam quaestiones atque sententiae <lb/>
             de quo opere uel libro sint indicantur, ut, si quis ignorat ubi <lb/>
-            eas plene possit inuenire, cognoscat. integrum uero <choice n="0.09"><sic n="32">libram</sic><corr n="308">librum</corr></choice> <lb/>
-            <choice><sic>aisum</sic><corr>uisum</corr></choice> est excerptorum debere esse principium et ille <sic>potissiimum</sic> <lb/>
+            eas plene possit inuenire, cognoscat. integrum uero librum <lb/>
+            uisum est excerptorum debere esse principium et ille potissimum <lb/>
             mihi praeponendus occurrit, quem idem beatus Augustinus <lb n="15"/>
             antistes ad sanctum Hieronymum post primum de animae <lb/>
             quaestione noscitur scripsisse presbyterum, soluens illam <lb/>
-            ex <choice><sic>epistnla</sic><corr>epistula</corr></choice> Iacobi apostoli quam in primo praenotaui capitulo <lb/>
+            ex epistula Iacobi apostoli quam in primo praenotaui capitulo <lb/>
             quaestionem: in quo libro quattuor illas uirtutes, id est <lb/>
             prudentiam, temperantiam, fortitudinem atque iustitiam, ad <lb n="20"/>
-            <choice><sic>illnd</sic><corr>illud</corr></choice> geminae dilectionis dei et proximi latum mandatum <lb/>
+            illud geminae dilectionis dei et proximi latum mandatum <lb/>
             nimis, in quo tota lex pendet et prophetae, mirifice rettulit. <lb/>
             ob hoc itaque congruum putaui atque conueniens ut his excerptis <lb/>
             caritas, qua dispersa solent adunari integritate, libri <lb/>
@@ -209,12 +207,12 @@
 <note type="footnote"> 1* </note> <lb/>
              
 <pb n="4"/>
-            nutriendae, ultimus enutritae laudem continet <choice n="0.64"><sic n="84">caritatis</sic><corr n="47">militare</corr></choice>; per <lb/>
+            nutriendae, ultimus enutritae laudem continet caritatis; per <lb/>
             quam adiuro lecturos ut mihi indigno ueniam dignanter tribuant <lb/>
             et orationum praesidia clementer impendant. si quis <lb/>
             sane transferens hoc opus his quae congesta sunt alia addere <lb/>
             forte uoluerit, congruis adiciat locis, ut praedicti duo de caritate<lb n="5"/>
-            tituli finem semper teneant <sic>excerptorum</sic>.
+            tituli finem semper teneant excerptorum.
 
 <note rend="script" type="footnote"> 1 continet-6 excerptorum <hi rend="italic">om. T</hi> 4 hoc om. <hi rend="italic">t</hi> 5 fortej <lb/>
             stare <hi rend="italic">t</hi> 6 Expt prqfatio <hi rend="italic">I/tib</hi> excerptord. incp capitula eiusde operis <lb/>

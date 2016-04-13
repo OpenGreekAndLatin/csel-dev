@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -246,10 +244,10 @@
 					<l n="51"><hi rend="italic">Nam</hi> tibi sola Deus gigni <sic>quorf</sic> cuncta iuberes
 							<milestone n="50" unit="altline"/></l>
 					<l n="52">Causa fuit bonitas: quum iussis viuere primum </l>
-					<l n="53">Spiritibus, mundoq; frui quem mente <choice>
-							<sic>gerebus</sic>
-							<corr>gerebas</corr>
-						</choice>, </l>
+					<l n="53">Spiritibus, mundoq; frui quem mente 
+							gerebas
+							
+						, </l>
 					<l n="54">
 						<hi rend="italic">Atq; omnes in te rerum cognoscere caussas, </hi>
 					</l>
@@ -262,10 +260,10 @@
 					<l n="58">
 						<hi rend="italic">*Alterutram in partem <sic>vellent</sic> se vertere possent:</hi>
 					</l>
-					<l n="59">Vt fieres <hi rend="italic">iustis <choice n="0.90">
-								<sic n="169">merces</sic>
-								<corr n="17">merce</corr>
-							</choice>,</hi>
+					<l n="59">Vt fieres <hi rend="italic">iustis 
+								merce
+								
+							,</hi>
 						<sic>meritisq</sic>; piorum, </l>
 					<l n="60">Hoc quoque coferres praestando, vt debitor esses. </l>
 					<l n="61"><hi rend="italic">Nam</hi> quod de primis <hi rend="italic">coelesti in
@@ -275,10 +273,10 @@
 					<l n="64">Maluit esse mali, <hi rend="italic">primamq; inducere mortem,</hi>
 					</l>
 					<l n="65">Cum scelerum socijs celso deiectus olympo: </l>
-					<l n="66">Virtuti <hi rend="italic">nihil inde <choice n="0.16">
-								<sic n="1672">tuae</sic>
-								<corr n="8340">tu</corr>
-							</choice> praeiudicat : illud</hi>
+					<l n="66">Virtuti <hi rend="italic">nihil inde 
+								tu
+								
+							 praeiudicat : illud</hi>
 					</l>
 					<l n="67">Cui satis est fecisse bonum: <hi rend="italic">sed copia laudis</hi>
 						<milestone n="65" unit="altline"/></l>
@@ -311,10 +309,10 @@
 					<l n="77">Cederet ad meritum: quum iudice digna seuero </l>
 					<l n="78">Praemia sanctorum geminaret poena malorum. </l>
 					<l n="79">
-						<hi rend="italic">Porro etiam (<choice>
-								<sic>mild</sic>
-								<corr>mihi</corr>
-							</choice> si fas est hoc dicere salua</hi>
+						<hi rend="italic">Porro etiam (
+								mihi
+								
+							 si fas est hoc dicere salua</hi>
 					</l>
 					<l n="80">Pace tua genitor) maius <hi rend="italic">fortassis</hi> apud te <hi rend="italic">est</hi>
 					</l>
@@ -335,15 +333,15 @@
 						<milestone n="85" unit="altline"/>
 					</l>
 					<l n="87">
-						<hi rend="italic">*Nobiliora <choice n="0.45">
-								<sic n="432">facis</sic>
-								<corr n="513">facie</corr>
-							</choice>: dum lato in sidera vultu</hi>
+						<hi rend="italic">*Nobiliora 
+								facie
+								
+							: dum lato in sidera vultu</hi>
 					</l>
-					<l n="88">Erexisti hominem: quem saeui fraude <hi rend="italic"><choice>
-								<sic>tyraum</sic>
-								<corr>tyranni</corr>
-							</choice></hi>
+					<l n="88">Erexisti hominem: quem saeui fraude <hi rend="italic">
+								tyranni
+								
+							</hi>
 					</l>
 					<l n="89">In mortis laqueos, &amp; ad impia tartara raptum </l>
 					<l n="90">
@@ -359,30 +357,30 @@
 					<l n="97"><hi rend="italic">Compensata satis:</hi> quia plus est vincere mortem <milestone n="95" unit="altline"/></l>
 					<l n="98">Quam nescisse mori. <hi rend="italic">coeli</hi> nunc laetus ab aula </l>
 					<l n="99">Dispicit aetherios axes, &amp; sidera calcat: </l>
-					<l n="100">Dispositosq; vocat ventura in regna <hi rend="italic"><choice n="0.92">
-								<sic n="166">nepotes</sic>
-								<corr n="13">nepote</corr>
-							</choice>:</hi>
+					<l n="100">Dispositosq; vocat ventura in regna <hi rend="italic">
+								nepote
+								
+							:</hi>
 					</l>
-					<l n="101">Quos iterum formauit aquis, <hi rend="italic"><choice>
-								<sic>iterumq</sic>
-								<corr>iterum</corr>
-							</choice>;</hi> renasci </l>
+					<l n="101">Quos iterum formauit aquis, <hi rend="italic">
+								iterum
+								
+							;</hi> renasci </l>
 					<l n="102"><hi rend="italic">Aeterni docuit diues</hi> sapientia <hi rend="italic">patris: </hi>
 						<milestone n="100" unit="altline"/></l>
 					<l n="103"><hi rend="italic">Tete igitur</hi> deus alme precor, qui numine prono </l>
-					<l n="104">Das sentire <choice>
-							<sic>aniniis</sic>
-							<corr>animis</corr>
-						</choice>, &amp; <hi rend="italic">te charissime patris </hi>
+					<l n="104">Das sentire 
+							animis
+							
+						, &amp; <hi rend="italic">te charissime patris </hi>
 					</l>
 					<l n="105">
 						<hi rend="italic">Nate tui, da mellifluum in praecordia verbum </hi>
 					</l>
-					<l n="106"><hi rend="italic">* <choice>
-								<sic>Nostm</sic>
-								<corr>Nostra</corr>
-							</choice> tuum:</hi> &amp; <hi rend="italic">linguas nobis infunde disertas:</hi>
+					<l n="106"><hi rend="italic">* 
+								Nostra
+								
+							 tuum:</hi> &amp; <hi rend="italic">linguas nobis infunde disertas:</hi>
 					</l>
 					<l n="107"><sic>Du</sic> teneras formare animas, &amp; corda paramus </l>
 					<l n="108">Ad verae virtutis iter puerilibus annis. <milestone n="105" unit="altline"/></l>
@@ -399,10 +397,10 @@
 					<l n="112">
 						<hi rend="italic">*Mentibus ambiguis: qua vires traxerit aucta</hi>
 					</l>
-					<l n="113"><choice>
-							<sic>Festis</sic>
-							<corr>Pestis</corr>
-						</choice>, &amp; in <hi rend="italic">vicium mores cessere vetusti.l) </hi>
+					<l n="113">
+							Pestis
+							
+						, &amp; in <hi rend="italic">vicium mores cessere vetusti.l) </hi>
 					</l>
 					<l n="114"><hi rend="italic">Da Deus <sic>aetemae</sic> describere</hi> mystica vitae:
 							<milestone n="111" unit="altline"/>
@@ -410,10 +408,10 @@
 					<l n="115">Da simul et mentem, da <sic>cogrua</sic> tempora menti, </l>
 					<l n="116">Da studium, tanto ne desit cura labori, </l>
 					<l n="117">Successumq; bonum studij: quodq; omnia vota </l>
-					<l n="118"><choice n="0.93">
-							<sic n="15">Iure</sic>
-							<corr n="1">lure</corr>
-						</choice> supercurrit <hi rend="italic">(scribenti candida mens est)</hi>
+					<l n="118">
+							lure
+							
+						 supercurrit <hi rend="italic">(scribenti candida mens est)</hi>
 						<milestone n="115" unit="altline"/></l>
 					<l n="119">Ne damnes <sic>tantu</sic> quod <hi rend="italic">nunc</hi> reus audeo munus : </l>
 					<l n="120"><sic>Criminibusq</sic>; <hi rend="italic">meis conniue,</hi>
@@ -423,10 +421,10 @@
 					<l n="122"><sic>Peccarit</sic> sermo improprius, sensusq; <sic>vacilhtus</sic>: 3)
 							<milestone n="120" unit="altline"/></l>
 					<l n="123"><hi rend="italic">Hinc nullum fidei</hi> subeat mensura periclum. </l>
-					<l n="124">Per <hi rend="italic">dominum</hi> Christum qui <hi rend="italic"><choice>
-								<sic>tecurn</sic>
-								<corr>tecum</corr>
-							</choice> natus eadem</hi>
+					<l n="124">Per <hi rend="italic">dominum</hi> Christum qui <hi rend="italic">
+								tecum
+								
+							 natus eadem</hi>
 					</l>
 					<l n="125">Magestate <sic>viget</sic>, pariter qua spiritus almus </l>
 					<l n="126"><sic>Incowprensa</sic> animis, sectorum <hi rend="italic">in</hi> secula
@@ -448,16 +446,16 @@
 					<l n="1"><milestone unit="para"/>Ante polos coeliq; diem mundiq; tenebras, </l>
 					<l n="2">Ante operum formas, &amp; res, &amp; semina rerum, </l>
 					<l n="3">Aeternum sine <hi rend="italic">praeteriti,</hi> sine fine futuri </l>
-					<l n="4">Esse subest: cui semper erat Deus <choice>
-							<sic>vuus</sic>
-							<corr>vnus</corr>
-						</choice>: apud que </l>
+					<l n="4">Esse subest: cui semper erat Deus 
+							vnus
+							
+						: apud que </l>
 					<l n="5">Viuebat genitus Verbum Deus, &amp; <hi rend="italic">suus</hi> almus <milestone n="5" unit="altline"/></l>
 					<l n="6">Spiritus, archani vitalis summa vigoris. </l>
-					<l n="7">Vna trium <choice n="0.28">
-							<sic n="5334">quos</sic>
-							<corr n="13067">quo</corr>
-						</choice>
+					<l n="7">Vna trium 
+							quo
+							
+						
 						<hi rend="italic">concordi</hi> substantia nexu </l>
 					<l n="8"><hi rend="italic">Coniungens summa aeternum</hi> virtute beabat. </l>
 					<l n="9">Regnabatq; potens in maiestate creandi, </l>
@@ -468,14 +466,14 @@
 					<l n="14">Regnum erat ipse suum: regni nec teste carebat </l>
 					<l n="15">Virtus trina deus: qui primum semine nullo <milestone n="15" unit="altline"/></l>
 					<l n="16">Corpora dans rebus, dum res existere cogit, </l>
-					<l n="17"><hi rend="italic"><choice>
-								<sic>lam</sic>
-								<corr>Iam</corr>
-							</choice></hi> nostrum <hi rend="italic">effecit</hi> munus, quod solus habebat. </l>
-					<l n="18"><hi rend="italic">Vtq; <choice>
-								<sic>isturn</sic>
-								<corr>istum</corr>
-							</choice> faceret</hi> diues Sapientia mundum </l>
+					<l n="17"><hi rend="italic">
+								Iam
+								
+							</hi> nostrum <hi rend="italic">effecit</hi> munus, quod solus habebat. </l>
+					<l n="18"><hi rend="italic">Vtq; 
+								istum
+								
+							 faceret</hi> diues Sapientia mundum </l>
 					<l n="19">Cuncta simul genuit: sed <hi rend="italic">posthaec semina rerum </hi>
 					</l>
 					<l n="20">
@@ -488,10 +486,10 @@
 					<l n="24">Tam prudens contorsit opus: nec dicere factum </l>
 					<l n="25">Ante <hi rend="italic">aeuum</hi> fas est, quia tempore nata mouetur. <milestone n="25" unit="altline"/></l>
 					<l n="26">
-						<hi rend="italic">Nec porro <sic>ejernum</sic> mundum, superisq; <choice>
-								<sic>coeuum</sic>
-								<corr>coquum</corr>
-							</choice></hi>
+						<hi rend="italic">Nec porro eternum mundum, superisq; 
+								coquum
+								
+							</hi>
 					</l>
 					<l n="27"><hi rend="italic">Credere fas</hi> stabilem semper tenuisse vigorem: </l>
 					<l n="28">Na quod corporibus constat coepisse fatendu est. </l>
@@ -516,26 +514,26 @@
 					<l n="40"><hi rend="italic">Qui si cuncta etiam mauult</hi> dissoluere raptim, </l>
 					<l n="41"><hi rend="italic">Confestim in similes formas redeuntia reddet</hi>. \')
 							<milestone n="45" unit="altline"/></l>
-					<l n="42"><hi rend="italic">Tanta Patris <choice>
-								<sic>vis</sic>
-								<corr>uis</corr>
-							</choice> est</hi>
+					<l n="42"><hi rend="italic">Tanta Patris 
+								uis
+								
+							 est</hi>
 						<sic n="poss">t6</sic> tanta est gloria Verbi. </l>
 					<l n="43">
 						<hi rend="italic">Vt <sic>vero</sic> semel attingam primordia rerum:</hi>
 					</l>
 					<l n="44">Excelsi conuexa poli, terraeq; iacentes, </l>
-					<l n="45">Pars prima est operis, sed terras <hi rend="italic"><choice>
-								<sic>vnda</sic>
-								<corr>unda</corr>
-							</choice> tegebat</hi>
+					<l n="45">Pars prima est operis, sed terras <hi rend="italic">
+								unda
+								
+							 tegebat</hi>
 						<milestone n="50" unit="altline"/></l>
 					<l n="46">Aeraq; in medio sordenti nube madentem, </l>
 					<l n="47">
-						<hi rend="italic">Et tenebris se <choice>
-								<sic>vasta</sic>
-								<corr>uasta</corr>
-							</choice> nigris <sic>velabat</sic> abyssus,</hi>
+						<hi rend="italic">Et tenebris se 
+								uasta
+								
+							 nigris <sic>velabat</sic> abyssus,</hi>
 					</l>
 					<l n="48">Et sacer extensis impendens spiritus <sic>vndis</sic>
 					</l>
@@ -545,20 +543,20 @@
 					<l n="52">Emicuit dicente Deo: discretaq; nigrum </l>
 					<l n="53">Vmbra <sic>peplu</sic> retrahes, summo discessit olympo. </l>
 					<l n="54">
-						<hi rend="italic"><choice n="0.00">
-								<sic n="5">Turn</sic>
-								<corr n="1156">Tum</corr>
-							</choice> diuina diem appellans prudentia lucem, 2) </hi>
+						<hi rend="italic">
+								Tum
+								
+							 diuina diem appellans prudentia lucem, 2) </hi>
 					</l>
 					<l n="55"><hi rend="italic">Indidit</hi> &amp; <hi rend="italic">tenebris obscurae nomina
 							noctis,</hi>
 						<milestone n="61" unit="altline"/>
 					</l>
 					<l n="56">
-						<hi rend="italic">Sic facta <choice>
-								<sic>vna</sic>
-								<corr>una</corr>
-							</choice> dies de mane ac vespere primo:</hi>
+						<hi rend="italic">Sic facta 
+								una
+								
+							 dies de mane ac vespere primo:</hi>
 					</l>
 					<l n="57">Rursus mane nouum primo iam vespere pulso </l>
 					<l n="58">Reddita lux fecit: quum se firmissima moles </l>
@@ -601,10 +599,10 @@
 					<l n="83">Ostendit faciem: tremefactaq; numine Verbi </l>
 					<l n="84">Cerula nudatas cinxerunt aequora terras. <milestone n="90" unit="altline"/></l>
 					<l n="85">Quas vario raptim iussas <hi rend="italic"><sic>frutescere</sic></hi> foetu </l>
-					<l n="86">Luxuriosa nouo texerunt <choice n="0.25">
-							<sic n="30">germina</sic>
-							<corr n="89">gemina</corr>
-						</choice> limo. </l>
+					<l n="86">Luxuriosa nouo texerunt 
+							gemina
+							
+						 limo. </l>
 					<l n="87">Et rudis, <sic n="poss">t6</sic> tenero prorumpens cespite laetis. </l>
 					<l n="88">Iactauit se sylua comis: <hi rend="italic"><sic>speciemq</sic>; secundum </hi>
 					</l>
@@ -675,17 +673,17 @@
 							<sic>quodq</sic>;</hi>
 					</l>
 					<l n="123">Squammea turba salo summas <hi rend="italic">euadit</hi> in vndas: <milestone n="130" unit="altline"/></l>
-					<l n="124"><hi rend="italic">Ni</hi> uolitans <choice>
-							<sic>m</sic>
-							<corr>in</corr>
-						</choice> aquis, sensim natet <hi rend="italic">aethere</hi> puro, </l>
+					<l n="124"><hi rend="italic">Ni</hi> uolitans 
+							in
+							
+						 aquis, sensim natet <hi rend="italic">aethere</hi> puro, </l>
 					<l n="125"><hi rend="italic">Aetherios <sic>volucris</sic></hi> contingere <hi rend="italic">docta</hi> recessus: </l>
 					<l n="126"><hi rend="italic">Ergo materies auibusq;</hi> (6 <hi rend="italic">piscibus vna
 							est</hi>. </l>
-					<l n="127"><choice>
-							<sic>lam</sic>
-							<corr>Iam</corr>
-						</choice> bis terna dies claro radiabat olympo: </l>
+					<l n="127">
+							Iam
+							
+						 bis terna dies claro radiabat olympo: </l>
 					<l n="128">Tertia post calidi genitalia munera solis: <milestone n="135" unit="altline"/></l>
 					<l n="129">Iamque tepens tellus grauidos laxauerat artus: </l>
 					<l n="130">Quum maiora agitans iussit Deus edere terra </l>
@@ -693,22 +691,22 @@
 					<l n="132">Cui seruire datum quo rerum postulat vsus. </l>
 					<l n="133">Nec mora prorumpunt foetis vitalia terris <milestone n="140" unit="altline"/></l>
 					<l n="134">Pignora, <sic>quęq</sic>; sui generis sortita figuras. 2) </l>
-					<l n="135">Hic <hi rend="italic">mihi iam fas</hi> sit <choice>
-							<sic>quędam</sic>
-							<corr>quadam</corr>
-						</choice> perstringere, <sic>quoda</sic>
+					<l n="135">Hic <hi rend="italic">mihi iam fas</hi> sit 
+							quadam
+							
+						 perstringere, <sic>quoda</sic>
 					</l>
 					<l n="136">Solicito trepidum penitus transmittere cursu: <milestone n="145" unit="altline"/></l>
-					<l n="137">Mutata <choice>
-							<sic>quędam</sic>
-							<corr>quadam</corr>
-						</choice> serie transmissa referre. </l>
+					<l n="137">Mutata 
+							quadam
+							
+						 serie transmissa referre. </l>
 					<l n="138">Postquam <sic>cucta</sic> datus generatim protulit <sic n="poss">ordo3</sic>) </l>
 					<l n="139">Veris plena bonis, &amp; multa dote referta: </l>
-					<l n="140"><hi rend="italic">Quae Deus in longa</hi> seriem mansura <choice>
-							<sic>fouorot</sic>
-							<corr>foueret</corr>
-						</choice>: <milestone n="151" unit="altline"/></l>
+					<l n="140"><hi rend="italic">Quae Deus in longa</hi> seriem mansura 
+							foueret
+							
+						: <milestone n="151" unit="altline"/></l>
 					<l n="141">
 						<hi rend="italic">Autori <sic>perbeUa</sic> suo tum machina visa est. </hi>
 					</l>
@@ -727,10 +725,10 @@
 					<l n="150">Nunc hominem faciamus, ait, qui regnet in orbe, <milestone n="160" unit="altline"/></l>
 					<l n="151">Et sit imago dei: similem decet esse creanti </l>
 					<l n="152">Liber ad arbitrium fruitur qui mente creatis. </l>
-					<l n="153">Dixerat haec, &amp; factus homo <hi rend="italic"><choice>
-								<sic>cst</sic>
-								<corr>est</corr>
-							</choice>,</hi> seu corpore toto </l>
+					<l n="153">Dixerat haec, &amp; factus homo <hi rend="italic">
+								est
+								
+							,</hi> seu corpore toto </l>
 					<l n="154">Siue anima ac specie, forsan quo more futura </l>
 					<l n="155">Quo facienda facit, quo factum semper habebat: <milestone n="165" unit="altline"/></l>
 					<l n="156"><hi rend="italic">Etsi</hi> praeteritum <hi rend="italic">iam</hi> nondum
@@ -748,32 +746,32 @@
 						<hi rend="italic">Tum natura semel rebus concessa creatis, </hi>
 					</l>
 					<l n="160">
-						<hi rend="italic">Praesertim quas <choice>
-								<sic>vita</sic>
-								<corr>uita</corr>
-							</choice> mouens animare videtur, </hi>
+						<hi rend="italic">Praesertim quas 
+								uita
+								
+							 mouens animare videtur, </hi>
 						<milestone n="170" unit="altline"/>
 					</l>
 					<l n="161"><hi rend="italic">* <sic>MultipUcat</sic>
 							<sic>quęcumq</sic>; suis primū edita formis</hi>. </l>
 					<l n="162">Septima lux magnum <hi rend="italic">vt</hi> vidit cessasse paretem, </l>
-					<l n="163">Sed generum <hi rend="italic">tantum <choice>
-								<sic>numcros</sic>
-								<corr>numeros</corr>
-							</choice></hi> desi/sse creare, </l>
-					<l n="164">Et requiem tenuisse <choice>
-							<sic>snam</sic>
-							<corr>suam</corr>
-						</choice>: <hi rend="italic">tum iure</hi> sacrata est </l>
+					<l n="163">Sed generum <hi rend="italic">tantum 
+								numeros
+								
+							</hi> desi/sse creare, </l>
+					<l n="164">Et requiem tenuisse 
+							suam
+							
+						: <hi rend="italic">tum iure</hi> sacrata est </l>
 					<l n="165"><hi rend="italic">Perfectu</hi> quae vidit opus: <sic>naq</sic>; hoc quoq;
 						plenū est </l>
 					<l n="166">Virtutis, cessasse Deum, posuisse labores, <milestone n="175" unit="altline"/></l>
 					<l n="167">
 						<hi rend="italic">Nam genitis forma patris quam dextra</hi>
-						<choice n="0.23">
-							<sic n="35">pararet</sic>
-							<corr n="111">parare</corr>
-						</choice>
+						
+							parare
+							
+						
 					</l>
 					<l n="168">Bis ternis <hi rend="italic">dominum satis est patrasse</hi> diebus. </l>
 					<l n="169">Septima lux docuit venerandae exempla quietis </l>
@@ -783,16 +781,16 @@
 							<milestone n="180" unit="altline"/></l>
 					<l n="172">Haec quoq; lux illa <hi rend="italic">signat,</hi> qua tartara Christus </l>
 					<l n="173">Soluit, &amp; euicto reditum patefecit auerno. </l>
-					<l n="174">Dum <hi rend="italic">patriam <choice>
-								<sic>ilLe</sic>
-								<corr>ille</corr>
-							</choice> semel victor</hi> rediturus in aula, </l>
+					<l n="174">Dum <hi rend="italic">patriam 
+								ille
+								
+							 semel victor</hi> rediturus in aula, </l>
 					<l n="175">* <hi rend="italic"><sic>Iamq</sic>; malorū expers, humana in carne
 							quiescit</hi>. </l>
-					<l n="176">Sic <choice>
-							<sic>cessaro</sic>
-							<corr>cessare</corr>
-						</choice> Deus, sic ocia sumere nouit, </l>
+					<l n="176">Sic 
+							cessare
+							
+						 Deus, sic ocia sumere nouit, </l>
 					<l n="177">Plus vt agat cessans, pariter sine fine quiescens. <milestone n="185" unit="altline"/></l>
 					<l n="178">Ac sine fine operans, seriemq; &amp; tempora misces, </l>
 					<l n="179">Cessando consummat opus, quodcunq; crearat. </l>
@@ -803,28 +801,28 @@
 						<hi rend="italic">Materia, hic paucis cum Mose resumere fas est. </hi>
 					</l>
 					<l n="182">
-						<hi rend="italic">Primus enim meritis postremus in <choice>
-								<sic>ordinc</sic>
-								<corr>ordine</corr>
-							</choice> toto 1) </hi>
+						<hi rend="italic">Primus enim meritis postremus in 
+								ordine
+								
+							 toto 1) </hi>
 						<milestone n="190" unit="altline"/>
 					</l>
 					<l n="183"><hi rend="italic">Factus homo: vt sese</hi> rebus praestare creatis <milestone n="195" unit="altline"/></l>
-					<l n="184"><hi rend="italic">Nosset,</hi> &lt;6 <hi rend="italic">hinc laudes <choice>
-								<sic>dno</sic>
-								<corr>duo</corr>
-							</choice> persolueret aequas,</hi>
+					<l n="184"><hi rend="italic">Nosset,</hi> &lt;6 <hi rend="italic">hinc laudes 
+								duo
+								
+							 persolueret aequas,</hi>
 					</l>
 					<l n="185">
-						<hi rend="italic">Ergo <choice>
-								<sic>hominZ</sic>
-								<corr>homini</corr>
-							</choice> factura Dei manus optima <sic n="poss">summi2</sic>)</hi>
+						<hi rend="italic">Ergo 
+								homini
+								
+							 factura Dei manus optima <sic n="poss">summi2</sic>)</hi>
 					</l>
-					<l n="186"><hi rend="italic">Tractatu <choice>
-								<sic>facils</sic>
-								<corr>facili</corr>
-							</choice> ac bene gnarum</hi> cedere limum, <milestone n="204" unit="altline"/></l>
+					<l n="186"><hi rend="italic">Tractatu 
+								facili
+								
+							 ac bene gnarum</hi> cedere limum, <milestone n="204" unit="altline"/></l>
 					<l n="187">Et flexum formamq; sequi qua ducitur arte </l>
 					<l n="188"><hi rend="italic">Sumit,</hi> (6 <hi rend="italic">humanã</hi> quale iam mente
 						gerebat </l>
@@ -839,10 +837,10 @@
 					<l n="195"><hi rend="italic">Haud</hi> aliter bustis <sic>madata</sic> resurgere <hi rend="italic">apertis</hi>
 					</l>
 					<l n="196">Corpora <hi rend="italic">quum Christi</hi> caelo delapsa patenti </l>
-					<l n="197">Maiestas grauidae <choice n="0.04">
-							<sic n="1">reserabit</sic>
-							<corr n="21">reserat</corr>
-						</choice> viscera terrae, <milestone n="215" unit="altline"/></l>
+					<l n="197">Maiestas grauidae 
+							reserat
+							
+						 viscera terrae, <milestone n="215" unit="altline"/></l>
 					<l n="198">* <hi rend="italic">
 							<sic n="poss">Exilient</sic>, dominumq; colent <sic n="poss">terraeq</sic>;
 							poliq;</hi>. </l>
@@ -914,10 +912,10 @@
 						<hi rend="italic">Nec dubium primi quin delicta ante parentis </hi>
 					</l>
 					<l n="242">
-						<hi rend="italic"><choice>
-								<sic>Ilic</sic>
-								<corr>Hic</corr>
-							</choice> sua fixissent pariter tentoria <sic n="poss">spcum2</sic>)</hi>
+						<hi rend="italic">
+								Hic
+								
+							 sua fixissent pariter tentoria <sic n="poss">spcum2</sic>)</hi>
 					</l>
 
 
@@ -935,10 +933,10 @@
 					</l>
 					<l n="245"><hi rend="italic"><sic>Praeclariq</sic>; animae adfectus: atque inclita</hi>
 						virtus: </l>
-					<l n="246"><hi rend="italic">Et quidquid <choice>
-								<sic>pulchru</sic>
-								<corr>pulchra</corr>
-							</choice> orbis</hi> habet: <hi rend="italic">quid denique paucis </hi>
+					<l n="246"><hi rend="italic">Et quidquid 
+								pulchra
+								
+							 orbis</hi> habet: <hi rend="italic">quid denique paucis </hi>
 					</l>
 					<l n="247">
 						<hi rend="italic">Enumerare uelim qua plurima munera verbis? </hi>
@@ -979,19 +977,19 @@
 					<l n="275">Donec in Armeniae saltus ac Medica <hi rend="italic">Tempe</hi>
 					</l>
 					<l n="276">Quos no sustinuit, nec iam capit, euomat amnes. </l>
-					<l n="277">Sed Tygris, nigro tanqua indignatus <choice>
-							<sic>anerno</sic>
-							<corr>auerno</corr>
-						</choice>, </l>
+					<l n="277">Sed Tygris, nigro tanqua indignatus 
+							auerno
+							
+						, </l>
 					<l n="278">Prosilit ęthereas motu maiore sub auras. </l>
 					<l n="279">Et rursum spelaea subit, mersusq; cauernis <milestone n="295" unit="altline"/></l>
 					<l n="280">Intus agit fremitus: &amp; fortior obice factus </l>
 					<l n="281">Multiplicatur aquis, <sic>atfroq</sic>; citatior antro </l>
 					<l n="282">Exit, &amp; Assyrios celeri secat agmine campos. </l>
-					<l n="283"><choice>
-							<sic>Instior</sic>
-							<corr>Iustior</corr>
-						</choice> Euphrates, diti qui gurgite largus </l>
+					<l n="283">
+							Iustior
+							
+						 Euphrates, diti qui gurgite largus </l>
 					<l n="284">Irrigat arentes subiectae Persidis agros: <milestone n="300" unit="altline"/></l>
 					<l n="285">Mollibus elicitus riuis: atq; omnibus aeque </l>
 					<l n="286">Seruit, &amp; humanos totum se praebet in vsus: </l>
@@ -1025,18 +1023,18 @@
 					<l n="303">
 						<hi rend="italic">*Facturus, vitam seruanti iussa recepit:</hi>
 					</l>
-					<l n="304">Spondet adhuc maiora bonis, &amp; praemia <choice>
-							<sic>Reruat</sic>
-							<corr>seruat</corr>
-						</choice>: </l>
+					<l n="304">Spondet adhuc maiora bonis, &amp; praemia 
+							seruat
+							
+						: </l>
 					<l n="305">Qui causam meritis statuit, dum <sic>vesccre</sic> dixit <milestone n="320" unit="altline"/></l>
 					<l n="306">Arboribus cuctis: hanc tatum horrere <sic>memeto</sic>. </l>
 					<l n="307">Quae diuersarum gestans examina rerum, </l>
 					<l n="308"><hi rend="italic">Notitiam recti atq; mali sub cortice gestat</hi>. </l>
-					<l n="309"><hi rend="italic">Nam trdsgressores mors cruda</hi> (6 <hi rend="italic"><choice n="0.96">
-								<sic n="218">dira</sic>
-								<corr n="8">dire</corr>
-							</choice></hi> sequetur. </l>
+					<l n="309"><hi rend="italic">Nam trdsgressores mors cruda</hi> (6 <hi rend="italic">
+								dire
+								
+							</hi> sequetur. </l>
 					<l n="310">Tali lege data ratio docet <hi rend="italic">optima, quod non </hi>
 						<milestone n="325" unit="altline"/></l>
 					<l n="311">
@@ -1044,10 +1042,10 @@
 					</l>
 					<l n="312"><hi rend="italic">Primū</hi> homine: <hi rend="italic">quin ille sibi morte
 							attulit <sic>vltro</sic></hi>. </l>
-					<l n="313"><hi rend="italic"><sic>Nãq</sic>;</hi> &amp; <hi rend="italic">in hoc e <choice n="0.97">
-								<sic n="2440">magna</sic>
-								<corr n="55">magne</corr>
-							</choice></hi> Dei <sic>indulgetia</sic>
+					<l n="313"><hi rend="italic"><sic>Nãq</sic>;</hi> &amp; <hi rend="italic">in hoc e 
+								magne
+								
+							</hi> Dei <sic>indulgetia</sic>
 						<hi rend="italic">summi: </hi>
 					</l>
 					<l n="314"><hi rend="italic">Dum quod no meritis sed tantu</hi> sponte benigna </l>
@@ -1055,10 +1053,10 @@
 					<l n="316">Et se quod donat mauult debere videri. </l>
 					<l n="317">At tu quem sacri nectit custodia iuris. </l>
 					<l n="318">Ne querere angustis quod clausa licentia metis </l>
-					<l n="319">Parte sit orba sui: nil hac tibi lege recisum <choice>
-							<sic>cst</sic>
-							<corr>est</corr>
-						</choice>. </l>
+					<l n="319">Parte sit orba sui: nil hac tibi lege recisum 
+							est
+							
+						. </l>
 					<l n="320">Ante potestatem tantum terraeq; marisq; <milestone n="335" unit="altline"/></l>
 					<l n="321">Nactus eras, nunc iam regni vitaeq; perennis, </l>
 					<l n="322"><hi rend="italic">Porro</hi> &amp; mortis habes. Tuc vt sibi cuncta parete </l>
@@ -1107,22 +1105,22 @@
 					</l>
 					<l n="342"><hi rend="italic">Seruet ab aduersis rebus:</hi> sed <hi rend="italic"><sic>nullu</sic></hi> animantum <milestone n="355" unit="altline"/></l>
 					<l n="343">Aequa homini specie vultuq; habituq; vigebat: </l>
-					<l n="344"><hi rend="italic">Ast homini prope diuinos</hi> addebat <choice n="0.41">
-							<sic n="451">honores</sic>
-							<corr n="646">honore</corr>
-						</choice>. </l>
+					<l n="344"><hi rend="italic">Ast homini prope diuinos</hi> addebat 
+							honore
+							
+						. </l>
 					<l n="345">Totq; inter duplici vitam illustrantia sexu </l>
 					<l n="346">Impar solus erat, dudum qui coniugis aptam </l>
-					<l n="347">In se materiem gignendae <choice n="0.97">
-							<sic n="144">ignarus</sic>
-							<corr n="4">ignaras</corr>
-						</choice> habebat. <milestone n="360" unit="altline"/></l>
+					<l n="347">In se materiem gignendae 
+							ignaras
+							
+						 habebat. <milestone n="360" unit="altline"/></l>
 					<l n="348">Ergo opus aggreditur <sic>notu</sic> Deus: ictaq; raptim </l>
 					<l n="349">Corda viri tanto dissoluit languida somno, </l>
-					<l n="350">Mentis ut experti <hi rend="italic">costam</hi> subduceret <choice n="0.96">
-							<sic n="751">unam</sic>
-							<corr n="26">imam</corr>
-						</choice>: </l>
+					<l n="350">Mentis ut experti <hi rend="italic">costam</hi> subduceret 
+							imam
+							
+						: </l>
 					<l n="351"><hi rend="italic">Vnde caro fit</hi> iussa sequi: <hi rend="italic">nam
 							sponte</hi> recedens </l>
 					<l n="352">
@@ -1145,10 +1143,10 @@
 							<sic>mebris</sic>: </l>
 					<l n="361"><hi rend="italic">Quum iam a principio</hi> molli <hi rend="italic">de</hi>
 						puluere fingi </l>
-					<l n="362">Posset, &amp; ex nihilo: (6 <choice n="0.12">
-							<sic n="720">causas</sic>
-							<corr n="4877">causa</corr>
-						</choice>
+					<l n="362">Posset, &amp; ex nihilo: (6 
+							causa
+							
+						
 						<hi rend="italic">desiste latentes </hi>
 						<milestone n="375" unit="altline"/></l>
 					<l n="363">
@@ -1208,10 +1206,10 @@
 						</hi>
 					</l>
 					<l n="387">
-						<hi rend="italic">* Qui praua ignorans, <choice>
-								<sic>etia</sic>
-								<corr>etid</corr>
-							</choice> distinguere nescit</hi>
+						<hi rend="italic">* Qui praua ignorans, 
+								etid
+								
+							 distinguere nescit</hi>
 					</l>
 					<l n="388">Quo diuersa <hi rend="italic">bonis inter se limite distent</hi>. <milestone n="400" unit="altline"/></l>
 					<l n="389">Atq; ideo augustos homini fas carpere fructus </l>
@@ -1228,10 +1226,10 @@
 					<l n="397">Serpentis primam <hi rend="italic">hanc</hi> sonuit vox impia diri, <milestone n="410" unit="altline"/></l>
 					<l n="398">Qui mortis tū caussa fuit: nam credula, postqua </l>
 					<l n="399">Rupit sacrilegis praescriptum morsibus Eua, </l>
-					<l n="400">Experti iam docta mali, <hi rend="italic"><choice n="0.81">
-								<sic n="27">consortia</sic>
-								<corr n="6">consorti</corr>
-							</choice>,</hi> culpae </l>
+					<l n="400">Experti iam docta mali, <hi rend="italic">
+								consorti
+								
+							,</hi> culpae </l>
 					<l n="401">Quaerit: &amp; <hi rend="italic">incautum fraudis male gnara</hi> maritu </l>
 					<l n="402">Qua perijt prior arte petit: sic hoste subactus <milestone n="415" unit="altline"/></l>
 					<l n="403">A gemino cedit sceleri miserabilis Adam: </l>
@@ -1241,10 +1239,10 @@
 					<l n="407">Vt primum illicito violarunt ora sapore, <milestone n="420" unit="altline"/></l>
 					<l n="408">Confestim sensere nefas, facinusq; peractum </l>
 					<l n="409">Creuit, &amp; ignaro percussit pectora sensu. </l>
-					<l n="410">Hinc timor inde pudor, <hi rend="italic"><choice>
-								<sic>sumpserut</sic>
-								<corr>sumpserat</corr>
-							</choice> primitus ortu. 2) </hi>
+					<l n="410">Hinc timor inde pudor, <hi rend="italic">
+								sumpserat
+								
+							 primitus ortu. 2) </hi>
 					</l>
 					<l n="411"><hi rend="italic">Nam dum corda</hi> homines celsarum conscia <sic>reru</sic>
 						<milestone n="425" unit="altline"/></l>
@@ -1273,31 +1271,31 @@
 					<l n="428">Culpa suae est: vt iam miseros mortale pauentes <milestone n="445" unit="altline"/></l>
 					<l n="429">Mortis imago iuuet: syluas umbrosaq; lustra </l>
 					<l n="430">Obtendunt <sic>van/s</sic> solatia falsa tenebris, </l>
-					<l n="431">Nam <choice n="0.96">
-							<sic n="13067">quo</sic>
-							<corr n="487">qu</corr>
-						</choice> te timidum fas est subducere corpus? </l>
+					<l n="431">Nam 
+							qu
+							
+						 te timidum fas est subducere corpus? </l>
 					<l n="432">Tete inqua quae mox <hi rend="italic">vili de puluere fecit</hi>
 					</l>
-					<l n="433">Virtus viua patris, <choice>
-							<sic>mundiq</sic>
-							<corr>mundi</corr>
-						</choice>: <hi rend="italic"><choice n="0.33">
-								<sic n="31">abscondita</sic>
-								<corr n="61">abscondit</corr>
-							</choice>,</hi> praesens <milestone n="450" unit="altline"/></l>
+					<l n="433">Virtus viua patris, 
+							mundi
+							
+						: <hi rend="italic">
+								abscondit
+								
+							,</hi> praesens <milestone n="450" unit="altline"/></l>
 					<l n="434">Implet: et in <hi rend="italic">penitos</hi> exit diffusa recessus. 2) </l>
-					<l n="435"><hi rend="italic">Tune</hi> potes dominum fugiens euadere? <hi rend="italic"><choice n="0.93">
-								<sic n="2471">tunc</sic>
-								<corr n="164">tune</corr>
-							</choice>
+					<l n="435"><hi rend="italic">Tune</hi> potes dominum fugiens euadere? <hi rend="italic">
+								tune
+								
+							
 						</hi>
 					</l>
 					<l n="436">
-						<hi rend="italic">Omnia cernentem sperasti posse <choice>
-								<sic>lateref</sic>
-								<corr>lateret</corr>
-							</choice></hi>
+						<hi rend="italic">Omnia cernentem sperasti posse 
+								lateret
+								
+							</hi>
 					</l>
 					<l n="437"><hi rend="italic">Vt</hi> vastis iaceas <hi rend="italic">tenebris, caelabere
 							nunquam</hi>. <milestone n="455" unit="altline"/></l>
@@ -1310,10 +1308,10 @@
 					<l n="440">
 						<hi rend="italic">*Quid vero est quod te quaerit Deus, inscius anne id </hi>
 					</l>
-					<l n="441"><hi rend="italic">Forte rogat que nec domino</hi> subducere <hi rend="italic"><choice>
-								<sic>summO</sic>
-								<corr>summo</corr>
-							</choice></hi>
+					<l n="441"><hi rend="italic">Forte rogat que nec domino</hi> subducere <hi rend="italic">
+								summo
+								
+							</hi>
 					</l>
 					<l n="442"><hi rend="italic">Vel</hi> mors ipsa potest, fragili quam mente subisti? </l>
 					<l n="443">Quur vbi sis quaerit, nisi quod te morte doloris <milestone n="460" unit="altline"/></l>
@@ -1437,20 +1435,20 @@
 					<l n="510"><sic>Concitat</sic>: <hi rend="italic"><sic>atq</sic>;</hi> illos libranti
 						turbine nexos </l>
 					<l n="511"><hi rend="italic">Aura vehens sacra Paradisi ab sede repellit</hi>. </l>
-					<l n="512"><hi rend="italic">Ergo hinc eiecti iuuenes,</hi> terrisq; <choice n="0.66">
-							<sic n="4">relati</sic>
-							<corr n="2">relate</corr>
-						</choice>
+					<l n="512"><hi rend="italic">Ergo hinc eiecti iuuenes,</hi> terrisq; 
+							relate
+							
+						
 					</l>
 					<l n="513">
 						<hi rend="italic">Perdita dimissi suspirant gaudia luci,</hi>
 					</l>
 					<l n="514">Expertes tanti spacij expertesq; pericli: <milestone n="535" unit="altline"/></l>
 					<l n="515">Sed non expertes agitat qui corda doloris. </l>
-					<l n="516"><choice>
-							<sic>Qub</sic>
-							<corr>Qu</corr>
-						</choice> ruerint, quid perdiderint, <sic>qug</sic> vita sequatur </l>
+					<l n="516">
+							Qu
+							
+						 ruerint, quid perdiderint, <sic>qug</sic> vita sequatur </l>
 					<l n="517">Quae fuerit, <hi rend="italic">tacita tristes in mente volutant, 3)</hi>
 					</l>
 					<l n="518">
@@ -1460,10 +1458,10 @@
 							<milestone n="543" unit="altline"/>
 					</l>
 					<l n="520"><hi rend="italic">Nullane spes superet miseris: num morte</hi> pereni </l>
-					<l n="521">Perdant quod superest: an <sic>quu</sic> via mortis <choice>
-							<sic>amarg</sic>
-							<corr>amar</corr>
-						</choice>
+					<l n="521">Perdant quod superest: an <sic>quu</sic> via mortis 
+							amar
+							
+						
 						<milestone n="545" unit="altline"/></l>
 					<l n="522">Per lignum ingruerit mundo populisq; futuris </l>
 					<l n="523">Possit adhuc aliquod per lignum vita redire, </l>
@@ -1490,27 +1488,27 @@
 
 					<pb n="454"/>
 					<l n="7">Sedibus ac regnis, genitalia contigit arua: </l>
-					<l n="8"><hi rend="italic">Inq;</hi> sua stetit <choice n="0.96">
-							<sic n="122">exul</sic>
-							<corr n="4">exui</corr>
-						</choice> humo: mirabile quali </l>
+					<l n="8"><hi rend="italic">Inq;</hi> sua stetit 
+							exui
+							
+						 humo: mirabile quali </l>
 					<l n="9">Ore rudes stupeant tam barbara rura coloni, </l>
 					<l n="10">Quae non frugifera <sic>distinctaq</sic>; <hi rend="italic">arbore</hi> vernant.
 							<milestone n="10" unit="altline"/>
 					</l>
-					<l n="11">Nec species <hi rend="italic"><choice n="0.97">
-								<sic n="767">placet</sic>
-								<corr n="23">place</corr>
-							</choice></hi> vlla soli, <hi rend="italic">nam mixta</hi> coacto </l>
+					<l n="11">Nec species <hi rend="italic">
+								place
+								
+							</hi> vlla soli, <hi rend="italic">nam mixta</hi> coacto </l>
 					<l n="12">Pondere congeries <hi rend="italic">confusa,</hi> mole locatur, </l>
 					<l n="13">Ardua caute rigent: syluis depressa laborant </l>
 					<l n="14">Plana, <hi rend="italic">carentq;</hi> herbis: horrescunt edita dumis. </l>
 					<l n="15">Heu quibus <sic>hgc</sic> spectat oculis, quo pectore <sic>cernut</sic>,
 							<milestone n="15" unit="altline"/></l>
-					<l n="16">Quoru animis Paradisus <sic>lest</sic>? <hi rend="italic"><choice>
-								<sic>qug</sic>
-								<corr>qu</corr>
-							</choice></hi> causa doloris </l>
+					<l n="16">Quoru animis Paradisus <sic>lest</sic>? <hi rend="italic">
+								qu
+								
+							</hi> causa doloris </l>
 					<l n="17">Vna subest, <hi rend="italic">dum</hi> cunctoru iam plena malorum </l>
 					<l n="18">Se pandit facies, <hi rend="italic">longe tristissima, post tot</hi>
 					</l>
@@ -1529,15 +1527,15 @@
 					<l n="25">Nectareusq; sapor: viuis nunc floribus <sic>halans</sic>
 					</l>
 					<l n="26">Tellus, absenti tristes <hi rend="italic">contristat</hi> odore. </l>
-					<l n="27">O quam no eade <hi rend="italic">(<choice>
-								<sic>exclamãt</sic>
-								<corr>exclamat</corr>
-							</choice>)</hi> Paradise rependis: </l>
+					<l n="27">O quam no eade <hi rend="italic">(
+								exclamat
+								
+							)</hi> Paradise rependis: </l>
 					<l n="28">
-						<hi rend="italic">Imo <choice>
-								<sic>etia</sic>
-								<corr>etid</corr>
-							</choice>
+						<hi rend="italic">Imo 
+								etid
+								
+							
 							<sic>qucito</sic> prae illis haec dona beatis </hi>
 						<milestone n="25" unit="altline"/>
 					</l>
@@ -1583,14 +1581,14 @@
 						<hi rend="italic">Vel iam no habeo, vel magna ex parte minutos,2) </hi>
 					</l>
 					<l n="52"><hi rend="italic">Et tetro</hi> clausos terreni carceris antro, <milestone n="51" unit="altline"/></l>
-					<l n="53"><hi rend="italic">Vt iam nil veri praeter <choice>
-								<sic>mortaMa</sic>
-								<corr>mortalia</corr>
-							</choice>
-							<choice>
-								<sic>quecdam</sic>
-								<corr>quadam</corr>
-							</choice>,</hi>
+					<l n="53"><hi rend="italic">Vt iam nil veri praeter 
+								mortalia
+								
+							
+							
+								quadam
+								
+							,</hi>
 						<sic>cf</sic>; </l>
 					<l n="54"><hi rend="italic">Fluxa videre datu ac <sic>mundit</sic> in peiora labantê</hi>? </l>
 					<l n="55">Atq; ideo <sic>omnipotes</sic> qui semper totus ubiq; es, </l>
@@ -1626,19 +1624,19 @@
 					<l n="75">Tota sed vt plenas teneat sententia vires. </l>
 					<l n="76">Iussisti mota victum me quaerere gleba, </l>
 					<l n="77">
-						<hi rend="italic">Et steriles spinas sparsa pro fruge <choice>
-								<sic>leuandass</sic>
-								<corr>leuandas</corr>
-							</choice>)\' </hi>
+						<hi rend="italic">Et steriles spinas sparsa pro fruge 
+								leuandas
+								
+							)\' </hi>
 					</l>
 					<l n="78"><hi rend="italic">Dixisti,</hi> &amp; <hi rend="italic">tribulos pro
 							fructibus,</hi> ergo <sic>sereda</sic> est <milestone n="80" unit="altline"/></l>
 					<l n="79">Vt fallat mea vota seges quaesita labore. </l>
 					<l n="80"><hi rend="italic">Noscere da</hi> quae sint <hi rend="italic">segetes,</hi> quo
-							<hi rend="italic">more <choice>
-								<sic>serendac</sic>
-								<corr>serendae</corr>
-							</choice>. </hi>
+							<hi rend="italic">more 
+								serendae
+								
+							. </hi>
 					</l>
 					<l n="81"><hi rend="italic">Fructiferae</hi> quae sint herbae, quae forma laboris: </l>
 					<l n="82">Da pater auxilium miseres, <sic>ysq</sic>; imbue sensus: </l>
@@ -1659,10 +1657,10 @@
 
 					<pb n="456"/>
 					<l n="90">Leniter ad molles <hi rend="italic">spiris</hi>
-						<choice>
-							<sic>repfcmtibus</sic>
-							<corr>reptantibus</corr>
-						</choice> herbas, </l>
+						
+							reptantibus
+							
+						 herbas, </l>
 					<l n="91">In se conuertit trepidos: diriq; doloris </l>
 					<l n="92">Excussas <hi rend="italic">odio</hi> cognatas traxit in iras. </l>
 					<l n="93">Et prior Eua viro. Si te suprema malorum <milestone n="95" unit="altline"/></l>
@@ -1681,10 +1679,10 @@
 						<hi rend="italic">* Quò se reptando condebat callidus anguis,</hi>
 					</l>
 					<l n="101"><hi rend="italic">Ambo proijciunt: quarum rigido</hi>
-						<choice>
-							<sic>wna</sic>
-							<corr>una</corr>
-						</choice> lacerto I) </l>
+						
+							una
+							
+						 lacerto I) </l>
 					<l n="102"><hi rend="italic">In</hi> nudum <hi rend="italic">casu silicem dimissa</hi>
 						resultat, </l>
 					<l n="103">Scintillamq; ciet: sicco quae e fomite nata <milestone n="105" unit="altline"/></l>
@@ -1698,10 +1696,10 @@
 					<l n="109">Et <sic n="poss">twmidi2</sic>) <hi rend="italic">spectare</hi> volunt. Paulum
 							<hi rend="italic">ergo</hi> remoti </l>
 					<l n="110">Telluris dorso sterilis mirantur opacas </l>
-					<l n="111"><hi rend="italic">Defluxisse</hi> comas, <choice>
-							<sic>nemorumq</sic>
-							<corr>nemorum</corr>
-						</choice>; <hi rend="italic">horrere</hi> fauillas, </l>
+					<l n="111"><hi rend="italic">Defluxisse</hi> comas, 
+							nemorum
+							
+						; <hi rend="italic">horrere</hi> fauillas, </l>
 					<l n="112">Fuscariq; diem, totas splendescere terras, </l>
 					<l n="113">Et lucem sub sole nouam: nec mente quieta <milestone n="115" unit="altline"/></l>
 					<l n="114">accipiunt crepitus stridentibus vndiq; syluis, </l>
@@ -1730,10 +1728,10 @@
 					<l n="129"><hi rend="italic">Tum</hi> se decoctis tellus pinguissima glebis <milestone n="166" unit="altline"/>
 					</l>
 					<l n="130"><hi rend="italic">In foetus mouit</hi> varios quos imbre marito </l>
-					<l n="131">Parturiens putri <choice n="0.89">
-							<sic n="42">dissoluit</sic>
-							<corr n="5">dissoluti</corr>
-						</choice>
+					<l n="131">Parturiens putri 
+							dissoluti
+							
+						
 						<hi rend="italic">rura</hi> meatu, </l>
 
 					<note type="footnote">
@@ -1763,10 +1761,10 @@
 					<l n="146">Armoniae vocale melos: nunc discitur vsu </l>
 					<l n="147">Assiduisq; datur studijs: <hi rend="italic"><sic>qudqud</sic> arte vel vsu</hi>
 					</l>
-					<l n="148">Quod <hi rend="italic">capimus, Domino semper <choice>
-								<sic>dondte</sic>
-								<corr>donate</corr>
-							</choice> tenemus. </hi>
+					<l n="148">Quod <hi rend="italic">capimus, Domino semper 
+								donate
+								
+							 tenemus. </hi>
 					</l>
 					<l n="149">
 						<hi rend="italic">Et vero ad primos vt se digressa parentes</hi>
@@ -1811,10 +1809,10 @@
 						<hi rend="italic">* Summi Melchisedech ex ordine: protinus in se</hi>
 					</l>
 					<l n="173">
-						<hi rend="italic">* <choice>
-								<sic>Conjlata</sic>
-								<corr>Conflata</corr>
-							</choice> inuidia,</hi>
+						<hi rend="italic">* 
+								Conflata
+								
+							 inuidia,</hi>
 						<sic n="poss">t6</sic>
 						<hi rend="italic">fratrum liuore suorum est,</hi>
 					</l>
@@ -1846,13 +1844,13 @@
 					</l>
 					<l n="181">* <hi rend="italic">Aut quod peiores domino sacrauerat, aut quod </hi>
 					</l>
-					<l n="182">* <hi rend="italic"><choice>
-								<sic>IlU</sic>
-								<corr>Illi</corr>
-							</choice> non gratum est animo quod prodit <choice>
-								<sic>aMaro</sic>
-								<corr>auaro</corr>
-							</choice>. </hi>
+					<l n="182">* <hi rend="italic">
+								Illi
+								
+							 non gratum est animo quod prodit 
+								auaro
+								
+							. </hi>
 					</l>
 					<l n="183">* <hi rend="italic">Inde Cain tamen insanas flammatur in iras </hi>
 					</l>
@@ -1865,15 +1863,15 @@
 						<hi rend="italic"><sic>vis</sic></hi> improba -<sic n="poss">cog/t</sic>? \') </l>
 					<l n="189"><hi rend="italic">Quid <sic>nierct</sic> innocuus frater? num</hi> sanctior <hi rend="italic">ille </hi>
 						<milestone n="230" unit="altline"/></l>
-					<l n="190"><hi rend="italic"><choice n="0.94">
-								<sic n="2047">Quod</sic>
-								<corr n="112">Qu</corr>
-							</choice> fuit, interimi meruit</hi>? iam <hi rend="italic">facta</hi> parentum </l>
+					<l n="190"><hi rend="italic">
+								Qu
+								
+							 fuit, interimi meruit</hi>? iam <hi rend="italic">facta</hi> parentum </l>
 					<l n="191">
-						<hi rend="italic">Non est <choice>
-								<sic>postcritas</sic>
-								<corr>posteritas</corr>
-							</choice> quod <sic>quidquct</sic> accuset,</hi>
+						<hi rend="italic">Non est 
+								posteritas
+								
+							 quod <sic>quidquct</sic> accuset,</hi>
 						<sic>cE</sic>
 						<hi rend="italic">ipsi </hi>
 					</l>
@@ -1884,10 +1882,10 @@
 					<l n="193">
 						<hi rend="italic">*Obijciat, si fors illum accusare velimus,</hi>
 					</l>
-					<l n="194"><choice n="0.94">
-							<sic n="2047">Quod</sic>
-							<corr n="112">Qu</corr>
-						</choice> morimur: <hi rend="italic"><sic>nilq</sic>; ad <sic>cumulU</sic>
+					<l n="194">
+							Qu
+							
+						 morimur: <hi rend="italic"><sic>nilq</sic>; ad <sic>cumulU</sic>
 							<sic>jnna</sic> illa</hi> propago 2) </l>
 					<l n="195">Criminis, adiecit mortem: <hi rend="italic">culpamq; parentum</hi>
 						<milestone n="235" unit="altline"/></l>
@@ -1896,10 +1894,10 @@
 					<l n="197">Impietas scelus esse nouum, <hi rend="italic">sic impie, sic tu</hi>
 					</l>
 					<l n="198">
-						<hi rend="italic">*Dire Cain <choice>
-								<sic>prtmore</sic>
-								<corr>primore</corr>
-							</choice> nouum caede inficis orbem: </hi>
+						<hi rend="italic">*Dire Cain 
+								primore
+								
+							 nouum caede inficis orbem: </hi>
 					</l>
 					<l n="199"><hi rend="italic">Pro qua perpetuas poenas iam</hi> morte solutus </l>
 					<l n="200"><hi rend="italic">Aeternumq;</hi> dabis, <hi rend="italic">longe</hi> serpente
@@ -1915,20 +1913,20 @@
 					<l n="204"><hi rend="italic">Tanto illo peior, vitari</hi> publicus hostis </l>
 					<l n="205">
 						<hi rend="italic">
-							<choice n="0.94">
-								<sic n="2047">Quod</sic>
-								<corr n="112">Qu</corr>
-							</choice> potuit: tu priuatus nulla arte caueri </hi>
+							
+								Qu
+								
+							 potuit: tu priuatus nulla arte caueri </hi>
 					</l>
 					<l n="206"><hi rend="italic">Iam poteras : quis enim dilecto a fratre timeret</hi>? </l>
 					<l n="207">
 						<hi rend="italic">At vero nulla est hominis tam dira nephandi </hi>
 					</l>
 					<l n="208">
-						<hi rend="italic">Culpa, Deus qua non animo <choice n="0.5">
-								<sic n="1">clemente</sic>
-								<corr n="1">demente</corr>
-							</choice> remittat, </hi>
+						<hi rend="italic">Culpa, Deus qua non animo 
+								demente
+								
+							 remittat, </hi>
 						<milestone n="245" unit="altline"/>
 					</l>
 					<l n="209">
@@ -1936,10 +1934,10 @@
 					</l>
 					<l n="210"><hi rend="italic">Accipimus: quem <sic>tiic</sic> fraterna</hi> caede madente
 							<milestone n="252" unit="altline"/></l>
-					<l n="211"><hi rend="italic">Non <choice>
-								<sic>indignU</sic>
-								<corr>indigna</corr>
-							</choice> habuit</hi> (tanta est clementia) <hi rend="italic">sese</hi>
+					<l n="211"><hi rend="italic">Non 
+								indigna
+								
+							 habuit</hi> (tanta est clementia) <hi rend="italic">sese</hi>
 					</l>
 					<l n="212">
 						<hi rend="italic">*Correptore Deus, quin blanda voce rogatum</hi>
@@ -1956,17 +1954,17 @@
 					<pb n="459"/>
 					<l n="215">
 						<hi rend="italic">Nd <sic>profugu</sic>
-							<sic>tantu</sic> atq; <sic>extorrZ</sic> ab vtroq; <choice>
-								<sic>paretea</sic>
-								<corr>parite</corr>
-							</choice>) </hi>
+							<sic>tantu</sic> atq; <sic>extorrZ</sic> ab vtroq; 
+								parite
+								
+							) </hi>
 					</l>
 					<l n="216"><hi rend="italic">Longius amandat,</hi> uastasq; relegat in oras: 2) <milestone n="283" unit="altline"/>
 					</l>
-					<l n="217"><hi rend="italic">Et iubet a patrijs <choice>
-								<sic>canfestim</sic>
-								<corr>confestim</corr>
-							</choice></hi> excedere terris: <milestone n="296" unit="altline"/>
+					<l n="217"><hi rend="italic">Et iubet a patrijs 
+								confestim
+								
+							</hi> excedere terris: <milestone n="296" unit="altline"/>
 					</l>
 					<l n="218">
 						<hi rend="italic">*Hac etiam longe misero foeliciter in re </hi>
@@ -1980,14 +1978,14 @@
 					<l n="224"><hi rend="italic">Arriperet : tu etid quae duras</hi>. pectoris aegri </l>
 					<l n="225"><sic>Itolliret</sic> curas, &amp; <hi rend="italic">moto</hi> corpore fractum </l>
 					<l n="226">Sisteret amplexu, nulliq; obnoxia culpae </l>
-					<l n="227"><hi rend="italic">Et <choice n="0.96">
-								<sic n="101">domina</sic>
-								<corr n="4">dominii</corr>
-							</choice> votis</hi> &amp; pura mente colendo, <milestone n="305" unit="altline"/></l>
-					<l n="228">Eliceret quidquid <choice n="0.58">
-							<sic n="2444">possit</sic>
-							<corr n="1720">posset</corr>
-						</choice> satis esse duobus. </l>
+					<l n="227"><hi rend="italic">Et 
+								dominii
+								
+							 votis</hi> &amp; pura mente colendo, <milestone n="305" unit="altline"/></l>
+					<l n="228">Eliceret quidquid 
+							posset
+							
+						 satis esse duobus. </l>
 					<l n="229">
 						<hi rend="italic">Sic multa extorres comitatur gratia: <sic n="poss">quorum3</sic>)
 						</hi>
@@ -2009,10 +2007,10 @@
 					</l>
 					<l n="238"><hi rend="italic">Gaudia: Seth puero nomen fecere, vice</hi> Abel </l>
 					<l n="239">
-						<hi rend="italic"><choice>
-								<sic>Que</sic>
-								<corr>Qui</corr>
-							</choice> dedit <sic>omnipotёs</sic> illis Deus: vnde secuta est 5) </hi>
+						<hi rend="italic">
+								Qui
+								
+							 dedit <sic>omnipotёs</sic> illis Deus: vnde secuta est 5) </hi>
 					</l>
 					<l n="240"><hi rend="italic">Posteritas, cuius</hi> de semine prodi;Y Enos, <milestone n="326" unit="altline"/>
 					</l>
@@ -2022,18 +2020,18 @@
 					<l n="243">Sperauit, meruitq; Deum, populumq; secutum </l>
 					<l n="244">Imbuit aeterni cultu seruare parentis. 6) <milestone n="330" unit="altline"/></l>
 					<l n="245"><hi rend="italic">Cuius de serie</hi> pollens virtutibus Enoch <milestone n="335" unit="altline"/></l>
-					<l n="246"><hi rend="italic">Descendens, <choice>
-								<sic>merith</sic>
-								<corr>meritis</corr>
-							</choice> etiam non impar auitis</hi>. </l>
+					<l n="246"><hi rend="italic">Descendens, 
+								meritis
+								
+							 etiam non impar auitis</hi>. </l>
 					<l n="247">Redditus in sedes patrias orbemq; beatum, </l>
 					<l n="248">Viuit adhuc, <sic>cPc</sic>
 						<hi rend="italic">habet vitae</hi> iam regna futurae. </l>
 					<l n="249">
-						<hi rend="italic">Hic <choice n="0.62">
-								<sic n="302">iusta</sic>
-								<corr n="181">iusti</corr>
-							</choice> proauus Noe: sub tempora cuius </hi>
+						<hi rend="italic">Hic 
+								iusti
+								
+							 proauus Noe: sub tempora cuius </hi>
 					</l>
 					<l n="250">
 						<hi rend="italic">Infecit totum studijs concordibus orbem </hi>
@@ -2064,10 +2062,10 @@
 						<milestone n="345" unit="altline"/>
 					</l>
 					<l n="256">
-						<hi rend="italic">Maxima <choice>
-								<sic>vita</sic>
-								<corr>uita</corr>
-							</choice>
+						<hi rend="italic">Maxima 
+								uita
+								
+							
 							<sic>hoim</sic> lustra ad duodena redacta est *)</hi>
 					</l>
 					<l n="257">Namq; <sic>Cainigenu</sic>
@@ -2081,45 +2079,45 @@
 					<l n="261">
 						<hi rend="italic">*Tum Deus auerso <sic>tcL</sic> multa ob crimina mundo </hi>
 					</l>
-					<l n="262"><hi rend="italic">Confestim infensus <choice>
-								<sic>voces</sic>
-								<corr>uoces</corr>
-							</choice> erumpit</hi> in <choice n="0.41">
-							<sic n="175">istas</sic>
-							<corr n="243">istos</corr>
-						</choice>. </l>
+					<l n="262"><hi rend="italic">Confestim infensus 
+								uoces
+								
+							 erumpit</hi> in 
+							istos
+							
+						. </l>
 					<l n="263">
-						<hi rend="italic">* Nequaquã <choice>
-								<sic>posthec</sic>
-								<corr>posthac</corr>
-							</choice> humana in gente manebit</hi>
+						<hi rend="italic">* Nequaquã 
+								posthac
+								
+							 humana in gente manebit</hi>
 					</l>
-					<l n="264">Spiritus <hi rend="italic">ille meus: <choice>
-								<sic>vitam</sic>
-								<corr>uitam</corr>
-							</choice></hi> nec proferet <sic>vItra</sic>: </l>
+					<l n="264">Spiritus <hi rend="italic">ille meus: 
+								uitam
+								
+							</hi> nec proferet <sic>vItra</sic>: </l>
 					<l n="265">
 						<hi rend="italic">Viuere bissenos decies contenta per annos</hi>
 					</l>
-					<l n="266">Vita nocens <hi rend="italic"><choice>
-								<sic>hominurn</sic>
-								<corr>hominum</corr>
-							</choice>:</hi> quoniam terrena sequuti <milestone n="355" unit="altline"/></l>
+					<l n="266">Vita nocens <hi rend="italic">
+								hominum
+								
+							:</hi> quoniam terrena sequuti <milestone n="355" unit="altline"/></l>
 					<l n="267">Plus carnis qua mentis habent: sic ergo seuera </l>
 					<l n="268">
 						<hi rend="italic">Aeui constituit tempus sententia certum </hi>
 					</l>
 					<l n="269">
-						<hi rend="italic">Iudicis immoti: longae ne tempora <choice>
-								<sic>vitae</sic>
-								<corr>uitae</corr>
-							</choice>
+						<hi rend="italic">Iudicis immoti: longae ne tempora 
+								uitae
+								
+							
 						</hi>
 					</l>
-					<l n="270"><hi rend="italic">Criminis augendi caussam praestare <choice>
-								<sic>valerent</sic>
-								<corr>ualerent</corr>
-							</choice></hi>. </l>
+					<l n="270"><hi rend="italic">Criminis augendi caussam praestare 
+								ualerent
+								
+							</hi>. </l>
 					<l n="271">
 						<hi rend="italic">Flagitij quid enim iam non auderet <sic n="poss">iniqui2</sic>) </hi>
 						<milestone n="360" unit="altline"/>
@@ -2131,36 +2129,36 @@
 					<l n="273">
 						<hi rend="italic">Monstra horrenda <sic>hominu</sic> vario de semine nati </hi>
 					</l>
-					<l n="274"><hi rend="italic">Nil non <choice>
-								<sic>audebãt</sic>
-								<corr>audebat</corr>
-							</choice>: queis <choice>
-								<sic>vna</sic>
-								<corr>una</corr>
-							</choice></hi> &amp; <hi rend="italic">maxima <sic n="poss">virtus3</sic>) </hi>
+					<l n="274"><hi rend="italic">Nil non 
+								audebat
+								
+							: queis 
+								una
+								
+							</hi> &amp; <hi rend="italic">maxima <sic n="poss">virtus3</sic>) </hi>
 					</l>
 					<l n="275"><hi rend="italic">Non fore ad extremum prauos: quos dira,</hi>
 						<sic n="poss">libido4</sic>) <milestone n="369" unit="altline"/>
 					</l>
 					<l n="276"><hi rend="italic">Crimen in <sic>ol</sic>
-							<choice>
-								<sic>trahZs</sic>
-								<corr>trahes</corr>
-							</choice></hi> nullas sine sanguine noctes, </l>
-					<l n="277">Aut sine caede dies <hi rend="italic"><choice>
-								<sic>vnquam</sic>
-								<corr>unquam</corr>
-							</choice> ductare sinebat: 5)</hi>
+							
+								trahes
+								
+							</hi> nullas sine sanguine noctes, </l>
+					<l n="277">Aut sine caede dies <hi rend="italic">
+								unquam
+								
+							 ductare sinebat: 5)</hi>
 						<milestone n="372" unit="altline"/>
 					</l>
 					<l n="278">Immemores <hi rend="italic">iuris diuini,</hi> hominumq;, suiq;, </l>
 					<l n="279">Affectusq; <hi rend="italic"><sic>pij</sic>,</hi>
 						<sic>matrumq</sic>;, patrumq; suorum, <milestone n="375" unit="altline"/>
 					</l>
-					<l n="280">Autorisq; <hi rend="italic"><choice n="0.66">
-								<sic n="1784">Dei</sic>
-								<corr n="892">De</corr>
-							</choice>:</hi>
+					<l n="280">Autorisq; <hi rend="italic">
+								De
+								
+							:</hi>
 						<sic>tantuq</sic>; in crimina summa </l>
 					<l n="281">Processum est, <hi rend="italic">hotes dominU <sic>vt</sic></hi> formasse
 						pigeret: </l>
@@ -2168,16 +2166,16 @@
 					<l n="283">Criminis expertes animas conuoluere vellet: </l>
 					<l n="284"><hi rend="italic">Atq; superfusis</hi> terras immergere <hi rend="italic">lymphis:</hi>
 						<milestone n="380" unit="altline"/></l>
-					<l n="285">Rursus in <choice n="0.47">
-							<sic n="187">antiqua</sic>
-							<corr n="205">antiqui</corr>
-						</choice> mundo redeunte figura. </l>
+					<l n="285">Rursus in 
+							antiqui
+							
+						 mundo redeunte figura. </l>
 					<l n="286">* <hi rend="italic">Vnus erat Noe iustus quem propter in iras</hi>
 					</l>
-					<l n="287"><hi rend="italic">Differret prodire Deus: quem <choice>
-								<sic>vita</sic>
-								<corr>uita</corr>
-							</choice></hi> fidelis </l>
+					<l n="287"><hi rend="italic">Differret prodire Deus: quem 
+								uita
+								
+							</hi> fidelis </l>
 					<l n="288">Iam per quingentos immunem criminis annos </l>
 					<l n="289">Duxerat, &amp; sancta degentem <hi rend="italic">in</hi> lege probarat. </l>
 					<l n="290">Cui sic sancta Deus pandens archana reuelat. </l>
@@ -2188,10 +2186,10 @@
 					<l n="292">
 						<hi rend="italic">Aera cum terris in deteriora <sic n="poss">relapsis6</sic>) </hi>
 					</l>
-					<l n="293"><hi rend="italic">Eluere,</hi> &amp; <hi rend="italic">tumido <choice>
-								<sic>visum</sic>
-								<corr>uisum</corr>
-							</choice> est</hi> submergere ponto: </l>
+					<l n="293"><hi rend="italic">Eluere,</hi> &amp; <hi rend="italic">tumido 
+								uisum
+								
+							 est</hi> submergere ponto: </l>
 					<l n="294">Vt dum cuncta ruens operit, iussusq; residit <milestone n="390" unit="altline"/></l>
 					<l n="295">Gurgite praecipiti, pollutum diluat orbem, </l>
 
@@ -2206,14 +2204,14 @@
 					<pb n="461"/>
 					<l n="296"><sic>Implicitosq</sic>; <sic>hoies</sic>: &amp; quidquid viuere iussum <hi rend="italic">est</hi>
 					</l>
-					<l n="297">Caussa <sic>hominu</sic>, <hi rend="italic">inflati</hi> conuoluat labe <choice>
-							<sic>profnndi</sic>
-							<corr>profundi</corr>
-						</choice>. </l>
-					<l n="298">Sed quia tu solus cui cordi nostra <choice>
-							<sic>volnntas</sic>
-							<corr>voluntas</corr>
-						</choice>, </l>
+					<l n="297">Caussa <sic>hominu</sic>, <hi rend="italic">inflati</hi> conuoluat labe 
+							profundi
+							
+						. </l>
+					<l n="298">Sed quia tu solus cui cordi nostra 
+							voluntas
+							
+						, </l>
 					<l n="299">Deuotum <hi rend="italic">sanctis <sic>dnxisti</sic></hi> legibus aeuum,
 							<milestone n="395" unit="altline"/></l>
 					<l n="300"><hi rend="italic">Peruersis semper voto</hi> meliore repugnans: </l>
@@ -2223,23 +2221,23 @@
 					</l>
 					<l n="303"><hi rend="italic">*<sic>Purgataeq</sic>; orbis feces:</hi> tum dignius a te </l>
 					<l n="304">Incipiat mortale genus: summuq; parentem </l>
-					<l n="305">Te numerent populi <hi rend="italic"><choice>
-								<sic>posthęc</sic>
-								<corr>posthac</corr>
-							</choice> qui tempora <sic>viuet</sic></hi>. <milestone n="400" unit="altline"/></l>
+					<l n="305">Te numerent populi <hi rend="italic">
+								posthac
+								
+							 qui tempora <sic>viuet</sic></hi>. <milestone n="400" unit="altline"/></l>
 					<l n="306">Quadratis igitur trabibus contexta paretur </l>
 					<l n="307">Archa tibi, <hi rend="italic">cubitis sed quae sit longa trecentis: </hi>
 					</l>
 					<l n="308"><hi rend="italic">Lata quaterdenis denos super: aera</hi> in altum </l>
 					<l n="309">Terdenis <hi rend="italic">surgens: cubitali ornata fenestra</hi>. </l>
-					<l n="310">Insuper <hi rend="italic">h <choice n="0.94">
-								<sic n="198">laeua</sic>
-								<corr n="11">laena</corr>
-							</choice></hi> ponatur ianua <hi rend="italic">parte</hi>. \') <milestone n="405" unit="altline"/></l>
-					<l n="311">Tunc <choice>
-							<sic>calidu</sic>
-							<corr>calidi</corr>
-						</choice> bibula spirans <sic>copage</sic> bitumen </l>
+					<l n="310">Insuper <hi rend="italic">h 
+								laena
+								
+							</hi> ponatur ianua <hi rend="italic">parte</hi>. \') <milestone n="405" unit="altline"/></l>
+					<l n="311">Tunc 
+							calidi
+							
+						 bibula spirans <sic>copage</sic> bitumen </l>
 					<l n="312">Exploret tenues &amp; vestiat vndiq; rimas.2) <milestone n="408" unit="altline"/>
 					</l>
 					<l n="313">Quumq; triplex <sic>spaciu</sic> discreuerit area duplex, <milestone n="412" unit="altline"/>
@@ -2250,10 +2248,10 @@
 					<l n="317">Tantum materiem: nam dispensata receptis </l>
 					<l n="318">Ne desit, praestare meum est. Haec mente fideli </l>
 					<l n="319"><hi rend="italic">Noe concipiens (nam</hi>
-						<choice>
-							<sic>animu</sic>
-							<corr>animi</corr>
-						</choice> sensumq; ministras, </l>
+						
+							animi
+							
+						 sensumq; ministras, </l>
 					<l n="320">Velle &amp; posse dabat famulo <sic>quodcuq</sic>; in <sic>bebat</sic>.) 3) </l>
 					<l n="321"><hi rend="italic">Iussum opus adgreditur, densas</hi> prosternere syluas
 							<milestone n="421" unit="altline"/>
@@ -2291,10 +2289,10 @@
 					<l n="337">Naufragijs natura tuis, <hi rend="italic">rapidisq; fluentis,</hi>
 					</l>
 					<l n="338">Tum Deus c celso famulum dignatus olympo </l>
-					<l n="339">Voce <choice n="0.86">
-							<sic n="100">monet</sic>
-							<corr n="15">mone</corr>
-						</choice> Noe summum iam tempus adesse, </l>
+					<l n="339">Voce 
+							mone
+							
+						 Noe summum iam tempus adesse, </l>
 					<l n="340">Condere se latebris, <hi rend="italic">natos cum vxore,</hi> nurusq; </l>
 					<l n="341">Eripere instanti exitio, mortisq; tenebris: <milestone n="440" unit="altline"/></l>
 					<l n="342">
@@ -2337,10 +2335,10 @@
 						<hi rend="italic">Defluit in lymphas mundus coelestis abysso:</hi>
 					</l>
 					<l n="364">Atq; nouos pandit fontes torrentibus aequos. </l>
-					<l n="365">Dumq; vno immixtum raptim se gurgite <choice>
-							<sic>iuugit</sic>
-							<corr>iungit</corr>
-						</choice>
+					<l n="365">Dumq; vno immixtum raptim se gurgite 
+							iungit
+							
+						
 					</l>
 					<l n="366">Quod <sic>coelu</sic>, quod terra vomit, quod nubila <sic>fudut</sic>, </l>
 					<l n="367">Inuoluit mersos mixtis cultoribus agros, <milestone n="470" unit="altline"/></l>
@@ -2365,10 +2363,10 @@
 					</l>
 					<l n="380">Archa ferebatur: namq; <sic>hęc</sic> mensura supremos </l>
 					<l n="381">Excessit montes, cum quadraginta diebus </l>
-					<l n="382"><choice>
-							<sic>Ynius</sic>
-							<corr>Vnius</corr>
-						</choice> pluuiae furor, &amp; <hi rend="italic">mors</hi> vna fuisset. <milestone n="485" unit="altline"/></l>
+					<l n="382">
+							Vnius
+							
+						 pluuiae furor, &amp; <hi rend="italic">mors</hi> vna fuisset. <milestone n="485" unit="altline"/></l>
 					<l n="383">Ter quinquagenis <hi rend="italic">dehinc</hi> solibus aere sudo </l>
 					<l n="384">Consimilis ponti modus &amp; mensura <hi rend="italic">remansit. </hi>
 					</l>
@@ -2381,10 +2379,10 @@
 					<l n="387">Paulatim iussit pelagus, <hi rend="italic">sensimq; relabi:</hi>
 					</l>
 					<l n="388"><hi rend="italic">Ne raptim</hi> fugiens <hi rend="italic">terras</hi>
-						<choice n="0.27">
-							<sic n="5">subuerteret</sic>
-							<corr n="13">subuertere</corr>
-						</choice>
+						
+							subuertere
+							
+						
 						<hi rend="italic">omnes: 1) </hi>
 						<milestone n="490" unit="altline"/></l>
 					<l n="389"><hi rend="italic">Et stabilem in sedem tellus vt sicca</hi> mearet. </l>
@@ -2408,36 +2406,36 @@
 					</l>
 					<l n="399"><hi rend="italic">Nil referens certi, rursum</hi> dimissa reportat, </l>
 					<l n="400">Paciferae frugis paruum libamen oliuae. </l>
-					<l n="401">Tantus ad <choice>
-							<sic>indiciu</sic>
-							<corr>indicii</corr>
-						</choice>
+					<l n="401">Tantus ad 
+							indicii
+							
+						
 						<hi rend="italic">hoc</hi> magni cu laude parentis </l>
 					<l n="402"><hi rend="italic"><sic>Captiuúm</sic></hi> fletus, quo se <hi rend="italic">gaudere</hi> reuelant </l>
 					<l n="403">Exoritur: quantus muris <sic>quu</sic> victor acerbus <milestone n="505" unit="altline"/></l>
 					<l n="404">Insultat subitum obsessis, si forte feratur </l>
 					<l n="405">Auxilium: quantus <sic>quu</sic> iudice missa modesto </l>
 					<l n="406">Addictos rursum vitae sententia reddit: </l>
-					<l n="407">Quantus in <choice>
-							<sic>ambiguu</sic>
-							<corr>ambigui</corr>
-						</choice> funus <sic>quu</sic> vita recurrit </l>
+					<l n="407">Quantus in 
+							ambigui
+							
+						 funus <sic>quu</sic> vita recurrit </l>
 					<l n="408">Inter lugentum lachrymas &amp; gaudia fletus: <milestone n="510" unit="altline"/></l>
 					<l n="409">Postea <hi rend="italic">qua rursum</hi> speculatrix arua patere </l>
 					<l n="410">Nunciat, hoc ipso terris quod <hi rend="italic">missa</hi> receptis </l>
 					<l n="411">Non redijt, taedet pigras perferre latebras: </l>
-					<l n="412"><hi rend="italic">Et iuuat ad coeli ventos</hi> spirare <choice n="0.51">
-							<sic n="20">patentis</sic>
-							<corr n="19">patenti</corr>
-						</choice>: </l>
+					<l n="412"><hi rend="italic">Et iuuat ad coeli ventos</hi> spirare 
+							patenti
+							
+						: </l>
 					<l n="413">Atq; animam aetherio laxatam pascere sensu. <milestone n="515" unit="altline"/></l>
 					<l n="414">Sed <hi rend="italic">nulli claustro fas est exire patenti, </hi>
 					</l>
 					<l n="415">
-						<hi rend="italic">Donec relliquias illuc qui iusserat <choice>
-								<sic>orb</sic>
-								<corr>orbis</corr>
-							</choice> is 2) </hi>
+						<hi rend="italic">Donec relliquias illuc qui iusserat 
+								orbis
+								
+							 is 2) </hi>
 					</l>
 					<l n="416"><hi rend="italic"><sic>Ingredier</sic>, iubeat</hi> sacris excedere claustris, </l>
 					<l n="417">
@@ -2445,10 +2443,10 @@
 					</l>
 					<l n="418"><hi rend="italic"><sic>Cuq</sic>; domo,</hi> &amp; <hi rend="italic">natis
 							pariter</hi> nuribusq; pudicis: <milestone n="520" unit="altline"/></l>
-					<l n="419">Et noua deductis iterum dare <choice n="0.60">
-							<sic n="257">rura</sic>
-							<corr n="169">rara</corr>
-						</choice> colonis: </l>
+					<l n="419">Et noua deductis iterum dare 
+							rara
+							
+						 colonis: </l>
 					<l n="420">Cunctaq; <hi rend="italic">succiduae seruata animantia proli,</hi>
 					</l>
 
@@ -2467,10 +2465,10 @@
 					<l n="426">Exultat siccis, &amp; prato vernat aperto. </l>
 					<l n="427">At <hi rend="italic">vero</hi> mundi sortitus regna secundi </l>
 					<l n="428">Cuncta <hi rend="italic">oculis Noe lustrans,</hi> ac mente capaci </l>
-					<l n="429">Accipiens, <choice>
-							<sic>animumq</sic>
-							<corr>animum</corr>
-						</choice>; <hi rend="italic">volens</hi> saturare replendo: <milestone n="530" unit="altline"/></l>
+					<l n="429">Accipiens, 
+							animum
+							
+						; <hi rend="italic">volens</hi> saturare replendo: <milestone n="530" unit="altline"/></l>
 					<l n="430"><hi rend="italic">Cuncta haurit, rapido</hi> perlustrans omnia visu. </l>
 					<l n="431"><hi rend="italic">Miraturq; nouum solito</hi> fulgentior <hi rend="italic">orbem</hi>
 					</l>
@@ -2491,10 +2489,10 @@
 					<l n="441"><hi rend="italic">Cogit</hi> (6 attonitos <hi rend="italic">mirari ac voluere
 							secum,</hi>
 					</l>
-					<l n="442"><choice>
-							<sic>Ynde</sic>
-							<corr>Vnde</corr>
-						</choice>
+					<l n="442">
+							Vnde
+							
+						
 						<hi rend="italic">tot esca animis</hi> toto suffecerit anno: </l>
 					<l n="443">Quis potus, namq; hoc constat si caetera vitae </l>
 					<l n="444">Suppeterent, clausos dum fluctuat archa <hi rend="italic">perire</hi>
@@ -2531,16 +2529,16 @@
 					<ab>
 						<title type="sub">Claudii Marii Victoris Oratoris Massiliensis <sic n="poss">commen</sic>- tariorum in Genesin liber tertius. </title>
 					</ab>
-					<l n="1">Talia mente gerens <choice>
-							<sic>venturaq</sic>
-							<corr>ventnraq</corr>
-						</choice>; secula cernens </l>
+					<l n="1">Talia mente gerens 
+							ventnraq
+							
+						; secula cernens </l>
 					<l n="2">No prius officij <sic>quidqua</sic>
 						<hi rend="italic">seruatus</hi> inire </l>
-					<l n="3"><hi rend="italic"><sic>Costituit</sic>:</hi> quam sacra Deo <hi rend="italic"><choice>
-								<sic>laudesq</sic>
-								<corr>laude</corr>
-							</choice>;</hi> rependat, </l>
+					<l n="3"><hi rend="italic"><sic>Costituit</sic>:</hi> quam sacra Deo <hi rend="italic">
+								laude
+								
+							;</hi> rependat, </l>
 					<l n="4">
 						<hi rend="italic">* <sic>Gratcsq</sic>; euaso referat discrimine Noe. </hi>
 					</l>
@@ -2582,16 +2580,16 @@
 						<hi rend="italic"> Qui lymphis tandem sic Noe affatur ademptis:</hi>
 					</l>
 					<l n="20">Et si parua fuit tanto pro crimine poenae </l>
-					<l n="21"><choice>
-							<sic>VItio</sic>
-							<corr>Vitio</corr>
-						</choice>, vindicibus pluuijs, <hi rend="italic">coeloq; refuso</hi>
+					<l n="21">
+							Vitio
+							
+						, vindicibus pluuijs, <hi rend="italic">coeloq; refuso</hi>
 					</l>
 					<l n="22">Tot scelerum damnasse reos, sedemq; nocentem </l>
-					<l n="23">Terrarum <hi rend="italic">mage diffuso <choice>
-								<sic>purgaSse</sic>
-								<corr>purgasse</corr>
-							</choice></hi> profundo: <milestone n="20" unit="altline"/></l>
+					<l n="23">Terrarum <hi rend="italic">mage diffuso 
+								purgasse
+								
+							</hi> profundo: <milestone n="20" unit="altline"/></l>
 					<l n="24">Non tamen offensi feriemus verbere tali * </l>
 					<l n="25">Vlterius mortale genus: quauis ruituras </l>
 					<l n="26">Per varium facinus, per crimina pristina rursum </l>
@@ -2606,19 +2604,19 @@
 					<l n="30"><hi rend="italic"> 1708 igitur quos vita probat iustissima nobis</hi>. </l>
 					<l n="31">Crescite securi, <hi rend="italic">et foecunda</hi> prole referte </l>
 					<l n="32">Arua, nouosq; greges <hi rend="italic">longis</hi> distendite terris: </l>
-					<l n="33">Seruabunt elementa vices, <choice>
-							<sic>cnnctisq</sic>
-							<corr>cunctisq</corr>
-						</choice>; diebus <milestone n="30" unit="altline"/></l>
+					<l n="33">Seruabunt elementa vices, 
+							cunctisq
+							
+						; diebus <milestone n="30" unit="altline"/></l>
 					<l n="34"><hi rend="italic">Sparsis seminibus</hi> reddetur debita messis. </l>
 					<l n="35">Curret opus mundi compar, discordibus horis: </l>
 					<l n="36">Aestati certabit <sic>hyems</sic>: ac tempora librans </l>
 					<l n="37">Veris &amp; autumni fugiens replicabitur annus. </l>
 					<l n="38"><sic>Yosq</sic>; (quibus regnum solidi permisimus orbis) <milestone n="35" unit="altline"/></l>
-					<l n="39"><hi rend="italic">Tota tremet, <choice>
-								<sic>metuetq</sic>
-								<corr>metuet</corr>
-							</choice>; ampli substantia mundi</hi>. </l>
+					<l n="39"><hi rend="italic">Tota tremet, 
+								metuet
+								
+							; ampli substantia mundi</hi>. </l>
 
 					<note type="footnote"> XVI. Poet. christ. min. pars i. </note>
 
@@ -2634,20 +2632,20 @@
 					<l n="42"><hi rend="italic"><sic>Camea</sic>
 							<sic>mSbra</sic> quidem vestros</hi> largimur in vsus. <milestone n="40" unit="altline"/></l>
 					<l n="43">
-						<hi rend="italic">Quanquã interdictum vobis a sanguine <choice>
-								<sic>viui</sic>
-								<corr>vini</corr>
-							</choice>
+						<hi rend="italic">Quanquã interdictum vobis a sanguine 
+								vini
+								
+							
 						</hi>
 					</l>
 					<l n="44"><hi rend="italic"> Esse volo: <sic>quS</sic> si quisqud ederit, haud</hi> secus
 						acris </l>
 					<l n="45"><hi rend="italic">Illum</hi> iudicij plectet sententia: quam si </l>
 					<l n="46">Hauserit <hi rend="italic">humana fluidum de caede</hi>
-						<choice>
-							<sic>crnorem</sic>
-							<corr>cruorem</corr>
-						</choice>
+						
+							cruorem
+							
+						
 					</l>
 					<l n="47">Quem <hi rend="italic"><sic>repeta</sic> semper</hi> vindex, adeoq; requiram,
 							<milestone n="45" unit="altline"/></l>
@@ -2659,10 +2657,10 @@
 					<l n="52">Quum leuis in <hi rend="italic">nebulas <sic>pedcs</sic> se verterit</hi> humor, </l>
 					<l n="53">Et nigras <hi rend="italic">cumularit</hi> aquas in <sic>cocaua</sic> nubes, </l>
 					<l n="54">Effundam radios, &amp; pulchrum circite summo </l>
-					<l n="55">Arcum <hi rend="italic"><choice>
-								<sic>conquonet</sic>
-								<corr>componet</corr>
-							</choice> mihi solis imago recuruum:</hi>
+					<l n="55">Arcum <hi rend="italic">
+								componet
+								
+							 mihi solis imago recuruum:</hi>
 					</l>
 					<l n="56"><sic>Fingentem</sic> connexa poli, qui luce colores <milestone n="55" unit="altline"/>
 					</l>
@@ -2682,41 +2680,41 @@
 					<l n="65"><hi rend="italic">Mox <sic>subigwnt</sic></hi> rastris, &amp; semine rura
 						maritant. </l>
 					<l n="66"><hi rend="italic">Tum</hi> vere effusis late densissima campis <milestone n="65" unit="altline"/></l>
-					<l n="67">Herba <hi rend="italic">virens, flauas <choice>
-								<sic>qufl</sic>
-								<corr>qua</corr>
-							</choice> durauisset aristas,</hi></l>
+					<l n="67">Herba <hi rend="italic">virens, flauas 
+								qua
+								
+							 durauisset aristas,</hi></l>
 					<l n="68"><hi rend="italic"> *Solis ob ardores</hi> in frugem lacte gelato </l>
 					<l n="69">Reddit multiplicem cumulato foenore messem. </l>
 					<l n="70">Et noua praegrauido iam palmite vinea, diti </l>
 					<l n="71">Luxuriat fructu, <hi rend="italic">tortaq; ex arbore nectar</hi>
 					</l>
-					<l n="72">Parturit, &lt; duro <choice>
-							<sic>nascentea</sic>
-							<corr>nascentia</corr>
-						</choice> pocula ligno. <milestone n="70" unit="altline"/></l>
+					<l n="72">Parturit, &lt; duro 
+							nascentia
+							
+						 pocula ligno. <milestone n="70" unit="altline"/></l>
 					<l n="73">Forte <hi rend="italic">Deo Noe</hi> celebrabat laetus honores </l>
 					<l n="74">
-						<choice>
-							<sic>Indulgeus</sic>
-							<corr>Indulgens</corr>
-						</choice>
+						
+							Indulgens
+							
+						
 						<hi rend="italic">sacris epulis, <sic>vinuq</sic>; <sic n="poss">propinans</sic></hi>
 					</l>
-					<l n="75">Prima e <hi rend="italic">vite <choice>
-								<sic>nouu</sic>
-								<corr>noua</corr>
-							</choice>: quo demum largius hausto</hi>
+					<l n="75">Prima e <hi rend="italic">vite 
+								noua
+								
+							: quo demum largius hausto</hi>
 					</l>
 					<l n="76">
 						<hi rend="italic">Hinc alto grauidus somno <sic>mebrisq</sic>; solutis </hi>
 					</l>
 					<l n="77">
 						<hi rend="italic"> Non bene <sic>cdposita</sic>
-							<choice>
-								<sic>quu</sic>
-								<corr>qua</corr>
-							</choice> veste iaceret, humiq;</hi>
+							
+								qua
+								
+							 veste iaceret, humiq;</hi>
 					</l>
 					<l n="78">
 						<hi rend="italic"> *Prostratus spectanda daret genitalia natis </hi>
@@ -2728,10 +2726,10 @@
 							vni</hi>
 					</l>
 					<l n="81">*<hi rend="italic">Esse tibi credens,</hi>
-						<choice n="0.69">
-							<sic n="838">fratres</sic>
-							<corr n="362">fratre</corr>
-						</choice> aspergine culpae </l>
+						
+							fratre
+							
+						 aspergine culpae </l>
 
 					<note type="footnote">
 						<hi rend="italic">\') om. u. 38. 2) om. u. 49. 3) om. u. 57</hi>. </note>
@@ -2742,10 +2740,10 @@
 						<hi rend="italic">Contendis maculare tuae: sententia multo</hi>
 					</l>
 					<l n="83">
-						<hi rend="italic"> Quos melior, <choice>
-								<sic>meliorq</sic>
-								<corr>melior</corr>
-							</choice>; animus detecta parentis </hi>
+						<hi rend="italic"> Quos melior, 
+								melior
+								
+							; animus detecta parentis </hi>
 					</l>
 					<l n="84"><hi rend="italic"> Obiecta docuit <sic>cejare</sic> virilia palla:</hi> 1)
 							<milestone n="80" unit="altline"/></l>
@@ -2780,10 +2778,10 @@
 						<hi rend="italic"> Interea domini dum sancta in lege vigeret</hi>
 					</l>
 					<l n="99"><hi rend="italic"> Posteritas multis iamq; aucta nepotibus,</hi> &amp; <hi rend="italic">se</hi></l>
-					<l n="100">Coelorum ac <choice>
-							<sic>terrq</sic>
-							<corr>terr</corr>
-						</choice> domino cdmitteret vni: 3) <milestone n="99" unit="altline"/></l>
+					<l n="100">Coelorum ac 
+							terr
+							
+						 domino cdmitteret vni: 3) <milestone n="99" unit="altline"/></l>
 					<l n="101"><hi rend="italic"> Tunc sanctis hominum parebant omnia iussis: </hi></l>
 					<l n="102"> Terra grauis, liquidum pelagus, vegetabilis aer. <milestone n="106" unit="altline"/></l>
 					<l n="103">
@@ -2822,10 +2820,10 @@
 					<l n="116"><hi rend="italic"> Assignare vagis persuasit subdolus</hi> astris: 5)
 							<milestone n="145" unit="altline"/></l>
 					<l n="117">
-						<hi rend="italic"><sic>Atq</sic>; auium spectare <choice>
-								<sic>ifbras</sic>
-								<corr>fibras</corr>
-							</choice>, motusq; volantum, 6) </hi>
+						<hi rend="italic"><sic>Atq</sic>; auium spectare 
+								fibras
+								
+							, motusq; volantum, 6) </hi>
 						<milestone n="147" unit="altline"/>
 					</l>
 					<l n="118"><hi rend="italic"> Et studio ingenti</hi> magice scelus intulit artis.
@@ -2850,10 +2848,10 @@
 
 					<pb n="468"/>
 					<l n="123">
-						<hi rend="italic">*Impietatis apex, <choice>
-								<sic>Cliam</sic>
-								<corr>Cham</corr>
-							</choice> seruo è semine natus,</hi>
+						<hi rend="italic">*Impietatis apex, 
+								Cham
+								
+							 seruo è semine natus,</hi>
 					</l>
 					<l n="124">Mole &amp; mete gigas, Babylonia <hi rend="italic">regna gubernas</hi>
 					</l>
@@ -2871,10 +2869,10 @@
 					<l n="135"><sic>Du</sic> furit, &amp; raptum quaerit per singula natum,\') </l>
 					<l n="136"><hi rend="italic">Effecta moestum</hi> solatur imagine luctum:2) <milestone n="180" unit="altline"/></l>
 					<l n="137"><hi rend="italic">Et pario effecta filij</hi> de marmore formam <milestone n="182" unit="altline"/></l>
-					<l n="138"><choice n="0.61">
-							<sic n="11">Credidit</sic>
-							<corr n="7">Credidi</corr>
-						</choice>
+					<l n="138">
+							Credidi
+							
+						
 						<hi rend="italic">infoelix</hi> incluso <sic>viuere</sic> sensu: </l>
 					<l n="139">Et questus audire suos, <hi rend="italic">mox inde</hi> dicatis </l>
 					<l n="140">
@@ -2889,15 +2887,15 @@
 					<l n="145"><hi rend="italic"> *Dixeruntq; Deos:</hi> quorū sub nomine mendax </l>
 					<l n="146">Graecia, dum veris falsa insinuare laborat: <milestone n="195" unit="altline"/></l>
 					<l n="147">Addidit obscuras vanis rationibus vmbras, </l>
-					<l n="148">Excusans <choice>
-							<sic>tnmulos</sic>
-							<corr>tumulos</corr>
-						</choice>
+					<l n="148">Excusans 
+							tumulos
+							
+						
 						<hi rend="italic">atq;</hi> indita nomina bustis: </l>
-					<l n="149">Donec per species <hi rend="italic">sese</hi> dementia <choice>
-							<sic>cunctas_</sic>
-							<corr>cunctas</corr>
-						</choice>
+					<l n="149">Donec per species <hi rend="italic">sese</hi> dementia 
+							cunctas
+							
+						
 					</l>
 					<l n="150">/Voderet, &amp; <hi rend="italic">minimis rebus</hi>
 						<sic>mebrisq</sic>; pudendis </l>
@@ -2933,10 +2931,10 @@
 
 					<pb n="469"/>
 					<l n="164">
-						<hi rend="italic">*In <choice>
-								<sic>camputn</sic>
-								<corr>campum</corr>
-							</choice> (Semnaar veteres dixere) patentem </hi>
+						<hi rend="italic">*In 
+								campum
+								
+							 (Semnaar veteres dixere) patentem </hi>
 					</l>
 					<l n="165">
 						<hi rend="italic"> * Perueniunt: quumq; his etiam discedere terris</hi>
@@ -2948,10 +2946,10 @@
 					</l>
 					<l n="170">Per varios casus? <hi rend="italic">quam</hi> voti summa petiti </l>
 					<l n="171">Tendit in aduersum? iam nos (si dicere fas est) </l>
-					<l n="172">Quod sperata <choice n="0.01">
-							<sic n="1">patru</sic>
-							<corr n="50">patrii</corr>
-						</choice> precibus numerosa <sic>nepotvi</sic>
+					<l n="172">Quod sperata 
+							patru
+							
+						 precibus numerosa <sic>nepotvi</sic>
 						<milestone n="220" unit="altline"/></l>
 					<l n="173">Creuit turba, piget: <hi rend="italic">quod iam <sic>spargeda</sic></hi> per
 						orbe </l>
@@ -2975,10 +2973,10 @@
 					<l n="181">Quae vobis superest, <hi rend="italic">quae finem nesciat <sic>vflum</sic>
 						</hi></l>
 					<l n="182"><hi rend="italic"> Egregiam</hi> aeternis <hi rend="italic">fama dimittite
-								<choice n="0.25">
-								<sic n="326">factis</sic>
-								<corr n="939">facies</corr>
-							</choice>:</hi>
+								
+								facies
+								
+							:</hi>
 					</l>
 					<l n="183">Vrbem condamus, cuius sub <hi rend="italic">moenia</hi> turrem </l>
 					<l n="184"><hi rend="italic">Vsq;</hi> attollamus, donec pingentia coelum </l>
@@ -3033,10 +3031,10 @@
 						<milestone n="255" unit="altline"/>
 					</l>
 					<l n="209"><hi rend="italic"> Ergo agite,</hi> (<sic>vt</sic>
-						<sic>vetitu</sic> norint quod posse <choice>
-							<sic>negatu</sic>
-							<corr>negata</corr>
-						</choice> est) <milestone n="257" unit="altline"/></l>
+						<sic>vetitu</sic> norint quod posse 
+							negata
+							
+						 est) <milestone n="257" unit="altline"/></l>
 					<l n="210">Iam <sic>descedamus</sic>, tumefactaq; corda superbo </l>
 					<l n="211">Consensu <sic>varij</sic> turbemus vocibus oris: </l>
 					<l n="212">Vt quod <sic>peccartmt</sic> concordis crimine <hi rend="italic">metis,</hi>
@@ -3050,15 +3048,15 @@
 					<l n="219">Non intellectis, <hi rend="italic">quod</hi> siquis tentat, inane </l>
 					<l n="220">Sibilat, aut rupti fremitu sermonis anhelat:2) </l>
 					<l n="221">Sic vanum praua susceptum mente laborem <milestone n="270" unit="altline"/></l>
-					<l n="222">Destituit frustrata manus: iam nemo <choice>
-							<sic>propinquu</sic>
-							<corr>propinqua</corr>
-						</choice>
+					<l n="222">Destituit frustrata manus: iam nemo 
+							propinqua
+							
+						
 					</l>
-					<l n="223">Nemo patre sequitur: <choice n="0.44">
-							<sic n="387">que</sic>
-							<corr n="487">qu</corr>
-						</choice> quisq; intelligit, <hi rend="italic">addit</hi>
+					<l n="223">Nemo patre sequitur: 
+							qu
+							
+						 quisq; intelligit, <hi rend="italic">addit</hi>
 					</l>
 					<l n="224">Adglomeratq; sibi, <hi rend="italic">sociumq; adiungere curat. </hi></l>
 					<l n="225"><hi rend="italic"> * <sic n="poss">Dumq</sic>,\' perit diuisa huius</hi>
@@ -3069,10 +3067,10 @@
 					<l n="228">Haud aliter volucres campi per mollia plana </l>
 					<l n="229">Quas gregibus mixtis errare &amp; quaerere victum </l>
 					<l n="230">Persuasit secura dies, quum nocte propinqua </l>
-					<l n="231">Frondea tecta <choice>
-							<sic>petut</sic>
-							<corr>petat</corr>
-						</choice>: exempto <hi rend="italic">cum</hi> grege turba </l>
+					<l n="231">Frondea tecta 
+							petat
+							
+						: exempto <hi rend="italic">cum</hi> grege turba </l>
 					<l n="232">Vulgus quaeq; suum sequitur, rapidoq; volatu <milestone n="280" unit="altline"/></l>
 					<l n="233">Miscetur similis qua duxerit aut color, aut vox: </l>
 					<l n="234">Sic tunc in partes populus se dissecat vnus: </l>
@@ -3085,10 +3083,10 @@
 					<l n="241"><hi rend="italic">Vt nec se</hi> agnoscant <hi rend="italic">verba inconsueta
 								<sic>loquetes</sic>: </hi></l>
 					<l n="242">
-						<hi rend="italic"> *<sic>AttamS</sic> id <sic>multu</sic> quod rapto hoc foedere <choice>
-								<sic>cautu</sic>
-								<corr>cantu</corr>
-							</choice> est </hi>
+						<hi rend="italic"> *<sic>AttamS</sic> id <sic>multu</sic> quod rapto hoc foedere 
+								cantu
+								
+							 est </hi>
 					</l>
 					<l n="243"><hi rend="italic"> Ne quam paucorU attulerat</hi> persuasio culpam, <milestone n="290" unit="altline"/></l>
 					<l n="244"><hi rend="italic">Cunctorum assensu</hi> rursus contingeret omnes: </l>
@@ -3113,10 +3111,10 @@
 							<sic>QuaqucL</sic> nec prorsum sublata Hebraea <sic n="poss">loquendi1</sic>)</hi>
 					</l>
 					<l n="250"><hi rend="italic"> Consuetudo fuit: quum tunc permanserit</hi> oris <milestone n="298" unit="altline"/></l>
-					<l n="251">Hebraei sonitus, <choice>
-							<sic>sermoq</sic>
-							<corr>sermo</corr>
-						</choice>; antiquus, in illis </l>
+					<l n="251">Hebraei sonitus, 
+							sermo
+							
+						; antiquus, in illis </l>
 					<l n="252">Qui culpae expertes pars non iniusta fuerunt <milestone n="300" unit="altline"/></l>
 					<l n="253"><sic>Natoru</sic> quos Sem genuit, <hi rend="italic">custodia iusti </hi></l>
 					<l n="254"><hi rend="italic"> Quos tenuit: dominiq; etid</hi> reuerentia <hi rend="italic"><sic>surnmi</sic></hi>. </l>
@@ -3133,19 +3131,19 @@
 					<l n="265">Ingemuit, simul ipse ruit, quicunq; cadentem </l>
 					<l n="266">Conspexit, cecidit congestaq; funera passim <milestone n="315" unit="altline"/></l>
 					<l n="267">Dira lues strauit, <sic>camposgwe</sic>
-						<hi rend="italic">reliquit <choice n="0.28">
-								<sic n="116">inanes</sic>
-								<corr n="285">manes</corr>
-							</choice></hi>. </l>
+						<hi rend="italic">reliquit 
+								manes
+								
+							</hi>. </l>
 					<l n="268">Sic tunc praecipiti complexos mole furoris </l>
 					<l n="269">
 						<hi rend="italic">* Ne nihil infectum toto dimitteret orbe </hi>
 					</l>
 					<l n="270"><hi rend="italic"> Cdprendit repetens, quos iam</hi> dimiserat error. </l>
-					<l n="271">Donec <hi rend="italic"><choice>
-								<sic>Cltaldaei</sic>
-								<corr>Chaldaei</corr>
-							</choice> generis de semine <sic n="poss">Thare3</sic>) </hi><milestone n="319" unit="altline"/></l>
+					<l n="271">Donec <hi rend="italic">
+								Chaldaei
+								
+							 generis de semine <sic n="poss">Thare3</sic>) </hi><milestone n="319" unit="altline"/></l>
 					<l n="272"><hi rend="italic"> Vir iustus metuensq; Dei</hi> cum stii-pe suorum <milestone n="322" unit="altline"/></l>
 					<l n="273">Vrbem aliam moresq; nouos, sedemq; requirens </l>
 					<l n="274">Mansit in Assyrijs <sic>demu</sic> nouus accola Carris. </l>
@@ -3159,10 +3157,10 @@
 							<milestone n="326" unit="altline"/></l>
 					<l n="279">Vir <hi rend="italic">coelo dignus,</hi> nam primo a lumine vitae </l>
 					<l n="280">Verum mente Deum venerans, gentilia sacra </l>
-					<l n="281">Auersatus erat, <choice n="0.44">
-							<sic n="387">que</sic>
-							<corr n="487">qu</corr>
-						</choice>
+					<l n="281">Auersatus erat, 
+							qu
+							
+						
 						<sic>postqua</sic> morte parentis </l>
 					<l n="282">Iussa sequi iam posse Dei, sine fraude liquebat: <milestone n="330" unit="altline"/></l>
 					<l n="283">His dominus <sic>famulu</sic> meritis dignatus adire est. </l>
@@ -3211,10 +3209,10 @@
 					<l n="309"><hi rend="italic">Vnde Deo supplex</hi> deuotas <hi rend="italic">extruit</hi>
 						aras, <milestone n="355" unit="altline"/></l>
 					<l n="310">Et veteres reuocas, cultor nouus auget honores. </l>
-					<l n="311">Inde petit <choice>
-							<sic>BetheL</sic>
-							<corr>Bethel</corr>
-						</choice> sedes quae lecta beati </l>
+					<l n="311">Inde petit 
+							Bethel
+							
+						 sedes quae lecta beati </l>
 					<l n="312">Hospitijs sacrata <hi rend="italic">Dei:</hi> cunctasq; superbis </l>
 					<l n="313">Excessit meritis terras, quandoq; secundo </l>
 					<l n="314"><hi rend="italic">Post coelū</hi> numeranda loco: <hi rend="italic">nam</hi>
@@ -3237,10 +3235,10 @@
 					<l n="327">Ictus inardescit, thalamosq; &amp; foedera certa </l>
 					<l n="328">Lege parat: <hi rend="italic">longos isthaec connubia in annos</hi> • </l>
 					<l n="329">
-						<hi rend="italic">* Ducturus, ni <choice n="0.92">
-								<sic n="1363">longe</sic>
-								<corr n="107">longi</corr>
-							</choice> aliter disponeret ille</hi>
+						<hi rend="italic">* Ducturus, ni 
+								longi
+								
+							 aliter disponeret ille</hi>
 					</l>
 					<l n="330">*<hi rend="italic">Autor coniugij: cui <sic>quu</sic> minus ista placerent
 						</hi>
@@ -3269,10 +3267,10 @@
 					<l n="343">
 						<hi rend="italic">* Cum gregibusq; domoq; pater, cu <sic>coiuge</sic> salua,</hi>
 					</l>
-					<l n="344">Exercent campos, &amp; pinguia <choice>
-							<sic>pascna</sic>
-							<corr>pascua</corr>
-						</choice> late </l>
+					<l n="344">Exercent campos, &amp; pinguia 
+							pascua
+							
+						 late </l>
 					<l n="345">Immixtis carpunt gregibus: <hi rend="italic">dum</hi> iurgia crebra. </l>
 					<l n="346">Inter pastores <hi rend="italic">patrui nata atq; nepotis: </hi></l>
 					<l n="347">
@@ -3325,10 +3323,10 @@
 					<lb/>
 
 					<pb n="474"/>
-					<l n="374">Solicitat tellus, <choice>
-							<sic>caarpis</sic>
-							<corr>campis</corr>
-						</choice> illisa resultat </l>
+					<l n="374">Solicitat tellus, 
+							campis
+							
+						 illisa resultat </l>
 					<l n="375">Vngula, &amp; effusis errat populator habenis </l>
 					<l n="376">
 						<hi rend="italic">*Aduersum Sodomę, <sic>ptguissima</sic> pascua gentis:</hi>
@@ -3337,10 +3335,10 @@
 					<l n="378">Et vicina manus regum socia arma ferentum, <milestone n="420" unit="altline"/></l>
 					<l n="379">Secu equites peditesq; trahunt, distenditur agme </l>
 					<l n="380">Confligunt acies pariter, sternuntq; caduntq;:1) </l>
-					<l n="381">Sed <choice n="0.54">
-							<sic n="176">turpis</sic>
-							<corr n="145">turpi</corr>
-						</choice> Sodomae luxu emollita iuuentus <milestone n="426" unit="altline"/></l>
+					<l n="381">Sed 
+							turpi
+							
+						 Sodomae luxu emollita iuuentus <milestone n="426" unit="altline"/></l>
 					<l n="382">Vt rursum exarsit repetitus clamor in iras, </l>
 					<l n="383">Vertunt terga metu: rapido pars moenia cursu, </l>
 					<l n="384">Pars montes, syluasq; petunt, pars septa cateruis </l>
@@ -3349,21 +3347,21 @@
 					<l n="387">Non fletu, quid enim fletus conferret inanis? </l>
 					<l n="388">Sed <hi rend="italic">virtute parat fratri succurrere capto</hi>.</l>
 					<l n="389"><hi rend="italic">*Instructos igitur</hi> tercentum deligit omni </l>
-					<l n="390">De grege bisq; noue famulos, quos <hi rend="italic">an <choice>
-								<sic>praeentes</sic>
-								<corr>praeeutes</corr>
-							</choice></hi>
+					<l n="390">De grege bisq; noue famulos, quos <hi rend="italic">an 
+								praeeutes
+								
+							</hi>
 					</l>
-					<l n="391"><hi rend="italic">Insequitur sensim,</hi> qua <hi rend="italic"><choice>
-								<sic>lenturn</sic>
-								<corr>lentum</corr>
-							</choice></hi> prodidit hostem <milestone n="435" unit="altline"/></l>
+					<l n="391"><hi rend="italic">Insequitur sensim,</hi> qua <hi rend="italic">
+								lentum
+								
+							</hi> prodidit hostem <milestone n="435" unit="altline"/></l>
 					<l n="392"><hi rend="italic">Tendere</hi> praeda grauis: <hi rend="italic">quorum de nocte
 							silenti</hi></l>
-					<l n="393"><hi rend="italic"> Corpora (<choice>
-								<sic>conflnctn</sic>
-								<corr>confluctu</corr>
-							</choice></hi> dum iam languentia <hi rend="italic">duro</hi>
+					<l n="393"><hi rend="italic"> Corpora (
+								confluctu
+								
+							</hi> dum iam languentia <hi rend="italic">duro</hi>
 					</l>
 					<l n="394">Irrigat, &amp; fessos dulcis sopor alligat artus) </l>
 					<l n="395">
@@ -3381,24 +3379,24 @@
 					<l n="402"><sic>Stertentesq</sic>; <hi rend="italic">Abram</hi> populos, regesq; trucidat
 							<milestone n="445" unit="altline"/></l>
 					<l n="403"><hi rend="italic">Sic tamen vt</hi> nullus confundat castra tumultus. </l>
-					<l n="404">Nemo gradu sentit, nisi que <hi rend="italic">mens <choice>
-								<sic>deiicit</sic>
-								<corr>deficit</corr>
-							</choice></hi> &amp; <sic>vox</sic>. </l>
-					<l n="405">Nemo sonum caedis, nisi que <choice n="0.35">
-							<sic n="698">mors</sic>
-							<corr n="1283">more</corr>
-						</choice> excitat audit. </l>
+					<l n="404">Nemo gradu sentit, nisi que <hi rend="italic">mens 
+								deficit
+								
+							</hi> &amp; <sic>vox</sic>. </l>
+					<l n="405">Nemo sonum caedis, nisi que 
+							more
+							
+						 excitat audit. </l>
 					<l n="406">Sanguine cuncta madent: sicco resoluta sereno </l>
 					<l n="407">Tellus tabe coit, gressumq; morante cruore <milestone n="450" unit="altline"/></l>
 					<l n="408">Lubrica <hi rend="italic">stagnanti</hi> titubant vestigia campo. </l>
-					<l n="409">Nec <choice n="0.00">
-							<sic n="1">tame</sic>
-							<corr n="5760">tam</corr>
-						</choice> omne <hi rend="italic"><choice n="0.27">
-								<sic n="317">animas</sic>
-								<corr n="849">animos</corr>
-							</choice></hi> gladijs <hi rend="italic"><sic>occubit</sic> apertis,</hi>
+					<l n="409">Nec 
+							tam
+							
+						 omne <hi rend="italic">
+								animos
+								
+							</hi> gladijs <hi rend="italic"><sic>occubit</sic> apertis,</hi>
 					</l>
 					<l n="410">Seruantur pr§dae: tanta est moderatio iusti </l>
 					<l n="411">Victoris: reliquos sparsit fuga turpis, &amp; <sic n="poss">agros2</sic>)
@@ -3415,23 +3413,23 @@
 					<pb n="475"/>
 					<l n="416"><sic>Victoresq</sic>; <hi rend="italic">mouent) nil prorsus concupit horum
 						</hi></l>
-					<l n="417"><hi rend="italic"> * <choice>
-								<sic>Jfagnificus</sic>
-								<corr>Magnificus</corr>
-							</choice>, sed enim</hi> tanta inter gaudia mitis <milestone n="460" unit="altline"/></l>
+					<l n="417"><hi rend="italic"> * 
+								Magnificus
+								
+							, sed enim</hi> tanta inter gaudia mitis <milestone n="460" unit="altline"/></l>
 					<l n="418">Et <hi rend="italic">varios</hi> hominum reputans sub pectore <hi rend="italic">casus, </hi></l>
 					<l n="419"><hi rend="italic"> Omnes omnino</hi>
-						<choice n="0.14">
-							<sic n="62">praedas</sic>
-							<corr n="368">praeda</corr>
-						</choice>, &amp; praemia belli </l>
+						
+							praeda
+							
+						, &amp; praemia belli </l>
 					<l n="420">Direptis passim populis, regiq; <sic>resen/at</sic>: </l>
 					<l n="421">Non sibi se pugnasse docens, decimam tn offert </l>
 					<l n="422">Hostibus excussae que vera est hostia praedae, <milestone n="465" unit="altline"/></l>
-					<l n="423">Melcisedech, <hi rend="italic"><sic>vinumq</sic>;</hi> &amp; <hi rend="italic"><choice>
-								<sic>panS</sic>
-								<corr>pani</corr>
-							</choice>: ab <sic>cecde</sic> reuerso</hi>.</l>
+					<l n="423">Melcisedech, <hi rend="italic"><sic>vinumq</sic>;</hi> &amp; <hi rend="italic">
+								pani
+								
+							: ab <sic>cecde</sic> reuerso</hi>.</l>
 					<l n="424">
 						<hi rend="italic">Melchisedech rex ile Salem, qui munere tali</hi>
 					</l>
@@ -3439,10 +3437,10 @@
 						<hi rend="italic">summi</hi> libamina <hi rend="italic">Christi:</hi>
 					</l>
 					<l n="426">
-						<hi rend="italic">Cuius de manibus <choice>
-								<sic>suviens</sic>
-								<corr>sumens</corr>
-							</choice> ecclesia corpus</hi>
+						<hi rend="italic">Cuius de manibus 
+								sumens
+								
+							 ecclesia corpus</hi>
 					</l>
 					<l n="427">
 						<hi rend="italic"> Viuificum panem, coelesti pota cruore est. </hi>
@@ -3458,10 +3456,10 @@
 					<l n="431">Illecebris, precium fidei, mercesq; laborum </l>
 					<l n="432">Mecum plena tibi est: teq; &amp; tua cuncta tuebor, </l>
 					<l n="433">Haeredi seruanda tuo, quem germine sero <milestone n="475" unit="altline"/></l>
-					<l n="434"><hi rend="italic"><sic>ProgenitH</sic>, mage multo <choice>
-								<sic>eticL</sic>
-								<corr>etid</corr>
-							</choice></hi> pius auctor amabis. </l>
+					<l n="434"><hi rend="italic"><sic>ProgenitH</sic>, mage multo 
+								etid
+								
+							</hi> pius auctor amabis. </l>
 					<l n="435"><hi rend="italic"> Nil est quod metuas haeres tuus illo</hi> Damascus </l>
 					<l n="436">
 						<hi rend="italic">Vt fuat, ipse tuo cernes de semine natum:</hi>
@@ -3470,20 +3468,20 @@
 					<l n="438">Suspice conuexum quam denso lumine coelum <milestone n="481" unit="altline"/></l>
 					<l n="439">Picta nocte micat: quantis congesta premantur </l>
 					<l n="440">Sidera sideribus, numeru quae obiecta recusent: </l>
-					<l n="441">Seminis hoc exemplar <choice n="0.85">
-							<sic n="651">habes</sic>
-							<corr n="106">habe</corr>
-						</choice>, stirpisq; futurae </l>
+					<l n="441">Seminis hoc exemplar 
+							habe
+							
+						, stirpisq; futurae </l>
 					<l n="442"><hi rend="italic">Multiplicis formam. Sic fatus finit:</hi> at ille <milestone n="485" unit="altline"/></l>
 					<l n="443">Credidit, &amp; nudae fidei consensio sola 2) </l>
 					<l n="444">Plenam <hi rend="italic">ad</hi> iustitiae (6 <hi rend="italic">meriti</hi>
 						reputata corona <hi rend="italic">est</hi>. </l>
 					<l n="445">Atque adeb hic <hi rend="italic">Abra tata mercede docemur,</hi>
 					</l>
-					<l n="446"><hi rend="italic">Quanti sit meriti</hi> diuino credere <hi rend="italic"><choice>
-								<sic>VerbO</sic>
-								<corr>Verbo</corr>
-							</choice>: </hi><milestone n="490" unit="altline"/></l>
+					<l n="446"><hi rend="italic">Quanti sit meriti</hi> diuino credere <hi rend="italic">
+								Verbo
+								
+							: </hi><milestone n="490" unit="altline"/></l>
 					<l n="447">
 						<hi rend="italic"> * Demeriti contra quanti non credere: <sic>nalllq</sic>; vt </hi>
 					</l>
@@ -3500,13 +3498,13 @@
 					<l n="454">Incolat, &amp; seriem longe lateq; propaget, </l>
 					<l n="455">Gentibus expulsis, quas foedo errore parentum </l>
 					<l n="456">Sacrilegas ritus olim fecere prophani: </l>
-					<l n="457">Quod <hi rend="italic"><sic>cUctabudus</sic> nimium <choice n="0.16">
-								<sic n="1873">quin</sic>
-								<corr n="9788">quia</corr>
-							</choice></hi> credere <hi rend="italic"><choice>
-								<sic>differS</sic>
-								<corr>differs</corr>
-							</choice>,</hi>
+					<l n="457">Quod <hi rend="italic"><sic>cUctabudus</sic> nimium 
+								quia
+								
+							</hi> credere <hi rend="italic">
+								differs
+								
+							,</hi>
 					</l>
 
 					<note type="footnote"> 1) <hi rend="italic">om. u. 480</hi>. 2) <hi rend="italic">om. u.
@@ -3544,23 +3542,23 @@
 					<l n="480">Inde truces motus, deductaq; castra suorum, </l>
 					<l n="481"><sic>Transmissu</sic> pelagus, <hi rend="italic">sed gurgite</hi> mersa
 						profundo </l>
-					<l n="482">Agmina <choice>
-							<sic>naufragiu</sic>
-							<corr>naufragii</corr>
-						</choice> nulla cum classe sequut?tm: </l>
-					<l n="483"><hi rend="italic">Ereptosq; mari <choice>
-								<sic>Hcbraeos</sic>
-								<corr>Hebraeos</corr>
-							</choice>,</hi> dehinc tota beatae </l>
+					<l n="482">Agmina 
+							naufragii
+							
+						 nulla cum classe sequut?tm: </l>
+					<l n="483"><hi rend="italic">Ereptosq; mari 
+								Hebraeos
+								
+							,</hi> dehinc tota beatae </l>
 					<l n="484">Regna Pal§stinae populo patuisse reuerso. <milestone n="530" unit="altline"/></l>
 					<l n="485">Talibus attonito visis non defuit almus </l>
 					<l n="486">Interpres, praenosce tuos, sobolemq; tuorum </l>
 					<l n="487"><hi rend="italic">Inquit,</hi> in externis <hi rend="italic">per secula
 							quattuor</hi> agris </l>
-					<l n="488">Niliaci <hi rend="italic">illius sensuram <choice n="0.96">
-								<sic n="218">dira</sic>
-								<corr n="8">dire</corr>
-							</choice></hi> tyranni </l>
+					<l n="488">Niliaci <hi rend="italic">illius sensuram 
+								dire
+								
+							</hi> tyranni </l>
 					<l n="489"><hi rend="italic">Imperia: at <sic>quu</sic> tot peregrina</hi> expleuerit
 						annos: <milestone n="535" unit="altline"/></l>
 					<l n="490">Seruitio eripiam, <hi rend="italic"><sic>gentemq</sic>;</hi> vlciscar iniquam. </l>
@@ -3584,19 +3582,19 @@
 					<l n="500"><sic>Signu</sic> e monte dedit, <hi rend="italic">confestim fumeus istic </hi>
 					</l>
 					<l n="501">
-						<hi rend="italic">Apparet clibanus, <choice>
-								<sic>lampasq</sic>
-								<corr>lampas</corr>
-							</choice>; ignita videtur: </hi>
+						<hi rend="italic">Apparet clibanus, 
+								lampas
+								
+							; ignita videtur: </hi>
 					</l>
 					<l n="502"><hi rend="italic"> Tum sacras epulas</hi> mediumq; inuecta paratum </l>
 					<l n="503"><sic>Pręcipiti</sic> cursu delibans flamma <sic>rorauit</sic>. *) </l>
 					<l n="504">Interea certus regni prolisq; futurae <milestone n="555" unit="altline"/></l>
 					<l n="505"><hi rend="italic">Munus adire</hi>
-						<choice>
-							<sic>patm</sic>
-							<corr>patri</corr>
-						</choice> cupit Abram: casta sed vxor </l>
+						
+							patri
+							
+						 cupit Abram: casta sed vxor </l>
 					<l n="506">Abnuit officium, quod inanem effoeta senectus </l>
 					<l n="507"><hi rend="italic"><sic>Iarnq</sic>; vterum sibi fecisset:</hi> sed dulce mariti </l>
 					<l n="508">Pignus spemq; noua quacunq; ex pellice fusam </l>
@@ -3612,10 +3610,10 @@
 					<l n="517">Recte igitur flagris hanc vir iustissimus Abram </l>
 					<l n="518">Coniugis addixit: quorum magis acta pudore </l>
 					<l n="519">In deserta procul secretaq; lustra ferarum <milestone n="570" unit="altline"/></l>
-					<l n="520">Abditur indignans, <hi rend="italic">qua <choice n="0.96">
-								<sic n="122">exul</sic>
-								<corr n="4">exui</corr>
-							</choice> nec spernere cessat:</hi>
+					<l n="520">Abditur indignans, <hi rend="italic">qua 
+								exui
+								
+							 nec spernere cessat:</hi>
 					</l>
 					<l n="521">Sed rursum <hi rend="italic">obsequio priuas quod debuit, illam</hi>
 					</l>
@@ -3644,10 +3642,10 @@
 						<hi rend="italic">A quo mox audit firmata voce futurum </hi>
 					</l>
 					<l n="540">
-						<hi rend="italic"> *Se patrem innumerae <choice>
-								<sic>genUs</sic>
-								<corr>gentis</corr>
-							</choice>, <sic>latcq</sic>; parentis: </hi>
+						<hi rend="italic"> *Se patrem innumerae 
+								gentis
+								
+							, <sic>latcq</sic>; parentis: </hi>
 					</l>
 					<l n="541"><hi rend="italic">*Et cuius venient etiam de semine reges</hi>. <milestone n="590" unit="altline"/></l>
 
@@ -3661,10 +3659,10 @@
 							<sic>Masculei</sic> sexus <sic>prquentemq</sic>; <sic>atq</sic>;</hi>
 						<sic n="poss">futuram2</sic>) <milestone n="595" unit="altline"/></l>
 					<l n="546"><hi rend="italic">Progeniem; iussus</hi>
-						<choice n="0.38">
-							<sic n="206">pueros</sic>
-							<corr n="330">puero</corr>
-						</choice> a matre recentes <milestone n="597" unit="altline"/></l>
+						
+							puero
+							
+						 a matre recentes <milestone n="597" unit="altline"/></l>
 					<l n="547">Atq; rudes vitae dum mens ignara dolendi est, </l>
 					<l n="548">Praeputio exutos, octaua luce sacrare. </l>
 					<l n="549">Quod qui tam sanctum corrupere testamentum <milestone n="600" unit="altline"/></l>
@@ -3696,10 +3694,10 @@
 					<l n="565">Sed tamen ignoscam dubijs, pueroq; futuro </l>
 					<l n="566">Imponam nomen quod culpa hanc arguat Ishac: </l>
 					<l n="567">Qui <hi rend="italic">nostri indubie</hi> seruato foedere pacti </l>
-					<l n="568"><choice>
-							<sic>_Haeres</sic>
-							<corr>Haeres</corr>
-						</choice>
+					<l n="568">
+							Haeres
+							
+						
 						<hi rend="italic">certus erit,</hi> cuncta cum stirpe <sic>suoru</sic>. a) <milestone n="620" unit="altline"/></l>
 					<l n="569">Nec tamen <hi rend="italic">Ismael Agar de semine natus</hi>
 					</l>
@@ -3710,10 +3708,10 @@
 					<l n="572">Bissenis pariter ducibus regnanda creabit: </l>
 					<l n="573">Dixit, at ille auidus <sic>pactu</sic> accelerare receptum <milestone n="625" unit="altline"/></l>
 					<l n="574">Iam centum pulsans annos, iam pubere nato. </l>
-					<l n="575">Se primum, <hi rend="italic"><choice>
-								<sic>gnatuq</sic>
-								<corr>gnatnq</corr>
-							</choice>\',</hi>
+					<l n="575">Se primum, <hi rend="italic">
+								gnatnq
+								
+							\',</hi>
 						<sic>suu</sic>, cunctosq; clientes </l>
 					<l n="576">Ac famulos <hi rend="italic"><sic>oZs</sic></hi> quo iussum est <hi rend="italic">stigmate signat,</hi>
 					</l>
@@ -3731,10 +3729,10 @@
 					<lb/>
 
 					<pb n="479"/>
-					<l n="583"><hi rend="italic">Vnde Deum <choice n="0.33">
-								<sic n="6116">sibi</sic>
-								<corr n="12140">tibi</corr>
-							</choice> promeruit: nempe</hi> antea <sic>tantu</sic>
+					<l n="583"><hi rend="italic">Vnde Deum 
+								tibi
+								
+							 promeruit: nempe</hi> antea <sic>tantu</sic>
 						<milestone n="635" unit="altline"/></l>
 					<l n="584">Audii-i solitus, meritum post tale ministri </l>
 					<l n="585">Iam patitur cerni: <hi rend="italic">quumq;</hi> indignatio iusta </l>
@@ -3754,10 +3752,10 @@
 						<hi rend="italic">Tresq; etiam supplex forma veneratur in vna,</hi>
 					</l>
 					<l n="596"><hi rend="italic">Queis vt,</hi> mente pia liceat seruire, precatur: </l>
-					<l n="597">Et <choice>
-							<sic>reiici</sic>
-							<corr>refici</corr>
-						</choice> in medios aestus tendentibus horis <milestone n="650" unit="altline"/></l>
+					<l n="597">Et 
+							refici
+							
+						 in medios aestus tendentibus horis <milestone n="650" unit="altline"/></l>
 					<l n="598">Non dedignentur, famuli mensisq; cibisq;: </l>
 					<l n="599">Vsquae adeo visus inter sensusq; vigentes </l>
 					<l n="600">Errabat dubitans hominis <hi rend="italic">substantia an</hi> esset, </l>
@@ -3773,10 +3771,10 @@
 					</l>
 					<l n="606">Inde moues gressus. lateri comes haeret euntum <milestone n="663" unit="altline"/>
 					</l>
-					<l n="607">Hospes ouans: <hi rend="italic"><choice>
-								<sic>tristiq</sic>
-								<corr>tristi</corr>
-							</choice>;</hi> quatit <sic>cocussa</sic> pauore </l>
+					<l n="607">Hospes ouans: <hi rend="italic">
+								tristi
+								
+							;</hi> quatit <sic>cocussa</sic> pauore </l>
 					<l n="608">Pectora, &amp; <sic>attonitu</sic> venerabilis attrahit horror, </l>
 					<l n="609">Quippe videt vultus tacitos, visusq; seueros, <milestone n="666" unit="altline"/></l>
 					<l n="610">In Sodoma <hi rend="italic">dominū iuncta</hi> vibrasse <hi rend="italic"><sic>Gomorrlw</sic>,</hi>
@@ -3788,10 +3786,10 @@
 					<l n="614"><sic>VItro</sic>
 						<hi rend="italic">audet</hi>
 						<sic>dominu</sic>
-						<choice>
-							<sic>scmtari</sic>
-							<corr>scrutari</corr>
-						</choice> an perderet vrbem, <milestone n="673" unit="altline"/></l>
+						
+							scrutari
+							
+						 an perderet vrbem, <milestone n="673" unit="altline"/></l>
 					<l n="615">Errantis populi per crimina cuncta nocentem, </l>
 					<l n="616">
 						<hi rend="italic">Si quinquaginta morū probitate piorum </hi>
@@ -3800,10 +3798,10 @@
 					<l n="617">
 						<hi rend="italic"> Spectatos aleret: quumq; ipsi diceret, illis</hi>
 					</l>
-					<l n="618"><hi rend="italic"> Si numerū tale inuenio mihi parcere <choice n="0.00">
-								<sic n="1">certu</sic>
-								<corr n="574">certa</corr>
-							</choice> est</hi>.</l>
+					<l n="618"><hi rend="italic"> Si numerū tale inuenio mihi parcere 
+								certa
+								
+							 est</hi>.</l>
 					<l n="619"><hi rend="italic">Quid si <sic>quinq</sic>; minus fuerint, tum subdidit</hi>?
 							<sic>dc</sic>
 						<hi rend="italic">quid </hi></l>
@@ -3849,29 +3847,29 @@
 					<l n="637">Foeda manus vulgi si fas dixisse, virilis </l>
 					<l n="638">Prosilit, &amp; iuuenum <hi rend="italic">insanis</hi> pueriq; senesq; </l>
 					<l n="639">
-						<hi rend="italic"><choice>
-								<sic>Jgnibus</sic>
-								<corr>Ignibus</corr>
-							</choice> vruntur: Lothq; vt sibi tradat abuti </hi>
+						<hi rend="italic">
+								Ignibus
+								
+							 vruntur: Lothq; vt sibi tradat abuti </hi>
 					</l>
 					<l n="640">
 						<hi rend="italic"> Hospitibus, cogunt: quid non vesana libido </hi>
 						<milestone n="695" unit="altline"/>
 					</l>
-					<l n="641"><hi rend="italic"> Ausit? at ille volens populi</hi> mollire <hi rend="italic"><choice>
-								<sic>furoreM</sic>
-								<corr>furorem</corr>
-							</choice>
+					<l n="641"><hi rend="italic"> Ausit? at ille volens populi</hi> mollire <hi rend="italic">
+								furorem
+								
+							
 						</hi></l>
 					<l n="642"><hi rend="italic">Insani,</hi> natas quibus illibata manebat <milestone n="698" unit="altline"/></l>
-					<l n="643"><choice>
-							<sic>Yirginitas</sic>
-							<corr>Virginitas</corr>
-						</choice> offert <hi rend="italic"><sic>quoscunq</sic>; optarit</hi> in vsus, <milestone n="700" unit="altline"/></l>
-					<l n="644"><hi rend="italic">Ast <choice>
-								<sic>effrma</sic>
-								<corr>effrena</corr>
-							</choice> cohors in deteriora</hi> profundi </l>
+					<l n="643">
+							Virginitas
+							
+						 offert <hi rend="italic"><sic>quoscunq</sic>; optarit</hi> in vsus, <milestone n="700" unit="altline"/></l>
+					<l n="644"><hi rend="italic">Ast 
+								effrena
+								
+							 cohors in deteriora</hi> profundi </l>
 					<l n="645">*<hi rend="italic">Lapsa mali, vicio sese immiscere minori</hi>
 					</l>
 					<l n="646">Vile putat, <hi rend="italic">nisi se summis etiam implicet: ergo </hi></l>
@@ -3888,10 +3886,10 @@
 						<hi rend="italic">Perdenda hortantur confestim abscedere terra.4)</hi>
 					</l>
 					<l n="654">Qui sint, quid veniant, &amp; <hi rend="italic">quae</hi> praecepta ferentes </l>
-					<l n="655"><hi rend="italic">C55 Mox <choice n="0.83">
-								<sic n="36">explere</sic>
-								<corr n="7">exple</corr>
-							</choice></hi>
+					<l n="655"><hi rend="italic">C55 Mox 
+								exple
+								
+							</hi>
 						<sic>velint</sic>, <hi rend="italic">nil iam sermone patenti </hi></l>
 					<l n="656"><hi rend="italic">Dissimulant:</hi>
 						<sic n="poss">c5</sic>
@@ -3903,10 +3901,10 @@
 					<l n="658">Colligere <hi rend="italic">affines,</hi> &amp; <hi rend="italic">secum
 							abducere mandant. </hi></l>
 					<l n="659">
-						<hi rend="italic"> Ast illos simili cum vulgo crimine <choice>
-								<sic>tactOS</sic>
-								<corr>tactos</corr>
-							</choice>
+						<hi rend="italic"> Ast illos simili cum vulgo crimine 
+								tactos
+								
+							
 						</hi>
 					</l>
 					<l n="660">
@@ -3922,10 +3920,10 @@
 					</l>
 					<l n="663"><hi rend="italic"> * ld quoq; ridiculum quod <sic>cosuluere</sic>
 						putaret</hi>.</l>
-					<l n="664"><hi rend="italic"><choice>
-								<sic>Que</sic>
-								<corr>Qui</corr>
-							</choice> lentum,</hi> pigrasq; moras sine fine trahente, </l>
+					<l n="664"><hi rend="italic">
+								Qui
+								
+							 lentum,</hi> pigrasq; moras sine fine trahente, </l>
 					<l n="665">Hospes uterq; <sic>videns</sic> manibus cu coiuge raptu, </l>
 
 
@@ -3937,10 +3935,10 @@
 					<pb n="481"/>
 					<l n="666"><sic>Virginibusq</sic>; suis, procul extra moenia ducit: </l>
 					<l n="667">Et celerare iubet montesq; euadere in altos, <milestone n="725" unit="altline"/></l>
-					<l n="668">Tali lege data, ne <hi rend="italic">coelesti igne <choice n="0.26">
-								<sic n="11">flagrantes</sic>
-								<corr n="30">flagrantem</corr>
-							</choice></hi>
+					<l n="668">Tali lege data, ne <hi rend="italic">coelesti igne 
+								flagrantem
+								
+							</hi>
 					</l>
 					<l n="669">Post se respiciat <hi rend="italic"><sic>quisquft</sic></hi> male <hi rend="italic">cautus in vrbes. </hi></l>
 					<l n="670">
@@ -3974,21 +3972,21 @@
 					<l n="689">Mauult, quos <sic>miserens</sic> urbis morumq; ruinae </l>
 					<l n="690">Punit in <sic>exeplu</sic>: <hi rend="italic">mox durum elementa minatur</hi>\' </l>
 					<l n="691"><sic>ConcuiTuntgy</sic> vndante globo: stipataq; flatu </l>
-					<l n="692"><sic>Quęq</sic>; suo coeunt <choice>
-							<sic>flammaru</sic>
-							<corr>flammarii</corr>
-						</choice> pabula in vnum </l>
+					<l n="692"><sic>Quęq</sic>; suo coeunt 
+							flammarii
+							
+						 pabula in vnum </l>
 					<l n="693">Corpus, &amp; <hi rend="italic">infandas</hi>
-						<choice n="0.21">
-							<sic n="801">terras</sic>
-							<corr n="2869">terra</corr>
-						</choice> vrbesq; nocentes <milestone n="750" unit="altline"/>
+						
+							terra
+							
+						 vrbesq; nocentes <milestone n="750" unit="altline"/>
 					</l>
 					<l n="694">Sulphurei testudo tegit curuata metalli: </l>
-					<l n="695">Qua citus &amp; vires <choice>
-							<sic>angnsto</sic>
-							<corr>angusto</corr>
-						</choice> tramite sumens </l>
+					<l n="695">Qua citus &amp; vires 
+							angusto
+							
+						 tramite sumens </l>
 					<l n="696">Spiritus incussam, tanto crepitare fragore </l>
 					<l n="697">Compulit, &amp; crebro <hi rend="italic">tonitrus agitate</hi> corusco </l>
 					<l n="698">Costernare animos, <hi rend="italic">quotquot spectacula
@@ -4003,14 +4001,14 @@
 						<hi rend="italic"> * Foemineis innata animis: quae deniq; cumq;</hi>
 					</l>
 					<l n="703">
-						<hi rend="italic"> *Causa fuit, <choice>
-								<sic>Sodornd</sic>
-								<corr>Sodoma</corr>
-							</choice> inspectans se <sic>ponb</sic>
-							<choice n="0.00">
-								<sic n="6">ruent</sic>
-								<corr n="817">mente</corr>
-							</choice>?, </hi>
+						<hi rend="italic"> *Causa fuit, 
+								Sodoma
+								
+							 inspectans se <sic>ponb</sic>
+							
+								mente
+								
+							?, </hi>
 					</l>
 					<l n="704"><hi rend="italic"> Confestim poenas</hi> violata lege subiuit, </l>
 					<l n="705">In statuam conuersa salis, spoliataq; luce </l>
@@ -4031,10 +4029,10 @@
 					<l n="712">Dirigit in Sodoma: qui postqua lumina flamis <milestone n="765" unit="altline"/></l>
 					<l n="713">Inuoluere suis, resolutaq; sulphura: nexos </l>
 					<l n="714">Secum praecipitant ignes, siccoq; liquore </l>
-					<l n="715">Dispensata suis stillant incendia <hi rend="italic"><choice>
-								<sic>thedis</sic>
-								<corr>Medis</corr>
-							</choice></hi>. </l>
+					<l n="715">Dispensata suis stillant incendia <hi rend="italic">
+								Medis
+								
+							</hi>. </l>
 					<l n="716">Fulmineus denso praeceps cadit aere nymbus </l>
 					<l n="717">Inuoluitq; <sic>vrbes</sic>, &amp; totis <sic>sęuit</sic> in agris. <milestone n="770" unit="altline"/></l>
 					<l n="718">Admixto stridore tonat, vincitq; querelas </l>
@@ -4047,10 +4045,10 @@
 					<l n="725">Depressisq; cauos consumpto cespite campis </l>
 					<l n="726">Pandunt arua sinus, venisq; effusus apertis </l>
 					<l n="727">Consocians vires, qui terras strinxerat humor <milestone n="780" unit="altline"/></l>
-					<l n="728"><sic>Priuatu</sic> gignit pelagus: Quidna esse <choice>
-							<sic>pufamus</sic>
-							<corr>putemus</corr>
-						</choice>
+					<l n="728"><sic>Priuatu</sic> gignit pelagus: Quidna esse 
+							putemus
+							
+						
 					</l>
 					<l n="729">Quod raptim lacus est mira virtute refertus </l>
 					<l n="730">Qui fuit ante rogus? <hi rend="italic">sic <sic>omnipotetia</sic> summi </hi>
@@ -4059,15 +4057,15 @@
 						<hi rend="italic">Iudicis in gelidas ignem conuertere lymphas, </hi>
 					</l>
 					<l n="732">
-						<hi rend="italic"> Ac rursum lymphas <choice n="0.28">
-								<sic n="26">ardente</sic>
-								<corr n="65">ardenti</corr>
-							</choice> possit in ignem. </hi></l>
+						<hi rend="italic"> Ac rursum lymphas 
+								ardenti
+								
+							 possit in ignem. </hi></l>
 					<l n="733"><milestone n="785" unit="altline"/>
-						<hi rend="italic">Nec tamen hic occulta <sic>vacãt</sic> mysteria, nã <choice>
-								<sic>qubd</sic>
-								<corr>quod</corr>
-							</choice>
+						<hi rend="italic">Nec tamen hic occulta <sic>vacãt</sic> mysteria, nã 
+								quod
+								
+							
 						</hi>
 						<milestone n="785" unit="altline"/></l>
 					<l n="734">Vndae hic sunt vbi <sic>fldma</sic> fuit: quod fldmea missis </l>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,7 +102,7 @@
 </p>
           <p>III. De ordine libri II. 
 </p>
-          <p>IIII. <sic>Soliloquia</sic>, libri II. <lb n="5"/>
+          <p>IIII. Soliloquia, libri II. <lb n="5"/>
             
 </p>
           <p>V. De inmortalitate animae liber I. 
@@ -153,7 +151,7 @@
 </p>
 <pb n="2"/>
             
-          <p>XV. Contra Fortunatum <choice><sic>Manieheum</sic><corr>Manicheum</corr></choice> liber I. 
+          <p>XV. Contra Fortunatum Manicheum liber I. 
 </p>
           <p>XVI. De fide uel symbolo liber I. 
 </p>
@@ -216,7 +214,7 @@
 </p>
 <pb n="3"/>
             
-          <p><sic>v</sic> XXXIII. Contra Faustum Manicheum libri XXXIII. 
+          <p> XXXIII. Contra Faustum Manicheum libri XXXIII. 
 </p>
           <p>XXXIIII. Contra Felicem Manicheum libri II. 
 </p>
@@ -256,7 +254,7 @@
 </p>
           <p>L. De Genesi ad litteram libri XII. 
 </p>
-          <p>LI. Contra litteras <sic>Petiliani</sic> libri III. <lb n="20"/>
+          <p>LI. Contra litteras Petiliani libri III. <lb n="20"/>
             
 </p>
           <p rend="script">LII. Ad Cresconium grammaticum libri IIII.
@@ -376,7 +374,7 @@
           <p>LXXXIIII. Contra aduersarium legis libri II. <lb n="15"/>
             
 </p>
-          <p>. LXXXV. Contra Gaudentium Donatistarum <sic>episcopumlibrill</sic>. 
+          <p>. LXXXV. Contra Gaudentium Donatistarum episcopum libri II. 
 </p>
           <p>LXXXVI. Contra mendacium liber I. 
 </p>
@@ -406,7 +404,7 @@
             
           <p>LXXXVIII. Contra Iulianum libri VI.. 
 </p>
-          <p><sic>LXXXVIill</sic>. De fide, spe et caritate liber I. 
+          <p>LXXXVIIII. De fide, spe et caritate liber I. 
 </p>
           <p>XC. De cura pro mortuis gerenda ad Paulinum liber I. 
 </p>
@@ -449,7 +447,7 @@
           <p>Iam diu est, ut facere cogito atque dispono quod nunc  
 </p>
           <p rend="script">adiuuante domino adgredior, quia differendum esse non arbitror, <lb/>
-            ut opuscula mea siue in libris siue in epistulis <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> in <lb/>
+            ut opuscula mea siue in libris siue in epistulis siue in <lb/>
             tractatibus cum quadam iudiciaria seueritate recenseam et, <lb n="5"/>
             quod me offendit, uelut censorio stilo denotem. neque enim <lb/>
             quisquam nisi inprudens ideo, quia mea errata reprehendo, <lb/>
@@ -502,7 +500,7 @@
             possunt, quae si non falsa, at certe uideantur siue etiam <lb/>
             conuincantur non necessaria. quem uero Christus fidelium <lb/>
             suorum non terruit, ubi ait: omne uerbum otiosum, <lb/>
-            quodcumque <choice n="0.05"><sic n="26">digerit</sic><corr n="486">dixerit</corr></choice> homo, <sic>reddetproillorationem</sic><lb n="15"/>
+            quodcumque dixerit homo, reddet pro illo rationem<lb n="15"/>
             in die iudicii? unde et eius apostolus Iacobus: sit omnis <lb/>
             homo, inquit, uelox ad audiendum, tardus autem ad <lb/>
             loquendum; et alio loco: nolite, inquit, plures magistri
@@ -671,7 +669,7 @@
             hoc uoluit fortuna.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>quod autem quodam loco dixi: <hi rend="italic">ita conparatum <lb/>
-            est siue pro meritis nostris siue pro <choice><sic>nccessitate</sic><corr>necessitate</corr></choice> naturae, <lb/>
+            est siue pro meritis nostris siue pro necessitate naturae, <lb/>
             ut diuinum animum mortalibus inhaerentem nequaquam philosoph\'ae <lb/>
             portus accipiat</hi> et cetera, aut nihil horum duorum dicendum <lb n="15"/>
             fuit, quia etiam sic sensus posset esse integer, aut satis
@@ -703,12 +701,12 @@
              
 <pb n="13"/>
             erat dicere: <hi rend="italic">pro meritis nostris,</hi> sicut uerum est ex Adam <lb/>
-            tracta miseria, nec addere: <hi rend="italic"><choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> pro necessitate naturae,</hi> quandoquidem <lb/>
+            tracta miseria, nec addere: <hi rend="italic">siue pro necessitate naturae,</hi> quandoquidem <lb/>
             naturae nostrae dura necessitas merito praecedentis <lb/>
             iniquitatis exorta est.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>itemque illic quod dixi: <hi rend="italic">nihil omnino  <lb/>
-            colendum esse totumque <choice><sic>ahiciendum</sic><corr>abiciendum</corr></choice> quidquid mortalibus oculis <lb n="5"/>
+            colendum esse totumque abiciendum quidquid mortalibus oculis <lb n="5"/>
             cernitur, quidquid ullus sensus adtingit,</hi> addenda erant uerba, <lb/>
             ut diceretur: <hi rend="italic">quidquid</hi> mortalis corporis <hi rend="italic">sensus adtingit;</hi> est <lb/>
             enim sensus et mentis. sed eorum more tunc loquebar, qui <lb/>
@@ -751,7 +749,7 @@
             <hi rend="italic">aut ratio dici potest</hi>. hoc quidem uerum est — nam quantum <lb/>
             adtinet ad hominis naturam, nihil est in eo melius quam mens <lb/>
             et ratio — sed non secundum ipsam debet uiuere, qui beate <lb/>
-            <sic>uultuiuere</sic>. alioquin secundum hominem uiuit, cum secundum <lb/>
+            uult uiuere. alioquin secundum hominem uiuit, cum secundum <lb/>
             deum uiuendum sit, ut possit ad beatitudinem peruenire,<lb n="5"/>
             propter quam consequendam non se ipsa debet esse contenta,  <lb/>
             sed deo mens nostra subdenda est.</p></div>
@@ -796,13 +794,13 @@
              
 <pb n="15"/>
             germana aut, si propterea est hoc nomen honorandum, quia <lb/>
-            latine <choice><sic>iuterpretatum</sic><corr>interpretatum</corr></choice> amorem pulchritudinis significat et est <lb/>
+            latine interpretatum amorem pulchritudinis significat et est <lb/>
             uera ac summa sapientiae pulchritudo, eadem ipsa est in rebus <lb/>
             incorporalibus atque summis philocalia, quae philosophia, <lb/>
             neque ullo modo sunt quasi sorores duae.</p></div>
 
 <div n="8" subtype="section" type="textpart"><p>alio loco, de animo  <lb n="5"/>
-            cum agerem, dixi: <hi rend="italic"><choice><sic>sccurior</sic><corr>securior</corr></choice> rediturus in caelum</hi>. iturus autem <lb/>
+            cum agerem, dixi: <hi rend="italic">securior rediturus in caelum</hi>. iturus autem <lb/>
             quam <hi rend="italic">rediturus</hi> dixissem securius propter eos, qui putant <lb/>
             animos humanos pro meritis peccatorum suorum de caelo <lb/>
             . lapsos seu deiectos in corpora ista detrudi. sed ego propterea <lb/>
@@ -853,12 +851,12 @@
           </div>
 
 <div n="9" subtype="section" type="textpart"><p rend="script"> In libro tertio: <hi rend="italic">si quid mihi uideatur quaeris,</hi> inquam, <hi rend="italic">in</hi><note type="chapter"> (4)</note>  <lb/>
-            <hi rend="italic">mente arbitror esse summum hominis <choice n="0.86"><sic n="1631">bonum</sic><corr n="244">bonam</corr></choice></hi>. uerius dixissem: <lb n="10"/>
+            <hi rend="italic">mente arbitror esse summum hominis bonum</hi>. uerius dixissem: <lb n="10"/>
             in deo; ipso enim mens fruitur, ut beata sit, tamquam bono   <lb/>
             summo suo.</p></div>
 
 <div n="10" subtype="section" type="textpart"><p>nec illud mihi placet, quod dixi: <hi rend="italic">liquet dcierare   <lb/>
-            per omne <choice><sic>diuinwn</sic><corr>diuinum</corr></choice></hi>.</p></div>
+            per omne diuinum</hi>.</p></div>
 
 <div n="11" subtype="section" type="textpart"><p>item quod dixi de Academicis, quia nouerant <lb/>
             uerum, cuius simile appellabant uerisimile, idque ipsum ueri- 15 <lb/>
@@ -889,7 +887,7 @@
              
 <pb n="17"/>
             non recte dictum est, uel quod falsum esset, quod aliquo <lb/>
-            modo esset simile alicuius <choice n="0.02"><sic n="11">aeri</sic><corr n="410">ueri</corr></choice>, quia in genere suo et hoc <lb/>
+            modo esset simile alicuius ueri, quia in genere suo et hoc <lb/>
             uerum est, uel quod adprobabant ista falsa, quae uocabant <lb/>
             uerisimilia, cum illi nihil adprobarent et adfirmarent nihil <lb/>
             adprobare sapientem. sed quia hoc ipsum uerisimile etiam <lb n="5"/>
@@ -898,7 +896,7 @@
 
 <div n="12" subtype="section" type="textpart"><p>            laus quoque ipsa, qua Platonem uel Platonicos seu Academicos  <lb/>
             philosophos tantum extuli. quantum inpios homines non oportuit, <lb/>
-            non <choice><sic>inmeiito</sic><corr>inmerito</corr></choice> mihi displicuit. praesertim contra quorum <lb/>
+            non inmerito mihi displicuit. praesertim contra quorum <lb/>
             errores magnos defendenda est Christiana doctrina.</p></div>
 
 <div n="13" subtype="section" type="textpart"><p>illud etiam,  <lb n="10"/>
@@ -941,7 +939,7 @@
           </div>
 
 <div n="14" subtype="section" type="textpart"><p> Hoc opus sic incipit: <hi rend="italic">0 utinam, Romaniane, hominem sibi <lb/>
-            <choice n="0.83"><sic n="140">aptum</sic><corr n="27">aptam</corr></choice></hi>. 
+            aptum</hi>. 
 </p>
           
 </div>
@@ -1114,7 +1112,7 @@
           </div>
 
 <div n="9" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (3) </note>  Nec illud mihi placet, quod cum dixissem: <hi rend="italic">summa opera  <lb/>
-            danda <choice><sic>cst</sic><corr>est</corr></choice> optimis moribus,</hi> mox addidi: <hi rend="italic">deus enim noster <lb n="10"/>
+            danda est optimis moribus,</hi> mox addidi: <hi rend="italic">deus enim noster <lb n="10"/>
             aliter nos exaudire non poterit; bene autem uiuentes facillime<lb/>
              exaudiet</hi>. sic enim dictum est, tamquam deus non exaudiat <lb/>
             peccatores; quod quidem dixit in euangelio, sed ille, qui <lb/>
@@ -1161,7 +1159,7 @@
 <div n="4" subtype="chapter" type="textpart">
 <ab> <title type="sub">CAPVT  IIII. SOLILOQVIA, LIBRI DVO. </title> </ab>
           <div n="1" subtype="section" type="textpart"><p> Inter haec scripsi etiam duo uolumina secundum studium <note type="chapter"> (1)</note>  <lb/>
-            meum et amorem ratione indagandae <choice><sic>uentatis</sic><corr>ueritatis</corr></choice> de his rebus, quas <lb/>
+            meum et amorem ratione indagandae ueritatis de his rebus, quas <lb/>
             maxime scire cupiebam, me interrogans mihique respondens, <lb/>
             tamquam duo essemus ratio et ego, cum solus essem. unde <lb/>
             hoc opus Soliloquia nominaui; sed inperfectum remansit, ita tamen, ut in primo libro quaereretur et utcumque appareret, <lb n="10"/>
@@ -1174,7 +1172,7 @@
           </div>
 
 <div n="2" subtype="section" type="textpart"><p rend="script"> In his sane libris non approbo, quod in oratione dixi: <hi rend="italic">deus,</hi> <note type="chapter"> (2)</note>  <lb/>
-            <hi rend="italic"><choice><sic>quii</sic><corr>qui</corr></choice> nisi mundos uerum scire noluisti</hi>. responderi enim potest
+            <hi rend="italic">qui nisi mundos uerum scire noluisti</hi>. responderi enim potest
 
 <note type="footnote">2 Aug. de ciu. dei VI, 5. VII, 35 17 Solil. I, 1, 2 </note>
 
@@ -1204,10 +1202,10 @@
             possint, et quid sit scire.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>illud, quod ibi positum est: <hi rend="italic">detis,  <lb/>
-            <sic>cnius</sic> regnum est totus mundus, quem sensus ignorat,</hi> si deus <lb/>
+            cuius regnum est totus mundus, quem sensus ignorat,</hi> si deus <lb/>
             intellegendus est, addenda fuerant uerba, ut diceretur: <hi rend="italic">quem</hi> <lb n="5"/>
             mortalis corporis <hi rend="italic">sensus ignorat</hi>. si autem mundus dictus est, <lb/>
-            <hi rend="italic"><choice><sic>qucm</sic><corr>quem</corr></choice> sensus ignorat,</hi> ille recte intellegitur, qui futurus est <lb/>
+            <hi rend="italic">quem sensus ignorat,</hi> ille recte intellegitur, qui futurus est <lb/>
             caelo nouo et terra noua; sed etiam hic addenda erant illa, <lb/>
             ut diceretur: mortalis corporis sensus. sed illo more adhuc <lb/>
             loquebar, quo sensus proprie corporis appellatur, nec adsidue <lb n="10"/>
@@ -1249,26 +1247,26 @@
             sapientiae <hi rend="italic">B</hi> 18 coniunctionem] cognitionem <hi rend="italic">D2 in ras. 02Qa</hi> </note> <lb/>
              
 <pb n="24"/>
-            alia uia sit praeter Christum, qui dixit: ego sum <sic>ula</sic>. <choice><sic>uitanrla</sic><corr>uitanda</corr></choice> <lb/>
+            alia uia sit praeter Christum, qui dixit: ego sum uia. uitanda <lb/>
             ergo erat haec offensio aurium religiosarum, quamuis alia sit <lb/>
             illa uniuersalis uia, aliae autem uiae, de quibus et in Psalmo <lb/>
             canimus: uias tuas, domine, notas fac mihi et semitas  <lb/>
             tuas doce me.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>in eo, quod ibi dictum est, <hi rend="italic">pmitus<lb n="5"/>
-            <sic>isia</sic> sensibilia <choice><sic>fugienia</sic><corr>fugienda</corr></choice>,</hi> cauendum fuit, ne putaremur illam <lb/>
+            ista sensibilia fugienda,</hi> cauendum fuit, ne putaremur illam <lb/>
             Porfyri falsi philosophi tenere sententiam, qua dixit omne <lb/>
             corpus esse fugiendum. non autem dixi ego: omnia sensibilia, <lb/>
-            sed: . <hi rend="italic"><choice><sic>isla</sic><corr>ista</corr></choice>,</hi> hoc est corruptibilia; sed hoc potius dicendum fuit, <lb/>
+            sed: . <hi rend="italic">ista,</hi> hoc est corruptibilia; sed hoc potius dicendum fuit, <lb/>
             non autem talia sensibilia sensibilia futura sunt in futuri<lb n="10"/>
             saeculi caelo nouo et terra noua. 
 </p>
           </div>
 
 <div n="8" subtype="section" type="textpart"><p> Item quodam loco dixi, quod <hi rend="italic">disciplinis liberalibus crudili</hi> <note type="chapter"> (4)</note>  <lb/>
-            <hi rend="italic">sine dubio in se illas <sic>obliuime</sic> obrutas <choice><sic>cruunt</sic><corr>eruunt</corr></choice> discendo et <lb/>
-            <choice><sic>qutodam</sic><corr>quodam</corr></choice> modo <sic>rcfodiunt</sic></hi>. sed hoc quoque inprobo. crelibilius <lb/>
-            est enim propterea uera respondere de quibusdam disci- <sic>plinis</sic> etiam inperitos earum, quando bene interrogantur, quia <lb n="15"/>
+            <hi rend="italic">sine dubio in se illas obliuione obrutas eruunt discendo et <lb/>
+            quodam modo refodiunt</hi>. sed hoc quoque inprobo. crelibilius <lb/>
+            est enim propterea uera respondere de quibusdam disci- plinis etiam inperitos earum, quando bene interrogantur, quia <lb n="15"/>
             praesens est eis, quando id capere possunt, lumen rationis
 
 <note type="footnote">1 Io. 14, 6 4 Ps. 24, 4 5 Solil. I, 14, 24 7 Porphyr. ad <lb/>
@@ -1298,7 +1296,7 @@
             aeternae, ubi haec inmutabilia uera conspiciunt. non quia <lb/>
             ea nouerant aliquando et obliti sunt, quod Platoni uel talibus <lb/>
             uisum est. contra quorum opinionem, quantum pro suscepto <lb/>
-            opere dabatur occasio, in libro <choice><sic>duollecimo</sic><corr>duodecimo</corr></choice> de <choice><sic>trillitate</sic><corr>trinitate</corr></choice> disserui. <lb/>
+            opere dabatur occasio, in libro duodecimo de trinitate disserui. <lb/>
             <lb n="5"/>
             
 </p>
@@ -1316,7 +1314,7 @@
             scripsi librum de inmortalitate animae. quod mihi quasi <lb n="10"/>
             commonitorium esse uolueram propter Soliloquia terminanda, <lb/>
             quae inperfecta remanserant, sed nescio quo modo me inuito <lb/>
-            exiit in manus hominum et <choice><sic>iuter</sic><corr>inter</corr></choice> mea opuscula nominatur. <lb/>
+            exiit in manus hominum et inter mea opuscula nominatur. <lb/>
             qui primo ratiocinationum contortione atque breuitate sic obscurus <lb/>
             est, ut fatiget, cum legitur, etiam intentionem meam <lb n="15"/>
             uixque intellegatur a me ipso. 
@@ -1367,7 +1365,7 @@
           </div>
 
 <div n="3" subtype="section" type="textpart"><p> Quid sit etiam, quod dixi: <hi rend="italic">anima si caret corpore, in hoc</hi> <note type="chapter"> (3)</note>  <lb/>
-            <hi rend="italic">mundo non est,</hi> non potui recordari. numquid <sic>emm</sic> animae
+            <hi rend="italic">mundo non est,</hi> non potui recordari. numquid enim animae
 
 <note type="footnote">1 De ium. an. 1, 1 2 ibid. 6 De ium. an. 4, 5 9 De <lb/>
             ium. an. 1, 1 11 De ium. an. 6, 11 14 Es. 59, 2 18 De ium. an. 13, 22 </note>
@@ -1443,8 +1441,8 @@
             ad eandem partem, quae rythmus uocatur. sed eosdem sex <lb/>
             libros iam baptizatus iamque ex Italia regressus in Africam <lb/>
             scripsi; incoaueram quippe tantummodo istam apud Mediolanium <lb/>
-            <choice><sic>discipliuam</sic><corr>disciplinam</corr></choice>. de aliis uero quinque disciplinis illic similiter <lb/>
-            incoatis, de dialectica, de <choice><sic>rlietorica</sic><corr>rhetorica</corr></choice>, de geometrica, de arithmetica,<lb n="5"/>
+            disciplinam. de aliis uero quinque disciplinis illic similiter <lb/>
+            incoatis, de dialectica, de rhetorica, de geometrica, de arithmetica,<lb n="5"/>
             de philosophia, sola principia remanserunt, quae tamen <lb/>
             etiam ipsa perdidimus, sed haberi ab aliquibus existimo. 
 </p>
@@ -1459,10 +1457,10 @@
           <ab> <title type="sub">DE MORIBVS ECCLESIAE CATHOLICAE ET DE MORIBVS MANICHEORVM LIBRI DVO. </title>
           </ab>
           <div n="1" subtype="section" type="textpart"><p> lam baptizatus autem cum Romae essem nec tacitus ferre <note type="chapter"> (1)</note>  <lb/>
-            possem <sic>Manicheorum</sic> iactantiam de falsa et fallaci continentia <lb/>
-            uel abstinentia, qua se ad inperitos decipiendos ueris <choice><sic>Christiunis</sic><corr>Christianis</corr></choice>, <lb/>
+            possem Manicheorum iactantiam de falsa et fallaci continentia <lb/>
+            uel abstinentia, qua se ad inperitos decipiendos ueris Christianis, <lb/>
             quibus conparandi non sunt, insuper praeferunt, scripsi <lb/>
-            duos libros, unum de moribus ecclesiae catholicae et alterum de moribus <sic>Manicheorum</sic>.
+            duos libros, unum de moribus ecclesiae catholicae et alterum de moribus Manicheorum.
 
 <note type="footnote"> 11 Aug. Conf. VIIII, 3, 5. 8, 17 </note>
 
@@ -1496,8 +1494,8 @@
             posui testimonium, in quo legitur, <hi rend="italic">quoniam propter te<lb/>
              adficimur tota die, aestimati sumus ut oues,</hi> mendositas <lb/>
             nostri codicis me fefellit minus memorem scripturarum, <lb/>
-            in quibus nondum <choice><sic>adsnetus</sic><corr>adsuetus</corr></choice> eram. nam eiusdem interpretationis <lb n="5"/>
-            alii codices non habent: propter te adficimur, <sic>sod</sic> <lb/>
+            in quibus nondum adsuetus eram. nam eiusdem interpretationis <lb n="5"/>
+            alii codices non habent: propter te adficimur, sed <lb/>
             propter te morte adficimur, quod uno uerbo alii dixerunt <lb/>
             mortificamur. hoc esse uerius graeci libri indicant, ex qua <lb/>
             lingua in latinam secundum Septuaginta interpretes ueterum <lb/>
@@ -1542,7 +1540,7 @@
             significatam putaui, et actionis probitatem, quam per duo <lb/>
             alia intellegi uolui, per iustitiam atque uirtutem, cum codices<lb n="5"/>
             eiusdem interpretationis ueriores habeant: sobrietatem enim <lb/>
-            et sapientiam docet et iustitiam et <choice><sic>uirtutera</sic><corr>uirtutem</corr></choice>? his <lb/>
+            et sapientiam docet et iustitiam et uirtutem? his <lb/>
             enim omnibus latinus interpres quattuor illas uirtutes, quae <lb/>
             maxime in ore philosophorum esse adsolent, nominauit, sobrietatem <lb/>
             appellans temperantiam, prudentiae inponens nomen<lb n="10"/>
@@ -1553,7 +1551,7 @@
             graecis.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>item quod posui de libro Salomonis: <hi rend="italic">uanitas nanitantium,<lb n="15"/>
-            dixit <choice><sic>Ecclesjastes</sic><corr>Ecclesiastes</corr></choice>,</hi> in multis quidem codicibus <lb/>
+            dixit Ecclesiastes,</hi> in multis quidem codicibus <lb/>
             legi, sed hoc graecus non habet; habet autem: uanitas <lb/>
             uanitatum, quod postea uidi, et inueni eos latinos esse
 
@@ -1587,7 +1585,7 @@
           </div>
 
 <div n="5" subtype="section" type="textpart"><p><note type="chapter"> (4) </note> Quod autem dixi: <hi rend="italic">eum ipsum, quem cognoscere uolumus,</hi>  <lb/>
-            hoc est deum, <hi rend="italic">prius plena caritate <choice><sic>diliganuts</sic><corr>diligamus</corr></choice>,</hi> melius diceretur: <lb n="5"/>
+            hoc est deum, <hi rend="italic">prius plena caritate diligamus,</hi> melius diceretur: <lb n="5"/>
             sincera quam <hi rend="italic">plena,</hi> nisi forte putatur caritatem dei non <lb/>
             futuram esse maiorem, quando uidebimus facie ad faciem. <lb/>
             sic itaque hoc accipiatur, tamquam plena dicta sit, qua maior <lb/>
@@ -1595,17 +1593,17 @@
             plenior, immo plenissima, sed per speciem.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>item quod dixi  <lb n="10"/>
-            de his, qui subueniunt indigentibus, quia <hi rend="italic">misericordes <sic>uocanillr</sic>, <lb/>
+            de his, qui subueniunt indigentibus, quia <hi rend="italic">misericordes uocantur, <lb/>
             etiam si sapientes usque adeo sint, ut iam nullo animi dolore <lb/>
             turbentur,</hi> non sic accipiendum est, tamquam definierim in hac <lb/>
             uita esse tales sapientes; non enim dixi: cum sint, sed dixi: <lb/>
-            <hi rend="italic"><choice n="6.16"><sic n="1">etiarn</sic><corr n="16220">etiam</corr></choice> si sint</hi>. <lb n="15"/>
+            <hi rend="italic">etiam si sint</hi>. <lb n="15"/>
             
 </p>
           </div>
 
 <div n="7" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (5) </note> Alio loco, ubi dixi: <hi rend="italic">iam uero, cum haec humana dilectio  <lb/>
-            inhaerentem <choice><sic>uberwus</sic><corr>uberibus</corr></choice> suis <choice><sic>nutrxent</sic><corr>nutrierit</corr></choice> et roborauerit animum, sequendo <lb/>
+            inhaerentem uberibus suis nutrierit et roborauerit animum, sequendo <lb/>
             deo factus est idoneus; ubi eius maiestas ex tanta parte,</hi>
 
 <note type="footnote"> 4 De mor. eccl. cath. I, 25, 47 7 I Cor. 13, 12 9 II Cor. 5, 7 <lb/>
@@ -1630,10 +1628,10 @@
             factus est] factus <hi rend="italic">EHOPRVa,</hi> factum <hi rend="italic">m</hi> idoneum <hi rend="italic">m</hi> ex <hi rend="italic">add. M2</hi> </note> <lb/>
              
 <pb n="32"/>
-            <hi rend="italic">quanta animi, dum terrae huius <choice><sic>ivhabitator</sic><corr>inhabitator</corr></choice> est, sufficit, <choice><sic>apcrire</sic><corr>aperire</corr></choice> <lb/>
+            <hi rend="italic">quanta animi, dum terrae huius inhabitator est, sufficit, aperire <lb/>
             se coeperit, tantus caritatis ardor innascitur et tantum <lb/>
             diuini amoris consurgit incendium, ut exustis omnibus uitiis in <lb/>
-            homine sanctificato atque purgato satis appareat, quam <sic>diuiw</sic> <lb/>
+            homine sanctificato atque purgato satis appareat, quam diuine <lb/>
             dictum sit: ego sum ignis consumens,</hi> possunt putare<lb n="5"/>
             Pelagiani istam perfectionem in hac mortali uita me dixisse <lb/>
             posse contingere. sed non hoc putent. ardor quippe caritatis <lb/>
@@ -1675,14 +1673,14 @@
             dilexit ecclesiam et semet ipsum tradidit pro ea, <lb/>
             mundans eam lauacro aquae in uerbo, ut exhiberet <lb/>
             sibi gloriosam ecclesiam non habentem maculam <lb/>
-            aut rugam <sic>aat</sic> aliquid eius modi. hic est enim lauacrum <lb/>
+            aut rugam aut aliquid eius modi. hic est enim lauacrum <lb/>
             aquae in uerbo, quo mundatur ecclesia. sed cum <lb n="5"/>
             tota dicat, quamdiu hic est: dimitte nobis debita nostra. <lb/>
             non utique hic est sine macula aut ruga aut aliquid <lb/>
             huius modi, ex eo tamen, quod hic accipit, ad illam gloriam, <lb/>
             quae hic non est, perfectionemque perducitur. 
 </p>
-          <p><note type="chapter"> (6) </note> In alio libro, cuius est titulus: de moribus <sic>Manicheorum</sic>, <sic>illwl</sic>. 
+          <p><note type="chapter"> (6) </note> In alio libro, cuius est titulus: de moribus Manicheorum, illud. 
 </p></div>
 
 <div n="8" subtype="section" type="textpart"><p> <lb n="10"/>
@@ -1726,7 +1724,7 @@
             in poena sunt.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>alio loco: <hi rend="italic">nemo fere,</hi> inquam, <hi rend="italic">de scarabeis dubitat, <lb/>
-            quin de limo in pilam <sic>rotundato</sic> ab his atque obruto existant,</hi> <lb/>
+            quin de limo in pilam rotundato ab his atque obruto existant,</hi> <lb/>
             cum hoc exemplum utrum uerum sit multi dubitant, multi<lb n="5"/>
             ne audierint quidem. 
 </p>
@@ -1778,10 +1776,10 @@
           </div>
 
 <div n="2" subtype="section" type="textpart"><p><note type="chapter"> (2) </note> In eo libro illud, quod dixi, <hi rend="italic">omnes artes animam secum   <lb/>
-            adtulisse mihi uideri nec <choice><sic>alind</sic><corr>aliud</corr></choice> quicquam esse id, quod dicitur <lb/>
+            adtulisse mihi uideri nec aliud quicquam esse id, quod dicitur <lb/>
             discere, quam reminisci et recordari,</hi> non sic accipiendum est, <lb/>
             quasi ex hoc adprobetur animam uel in alio corpore uel alibi <lb/>
-            siue in corpore <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> extra corpus aliquando uixisse et ea, quae <lb n="5"/>
+            siue in corpore siue extra corpus aliquando uixisse et ea, quae <lb n="5"/>
             interrogata respondet, cum hic non didicerit, in alia uita ante <lb/>
             didicisse. fieri enim potest, sicut iam in hoc opere supra dixi-mus, <lb/>
             ut hoc ideo possit, quia natura intellegibilis est, ut <lb/>
@@ -1789,7 +1787,7 @@
             rebus, eo ordine facta, ut, cum se ad eas res mouet, quibus <lb n="10"/>
             conexa est, uel ad se ipsam, in quantum eas uidet, in tantum <lb/>
             de his uera respondeat. nec sane omnes artes eo modo secum <lb/>
-            <choice><sic>aAtulit</sic><corr>adtulit</corr></choice> ac secum habet; nam de artibus, quae ad sensus corporis <lb/>
+            adtulit ac secum habet; nam de artibus, quae ad sensus corporis <lb/>
             pertinent, sicut multa medicinae, sicut astrologiae omnia, <lb/>
             nisi quod hic didicerit non potest dicere. ea uero, quae sola <lb n="15"/>
             intellegentia capit, propter id, quod dixi, cum uel a se ipsa <lb/>
@@ -1932,7 +1930,7 @@
           </div>
 
 <div n="3" subtype="section" type="textpart"><p rend="script"> Quapropter noui heretici Pelagiani, qui liberum sic asserunt<note type="chapter"> (3)</note>  <lb/>
-            uoluntatis <choice><sic>arbitnum</sic><corr>arbitrium</corr></choice>, ut gratiae dei non relinquant locum, <lb n="10"/>
+            uoluntatis arbitrium, ut gratiae dei non relinquant locum, <lb n="10"/>
             quandoquidem eam secundum merita nostra dari adserunt, <lb/>
             non se extollant, quasi eorum egerim causam, quia multa in <lb/>
             his libris dixi pro libero arbitrio, quae illius disputationis <lb/>
@@ -1970,13 +1968,13 @@
             antea sapientes fuimus, uoluntate nos tamen laudabilem <lb n="5"/>
             et beatam uitam, uoluntate turpem et miseram mereri ac degere</hi>? <lb/>
             itemque alio loco: <hi rend="italic">ex quo conficitur,</hi> inquam, <hi rend="italic">ut quisquis recte<lb/>
-             honesteque uult uiuere, si id se <sic>ueUe</sic> prae fugacibus rebus uelit, <lb/>
+             honesteque uult uiuere, si id se uelle prae fugacibus rebus uelit, <lb/>
             adsequatur tantam rem tanta facilitate, ut nihil aliud ei quam <lb/>
             ipsum uelle sit habere, quod uoluit</hi>. itemque alibi dixi: <hi rend="italic">hoc enim<lb n="10"/>
              aeterna lex illa, ad cuius considerationem redire iam tempus<lb/>
              est, incommutabili stabilitate firmauit, ut in uoluntate meritum <lb/>
             sit, in beatitate autem et miseria praemium atque supplicium</hi>. <lb/>
-            et alio loco: <hi rend="italic">quid,</hi> inquam, <hi rend="italic">quisque <choice n="0.25"><sic n="1">sectandum</sic><corr n="3">sedandum</corr></choice> et amplectendum <lb/>
+            et alio loco: <hi rend="italic">quid,</hi> inquam, <hi rend="italic">quisque sectandum et amplectendum <lb/>
             eligat, in uoluntate esse positum constitit</hi>. et in secundo libro: <lb n="15"/>
             <hi rend="italic">homo enim ipse,</hi> inquam, <hi rend="italic">in quantum homo est, aliquod bonum<lb/>
              est, quia recte uiuere, cum uult, potest</hi>. et alio loco dixi: <hi rend="italic">recte</hi>
@@ -2006,7 +2004,7 @@
 <pb n="40"/>
             <hi rend="italic">fieri non posse nisi eodem libero uoluntatis arbitrio</hi>. et in libro <lb/>
             tertio: <hi rend="italic">quid opus est quaeri,</hi> inquam, <hi rend="italic">unde iste motus existat, quo <lb/>
-            uoluntas auertitur ab <sic>incommutabili</sic> bono ad commutabile bonum,<lb/>
+            uoluntas auertitur ab incommutabili bono ad commutabile bonum,<lb/>
              cum eum non nisi animi et uoluntarium et ob hoc culpabile<lb/>
              esse fateamur omnisque de hac re disciplina utilis ad id ualeat,<lb n="5"/>
             ut eo motu inprobato atque cohibito uoluntatem nostram ad<lb/>
@@ -2053,9 +2051,9 @@
             peccandi, nec est, cui inputetur peccatum nisi peccanti. non ergo<lb/>
              est, cui recte inputetur nisi uoluntati</hi>. et paulo post: <hi rend="italic">quis,</hi> <lb/>
             inquam, <hi rend="italic">peccat in eo, quod nullo modo cauere potest? peccatur <lb/>
-            autem: <sic>catteri</sic> igitur potest</hi>. quo testimonio meo in quodam <lb/>
+            autem: caueri igitur potest</hi>. quo testimonio meo in quodam <lb/>
             libro suo Pelagius usus est. cui libro cum respondissem, <lb n="10"/>
-            titulum libri mei esse <choice n="0.18"><sic n="64">nolui</sic><corr n="275">uolui</corr></choice> : de natura et gratia. 
+            titulum libri mei esse uolui : de natura et gratia. 
 </p>
           </div>
 
@@ -2134,7 +2132,7 @@
              eius in magnis quam in mediis et magis in mediis quam in <lb/>
             minimis his bonis, sed magis in omnibus, quam si non omnia <lb n="5"/>
             tribuisset</hi>. et in alio loco: <hi rend="italic">tu tantum,</hi> inquam, <hi rend="italic">pietatem inconcussam <lb/>
-            tene, ut nullum <choice n="0.96"><sic n="12140">tibi</sic><corr n="386">Ubi</corr></choice> bonum uel sentienti uel intellegenti <lb/>
+            tene, ut nullum tibi bonum uel sentienti uel intellegenti <lb/>
             uel quoquo modo cogitanti occurrat, quod non sit ex deo</hi>. itemque <lb/>
             alio loco dixi: <hi rend="italic">sed quoniam non, sicut sponte homo cecidit, ita <lb/>
             etiam sponte surgere potest, porrectam nobis desuper dexteram <lb n="10"/>
@@ -2143,10 +2141,10 @@
           </div>
 
 <div n="5" subtype="section" type="textpart"><p><note type="chapter"> (5) </note> Et in libro tertio, cum dixissem illud, quod et Pelagium de  <lb/>
-            meis opusculis usum fuisse commemoraui: <hi rend="italic">quis enim <choice><sic>petcat</sic><corr>peccat</corr></choice><lb/>
+            meis opusculis usum fuisse commemoraui: <hi rend="italic">quis enim peccat<lb/>
              in eo, quod nullo modo cauere potest? peccatur autem: caueri <lb/>
             igitur potest,</hi> continuo secutus adiunxi: <hi rend="italic">et tamen etiam per ignorantiam <lb n="15"/>
-            facta <choice n="0.91"><sic n="1891">quaedam</sic><corr n="171">quasdam</corr></choice> inprobantur et corrigenda <choice n="0.92"><sic n="12">iudicantur</sic><corr n="1">indicantur</corr></choice>,<lb/>
+            facta quaedam inprobantur et corrigenda iudicantur,<lb/>
              sicut in diuinis auctoritatibus legimus. ait enim apostolus: misericordiam <lb/>
             consecutus sum, quia ignorans feci; ait et</hi>
 
@@ -2187,7 +2185,7 @@
             debet facit, cum haec facit. si autem bonus homo esset, aliter<lb/>
              esset; nunc autem quia ita est, non est bonus nec habet in<lb/>
              potestate, ut bonus sit, siue non uidendo, qualis esse debeat,<lb n="15"/>
-            siue uidendo et non <choice><sic>udlendo</sic><corr>ualendo</corr></choice> esse, qualem debere esse se uidet. <lb/>
+            siue uidendo et non ualendo esse, qualem debere esse se uidet. <lb/>
             poenam istam esse quis dubitet ? omnis autem poena; si iusta</hi>
 
 <note type="footnote"> 1 Ps. 24, 7 3 Rom. 7, 15 5 Rom. 7, 18 6 Gal. 5, 17 </note>
@@ -2212,7 +2210,7 @@
              in ras</hi>. pena <hi rend="italic">CXDX, fere semper</hi> iusta est <hi rend="italic">om. H</hi> </note> <lb/>
              
 <pb n="45"/>
-            <hi rend="italic">est, peccati poena <choice><sic>cst</sic><corr>est</corr></choice> et supplicium nominatur. si autem iniusta <lb/>
+            <hi rend="italic">est, peccati poena est et supplicium nominatur. si autem iniusta <lb/>
             poena est</hi> — <hi rend="italic">quoniam poenam esse nemo ambigit</hi> — <hi rend="italic">iniusto <lb/>
             aliquo dominante homini inposita est. porro quia de omnipotentia <lb/>
             dei et iustitia dubitare dementis est, iusta haec poena <lb/>
@@ -2230,7 +2228,7 @@
           </div>
 
 <div n="6" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (6) </note> Ecce tam . longe, antequam Pelagiana heresis extitisset, sic   <lb/>
-            <choice><sic>disputammus</sic><corr>disputauimus</corr></choice>, uelut <choice><sic>lam</sic><corr>iam</corr></choice> contra illos disputaremus. cum enim
+            disputauimus, uelut iam contra illos disputaremus. cum enim
 
 <note type="footnote"> 9 De lib. arb. III, 18, 52 </note>
 
@@ -2265,9 +2263,9 @@
             media et minima, ex deo sunt, sequitur, ut ex deo sit etiam <lb/>
             bonus usus liberae uoluntatis, quae uirtus est et in magnis <lb/>
             numeratur bonis. deinde dictum est, ex qua miseria peccantibus <lb/>
-            iustissime <choice n="0.90"><sic n="29">indicta</sic><corr n="3">inflicta</corr></choice> liberet dei gratia, quia sponte homo, id est<lb n="10"/>
+            iustissime inflicta liberet dei gratia, quia sponte homo, id est<lb n="10"/>
             libero arbitrio, cadere potuit, non etiam surgere. ad quam miseriam <lb/>
-            <choice><sic>iuatae</sic><corr>iustae</corr></choice> damnationis pertinet ignorantia et difficultas, quam <lb/>
+            iustae damnationis pertinet ignorantia et difficultas, quam <lb/>
             patitur omnis homo ab exordio natiuitatis suae, nec ab isto <lb/>
             malo quisquam nisi dei gratia liberatur. quam miseriam Pelagiani <lb/>
             nolunt ex iusta damnatione descendere negantes originale <lb n="15"/>
@@ -2320,7 +2318,7 @@
           <div n="1" subtype="section" type="textpart"><p>Iam uero in Africa constitutus scripsi duos libros de Genesi  <lb n="10"/>
             contra Manicheos. quamuis enim superioribus libris quidquid <lb/>
             disputaui, unde ostenderem deum summe bonum et inmutabilem <lb/>
-            creatorem esse omnium mutabilium naturarum nec ullam <choice><sic>esge</sic><corr>esse</corr></choice> <lb/>
+            creatorem esse omnium mutabilium naturarum nec ullam esse <lb/>
             naturam malum siue substantiam, in quantum natura est atque <lb/>
             substantia, aduersus Manicheos nostra uigilaret intentio, isti <lb n="15"/>
             tamen duo libri apertissime aduersus eos editi sunt in defensionem <lb/>
@@ -2360,14 +2358,14 @@
 <div n="2" subtype="section" type="textpart"><p rend="script"> Quod uero dixi: <hi rend="italic">illud autem lumen non inrationabilium auium</hi> <note type="chapter"> (2)</note>  <lb/>
             <hi rend="italic">oculos pascit, sed pura corda eorum, qui deo credunt et ab amore</hi> <lb/>
             uisibilium <hi rend="italic">rerum et temporalium se ad eius praecepta inplenda <lb/>
-            conuertunt; quod omnes homines possunt, si uelint,</hi> non putent <choice><sic>Doui</sic><corr>noui</corr></choice> heretici Pelagiani secundum eos esse dictum. uerum est enim <lb n="10"/>
+            conuertunt; quod omnes homines possunt, si uelint,</hi> non putent noui heretici Pelagiani secundum eos esse dictum. uerum est enim <lb n="10"/>
             omnino omnes homines hoc posse, si uelint. sed praeparatur <lb/>
             uoluntas a domino et tantum augetur munere caritatis, <lb/>
             ut possint. quod hic ideo dictum non est, quoniam praesenti   <lb/>
             necessarium non erat quaestioni.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>quod uero ibi legitur, benedictionem<lb n="15"/>
-            domini, de qua dictum est: crescite <sic>etmultiplica</sic> <lb/>
+            domini, de qua dictum est: crescite et multiplica <lb/>
             mini, in carnalem fecunditatem post peccatum conuersam
 
 <note type="footnote">1 Gen. 2, 2 2 Gen. 2, 4 3 Gen. 3, 23 aq. 7 De Gen. adu. <lb/>
@@ -2557,13 +2555,13 @@
             dei per ea, quae facta sunt, intellecta conspiciantur. <lb/>
             quod qui non possunt et tamen ex fide Christi uiuunt, ad <lb/>
             illa certius atque felicius conspicienda post hanc uitam ueniunt;<lb n="10"/>
-            qui autem possunt, si desit eis fides Christi, qui <choice><sic>uifus</sic><corr>unus</corr></choice> mediator <lb/>
-            <sic>estdei</sic> et hominum, cum tota sapientia sua pereunt. 
+            qui autem possunt, si desit eis fides Christi, qui unus mediator <lb/>
+            est dei et hominum, cum tota sapientia sua pereunt. 
 </p>
           </div>
 
 <div n="2" subtype="section" type="textpart"><p rend="script"> In hoc libro illud, quod dixi: <hi rend="italic">corpora enim tanto meliora,</hi> <note type="chapter"> (2)</note>  <lb/>
-            <hi rend="italic">quanto numerosiora talibus <choice><sic>numeNs</sic><corr>numeris</corr></choice>; anima uero istis, quae per <lb/>
+            <hi rend="italic">quanto numerosiora talibus numeris; anima uero istis, quae per <lb/>
             corpus accipit, carendo fit melior, cum sese auertit a carnalibus sensibus et diuinis sapientiae numeris reformatur,</hi> non sic accipiendum <lb n="15"/>
             est, quasi non sint futuri numeri corporales in
 
@@ -2597,14 +2595,14 @@
             intentionem suam, et in his corporalibus nunc inlecebra <lb/>
             cauenda est, quamdiu anima inlici ad delectationem turpem <lb/>
             potest. tunc autem firma erit atque perfecta, ut numeris corporalibus <lb/>
-            non auertatur a contemplatione sapientiae et ita <choice n="0.70"><sic n="138">sentiat</sic><corr n="59">senio</corr></choice> <lb/>
+            non auertatur a contemplatione sapientiae et ita sentiat <lb/>
             eos, ut non inliciatur ab eis nec eis carendo fiat melior, <lb n="10"/>
             sed ita sit bona et recta, ut nec latere possint eam nec occupare. 
 </p>
           </div>
 
 <div n="3" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (3) </note> Item quod dixi: <hi rend="italic">haec autem sanitas tunc firmissima erit atque  <lb/>
-            certissima, cum <choice><sic>pristinde</sic><corr>pristinae</corr></choice> stabilitati certo suo tempore atque ordine <lb/>
+            certissima, cum pristinae stabilitati certo suo tempore atque ordine <lb/>
             hoc corpus fuerit restitutum,</hi> non ita dictum putetur, quasi non <lb/>
             sint futura post resurrectionem corpora meliora, quam primorum <lb n="15"/>
             hominum in paradiso fuerunt, cum illa iam non sint alenda <lb/>
@@ -2648,9 +2646,9 @@
             modo accipi possint, ut non intellegatur infima pulchritudo <lb/>
             nisi in corporibus hominum omniumque animalium, cum quibus sensu corporis uiuimus, ratio manifesta defendit. hoc quippe <lb n="10"/>
             in ea pulchritudine imitatur constantiam, quod in conpage <lb/>
-            sua manent eadem corpora, in quantum <choice><sic>maneht</sic><corr>manent</corr></choice>, id autem a <lb/>
+            sua manent eadem corpora, in quantum manent, id autem a <lb/>
             summo deo in ea per animam traicitur. anima quippe ipsam <lb/>
-            conpagem tenet, ne dissoluatur et <choice><sic>diffiuat</sic><corr>diffluat</corr></choice>, quod uidemus in corporibus animalium anima discedente contingere. si autem
+            conpagem tenet, ne dissoluatur et diffluat, quod uidemus in corporibus animalium anima discedente contingere. si autem
 
 <note type="footnote">8 De mus. VI, 14, 44 14 Aug. Confess. X. 34, 53 </note>
 
@@ -2683,9 +2681,9 @@
             unde, tale aliquid a me dictum quod accipi possit <lb/>
             etiam in libro de inmortalitate animae, temere dictum notaui, <lb/>
             non quia hoc falsum esse confirmo, sed quia nec uerum esse <lb/>
-            <sic>conprehendo</sic>, quod sit animal mundus. hoc sane inconcusse <lb n="10"/>
+            conprehendo, quod sit animal mundus. hoc sane inconcusse <lb n="10"/>
             retinendum esse non dubito, deum nobis non esse istum mundum, <lb/>
-            <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> anima eius ulla siue nulla sit, quia si ulla est, ille, qui <lb/>
+            siue anima eius ulla siue nulla sit, quia si ulla est, ille, qui <lb/>
             eam fecit, est deus noster; si autem nulla est, nullorum deus <lb/>
             potest esse iste, quanto minus noster. esse tamen spiritalem <lb/>
             uitalemque uirtutem, etiamsi non sit animal mundus, quae <lb n="15"/>
@@ -2718,11 +2716,11 @@
             creaturam spiritalem in dei secreto atque occulto ministerio <lb/>
             constitutam nunc appellauerim. sed spiritus angelicos sancta <lb/>
             scriptura nomine animarum significare non solet. proinde in <lb/>
-            eo, quod circa finem libri huius dixi: <hi rend="italic">rationales et <sic>inteUeduales</sic><lb n="5"/>
+            eo, quod circa finem libri huius dixi: <hi rend="italic">rationales et intellectuales<lb n="5"/>
             numeri beatarum animarum atque sanctarum legem ipsam dei, <lb/>
             sine qua folium de arbore non cadit et cui nostri capilli numerati <lb/>
             sunt, nulla interposita natura excipientes usque ad terrena <lb/>
-            et inferna iura transmittunt,</hi> non uideo, <sic>quemadmodumuocabulum</sic> <lb/>
+            et inferna iura transmittunt,</hi> non uideo, quemadmodum uocabulum <lb/>
             animarum secundum scripturas sanctas forsitan possit ostendi,<lb n="10"/>
             quandoquidem hic non nisi angelos sanctos intellegi uolui, quos <lb/>
             habere animas numquam me legisse in diuinis eloquiis canonicis <lb/>
@@ -2793,7 +2791,7 @@
           </div>
 
 <div n="2" subtype="section" type="textpart"><p><note type="chapter"> (2)              </note> In hoc libro quodam loco: <hi rend="italic">sit,</hi> inquam, <hi rend="italic">tibi manifestum  <lb n="15"/>
-            atque perceptum <sic>nuuum</sic> errorem in religione esse potuisse, <lb/>
+            atque perceptum nullum errorem in religione esse potuisse, <lb/>
             si anima pro deo suo non coleret animam aut corpus aut fantasmata <lb/>
             sua</hi>. hic animam pro uniuersa creatura incorporali <lb/>
             posui non loquens more scripturarum, quae animam, quando <lb/>
@@ -2823,7 +2821,7 @@
             nostris, et perfecta religio est</hi>. creaturam quippe <lb n="5"/>
             uno nomine utramque, id est spiritalem corporalemque, significaui. <lb/>
             restat, quod ibi dixi: <hi rend="italic">aut fantasmata sua,</hi> propter quod <lb/>
-            hic dixi: <hi rend="italic">nec euanescamus in <choice><sic>cognitationibus</sic><corr>cogitationibus</corr></choice> nostris</hi>. 
+            hic dixi: <hi rend="italic">nec euanescamus in cogitationibus nostris</hi>. 
 </p>
           </div>
 
@@ -2877,7 +2875,7 @@
             est, quia etiam pristina stabilitas corporis, quam <lb/>
             peccando amisimus, habebat tantam felicitatem, ut in defectum <lb/>
             non uergeret senectutis. huic ergo pristinae stabilitati restituetur <lb/>
-            hoc corpus in resurrectione <choice><sic>mortuonlm</sic><corr>mortuorum</corr></choice>, sed habebit amplius, <lb n="15"/>
+            hoc corpus in resurrectione mortuorum, sed habebit amplius, <lb n="15"/>
             ut nec alimentis temporalibus sustentetur, sed ad sufficientiam <lb/>
             uiuificetur solo spiritu, cum resurrexerit in spiritum <lb/>
             uiuificantem, quia iam etiam spiritale erit. illud autem, <lb/>
@@ -2910,10 +2908,10 @@
 <div n="6" subtype="section" type="textpart"><p rend="script"> Et alibi: <hi rend="italic">usque adeo,</hi> inquam, <hi rend="italic">peccatum uoluntarium malum</hi> <note type="chapter"> (5)</note>  <lb/>
             <hi rend="italic">est, ut nullo modo sit peccatum, si non sit uoluntarium</hi>. potest <lb/>
             uideri falsa haec definitio, sed, si diligenter discutiatur, inuenietur <lb/>
-            esse <choice><sic>uelissima</sic><corr>uerissima</corr></choice>. peccatum quippe illud cogitandum <lb/>
+            esse uerissima. peccatum quippe illud cogitandum <lb/>
             est, quod tantummodo peccatum est, non quod est etiam poena <lb n="5"/>
             peccati, sicut superius ostendi, cum quaedam commemorarem <lb/>
-            ex libro tertio de <choice><sic>Jibero</sic><corr>libero</corr></choice> arbitrio, quamuis et illa, quae non <lb/>
+            ex libro tertio de libero arbitrio, quamuis et illa, quae non <lb/>
             inmerito non uoluntaria peccata dicuntur, quia uel a nescientibus <lb/>
             uel a coactis perpetrantur, non omni modo possunt sine <lb/>
             uoluntate committi, quoniam et ille, qui peccat ignorans, uoluntate<lb n="10"/>
@@ -2947,13 +2945,13 @@
             in mg</hi>. absorde D1 uoca*tur (n <hi rend="italic">ras.) Q</hi> etiam uocatnr <hi rend="italic">N</hi>\' </note> <lb/>
              
 <pb n="61"/>
-            <sic n="poss">tarium</sic>, quia ex prima hominis mala uoluntate contractum <lb/>
+            tarium, quia ex prima hominis mala uoluntate contractum <lb/>
             factum est quodam modo hereditarium. non itaque falsum est, <lb/>
             quod dixi: <hi rend="italic">usque adeo peccatum uoluntarium malum est, ut <lb/>
-            nullo modo sit peccatum, si non sit <choice><sic>coluntarium</sic><corr>uoluntarium</corr></choice></hi>. ideo gratia <lb/>
+            nullo modo sit peccatum, si non sit uoluntarium</hi>. ideo gratia <lb/>
             dei non solum reatus omnium praeteritorum soluitur in omnibus, <lb n="5"/>
             qui baptizantur in Christo, quod fit spiritu regenerationis, <lb/>
-            uerum etiam in grandibus uoluntas ipsa <choice><sic>sanatmr</sic><corr>sanatur</corr></choice> <lb/>
+            uerum etiam in grandibus uoluntas ipsa sanatur <lb/>
             et praeparatur a domino, quod fit spiritu fidei et <lb/>
             caritatis. 
 </p>
@@ -2970,7 +2968,7 @@
 
 <div n="8" subtype="section" type="textpart"><p>  <hi rend="italic">prius,</hi> inquam, <hi rend="italic">isti sequendi sunt; qui unum  <lb/>
             summum et solum colendum esse dicunt; si apud hos ueritas <lb/>
-            non <sic>eluxcrit</sic>, tunc demum migrandum</hi>. quod ita potest uideri
+            non eluxerit, tunc demum migrandum</hi>. quod ita potest uideri
 
 <note type="footnote">6 Rom. 6, 3 7 Prou. 8, 35 sec. LXX 8 II Cor. 4, 13 10 De <lb/>
             uer. rel. 16, 31 12 Marc. 11, 15. Matth. 21, 12. Luc. 19,45 13 Matth. <lb/>
@@ -2997,7 +2995,7 @@
 <pb n="62"/>
             dictum, quasi de huius religionis ueritate dubitauerim. dixi <lb/>
             autem, sicut ei congruebat, ad quem scribebam. sic enim dixi: <lb/>
-            <hi rend="italic">si apud hos ueritas <sic>nOn</sic> eluxerit,</hi> nihil dubitans, quod apud <lb/>
+            <hi rend="italic">si apud hos ueritas non eluxerit,</hi> nihil dubitans, quod apud <lb/>
             eos elucesceret, quemadmodum ait apostolus: si Christus <lb/>
             non resurrexit, non utique dubitans, quod resurrexit. <lb n="5"/>
             
@@ -3006,14 +3004,14 @@
 
 <div n="9" subtype="section" type="textpart"><p rend="script"> Item quod dixi: <hi rend="italic">nec miracula illa m nostra tempora durare</hi> <note type="chapter"> (7)</note>  <lb/>
             <hi rend="italic">permissa sunt, ne anima semper uisibilia quaereret et eorum<lb/>
-             consuetudine frigesceret genus humanum, quorum nouitate <choice><sic>jlagrauit</sic><corr>flagrauit</corr></choice>, <lb/>
+             consuetudine frigesceret genus humanum, quorum nouitate flagrauit, <lb/>
             </hi> uerum est quidem; non enim nunc usque, cum manus <lb/>
             inponitur baptizatis, sic accipiunt spiritum sanctum, ut lo<lb n="10"/>
-            <sic>quantur</sic> linguis omnium gentium, aut nunc usque per umbram <lb/>
+            quantur linguis omnium gentium, aut nunc usque per umbram <lb/>
             transeuntem praedicatorum Christi sanantur infirmi, et si <lb/>
             qua talia tunc facta sunt, quae postea cessasse manifestum <lb/>
             est. sed non sic accipiendum est, quod dixi,\'ut nunc in Christi <lb/>
-            nomine fieri miracula nulla credantur. <choice><sic>uam</sic><corr>nam</corr></choice> ego ipse, quando <lb n="15"/>
+            nomine fieri miracula nulla credantur. nam ego ipse, quando <lb n="15"/>
             istum ipsum scripsi librum, ad Mediolanensium corpora martyrum <lb/>
             in eadem ciuitate caecum inluminatum fuisse iam noueram <lb/>
             et alia nonnulla, qualia tam multa etiam istis
@@ -3051,14 +3049,14 @@
             autem sunt, a deo ordinata sunt.</p></div>
 
 <div n="11" subtype="section" type="textpart"><p>et alibi: <hi rend="italic">prorsus,</hi>  <lb/>
-            inquam, <hi rend="italic">nemo nos fallat: quidquid recte <choice><sic>uitupcratur</sic><corr>uituperatur</corr></choice>, in melioris<lb/>
+            inquam, <hi rend="italic">nemo nos fallat: quidquid recte uituperatur, in melioris<lb/>
              conparatione respuitur</hi>. hoc de substantiis atque naturis dictum <lb/>
             est; inde enim disputabatur, non de bonis actibus atque peccatis. <lb/>
             </p></div>
 
 <div n="12" subtype="section" type="textpart"><p>itemque alibi: <hi rend="italic">sed nec sic quidem,</hi> inquam, <hi rend="italic">ab homine  <lb n="10"/>
             homo diligendus est, ut diliguntur carnales fratres uel filii uel<lb/>
-             coniuges uel quique cognati aut <choice><sic>adfims</sic><corr>adfines</corr></choice> aut ciues; nam et ista <lb/>
+             coniuges uel quique cognati aut adfines aut ciues; nam et ista <lb/>
             dilectio temporalis est. non enim ullas tales necessitudines haberemus, <lb/>
             quae nascendo et moriendo contingunt, si natura nostra <lb/>
             in praeceptis et imagine dei manens in istam corruptionem <lb n="15"/>
@@ -3087,14 +3085,14 @@
             <hi rend="italic">FlH</hi> ducet <hi rend="italic">CDl,</hi> ducitur <hi rend="italic">BlG</hi> conieges <hi rend="italic">ClD1</hi> </note> <lb/>
              
 <pb n="64"/>
-            <sic>generaturi</sic> posteros homines, nisi peccassent, tamquam necesse <lb/>
+            generaturi posteros homines, nisi peccassent, tamquam necesse <lb/>
             fuerit, ut morituri gignerentur, si de concubitu maris et feminae <lb/>
             gignerentur. nondum enim uideram fieri potuisse, ut <lb/>
             non morituri de non morituris nascerentur, si peccato illo <lb/>
             magno non mutaretur in deterius humana natura ac per hoc, <lb n="5"/>
             si et in parentibus et in filiis felicitas fecunditasque mansisset, <lb/>
             usque ad certum sanctorum numerum, quem praedestinauit <lb/>
-            deus, nascerentur homines non parentibus successuri <choice n="0.86"><sic n="19">morientibus</sic><corr n="3">monentibus</corr></choice>, <lb/>
+            deus, nascerentur homines non parentibus successuri morientibus, <lb/>
             sed cum uiuentibus regnaturi. essent ergo etiam istae <lb/>
             cognationes atque adfinitates, si nullus delinqueret nullusque<lb n="10"/>
             moreretur. 
@@ -3159,7 +3157,7 @@
             sabbatum est uel circumcisio uel sacrificia et si quid huius modi<lb/>
              est, tanta mysteria continentur, ut omnis pius intellegat nihil <lb/>
             esse perniciosius, quam quidquid ibi est accipi ad litteram, id <lb n="15"/>
-            est ad uerbum, nihil autem salubrius quam spiritu <choice><sic>reueiari</sic><corr>reuelari</corr></choice>. <lb/>
+            est ad uerbum, nihil autem salubrius quam spiritu reuelari. <lb/>
              inde est: littera occidit, spiritus autem uiuificat</hi>.
 
 <note type="footnote"> 2 Aug. de ciu. dei X, 3 (I, 450, 11 sqq. ed. Hoflm.) 11 De ut. <lb/>
@@ -3196,12 +3194,12 @@
           </div>
 
 <div n="3" subtype="section" type="textpart"><p rend="script"> Item dixi: <hi rend="italic">duae sunt enim personae in religione laudabiles,</hi><note type="chapter"> (2)</note>  <lb/>
-            <hi rend="italic">una eorum, qui <choice n="0.33"><sic n="5760">tam</sic><corr n="11641">iam</corr></choice> inuenerunt, quos etiam <choice><sic>beattssvmos</sic><corr>beatissimos</corr></choice> <choice n="0.87"><sic n="81">iudicari</sic><corr n="12">indicari</corr></choice><lb n="5"/>
+            <hi rend="italic">una eorum, qui iam inuenerunt, quos etiam beatissimos iudicari<lb n="5"/>
              necesse est, alia eorum, qui studiosissime et rectissime inquirunt. <lb/>
              primi ergo sunt iam in ipsa possessione, alteri in uia, qua <lb/>
             tamen certissime peruenitur</hi>. in his uerbis meis, si illi, qui iam <lb/>
             inuenerunt, quos in ipsa possessione iam esse diximus, sic accipiantur beatissimi, ut non in hac uita, sed in ea, quam <lb n="10"/>
-            speramus et ad quam per fidei uiam tendimus, <choice><sic>sintr</sic><corr>sint</corr></choice> non habet <lb/>
+            speramus et ad quam per fidei uiam tendimus, sint non habet <lb/>
             iste sensus errorem; ipsi enim iudicandi sunt quod quaerendum <lb/>
             eat inuenisse, qui iam ibi sunt, quo nos quaerendo et credendo, <lb/>
             id est uiam fidei tenendo, cupimus peruenire. si autem in hac uita isti esse putantur uel fuisse, id uerum esse non <lb n="15"/>
@@ -3233,13 +3231,13 @@
 <pb n="67"/>
             est, quidquid est, ut non faciat beatissimos. neque enim quod ait <lb/>
             apostolus: uidemus nunc per speculum in aenigmate <lb/>
-            et: nunc scio ex parte, ex parte non <choice><sic>cernitUr</sic><corr>cernitur</corr></choice> mente; <sic>cerniturplane</sic>, <lb/>
+            et: nunc scio ex parte, ex parte non cernitur mente; cernitur plane, <lb/>
             sed beatissimos nondum facit. illud enim beatissimos <lb/>
             facit, quod ait: tunc autem faciem ad faciem et: tunc <lb n="5"/>
-            <choice><sic>cognosoam</sic><corr>cognoscam</corr></choice>, sicut et cognitus sum. qui hoc inuenerunt, <lb/>
+            cognoscam, sicut et cognitus sum. qui hoc inuenerunt, <lb/>
             ipsi dicendi sunt in beatitudinis possessione consistere, ad <lb/>
             quam ducit uia fidei, quam tenemus et quo credendo cupimus <lb/>
-            <choice><sic>pemenire</sic><corr>peruenire</corr></choice>. sed quinam sint illi beatissimi, qui iam sunt in ea <lb/>
+            peruenire. sed quinam sint illi beatissimi, qui iam sunt in ea <lb/>
             possessione, quo ducit haec uia, magna quaestio est. et angeli <lb n="10"/>
             quidem sancti quod ibi sint, nulla quaestio est. sed de sanctis <lb/>
             hominibus iam defunctis, utrum ipsi dicendi sint iam in illa <lb/>
@@ -3322,7 +3320,7 @@
           </div>
 
 <div n="6" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (4) </note> Item quod dixi: <hi rend="italic">nemini dubium est omnes homines aut  <lb/>
-            stultos esse aut sapientes,</hi> potest <choice n="0.02"><sic n="25">uiden</sic><corr n="1002">uideri</corr></choice> esse contrarium illi, <lb/>
+            stultos esse aut sapientes,</hi> potest uideri esse contrarium illi, <lb/>
             quod legitur in libro tertio de libero arbitrio: <hi rend="italic">quasi uero na-. <lb/>
             tura humana praeter stultam et sapientem nullam mediam recipiat <lb/>
             affectionem</hi>. sed illud ibi dictum est, ubi de primo homine <lb n="5"/>
@@ -3370,7 +3368,7 @@
 
 <div n="7" subtype="section" type="textpart"><p> Alio loco, cum miracula commemorassem, quae dominus lesus <note type="chapter"> (5)</note>  <lb/>
             fecit, cum hic esset in carne, adiunxi dicens: <hi rend="italic">cur, inquies, ista<lb/>
-             modo non fiunt</hi>? atque respondi: <hi rend="italic">quia non mouerent, nisi mira essent; si autem solita essent, mira non essent</hi>. <choice><sic>lioc</sic><corr>hoc</corr></choice> autem dixi, <lb n="5"/>
+             modo non fiunt</hi>? atque respondi: <hi rend="italic">quia non mouerent, nisi mira essent; si autem solita essent, mira non essent</hi>. hoc autem dixi, <lb n="5"/>
             quia non tanta nec omnia modo, non quia nulla fiunt etiam modo. 
 </p>
           </div>
@@ -3410,19 +3408,19 @@
             <hi rend="italic">Bl</hi>. </note> <lb/>
              
 <pb n="71"/>
-            <hi rend="italic">animo <sic>tflO</sic> facto ero fortassis in <choice n="0.02"><sic n="24">celeris</sic><corr n="1079">ceteris</corr></choice> promtior</hi>. haec non <lb/>
+            <hi rend="italic">animo tuo facto ero fortassis in ceteris promtior</hi>. haec non <lb/>
             ita dixi, quasi nihil contra Manicheos adhuc scripsissem uel <lb/>
             nihil de doctrina catholica mandassem litteris, cum tot superius <lb/>
             edita uolumina de utraque re non me tacuisse testantur, <lb/>
             sed in hoc libro ad illum scripto <hi rend="italic">nondum Manicheos refellere</hi> <lb n="5"/>
-            coeperam <hi rend="italic">et illas <choice><sic>nngas</sic><corr>nugas</corr></choice> nondum</hi> inuaseram <hi rend="italic">neque de ipsa <choice><sic>cathoHca</sic><corr>catholica</corr></choice><lb/>
+            coeperam <hi rend="italic">et illas nugas nondum</hi> inuaseram <hi rend="italic">neque de ipsa catholica<lb/>
              magnum aliquid aperueram,</hi> quoniam sperabam hoc <lb/>
-            initio facto ad eum me scripturum fuisse, quae <choice n="0.00"><sic n="23">hie</sic><corr n="7275">hic</corr></choice> non <choice><sic>acripseram</sic><corr>scripseram</corr></choice>. <lb/>
+            initio facto ad eum me scripturum fuisse, quae hic non scripseram. <lb/>
             </p>
           </div>
 
 <div n="9" subtype="section" type="textpart"><p>Hic liber sic incipit: <hi rend="italic">Si mihi, Honorate, unum atque idem  <lb n="10"/>
-            <choice><sic>wderetur</sic><corr>uideretur</corr></choice> esse</hi>. 
+            uideretur esse</hi>. 
 </p>
           <p> <milestone n="15" unit="altchapter"/>  
 </p>
@@ -3433,7 +3431,7 @@
 <div n="14" subtype="chapter" type="textpart">
 <ab> <title type="sub">CAPVT  XIIII. DE DVABVS ANIMABVS LIBER VNVS. </title> </ab>
           <div n="1" subtype="section" type="textpart"><p rend="script">Post hunc librum scripsi adhuc presbyter contra Manicheos  <lb/>
-            de duabus <choice><sic>ammabus</sic><corr>animabus</corr></choice>, quarum dicunt unam partem dei esse, <lb n="15"/>
+            de duabus animabus, quarum dicunt unam partem dei esse, <lb n="15"/>
             alteram de gente tenebrarum. quam non condiderit deus et <lb/>
             quae sit deo coaeterna, et has ambas animas, unam bonam,
 
@@ -3518,13 +3516,13 @@
             ideo peccatum uocatur, quia peccato factum est et poena <lb/>
             peccati est, quandoquidem hoc de concupiscentia carnis dicitur, <lb n="10"/>
             quod aperit in consequentibus dicens: scio, quia non <lb/>
-            habitat in me, hoc est in <choice><sic>earne</sic><corr>carne</corr></choice> mea, bonum; uelle <lb/>
+            habitat in me, hoc est in carne mea, bonum; uelle <lb/>
             enim adiacet mihi, perficere autem bonum non. perfectio <lb/>
             quippe boni est, ut nec ipsa concupiscentia peccati sit <lb/>
             in homine, cui quidem, quando bene uiuitur, non consentit <lb n="15"/>
             uoluntas; uerum tamen non perficit bonum, quia inest adhuc in <lb/>
             concupiscentia, cui repugnat uoluntas; cuius concupiscentiae <lb/>
-            reatus in baptismate soluitur, sed infirmitas <choice><sic>jnanet</sic><corr>manet</corr></choice>, cui, donec <lb/>
+            reatus in baptismate soluitur, sed infirmitas manet, cui, donec <lb/>
             sanetur, omnis fidelis, qui bene proficit, studiosissime reluctatur. <lb/>
             peccatum autem, quod <hi rend="italic">nusquam</hi> est <hi rend="italic">nisi in uoluntate,</hi> illud.
 
@@ -3550,7 +3548,7 @@
              
 <pb n="74"/>
             . praecipue intellegendum est, quod iusta damnatio consecuta est <lb/>
-            - hoc enim per unum hominem intrauit in <sic>mundumquamquam</sic> <lb/>
+            - hoc enim per unum hominem intrauit in mundum - quamquam <lb/>
             et hoc peccatum, quo consentitur peccati concupiscentiae, <lb/>
             non nisi uoluntate committitur. propter hoc et <lb/>
             alio loco dixi: <hi rend="italic">non igitur nisi uoluntate peccatur</hi>.<lb n="5"/>
@@ -3683,7 +3681,7 @@
             neri <hi rend="italic">C1D1</hi> enim <hi rend="italic">om. F</hi> . est (6 <hi rend="italic">m. 2) M</hi> .. </note> <lb/>
              
 <pb n="77"/>
-            Adam? porro autem Adam habebat <choice><sic>atique</sic><corr>utique</corr></choice> uoluntatem, qua <lb/>
+            Adam? porro autem Adam habebat utique uoluntatem, qua <lb/>
             uoluntate cum peccasset, peccatum per eum intrauit in <lb/>
             mundum. 
 </p>
@@ -3691,7 +3689,7 @@
 
 <div n="7" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (6) </note> Itemque in eo, quod dixi: <hi rend="italic">natura esse malae tmimae nullo  <lb/>
             modo queunt,</hi> si quaeritur, quomodo accipiamus, quod ait <lb n="5"/>
-            apostolus: <choice><sic>fuimuset</sic><corr>fuimus</corr></choice> nos natura filii irae sicut et ceteri, . <lb/>
+            apostolus: fuimus et nos natura filii irae sicut et ceteri, . <lb/>
             respondemus naturam in his uerbis meis me intellegi uoluisse <lb/>
             illam, quae proprie natura dicitur, in qua sine uitio creati <lb/>
             sumus. nam ista propter originem natura appellatur, quae origo <lb/>
@@ -3699,9 +3697,9 @@
 
 <div n="8" subtype="section" type="textpart"><p>et iterum quod  <lb n="10"/>
             dictum est: <hi rend="italic">peccati reum tenere quemquam, quia non fecit <lb/>
-            quod facere non potuit, summae iniquitatis est et insaniae,</hi> <sic>lcur</sic> <lb/>
-            ergo., inquiunt, <sic>cparuuli</sic> tenentur rei?\' respondetur, quia eius <lb/>
-            ex origine tenentur, qui non fecit quod facere potuit, <choice><sic>djuinum</sic><corr>diuinum</corr></choice> <lb/>
+            quod facere non potuit, summae iniquitatis est et insaniae,</hi> cur <lb/>
+            ergo., inquiunt, 'paruuli tenentur rei?\' respondetur, quia eius <lb/>
+            ex origine tenentur, qui non fecit quod facere potuit, diuinum <lb/>
             scilicet seruare mandatum.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>quod autem dixi: <hi rend="italic">illae animae quidquia  <lb n="15"/>
@@ -3733,7 +3731,7 @@
              
 <pb n="78"/>
             <hi rend="italic">et ad faciendum et ad non faciendum motu animi carent, si <lb/>
-            denique abstinendi ab opere suo potestas nulla <choice><sic>eonceditur</sic><corr>conceditur</corr></choice>, <lb/>
+            denique abstinendi ab opere suo potestas nulla conceditur, <lb/>
             peccatum earum tenere non possumus,</hi> propterea non perturbat <lb/>
             de paruulis quaestio, quia ex illius origine rei tenentur, qui <lb/>
             uoluntate peccauit, quando <hi rend="italic">libero et ad faciendum et non faciendum<lb n="5"/>
@@ -3745,11 +3743,11 @@
           </div>
 
 <div n="10" subtype="section" type="textpart"><p rend="script"> Illud autem quaeri potest quomodo dixerim: <hi rend="italic">etiamsi sunt</hi> <note type="chapter"> (7) </note> <lb n="10"/>
-            <hi rend="italic"><sic>ammqu</sic>, quod interim incertum est, corporeis officiis non peccato, <lb/>
+            <hi rend="italic">animae, quod interim incertum est, corporeis officiis non peccato, <lb/>
             sed natura deditae nosque, quamquam sint inferiores, aliqua<lb/>
              tamen interiore uicinitate contingunt, non iUas ideo malas haberi <lb/>
             oportere, quia nos, cum eas sequimur et corporea diligimus, <lb/>
-            mali sumus,</hi> quandoquidem de illis hoc dixi, de <choice><sic>quibtts</sic><corr>quibus</corr></choice> apertius<lb n="15"/>
+            mali sumus,</hi> quandoquidem de illis hoc dixi, de quibus apertius<lb n="15"/>
             loqui coeperam dicens: <hi rend="italic">quamquam etiamsi eisdem concedatur <lb/>
             inferiore alio genere animarum nos inlici ad turpia, non inde <lb/>
             conficiunt aut illas naturas malas esse aut istas summum bonum —</hi>
@@ -3779,8 +3777,8 @@
              
 <pb n="79"/>
             de his enim disputationem usque ad hunc loculum perduxi, <lb/>
-            ubi dixi: <hi rend="italic">etiamsi sunt animae, quod interim <sic>incerlum</sic> est, <lb/>
-            corporeis <choice><sic>quficiis</sic><corr>officiis</corr></choice> non peccato, sed natura deditae</hi> et cetera - quaeri <lb/>
+            ubi dixi: <hi rend="italic">etiamsi sunt animae, quod interim incertum est, <lb/>
+            corporeis officiis non peccato, sed natura deditae</hi> et cetera - quaeri <lb/>
             ergo potest, cur dixerim: <hi rend="italic">quod interim incertum,</hi> cum <lb/>
             prorsus dubitare non debuerim non esse tales animas. sed hoc <lb n="5"/>
             ideo dixi,. quia expertus sum, qui dicerent diabolum et angelos <lb/>
@@ -3794,7 +3792,7 @@
             quod. fecit ad inludendum ab angelis suis, uel <lb/>
             illud in Psalmo centesimo tertio: draco hic, quem finxisti <lb n="15"/>
             ad inludendum ei. quam quaestionem, quae non aduersus <lb/>
-            . Manicheos, qui hoc non sentiunt, sed <choice><sic>aduersua</sic><corr>aduersus</corr></choice> alios, qui hoc
+            . Manicheos, qui hoc non sentiunt, sed aduersus alios, qui hoc
 
 <note type="footnote"> \'6 Aug. de ciu. dei XI, 11 aqq. 13 Idb 40, 14 15 Ps. 103, 26. <lb/>
             cf. Aug. de ciu. dei XI, 15\' </note>
@@ -3834,10 +3832,10 @@
           </div>
 
 <div n="11" subtype="section" type="textpart"><p rend="script"> Alio loco: <hi rend="italic">propterea,</hi> inquam, <hi rend="italic">corporea diligendo peccamus;</hi> <note type="chapter"> (8)</note>  <lb/>
-            <hi rend="italic">quia <choice><sic>spintalia</sic><corr>spiritalia</corr></choice> diligere et <sic>tusmia</sic> iubemur et natura possumus, <lb/>
+            <hi rend="italic">quia spiritalia diligere et iustitia iubemur et natura possumus, <lb/>
             et tunc in nostro genere optimi et. beati sumus</hi>. ubi -quaeri <lb/>
             potest, cur <hi rend="italic">natura</hi> et non gratia <hi rend="italic">possumus</hi> dixerim. sed contra <lb/>
-            Manicheos de natura quaestio uersabatur, et utique id. agit gratia, ut ista natura, quod <choice><sic>nitiata</sic><corr>uitiata</corr></choice> non potest, possit per eum, <lb n="15"/>
+            Manicheos de natura quaestio uersabatur, et utique id. agit gratia, ut ista natura, quod uitiata non potest, possit per eum, <lb n="15"/>
             qui uenit quaerere et saluum facere, quod perierat.,
 
 <note type="footnote">9 Aug. de Gen. ad litt. XI, 20 sqq. 11 De d. anim. 20,(p. 77, <lb/>
@@ -3870,12 +3868,12 @@
             quem inuiolabilem et incorruptibilem credi atque intellegi fas <lb/>
             est, trina unitas, quam catholica ecclesia colit, supplex oro expertus <lb n="5"/>
             in me misericordiam tuam, ne homines, cum quibus mihi <lb/>
-            a pueritia in hominum uictu fuit summa consensio, in tuo <sic>cidtu</sic> <lb/>
+            a pueritia in hominum uictu fuit summa consensio, in tuo cultu <lb/>
             a me dissentire permittas</hi>. sic utique orans iam fide retinebam <lb/>
             non solum conuersos ad deum gratia eius adiuuari, ut pro- <lb/>
             Sciant ac perficiantur — ubi adhuc dici potest pro merito conuersionis <lb n="10"/>
             illorum istam dari gratiam — uerum etiam ut conuertantur <lb/>
-            ad deum, ad ipsam dei gratiam pertinere, <choice><sic>quem_</sic><corr>quem</corr></choice> <lb/>
+            ad deum, ad ipsam dei gratiam pertinere, quem <lb/>
             pro eis oraui, qui erant ab illo nimis auersi, atque ad illum <lb/>
             conuerterentur oraui. 
 </p>
@@ -3982,7 +3980,7 @@
             de scripturis diuinis lex et praecepta sumenda sunt, <lb/>
             sed quia perfectissime ibi lex aeterna seruabitur et illa duo <lb/>
             praecepta de diligendo deo et proximo non in lectione, sed in <lb/>
-            ipsa perfecta et <choice><sic>sempitema</sic><corr>sempiterna</corr></choice> dilectione tenebimus. 
+            ipsa perfecta et sempiterna dilectione tenebimus. 
 </p>
           </div>
 
@@ -4040,7 +4038,7 @@
 
 <div n="2" subtype="section" type="textpart"><p> In hoc libro cum de resurrectione carnis ageretur: <hi rend="italic">resurget,</hi><lb n="10"/>
             inquam, <hi rend="italic">corpus secundum Christianam fidem, quae falli non <lb/>
-            potest. quod cui uidetur incredibile, qualis sit <choice><sic>nunC</sic><corr>nunc</corr></choice> caro adtendit, <lb/>
+            potest. quod cui uidetur incredibile, qualis sit nunc caro adtendit, <lb/>
             qualis autem futura sit non considerat, quia illo tempore <lb/>
             inmutationis angelicae non iam caro erit et sanguis, sed tantum <lb/>
             corpus</hi> et cetera, quae ibi de corporum terrestrium in corpora<lb n="15"/>
@@ -4084,7 +4082,7 @@
             tamquam exponendo, quid dixerit — continuo subdidit: <lb/>
             neque corruptio incorruptionem possidebit. de qua re <lb/>
             ad suadendum infidelibus difficili diligenter, quantum potui, <lb/>
-            me <choice><sic>disseruissA</sic><corr>disseruisse</corr></choice> reperiet, quisquis de ciuitate dei librum nouissimum <lb n="15"/>
+            me disseruisse reperiet, quisquis de ciuitate dei librum nouissimum <lb n="15"/>
             legerit. 
 </p>
           </div>
@@ -4231,9 +4229,9 @@
             cuncta obtemperant spiritui hominis, cum et ipse obtemperat <lb/>
             deo</hi>. quod merito mouet, quomodo dixerim. non enim cuiquam<lb n="10"/>
             prouenire in hac uita potest, ut lex repugnans legi <lb/>
-            <choice><sic>tnentis</sic><corr>mentis</corr></choice> omnino non sit in membris, quandoquidem etiamsi <lb/>
+            mentis omnino non sit in membris, quandoquidem etiamsi <lb/>
             ei sic resisteret spiritus hominis, ut in nullum eius laberetur <lb/>
-            adsensum, non ideo tamen <choice><sic>pon</sic><corr>non</corr></choice> repugnaret. hoc ergo, <lb/>
+            adsensum, non ideo tamen non repugnaret. hoc ergo, <lb/>
             quod dictum est, <hi rend="italic">nullum esse motum aduersus rationem rebellem,<lb n="15"/>
             </hi> recte accipi potest id nunc agentibus pacificis domando <lb/>
             concupiscentias carnis, ut ad istam pacem plenissimam quandoque <lb/>
@@ -4280,7 +4278,7 @@
           </div>
 
 <div n="4" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (3) </note> Alio loco quod interposui testimonium: <hi rend="italic">non enim ad mensuram               <lb/>
-            <choice><sic>aat</sic><corr>dat</corr></choice> <choice><sic>aeus</sic><corr>deus</corr></choice> <choice><sic>spintum</sic><corr>spiritum</corr></choice>,</hi> nondum intellexeram ae <choice><sic>unnsto</sic><corr>Christo</corr></choice> <lb n="15"/>
+            dat deus spiritum,</hi> nondum intellexeram ae Christo <lb n="15"/>
             proprie uerius accipi. aliis quippe hominibus nisi ad mensuram <lb/>
             daretur spiritus, non duplum peteret Heliseus, quam fuerit in <lb/>
             Helia.</p></div>
@@ -4496,8 +4494,8 @@
           </div>
 
 <div n="11" subtype="section" type="textpart"><p> In secundo item libro: <hi rend="italic">nulli,</hi> inquam, <hi rend="italic">licebit ignorare dei</hi><note type="chapter"> (8)</note>  <lb/>
-            <hi rend="italic">regnum, quum eius unigenitus non solum <sic>intellegibiliter</sic> sed<lb n="5"/>
-             etiam uisibiliter in <sic>hominedominico</sic> de caelo uenerit iudicaturus <lb/>
+            <hi rend="italic">regnum, quum eius unigenitus non solum intellegibiliter sed<lb n="5"/>
+             etiam uisibiliter in homine dominico de caelo uenerit iudicaturus <lb/>
             uiuos et mortuos</hi>. sed non uideo, utrum recte dicatur homo <lb/>
             dominicus, qui est mediator dei et hominum, homo <lb/>
             Christus Iesus [cum sit utique dominus]: dominicus autem homo quis in eius sancta familia non potest dici? et hoc <lb n="10"/>
@@ -4555,7 +4553,7 @@
              neque rugam,</hi> non ideo dixi, quia nunc ex omni parte <lb/>
             iam talis est, quamuis ad hoc electa non dubitetur, ut talis <lb n="15"/>
             sit, quando Christus apparuerit, uita eius; tunc enim et <lb/>
-            ipsa <choice n="0.16"><sic n="8584">eum</sic><corr n="42581">cum</corr></choice> illo apparebit in gloria; propter quam gloriam <lb/>
+            ipsa cum illo apparebit in gloria; propter quam gloriam <lb/>
             dicta est ecclesia gloriosa.</p></div>
 
 <div n="15" subtype="section" type="textpart"><p>item quod dominus <hi rend="italic">ait: petite</hi> 
@@ -4584,7 +4582,7 @@
 <pb n="96"/>
             <hi rend="italic">et accipietis, quaerite et inuenietis, pulsate et aperietur <lb/>
             uobis,</hi> operose quidem, tria ista quid inter se differant, exponendum <lb/>
-            putaui; sed longe melius ad <sic>instantissimam</sic> petitionem <lb/>
+            putaui; sed longe melius ad instantissimam petitionem <lb/>
             omnia referentur. hoc quippe ostendit, ubi eodem uerbo cuncta <lb/>
             conclusit dicens: quanto magis pater uester, qui in caelis <lb n="5"/>
             est, dabit bona petentibus se; non enim dixit: petentibus,. <lb/>
@@ -4709,7 +4707,7 @@
             quae super hanc petram aedificatur et accepit claues <lb/>
             regni caelorum. non enim dictum illi est: tu es petra, <lb/>
             sed: tu es Petrus. petra autem erat Christus, quem <lb/>
-            confessus Simon, sicut et tota ecclesia <choice><sic>conStetur</sic><corr>confitetur</corr></choice>, dictus est <lb/>
+            confessus Simon, sicut et tota ecclesia confitetur, dictus est <lb/>
             Petrus. harum duarum autem sententiarum quae sit probabilior,<lb n="15"/>
             eligat lector. 
 </p>
@@ -4749,7 +4747,7 @@
           </div>
 
 <div n="4" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (3)             </note> Item quod dixi <hi rend="italic">Donatum,</hi> cuius epistulam refellebam, <hi rend="italic">rogasse,  <lb/>
-            ut imperator inter ipsum et <choice><sic>Caeciliwnum</sic><corr>Caecilianum</corr></choice> transmarinos<lb n="5"/>
+            ut imperator inter ipsum et Caecilianum transmarinos<lb n="5"/>
              episcopos iudices daret,</hi> non ipsum, sed alium Donatum, eiusdem <lb/>
             tamen scismatis, hoc fecisse probabilius inuenitur. ille autem <lb/>
             non erat Carthaginiensis Donatistarum episcopus, sed a Casis <lb/>
@@ -4757,7 +4755,7 @@
             scisma conmisit.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>nec sane <hi rend="italic">Donatus Carthaginiensis, ut  <lb n="10"/>
-            Christiani <sic>rebapiizarentur</sic>, instituit</hi> — quod ego eum instituisse <lb/>
+            Christiani rebaptizarentur, instituit</hi> — quod ego eum instituisse <lb/>
             credideram, quando eius epistulae respondebam — <hi rend="italic">nec de libro<lb/>
              Sapientiae ipse abstulit de media sententia uerba ad rem necessaria, <lb/>
             </hi> ubi, cum scriptum sit: <hi rend="italic">qui baptizatur a mortuo et <lb/>
@@ -4843,13 +4841,13 @@
             quibus cet</hi>. </note> <lb/>
              
 <pb n="101"/>
-            respondi; aliquae <choice><sic>remansemnt</sic><corr>remanserunt</corr></choice>, quae rebus aliis magis urgentibus <lb/>
+            respondi; aliquae remanserunt, quae rebus aliis magis urgentibus <lb/>
             praetermissae sunt cumulo quoque obliuionis adiuncto. 
 </p>
           </div>
 
 <div n="2" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (2) </note> In hoc dixi: <hi rend="italic">certis enim quibusdam umbris ct figuris rerum  <lb/>
-            ante domini aduentum secundum mirabilem atque <sic n="poss">ordinatissimam</sic><lb/>
+            ante domini aduentum secundum mirabilem atque ordinatissimam<lb/>
             distributionem temporum populus ille tenebatur, qui <lb n="5"/>
             testamentum uetus accepit; tamen in eo tanta praedicatio et <lb/>
             praenuntiatio noui testamenti est, ut nulla in euangelio atque<lb/>
@@ -4857,7 +4855,7 @@
             et promissa, quae illis etiam libris ueteribus desint</hi>. sed <lb/>
             addendum erat \'paene\' atque dicendum: <hi rend="italic">ut</hi> paene <hi rend="italic">nulla in <lb n="10"/>
             euangelio atque apostolica doctrina reperiantur quamuis ardua<lb/>
-             et diuina praecepta et promissa, quae illis <choice><sic>eiiam</sic><corr>etiam</corr></choice> libris <choice><sic>ueteriblts</sic><corr>ueteribus</corr></choice> <lb/>
+             et diuina praecepta et promissa, quae illis etiam libris ueteribus <lb/>
             desint</hi>. quid est enim, quod in sermone euangelico in <lb/>
             monte dominus dicit: audistis, quia dictum est antiquis <lb/>
             hoc; ego autem dico uobis hoc, si nil ipse amplius praecepit, <lb n="15"/>
@@ -4889,9 +4887,9 @@
              
 <pb n="102"/>
              Sina, quod proprie uetus dicitur testamentum, quod praefiguratum <lb/>
-            dicit apostolus per ancillam <sic>Sanae</sic> et filium eius; <lb/>
+            dicit apostolus per ancillam Sarrae et filium eius; <lb/>
             sed et ibi figuratum est et nouum per ipsam Sarram et filium <lb/>
-            eius. proinde si figurae discutiantur, omnia ibi <sic>propbetata</sic> <lb/>
+            eius. proinde si figurae discutiantur, omnia ibi prophetata <lb/>
             reperiuntur, quae sunt praesentata uel expectantur praesentanda<lb n="5"/>
             per Christum. uerum tamen propter quaedam praecepta non <lb/>
             figurata, sed propria, quae non in uetere, sed in nouo inueniuntur, <lb/>
@@ -4940,7 +4938,7 @@
             nos sumus, cuius imitamur fidem.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>quod autem dixi: <hi rend="italic">cum   <lb/>
-            induerit <choice><sic>mcorruptionem</sic><corr>incorruptionem</corr></choice> et inmortalitatem, <choice n="0.33"><sic n="5760">tam</sic><corr n="11641">iam</corr></choice> non <lb n="5"/>
+            induerit incorruptionem et inmortalitatem, iam non <lb n="5"/>
             caro et sanguis erit,</hi> secundum corruptionem carnalem dictum <lb/>
             est carnem non futuram, non secundum substantiam, secundum <lb/>
             quam et domini corpus post resurrectionem caro appellata <lb/>
@@ -4950,8 +4948,8 @@
           </div>
 
 <div n="5" subtype="section" type="textpart"><p><note type="chapter"> (4) </note> Alio loco: <hi rend="italic">nisi quisque,</hi> inquam, <hi rend="italic">uoluntatem mutaucrit, bonum  <lb/>
-            operari non potest. quod in nostra potestate esse <choice><sic>posifum</sic><corr>positum</corr></choice> alio <lb/>
-            loco docet, <sic>uli</sic> ait: aut facite arborem bonam et fructum <lb/>
+            operari non potest. quod in nostra potestate esse positum alio <lb/>
+            loco docet, uli ait: aut facite arborem bonam et fructum <lb/>
             eius bonum, aut facite arborem malam et fructum <lb/>
             eius malum</hi>. quod non est contra gratiam dei, quam praedicamus. <lb n="15"/>
             in potestate est quippe hominis mutare in melius <lb/>
@@ -4997,7 +4995,7 @@
           </div>
 
 <div n="7" subtype="section" type="textpart"><p> Hic liber sic incipit: <hi rend="italic">De eo, quod scriptum: in principio<lb n="10"/>
-            deus fecit caelum et <choice><sic>tcrram</sic><corr>terram</corr></choice></hi>. 
+            deus fecit caelum et terram</hi>. 
 </p>
           
 </div>
@@ -5136,8 +5134,8 @@
             commemoratur quamuis longe postea prolatum propheticum <lb n="10"/>
             testimonium: Iacob dilexi, Esau autem odio habui, ad <lb/>
             hoc perduxi ratiocinationem, ut dicerem: <hi rend="italic">non ergo elegit deus <lb/>
-            opera cuiusquam in praescientia, quae ipse daturus <choice><sic>cst</sic><corr>est</corr></choice>, sed <lb/>
-            fidem elegit in <choice><sic>prarscientia</sic><corr>praescientia</corr></choice>, ut, quem sibi crediturum praesciuit,</hi>
+            opera cuiusquam in praescientia, quae ipse daturus est, sed <lb/>
+            fidem elegit in praescientia, ut, quem sibi crediturum praesciuit,</hi>
 
 <note type="footnote"> 1 I Cor. 15, 54 3 Rom. 6, 14 6 Retract. I, 22, 2 (p. 105, 15) <lb/>
             7 <hi rend="italic">Item quod-110,</hi> 18 <hi rend="italic">tractaueriin]</hi> Aug. de praedest. sanctt. 3, 7 sq. <lb/>
@@ -5167,7 +5165,7 @@
              
 <pb n="108"/>
             <hi rend="italic">ipsum elegerit, cui spiritum sanctum daret, ut bona operando <lb/>
-            etiam <choice><sic>cuternam</sic><corr>aeternam</corr></choice> uitam <choice><sic>consequereiur</sic><corr>consequeretur</corr></choice>,</hi> nondum diligentius quaesiueram <lb/>
+            etiam aeternam uitam consequeretur,</hi> nondum diligentius quaesiueram <lb/>
             nec adhuc inueneram, qualis sit electio gratiae, de qua <lb/>
             idem dicit apostolus: reliquiae per electionem gratiae <lb/>
             factae sunt; quae utique non est gratia, si eam merita ulla<lb n="5"/>
@@ -5181,7 +5179,7 @@
             deus, qui operatur omnia in omnibus; nusquam autem<lb/>
              dictum est: deus credit omnia in omnibus,</hi> ac deinde subiunxi:<lb n="10"/>
             <hi rend="italic">quod ergo credimus, nostrum est, quod autem bene operamur, <lb/>
-            illius <choice><sic>cst</sic><corr>est</corr></choice>, qui credentibus dat spiritum,</hi> profecto dicere non <lb/>
+            illius est, qui credentibus dat spiritum,</hi> profecto dicere non <lb/>
             deberem, si iam scirem etiam ipsam fidem inter dei munera <lb/>
             reperiri, quae dantur in eodem spiritu. utrumque ergo <lb/>
             nostrum est propter arbitrium uoluntatis et utrumque tamen<lb n="15"/>
@@ -5218,7 +5216,7 @@
           </div>
 
 <div n="5" subtype="section" type="textpart"><p rend="script"><note type="chapter"> (3) </note> Et quod paulo post dixi: <hi rend="italic">nostrum est enim credere et uelle,  <lb/>
-            illius autem dare <choice><sic>crcdentibus</sic><corr>credentibus</corr></choice> et uolentibus <choice><sic>facultatcm</sic><corr>facultatem</corr></choice> bene<lb/>
+            illius autem dare credentibus et uolentibus facultatem bene<lb/>
             operandi per spiritum sanctum, per quem caritas diffunditur <lb n="5"/>
             in cordibus nostris,</hi> uerum est quidem, sed ea regula <lb/>
             et utrumque ipsius est, quia ipse praeparat uoluntatem, et <lb/>
@@ -5226,19 +5224,19 @@
 
 <div n="6" subtype="section" type="textpart"><p>ac per  <lb/>
             hoc, quod etiam postea dixi: <hi rend="italic">quia neque uelle possumus, nisi <lb/>
-            <sic>nocemur</sic>, et cum post uocationem uoluerimus, non sufficit uoluntas <lb n="10"/>
+            uocemur, et cum post uocationem uoluerimus, non sufficit uoluntas <lb n="10"/>
             nostra et cursus noster, nisi deus et uires currentibus praebeat <lb/>
-            et <choice><sic>pcrducat</sic><corr>perducat</corr></choice>, quo <choice><sic>lfocat</sic><corr>uocat</corr></choice>,</hi> ac deinde subiunxi: <hi rend="italic">manifestum est <lb/>
+            et perducat, quo uocat,</hi> ac deinde subiunxi: <hi rend="italic">manifestum est <lb/>
             ergo non uolentis neque currentis, sed miserentis dei <lb/>
-            esse, quod <choice><sic>bcne</sic><corr>bene</corr></choice> operamur,</hi> omnino uerissimum est. sed parum <lb/>
+            esse, quod bene operamur,</hi> omnino uerissimum est. sed parum <lb/>
             de ipsa uocatione disserui, quae fit secundum propositum <lb n="15"/>
             dei; non enim omnium, qui uocantur, talis est, sed tantum <lb/>
             electorum.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>itaque quod paulo post dixi: <hi rend="italic">sicut enim in his,  <lb/>
             quos elegit deus, [non opera, sed] fides incoat meritum, ut <lb/>
-            <sic>pcr</sic> <sic>muum</sic> dei bene operentur, sic in his, quos damnat, <choice><sic>infideditas</sic><corr>infidelitas</corr></choice> <lb/>
-            et inpietas incoat poenae meritum, ut per <sic>ipsampoenam</sic></hi>
+            per munus dei bene operentur, sic in his, quos damnat, infidelitas <lb/>
+            et inpietas incoat poenae meritum, ut per ipsam poenam</hi>
 
 <note type="footnote"> 1 Eph. 6, 23 3 Eipos. ep. ad Kom. 61 5 Rom. 5, 5 7 Prou. <lb/>
             8, 35 sec. LXX 9 Expos. ep. ad Rom. 62 13 Rom. 9, 16 15 Rom. <lb/>
@@ -5324,18 +5322,18 @@
           </div>
 
 <div n="2" subtype="section" type="textpart"><p>In quo illud, quod dictum est: <hi rend="italic">priores ergo apostoli ueraces,  <lb/>
-            qui non ab hominibus, sed a deo per hominem missi sunt, <sic>pcr</sic><lb/>
+            qui non ab hominibus, sed a deo per hominem missi sunt, per<lb/>
              Iesum Christum scilicet adhuc mortalem; uerax etiam nouissimus <lb/>
             apostolus,. qui per Iesum Christum totum iam deum post<lb n="10"/>
              resurrectionem eius missus est,</hi> propter inmortalitatem dictum <lb/>
-            est: <hi rend="italic"><choice n="0.00"><sic n="5">fotum</sic><corr n="1339">totum</corr></choice> iam deum,</hi> quam post resurrectionem habere coepit, <lb/>
+            est: <hi rend="italic">totum iam deum,</hi> quam post resurrectionem habere coepit, <lb/>
             non propter diuinitatem semper inmortalem, a qua numquam <lb/>
             recessit, in qua totus deus erat, et cum moriturus adhuc <lb/>
-            erat. hunc autem sensum sequentia manifestant. <choice n="0.73"><sic n="19">adiungi</sic><corr n="7">adiunxi</corr></choice> enim <lb n="15"/>
+            erat. hunc autem sensum sequentia manifestant. adiunxi enim <lb n="15"/>
             dicens: <hi rend="italic">priores sunt ceteri apostoli per Christum adhuc ex <lb/>
             parte hominem, id est mortalem; nouissimus est apostolus Paulus<lb/>
              per Iesum Christum iam totum deum, id est omni ex parte <lb/>
-            <choice><sic>innuwtalem</sic><corr>inmortalem</corr></choice></hi>. hoc enim dixi, quod ait apostolus: non ab <lb/>
+            inmortalem</hi>. hoc enim dixi, quod ait apostolus: non ab <lb/>
             hominibus neque per hominem, sed per legum
 
 <note type="footnote"> 7 Expos. ep. ad Gal. 2 19 Gal. 1, 1 </note>
@@ -5359,18 +5357,18 @@
              
 <pb n="112"/>
             Christum et deum patrem, quasi iam Iesus Christus non sit <lb/>
-            <sic>homoasequitur</sic> enim: qui suscitauit illum a mortuis, ut <lb/>
+            homo. sequitur enim: qui suscitauit illum a mortuis, ut <lb/>
             hinc appareret, cur dixerit: neque per hominem. proinde <lb/>
             propter inmortalitatem iam nunc non homo Christus deus, <lb/>
             propter substantiam uero humanae naturae, in qua ascendit<lb n="5"/>
-            in caelum, etiam nunc mediator <choice><sic>del</sic><corr>dei</corr></choice> et hominum homo <lb/>
+            in caelum, etiam nunc mediator dei et hominum homo <lb/>
             Christus Iesus, quoniam sic ueniet, quomodo eum uiderunt, <lb/>
             qui uiderunt euntem in caelum. 
 </p>
           </div>
 
 <div n="3" subtype="section" type="textpart"><p rend="script"> Item quod dixi: <hi rend="italic">gratia dei est, qua nobis donantur peccata,</hi> <note type="chapter"> (2)</note>  <lb/>
-            <hi rend="italic">ut <sic>rcconciliemur</sic> deo; pax autem, qua reconciliamur deo,</hi> sic accipiendum est, ut tamen sciamus etiam utrumque ad generalem <lb n="10"/>
+            <hi rend="italic">ut reconciliemur deo; pax autem, qua reconciliamur deo,</hi> sic accipiendum est, ut tamen sciamus etiam utrumque ad generalem <lb n="10"/>
             dei gratiam pertinere, quomodo in populo dei aliud specialiter <lb/>
             Israhel, aliud ludas, et tamen utrumque generaliter Israhel. 
 </p>
@@ -5406,12 +5404,12 @@
             gratia proposita est.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>quod autem dixi: <hi rend="italic">ordinatissime itaque  <lb/>
-            <choice><sic>subitingit</sic><corr>subiungit</corr></choice>: quod si spiritu ducimini, non adhuc estis<lb/>
+            subiungit: quod si spiritu ducimini, non adhuc estis<lb/>
              sub lege, ut intellegamus eos esse sub lege, quorum spiritus <lb/>
             ita concupiscit aduersus carnem, ut non ea, quae uolunt, faciant,<lb/>
              id est, non se teneant inuictos in caritate iustitiae, sed a concupiscente<lb n="5"/>
              aduersus se carne uincantur,</hi> hoc ex illo sensu est, <lb/>
-            quo sentiebam id, quod dictum est: caro <choice><sic>concupiacit</sic><corr>concupiscit</corr></choice> aduersus <lb/>
+            quo sentiebam id, quod dictum est: caro concupiscit aduersus <lb/>
             spiritum, spiritus aduersus carnem; haec <lb/>
             enim inuicem aduersantur, ut non ea, quae uultis, <lb/>
             faciatis, ad eos pertinere, qui sub lege sunt, nondum sub <lb n="10"/>
@@ -5530,7 +5528,7 @@
             opus, qui tamen unus deputatur liber, cuius est titulus: de <lb/>
             diuersis quaestionibus octoginta tribus. cum autem dispersae <lb n="15"/>
             fuissent per cartulas multas, quoniam ab ipso primo tempore <lb/>
-            <choice><sic>conuersiouis</sic><corr>conuersionis</corr></choice> meae, posteaquam in <choice n="0.66"><sic n="210">Africam</sic><corr n="106">Africani</corr></choice> uenimus, sicut
+            conuersionis meae, posteaquam in Africam uenimus, sicut
 
 <note type="footnote"> 1 Ep. ad Rom. inc. expos. 23 6 Matth. 22, 40. Rom. 3, 21 <lb/>
             7 Rom. 6, 14 sq. I Cor. 9, 21. Gal. 4, 5 </note>
@@ -5647,7 +5645,7 @@ octaua:  <lb/>
             sed quia per me innotuit quibusdam fratribus, qui tunc casu <lb/>
             ista diligentissime consulebant, et placuit eis, inter nostra <lb/>
             eam scribere uoluerunt. est autem cuiusdam Fontei Carthaginiensis: <lb/>
-            de mente mundanda ad uidendum deum, <sic>quodpaganus</sic> <lb/>
+            de mente mundanda ad uidendum deum, quod paganus <lb/>
             quidem scripsit, sed Christianus baptizatus est mortuus. 
 
 </p>
@@ -5697,8 +5695,8 @@ tertia <lb n="5"/>
 </div>
 
 <div n="22" subtype="section" type="textpart"><p>            uicensima prima: <hi rend="italic">utrum deus mali auctor non sit</hi>. ubi uidendum  <lb/>
-            est, ne male intellegatur, quod <sic>dJxl</sic>: <hi rend="italic"><choice><sic>malt</sic><corr>mali</corr></choice> auctor non. est, quia <lb/>
-            <choice><sic>omuium</sic><corr>omnium</corr></choice>, quae sunt, auctor est, quia in quantum sunt, in tantum <lb/>
+            est, ne male intellegatur, quod dixi: <hi rend="italic">mali auctor non. est, quia <lb/>
+            omnium, quae sunt, auctor est, quia in quantum sunt, in tantum <lb/>
             bona sunt,</hi> et ne hinc putetur non ab illo esse poena malorum, <lb/>
             quae utique malum est his, qui puniuntur. sed hoc ita dixi, <lb n="15"/>
             quemadmodum dictum est: deus mortem non fecit, cum <lb/>
@@ -5778,7 +5776,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 </div>
 
 <div n="29" subtype="section" type="textpart"><p> uicensima octaua: <hi rend="italic">quare  <lb/>
-            deus mundum facere <choice><sic>uoluerU</sic><corr>noluerit</corr></choice>;</hi> 
+            deus mundum facere uoluerit;</hi> 
 
 
 </p>
@@ -5862,7 +5860,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 
 <div n="36" subtype="section" type="textpart"><p>tricensima  <lb n="5"/>
             quinta: <hi rend="italic">quid amandum sit</hi>. in qua illud, quod dixi: <hi rend="italic">id esse  <lb/>
-            amandum, quod nihil est aliud habere quam <choice><sic>nossr</sic><corr>nosse</corr></choice>,</hi> non satis <lb/>
+            amandum, quod nihil est aliud habere quam nosse,</hi> non satis <lb/>
             adprobo. neque enim deum non habebant, de quibus dictum <lb/>
             est: nescitis, quia templum dei estis et spiritus dei <lb/>
             habitat in uobis? nec tamen eum nouerant uel non, sicut <lb n="10"/>
@@ -5910,7 +5908,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 
 
             habuit, et ex hoc admonet, ut diligantur uxores? sed ideo <lb/>
-            dictum est: <hi rend="italic">proprie <choice><sic>dilcctio</sic><corr>dilectio</corr></choice> dicitur,</hi> quoniam caro diligitur <lb/>
+            dictum est: <hi rend="italic">proprie dicitur dicitur,</hi> quoniam caro diligitur <lb/>
             quidem, nec tamen proprie, sed propter animam, cui sufficit <lb/>
             ad usum. nam etsi propter se ipsam uidetur diligi, cum eam <lb/>
             nolumus esse deformem, ad aliud referendum est decus eius,  <lb n="5"/>
@@ -5937,7 +5935,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 </div>
 
 <div n="41" subtype="section" type="textpart"><p> quadragensima: <hi rend="italic">cum animarum  <lb/>
-            natura una sit, unde hominum <choice n="0.01"><sic n="1">diuersac</sic><corr n="60">diuersae</corr></choice> uoluntates;</hi> 
+            natura una sit, unde hominum diuersae uoluntates;</hi> 
 </p>
 
 </div>
@@ -5965,7 +5963,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <div n="45" subtype="section" type="textpart"><p> quadragensima quarta: <hi rend="italic">quare tanto <lb/>
             post uenerit dominus Iesus Christus</hi>. ubi, cum generis humani<lb n="15"/>
             tamquam unius hominis aetates commemorarem, dixi: <hi rend="italic">nec <lb/>
-            oportuit <choice n="0.11"><sic n="89">uenite</sic><corr n="700">uenire</corr></choice> <choice><sic>dimnitus</sic><corr>diuinitus</corr></choice> magistrum, cuius <choice><sic>imitationc</sic><corr>imitatione</corr></choice> in mores</hi> 
+            oportuit uenire diuinitus magistrum, cuius imitatione in mores</hi> 
 
 
 
@@ -6004,7 +6002,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             potest enim intellegi utrumque in uniuersitate hominum, quod <lb/>
             potest in aetatibus singulorum, sicut in corpore non potest <lb/>
             simul et iuuentus esse et senectus, in animo autem potest, <lb n="10"/>
-            <choice><sic>ula</sic><corr>illa</corr></choice> propter alacritatem, ista propter grauitatem. 
+            illa propter alacritatem, ista propter grauitatem. 
 </p>
 
 
@@ -6026,7 +6024,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 
 <div n="48" subtype="section" type="textpart"><p>quadragensima septima: <hi rend="italic">utrum aliquando cogitationes   <lb/>
             nostras uidere possumus</hi>. ubi quod dixi: <hi rend="italic">angelica corpora, <lb/>
-            qualia nos speramus habituros, <choice><sic>lucidissirna</sic><corr>lucidissima</corr></choice> atque aetheria esse<lb n="15"/>
+            qualia nos speramus habituros, lucidissima atque aetheria esse<lb n="15"/>
              credendum est,</hi> si hoc sine membris, quae nunc habemus, et <lb/>
             sine substantia quamuis incorruptibilis, tamen carnis accipiatur, <lb/>
             erratur. multo autem melius in opere de ciuitate dei quaestio
@@ -6083,7 +6081,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <div n="52" subtype="section" type="textpart"><p> quinquagensima prima <hi rend="italic">de homine <lb/>
             facto ad imaginem et similitudinem dei</hi>. ubi quid est,<lb n="5"/>
             quod dixi: <hi rend="italic">homo scilicet uita non recte appellatur,</hi> cum dicatur <lb/>
-            homo etiam <choice><sic>cadauev</sic><corr>cadauer</corr></choice> hominis? ergo saltem dicere debui: non <lb/>
+            homo etiam cadauer hominis? ergo saltem dicere debui: non <lb/>
             proprie dicitur, ubi dixi: <hi rend="italic">non recte dicitur</hi>. item dixi: <hi rend="italic">neque<lb/>
              inscite distinguitur, quod aliud sit imago et similitudo dei, <lb/>
             aliud ad imaginem et similitudinem dei, sicut ad imaginem<lb n="10"/>
@@ -6151,7 +6149,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 </div>
 
 <div n="56" subtype="section" type="textpart"><p>quinquagensima   <lb/>
-            quinta <hi rend="italic">de eo, quod scriptum est: sexaginta <sic>suntreginae</sic> <lb n="5"/>
+            quinta <hi rend="italic">de eo, quod scriptum est: sexaginta sunt reginae <lb n="5"/>
             et octoginta concubinae et adulescentulae, quarum <lb/>
             non est numerus;</hi> 
 
@@ -6160,7 +6158,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 </div>
 
 <div n="57" subtype="section" type="textpart"><p>quinquagensima sexta <hi rend="italic">de annis   <lb/>
-            quadraginta sex <choice><sic>acdificati</sic><corr>aedificati</corr></choice> templi;</hi> 
+            quadraginta sex aedificati templi;</hi> 
 
 
 </p>
@@ -6199,8 +6197,8 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <div n="62" subtype="section" type="textpart"><p>sexagensima prima <hi rend="italic">de eo, quod scriptum est in euangelio,   <lb/>
              turbas dominum in monte pauisse de panibus quinque</hi>. ubi <lb n="10"/>
             quod dixi: <hi rend="italic">duos pisces duas illas significare personas, regiam <lb/>
-            scilicet et <choice><sic>saccrdotalem</sic><corr>sacerdotalem</corr></choice>, ad quas etiam sacrosancta illa unctio <lb/>
-            pertinebat,</hi> <choice><sic>dieendum</sic><corr>dicendum</corr></choice> potius fuit: maxime <hi rend="italic">pertinebat,</hi> quoniam
+            scilicet et sacerdotalem, ad quas etiam sacrosancta illa unctio <lb/>
+            pertinebat,</hi> dicendum potius fuit: maxime <hi rend="italic">pertinebat,</hi> quoniam
 
 <note type="footnote">2 Ex. 3, 22. 12, 35 3 Ps. 72, 28 4 De diu. quaest. 54, med. <lb/>
             6 Cant. 6, 7 9 Io. 2, 20 10 Io. 21, 11 11 Matth. 25, 1 12 Matth. <lb/>
@@ -6226,10 +6224,10 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
              
 <pb n="124"/>
             unctos aliquando legimus et prophetas. item dixi: <hi rend="italic">Lucas, qui<lb/>
-             tamquam ascendentem post abolitionem peccatorum <choice><sic>saccrdotem</sic><corr>sacerdotem</corr></choice> <lb/>
-            Christum insinuauit, per <choice><sic>NatJmn</sic><corr>Nathan</corr></choice> ascendit ad Dauid, quia <lb/>
+             tamquam ascendentem post abolitionem peccatorum sacerdotem <lb/>
+            Christum insinuauit, per Nathan ascendit ad Dauid, quia <lb/>
             Nathan propheta missus erat, cuius correptione Dauid ipsius<lb/>
-             peccati <choice><sic>aholitionem</sic><corr>abolitionem</corr></choice> paenitendo inpetrauit</hi>. non sic accipiendum<lb n="5"/>
+             peccati abolitionem paenitendo inpetrauit</hi>. non sic accipiendum<lb n="5"/>
             est, tamquam ipse fuerit Nathan propheta, qui filius Dauid, <lb/>
             quia nec hic dictum est, quia ipse propheta missus erat, sed <lb/>
             dictum: <hi rend="italic">quia Nathan propheta missus erat,</hi> ut mysterium non  <lb/>
@@ -6240,7 +6238,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 </div>
 
 <div n="63" subtype="section" type="textpart"><p> sexagensima <lb/>
-            secunda est ad id, <hi rend="italic">quod scriptum est in <choice><sic>etiangelio</sic><corr>euangelio</corr></choice>, quod<lb n="10"/>
+            secunda est ad id, <hi rend="italic">quod scriptum est in euangelio, quod<lb n="10"/>
             baptizabat Iesus plures quam Iohannes, quamuis ipse<lb/>
              non baptizaret, sed discipuli eius</hi>. ubi quod dixi: <hi rend="italic">latro <lb/>
             ille, cui dictum est: amen dico tibi, hodie mecum eris in <lb/>
@@ -6388,7 +6386,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <pb n="127"/>
             quamquam in imagine ambulat homo, tamen uane <lb/>
             conturbatur. item quod dixi <hi rend="italic">spiritaliter summos angelos <lb/>
-            <choice><sic>niuere</sic><corr>uiuere</corr></choice>, infimos uero animaliter,</hi> <choice><sic>andacius</sic><corr>audacius</corr></choice> dictum est de infimis, <lb/>
+            uiuere, infimos uero animaliter,</hi> audacius dictum est de infimis, <lb/>
             quam ut possit uel scripturis sanctis uel ipsis rebus ostendi, <lb/>
             quia, etsi forsitan potest, difficillime potest. 
 </p>
@@ -6399,7 +6397,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             octaua est <hi rend="italic">de eo, quod scriptum est: o homo, tu quis es, <lb/>
             qui respondeas deo</hi>? ubi dixi: <hi rend="italic">quia etiamsi leuioribus <lb/>
             quisque peccatis aut certe quamuis grauioribus et multis, tamen <lb/>
-            multo gemitu, et dolore <choice><sic>pacnitendi</sic><corr>paenitendi</corr></choice> misericordia dei dignus fuerit, <lb/>
+            multo gemitu, et dolore paenitendi misericordia dei dignus fuerit, <lb/>
             non ipsius erit</hi> — <hi rend="italic">qui si relinqueretur, interiret</hi> — <hi rend="italic">sed miserentis <lb n="10"/>
             dei, qui eius precibus dolorique subuenit. parum est enim uelle,<lb/>
              nisi deus misereatur; sed deus non miseretur, qui ad pacem <lb/>
@@ -6408,7 +6406,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             praeueniens uoluntatem, quae si non esset, non praepararetur <lb n="15"/>
             uoluntas a domino. ad eam misericordiam pertinet et ipsa <lb/>
             uocatio, quae etiam fidem praeuenit. de qua paulo post cum <lb/>
-            agerem, dixi: <hi rend="italic">haec autem uocatio, quae <choice><sic>siuc</sic><corr>siue</corr></choice> in singulis homi-</hi>
+            agerem, dixi: <hi rend="italic">haec autem uocatio, quae siue in singulis homi-</hi>
 
 <note type="footnote"> 1 Ps. 38, 7 2 De diu. quaest. 67, 5 6 Rom. 9, 20 7 De <lb/>
             diu. quaest. 68, 5 15 Prou. 8, 35 sec. LXX 17 Retract. I, 22, 4 sq. <lb/>
@@ -6454,7 +6452,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 
 <div n="71" subtype="section" type="textpart"><p> septuagensima <hi rend="italic">de eo, quod apostolus dicit: absorta est<lb n="10"/>
             mors in uictoriam. ubi est, mors, contentio tua? <lb/>
-            ubi est, mors, aculeus tuus? <choice><sic>acuJeus</sic><corr>aculeus</corr></choice> autem mortis  <lb/>
+            ubi est, mors, aculeus tuus? aculeus autem mortis  <lb/>
             peccatum, uirtus uero peccati lex;</hi> 
 
 
@@ -6462,7 +6460,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 </div>
 
 <div n="72" subtype="section" type="textpart"><p> septuagensima prima <lb/>
-            <hi rend="italic">de eo, quod scriptum <choice><sic>cst</sic><corr>est</corr></choice>: inuicem onera uestra portate, <lb/>
+            <hi rend="italic">de eo, quod scriptum est: inuicem onera uestra portate, <lb/>
             et sic inplebitis legem Christi;</hi> 
 
 
@@ -6512,7 +6510,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <pb n="129"/>
 
 
-            <hi rend="italic">in quo habemus redemptionem in <sic>remissionempeccatorum</sic>, <lb/>
+            <hi rend="italic">in quo habemus redemptionem in remissionem peccatorum, <lb/>
             qui est imago dei inuisibilis;</hi> 
 </p>
 
@@ -6525,7 +6523,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 </div>
 
 <div n="77" subtype="section" type="textpart"><p>septuagensima sexta <hi rend="italic">de eo, quod  <lb/>
-            Iacobus apostolus dicit: uis autem <choice n="0.06"><sic n="69">scires</sic><corr n="988">scire</corr></choice> o homo inanis, <lb/>
+            Iacobus apostolus dicit: uis autem scire o homo inanis, <lb/>
             quia fides sine operibus otiosa est</hi>? 
 </p>
 
@@ -6562,7 +6560,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 </div>
 
 <div n="83" subtype="section" type="textpart"><p>octogensima secunda <hi rend="italic">de eo,   <lb/>
-            quod <choice><sic>scnptum</sic><corr>scriptum</corr></choice> est: quem enim <choice><sic>dihgit</sic><corr>diligit</corr></choice> dominus, corripit, <lb n="10"/>
+            quod scriptum est: quem enim diligit dominus, corripit, <lb n="10"/>
             flagellat autem omnem filium, quem recipit;</hi> 
 </p>
 
@@ -6679,7 +6677,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
           <ab> 
 <title type="sub">CAPVT XXVII. AD SIMPLICIANVM LIBRI DVO. </title> </ab>
           <div n="1" subtype="section" type="textpart"><p>Librorum, quos episcopus elaboraui, primi duo sunt ad  <lb/>
-            <sic>Simplicianum</sic>, ecclesiae Mediolanensis antestitem, qui beatissimo <lb n="5"/>
+            Simplicianum, ecclesiae Mediolanensis antestitem, qui beatissimo <lb n="5"/>
             successit Ambrosio, de diuersis quaestionibus, quarum duas <lb/>
             ex epistula Pauli apostoli ad Romanos in primum librum <lb/>
             contuli. 
@@ -6776,11 +6774,11 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             uoluntas a domino.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>secunda quaestio est: <hi rend="italic">quomodo  <lb/>
-            dictum sit: paenitet <sic>mr</sic>, quod constituerim regem <lb n="10"/>
+            dictum sit: paenitet me, quod constituerim regem <lb n="10"/>
             Saul;</hi> tertia:</p></div>
 
 <div n="7" subtype="section" type="textpart"><p><hi rend="italic">utrum spiritus inmundus, qui erat in pythonissa,  <lb/>
-            potuerit agere, ut Samuhel a <sic>Smile</sic> uideretur et loqueretur <lb/>
+            potuerit agere, ut Samuhel a Saule uideretur et loqueretur <lb/>
             cum eo;</hi>
 </p>
 
@@ -6833,7 +6831,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <ab> <title type="sub">CAPVT  XXVIII. </title> </ab>
           <p> <milestone n="2" unit="altchapter"/>  
 </p>
-          <ab> <title type="sub">CONTRA EPISTVLAM <sic>MANICHEl</sic>, QVAM VOCANT FVNDAMENTI, LIBER VNVS. </title>
+          <ab> <title type="sub">CONTRA EPISTVLAM MANICHEI, QVAM VOCANT FVNDAMENTI, LIBER VNVS. </title>
           </ab>
           <div n="1" subtype="section" type="textpart"><p> Liber contra epistulam Manichei, quam uocant fundamenti, <lb/>
             principia eius sola redarguit, sed in ceteris illius partibus<lb n="5"/>
@@ -6886,7 +6884,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             16 resurreccionem <hi rend="italic">D</hi> futuram <hi rend="italic">om. B</hi> </note> <lb/>
              
 <pb n="135"/>
-            <hi rend="italic">ait Paulus apostolus: caro et sanguis regnum <sic>dci</sic> non <lb/>
+            <hi rend="italic">ait Paulus apostolus: caro et sanguis regnum dei non <lb/>
             possidebunt, non intellegentes, quod ipse dicit apostolus: <lb/>
             oportet corruptibile hoc induere incorruptionem<lb/>
              et mortale hoc induere inmortalitatem; cum enim <lb/>
@@ -6937,7 +6935,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <pb n="136"/>
             muliere, <hi rend="italic">quae fermentum abscondit in tribus mensuris <lb/>
             farinae, donec totum fermentaretur</hi>. addidi etiam <lb/>
-            <choice><sic>nouissimUm</sic><corr>nouissimum</corr></choice> librum et quattuor libris opus illud inpleui, <lb/>
+            nouissimum librum et quattuor libris opus illud inpleui, <lb/>
             quorum primi tres adiuuant, ut scripturae intellegantur, <lb/>
             quartus autem, quomodo quae intellegimus proferenda sint. <lb n="5"/>
             
@@ -7058,7 +7056,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <div n="2" subtype="section" type="textpart"><p> In quarto libro, cum de amici morte animi mei miseriam <note type="chapter"> (2) </note> <lb/>
             confiterer dicens, quod anima nostra una quodam modo facta <lb/>
             fuerat ex duabus: <hi rend="italic">et ideo,</hi> inquam, <hi rend="italic">forte mori metuebam, ne <lb/>
-            totus ille moreretur, quem multum <sic>amaueram</sic>;</hi> quae mihi quasi<lb n="10"/>
+            totus ille moreretur, quem multum amaueram;</hi> quae mihi quasi<lb n="10"/>
             declamatio lenis quam grauis confessio uidetur, quamuis <lb/>
             utcumque temperata sit haec ineptia in eo, quod additum  <lb/>
             est: <hi rend="italic">forte</hi>.</p></div>
@@ -7105,14 +7103,14 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             dicentem, scripsi grande opus uerbis eius propositis reddens <lb/>
             responsiones meas. triginta et tres disputationes sunt, quos <lb/>
             etiam libros cur non dixerim? nam etsi sunt in eis aliqui <lb/>
-            <choice><sic>brenes</sic><corr>breues</corr></choice>, tamen libri sunt. unus uero eorum, ubi a nobis <lb n="5"/>
+            breues, tamen libri sunt. unus uero eorum, ubi a nobis <lb n="5"/>
             aduersus eius criminationes patriarcharum uita defenditur, <lb/>
             tantae prolixitatis est, quantae nullus fere librorum meorum. 
 </p>
           </div>
 
 <div n="2" subtype="section" type="textpart"><p><note type="chapter"> (2) </note> In libro ergo tertio cum soluerem quaestionem, quomodo  <lb/>
-            potuerit duos patres habere <choice n="0.01"><sic n="2">Joseph</sic><corr n="196">Ioseph</corr></choice>, dixi quidem, <hi rend="italic">quod ex alio <lb/>
+            potuerit duos patres habere Ioseph, dixi quidem, <hi rend="italic">quod ex alio <lb/>
             natus, ab alio fuerit adoptatus,</hi> sed genus quoque adoptionis <lb n="10"/>
             dicere debui; sic enim sonat, quod dixi, tamquam eum uiuus <lb/>
             adoptauerit alius pater. lex autem filios etiam mortuis adoptabat <lb/>
@@ -7151,7 +7149,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             adoptiuum. hoc in eorum litteris inuentum est, qui recenti <lb/>
             memoria post ascensionem domini de hac re scripserunt. nam <lb/>
             etiam nomen eiusdem mulieris, quae peperit Iacob, patrem<lb n="5"/>
-            Ioseph, de priore marito Mathan, qui fuit pater Iacob, <choice n="0.59"><sic n="179">anus</sic><corr n="122">auus</corr></choice> <lb/>
+            Ioseph, de priore marito Mathan, qui fuit pater Iacob, auus <lb/>
             Ioseph, secundum Matheum, et de marito posteriore Melchi <lb/>
             peperit Heli, cuius erat adoptiuus Ioseph, non tacuit Africanus. <lb/>
             quod quidem, cum Fausto responderem, nondum legeram, <lb/>
@@ -7192,7 +7190,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             <hi rend="italic">D,</hi> loquutionia <hi rend="italic">EH,</hi> locutiones 01 </note> <lb/>
              
 <pb n="141"/>
-            metafora, sicut de mari scriptum est, quod <choice><sic>frematin</sic><corr>fremat</corr></choice> utero <lb/>
+            metafora, sicut de mari scriptum est, quod fremat in utero <lb/>
             matris suae uolens progredi, cum utique non habeat <lb/>
             uoluntatem.</p></div>
 
@@ -7249,7 +7247,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <pb n="142"/>
             uersutior Fortunato. gesta sunt ecclesiastica, sed inter meos libros <lb/>
             conputantur. duo ergo libri sunt, in quorum secundo disputatum <lb/>
-            est de libero arbitrio uoluntatis siue ad male operandum <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> <lb/>
+            est de libero arbitrio uoluntatis siue ad male operandum siue <lb/>
             ad bonum. sed de gratia, qua uere liberi fiunt, de quibus <lb/>
             scriptum est: si uos filius liberauerit, tunc uere<lb n="5"/>
             liberi eritis, diligentius disputare, quoniam talis erat, cum <lb/>
@@ -7314,9 +7312,9 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <div n="36" subtype="chapter" type="textpart">
 <ab> <title type="sub">CAPVT  XXXVI. CONTRA SECVNDINVM MANICHEVM LIBER VNVS. </title> </ab>
           <div n="1" subtype="section" type="textpart"><p>Secundinus quidam, non ex eis, quos Manichei electos, sed  <lb n="5"/>
-            ex eis, quos <choice><sic>autores</sic><corr>auditores</corr></choice> uocant, quem ne facie quidem noueram, <lb/>
+            ex eis, quos auditores uocant, quem ne facie quidem noueram, <lb/>
             scripsit ad me uelut amicus honorifice obiurgans, quod oppugnarem <lb/>
-            litteris illam <sic>hereseIb</sic>, et admonens, ne facerem, <lb/>
+            litteris illam heresem, et admonens, ne facerem, <lb/>
             atque ad eam sectandam potius exhortans cum eius defensione <lb/>
             et fidei reprehensione catholicae. huic respondi; sed <lb n="10"/>
             quia in eiusdem opusculi capite non posui, quis cui scriberet, <lb/>
@@ -7412,7 +7410,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             euangelistarum libris <hi rend="italic">B,</hi> euangelicia libris <hi rend="italic">cet. v</hi> expositae <hi rend="italic">CD1</hi> fuerunt <hi rend="italic">S</hi> </note> <lb/>
              
 <pb n="145"/>
-            meis continentur, et quae ista sint, prologus <choice n="0.29"><sic n="668">mens</sic><corr n="1571">meus</corr></choice> adiunctis <lb/>
+            meis continentur, et quae ista sint, prologus meus adiunctis <lb/>
             atque adnumeratis eisdem quaestionibus ita, ut quisque legere <lb/>
             quod uoluerit numeros secutus inueniat, satis indicat. 
 </p>
@@ -7576,7 +7574,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <note type="footnote"> 10* </note> <lb n="15"/>
              
 <pb n="148"/>
-            <sic>conpleui</sic> et edidi adiungens eis a capite epistulam, quam scripsi <lb/>
+            conpleui et edidi adiungens eis a capite epistulam, quam scripsi <lb/>
             ad uenerabilem Aurelium, episcopum Carthaginiensis ecclesiae, <lb/>
             quo tamquam prologo exposui et quid accidisset et quid <lb/>
             facere mea cogitatione uoluissem et quid fratrum conpellente <lb/>
@@ -7623,7 +7621,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
              
 <pb n="149"/>
             crura, quibus locustae saliunt, quas dicit mundas, et ideo <lb/>
-            discernit ab inmundis talibus <choice><sic>uolatilibua</sic><corr>uolatilibus</corr></choice>, quae non saliunt <lb/>
+            discernit ab inmundis talibus uolatilibus, quae non saliunt <lb/>
             illis cruribus, sicut sunt scarabei. omnia quippe huius modi <lb/>
             uolatilia quadrupedia uocantur in lege. 
 </p>
@@ -7843,7 +7841,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             tota dicat: dimitte nobis debita nostra.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>in quarto libro,  <lb/>
-            cum dicerem <hi rend="italic"><choice><sic>Uicem</sic><corr>uicem</corr></choice> baptismi posse habere passionem,</hi> non satis <lb/>
+            cum dicerem <hi rend="italic">uicem baptismi posse habere passionem,</hi> non satis <lb/>
             idoneum posui illius latronis exemplum, quia utrum non fuerit <lb/>
             baptizatus incertum est.</p></div>
 
@@ -7942,7 +7940,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <pb n="155"/>
             seruat ecclesia, nec tamen commemorari omnia potuerunt, <lb/>
             sed satis ad inquisita responsum est. quorum librorum prior <lb/>
-            epistula est — habet quippe in capite, quis ad quem <sic>scribatsed</sic> <lb/>
+            epistula est — habet quippe in capite, quis ad quem scribat - sed <lb/>
             ideo inter libros adnumeratur hoc opus, quoniam sequens, <lb/>
             qui nomina nostra non habet, multo est prolixior et in eo <lb n="5"/>
             multo plura tractantur. 
@@ -7994,7 +7992,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             obtemp. <hi rend="italic">cet</hi>. 20 apostulo <hi rend="italic">V</hi> relegiosorum <hi rend="italic">GID,</hi> religiosiorum <hi rend="italic">G</hi> </note> <lb n="20"/>
              
 <pb n="156"/>
-            <sic>volebant</sic>, ut nihil operantes, unde necessaria uel haberent uel <lb/>
+            uolebant, ut nihil operantes, unde necessaria uel haberent uel <lb/>
             supplerent, se potius implere praeceptum apostolicum existimarent <lb/>
             atque iactarent, ubi dominus ait: respicite uolatilia <lb/>
             caeli et lilia agri. unde etiam iam inter laicos inferioris <lb/>
@@ -8056,7 +8054,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             commemoratione patrum coniugatorum et conparatione frangebat. <lb/>
             huic monstro sancta ecclesia, quae ibi est, fidelissime <lb/>
             ac fortissime restitit. remanserant autem istae disputationes <lb n="10"/>
-            eius in quorundam sermunculis ac <choice><sic>susunis</sic><corr>susurris</corr></choice>, quas palam <lb/>
+            eius in quorundam sermunculis ac susurris, quas palam <lb/>
             suadere nullus audebat. sed etiam occulte uenenis repentibus <lb/>
             facultate, quam donabat dominus, occurrendum fuit, maxime <lb/>
             quoniam iactabatur Iouiniano responderi non potuisse <lb/>
@@ -8357,7 +8355,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
           </div>
 
 <div n="2" subtype="section" type="textpart"><p>Hoc opus sic incipit: <hi rend="italic">Quando ad te, Cresconi, mea scripta  <lb/>
-            peruenire possent, <choice><sic>tgnorans</sic><corr>ignorans</corr></choice></hi>. 
+            peruenire possent, ignorans</hi>. 
 </p>
           <p> <milestone n="27" unit="altchapter"/>  
 </p>
@@ -8475,7 +8473,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <div n="3" subtype="section" type="textpart"><p>illud  <lb n="10"/>
             etiam, quod dixi: <hi rend="italic">ad multitudinem zizaniorum, ubi intelleguntur <lb/>
             omnes hereses,</hi> minus habet unam necessariam coniunctionem; <lb/>
-            dicendum enim fuit: <hi rend="italic">ubi intelleguntur</hi> et <hi rend="italic"><sic>omms</sic> <lb/>
+            dicendum enim fuit: <hi rend="italic">ubi intelleguntur</hi> et <hi rend="italic">omnes <lb/>
             hereses</hi> [aut: <hi rend="italic">ubi intelleguntur</hi> etiam <hi rend="italic">omnes hereses]</hi>. nunc <lb/>
             uero ita dictum est, quasi praeter ecclesiam tantummodo sint <lb n="15"/>
             zizania, non etiam in ecclesia, cum ipsa sit regnum Christi, <lb/>
@@ -8570,7 +8568,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <div n="56" subtype="chapter" type="textpart">
 <ab> <title type="sub">CAPVT  LVI. DE DIVINATIONE DAEMONVM LIBER VNVS. </title> </ab>
           <div n="1" subtype="section" type="textpart"><p>Per idem tempus accidit mihi in quadam disputatione  <lb n="5"/>
-            necessitas, ut de <choice><sic>diumatione</sic><corr>diuinatione</corr></choice> daemonum libellum scriberem, <lb/>
+            necessitas, ut de diuinatione daemonum libellum scriberem, <lb/>
             cuius titulus iste ipse est. 
 </p>
           </div>
@@ -8629,7 +8627,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             quaestionum disputationes in unum librum contuli non prolixum, <lb/>
             cuius est titulus: sex quaestiones contra paganos expositae. <lb n="10"/>
             earum autem prima est <hi rend="italic">de resurrectione,</hi> secunda <hi rend="italic">de tempore<lb/>
-             Christianae religionis,</hi> tertia <hi rend="italic">de <choice><sic>sacrijiciorum</sic><corr>sacrificiorum</corr></choice> distinctione,</hi> <lb/>
+             Christianae religionis,</hi> tertia <hi rend="italic">de sacrificiorum distinctione,</hi> <lb/>
             quarta <hi rend="italic">de eo, quod scriptum est: in qua mensura mensi <lb/>
             fueritis, remetietur uobis,</hi> quinta <hi rend="italic">de filio dei secundum<lb/>
              Salomonem,</hi> sexta <hi rend="italic">de Iona propheta</hi>.<lb n="15"/>
@@ -8738,7 +8736,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             sed sermonibus et conlocutionibus agebamus, ut quisque <lb/>
             nostrum poterat aut debebat. missis ergo mihi a Carthagine <lb/>
             quaestionibus eorum, quas rescribendo dissoluerem, scripsi <lb/>
-            primum tres libros, quorum titulus est: de peccatorum <choice n="0.70"><sic n="657">mentis</sic><corr n="272">meritis</corr></choice> <lb/>
+            primum tres libros, quorum titulus est: de peccatorum meritis <lb/>
             et remissione.
 
 <note type="footnote"> 4 Iac. 1, 1 11 Aug. Serm. 26. 27. 30. 131. 153. 155. 156. 158. <lb/>
@@ -8782,7 +8780,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             laude posui, quia uita eius a multis praedicabatur, et eius <lb/>
             illa redargui, quae in suis scriptis non ex persona sua posuit, <lb/>
             sed quid ab aliis diceretur exposuit, quae tamen postea iam <lb/>
-            hereticus pertinacissima <choice><sic>apimositate</sic><corr>animositate</corr></choice> defendit. Caelestius uero <lb/>
+            hereticus pertinacissima animositate defendit. Caelestius uero <lb/>
             discipulus eius iam propter tales assertiones apud Carthaginem <lb n="15"/>
             in episcopali iudicio, ubi ego non interfui, excommunicationem <lb/>
             meruerat.
@@ -8917,7 +8915,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
              
 <pb n="174"/>
             quo apparet, quemadmodum eorum aduersus ecclesiam catholicam <lb/>
-            inpium ac superbissimum errorem sola funditus <sic>Magimianistarum</sic> <lb/>
+            inpium ac superbissimum errorem sola funditus Maximianistarum <lb/>
             causa subuertat, quod scisma factum est ex <lb/>
             ipsa parte Donati. 
 </p>
@@ -8944,7 +8942,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             et <hi rend="italic">quid sit, quod ait apostolus: ut in caritate radicati<lb n="15"/>
             et fundati praeualeatis conprehendere cum omnibus<lb/>
              sanctis, quae sit latitudo et longitudo et altitudo <lb/>
-            et prof undum;</hi> et <hi rend="italic">quae sint quinque uirgines <choice><sic>stidtae</sic><corr>stultae</corr></choice></hi>
+            et prof undum;</hi> et <hi rend="italic">quae sint quinque uirgines stultae</hi>
 
 <note type="footnote"> 2 Aug. de haeres. 69. ep. 76, 3 sq. 14 Ps. 21, 1. cf. Matth. <lb/>
             27, 46 15 Eph. 3, 17 sq. 18 Matth. 25, 1 sqq. </note>
@@ -8968,7 +8966,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <pb n="175"/>
             <hi rend="italic">quaeue sapientes;</hi> et <hi rend="italic">quae sint tenebrae exteriores;</hi> et <hi rend="italic">quomodo <lb/>
             intellegendum sit: uerbum caro factum est</hi>. ego autem <lb/>
-            intuens supra dictam <sic>heresem</sic>, nouam inimicam gratiae dei, <lb/>
+            intuens supra dictam heresem, nouam inimicam gratiae dei, <lb/>
             sextam mihi proposui quaestionem <hi rend="italic">de gratia testamenti noui,</hi> <lb/>
             de qua disputans interposita expositione Psalmi uicensimi <lb n="5"/>
             primi, in cuius capite scriptum est, quod dominus exclamauit <lb/>
@@ -9192,7 +9190,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <div n="67" subtype="chapter" type="textpart">
 <ab> <title type="sub">CAPVT  LXVII. DE VIDENDO DEO LIBER VNVS. </title> </ab>
           <div n="1" subtype="section" type="textpart"><p>De uidendo deo librum scripsi, ubi de spiritali corpore,  <lb/>
-            quod erit in resurrectione sanctorum, <choice><sic>inqulsitionem</sic><corr>inquisitionem</corr></choice> diligentiorem <lb/>
+            quod erit in resurrectione sanctorum, inquisitionem diligentiorem <lb/>
             distuli, utrum uel quomodo deus, qui spiritus <lb/>
             est, per corpus tale uideatur; sed eam postea quaestionem <lb n="10"/>
             sane difficillimam in nouissimo, id est in uicensimo et secundo <lb/>
@@ -9268,7 +9266,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
           <ab> <title type="sub">DE CIVIT A TE DEI LIBRI VIGINTI DVO. </title>
           </ab>
           <div n="1" subtype="section" type="textpart"><p rend="script"> Interea Roma Gotthorum inruptione agentium sub rege<lb n="15"/>
-            <sic>Allaricbo</sic> atque impetu magnae cladis euersa est. cuius euer-.
+            Allaricho atque impetu magnae cladis euersa est. cuius euer-.
 
 <note type="footnote"> 4 Rom. 4, 5 9 De nat. et gr. 64, 77 Hieron. ep. 133, 3. <lb/>
             (ad Ctesiph.) in Hierem. c. 22. in Ezech. c. 18 </note>
@@ -9406,7 +9404,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <ab> <title type="sub">CAPVT  LXX. AD OROSIVM PRESBVTERVM CONTRA PRISCILIANI- STAS LIBER VNVS. </title> </ab>
           <div n="1" subtype="section" type="textpart"><p>Inter haec Orosi cuiusdam Hispani presbyteri consultationi  <lb n="10"/>
             de Priscilianistis et de quibusdam Origenis sensibus, quos <lb/>
-            <choice><sic>catbolica</sic><corr>catholica</corr></choice> fides inprobat, quanta potui breuitate ac perspicuitate <lb/>
+            catholica fides inprobat, quanta potui breuitate ac perspicuitate <lb/>
             respondi. cuius opusculi titulus est: ad Orosium contra <lb/>
             Priscilianistas et Origenistas. et ipsa enim consultatio responsioni <lb/>
             meae a capite adiuncta est. <lb n="15"/>
@@ -9451,7 +9449,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             alterum <hi rend="italic">de sententia apostoli Iacobi, ubi ait: quicumque<lb/>
              totam legem seruauerit, offendat autem in uno, <lb/>
             factus est omnium reus,</hi> de utroque consulens eum. sed <lb/>
-            in illo priore quaestionem, <choice><sic>qúam</sic><corr>quam</corr></choice> exposui, ipse non solui; in <lb/>
+            in illo priore quaestionem, quam exposui, ipse non solui; in <lb/>
             posteriore autem, quid mihi de illa soluenda uideretur, ipse<lb n="10"/>
             non tacui, sed utrum hoc annueret etiam ille consului. <lb/>
             rescripsit autem laudans eandem consultationem meam, sibi <lb/>
@@ -9505,7 +9503,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <div n="72" subtype="chapter" type="textpart">
 <ab> <title type="sub">CAPVT  LXXII. AD EMERITVM EPISCOPVM DONATISTARVM POST CONLATIONEM LIBER VNVS. </title> </ab>
           <div n="1" subtype="section" type="textpart"><p>Ad Emeritum, Donatistarum episcopum, qui in conlatione  <lb/>
-            nostra, quam cum illis habuimus, eorum causam <sic>maximeagere</sic> <lb/>
+            nostra, quam cum illis habuimus, eorum causam maxime agere <lb/>
             uidebatur, aliquanto post eandem conlationem scripsi <lb/>
             librum satis utilem, quoniam res, quibus uincantur uel uicti <lb/>
             esse monstrantur, commoda breuitate conplectitur. <lb n="15"/>
@@ -9552,7 +9550,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             catholicum pronuntiarunt. sed cum in manus nostras eadem<lb n="5"/>
             gesta uenissent, scripsi de his librum, ne illo uelut absoluto <lb/>
             eadem quoque dogmata putarentur iudices adprobasse, quae <lb/>
-            ille nisi damnasset, nullo modo ab eis nisi damnatus <choice n="0.57"><sic n="41">egisset</sic><corr n="30">exisset</corr></choice>. 
+            ille nisi damnasset, nullo modo ab eis nisi damnatus exisset. 
 </p>
           </div>
 
@@ -9620,9 +9618,9 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 </div>
 
 <div n="76" subtype="chapter" type="textpart">
-<ab> <title type="sub">CAPVT  LXXVI. CONTRA PELAGIVM ET CAELESTIVM DE GRATIA CHRISTI ET DE PECCATO <sic>ORIGINALl</sic> AD ALBINAM, PINIANVM ET MELANIAM LIBRI DVO. </title> </ab>
+<ab> <title type="sub">CAPVT  LXXVI. CONTRA PELAGIVM ET CAELESTIVM DE GRATIA CHRISTI ET DE PECCATO ORIGINALI AD ALBINAM, PINIANVM ET MELANIAM LIBRI DVO. </title> </ab>
           <div n="1" subtype="section" type="textpart"><p>Posteaquam Pelagiana heresis cum suis auctoribus ab  <lb/>
-            episcopis ecclesiae Romanae, <choice><sic>pIius</sic><corr>prius</corr></choice> Innocentio, deinde Zosimo, <lb n="10"/>
+            episcopis ecclesiae Romanae, prius Innocentio, deinde Zosimo, <lb n="10"/>
             cooperantibus conciliorum Africanorum litteris conuicta atque <lb/>
             damnata est, scripsi duos libros aduersus eos, unum de gratia <lb/>
             Christi, alterum de peccato originali. 
@@ -9720,7 +9718,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             eum mihi miserat, quanta potui etiam breuitate et celeritate <lb/>
             respondi adiuncto eodem sermone a capite responsionis meae <lb/>
             et adhibitis ad singula numeris, quibus inspectis quid cui <lb/>
-            loco <choice><sic>respondelimus</sic><corr>responderimus</corr></choice> facile possit aduerti. 
+            loco responderimus facile possit aduerti. 
 </p>
           </div>
 
@@ -9829,7 +9827,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
           </div>
 
 <div n="2" subtype="section" type="textpart"><p>Quod autem in primo libro posui scriptum esse: <hi rend="italic">et fecit  <lb/>
-            Noe <choice><sic>Qmnia</sic><corr>omnia</corr></choice> uerba, quae praecepit illi dominus, sic <lb/>
+            Noe omnia uerba, quae praecepit illi dominus, sic <lb/>
             fecit,</hi> eamque locutionem dixi esse similem ei, quod in condicione <lb/>
             creaturae, posteaquam dicitur: <hi rend="italic">et sic est factum,</hi> <lb/>
             additur: <hi rend="italic">et fecit deus,</hi> non omni modo simile hoc eidem <lb n="10"/>
@@ -9877,7 +9875,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             quaesita dissolui, quamuis multo plura in eis mihi uideantur ita <lb/>
             pertractata, ut possint etiam soluta et exposita non inmerito <lb/>
             iudicari. Regnorum quoque libros eodem modo iam considerare <lb/>
-            coeperamus, sed non multum <choice><sic>progreHsi</sic><corr>progressi</corr></choice> in alia, quae magis <lb/>
+            coeperamus, sed non multum progressi in alia, quae magis <lb/>
             urguebant, animum intendimus. <lb n="5"/>
             
 </p>
@@ -9888,8 +9886,8 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             uiderent, cum biberent, et uarios fetus parerent, non bene a <lb/>
             nobis exposita est causa, cur iterum concipientibus non ponebat, <lb/>
             id est cum alios fetus conciperent, sed in priore conceptu. <lb n="10"/>
-            nam quaestionis <choice><sic>altenus</sic><corr>alterius</corr></choice> expositio, ubi quaeritur, cur dixerit <lb/>
-            socero suo Iacob: <hi rend="italic">decepisti <choice><sic>merced</sic><corr>mercedem</corr></choice> em meam decem <lb/>
+            nam quaestionis alterius expositio, ubi quaeritur, cur dixerit <lb/>
+            socero suo Iacob: <hi rend="italic">decepisti mercedem em meam decem <lb/>
             agnabus,</hi> satis ueraciter enodata demonstrat istam, sicut <lb/>
             solui debuit, non solutam. 
 </p>
@@ -10013,13 +10011,13 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             qua <hi rend="italic">om. E</hi> </note> <lb/>
              
 <pb n="195"/>
-            disserui, cum retractaremus opus nostrum contra <choice><sic>Fanstum</sic><corr>Faustum</corr></choice> <lb/>
+            disserui, cum retractaremus opus nostrum contra Faustum <lb/>
             Manicheum. 
 </p>
           </div>
 
 <div n="7" subtype="section" type="textpart"><p>Hoc opus sic incipit: <hi rend="italic">Cum scripturas sanctas, quae appellantur  <lb/>
-            <sic>canonicae</sic></hi>. 
+            canonicae</hi>. 
 </p>
           <p> <milestone n="56" unit="altchapter"/> 
 </p>
@@ -10138,7 +10136,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             confluentibus et attentissime audientibus in platea maritima <lb/>
             legeretur, peruenerunt ad eum fratres studiosissime Christiani <lb/>
             eumque mihi redarguendum sine ulla dilatione miserunt multum <lb/>
-            rogantes, ut nec ego respondere <choice><sic>diffemem</sic><corr>differrem</corr></choice>. <choice><sic>refeUi</sic><corr>refelli</corr></choice> eum libris <lb n="15"/>
+            rogantes, ut nec ego respondere differrem. refelli eum libris <lb n="15"/>
             duobus, quos ideo praenotaui: contra aduersarium legis et <lb/>
             prophetarum, quia codex ipse, qui missus est, nomen non <lb/>
             habebat auctoris. 
@@ -10178,7 +10176,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
           <ab> <title type="sub">CONTRA GAVDENTIVM, DONATISTARVM EPISCOPVM, LIBRI II. </title>
           </ab>
           <div n="1" subtype="section" type="textpart"><p> Per idem tempus Dulcitius tribunus et notarius hic erat <lb/>
-            in Africa executor imperialium <sic n="poss">iussionum</sic> contra Donatistas<lb n="5"/>
+            in Africa executor imperialium iussionum contra Donatistas<lb n="5"/>
             datarum. qui cum dedisset litteras ad Gaudentium Tamugadensem, <lb/>
             Donatistarum episcopum, unum illorum septem, quos <lb/>
             in nostram conlationem auctores suae defensionis elegerant, <lb/>
@@ -10186,8 +10184,8 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             quo se ac suos cum ipsa in qua erat ecclesia consumere<lb n="10"/>
             minabatur, addens etiam, ut, si se iustos putarent, fugerent <lb/>
             potius secundum praeceptum domini Christi quam nefandis <lb/>
-            se ignibus <sic>concremarent</sic>, <choice><sic>rescripait</sic><corr>rescripsit</corr></choice> epistulas duas, unam <sic>bre</sic>. <lb/>
-            <sic>uem</sic> festinante, ut asseruit, perlatore, aliam prolixam quasi <lb/>
+            se ignibus concremarent, rescripsit epistulas duas, unam breuem. <lb/>
+             festinante, ut asseruit, perlatore, aliam prolixam quasi <lb/>
             plenius diligentiusque respondens. has mihi supra memoratus<lb n="15"/>
             tribunus existimauit esse mittendas, ut eas potius ipse refellerem. <lb/>
             quas ambas uno libro redargui. qui cum in eiusdem <lb/>
@@ -10217,7 +10215,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
 <pb n="199"/>
             ad me ipsum, nulla ratione respondens, sed magis se nec <lb/>
             respondere nec tacuisse declarans. quod cum satis possit <lb/>
-            intellegenter legentibus et nostra atque ipsius dicta co <sic>nferentibus</sic> <lb/>
+            intellegenter legentibus et nostra atque ipsius dicta co conferentibus <lb/>
             apparere, nolui tamen sine rescripto relinquere, <lb/>
             quidquid illud fuit. hinc factum est, ut hi nostri ad illum <lb n="5"/>
             duo libri essent.,
@@ -10329,7 +10327,7 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             apostolos defenderunt, Iuliani inpudentiam redarguunt, qui <lb/>
             tamquam Manicheorum dogma nobis obiciendum putauit, quia <lb/>
             ex Adam trahi dicimus originale peccatum, quod per lauacrum <lb/>
-            <choice><sic>regeneratlonis</sic><corr>regenerationis</corr></choice> non solum in maioribus uerum etiam <lb/>
+            regenerationis non solum in maioribus uerum etiam <lb/>
             in paruulis soluitur. quantum autem ipse Iulianus quibusdam <lb n="5"/>
             sententiis suis adiuuet Manicheos, in primi libri mei parte <lb/>
             posteriore monstraui. ceteri autem nostri quattuor redduntur <lb/>
@@ -10340,13 +10338,13 @@ uicensima septima <hi rend="italic">de prouidentia;</hi>
             coniugi suae, ne deformes pareret, proponere in concubitu <lb n="10"/>
             formonsam solere picturam, nomen hominis, qui hoc facere <lb/>
             solebat, quasi certum posui, cum sit incertum, quia memoria <lb/>
-            me fefellit. hoc autem <choice><sic>Sorallus</sic><corr>Soranus</corr></choice>, auctor medicinae, scripsit <lb/>
+            me fefellit. hoc autem Soranus, auctor medicinae, scripsit <lb/>
             regem Cyprium facere solere, sed nomen eius proprium non <lb/>
             posuit. <lb n="15"/>
             
 </p>
           <p rend="script">Hoc opus sic incipit: <hi rend="italic">Contumelias tuas et uerba maledica,</hi> <note type="chapter"> :3 </note> <lb/>
-            <hi rend="italic"><choice n="0.66"><sic n="2">Iuliane</sic><corr n="1">Iulian</corr></choice></hi>.
+            <hi rend="italic">Iuliane</hi>.
 
 <note type="footnote"> 2 Aug. op. inperf. c. Iulian. I, 2 3 Tit. 3, 5 9 c. Iulian. V, <lb/>
             14, 51 13 de Sorano cf. Diels Doxogr. p. 207 </note>

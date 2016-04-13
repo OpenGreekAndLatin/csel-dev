@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,7 +104,7 @@
              <hi rend="italic">C</hi> = codex olim Colbertinus nunc Bibliothecae Nationalis Parisinae <lb/>
             n. 2627 saec. XI. 
 </p>
-          <p><hi rend="italic"><sic>Bsl</sic></hi> = Baluzius primus editor (Stephani Baluzii <sic>Misccllaneorum</sic> Liber <lb/>
+          <p><hi rend="italic">Bal</hi> = Baluzius primus editor (Stephani Baluzii Miscellaneorum Liber <lb/>
             Secundus, Parisiis 1679, p. 1 BS.)
 </p>
             
@@ -118,7 +116,7 @@
           <head>
             <title type="main">LVCII CAECILII</title>
           </head>
-          <p><note type="margin"><sic>Cod</sic>. <sic>Colbert</sic></note>.<milestone n="1a" unit="altpage"/>
+          <p><note type="margin">Cod. Colbert</note>.<milestone n="1a" unit="altpage"/>
 </p>
           <ab>
             <title type="sub">LIBER AD DONATVM CONFESSOREM DE MORTIBVS PERSECVTORVM. </title>
@@ -129,7 +127,7 @@
 
 <div n="1" subtype="section" type="textpart">
 <p>Audiuit dominus orationes tuas, Donate carissime, quas   <lb/>
-            in conspectu eius per omnes horas &lt; cotidie <sic>fundebus</sic>, ceterorumque&gt; <lb/>
+            in conspectu eius per omnes horas &lt; cotidie fundebas, ceterorumque&gt; <lb/>
             fratrum nostrorum, qui gloriosa confessione sempiternam <lb/>
             sibi coronam pro fidei meritis quaesierunt.</p></div>
 
@@ -185,7 +183,7 @@
 <div n="5" subtype="section" type="textpart"><p>qui insultauerant <lb/>
             deo, iacent, qui templum sanctum euerterant, ruina maiore <lb/>
             ceciderunt, qui iustos excarnificauerant, caelestibus plagis et  <lb/>
-            cruciatibus <choice n="0.70"><sic n="657">mentis</sic><corr n="272">meritis</corr></choice> nocentes animas profuderunt.</p></div>
+            cruciatibus meritis nocentes animas profuderunt.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>sero id quidem, <lb/>
             sed grauiter ac digne. distulerat enim poenas eorum<lb n="15"/>
@@ -217,14 +215,14 @@
             19-25 folii lx (=p. 173, 1. 2. 3. 4. 6. 7</hi>. 8) <hi rend="italic">cum margine abscissae</hi> </note> <lb/>
              
 <pb n="173"/>
-            uid&lt;<sic>elicet</sic>&gt; supplicia impiis ac persecutoribus inrogare.</p></div>
+            uid&lt;elicet&gt; supplicia impiis ac persecutoribus inrogare.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>de  <lb/>
             quo exitu &lt; eorum tes)tificari placuit, ut omnes qui procul <lb/>
-            remoti fuerunt uel qui p&lt;<sic>ostea</sic> fu&gt;turi sunt, scirent, quatenus <lb/>
+            remoti fuerunt uel qui p&lt;ostea fu&gt;turi sunt, scirent, quatenus <lb/>
             uirtutem ac maiestatem suam in ex&lt;tinguen)dis delendisque <lb/>
             nominis sui hostibus deus summus ostenderit. ab re <lb n="5"/>
-            ta&lt;men non) est, si a principio, ex quo est ecclesia <choice><sic>conatituta</sic><corr>constituta</corr></choice>, <lb/>
+            ta&lt;men non) est, si a principio, ex quo est ecclesia constituta, <lb/>
             qui fuerint persecutores &lt;eius&gt; et quibus poenis in eos <lb/>
             caelestis iudicis seueritas uindicauerit, exponam. 
 </p>
@@ -233,7 +231,7 @@
 
 <div n="2" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>Extremis temporibus <choice><sic>Tibeni</sic><corr>Tiberii</corr></choice> Caesaris, ut scriptum legimus,   <lb/>
+<p>Extremis temporibus Tiberii Caesaris, ut scriptum legimus,   <lb/>
             dominus noster Iesus Christus a Iudaeis cruciatus est <lb n="10"/>
             post diem decimum Kalendas Apriles duobus Geminis
 
@@ -278,7 +276,7 @@
             interpretatus est, quae usque ad id tempus obscurae atque <lb/>
             inuolutae fuerant, ordinauitque eos et instruxit ad praedicationem <lb n="5"/>
             dogmatis ac doctrinae suae disponens testamenti noui  <lb/>
-            <choice><sic>soUemnem</sic><corr>sollemnem</corr></choice> disciplinam.</p></div>
+            sollemnem disciplinam.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>quo officio repleto circumuoluit eum <lb/>
             procella nubis et subtractum oculis hominum rapuit in caelum.  <lb/>
@@ -294,7 +292,7 @@
 <div n="5" subtype="section" type="textpart"><p>cumque iam Nero imperaret, <lb/>
             Petrus Romam aduenit et editis quibusdam miraculis, quae <lb n="15"/>
             uirtute ipsius dei data sibi ab eo potestate faciebat. conuertit <lb/>
-            multos ad iustitiam deoque templum fidele ac stabile <sic>coulocauit</sic>.  <lb/>
+            multos ad iustitiam deoque templum fidele ac stabile conlocauit.  <lb/>
             </p></div>
 
 <div n="6" subtype="section" type="textpart"><p>qua re ad Neronem delata cum animaduerteret non
@@ -369,16 +367,16 @@
             fortasse</hi> qdã firorfl <hi rend="italic">(ut Lact. Inst. V 2, 9</hi> si qui nostrorum), <hi rend="italic">in C</hi> </note> <lb/>
              
 <pb n="176"/>
-            eodem modo etiam Neronem <choice n="0.17"><sic n="28">uenturam</sic><corr n="134">uenturum</corr></choice> putant, &lt; ut <sic>praecu</sic>&gt;rsor <lb/>
+            eodem modo etiam Neronem uenturum putant, &lt; ut praecu&gt;rsor <lb/>
             diaboli ac praeuius sit uenientis ad uastationem terrae et <lb/>
-            <sic>huma</sic>&lt;ni ge&gt;neris euersionem. 
+            huma&lt;ni ge&gt;neris euersionem. 
 </p>
           </div>
 </div>
 
 <div n="3" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>&lt;P)ost hunc <choice n="0.14"><sic n="18">interiectis</sic><corr n="104">interfectis</corr></choice> aliquot annis alter non minor <lb/>
+<p>&lt;P)ost hunc interiectis aliquot annis alter non minor <lb/>
             tyrannus &lt;Domitianus&gt; ortus est. &lt;qui&gt; cum exerceret inuisam
 
 <note type="footnote"> <hi rend="italic">7-8 spatia explenda sunt; lacunam 12 punctis indicauit ct</hi> pronuntiant <lb/>
@@ -441,7 +439,7 @@
             temporibus, quibus multi ac boni principes Romani imperii <lb/>
             clauum regimenque tenuerunt, nullos inimicorum impetus <lb n="15"/>
             passa manus suas in orientem occidentemque porrexit, ut iam <note type="chapter"> 5 </note> <lb/>
-            nullus esset terrarum <choice><sic>angulua</sic><corr>angulus</corr></choice> tam remotus quo non religio <lb/>
+            nullus esset terrarum angulus tam remotus quo non religio <lb/>
             dei penetrasset, nulla denique [dei] natio tam feris moribus <lb/>
             uiuens, ut non suscepto dei cultu ad iustitiae opera mitesceret. <lb/>
             sed enim postea longa pax rupta est.
@@ -476,7 +474,7 @@
 
 <div n="4" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>Extitit enim post annos <choice><sic>plurinios</sic><corr>plurimos</corr></choice> execrabile animal <lb/>
+<p>Extitit enim post annos plurimos execrabile animal <lb/>
             Decius, qui uexaret ecclesiam: quis enim iustitiam -nisi malus  <lb/>
             persequatur?</p></div>
 
@@ -486,7 +484,7 @@
 
 <div n="3" subtype="section" type="textpart"><p>nam profectus aduersum Carpos, qui <lb n="5"/>
             tum Daciam Moesiamque occupauerant, statimque circumuentus <lb/>
-            a <choice n="0.01"><sic n="3">barbatis</sic><corr n="158">barbaris</corr></choice> et cum magna exercitus parte deletus ne sepultura <lb/>
+            a barbaris et cum magna exercitus parte deletus ne sepultura <lb/>
             quidem potuit honorari, sed exutus ac nudus, ut hostem dei <lb/>
             oportebat, pabulum feris ac uolucribus iacuit. 
 </p>
@@ -495,7 +493,7 @@
 
 <div n="5" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p><choice><sic>Xon</sic><corr>Non</corr></choice> multo post Valerianus quoque non dissimili <choice><sic>fnrore</sic><corr>furore</corr></choice><lb n="10"/>
+<p>Non multo post Valerianus quoque non dissimili furore<lb n="10"/>
             correptus impias manus in deum intentauit et multum quamuis <lb/>
             breui tempore iusti sanguinis fudit. at illum deus nouo ac <lb/>
             singulari poenae genere adfecit, ut esset posteris documentum <lb/>
@@ -542,7 +540,7 @@
 
 <div n="6" subtype="section" type="textpart"><p>            t-põstea uero quam pudendam uitam in illo dedecore finiuit,  <lb/>
             derepta est ei cutis et exuta uisceribus pellis infecta rubro <lb n="5"/>
-            colore, ut in templo barbarorum <sic>deorumaad</sic> memoriam clarissimi <lb/>
+            colore, ut in templo barbarorum deorum ad memoriam clarissimi <lb/>
             triumphi poneretur legatisque nostris semper esset ostentui, <lb/>
             ne <milestone n="2b" unit="altpage"/> nimium Romani uiribus suis fiderent, cum exuuias  <lb/>
             capti principis apud deos suos cernerent.</p></div>
@@ -566,7 +564,7 @@
 
 <div n="2" subtype="section" type="textpart"><p>nondum ad prouincias  <lb/>
             ulteriores cruenta eius scripta peruenerant, et iam Caenofrurio, <lb/>
-            qui locus est Thraciae, <choice><sic>crueutus</sic><corr>cruentus</corr></choice> ipse humi iacebat falsa quadam <lb n="20"/>
+            qui locus est Thraciae, cruentus ipse humi iacebat falsa quadam <lb n="20"/>
             suspicione ab amicis suis interemptus.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>talibus et tot  <lb/>
@@ -579,7 +577,7 @@
 
 <div n="7" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>Diocletianus. qui scelerum inuentor et malorum <sic>macliinator</sic>   <lb n="25"/>
+<p>Diocletianus. qui scelerum inuentor et malorum machinator   <lb n="25"/>
             fuit, cum disperderet omnia, ne a deo quidem manus
 
 <note type="footnote"> <hi rend="italic">LOCI AVCTORVM EXPILATORVM SIMILES</hi> c. 6] <lb/>
@@ -612,7 +610,7 @@
 <div n="4" subtype="section" type="textpart"><p>et ut omnia terrore conplerentur, prouinciae quoque <lb/>
             in frusta concisae: multi praesides et plura officia singulis<lb n="10"/>
             regionibus ac paene iam ciuitatibus incubare, item rationales <lb/>
-            multi et <choice><sic>rnagistri</sic><corr>magistri</corr></choice> et uicarii praefectorum, quibus omnibus <lb/>
+            multi et magistri et uicarii praefectorum, quibus omnibus <lb/>
             ciuiles actus admodum rari, sed condemnationes tantum et <lb/>
             proscriptiones frequentes, exactiones rerum innumerabilium non <lb/>
             dicam crebrae, sed perpetuae, et in exactionibus iniuriae non <lb n="15"/>
@@ -660,7 +658,7 @@
             ac liberis quasi urbe ab hostibus capta.</p></div>
 
 <div n="10" subtype="section" type="textpart"><p>et cum perfecta  <lb/>
-            haec fuerant cum interitu prouinciarum, <sic>lnon</sic> recte facta <lb/>
+            haec fuerant cum interitu prouinciarum, non recte facta <lb/>
             sunt\' aiebat, \'alio modo fiant\'. rursus dirui ac mutari necesse <lb/>
             erat iterum fortasse casura. ita semper dementabat Nicomediam <lb n="10"/>
             studens urbi Romae coaequare.</p></div>
@@ -714,7 +712,7 @@
 </div>
 
 <div n="3" subtype="section" type="textpart"><p>  nam cum ipsam imperii sedem teneret <lb/>
-            Italiam subiacerentque <choice><sic>opuleutissimae</sic><corr>opulentissimae</corr></choice> prouinciae, uel Africa <lb/>
+            Italiam subiacerentque opulentissimae prouinciae, uel Africa <lb/>
             uel Hispania, non erat in custodiendis opibus tam diligens,  <lb/>
             quarum illi copia suppetebat.</p></div>
 
@@ -724,11 +722,11 @@
 </p></div>
 
 <div n="5" subtype="section" type="textpart"><p> <lb/>
-            cruentissimus fiscus <choice><sic>jnalrt</sic><corr>male</corr></choice> partis opibus affluebat. iam libido <lb/>
+            cruentissimus fiscus mala partis opibus affluebat. iam libido <lb/>
             in homine pestifero non modo ad corrumpendos mares, quod <lb/>
             est odiosum ac detestabile, uerum etiam ad uiolandas primorum <lb/>
             filias. nam quacumque iter fecerat, auulsae a complexu <lb n="10"/>
-            parentum <choice><sic>liirgines</sic><corr>uirgines</corr></choice> statim praesto.</p></div>
+            parentum uirgines statim praesto.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>his rebus beatum se iudicabat, <lb/>
             his constare felicitatem imperii sui putabat, si libidini  <lb/>
@@ -745,8 +743,8 @@
 <div n="9" subtype="chapter" type="textpart">
 
 <div n="1" subtype="section" type="textpart">
-<p>Alter uero <choice><sic>MaximianuB</sic><corr>Maximianus</corr></choice>, quem sibi generum Diocletianus <lb/>
-            <sic>asciu</sic> rat, non his duobus tantum quos tempora nostra <sic>sensenmt</sic>,  <lb/>
+<p>Alter uero Maximianus, quem sibi generum Diocletianus <lb/>
+            asciue rat, non his duobus tantum quos tempora nostra senserunt,  <lb/>
             sed omnibus qui fuerunt malis peior.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>inerat huic bestiae <lb/>
@@ -783,7 +781,7 @@
 
 <div n="4" subtype="section" type="textpart"><p>denique et uerbis  <lb/>
             et actibus et aspectu terrori omnibus ac formidini fuit. <milestone n="3b" unit="altpage"/> socer  <lb n="5"/>
-            quoque eum metuebat <choice><sic>acemme</sic><corr>acerrime</corr></choice>: cuius <choice><sic>timons</sic><corr>timoris</corr></choice> haec fuit causa. <lb/>
+            quoque eum metuebat acerrime: cuius timoris haec fuit causa. <lb/>
 </p></div>
 
 <div n="5" subtype="section" type="textpart"><p>            Narseus rex Persarum concitatus do nesticis exemplis aui sui  <lb/>
@@ -803,13 +801,13 @@
             timorem.</p></div>
 
 <div n="8" subtype="section" type="textpart"><p>in tantos namque fastus post hlanc uictoriam elenatus  <lb/>
-            est, ut <choice><sic>lam</sic><corr>iam</corr></choice> detrectaret Caesaris nomen. quod cum in <lb/>
+            est, ut iam detrectaret Caesaris nomen. quod cum in <lb/>
             litteris ad se datis audisset, truci uultu ac uoce terribili exclamabat <lb/>
             \'quousque Caesar?</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>\' exinde insolentissime agere coepit,  <lb n="20"/>
             ut ex Marte se procreatum et uideri et dici uellet tamquam <lb/>
-            alterum <choice><sic>Komulum</sic><corr>Romulum</corr></choice> maluitque Romulam matrem stupro <lb/>
+            alterum Romulum maluitque Romulam matrem stupro <lb/>
             infamare, ut ipse diis oriundus uideretur.</p></div>
 
 <div n="10" subtype="section" type="textpart"><p>sed differo de factis  <lb/>
@@ -869,7 +867,7 @@
             ut qui non paruissent, militia soluerentur.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>hactenus <lb n="20"/>
-            furor eius et ira processit nec amplius <choice><sic>quiCquam</sic><corr>quicquam</corr></choice> contra legem  <lb/>
+            furor eius et ira processit nec amplius quicquam contra legem  <lb/>
             ant <milestone n="4a" unit="altpage"/>   religionem dei fecit.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>deinde interiecto aliquanto tempore <lb/>
@@ -893,7 +891,7 @@
 <pb n="185"/>
             quoque Caesar inflammatus scelere aduenit, ut ad persequendos <lb/>
             Christianos instigaret senem uanum, qui iam principium fecerat. <lb/>
-            cuius furoris hanc causam fuisse <choice><sic>coguoui</sic><corr>cognoui</corr></choice>. 
+            cuius furoris hanc causam fuisse cognoui. 
 </p>
           </div>
 </div>
@@ -922,7 +920,7 @@
             ergo amicorum sententiam experiri.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>nam erat huius malitiae:  <lb/>
-            cum bonum quid facere decreuisset, sine consilio <choice><sic>factebat</sic><corr>faciebat</corr></choice>, <lb/>
+            cum bonum quid facere decreuisset, sine consilio faciebat, <lb/>
             ut ipse laudaretur, cum autem malum, quoniam id reprehendendum <lb/>
             sciebat, in consilium multos aduocabat, ut aliorum <lb n="20"/>
             culpae adscriberetur quicquid ipse deliquerat.</p></div>
@@ -1024,12 +1022,12 @@
             religionis illius homines carerent omni honore ac dignitate, <lb n="5"/>
             tormentis subiecti essent, ex quocumque ordine aut gradu <lb/>
             uenirent, aduersus eos omnis actio ualeret, ipsi non de iniuria, <lb/>
-            non de <choice><sic>adulteno</sic><corr>adulterio</corr></choice>, non de rebus ablatis agere possent, <lb/>
+            non de adulterio, non de rebus ablatis agere possent, <lb/>
             libertatem denique ac uocem non haberent.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>quod edictum  <lb/>
             quidam etsi non recte, magno tamen animo deripuit et conscidit, <lb n="10"/>
-            cum <choice><sic>imdens</sic><corr>irridens</corr></choice> diceret uictorias Gothorum et Sarmatarum <lb/>
+            cum irridens diceret uictorias Gothorum et Sarmatarum <lb/>
             propositas.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>statimque perductus non modo extortus, sed etiam  <lb/>
@@ -1053,7 +1051,7 @@
 </p></div>
 
 <div n="8" subtype="section" type="textpart"><p>            Diocletianus uero, qui semper se uolebat uideri astutum et  <lb/>
-            intellegentem, nihil potuit suspicari, sed ira <choice><sic>mnammatus</sic><corr>inflammatus</corr></choice>
+            intellegentem, nihil potuit suspicari, sed ira inflammatus
 
 <note type="footnote"> 1 instructa <hi rend="italic">Cuperus, item Bentltius</hi> 2 Imissi <hi rend="italic">C</hi> fanum <hi rend="italic">Cuperus,</hi> <lb/>
             taffi <hi rend="italic">C;</hi> tamen <hi rend="italic">Bal,</hi> templum <hi rend="italic">Colomesius, alia ap. Bauldrittm;</hi> illut <hi rend="italic">0;</hi> <lb/>
@@ -1100,12 +1098,12 @@
 <div n="15" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
 <p>Furebat ergo imperator iam non in domesticos tantum, <lb/>
-            sed in omnes. et primam omnium filiam Valeriam <sic>coniugemque</sic>  <lb/>
-            Priscam <choice><sic>sacrmcio</sic><corr>sacrificio</corr></choice> pollui coegit.</p></div>
+            sed in omnes. et primam omnium filiam Valeriam coniugemque  <lb/>
+            Priscam sacrificio pollui coegit.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>potentissimi quondam <lb/>
             eunuchi necati, per quos palatium et ipse ante constabat,  <lb/>
-            comprehensi <choice><sic>presbyten</sic><corr>presbyteri</corr></choice> ac <choice><sic>mmistn</sic><corr>ministri</corr></choice> et sine ulla <milestone n="5a" unit="altpage"/>  probatione<lb n="15"/>
+            comprehensi presbyteri ac ministri et sine ulla <milestone n="5a" unit="altpage"/>  probatione<lb n="15"/>
             aut confessione damnati cum omnibus suis deducebantur. 
 </p></div>
 
@@ -1140,7 +1138,7 @@
             ergo ad iudices tamquam ad deos adiretur.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>etiam litterae ad  <lb/>
-            <choice><sic>Maximiaimm</sic><corr>Maximianum</corr></choice> atque Constantium commeauerant, ut eadem <lb/>
+            Maximianum atque Constantium commeauerant, ut eadem <lb/>
             facerent: quorum sententia in tantis rebus expectata non. erat. <lb/>
             et quidem senex Maximianus libens paruit per Italiam, homo <lb/>
             non adeo clemens.</p></div>
@@ -1183,7 +1181,7 @@
 </p></div>
 
 <div n="5" subtype="section" type="textpart"><p>            nouies enim tormentis cruciatibusque uariis subiectus nouies  <lb/>
-            aduersarium gloriosa confessione uicisti, nouem <choice><sic>proelus</sic><corr>proeliis</corr></choice> zabulum <lb/>
+            aduersarium gloriosa confessione uicisti, nouem proeliis zabulum <lb/>
             cum satellitibus suis debellasti, nouem uictoriis saeculum
 
 <note type="footnote"> <hi rend="italic">LOCI AVCTORVM EXPILATOXVM SIMILES</hi> 7 uerum— <lb/>
@@ -1206,7 +1204,7 @@
 
 <div n="6" subtype="section" type="textpart"><p>quam iucundum illud spectaculum <lb/>
             deo fuit, cum uictorem te cerneret non candidos <lb/>
-            equos aut immanes elephantos, sed ipsos potissimum <sic>triumphatores</sic> <lb/>
+            equos aut immanes elephantos, sed ipsos potissimum triumphatores <lb/>
             currui tuo subiungentem!</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>hic est uerus tIiumphus, <lb/>
@@ -1267,7 +1265,7 @@
 
 <div n="3" subtype="section" type="textpart"><p>tredecim dies tolerare  <lb/>
             non potuit, ut Romae potius quam Rauennae procederet <lb/>
-            consul, sed profectus hieme saeuiente, frigore atque <choice><sic>imbnbus</sic><corr>imbribus</corr></choice> <lb/>
+            consul, sed profectus hieme saeuiente, frigore atque imbribus <lb/>
             uerberatus morbum lenem, at perpetuum contraxit uexatusque <lb/>
             per omne iter lectica plurimum uehebatur.</p></div>
 
@@ -1344,10 +1342,10 @@
 
 <div n="4" subtype="section" type="textpart"><p>Neruam <lb/>
             uero uno anno imperantem, cum pondus et curam tantarum <lb/>
-            rerum uel aetate uel insolentia ferre non quiret, <sic>abiecsse</sic> <milestone n="6a" unit="altpage"/>   <lb n="15"/>
+            rerum uel aetate uel insolentia ferre non quiret, abiecisse <milestone n="6a" unit="altpage"/>   <lb n="15"/>
             gubernaculum rei publicae atque ad priuatam uitam redisse, <lb/>
             in qua consenuerat. uerum si nomen imperatoris cuperet adipisci, <lb/>
-            impedimento nihil esse quominus omnes Augusti <sic>nuncuparentur</sic>.  <lb/>
+            impedimento nihil esse quominus omnes Augusti nuncuparentur.  <lb/>
             </p></div>
 
 <div n="5" subtype="section" type="textpart"><p>at ille, qui orbem totum iam spe inuaserat, quoniam <lb/>
@@ -1374,12 +1372,12 @@
              
 <pb n="193"/>
             conseruari, ut duo sint in re publica maiores, qui summam <lb/>
-            rerum teneant, item duo minores, qui sint <choice><sic>adiumênto</sic><corr>adiumento</corr></choice>: inter <lb/>
+            rerum teneant, item duo minores, qui sint adiumento: inter <lb/>
             duos facile posse concordiam seruari, inter quattuor pares <lb/>
             nullo modo.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>si ipse cedere noluisset, se sibi consulturum,  <lb/>
-            ne amplius minor et extremus esset. <choice><sic>lam</sic><corr>iam</corr></choice> fluxisse annos quindecim <lb n="5"/>
+            ne amplius minor et extremus esset. iam fluxisse annos quindecim <lb n="5"/>
             &lt;quibus&gt; in Illyricum id est ad ripam Danuuii relegatus <lb/>
             cum gentibus barbaris luctaretur, cum alii intra laxiores <lb/>
             et quietiores terras delicate imperarent.</p></div>
@@ -1432,8 +1430,8 @@
 <div n="12" subtype="section" type="textpart"><p>— \'quos ergo faciemus?\' - \'Seuerum\' <lb/>
             inquit. — \'illumne saltatorem temulentum ebriosum. <lb/>
             cui nox pro die est et dies pro nocte?\' — \'dignus\'. inquit<lb n="5"/>
-            \'quoniam militibus fideliter praefuit. et eum misi ad <sic>Maximanum</sic>, <lb/>
-            ut ab eo <choice><sic>indnatur</sic><corr>induatur</corr></choice>).</p></div>
+            \'quoniam militibus fideliter praefuit. et eum misi ad Maximianum, <lb/>
+            ut ab eo induatur).</p></div>
 
 <div n="13" subtype="section" type="textpart"><p>— \'esto. alterum quem dabis?\' <lb/>
             — \'hunc\' inquit ostendens Daiam adulescentem quendam <lb/>
@@ -1489,15 +1487,15 @@
             expectatio, quid afferret.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>tunc repente pronuntiat Seuerum <lb/>
-            et <choice><sic>Maiiminum</sic><corr>Maximinum</corr></choice> Caesares. obstupefiunt omnes. in tribunali <lb/>
+            et Maximinum Caesares. obstupefiunt omnes. in tribunali <lb/>
             Constantinus adstabat susum. haesitare inter se num Constantini <lb n="5"/>
-            immutatum nomen esset, cum in conspectu omnium <choice><sic>Malimianus</sic><corr>Maximianus</corr></choice> <lb/>
+            immutatum nomen esset, cum in conspectu omnium Maximianus <lb/>
             manum retrorsum extendens protraxit a tergo Daiam <lb/>
-            Constantino repulso et exutum uestem <choice><sic>pnuatam</sic><corr>priuatam</corr></choice> constituit in <lb/>
+            Constantino repulso et exutum uestem priuatam constituit in <lb/>
             medium. mirari omnes qui esset, unde esset.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>nemo tamen <lb/>
-            reclamare ausus est cunctis <choice><sic>msperatae</sic><corr>insperatae</corr></choice> nouitate rei turbatis. <lb n="10"/>
+            reclamare ausus est cunctis insperatae nouitate rei turbatis. <lb n="10"/>
             huic purpuram Diocletianus iniecit suam qua se exuit, et Diocles <lb/>
             iterum factus est.</p></div>
 
@@ -1521,7 +1519,7 @@
             impeditus.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>hunc sperabat breui obiturum, et si non obisset,  <lb/>
-            uel inuitum <choice><sic>exnere</sic><corr>exuere</corr></choice> facile uidebatur. quid enim faceret, si a
+            uel inuitum exuere facile uidebatur. quid enim faceret, si a
 
 <note type="footnote"> <hi rend="italic">ltiuB,</hi> \'concio—conuocetur\' inquit <hi rend="italic">Gale,</hi> consurgit <hi rend="italic">Tollius,</hi> infit <hi rend="italic">alter<lb/>
              anonymus p. 70,</hi> inquit <hi rend="italic">del. Heumann</hi> <lb/>
@@ -1540,7 +1538,7 @@
             tribus cogeretur imperium deponere?</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>habebat ipse Licinium <lb/>
-            ueteris <choice><sic>contubernii_</sic><corr>contubernii</corr></choice> amicum et a prima militia familiarem, <lb/>
+            ueteris contubernii amicum et a prima militia familiarem, <lb/>
             cuius consiliis ad omnia regenda utebatur, sed eum Caesarem <lb/>
             facere noluit, ne filium nominaret, ut postea in Constantii  <lb/>
 </p></div>
@@ -1579,7 +1577,7 @@
             ademit. torquebantur ab eo non decuriones modo, sed <lb/>
             primores etiam ciuitatum, egregii ac perfectissimi uiri, et <lb/>
             quidem in causis leuibus atque ciuilibus. si morte digni uiderentur, <lb/>
-            cruces stabant, <sic>sm</sic> minus, compedes parati.</p></div>
+            cruces stabant, sin minus, compedes parati.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>matres
 
@@ -1601,7 +1599,7 @@
 
 <div n="5" subtype="section" type="textpart"><p>quid lusorium  <lb/>
             uel delicias eius referam? habebat ursos ferociae ac <lb/>
-            magnitudinis suae simillimos, quos toto <choice><sic>imperij</sic><corr>imperii</corr></choice> sui tempore <lb n="5"/>
+            magnitudinis suae simillimos, quos toto imperii sui tempore <lb n="5"/>
             elegerat. quotiens delectari libuerat, horum aliquem adferri <lb/>
             nominatim iubebat.</p></div>
 
@@ -1611,7 +1609,7 @@
             dignitatem non habentibus poena ignis fuit.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>id exitn primo  <lb n="10"/>
-            aduersus <choice><sic>Chnstianos</sic><corr>Christianos</corr></choice> permiserat datis legibus, ut post tormenta <lb/>
+            aduersus Christianos permiserat datis legibus, ut post tormenta <lb/>
             damnati lentis ignibus urerentur.</p></div>
 
 <div n="8" subtype="section" type="textpart"><p>qui cum deligati  <lb/>
@@ -1627,7 +1625,7 @@
 
 <div n="10" subtype="section" type="textpart"><p>quod postremo accidebat, cum per multum diem  <lb/>
             decocta omni cute uis ignis ad intima uiscera penetrasset. <lb n="20"/>
-            hinc rogo facto cremabantur corpora iam <choice><sic>eremata</sic><corr>cremata</corr></choice>.</p></div>
+            hinc rogo facto cremabantur corpora iam cremata.</p></div>
 
 <div n="11" subtype="section" type="textpart"><p>lecta ossa  <lb/>
             et in puluerem comminuta iactabantur in flumina ac mare.
@@ -1664,23 +1662,23 @@
 
 <div n="2" subtype="section" type="textpart"><p> nulla &lt;poena&gt; penes eum <lb/>
             leuis, non insulae, non carceres, non metalla, sed ignis, crux,  <lb/>
-            ferae in <choice><sic>lllo</sic><corr>illo</corr></choice> erant cotidiana et facilia.</p></div>
+            ferae in illo erant cotidiana et facilia.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>domestici et adminlstratores <lb/>
             lancea emendabantur. in causa [poena] capitis [et]<lb n="5"/>
             animaduersio gladii admodum paucis quasi beneficium deferebatur, <lb/>
-            qui ob merita uetera <choice><sic>impatrauerant</sic><corr>impetrauerant</corr></choice> bonam mortem. 
+            qui ob merita uetera impetrauerant bonam mortem. 
 </p></div>
 
 <div n="4" subtype="section" type="textpart"><p> <lb/>
-            iam illa &lt; prae &gt; his leuia <choice><sic>fueruntcd</sic><corr>fuerunt</corr></choice> eloquentia extincta, causidici  <lb/>
+            iam illa &lt; prae &gt; his leuia fuerunt eloquentia extincta, causidici  <lb/>
             <milestone n="7b" unit="altpage"/>  sublati, iure consulti aut relegati aut necati, litterae <lb/>
             autem inter malas artes habitae et qui eas nouerant, pro inimicis <lb n="10"/>
             hostibusque protriti et execrati.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>licentia rerum omnium <lb/>
             solutis legibus adsumpta et iudicibus data. iudices militares <lb/>
-            humanitatis litterarum rudes <sic n="poss">sin6</sic> adsessoribus in prouincias <lb/>
+            humanitatis litterarum rudes sine adsessoribus in prouincias <lb/>
             immissi. 
 </p>
           </div>
@@ -1694,7 +1692,7 @@
             tumultus et captiuitatis horrendae species erant.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>agri glebatim <lb/>
-            metiebantur, <choice n="0.06"><sic n="7">uitea</sic><corr n="98">uites</corr></choice> et arbores numerabantur, animalia <lb/>
+            metiebantur, uites et arbores numerabantur, animalia <lb/>
             omnis generis scribebantur, hominum capita notabantur. in<lb n="20"/>
             ciuitatibus urbanae ac rusticae plebes adunatae, fora omnia <lb/>
             gregibus familiarum referta, unus quisque cum liberis, cum <lb/>
@@ -1717,14 +1715,14 @@
              
 <pb n="199"/>
             parentes suspendebantur. fidelissimi quique serui contra dominos <lb/>
-            uexabantur, <choice><sic>uiores</sic><corr>uxores</corr></choice> aduersus maritos.</p></div>
+            uexabantur, uxores aduersus maritos.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>si omnia defecerant,  <lb/>
             ipsi contra se torquebantur et cum dolor uicerat, adscribebantur <lb/>
             quae non habebantur.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>nulla aetatis, ualitudinis excusatio.  <lb/>
-            <choice><sic>aegn</sic><corr>aegri</corr></choice> et debiles deferebantur, aestimabantur aetates singulorum, <lb n="5"/>
+            aegri et debiles deferebantur, aestimabantur aetates singulorum, <lb n="5"/>
             paruulis adiciebantur anni, senibus detrahebantur. <lb/>
             luctu et maestitia plena omnia.</p></div>
 
@@ -1783,7 +1781,7 @@
 </div>
 
 <div n="2" subtype="section" type="textpart"><p> nondum animum <lb/>
-            intenderat ad euertendum pellendumue Constantium, <choice n="0.03"><sic n="168">duro</sic><corr n="4432">dum</corr></choice> est <lb/>
+            intenderat ad euertendum pellendumue Constantium, dum est <lb/>
             occupatus his rebus quas superius exposui: et expectabat  <lb/>
             obitum eius, sed tam celeriter non putabat obiturum.</p></div>
 
@@ -1803,7 +1801,7 @@
             namque saepius &lt;rogatus&gt; cum iam diu negare non posset. <lb/>
             dedit illi sigillum inclinante iam die praecepitque, ut postridie<lb n="15"/>
             mane acceptis mandatis proficisceretur, uel ipse illum occasione <lb/>
-            aliqua retentaturus uel praemissurus litteras, ut a <sic>Senero</sic>  <lb/>
+            aliqua retentaturus uel praemissurus litteras, ut a Seuero  <lb/>
             teneretur.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>quae cum ille prospiceret, quiescente lam <lb/>
@@ -1811,7 +1809,7 @@
             multas omnibus equis publicis euolauit.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>postridie imperator <lb n="20"/>
-            cum consulto ad medium diem usque <choice><sic>dormisaet</sic><corr>dormisset</corr></choice>,
+            cum consulto ad medium diem usque dormisset,
 
 <note type="footnote"> 2 delabi <hi rend="italic">C, corr. Bal</hi> 7 frustra repetierat <hi rend="italic">(aut</hi> non uiderat <hi rend="italic">\'aNt<lb/>
              aliquid simile\') add. Bal;</hi> uidendum. iam dudum uero ille <hi rend="italic">Heumann,</hi> <lb/>
@@ -1841,7 +1839,7 @@
             sicut optabat, accepit.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>suscepto imperio Constantinus Augustus  <lb/>
-            nihil egit prius quam (<choice><sic>Jnnstianos</sic><corr>Christianos</corr></choice> cultui ac deo suo reddere. <lb/>
+            nihil egit prius quam (Christianos cultui ac deo suo reddere. <lb/>
             haec fuit prima eius sanctio sanctae religionis restitutae. 
 </p>
           </div>
@@ -1869,7 +1867,7 @@
 
 <div n="5" subtype="section" type="textpart"><p>sed illud excogitauit, ut Seuerum, qui erat  <lb n="20"/>
             aetate maturior, Augustum nuncuparet, Constantinum uero <lb/>
-            non imperatorem, sicut erat factus, sed Caesarem cum <choice><sic>Magimino</sic><corr>Maximino</corr></choice> <lb/>
+            non imperatorem, sicut erat factus, sed Caesarem cum Maximino <lb/>
             appellari iuberet, ut eum de secundo loco reiceret in <lb/>
             quartum. 
 </p>
@@ -1915,7 +1913,7 @@
 </p></div>
 
 <div n="5" subtype="section" type="textpart"><p> <lb/>
-            satis <choice n="0.49"><sic n="576">usum</sic><corr n="588">uisum</corr></choice> est semel fecisse quod noluit. Seuerum arcessit, <lb n="10"/>
+            satis uisum est semel fecisse quod noluit. Seuerum arcessit, <lb n="10"/>
             hortatur ad recipiendum imperium, mittit eum cum exercitu <lb/>
             Maximiani ad expugnandum Maxentium, et mittit Romam, in <lb/>
             qua milites illi summis deliciis saepissime excepti non modo  <lb/>
@@ -1924,7 +1922,7 @@
 <div n="6" subtype="section" type="textpart"><p>Maxentius <lb/>
             tanti facinoris sibi conscius, licet iure hereditatis paternos<lb n="15"/>
             milites traducere ad se posset, cogitans tamen fieri posse ut <lb/>
-            Maximianus socer id ipsum metuens Seuerum in <choice><sic>Ulyrico</sic><corr>Illyrico</corr></choice> relinqueret <lb/>
+            Maximianus socer id ipsum metuens Seuerum in Illyrico relinqueret <lb/>
             atque ipse cum suo exercitu ad se oppugnandum ueniret, <lb/>
             quaerebat quatenus se a periculo impendente muniret. 
 </p></div>
@@ -1971,7 +1969,7 @@
 <div n="27" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
 <p>Herculius uero cum Maximiani nosset insaniam, cogitare   <lb/>
-            coepit illum audita nece <choice><sic>Seuen</sic><corr>Seueri</corr></choice> <choice><sic>lnflammatum</sic><corr>inflammatum</corr></choice> ira susceptis <lb/>
+            coepit illum audita nece Seueri inflammatum ira susceptis <lb/>
             inimicitiis cum exercitu esse uenturum et fortasse adiuncto <lb/>
             Maximino ac duplicatis copiis, quibus resisti nullo modo posset, <lb/>
             &lt;et&gt; urbe munita et rebus &lt;omnibus&gt; diligenter instructa
@@ -2068,7 +2066,7 @@
             uniuersa uexasset.</p></div>
 
 <div n="8" subtype="section" type="textpart"><p>olim quidem ille ut nomen imperatoris  <lb/>
-            acceperat, hostem se Romani <choice n="0.01"><sic n="7">Dominis</sic><corr n="548">nominis</corr></choice> erat professus, cuius <lb/>
+            acceperat, hostem se Romani nominis erat professus, cuius <lb/>
             titulum immutari uolebat, ut non Romanum imperium, sed <lb/>
             Daciscum cognominaretur. <lb n="5"/>
             
@@ -2200,7 +2198,7 @@
 
 <div n="2" subtype="section" type="textpart"><p>uocat filiam Faustam eamque nunc precibus  <lb/>
             nunc blandimentis sollicitat ad proditionem mariti, alium digniorem <lb n="10"/>
-            uirum pollicetur: petit, <choice><sic>cnbiculum</sic><corr>cubiculum</corr></choice> patens relinqui et <lb/>
+            uirum pollicetur: petit, cubiculum patens relinqui et <lb/>
             neglegentius custodiri sinat.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>pollicetur illa facturam et refert  <lb/>
@@ -2209,7 +2207,7 @@
             moriatur.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>surgit ille nocte intempesta, uidet omnia insidiis  <lb n="15"/>
-            opportuna. <choice><sic>ran</sic><corr>rari</corr></choice> excubitores erant et ii quidem longius: <lb/>
+            opportuna. rari excubitores erant et ii quidem longius: <lb/>
             quibus tamen dicit uidisse somnium quod filio suo narrare <lb/>
             uellet. ingreditur armatus et spadone obtruncato prosilit gloriabundus <lb/>
             ac profitetur quid admiserit.</p></div>
@@ -2266,7 +2264,7 @@
             iam de agendis et ipse uicennalibus cogitabat. &lt;et ut&gt;, qui <lb/>
             iam dudum prouincias afflixerat auri argentique indictionibus<lb n="10"/>
             factis, quae promiserat redderet, etiam in nomine uicennalium  <lb/>
-            securem alteram &lt; iis &gt; <sic>inftixit</sic>.</p></div>
+            securem alteram &lt; iis &gt; inflixit.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>qua uexatione generis humani <lb/>
             exactio celebrata sit maxime rei annonariae, quis enarrare <lb/>
@@ -2335,12 +2333,12 @@
             seruet, cedat aetati et honorem deferat canis.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>at ille tollit  <lb/>
-            <choice><sic>auaacius</sic><corr>audacius</corr></choice> cornua et <choice><sic>praescnptione</sic><corr>praescriptione</corr></choice> temporis pugnat: sese <choice><sic>pnorem</sic><corr>priorem</corr></choice> <lb n="20"/>
+            audacius cornua et praescriptione temporis pugnat: sese priorem <lb n="20"/>
             esse debere, qui prior sumpserit purpuram; preces eius <lb/>
             et mandata contempsit.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>dolet bestia et mugit, quod cum ideo  <lb/>
-            ignobilem fecisset Caesarem, ut sibi <choice><sic>obsequeus</sic><corr>obsequens</corr></choice> esset, is tamen <lb/>
+            ignobilem fecisset Caesarem, ut sibi obsequens esset, is tamen <lb/>
             tanti beneficii sui oblitus uoluntati ac precibus suis impie
 
 <note type="footnote">2 circumsepto <hi rend="italic">C</hi> 4 hisdem <hi rend="italic">C</hi> 6 quae-quaes;tos <hi rend="italic">Boherellua, item <lb/>
@@ -2378,7 +2376,7 @@
 <div n="2" subtype="section" type="textpart"><p>medici secant curant. <lb/>
             sed inducta iam cicatrice scinditur uulnus et rupta uena<lb n="10"/>
             fluit sanguis usque ad periculum mortis. uix tamen cruor  <lb/>
-            sistitur. nona ex integro cura. <milestone n="10b" unit="altpage"/>  tandem perducitur ad <sic>cicatncem</sic>.  <lb/>
+            sistitur. nona ex integro cura. <milestone n="10b" unit="altpage"/>  tandem perducitur ad cicatricem.  <lb/>
             </p></div>
 
 <div n="3" subtype="section" type="textpart"><p>rursus leui corporis m&lt;otu u)ulneratnr: plus sanguinis <lb/>
@@ -2425,7 +2423,7 @@
             augetur.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>iam non longe pernicies aberat et inferiora omnia  <lb/>
-            corripuerat. conputrescunt <choice><sic>ionnsecus</sic><corr>forinsecus</corr></choice> uiscera et in tabem sedes <lb/>
+            corripuerat. conputrescunt forinsecus uiscera et in tabem sedes <lb/>
             tota dilabitur. non desinunt tamen infelices medici uel sine <lb/>
             spe uincendi mali fouere curare.</p></div>
 
@@ -2529,7 +2527,7 @@
             </p></div>
 
 <div n="3" subtype="section" type="textpart"><p>denique cum eiusmodi nostra iussio extitisset,  <lb/>
-            ut ad <sic>ueIterum</sic> se instituta <milestone n="11a" unit="altpage"/>  conferrent,  <lb n="5"/>
+            ut ad ut terum se instituta <milestone n="11a" unit="altpage"/>  conferrent,  <lb n="5"/>
             multi periculo subiugati, multi etiam deturbati <lb/>
             sunt.</p></div>
 
@@ -2751,10 +2749,10 @@
             cupiditas! quid dicam nescio nisi caecam et effrenatam, <lb n="5"/>
             et tamen his uerbis exprimi res pro indignatione <lb/>
             sua non potest: uicit officium linguae sceleris magnitudo. <lb/>
-            <choice><sic>eunnchi</sic><corr>eunuchi</corr></choice>, lenones scrutabantur omnia.</p></div>
+            eunuchi, lenones scrutabantur omnia.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>ubicumque liberalior  <lb/>
-            facies erat, secedendum patribus ac <choice n="0.02"><sic n="1">mantis</sic><corr n="41">maritis</corr></choice> fuit. detrahebantur <lb/>
+            facies erat, secedendum patribus ac maritis fuit. detrahebantur <lb/>
             nobilibus feminis uestes itemque uirginibus et per singulos <lb n="10"/>
             artus inspiciebantur, ne qua pars corporis regio cubili esset <lb/>
             indigna. si qua detrectauerat, in aqua necabatur, tamquam
@@ -2796,8 +2794,8 @@
             maiestatis crimen esset sub illo adultero pudicitia.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>aliqui <lb/>
-            <sic n="poss">constupratis</sic> uxoribus, quas ob castitatem ac fidem carissimas <lb/>
-            habebant, cum dolorem ferre non possent, se ipsos etiam <choice><sic>neeauerunt</sic><corr>necauerunt</corr></choice>. <lb/>
+            constupratis uxoribus, quas ob castitatem ac fidem carissimas <lb/>
+            habebant, cum dolorem ferre non possent, se ipsos etiam necauerunt. <lb/>
             sub hoc monstro pudicitiae integritas nulla, nisi ubi  <lb/>
             barbaram libidinem deformitas insignis arcebat.</p></div>
 
@@ -2807,10 +2805,10 @@
             ingenuas uirgines inminutas seruis suis donabat uxores.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>sed  <lb/>
-            &gt;et comites eius sub tali principe <milestone n="12a" unit="altpage"/>  imitabantur s<add>tupra et <choice><sic>hospit</sic><corr>hospitum</corr></choice> <lb/>
+            &gt;et comites eius sub tali principe <milestone n="12a" unit="altpage"/>  imitabantur s<add>tupra et hospit <lb/>
             </add>um suorum cubilia inpune uiolabant: quis enim uindicaret?<lb n="10"/>
-            mediocrium filias, ut cuique libuerat, rapiebat. <choice><sic>primaliae</sic><corr>primariae</corr></choice>, <lb/>
-            quae rapi non poterant, in beneficiis petebantur, nec <choice><sic>recosare</sic><corr>recusare</corr></choice> <lb/>
+            mediocrium filias, ut cuique libuerat, rapiebat. primariae, <lb/>
+            quae rapi non poterant, in beneficiis petebantur, nec recusare <lb/>
             licebat subscribente imperatore, quin aut pereundum  <lb/>
             esset aut habendus gener aliquis barbarus.</p></div>
 
@@ -2854,15 +2852,15 @@
 
 <div n="39" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>Denique cum <choice><sic>hbidmibus</sic><corr>libidinibus</corr></choice> suis hanc legem dedisset, ut <lb/>
+<p>Denique cum libidinibus suis hanc legem dedisset, ut <lb/>
              <note type="chapter">1 </note> <lb/>
-            <choice><sic>las</sic><corr>fas</corr></choice> <choice><sic>puiarei</sic><corr>putaret</corr></choice> <choice><sic>quicquia</sic><corr>quicquid</corr></choice> <choice><sic>concupissei</sic><corr>concupisset</corr></choice>, ne <sic>aD</sic> <choice><sic>AuguSta</sic><corr>Augusta</corr></choice> <sic>qUloem</sic>, quam <lb/>
+            fas putaret quicquid concupisset, ne ab Augusta quidem, quam <lb/>
             nuper appellauerat matrem, potuit temperare.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>uenerat post  <lb n="5"/>
-            obitum Maximiani ad eum <choice><sic>Yaleria</sic><corr>Valeria</corr></choice>, cum se putaret in partibus <lb/>
+            obitum Maximiani ad eum Valeria, cum se putaret in partibus <lb/>
             eius tutius moraturam eo maxime, quod habebat uxorem. <lb/>
-            sed <choice n="0.08"><sic n="31">animai</sic><corr n="323">animal</corr></choice> nefarium protinus inardescit.</p></div>
+            sed animal nefarium protinus inardescit.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>adhuc in atris uestibus  <lb/>
             erat mulier nondum luctus tempore impleto. legatis praemissis <lb/>
@@ -2888,8 +2886,8 @@
 
 <div n="40" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>Erat clarissima femina, cui ex filiis <choice><sic>luuembus</sic><corr>iuuenibus</corr></choice> <choice><sic>lam</sic><corr>iam</corr></choice>   <lb/>
-            nepotes erant. hanc <choice><sic>Yaleria</sic><corr>Valeria</corr></choice> tamquam matrem alteram diligebat: <lb/>
+<p>Erat clarissima femina, cui ex filiis iuuenibus iam   <lb/>
+            nepotes erant. hanc Valeria tamquam matrem alteram diligebat: <lb/>
             cuius consilio negatam sibi suspicatur. dat negotium
 
 <note rend="script" type="footnote"><hi rend="italic">fort. ut genet. plur. retinendum esse censet Halmp. 165 (cf. etiam Woelfflin, <lb/>
@@ -2910,11 +2908,11 @@
 <note type="footnote"> 15* </note> 
 <pb n="220"/>
              <lb/>
-            praesidi t Eratineo, ut eam cum dedecore <choice><sic>interiiciat</sic><corr>interficiat</corr></choice>.</p></div>
+            praesidi t Eratineo, ut eam cum dedecore interficiat.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>huic <lb/>
             aliae duae adiunguntur aeque nobiles, quarum altera filiam <lb/>
-            uirginem <choice><sic>Yestalem</sic><corr>Vestalem</corr></choice> Romae reliquerat, furtiue tunc <choice><sic>Valeiiae</sic><corr>Valeriae</corr></choice> <lb/>
+            uirginem Vestalem Romae reliquerat, furtiue tunc Valeriae <lb/>
             familiaris, altera uirum habuit senatorem, non nimis Augustae <lb/>
             proxima. sed utraque ob eximiam pulchritudinem corporis ac <lb n="5"/>
             pudicitiam necabantur.</p></div>
@@ -2928,7 +2926,7 @@
             inrogantur tormenta Iudaeo, dicit quae iussus &lt;fuerat:</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>illae <lb/>
-            ne <sic>obl</sic>&gt;oquerentur, pugnis a tortoribus coercentur. innocentes <lb/>
+            ne obl&gt;oquerentur, pugnis a tortoribus coercentur. innocentes <lb/>
             duci iubentur. fletus et comploratio non illius tantum mariti <lb/>
             qui aderat bene meritae uxori, sed omnium quos res indigna  <lb n="15"/>
             et inaudita contraxerat.</p></div>
@@ -2959,7 +2957,7 @@
             essagittari <hi rend="italic">C;</hi> instructi milites <hi rend="italic">(sic in Notis,</hi> uelites <hi rend="italic">in Erratis)</hi> et sagit- </note> <lb/>
              
 <pb n="221"/>
-            <sic>clibanarii</sic>, sagittarii prosequuntur. ita mediae inter cuneos arma-, <lb/>
+            clibanarii, sagittarii prosequuntur. ita mediae inter cuneos arma-, <lb/>
             torum ad supplicium deductae.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>iacuissentque insepultae  <lb/>
@@ -3020,7 +3018,7 @@
             <hi rend="italic">add. Burnetus in interpretatione anglica et (post</hi> uiuus) <hi rend="italic">lhtebner</hi> </note> <lb/>
              
 <pb n="222"/>
-            &lt;<sic>Dioeletianus</sic>) cum uideret uiuus quod nulli umquam imperatorum <lb/>
+            &lt;Diocltianus) cum uideret uiuus quod nulli umquam imperatorum <lb/>
             acciderat, duplici aegritudine adfectus moriendum sibi <lb/>
             esse decreuit. iactabat se huc atque illuc aestuante anima per <lb/>
             dolorem nec somnum nec cibum capiens. suspiria et gemitus, <lb/>
@@ -3049,7 +3047,7 @@
 
 <div n="3" subtype="section" type="textpart"><p>et ipse <lb/>
             legatos ad urbem misit occulte societatem Maxentii atque<lb n="15"/>
-            amicitiam postulatum. scribit etiam <choice><sic>familialiter</sic><corr>familiariter</corr></choice>. recipiuntur <lb/>
+            amicitiam postulatum. scribit etiam familiariter. recipiuntur <lb/>
             legati benigne: fit amicitia, utriusque imagines simul locantur. 
 </p></div>
 
@@ -3078,12 +3076,12 @@
              folii 13 a spatium 6 hastarum continens cum parte marginis super. ab-</hi> </note> <lb n="20"/>
              
 <pb n="223"/>
-            <sic>eiitiabilem</sic> finxisse discordiam cum filio, ut ad alios succidendos <lb/>
+            exitiabilem finxisse discordiam cum filio, ut ad alios succidendos <lb/>
             uiam sibi faceret, quibus omnibus sublatis sibi ac filio totius <lb/>
             orbis imperium uindicaret. sed id falsum fuit.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>nam id propositi  <lb/>
-            habebat, ut et filio et ceteris extinctis se ac <sic n="poss">Diocletia</sic>- • <lb/>
+            habebat, ut et filio et ceteris extinctis se ac Diocletianus- • <lb/>
             num restitueret in regnum. <lb n="5"/>
             
 </p>
@@ -3108,7 +3106,7 @@
 
 <div n="4" subtype="section" type="textpart"><p>imminebat  <lb/>
             dies quo Maxentius imperium ceperat, qui est a. d. <lb n="15"/>
-            sextum Kalendas Nouembres, et quinquennalia <sic>terminabantur</sic>. <lb/>
+            sextum Kalendas Nouembres, et quinquennalia terminabantur. <lb/>
 </p></div>
 
 <div n="5" subtype="section" type="textpart"><p>            commonitus est in quiete CODstantinus, ut caeleste signum  <lb/>
@@ -3148,7 +3146,7 @@
             uinci non posse.</p></div>
 
 <div n="8" subtype="section" type="textpart"><p>qua uoce consternatus proripit se ac <lb/>
-            uocatis quibusdam senatoribus libros <choice><sic>Sibyliinos</sic><corr>Sibyllinos</corr></choice> inspici iubet: <lb/>
+            uocatis quibusdam senatoribus libros Sibyllinos inspici iubet: <lb/>
             in quibus repertum est illo die hostem Romanorum esse periturum.  <lb/>
             </p></div>
 
@@ -3217,7 +3215,7 @@
             accessit armatus. erant ibi milites praesidiarii, ad huius modi <lb/>
             casus a Licinio conlocati. hos primum muneribus et promissis <lb/>
             inlicere temptauit, postea ui et oppugnatione terrere, nec tamen <lb/>
-            quicquam <choice n="0.01"><sic n="28">nis</sic><corr n="2266">uis</corr></choice> aut promissa ualuerunt.</p></div>
+            quicquam uis aut promissa ualuerunt.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>iam consumpti erant  <lb/>
             dies undecim, per quos fuit spatium nuntios litterasque mittendi <lb n="15"/>
@@ -3272,13 +3270,13 @@
 </div>
 
 <div n="2" subtype="section" type="textpart"><p>tum Maximinus eius modi uotum <lb/>
-            Ioui uouit, ut si uictoriam cepisset, <choice><sic>Cbristianorum</sic><corr>Christianorum</corr></choice> nomen extingueret <lb n="10"/>
+            Ioui uouit, ut si uictoriam cepisset, Christianorum nomen extingueret <lb n="10"/>
             unusque deleret.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>tunc proxima nocte Licinio <lb/>
             quiescenti adsistit angelus dei monens, ut ocius surgeret atque <lb/>
             oraret deum summum cum omni exercitu suo: illius fore  <lb/>
-            <choice><sic>uictonam</sic><corr>uictoriam</corr></choice>.</p></div>
+            uictoriam.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>si fecisset. post has uoces cum surgere sibi usus <lb/>
             esset et cum ipse qui monebat, adstaret, tunc docebat eum, <lb n="15"/>
@@ -3291,7 +3289,7 @@
 <div n="6" subtype="section" type="textpart"><p>Summe deus, te rogamus, sancte deus, te <lb/>
             rogamus: omnem iustitiam tibi commendamus, salutem <lb/>
             nostram tibi commendamus, imperium nostrum <lb n="20"/>
-            tibi commendamus. per te <choice><sic>uinimus</sic><corr>uiuimus</corr></choice>, per te <lb/>
+            tibi commendamus. per te uiuimus, per te <lb/>
             uictores et felices existimus. summe, sancte deus, <lb/>
             preces nostras exaudi: brachia nostra ad te tendimus:  <lb/>
             exaudi sancte, summe deus.</p></div>
@@ -3318,13 +3316,13 @@
             sicut ille uictus est Romae.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>Maximinus uoluit praeire matunus:  <lb/>
-            <choice><sic>pndie</sic><corr>pridie</corr></choice> mane aciem composuit, ut natalem suum postridie <lb/>
+            pridie mane aciem composuit, ut natalem suum postridie <lb/>
             uictor celebraret. nuntiatur in castra mouisse Maximinum. <lb/>
             capiunt milites arma obuiamque procedunt. campus intererat <lb n="5"/>
             sterilis ac nudus, quem uocant Serenum.</p></div>
 
 <div n="10" subtype="section" type="textpart"><p>erat iam utraque  <lb/>
-            acies in conspectu. Liciniani <choice n="0.52"><sic n="103">acuta</sic><corr n="94">scuta</corr></choice> deponunt, galeas resoluunt, <lb/>
+            acies in conspectu. Liciniani scuta deponunt, galeas resoluunt, <lb/>
             ad caelum manus tendunt praeeuntibus praepositis et pro <lb/>
             imperatore precem dicunt. audit acies peritura precantium <lb/>
             murmur.</p></div>
@@ -3402,7 +3400,7 @@
           </div>
 
 <div n="2" subtype="section" type="textpart"><p>  Cum feliciter tam ego <milestone n="14b" unit="altpage"/>  [quam] Constantinus Augustus <lb n="15"/>
-            quam etiam ego Licinius Augustus <choice><sic>Ripud</sic><corr>apud</corr></choice> <lb/>
+            quam etiam ego Licinius Augustus apud <lb/>
             Mediolanum conuenissemus atque uniuersa quae <lb/>
             ad commoda et securitatem publicam pertinerent, <lb/>
             in tractatu haberemus, haec inter cetera quae uidebamus <lb/>
@@ -3441,7 +3439,7 @@
             abnegandam putaremus, qui uel obseruationi <lb n="10"/>
             Christianorum uel ei religioni mentem suam dederat <lb/>
             quam ipse sibi aptissimam esse sentiret, <lb/>
-            ut possit nobis <sic>suroma</sic> diuinitas, cuius religioni <lb/>
+            ut possit nobis summa diuinitas, cuius religioni <lb/>
             liberis mentibus obsequimur, in omnibus solitum <lb/>
             fauorem suum beniuolentiamque praestare.</p></div>
 
@@ -3474,16 +3472,16 @@
 <pb n="230"/>
             prius scriptis ad officium tuum datis super Christianorum <lb/>
             nomine &lt;continebantur, et quae prorsus <lb/>
-            sinistra et a nostra <choice><sic>olementia</sic><corr>clementia</corr></choice> aliena esse) <lb/>
+            sinistra et a nostra clementia aliena esse) <lb/>
             uidebantur, &lt;ea remoueantur, et&gt; nunc libere ac <lb/>
             simpliciter unus quisque eorum, qui eandem obseruandae <lb n="5"/>
-            religionis <choice><sic>Ohristianorum</sic><corr>Christianorum</corr></choice> gerunt uoluntatem, <lb/>
+            religionis Christianorum gerunt uoluntatem, <lb/>
             citra ullam inquietudinem ac molestiam  <lb/>
             sui id ipsum obseruare contendant.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>quae sollicitudini <lb/>
             tuae plenissime significanda esse credidimus, <lb/>
-            quo scires nos liberam atque absolutam <sic>COlendae</sic><lb n="10"/>
+            quo scires nos liberam atque absolutam colendae<lb n="10"/>
             religionis suae facultatem isdem Christianis  <lb/>
             dedisse.</p></div>
 
@@ -3528,7 +3526,7 @@
 
 <div n="7" subtype="section" type="textpart"><p>atque hoc insuper in persona  <lb/>
             Christianorum statuendum esse censuimus, quod, <lb/>
-            si eadem loca, ad quae antea conuenire <choice n="0.77"><sic n="24">consuerant</sic><corr n="7">consueto</corr></choice>, <lb/>
+            si eadem loca, ad quae antea conuenire consuerant, <lb/>
             de quibus etiam datis ad officium tuum litteris <lb n="10"/>
             certa antehac forma fuerat comprehensa, <lb/>
             priore tempore aliqui uel a fisco nostro uel ab <lb/>
@@ -3631,7 +3629,7 @@
           </div>
 
 <div n="13" subtype="section" type="textpart"><p>His litteris propositis etiam verbo hortatus est, ut conuenticula  <lb/>
-            &lt; 10) statum <choice><sic>pnstinum</sic><corr>pristinum</corr></choice> redderentur. sic ab euersa ecclesia <lb/>
+            &lt; 10) statum pristinum redderentur. sic ab euersa ecclesia <lb/>
             usque ad restitutam fuerunt anni decem, menses plus <lb/>
             minus quattuor. <lb n="20"/>
             
@@ -3676,7 +3674,7 @@
 
 <div n="3" subtype="section" type="textpart"><p>sed prius cibo se infersit ac uino ingurgitauit,<lb n="5"/>
             ut solent ii qui hoc ultimo se facere arbitrantur, et sic hausit <lb/>
-            uenenum. cuius <choice n="0.00"><sic n="5">tiis</sic><corr n="2266">uis</corr></choice> referto stomacho repercussa ualere non <lb/>
+            uenenum. cuius uis referto stomacho repercussa ualere non <lb/>
             potuit in praesens, sed in languorem malum uersum est pestilentiae <lb/>
             similem, ut diutius protracto spiritu cruciamenta  <lb/>
             sentiret.</p></div>
@@ -3688,7 +3686,7 @@
 
 <div n="5" subtype="section" type="textpart"><p>deinde <lb/>
             post multos grauesque cruciatus cum caput suum parietibus <lb/>
-            <choice n="0.75"><sic n="6">indigeret</sic><corr n="2">infligeret</corr></choice>, exilierunt oculi eius de caueis. tunc demum, amisso <lb n="15"/>
+            infligeret, exilierunt oculi eius de caueis. tunc demum, amisso <lb n="15"/>
             uisu, deum uidere coepit candidatis ministris de se iudicantem.  <lb/>
             </p></div>
 
@@ -3731,12 +3729,12 @@
 <div n="2" subtype="section" type="textpart"><p>            nam Licinius summa rerum potitus in primis Yaleriam, quam  <lb/>
             Maximinus iratus ne post fugam quidem, cum sibi uideret <lb/>
             esse pereundum, fuerat ausus occidere, item Candidianum, <lb n="5"/>
-            quem <choice><sic>Yaleria</sic><corr>Valeria</corr></choice> ex concubina genitum ob sterilitatem adoptauerat, <lb/>
+            quem Valeria ex concubina genitum ob sterilitatem adoptauerat, <lb/>
             necari iussit. mulier tamen ut eum uicisse cognouit. 
 </p></div>
 
 <div n="3" subtype="section" type="textpart"><p> <lb/>
-            mutato habitu <choice n="0.94"><sic n="82">comitatu</sic><corr n="5">comitatui</corr></choice> eius se immiscuerat, ut fortunam <lb/>
+            mutato habitu comitatui eius se immiscuerat, ut fortunam <lb/>
             Candidiani specularetur: &lt; qui&gt; quia Nicomediae se obtulerat <lb/>
             et in honore haberi uidebatur, nihil tale metuens occisus est. <lb n="10"/>
             et illa exitu eius audito protinus fugit.</p></div>
@@ -3751,7 +3749,7 @@
             Maximino esse maluerant praeter Valeriam, quae &lt;quod&gt; uolenti <lb/>
             Licinio, in omnia Maximiani &lt;bona&gt; hereditatis iure suo <lb/>
             -^ <lb/>
-            &lt;se&gt; cedere, idem <choice><sic>Maximmo</sic><corr>Maximino</corr></choice> negauerat.</p></div>
+            &lt;se&gt; cedere, idem Maximino negauerat.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>ipsius quoque 
 
@@ -3795,7 +3793,7 @@
 <div n="1" subtype="section" type="textpart">
 <p>Valeria quoque per uarias prouincias quindecim mensibus <lb/>
             plebeio cultu peruagata postremo apud Thessalonicam  <lb/>
-            cognita, <choice><sic>compreliensa</sic><corr>comprehensa</corr></choice> cum matre poenas dedit.</p></div>
+            cognita, comprehensa cum matre poenas dedit.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>ductae igitur <lb/>
             mulieres cum ingenti spectaculo et miseratione tanti casus <lb/>
@@ -3839,7 +3837,7 @@
              quod BentJeius</hi> scienti enim <hi rend="italic">(ex adnot. Le Xourryi) ascripB</hi>. locor <hi rend="italic">C</hi> </note> <lb/>
              
 <pb n="237"/>
-            tantarum rerum interiret aut si quis historiam scribere <choice n="0.81"><sic n="122">uoluisset</sic><corr n="27">noluisset</corr></choice>, <lb/>
+            tantarum rerum interiret aut si quis historiam scribere uoluisset, <lb/>
             [non] corrumperet ueritatem uel peccata illorum aduersus <lb/>
             deum uel iudicium dei aduersus illos reticendo.</p></div>
 
@@ -3847,11 +3845,11 @@
             pietati gratias agere debemus, qui tandem respexit in <lb/>
             terram, quod gregem suum partim uastatum a lupis rapacibus <lb n="5"/>
             partim uero dispersum reficere ac recolligere dignatus est <milestone n="16a" unit="altpage"/> et <lb/>
-            bestias malas extirpare, quae diuini <choice><sic>greris</sic><corr>gregis</corr></choice> pascua protriuerant, <lb/>
+            bestias malas extirpare, quae diuini gregis pascua protriuerant, <lb/>
             cubilia dissipauerant.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>ubi sunt modo magnifica illa et clara  <lb/>
-            per gentes Iouiorum et <sic>Herculiorum</sic> cognomina, quae primum <lb/>
+            per gentes Iouiorum et Herculiorum cognomina, quae primum <lb/>
             a Dioclete ac Maximiano insolenter adsumpta ac postmodum <lb n="10"/>
             ad successores eorum translata uiguerunt? nempe deleuit ea <lb/>
             dominus et erasit de terra.</p></div>
@@ -3888,9 +3886,9 @@
             anonymus p. 69</hi> </note> <lb/>
              
 <pb n="238"/>
-            dominum deprecare, ut <sic>miaericordiam</sic> suam seruet etiam famulis <lb/>
+            dominum deprecare, ut misericordiam suam seruet etiam famulis <lb/>
             suis propitius ac mitis, ut omnes insidias atque impetus diaboli <lb/>
-            a populo suo arceat, ut <sic>florescentis</sic> ecclesiae perpetuam <lb/>
+            a populo suo arceat, ut florescentis ecclesiae perpetuam <lb/>
             quietem custodiat.
 
 <note type="footnote">1 etiam] aeternam <hi rend="italic">Boherellus,</hi> et maneat <hi rend="italic">Heumann,</hi> iam <hi rend="italic">Halm p. 163</hi> <lb/>

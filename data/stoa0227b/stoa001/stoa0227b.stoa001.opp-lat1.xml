@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -213,8 +211,8 @@
             itinerarium de locis sanctis a nobis utcunque exaratum et ex <lb/>
             omnibus, ut ita dicam, libris collectum uestrae paternitati <lb/>
             destinare curaui poscens id a uestra eminentia roborari; in<lb n="10"/>
-            quo <sic n="poss">rog6</sic> non dictantis ignauiam, sed materiam adtendatis <lb/>
-            utillimam, nec <choice n="0.02"><sic n="12">noni</sic><corr n="585">noui</corr></choice> uos et incogniti hactenus aliquid in hoc <lb/>
+            quo rogo non dictantis ignauiam, sed materiam adtendatis <lb/>
+            utillimam, nec noui uos et incogniti hactenus aliquid in hoc <lb/>
             itinerario ediscituros, sed ea quae iam uiua uoce illis referentibus, <lb/>
             qui ad sepulchrum Domini perrexerunt, edidicistis, uel <lb/>
             ea, quae per uolumina diuersa librorum legistis, nos hic noueritis<lb n="15"/>
@@ -254,7 +252,7 @@
             ciuitate contra aquilonem non longe a porta Dauid. Post resurrectionem <lb n="5"/>
             autem est ortus, in qua sancta Maria cum domino <lb/>
             locuta est. Foris ecclesiam retro est medietas orbis, &lt; de&gt; quo <lb/>
-            loco <sic>dicitDauid</sic>: \'<sic>Operatus</sic> es salutem in medio terrae\'. <lb/>
+            loco dicit Dauid: \'Operatus es salutem in medio terrae\'. <lb/>
             Alius etiam propheta dicit: \'Haec dicit dominus: ista <lb/>
             est Hierusalem in medio gentium posui eam\'. <lb n="10"/>
             
@@ -283,7 +281,7 @@
             in quo tabernaculum, illic et archa testamenti fuit, quae a <lb n="30"/>
             
 </p>
-          <p><choice><sic>Veapasiano</sic><corr>Vespasiano</corr></choice> imperatore destructo templo Romae delata est. <lb/>
+          <p>Vespasiano imperatore destructo templo Romae delata est. <lb/>
             A latere uero sinistro tabernaculi super saxum posuit dominus
 
 <note type="footnote"> 8 Psalra. 73, 12 9 Ezech. 5, 5 </note>
@@ -293,9 +291,9 @@
 <pb n="108"/>
             Iesus pedem suum, quando eum Symeon accepit in ulnis, et <lb/>
             ita remansit pes sculptus, ac si in cera positus esset. Ab alio <lb/>
-            uero latere saxi est <sic>tabernaculus</sic> apertus, in quo per gradus <lb/>
-            uiginti duo descendunt. <choice><sic>lbi</sic><corr>Ibi</corr></choice> Dominus orabat, ibi et Zacharias <lb/>
-            <choice><sic>saciificabat</sic><corr>sacrificabat</corr></choice>. Extra templum locus est, ubi <sic>Zacbarias</sic> filius<lb n="5"/>
+            uero latere saxi est tabernaculus apertus, in quo per gradus <lb/>
+            uiginti duo descendunt. Ibi Dominus orabat, ibi et Zacharias <lb/>
+            sacrificabat. Extra templum locus est, ubi Zacharias filius<lb n="5"/>
             Barachiae interfectus est. Super saxum in medio templi pendet <lb/>
             candela aurea, in qua est sanguis Christi, qui per petram <lb/>
             scissam descendit. Contra meridiem autem non longe templum <lb/>
@@ -304,7 +302,7 @@
             duo, et subtus non longe cunabula Christi et balneum <lb/>
             eius et lectum sanctae dei genitricis. Subtus templum Domini <lb/>
             ab oriente est porta speciosa, unde Dominus intrauit sedens <lb/>
-            super pullum <choice><sic>aainae</sic><corr>asinae</corr></choice>. Ibi et Petrus claudum sanauit. Contra <lb/>
+            super pullum asinae. Ibi et Petrus claudum sanauit. Contra <lb/>
             aquilonem est ecclesia sanctae Annae, ubi tribus annis beata<lb n="15"/>
             Maria nutrita fuit. Prope uero est probatica piscina, quae <lb/>
             . quinque porticus habet. 
@@ -312,9 +310,9 @@
             </div>
   <div n="2" subtype="section" type="textpart">
               <ab>
-            <title type="sub"><hi rend="italic">Beda c. II a <choice><sic>nerbis</sic><corr>uerbis</corr></choice>: (In uicinia templi Bethsaida <sic>piscitza</sic>) usque ad uerba: 1 Unde putant ibi mediam esse terram.\'</hi> </title>
+            <title type="sub"><hi rend="italic">Beda c. II a uerbis: (In uicinia templi Bethsaida piscina) usque ad uerba: 1 Unde putant ibi mediam esse terram.\'</hi> </title>
           </ab>
-          <p><hi rend="italic"><sic>Anonytnus</sic>:</hi> In ecclesia uero, quae dicitur sancta Syon,<lb n="20"/>
+          <p><hi rend="italic">Anonymus:</hi> In ecclesia uero, quae dicitur sancta Syon,<lb n="20"/>
             est thronus Iacobi fratris domini, qui iuxta templum sepultus <lb/>
             est; in eo autem loco fundata est, ubi cenantibus apostolis <lb/>
             post passionem hostiis clausis abparuit dominus. Prope uero <lb/>
@@ -336,7 +334,7 @@
               <ab>
             <title type="sub"><hi rend="italic">Bedae c. III et IIII usque ad uerba: Habebat autem longi- tudinis octo pedes.\'</hi> </title>
           </ab>
-          <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Sudarium uero, cum quo Christus faciem <lb/>
+          <p><hi rend="italic">Anonymus:</hi> Sudarium uero, cum quo Christus faciem <lb/>
             suam extersit, quae ab aliis Veronyca dicitur, tempore Tiberii <lb/>
             Caesaris Romae delatum est. Arundo uero, cum qua caput <lb n="5"/>
             eius percussum est, et sandalia eius et lora, cum quibus <lb/>
@@ -348,9 +346,9 @@
               <ab>
             <title type="sub"><hi rend="italic">Bedae c. IIII a uerbis: Aliud quoque aliquanto maius linteum\' usque ad finem, c. V, c. VL</hi> </title>
           </ab>
-          <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Trans torrentem Cedron est spelunca et super <lb/>
+          <p><hi rend="italic">Anonymus:</hi> Trans torrentem Cedron est spelunca et super <lb/>
             eam ecclesia in eo loco, ubi quinta feria post cenam Saluatorem <lb/>
-            <choice><sic>ludaei</sic><corr>Iudaei</corr></choice> comprehenderunt, qui locus est in capite uallis Iosaphat. <lb/>
+            ludaei comprehenderunt, qui locus est in capite uallis Iosaphat. <lb/>
             In eadem uero ualle stetit palma unde pueri ramos tulerunt, <lb/>
             quando clamauerunt Hosanna. Item in monte Oliueti est spelunca <lb n="15"/>
             et in ea altarium, bene lucida, in qua solebat Dominus <lb/>
@@ -363,9 +361,9 @@
             </div>
   <div n="5" subtype="section" type="textpart">
               <ab>
-            <title type="sub"><hi rend="italic">Bedae c. VII exceptis ultimis uerbis: <sic>Titulo</sic> nominis <choice n="0.00"><sic n="4">cius</sic><corr n="14268">eius</corr></choice> usque <sic>Jiodie</sic> designatum.\'</hi> </title>
+            <title type="sub"><hi rend="italic">Bedae c. VII exceptis ultimis uerbis: Titulo nominis eius usque hodie designatum.\'</hi> </title>
           </ab>
-          <p><hi rend="italic"><sic>Allonymus</sic>:</hi> Piscina uero, ubi exprobrauit Rabsaces, iuxta <lb/>
+          <p><hi rend="italic">Anonymus:</hi> Piscina uero, ubi exprobrauit Rabsaces, iuxta <lb/>
             Bethleem est. Iuxta ostium autem speluncae puteus est, unde <lb n="25"/>
             aquam concupiuit Dauid. In ualle etiam, quae in Bethleem <lb/>
             est, sunt memoriae regum Iuda. Non longe autem inde est <lb/>
@@ -392,15 +390,15 @@
             distat autem ab Hierusalem miliariis uiginti. In alio autem <lb/>
             monte ad miliarium secundum est ecclesia, ubi requiescunt <lb/>
             corpora sanctorum Eleazari et Finees. Miliario uero nono ab <lb/>
-            Hierusalem in loco, qui dicitur <choice><sic>Cariatbiarim</sic><corr>Cariathiarim</corr></choice>, ubi fuit archa<lb n="15"/>
+            Hierusalem in loco, qui dicitur Cariathiarim, ubi fuit archa<lb n="15"/>
             domini, ecclesia illuc constructa est. 
 </p>
             </div>
   <div n="6" subtype="section" type="textpart">
               <ab>
-            <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. VIII</hi>. </title>
+            <title type="sub"><hi rend="italic">Bedae c. VIII</hi>. </title>
           </ab>
-          <p><hi rend="italic"><sic>Anonymus</sic>:</hi> In uicesimo autem quarto miliario ab Hierusalem <lb/>
+          <p><hi rend="italic">Anonymus:</hi> In uicesimo autem quarto miliario ab Hierusalem <lb/>
             iuxta Ebron est fons, in quo baptizauit Philippus apostolus <lb/>
             et euangelista eunuchum Candacis reginae. In loco<lb n="20"/>
             uero, qui appellatur Terebinthus, ubi apparuerunt tres angeli <lb/>
@@ -427,9 +425,9 @@
             </div>
   <div n="7" subtype="section" type="textpart">
               <ab>
-            <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. <sic>VIUl</sic>, X, XI, XII, XIII</hi>. </title>
+            <title type="sub"><hi rend="italic">Bedae c. VIIII, X, XI, XII, XIII</hi>. </title>
           </ab>
-          <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Qui autem ad Iordanem ire ab Hierusalem <lb n="5"/>
+          <p><hi rend="italic">Anonymus:</hi> Qui autem ad Iordanem ire ab Hierusalem <lb n="5"/>
             desiderat, per montem Oliueti descendit. A monte Oliueti <lb/>
             Christus ascendit ad celum et ibi fecit Pater noster. Mons <lb/>
             autem Syon a meridie est; ibi obiit sancta Maria et ibi dominus <lb/>
@@ -479,9 +477,9 @@
             </div>
   <div n="8" subtype="section" type="textpart">
               <ab>
-            <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. <sic>XlIII</sic></hi>. </title>
+            <title type="sub"><hi rend="italic">Bedae c. XIII</hi>. </title>
           </ab>
-          <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Duo autem miliaria ecclesia ista distat ab<lb n="10"/>
+          <p><hi rend="italic">Anonymus:</hi> Duo autem miliaria ecclesia ista distat ab<lb n="10"/>
             eadem uilla, quae olim dicta est Sychem. A longe uero ab <lb/>
             eadem ecclesia passus quingentos est ecclesia, in qua requiescit <lb/>
             sanctus Ioseph. 
@@ -489,9 +487,9 @@
             </div>
   <div n="9" subtype="section" type="textpart">
               <ab>
-            <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. XV</hi>. </title>
+            <title type="sub"><hi rend="italic">Bedae c. XV</hi>. </title>
           </ab>
-          <p><hi rend="italic"><sic>Anouymus</sic>:</hi> Spelunca uero, in qua habitauit, magna est<lb n="15"/>
+          <p><hi rend="italic">Anonymus:</hi> Spelunca uero, in qua habitauit, magna est<lb n="15"/>
             et lucidissima, ubi est positum altarium, et ibi intra ipsam <lb/>
             speluncam est locus, unde aquam tollebat. In eadem autem <lb/>
             ciuitate, ubi fuit synagoga, nunc est ecclesia, ubi dominus <lb/>
@@ -502,9 +500,9 @@
             </div>
   <div n="10" subtype="section" type="textpart">
               <ab>
-            <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. XVI</hi>. </title>
+            <title type="sub"><hi rend="italic">Bedae c. XVI</hi>. </title>
           </ab>
-          <p><hi rend="italic"><sic>Anonymus</sic>:</hi> Valde autem est excelsior et altior quam <lb/>
+          <p><hi rend="italic">Anonymus:</hi> Valde autem est excelsior et altior quam <lb/>
             Hermon; nam et Galilea omnis et mare Tyberiadis inde apparet; <lb/>
             contra se uero positi sunt montes utrique. 
 </p>
@@ -528,8 +526,8 @@
 </p>
           <p>Ibidem uero super mare est campus herbosus, habens foenum <lb/>
             satis et arbores palmarum multas et iuxta eas septem fontes, <lb/>
-            qui singuli <choice><sic>intinitam</sic><corr>infinitam</corr></choice> aquam emittunt, in quo campo Dominus <lb/>
-            de quinque -Į&gt;<sic>anibus</sic> et duobus piscibus populum satiauit. <lb n="10"/>
+            qui singuli infinitam aquam emittunt, in quo campo Dominus <lb/>
+            de quinque -Į&gt;panibus et duobus piscibus populum satiauit. <lb n="10"/>
             Sane lapis, super quem Dominus panem posuit, est factum <lb/>
             altarium, de quo lapide nunc frustra tollunt uenientes pro <lb/>
             salute sibi et prodest omnibus. Iuxta cuius ecclesiae parietes <lb/>
@@ -537,7 +535,7 @@
             Inde in montem, qui iuxta est, est specula, in qua ascendens <lb n="15"/>
             beatitudines dixit Saluator. Non longe autem inde est synagoga, <lb/>
             quam Saluator maledixit; nam cum transiret Saluator et illam <lb/>
-            <choice><sic>ludaei</sic><corr>Iudaei</corr></choice> fabricarent, interrogauit eos dicens: \'Quid facitis?\' et <lb/>
+            ludaei fabricarent, interrogauit eos dicens: \'Quid facitis?\' et <lb/>
             illi: \'Nihil\'. Et Dominus: (Ergo si nihil est, quod facitis, nihil <lb/>
             erit semper\\ Quod usque hodie ita permanet. Postmodum <lb n="20"/>
             enim, quotiens uoluerunt illam Iudaei fabricare, quidquid per <lb/>
@@ -549,7 +547,7 @@
             fundamenta turris usque hodie apparent. Sepulchrum uero Iezabel <lb/>
             usque hodie ab omnibus lapidatur. Non longe autem a ciuitate <lb/>
             est mons, in quo sedit Helias propheta, quando eum persequebatur <lb/>
-            <choice><sic>lezabel</sic><corr>Iezabel</corr></choice>. A longe autem est pars montis Carmeli; est locus, <lb n="30"/>
+            Iezabel. A longe autem est pars montis Carmeli; est locus, <lb n="30"/>
             ubi Helias altarium Domini consecrauit. Sebastia, quae olim <lb/>
             Samaria dicta est, continet ecclesiam, in qua requiescit corpus
 
@@ -574,7 +572,7 @@
             prophetae, qui prophetauit aduersus Ieroboam. Miliario autem <lb/>
             uicesimo secundo ab Hierusolimis inter Socchot Iudaeae et<lb n="10"/>
             inter Zecara Mahel occidit Dauid Goliam Philisteum. In Eleutheropoli <lb/>
-            autem loco <sic>Bycoyca</sic>, in qua est sepulchrum Abacuc <lb/>
+            autem loco Bycoyca, in qua est sepulchrum Abacuc <lb/>
             prophetae. Ab Eleutheropoli autem quintodecimo miliario est <lb/>
             sepulchrum sancti Hesdrae prophetae in loco, qui dicitur Asoa, <lb/>
             et in miliario tertio in loco, qui dicitur Chariassati, quod ante<lb n="15"/>
@@ -583,20 +581,20 @@
 </p>
           <p>Taphnis est posita super ripam fluminis Nili; ibi est palatium <lb/>
             Pharaonis, ubi sanctus Moyses pro filio filiae Pharaonis <lb/>
-            habebatur; ibi etiam et capitanei sunt, ubi sanctus <choice><sic>Moyaes</sic><corr>Moyses</corr></choice> <lb n="20"/>
+            habebatur; ibi etiam et capitanei sunt, ubi sanctus Moyses <lb n="20"/>
             coram Pharaone mirabilia fecit. 
 </p>
             </div>
   <div n="11" subtype="section" type="textpart">
               <ab>
-            <title type="sub"><hi rend="italic"><sic>Bedae</sic> c. XVIII</hi>. </title>
+            <title type="sub"><hi rend="italic">Bedae c. XVIII</hi>. </title>
           </ab>
-          <p><sic>Anonymus</sic>: Memphis uero adhuc palatium continet, ubi <lb/>
+          <p>Anonymus: Memphis uero adhuc palatium continet, ubi <lb/>
             sanctus Ioseph frequenter ingrediebatur. Inde ad miliarium <lb/>
             sextum contra ripam fluminis Nili est thronus Moysi et Aaron; <lb n="25"/>
             sunt autem praedicti throni in monte excelso, ubi sunt duae <lb/>
             turriculae, quae per gradus plurimos ascenduntur; una earum <lb/>
-            habuit tectum, alia autem sine tecto est. Ibi <choice><sic>asctindebat</sic><corr>ascendebat</corr></choice> Moyses, <lb/>
+            habuit tectum, alia autem sine tecto est. Ibi ascendebat Moyses, <lb/>
             quando loquebatur filiis Israhel, cum deprimerentur, in alia <lb/>
             uero orabat. Subtus autem in circuitu campus est, ubi filii <lb n="30"/>
             Israhel lateres faciebant. Inde autem ad mille passus uilla est
@@ -606,7 +604,7 @@
             </hi> habet </note> <lb/>
              
 <pb n="115"/>
-            supra ripam <choice><sic>ftllminis</sic><corr>fluminis</corr></choice>, ubi sancta Maria cum Domino fuit, <lb/>
+            supra ripam fluminis, ubi sancta Maria cum Domino fuit, <lb/>
             quando in Egyptum perrexit. Inter Memphis uero et Babilonia <lb/>
             milia sunt duodecim, ubi sunt pyramides plurimae, quas fecit <lb/>
             Ioseph ad frumenta recondenda. Eliopolis distat a Babilonia <lb/>
@@ -633,7 +631,7 @@
             ubi filii Israhel sicco pede transierunt mare. Vestigia autem <lb/>
             currus Pharaonis in mediis arenis parent usque in sempiternum. <lb/>
             Rotae autem ipsae inter se multo plus habent quam currus <lb n="25"/>
-            temporis nostri, qui nunc in Romano <choice><sic>imperjo</sic><corr>imperio</corr></choice> fiunt; nam inter <lb/>
+            temporis nostri, qui nunc in Romano imperio fiunt; nam inter <lb/>
             rotam et rotam uiginti et quatuor pedes seu amplius fuerunt, <lb/>
             orbitae autem ipsae habent binos pedes in lato. Vestigia uero <lb/>
             currus Pharaonis usque ad mare accedunt, ubi tamen ingressus <lb/>
@@ -662,17 +660,17 @@
             alibi enim nusquam in Romano solo accessum habent naues <lb/>
             de India nisi ibi. Naues autem ibi et multae et ingentes sunt;<lb n="10"/>
             quare portus famosus est pro aduenientibus ibi mercatoribus <lb/>
-            de <choice><sic>Iudia</sic><corr>India</corr></choice>. Nam et ille agens in rebus, quem logotetem appellant, <lb/>
+            de India. Nam et ille agens in rebus, quem logotetem appellant, <lb/>
             id est, qui singulis annis legatus ad Indiam uadit iussu <lb/>
             imperatoris Romani, ibi ergo sedes habet, et naues ipsius ibi <lb/>
             stant. Hic est locus, ubi peruenerunt filii Israhel fugientes a<lb n="15"/>
-            <sic>Faraone</sic>, quando de Egypto profecti sunt; hoc autem castrum <lb/>
+            Faraone, quando de Egypto profecti sunt; hoc autem castrum <lb/>
             postmodum ibi positum est pro defensione et disciplina pro <lb/>
             incursione Saracenorum. 
 </p>
           <p>Locus autem ipse talis est, ubi totum heremi sint, id est campi <lb/>
             arenosi, excepto monte illo uno, qui incumbit in mari, in cuius<lb n="20"/>
-            montis latere ex aduerso <choice><sic>conligitur</sic><corr>configitur</corr></choice> marmor porphyreticum; nam <lb/>
+            montis latere ex aduerso conligitur marmor porphyreticum; nam <lb/>
             ex eo dicitur appellari mare rubrum, quod hic mons, qui per <lb/>
             spatium grande super mare rubrum iacet, rosseum lapidem habeat <lb/>
             uel porphyreticum, nam et ipse mons quasi rosseo colore <lb/>
@@ -709,10 +707,10 @@
             ac si mare Oceanus. Ibi elecesse nimii saporis et suauitatis <lb/>
             sunt. Omne autem genus piscium in eodem mare sunt tanti <lb/>
             saporis ut pisces maris Italici. Deinde omnia, quaecunque de <lb/>
-            mare desiderari solent, illic ad cibum <sic>babundant</sic>. Ibi sunt <lb/>
+            mare desiderari solent, illic ad cibum habundant. Ibi sunt <lb/>
             bucchinae et conchylii diuersa genera, sfondili uero et cocleae <lb n="20"/>
             diuersae et ingentes; per litus autem eius diuersae res iacent, <lb/>
-            sed maiores et pulchriores quam in nullo mari. <sic>Corallum</sic> <lb/>
+            sed maiores et pulchriores quam in nullo mari. Corallum <lb/>
             uero in eodem littore plurimum est, ipse autem mare rubrum <lb/>
             pars Oceani est. 
 </p>
@@ -731,7 +729,7 @@
              
 <pb n="118"/>
             qui dicitur Arandara; Arandara autem est locus, qui appellatus <lb/>
-            est Helim. Ibi <choice><sic>Ruuius</sic><corr>fluuius</corr></choice> currit, qui tamen tempore aliquo <choice><sic>siceatur</sic><corr>siccatur</corr></choice>, <lb/>
+            est Helim. Ibi fluuius currit, qui tamen tempore aliquo siccatur, <lb/>
             sed per ipsius alueum siue iuxta ripam ipsius inueniuntur <lb/>
             aquae. Herba uero illic satis habundat, arbores autem <lb/>
             palmarum illic plurimae sunt. A transitu autem maris rubri,<lb n="5"/>
@@ -740,7 +738,7 @@
             mansio iuxta mare est. 
 </p>
           <p>Demum uero apparent duo montes excelsi ualde, a parte uero <lb/>
-            sinistra, antequam ad montes <choice n="0.25"><sic n="38">ueniae</sic><corr n="109">uenias</corr></choice>, locus est, ubi <sic>pluitDominus</sic><lb n="10"/>
+            sinistra, antequam ad montes uenias, locus est, ubi pluit Dominus<lb n="10"/>
             manna filiis Israhel; montes uero ipsi excelsi et erecti ualde <lb/>
             sunt. Ab alia uero parte montium uallis planissima est ac si <lb/>
             porticus, ducentos passus uallis ipsa in latitudine habens. Ab <lb/>
@@ -758,13 +756,13 @@
             uineas nichilque aliud illic est nisi aqua et arbores palmarum. <lb n="25"/>
             
 </p>
-          <p>Prope uero ad uicum <sic>Faram</sic> ad mille quingentos passus <lb/>
+          <p>Prope uero ad uicum Faram ad mille quingentos passus <lb/>
             coangustantur montes illi, ut uix triginta passibus lata ibi <lb/>
             sit uallis illa. Ibi appellatur locus ille Raphidin, ubi Amalech <lb/>
             occurrit filiis Israhel, et ubi murmurauit populus pro aqua, <lb/>
             et ubi lethro socer Moysi ei occurrit. Locus uero, ubi orauit <lb n="30"/>
             Moyses, quando Iesus expugnauit Amalech, mons excelsus <lb/>
-            est ualde et erectus, imminens super <sic>Faran</sic>; ubi autem orauit <lb/>
+            est ualde et erectus, imminens super Faran; ubi autem orauit <lb/>
             Moyses, ecclesia nunc constructa est. Locus autem ipse,
 
 <note type="footnote"> 10 est <hi rend="italic">om. Gamwrrini</hi> 22 Pharon <hi rend="italic">Miant cum codice, ut uidetur</hi> <lb/>
@@ -786,20 +784,20 @@
           <p>Ab Aseroth autem usque ad montem sanctum Syna inter montes <lb/>
             ad dexteram et sinistram totum per uallem ipsam monumentis <lb/>
             plenum est. Prope uero montem sanctum in loco, qui appellatur <lb/>
-            <choice><sic>sepukra</sic><corr>sepulcra</corr></choice> concupiscentiae, totum sepulcris plenum est. Antequam <lb n="15"/>
+            sepulcra concupiscentiae, totum sepulcris plenum est. Antequam <lb n="15"/>
             uero peruenias ad montem Syna, sunt sex montes, qui faciunt <lb/>
             uallem infinitam, planissimam et ualde pulchram. Trans uallem <lb/>
             uero ipsam apparet mons sanctus Syna. Locus autem, ubi se <lb/>
             montes aperiunt, iunctus est cum eo loco, ubi sunt sepulcra <lb/>
             concupiscentiae. A loco autem, unde uidetur, usque ad montem <lb n="20"/>
-            Syna sunt per uallem ipsam quatuor milia passuum. <choice><sic>Yallis</sic><corr>Vallis</corr></choice> <lb/>
+            Syna sunt per uallem ipsam quatuor milia passuum. Vallis <lb/>
             autem ipsa ingens ualde est, iacens sub pedibus montis dei, <lb/>
             quae habet in longitudine passus sedecim milia, in latitudine <lb/>
-            autem quatuor milia. Qui <sic>unIt</sic> ergo ad montem sanctum <lb/>
+            autem quatuor milia. Qui uult ergo ad montem sanctum <lb/>
             pergere, per transuersum ad uallem illam deambulat. Haec <lb n="25"/>
             est autem uallis ingens et planissima, in qua filii Israhel <lb/>
             commorati sunt, quando Moyses fuit in montem quadraginta <lb/>
-            diebus et quadraginta noctibus. Locus autem, ubi factus est <sic>uitulususque</sic> <lb/>
+            diebus et quadraginta noctibus. Locus autem, ubi factus est uitulus, usque <lb/>
             hodie ostenditur, nam lapis grandis ibi fixus stat. Haec <lb/>
             ergo uallis ipsa est, in cuius capite ille locus est, ubi sancto <lb n="30"/>
             Moysi locutus est deus in rubo de igne. Ab uno autem latere <lb/>
@@ -819,7 +817,7 @@
             excelsissimi sint, tamen ipse ille medianus. in quo descendit <lb/>
             maiestas dei, tanto altior est omnibus illis, ut, cum quis <lb/>
             ascenderit in illo, prorsus omnes illi montes, quos excelsissimos <lb/>
-            uiderit, ita sub monte uidentur Syna ac si <sic>collieuli</sic>. <lb n="10"/>
+            uiderit, ita sub monte uidentur Syna ac si colliculi. <lb n="10"/>
             Mons autem cum omnibus altior sit ille medianus, qui specialiter <lb/>
             Syna dicitur, tamen uideri non potest, nisi ad propriam <lb/>
             radicem illius ueneris, ante tamen quam eum subeas; nam <lb/>
@@ -829,7 +827,7 @@
             quoniam non ascenduntur per girum in cocleis, sed directe <lb/>
             ascenduntur ac si per parietem et directe descenduntur. In <lb/>
             uertice autem montis Sina, ubi lex Moysi data est, ecclesia <lb/>
-            parua constructa est. In summitate uero montis <choice><sic>iilius</sic><corr>illius</corr></choice> nullus <lb n="20"/>
+            parua constructa est. In summitate uero montis illius nullus <lb n="20"/>
             habitat, nichil est enim ibi aliud nisi sola ecclesia et <lb/>
             spelunca, in qua habitauit sanctus Moyses. Mons uero ipse <lb/>
             totus petrinus est, ita ut nec fruticem habeat. De summitate <lb/>
@@ -838,7 +836,7 @@
             Syna Egyptus, Palestina, mare rubrum, mare parthenicum, quod <lb/>
             mittit Alexandriam, nec non et fines Saracenorum uidentur. 
 </p>
-          <p>In monte <choice><sic>uerc</sic><corr>uero</corr></choice> Choreb, qui eidem monti coniunctus est, <lb/>
+          <p>In monte uero Choreb, qui eidem monti coniunctus est, <lb/>
             est ecclesia et ante ecclesiam spelunca, in qua latuit sanctus <lb/>
             Helias sub Achab. Ostenditur ibi etiam altarium lapideum, <lb n="30"/>
             quem posuit ipse sanctus Helias ad offerendum deo. Non <lb/>

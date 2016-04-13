@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,17 +99,17 @@
             cum se ipsum in ecclesia quibusdam sibi adiunctis perditis <lb/>
             incendere minaretur, uiro spectabili tribuno et notario Dulcitio, <lb/>
             cui piissimus imperator leges suas exsequendas cura perficiendae <lb n="5"/>
-            <choice><sic>anitatis</sic><corr>unitatis</corr></choice> iniunxit, agenti, ut oportebat, cum furentibus mansuete <lb/>
+            unitatis iniunxit, agenti, ut oportebat, cum furentibus mansuete <lb/>
             et prius ad eundem Gaudentium litteras pacificas danti <lb/>
             duas rescripsit epistulas, unam breuiorem et perlatoribus, <lb/>
-             sicut indicat, festinantibus <choice><sic>featinatam</sic><corr>festinatam</corr></choice>, alteram uero prolixiorem, <lb/>
+             sicut indicat, festinantibus festinatam, alteram uero prolixiorem, <lb/>
             in qua. secundum scripturas se respondisse diligentius <lb n="10"/>
             arbitratur. ita ergo scripta eius opitulante domino institui <lb/>
             refutare, -ut etiam qui sunt ingenio tardiores ad omnia me <lb/>
             respondisse non dubitent. nam prius uerba eius ponam, deinde <lb/>
             nostra subiungam non sic, quemadmodum feci, cum Petiliani <lb/>
             litteris responderem. ibi enim per loca singula, quando uerba <lb n="15"/>
-            ipsius inseruntur, <choice n="0.94"><sic n="417">positum</sic><corr n="22">positura</corr></choice> est Petilianus dixit, quando <lb/>
+            ipsius inseruntur, positum est Petilianus dixit, quando <lb/>
             autem mea uerba redduntur, Augustinus respondit. unde <lb/>
             mihi, tamquam mentitus fuerim, calumniatus est, dicens <lb/>
             quod numquam mecum comminus disputauerit; quasi propterea <lb/>
@@ -132,7 +130,7 @@
             cor habere opinantur? sed etiam talibus hic satisfaciamus <lb/>
             et, quando ponimus uerba Gaudentii, non dicamus \'Gaudentius <lb/>
             dixit&gt;, sed uerba epistulae\', et quando respondemus, non dicamus <lb/>
-            \'Augustinus respondit\', sed <sic>cad</sic> haec responsio\'. sic ergo <lb/>
+            \'Augustinus respondit\', sed sed haec responsio\'. sic ergo <lb/>
             incipiamus refellere Gaudentii epistulam priorem atque breuiorem.<lb n="5"/>
             </p>
           
@@ -140,7 +138,7 @@
 
 <div n="2" subtype="section" type="textpart">
 <p>Uerba epistulae: <hi rend="italic">Honorabili ac nimium nobis, si sic <lb/>
-            <choice n="0.75"><sic n="84">uolueris</sic><corr n="27">nolueris</corr></choice>, desiderando Dulcitio tribuno et notario Gaudentius <lb/>
+            uolueris, desiderando Dulcitio tribuno et notario Gaudentius <lb/>
             episcopus</hi>. ad haec responsio: Non debemus etiam ista discutere, <lb/>
             ne propemodum in superfluis immoremur, cum sint<lb n="10"/>
             loca necessaria, quae nos aliquanto diutius loqui cogant. 
@@ -182,7 +180,7 @@
              
 <pb n="203"/>
             haereseos te ad unam et ueram dei conferas fidem? uerumtamen <lb/>
-            nos non tribuni uerba <choice><sic>defendsre</sic><corr>defendere</corr></choice>, sed haeretici refutare <lb/>
+            nos non tribuni uerba defendere, sed haeretici refutare <lb/>
             suscepimus. si quid ergo iste noster tamquam laicus militaris <lb/>
             dixit incautius, quis ei non ignoscat? quis ecclesiae catholicae <lb/>
             de uerbis eius praeiudicandum esse contendat? tu perpensius <lb n="5"/>
@@ -196,7 +194,7 @@
 <div n="5" subtype="section" type="textpart">
 <p><milestone n="4" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Quodsi criminosos,</hi> inquit, <hi rend="italic">existimas, <lb/>
             fugienda est uobis damnanda societas</hi>. ad haec responsio: <lb n="10"/>
-            Plane fugienda est societas <choice><sic>criminosoruUl</sic><corr>criminosorum</corr></choice>, sed non respuenda <lb/>
+            Plane fugienda est societas criminosorum, sed non respuenda <lb/>
             est correctorum. illud ergo ita salubriter deuitamus, ut hoc <lb/>
             misericorditer uelimus optemus instemus. 
 </p>
@@ -205,7 +203,7 @@
 
 <div n="6" subtype="section" type="textpart">
 <p><milestone n="5" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Si uero innocentes putas,</hi> inquit. <lb/>
-            <hi rend="italic">quod etiam ipse dixisti, persecutores nos in fide <choice><sic>Ckristi</sic><corr>Christi</corr></choice><lb n="15"/>
+            <hi rend="italic">quod etiam ipse dixisti, persecutores nos in fide Christi<lb n="15"/>
              constituti sustinere gaudemus</hi>. ad haec responsio: Consideraui <lb/>
             litteras tribuni ad te datas et nusquam in eis legi, quod te <lb/>
             dixerit innocentem, sed ab aliis audisse uel cognouisse prudentem. <lb/>
@@ -214,12 +212,12 @@
             hominis deceptor accepit. quod enim quidam interpretati sunt <lb/>
             \'sapientissimum omnium bestiarum\', &lt;prudentissimum&gt; potius <lb/>
             Graeci codices habent, unde in Latinam linguam scriptura <lb/>
-            <choice><sic>llla</sic><corr>illa</corr></choice> translata est. sed si eos putandum est innocentes a tribuno <lb/>
+            illa translata est. sed si eos putandum est innocentes a tribuno <lb/>
             esse dictos, quos a te ad exitium teneri dixit inuitos. <lb n="25"/>
             quid mirum, si et illic fieri credidit, quod in aliis locis factum <lb/>
             esse cognouit? non est ergo unde gaudeas te pati persecutionem, <lb/>
             cum inuenire non possis quomodo te asseras innocentem. <lb/>
-            absit autem ut ista <choice><sic>persecutip</sic><corr>persecutio</corr></choice> dicenda sit hominum, cum <lb/>
+            absit autem ut ista persecutio dicenda sit hominum, cum <lb/>
             sit potius pro hominibus liberandis persecutio uitiorum,
 
 <note type="footnote">6 cf. Breuic. 1 4 22 cf. Gen. 3, 1 </note>
@@ -247,8 +245,8 @@
             ueritate semper est frequentatum, nos aut uiui, quamdiu<lb/>
              deo placuerit, permanemus aut, ut dignum. est dei familia, <lb/>
             intra dominica castra uitae exitum terminamus, sub ea<lb n="10"/>
-            scilicet <choice><sic>condwione</sic><corr>condicione</corr></choice>, quia, si <choice><sic>icis</sic><corr>uis</corr></choice> fuerit operata, tunc id poterit <lb/>
-            <sic>cÚenire</sic>. nemo enim tam demens est, ut nullo impellente <lb/>
+            scilicet condicione, quia, si uis fuerit operata, tunc id poterit <lb/>
+            cuenire. nemo enim tam demens est, ut nullo impellente <lb/>
             festinet ad mortem</hi>. ad haec responsio: Neque hoc in tribuni <lb/>
             litteris legitur a te in ueritate inuo-catum nomen dei, quamuis <lb/>
             dixerit . inuocatum. quamquam etiamsi dixisset, posset hoc<lb n="15"/>
@@ -259,7 +257,7 @@
             uestram corrigimus iniquitatem, non utique debemus illius<lb n="20"/>
             sacramenti rescindere ueritatem. profiteris sane, innocens homo, <lb/>
             aliis quidem uerbis, cum ecclesia te ac tuos interituros. cum <lb/>
-            enim dicis (in <sic n="poss">ecclesia1</sic>, quid aliud uis intellegi nisi cum <lb/>
+            enim dicis (in ecclesia, quid aliud uis intellegi nisi cum <lb/>
             ecclesia, quandoquidem id agere ignibus praeparas? haec est <lb/>
             innocentia partis Donati, ut hoc faciatis adiunctis mortibus<lb n="25"/>
             uestris, quod etiam apud Carthaginem in inuidiam nostram <lb/>
@@ -286,13 +284,13 @@
 </div>
 
 <div n="8" subtype="section" type="textpart">
-<p><milestone n="7" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Eos autem qui <choice><sic>iwbiscum</sic><corr>nobiscum</corr></choice> sunt,</hi> <lb n="5"/>
+<p><milestone n="7" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Eos autem qui nobiscum sunt,</hi> <lb n="5"/>
             inquit, <hi rend="italic">testem deum facio eiusque omnia sacramenta, quod <lb/>
             exhortatus sum et impensissime persuasi, ut, qui haberet <lb/>
-            <choice><sic>Iloluntatem</sic><corr>uoluntatem</corr></choice> egredi, securus publice fateretur. nec nos enim <lb/>
-            inuitos retinere possumus, qui <choice><sic>didicimits</sic><corr>didicimus</corr></choice> ad dei fidem <sic>nullurn</sic> <lb/>
+            uoluntatem egredi, securus publice fateretur. nec nos enim <lb/>
+            inuitos retinere possumus, qui didicimus ad dei fidem nullum <lb/>
             esse cogendum</hi>. ad haec responsio: Cur autem non te <lb n="10"/>
-            etiamsi non inuitorum retentorem, tamen ad bonum opus <sic>exhortatorem</sic> <lb/>
+            etiamsi non inuitorum retentorem, tamen ad bonum opus exhortatorem <lb/>
             apertissime profiteris, si quod facturus es bonum <lb/>
             est? an forte quam malum sit et ipse intellegis atque id te <lb/>
             facturum magis ut terreas quam ut impleas comminaris, aut <lb/>
@@ -304,7 +302,7 @@
 
 <div n="9" subtype="section" type="textpart">
 <p><milestone n="8" unit="altchapter"/> Uerba epistulae: <hi rend="italic">(et alia manu:) Opto te incolumem <lb/>
-            in rei publicae actibus florentem et a <choice><sic>christianorum</sic><corr>Christianorum</corr></choice> inquietudine <lb/>
+            in rei publicae actibus florentem et a christianorum inquietudine <lb/>
             recedentem</hi>. ad haec responsio: Possumus eum et nos <lb/>
             optare et incolumem et in rei publicae actibus florentem, sed <lb/>
             non ab haereticorum correctione quiescentem. <lb n="20"/>
@@ -326,7 +324,7 @@
 
 <div n="11" subtype="section" type="textpart">
 <p><milestone n="10" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Solent sibi,</hi> inquit, <hi rend="italic">sola fama noti<lb/>
-             <choice n="0.22"><sic n="89">cupere</sic><corr n="299">capere</corr></choice> aut inserto inuicem aspectu uerba miscere aut incogniti <lb/>
+             cupere aut inserto inuicem aspectu uerba miscere aut incogniti <lb/>
             saltem non horrere praesentiam. tua uero censura, quod</hi>
 
 <note type="footnote"> 1. 2 pag. 204, 11—12 </note>
@@ -339,8 +337,8 @@
             21 Verba epistolae secundae v 27 sibi] igitur f 28 incerto v </note> <lb/>
              
 <pb n="206"/>
-            <hi rend="italic"><sic>abseritem</sic> me <sic>imietieris</sic> gratulatum te, quod autem redierim<lb/>
-             contristatum, litteris <sic>intlmastl</sic></hi>. ad haec responsio: Non omnes, <lb/>
+            <hi rend="italic">absentem me inueneris gratulatum te, quod autem redierim<lb/>
+             contristatum, litteris intimasti</hi>. ad haec responsio: Non omnes, <lb/>
             qui sibi sola fama noti sunt, uidere inuicem uolunt, sed quos <lb/>
             bene ipsa fama commendat. mirum est autem re uera quod <lb/>
             tibi accidit, ut tu eum desiderandum dicas, a quo te persecutionem<lb n="5"/>
@@ -355,21 +353,21 @@
 </div>
 
 <div n="12" subtype="section" type="textpart">
-<p><milestone n="11" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed quoniam praeterita <choice n="0.87"><sic n="3386">die</sic><corr n="479">dic</corr></choice>,</hi> inquit, <lb/>
-            <hi rend="italic">ne <choice n="0.01"><sic n="4">epistulari</sic><corr n="376">epistula</corr></choice> responso siluissem, propter moram portantium <lb/>
+<p><milestone n="11" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed quoniam praeterita die,</hi> inquit, <lb/>
+            <hi rend="italic">ne epistulari responso siluissem, propter moram portantium <lb/>
             certa quaeque strictim ac breuiter intirnaui, nunc mihi dignationis <lb/>
-            tuae scriptis <choice><sic>sacrosaiwtae</sic><corr>sacrosanctae</corr></choice> legis diuinae uerbis est <lb/>
+            tuae scriptis sacrosanctae legis diuinae uerbis est <lb/>
             respondendum. dominus dicit: innocentem et iustum non<lb n="15"/>
             occides et purgatione non purgabis reum. certum est <lb/>
             igitur in dei iudicio pari crimine parique reatu esse deuinctos, <lb/>
-            qui reum <sic>ahsoluerit</sic> et qui occiderit innocentem. si ante <lb/>
+            qui reum absoluerit et qui occiderit innocentem. si ante <lb/>
             communionem rei erant a te nominatus Gabinius uel ceteri<lb/>
-             fideifragi in malo illi lapsu. consortes, secundum dei <sic>udces</sic><lb n="20"/>
-            <sic>ctbsolui</sic> minime <choice><sic>debuemnt</sic><corr>debuerunt</corr></choice>. si autem tamquam innocentes <lb/>
+             fideifragi in malo illi lapsu. consortes, secundum dei uoces<lb n="20"/>
+            absolui minime debuerunt. si autem tamquam innocentes <lb/>
             uel sancti recepti sunt, quare in ea fide permanentes, unde <lb/>
             uelut sanctos accipitis, occiditis innocentes</hi>? ad haec responsio: <lb/>
             Inuidiose et mendaciter loqueris. ille quippe, ad quem loqueris, <lb/>
-            non tale praeceptum accepit ut occidamini, sed ut <sic>corrigamini</sic>;<lb n="25"/>
+            non tale praeceptum accepit ut occidamini, sed ut corrigamini;<lb n="25"/>
             quod si nolueritis, ne correctionem impediatis aliorum, <lb/>
             in exilium mittemini. quod si a iustis fieri non debet <lb/>
             iniustis, cur etiam falso uoluistis de Caeciliani exilio in nostra
@@ -434,9 +432,9 @@
             at <hi rend="italic">Iv</hi> 29 arbitrararis J iustoque] et insto <hi rend="italic">fo</hi> </note> <lb/>
              
 <pb n="208"/>
-            non parcis. certe ipse dixisti: <hi rend="italic">in dei <choice n="0.90"><sic n="1078">iudicio</sic><corr n="116">indicio</corr></choice> pari crimine<lb/>
+            non parcis. certe ipse dixisti: <hi rend="italic">in dei iudicio pari crimine<lb/>
              parique reatu esse deuinctos, qui reum absoluerit et qui <lb/>
-            occiderit innocentem</hi>. quare ergo absoluisti Felicianum <sic>Magimianistam</sic> <lb/>
+            occiderit innocentem</hi>. quare ergo absoluisti Felicianum Maximianistam <lb/>
             reum? quare innocentem occidis et te ipsum? nos <lb/>
             autem nec reum absoluimus, sed ut mereatur absolui prius<lb n="5"/>
             corrigi cupimus, nec te innocentem, siue tibi parcas siue te <lb/>
@@ -454,7 +452,7 @@
             quippe cogitatione, qua occidere se ipse molitur, innocentia <lb/>
             prius exspoliatur, ut, cum se occidit, non innocens moriatur. <lb/>
             hoc tibi contingeret, si, antequam te occidere praeparares, <lb n="20"/>
-            innocens esses. nunc uero quia et antea iam haereticus <choice><sic>inDocens</sic><corr>innocens</corr></choice> <lb/>
+            innocens esses. nunc uero quia et antea iam haereticus innocens <lb/>
             non eras, non erit, si te occideris, tuae iniquitatis ini-, <lb/>
             tium, sed augmentum. 
 </p>
@@ -465,7 +463,7 @@
 <p><milestone n="14" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Nam de sancto Emerito, inquit,<lb/>
             Caesariensi falsa ad nos pro merito fama peruenit. quod si <lb n="25"/>
              (sic) esset, audi apostolum dicentem: si exciderunt a fide <lb/>
-            quidam illorum, numquid infidelitas illorum <choice><sic>fideni</sic><corr>fidem</corr></choice></hi>
+            quidam illorum, numquid infidelitas illorum fidem</hi>
 
 <note type="footnote"> 1 pag. 206, 17 26 Rom. 3, 3-4 </note>
 
@@ -583,7 +581,7 @@
             audi et dominum dicentem, quia pastor bonus animam <lb n="10"/>
             suam ponit pro ouibus suis, mercenarius autem et <lb/>
             cuius non sunt oues propriae, uidet lupum uenientem<lb/>
-             et fugit et <choice><sic>hipus</sic><corr>lupus</corr></choice> rapit eas et dispergit</hi>. ad haec responsio: <lb/>
+             et fugit et lupus rapit eas et dispergit</hi>. ad haec responsio: <lb/>
             Ecce quomodo intellegit euangelium pars Donati! itane apostolus <lb/>
             non pastor, sed \'mercenarius erat, quando per murum <lb n="15"/>
             in sporta submissus fugit manus eius, qui eum conprehendere <lb/>
@@ -614,17 +612,17 @@
 <pb n="212"/>
             corpore, sed animo fugit, quando deserit timore iustitiam, <lb/>
             sicut fugit Secundus uester Tigisitanus, quando Purpurium <lb/>
-            <sic>Liniatensem</sic> de homicidio confessum magisque terribilem, ne <lb/>
+            Liniatensem de homicidio confessum magisque terribilem, ne <lb/>
             primatum uel episcopatum perderet, timuit corpore autem <lb/>
             etiam boni illi pastores apostoli in persecutione fugerunt nec<lb n="5"/>
-            ideo tamen <choice n="0.01"><sic n="3">ones</sic><corr n="243">oues</corr></choice> Christi cura et animo reliquerunt. si ergo <lb/>
+            ideo tamen oues Christi cura et animo reliquerunt. si ergo <lb/>
             et tu pastor esses, prius in lupi parte non esses, deinde imperium <lb/>
             domini tui, qui seruos suos fugere in persecutionibus <lb/>
             iussit, per os cuiuslibet etiam peccatoris oboedienter audisses <lb/>
             nec contra dominum tuum argumentareris et diceres: <hi rend="italic">facior<lb n="10"/>
-            legis <sic>trmium</sic> debet audiri, quia Paulus apostolus dicit: non <lb/>
+            legis tantum debet audiri, quia Paulus apostolus dicit: non <lb/>
             auditores legis iusti sunt apud deum, sed factores <lb/>
-            legis <sic>instificabuntur</sic></hi>. 
+            legis iustificabuntur</hi>. 
 </p>
           
 </div>
@@ -639,7 +637,7 @@
             uides quemadmodum Christus etiam per homines auditores <lb n="20"/>
             ac praedicatores legis et non factores alios eam tamen audire <lb/>
             praecepit et eius esse factores; et tu dicis: <hi rend="italic">factor legis tantum<lb/>
-             debet <choice><sic>rrudiri</sic><corr>audiri</corr></choice>.,</hi> et uolens redarguere quasi persecutorem <lb/>
+             debet audiri.,</hi> et uolens redarguere quasi persecutorem <lb/>
             tuum loqueris aduersus creatorem tuum. peccatori quidem <lb/>
             dicit dominus: ut quid tu enarras iustificationes meas <lb n="25"/>
             et assumis testamentum meum per os tuum?, sed <lb/>
@@ -680,13 +678,13 @@
 
 <div n="19" subtype="section" type="textpart">
 <p><milestone n="18" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Deinde,</hi> inquit, <hi rend="italic">quae loca erunt, <lb/>
-            quae in hac persecutionis procella undique perturbatos <choice><sic>tranquUlitati</sic><corr>tranquillitati</corr></choice> <lb n="20"/>
+            quae in hac persecutionis procella undique perturbatos tranquillitati <lb n="20"/>
             seruandos tamquam in portum recipiant sacerdotes, <lb/>
             quando dominus dixerit: cum uos persequi coeperint in<lb/>
              hac ciuitate, fugite in aliam [ciuitatem]. tute tunc<lb/>
              fugiebant apostoli, quia neminem pro eis proscribi iusserat <lb/>
-            imperator. nunc uero <choice><sic>ckristianorum</sic><corr>Christianorum</corr></choice> receptores <choice><sic>proseriptionibus</sic><corr>proscriptionibus</corr></choice> <lb n="25"/>
-            <choice><sic>ternti</sic><corr>territi</corr></choice> pericula formidantes non solum non recipiunt, uerum<lb/>
+            imperator. nunc uero christianorum receptores proscriptionibus <lb n="25"/>
+            territi pericula formidantes non solum non recipiunt, uerum<lb/>
              etiam uidere timent quos tacite uenerantur</hi>. ad haec responsio: <lb/>
             Hoc plane laudo quod agnoscitis uos, sed quod uos non
 
@@ -712,7 +710,7 @@
             defuturas ad quas confugiant ciuitates, dicens: cum autem<lb n="10"/>
             persequentur uos in ciuitate ista, fugite in aliam. <lb/>
             amen enim dico uobis, non consummabitis ciuitates <lb/>
-            <choice><sic>lsrael</sic><corr>Israel</corr></choice>, donec ueniat filius hominis? tu autem <lb/>
+            Israel, donec ueniat filius hominis? tu autem <lb/>
             in hac persecutione, quam uos querimini perpeti, iam deesse <lb/>
             uobis dicis loca, quo fugere et ubi tamquam in portu possitis<lb n="15"/>
             ab hac tempestate requiescere, loquens contra promissionem <lb/>
@@ -751,7 +749,7 @@
              enim: fecit deus hominem et dimisit eum in manu <lb/>
             arbitrii sui. quid mihi nunc humano imperio eripitur, <lb/>
             quod largitus est deus? aduerte, uir summe, quanta in deum <lb/>
-            <choice><sic>sactnlegia</sic><corr>sacrilegia</corr></choice> perpetrentur, ut quod ille tribuit auferat humana <lb/>
+            sacrilegia perpetrentur, ut quod ille tribuit auferat humana <lb/>
             praesumptio et pro deo se id facere inaniter iactet. magna<lb n="10"/>
              dei iniuria, si ab hominibus defendatur. quid de deo aestimat <lb/>
             qui eum uiolentia uult defendere, nisi quia non ualet <lb/>
@@ -760,7 +758,7 @@
             atque dimissis humanae licentiae inpunita peccata omnia relinquantur, <lb n="15"/>
             nullis oppositis repagulis legum nocendi audacia et <lb/>
             lasciuiendi libido bacchetur, non rex suum regnum, non dux <lb/>
-            militem, non prouincialem <choice n="0.81"><sic n="343">iudex</sic><corr n="79">index</corr></choice>, non dominus seruum, non <lb/>
+            militem, non prouincialem iudex, non dominus seruum, non <lb/>
             maritus uxorem, non pater filium a libertate et suauitate <lb/>
             peccandi minis ullis poenisue compescat. auferte quod sana <lb n="20"/>
             doctrina pro sanitate orbis terrarum sapienter per apostolum <lb/>
@@ -788,7 +786,7 @@
             non potestis delere, contemnite. habete de his omnibus pessimum <lb/>
             arbitrium, ne perdatis liberum arbitrium, aut certe, quia<lb n="5"/>
             sicut homines hominibus erubescitis, clamate, si audetis: <lb/>
-            <choice><sic>cpuniantur</sic><corr>puniantur</corr></choice> homicidia, puniantur adulteria, puniantur cetera <lb/>
+            puniantur homicidia, puniantur adulteria, puniantur cetera <lb/>
             quantalibet sceleris siue libidinis facinora seu flagitia: sola <lb/>
             sacrilegia uolumus a regnantium legibus impunita\', an uero <lb/>
             aliud dicitis, cum dicitis: <hi rend="italic">magna dei iniuria, si ab hominibus<lb n="10"/>
@@ -801,7 +799,7 @@
             Moyses iniurias suas lenissime pertulit, dei uero seuerissime <lb/>
             uindicauit. tu nunc autem doctior haeretica praesumptione <lb/>
             inuidiosissime clamas: <hi rend="italic">fecit deus hominem et dimisit <lb/>
-            eum in manu arbitrii sui. quid <choice><sic>miki</sic><corr>mihi</corr></choice> nunc humano<lb n="20"/>
+            eum in manu arbitrii sui. quid mihi nunc humano<lb n="20"/>
             imperio eripitur, quod largitus est deus?,</hi> hoc uidelicet flagitans, <lb/>
             ut ad faciendas iniurias deo, qui cum libero arbitrio <lb/>
             fecit hominem, liberum tibi arbitrium relinquatur ab homine. <lb/>
@@ -822,7 +820,7 @@
             Petil. II 92, 211. Ep. c. Don. 20, 54</hi> 28 defensatur <hi rend="italic">f</hi> </note> <lb/>
              
 <pb n="217"/>
-            <hi rend="italic">quid de deo <choice><sic>aestiniat</sic><corr>aestimat</corr></choice> qui eum uiolentia uult defendere, nisi <lb/>
+            <hi rend="italic">quid de deo aestimat qui eum uiolentia uult defendere, nisi <lb/>
             quia non ualet suas ipse iniurias uindicare</hi>? haec uerba tua <lb/>
             prorsus etiam illi dicere potuerunt et fortasse dixerunt, etsi <lb/>
             non eadem libertate, non dissimili uanitate. 
@@ -836,14 +834,14 @@
             illi primi homines, cum peccassent, morte damnati sunt, et <lb/>
             priusquam mors eis extrema etiam corporis suppleretur, in <lb/>
             exilium de paradiso missi sunt. mitiora in uos constituit <lb/>
-            imperator propter mansuetudinem <choice><sic>christianam</sic><corr>Christianam</corr></choice>: exilium nobis <lb n="10"/>
+            imperator propter mansuetudinem christianam: exilium nobis <lb n="10"/>
             uoluit inferre, non mortem. sed uos homines docti, considerantes <lb/>
             quid debeatur merito et quid minus sit in supplicio, <lb/>
             non de iudicio illius, sed de uestro additis mortem. nolite <lb/>
             perire in aeternum, dum uobis hoc tempore ad offendendum <lb/>
             deum concedi ab hominibus uultis liberum arbitrium. audi <lb n="15"/>
             apostolum et habebis magnum compendium, quo tibi regia <lb/>
-            potestas nocere non possit: <sic>bonumfac</sic>, et habebis laudem <lb/>
+            potestas nocere non possit: bonum fac, et habebis laudem <lb/>
             ex illa. ex illa et ante nos iusti habuerunt laudem, non solum <lb/>
             qui regibus religiosis fideliter paruerunt, uerum etiam qui <lb/>
             reges impios pro dei ueritate aduersarios pertulerunt: illi <lb n="20"/>
@@ -854,8 +852,8 @@
             promissa euangelica rebellare et aduersus eum de quo dictum <lb n="25"/>
             est: dominabitur a mari usque ad mare et a flumine <lb/>
             usque ad terminos orbis terrae, hoc est aduersus <lb/>
-            uerum et summum regem <choice><sic>christianorum</sic><corr>Christianorum</corr></choice>, tamquam ciuili bello <lb/>
-            <choice><sic>christiaua</sic><corr>Christiana</corr></choice> signa portare. sufficiat ergo uobis ad occasionem <lb/>
+            uerum et summum regem christianorum, tamquam ciuili bello <lb/>
+            christiana signa portare. sufficiat ergo uobis ad occasionem <lb/>
             correctionis, quod pro tam magnis malis uestris longe mitiora <lb n="30"/>
             et minora recipitis, si non uobis ultro quod imperator non
 
@@ -880,7 +878,7 @@
 <div n="22" subtype="section" type="textpart">
 <p><milestone n="20" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Nostram uero fidem,</hi> inquit, <hi rend="italic">quam<lb/>
              dominus Christus apostolis dereliquit, solae nobis istae persecutiones <lb/>
-            gratissimam reddunt. felices, inquit, eritis, <choice n="0.16"><sic n="8584">eum</sic><corr n="42581">cum</corr></choice><lb n="10"/>
+            gratissimam reddunt. felices, inquit, eritis, cum<lb n="10"/>
             uos persecuti fuerint homines et maledixerint et<lb/>
              dixerint aduersus uos omne nequam propter filium <lb/>
             hominis. gaudete et exultate, quia merces uestra <lb/>
@@ -899,7 +897,7 @@
             sed qui propter filium hominis patiuntur, qui est Christus <lb/>
             Iesus. uos autem non propter ipsum patimini, sed contra <lb/>
             ipsum; patimini quippe ideo, quia non ei creditis, et toleratis <lb/>
-            ideo, ne credatis. quomodo ergo uos eam <choice n="0.02"><sic n="41">iidem</sic><corr n="1523">fidem</corr></choice> tenere iactatis, <lb/>
+            ideo, ne credatis. quomodo ergo uos eam fidem tenere iactatis, <lb/>
             quam dominus Christus apostolis dereliquit? an usque adeo
 
 <note type="footnote"> 10 Matth. 5, 11-12 18 II Tim. 3, 12 20 Ioh. 16, 2-3 </note>
@@ -912,7 +910,7 @@
             grauissimam <hi rend="italic">fv</hi> 17 et <hi rend="italic">om. f</hi> </note> <lb n="30"/>
              
 <pb n="219"/>
-            caecos et surdos uultis esse homines, ut non legant, <choice n="0.00"><sic n="18">uon</sic><corr n="65020">non</corr></choice> <lb/>
+            caecos et surdos uultis esse homines, ut non legant, non <lb/>
             audiant euangelium, ubi nouerint, quam fidem de sua ecclesia <lb/>
             dominus Christus apostolis dereliquit? ex qua diuisi atque <lb/>
             separati nihil aliud facitis quam contra uerba capitis et corporis <lb/>
@@ -925,8 +923,8 @@
             in caelum. surgens enim a mortuis posteaquam apparuit discipulis <lb/>
             suis intuendus oculis manibusque tractandus: oportebat, <lb/>
             inquit, impleri quae scripta sunt in lege et <lb/>
-            prophetis et psalmis de me. tunc aperuit illis <choice n="0.65"><sic n="343">sensum</sic><corr n="180">senis</corr></choice>, <lb/>
-            ut intellegerent scripturas, <sic>etdixit</sic> eis: quoniam <lb n="15"/>
+            prophetis et psalmis de me. tunc aperuit illis sensum, <lb/>
+            ut intellegerent scripturas, et dixit eis: quoniam <lb n="15"/>
             sic scriptum est et sic oportebat pati <lb/>
             Christum et resurgere tertia die, et praedicari in <lb/>
             nomine eius paenitentiam et remissionem peccatorum <lb/>
@@ -942,7 +940,7 @@
             audire cupiebant et quod illis maxime fuerat necessarium <lb/>
             non quaerebant: dic nobis, inquiunt, si in tempore hoc <lb/>
             praesentabis [et quando] regnum Israel? at ille: <lb n="30"/>
-            non est, inquit, uestrum <sic>Dosse</sic> temp ora [<sic>uelmomenta</sic>]
+            non est, inquit, uestrum nosse temp ora [uel momenta]
 
 <note type="footnote"> 12 Luc. 24, 44-47 25 Ps. 95, 1 29 Act. 1, 6-9 </note> <note type="margin"> <hi rend="italic">def. A</hi> </note>
 
@@ -995,7 +993,7 @@
             esse cens. v, om. fv</hi> 30 primi debeatis <hi rend="italic">f</hi> </note> <lb/>
              
 <pb n="221"/>
-            <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice>, ut ante dei iudicium quod futurum est etiam ipsi <lb/>
+            uobis, ut ante dei iudicium quod futurum est etiam ipsi <lb/>
             uobis quod meremini ex aliqua parte reddatis. unde quia tu <lb/>
             ipse dixisti non hoc solis apostolis, sed omnibus dictum, ne <lb/>
             usque ad illos fides praemia habuisse uideretur: sicut hoc <lb/>
@@ -1003,13 +1001,13 @@
             post illos propter iustitiam fuerant mala quaecumque passuri, <lb/>
             sic etiam omnibus illud dictum est: si uos persecuti <lb/>
             fuerint in ista ciuitate, fugite in aliam. quare hoc <lb/>
-            <sic>aon</sic> facitis, si ad eorum societatem, quibus haec dicta sunt, <lb/>
-            <sic>pertinetis</sic>? quod quidem etsi feceritis, non ideo pertinebitis, <lb n="10"/>
+            non facitis, si ad eorum societatem, quibus haec dicta sunt, <lb/>
+            pertinetis? quod quidem etsi feceritis, non ideo pertinebitis, <lb n="10"/>
             quia et latrones hoc facere possunt, quos inquiri leges publicae <lb/>
             iusserunt. uerumtamen quia hoc facere non uultis, de compendio <lb/>
             uos ad istos, quibus haec dicta sunt, non pertinere <lb/>
             monstratis. et ut uos multo manifestius ipsa excusatio uestra <lb/>
-            ab illo numero uerorum <choice><sic>christianorum</sic><corr>Christianorum</corr></choice> ostendat alienos, loca <lb n="15"/>
+            ab illo numero uerorum christianorum ostendat alienos, loca <lb n="15"/>
             quo confugiatis, quae ille usque in finem saeculi non defutura <lb/>
             promisit, uobis deesse iam dicitis, nullo modo illum quod <lb/>
             falsa promiserit conuincentes, sed uos ad eorum consortium <lb/>
@@ -1022,15 +1020,15 @@
 
 <div n="24" subtype="section" type="textpart">
 <p><milestone n="21" unit="altchapter"/> Nam et illud quod addidisti dixisse apostolum: <lb/>
-            <hi rend="italic">omnes, qui in Christo pie uiuere <choice n="0.92"><sic n="884">uolunt</sic><corr n="72">nolunt</corr></choice>, persecutionem <lb/>
+            <hi rend="italic">omnes, qui in Christo pie uiuere uolunt, persecutionem <lb/>
             patiantur necesse est,</hi> non quidem ille dixit: \'necesse <lb/>
-            est\\ sed: omnes, ait, qui <choice n="0.92"><sic n="884">uolunt</sic><corr n="72">nolunt</corr></choice> in Christo pie uiuere <lb n="25"/>
+            est\\ sed: omnes, ait, qui uolunt in Christo pie uiuere <lb n="25"/>
             persecutionem patientur. sed uos ad istos non pertinere <lb/>
             quis dubitat? si enim et uos estis, de quibus hoc dixit <lb/>
             apostolus, quare non facitis, quod ipse fecit apostolus? nam <lb/>
             si portae aduersus uos clauderentur, per murum submitti <lb/>
-            debuistis, ut manus <choice><sic>persequeutium</sic><corr>persequentium</corr></choice> fugeretis. patent portae <lb n="30"/>
-            et exire non uultis. quam persecutionem patimini nisi a <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice>? <lb/>
+            debuistis, ut manus persequentium fugeretis. patent portae <lb n="30"/>
+            et exire non uultis. quam persecutionem patimini nisi a uobis? <lb/>
             diligit uos persecutor uester et persequitur uos furor uester:
 
 <note type="footnote"> 7 Matth. 10, 23 23 pag. 218, 18 25 II Tim. 3, 12 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
@@ -1042,9 +1040,9 @@
             intellegitis quod ait apostolus: omnes qui uolunt in <lb/>
             Christo pie uiuere persecutionem patientur, ut <lb/>
             maiores uestros sub apostata imperatore Iuliano non pie <lb/>
-            uixisse <choice n="0.39"><sic n="3215">uobis</sic><corr n="4825">nobis</corr></choice> necesse sit confiteri. nam quisquis illo tempore<lb n="5"/>
+            uixisse uobis necesse sit confiteri. nam quisquis illo tempore<lb n="5"/>
             Donatista factus est, donec aduersus uestrum rursus errorem <lb/>
-            pia <choice><sic>christianorum</sic><corr>Christianorum</corr></choice> imperatorum cura consurgeret, si ante <lb/>
+            pia christianorum imperatorum cura consurgeret, si ante <lb/>
             defunctus est, non pie uixit, quia non est passus persecutionem. <lb/>
             si autem hoc propterea dixit apostolus, quia, sicut alibi <lb/>
             scriptum est, temptatio est uita hominis super terram<lb n="10"/>
@@ -1090,7 +1088,7 @@
             amarius uos dolemus. iam porro quando uos ipsos necatis <lb/>
             uel irruendo armis alienis uel praecipitiis et submersionibus <lb/>
             et ignibus uestris, satis dici non potest quanto nos maerore <lb/>
-            crucietis. plus quippe impius <choice><sic>Absalon</sic><corr>Absalou</corr></choice> patrem sanctum Dauid <lb/>
+            crucietis. plus quippe impius Absalon patrem sanctum Dauid <lb/>
             extinctus quam rebellis afflixit. uiuum namque eum comprehendi <lb n="10"/>
             cupiebat, ut qui malitia grassabatur paenitentia sanaretur. <lb/>
             erat ergo ille persecutor patris non solum populum dei diuidendo <lb/>
@@ -1120,7 +1118,7 @@
 <note type="footnote"> 9 cf. II Reg. 18 18 II Tim. 3, 12 </note> <lb/>
              
 <pb n="224"/>
-            <sic>pErimus</sic>. sed quamdiu in hac carne uiuitis, de nobis desperare <lb/>
+            perimus. sed quamdiu in hac carne uiuitis, de nobis desperare <lb/>
             non possumus; cum uero in hac impietate morimini, maxime <lb/>
             cum uos ipsos horrenda caecitate furoris occiditis, amarissimam <lb/>
             tristitiam nostram illud tantummodo consolatur, quod consolatum <lb/>
@@ -1164,11 +1162,11 @@
             <hi rend="italic">scripsi hic fo</hi> 31 facimus] facitis <hi rend="italic">v</hi> </note> <lb/>
              
 <pb n="225"/>
-            <sic>teneamini</sic>, uiuere metuitis, non occidi, quia erubescitis corrigi <lb/>
+            teneamini, uiuere metuitis, non occidi, quia erubescitis corrigi <lb/>
             aut de uestro (errore) conuinci. an forte uos estis ad quos <lb/>
             utrumque pertineat, quia, cum occidimini et uos a uobis, <lb/>
-            putatis uos officium deo facere et <choice n="0.72"><sic n="947">has</sic><corr n="367">hae</corr></choice> ei uictimas de uobis <lb/>
-            dare? ad uos ergo pertinet, quod sequitur atque abs te <sic>eommemoratum</sic> <lb n="5"/>
+            putatis uos officium deo facere et has ei uictimas de uobis <lb/>
+            dare? ad uos ergo pertinet, quod sequitur atque abs te commemoratum <lb n="5"/>
             est. mox enim dominus adiunxit et ait: sed <lb/>
             haec facient uobis, quia non cognouerunt patrem <lb/>
             neque me. cum itaque uos ipsos occiditis, putantes uos <lb/>
@@ -1182,7 +1180,7 @@
 <div n="27" subtype="section" type="textpart">
 <p><milestone n="24" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed belliferae, inquit, pacis <lb/>
             cruentaeque unitatis se incolas iactant. audiant dominum<lb/>
-             dicentem: pacem <choice n="0.01"><sic n="19">meant</sic><corr n="1694">meam</corr></choice> do nobis, pacem relinquo uobis; <lb/>
+             dicentem: pacem meam do nobis, pacem relinquo uobis; <lb/>
             non sicut saeculum dat ego do nobis. saeculi enim pax <lb n="15"/>
             inter animos gentium dissidentes armis et belli exitu foederatur; <lb/>
             domini Christi pax salubri lenitate tranquilla uolentes <lb/>
@@ -1194,7 +1192,7 @@
             sustinere et quod uobis facitis nihil possumus quam dolere, <lb/>
             dum tamen fiat pax et unitas Christi propter salutem multorum, <lb/>
             sicut fit in plurimis, etiamsi propter furorem paucorum non <lb n="25"/>
-            <sic n="poss">6t</sic> in omnibus. nam si non inuido, sed fideli oculo uelletis <lb/>
+            fit in omnibus. nam si non inuido, sed fideli oculo uelletis <lb/>
             attendere, uideretis, quam uera pace atque unitate Christi <lb/>
             gaudeant qui ex uobis ad nos uenerunt, tot tantorumque <lb/>
             populorum agmina, in quibus etiamsi adhuc sunt nonnulli <lb/>
@@ -1271,8 +1269,8 @@
 
 <div n="29" subtype="section" type="textpart">
 <p><milestone n="26" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Odio,</hi> inquit, <hi rend="italic">saeculi ga-udemzts. <lb/>
-            in eius pressuris non <choice><sic>siiccumbimits</sic><corr>succumbimus</corr></choice>, sed laetamur. mundus <lb n="10"/>
-            <choice n="0.00"><sic n="23">hie</sic><corr n="7275">hic</corr></choice> non potest seruos Christi diligere, qui Christum cognoscitur<lb/>
+            in eius pressuris non succumbimus, sed laetamur. mundus <lb n="10"/>
+            hic non potest seruos Christi diligere, qui Christum cognoscitur<lb/>
              non amasse, domino ipso dicente: si saeculum uos <lb/>
             odit, scitote quia me primum odio habuit quam uos. <lb/>
             si me persecuti sunt, et uos persequentur</hi>. ad haec <lb/>
@@ -1311,15 +1309,15 @@
 <div n="30" subtype="section" type="textpart">
 <p><milestone n="27" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed etsi persecutio conquiescat, <lb/>
             inquit, unde martyrum numerus adimpletur, Iohanne dicente: <lb/>
-            uidi, inquit, animas occisorum sub ara dei <sic>exclamantium</sic><lb n="5"/>
+            uidi, inquit, animas occisorum sub ara dei exclamantium<lb n="5"/>
             et dicentium: quamdiu, domine, non iudicas et <lb/>
             uindicas sanguinem nostrum de iis qui habitant <lb/>
             super terram? et acceperunt singuli stolas albas, et <lb/>
-            <choice><sic>dicturn</sic><corr>dictum</corr></choice> est eis, ut requiescerent adhuc paucum tempus, <lb/>
+            dictum est eis, ut requiescerent adhuc paucum tempus, <lb/>
             donec impleatur numerus fratrum ipsorum qui<lb n="10"/>
             incipient interfici sicut et ipsi</hi>? ad haec responsio: Si <lb/>
             sub ara Christi martyres esse uelletis, non uos ipsos incendendo <lb/>
-            <choice><sic>saciificium</sic><corr>sacrificium</corr></choice> diabolo faceretis. quis enim gaudet de isto <lb/>
+            sacrificium diabolo faceretis. quis enim gaudet de isto <lb/>
             furore uestro nisi diabolus, qui eum uobis inspirat, et qui <lb/>
             sunt ex parte illius? ipse est, qui illum puerum, de quo in<lb n="15"/>
             euangelio legimus, mittebat aliquando in aquam, aliquando in <lb/>
@@ -1383,7 +1381,7 @@
             damnauerit uos? quomodo enim uindicetur, nisi qui eum <lb n="30"/>
             ausus est trucidare damnetur? in hac ergo uoce non estis <lb/>
             nisi accusatores uestri, quia uos estis rei sanguinis uestri, <lb/>
-            nec deus nisi uos damnabit, quando a uobis uel collisum uel <note type="margin"> <hi rend="italic"><sic>def</sic>. J</hi> </note>
+            nec deus nisi uos damnabit, quando a uobis uel collisum uel <note type="margin"> <hi rend="italic">def. J</hi> </note>
 
 <note type="footnote"> 2 exurgeret <hi rend="italic">f</hi> 5 uendicant <hi rend="italic">f 23 sed] sed ut f</hi> 27 etiam <lb/>
             <hi rend="italic">addidi</hi> </note> <lb/>
@@ -1396,11 +1394,11 @@
 </div>
 
 <div n="32" subtype="section" type="textpart">
-<p><milestone n="28" unit="altchapter"/> Uerba epistulae: <hi rend="italic">An non ista, inquit, <choice><sic>perseeutio</sic><corr>persecutio</corr></choice> <lb/>
-            est, quae tot milia innocentum martyrum <sic>artmiit</sic> ad mortem? <lb/>
-            christiani enim secundum <choice><sic>euangeliiim</sic><corr>euangelium</corr></choice> spiritu prompti, sed<lb n="5"/>
-            carne infirmi a sacrilega contaminatione <choice><sic>caminorwn</sic><corr>caminorum</corr></choice> reperto <lb/>
-            compendio suas animas rapuerunt, imitati presbyteri <sic>JRaziae</sic> <lb/>
+<p><milestone n="28" unit="altchapter"/> Uerba epistulae: <hi rend="italic">An non ista, inquit, persecutio <lb/>
+            est, quae tot milia innocentum martyrum artauit ad mortem? <lb/>
+            christiani enim secundum euangelium spiritu prompti, sed<lb n="5"/>
+            carne infirmi a sacrilega contaminatione caminorum reperto <lb/>
+            compendio suas animas rapuerunt, imitati presbyteri Raziae <lb/>
             in Macchabaeorum libris exemplum, nec frustra timentes. <lb/>
             quisquis enim in eorum manus inciderit, non euasit. sed<lb/>
              quantum uelint faciant: quod certum est, dei esse non pos-<lb n="10"/>
@@ -1416,7 +1414,7 @@
             nisi ab ipsis factis suis. sed nunc plane cum parcente uobis<lb n="20"/>
             mansuetudine christiana ita in uos saeuit uestra dementia, <lb/>
             ut, quemadmodum dicis, <hi rend="italic">caminorum reperto compendio uestras</hi> <lb/>
-            animas rapiatis, omni modo uos a <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> ipsis pati persecutionem <lb/>
+            animas rapiatis, omni modo uos a uobis ipsis pati persecutionem <lb/>
             nimia est impudentia si negatis, quando uos utrumque <lb/>
             completis, et unde iuste pereatis et quod peritis. sic autem<lb n="25"/>
             dicis tot hominum milia esse qui hoc faciunt, quasi non etiam <lb/>
@@ -1435,7 +1433,7 @@
 <pb n="231"/>
             irruebant. uouebant autem pagani iuuenes idolis suis quis quot <lb/>
             occideret. at isti gregatim hinc atque inde confluentes tamquam <lb/>
-            in amphitheatro a <choice><sic>nenatoribus</sic><corr>uenatoribus</corr></choice> more immanium bestiarum <lb/>
+            in amphitheatro a uenatoribus more immanium bestiarum <lb/>
             uenabulis se oppositis ingerebant, furentes moriebantur, putrescentes <lb/>
             sepeliebantur, decipientes colebantur. praeter haec sunt <lb n="5"/>
             saxa immania et montium horrida praerupta uoluntariorum <lb/>
@@ -1471,7 +1469,7 @@
             quorum innumerabiles ex Donatistarum nefaria dissensione <lb n="30"/>
             in pacem Christi ueram et catholicam transeunt! isti quippe, <lb/>
             qui se incendunt, nec tot homines sunt quot loca sunt <lb/>
-            populis plena, qui ab exitiali peste erroris illius et furoris <note type="margin"> <hi rend="italic"><sic>clef</sic>. <sic n="poss">t1</sic></hi> </note>
+            populis plena, qui ab exitiali peste erroris illius et furoris <note type="margin"> <hi rend="italic">def. ?</hi> </note>
 
 <note type="footnote"> 4 aenabulis se oppositis <hi rend="italic">ante</hi> more <hi rend="italic">(lin. 3) transponenda uidentur</hi> inserebant <lb/>
             <hi rend="italic">f</hi> 12 ab aquis <hi rend="italic">f</hi> 24 saltem] saluti <hi rend="italic">/</hi> 33 qui <hi rend="italic">scripsi</hi> quae <hi rend="italic">fv</hi> </note> <lb/>
@@ -1509,7 +1507,7 @@
             etiam exitum, ut possitis sustinere? itane credendum <lb n="25"/>
             non est huic apostolicae ueritati et inimicos debemus nos <lb/>
             ipsos habere, quia inimicos non possumus alios sustinere? <lb/>
-            absit hoc a cordibus <choice><sic>christianis</sic><corr>Christianis</corr></choice>. plane fideli apostolo, immo <lb/>
+            absit hoc a cordibus christianis. plane fideli apostolo, immo <lb/>
             ipsi fideli deo, qui non sinit suos temptari supra quam ferre <lb/>
             possunt, sed facit cum temptatione etiam exitum, ut possint <lb n="30"/>
             sustinere, credant catholici, non credant Donatistae, et ne
@@ -1627,7 +1625,7 @@
             obtinuit, ubi utraque manu producta sua intestina discerpsit <lb/>
             dispersit occubuit, turba ita circumdatus, ut euadere <lb/>
             non posset, etsi uiuere posset. uos igitur, qui nec dominum <lb/>
-            auditis dicentem: fugite nec imitamini Razian, qui <choice n="0.76"><sic n="697">uoluit</sic><corr n="220">noluit</corr></choice> <lb n="20"/>
+            auditis dicentem: fugite nec imitamini Razian, qui uoluit <lb n="20"/>
             nec potuit fugere, profecto, quia non habetis illum in praecepto, <lb/>
             nec habetis istum in exemplo. quid quod iste Razias secundum <lb/>
             uestram rationem sine dubitatione culpandus est? dixisti <lb/>
@@ -1648,7 +1646,7 @@
              
 <pb n="236"/>
             tam promptus apparuit, sed etiam caro tam firma, ut uix <lb/>
-            credibile <choice n="0.75"><sic n="12431">sit</sic><corr n="3942">ait</corr></choice> eum facere uoluisse ac ualuisse quae fecit. itaque <lb/>
+            credibile sit eum facere uoluisse ac ualuisse quae fecit. itaque <lb/>
             uobis oportet iste displiceat, qui rationem uestrae infirmitatis <lb/>
             sua firmitate perturbat. porro si fugere ualens nec uolens in <lb/>
             domum suam ligna congessisset atque irruentibus inimicis,<lb n="5"/>
@@ -1663,12 +1661,12 @@
 </div>
 
 <div n="37" subtype="section" type="textpart">
-<p><sic>cAt</sic> enim sanctarum scripturarum auctoritate laudatus <lb/>
+<p>At enim sanctarum scripturarum auctoritate laudatus <lb/>
             est Razias\'. quomodo laudatus? quia fuit amator ciuitatis: hoc <lb/>
             potuit et carnaliter, ciuitatis uidelicet illius terrenae Hierusalem <lb/>
             quae seruit cum filiis suis, non autem illius quae sursum,<lb n="15"/>
             liberae matris nostrae. laudatus est, quia continentiam seruauit <lb/>
-            in Iudaismo: at haec sibi in comparatione iustitiae <choice><sic>christianae</sic><corr>Christianae</corr></choice> <lb/>
+            in Iudaismo: at haec sibi in comparatione iustitiae christianae <lb/>
             damna et stercora fuisse dicit apostolus. laudatus est, quia <lb/>
             pater Iudaeorum appellabatur : hoc magis est unde et illi <lb/>
             tamquam homini subrepsit humilitatis impatientia, ut prius <lb n="20"/>
@@ -1678,12 +1676,12 @@
             fortes huius saeculi, non martyres Christi. dictum est, quod <lb/>
             se uiriliter de muro praecipitauit in turbas: nec nos dicimus <lb n="25"/>
             eum hoc fecisse muliebriter. quamquam uos, qui multum <lb/>
-            exemplo isto profecistis, etiam feminas <choice n="0.40"><sic n="251">uestras</sic><corr n="374">uestrae</corr></choice> hoc facere <lb/>
+            exemplo isto profecistis, etiam feminas uestras hoc facere <lb/>
             docuistis: sed fatemur hoc etiam ipsas non facere muliebriter, <lb/>
             sed uiriliter, non tamen salubriter, quia non fideliter. ad <lb/>
             extremum quod inuocasse dictus est dominatorem uitae ac <lb n="30"/>
             spiritus, ut haec illi iterum redderet, id est uitam et spiritum, <lb/>
-            nec tunc aliquid <choice><sic>pdposcit</sic><corr>poposcit</corr></choice>, quo boni discernuntur a malis.
+            nec tunc aliquid poposcit, quo boni discernuntur a malis.
 
 <note type="footnote"> 13 cf. II Mach. 14, 37 14 cf. Gal. 4, 25 16 cf. II Mach. 14, 38 <lb/>
             17 cf. Phil. 3, 8 19 cf. II Mach. 14, 37 </note> <note type="margin"> <hi rend="italic">def. J</hi> </note>
@@ -1715,7 +1713,7 @@
             est ab ecclesia non inutiliter, si sobrie legatur uel audiatur, <lb/>
             maxime propter illos Macchabaeos, qui pro dei lege sicut ueri <lb/>
             martyres a persecutoribus tam indigna atque horrenda perpessi <lb/>
-            sunt, ut etiam hinc populus <choice><sic>christianus</sic><corr>Christianus</corr></choice> aduerteret, quoniam <lb/>
+            sunt, ut etiam hinc populus christianus aduerteret, quoniam <lb/>
             non sunt condignae passiones huius temporis ad futuram <lb n="20"/>
             gloriam quae reuelabitur in nobis, pro quibus passus <lb/>
             est Christus, si tanta patientissime pertulerunt pro lege quam <lb/>
@@ -1723,7 +1721,7 @@
             tradiderat filium: quamquam et iste Kazias habeat quod <lb/>
             legentibus prosit, non solum ut mens exerceatur recte iudicando <lb n="25"/>
             quod legit, uerum etiam ut animus humanus, immo animus <lb/>
-            <choice><sic>christianus</sic><corr>Christianus</corr></choice> aduerteret, quanta ferenda sint ab inimicis ardore <lb/>
+            christianus aduerteret, quanta ferenda sint ab inimicis ardore <lb/>
             caritatis, cum a se ipso iste timore humilitatis tanta pertulerit. <lb/>
             sed ardor caritatis de sublimitate descendit gratiae diuinae, <lb/>
             timor autem humilitatis ex amore accidit laudis humanae, et <lb n="30"/>
@@ -1793,9 +1791,9 @@
             melior est Razias quam Samson? audete itaque dicere, <lb/>
             si potestis, illud quod in crinibus habuit uirtutis magnum <lb/>
             diuinumque secretum blandienti mulierculae fuisse prodendum. <lb/>
-            <sic>uam</sic> illud quod cum inimicis occidit et se ipsum, quando <lb n="15"/>
+            nam illud quod cum inimicis occidit et se ipsum, quando <lb n="15"/>
             super se atque illos deiecit domum, mortem quam mox ab <lb/>
-            eis fuerat <sic>perpessurus</sic> communem uoluit cum illis habere, quia <lb/>
+            eis fuerat perpessurus communem uoluit cum illis habere, quia <lb/>
             non posset euadere. quod quidem non sua sponte fecit, sed <lb/>
             hoc spiritui dei tribuendum est, qui usus est eo, ut faceret <lb/>
             quando illi adfuit, quod facere non poterat quando idem spiritus <lb n="20"/>
@@ -1830,8 +1828,8 @@
             rapiatis, quas potius caminorum sacrilegio tamquam<lb n="5"/>
             diabolico sacrificio contaminatissimas facitis. interrogate Christum: <lb/>
             iubet uos fugere; interrogate tribunum: permittit uos <lb/>
-            fugere; si et ipsum <sic>tiazian</sic> interrogare possetis, responderet <lb/>
-            nobis: (<sic>egO</sic>\' non potui fugere.\' uos ergo nec Christum saluatorem <lb/>
+            fugere; si et ipsum Razian interrogare possetis, responderet <lb/>
+            nobis: (ego\' non potui fugere.\' uos ergo nec Christum saluatorem <lb/>
             nec tribunum persecutorem nec Razian auctorem habetis. <lb n="10"/>
             
 </p>
@@ -1845,7 +1843,7 @@
             quaero. si mortem, cur eam uobis infertis manibus uestris, <lb/>
             si hanc timetis a nostris? sed manifestum est non de morte<lb n="15"/>
             uos dicere. nam quantum cupiamus uos uiuere, etiam ipsi <lb/>
-            scitis; ideo nos de uestra morte terretis. proinde <sic>gi</sic> communionem <lb/>
+            scitis; ideo nos de uestra morte terretis. proinde si communionem <lb/>
             nostram dicis neminem uestrum qui in manus nostras <lb/>
             incidit euasisse, utinam uerum diceres! ualde quippe feliciter <lb/>
             non euaderent communionem quae offertur a catholicis, ut<lb n="20"/>
@@ -1874,7 +1872,7 @@
             ueni ad nos et tu sicut ipse, audi quod dicimus sicut ipse, <lb n="5"/>
             responde, si potes, quod non potuit ipse; si autem nec respondere <lb/>
             nec communicare uolueris, discede sicut ipse. ecce ille <lb/>
-            de nostris manibus illaesus abscessit; <choice><sic>tn</sic><corr>tu</corr></choice> quare dicis: <hi rend="italic">quisquis<lb/>
+            de nostris manibus illaesus abscessit; tu quare dicis: <hi rend="italic">quisquis<lb/>
              in eorum manus incidit non euasit</hi>? ecce ille non sibi credidit <lb/>
             loca defutura ubi posset latere; tu quare disponis ardere? <lb n="10"/>
             itane nondum uides uos esse potius, qui non pertinetis ad <lb/>
@@ -1886,22 +1884,22 @@
 </div>
 
 <div n="42" subtype="section" type="textpart">
-<p><milestone n="33" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed quoniam <choice><sic>pruclentiam</sic><corr>prudentiam</corr></choice> <lb n="15"/>
+<p><milestone n="33" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed quoniam prudentiam <lb n="15"/>
             tuam,</hi> inquit, <hi rend="italic">exsecutoris officium non decebat, quaeso paucis <lb/>
             aduerte. alia est ut reor solida ueritas, alia effigies ueritatis. <lb/>
             quoniam ueritas robore suo firmata constat, idolum siue <lb/>
             simulacrum est quod in iniuriam ueri simile fecerit humana <lb/>
             praesumptio; numquam tamen potest praeiudicare ueritati <lb n="20"/>
             fallacia. simulacrorum cultores dico, qui non tenent ueritatem ;<lb/>
-             sub alieno uocabulo gentilem existimo, <choice><sic>quti</sic><corr>qui</corr></choice> facit sibi quod <lb/>
-            colat. unde publicum <choice><sic>apcrtitmque</sic><corr>apertumque</corr></choice> est, quod minis <choice><sic>siite</sic><corr>siue</corr></choice> terrore<lb/>
+             sub alieno uocabulo gentilem existimo, qui facit sibi quod <lb/>
+            colat. unde publicum apertumque est, quod minis siue terrore<lb/>
              et persecutionibus crebris Gabinium similesque de naturae <lb/>
-            libertate sublatos ipsi sibi quos <sic>uenerarentur</sic> perfidos fabricasse <lb n="25"/>
+            libertate sublatos ipsi sibi quos uenerarentur perfidos fabricasse <lb n="25"/>
             noscuntur, ad quorum cultum coguntur inuiti</hi>. ad haec <lb/>
             responsio: Adhuc addis furori uestro uerba blasphemiae et <lb/>
-            audes dicere ecclesiam catholicam <sic>htimanum</sic> esse figmentum, <lb/>
+            audes dicere ecclesiam catholicam humanum esse figmentum, <lb/>
             cui dicit deus: ego enim sum dominus qui facio te, <lb/>
-            dominus nomen ei. <choice><sic>etut</sic><corr>et</corr></choice> sciamus ipsam eam catholicam <lb n="30"/>
+            dominus nomen ei. et. ut sciamus ipsam eam catholicam <lb n="30"/>
             uniuerso terrarum orbe diffusam, sequitur et adiungit: et qui
 
 <note type="footnote"> 11 cf. pag. 230, 10 21 cf. pag. 206, 21 sqq. 29 Esai. 54, 5 <lb/>
@@ -1915,7 +1913,7 @@
 <note type="footnote"> 16 </note> <lb/>
              
 <pb n="242"/>
-            <sic>eruitteipsedeuslsraeluniuersaeterraeuocabitur</sic>. <lb/>
+            eruit te ipse deus Israel uniuersae terrae uocabitur. <lb/>
             hoc euidentissimum dei opus humanum dicitis esse figmentum <lb/>
             nec uos respicitis, quod ab ista ecclesia, quam se promisit <lb/>
             deus in uniuersa terra esse facturum, nullo modo separaremini, <lb/>
@@ -2005,16 +2003,16 @@
 <pb n="244"/>
             exhibetur usque ad terminos orbis terrae, quia et rex Nabuchodonosor, <lb/>
             quamuis propheta non fuerit, eos tamen, qui <lb/>
-            blasphemarent deum Sidrac Misac [<choice><sic>etj</sic><corr>et</corr></choice> Abdenago, religiosa <lb/>
+            blasphemarent deum Sidrac Misac [et] Abdenago, religiosa <lb/>
             seueritate coercuit. 
 </p>
           
 </div>
 
 <div n="45" subtype="section" type="textpart">
-<p><milestone n="35" unit="altchapter"/> Verba epistulae: <hi rend="italic"><sic>Mundcmae</sic>,</hi> inquit, <hi rend="italic">militiae<lb n="5"/>
-            <sic>nuniquam</sic> deus expectauit auxilium, qui solus potest de uiuis <lb/>
-            et <choice><sic>morluis</sic><corr>mortuis</corr></choice> <choice><sic>itcdicare</sic><corr>indicare</corr></choice></hi>. ad haec reponsio: Non mundanae militiae <lb/>
+<p><milestone n="35" unit="altchapter"/> Verba epistulae: <hi rend="italic">Mundanae,</hi> inquit, <hi rend="italic">militiae<lb n="5"/>
+            numquam deus expectauit auxilium, qui solus potest de uiuis <lb/>
+            et mortuis iudicare</hi>. ad haec reponsio: Non mundanae militiae <lb/>
             deus expectat auxilium, quando regibus largitur potius beneficium, <lb/>
             qui eis inspirat, ut in regno suo curent fieri domini <lb/>
             sui praeceptum. quibus enim dictum est: et nunc, reges<lb n="10"/>
@@ -2032,16 +2030,16 @@
 
 <div n="46" subtype="section" type="textpart">
 <p><milestone n="36" unit="altchapter"/> Uerba epistulae: <hi rend="italic">Sed hoc non sciunt, inquit, <lb/>
-            alienarum rerum incubatores, qui nec <choice><sic>denJn</sic><corr>deum</corr></choice>. <choice><sic>altdiunt</sic><corr>audiunt</corr></choice> dicentem:<lb n="20"/>
+            alienarum rerum incubatores, qui nec deum. audiunt dicentem:<lb n="20"/>
             non concupiscas rem proximi tui nec per Salomonem <lb/>
             spiritum sanctum dicentem: tunc stabunt iusti in magna <lb/>
-            constantia aduersus eos, qui se <sic>angustiauerunt</sic> et qui <lb/>
+            constantia aduersus eos, qui se angustia uerunt et qui <lb/>
             abstulerunt labores eorum. uidentes turbabuntur timore<lb/>
              horribili et mirabuntur in subitatione insperatae<lb n="25"/>
             salutis, dicentes inter se paenitentiam habentes et <lb/>
             per angustiam spiritus gementes: hi sunt quos aliquando <lb/>
             habuimus in derisum et in similitudinem <lb/>
-            <sic>irnproperU</sic>. nos insensati uitam illorum existimabamus<lb/>
+            improperii. nos insensati uitam illorum existimabamus<lb/>
             insaniam et finem illorum sine honore. quomodo</hi>
 
 <note type="footnote"> 3 cf. Dan. 3, 29 (96) 10 Ps. 2, 10-11 21 Ex. 20, 17 22 Sap. <lb/>
@@ -2053,20 +2051,20 @@
              
 <pb n="245"/>
             <hi rend="italic">computati sunt inter filios dei et inter sanctos sors <lb/>
-            illorum est? ergo <choice><sic>errawimlts</sic><corr>errauimus</corr></choice> a uia ueritatis et iustitiae <lb/>
+            illorum est? ergo errauimus a uia ueritatis et iustitiae <lb/>
             lumen non illuxit nobis. lassati sumus in iniquitatis <lb/>
             et perditionis uia et ambulauimus solitudines difficiles,<lb/>
             uiam autem domini ignorauimus. quid nobis <lb n="5"/>
             profuit superbia, aut quid diuitiarum iactantia contulit <lb/>
             nobis? transierunt omnia tamquam umbra. haec <lb/>
-            igitur <choice><sic>ftdes</sic><corr>fides</corr></choice> nos hortatur, ut libenter pro deo in ista persecutione <lb/>
+            igitur fides nos hortatur, ut libenter pro deo in ista persecutione <lb/>
             moriamur</hi>. ad haec responsio: Agnoscite scelus uestrum <lb/>
             et nolite uobis usurpare nomen alienum. scriptura dixit: tunc <lb n="10"/>
             stabunt iusti in magna constantia aduersus eos, <lb/>
             qui se angustiauerunt et qui abstulerunt labores <lb/>
             eorum. non dixit: \'stabunt omnes qui mala passi sunt\', sed: <lb/>
             stabunt iusti, sicut et dominus cum dixisset: beati qui <lb/>
-            persecutionem patiuntur, nisi <choice><sic>addisset</sic><corr>addidisset</corr></choice>. <sic>propteriustitiam</sic>, <lb n="15"/>
+            persecutionem patiuntur, nisi addidisset. propter iustitiam, <lb n="15"/>
             non solos significaret, qui pro sua in domino patientia <lb/>
             coronantur, sed etiam illos, qui iustis legibus puniuntur. quapropter <lb/>
             si ad uos putatis haec iustorum uerba quae scripta <lb/>
@@ -2095,7 +2093,7 @@
             exire. absit, absit ut stent cum magna constantia, cum stabunt <lb/>
             cum tam mala conscientia. nisi forte arbitramini propterea <lb/>
             nobis deum tunc posse parcere pro sceleribus uestris, quia <lb/>
-            ipsi uobis modo non parcitis. unde etiam quaedam <sic>sanctimoniales</sic><lb n="5"/>
+            ipsi uobis modo non parcitis. unde etiam quaedam sanctimoniales<lb n="5"/>
             uestrae grauidae per saxa se miserunt et dissilientibus <lb/>
             uteris homicidiorum scelere etiam stuprorum scelera prodiderunt, <lb/>
             existimantes, si hoc modo in se uindicassent, nullo iam modo <lb/>
@@ -2140,7 +2138,7 @@
             confessus est quod non tradidit, sed quod ad eum peruenerint <lb/>
             a curatore et ordine missi persecutores quos ei Purpurius <lb/>
             Liniatensis obiecit, ut scripturas traderet. quas cum ab illo <lb/>
-            peterent, se respondisse: \'<sic>christianus</sic> sum et episcopus, <lb n="5"/>
+            peterent, se respondisse: \'christianus sum et episcopus, <lb n="5"/>
             non traditor,\' eisque nihil omnino tradere uoluisse. quod <lb/>
             ei uultis ut credamus, cum et uos ipsi quam sit incredibile <lb/>
             uideatis feruente illa persecutione detentum episcopum siue <lb/>
@@ -2197,7 +2195,7 @@
             sermonem fecerint. uidetis ergo quod, sicut uos istis, quos <lb/>
             uanissime criminamini communione nostra fieri traditores, si<lb n="15"/>
             quid inuiti fecerint, potuistis ignoscere, ita etiam maiores uestri <lb/>
-            in necessitate multo artiore tradentibus <choice><sic>uens</sic><corr>ueris</corr></choice> traditoribus eadem <lb/>
+            in necessitate multo artiore tradentibus ueris traditoribus eadem <lb/>
             regula ignoscere potuerunt. sed ut damnarent alios absentes et <lb/>
             inauditos, inimicorum Caeciliani factione compulsi sunt, facientes <lb/>
             quod de talibus apostolus dicit: in quo enim alium iudicas,<lb n="20"/>
@@ -2259,7 +2257,7 @@
             cupiditas nostra caritas uocatur. haec uos quaerit in nobis, <lb/>
             haec uos inuenire, corrigere atque in unitate Christi consociare <lb/>
             desiderat; ut uestris caminis uos ardere timeamus, huius igne <lb/>
-            <sic>feruemus</sic>; haec nos accendit, ut non solum non concupiscamus
+            feruemus; haec nos accendit, ut non solum non concupiscamus
 
 <note type="footnote"> 1 cf. Matth. 8, 32 2 cf. Matth. 4, 5-6 17 II Cor. 12, 14 </note>
 
@@ -2284,7 +2282,7 @@
 <p><milestone n="38" unit="altchapter"/> De iustitia certamen est, non de pecunia. <lb/>
             cauete itaque, ne forte, dum putatis ad uos pertinere quod <lb/>
             scriptum est: tunc stabunt iusti in magna constantia<lb n="10"/>
-            aduersus <sic>eosqui</sic> se <sic>angustiauerunt</sic> et abstulerunt <lb/>
+            aduersus eos, qui se angustiauerunt et abstulerunt <lb/>
             labores eorum, non hoc uobis contingat de laboribus uestris, <lb/>
             sed potius quod alio loco scriptum est: labores impiorum <lb/>
             iusti edent. neque enim stabunt contra uos Maximianistae, <lb/>
@@ -2296,8 +2294,8 @@
             aduersum nos. in talibus quippe omnibus factis non rapina<lb n="20"/>
             concupiscitur, sed error euertitur. sicut ergo non stabunt <lb/>
             Chananaei aduersum Israelitas, quamuis Israelitae abstulerunt <lb/>
-            labores eorum, sed stabit <sic>Nabuthaeus</sic> aduersus Achab, quia <lb/>
-            delictum factum est, non praeceptum, ut labores iusti <choice><sic>aufenet</sic><corr>auferret</corr></choice> <lb/>
+            labores eorum, sed stabit Nabuthaeus aduersus Achab, quia <lb/>
+            delictum factum est, non praeceptum, ut labores iusti auferret <lb/>
             iniustus, sic haeretici non stabunt aduersus catholicos, cum<lb n="25"/>
             in rebus haereticorum christiani imperii iussa conplentur nec <lb/>
             res eorum a catholicis auferuntur, sed potius inquiruntur <lb/>
@@ -2316,7 +2314,7 @@
             sed stabunt catholici non solum aduersus gentiles, a quibus <lb/>
             ueri martyres exspoliati sunt, uerum etiam aduersus circumcelliones <lb/>
             Donatistarum, quia et ipsi abstulerunt labores eorum. <lb/>
-            uerum de <choice n="0.87"><sic n="5798">his</sic><corr n="852">bis</corr></choice> pecuniaribus laboribus facilior causa est, cum <lb/>
+            uerum de his pecuniaribus laboribus facilior causa est, cum <lb/>
             etiam illi, quorum erant, ad pacem catholicam transeunt. ecce <lb n="5"/>
             cotidie, si quis ad nos transitum fecerit, reddimus pecuniam <lb/>
             uestem fructus uasa rura tecta uestrorum: uos quomodo nobis <lb/>
@@ -2374,7 +2372,7 @@
 </div>
 
 <div n="53" subtype="section" type="textpart">
-<p><milestone n="39" unit="altchapter"/> Uerba epistulae: <hi rend="italic">(et alia <choice><sic>manit</sic><corr>manu</corr></choice>:) Opto te,</hi> <lb/>
+<p><milestone n="39" unit="altchapter"/> Uerba epistulae: <hi rend="italic">(et alia manu:) Opto te,</hi> <lb/>
             inquit, <hi rend="italic">incolumem ueritate perspecta animum lenire et ab <lb/>
             innocentium exitibus temperare</hi>. ad haec responsio: Uos potius <lb/>
             ueritate perspecta lenite animum uestrum, ne sic saeuiat, ut <lb/>
@@ -2435,7 +2433,7 @@
             nihil respondistis, quoniam de re manifestissima et recentissima <lb n="25"/>
             nihil quod responderetis inuenire potuistis, quomodo <lb/>
             Maximianus, quem multo grauiore quam Caecilianum sententia <lb/>
-            percussistis, ita ut diceretis eum <sic>Dathae</sic>, Chorae et Abiron
+            percussistis, ita ut diceretis eum Dathae, Chorae et Abiron
 
 <note type="footnote"> 10 cf. Dan. 6, 22 13 cf. Prou. 21, 1 22 pag. 241, 6 23 cf. <lb/>
             Em. 9 </note>
@@ -2467,7 +2465,7 @@
             incognitus, uestris maioribus iudicantibus semel damnatus, <lb/>
             uestris maioribus accusantibus ter absolutus, et cauendum <lb/>
             non putastis, ne uos inquinaret Felicianus uniuersalis concilii <lb/>
-            uestri ore damnatus et ab uniuersis uobis praecipue tui <sic>praedecessoris</sic><lb n="20"/>
+            uestri ore damnatus et ab uniuersis uobis praecipue tui praedecessoris<lb n="20"/>
             fauore susceptus? qua iustitia, qua ratione, qua <lb/>
             fronte rescinditis baptismum, quem dant ecclesiae quas laboribus <lb/>
             suis apostoli plantauerunt, cum susceperitis baptismum, <lb/>
@@ -2569,7 +2567,7 @@
             si hoc nosti, quare te nosse dissimulas? si autem ignoras, <lb/>
             quare non prius quam loqueris, quod nescis, eos qui norunt <lb/>
             interrogas? quod si displicet tibi, non Graecam, sed aliquam <lb/>
-            linguam inueni, qua doceas <sic>xao</sic> ?  <sic>oXov</sic> non <sic>lper</sic> totum\' siue
+            linguam inueni, qua doceas <sic>xao</sic> ?  <sic>oXov</sic> non per totum\' siue
 
 <note type="footnote"> 12 Cypr. De cath. eccl. unitate c. 5 . </note>
 
@@ -2596,11 +2594,11 @@
             causa uobis fuerit exeundi cum interrogamini, nihil iustum <lb n="10"/>
             inuenitis, prorsus ab hac ecclesia exitum uestrum nulla purgatione <lb/>
             probabilis excusationis abluitis. quid enim dicitis nisi: <lb/>
-            \'necessitas compulit, ut iusti relinqueremus <sic n="poss">iniustos1</sic>? respondet <lb/>
+            \'necessitas compulit, ut iusti relinqueremus iniustos'? respondet <lb/>
             uobis scriptura diuina: filius malus ipse se iustum <lb/>
             dicit, exitum uero suum non abluit. \'exitum\', inquit, <lb n="15"/>
-            (<sic>Sllum</sic>) — utique illum, de quo dicit apostolus Iohannes: ex <lb/>
-            no b i sex i e <sic>run</sic> t — omnino non abluit, non defendit, non <lb/>
+            (sum') — utique illum, de quo dicit apostolus Iohannes: ex <lb/>
+            no b i sex i e run t — omnino non abluit, non defendit, non <lb/>
             excusat, non purgat. ad iustos enim non pertinet in ecclesia <lb/>
             catholica nisi malos, quos corrigere uel damnare non possunt, <lb/>
             patientissime tolerare, nec propter zizania de dominico agro <lb n="20"/>
@@ -2637,18 +2635,18 @@
             labore capiamus. apostolus in epistula sua dicit: <lb/>
             \'in domo autem magna non solum uasa sunt aurea <lb/>
             et argentea, sed et lignea et fictilia. et quaedam <lb/>
-            quidem honorata, <sic>quaedaminhonorata</sic>.\' <sic>nosoperam</sic><lb n="10"/>
+            quidem honorata, quaedam inhonorata.\' nos operam<lb n="10"/>
             demus et quantum possumus laboremus, ut uas <lb/>
-            <choice><sic>aureUm</sic><corr>aureum</corr></choice> uel argenteum simus. ceterum fictilia uasa <lb/>
+            aureum uel argenteum simus. ceterum fictilia uasa <lb/>
             confringere domino soli concessum estcuietuirga <lb/>
             ferrea data est. esse non potest maior domino suo <lb/>
             seruus nec quisquam sibi quod soli filio pater<lb n="15"/>
             tribuit uindicarit, ut se putet aut ad aream uentilandam <lb/>
             et purgandam palam uel uentilabrum iam <lb/>
-            ferre <sic>polse</sic> aut a frumento uniuersa zizania humano <lb/>
+            ferre posse aut a frumento uniuersa zizania humano <lb/>
             iudicio separare. superba est ista obstinatio <lb/>
-            et <choice><sic>sacrildga</sic><corr>sacrilega</corr></choice> praesumptio quam sibi furor <choice><sic>prauns</sic><corr>prauus</corr></choice><lb n="20"/>
-            adsumit. <choice><sic>fet</sic><corr>et</corr></choice> dum sibi semper quidam plus quam <lb/>
+            et sacrilega praesumptio quam sibi furor prauus<lb n="20"/>
+            adsumit. et dum sibi semper quidam plus quam <lb/>
             mitis iustitia deposcit adsumunt, de ecclesia pereunt, <lb/>
             et dum se insolenter extollunt, ipso suo <lb/>
             tumore caecati ueritatis lumen amittunt. 
@@ -2681,8 +2679,8 @@
             ecclesia esse zizania, non tamen impediri debet <lb/>
             aut fides aut caritas nostra, ut quoniam zizania <lb/>
             esse in ecclesia cernimus ipsi de ecclesia recedamus. <lb/>
-            quare uos ergo ab unitate huius ecclesiae <sic>nefano</sic> schismate <lb/>
-            disceditis et haeretica praesumptione in eadem <choice><sic>discissioue</sic><corr>discissione</corr></choice> <lb n="10"/>
+            quare uos ergo ab unitate huius ecclesiae nefario schismate <lb/>
+            disceditis et haeretica praesumptione in eadem discissione <lb n="10"/>
             persistitis? ecce tibi est Cyprianus: consenti illi aut <lb/>
             responde illi. uides quemadmodum his uerbis, quibus dicit <lb/>
             esse in ecclesia cernique zizania nec tamen ab illa propterea <lb/>
@@ -2734,7 +2732,7 @@
             partis uestrae patronus egregius perdidit te aduersante labores <lb/>
             suos. ille quippe, ut custodiat bonorum salutem, prorsus in <lb/>
             ecclesia malos permanentes a bonis perhibet ignorari, ne perdant <lb/>
-            eos, si fuerint cogniti et tolerati; tu autem etiam <sic>ignoratorum</sic><lb n="20"/>
+            eos, si fuerint cogniti et tolerati; tu autem etiam ignoratorum<lb n="20"/>
             malorum contagio bonos perire dixisti neque timuisti <lb/>
             tam multos ab initio uestros latentes flagitiosos, facinorosos <lb/>
             atque impios, qui profecto secundum tuam sententiam te atque <lb/>
@@ -2784,7 +2782,7 @@
             cernentes, nisi eos faciat sapientia patientes. nam <lb/>
             quomodo propter occulta nos non debere recedere disceremus, <lb/>
             quae omnino esse nescimus? etsi uidentur, inquit, in <lb n="25"/>
-            ecclesia esse zizania. \'uidentur\' ait, non \'<sic>suspicatione</sic> <lb/>
+            ecclesia esse zizania. \'uidentur\' ait, non \'suspicatione <lb/>
             creduntur\'. et ne quisquam putaret ita dictum \'uidentur esse\', <lb/>
             tamquam non essent, sed esse uiderentur, uerbis consequentibus <lb/>
             quid dixerit aperit: non tamen inpediri, inquit, debet <lb/>
@@ -2801,7 +2799,7 @@
             recedamus. non ait (suspicamur putamus credimus opinamur\', sed <lb/>
             (cernimus). ea quippe etiam illi non operta credebant, sed <lb/>
             aperta cernebant, qui dixerunt patri familias: uis imus et <lb/>
-            colligimus ea?, de <choice><sic>quibufi</sic><corr>quibus</corr></choice> ditum erat: cum creuisset <lb/>
+            colligimus ea?, de quibus ditum erat: cum creuisset <lb/>
             herba et fructum fecisset, tunc apparuerunt zizania. <lb n="5"/>
             quibus respondit: non, ne forte, dum uultis colligere <lb/>
             zizania, simul eradicetis ettriticum, et: sinite <lb/>
@@ -2857,11 +2855,11 @@
             grauiora quam in Caecilianum, quando eum maiores uestri <lb/>
             absentem innocentemque damnarunt, ita subiecta est eorum <lb/>
             manifesta et indubitata damnatio: famosi ergo criminis <lb/>
-            <sic>reosUictorianumCarcabianensem</sic>, Marcianum Sullectinum, <lb n="10"/>
-            <choice><sic>Beianum</sic><corr>Beiauum</corr></choice> Beianensem, Saluium Ausafensem, <lb/>
-            TheodorumUsulensem, <choice><sic>DonatumSabratensem</sic><corr>DonatumSabrateusem</corr></choice>, <lb/>
+            reos Uictorianum Carcabianensem, Marcianum Sullectinum, <lb n="10"/>
+            Beianum Beianensem, Saluium Ausafensem, <lb/>
+            TheodorumUsulensem, Donatum Sabratensem, <lb/>
             Miggenem Elefantariensem, Praetextatum Assuritanum, <lb/>
-            Saluium <sic>Membressitanum</sic>, Ualerium <sic>Melzitanum</sic>, <lb/>
+            Saluium Membresitanum, Ualerium Melzitanum, <lb/>
             Felicianum Mustitanum et Martialem <lb n="15"/>
             Pertusensem, qui funesto opere perditionis uas <lb/>
             sordidum collecta faeculentia glutinarunt, sed et <lb/>
@@ -2918,7 +2916,7 @@
             baptizatus ad Stephanum et eius socios uenit, secundum uos <lb/>
             sine baptismo exceptus est. cernis igitur omnia hominum <lb/>
             crimina, si uerum est quod de baptismo sentitis, tunc in<lb n="25"/>
-            ecclesia sine baptismo congregata. responde, utrum his <sic>crÎnlÎnibus</sic> <lb/>
+            ecclesia sine baptismo congregata. responde, utrum his criminibus <lb/>
             in eadem unitate maculatus fuerit Cyprianus, responde, <lb/>
             utrum ecclesia perierit an non perierit. elige quod putaueris. <lb/>
             si iam tunc perierat, Donatum quae peperit? si autem tot in <lb/>
@@ -2964,8 +2962,8 @@
 </div>
 
 <div n="10" subtype="section" type="textpart">
-<p><milestone n="9" unit="altchapter"/> In <choice n="0.88"><sic n="2914">hac</sic><corr n="367">hae</corr></choice> ergo ecclesia constituti, quae malorum <lb/>
-            <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> occultorum siue etiam manifestorum nec potuit nec poterit <lb/>
+<p><milestone n="9" unit="altchapter"/> In hac ergo ecclesia constituti, quae malorum <lb/>
+            siue occultorum siue etiam manifestorum nec potuit nec poterit <lb/>
             perire contagio, nullas de quibuslibet hominibus calumnias <lb/>
             formidamus. si enim mali sunt, procul dubio eos aut ignorant <lb n="25"/>
             boni aut suis indiciis manifestatos ecclesiasticis legibus damnant <lb/>
@@ -2996,7 +2994,7 @@
             quorum auaritiam non leue aliquod uitium sed esse <lb/>
             idololatriam secundum apostolum intellegit, pro unitatis <lb/>
             uinculo pertulit tales nec eorum contagio factus est talis. <lb/>
-            discessit ab eis dissimilitudine morum, non diuisione <sic>sacramontorum</sic><lb n="15"/>
+            discessit ab eis dissimilitudine morum, non diuisione sacramentorum<lb n="15"/>
             et immundum non tetigit, sed a factis eorum <lb/>
             abhorrendo, non seorsum populum colligendo. uos autem, dum <lb/>
             carnaliter sapitis quod dictum est per Esaiam prophetam: <lb/>
@@ -3024,7 +3022,7 @@
             putas et nos in uerbo reprehendis, una eademque societas <lb/>
             perditorum (non) simul et schisma et haeresis esset, non <lb/>
             dixisset beatissimus Cyprianus in hac ipsa epistula, unde hoc <lb/>
-            de zizaniis in ecclesia constitutis posui testimonium, eis <sic>confessoribus</sic>, <lb/>
+            de zizaniis in ecclesia constitutis posui testimonium, eis confessoribus, <lb/>
             quos gratulabatur a Nouatianorum diuisione fuisse <lb n="5"/>
             liberatos: dolebam uehementer et grauiter angebar <lb/>
             quod eis communicare non possem quos semel <lb/>
@@ -3108,14 +3106,14 @@
             idololatriae <hi rend="italic">fo</hi> 19 machinamenus J 22 conuersatione <hi rend="italic">Af</hi> 28 ubi J </note> <lb/>
              
 <pb n="269"/>
-            <hi rend="italic">tantum opus, domus <choice><sic>doniini</sic><corr>domini</corr></choice>, ubi a te saepius dei et Christi <lb/>
+            <hi rend="italic">tantum opus, domus domini, ubi a te saepius dei et Christi <lb/>
             eius inuocatum nomen est, per religionem tuam ibidem constitutam <lb/>
-            <sic>conerematum</sic> esse dÜ-atur). intellege, quia in ueritate <lb/>
+            concrematum esse dÜ-atur). intellege, quia in ueritate <lb/>
             religio dicitur, in fallacia superstitio nominatur</hi>. quando ego <lb/>
             id aduerterem, quando ita ratiocinarer, quando aliud ex alio <lb n="5"/>
             sic probarem? fateor, fugit hoc aciem quantulicumque ingenii <lb/>
             mei et ideo crede mihi falli me ibi potuisse, non, ut dixisti, <lb/>
-            fallere uoluisse in uerbo. itaque tribunus tamquam homo <choice><sic>militalis</sic><corr>militaris</corr></choice> <lb/>
+            fallere uoluisse in uerbo. itaque tribunus tamquam homo militaris <lb/>
             errauit, ut ei, quem scit uel credit haereticum, diceret: <lb/>
             <hi rend="italic">per religionem tuam,</hi> cum haeresis non religio, sed superstitio, <lb n="10"/>
             religio autem non in falsitate, sed in ueritate propria locutione <lb/>
@@ -3124,8 +3122,8 @@
             te ipsum, obaudi tibi ipsi, et nos sequi minime recusabis. <lb/>
             scribens namque ad eundem tribunum in primae epistulae <lb n="15"/>
             tuae ipso exordio posuisti atque dixisti: <hi rend="italic">honorabili ac nimium <lb/>
-            nobis, si sic <choice><sic>uolueHs</sic><corr>nolueris</corr></choice>, desiderando Dulcitio tribuno et notario<lb/>
-             Gaudentius episcopus</hi> et continuo subiecisti: <hi rend="italic">religionis <sic>tiwe</sic><lb/>
+            nobis, si sic uolueris, desiderando Dulcitio tribuno et notario<lb/>
+             Gaudentius episcopus</hi> et continuo subiecisti: <hi rend="italic">religionis tuae<lb/>
              scripta percepi</hi>. quid igitur ad nos uenire adhuc dubitas? <lb/>
             ecce tribunus Dulcitius cum sit homo communionis nostrae, <lb n="20"/>
             tamen secundum testimonium tuum non superstitiosus, sed <lb/>
@@ -3136,7 +3134,7 @@
             distare, quantum a falsitate ueritas distat. ille autem homo, <lb/>
             ut iam dixi, militaris et in istis uerborum proprietatibus <lb/>
             minus eruditus quid esset religio nesciebat; absit enim ut <lb/>
-            dicam: <sic>lte</sic> adulando fallebat\'. tu uero, qui eos, contra quos
+            dicam: te adulando fallebat\'. tu uero, qui eos, contra quos
 
 <note type="footnote"> 16 I 1, 2 18 I 2, 3 </note>
 
@@ -3159,7 +3157,7 @@
             forte ad hoc irasceris, quod fratrem uoco? hoc enim nomen <lb/>
             a nobis etiam in nostra collatione respuistis, ubi ostendistis <lb/>
             nos esse quibus dominus praecepit per prophetam: dicite <lb/>
-            <choice><sic>Cfratres</sic><corr>fratres</corr></choice> nostri estis\' eis qui uos oderunt et qui uos <lb/>
+            fratres nostri estis\' eis qui uos oderunt et qui uos <lb/>
             detestantur, uos uero in numero eorum esse, qui istos,<lb n="15"/>
             quibus hoc dominus dicit, oderunt et detestantur. negare certe <lb/>
             non potes te religionem dixisse in qua est tribunus Dulcitius. <lb/>
@@ -3177,7 +3175,7 @@
             et tuam uerissimam expositionem quoniam religio est <lb/>
             quam Dulcitius tribunus tenet, profecto religio est qua te<lb n="25"/>
             ad nostram communionem praeceptum imperatoris impellit. <lb/>
-            unde fit consequens, ut religio sit etiam qua <choice><sic>christianus</sic><corr>Christianus</corr></choice> <lb/>
+            unde fit consequens, ut religio sit etiam qua christianus <lb/>
             imperator ad curam suam iudicat pertinere, ne in res diuinas <lb/>
             inpune peccetur, a quo tu non uis curari nisi ea, quae terrena <lb/>
             re publica continentur. unde et regem Niniuitarum oblitus
@@ -3190,14 +3188,14 @@
             hoc tuum <hi rend="italic">fo</hi> 25 profecto] profiteor <hi rend="italic">J</hi> </note> <lb n="30"/>
              
 <pb n="271"/>
-            quid <choice n="0.34"><sic n="33">legens</sic><corr n="64">legeris</corr></choice> populo de agenda paenitentia non mandasse dixisti; <lb/>
-            haec enim uerba tua sunt ad me: <hi rend="italic">quid,</hi> inquis, <hi rend="italic"><choice><sic>miscros</sic><corr>miseros</corr></choice> decipis?<lb/>
-             Ionae <sic>dciis</sic> praecepit, prophetam dominus ad populum <lb/>
-            misit; nihil <choice><sic>tcile</sic><corr>tale</corr></choice> regi <choice><sic>mandmiit</sic><corr>mandauit</corr></choice></hi>. aduerte ergo quid scriptum <lb/>
+            quid legeris populo de agenda paenitentia non mandasse dixisti; <lb/>
+            haec enim uerba tua sunt ad me: <hi rend="italic">quid,</hi> inquis, <hi rend="italic">miseros decipis?<lb/>
+             Ionae deus praecepit, prophetam dominus ad populum <lb/>
+            misit; nihil tale regi mandauit</hi>. aduerte ergo quid scriptum <lb/>
             sit et noli irasci nisi tibi ipsi, qui uel diuina scripta non <lb n="5"/>
             recolis uel tu potius miseros decipis: surrexit Ionas et <lb/>
             abiit in Niniue, sicut locutus est dominus. Niniue <lb/>
-            autem ciuitas magna erat quasi <choice n="0.93"><sic n="279">uiae</sic><corr n="19">tridui</corr></choice> tridui. et coepit <lb/>
+            autem ciuitas magna erat quasi uiae tridui. et coepit <lb/>
             Ionas ingredi ciuitatem quasi unius diei iter, <lb/>
             et praedicauit et ait: adhuc triduum, et Niniue <lb n="10"/>
             subuertetur. et crediderunt uiri Niniuitae domino <lb/>
@@ -3246,7 +3244,7 @@
             per deum religionis, deum ueritatis, ut etiam tuus error aliquando <lb/>
             finiatur. ipsa est, frater, ecclesia Christi quae hoc <lb/>
             tempore toto terrarum orbe crescendo dilatatur, continens et <lb/>
-            malos et bonos <sic>uentilatione</sic> ultima separandos. atque ut te ad <lb/>
+            malos et bonos uentilatione ultima separandos. atque ut te ad <lb/>
             extremum illius potius uerbis alloquar, quem testem catholici<lb n="15"/>
             nominis adhibere uoluisti, ipsa est quae domini luce perfusa <lb/>
             per orbem totum radios suos porrigit, ipsa est <lb/>
@@ -3272,7 +3270,7 @@
             25 fructum] frumentum <hi rend="italic">J</hi> 29 uero inhonorata <hi rend="italic">fv</hi> </note> <lb/>
              
 <pb n="273"/>
-            quantum possumus laboremus, <sic>utuas</sic> <sic>aureumuelargenteum</sic> <lb/>
+            quantum possumus laboremus, ut uas aureum uel argenteum <lb/>
             simus. ceterum fictilia uasa confringere domino <lb/>
             soli concessum est cui et uirga ferrea data <lb/>
             est. esse non potest maior domino suo seruus nec <lb/>
@@ -3345,7 +3343,7 @@
           </ab>
   <div n="1" subtype="section" type="textpart">  
           <p>Per idem tempus Dulcitius tribunus et notarius hic erat <lb n="5"/>
-            in Africa executor <choice><sic>impenalium</sic><corr>imperialium</corr></choice> iussionum contra Donatistas <lb/>
+            in Africa executor imperialium iussionum contra Donatistas <lb/>
             datarum. qui cum dedisset litteras ad Gaudentium Tamugadensem, <lb/>
             Donatistarum episcopum, unum illorum septem, quos <lb/>
             in nostram conlationem auctores suae defensionis elegerant, <lb/>
@@ -3369,7 +3367,7 @@
 </div>
 
 <div n="2" subtype="section" type="textpart">
-<p>Hoc opus sic incipit: <hi rend="italic"><choice><sic>Qandentius</sic><corr>Gaudentius</corr></choice>, Donatistarum <sic>Tarnugadensis</sic> <lb n="25"/>
+<p>Hoc opus sic incipit: <hi rend="italic">Gaudentius, Donatistarum Tamugadensis <lb n="25"/>
             episcopus</hi>.
 
 <note type="footnote"> 8 sq.] cf. pag. 203, 6-8 </note>
@@ -3387,10 +3385,10 @@
             <title type="sub">SENTENTIAE CONCILII BAGAIENSIS QVAE SUPERSUNT EX UARIIS AUGUSTINI LOCIS COLLECTA. </title>
           </ab>
 <div n="1" subtype="section" type="textpart">
-          <p> Cum omnipotentis dei et Christi eius saluatoris nostri <choice><sic>uolantate</sic><corr>uoluntate</corr></choice> <lb/>
+          <p> Cum omnipotentis dei et Christi eius saluatoris nostri uoluntate <lb/>
             ex uniuersis prouinciis Africae uenientes in ecclesia sancta <lb/>
             Bagaiensi concilium gereremus Gamalius Primianus Pontius Secundianus<lb n="5"/>
-            Ianuarianus <choice><sic>Satarninus</sic><corr>Saturninus</corr></choice> Felix Pegasius Rufinus Fortunius <lb/>
+            Ianuarianus Saturninus Felix Pegasius Rufinus Fortunius <lb/>
             Crispinus Florentius Optatus Donatus Donatianus et ceteri numero <lb/>
             trecenti decem, placuit spiritui sancto qui in nobis est pacem  <lb/>
             firmare perpetuam et schismata resecare sacrilega ... 
@@ -3416,8 +3414,8 @@
             quod ante praedictum est: parturiit iniustitiam, concepit <lb/>
             dolorem et peperit iniquitatem. sed quoniam serenum <lb/>
             iam fulget e nubilo nec est confusa criminum silua, cum <lb/>
-            ad poenam <choice><sic>deaignata</sic><corr>designata</corr></choice> sunt nomina — indulgentia enim antehac <lb/>
-            fuerat —, dum clementiae dimittimus lineam, inuenit <choice><sic>cansa</sic><corr>causa</corr></choice>. quos  <lb n="25"/>
+            ad poenam designata sunt nomina — indulgentia enim antehac <lb/>
+            fuerat —, dum clementiae dimittimus lineam, inuenit causa. quos  <lb n="25"/>
             puniat ..... 
 </p>
 
@@ -3437,7 +3435,7 @@
 <pb n="277"/>
             quia iam non possumus tacere personas. Maximianum fidei aemulum, <lb/>
             ueritatis adulterum, ecclesiae matris inimicum, Dathae, Corae <lb/>
-            et Abiron ministrum de pacis gremio sententiae fulmen <choice><sic>exeussit</sic><corr>excussit</corr></choice>, <lb/>
+            et Abiron ministrum de pacis gremio sententiae fulmen excussit, <lb/>
             et quod adhuc eum dehiscens terra non sorbuit, ad maius supplicium <lb/>
             superis reseruauit. raptus enim poenam suam conpendio <lb n="5"/>
             lucrauerat funeris; usuras nunc grauioris colligit faenoris, cum <lb/>
@@ -3456,19 +3454,19 @@
             iunctura praecidi. sed quoniam tabescentis uulneris putredo pestifera <lb n="15"/>
             plus habet in abscisione solaminis quam in remissione medicaminis, <lb/>
             inuenta est causa salubrior, ne per cuncta membra pe-. <lb/>
-            <sic>stilens</sic> inrepat uirus, ut conpendioso dolore natum decidat uulnus. <lb/>
+            stilens inrepat uirus, ut conpendioso dolore natum decidat uulnus. <lb/>
  . 
 </p>
 
 </div>
 <div n="6" subtype="section" type="textpart"><p>           famosi ergo crimims reos Uictonanum Carcabianensem, Marcianum <lb/>
-            Sullectinum, Beianum Beianensem, Saluium <sic>Allsatensem</sic>, Theodorum <lb n="20"/>
-            <sic>UsulenHem</sic>, Donatum Sabratensem, Miggenem Elefantariensem, <lb/>
+            Sullectinum, Beianum Beianensem, Saluium Ausafensem, Theodorum <lb n="20"/>
+            Usulensem, Donatum Sabratensem, Miggenem Elefantariensem, <lb/>
             Praetextatum Adsuritanum, Saluium Membresitanum, Ualerium <lb/>
-            Melzitanum, <sic>Felicianum</sic> Mustitanum et Martialem Pertusensem, <lb/>
+            Melzitanum, Felicianum Mustitanum et Martialem Pertusensem, <lb/>
             qui funesto opere perditionis uas sordidum collecta faeculentia <lb/>
             glutinarunt, sed et clericos aliquando ecclesiae Carthaginis, qui, <lb n="25"/>
-            dum facinori <choice n="0.30"><sic n="7">intersunt</sic><corr n="16">intereunt</corr></choice>, inlicito incestui lenocinium praebuerunt, <lb/>
+            dum facinori intersunt, inlicito incestui lenocinium praebuerunt, <lb/>
             dei praesidentis arbitrio uniuersalis concilii ore ueridico damnatos <lb/>
             esse cognoscite. eos autem, quos sacrilegi surculi non polluere
 
@@ -3487,7 +3485,7 @@
             5 suamj sui <hi rend="italic">Em. 10</hi> 12 contribulatio et calamitas <hi rend="italic">Cresc. IIII 4, 5</hi> </note> <lb/>
              
 <pb n="278"/>
-            plantaria, hoc est qui a Maximiani capite <choice n="0.45"><sic n="70">proprias</sic><corr n="84">propriae</corr></choice> manus uerecundo <lb/>
+            plantaria, hoc est qui a Maximiani capite proprias manus uerecundo <lb/>
             fidei pudore retraxerunt, ad matrem ecclesiam redire permisimus. <lb/>
            . 
 </p>

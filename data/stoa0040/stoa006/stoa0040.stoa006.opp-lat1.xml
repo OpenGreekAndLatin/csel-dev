@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,7 +104,7 @@
 <p><milestone n="1" unit="altchapter"/>Quoniam scriptum est et apostolicae disciplinae robustissima <lb/>
             auctoritate firmatum. quia iustus ex fide uiuit, <lb/>
             eaque fides officium a nobis exigit et cordis et linguae — ait <lb n="5"/>
-            enim apostolus: <choice n="0.29"><sic n="283">corda</sic><corr n="684">corde</corr></choice> creditur ad iustitiam, ore autem <lb/>
+            enim apostolus: corde creditur ad iustitiam, ore autem <lb/>
             confessio fit ad salutem — oportet nos esse et iustitiae <lb/>
             memores et salutis, quandoquidem in sempiterna iustitia <lb/>
             regnaturi a praesenti saeculo maligno salui fieri non possumus, <lb/>
@@ -196,7 +194,7 @@
             quia etsi aliquid fecit ex aliquo, sicut hominem de <lb/>
             limo, non utique fecit ex eo, quod ipse non fecerat, quia <lb n="10"/>
             terram, unde limus est, ex nihilo fecerat. et si ipsum caelum <lb/>
-            et terram, id est )<choice><sic>llUndum</sic><corr>mundum</corr></choice> et omnia, quae in eo sunt, ex <lb/>
+            et terram, id est )mundum et omnia, quae in eo sunt, ex <lb/>
             aliqua materia fecerat, sicut scriptum est: qui fecisti <lb/>
             mundum ex materia inuisa, uel etiam informi, sicut <lb/>
              nonnulla exemplaria tenent, nullo modo credendum est illam <lb n="15"/>
@@ -230,7 +228,7 @@
             et ideo ipse unus est, qui cuilibet rei non solum, ut pulchra <lb/>
             sit, sed etiam ut pulchra esse possit adtribuit. quapropter <lb/>
             rectissime creditur omnia deum fecisse de nihilo: quia etiam<lb n="5"/>
-            <sic>ai</sic> de aliqua materia factus est mundus, eadem ipsa materia <lb/>
+            si de aliqua materia factus est mundus, eadem ipsa materia <lb/>
             de nihilo facta est, ut ordinatissimo dei munere prima capacitas <lb/>
             formarum fieret, ac deinde formarentur quaecumque <lb/>
             formata sunt. hoc autem diximus, ne quis existimet contrarias <lb/>
@@ -280,7 +278,7 @@
             per signa huius modi ad cognitionem alterius proferatur: sic <lb/>
             illa sapientia, quam deus pater genuit, quoniam per ipsam <lb/>
             innotescit dignis animis secretissimus pater, uerbum eius <lb/>
-            \'<sic>Conuenientissime</sic> nominatur. 
+            \'conuenientissime nominatur. 
 </p>
           
 </div>
@@ -334,7 +332,7 @@
 
 <div n="5" subtype="section" type="textpart">
 <p><milestone n="4" unit="altchapter"/> Quamobrem unigenitus filius dei neque factus est <lb/>
-            a patre, quia, sicut dicit <choice><sic>euaugelista</sic><corr>euangelista</corr></choice>, omnia per ipsum <lb/>
+            a patre, quia, sicut dicit euangelista, omnia per ipsum <lb/>
             facta sunt, neque ex tempore genitus, quoniam sempiterne <lb/>
             deus sapiens sempiternam secum habet sapientiam suam; neque<lb n="15"/>
             inpar est patri, id est in aliquo minor, quia et apostolus <lb/>
@@ -406,8 +404,8 @@
             22 esse se <hi rend="italic">FPTNOx</hi> §qualem <hi rend="italic">PTNVOf</hi> </note> <lb/>
              
 <pb n="10"/>
-            <sic>euacuauit</sic>, formam serui accipiens, ut crearetur homo <lb/>
-            principio uiarum eius, uerbum, per quod <sic>factasuntomnia</sic>. <lb/>
+            euacuauit, formam serui accipiens, ut crearetur homo <lb/>
+            principio uiarum eius, uerbum, per quod facta sunt omnia. <lb/>
             quapropter secundum id, quod unigenitus est, non habet <lb/>
             fratres, secundum id autem, quod primogenitus est, fratres <lb/>
             uocare dignatus est omnes, qui post eius et per eius primatum<lb n="5"/>
@@ -447,7 +445,7 @@
             se <hi rend="italic">om P</hi> esse <hi rend="italic">om. TN</hi> </note> <lb/>
              
 <pb n="11"/>
-            dicentis accepit: ego <choice><sic>Bum</sic><corr>sum</corr></choice>, qui sum. deinde subiunxit: haec <lb/>
+            dicentis accepit: ego sum, qui sum. deinde subiunxit: haec <lb/>
             dices filiis Israhel: qui est, misit me ad uos. 
 </p>
           
@@ -543,7 +541,7 @@
 <pb n="13"/>
             secundum hominem crucifixus est; et illa erat hora, quae nondum <lb/>
             uenerat, quando dictum est: mihi et tibi quid est? nondum <lb/>
-            uenit <sic>horamea</sic>, id est, qua te cognoscam. tunc enim <lb/>
+            uenit hora mea, id est, qua te cognoscam. tunc enim <lb/>
             ut homo crucifixus cognouit hominem matrem et dilectissimo <lb/>
             discipulo humanissime commendauit. nec illud nos moueat, <lb n="5"/>
             quod, cum ei nuntiaretur mater eius et fratres, respondit: <lb/>
@@ -563,7 +561,7 @@
 <p>Nec nobis fidem istam minuat cogitatio muliebrium <lb n="15"/>
             uiscerum, ut propterea recusanda uideatur talis domini nostri <lb/>
             generatio, quod eam sordidi sordidam putant, quia et \'stultum <lb/>
-            dei sapientius est hominibus&gt; et (<sic>omniamunda</sic> <lb/>
+            dei sapientius est hominibus&gt; et (omnia munda <lb/>
             mundis* uerissime apostolus dicit. debent igitur intueri, qui <lb/>
              hoc putant, solis huius radios, quem certe non tamquam <lb n="20"/>
             creaturam dei laudant, sed tamquam deum adorant, per cloacarum <lb/>
@@ -631,7 +629,7 @@
             23 sic <hi rend="italic">alt. M</hi> </note> <lb/>
              
 <pb n="15"/>
-            illo monumento nullus alius <choice><sic>mortnus</sic><corr>mortuus</corr></choice> sepultus est nec ante <lb/>
+            illo monumento nullus alius mortuus sepultus est nec ante <lb/>
             nec postea, sic in illo utero nec ante nec postea quidquam <lb/>
             mortale conceptum est. 
 </p>
@@ -660,7 +658,7 @@
             seminatur corpus animale, surgit corpus spiritale. <lb/>
             non enim ita dictum est, quasi corpus uertatur in spiritum <lb/>
             et spiritus fiat, quia et nunc corpus nostrum, quod animale <lb/>
-            dicitur, non in animam uersum est et anima factum; <sic>spd</sic> <lb n="20"/>
+            dicitur, non in animam uersum est et anima factum; sed <lb n="20"/>
             spiritale corpus intellegitur, quod ita spiritui subditum est, <lb/>
             ut caelesti habitationi conueniat, omni fragilitate ac labe terrena
 
@@ -684,7 +682,7 @@
             haec est inmutatio, de qua item dicit apostolus: omnes <lb/>
             resurgemus, sed non omnes inmutabimur. quam inmutationem <lb/>
             non in deterius, sed in melius fieri docet idem, <lb/>
-            cum dicit: <sic>etnosinmutabimur</sic>. sed ubi et quomodo sit in<lb n="5"/>
+            cum dicit: et nos inmutabimur. sed ubi et quomodo sit in<lb n="5"/>
             caelo corpus dominicum, curiosissimum et superuacaneum <lb/>
             est quaerere; tantummodo in caelo esse credendum est. non <lb/>
             enim est fragilitatis nostrae caelorum secreta discutere, sed <lb/>
@@ -789,10 +787,10 @@
             et spiritus sanctus sit spiritus sanctus, sed haec trinitas unus <lb/>
             deus, sicut scriptum est: audi, Israhel: dominus deus <lb/>
             tuus deus unus est. tamen si interrogemur de singulis et <lb n="10"/>
-            dicatur nobis: <sic>deusest</sic> <sic>paterPrespondebimus</sic>: deus. <sic>siquaeratur</sic>, <lb/>
+            dicatur nobis: deus est pater? Respondebimus: deus. si quaeratur, <lb/>
             utrum deus sit filius, hoc respondebimus. nec si fuerit de <lb/>
             spiritu sancto talis interrogatio, aliud eum esse debemus <lb/>
-            respondere quam deum, uehementer <choice n="0.96"><sic n="28">canentes</sic><corr n="1">cauentes</corr></choice> sic accipere, <lb/>
+            respondere quam deum, uehementer cauentes sic accipere, <lb/>
             quomodo de hominibus dictum est: dii estis. non enim sunt <lb n="15"/>
             naturaliter dii, quicumque sunt facti atque conditi ex patre <lb/>
             per filium dono spiritus sancti. ipsa enim significatur trinitas, <lb/>
@@ -878,13 +876,13 @@
             aquas non posse dici, sed omnino unam aquam, quamquam<lb n="10"/>
             de singulis poculis interrogatus in quolibet horum aquam <lb/>
             esse respondeas, quamuis nullus hic transitus fiat, sicut de <lb/>
-            fonte in <choice><sic>fiuuium</sic><corr>fluuium</corr></choice> dicebamus. sed haec non propter illius diuinae <lb/>
+            fonte in fluuium dicebamus. sed haec non propter illius diuinae <lb/>
             naturae similitudinem, sed propter uisibilium etiam unitatem <lb/>
             corporalia exempla data sunt, ut intellegeretur fieri posse, ut <lb n="15"/>
             aliqua tria non tantum singillatim, sed etiam simul singulare <lb/>
             nomen obtineant, ne quisquam miretur et absurdum putet, <lb/>
             quod deum dicimus patrem, deum filium, deum spiritum <lb/>
-            sanctum nec tamen tres deos in ista <choice><sic>tlinitate</sic><corr>trinitate</corr></choice>, sed unum <lb/>
+            sanctum nec tamen tres deos in ista trinitate, sed unum <lb/>
             unamque substantiam. <lb n="20"/>
             
 </p>
@@ -919,7 +917,7 @@
             Christi dicitur, quamuis et Christus principium, sed <lb/>
             non patris; hic uero illius imago, quamuis nulla ex parte <lb/>
             dissimilis et omnino indifferenter aequalis. tractantur haec <lb/>
-            latius ab eis, qui non tam breuiter quam nos totius <choice><sic>christianae</sic><corr>Christianae</corr></choice> <lb/>
+            latius ab eis, qui non tam breuiter quam nos totius Christianae <lb/>
             fidei professionem uolunt explicare. itaque, in quantum filius <lb n="10"/>
             est, de patre accepit, ut sit, cum ille de filio id non acceperit: <lb/>
             et in quantum hominem mutabilem, scilicet creaturam in <lb/>
@@ -1044,7 +1042,7 @@
             timorem, et spiritum libertatis accepimus, in quo clamamus:<lb n="5"/>
             abba pater. et quia reconciliati et in amicitiam <lb/>
             reuocati per caritatem poterimus omnia dei secreta cognoscere, <lb/>
-            propterea de spiritu <choice><sic>Nsancto</sic><corr>sancto</corr></choice> dicitur: ipse uos inducet in <lb/>
+            propterea de spiritu sancto dicitur: ipse uos inducet in <lb/>
             omnem ueritatem; propterea et confidentia praedicandae <lb/>
             ueritatis, qua inpleti sunt in aduentu eius apostoli, recte <lb n="10"/>
             caritati tribuitur, quia et diffidentia timori datur, quem consummatio <lb/>
@@ -1082,7 +1080,7 @@
             carne est, sed secundum Christum de spiritu sancto. quapropter <lb/>
             si spiritus sancti hoc loco facta est commemoratio, cum dictum <lb/>
             est, quoniam deus spiritus est, animaduertendum dicunt <lb/>
-            non dictum esse <sic>Cquoniam</sic> spiritus deus est), sed: quoniam <lb n="5"/>
+            non dictum esse quoniam spiritus deus est), sed: quoniam <lb n="5"/>
             deus spiritus est, ut ipsa deitas patris et filii hoc loco <lb/>
             dicta sit deus, quod est spiritus sanctus. huc accedit aliud <lb/>
             testimonium, quod dicit Iohannes apostolus, quoniam deus <lb/>
@@ -1124,7 +1122,7 @@
             caritatemuej caritatem <hi rend="italic">PTNJI</hi>. sine caritatem <hi rend="italic">FSVOabd</hi> </note> <lb/>
              
 <pb n="26"/>
-            <sic>caritatemue</sic> appellamus, non. esse substantiam; quaerunt autem <lb/>
+            caritatemue appellamus, non. esse substantiam; quaerunt autem <lb/>
             secundum substantiam sibi exponi spiritum sanctum, nec <lb/>
             intellegunt non aliter potuisse dici: deus dilectio est, nisi <lb/>
             substantia esset dilectio. ducuntur quippe consuetudine rerum <lb/>
@@ -1185,7 +1183,7 @@
             inquit, proximum tuum tamquam te ipsum - nisi <lb n="10"/>
             autem ista fides congregationem societatemque hominum <lb/>
             teneat, in qua fraterna caritas operetur, minus fructuosa est,  <lb/>
-            credimus et in sanctam ecclesiam, utique <choice><sic>catbolicam</sic><corr>catholicam</corr></choice>. 
+            credimus et in sanctam ecclesiam, utique catholicam. 
 </p>
 <p><milestone n="10" unit="altchapter"/><lb/>
             nam haeretici et schismatici congregationes suas ecclesias <lb/>
@@ -1216,7 +1214,7 @@
             sibi] siue <hi rend="italic">SfFV</hi> suis <hi rend="italic">TN</hi> precatur] nouit P notuit <hi rend="italic">M</hi> </note> <lb n="20"/>
              
 <pb n="28"/>
-            ab illo, qui nos reconciliauit sibi, <choice n="0.57"><sic n="4">deleas</sic><corr n="3">delens</corr></choice> omnia praeterita et <lb/>
+            ab illo, qui nos reconciliauit sibi, delens omnia praeterita et <lb/>
             ad uitam nouam nos uocans: quam uitam donec perfectam <lb/>
             capiamus, sine peccatis esse non possumus; interest tamen <lb/>
             qualia sint. 
@@ -1281,7 +1279,7 @@
             quod sibi caput est, cuius capitis caput est Christus. non <lb/>
             est desperandum etiam corpus restitui naturae propriae; sed <lb/>
             utique non tam cito quam anima, sicut neque. anima tam <lb n="15"/>
-            cito <sic>quamspiritus</sic>, sed tempore oportuno in nouissima tuba, <lb/>
+            cito quam spiritus, sed tempore oportuno in nouissima tuba, <lb/>
             cum mortui resurgent incorrupti et nos inmutabimur. <lb/>
             et ideo credimus et in carnis resurrectionem, non <lb/>
             tantum quia reparatur anima, quae nunc propter carnales <lb/>
@@ -1313,14 +1311,14 @@
             quae proprie dicitur caro sine dubitatione credenda est resurgere. <lb/>
             uidetur enim Paulus apostolus eam tamquam digito <lb/>
             ostendere, cum dicit: oportet corruptibile hoc induere<lb n="5"/>
-            incorruptionem. <choice n="0.03"><sic n="1419">cura</sic><corr n="42581">cum</corr></choice> enim dicit \'hoc\', in eam quasi <lb/>
+            incorruptionem. cum enim dicit \'hoc\', in eam quasi <lb/>
             digitum intendit. quod autem uisibile est, id potest digito <lb/>
             ostendi, quoniam potest etiam anima corruptibilis dici; nam. <lb/>
             uitiis morum ipsa corrumpitur. et mortale hoc induere <lb/>
             inmortalitatem cum legitur, eadem significatur uisibilis<lb n="10"/>
             caro, quia in eam identidem uelut digitus intenditur. potest <lb/>
             enim et anima sicut corruptibilis propter morum uitia, ita <lb/>
-            etiam mortalis dici. <choice n="0.46"><sic n="595">mora</sic><corr n="698">mors</corr></choice> quippe animae est apostatare a <lb/>
+            etiam mortalis dici. mors quippe animae est apostatare a <lb/>
             deo: quod primum eius peccatum in paradiso sacris litteris <lb/>
             continetur. <lb n="15"/>
             
@@ -1329,7 +1327,7 @@
 </div>
 
 <div n="24" subtype="section" type="textpart">
-<p><sic>Resurget</sic> igitur corpus secundum <choice><sic>christianam</sic><corr>Christianam</corr></choice> fidem, <lb/>
+<p>Resurget igitur corpus secundum christianae fidem, <lb/>
             quae fallere non potest. quod cui uidetur incredibile, qualis <lb/>
             nunc sit caro adtendit, qualis autem futura sit non considerat: <lb/>
             quia illo tempore inmutationis angelicae non iam caro erit et <lb/>
@@ -1452,7 +1450,7 @@
     </ab>
     
     
-    <p>De fide et symbolo pag. 30, 16 <choice><sic>squ</sic><corr>sqq</corr></choice>. 
+    <p>De fide et symbolo pag. 30, 16 sqq. 
     </p>
     <p>Retract. I 17. In hoc libro cum de resurrectione ageretur. <lb/>
       resurget, inquam, corpus secundum christianam <lb/>

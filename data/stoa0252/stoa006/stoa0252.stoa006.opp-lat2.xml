@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -95,10 +93,10 @@
           </ab>
           <p n="1" rend="script">SANCTO AC BEATISSIMO PATRI MACEDONIO PRESBVTEEO <lb/>
             SEDVLIVS IN CHBISTO SALVTEM. Praecepisti, reuerende mi <lb/>
-            domine, paschalis carminis textum, quod officium purae <choice><sic>denotionis</sic><corr>deuotionis</corr></choice> <lb/>
+            domine, paschalis carminis textum, quod officium purae deuotionis <lb/>
             simpliciter exsecutus uobis obtuli perlegendum, in <lb/>
             rhetoricum me transferre sermonem. utrum quod placuerit, <lb n="5"/>
-            ideo geminari <choice n="0.24"><sic n="27">nolueris</sic><corr n="84">uolueris</corr></choice>, an quod offenderit, ut potius arbitror, <lb/>
+            ideo geminari uolueris, an quod offenderit, ut potius arbitror, <lb/>
             stilo censueris liberiore describi: sub dubio uideor fluctuare <lb/>
             iudicio. sanctis tamen iussionibus non resultans iniunctam <lb/>
             suscepi prouinciam et procellosis adhuc imbribus concussae <lb/>
@@ -106,7 +104,7 @@
             per emensos cursus reuoluti discriminis et Cycladas ingentes, <lb/>
             quas praecipitanti formidine celerius ante transiueram, <lb/>
             longa maris circuitione discurrens, ut illos portus et litora, <lb/>
-            quae dudum praetereundo lustraui, <choice n="0.00"><sic n="1">diligentias</sic><corr n="157">diligentius</corr></choice> opera nunc
+            quae dudum praetereundo lustraui, diligentius opera nunc
 
 <note type="footnote"> 11 cf. Hor. C. I 14, 20 </note>
 
@@ -128,18 +126,18 @@
 <pb n="172"/>
             uiserem tarditatis. siquidem multa pro metricae necessitatis <lb/>
             angustia priori commentario nequaquam uidentur inserta, quae <lb/>
-            <choice><sic>postwodum</sic><corr>postmodum</corr></choice> linguae resolutio magis est adsecuta, dederimus <lb/>
+            postmodum linguae resolutio magis est adsecuta, dederimus <lb/>
             hinc aliquam forsitan obtrectatoribus uiam, dicentque nonnulli <lb/>
             fidem translationis esse corruptam, quia certa uidelicet sunt<lb n="5"/>
             in oratione quae non habentur in carmine. si qui tamen istud <lb/>
             obiciant, faciuntne intellegendo, ut nihil intellegant? <lb/>
-            nam si aut saeculares litteras adsecuti aut diuinis <choice><sic>uidebuutur</sic><corr>uidebuntur</corr></choice> <lb/>
+            nam si aut saeculares litteras adsecuti aut diuinis uidebunter <lb/>
             libris instructi, debent exempla ueterum recensere <lb/>
-            <sic>necsimilialacerare</sic> conentur iniuste. cognoscant Hermogenianum,<lb n="10"/>
+            nec similia lacerare conentur iniuste. cognoscant Hermogenianum,<lb n="10"/>
             doctissimum iurislatorem, tres editiones sui operis confecisse, <lb/>
             cognoscant peritissimum diuinae legis Origenem, tribus nihilominus <lb/>
             editionibus prope cuncta quae disseruit aptauisse. nec <lb/>
-            eorum quispiam mordacis linguae <choice><sic>Iaceratur</sic><corr>laceratur</corr></choice> iniuria, cum potius <lb/>
+            eorum quispiam mordacis linguae laceratur iniuria, cum potius <lb/>
             inde laudis consequantur augmenta, quod prouectibus uberioris<lb n="15"/>
             ingenii diligentiore posteros fide noscendae ueritatis instruxerint. <lb/>
             aliud namque est mutare composita et aliud integrare <lb/>
@@ -169,7 +167,7 @@
              
 <pb n="173"/>
             nullis explicari linguis eualeant: sic et nostri prorsus ab sese <lb/>
-            libelli non discrepant, sed quae <choice><sic>rdefuerant</sic><corr>defuerant</corr></choice> primis addita sunt <lb/>
+            libelli non discrepant, sed quae defuerant primis addita sunt <lb/>
             secundis. nec impares argumento uel ordine, sed stilo uidentur <lb/>
             et oratione dissimiles. proferant igitur sua si qui carpere <lb/>
             nitentur aliena. promptius est omnibus iudicare quam facere <lb n="5"/>
@@ -214,7 +212,7 @@
             Domino nostro Iesu Christo, qui uota non recusat humilium, <lb/>
             congrego supplicanter et offero, cui uirtus, honor et gloria <lb/>
             cum Patre et Spiritu sancto per omnia saecula saeculorum. <lb/>
-            <choice n="0.88"><sic n="8">Amen</sic><corr n="1">Arnen</corr></choice>.
+            Amen.
 
 <note rend="script" type="footnote"> 1 dūo uro ihu rpo <hi rend="italic">RH,</hi> nostro om. <hi rend="italic">Pv</hi> qu nota <hi rend="italic">H</hi> <lb/>
             2 ∗∗grego H, et grego <hi rend="italic">Iv (uel</hi> et rogo), erogo <hi rend="italic">Arev. coni</hi>. cui <lb/>

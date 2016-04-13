@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -143,9 +141,9 @@
             nuncupatur, quare usque ad horam nonam ieiunamus (aut) <lb/>
             usque ad uesperum aut superpositio usque in alterum diem <lb/>
             fiat. mundus itaque iste ex quattuor elementis constat: igne <lb/>
-            aqua caelo terra. haec igitur quattuor elementa [<choice><sic>temporumj</sic><corr>temporum</corr></choice> <lb/>
+            aqua caelo terra. haec igitur quattuor elementa [temporum <lb/>
             tetradem faciunt. sol quoque et luna per anni spatium quattuor <lb/>
-            tempora efficiunt: <choice n="0.01"><sic n="3">neris</sic><corr n="216">ueris</corr></choice> aestatis autumni <milestone n="72r" unit="folio"/> hiemis, et  <lb/>
+            tempora efficiunt: ueris aestatis autumni <milestone n="72r" unit="folio"/> hiemis, et  <lb/>
             haec tempora tetradem faciunt. et ut ex ea re longius enarrem: <lb/>
             ecce quattuor animalia ante thronum dei, quattuor euangelia, <lb/>
             IIII flumina in paradiso fluentia, IIII generationes populorum <lb/>
@@ -195,14 +193,14 @@
             et benedixit eum et sanctificauit. hac die solemus <lb/>
             superponere, idcirco, ut die dominico cum gratiarum actione <lb/>
             ad panem exeamus. et parasceue superpositio fiat, nequid cum <lb/>
-            <choice><sic>ludaeis</sic><corr>Iudaeis</corr></choice> sabbatum obseruare uideamur, quod ipse dominus <lb/>
+            Iudaeis sabbatum obseruare uideamur, quod ipse dominus <lb/>
             sabbati Christus per prophetas suos odisse animam suam dicit, <lb/>
             quod sabbatum corpore suo resoluit. prius autem, cum ipse <lb/>
             Moysi praeciperet, ne circumcisio diem octauam praeteriret, <lb/>
             quae die sabbato plerumque incurrit, sicut in euangelio scriptum <lb/>
             legimus, Moyses prospiciens duritiam populi illius idcirco die <lb/>
             sabbati leuauit manus et se ipsum crucifixit in proelio, quod <lb/>
-            ab <sic>allophvlis</sic> sabbato (factum est), ut caperentur et [uelut] <lb/>
+            ab allophylis sabbato (factum est), ut caperentur et [uelut] <lb/>
             seueritate legis ad deuitandum disciplinam formarentur. 
 </p>
           </div>
@@ -231,7 +229,7 @@
 </p>
           <p>Iesus quoque Naue successor Moysi et ipse sabbatum <lb/>
             resoluit. die enim sabbati praecepit filiis Israel, ut muros <lb/>
-            ciuitatis Hiericho tubicinibus circuirent et bellum <sic>allophylis</sic> <lb/>
+            ciuitatis Hiericho tubicinibus circuirent et bellum allophylis <lb/>
             indicarent. Matthias autem princeps Iudae sabbatum resoluit. <lb/>
             nam praefectum Antiochi regis Syriae sabbato occidit <milestone n="73r" unit="folio"/> <lb/>
             et allophylos sua persecutione subiecit. et apud Mattheum <lb/>
@@ -274,7 +272,7 @@
 
 <pb n="7"/>
             conglobant(ur), trabes ardentes apparent, sidera radiant, comae <lb/>
-            <choice><sic>liorribiles</sic><corr>horribiles</corr></choice> coruscant, nonnunquam accedit etiam sol et luna: inuicem <lb/>
+            horribiles coruscant, nonnunquam accedit etiam sol et luna: inuicem <lb/>
             uisitantur atque illa ultra formidabilia lumina, radiantia <lb/>
             <milestone n="73v" unit="folio"/> in acie aspectu eius, efficiunt. auctori autem totius creaturae <lb/>
             istius—\'uerbo\' cognomen est ei. sic enim dicit pater eius: <lb/>
@@ -320,7 +318,7 @@
 
 <pb n="8"/>
             septimanae apud Danihelum, apud Noe septem omnia munda in <lb/>
-            <choice n="0.53"><sic n="139">area</sic><corr n="120">arca</corr></choice>, septem uindictae de Cain, septem anni remittendi debiti. <lb/>
+            arca, septem uindictae de Cain, septem anni remittendi debiti. <lb/>
             lucerna <milestone n="74r" unit="folio"/> cum septem orificiis, septem columnae sapientiae <lb/>
             in domum Salamonis. 
 </p>
