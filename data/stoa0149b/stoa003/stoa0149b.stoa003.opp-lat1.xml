@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -111,7 +109,7 @@
           <ab>
             <title type="sub">A. </title>
           </ab>
-          <p><note type="margin"> <sic>Con</sic> 1367 </note> 
+          <p><note type="margin">  1367 </note> 
 </p>
           <ab>
             <title type="sub">EX LIBRO CONTRA CONSTANTIUM. </title>
@@ -119,8 +117,8 @@
            
   <div n="1" subtype="section" type="textpart">
            
-          <p><hi rend="italic">Hilarius quoque uir <choice n="0.15"><sic n="66">acris</sic><corr n="349">aeris</corr></choice> ingenii scribens ad Constantium imperatorem <lb/>
-            de incarnatione domini <choice><sic>sie</sic><corr>sic</corr></choice> ait:</hi> 
+          <p><hi rend="italic">Hilarius quoque uir acris ingenii scribens ad Constantium imperatorem <lb/>
+            de incarnatione domini sic ait:</hi> 
 </p>
           <p>Filius, <hi rend="italic">inquit,</hi> dei factus homo deus est. <lb n="5"/>
             
@@ -131,7 +129,7 @@
             deus, non deus factus est homo — et filius hominis factus est filius <lb/>
             dei. superauit enim magnitudo Christi domini paruitatem seruilis <lb/>
             formae, ita ut ipsa seruilis forma, quam adsumpsit, cessaret esse <lb n="10"/>
-            seruilis per <choice n="0.83"><sic n="42581">cum</sic><corr n="8584">eum</corr></choice> dominum, qui eam adsumpsit. 
+            seruilis per eum dominum, qui eam adsumpsit. 
           </p></div>
   <div n="2" subtype="section" type="textpart">
            <p>si enim, qui natura
@@ -172,10 +170,10 @@
              
 <pb n="228"/>
             non sunt filii dei, per ipsum efficiuntur filii dei, quanto magis <lb/>
-            ipse, qui natura filius dei est, hunc, <choice n="0.83"><sic n="42581">cum</sic><corr n="8584">eum</corr></choice> quo <choice><sic>uoluntatc</sic><corr>uoluntate</corr></choice> sua aluo <lb/>
+            ipse, qui natura filius dei est, hunc, cum quo uoluntate sua aluo <lb/>
             uirginali conceptus et natus est, ita sublimauit in deum, ut in cius <lb/>
             nomine omne genu flectatur, caelestium et <lb/>
-            terrestrium et infernorum, et omnis <choice n="0.69"><sic n="722">lingua</sic><corr n="320">linguae</corr></choice><lb n="5"/>
+            terrestrium et infernorum, et omnis lingua<lb n="5"/>
             confiteatur, quia dominus Iesus Christus <lb/>
              in gloria est dei patris.</p>
 
@@ -196,14 +194,14 @@
           <ab>
             <title type="sub">B. </title>
           </ab>
-          <p><note type="margin"> <sic>Cos</sic>. 13665∗ qu. </note> 
+          <p><note type="margin"> cos. 13665∗ qu. </note> 
 </p>
           <ab>
             <title type="sub">EX TRACTATIBUS IN IOB. </title>
           </ab>
 <div n="1" subtype="chapter" type="textpart">            
 <div n="1" subtype="section" type="textpart">            
-          <p><hi rend="italic">In quadam uero <choice><sic>hwnilia</sic><corr>humilia</corr></choice> de libro sancti <sic>lob</sic> attende, quid dicat, <lb/>
+          <p><hi rend="italic">In quadam uero homilia de libro sancti lob attende, quid dicat, <lb/>
             quemadmodum ipsius diaboli aduersus nos indesinens bellum ex hoc <lb n="5"/>
             fieri asserat, cum ea mala, quae in nobis sunt, excitat contra nos, <lb/>
             quod in nostram fieri utilitatem uult docere, conuertente scilicet diuina <lb/>
@@ -211,7 +209,7 @@
 </p>
           <p>Tanta enim et tam admirabilis, <hi rend="italic">inquit,</hi> in nos misericordiae dei <lb/>
             bonitas est, ut, per quem in Adae offensa generositatem primae et beatae <lb n="10"/>
-            illius creationis amisimus, pereum rursum <sic>idquod</sic> amisimus, obtinere <lb/>
+            illius creationis amisimus, pereum rursum inquit amisimus, obtinere <lb/>
             mereamur. tunc enim diabolus inuidens nocuit, nunc autem, <lb/>
             cum nocere nititur, uincitur. mouet enim per infirmitatem carnis <lb/>
             nostrae omnia potestatis suae tela, cum ad lasciuiam accendit, cum <lb/>
@@ -347,7 +345,7 @@
 <pb n="232"/>
             
 </p>
-          <p><note type="margin"> <sic>Cou</sic> 1388 </note>
+          <p><note type="margin"> Cou 1388 </note>
 </p>
 
 </div>
@@ -371,7 +369,7 @@
 </p>
           <p><hi rend="italic">Item in consequentibus</hi> 
 </p>
-          <p>Ad id, quod <choice n="0.02"><sic n="38">dens</sic><corr n="1292">deus</corr></choice> erat, homo, id quod tum non erat, <lb/>
+          <p>Ad id, quod deus erat, homo, id quod tum non erat, <lb/>
             gigneretur. 
 </p>
           <p><hi rend="italic">Item in eodem:</hi><lb n="10"/>
@@ -410,12 +408,12 @@
           </ab>
  <div n="1" subtype="section" type="textpart">            
          <p><hi rend="italic">Sanctus igitur Hilarius in expositione epistolae ad Timotheum<lb/>
-             <choice><sic>sie</sic><corr>sic</corr></choice> loquitur:</hi> 
+             sic loquitur:</hi> 
 </p>
           <p>Nam et cum dicit scriptura: homo Christus et cum dicit: <lb n="5"/>
             Christus mortuus est et cum dicit: uerbum caro <lb/>
-            factum <choice><sic>cst</sic><corr>est</corr></choice>, non spoliandus est <sic>pcr</sic> <choice><sic>fraudulcntiam</sic><corr>fraudulentiam</corr></choice> legentis <lb/>
-            <choice><sic>cxpositionihus</sic><corr>expositionibus</corr></choice> suis sermo. namque ubi \'homo Christus\' est, <sic>praicedit</sic> <lb/>
+            factum est, non spoliandus est per fraudulentiam legentis <lb/>
+            expositionibus suis sermo. namque ubi \'homo Christus\' est, praccedit <lb/>
             : mediator dei atque hominum: ex deo homo, <lb/>
             utrumque unum et inter hominem et deum medius confessione in <lb n="10"/>
             se utriusque naturae. ubi \'Christus mortuus\', subicitur: qui <lb/>
@@ -446,7 +444,7 @@
 <pb n="234"/>
             
 </p>
-          <p><note type="margin"> <sic>Cou</sic> 1868 </note> 
+          <p><note type="margin"> Cou 1868 </note> 
 </p>
 
 </div>
@@ -460,7 +458,7 @@
             <title type="sub">EX OPERE INCERTO. </title>
           </ab>
  <div n="1" subtype="section" type="textpart">            
-         <p><hi rend="italic">Ecclesiae catholicae aduersus <sic>hereticos</sic> acerrimum defensorem<lb/>
+         <p><hi rend="italic">Ecclesiae catholicae aduersus hereticos acerrimum defensorem<lb/>
              uenerandum quis ignoret Hilarium episcopum Gallum ? qui cum de <lb/>
             Christi carne ageret, attende quid dixerit:</hi><lb n="5"/>
             
@@ -468,7 +466,7 @@
           <p>Ergo cum missus est, <hi rend="italic">inquit,</hi> in similitudine carnis peccati, <lb/>
             non sicut oarnem habuit, ita habuit et peccatum. sed quia ex <lb/>
             peccato omnis caro est, a peccato scilicet Adam parente deducta, <lb/>
-            in similitudine peccati carnis est missus existente in eo <sic>nOli</sic> <lb/>
+            in similitudine peccati carnis est missus existente in eo non <lb/>
             peccato, sed peccati carnis similitudine.
 
 <note type="footnote"> 6 sqq..cf. Hilar. de trin. X 25 cf. Rom. 8, 3 </note>

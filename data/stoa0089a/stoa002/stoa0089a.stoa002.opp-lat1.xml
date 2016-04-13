@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
             <titleStmt>
@@ -99,8 +97,8 @@
             aut uoluntates aut necessitates inquirerem, sed quae <lb n="5"/>
             in rem debiti mei usui mihi esse possent. quippe reuisionis <lb/>
             potestas multis modis ac miseris perinde causis intercluditur. <lb/>
-            enimuero scribendi facultas aut raro idonea <choice><sic>snbpetit</sic><corr>subpetit</corr></choice> aut nec <lb/>
-            subpetit. ista haec eadem remissibilia sint necne, tute <choice n="0.18"><sic n="2">indicaris</sic><corr n="9">iudicaris</corr></choice>. <lb/>
+            enimuero scribendi facultas aut raro idonea subpetit aut nec <lb/>
+            subpetit. ista haec eadem remissibilia sint necne, tute iudicaris. <lb/>
             porro autem uero quod saepenumero scriptis uestris alii <lb n="10"/>
             inpertiuntur, qui id ipsum nec ambiunt quam egomet, forsan <lb/>
             nec merentur amplius, non arbitror amicitiae legibus inpune
@@ -123,14 +121,14 @@
             illos, quos tuo nomine nobilitari non abnuis, nullo umquam <lb/>
             inpertiuisti rescripto? sed uacuum forte non subpetit, quod <lb/>
             tute modicum magnae admodum inpendas amicitiae. ecquo <lb/>
-            <choice n="0.00"><sic n="9">tarn</sic><corr n="5760">tam</corr></choice> ex occupatu umquam uspiamue inplicabere, quin illud in <lb n="5"/>
+            tam ex occupatu umquam uspiamue inplicabere, quin illud in <lb n="5"/>
             aliorum commoda reuergat? cum precatu deum placas, eundem <lb/>
             non modo amicis, sed ignotis quoque concilias. cum scripturarum <lb/>
             caelestium mysteria rimaris, quo te studiosius imbuis, <lb/>
             eo doctrinam ceteris copiosius infundis. cum tuas opes in <lb/>
             usus inopum prodigis, tibi quidem maxime, sed aliis quoque <lb n="10"/>
             consultum facis. proinde nihil uidelicet, profecto nihil est tam <lb/>
-            infecundum <choice><sic>actioniim</sic><corr>actionum</corr></choice> tuarum omnium, quod tibi uni soli tantum <lb/>
+            infecundum actionum tuarum omnium, quod tibi uni soli tantum <lb/>
             et non aliis quoque multis tecum uberiorem fructum ferat. \' <lb/>
             nulla ergo cuiusquam praepedimenti occasio praetendi uel falso <lb/>
             potest, cur egomet specialis atque intimus nihil a speciali <lb n="15"/>
@@ -157,12 +155,12 @@
           </ab>
           <p>Committi, domine maior, in necessitudinis iura pronuntias, <lb/>
             cur, quod ad salue tibi debitum spectat, a stilo et pugillaribus <lb/>
-            diu temperem, quodque <choice><sic>deinoeps</sic><corr>deinceps</corr></choice> nullas uiantum uolas mea <lb/>
+            diu temperem, quodque deinceps nullas uiantum uolas mea <lb/>
             papyrus onerauerit, quae uos cultu sedulae sospitatis inpertiat. <lb n="5"/>
             praeter aequum ista coniectas, si reare mortalium quemquam <lb/>
             (cui tamen sermocinari latialiter cordi est) non pauere, cum <lb/>
             in examen aurium tuarum quippe scriptus adducitur, tuarum <lb/>
-            inquam aurium, quarum peritiae, si me <choice><sic>dfecursorum</sic><corr>decursorum</corr></choice> ad hoc <lb/>
+            inquam aurium, quarum peritiae, si me decursorum ad hoc <lb/>
             aeui temporum praerogatiua non obruat, nec Frontonianae<lb n="10"/>
             grauitatis aut ponderis Apuleiani flumen aequiparem, cui Varrones <lb/>
             uel Atacinus uel Terentius, Plinii uel auunculus uel <lb/>
@@ -189,10 +187,10 @@
             <hi rend="italic">Baretus</hi> </note> <lb/>
              
 <pb n="201"/>
-            at uero in libris tuis iam illud quale est, quod et <choice><sic>teneritndinem</sic><corr>teneritudinem</corr></choice> <lb/>
+            at uero in libris tuis iam illud quale est, quod et teneritudinem <lb/>
             quamquam continuata maturitas admittit interseritque tempestiuam <lb/>
             censura dulcedinem, ut lectoris intentionem per <lb/>
-            <choice><sic>enentilata</sic><corr>euentilata</corr></choice> disciplinarum philosophiae membra lassatam repente <lb/>
+            euentilata disciplinarum philosophiae membra lassatam repente <lb/>
             uoluptuosis excessibus quasi quibusdam pelagi sui portubus <lb n="5"/>
             foueat. o liber multifariam pollens, o eloquium non exilis, <lb/>
             sed subtilis ingenii, quod nec per scaturigines hyperbolicas <lb/>
@@ -200,14 +198,14 @@
             unica singularisque doctrina et in diuersarum rerum adsertione <lb/>
             monstrabilis, cui moris est de singulis artibus cum singulis <lb n="10"/>
             artificibus philosophari quaeque, si fors exigit, tenere non abnuit <lb/>
-            cum Orpheo plectrum, cum <choice><sic>Aescnlapio</sic><corr>Aesculapio</corr></choice> baculum, cum Archimede <lb/>
+            cum Orpheo plectrum, cum Aesculapio baculum, cum Archimede <lb/>
             radium, cum Euphrate horoscopium, cum Perdice circinum, <lb/>
             cum Vitruuio perpendiculum, quaeque numquam inuestigare <lb/>
             destiterit cum Thalete tempora, cum Atlante sidera, cum Zeto <lb n="15"/>
             pondera, cum Chrysippo numeros, cum Euclide mensuras. ad <lb/>
             extremum nemo saeculo meo quae uoluit adfirmare sic ualuit, <lb/>
             siquidem, dum sese aduersus eum, quem contra loquitur, ex-. <lb/>
-            <sic>sertat</sic>, morum ac studiorum linguae utriusque symbolam iure <lb/>
+            sertat, morum ac studiorum linguae utriusque symbolam iure <lb/>
             sibi uindicat. sentit ut Pythagoras, diuidit ut Socrates, explicat <lb n="20"/>
             ut Plato, inplicat ut Aristoteles, ut Aeschines blanditur, <lb/>
             ut Demosthenes irascitur, uernat ut Hortensius, aestuat ut <lb/>
@@ -222,7 +220,7 @@
             perseuerat. 
 </p>
           <p>Iam uero de hymno tuo si percunctere quid sentiam, <lb/>
-            commaticus est, copiosus dulcis elatus et <choice><sic>quoslia</sic><corr>quoslibet</corr></choice> lyricos <lb/>
+            commaticus est, copiosus dulcis elatus et quoslibet lyricos <lb/>
             dithyrambos amoenitate poetica et historica ueritate supereminet, <lb/>
             idque tuum in illo peculiare, quod seruatis metrorum <lb n="35"/>
             pedibus, pedum syllabis syllabarumque naturis intra spatii <lb/>
@@ -230,31 +228,31 @@
              
 <pb n="202"/>
             carminis breuitas longitudinem phalerati sermonis eliminat. <lb/>
-            ita tibi facile factu <sic>eet</sic> minutis trochaeis minutioribusque <lb/>
+            ita tibi facile factu est minutis trochaeis minutioribusque <lb/>
             pyrrichiis non solum molossicas anapaesticasque ternarias, <lb/>
             sed epitritorum etiam paeonumque quaternas superuenire iuncturas. <lb/>
             excrescit amplitudo proloquii angustias regulares et<lb n="5"/>
-            tamquam paruo auro grandis gemma <choice n="0.02"><sic n="47">nix</sic><corr n="1561">uix</corr></choice> capitur emicatque ut <lb/>
-            equi potentis animositas, cui frementi si inter tesqua <choice><sic>vel</sic><corr>uel</corr></choice> confraga <lb/>
+            tamquam paruo auro grandis gemma uix capitur emicatque ut <lb/>
+            equi potentis animositas, cui frementi si inter tesqua uel confraga <lb/>
             frenorum lege teneatur intellegis non tam cursum deesse <lb/>
             quam campum. quid multis? arbitro me in utroque <lb/>
             genere dicendi nec Athenae sic Atticae nec Musae sic musicae<lb n="10"/>
-            iudicabuntur, si modo mihi <choice><sic>vel</sic><corr>uel</corr></choice> censendi copiam desidia longior <lb/>
+            iudicabuntur, si modo mihi uel censendi copiam desidia longior <lb/>
             non ademit. nam dum inpactae professionis obtentu nouum <lb/>
-            scribendi morem gradatim adpeto et ueterem <choice><sic>saltnatim</sic><corr>saltuatim</corr></choice> <lb/>
-            dedisco, de bono oratore nil <choice><sic>amplins</sic><corr>amplius</corr></choice> habeo quam quod malus <lb/>
+            scribendi morem gradatim adpeto et ueterem saltuatim <lb/>
+            dedisco, de bono oratore nil amplius habeo quam quod malus <lb/>
             poeta plus esse coepi. proin, quaeso, delicti huius mihi gratiam<lb n="15"/>
             facias, quod aliquantisper mei meminens arentem uenulam <lb/>
-            rarius flumini <choice><sic>tno</sic><corr>tuo</corr></choice> misceo. tuam tubam totus qua patet orbis <lb/>
-            iure <choice><sic>ueuerabitur</sic><corr>uenerabitur</corr></choice>, quam constat geminata felicitate cecinisse, <lb/>
-            quando nec <choice n="0.17"><sic n="6">aemulam</sic><corr n="29">aemulum</corr></choice> repperit nec aequalem, cum pridem <lb/>
+            rarius flumini tuo misceo. tuam tubam totus qua patet orbis <lb/>
+            iure uenerabitur, quam constat geminata felicitate cecinisse, <lb/>
+            quando nec aemulum repperit nec aequalem, cum pridem <lb/>
             aures et ora populorum me etiam circumferente peruagaretur. <lb n="20"/>
             nobis autem grandis audacia, si uel apud municipales et cathedrarios <lb/>
             oratores ant forenses rabulas garriamus, qui etiam <lb/>
-            cum perorant <choice><sic>salna</sic><corr>salua</corr></choice> pace potiorum turba numerosior inliteratissimis <lb/>
-            literis <choice><sic>nacant</sic><corr>uacant</corr></choice>. nam te, cui seu liberum <choice n="0.01"><sic n="15">sen</sic><corr n="1040">seu</corr></choice> ligatum <lb/>
+            cum perorant salua pace potiorum turba numerosior inliteratissimis <lb/>
+            literis uacant. nam te, cui seu liberum seu ligatum <lb/>
             placeat alternare sermonem intonare ambifariam subpetit, <lb n="25"/>
-            pauci, quos aequus amauit Iuppiter, imitabuntur. <choice n="0.00"><sic n="1">nale</sic><corr n="413">uale</corr></choice>.
+            pauci, quos aequus amauit Iuppiter, imitabuntur. uale.
 
 <note type="footnote"> 26 Iuppiter <hi rend="italic">om. cum Sirmondo Baretus</hi> </note> 
 <pb n="203"/>
@@ -273,7 +271,7 @@
             maxime nobilibus studiis prouecta est atque orbem paene totum <lb/>
             multiplicibus conplexa doctrinis, quoniam nemo illic omnium <lb n="5"/>
             fuit, qui quidquam bonae frugis ferret, cui non par merito <lb/>
-            <sic>honossiet</sic>. hinc nonnulli mortales naturam paene supergressi <lb/>
+            honossiet. hinc nonnulli mortales naturam paene supergressi <lb/>
             mortalium extentis usquequaque excellentium ingeniorum uiribus <lb/>
             infatigabilibus curis rerum abdita rimantes repositas <lb/>
             originalium primordiorum causas et temporaliter fluentium <lb n="10"/>
@@ -284,7 +282,7 @@
           <p rend="script">Quod mihi in praesentiarum usus est dicere, quoniam <lb/>
             bonarum artium iam inde a proauorum nostrorum saeculis <lb n="15"/>
             facta iactura et animi cultum despuens, quo solo praestat <lb/>
-            pecudi gens humana, deliciis et diuitiis seruiens <choice><sic>ignaniae</sic><corr>ignauiae</corr></choice> et <lb/>
+            pecudi gens humana, deliciis et diuitiis seruiens ignauiae et <lb/>
             inscitiae famula pessum porro dedit cum doctrina uirtutem.
 
 <note type="footnote"> 6 ?? </note>
@@ -315,7 +313,7 @@
             doctrinarum quam sese uirtutum non usque ad Aegyptum et <lb/>
             ad usque Brachmanos Indorum et ad usque Pythagoricarum <lb/>
             doctrinarum [per] heredes indefessus rerum scrutator accessit ? <lb/>
-            taceo ceteros, quia nec tempus nec opus huiusce rei <choice><sic>capaxi</sic><corr>capax</corr></choice> <lb n="15"/>
+            taceo ceteros, quia nec tempus nec opus huiusce rei capax <lb n="15"/>
             est. unum illud procul ambiguo dixerim nostro saeculo non <lb/>
             ingenia deesse, sed studia. quorum egomet studiorum quasi <lb/>
             quandam mortem flebili uelut epitaphio tumularem, nisi tute <lb/>
@@ -327,7 +325,7 @@
             pudori esse Romanis, grammaticam uti quandam barbaram <lb/>
             barbarismi et soloecismi pugno et calce propelli, dialecticen <lb/>
             tamquam Amazonem stricto decertaturam gladio formidari, <lb n="25"/>
-            rhetoricam <sic>aesi</sic> grandem dominam in angusto non recipi, <lb/>
+            rhetoricam acsi grandem dominam in angusto non recipi, <lb/>
             musicen uero et geometricam atque arithmeticam tres -quasi <lb/>
             furias despui, posthinc philosophiam [atque] uti quoddam <lb/>
             ominosum bestiale numerari. sed haec in laudem tuam suggestui <lb/>
@@ -343,18 +341,18 @@
 <pb n="205"/>
             futurus eras scilicet, etsi non omnium potior, unus ex multis. <lb/>
             hinc uero procul iniuria ceterorum penes Galliam nostram <lb/>
-            professionis tuae par <choice n="0.11"><sic n="179">anus</sic><corr n="1411">unus</corr></choice> et solus es, neque dictum istuc <lb/>
+            professionis tuae par unus et solus es, neque dictum istuc <lb/>
             aut adsentationi aut adulationi detur. nequaquam profecto uel <lb/>
             egomet adulari possum uel tu indiges falso laudari. sed erui <lb n="5"/>
             atque euelli infixa animo meo nequit declamationum tuarum <lb/>
             suauitas mixta uirtute Attici more mellis, cui suapte natura <lb/>
             indita sunt medela fortitudo dulcedo. quod in Hyblae iugis <lb/>
             uolucris atque opifex apicula caelitus deciduum haustu capiens <lb/>
-            fabrefactis manso <sic>fiorigeris</sic> infundit filiorumque fabricatrix <lb n="10"/>
+            fabrefactis manso florigeris infundit filiorumque fabricatrix <lb n="10"/>
             uirginitatis suae feturam alit atque imbuit ubere fauorum, ita <lb/>
             tu scilicet e summis auctoribus uelut e magnis montibus <lb/>
             doctiora quaeque uelut thyma fraglantia et fecundiora ueluti <lb/>
-            quaedam <choice><sic>Rorida</sic><corr>florida</corr></choice>. praecerpens quos ingenii melle repleas eloquentiae <lb/>
+            quaedam florida. praecerpens quos ingenii melle repleas eloquentiae <lb/>
             conficis fauos, e quibus item discipulorum tibimet <lb n="15"/>
             uelut filiorum numerositas dilecta formatur, quae Graecarum <lb/>
             quoque disciplinarum nectare imbuta acsi melle Attico pasta, <lb/>
@@ -368,7 +366,7 @@
             antiquae, cuius tu ciuis et doctor non otio duplex debitum <lb/>
             solues, a quo bifariam quaeritur uel patribus respondere uel <lb n="25"/>
             patriae. illud iam in fine sermonis perquam familiariter quaeso, <lb/>
-            ut spretis nouitiarum <choice><sic>ratiunoularum</sic><corr>ratiuncularum</corr></choice> puerilibus nugis nullum <lb/>
+            ut spretis nouitiarum ratiuncularum puerilibus nugis nullum <lb/>
             lectitandis his tempus insumas, &lt;quae) quasdam resonantium <lb/>
             sermunculorum taureas rotant et oratoriam fortitudinem plaudentibus <lb/>
             concinentiis euirant: Naeuius et Plautus tibi ad
@@ -380,14 +378,14 @@
             bibl. lat. med. 11078</hi> 30 concinnentiia <hi rend="italic">E</hi> </note> <lb n="30"/>
              
 <pb n="206"/>
-            elegantiam, Cato ad <choice><sic>granitatem</sic><corr>grauitatem</corr></choice>, <choice><sic>Yarro</sic><corr>Varro</corr></choice> ad peritiam, Gracchus ad <lb/>
-            <choice><sic>aerimoniam</sic><corr>acrimoniam</corr></choice>, Chrysippus ad disciplinam, Fronto ad pompam, <lb/>
-            Cicero ad eloquentiam capessendam <choice><sic>asui</sic><corr>usui</corr></choice> sint. quisquis enim <lb/>
+            elegantiam, Cato ad grauitatem, Varro ad peritiam, Gracchus ad <lb/>
+            acrimoniam, Chrysippus ad disciplinam, Fronto ad pompam, <lb/>
+            Cicero ad eloquentiam capessendam usui sint. quisquis enim <lb/>
             recentiorum aliquid dignum memoria scriptitauit, non et ipse <lb/>
-            nouitios legit. illi ergo <choice><sic>renentilandi</sic><corr>reuentilandi</corr></choice> memoriaeque mandandi<lb n="5"/>
+            nouitios legit. illi ergo reuentilandi memoriaeque mandandi<lb n="5"/>
             sunt, de quibus isti potuere proficere quos miramur. istoc ego <lb/>
             tamen amicitiae testimonium aliquo forsitan plusculum familiariter <lb/>
-            intuli, sed <choice><sic>beninolentiae</sic><corr>beniuolentiae</corr></choice> tuae uenia <choice><sic>inperiaet</sic><corr>inpertiet</corr></choice> amoris <lb/>
+            intuli, sed beniuolentiae tuae uenia inpertiet amoris <lb/>
             audaciam.
 
 <note type="footnote"> 1 graccus <hi rend="italic">E</hi> 2 agrimoniam <hi rend="italic">E</hi> cbrisippas <hi rend="italic">E</hi> 3 capescendam<lb/>

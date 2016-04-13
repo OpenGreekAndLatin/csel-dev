@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,20 +100,20 @@
           </ab>
 <div n="1" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-          <p>Non sum <choice><sic>noscius</sic><corr>nescius</corr></choice>, piissime imperator, ca, quae de <lb n="5"/>
-            nonnullis negotiis ad conscientiae publicae audientiam <sic n="poss">proferan</sic>-. <lb/>
-            tur, pro <choice><sic>dignitatc</sic><corr>dignitate</corr></choice> eorum, qui eloquuntur, uel grauia existimari <lb/>
-            solere uel <choice><sic>lcuia</sic><corr>leuia</corr></choice>, dum distantis opinionis ambiguam sententiam <lb/>
-            ad studium intellegentiae permouet <choice n="0.33"><sic n="690">homini</sic><corr n="1392">hominis</corr></choice>; <sic>contemtus</sic> aut gratia. <lb/>
+          <p>Non sum nescius, piissime imperator, ca, quae de <lb n="5"/>
+            nonnullis negotiis ad conscientiae publicae audientiam proferan-. <lb/>
+            tur, pro dignitate eorum, qui eloquuntur, uel grauia existimari <lb/>
+            solere uel leuia, dum distantis opinionis ambiguam sententiam <lb/>
+            ad studium intellegentiae permouet hominis; contemtus aut gratia. <lb/>
 </p></div>
 
 <div n="2" subtype="section" type="textpart"><p>            sed mihi apud te de diuina re pia dicturo nullus uulgatae consuctudinis  <lb n="10"/>
             metus est, quia, cum sis bonus ac religiosus, nec uitium <lb/>
-            <choice n="0.95"><sic n="190">iudicii</sic><corr n="10">indicii</corr></choice> apud prudentes religionum, quid a quo audiat, sed an, quae <lb/>
-            <sic>audiatsint</sic> religiosa, diiudicet. et quia mihi a deo [de] praesentia tuae <lb/>
+            iudicii apud prudentes religionum, quid a quo audiat, sed an, quae <lb/>
+            audiat,sint religiosa, diiudicet. et quia mihi a deo [de] praesentia tuae <lb/>
             opportunitas praestita est, nec erga haec quidem conscientiae meae <lb/>
             cessauit officium, ut in eum, quem apud te habeo de religione sermonem, <lb n="15"/>
-            indignitas forte aliqua tecum loquentis <choice><sic>offcndat</sic><corr>offendat</corr></choice>. 
+            indignitas forte aliqua tecum loquentis offendat. 
 </p>
           </div>
 </div>
@@ -145,7 +143,7 @@
              
 <pb n="198"/>
             episcoporum communione, licet exilio, permanens et ecclesiae <lb/>
-            adhuc per presbyteros meos communionem <choice><sic>distrihuens</sic><corr>distribuens</corr></choice>. exulo autem <lb/>
+            adhuc per presbyteros meos communionem distribuens. exulo autem <lb/>
             non crimine, sed factione et falsis nuntiis synodi ad te imperatorem <lb/>
             pium, non ob aliquam criminum meorum conscientiam per impios <lb/>
             homines delatus. nec leuem habeo querellae meae testem dominum<lb n="5"/>
@@ -178,7 +176,7 @@
             sed nihil de eo, nisi cum iusseris, loquar. nunc autem, quia <lb/>
             mihi metus est de mundi periculo, de silentii mei reatu, de iudicio <lb/>
             dei, cura autem est de spe, de uita, de immortalitate non tam mea, <lb/>
-            quam tua <sic>uniuersorumque</sic>. quae quia mihi cum plurimis communis
+            quam tua uniuersorumque. quae quia mihi cum plurimis communis
 
 <note rend="script" type="footnote">1 episcoporum (-is <hi rend="italic">s.l.m4) B</hi> commune <hi rend="italic">MO</hi> exilio] <hi rend="italic">praem</hi>. in e ct <lb/>
             <hi rend="italic">s.l.Bm4</hi> ecclesia <hi rend="italic">Ba.c.m4</hi> 2 athuc <hi rend="italic">Ba.c.m2</hi> adhuc licet <hi rend="italic">E</hi> per <hi rend="italic">s.l.C</hi> <lb/>
@@ -210,7 +208,7 @@
             aeternum erroris et redeuntis in se semper certaminis circumtulerunt. <lb n="5"/>
             oportuerat humanae infirmitatis modestia omne cognitionis diuinae <lb/>
             sacramentum illis tantum conscientiae suae finibus contineri, quibus <lb/>
-            credidit, neque post confessam et <sic>iuratam</sic> in baptismo fidem in <lb/>
+            credidit, neque post confessam et iuratam in baptismo fidem in <lb/>
             nomine patris et filii et spiritus sancti quicquam <lb/>
             aliud uel ambigere uel innouare.</p></div>
 
@@ -225,9 +223,9 @@
 
 <div n="3" subtype="section" type="textpart"><p>sub cuius necessitatis tamquam improbabili  <lb/>
             occasione scribendae atque innouandae fidei exinde usus inoleuit. <lb/>
-            qui postquam <choice n="0.06"><sic n="64">nona</sic><corr n="938">noua</corr></choice> potius coepit condere, quam accepta retinere, <lb/>
+            qui postquam noua potius coepit condere, quam accepta retinere, <lb/>
             nec ueterata defendit nec innouata firmauit et facta est fides temporum <lb n="20"/>
-            potius quam <choice><sic>euangrliorum</sic><corr>euangeliorum</corr></choice>, dum et secundum annos scribitur <lb/>
+            potius quam euangeliorum, dum et secundum annos scribitur <lb/>
             et secundum confessionem baptismi non tenetur. periculosum nobis
 
 <note type="footnote">8 Matth. 28, 19 </note>
@@ -250,7 +248,7 @@
             <hi rend="italic">B,C a.c.m3</hi> 21 scribituret] <hi rend="italic">Bm4 Cm1<foreign xml:lang="grc">πΔ</foreign></hi> describituret <hi rend="italic">Cm2G Cou scribturae Bm1</hi></note> <lb/>
              
 <pb n="200"/>
-            <sic>ammodum</sic> atque etiam miserabile est tot nunc fides exsistere, quot <lb/>
+            ammodum atque etiam miserabile est tot nunc fides exsistere, quot <lb/>
             uoluntates, et tot nobis doctrinas esse, quot mores, et tot causas <lb/>
             blasphemiarum pullulare, quot uitia sunt, dum aut ita fides scribuntur, <lb/>
             ut uolumus, aut ita, ut nolumus, intelleguntur. et cum <lb/>
@@ -265,16 +263,16 @@
 <div n="1" subtype="section" type="textpart">
 <p>Conscii enim nobis inuicem sumus post Niceni conuentus <lb/>
             synodum nihil aliud quam fidem scribi. dum in uerbis pugna <lb/>
-            est, dum de nouitatibus quaestio est, dum de ambiguis <sic>cecasio</sic> est,<lb n="10"/>
-            dum de auctoribus <choice><sic>querclla</sic><corr>querella</corr></choice> est, dum de studiis certamen est, <lb/>
-            dum in consensu difficultas est, dum alter <choice><sic>nlteri</sic><corr>alteri</corr></choice> anathema esse <lb/>
-            coepit, prope iam nemo Christi est. incerto enim <choice><sic>dftctrinarum</sic><corr>doctrinarum</corr></choice> <lb/>
+            est, dum de nouitatibus quaestio est, dum de ambiguis occasio est,<lb n="10"/>
+            dum de auctoribus querella est, dum de studiis certamen est, <lb/>
+            dum in consensu difficultas est, dum alter alteri anathema esse <lb/>
+            coepit, prope iam nemo Christi est. incerto enim doctrinarum <lb/>
 </p></div>
 
 <div n="2" subtype="section" type="textpart"><p>            uento uagamur et aut, dum doeemus, perturbamus aut, dum docemur,  <lb/>
             erramus. iam uero proximi anni fides quid iam de immutatione <lb n="15"/>
-            in se habet? prima, quae \'<sic>omousion</sic>\' decernit taceri; sequens rursum, <lb/>
-            quae \'<sic>omousion</sic>\' discernit et praedicat; tertia deinceps, <choice n="0.00"><sic n="5">quac</sic><corr n="30156">quae</corr></choice> \'usiam\'
+            in se habet? prima, quae \'omousion\' decernit taceri; sequens rursum, <lb/>
+            quae \'omousion\' discernit et praedicat; tertia deinceps, quae \'usiam\'
 
 <note type="footnote">5 cf. Eph. 4, 5 9—12 cf. Fulgent. Ferrand. ad Pelagium et Anatolium <lb/>
             ep. VI (LXVJI 922 M) 13 cf. I Cor. 1,12 Eph. 4, 14 </note>
@@ -300,22 +298,22 @@
             tertiam V tercia<foreign xml:lang="grc">̄</foreign> G tertium 0 </note> <lb/>
              
 <pb n="201"/>
-            simpliciter a patribus <choice><sic>praesumtani</sic><corr>praemunitam</corr></choice> <sic>pcr</sic> indulgentiam <choice n="0.81"><sic n="61">excusat</sic><corr n="14">excubat</corr></choice>; postremum <lb/>
-            quarta, quae non excusat, <sic>scd</sic> condemnat.</p></div>
+            simpliciter a patribus praesumtam per indulgentiam excusat; postremum <lb/>
+            quarta, quae non excusat, sed condemnat.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>et quo tandem  <lb/>
             processum est? ut neque penes nos neque penes quemquam ante <lb/>
             nos sanctum exinde aliquid atque inuiolabile perseueret, de similitudine <lb/>
             autem dei filii ad deum patrem quodsi miserabilis nostri <lb n="5"/>
-            temporis fides <choice><sic>cst</sic><corr>est</corr></choice>, ne non aut ex toto aut tantum ex portione sit <lb/>
-            similis, <choice><sic>egrcgii</sic><corr>egregii</corr></choice> scilicet arbitri caelestium <choice><sic>sacramcntorum</sic><corr>sacramentorum</corr></choice>, conquisitores <lb/>
-            inuisibilium <choice><sic>mystiriorum</sic><corr>mysteriorum</corr></choice> professionibus de fide dei calumniamur. <lb/>
+            temporis fides est, ne non aut ex toto aut tantum ex portione sit <lb/>
+            similis, egregii scilicet arbitri caelestium sacramentorum, conquisitores <lb/>
+            inuisibilium mysteriorum professionibus de fide dei calumniamur. <lb/>
             </p></div>
 
 <div n="4" subtype="section" type="textpart"><p>annuas atque menstruas de deo fides decernimus,  <lb/>
-            decretis <sic>paenitemur</sic>. <sic>paenitenetes</sic> <sic>defendimusdefensos</sic> anathematizamus <lb n="10"/>
+            decretis paenitemur. paenitentes defendimus, defensos anathematizamus <lb n="10"/>
             aut in nostris aliena aut in alienis nostra damnamus <lb/>
-            et, cum mordemus inuicem, iam absumti sumus ab <choice><sic>inuiccm</sic><corr>inuicem</corr></choice>. 
+            et, cum mordemus inuicem, iam absumti sumus ab inuicem. 
 </p>
           </div>
 </div>
@@ -323,8 +321,8 @@
 <div n="6" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
 <p>Fides deinde quaeritur, quasi fides nulla sit. fides scribenda <lb/>
-            est, quasi in corde non sit. regenerati per fidem nunc ad <choice><sic>fidcm</sic><corr>fidem</corr></choice> docemur, <lb/>
-            quasi regeneratio illa sine fide sit. Christum post baptisma <choice><sic>diseimus</sic><corr>discimus</corr></choice>. <lb n="15"/>
+            est, quasi in corde non sit. regenerati per fidem nunc ad fidem docemur, <lb/>
+            quasi regeneratio illa sine fide sit. Christum post baptisma discimus. <lb n="15"/>
             quasi baptisma aliquod esse possit sine Christi fide.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>emendamus,  <lb/>
@@ -333,7 +331,7 @@
             septuplo proferentes ipsi tamen fidem euangelicam nolumus <lb/>
             confiteri, dum impietates nostras nobis in populis multiloquiis defendimus <lb n="20"/>
             et magniloquentiae uanitate aures simplicum uerbis fallentibus <lb/>
-            inludimus. dum euitamus de domino Christo ea <choice><sic>credcre</sic><corr>credere</corr></choice>, quae de se
+            inludimus. dum euitamus de domino Christo ea credere, quae de se
 
 <note type="footnote">12 cf. Gal. 5, 15 17 cf. Matth. 12, 32 </note>
 
@@ -366,24 +364,24 @@
 
 <div n="7" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>Quod hieme undoso mari obseruari a nauigantibus <choice><sic>maximc</sic><corr>maxime</corr></choice> <lb/>
+<p>Quod hieme undoso mari obseruari a nauigantibus maxime <lb/>
             tutum est, ut naufragio desaeuiente in portum, ex quo soluerant, <lb/>
             reuertantur, uel incautis adulescentibus conuenit, ut, cum in tuenda <lb/>
             domo sua mores paternae obseruantiae transgressi profusa libertate <lb/>
             sua usi sunt, iam sub ipso amittendi patrimonii metu solus illis ad <lb n="10"/>
             paternam consuetudinem necessarius et tutus recursus sit, ita inter <lb/>
             haec fidei naufragia caelestis patrimonii iam paene profligata <lb/>
-            hereditate tutissimum nobis est primam et solam <sic>puangelicam</sic> <lb/>
+            hereditate tutissimum nobis est primam et solam euangelicam <lb/>
             fidem confessam in baptismo intellectamque retinere nec demutare, <lb/>
             quod solum acceptum atque auditum habeo, bene credere, non ut <lb n="15"/>
             ea, quae synodo patrum nostrorum continentur, tamquam inreligiose <lb/>
             et impie scripta damnanda sint, sed quia per temeritatem <lb/>
-            humanam usurpantur ad contradictionem, quod ob hoc sub <choice><sic>nnmine</sic><corr>nomine</corr></choice> <lb/>
+            humanam usurpantur ad contradictionem, quod ob hoc sub nomine <lb/>
 </p></div>
 
 <div n="2" subtype="section" type="textpart"><p>            nouitatis euangelium negaretur, ut periculose tamquam sub emendatone  <lb/>
-            <sic>mnouetur</sic>. quod emendatum est, semper proficit, ut, dum<lb n="20"/>
-            omnis emendatio displicet, emendationem <sic>Dmnem</sic> emendatio consecuta <lb/>
+            innouetur. quod emendatum est, semper proficit, ut, dum<lb n="20"/>
+            omnis emendatio displicet, emendationem omnem emendatio consecuta <lb/>
             condemnet, ac si iam, quidquid illud est, non emendatio aliqua <lb/>
             sit emendationis, sed coeperit esse damnatio.
 
@@ -411,7 +409,7 @@
 
 <div n="8" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>In quantum ego nunc beatae <sic>religiosaeque</sic> <choice n="0.63"><sic n="153">uoluntatis</sic><corr n="88">uoluntati</corr></choice> uirum <lb/>
+<p>In quantum ego nunc beatae religiosaeque unigeniti uirum <lb/>
             te, domine Constanti imperator, ammiror, fidem tantum secundum <lb/>
             ea, quae scripta sunt, desiderantem — et merito plane ad illa ipsa <lb/>
             unigeniti dei eloquia festinas, ut imperatoriae sollicitudinis capax <lb/>
@@ -421,7 +419,7 @@
             praesente synodo, quae nunc de fide litigat, pauca me de scripturis <lb/>
             euangelicis digneris audire et loquar tecum uerbis domini mei Iesu <lb/>
             Christi, cuius uel exsul sum uel sacerdos. habent enim uasa testea <lb n="10"/>
-            non ignobiles thesauros et infirmiora corporum magis <choice><sic>reucrenda</sic><corr>reuerenda</corr></choice> <lb/>
+            non ignobiles thesauros et infirmiora corporum magis reuerenda <lb/>
             sunt et apud nos modo deum indocti piscatores loquuti sunt. super <lb/>
             humilem et trementem uerba sua secundum prophetam deus <lb/>
             respicit.</p></div>
@@ -461,7 +459,7 @@
 
 <div n="9" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>Sed memento tamen neminem <sic>hercticorum</sic> esse, qui se nunc <lb/>
+<p>Sed memento tamen neminem hereticorum esse, qui se nunc <lb/>
             non secundum scripturas praedicare ca, quibus blasphemat, mentiatur. <lb/>
             hinc enim Marcellus \'uerbum dei\' cum legit, nescit. hinc Fotinus <lb/>
             \'hominem Iesum Christum\' cum loquitur, ignorat. hinc et Sabellius, <lb/>
@@ -469,9 +467,9 @@
             deo patre et sine deo filio est.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>hinc et Montanus per insanas feminas  <lb/>
-            suas \'<sic>paraclytum</sic> alium\' defendit. hinc et Manicheus et Marcion <lb/>
+            suas \'praedicare alium\' defendit. hinc et Manicheus et Marcion <lb/>
             legem odit, quia littera occidit et mundi princeps diabolus <lb/>
-            est. omnes scripturas sine <choice><sic>seripturae</sic><corr>scripturae</corr></choice> sensu loquuntur et fidem sine <lb/>
+            est. omnes scripturas sine scripturae sensu loquuntur et fidem sine <lb/>
             fide praetendunt. scripturae enim non in legendo sunt, sed in intellegendo<lb n="10"/>
             neque in praeuaricatione sunt, sed in caritate. 
 </p>
@@ -485,9 +483,9 @@
             libris loquuturus sum, aures tuas.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>fidem tuam ad dcum erigas. audi,  <lb/>
-            quod proficit ad fidem, ad unitatem, ad <choice><sic>aetermtatem</sic><corr>aeternitatem</corr></choice>. loquuturus <lb n="15"/>
+            quod proficit ad fidem, ad unitatem, ad aeternitatem. loquuturus <lb n="15"/>
             tecum sum cum honore regni et fidei tuae omnia ad Orientis et <lb/>
-            Occidentis pacem proficientia, sub publica <choice><sic>eonseientia</sic><corr>conscientia</corr></choice>, <choice><sic>suh</sic><corr>sub</corr></choice> synodo <lb/>
+            Occidentis pacem proficientia, sub publica conscientia, sub synodo <lb/>
             dissidenti, sub lite famosa. 
 </p>
           </div>
@@ -495,9 +493,9 @@
 
 <div n="11" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>Praemitto interim pignus futuri apud te <choice><sic>strmonis</sic><corr>sermonis</corr></choice> mei. non <lb/>
+<p>Praemitto interim pignus futuri apud te sermonis mei. non <lb/>
             aliqua ad scandalum neque, quae extra euangelium sunt, defendam;<lb n="20"/>
-            sed intelleges a me in <choice><sic>saeramento</sic><corr>sacramento</corr></choice> \'solius dei <choice><sic>urri</sic><corr>ueri</corr></choice>\' et \'quem misit <lb/>
+            sed intelleges a me in sacramentorum \'solius dei ueri\' et \'quem misit <lb/>
             Iesum Christum\', praedicari unum deum patrem, \'ex quo omnia\',
 
 <note type="footnote">3 cf. Apoc. 19, 13. Ioh. 1,1 4 cf. I Tim, 2, 5o loh. 10, 30 7 cf. <lb/>

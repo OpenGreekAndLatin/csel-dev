@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,7 +102,7 @@
           </ab>
           <div n="1" subtype="section" type="textpart">
 <p><milestone n="1" unit="altchapter"/>Corona uictoriae non promittitur nisi certantibus. in <lb/>
-            <choice><sic>dininis</sic><corr>diuinis</corr></choice> autem scripturis adsidue inuenimus promitti nobis <lb/>
+            diuinis autem scripturis adsidue inuenimus promitti nobis <lb/>
             coronam, si uicerimus. sed, ne longum sit multa commemorare, <lb n="5"/>
             apud apostolum Paulum manifestissime legitur: opus <lb/>
             perfeci, cursum consummaui, fidem seruaui; iam <lb/>
@@ -114,8 +112,8 @@
             in illo permanentes uincamus. et dei quidem uirtus atque <lb/>
             sapientia et uerbum, per quod facta sunt omnia, qui filius <lb/>
             dei unicus est, super omnem creaturam semper incommutabilis <lb/>
-            manet. et <choice><sic>quoniaqu</sic><corr>quoniam</corr></choice> sub illo est creatura etiam quae non <lb/>
-            peccauit, quanto magis sub illo est <choice n="0.63"><sic n="6992">omnia</sic><corr n="4070">omnis</corr></choice> creatura peccatrix! <lb n="15"/>
+            manet. et quoniam sub illo est creatura etiam quae non <lb/>
+            peccauit, quanto magis sub illo est omnis creatura peccatrix! <lb n="15"/>
             ergo quoniam sub illo sunt omnes sancti angeli, multo magis
 
 <note type="footnote"> 6 II Tim. 4, 7. 8 11 cf. I Cor. 1, 24 12 cf. Ioh. 1, 1. 8 </note>
@@ -185,7 +183,7 @@
             quem non uidemus? sed habemus magistrum, qui <lb/>
             nobis demonstrare dignatus est, quomodo inuisibiles hostes <lb/>
             uincantur. de illo enim dixit apostolus: exuens se carne <lb/>
-            principatus et potestates <sic>exemplauit</sic> fiducialiter <lb n="5"/>
+            principatus et potestates exemplauit fiducialiter <lb n="5"/>
             triumphans eos in semet ipso. ibi ergo uincuntur <lb/>
             inimicae nobis inuisibiles potestates, ubi uincuntur inuisibiles <lb/>
             cupiditates. et ideo quia in nobis ipsis uincimus temporalium <lb/>
@@ -200,7 +198,7 @@
             nequitiam et superbiam et inpietatem hoc efficitur quisque <lb/>
             quod diabolus, id est similis eius, et subicitur ei, sicut subiectum <lb/>
             est nobis corpus nostrum. et hoc est, quod dicitur <lb/>
-            (<sic>maoducari</sic> a serpente\'. quisquis itaque timet illum ignem, <lb n="20"/>
+            (manducari a serpente\'. quisquis itaque timet illum ignem, <lb n="20"/>
             qui paratus est diabolo et angelis eius, det operam <lb/>
             triumphare de illo in semet ipso. eos enim, qui foris nos <lb/>
             oppugnant, intus uincimus uincendo concupiscentias, per quas
@@ -231,17 +229,17 @@
             aduersus potestates exteriores. ait enim: non est nobis conluctatio <lb/>
             aduersus carnem et sanguinem, sed aduersus<lb n="5"/>
             principes et potestates huius mundi, rectores <lb/>
-            <sic>harumtenebrarum</sic>, <sic>aduersusspiritalianequitiaein</sic> <lb/>
-            <sic>eaelestibus</sic>. caelum enim dicitur etiam iste aer, ubi uenti <lb/>
+            harum tenebrarum, aduersus spiritalia nequitiae in <lb/>
+            eaelestibus. caelum enim dicitur etiam iste aer, ubi uenti <lb/>
             et nubes et procellae et turbines fiunt, sicut etiam scriptura <lb/>
             dicit multis locis: et intonuit de caelo dominus, et: <lb n="10"/>
             aues caeli, et: uolatilia caeli, cum manifestum sit aues <lb/>
             in aere uolare. et nos in consuetudine hunc aerem caelum <lb/>
             appellamus; nam cum de sereno uel nubilo quaerimus, aliquando <lb/>
-            dicimus: qualis est aer? aliquando: quale est caelum? <choice><sic>boc</sic><corr>hoc</corr></choice> <lb/>
+            dicimus: qualis est aer? aliquando: quale est caelum? hoc <lb/>
             dixi, ne quis existimet ibi habitare mala daemonia, ubi solem<lb n="15"/>
             et lunam et stellas deus ordinauit. quae mala daemonia ideo <lb/>
-            apostolus appellat spiritalia, quia etiam mali angeli in <choice><sic>scriptaris</sic><corr>scripturis</corr></choice> <lb/>
+            apostolus appellat spiritalia, quia etiam mali angeli in scripturis <lb/>
             spiritus appellantur. ideo autem rectores harum tenebrarum <lb/>
             eos dicit, quoniam peccatores homines tenebras appellat, quibus <lb/>
             isti dominantur. ideo et alio loco dicit: fuistis enim <lb n="20"/>
@@ -277,7 +275,7 @@
             mundi constitutionem fuisse gentem tenebrarum, quae contra <lb n="5"/>
             deum rebellauit: in quo bello credunt miseri omnipotentem <lb/>
             deum non sibi aliter potuisse succurrere, nisi partem suam <lb/>
-            contra eam gentem mitteret. cuius gentis principes, <sic>skut</sic> illi <lb/>
+            contra eam gentem mitteret. cuius gentis principes, sicut illi <lb/>
             dicunt, deuorauerunt partem dei et temperati sunt, ut posset <lb/>
             de illis mundus fabricari. sic dicunt deum peruenisse ad <lb n="10"/>
             uictoriam cum magnis calamitatibus et cruciatibus et miseriis <lb/>
@@ -288,7 +286,7 @@
             creaturam, quam fecerit, sed per ipsam naturam suam bellasse <lb/>
             cum tenebris: quod nefas est credere. neque hoc solum, sed <lb/>
             etiam illos, qui uicti sunt, factos esse meliores, quia furor <lb/>
-            <sic>eomm</sic> conpressus est; dei autem naturam, quae uicit, factam <lb/>
+            eorum conpressus est; dei autem naturam, quae uicit, factam <lb/>
             esse miserrimam. dicunt enim eam per ipsam commixtionem <lb n="20"/>
             perdidisse intellectum et beatitudinem suam et magnis erroribus <lb/>
             et cladibus esse inplicatam. quam si aliquando uel totam <lb/>
@@ -314,11 +312,11 @@
             in erroribus ac poenis esse iactatam sine aliquo peccati crimine. <lb/>
             nunc uero infelices audent adhuc dicere nec totam posse <lb/>
             purgari; et ipsam partem, quae purgari non potuerit, proficere <lb/>
-            ad uinculum, ut inde inuoluatur et <sic>inligetur</sic> malitiae sepulcrum, <lb/>
+            ad uinculum, ut inde inuoluatur et inligetur malitiae sepulcrum, <lb/>
             et sic ibi semper sit pars ipsa dei misera, quae nihil<lb n="5"/>
             peccauit et affigitur in aeternum carceri tenebrarum. hoc <lb/>
-            illi dicunt, ut simplices animas fallant. sed <choice n="0.65"><sic n="9788">quia</sic><corr n="5248">quis</corr></choice> tam simplex <lb/>
-            est, ut.ista non sentiat esse sacrilega, quibus <choice><sic>afiirmant</sic><corr>affirmant</corr></choice> omnipotentem <lb/>
+            illi dicunt, ut simplices animas fallant. sed quis tam simplex <lb/>
+            est, ut.ista non sentiat esse sacrilega, quibus affirmant omnipotentem <lb/>
             deum necessitate oppressum esse, ut partem suam <lb/>
             bonam et innocentem tantis cladibus obruendam et tanta inmunditia<lb n="10"/>
             inquinandam daret et non totam liberare posset et <lb/>
@@ -433,7 +431,7 @@
 <p><milestone n="7" unit="altchapter"/> Sed ne quis forte hoc ipsum quaerat, quomodo <lb/>
             fiat, ut corpus nostrum seruituti subiciamus, facile intellegi <lb/>
             et fieri potest, si prius nos ipsos subiciamus deo bona uoluntate <lb/>
-            et caritate sincera. nam omnis creatura, <choice><sic>nelit</sic><corr>uelit</corr></choice> nolit, uni <lb/>
+            et caritate sincera. nam omnis creatura, uelit nolit, uni <lb/>
             deo et domino suo subiecta est. sed hoc admonemur, ut tota <lb n="25"/>
             uoluntate seruiamus domino deo nostro, quoniam iustus
 
@@ -450,7 +448,7 @@
             caritata <hi rend="italic">L</hi> 25 ammonemur <hi rend="italic">CSGyMWBN</hi> cdmoneniur <hi rend="italic">VL</hi> </note><lb/>
              
 <pb n="109"/>
-            liberaliter seruit, iniustus autem conpeditus seruit. omnes <choice><sic>tameii</sic><corr>tamen</corr></choice> <lb/>
+            liberaliter seruit, iniustus autem conpeditus seruit. omnes tamen <lb/>
             diuinae prouidentiae seruiunt; sed alii oboediunt tamquam <lb/>
             filii et faciunt cum ea quod bonum est; alii uero ligantur <lb/>
             tamquam serui, et fit de illis quod iustum est. ita deus <lb/>
@@ -470,7 +468,7 @@
 
 <div n="8" subtype="section" type="textpart">
 <p>Nec nos moueat, quod in hac uita secundum carnem, <lb n="15"/>
-            quam <choice n="0.35"><sic n="17">ponant</sic><corr n="31">portant</corr></choice>, iusti multa grauia et aspera tolerant. nihil <lb/>
+            quam portant, iusti multa grauia et aspera tolerant. nihil <lb/>
             enim mali patiuntur, qui iam possunt dicere, quod ille uir <lb/>
             spiritalis exultat et praedicat apostolus dicens: gloriamur <lb/>
             in tribulationibus, scientes, quoniam tribulatio <lb/>
@@ -585,7 +583,7 @@
             est quomodo salutem pecorum suorum gubernent, usu et <lb/>
             peritia et ratione naturali, quae quidem omnia de magnis sui <lb/>
             creatoris opibus acceperunt. qui ergo potest intellegere, quomodo <lb/>
-            <choice><sic>uuiuersae</sic><corr>uniuersae</corr></choice> creaturae conditor deus gubernet eam per animas <lb n="5"/>
+            uniuersae creaturae conditor deus gubernet eam per animas <lb n="5"/>
             sanctas, quae ministeria eius in caelis et in terris, quia et <lb/>
             ipsae sanctae animae ab ipso factae sunt et in eius creatura <lb/>
             primatum tenent: qui ergo potest intellegere, intellegat et <lb/>
@@ -637,7 +635,7 @@
 <p><milestone n="10" unit="altchapter"/> Quodsi forte adhuc propter aegritudines animae, <lb/>
             quas de saeculi amore concepit, nec gustare sumus idonei <lb n="5"/>
             quam dulcis est dominus, uel credamus diuinae auctoritati, <lb/>
-            quam <choice n="0.23"><sic n="220">noluit</sic><corr n="697">uoluit</corr></choice> esse in scripturis sanctis de filio suo, qui factus <lb/>
+            quam uoluit esse in scripturis sanctis de filio suo, qui factus <lb/>
             est ei ex semine Dauid secundum carnem, sicut apostolus <lb/>
             loquitur; omnia enim per ipsum facta sunt, sicut in <lb/>
             euangelio scriptum est, et sine ipso factum est nihil. <lb n="10"/>
@@ -771,7 +769,7 @@
             multum de nobis sentimus, dignemur imitari eum, qui filius <lb/>
             altissimi uocatur; si parum de nobis sentimus, audeamus <lb/>
             imitari piscatores et publicanos, qui eum imitati sunt. o medicinam<lb n="10"/>
-            omnibus consulentem, omnia tumentia <sic>complimentcm</sic>, <lb/>
+            omnibus consulentem, omnia tumentia comprimentem, <lb/>
             omnia tabescentia reficientem, omnia superflua resecantem, <lb/>
             omnia necessaria custodientem, omnia perdita reparantem, <lb/>
             omnia deprauata corrigentem! quis iam se extollat contra <lb/>
@@ -880,7 +878,7 @@
 </div>
 
 <div n="16" subtype="section" type="textpart">
-<p><milestone n="14" unit="altchapter"/> Nec eos audiamus, <choice><sic>quli</sic><corr>qui</corr></choice> dicunt patrem tantummodo <lb/>
+<p><milestone n="14" unit="altchapter"/> Nec eos audiamus, qui dicunt patrem tantummodo <lb/>
             esse nec habere filium nec esse cum eo spiritum sanctum, <lb/>
             sed ipsum patrem aliquando appellari filium, aliquando
 
@@ -907,7 +905,7 @@
 </div>
 
 <div n="17" subtype="section" type="textpart">
-<p><milestone n="15" unit="altchapter"/> Nec eos audiamus, qui indignantur et <sic>stomacbantur</sic>, <lb/>
+<p><milestone n="15" unit="altchapter"/> Nec eos audiamus, qui indignantur et stomachantur, <lb/>
             quia non tres deos colendos dicimus. nesciunt enim, quid sit <lb n="5"/>
             una eademque substantia, et phantasmatibus suis inluduntur, <lb/>
             quia solent uidere corporaliter uel animalia tria uel quaecumque <lb/>
@@ -926,7 +924,7 @@
             erat, sed tamen primum locum tenere in omni creatura; et <lb/>
             spiritum sanctum minoris maiestatis esse quam filium et <lb n="15"/>
             ipsum factum esse post filium; et horum trium diuersas esse <lb/>
-            <choice><sic>Isubstantias</sic><corr>substantias</corr></choice>, tamquam aurum et argentum et aeramentum. <lb/>
+            substantias, tamquam aurum et argentum et aeramentum. <lb/>
             nesciunt enim, quid loquantur, et de his rebus, quas per <lb/>
             oculos carneos uidere consueuerunt, uanas imagines ad disputationes <lb/>
             suas transferunt, quia reuera magnum est mente <lb n="20"/>
@@ -1017,7 +1015,7 @@
 
 <div n="21" subtype="section" type="textpart">
 <p><milestone n="19" unit="altchapter"/> Nec eos audiamus, qui trinitatem quidem in <lb/>
-            una aeterna substantia <choice><sic>conStentur</sic><corr>confitentur</corr></choice>, sed hominem ipsum, qui <lb/>
+            una aeterna substantia confitentur, sed hominem ipsum, qui <lb/>
             temporali dispensatione susceptus est, audent dicere non <lb/>
             habuisse hominis mentem, sed solam animam et corpus. hoc <lb/>
             est dicere: non fuit homo, sed membra corporis habebat <lb n="15"/>
@@ -1270,10 +1268,10 @@
              
 <pb n="127"/>
             discipulis: palpate et uidete, quoniam spiritus ossa et <lb/>
-            neruos non habet, sicut <sic>meuidetishabere</sic>. sacrilegum <lb/>
+            neruos non habet, sicut me uidetis habere. sacrilegum <lb/>
             est enim credere dominum nostrum, cum ipse sit ueritas, <lb/>
             in aliquo fuisse mentitum. nec nos moueat, quod clausis <lb/>
-            <choice><sic>sostiis</sic><corr>ostiis</corr></choice> subito eum apparuisse discipulis scriptum est, ut <lb n="5"/>
+            ostiis subito eum apparuisse discipulis scriptum est, ut <lb n="5"/>
             propterea negemus illud fuisse corpus humanum, quia contra <lb/>
             naturam huius corporis uidemus esse per clausa ostia intrare. <lb/>
             omnia enim possibilia sunt deo. nam et ambulare super aquas <lb/>
@@ -1290,7 +1288,7 @@
 </div>
 
 <div n="27" subtype="section" type="textpart">
-<p><milestone n="25" unit="altchapter"/> <sic>Kec</sic> eos audiamus, qui negant ipsum corpus <lb/>
+<p><milestone n="25" unit="altchapter"/> Nec eos audiamus, qui negant ipsum corpus <lb/>
             secum leuasse in caelum dominum nostrum et commemorant <lb/>
             in euangelio quod scriptum est: nemo ascendit in caelum, <lb/>
             nisi qui de caelo descendit, et dicunt, quia corpus non <lb/>
@@ -1433,7 +1431,7 @@
             euangelio quod post domini resurrectionem scriptum est <lb/>
             dicente domino: ego mitto promissa patris mei in <lb n="20"/>
             uos; uos autem sedete hic in ciuitate, quousque <lb/>
-            induamini uirtutem ab alto? et in <choice><sic>Actibua</sic><corr>Actibus</corr></choice> apostolorum,
+            induamini uirtutem ab alto? et in Actibus apostolorum,
 
 <note type="footnote"> 2 Ps. 57, 2 8 Ioh. 7, 24 9 Ioh. 3, 18 20 Luc. 24, 49 <lb/>
             22 cf. Act. 2, 1-11 </note>
@@ -1454,7 +1452,7 @@
 <pb n="131"/>
             posteaquam dominus a discipulorum oculis abscessit in caelum, <lb/>
             decem diebus peractis die pentecostes non adtendunt apertissime <lb/>
-            uenisse spiritum sanctum; et cum essent illi in <choice><sic>cioitate</sic><corr>ciuitate</corr></choice>, <lb/>
+            uenisse spiritum sanctum; et cum essent illi in ciuitate, <lb/>
             sicut eos ante monuerat, inpleuisse illos, ita ut loquerentur <lb/>
             linguis. nam diuersae nationes, quae tunc aderant, unusquisque <lb n="5"/>
             1 audientium suam linguam intellegebant. sed isti homines <lb/>
@@ -1475,7 +1473,7 @@
             es tu, ego hodie genui te; postula a me, et dabo <lb/>
             tibi gentes hereditatem tuam, et possessionem <lb/>
             tuam terminos terrae, et alia multa, siue in ueteris siue <lb/>
-            in <choice n="0.02"><sic n="12">noni</sic><corr n="585">noui</corr></choice> testamenti libris quae scripta sunt, ut apertissime <lb/>
+            in noui testamenti libris quae scripta sunt, ut apertissime <lb/>
             declarent ecclesiam Christi per orbem terrae esse diffusam. <lb n="20"/>
             quod cum eis obicimus, dicunt iam ista omnia fuisse conpleta, <lb/>
             antequam esset pars Donati, sed postea totam ecclesiam <lb/>
@@ -1509,7 +1507,7 @@
             percusserit, gladio morietur. gladius enim illo loco, <lb/>
             siquidem in malo positus est, discordiosam linguam significat, <lb/>
             qua tunc ille infelix ecclesiam percussit, sed non occidit. <lb n="10"/>
-            non enim dixit dominus: qui occiderit gladio, gladio <choice n="0.04"><sic n="5">monetur</sic><corr n="108">morietur</corr></choice>, <lb/>
+            non enim dixit dominus: qui occiderit gladio, gladio morietur, <lb/>
             sed qui gladio usus fuerit, inquit, gladio morietur. <lb/>
             ergo ille percussit ecclesiam lingua litigiosa, qua nunc ipse <lb/>
             conciditur, ut omnino dispereat atque moriatur. et tamen illud <lb/>
@@ -1546,7 +1544,7 @@
             libertatem spiritus sancti, ut iam non confidant in homine, <lb n="5"/>
             et non audire quod dextrum est, id est domini gloriam per <lb/>
             catholicam ecclesiam latissime peruagatam, sed audire sinistrum <lb/>
-            humanae <choice><sic>infiationis</sic><corr>inflationis</corr></choice> errorem. sed tamen, cum dominus in <lb/>
+            humanae inflationis errorem. sed tamen, cum dominus in <lb/>
             euangelio dicat, cum per omnes gentes euangelium fuerit <lb/>
             praedicatum, tunc finem esse futurum, quomodo isti dicunt, <lb n="10"/>
             quod iam ceterae omnes gentes ceciderunt a fide et in sola <lb/>
@@ -1636,9 +1634,9 @@
             itaque post persecutionem, quae per Arrianos haereticos <lb n="10"/>
             facta erat, posteaquam pax, quam quidem catholica in <lb/>
             domino tenet, etiam a principibus saeculi reddita est, episcopi, <lb/>
-            qui perfidiae <sic>Arrianomm</sic> in illa persecutione consenserant, <lb/>
+            qui perfidiae Arrianorum in illa persecutione consenserant, <lb/>
             multi correcti redire in catholicam delegerunt, damnantes <lb/>
-            siue quod crediderant <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> quod se credisse simulauerant. hos <lb n="15"/>
+            siue quod crediderant siue quod se credisse simulauerant. hos <lb n="15"/>
             ecclesia catholica materno recepit sinu, tamquam Petrum post <lb/>
             fletum negationis per galli cantum admonitum aut tamquam <lb/>
             eundem post prauam simulationem Pauli uoce correctum. <lb/>
@@ -1678,7 +1676,7 @@
             mundos uocarent. nolentes enim, si peccauerint, corrigi, nihil <lb/>
             aliud elegerunt nisi cum hoc mundo damnari. nam quibus <lb/>
             ueniam peccatorum negant, non eos aliqua sanitate custodiunt, <lb/>
-            sed aegris subtrahunt medicinam; et <choice><sic>uiduaa</sic><corr>uiduas</corr></choice> suas uri cogunt,<lb n="10"/>
+            sed aegris subtrahunt medicinam; et uiduas suas uri cogunt,<lb n="10"/>
             quas nubere non permittunt. non enim prudentiores habendi <lb/>
             sunt quam Paulus apostolus, qui ait: malo eas nubere <lb/>
             quam uri. 
@@ -1694,7 +1692,7 @@
             hoc induere incorruptionem et mortale hoc <lb/>
             induere inmortalitatem. cum enim hoc factum fuerit, <lb/>
             iam non erit caro et sanguis, sed caeleste corpus. quod et <lb n="20"/>
-            dominus promittit, cum dicit: neque n <sic>ubent</sic> neque uxores <lb/>
+            dominus promittit, cum dicit: neque n ubent neque uxores <lb/>
             ducent, sed erunt aequales angelis dei. non enim <lb/>
             iam hominibus, sed deo uiuent, cum aequales angelis facti <lb/>
             fuerint. inmutabitur ergo caro et sanguis et fiet corpus caeleste <lb/>
@@ -1715,7 +1713,7 @@
              
 <pb n="137"/>
             et nos inmutabimur, ut et illud uerum sit, quod resurget <lb/>
-            caro, <sic>etillud</sic> uerum sit, quod caro et sanguis regnum dei <lb/>
+            caro, et illud uerum sit, quod caro et sanguis regnum dei <lb/>
             non possidebit. 
 </p>
           <p rend="script">XXXITI. 35. Ista fidei simplicitate et sinceritate lactati <lb/>
@@ -1785,18 +1783,18 @@
           <div subtype="section" type="textpart" n="retractationes">
             <ab><title type="sub">LOCI LIBR. RETRACTATIONVM. </title>
             </ab>
-            <p>De agone christiano pag. 136, 14 <choice><sic>squ</sic><corr>sqq</corr></choice>. 
+            <p>De agone christiano pag. 136, 14 sqq. 
             </p>
-            <p>Retract. II 3. In quo quod positum est: nec eos <choice><sic>audiamvs</sic><corr>audiamus</corr></choice>, <lb/>
-              qui carnis <choice><sic>resnrrectionem</sic><corr>resurrectionem</corr></choice> futuram negant <lb/>
+            <p>Retract. II 3. In quo quod positum est: nec eos audiamus, <lb/>
+              qui carnis resurrectionem futuram negant <lb/>
               et commemorant quod ait Paulus apostolus: caro <lb/>
-              et sanguis regnum dei non possidebunt, non <choice><sic>intellegeutes</sic><corr>intellegentes</corr></choice> <lb/>
+              et sanguis regnum dei non possidebunt, non intellegentes <lb/>
               quod ipse dicit apostolus: oportet corruptibile <lb/>
               hoc induere incorruptionem et mortale <lb/>
               hoc induere immortalitatem. cum enim hoc factum <lb/>
               fuerit, iam non erit caro et sanguis, sed caeleste <lb/>
-              corpus, non sic accipiendum est, quasi carnis non sit <choice><sic>futuia</sic><corr>futura</corr></choice> <lb/>
-              substantia, sed carnis et sanguinis nomine ipsam <choice><sic>coiTuptionem</sic><corr>corruptionem</corr></choice> <lb/>
+              corpus, non sic accipiendum est, quasi carnis non sit futura <lb/>
+              substantia, sed carnis et sanguinis nomine ipsam corruptionem <lb/>
               carnis et sanguinis intellegendus est apostolus nuncupasse, <lb/>
               quae utique in regno illo non erit, ubi caro incorruptibilis <lb/>
               erit. quamuis et aliter possit intellegi, ut carnem et sanguinem <lb/>

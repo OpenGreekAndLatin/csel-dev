@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -105,63 +103,63 @@
           <head>
             <title type="main">Index siglorum. </title>
           </head>
-          <p>S. = Sitzungsberichte der phil.-hist. Classe der kais. Akademie der <choice><sic>WissenschafteD</sic><corr>Wissenschaften</corr></choice>. <lb/>
+          <p>S. = Sitzungsberichte der phil.-hist. Classe der kais. Akademie der Wissenschaften. <lb/>
             </p>
-          <p><hi rend="italic">b. Gbl</hi>. = <sic>Blatter</sic> <sic>fflr</sic> das bayer. <sic>Gymnasialschulwesen</sic>. 
+          <p><hi rend="italic">b. Gbl</hi>. = Blatter fur das bayer. Gymnasialschulwesen. 
 </p>
           <p><hi rend="italic">C</hi> = cod. Cheltenhamensis, membran., n. 1825 (saec. XI). 
 </p>
           <p><hi rend="italic">B</hi> = cod. Parisinus, chartae., lat. n. 8304 (saec. XVII). 
 </p>
-          <p><hi rend="italic">A</hi> = cod. Leidensis, chartae., <choice><sic>Yossianus</sic><corr>Vossianus</corr></choice> lat. in octauo n. 49 (saec. XVII). 
+          <p><hi rend="italic">A</hi> = cod. Leidensis, chartae., Vossianus lat. in octauo n. 49 (saec. XVII). 
 </p>
           <p><hi rend="italic">O = CBA</hi> 
 </p>
           <p><hi rend="italic">t,</hi> m, s litterae codicum siglis additae indicant lectiones in textu, in <lb/>
             margine, supra lineam scriptas. 
 </p>
-          <p><hi rend="italic">And. =</hi> cod. Andecauensis deperditus (<sic>cf</sic>. b. Gbl. 16 p. 841 <choice><sic>squ</sic><corr>sqq</corr></choice>.; S. 107 <lb/>
-            p. 738 <choice><sic>squ</sic><corr>sqq</corr></choice>.)
+          <p><hi rend="italic">And. =</hi> cod. Andecauensis deperditus (cf. b. Gbl. 16 p. 841 sqq.; S. 107 <lb/>
+            p. 738 sqq.)
 </p>
-          <p>21 = <choice><sic>nariae</sic><corr>uariae</corr></choice> lectiones apographi Sirmondiani in appendice editionis I exscriptae <lb/>
-            (<sic>cf</sic>. S. 96 p. 450 sq.; 107 p. 737 sq.). 
+          <p>21 = uariae lectiones apographi Sirmondiani in appendice editionis I exscriptae <lb/>
+            (cf. S. 96 p. 450 sq.; 107 p. 737 sq.). 
 </p>
-          <p>2* = eiusdem apographi lectiones in commentario <choice><sic>edltionis</sic><corr>editionis</corr></choice> II citatae. 
+          <p>2* = eiusdem apographi lectiones in commentario editionis II citatae. 
 </p>
           <p>S = ∑1 et ∑2 . 
 </p>
-          <p><sic n="poss">r1</sic> = ed. I anni 1649 ) ab ipso Rigaltio curatae et Tulli Leucorum <lb/>
-            <hi rend="italic">r*</hi> = ed. n anni 1650 f <sic>pnblicatae</sic> (<sic>cf</sic>. S. 96 p. 448 <choice><sic>squ</sic><corr>sqq</corr></choice>.). 
+          <p>r1 = ed. I anni 1649 ) ab ipso Rigaltio curatae et Tulli Leucorum <lb/>
+            <hi rend="italic">r*</hi> = ed. n anni 1650 f pubucatae (cf. S. 96 p. 448 sqq.). 
 </p>
-          <p><hi rend="italic">r = <sic n="poss">r1</sic> et <sic n="poss">r2</sic></hi>. <lb/>
+          <p><hi rend="italic">r = r1 et r2</hi>. <lb/>
             . 
 </p>
           <p><hi rend="italic">r\'</hi> = ed. m, quae anno 1666 post mortem Rigaltii Phil. Priorio curante <lb/>
-            sub Rigaltii nomine Parisiis prodiit (<sic>cf</sic>. S. 96 p. 462 sq.). 
+            sub Rigaltii nomine Parisiis prodiit (cf. S. 96 p. 462 sq.). 
 </p>
-          <p><hi rend="italic"><sic>El</sic>, ES, <sic>Es</sic> =</hi> tres indices emendationum editioni I subiuncti (<sic>cf</sic>. S. 96 <lb/>
+          <p><hi rend="italic">E1, ES, E3 =</hi> tres indices emendationum editioni I subiuncti (cf. S. 96 <lb/>
             p. 449 sq.; 451 sq.). 
 </p>
-          <p><hi rend="italic"><sic>Rig</sic>. <sic>suppl</sic></hi>. = supplementa typis impressa, quae editioni II Rigaltianae <lb/>
-            addita sunt (<sic>cf</sic>. S. 96 p. 462). 
+          <p><hi rend="italic">Rig. suppl</hi>. = supplementa typis impressa, quae editioni II Rigaltianae <lb/>
+            addita sunt (cf. S. 96 p. 462). 
 </p>
-          <p><hi rend="italic"><sic>Rig</sic>. ms. =</hi> adnotationes in locos quosdam Instructionum in exemplari <lb/>
+          <p><hi rend="italic">Rig. ms. =</hi> adnotationes in locos quosdam Instructionum in exemplari <lb/>
             Berolinensi (libr. impr. c. not. mss. quart. 49) editioni I et II manu <lb/>
-            Rigaltii conscriptae (<sic>cf</sic>. S. 96 p. 466; 107 p. 714). 
+            Rigaltii conscriptae (cf. S. 96 p. 466; 107 p. 714). 
 </p>
-          <p><hi rend="italic">Schurzfl. =</hi> ed. Schurzfleischiana anni 1705 (S. 96 p. 464 <choice><sic>squ</sic><corr>sqq</corr></choice>.). 
+          <p><hi rend="italic">Schurzfl. =</hi> ed. Schurzfleischiana anni 1705 (S. 96 p. 464 sqq.). 
 </p>
-          <p><hi rend="italic">Schurzfl. <sic>suppl</sic>. =</hi> Schurzfleischi supplementa ad Commodianum anno 1709 <lb/>
-            edita (<sic>cf</sic>. S. 96 p. 466 <choice><sic>squ</sic><corr>sqq</corr></choice>.). 
+          <p><hi rend="italic">Schurzfl. suppl. =</hi> Schurzfleischi supplementa ad Commodianum anno 1709 <lb/>
+            edita (cf. S. 96 p. 466 sqq.). 
 </p>
-          <p><hi rend="italic">Dant</hi>. = Iohannes Dauisius (<choice><sic>Danies</sic><corr>Dauies</corr></choice>) in editione Instructionum anno 1712 <lb/>
-            Cantabrigiae publicata (<sic>cf</sic>. S. 96 p. 468). 
+          <p><hi rend="italic">Dant</hi>. = Iohannes Dauisius (Dauies) in editione Instructionum anno 1712 <lb/>
+            Cantabrigiae publicata (cf. S. 96 p. 468). 
 </p>
           <p><hi rend="italic">Oehl</hi>. = Franciscus Oehler in editione Instructionum anno 1847 Lipsiae in <lb/>
-            bibliotheca patrum eccles. lat. <sic>Gersdorfiana</sic> sumptibus Tauchnitzii <lb/>
+            bibliotheca patrum eccles. lat. Gersdorfiana sumptibus Tauchnitzii <lb/>
             publicata. 
 </p>
-          <p><hi rend="italic">Ld</hi> = <sic>Ernestus</sic> Ludwig in editione Teubneriana anni 1878. 
+          <p><hi rend="italic">Ld</hi> = Ernestus Ludwig in editione Teubneriana anni 1878. 
 </p>
           <p><hi rend="italic">v = Oehl</hi>. et <hi rend="italic">Ld</hi>. 
 </p>
@@ -207,7 +205,7 @@
 </p>
           <p>XIII. Inuictus. 
 </p>
-          <p><sic>XlIII</sic>. Siluanus. 
+          <p>XIIII. Siluanus. 
 </p>
           <p>XV. Hercules.
 
@@ -246,7 +244,7 @@
 </p>
           <p>XXV. Qui timent et non credent. 
 </p>
-          <p>XXVI. <sic>Repugnantibus</sic> aduersus legem Christi (Dei uiui). 
+          <p>XXVI. Repugnantibus aduersus legem Christi (Dei uiui). 
 </p>
           <p>XXVII. Stulte non permoreris Deo. 
 </p>
@@ -378,7 +376,7 @@
 
 <div n="3" subtype="poem" type="textpart">
 <ab> <title>III.  CVLTVRA DAEMONVM. </title> </ab>
-          <l n="1"><milestone unit="para"/><sic n="poss">Cu</sic>- m Deus / omnipotens exornasset mundi naturam,  </l>
+          <l n="1"><milestone unit="para"/>Cum- m Deus / omnipotens exornasset mundi naturam,  </l>
             <l n="2">Visitari uoluit terram ab angelis istam;  </l>
             <l n="3">Legitima cuius spreuerunt illi dimissi;  </l>
             <l n="4">Tanta fuit forma feminarum, quae flecteret illos.  </l>
@@ -393,7 +391,7 @@
             <l n="12">Omnipotens autem, quod essent de semine prauo,.  </l>
             <l n="13">Non censuit illos recipi defunctos e morte.  </l>
             <l n="14">Vnde modo uagi subuertunt corpora multa;  </l>
-            <l n="15">Maxime quos hodie <sic>colitisret</sic> deos oratis. </l>
+            <l n="15">Maxime quos hodie colitis et deos oratis. </l>
 
 <note type="footnote"> 3, 2 sqq. Gen. 6, 2 sqq. 0\' </note>
 
@@ -481,9 +479,9 @@
           <l n="1"><milestone unit="para"/>Dicitis o stulti: Iouis tonat, fulminat ipse.  </l>
             <l n="2">Etsi paruulitas sic sensit, cur anni dicentes?  </l>
             <l n="3">Fuistis infantes: numquid et semper eritis?  </l>
-            <l n="4"><sic>versari</sic> maturum 〈in〉 infantia non capit aeuum.  </l>
+            <l n="4">Versari maturum 〈in〉 infantia non capit aeuum.  </l>
             <l n="5">Lusus puerilis cessit: sic et corda recedant;  </l>
-            <l n="6"><choice><sic>Monbus</sic><corr>Moribus</corr></choice> utique consilia uestra debentur.  </l>
+            <l n="6">Moribus utique consilia uestra debentur.  </l>
             <l n="7">Insipiens ergo Iouem tonitruare tu credis  </l>
             <l n="8">Natum hic in terris et lacte caprino nutritum;  </l>
             <l n="9">Ergo si illum deuorasset * * Saturnus, </l>
@@ -526,10 +524,10 @@
             
 
           <l n="16"><milestone unit="para"/>Ille autem Cretae regnauit et ibi defecit.  </l>
-            <l n="17">Omnipotens <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> factus Semeles amator.  </l>
+            <l n="17">Omnipotens nobis factus Semeles amator.  </l>
             <l n="18">Yiuus ipse modo amaret similiter [si uiuere] ille.  </l>
-            <l n="19"><choice><sic>Inpnros</sic><corr>Inpuros</corr></choice> oratis et dicitis esse caelestes  </l>
-            <l n="20">Semine mortali natos de <choice><sic>Qigantibus</sic><corr>Gigantibus</corr></choice> illis.  </l>
+            <l n="19">Inpuros oratis et dicitis esse caelestes  </l>
+            <l n="20">Semine mortali natos de Gigantibus illis.  </l>
             
 
           <l n="21"><milestone rend="script" unit="para"/>Auditis et legitis natum in terra fuisse:  </l>
@@ -614,17 +612,17 @@
             mundi natura 0 </note> <lb n="10"/>
              
 <pb n="12"/>
-            <l n="11">In uulnera positi et ipsi sub fata <choice><sic>ninentes</sic><corr>uiuentes</corr></choice>,  </l>
+            <l n="11">In uulnera positi et ipsi sub fata uiuentes,  </l>
             <l n="12">Obsceni, furiosi, bellatores, impii uitae, </l>
 
-          <l n="13"><milestone unit="para"/>Et filios totidem <choice><sic>mortalee</sic><corr>mortales</corr></choice> illi fecere:  </l>
-            <l n="14">Terribilis omnis, <choice><sic>stnlti</sic><corr>stulti</corr></choice>, <sic>septizonio</sic> fortis!  </l>
+          <l n="13"><milestone unit="para"/>Et filios totidem mortalee illi fecere:  </l>
+            <l n="14">Terribilis omnis, stulti, septizonio fortis!  </l>
 
           <l n="15"><milestone unit="para"/>Si stellas colitis, colite et bis sena sigilla!  </l>
-            <l n="16">Tam arietem, <choice><sic>taumm</sic><corr>taurum</corr></choice>, geminos <choice><sic>torunmque</sic><corr>toruumque</corr></choice> leonem  </l>
-            <l n="17">Et dein quae uadunt in piscis <choice><sic>tn</sic><corr>tu</corr></choice> quoque probabis.  </l>
-            <l n="18">Lex sine lege, fuga uestra, quod <choice><sic>unlt</sic><corr>uult</corr></choice> esse <choice><sic>nalebit</sic><corr>ualebit</corr></choice>.  </l>
-            <l n="19">Lasciua <choice n="0.00"><sic n="1">nult</sic><corr n="704">uult</corr></choice> esse, sine freno uiuere quaerit.  </l>
+            <l n="16">Tam arietem, taurum, geminos toruumque leonem  </l>
+            <l n="17">Et dein quae uadunt in piscis tu quoque probabis.  </l>
+            <l n="18">Lex sine lege, fuga uestra, quod unlt esse ualebit.  </l>
+            <l n="19">Lasciua unlt esse, sine freno uiuere quaerit.  </l>
             <l n="20">Ipsi quod uultis erit, et deos et deas oratis.  </l>
             <l n="21">Sic ego colui, dum erraui, quod modo culpo.  </l>
 
@@ -711,11 +709,11 @@
              maculae);</hi> pennatus ∑1 (?) <hi rend="italic">OelH</hi>. </note> <lb/>
              
 <pb n="14"/>
-            <l n="3">Rem <choice><sic>nideo</sic><corr>uideo</corr></choice> miram, deum &lt;cum) saccello uolare:  </l>
+            <l n="3">Rem uideo miram, deum &lt;cum) saccello uolare:  </l>
             <l n="4">Currite pauperculi cum gremio quo uolat ille,  </l>
-            <l n="5">Vt sacculum effundat, uos <choice><sic>extnnc</sic><corr>extunc</corr></choice> estote parati.  </l>
+            <l n="5">Vt sacculum effundat, uos extunc estote parati.  </l>
             <l n="6">Respicite pictum, quoniam uobis hic ab alto  </l>
-            <l n="7"><choice><sic>Iactabit</sic><corr>lactabit</corr></choice> <choice><sic>nnmmos</sic><corr>nummos</corr></choice>; <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> tunc saltate securi.  </l>
+            <l n="7">Iactabit nummos; uos tunc saltate securi.  </l>
             <l n="8">Vane, non insanis, colere deos pictos in axe?  </l>
             <l n="9">Si uir esse nescis, cum besteis perge morari.  </l>
 
@@ -771,7 +769,7 @@
             <l n="6">Ossibus cuius amor Cassandrae flagrauit, </l>
 
           <l n="7"><milestone rend="script" unit="para"/>Subdole quem lusit uirgo, falliturque diuinus,  </l>
-            <l n="8">Officio <choice><sic>nerbenis</sic><corr>uerbenis</corr></choice> 〈non〉 potuit scire bicordem;  </l>
+            <l n="8">Officio uerbenis 〈non〉 potuit scire bicordem;  </l>
             <l n="9">Repudiatus enim discessit inde diuinus.  </l>
             <l n="10">Torruit hunc uirgo specie, quam ille deberet.  </l>
             <l n="11">Illa prior utique debuerat deum amasse. </l>
@@ -808,7 +806,7 @@
             <l n="12">Lasciuientemque Dafinem sic coepit amare.  </l>
             <l n="13">Et tamen insequitur, dum uult uiolare puellam:  </l>
             <l n="14">Gratis amat stultus, nec potuit consequi cursu.  </l>
-            <l n="15"><choice><sic>Yel</sic><corr>Vel</corr></choice>, si deus erat, occurreret illi per auras:  </l>
+            <l n="15">Vel, si deus erat, occurreret illi per auras:  </l>
             <l n="16">Sub tectis illa prior uenit, remansitque diuinus.  </l>
 
           <l n="17"><milestone unit="para"/>Fallit uos gens hominum, nam ui robusti fuerunt.  </l>
@@ -853,7 +851,7 @@
             Proserpina <hi rend="italic">Dau. v</hi> 3 titanas <hi rend="italic">CArOehl.;</hi> Titanea <hi rend="italic">BLd</hi> </note> <lb/>
              
 <pb n="17"/>
-            <l n="4"><sic>Expirauit</sic> enim sicut ex mortalibus unus.  </l>
+            <l n="4">Expirauit enim sicut ex mortalibus unus.  </l>
             <l n="5">Rursus flato suo redditus in altero uentre.  </l>
             
 
@@ -916,8 +914,8 @@
             <l n="4">Insuper et furem adhuc depingitis esse,  </l>
             <l n="5">Cum, si deus esset, utique non furto uiuebat  </l>
             <l n="6">Terrenus utique fuit et monstruosa natura,  </l>
-            <l n="7"><sic>Vertebatque</sic> boues alienos semper in antris,  </l>
-            <l n="8">Sicut et Cacus <choice><sic>Yulcani</sic><corr>Vulcani</corr></choice> filius ille. </l>
+            <l n="7">Vertebatque boues alienos semper in antris,  </l>
+            <l n="8">Sicut et Cacus Vulcani filius ille. </l>
 
 <note rend="script" type="footnote"> 15 Hinc manifeate rbdes homines aihe le(ge) aiaentes <hi rend="italic">Hanssen (cf</hi>. <lb/>
             2, 5 Gens ante, Moysi rudis, sine lege morata); Huic manifeste rudes <lb/>
@@ -966,8 +964,8 @@
 <ab> <title>XV.  HERCVLES. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Hercules quod monstrum Auentini montis elisit,  </l>
             <l n="2">Euandri qui solitus erat armenta furare,  </l>
-            <l n="3">Rustica mens hominum, <choice><sic>indociiis</sic><corr>indocilis</corr></choice> quoque, pro laude  </l>
-            <l n="4">Cum gratias agere uellent, <sic>abseptis</sic> Tonantis </l>
+            <l n="3">Rustica mens hominum, indocilis quoque, pro laude  </l>
+            <l n="4">Cum gratias agere uellent, absentis Tonantis </l>
 
 <note rend="script" type="footnote"> XllII, 1 apparuit 0 2 qd C 3 quoniam <hi rend="italic">rv;</hi> quo C; qu5 <hi rend="italic">B;</hi>1 <lb/>
             quoq, <hi rend="italic">A</hi> nam <hi rend="italic">Crv;</hi> non <hi rend="italic">BA</hi> 4 Vqualem emisti <hi rend="italic">A;</hi> Vanalem emisti <lb/>
@@ -996,10 +994,10 @@
 <note type="footnote"> 2* </note> <lb/>
              
 <pb n="20"/>
-            <l n="5"><sic>Vouerunt</sic> hostias inepto ut deo orando,  </l>
-            <l n="6">Laetandas aras in memoriam sibi <choice n="0.84"><sic n="486">fecerunt</sic><corr n="91">fecerant</corr></choice>.  </l>
-            <l n="7"><sic>Ez</sic> eo perrexit, de uetusto more <choice n="0.93"><sic n="15">colatur</sic><corr n="1">colator</corr></choice>.  </l>
-            <l n="8">Sed <choice n="0.44"><sic n="1292">deus</sic><corr n="1612">deos</corr></choice> hic non est, licet fuit fortis in armis.  </l>
+            <l n="5">Vouerunt hostias inepto ut deo orando,  </l>
+            <l n="6">Laetandas aras in memoriam sibi fecerunt.  </l>
+            <l n="7">Ex eo perrexit, de uetusto more colatur.  </l>
+            <l n="8">Sed deus hic non est, licet fuit fortis in armis.  </l>
 
           
 </div>
@@ -1097,7 +1095,7 @@
 
           <l n="13"><milestone rend="script" unit="para"/>Ex eo uidete, quoniam sunt omnia ficta.  </l>
             <l n="14">Obumbrant populum supplicem, perituri ne credant.  </l>
-            <l n="15">Res semel in <choice n="0.97"><sic n="46">uano</sic><corr n="1">nano</corr></choice> de uetustate processit, Vt uaticinanti credantur prodita falsa;  </l>
+            <l n="15">Res semel in uano de uetustate processit, Vt uaticinanti credantur prodita falsa;  </l>
             <l n="16">Maiestas autem illorum nulla locuta est. </l>
 
 <note rend="script" type="footnote"> 7 Lnzorias <hi rend="italic">CBr (cf. ScAvcA. Voksl. II p. 159); luxis A</hi> ineunt <lb/>
@@ -1133,21 +1131,21 @@
 
 <div n="18" subtype="poem" type="textpart">
 <ab> <title>XVIII.  DE AMMVDATE ET DEO MAGNO. </title> </ab>
-          <l n="1"><milestone unit="para"/><sic>Dixinus</sic> iam multa de <sic>superetitione</sic> nefanda,  </l>
+          <l n="1"><milestone unit="para"/>Dixinus iam multa de siperstitione nefanda,  </l>
             
-            <l n="2">Et tamen <sic>exsequiur</sic>, ne quid praeterisse dicamur.  </l>
+            <l n="2">Et tamen exsequimur, ne quid praeterisse dicamur.  </l>
  
-          <l n="3"><milestone unit="para"/>Ammudatem qui suum cultores more <choice n="0.94"><sic n="18">colebant</sic><corr n="1">calebant</corr></choice>,  </l>
+          <l n="3"><milestone unit="para"/>Ammudatem qui suum cultores more colebant,  </l>
             <l n="4">Magnus erat illis, quando fuit aurum in aede; ,  </l>
             <l n="5">Mittebant capita sub numine quasi praesenti.  </l>
             <l n="6">Ventum est ad summum, ut Caesar tolleret aurum:  </l>
             <l n="7">Defecit numen uel fugit aut transit in ignem.  </l>
             <l n="8">Auctor huius sceleris constat, qui formabat eundem.,  </l>
             <l n="9">Tot uiros et magnos seduxit false prophetans,  </l>
-            <l n="10">Et modo reticuit qui solebat esse <choice n="0.97"><sic n="45">diuinus</sic><corr n="1">diurnus</corr></choice>.  </l>
+            <l n="10">Et modo reticuit qui solebat esse diuinus.  </l>
             
 
-          <l n="11"><milestone rend="script" unit="para"/>            Erumpebat eiim <sic>uoiis</sic> quasi mente mutata,  </l>
+          <l n="11"><milestone rend="script" unit="para"/>            Erumpebat eiim uoeis quasi mente mutata,  </l>
             <l n="12">Tamquam illi deus ligni loqueretur in aurem.  </l>
 
 
@@ -1181,8 +1179,8 @@
             <l n="15">Oblitus est iste prophetare, qui ante solebat.  </l>
             
 
-          <l n="16"><milestone unit="para"/>Monstra deo ista fincta sunt per <sic>uiniooraces</sic>,  </l>
-            <l n="17">Audacia quorum damnabilis <choice><sic>nnmina</sic><corr>numina</corr></choice> fingit.  </l>
+          <l n="16"><milestone unit="para"/>Monstra deo ista fincta sunt per uiniuoraces,  </l>
+            <l n="17">Audacia quorum damnabilis numina fingit.  </l>
             <l n="18">Gestabatur enim et aluit tale sigillum:  </l>
             <l n="19">Nunc et ipse silet, nec ullus de illo prophetat.  </l>
             <l n="20">0 nimium sed〈ulo〉 uos ipsos perdere uultis.  </l>
@@ -1193,7 +1191,7 @@
 
 <div n="19" subtype="poem" type="textpart">
 <ab> <title>XVIIII.  NEMESIACIS VANIS. </title> </ab>
-          <l n="1"><milestone unit="para"/>Non <choice><sic>ignominium</sic><corr>ignominiam</corr></choice> est uirum seduci prudentem  </l>
+          <l n="1"><milestone unit="para"/>Non ignominium est uirum seduci prudentem  </l>
             <l n="2">Et colere tale 〈a〉 m aut Dianam dicere lignum?1 </l>
 
 <note type="footnote"> 13 B sunt <hi rend="italic">C (cf</hi>. 37, <hi rend="italic">10);</hi> non sint <hi rend="italic">Barv</hi> numina <hi rend="italic">B2rv;</hi> nomina <lb/>
@@ -1238,7 +1236,7 @@
             
 
           <l n="11"><milestone rend="script" unit="para"/>Vertitur a se〈se〉 rotans cum ligno bifurci,  </l>
-            <l n="12">Ac si putes illum <choice><sic>adfiatum</sic><corr>adflatum</corr></choice> numine ligni.  </l>
+            <l n="12">Ac si putes illum adflatum numine ligni.  </l>
             <l n="13">Non deos uos colitis, quos isti false prophetant:  </l>
             <l n="14">Ipsos sacerdotes colitis in uano timentes.  </l>
             <l n="15">Sed si corde uiges, fuge iam sacraria mortis. </l>
@@ -1277,10 +1275,10 @@
 
 <div n="20" subtype="poem" type="textpart">
 <ab> <title>XX.  TITANES. </title> </ab>
-          <l n="1"><milestone unit="para"/><sic>Titanaa</sic> uobis tutanos dicitis esse;  </l>
-            <l n="2">Ita <choice><sic>Mutas</sic><corr>Mntas</corr></choice>, Tacitas sub culmine nestro <choice><sic>rogatiB</sic><corr>rogatis</corr></choice>,  </l>
+          <l n="1"><milestone unit="para"/>Titanas uobis tutanos dicitis esse;  </l>
+            <l n="2">Ita Mutas, Tacitas sub culmine nestro rogatis,  </l>
             <l n="3">Tot Lares aediculis, simulacra facta Titano!  </l>
-            <l n="4">Adoratis enim stulti malo <choice n="0.28"><sic n="73">lato</sic><corr n="186">leto</corr></choice> defunctos,  </l>
+            <l n="4">Adoratis enim stulti malo leto defunctos,  </l>
             <l n="5">Non legem ipsorum legentes; non ipsi loquuntur,  </l>
             <l n="6">Et deos audetis eramine dicere fusos? \'  </l>
             <l n="7">Solueretis eos magis in uascula uobis.  </l>
@@ -1375,11 +1373,11 @@
             sortes <hi rend="italic">B2Arv;</hi> fortes B1 </note> <lb/>
              
 <pb n="28"/>
-            <l n="3">Belantum cruore fuso <choice n="0.77"><sic n="210">malus</sic><corr n="62">malas</corr></choice> inspicit alter  </l>
-            <l n="4">Et <choice n="0.39"><sic n="179">cupit</sic><corr n="275">capit</corr></choice> audire responsa bona crudelis.  </l>
-            <l n="5">Tot duces et reges <choice n="0.97"><sic n="5769">ubi</sic><corr n="121">abi</corr></choice> sunt consulti de uita,  </l>
-            <l n="6"><choice><sic>Yel</sic><corr>Vel</corr></choice> portenta sua scisse quo profuit illis?  </l>
-            <l n="7">Discite quaeso <choice n="0.86"><sic n="1631">bonum</sic><corr n="244">bonam</corr></choice>, ciues, simulacra cauete:  </l>
+            <l n="3">Belantum cruore fuso malus inspicit alter  </l>
+            <l n="4">Et cupit audire responsa bona crudelis.  </l>
+            <l n="5">Tot duces et reges ubi sunt consulti de uita,  </l>
+            <l n="6">Vel portenta sua scisse quo profuit illis?  </l>
+            <l n="7">Discite quaeso bonum, ciues, simulacra cauete:  </l>
             <l n="8">Omnipotentis enim in legem quaerite cuncti.  </l>
 
           <l n="9"><milestone rend="script" unit="para"/>Sic ipsi conplacuit domino dominorum in altis,  </l>
@@ -1434,11 +1432,11 @@
           <l n="1"><milestone unit="para"/>Dum uentri seruis, innocentem esse te dicis,  </l>
             <l n="2">Et quasi communis facis te ubique paratum.  </l>
 
-          <l n="3"><milestone unit="para"/><choice><sic>Yae</sic><corr>Vae</corr></choice> tibi, stulte homo, mortem circumspicis ipse,.  </l>
+          <l n="3"><milestone unit="para"/>Vae tibi, stulte homo, mortem circumspicis ipse,.  </l>
             <l n="4">Barbaro de more sine lege uiuere quaeris:  </l>
             <l n="5">Ipse tibi figis asciam in crure de uerbo.  </l>
             <l n="6">Qui simplicem fingis, simpliciter uiuo cum isto  </l>
-            <l n="7"><choice><sic>Yiuere</sic><corr>Viuere</corr></choice> te credis, dum uentrem cupis implere?  </l>
+            <l n="7">Viuere te credis, dum uentrem cupis implere?  </l>
             <l n="8">Exiguus tyranni in domo resides, praue, </l>
 
           <l n="9"><milestone rend="script" unit="para"/>Paratus ad epulas, et refugis Dei praecepta.  </l>
@@ -1480,15 +1478,15 @@
 
 <div n="24" subtype="poem" type="textpart">
 <ab> <title>XXIIII.  INTER VTRVMQVE VIVENTIBVS. </title> </ab>
-          <l n="1"><milestone unit="para"/>Inter utrumque putans dubie uiuendo <choice n="0.45"><sic n="82">cauere</sic><corr n="98">canere</corr></choice>,  </l>
-            <l n="2"><choice><sic>Nudatus</sic><corr>Nudatos</corr></choice> a lege, <choice><sic>deerepitus</sic><corr>decrepitos</corr></choice> <sic>loxu</sic> praesepis,  </l>
+          <l n="1"><milestone unit="para"/>Inter utrumque putans dubie uiuendo cauere,  </l>
+            <l n="2">Nudatus a lege, decrepitus luxu praesepis,  </l>
             <l n="3">Tot (uana) nane prospicis; quid? quaeris iniqua!  </l>
-            <l n="4">Et quidquid egistis, istinc remanere <choice><sic>defunoto</sic><corr>defuncto</corr></choice>  </l>
-            <l n="5"><sic>Eespicite</sic>. Stulte, non eras, et ecce uideris!  </l>
+            <l n="4">Et quidquid egistis, istinc remanere defuncto  </l>
+            <l n="5">Respicite. Stulte, non eras, et ecce uideris!  </l>
             
 
           <l n="6"><milestone rend="script" unit="para"/>Vnde processisti nescis nec unde nutriris.  </l>
-            <l n="7">Tu Deum excelsum <choice n="0.01"><sic n="1">fagis</sic><corr n="71">fugis</corr></choice> tuae uitae benignum  </l>
+            <l n="7">Tu Deum excelsum fugis tuae uitae benignum  </l>
             <l n="8">Rectoremque tuum, qui te magis uiuere uellet;  </l>
             <l n="9">Vertis te in faciem et dorsum Deo remittis,  </l>
             <l n="10">Mergis te in tenebris, dum putas te in luce morari. </l>
@@ -1571,7 +1569,7 @@
 
 <div n="25" subtype="poem" type="textpart">
 <ab> <title>XXV.  QVI TIMENT ET NON CREDENT. </title> </ab>
-          <l n="1"><milestone unit="para"/>Quamdiu, stulte homo, Christum cognoscere non <choice n="0.09"><sic n="28">nis</sic><corr n="258">ais</corr></choice>?  </l>
+          <l n="1"><milestone unit="para"/>Quamdiu, stulte homo, Christum cognoscere non uis?  </l>
             <l n="2">Vitas agrum pinguem et sterili semina iactas.  </l>
             <l n="3">In silua manere quaeris, ubi latro moratur.  </l>
 
@@ -1615,9 +1613,9 @@
              
 
           <l n="15"><milestone unit="para"/>Credere nnn(c) opus est, tantum in isto defuncto  </l>
-            <l n="16"><sic>Resurgere</sic> posse 〈et〉 uiuere tempore toto.  </l>
+            <l n="16">Resurgere posse 〈et〉 uiuere tempore toto.  </l>
             <l n="17">Ergo si quis ea discredit esse futura,  </l>
-            <l n="18">Dummodo uincetur <choice n="0.00"><sic n="2">rens</sic><corr n="407">reus</corr></choice> in morte secunda,  </l>
+            <l n="18">Dummodo uincetur reus in morte secunda,  </l>
             <l n="19">Euentwra <hi rend="italic">canam</hi> paucis in isto libello;  </l>
             <l n="20">Nam cognosci potest, ubi sit spes uitae ponenda.  </l>
             <l n="21">Tamen uos adhortor quantocius credere Christo.  </l>
@@ -1627,7 +1625,7 @@
 
 <div n="26" subtype="poem" type="textpart">
 <ab> <title>XXVI.  REPVGNANTIBVS ADVEBSVS LEGEM CHRISTI DEI VIVI. </title> </ab>
-          <l n="1"><milestone unit="para"/><sic>Respuis</sic>, infelix, bonum disciplinae caelestis  </l>
+          <l n="1"><milestone unit="para"/>Respuis, infelix, bonum disciplinae caelestis  </l>
             <l n="2">Et ruis in mortem, dum uis sine freno uagari.  </l>
             <l n="3">Perdunt te luxuriae et breuia gaudia mundi,  </l>
             <l n="4">. Vnde sub inferno cruciaberis tempore toto.  </l>
@@ -1663,11 +1661,11 @@
 
           <l n="9"><milestone unit="para"/>Tu putas nunc uitam isti te perfrui laetum?  </l>
             <l n="10">Iniuriae, lites ibi sunt et damna diurnum,  </l>
-            <l n="11">Bella uel infanda, fraudes, cum sanguine <choice><sic>fnrta</sic><corr>furta</corr></choice>,  </l>
+            <l n="11">Bella uel infanda, fraudes, cum sanguine furta,  </l>
             <l n="12">Vlceribus corpus uexatur, gemiturque, ploratur,  </l>
             <l n="13">Seu luis inuadit, aut longo morbo teneris, </l>
 
-          <l n="14"><milestone rend="script" unit="para"/>Aut natis orbaris, aut perdita coniuge <choice><sic>defies</sic><corr>defles</corr></choice>;  </l>
+          <l n="14"><milestone rend="script" unit="para"/>Aut natis orbaris, aut perdita coniuge defles;  </l>
             <l n="15">Destruitur totum, ruunt dignitates ab alto;  </l>
             <l n="16">Vreris pauperie dupliciter certe si langues:  </l>
             <l n="17">Et dicis uitam, ubi uitrea uita moraris?  </l>
@@ -1707,14 +1705,14 @@
             <l n="23">Et tamen inuiti reli〈n〉 quimus omnia mundo.-  </l>
             <l n="24">Gens et ego fui peruersa mente moratus-  </l>
             <l n="25">Et uitam istius saeculi ueram esse putabam  </l>
-            <l n="26"><sic>Mortemque</sic> similiter sicut uos iudicabam adesse, </l>
+            <l n="26">Mortemque similiter sicut uos iudicabam adesse, </l>
 
-          <l n="27"><milestone unit="para"/>Cum semel <choice n="0.57"><sic n="41">egisset</sic><corr n="30">exisset</corr></choice>, animum periisse <sic>defnnctum</sic>.  </l>
-            <l n="28">Haec autem sic non sunt; sed conditor orbis et <sic>auotor</sic> —  </l>
-            <l n="29"><sic>Requisiuit</sic> enim fratrem a fratre <choice n="0.81"><sic n="22">peremptum</sic><corr n="5">peremptam</corr></choice> —:  </l>
+          <l n="27"><milestone unit="para"/>Cum semel exisset, animum periisse defunctum.  </l>
+            <l n="28">Haec autem sic non sunt; sed conditor orbis et auctor —  </l>
+            <l n="29">Requisiuit enim fratrem a fratre peremptum —:  </l>
             <l n="30">Impie, dic, inquit, ubinam frater ? — Ille negauit. —  </l>
             <l n="31">Sanguis enim fratris ad me proclamauit in altum.  </l>
-            <l n="32"><sic>Torqueris</sic>, uideo, <choice n="0.97"><sic n="5769">ubi</sic><corr n="121">abi</corr></choice> nil sentire <choice><sic>putabus</sic><corr>putabas</corr></choice>,  </l>
+            <l n="32">Torqueris, uideo, ubi nil sentire putabas,  </l>
             <l n="33">Ille autem uiuit et loca dextera tenet, </l>
 
           <l n="34"><milestone rend="script" unit="para"/>Delicias fruitur, quas tu perdidisti, nefande!  </l>
@@ -1750,8 +1748,8 @@
 <pb n="36"/>
              
 
-          <l n="37"><milestone unit="para"/><sic>Yioit</sic> certe Deus, qui defunctos uiuere fecit,  </l>
-            <l n="38"><sic>Innocuisque</sic> bonis ut reddat praemia digna,  </l>
+          <l n="37"><milestone unit="para"/>Viuit certe Deus, qui defunctos uiuere fecit,  </l>
+            <l n="38">Innocuisque bonis ut reddat praemia digna,  </l>
             <l n="39">Vesanis autem et impiis tartara saeua.  </l>
             <l n="40">Incipe sentire iudicia Dei, seducte!  </l>
             
@@ -1761,11 +1759,11 @@
 
 <div n="27" subtype="poem" type="textpart">
 <ab> <title>XXVII.  STVLTE, NON PERMORERIS DEO. </title> </ab>
-          <l n="1"><milestone unit="para"/><choice><sic>Stolte</sic><corr>Stulte</corr></choice>, non permoreris nec mortuus <choice><sic>effngis</sic><corr>effugis</corr></choice> actus,  </l>
+          <l n="1"><milestone unit="para"/>Stulte, non permoreris nec mortuus effugis actus,  </l>
             <l n="2">Tu licet disponas nihil te sentire defunctum.  </l>
             <l n="3">Vinceris, insipiens: uiuit Deus conditor orbis,  </l>
-            <l n="4">Legitima cuius clamat(ur) ualere <choice><sic>defancto</sic><corr>defuncto</corr></choice>.  </l>
-            <l n="5"><choice><sic>Tn</sic><corr>Tu</corr></choice> autem dum praeceps sine Deo uiuere quaeris,  </l>
+            <l n="4">Legitima cuius clamat(ur) ualere defunctum.  </l>
+            <l n="5">Tu autem dum praeceps sine Deo uiuere quaeris,  </l>
             <l n="6">Extinctum in fatis indicari tu futile credis.  </l>
 
           <l n="7"><milestone unit="para"/>Non ita disposuit, ut tu putas, Deus aeternus,  </l>
@@ -1800,7 +1798,7 @@
              
 
           <l n="12"><milestone unit="para"/>Rectorem dominumque tuum nihil posse fecisti.  </l>
-            <l n="13">Mors autem in uacuum non est, si <choice n="0.29"><sic n="283">corda</sic><corr n="684">corde</corr></choice> retractes.  </l>
+            <l n="13">Mors autem in uacuum non est, si corde retractes.  </l>
             <l n="14">Optandum noscas, nam sero senties illum.  </l>
             <l n="15">Rector eras carnis, non te certe caro regebat;  </l>
             <l n="16">Exemptus ab illa, reconditur illa tuorum.  </l>
@@ -1854,14 +1852,14 @@
             <l n="5">Impie, nunc audi, qui * * malefacta lucraris:  </l>
             
 
-          <l n="6"><milestone unit="para"/>Respice terrenos <choice n="0.96"><sic n="1284">iudices</sic><corr n="47">indices</corr></choice>, in corpore qui nunc  </l>
+          <l n="6"><milestone unit="para"/>Respice terrenos iudices, in corpore qui nunc  </l>
             <l n="7">Excruciant poenis diros: aut ferro parantur  </l>
             <l n="8">Supplicia meritis aut longo carcere flere.  </l>
             <l n="9">Vltime tu speras Deum inridere caelestem  </l>
             <l n="10">Rectoremque poli, per quem sunt omnia facta?  </l>
             <l n="11">Grassaris, insanis, detractas nunc et Dei nomen?  </l>
-            <l n="12"><choice><sic>Ynde</sic><corr>Vnde</corr></choice> non effugies, poenam post fata qui ponet.  </l>
-            <l n="13">Nunc uolo sis cautus, ne <choice n="0.94"><sic n="109">uenias</sic><corr n="6">nenias</corr></choice> ignis in aestu.  </l>
+            <l n="12">Vnde non effugies, poenam post fata qui ponet.  </l>
+            <l n="13">Nunc uolo sis cautus, ne uenias ignis in aestu.  </l>
             <l n="14">Trade te iam Christo, ut te benefacta sequantur.  </l>
 
           
@@ -1870,7 +1868,7 @@
 <div n="29" subtype="poem" type="textpart">
 <ab> <title>XXVIIII.  DIVITI INCREDVLO MALO. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Differ<add>r</add>is, diues, nimium tua cuncta uidendo,  </l>
-            <l n="2">Insatiabiliter quibus adhuc adgerere <choice><sic>quaetis</sic><corr>quaeris</corr></choice>.  </l>
+            <l n="2">Insatiabiliter quibus adhuc adgerere quaeris.  </l>
             <l n="3">Viuere post ista, dicis, non spero defunctus. !  </l>
             <l n="4">Ingrate summo Deo, qui sic Deum indicas esse, </l>
 
@@ -1910,8 +1908,8 @@
             
 
           <l n="16"><milestone rend="script" unit="para"/>Mox animam reddis, duceris quo te paenitet esse,  </l>
-            <l n="17">Ac <choice><sic>Initur</sic><corr>luitur</corr></choice> ibi poena spiritalis aeterna;  </l>
-            <l n="18">Lugia sunt semper, nec <sic>permor</sic>&lt;i) eris in illa,  </l>
+            <l n="17">Ac luitur ibi poena spiritalis aeterna;  </l>
+            <l n="18">Lugia sunt semper, nec permor&lt;i) eris in illa,  </l>
             <l n="19">Omnipotentem Deum iam tunc ibi sero proclamans. </l>
 
 <note type="footnote"> 29, 9 Psal. 145, 6; Apoc. 10, 6; 14, 7 etc. </note>
@@ -1945,21 +1943,21 @@
 
 <div n="30" subtype="poem" type="textpart">
 <ab> <title>XXX.  DIVITES HVMILES ESTOTE. </title> </ab>
-          <l n="1"><milestone unit="para"/>Disce, moriture, <choice n="0.13"><sic n="244">bonam</sic><corr n="1631">bonum</corr></choice> ostendere cunctis.  </l>
-            <l n="2">In medio populi quid te <choice n="0.83"><sic n="432">facis</sic><corr n="87">focis</corr></choice> alterum esse?  </l>
-            <l n="3">Vadis ubi nescis, et <choice><sic>inscias</sic><corr>inscius</corr></choice> inde recedis;  </l>
+          <l n="1"><milestone unit="para"/>Disce, moriture, bonum ostendere cunctis.  </l>
+            <l n="2">In medio populi quid te facis alterum esse?  </l>
+            <l n="3">Vadis ubi nescis, et inscius inde recedis;  </l>
             <l n="4">Impie tractas cum ipso corpore, sitis  </l>
             <l n="5">Tu super diuitias, nimium te tollis in altum  </l>
-            <l n="6">Et t <sic>stifam</sic> ducis, nec respicis pauperes ultro  </l>
+            <l n="6">Et t stifam ducis, nec respicis pauperes ultro  </l>
             <l n="7">Subditos nunc nobis, nec parentes pascitis ipsos.  </l>
 
           <l n="8"><milestone unit="para"/>Heu miseri! fugiant longius mediocres a uobis.  </l>
             <l n="9">Vixit et extinxit pauper t ebreica clames.  </l>
             <l n="10">Mox furiis ageris, cum pereas ipse, Charybdis.  </l>
-            <l n="11">Indisciplinati sicut * * <choice><sic>dinites</sic><corr>diuites</corr></choice> estis:  </l>
+            <l n="11">Indisciplinati sicut * * diuites estis:  </l>
             <l n="12">Legem datis istis, nam uobis parcitis ipsis.  </l>
-            <l n="13">Exue te, diues, tantis malis Deo <choice><sic>renersus</sic><corr>reuersus</corr></choice>,  </l>
-            <l n="14">Subueniat [<sic>utijque</sic> tibi, quod nunc operasti si forte. </l>
+            <l n="13">Exue te, diues, tantis malis Deo reuersus,  </l>
+            <l n="14">Subueniat [uti]que tibi, quod nunc operasti si forte. </l>
 
 <note type="footnote"> XXX, 1 bonum ostendere <hi rend="italic">OLd (cf. S. 107 p. 796);</hi> bonum te ostendere <lb/>
             <hi rend="italic">rOehl</hi>. 2 te rv; de 0 faris <hi rend="italic">Oehl. comm</hi>. 5 sap <hi rend="italic">C (ct. <lb/>
@@ -1985,7 +1983,7 @@
 <pb n="41"/>
              
 
-          <l n="15"><milestone unit="para"/>Estote communes minimis, dum <choice><sic>tempua</sic><corr>tempus</corr></choice> habetis;  </l>
+          <l n="15"><milestone unit="para"/>Estote communes minimis, dum tempus habetis;  </l>
             <l n="16">Sicut ulmus amat uitem, sic ipsi pusillos.  </l>
             <l n="17">Terribilem legem malis bonis atque benignam  </l>
             <l n="18">Obserua, nunc sterilis! subditus in prosperis esto:  </l>
@@ -2032,7 +2030,7 @@
 
           <l n="4"><milestone unit="para"/>Idem: V (o)s, sequit 〈ut〉, datorem semper amatis;  </l>
             <l n="5">Cum quaerit(ur), causa uictoriam tollit iniqua.  </l>
-            <l n="6">Innocens hic ego sum, nec <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> incuso pusillus,  </l>
+            <l n="6">Innocens hic ego sum, nec uos incuso pusillus,  </l>
             <l n="7">Blasphemium tollat Salomon, qui (clamat) aperte.  </l>
             <l n="8">Vobis autem Deus est uenter et praemia iura.  </l>
             <l n="9">Suggerit hoc Paulus apostolus, non ego pulex.  </l>
@@ -2043,7 +2041,7 @@
 <div n="32" subtype="poem" type="textpart">
 <ab> <title>XXXII.  SIBI PLACENTIBVS. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Si locus aut tempus fauet aut persona prouenit,  </l>
-            <l n="2"><choice n="0.66"><sic n="8">Iudex</sic><corr n="4">Index</corr></choice> esto nouus. Quid nunc <sic>eitolleris</sic> inde?  </l>
+            <l n="2">Index esto nouus. Quid nunc extolleris inde?  </l>
             <l n="3">Blasphema(s), indocilis; de cuius praestantia uiuis,  </l>
             <l n="4">In fragilitate tanta non respicis umquam. </l>
 
@@ -2094,7 +2092,7 @@
 <div n="33" subtype="poem" type="textpart">
 <ab> <title>XXXIII.  GENTILIBVS. </title> </ab>
           <l n="1"><milestone unit="para"/>Gens sine pastore ferox iam noli uagare.  </l>
-            <l n="2">Et ego, qui moneo, idem fui <choice><sic>neecius</sic><corr>nescius</corr></choice> errans. </l>
+            <l n="2">Et ego, qui moneo, idem fui nescius errans. </l>
 
 <note type="footnote"> 33, 1 Matth. 9, 36; Marc. 6, 34 </note>
 
@@ -2141,7 +2139,7 @@
           <l n="1"><milestone rend="script" unit="para"/>Indomita ceruix respuit iugum ferre labori,  </l>
             <l n="2">Tunc iuuat in campis crassis satiari coliclis.  </l>
             <l n="3">Et tamen inuita domatur utilis equa  </l>
-            <l n="4">Minuiturque <choice><sic>feroz</sic><corr>ferox</corr></choice> esse proinde domata; </l>
+            <l n="4">Minuiturque ferox esse proinde domata; </l>
 
 <note type="footnote"> 13, 3 Rom. 13, 14; Gal. 4, 19 5 Esai. 56, 9\' </note>
 
@@ -2171,7 +2169,7 @@
             <l n="6">Erue te tandem et tecum ipse retracta:  </l>
             <l n="7">Non utique pecus nec besteis, sed homo natus,  </l>
             <l n="8">Tu te ipse doma sapiens et intra sub antra.  </l>
-            <l n="9">Idola, quae sequeris, nihil nisi uanitas <choice n="0.96"><sic n="264">aeui</sic><corr n="10">aeni</corr></choice>.  </l>
+            <l n="9">Idola, quae sequeris, nihil nisi uanitas aeui.  </l>
             <l n="10">Leuia uos corda perducunt poenali barathro.  </l>
             <l n="11">Ibi aurum, uestes, argentum ulnis refertis,  </l>
             <l n="12">Bellatur ibi, dein canta(n)tur pro psalmis amore(s).  </l>
@@ -2220,13 +2218,13 @@
 
 <div n="35" subtype="poem" type="textpart">
 <ab> <title>XXXV.  DE LIGNO VITAE ET MORTIS. </title> </ab>
-          <l n="1"><milestone rend="script" unit="para"/>Adam <sic>protoplaetus</sic> ut Dei praecepta uitaret,  </l>
+          <l n="1"><milestone rend="script" unit="para"/>Adam protoplastus ut Dei praecepta uitaret,  </l>
             <l n="2">Belias seruator foit de inuidia plasmae.  </l>
             <l n="3">Contulisset nobis seu boni seu mali quod egit  </l>
             <l n="4">Dux natiuitatis; morimur itemque per illum,  </l>
-            <l n="5">Ex diuino ipse ut [recedens] <choice><sic>exsal</sic><corr>exsul</corr></choice> factus a uerbo.  </l>
+            <l n="5">Ex diuino ipse ut [recedens] exsul factus a uerbo.  </l>
             <l n="6">Finitis sex milibus annis inmortales erimus.  </l>
-            <l n="7"><sic>Gustato</sic> pomi ligno mors intrauit in orbem:  </l>
+            <l n="7">Gustato pomi ligno mors intrauit in orbem:  </l>
             <l n="8">Hoc ligno mortis quaeramus uitae futurae.  </l>
             <l n="9">In ligno pendit uita ferens poma, praecepta:  </l>
             <l n="10">Kapite nunc (inde) uitalia poma credentes. </l>
@@ -2275,8 +2273,8 @@
             <l n="18">Si uiuere uultis, reddite uos legi secundae,  </l>
             <l n="19">Templorum culturam, daemonum fana uitate.  </l>
             <l n="20">Vertite uos Christo, et eritis Deo sodales.  </l>
-            <l n="21">Xancta Dei lex est, quae mortuos uiuere <choice><sic>dioit</sic><corr>dicit</corr></choice>.  </l>
-            <l n="22"><sic>Ymnum</sic> sibi soli Dominus proferre praecepit,  </l>
+            <l n="21">Xancta Dei lex est, quae mortuos uiuere dioit.  </l>
+            <l n="22">Ymnum sibi soli Dominus proferre praecepit,  </l>
             <l n="23">Zabolicam legem omnes omnino uitate.  </l>
 
           
@@ -2286,7 +2284,7 @@
 <ab> <title>XXXVI.  DE CRVCISTVLTITIA. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>De duplici ligno dixi, mors unde processit,  </l>
             <l n="2">Et iterum inde procedere uitam frequenter.  </l>
-            <l n="3">Crux autem <choice><sic>stnltitiam</sic><corr>stultitiam</corr></choice> facit adulteri genti. </l>
+            <l n="3">Crux autem stultitiam facit adulteri genti. </l>
 
 <note type="footnote">35, 21 lob. 10, 28; 11, 25 22 Deater. 6, 13; Eph. 6, 19 <lb/>
             3i, 3 I Cor. 1, 18; 23 </note>
@@ -2313,11 +2311,11 @@
              
 
           <l n="4"><milestone rend="script" unit="para"/>Rex aeternitatis per crucem diros adumbrat,  </l>
-            <l n="5">Vt sibi non credant.s o stulti, morte <choice><sic>ninentes</sic><corr>uiuentes</corr></choice>!  </l>
+            <l n="5">Vt sibi non credant.s o stulti, morte uiuentes!  </l>
             <l n="6">Cain iuniorem occisit nequam repertus:  </l>
-            <l n="7">Inde <hi rend="italic">Enoch</hi> <choice><sic>snbolis</sic><corr>subolis</corr></choice> Chananaei nati feruntur.  </l>
-            <l n="8">Sic genus iniquum <choice><sic>increnit</sic><corr>increuit</corr></choice> <choice n="0.07"><sic n="37">mando</sic><corr n="439">mundo</corr></choice>, qui nunquam  </l>
-            <l n="9"><choice><sic>Transmntat</sic><corr>Transmutat</corr></choice> animos in Domini credere crucem.  </l>
+            <l n="7">Inde <hi rend="italic">Enoch</hi> subolis Chananaei nati feruntur.  </l>
+            <l n="8">Sic genus iniquum increuit mundo, qui nunquam  </l>
+            <l n="9">Transmutat animos in Domini credere crucem.  </l>
             <l n="10">Venit in errorem, et dicunt se uiuere recte. 10 </l>
 
 <note type="footnote"> 36, 4 Matth. 13, 14 sqq.; Rom. 11, 8; 10 I Gen. 4, 8 <lb/>
@@ -2370,7 +2368,7 @@
 <div n="37" subtype="poem" type="textpart">
 <ab> <title>XXXVII.  QVI IVDAEIDIANT FANATICI. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Quid? medius Iudaeus, medius uis esse profanus?  </l>
-            <l n="2"><choice><sic>Ynde</sic><corr>Vnde</corr></choice> non effugies iudicium Christi defunctus.  </l>
+            <l n="2">Vnde non effugies iudicium Christi defunctus.  </l>
             <l n="3">Ipse caecus eras et ad caecos intras, inepte;  </l>
             <l n="4">Idcirco caecus caecum in fossa reducit.  </l>
             <l n="5">Vadis ubi nescis, et inscius inde recedis.  </l>
@@ -2417,10 +2415,10 @@
             <l n="14">Tunc tamen in fossam secum uos caeci deducunt.  </l>
 
           <l n="15"><milestone rend="script" unit="para"/>Funera sunt; nimium de illis tota deferre,  </l>
-            <l n="16">Aut quia concludor agere co (a) <sic>ngustus</sic> aratri.  </l>
+            <l n="16">Aut quia concludor agere co (a) ngustus aratri.  </l>
             <l n="17">Noluit Omnipotens illos intellegere Regem;  </l>
             <l n="18">A scelere tanto refugit ipse cruentis.  </l>
-            <l n="19">. Tradidit se nobis (<choice n="0.93"><sic n="938">noua</sic><corr n="64">nona</corr></choice>) superaddita lege,  </l>
+            <l n="19">. Tradidit se nobis ((noua)) superaddita lege,  </l>
             <l n="20">Inde modo latrant nobiscum re (ge) deserti.  </l>
             <l n="21">Ceterum in illis (uobis) si spem esse putatis,  </l>
             <l n="22">In totum erratis, si Deum et fana colatis. </l>
@@ -2503,9 +2501,9 @@
              
 
           <l n="5"><milestone unit="para"/>Intuite plenae dictum Rebeccae de caelo,  </l>
-            <l n="6"><choice><sic>Ynde</sic><corr>Vnde</corr></choice> similantis alieni Christo credatis.  </l>
+            <l n="6">Vnde similantis alieni Christo credatis.  </l>
             <l n="7">Deinde Thamar partum geminorum adite;  </l>
-            <l n="8">Ad <sic>Eain</sic> intendite, primum terraeque cultorem,  </l>
+            <l n="8">Ad Kain intendite, primum terraeque cultorem,  </l>
             <l n="9">Et Abel pastorem, priscus inmaculatus offertor  </l>
             <l n="10">In sacrificio qui fuit mactatus a fratre.  </l>
             <l n="11">Sic ergo percipite iuniores Christo probatos.  </l>
@@ -2516,9 +2514,9 @@
 
 <div n="40" subtype="poem" type="textpart">
 <ab> <title>XL.  ITERVM IPSIS. </title> </ab>
-          <l n="1"><milestone rend="script" unit="para"/>Incredulus populus non est nisi <choice><sic>nester</sic><corr>uester</corr></choice>, iniqui,  </l>
+          <l n="1"><milestone rend="script" unit="para"/>Incredulus populus non est nisi uester, iniqui,  </l>
             <l n="2">Tot locis et totiens reprobatus lege clamantum.  </l>
-            <l n="3">Et sabbata uestra spernit et <sic>tricenaimas</sic> Altus  </l>
+            <l n="3">Et sabbata uestra spernit et tricensimas Altus  </l>
 
 <note type="footnote"> 39, 5 Gen. 25, 23 7 Gen. 38, 27 sqq. 8 Gen. 4, 2 sqq. <lb/>
             40, 3 Esai. 1, 13 sq. </note>
@@ -2642,7 +2640,7 @@
 <pb n="55"/>
              
 
-          <l n="18"><milestone unit="para"/>Omnipotens tribuit, ut &lt;<sic>spiri</sic>&gt;talis eradat.  </l>
+          <l n="18"><milestone unit="para"/>Omnipotens tribuit, ut &lt;&lt;spiri&gt;&gt;talis eradat.  </l>
             <l n="19">Recapitulantes scripturas ex eo Iudaei  </l>
             <l n="20">Exclamant pariter ad Excelsum sese deceptos. 20 </l>
 
@@ -2693,7 +2691,7 @@
 </p>
           <p>XIII. De refugis. 
 </p>
-          <p><sic>XlIII</sic>. De lolii semine.
+          <p>XIIII. De lolii semine.
 
 <note type="footnote"> <hi rend="italic">Tituli I-XXI (XX) inueniuntur in CBA; ceteros omiserunt B\' <lb/>
             A, in B altera manus (Bigaltii, ut uidetur) suppleuit. Numeri titulorum <lb/>
@@ -2736,7 +2734,7 @@
 </p>
           <p>XXII. Bellum cottidianum. 
 </p>
-          <p>XXIII. De zelo <sic>concupiscenciae</sic>. 
+          <p>XXIII. De zelo concupiscenciae. 
 </p>
           <p>XXIIII. Qui de malo donant. 
 </p>
@@ -2748,7 +2746,7 @@
 </p>
           <p>XXVIII. Pastoribus Dei. 
 </p>
-          <p><sic>XXVini</sic>. Maioribus natis dico. 
+          <p>XXVIIII. Maioribus natis dico. 
 </p>
           <p>XXX. Infirmum sic uisita. 
 </p>
@@ -2792,18 +2790,18 @@
           <ab>
             <title>I. DE POPVLO ABSCONSO SASCTO OMNIPOTENTIS CHRISTI DEI VIVI. </title>
           </ab>
-          <l n="1"><milestone unit="para"/>Desidet (populus) <choice><sic>absconsus</sic><corr>absconsas</corr></choice> ultimus <choice n="0.87"><sic n="168">sanctus</sic><corr n="24">sanctas</corr></choice>,  </l>
-            <l n="2">Et quidem <choice n="0.57"><sic n="64">ignotus</sic><corr n="47">ignotas</corr></choice> a nobis <choice n="0.97"><sic n="5769">ubi</sic><corr n="121">abi</corr></choice> moretur.  </l>
+          <l n="1"><milestone unit="para"/>Desidet (populus) absconsus ultimus sanctus,  </l>
+            <l n="2">Et quidem ignotus a nobis ubi moretur.  </l>
 
-          <l n="3"><milestone unit="para"/>Per nonem <choice><sic>tribaum</sic><corr>tribuum</corr></choice> &lt;cam&gt; agant et dimidiam ipsi,  </l>
+          <l n="3"><milestone unit="para"/>Per nonem tribuum &lt;cam&gt; agant et dimidiam ipsi,  </l>
             <l n="4">Omissae duae tribum haec sunt et dimidia nobis.  </l>
-            <l n="5"><choice><sic>Praecepitque</sic><corr>Praecepitqne</corr></choice> Christus per legem uiuere priscos.  </l>
-            <l n="6">Viuamus nunc omnes, <choice><sic>nonellae</sic><corr>nouellae</corr></choice> traditio legis,  </l>
+            <l n="5">Praecepitque Christus per legem uiuere priscos.  </l>
+            <l n="6">Viuamus nunc omnes, nouellae traditio legis,  </l>
             <l n="7">Lex ut ipsa docet! Apertius indico nobis.  </l>
             <l n="8">Obrelictae duae tribuum et dimidia: quare </l>
 
-          <l n="9"><milestone rend="script" unit="para"/>Ab istis dimidia <choice><sic>tribnum</sic><corr>tribuum</corr></choice>? Vt martyres essent,  </l>
-            <l n="10">Bellum cum infer&lt;r&gt;et electis <choice><sic>snis</sic><corr>suis</corr></choice> in orbem, </l>
+          <l n="9"><milestone rend="script" unit="para"/>Ab istis dimidia tribuum? Vt martyres essent,  </l>
+            <l n="10">Bellum cum infer&lt;r&gt;et electis suis in orbem, </l>
 
 <note type="footnote"> I, 8 sqq. Numer. 34, 13; 15; Eadr. IV,,13, 40 sqq. </note>
 
@@ -2876,7 +2874,7 @@
             
 
           <l n="25"><milestone unit="para"/>Non natus ante patrem moritur ibi, neque dolores  </l>
-            <l n="26">In suis corporibus <choice n="0.66"><sic n="102">sentiunt</sic><corr n="52">sentiant</corr></choice> uel ulcera nata.  </l>
+            <l n="26">In suis corporibus sentiunt uel ulcera nata.  </l>
             <l n="27">Pausantes in lecto suo mature recedunt  </l>
             <l n="28">Omnia conplentes legis, ideoque tutantur.  </l>
             <l n="29">Transire iubentur ad Dominum partibus istis,  </l>
@@ -2921,12 +2919,12 @@
 <pb n="61"/>
             <l n="42">Decreto Domini traduntur uiui gehennae.  </l>
             <l n="43">Ex eo primores et duces seruire iubentur.  </l>
-            <l n="44">Intrabunt tunc sancti ad antiquae <choice><sic>abera</sic><corr>ubera</corr></choice> matris, </l>
+            <l n="44">Intrabunt tunc sancti ad antiquae ubera matris, </l>
 
-          <l n="45"><milestone unit="para"/>Vt tandem et illi refrigerent, quos malus ille [<choice><sic>snasit</sic><corr>suasit</corr></choice>]  </l>
+          <l n="45"><milestone unit="para"/>Vt tandem et illi refrigerent, quos malus ille [suasit]  </l>
             <l n="46">In uariis poenis cruciabat sibi credendos.  </l>
-            <l n="47">Ventum est ad finem: quo <choice><sic>tollantar</sic><corr>tollantur</corr></choice> scandala mundo,  </l>
-            <l n="48">Incipiet Dominus <choice n="0.86"><sic n="1291">iudicium</sic><corr n="209">indicium</corr></choice> dare per ignem.  </l>
+            <l n="47">Ventum est ad finem: quo tollantur scandala mundo,  </l>
+            <l n="48">Incipiet Dominus iudicium dare per ignem.  </l>
 
           
 </div>
@@ -2965,7 +2963,7 @@
             6 gemntes <hi rend="italic">C</hi> </note> <lb/>
              
 <pb n="62"/>
-            <l n="7"><sic>Vlulatur</sic>, ploratur, nec spatium datur iniquis.  </l>
+            <l n="7">Vlulatur, ploratur, nec spatium datur iniquis.  </l>
             <l n="8">Lactanti quid faciet mater, cum ipsa crematur?  </l>
             <l n="9">In flamma ignis Dominus iudicabit iniquos: </l>
 
@@ -2973,7 +2971,7 @@
             <l n="11">Sub uno morantur, sed pars in sententia flebit.  </l>
             <l n="12">Tantus erit ardor, ut lapides ipsi liquescant,  </l>
             <l n="13">In fulmine cogunt uenti, furet ira caelestis,  </l>
-            <l n="14"><sic>Yt</sic>, quacumque fugit, impius occupetur ab igne;  </l>
+            <l n="14">Vt, quacumque fugit, impius occupetur ab igne;  </l>
             <l n="15">Subpetium nullum &lt;tunc&gt; erit, nec nauticae puppis.  </l>
             
 
@@ -3024,7 +3022,7 @@
           <l n="1"><milestone unit="para"/>De caelo descendit ciuitas in anastase prima..  </l>
             <l n="2">Et quid referamus de fabrica tanta caeleste?  </l>
 
-          <l n="3"><milestone rend="script" unit="para"/><sic>Eesurgimus</sic> illi, qui fuimus illi deuoti,  </l>
+          <l n="3"><milestone rend="script" unit="para"/>Resurgimus illi, qui fuimus illi deuoti,  </l>
             <l n="4">Et incorrupti erint iam tunc sine morte uiuentes,  </l>
             <l n="5">Sed nec dolor ullus nec gemitus erit in illa.  </l>
             <l n="6">Venturi sunt illi quoque, sub Antechristo qui uincunt  </l>
@@ -3058,7 +3056,7 @@
 <pb n="64"/>
             
 
-          <l n="14"><milestone unit="para"/>Nec <choice n="0.85"><sic n="30">lucernae</sic><corr n="5">lacernae</corr></choice> lumen desiderat ciuitas illa:  </l>
+          <l n="14"><milestone unit="para"/>Nec lucernae lumen desiderat ciuitas illa:  </l>
             <l n="15">Ex auctore suo lucet, nec nox ibi paret.  </l>
             
 
@@ -3074,7 +3072,7 @@
 
 <div n="4" subtype="poem" type="textpart">
 <ab> <title>IIII.  DE DIE IVDICII. </title> </ab>
-          <l n="1"><milestone unit="para"/>De die <choice n="0.95"><sic n="190">iudicii</sic><corr n="10">indicii</corr></choice> propter incredulos addo:  </l>
+          <l n="1"><milestone unit="para"/>De die iudicii propter incredulos addo:  </l>
             <l n="2">Emissus iterum Dei do(mi)nabitur ignis; </l>
   
           <l n="3"><milestone rend="script" unit="para"/>Dat gemitum terra rerum tunc in ultima fine,  </l>
@@ -3103,8 +3101,8 @@
             <hi rend="italic">Kaelb. Ld Hanssen</hi> ultimo <hi rend="italic">A</hi> </note> <lb/>
              
 <pb n="65"/>
-            <l n="4">In ter(r)a gentes ut tunc <choice><sic>incrednlae</sic><corr>incredulae</corr></choice> cunctae;  </l>
-            <l n="5">Et tamen <choice><sic>enitat</sic><corr>euitat</corr></choice> sanctorum castra suorum.  </l>
+            <l n="4">In ter(r)a gentes ut tunc incredulae cunctae;  </l>
+            <l n="5">Et tamen euitat sanctorum castra suorum.  </l>
             
 
           <l n="6"><milestone rend="script" unit="para"/>In una flamma conuertit(ur) tota natura,  </l>
@@ -3112,8 +3110,8 @@
             <l n="8">De mare nil remanet, uincetur ab igne potente,  </l>
             <l n="9">4 Interit hoc caelum et ista terra mutatur.,  </l>
             <l n="10">Conponitur alia nouitas caeli, terrae perennis. 10  </l>
-            <l n="11">Inde qui mereunt mittuntur in morte <choice><sic>seounda</sic><corr>secunda</corr></choice>,   </l>
-            <l n="12">Interius autem habitaculis <choice n="0.00"><sic n="1">insti</sic><corr n="181">iusti</corr></choice> locantur. </l>
+            <l n="11">Inde qui mereunt mittuntur in morte secunda,   </l>
+            <l n="12">Interius autem habitaculis iusti locantur. </l>
 
 <note type="footnote"> 4, 4 Matth. 24, 3 5 Apoc. 20, 8 10 Apoc. 21, 1 </note>
 
@@ -3159,17 +3157,17 @@
 
 <div n="5" subtype="poem" type="textpart">
 <ab> <title>V.  CATECVMINIS. </title> </ab>
-          <l n="1"><milestone rend="script" unit="para"/>Credentes in Christo <choice><sic>dereiictis</sic><corr>derelictis</corr></choice> idolis omnes  </l>
-            <l n="2">Admoneo paucis propter <choice n="0.37"><sic n="33">salutaria</sic><corr n="55">salutari</corr></choice> <sic>neetn</sic>.  </l>
-            <l n="3">Temporibus primis per errorem ei qua <choice><sic>gerebw</sic><corr>gerebas</corr></choice>,  </l>
-            <l n="4"><sic>Erogatos</sic> enim <choice><sic>Cliristo</sic><corr>Christo</corr></choice> <choice><sic>tn</sic><corr>tu</corr></choice> cuncta relinque,  </l>
-            <l n="5">Cumque Deum nosti, esto <choice n="0.89"><sic n="533">bonus</sic><corr n="65">bonas</corr></choice> tiro, <choice n="0.91"><sic n="42">probatus</sic><corr n="4">probatas</corr></choice>,  </l>
-            <l n="6"><sic>Yirgineusque</sic> pudor tecum <choice><sic>uereetur</sic><corr>uersetur</corr></choice> in agno.  </l>
+          <l n="1"><milestone rend="script" unit="para"/>Credentes in Christo derelictis idolis omnes  </l>
+            <l n="2">Admoneo paucis propter salutaria uestra.  </l>
+            <l n="3">Temporibus primis per errorem ei qua gerebas,  </l>
+            <l n="4">Erogatua enim Christe tu cuncta relinque,  </l>
+            <l n="5">Cumque Deum nosti, esto bonus tiro, probatus,  </l>
+            <l n="6">Virgineusque pudor tecum uersetur in agno.  </l>
             <l n="7">Mens bonis inuigilet: cane ut non delinquas in ante;  </l>
             <l n="8">In baptismo tibi genitali (a) sola donantur.  </l>
             <l n="9">Nam si quis peccans catecuminus, poena notatur;  </l>
             <l n="10">Insignis illa uiuas, sed non sine damna moraris.  </l>
-            <l n="11">Summa tibi: grania peccata <sic>denita</sic> tu semper. </l>
+            <l n="11">Summa tibi: grania peccata deuita tu semper. </l>
 
 <note rend="script" type="footnote"> V, inscr.cate cominia C; de uocabuli <hi rend="italic">forma cf</hi>. Schuch. Vokal. <hi rend="italic">I <lb/>
             p. 396; b. Gbl. 16p. 347 2 propter] p<foreign xml:lang="grc">̃</foreign>p C</hi> ur<foreign xml:lang="grc">̃</foreign>a C <hi rend="italic">3 si qua Crv;</hi> <lb/>
@@ -3207,14 +3205,14 @@
 
 <div n="6" subtype="poem" type="textpart">
 <ab> <title>VI.  FEDELIBVS. </title> </ab>
-          <l n="1"><milestone rend="script" unit="para"/>Fideles admoneo, fratres ne odia <choice><sic>tollaat</sic><corr>tollant</corr></choice> :  </l>
-            <l n="2">Impia martyribus odia <sic>reputantur</sic> in <sic>igsem</sic>;  </l>
+          <l n="1"><milestone rend="script" unit="para"/>Fideles admoneo, fratres ne odia tollant :  </l>
+            <l n="2">Impia martyribus odia reputantur in iguem;  </l>
             <l n="3">Destruitur martyr, cuius est confessio talis,  </l>
-            <l n="4">Expiari <sic>majum</sic> nec <choice><sic>sangniae</sic><corr>sanguine</corr></choice> fuso docetur.  </l>
-            <l n="5">Lex iniquo <choice n="0.97"><sic n="528">datur</sic><corr n="15">dator</corr></choice>, ut possit sese <choice><sic>freDare</sic><corr>frenare</corr></choice>;  </l>
+            <l n="4">Expiari malum nec sanguine fuso docetur.  </l>
+            <l n="5">Lex iniquo datur, ut possit sese frenare;  </l>
             <l n="6">Inde lotus debes cauere similiter et tu.  </l>
-            <l n="7">Bis Deo <sic>peccasqui</sic> lites fratri protendis.  </l>
-            <l n="8">Ynde non effugies <sic>peoeotum</sic> prisce sectans.  </l>
+            <l n="7">Bis Deo peccas, qui lites fratri protendis.  </l>
+            <l n="8">Ynde non effugies peceatum prisce sectans.  </l>
             <l n="9">Semel es latus, numquid poteris denuo mergi? </l>
 
 <note type="footnote"> 6, 4 Hebr. 10, 4 5 I Tim. 1, 9 </note>
@@ -3253,18 +3251,18 @@
 
 <div n="7" subtype="poem" type="textpart">
 <ab> <title>VII.  FIDELES CAVETE MALVH. </title> </ab>
-          <l n="1"><milestone unit="para"/><sic>Falluntur</sic> uolucres et siluarum bestei uiscis:  </l>
+          <l n="1"><milestone unit="para"/>Falluntur uolucres et siluarum bestei uiscis:  </l>
             <l n="2">Ioeis incantantur, quibus est ratio mentis,  </l>
             <l n="3">Decipiunturque stropha ut esca sequentes,  </l>
-            <l n="4">Et uitare <sic>maliim</sic> <choice n="0.77"><sic n="48">nesciunt</sic><corr n="14">nesciant</corr></choice> nec lege tenentur.  </l>
+            <l n="4">Et uitare malum nesciunt nec lege tenentur.  </l>
             <l n="5">Lex homini data est et doctrina uitae legenda,  </l>
             <l n="6">Ex qua recordatur, ut possit uiuere caute,  </l>
             <l n="7">Sui quoque locum, mortis et deroget ea quae sunt.  </l>
 
 
-          <l n="8"><milestone rend="script" unit="para"/>Condemnat se ipsum <choice><sic>graniter</sic><corr>grauiter</corr></choice> qui regi delinquet:  </l>
-            <l n="9">Aut ferro ligatus aut de <choice><sic>sno</sic><corr>suo</corr></choice> gradu deiectus  </l>
-            <l n="10">Vel <choice><sic>nita</sic><corr>uita</corr></choice> <choice><sic>priuatuB</sic><corr>priuatus</corr></choice> perdit, quod frui deberet. </l>
+          <l n="8"><milestone rend="script" unit="para"/>Condemnat se ipsum grauiter qui regi delinquet:  </l>
+            <l n="9">Aut ferro ligatus aut de suo gradu deiectus  </l>
+            <l n="10">Vel uita priuatus perdit, quod frui deberet. </l>
 
 <note rend="script" type="footnote"> VII, I Falnntnr <hi rend="italic">C</hi> silaaram bestei nisciB <hi rend="italic">gcripai; cf. 23, 19;<lb/>
              Verg. Georg. 1, 139</hi> Tum laqueis captare feras et fallere nisco; <lb/>
@@ -3296,8 +3294,8 @@
              
 <pb n="69"/>
             <l n="11">Exemplo moniti grauiter peccare nolite,  </l>
-            <l n="12"><sic>Tranalati</sic> lauacro magis caritatem habete,  </l>
-            <l n="13">Et escam <sic>museipuli</sic>, ubi mors est, longe uitate.  </l>
+            <l n="12">Translate lauacro magis caritatem habete,  </l>
+            <l n="13">Et escam muscipuli, ubi mors est, longe uitate.  </l>
 
           <l n="14"><milestone unit="para"/>Multa sunt martyria, quae sunt sine sanguine fuso.  </l>
             <l n="15">Alienum non cupire, t uelli martyrii habere,  </l>
@@ -3341,12 +3339,12 @@
 <pb n="70"/>
              
 
-          <l n="5"><milestone rend="script" unit="para"/>In reatu <sic>tao</sic> sorde manifesta <choice n="0.74"><sic n="62">delere</sic><corr n="21">deflere</corr></choice>,  </l>
-            <l n="6">Tu si <sic>ualnus</sic> habes <sic>alhim</sic>, <sic>medioumque</sic> require,  </l>
+          <l n="5"><milestone rend="script" unit="para"/>In reatu tuo sorde manifesta deflere,  </l>
+            <l n="6">Tu si uulnus habes altum, medicumque require,  </l>
             <l n="7">Et tamen in poenis poteris tua damna lenire.  </l>
-             <l n="8">Namque fatebor enim unum me <sic>ez</sic> <choice n="0.39"><sic n="3215">uobis</sic><corr n="4825">nobis</corr></choice> adesse  </l>
+             <l n="8">Namque fatebor enim unum me ex uobis adesse  </l>
             <l n="9">Terroremque <hi rend="italic">item</hi> quondam sensisse ruinae.  </l>
-            <l n="10">Idcirco commoneo uulneratos <choice><sic>oautiua</sic><corr>cautius</corr></choice> ire,  </l>
+            <l n="10">Idcirco commoneo uulneratos cautius ire,  </l>
             <l n="11">Barbam (atque) comam foedare in puluere terrae  </l>
             <l n="12">Volutarique saccis et petere summo de Rege,  </l>
             <l n="13">Subuenire tibi, ne pereas forte de plebe. </l>
@@ -3391,11 +3389,11 @@
 <div n="9" subtype="poem" type="textpart">
 <ab> <title>VIIII.  QVI APOSTATAVERVNT DEO. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Quando bellum autem geritur aut inrigat hostis,  </l>
-            <l n="2"><choice><sic>Yincere</sic><corr>Vincere</corr></choice> qui poterit aut latere, magna tropaea,.  </l>
+            <l n="2">Vincere qui poterit aut latere, magna tropaea,.  </l>
             <l n="3">Infelix autem erit, qui fuerit captus ab illis.  </l>
             <l n="4">Amittit et patriam et regem, cui digne prouenit,  </l>
-            <l n="5">Pugnare pro patria qui noluit neque pro <choice n="0.87"><sic n="1928">uita</sic><corr n="286">tuta</corr></choice>.  </l>
-            <l n="6">Obisse debuerat quam ire sub <choice n="0.46"><sic n="23">barbaro</sic><corr n="27">barbare</corr></choice> rege,  </l>
+            <l n="5">Pugnare pro patria qui noluit neque pro uita.  </l>
+            <l n="6">Obisse debuerat quam ire sub barbaro rege,  </l>
             <l n="7">Seruitium quem pateat hostibus sine lege deferre.  </l>
             <l n="8">Tu si proeliando moreris pro terra, uicisti,  </l>
             <l n="9">At si manus dederis, incolumis lege peristi.  </l>
@@ -3435,15 +3433,15 @@
 <pb n="72"/>
             
 
-          <l n="12"><milestone unit="para"/>Vndique te redde <choice n="0.83"><sic n="195">tutum</sic><corr n="39">tutam</corr></choice>, tuos quoque: uicisti;  </l>
-            <l n="13">Et uigilanter age, ne quis incurrat in <choice n="0.97"><sic n="6591">illa</sic><corr n="165">ilia</corr></choice>.  </l>
+          <l n="12"><milestone unit="para"/>Vndique te redde tutum, tuos quoque: uicisti;  </l>
+            <l n="13">Et uigilanter age, ne quis incurrat in ilia.  </l>
             <l n="14">Rex infamis erit, si quis se propalat hosti.  </l>
             <l n="15">Vincere qui nescit et occurrit tradere sese,  </l>
             <l n="16">Nec sibi nec patriae laudem remisit ineptus;  </l>
             <l n="17">Tunc uiuere noluit, cum ipsa uita periuit.  </l>
 
           <l n="18"><milestone unit="para"/>De(inde) si refugiat inops aut profanus ab hoste,  </l>
-            <l n="19">Eramen ut sonans, facti uel ut aspides <choice><sic>sardi</sic><corr>surdi</corr></choice>,  </l>
+            <l n="19">Eramen ut sonans, facti uel ut aspides surdi,  </l>
             <l n="20">Orare satis debet uel se condere tali(s).  </l>
             
 
@@ -3528,13 +3526,13 @@
 <pb n="74"/>
             
 
-          <l n="4"><milestone unit="para"/><sic>Eooe</sic> militatur; Christo <sic>siout</sic> Caesari pares:  </l>
-            <l n="5">Refugium <choice><sic>Begis</sic><corr>Regis</corr></choice> pete, si delictor <sic>faieti</sic>;  </l>
-            <l n="6">Tu illum <sic>iaplora</sic>, <choice n="0.76"><sic n="26">prostratus</sic><corr n="8">prostratos</corr></choice> illi fatere: </l>
-             <l n="7">Omnia <choice><sic>coooedet</sic><corr>concedet</corr></choice>, <sic>onius</sic> <sic>Bant</sic> et <sic>oraaia</sic> aostra.  </l>
-             <l n="8"><sic>Repositus</sic> <choice><sic>caatris</sic><corr>castris</corr></choice> ulterius <sic>oaue</sic> delinquas.  </l>
-            <l n="9">Errare noli <choice><sic>din</sic><corr>dio</corr></choice> <sic>miks</sic> per spelaea <sic>feraram</sic>.  </l>
-            <l n="10">Sit tibi <choice><sic>pest</sic><corr>post</corr></choice> peocare desistere <choice n="0.75"><sic n="110">gestum</sic><corr n="35">gestam</corr></choice> inmensum.  </l>
+          <l n="4"><milestone unit="para"/>Ecoe militatur; Christo sicut Caesari pares:  </l>
+            <l n="5">Refugium Regis pete, si delictor fuisti;  </l>
+            <l n="6">Tu illum inplora, prostrates illi fatere: </l>
+             <l n="7">Omnia concedet, omnia sunt et nostra aostra.  </l>
+             <l n="8">Bepoeitus castris ulterius caue delinquas.  </l>
+            <l n="9">Errare noli diu miles per spelaea ferarum.  </l>
+            <l n="10">Sit tibi pest peocare desistere gestum inmensum.  </l>
             
 
           
@@ -3544,7 +3542,7 @@
 <ab> <title>XII.  MILITIBVS CHRISTI. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Militiae nomen cum dederis, freno teneris.  </l>
             <l n="2">Incipe tunc ergo: dimitte pristina gesta,  </l>
-            <l n="3">Luxurias uita, <choice><sic>quonium</sic><corr>qnoninm</corr></choice> labor inminet armis;  </l>
+            <l n="3">Luxurias uita, quonium labor inminet armis;  </l>
             <l n="4">Imperio Regis omni uirtute parendum,  </l>
 
 
@@ -3579,13 +3577,13 @@
             <l n="5">Tempora postrema si uis pertingere laeta.  </l>
             <l n="6">Illa bonus miles semper exspecta fruenda,  </l>
             <l n="7">Blandire noli tibi, desidias omnis omitte;  </l>
-            <l n="8">Vt tuo praeposito cottidie <choice><sic>ptaesto</sic><corr>praesto</corr></choice> sis ante,  </l>
-            <l n="9">Sollicitus esto, matutinus signa <choice><sic>renise</sic><corr>reuise</corr></choice>.  </l>
+            <l n="8">Vt tuo praeposito cottidie praesto sis ante,  </l>
+            <l n="9">Sollicitus esto, matutinus signa reuise.  </l>
 
-          <l n="10"><milestone rend="script" unit="para"/>Cum <choice><sic>nideris</sic><corr>uideris</corr></choice> bellum, agonia sume <choice><sic>propinquuB</sic><corr>propinquus</corr></choice>;  </l>
+          <l n="10"><milestone rend="script" unit="para"/>Cum uideris bellum, agonia sume propinquus;  </l>
             <l n="11">Haec gloria Regis, militem uidere paratum.  </l>
-            <l n="12"><choice><sic>Eex</sic><corr>Rex</corr></choice> adest optato; propter spem dimicat <choice n="0.00"><sic n="1">nestram</sic><corr n="297">uestram</corr></choice>;  </l>
-            <l n="13">Ille parat dona, ille pro <choice><sic>nictoria</sic><corr>uictoria</corr></choice> laetus  </l>
+            <l n="12">Rex adest optato; propter spem dimicat uestram;  </l>
+            <l n="13">Ille parat dona, ille pro uictoria laetus  </l>
             <l n="14">Suscipit et proprium satellem dedicat esse. </l>
 
 <note rend="script" type="footnote"> 5 ptingere leta C <hi rend="italic">6 Illa v; Ille Or</hi> milis C <hi rend="italic">ezpecta CB;</hi> <lb/>
@@ -3632,7 +3630,7 @@
 <div n="13" subtype="poem" type="textpart">
 <ab> <title>XIII.  DE REFVGIS. </title> </ab>
           <l n="1"><milestone unit="para"/>Damnatorum animae merito se ipsae secernunt;  </l>
-            <l n="2"><sic>Ez</sic> hoc protegenti iterum ad sua recurrunt.  </l>
+            <l n="2">Ex hoc protegenti iterum ad sua recurrunt.  </l>
 
           <l n="3"><milestone rend="script" unit="para"/>Radix Chananaea, maledictum semen, erumpit  </l>
             <l n="4">Et in seruili gente sub barbaro rege refugit,  </l>
@@ -3723,8 +3721,8 @@
           <l n="1"><milestone unit="para"/>Dissimulas legem tanto praeconio latam,  </l>
             <l n="2">In tuba praesentem caeleste uoce clamantem.  </l>
             <l n="3">Si propheta tantum &lt;unus&gt; declamasset in orbem,  </l>
-            <l n="4"><choice><sic>Snfficeret</sic><corr>Sufficeret</corr></choice> utique Domini uox mi.a per illum.  </l>
-            <l n="5">In tot <sic>profatorom</sic> uolumina uox Domni proclamat; </l>
+            <l n="4">Sufficeret utique Domini uox mi.a per illum.  </l>
+            <l n="5">In tot profatorom uolumina uox Domni proclamat; </l>
 
 <note type="footnote"> XV, inser. Dissimulatori rv; Dussimulatori (Disimulatori C) saecularia <lb/>
             (secularia <hi rend="italic">C)</hi> in totum fugienda O. <hi rend="italic">Sunt</hi> igitur inscriptiones carminum <lb/>
@@ -3762,13 +3760,13 @@
             41, 17 adnotauimus</hi>. </note> <lb n="5"/>
              
 <pb n="79"/>
-            <l n="6">Malitiam <choice n="0.79"><sic n="623">nullus</sic><corr n="160">nullos</corr></choice> <choice><sic>diMittit</sic><corr>dimittit</corr></choice> [ita] <choice n="0.41"><sic n="433">aequo</sic><corr n="611">aeque</corr></choice> de corde.  </l>
-            <l n="7">Vis bona <sic>nidwe</sic> <sic>eb</sic> fraudibus <sic>niuere</sic> quaeris.  </l>
-            <l n="8">Lex ipsa cur ergo processit <choice n="0.59"><sic n="1574">tanta</sic><corr n="1056">tanto</corr></choice> <choice n="0.01"><sic n="10">labere</sic><corr n="521">labore</corr></choice>?  </l>
+            <l n="6">Malitiam nullus dimittit [ita] aequo de corde.  </l>
+            <l n="7">Vis bona uidere et fraudibus uiuere quaeris.  </l>
+            <l n="8">Lex ipsa cur ergo processit tanto labere?  </l>
             <l n="9">Abuteris Domini mandata, et te filium inquis;  </l>
             <l n="10">Tu si talis eris, sine causa fideris, inquam.  </l>
             <l n="11">Omnipotens mites quaerit sibi filios esse,  </l>
-            <l n="12"><sic>RectOs</sic>, corde bonos, deuotos legi diuinae,  </l>
+            <l n="12">Rectos, corde bonos, deuotos legi diuinae,  </l>
             <l n="13">Inmites autem iam scitis ubi demersit.  </l>
 
           
@@ -3776,9 +3774,9 @@
 
 <div n="16" subtype="poem" type="textpart">
 <ab> <title>XVI.  SAECVLARIA IN TOTVM FVGIENDA. </title> </ab>
-          <l n="1"><milestone rend="script" unit="para"/>Si quidam <choice><sic>dootores</sic><corr>doctores</corr></choice>, dum exspectant munera <choice><sic>aestra</sic><corr>uestra</corr></choice>  </l>
-            <l n="2">Aut timent personas, laxantes <choice><sic>singnla</sic><corr>singula</corr></choice> <choice><sic>qubis</sic><corr>uobis</corr></choice>,  </l>
-            <l n="3">Et ego non <sic>dooee</sic>, sed cogor dicere uerum.  </l>
+          <l n="1"><milestone rend="script" unit="para"/>Si quidam doctores, dum exspectant munera uestra  </l>
+            <l n="2">Aut timent personas, laxantes singula uobis,  </l>
+            <l n="3">Et ego non docee, sed cogor dicere uerum.  </l>
             <l n="4">Cum caterua Mali pergis ad spectacula uana,  </l>
             <l n="5">Vbi (a) Satana fragoribus pompa &lt;pa&gt;ratur.  </l>
             <l n="6">Licere persuades tibi, quodcumque placebit. </l>
@@ -3807,24 +3805,24 @@
 <pb n="80"/>
             
 
-          <l n="7"><milestone unit="para"/>Altissimi prolis cum filiis <sic>Zabuli</sic> mixta  </l>
-            <l n="8"><sic>Bespicere</sic> nunc <choice n="0.89"><sic n="2266">uis</sic><corr n="258">ais</corr></choice>, cui renuntiasti, priora P  </l>
+          <l n="7"><milestone unit="para"/>Altissimi prolis cum filiis Zabuli mixta  </l>
+            <l n="8">Respioere nunc uis, cui renuntiasti, priora P  </l>
             <l n="9">In ipsis uersaris iterum: qui proderit Vnus ?  </l>
             <l n="10">Aut si pro languore datum quod stulte profanas </l>
 
           <l n="11"><milestone unit="para"/>I.....................  </l>
             <l n="12">Nolite diligere mundum neque ambitum eius:  </l>
             <l n="13">Tanta Dei uox est, et tibi pro le(ui) uidetur.  </l>
-            <l n="14">Obseruas mandatum hominis, et Dei <choice><sic>denitas</sic><corr>deuitas</corr></choice>;  </l>
-            <l n="15">Tu fidis muneri, quo dootores ora <sic>proeludunt</sic>,  </l>
+            <l n="14">Obseruas mandatum hominis, et Dei deuitas;  </l>
+            <l n="15">Tu fidis muneri, quo dootores ora procludunt,  </l>
             <l n="16">Vt taceant neque dicant tibi iussa diuina.  </l>
             <l n="17">Me uera dicente[m] sicut teneris, prospice Summum: </l>
 
           <l n="18"><milestone rend="script" unit="para"/>Filius cuius eras, illi te adsigna olientem.  </l>
             <l n="19">Yiuere si quaeris gentiliter homo fidelis,.  </l>
             <l n="20">Gaudia te mundi remonent a gratia Christi;  </l>
-            <l n="21">Indisciplinate quod libe(t) licere <choice><sic>praesnmis</sic><corr>praesumis</corr></choice>,  </l>
-            <l n="22">Et choros <choice><sic>hiatorioos</sic><corr>historicos</corr></choice> et cantica musica quaeris, </l>
+            <l n="21">Indisciplinate quod libe(t) licere praesumis,  </l>
+            <l n="22">Et choros historicos et cantica musica quaeris, </l>
 
 <note type="footnote"> 16, 12 I Ioh. 2, 15 17 I Cor. 3, 1 </note>
 
@@ -3863,7 +3861,7 @@
 <ab> <title>XVII.  CHRISTIANVM TALEM ESSE. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Cum Dominus dicat, in gemitum edere panem,  </l>
             <l n="2">Hic ut quid nunc agis, qui cupis uiuere laetus?  </l>
-            <l n="3"><sic>Rescindere</sic> quaeris sententiam Summi demissam;  </l>
+            <l n="3">Rescindere quaeris sententiam Summi demissam;  </l>
             <l n="4">In protoplasto uide frenum procedere legis.  </l>
             <l n="5">Si Deus omnipotens cum sudore uiuere iussit, <hi rend="italic"/> </l>
             <l n="6">Tu qui iocundaris, ergo iam exter es illi.  </l>
@@ -3905,7 +3903,7 @@
             
 
           <l n="9"><milestone unit="para"/>Nunc ergo cur illos persequimur sponte profectos?  </l>
-            <l n="10"><choice><sic>Ynde</sic><corr>Vnde</corr></choice> perierunt illi, nos cauere debemus.  </l>
+            <l n="10">Vnde perierunt illi, nos cauere debemus.  </l>
             <l n="11">Maxima pars uestra luxuriis dedita paret.  </l>
 
           <l n="12"><milestone unit="para"/>Transgrederis legem, cum te facis musicis inter.  </l>
@@ -3994,18 +3992,18 @@
 <note type="footnote"> 6* </note> <lb/>
              
 <pb n="84"/>
-            <l n="14"><choice><sic>Snfficiat</sic><corr>Sufficiat</corr></choice> esse non cultibus sed bona mente.  </l>
+            <l n="14">Sufficiat esse non cultibus sed bona mente.  </l>
             <l n="15">Induite uestes quas oportet, frigus ut ostent  </l>
-            <l n="16">Aut nimium solis, tantum ut <sic>pu</sic> lico proberis;  </l>
+            <l n="16">Aut nimium solis, tantum ut pudico lico proberis;  </l>
             <l n="17">Et in plebe Dei facultatis dona demonstres.  </l>
 
           <l n="18"><milestone unit="para"/>Dat tibi momentum (Tabitha) clarissima quondam  </l>
-            <l n="19"><sic>Eiaoimata</sic> iace(ns) precibus uiduarum erecta.  </l>
+            <l n="19">Exanimata iace(ns) precibus uiduarum erecta.  </l>
             <l n="20">In dando promeruit, non comtibus, inde leuari.  </l>
             
 
           <l n="21"><milestone rend="script" unit="para"/>Vos matronae bonae uanitatis fugite decorem:  </l>
-            <l n="22">In&lt;<sic>cestas</sic> in) feminas congruit cultura lupana.  </l>
+            <l n="22">In&lt;&lt;cestas in) feminas congruit cultura lupana.  </l>
             <l n="23">Vincite malignum, pudicae feminae Christi.  </l>
             <l n="24">In dando diuitias uestras ostendite totas. </l>
 
@@ -4183,7 +4181,7 @@
             
 
           <l n="9"><milestone unit="para"/>In talem pendit ecclesia tota, si uincat.  </l>
-            <l n="10"><choice><sic>Abstiuere</sic><corr>Abstinere</corr></choice> uides fratrem et pugnare cum hoste.  </l>
+            <l n="10">Abstinere uides fratrem et pugnare cum hoste.  </l>
             
 
           <l n="11"><milestone unit="para"/>Optas tu in castris pacem, foras ille repugnat.  </l>
@@ -4241,7 +4239,7 @@
 <ab> <title>XXI.  MARTVRIVM VOLENTI. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Martyrium, fili, quoniam desideras, audi.  </l>
             <l n="2">Abel qualis erat, esto, aut qualis [Isaac] ipse magister.  </l>
-            <l n="3"><sic>Rectamque</sic> delegit Stephanus sibi uiam in iter.  </l>
+            <l n="3">Rectamque delegit Stephanus sibi uiam in iter.  </l>
             <l n="4">Tu quidem quod optas, res est felicibus apta. </l>
 
 <note type="footnote"> 20, 22 Esai. 58, 7; Luc. 14, 13 23 Matth. 25, 35 sqq. </note>
@@ -4377,7 +4375,7 @@
 
 <div n="23" subtype="poem" type="textpart">
 <ab> <title>XXIII.  DE ZELO CONCVPISCENCIAE. </title> </ab>
-          <l n="1"><milestone unit="para"/>Dum cupis, inde <choice n="0.87"><sic n="29">paris</sic><corr n="4">peris</corr></choice>, dum ardes proximi zelo;  </l>
+          <l n="1"><milestone unit="para"/>Dum cupis, inde peris, dum ardes proximi zelo;  </l>
             <l n="2">Exstinguis te ipsum, quando te incendis abactus.  </l>
 
           <l n="3"><milestone unit="para"/>Zelaris alium, inuide, de malo lucrantem,  </l>
@@ -4460,7 +4458,7 @@
 
 <div n="24" subtype="poem" type="textpart">
 <ab> <title>XXIIII.  QVI DE MALO DONANT. </title> </ab>
-          <l n="1"><milestone unit="para"/>Quid te bonum fingis alieno uulnere, <choice><sic>nequus</sic><corr>neqnus</corr></choice>?  </l>
+          <l n="1"><milestone unit="para"/>Quid te bonum fingis alieno uulnere, nequus?  </l>
             <l n="2">Vnde tu largiris, alter cottidie plorat.  </l>
             <l n="3">Ista tu discredis Dominum uidere de caelis?  </l>
 
@@ -4595,7 +4593,7 @@
 <pb n="97"/>
             
 
-          <l n="9"><milestone unit="para"/>Vos flores in plebe, <choice n="0.41"><sic n="4236">uos</sic><corr n="6028">nos</corr></choice> estis Christi lucernae,  </l>
+          <l n="9"><milestone unit="para"/>Vos flores in plebe, uos estis Christi lucernae,  </l>
             <l n="10">Seruate quod estis et memorare potestis.  </l>
             
 
@@ -4604,9 +4602,9 @@
 
 <div n="27" subtype="poem" type="textpart">
 <ab> <title>XXVII.  MTNISTRIS. </title> </ab>
-          <l n="1"><milestone rend="script" unit="para"/>Mysterium Christi, <choice><sic>Zaoones</sic><corr>Zacones</corr></choice>, exercite caste,  </l>
+          <l n="1"><milestone rend="script" unit="para"/>Mysterium Christi, Zacones, exercite caste,  </l>
             <l n="2">Idcirco ministri facite praecepta magistri.  </l>
-            <l n="3">Nolite fugere personam <choice n="0.96"><sic n="153">iudicis</sic><corr n="6">indicis</corr></choice> aequi,  </l>
+            <l n="3">Nolite fugere personam iudicis aequi,  </l>
             <l n="4">Integrate locum uestrum per omnia docti.  </l>
             <l n="5">Susum intendentes, semper Deo summo deuoti  </l>
             <l n="6">Tota Deo reddite inlaesa mysteria sacra.  </l>
@@ -4695,7 +4693,7 @@
 <ab> <title>XXVIIII.  MAIORIBVS NATIS DICO. </title> </ab>
           <l n="1"><milestone unit="para"/>Me solum exposcit tempus uobis dicere uerum.  </l>
             <l n="2">Ab uno semper mouetur, quod multi detractant.  </l>
-            <l n="3">In me solo <choice n="0.76"><sic n="874">uolo</sic><corr n="268">nolo</corr></choice> odia conuertere uestra,  </l>
+            <l n="3">In me solo uolo odia conuertere uestra,  </l>
             <l n="4">Omnium ut pausent praecordia tanto tumore.  </l>
             <l n="5">Respicite dictum, quod ueritas odia tollat.  </l>
             <l n="6">Iam praedixi quidem de pace subdola quanta!  </l>
@@ -4737,25 +4735,25 @@
 <pb n="100"/>
             
 
-          <l n="12"><milestone unit="para"/>Tunc [re]petit <sic>snppetium</sic> miser <sic>denudatas</sic> a uobis:  </l>
-            <l n="13">Ipsi iam horrescunt <choice n="0.96"><sic n="1284">iudices</sic><corr n="47">indices</corr></choice> peculantia nestra.  </l>
+          <l n="12"><milestone unit="para"/>Tunc [re]petit suppetium miser denudatus a uobis:  </l>
+            <l n="13">Ipsi iam horrescunt iudices peculantia nestra.  </l>
             <l n="14">S.....................  </l>
 
-          <l n="15"><milestone unit="para"/>De <choice><sic>breniori</sic><corr>breuiori</corr></choice> titulo t nam in nobis inararem.  </l>
+          <l n="15"><milestone unit="para"/>De breuiori titulo t nam in nobis inararem.  </l>
             <l n="16">Inspicitis dicentes, quibus uos ostenditis ultro; </l>
-             <l n="17">Cum ipsis et <choice><sic>epnlas</sic><corr>epulas</corr></choice> capitis et pascitis ipsos.  </l>
-            <l n="18">Ob ea iam terrae paene <choice><sic>fhndamenta</sic><corr>fundamenta</corr></choice> paratis.  </l>
+             <l n="17">Cum ipsis et epulas capitis et pascitis ipsos.  </l>
+            <l n="18">Ob ea iam terrae paene fundamenta paratis.  </l>
 
           
 </div>
 
 <div n="30" subtype="poem" type="textpart">
 <ab> <title>XXX.  INFIRMVM SIC VISITA. </title> </ab>
-          <l n="1"><milestone rend="script" unit="para"/>Infirmus si <choice><sic>fnerit</sic><corr>fuerit</corr></choice> frater — de paupere dico —,  </l>
-            <l n="2">Nolite <choice><sic>nacni</sic><corr>uacui</corr></choice> talem nisitare iacentem.  </l>
-            <l n="3">Fac sub Deo bonum, obsequia redde per <choice n="0.22"><sic n="26">imam</sic><corr n="90">imum</corr></choice>,  </l>
-            <l n="4">Inde si ualescit, <choice><sic>vel</sic><corr>uel</corr></choice> si considerat, ille.  </l>
-            <l n="5"><choice><sic>Befoneatur</sic><corr>Befoueatur</corr></choice> homo pauper, qui non habet unde </l>
+          <l n="1"><milestone rend="script" unit="para"/>Infirmus si fuerit frater — de paupere dico —,  </l>
+            <l n="2">Nolite uacui talem nisitare iacentem.  </l>
+            <l n="3">Fac sub Deo bonum, obsequia redde per imum,  </l>
+            <l n="4">Inde si ualescit, uel si considerat, ille.  </l>
+            <l n="5">Refoueatur homo pauper, qui non habet unde </l>
 
 <note type="footnote"> 30 Sirac. 7, 89 30, I Lue. 14, 13 sq. </note>
 
@@ -4828,15 +4826,15 @@
 
 <div n="31" subtype="poem" type="textpart">
 <ab> <title>XXXI.  PAVPERIBVS SANIS. </title> </ab>
-          <l n="1"><milestone unit="para"/>Pauperies sana quid? Nisi <sic>dinitiae</sic> adsunt,  </l>
-            <l n="2">Ars certe si fuerit, iam et tu <sic>commnni</sic>&lt;c&gt;a fratri.  </l>
-            <l n="3">Vnum praesta tibi, ne <choice><sic>snperbus</sic><corr>superbus</corr></choice> esse dicaris;  </l>
-            <l n="4">Polliceor, quoniam securior <choice><sic>diniti</sic><corr>diuiti</corr></choice> <choice n="0.16"><sic n="27">niuis</sic><corr n="132">uiuis</corr></choice>.  </l>
+          <l n="1"><milestone unit="para"/>Pauperies sana quid? Nisi diuitiae adsunt,  </l>
+            <l n="2">Ars certe si fuerit, iam et tu communi&lt;c&gt;a fratri.  </l>
+            <l n="3">Vnum praesta tibi, ne superbus esse dicaris;  </l>
+            <l n="4">Polliceor, quoniam securior diuiti uiuis.  </l>
             <l n="5">Excipe doctrinam magis Salomonis in aures.  </l>
             <l n="6">Responsorem in alto non dedit Deus pauperem esse:  </l>
             <l n="7">Idcirco te subde et honorem redde potenti.  </l>
             <l n="8">Blandus enim sermo .. prouerbium nosti ut inquit;  </l>
-            <l n="9">Vincitur officio etsi fuerit ira <choice><sic>netusta</sic><corr>uetusta</corr></choice>.  </l>
+            <l n="9">Vincitur officio etsi fuerit ira uetusta.  </l>
             <l n="10">Si lingua taceat, nihil melius inuenisse.  </l>
             
 
@@ -4888,7 +4886,7 @@
             <l n="9">Nec metuis Dominum, cuius optas regnum uidere.  </l>
 
           <l n="10"><milestone unit="para"/>\'Lugere [quod fas est] nolite, tamen orate pro illis!  </l>
-            <l n="11"><choice><sic>Yos</sic><corr>Vos</corr></choice> ideo tales, quod minus quam gentes eritis? </l>
+            <l n="11">Vos ideo tales, quod minus quam gentes eritis? </l>
 
 <note type="footnote"> 32, 3 Sirac. 22, 11; 38, 16 sqq.? 4 Sirac. 22, 13 </note>
 
@@ -4920,12 +4918,12 @@
 <pb n="104"/>
             
 
-          <l n="12"><milestone unit="para"/>Germine <sic>zabolico</sic> facitis ut turbae pronatae,  </l>
+          <l n="12"><milestone unit="para"/>Germine zabolico facitis ut turbae pronatae,  </l>
             <l n="13">Extinctos clamatis : qua gratia, false, petisti?  </l>
             <l n="14">Nec dolore duxit pater filium mactandum ad aram,  </l>
-            <l n="15">Dolore nec <choice n="0.03"><sic n="11">nates</sic><corr n="268">uates</corr></choice> filium luxit defunctum;  </l>
-            <l n="16">Omnipotentis enim nec flens deducebat <choice><sic>alnmnum</sic><corr>alumnum</corr></choice>, </l>
-             <l n="17">Sed Deo <choice><sic>denotus</sic><corr>deuotus</corr></choice> festinanter funus agebat.  </l>
+            <l n="15">Dolore nec nates filium luxit defunctum;  </l>
+            <l n="16">Omnipotentis enim nec flens deducebat alumnum, </l>
+             <l n="17">Sed Deo deuotus festinanter funus agebat.  </l>
 
           
 </div>
@@ -4937,7 +4935,7 @@
 
           <l n="3"><milestone rend="script" unit="para"/>Pro! exanim(at)um corpus ornari funestum.  </l>
             <l n="4">0 uanitas uera, cupere defunctis honorem!  </l>
-            <l n="5">Mens mundo detenta nec in morte Christo <sic>denota</sic>, </l>
+            <l n="5">Mens mundo detenta nec in morte Christo deuota, </l>
 
 <note type="footnote"> 32, 14 Gen. 22, 1 sqq. 15 II Reg. (Sam.) 12, 19 sqq. </note>
 
@@ -4968,14 +4966,14 @@
 <pb n="105"/>
             
 
-          <l n="6"><milestone unit="para"/>Prouerbium nosti, quae per forum efferri <choice n="0.16"><sic n="26">nolebat</sic><corr n="128">uolebat</corr></choice> !  </l>
+          <l n="6"><milestone unit="para"/>Prouerbium nosti, quae per forum efferri uolebat !  </l>
             <l n="7">Addo illi similes effera(ta) mente uiuentes.  </l>
 
           <l n="8"><milestone unit="para"/>Faustum felicem[que] diem in exitu uultis habere,  </l>
             <l n="9">Vt coeat populus, laudem cum luctu uidere.  </l>
             <l n="10">Non prouides, quonam merearis ire defunctus?  </l>
             <l n="11">Ecce prosequuntur illi, tu iam forte cremaris  </l>
-            <l n="12"><sic>Redactus</sic> in poenam: quid proderit pompa defuncto?  </l>
+            <l n="12">Redactus in poenam: quid proderit pompa defuncto?  </l>
             <l n="13">Incusatus eris qui ob ista collegia quaeris.  </l>
             <l n="14">Sub nigrore cupis uiuere: te decipis ipsum.  </l>
 
@@ -5015,18 +5013,18 @@
             
 
           <l n="3"><milestone unit="para"/>Erogetur eis quod sufficit, uinum et esca.  </l>
-            <l n="4">Bespicite, [forte] quoniam memorentur ista pro <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice>!  </l>
+            <l n="4">Bespicite, [forte] quoniam memorentur ista pro uobis!  </l>
             <l n="5">In modico sumpto deficitis Christo donare.  </l>
-            <l n="6">Cum ipsi non facitis, quo modo <choice><sic>enadere</sic><corr>suadere</corr></choice> potestis  </l>
+            <l n="6">Cum ipsi non facitis, quo modo suadere potestis  </l>
             <l n="7">Iustitiam. legis talibus, uel semel in anno?  </l>
-            <l n="8">Sic merito surgunt blasphemia saepe de <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice>.  </l>
+            <l n="8">Sic merito surgunt blasphemia saepe de uobis.  </l>
 
           
 </div>
 
 <div n="35" subtype="poem" type="textpart">
 <ab> <title>XXXV.  DE FABVLOSIS ET SILENTIO. </title> </ab>
-          <l n="1"><milestone unit="para"/>Dum leue uidetur cuicumque neque <choice n="0.74"><sic n="20">nitatur</sic><corr n="7">uitatur</corr></choice>,  </l>
+          <l n="1"><milestone unit="para"/>Dum leue uidetur cuicumque neque uitatur,  </l>
             <l n="2">Et quasi facile reris dum ab utero illud, </l>
 
           <l n="3"><milestone unit="para"/>Fabulae subueniunt, quo uenisti fundere preces  </l>
@@ -5061,7 +5059,7 @@
 <pb n="107"/>
             
 
-          <l n="8"><milestone unit="para"/>Obde malis pectus uel 〈illa〉 in pectore <choice n="0.52"><sic n="54">solue</sic><corr n="49">solae</corr></choice>.  </l>
+          <l n="8"><milestone unit="para"/>Obde malis pectus uel 〈illa〉 in pectore solue.  </l>
             <l n="9">Sed quia diuitiae faciunt aut pecuniae frontem,  </l>
             <l n="10">Inde perit omnis, quando sibi maxime fidunt.  </l>
             <l n="11">Sic feminae quoque coeunt, quasi initent balneo.  </l>
@@ -5070,8 +5068,8 @@
             <l n="13">Terruit hinc Dominus: Domus orationis adesto!  </l>
 
           <l n="14"><milestone rend="script" unit="para"/>Sacerdos Domini cum "Susum corda" praecepit,  </l>
-            <l n="15">In prece <choice><sic>fienda</sic><corr>flenda</corr></choice> ut fiant silentia uestra, 15  </l>
-            <l n="16">Limpide respondis <choice><sic>pec</sic><corr>nec</corr></choice> tempora quoque promittis. </l>
+            <l n="15">In prece fienda ut fiant silentia uestra, 15  </l>
+            <l n="16">Limpide respondis nec tempora quoque promittis. </l>
 
 <note type="footnote"> 35, 12 sq. Matth. 21, 13; Marc. 11, 17; Lnc. 19, 46 </note>
 
@@ -5109,7 +5107,7 @@
             
 
           <l n="17"><milestone unit="para"/>Exorat ille Altum pro plebe deuota,  </l>
-            <l n="18">Ne pereat aliquis; at tu te in fabulis <choice><sic>nertis</sic><corr>uertis</corr></choice>,  </l>
+            <l n="18">Ne pereat aliquis; at tu te in fabulis uertis,  </l>
             <l n="19">Tu subrides ibi aut detrahis proximi fama;  </l>
             <l n="20">Indisciplinata loqueris, quasi sit Deus absens,  </l>
             <l n="21">Omnia qui fecit, nec 〈audiat〉 neque (te) cernat.  </l>
@@ -5119,7 +5117,7 @@
 
 <div n="36" subtype="poem" type="textpart">
 <ab> <title>XXXVI.  EBBIOSIS. </title> </ab>
-          <l n="1"><milestone unit="para"/>Ebrioso modum non pono: sed <choice><sic>belna</sic><corr>belua</corr></choice> maior  </l>
+          <l n="1"><milestone unit="para"/>Ebrioso modum non pono: sed belua maior  </l>
             <l n="2">Bibendo superius inferior a mente recedis.  </l>
             <l n="3">Regentis imperium tenens apud, stulte, Cyclopas </l>
 
@@ -5198,8 +5196,8 @@
 <pb n="110"/>
             
 
-          <l n="6"><milestone unit="para"/>Respice, cum pascis, <choice n="0.83"><sic n="26">infirmos</sic><corr n="5">infimos</corr></choice>, et feneras Alto.  </l>
-            <l n="7">In illos uos Dominus <choice n="0.76"><sic n="697">uoluit</sic><corr n="220">noluit</corr></choice> probatos adesse.  </l>
+          <l n="6"><milestone unit="para"/>Respice, cum pascis, infirmos, et feneras Alto.  </l>
+            <l n="7">In illos uos Dominus uoluit probatos adesse.  </l>
 
           
 </div>
@@ -5210,7 +5208,7 @@
             <l n="2">Rumpe de latibuli nequitia uincula tota,  </l>
             <l n="3">Aut si benefactis ores miseratus egenis,  </l>
             <l n="4">Ne dubites: quicquid petieris, datur oranti.  </l>
-            <l n="5"><choice><sic>Tn</sic><corr>Tu</corr></choice> sane si nudus benefactis Deum adores,  </l>
+            <l n="5">Tu sane si nudus benefactis Deum adores,  </l>
             <l n="6">In totum ne facias sic orationem, inepte.  </l>
 
           
@@ -5255,7 +5253,7 @@
             <l n="9">Vertitur interea caelum tenore mutato;  </l>
             <l n="10">Conburuntur enim impii tunc igne diuino,  </l>
             <l n="11">Ira Dei summi ardet creatura gemendo.  </l>
-            <l n="12">Dignitosi tamen et gener(e n) <choice><sic>ati</sic><corr>nati</corr></choice> praeclaro  </l>
+            <l n="12">Dignitosi tamen et gener(e n) ati praeclaro  </l>
             <l n="13">Nobilesque uiri sub Antichristo deuicto  </l>
             <l n="14">Ex praecepto Dei rursum uiuentes in aeuo,  </l>
             <l n="15">Mille quidem annis ut seruiant sanctis et Alto  </l>

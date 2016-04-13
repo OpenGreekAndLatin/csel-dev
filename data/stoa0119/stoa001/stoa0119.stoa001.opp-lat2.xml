@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -106,7 +104,7 @@
             regione defunctus est, uir et multis et mihi notissimus. quam <lb n="10"/>
             epistolam cum a quibusdam describi cognoscerem, coepi mecum <lb/>
             ipse tractare nec non et uiris religiosis edicere, tanta per <lb/>
-            beatum Seuerinum <choice n="0.87"><sic n="116">diuinis</sic><corr n="16">diurnis</corr></choice> effectibus celebrata non oportere <lb/>
+            beatum Seuerinum diuinis effectibus celebrata non oportere <lb/>
             celari miracula. 
 </p>
 
@@ -132,7 +130,7 @@
           </div>
 
 <div n="2" subtype="section" type="textpart"><p> Quae cum auctor epistolae praefatae rescisset, animo prompto <lb/>
-            <sic>remandauit</sic>, ut aliqua sibi per me eiusdem sancti Seuerini <lb/>
+            remandauit, ut aliqua sibi per me eiusdem sancti Seuerini <lb/>
             mitterentur indicia, quibus instructus libellum uitae eius scriberet <lb/>
             posterorum memoriae profuturum. hac ego protinus <lb/>
             oblatione compulsus commemoratorium nonnullis refertum <lb n="5"/>
@@ -148,10 +146,10 @@
 </p></div>
 
 <div n="3" subtype="section" type="textpart"><p> sed non <lb/>
-            <choice><sic>ltra</sic><corr>ultra</corr></choice> lucernae illius igniculum te uelut sole splendente perquiram: <lb n="15"/>
+            ultra lucernae illius igniculum te uelut sole splendente perquiram: <lb n="15"/>
             tantum ne mihi peritiae tuae radios nube quadam <lb/>
             excusationis obducas, imperitiam propriam uidelicet accusando. <lb/>
-            noli, obsecro, tam duris me uerberare sermonibus, <sic>dumdicis</sic>: <lb/>
+            noli, obsecro, tam duris me uerberare sermonibus, dum dicis: <lb/>
             quid tibi aquas expectare de silice? iam utique non expecto <lb/>
             de silice plateae saecularis, sed a te, qui spiritalibus spiritalia
 
@@ -174,7 +172,7 @@
             <hi rend="italic">CG</hi> spiritual ia <hi rend="italic">C</hi> spirituali <hi rend="italic">G</hi> </note> <lb n="20"/>
              
 <pb n="3"/>
-            comparans nos de firmissima petra illo quo <choice><sic>profluis</sic><corr>proflnis</corr></choice> orationis <lb/>
+            comparans nos de firmissima petra illo quo profluis orationis <lb/>
             melle recreabis: de quo iam nectareum suauissimae promissionis <lb/>
             gustum dirigens praecipis, ut commemoratorium uel indicia <lb/>
             uitae saepe dicti sancti Seuerini transmitterem: quae donec in <lb/>
@@ -187,9 +185,9 @@
             praeparat: quod si moles instar parietum impolitis componatur <lb/>
             artifice tardante lapidibus, numquid aedificasse dicendus est, ubi <lb/>
             nulla magistri structura prorsus interuenit, nulla rite subicitur <lb n="10"/>
-            fundamenti <choice><sic>muuitio</sic><corr>munitio</corr></choice>? sic ego quoque pretiosam materiem ingenio <lb/>
+            fundamenti munitio? sic ego quoque pretiosam materiem ingenio <lb/>
             uestro uilissima compositione uix praeparans num putari <lb/>
-            <choice><sic>Tlebeo</sic><corr>debeo</corr></choice> conscripsisse quod cupio, ubi disciplinae liberalis nulla <lb/>
+            debeo conscripsisse quod cupio, ubi disciplinae liberalis nulla <lb/>
             constructio, nullus grammatici culminis decor extitit? 
 </p></div>
 
@@ -202,7 +200,7 @@
           </div>
 
 <div n="6" subtype="section" type="textpart"><p>IIIa. quoque, precor, uirtutum beneficia sanitatumque remedia,  <lb/>
-            quae uel in itinere uel <choice n="0.00"><sic n="23">hie</sic><corr n="7275">hic</corr></choice> apud eiusdem beatissimi patris <lb n="20"/>
+            quae uel in itinere uel hic apud eiusdem beatissimi patris <lb n="20"/>
             memoriam diuina sunt peracta uirtute, digneris adnectere: <lb/>
             quae quoniam fidelis portitor, filius uester Deogratias, optime <lb/>
             nouit, uerbo commendauimus intimanda, sperantes nos baiuli <lb/>
@@ -227,14 +225,14 @@
 <note type="footnote"> 1* </note> <lb/>
              
 <pb n="4"/>
-            ut dei fidelissimus famulus tantis uirtutibus <choice n="0.64"><sic n="9">opulentus</sic><corr n="5">opulentas</corr></choice>, <choice><sic>siciit</sic><corr>sicut</corr></choice> <lb/>
+            ut dei fidelissimus famulus tantis uirtutibus opulentus, sicut <lb/>
             ad sanctorum gloriam suis per Christi gratiam meritis uehitur, <lb/>
             sic ad humanam memoriam tuis litteris consecretur. 
 </p>
           </div>
 
 <div n="7" subtype="section" type="textpart"><p> Sane patria, de qua fuerit oriundus, fortasse necessario a <lb/>
-            nobis inquiritur, ut inde, sicut <choice n="0.59"><sic n="223">mons</sic><corr n="153">moris</corr></choice> est, texendae cuiuspiam <lb n="5"/>
+            nobis inquiritur, ut inde, sicut moris est, texendae cuiuspiam <lb n="5"/>
             uitae sumatur exordium, de qua licet me fatear nullum euidens <lb/>
             habere documentum, tamen quid hinc ab ineunte aetate cognouerim  <lb/>
             non tacebo.</p></div>
@@ -246,7 +244,7 @@
             fulgere uirtutibus, nec ullus ab eo penitus auderet <lb/>
             inquirere, tandem Primenius quidam, presbyter Italiae, nobilis <lb/>
             et totius auctoritatis uir, qui ad eum confugerat tempore, quo <lb/>
-            patricius Orestes inique peremptus est, interfectores eius <choice n="0.68"><sic n="150">metuens</sic><corr n="69">metuis</corr></choice>, <lb n="15"/>
+            patricius Orestes inique peremptus est, interfectores eius metuens, <lb n="15"/>
             eo quod interfecti uelut pater fuisse diceretur, — post <lb/>
             multos itaque familiaritatis adeptae dies erupit quasi pro omnibus <lb/>
             et ita sciscitatus est dicens: \'domine sancte, de qua prouincia <lb/>
@@ -276,7 +274,7 @@
             inquit \'seruo dei significatio loci uel generis sui, cam possit <lb/>
             id tacendo facilius uitare iactantiam, utpote sinistram, qua <lb/>
             nesciente cupit omne opus bonum Christo donante perficere, <lb/>
-            quo mereatur dextris <choice n="0.30"><sic n="53">socia</sic><corr n="118">socius</corr></choice> fieri et supernae patriae cinis <lb/>
+            quo mereatur dextris socius fieri et supernae patriae cinis <lb/>
             adscribi? quam si me indignum ueraciter desiderare cognoscis, <lb n="5"/>
             quid te necesse est terrenam cognoscere, quam requiris? uerum <lb/>
             tamen scito, quia deus, qui te sacerdotem fieri praestitit, ipse <lb/>
@@ -289,7 +287,7 @@
             latinum, quem constat ad quandam orientis solitudinem feruore <lb/>
             perfectioris uitae fuisse profectum atque inde post ad Norici <lb/>
             Ripensis oppida, Pannoniae superiori uicina, quae barbarorum <lb/>
-            crebris premebantur <sic>illcursibus</sic>, diuina compulsum reuelatione <lb n="15"/>
+            crebris premebantur incursibus, diuina compulsum reuelatione <lb n="15"/>
             uenisse, sicut ipse clauso sermone tamquam de alio aliquo referre <lb/>
             solitus erat, nonnullas orientis urbes nominans et itineris inmensi <lb/>
             pericula se mirabiliter transisse significans. haec igitur <lb/>
@@ -318,7 +316,7 @@
             21 prelatis <hi rend="italic">C</hi> prqlat\' (= praelatus) <hi rend="italic">N</hi> </note> <lb/>
              
 <pb n="6"/>
-            <sic>commemoratorio</sic> recensita fient, ut rogaui, libro uestri magisterii <lb/>
+            commemoratorio recensita fient, ut rogaui, libro uestri magisterii <lb/>
             clariora. superest, ut eius orationibus tuas sociare non desinas <lb/>
             et indulgentiam mihi poscere non desistas. 
 </p>
@@ -357,17 +355,17 @@
             cum praeda, quam extra muros Fauianensium ceperant, amiserunt, <lb n="10"/>
             uel de instituto eius atque humilitate praecipua. 
 </p>
-          <p>V. In quanta reuerentia eum <sic>Rugorum</sic> rex Flaccitheus <lb/>
+          <p>V. In quanta reuerentia eum Rugorum rex Flaccitheus <lb/>
             habuerit, uel qualiter ab insidiis inimicorum ipsius sit liberatus <lb/>
             oraculo. 
 </p>
-          <p>VI. De unico filio uiduae gentis praedictae <sic>Rugorum</sic>, quem <lb n="15"/>
+          <p>VI. De unico filio uiduae gentis praedictae Rugorum, quem <lb n="15"/>
             per annos XII dolor excruciauerat, uiri dei oratione sanato. 
 </p>
           <p>VII. Qualiter Odoacar adulescentulus, uilissimis pellibus <lb/>
             opertus, ab eo praenuntiatus sit regnaturus. 
 </p>
-          <p>VIII. Quod Feletheus, qui et Feba, <sic>Rugorum</sic> rex, ante lati <lb/>
+          <p>VIII. Quod Feletheus, qui et Feba, Rugorum rex, ante lati <lb/>
 
 
 <note type="footnote">1 <hi rend="italic">Capitula exhibent CONT, om. MV; in L singulis capitibm prae- posita sunt</hi> 2 opido <hi rend="italic">L</hi> 3 uocatar <hi rend="italic">CGL</hi> exortatione <hi rend="italic">N</hi> <lb/>
@@ -382,8 +380,8 @@
             regnaturQ <hi rend="italic">N</hi> 19 feletheus <hi rend="italic">am</hi>. 2) <hi rend="italic">L</hi> pheba <hi rend="italic">T</hi> feua <hi rend="italic">CGL</hi> </note> <lb/>
              
 <pb n="8"/>
-            filius <sic>Flaccithei</sic>, pessimam coniugem rebaptizare catholicos <lb/>
-            <choice n="0.96"><sic n="1003">metu</sic><corr n="35">meta</corr></choice> sancti Seuerini uetuerit, uel quale periculum illa de <lb/>
+            filius Flaccithei, pessimam coniugem rebaptizare catholicos <lb/>
+            metu sancti Seuerini uetuerit, uel quale periculum illa de <lb/>
             paruulo filio suo Frederico quadam die, dum pro quibusdam <lb/>
             intercessionem eius contempsisset, incurrit. 
 </p>
@@ -428,25 +426,25 @@
             fortis] foris <hi rend="italic">N</hi> </note>
 <pb n="9"/>
             
-          <p>XV. Quemadmodum in baiulos postes a parte <choice n="0.95"><sic n="294">fluminis</sic><corr n="14">flaminis</corr></choice> ecclesiam <lb/>
+          <p>XV. Quemadmodum in baiulos postes a parte fluminis ecclesiam <lb/>
             sustentantes, quos aqua saepe superfluens transcendebat, <lb/>
-            orans dei seruus crucis signaculum securi <sic>sculpserit</sic>, quod <lb/>
+            orans dei seruus crucis signaculum securi sculpserit, quod <lb/>
             signum numquam deinceps aqua penitus excedebat. 
 </p>
           <p>XVI. De Siluino presbytero defuncto, cuius cadauer feretro <lb n="5"/>
             impositum celebratis nocte uigiliis mox ad uocem uocantis <lb/>
-            aperuit oculos, rogans dei famulum, quo uocante <choice><sic>reuixerat</sic><corr>redierat</corr></choice>, ne <lb/>
+            aperuit oculos, rogans dei famulum, quo uocante reuixerat, ne <lb/>
             ulterius experta requie priuaretur. 
 </p>
           <p>XVII. Quam sollicita pauperibus cura ministrauerit, uel <lb/>
             quod distributioni eius etiam Norici decimas dirigebant, quibus <lb n="10"/>
-            de more perlatis periculum <choice n="0.87"><sic n="5798">his</sic><corr n="852">bis</corr></choice>, qui dirigere distulerant, imminere <lb/>
+            de more perlatis periculum his, qui dirigere distulerant, imminere <lb/>
             praedixit. 
 </p>
           <p>XVIII. Quemadmodum rubigo, quae messibus nocitura paruerat, <lb/>
             per uirum dei ieiuniis et oratione depulsa sit. 
 </p>
-          <p>XVIIII. Quod <sic>Gibuldus</sic>, Alamannorum rex, coram seruo dei <lb n="15"/>
+          <p>XVIIII. Quod Gibuldus, Alamannorum rex, coram seruo dei <lb n="15"/>
             magno sit tremore concussus et reddiderit multitudinem captiuorum. <lb/>
             </p>
           <p>XX. Quomodo ei militum fuerit interfectio reuelata, propter <lb/>
@@ -456,7 +454,7 @@
             uenerat, reuertentem ad patriam praedixit mox episcopum ordinandum. <lb/>
             </p>
           <p>XXII. Quod, dum basilicae nonae sanctuaria quaererentur, <lb/>
-            ultro sibi sancti Iohannis Baptistae benedictionem <sic>praenuntiauerit</sic> <lb/>
+            ultro sibi sancti Iohannis Baptistae benedictionem praenuntiauerit <lb/>
             deferendam et illi oppido cladem se absente futuram, qua <lb n="25"/>
             in baptisterio presbyter uaniloquax interfectus est. 
 </p>
@@ -475,11 +473,11 @@
             <hi rend="italic">datis GL</hi> </note> <lb/>
              
 <pb n="10"/>
-            oraculo <choice n="0.97"><sic n="1396">mox</sic><corr n="35">moi</corr></choice> ab Herulis interfecti sunt, quia locum praemoniti <lb/>
+            oraculo mox ab Herulis interfecti sunt, quia locum praemoniti <lb/>
             relinquere noluerunt. 
 </p>
           <p>XXV. Quemadmodum scriptis ad Noricum destinatis castella <lb/>
-            ieiuniis, orationibus atque elemosynis <sic>praemunierit</sic>, quibus <lb/>
+            ieiuniis, orationibus atque elemosynis praemunierit, quibus <lb/>
             praenuntiata hostis irruptio nocere non potuit. <lb n="5"/>
             
 </p>
@@ -537,8 +535,8 @@
           <p>XXXIIII. Qualiter elefantiosus quidam, nomine Teio, curatus <lb/>
             est. 
 </p>
-          <p>XXXV. De Bonoso monacho, qui, dum oculorum <sic>imbecillitalem</sic> <lb/>
-            quereretur, audiuit ab eo: <choice n="0.00"><sic n="5">cora</sic><corr n="1300">ora</corr></choice> magis, ut corde plus <lb n="10"/>
+          <p>XXXV. De Bonoso monacho, qui, dum oculorum imbecillitatem <lb/>
+            quereretur, audiuit ab eo: ora magis, ut corde plus <lb n="10"/>
             uideas\': mox mirabiliter affectum iugiter orandi promeruit. 
 </p>
           <p>XXXVI. De tribus superbientibus monachis, quos mox <lb/>
@@ -557,7 +555,7 @@
             curauit. 
 </p>
           <p>XXXVIIII. De habitaculo eiusdem beati uiri, stratu quoque <lb/>
-            uel <choice><sic>cilio</sic><corr>cibo</corr></choice> pauca tenuiter indicantur. 
+            uel cibo pauca tenuiter indicantur. 
 </p>
 
 <note type="footnote"> 1 odoaca <hi rend="italic">N</hi> odoacer <hi rend="italic">LT</hi> odouacer <hi rend="italic">GG</hi> aliqua] reliqua <hi rend="italic">LN</hi> <lb/>
@@ -583,7 +581,7 @@
             pariter portari praecipiens. <lb n="5"/>
             
 </p>
-          <p>XLI. Quomodo etiam diem transitus sui sancto <choice><sic>Lucillo</sic><corr>Lucilio</corr></choice> presbytero <lb/>
+          <p>XLI. Quomodo etiam diem transitus sui sancto Lucillo presbytero <lb/>
             manifestius indicauit. 
 </p>
           <p>XLIL Quemadmodum Fredericum, fratrem praedicti regis, <lb/>
@@ -630,14 +628,14 @@
         
  <div n="1" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-         <p>Tempore, quo Attila, rex <choice><sic>Hannorum</sic><corr>Hunnorum</corr></choice>, defunctus est, utraque             <lb/>
+         <p>Tempore, quo Attila, rex Hunnorum, defunctus est, utraque             <lb/>
             Pannonia ceteraque confinia Danuuii rebus turbabantur <lb/>
-            ambiguis ac primum inter filios eius de <choice><sic>optineudo</sic><corr>optinendo</corr></choice> regno <lb/>
+            ambiguis ac primum inter filios eius de optinendo regno <lb/>
             magna sunt exorta certamina, qui morbo dominationis inflati <lb n="5"/>
             materiam sui sceleris aestimarunt patris interitum. tunc itaque <lb/>
             sanctissimus dei famulus Seuerinus de partibus orientis <lb/>
             adueniens in uicina Norici Ripensis et Pannoniorum paruo, <lb/>
-            quod Asturis dicitur, oppido morabatur, ubi uiuens iuxta <sic>euangelicam</sic> <lb/>
+            quod Asturis dicitur, oppido morabatur, ubi uiuens iuxta euangelicam <lb/>
             apostolicamque doctrinam, omni pietate et castitate <lb n="10"/>
             praeditus, in confessione catholicae fidei uenerabile propositum <lb/>
             sanctis operibus adimplebat. 
@@ -673,7 +671,7 @@
 
 <div n="3" subtype="section" type="textpart"><p> famulus autem dei reuersus ad <lb/>
             hospitium, quo ab ecclesiae fuerat custode susceptus, diem et <lb/>
-            horam imminentis excidii prodens: <sic>cde</sic> contumaci\' ait <choice><sic>coppido</sic><corr>oppido</corr></choice> <lb/>
+            horam imminentis excidii prodens: de contumaci\' ait oppido <lb/>
             et citius perituro festinus abscedo\'. inde ad proximum, quod              <lb/>
 </p></div>
 
@@ -695,10 +693,10 @@
             interrogatione discussus interitum sui oppidi habitu uerboque <lb/>
             monstrauit, adiciens eadem die, qua quidam homo dei <lb/>
             praedixerat, barbarorum uastatione deletum. quo audito solliciti <lb/>
-            responderunt: <choice><sic>cputas</sic><corr>putas</corr></choice> non ipse est, qui desperatis rebus dei <lb n="20"/>
+            responderunt: putas non ipse est, qui desperatis rebus dei <lb n="20"/>
             nobis subsidia pollicetur?\' mox igitur in ecclesia recognito dei <lb/>
             famulo senex pedibus eius prostratus aiebat ipsius se meritis <lb/>
-            <choice n="0.28"><sic n="11">libratum</sic><corr n="28">liberatum</corr></choice>, ne cum ceteris oppidaneis subiret excidium. 
+            liberatum, ne cum ceteris oppidaneis subiret excidium. 
 </p>
 
 <note type="footnote"> 2 *ospitium (h <hi rend="italic">rasa) L</hi> hospicium <hi rend="italic">MV ccleBi GMV</hi> 3 prodiens <lb/>
@@ -770,11 +768,11 @@
             <hi rend="italic">MN</hi> </note> <lb/>
              
 <pb n="16"/>
-            <sic>extas</sic> auaritiae mancipium, quae est docente apostolo <choice><sic>sernitus</sic><corr>seruitus</corr></choice> <lb/>
+            extas auaritiae mancipium, quae est docente apostolo seruitus <lb/>
             idolorum? ecce domino famulis suis misericordia consulente <lb/>
             tu quid de male paratis facias non habebis, nisi forte frumenta <lb/>
-            dure negata in Danuuii <choice><sic>flaenta</sic><corr>fluenta</corr></choice> proiciens humanitatem piscibus <lb/>
-            exhibeas, quam hominibus denegasti. quam ob rem <choice><sic>subaeni</sic><corr>subueni</corr></choice> <lb n="5"/>
+            dure negata in Danuuii fluenta proiciens humanitatem piscibus <lb/>
+            exhibeas, quam hominibus denegasti. quam ob rem subueni <lb n="5"/>
             tibi potius quam pauperibus ex his quae adhuc te aestimas <lb/>
             Christo esuriente reseruare. quibus auditis magno mulier <lb/>
             pauore perterrita coepit seruata libenter erogare pauperibus. 
@@ -783,7 +781,7 @@
 <div n="3" subtype="section" type="textpart"><p> <lb/>
             igitur non multo post rates plurimae de partibus Raetiarum <lb/>
             mercibus onustae quam plurimis insperatae uidentur in litore <lb n="10"/>
-            Danuuii, quae multis diebus crassa Heni fluminis <choice><sic>glaoie</sic><corr>glacie</corr></choice> fuerant <lb/>
+            Danuuii, quae multis diebus crassa Heni fluminis glacie fuerant <lb/>
             colligatae: qua dei imperio mox soluta ciborum copias fame <lb/>
             laborantibus detulerunt. tunc coeperunt omnes deum insperati <lb/>
             remedii largitorem continuata deuotione laudare, qui se tabe <lb/>
@@ -824,15 +822,15 @@
 <pb n="17"/>
 
             Mamertinum percontatus est, tunc tribunum, qui post episcopus <lb/>
-            <choice n="0.97"><sic n="34">ordinatus</sic><corr n="1">ordinatas</corr></choice> est, <choice n="0.97"><sic n="872">utrum</sic><corr n="23">utram</corr></choice> aliquos secum haberet armatos, cum <lb/>
-            quibus latrunculos sequeretur instantius. qui respondit: <choice><sic>cmilites</sic><corr>milites</corr></choice> <lb/>
+            ordinatus est, utrum aliquos secum haberet armatos, cum <lb/>
+            quibus latrunculos sequeretur instantius. qui respondit: milites <lb/>
             quidem habeo paucissimos, sed non audeo cum tanta hostium <lb/>
             turba confligere. quod si tua ueneratio praecipit, quamuis <lb n="5"/>
             auxilium nobis desit armorum, credimus tamen tua nos fieri <lb/>
             oratione uictores\'.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>dei famulus ait: \'etiam si inermes sunt tlli,  <lb/>
-            milites, nunc ex hostibus armabuntur: nec enim <choice n="0.74"><sic n="452">numerus</sic><corr n="157">numeros</corr></choice> aut <lb/>
+            milites, nunc ex hostibus armabuntur: nec enim numerus aut <lb/>
             fortitudo humana requiritur, ubi propugnator deus per omnia <lb/>
             comprobatur. tantum in nomine domini perge uelociter, perge <lb n="10"/>
             fidenter: nam deo misericorditer praeeunte debilis quisque fortissimus <lb/>
@@ -845,8 +843,8 @@
             latrones inueniunt: quibus in fugam repente conuersis <lb/>
             arma omnium sustulerunt, ceteros uinctos ad dei famulum, ut <lb/>
             praeceperat, adduxerunt captiuos. quos absolutos uinculis, <lb/>
-            <choice><sic>cilio</sic><corr>cibo</corr></choice> potuque refectos paucis alloquitur: <choice n="0.02"><sic n="6">cite</sic><corr n="229">ite</corr></choice> et uestris renuntiate <lb/>
-            complicibus, ne auiditate praedandi ultra <choice><sic>hue</sic><corr>huc</corr></choice> audeant propinquare: <lb n="20"/>
+            cibo potuque refectos paucis alloquitur: ite et uestris renuntiate <lb/>
+            complicibus, ne auiditate praedandi ultra huc audeant propinquare: <lb n="20"/>
             nam et statim caelestis uindictae iudicio punientur, <lb/>
             deo pro suis famulis dimicante, quos ita consueuit superna <lb/>
             uirtute protegere, ut tela hostium non eis inferant uulnera, <lb/>
@@ -881,14 +879,14 @@
 
 <div n="6" subtype="section" type="textpart"><p> Deinde beatus Seuerinus in locum remotiorem secedens, qui <lb/>
             ad Vineas uocabatur, cellula parua contentus, ad praedictum <lb n="5"/>
-            oppidum remeare diuina <choice><sic>renelatione</sic><corr>reuelatione</corr></choice> compellitur, ita ut, quamuis <lb/>
+            oppidum remeare diuina reuelatione compellitur, ita ut, quamuis <lb/>
             eum quies cellulae delectaret, dei tamen iussis obtemperans <lb/>
             monasterium haud procul a ciuitate construeret, ubi plurimos <lb/>
             sancto coepit informare proposito, factis magis quam uerbis  <lb/>
             instituens animas auditorum.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>ipse uero ad secretum habifcaculum,<lb n="10"/>
-            quod <sic>Burcum</sic> appellabatur ab accolis, uno a Fauianis <lb/>
+            quod Burcum appellabatur ab accolis, uno a Fauianis <lb/>
             distans miliario, saepius secedebat, ut hominum declinata <lb/>
             frequentia, quae ad eum uenire consueuerat, oratione continua <lb/>
             deo proprius inhaereret. sed quanto solitudinem abditam incolere <lb/>
@@ -937,11 +935,11 @@
 </p></div>
 
 <div n="11" subtype="section" type="textpart"><p>            qui tamen talibus per dei gratiam uirtutibus sublimatus intima  <lb n="10"/>
-            humilitate fatebatur dicens: <sic>cne</sic> putetis mei meriti esse quod <lb/>
+            humilitate fatebatur dicens: ne putetis mei meriti esse quod <lb/>
             cernitis: uestrae est potius salutis exemplum. cesset humana <lb/>
             temeritas, elationis supercilium comprimatur. ut aliquid boni <lb/>
             possimus, eligimur, dicente apostolo: qui elegit nos ante <lb/>
-            mundi constitutionem, ut essemus sancti <sic>etimmaculati</sic> <lb n="15"/>
+            mundi constitutionem, ut essemus sancti etimmaculati <lb n="15"/>
             in conspectu eius. orate immo pro me, ut non <lb/>
             ad condemnationis cumulum, sed ad iustificationis augmentum <lb/>
             saluatoris dona proficiant.</p></div>
@@ -987,7 +985,7 @@
             quia hoc ei denegatum fuerat, occidendum.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>tunc ergo a uiro <lb/>
-            dei hoc responsum praedictus accepit: <sic>csi</sic> nos una catholica <lb/>
+            dei hoc responsum praedictus accepit: si nos una catholica <lb/>
             fides annecteret, magis me de uitae perpetuitate debuisti<lb n="10"/>
             consulere: sed quia de praesenti tantum salute sollicitus, quae <lb/>
             nobis est communis, interrogas, instruendus ausculta. Gothorum <lb/>
@@ -1022,8 +1020,8 @@
             protinus] protinus adiit (adiit <hi rend="italic">a m</hi>. 2 <hi rend="italic">in ras. 5 litt.) M</hi> </note> <lb/>
              
 <pb n="21"/>
-            praedones sequeretur, domino reuelante praemonuit dicens: <sic>csi</sic> <lb/>
-            eos secutus fueris, occideris. <choice n="0.19"><sic n="47">cane</sic><corr n="199">caue</corr></choice>, ne amnem transeas et insidiis, <lb/>
+            praedones sequeretur, domino reuelante praemonuit dicens: si <lb/>
+            eos secutus fueris, occideris. caue, ne amnem transeas et insidiis, <lb/>
             quae tibi in tribus locis paratae sunt, improuida mente <lb/>
             succumbas: nam cito nuntius fidelis adueniet, qui te de his <lb/>
             omnibus efficiat certiorem).</p></div>
@@ -1031,7 +1029,7 @@
 <div n="4" subtype="section" type="textpart"><p>tunc duo captiuorum ab ipsis  <lb n="5"/>
             hostium sedibus fugientes ea per ordinem retulerunt, quae <lb/>
             beatissimus uir Christo sibi reuelante praedixerat. igitur frustratis <lb/>
-            insidiis aduersantum <sic>Flaccitheus</sic> incrementis auctus <lb/>
+            insidiis aduersantum Flaccitheus incrementis auctus <lb/>
             prosperioribus uitam rebus tranquillissimis terminauit. 
 </p>
           </div>
@@ -1044,7 +1042,7 @@
             uicinis factus erat ipsa diuturnitate notissimus. itaque <lb/>
             nihil proficiente diuersitate remedii tandem uidua mater ad <lb/>
             sanctum uirum uehiculo filium deduxit impositum et ante <lb n="15"/>
-            ianuam monasterii proiciens desperatum continuatis <choice><sic>fietibus</sic><corr>fletibus</corr></choice> <lb/>
+            ianuam monasterii proiciens desperatum continuatis fletibus <lb/>
             reddi sibi unicum filium precabatur incolumem.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>sed uir dei  <lb/>
@@ -1075,8 +1073,8 @@
             <hi rend="italic">L</hi> 25 ammirans <hi rend="italic">LIMNTI</hi> </note> <lb n="25"/>
              
 <pb n="22"/>
-            dicens: \'cum filius tuus <choice><sic>tec</sic><corr>tecum</corr></choice> am domino sanante perrexerit, <lb/>
-            opere <choice n="0.46"><sic n="586">uota</sic><corr n="663">nota</corr></choice> <sic>supplebis</sic>\'. indicto igitur paucorum dierum de more <lb/>
+            dicens: \'cum filius tuus tec am domino sanante perrexerit, <lb/>
+            opere uota supplebis\'. indicto igitur paucorum dierum de more <lb/>
             ieiunio, fusis ad deum precibus ilico sanauit infirmum atque <lb/>
             incolumem suis gressibus ambulantem remisit ad propria. 
 </p></div>
@@ -1089,8 +1087,8 @@
             nascebatur.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>ex illo igitur tempore, quo est reddita sanitas <lb/>
-            desperato, uniuersa <sic>Rugorum</sic> gens ad dei famulum frequentans <lb n="10"/>
-            coepit gratulationis obsequium reddere et <choice n="0.04"><sic n="14">orem</sic><corr n="301">opem</corr></choice> suis postulare <lb/>
+            desperato, uniuersa Rugorum gens ad dei famulum frequentans <lb n="10"/>
+            coepit gratulationis obsequium reddere et opem suis postulare <lb/>
             langoribus. de aliis etiam gentibus, ad quas tanti miraculi  <lb/>
             fama peruenerat, multi Christi militem uidere cupiebant.</p></div>
 
@@ -1105,7 +1103,7 @@
 
 <div n="7" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Inter quos et Odoacar, qui postea regnauit Italiae, <lb/>
             uilissimo tunc habitu iuuenis statura procerus aduenerat. qui <lb/>
-            dum se, ne humillimae tectum cellulae suo uertice <choice><sic>contingerat</sic><corr>contingeret</corr></choice>, <lb/>
+            dum se, ne humillimae tectum cellulae suo uertice contingeret, <lb/>
             inclinasset, a uiro dei gloriosum se fore cognouit. cui
 
 <note type="footnote"> 14-p. 23, 2 <hi rend="italic">exhibet</hi> Anonymus Valesii §. 46 p. 291 ed. Gardth. </note>
@@ -1129,7 +1127,7 @@
              Meerm</hi>. ee fore te <hi rend="italic">Anon. cod. Pal</hi>. </note> <lb n="20"/>
              
 <pb n="23"/>
-            etiam <sic>ualedieenti</sic>: cuade) inquit cad Italiam, uade, uilissimis <lb/>
+            etiam ualedicenti: cuade) inquit cad Italiam, uade, uilissimis <lb/>
             nunc pellibus coopertus, sed multis cito plurima largiturus\'. 
 </p>
           </div>
@@ -1138,7 +1136,7 @@
 
 <div n="8" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Feletheus quoque rex, qui et Feba, memorati filius  <lb/>
             Flaccithei, paternam secutus industriam sanctum uirum coepit <lb/>
-            pro regni sui frequentare <choice><sic>primOrdiis</sic><corr>primordiis</corr></choice>. hunc coniux feralis et <lb n="5"/>
+            pro regni sui frequentare primordiis. hunc coniux feralis et <lb n="5"/>
             noxia, nomine Giso, semper a clementiae remediis reuocabat. <lb/>
             haec ergo inter cetera iniquitatis suae contagia etiam rebaptizare <lb/>
             quondam est conata catholicos, sed, ob sancti reuerentiam <lb/>
@@ -1149,10 +1147,10 @@
             etiam Danuuio iubebat abduci. nam cum quadam die in <lb/>
             proximo a Fauianis uico ueniens aliquos ad se transferri <lb/>
             Danuuio praecepisset, uilissimi scilicet ministerii seruitute <lb/>
-            damnandos, dirigens ad <choice n="0.00"><sic n="24">earn</sic><corr n="3799">eam</corr></choice> uir dei ut eos dimitteret <sic>postulab</sic> <lb/>
+            damnandos, dirigens ad eam uir dei ut eos dimitteret postulab <lb/>
             at. uerum illa facibus feminei furoris exaestuans mandata <lb n="15"/>
             reportari iussit asperrima. \'ora\' inquit \'tibi, serue dei, in tua <lb/>
-            cellula <choice><sic>deliteseens</sic><corr>delitescens</corr></choice>: liceat nobis de seruis nostris ordinare <lb/>
+            cellula delitescens: liceat nobis de seruis nostris ordinare <lb/>
             quod uolumus\'.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>haec igitur audiens homo dei: \'conifdo* inquit,  <lb/>
@@ -1183,7 +1181,7 @@
 <pb n="24"/>
             nomine Fredericus, eodem die, quo regina senium dei contempserat, <lb/>
             puerili motu concitus introiuit. tunc aurifices infantis <lb/>
-            pectori gladium imposuere dicentes, quod, si <choice n="0.65"><sic n="9788">quia</sic><corr n="5248">quis</corr></choice> ad eos absque <lb/>
+            pectori gladium imposuere dicentes, quod, si quis ad eos absque <lb/>
             iuramenti praesidio ingredi conaretur, paruulum regium <lb/>
             primitus transfigentes semet ipsos postea trucidarent, quippe <lb n="5"/>
             cum sibi nullam spem uitae promitterent, macerati diuturnis  <lb/>
@@ -1193,7 +1191,7 @@
             conscissis, talia clamitabat: \'o serue domini, Seuerine, sic, <lb/>
             sic a deo tuo inlatae uindicantur iniuriae! hanc mei contemptus <lb/>
             ultionem effusis precibus postulasti, ut in mea uiscera <lb n="10"/>
-            <sic>uindicares</sic>\'! itaque multiplici contritione ac miserabili lamentatione <lb/>
+            uindicares\'! itaque multiplici contritione ac miserabili lamentatione <lb/>
             discurrens fatebatur se pro scelere contemptus, quod <lb/>
             in seruum dei commiserat, plagae praesentis ultione percelli <lb/>
             confestimque directis equitibus ueniam poscens et Romanos, <lb/>
@@ -1229,7 +1227,7 @@
              LNV</hi> 24 monstrans <hi rend="italic">L</hi> </note> <lb/>
              
 <pb n="25"/>
-            orationibus de mortis confinio <choice n="0.28"><sic n="11">libratum</sic><corr n="28">liberatum</corr></choice>, promittentes se nequaquam <lb/>
+            orationibus de mortis confinio liberatum, promittentes se nequaquam <lb/>
             ultra eius iussionibus obuiare. 
 </p>
           </div>
@@ -1253,14 +1251,14 @@
             mirabatur, interrogatus audiuit dicentem: \'putasne possum <lb n="15"/>
             inuenire hominem, qui me ad uirum dei, cuius ubique fama <lb/>
             diffunditur, qua uoluerit mercede perducat? diu est enim, <lb/>
-            quod ipsos sanctos martyres, quorum reliquias fero, <choice><sic>sijppliciter</sic><corr>suppliciter</corr></choice> <lb/>
+            quod ipsos sanctos martyres, quorum reliquias fero, suppliciter <lb/>
             interpello, ut a tali ministerio tandem aliquando soluar indignus, <lb/>
-            quod <sic>hue</sic> usque non <sic>temerariapraesumptione</sic>, sed religiosa <lb n="20"/>
+            quod huc usque non temeraria praesumptione, sed religiosa <lb n="20"/>
             necessitate sustinui\'.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>tunc nuntius hominis dei eius se aspectibus  <lb/>
             praesentauit reliquiasque sanctorum ab eo suscipiens uiro <lb/>
-            dei detulit. qui debito sanctorum <sic>Geruasii</sic> et Protasii martyrum <lb/>
+            dei detulit. qui debito sanctorum Geruasii et Protasii martyrum <lb/>
             reliquias honore suscipiens in basilica, quam in monasterio
 
 <note type="footnote"> 1 promittentes <hi rend="italic">MNTV:</hi> promittens <hi rend="italic">CGL</hi> 3 Magna] *agna <lb/>
@@ -1280,14 +1278,14 @@
             construxerat, collocauit officio sacerdotum. quo loco martyrum <lb/>
             congregauit sanctuaria plurimorum, quae tamen praeeunte <lb/>
             semper reuelatione promeruit, sciens aduersarium saepe subripere <lb/>
-            sub nomine <choice><sic>sanetitatis</sic><corr>sanctitatis</corr></choice>. 
+            sub nomine sanctitatis. 
 </p>
           </div>
 
 <div n="4" subtype="section" type="textpart"><p> Episcopatus quoque honorem ut susciperet postulatus praefinita <lb n="5"/>
             responsione conclusit, sufficere sibi dicens, quod solitudine <lb/>
             desiderata priuatus ad illam diuinitus uenisset prouinciam, ut <lb/>
-            turbis tribulantium frequentibus interesset. <choice n="0.03"><sic n="4">daturas</sic><corr n="107">daturus</corr></choice> nihilominus <lb/>
+            turbis tribulantium frequentibus interesset. daturus nihilominus <lb/>
             monachis formam sollicitius admonebat beatorum patrum <lb/>
             uestigiis inhaerere, quibus sanctae conuersationis adquireretur <lb n="10"/>
             instructio, adhibendamque operam, ne is, qui parentes reliquit <lb/>
@@ -1306,9 +1304,9 @@
 
 <div n="10" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Quidam uero, nomine Maurus, basilicae monasterii fuit <lb/>
             aedituus, quem beatus Seuerinus redemerat de manibus <lb/>
-            barbarorum. huic quadam die praecepit dicens: <choice><sic>Ccaue</sic><corr>caue</corr></choice>, ne<lb n="20"/>
+            barbarorum. huic quadam die praecepit dicens: caue, ne<lb n="20"/>
             hodie digrediaris alicubi: alioquin ab imminenti periculo non <lb/>
-            <sic n="poss">cauebis1</sic>. <choice n="0.00"><sic n="23">hie</sic><corr n="7275">hic</corr></choice> ergo contra praeceptum tanti patris saecularis
+            cauebis. hic ergo contra praeceptum tanti patris saecularis
 
 <note type="footnote"> 1 collocauit <hi rend="italic">libri:</hi> collocauit et sacrauit <hi rend="italic">Sauppe</hi> martirum <lb/>
             2 plurimarum (corr. m. 1) <hi rend="italic">M</hi> preunte L 3 subripere <lb/>
@@ -1328,12 +1326,12 @@
             <hi rend="italic">MNTV:</hi> carebis <hi rend="italic">CGL</hi> preceptum <hi rend="italic">L</hi> </note> <lb/>
              
 <pb n="27"/>
-            <sic>cuinsdam</sic> hominis <choice n="0.5"><sic n="2">persuasu</sic><corr n="2">persuasa</corr></choice> meridie ad colligenda poma in <lb/>
+            cuiusdam hominis persuasu meridie ad colligenda poma in <lb/>
             secundo a Fauianis miliario egressus mox a barbaris Danuuio <lb/>
             transuectus est cum suo persuasore captiuus.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>in illa hora uir  <lb/>
-            dei, dum in cellula legeret, clauso repente codice: *<sic>Manram</sic>* <lb/>
+            dei, dum in cellula legeret, clauso repente codice: *Maurum* <lb/>
             ait \'cito requirite\'. quo nusquam reperto ipse quantocius Histri <lb n="5"/>
             fluenta praetermeans latrones properanter insequitur, quos <lb/>
             uulgus scamaras appellabat. cuius uenerandam praesentiam non <lb/>
@@ -1392,7 +1390,7 @@
             inaccensa permansit.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>tunc ergo qui eos posuerant diuino <lb/>
-            declarati examine, protinus exclamantes secreta pectoris <sic>satactionibus</sic><lb n="10"/>
+            declarati examine, protinus exclamantes secreta pectoris satactionibus<lb n="10"/>
             prodiderunt et suorum testimonio cereorum manifesta  <lb/>
             confessione conuicti propria sacrilegia testabantur.</p></div>
 
@@ -1400,7 +1398,7 @@
             clemens potentia creatoris cereos animosque flammantis! accensus <lb/>
             est ignis in cereis et refulsit in sensibus: uisibilis lux <lb/>
             naturam cerae liquauit in flammas, at inuisibilis corda <lb n="15"/>
-            fatentum <choice><sic>Boluebat</sic><corr>soluebat</corr></choice> in lacrimas. quis credat amplius eos quos <lb/>
+            fatentum soluebat in lacrimas. quis credat amplius eos quos <lb/>
             sacrilegus error inuoluerat postea claruisse bonis operibus, <lb/>
             quam eos, quorum cerei fuerant accensi diuinitus? 
 </p>
@@ -1410,7 +1408,7 @@
 
 <div n="12" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Alio rursus tempore in finibus eiusdem castelli locustae, <lb/>
             frugum consumptrices, insederant copiosae, noxiis morsibus<lb n="20"/>
-            cuncta <sic>uastentes</sic>. tali ergo peste perculsi mox presbyteri ceterique <lb/>
+            cuncta uastantes. tali ergo peste perculsi mox presbyteri ceterique <lb/>
             mansores sanctum Seuerinum summis precibus adierunt <lb/>
             dicentes: ut tantae plagae auferatur atrocitas, orationum <lb/>
             tuarum experta suffragia postulamus, quae magno dudum
@@ -1439,10 +1437,10 @@
             per prophetam: conuertimini ad me in toto corde <lb/>
             uestro, in ieiunio et in fletu, et post pauca: sanctificate, <lb n="5"/>
             inquit, ieiunium, uocate coetum, congregate <lb/>
-            ecclesiam et cetera, quae <choice n="0.94"><sic n="110">secuntur</sic><corr n="6">secantur</corr></choice>? explete itaque dignis <lb/>
+            ecclesiam et cetera, quae secuntur? explete itaque dignis <lb/>
             operibus quae docetis, ut malitiam facile praesentis temporis <lb/>
-            euadatis: nullus sane ad agrum exeat, quasi humana <choice><sic>locustas</sic><corr>locnstas</corr></choice> <lb/>
-            <sic>sollicitndine</sic> <sic>uetiturus</sic>, ne diuina amplius indignatio prouocetur\'. <lb n="10"/>
+            euadatis: nullus sane ad agrum exeat, quasi humana locustas <lb/>
+            sollicitudine uetiturus, ne diuina amplius indignatio prouocetur\'. <lb n="10"/>
 </p></div>
 
 <div n="3" subtype="section" type="textpart"><p>            nee mora, omnibus in ecclesia congregatis unusquisque in  <lb/>
@@ -1500,9 +1498,9 @@
             ulla spes sibi, qua uiueret, remansisset.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>tunc ergo uir dei <lb/>
-            ceteros allocutus: \'iustum est\' inquit <sic>cut</sic> qui proprio supplicio <lb/>
+            ceteros allocutus: \'iustum est\' inquit ut qui proprio supplicio <lb/>
             humilitatis uobis et oboedientiae dedit exemplum liberalitate <lb/>
-            <choice n="0.70"><sic n="2317">nostra</sic><corr n="970">uestra</corr></choice> anni praesentis alimenta percipiat\'. collatione itaque <lb/>
+            uestra anni praesentis alimenta percipiat\'. collatione itaque <lb/>
             fidelium et correptus homo pauperrimus et ditatus didicit, <lb n="20"/>
             quantum dispendii incredulitas inferat, quantum beneficii suis <lb/>
             cultoribus conferat diuina largitio. 
@@ -1556,7 +1554,7 @@
 <div n="14" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Accidit etiam eiusdem loci quandam mulierem  <lb/>
             diutino langore uexatam iacere seminecem, exequiis iam paratis, <lb/>
             cuius proximi maesto silentio uoces funereas quodam fidei <lb/>
-            <choice n="0.39"><sic n="260">clamor</sic><corr n="392">clamore</corr></choice> presserunt et ante <choice n="0.95"><sic n="228">ostium</sic><corr n="11">tium</corr></choice> cellulae sancti uiri corpus <lb/>
+            clamore presserunt et ante ostium cellulae sancti uiri corpus <lb/>
             iam paene exanime deposuere languentis.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>uidens itaque homo  <lb n="20"/>
@@ -1581,19 +1579,19 @@
             <hi rend="italic">CG</hi> </note> <lb/>
              
 <pb n="32"/>
-            est, quod facere uoluistis\'? <choice n="0.95"><sic n="115">responderunt</sic><corr n="5">responderant</corr></choice>: <sic>Cut</sic> oratione tua uitae <lb/>
-            reddatur <choice><sic>eIanimisll</sic><corr>exanimis</corr></choice>. tunc ipse lacrimabundus: \'quid* inquit la <lb/>
+            est, quod facere uoluistis\'? responderunt: ut oratione tua uitae <lb/>
+            reddatur exanimis. tunc ipse lacrimabundus: \'quid* inquit la <lb/>
             paruo magna deposcitis? agnosco me prorsus indignum. utinam <lb/>
             merear ueniam pro meis inuenire peccatis!\' et illi: \'credimus  <lb/>
-            inquiunt \'quod, si <choice><sic>oraneris</sic><corr>oraueris</corr></choice>, <sic>reuiuescee</sic>.</p></div>
+            inquiunt \'quod, si oraueris, reuiuescet.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>tunc sanctus <lb n="5"/>
             Seuerinus fusis ilico lacrimis in oratione prostratus est et <lb/>
-            muliere protinus assurgente allocutus est eos: <sic>lnolite</sic> quicquam <lb/>
+            muliere protinus assurgente allocutus est eos: nolite quicquam <lb/>
             horum meis operibus applicare: hanc enim gratiam fidei uestrae <lb/>
             feruor emeruit, et hoc fit in multis locis et gentibus, ut <lb/>
             cognoscatur, quod unus sit deus, faciens in caelo et in terra <lb n="10"/>
-            prodigia, excitans perditos in salutem et mortuos uitae <choice><sic>restituenB</sic><corr>restituens</corr></choice>. <lb/>
+            prodigia, excitans perditos in salutem et mortuos uitae restituens. <lb/>
             mulier uero sanitate recepta opus agrale die tertio <lb/>
             iuxta morem prouinciae propriis coepit manibus exercere. 
 </p>
@@ -1629,28 +1627,28 @@
             ad uicem] ad inuicem <hi rend="italic">N</hi> soli* <hi rend="italic">L</hi> </note> <lb/>
              
 <pb n="33"/>
-            erat leuigata coniunctio, quam, <choice><sic>quotieus</sic><corr>quotiens</corr></choice> ripas <choice><sic>excessissefc</sic><corr>excessisset</corr></choice>, <lb/>
-            aqua superfluens <choice n="0.97"><sic n="171">occupat</sic><corr n="4">occupabat</corr></choice>.</p></div>
+            erat leuigata coniunctio, quam, quotiens ripas excessisset, <lb/>
+            aqua superfluens occupabat.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>Quintanensium itaque fide sanctus  <lb/>
-            <choice><sic>Seoerinas</sic><corr>Seuerinus</corr></choice> illuc fuerat <choice><sic>inaitatus</sic><corr>inuitatus</corr></choice>. ubi, cam tempore siccitatis <lb/>
-            <choice><sic>uaoisset</sic><corr>uenisset</corr></choice>, interrogat, cur tabulata  nudatis obstaculorum tegminibus <lb/>
-            apparerent. <sic>acoolae</sic> responderunt, quod frequenti <lb n="5"/>
-            <choice><sic>flmninis</sic><corr>fluminis</corr></choice> <choice><sic>aUuuiojae</sic><corr>alluuione</corr></choice> quicquid fuisset , superstratum <choice n="0.01"><sic n="7">continue</sic><corr n="365">continuo</corr></choice> <lb/>
-            <choice n="0.75"><sic n="9">laberetur</sic><corr n="3">laboretur</corr></choice>. at ipse:. \'sternatur\' inquit <sic>csuper</sic>. tabulata nunc in <lb/>
+            Seuerinus illuc fuerat inuitatus. ubi, cam tempore siccitatis <lb/>
+            uenisset, interrogat, cur tabulata  nudatis obstaculorum tegminibus <lb/>
+            apparerent. accolae responderunt, quod frequenti <lb n="5"/>
+            fluminis alluuione quicquid fuisset , superstratum continue <lb/>
+            laberetur. at ipse:. \'sternatur\' inquit super. tabulata nunc in <lb/>
             Christi nomine pauimentum: iam uidebitis amodo inuium. <lb/>
             caelesti iussione prohibitum\'.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>pauimento itaque perfecto ipqe  <lb/>
-            subter <choice><sic>naw</sic><corr>naui</corr></choice> descendens accepta securi postes facta oratione <lb n="10"/>
-            <choice><sic>puronssit</sic><corr>percussit</corr></choice> atque ad aquam fluminis <choice><sic>neneraadae</sic><corr>uenerandae</corr></choice>. crucis expresso <lb/>
-            <choice><sic>signacplo</sic><corr>signaculo</corr></choice> dixit: (<sic>npn</sic> te sinit <choice n="0.21"><sic n="129">dominos</sic><corr n="474">dominus</corr></choice> <choice n="0.29"><sic n="668">mens</sic><corr n="1571">meus</corr></choice> Iesus <choice><sic>Christy</sic><corr>Christus</corr></choice> <lb/>
-            hoc signum <choice><sic>cruois</sic><corr>crucis</corr></choice> excedere\'.</p></div>
+            subter naui descendens accepta securi postes facta oratione <lb n="10"/>
+            percussit atque ad aquam fluminis uenerandae. crucis expresso <lb/>
+            signaculo dixit: (non te sinit dominus meus Iesus Christus <lb/>
+            hoc signum crucis excedere\'.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>ex illo itaque tempore, cum ex  <lb/>
-            more fluuius <choice><sic>crpuisset</sic><corr>creuisset</corr></choice> in cumulos ambissetque <choice><sic>uieiniam</sic><corr>uiciniam</corr></choice>, quam <lb/>
-            solebat, ita spatiis ecclesiae erat inferius, ut numquam <choice><sic>saneti</sic><corr>sancti</corr></choice> <lb n="15"/>
-            patibuli <choice><sic>signacuium</sic><corr>signaculum</corr></choice>, quod <choice><sic>imprepserat</sic><corr>impresserat</corr></choice> homo dei, prorsus <lb/>
+            more fluuius creuisset in cumulos ambissetque uiciniam, quam <lb/>
+            solebat, ita spatiis ecclesiae erat inferius, ut numquam saneti <lb n="15"/>
+            patibuli signaculum, quod impresserat homo dei, prorsus <lb/>
             excederet. 
 </p>
           </div>
@@ -1658,14 +1656,14 @@
 </div>
 
 <div n="16" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Accidit autem, ut castelli presbyter memorati admodum  <lb/>
-            uenerabilis, <sic>Siluinùs</sic> nomine, moreretur, et cum in ecclesia <lb/>
-            <sic>feretro/posito</sic> noctem <choice><sic>psailentes</sic><corr>psallentes</corr></choice> duxissent ex more <choice><sic>pemdgilem</sic><corr>peruigilem</corr></choice>, <lb n="20"/>
-            iam <sic>eiarescente</sic> diluculo <choice><sic>regauit</sic><corr>rogauit</corr></choice> uir dei fessos <choice><sic>prefibyteros</sic><corr>presbyteros</corr></choice> et <lb/>
+            uenerabilis, Siluinus nomine, moreretur, et cum in ecclesia <lb/>
+            feretro posito noctem psallentes duxissent ex more peruigilem, <lb n="20"/>
+            iam claresceute diluculo regauit uir dei fessos presbyteros et <lb/>
             diacones uniuersos parumper abscedere, ut post laborem uigiliarum <lb/>
             somno se aliquantulum recrearent.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>quibus egressis homo  <lb/>
-            dei <sic>oBiiarium</sic>, <choice><sic>Matdrnum</sic><corr>Maternum</corr></choice> nomine, interrogat, utrum omnes, ut
+            dei ostiarium, Maternum nomine, interrogat, utrum omnes, ut
 
 <note type="footnote"> 3 illic <hi rend="italic">M</hi> sicciMtatis <hi rend="italic">L</hi> 4 tabulate <hi rend="italic">L pr</hi>. 6 apparent <lb/>
             <hi rend="italic">M accole MV</hi> .\'<hi rend="italic">6 illuuione MN</hi> \'■ fuisset <hi rend="italic">CGLMN:</hi> fuisse <lb/>
@@ -1687,18 +1685,18 @@
 <note type="footnote">3 </note> <lb/>
              
 <pb n="34"/>
-            dixerat, abscessissent. at illo respondente <sic>eunctos</sic> abisse: <lb/>
-            \'nequaquam\' ait <sic>csed</sic> latet <choice n="0.00"><sic n="23">hie</sic><corr n="7275">hic</corr></choice> quaedam\'. tunc ianitor <sic>ecelesiae</sic> <lb/>
+            dixerat, abscessissent. at illo respondente cunctos abisse: <lb/>
+            \'nequaquam\' ait sed latet hic quaedam\'. tunc ianitor ecclesiae <lb/>
             saepta secundo perlustrans nullum intra ea remansisse testator. <lb/>
-            uerum Christi miles domino sibi reuelante: \'nescio <sic>quie</sic>\' ait <lb/>
-            <sic>Trie</sic> delitescit*. tertio itaque diligentius perscrutans quandam <lb n="5"/>
+            uerum Christi miles domino sibi reuelante: \'nescio quis\' ait <lb/>
+            hic delitescit*. tertio itaque diligentius perscrutans quandam <lb n="5"/>
             inuenit uirginem consecratam locis se occultioribus abdidisse. 
 </p></div>
 
 <div n="3" subtype="section" type="textpart"><p> <lb/>
-            hanc ergo memoratus sic <choice n="0.69"><sic n="9">increpauit</sic><corr n="4">increpabit</corr></choice> <choice><sic>aedituUil</sic><corr>aedituus</corr></choice>: <choice><sic>cour</sic><corr>cur</corr></choice> istic famulo <lb/>
-            dei posito tuam credideras posse latere praesentiam\'? at <sic>ilil</sic>: <lb/>
-            \'pietatis\' inquit \'amor talia me <choice><sic>faoere</sic><corr>facere</corr></choice> <choice><sic>persnasit</sic><corr>persuasit</corr></choice>: <choice n="0.20"><sic n="163">uidens</sic><corr n="636">uidet</corr></choice> enim <lb/>
+            hanc ergo memoratus sic increpauit aedituus: cur istic famulo <lb/>
+            dei posito tuam credideras posse latere praesentiam\'? at illa: <lb/>
+            \'pietatis\' inquit \'amor talia me facere persuasit: uidens enim <lb/>
             cunctos foras expelli cogitaui mecum, quod senilis Christi <lb n="10"/>
             inuocata diuina maiestate praesentem . mortuum suscitaret*. 
 </p></div>
@@ -1706,18 +1704,18 @@
 <div n="4" subtype="section" type="textpart"><p> <lb/>
             exeunte igitur memorata uirgine homo dei cum presbytero et <lb/>
             diacono ianitoribusque duobus in oratione curuatus orauit fletu <lb/>
-            largissimo, ut opus solitae maiestatis <choice><sic>saperna</sic><corr>superna</corr></choice> uirtus ostenderet. <lb/>
-            <sic>tuno</sic> orationem complente presbytero ita cadauer uir beatus <lb n="15"/>
+            largissimo, ut opus solitae maiestatis superna uirtus ostenderet. <lb/>
+            tuno orationem complente presbytero ita cadauer uir beatus <lb n="15"/>
             alloquitur: \'in nomine domini nostri Iesu Christi, sancte  <lb/>
             presbyter Siluine, loquere cum fratribus tuis\'. 
 </p>
 </div>
 
 <div n="5" subtype="section" type="textpart"><p> at ubi oculos <lb/>
-            defunctus aperuit, uix <choice><sic>praeseptibus</sic><corr>praesentibus</corr></choice> homo dei tacere prae gaudio <lb/>
-            persuasit. et denuo ad eum: <sic>Cuis</sic>) inquit (rogemus dominum, <lb/>
-            ut te <choice><sic>adhpo</sic><corr>adhuc</corr></choice> <choice><sic>serais</sic><corr>seruis</corr></choice> suis in hac uita condonare dignetur\'? at <lb n="20"/>
-            ille ait: \'per dominum te <sic>cOniur</sic>., ne <choice n="0.00"><sic n="23">hie</sic><corr n="7275">hic</corr></choice> diutius tenear et  <lb/>
+            defunctus aperuit, uix praesentibus homo dei tacere prae gaudio <lb/>
+            persuasit. et denuo ad eum: uis) inquit (rogemus dominum, <lb/>
+            ut te adhuc seruis suis in hac uita condonare dignetur\'? at <lb n="20"/>
+            ille ait: \'per dominum te coniure., ne hic diutius tenear et  <lb/>
             frauder quiete perpetua, in qua me esse cernebam\'.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>statimque <lb/>
@@ -1740,8 +1738,8 @@
              
 <pb n="35"/>
             subdiaconi et Materni ianitoris relatione cognoui. nam presbyter <lb/>
-            et diaconus, tanti testes miraculi, ante uirum <choice n="0.84"><sic n="273">sanctum</sic><corr n="52">sanctam</corr></choice>, cui <lb/>
-            iurauerant nulli se quod uiderant prodituros, obisse <choice n="0.83"><sic n="15">noscuntur</sic><corr n="3">noscantur</corr></choice>. 
+            et diaconus, tanti testes miraculi, ante uirum sanctum, cui <lb/>
+            iurauerant nulli se quod uiderant prodituros, obisse noscuntur. 
 </p>
           </div>
 
@@ -1749,18 +1747,18 @@
 
 <div n="17" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Talibus igitur beatus Seuerinus per Christi gratiam  <lb/>
             muneribus opulentus captiuorum etiam egenorumque tantam <lb n="5"/>
-            <choice n="0.74"><sic n="1138">coram</sic><corr n="398">curam</corr></choice> ingenita sibi pietate susceperat, ut paene omnes per <lb/>
+            curam ingenita sibi pietate susceperat, ut paene omnes per <lb/>
             uniuersa oppida uel castella pauperes ipsius industria pascerentur: <lb/>
-            quibus <choice n="0.00"><sic n="9">tarn</sic><corr n="5760">tam</corr></choice> laeta sollicitudine ministrabat, ut tunc se <lb/>
+            quibus tam laeta sollicitudine ministrabat, ut tunc se <lb/>
             crederet tantummodo saturari uel abundare bonis omnibus, <lb/>
             quando uidebat egentum corpora sustentari.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>et cum hebdomadarum  <lb n="10"/>
             continuatis ieiuniis minime frangeretur, tamen <lb/>
-            <choice><sic>esune</sic><corr>esurie</corr></choice> miserorum se credebat afflictum. cuius largitionem \'tam <lb/>
+            esurie miserorum se credebat afflictum. cuius largitionem \'tam <lb/>
             piam in pauperes plurimi contemplantes, quamuis ex duro <lb/>
             barbarorum imperio famis angustias sustinerent, deuotissime <lb/>
-            <sic>frngum</sic> suarum decimas pauperibus impendebant. quod mandatum <lb n="15"/>
+            frugum suarum decimas pauperibus impendebant. quod mandatum <lb n="15"/>
             licet cunctis ex lege notissimum, tamen quasi ex ore <lb/>
             angeli praesentis audirent, grata deuotione seruabant
 </p>
@@ -1793,11 +1791,11 @@
 <note type="footnote"> 3* </note> <lb/>
              
 <pb n="36"/>
-            quoque Tigurniae <choice n="0.69"><sic n="673">similis</sic><corr n="301">similia</corr></choice> collatio mitteretur. <choice><sic>resppnddntibus</sic><corr>respondentibus</corr></choice> <lb/>
-            etiam inde <choice><sic>protinas</sic><corr>protinus</corr></choice> affuturos uir dei nequaquam <sic>eoe</sic> uenire <lb/>
-            <sic>aignauit</sic>, sed dilatam eorum oblationem praedixit <choice n="0.87"><sic n="158">barbaris</sic><corr n="23">barbaria</corr></choice> <lb/>
-            <sic>offerswlam</sic>. itaque non multum post <choice><sic>dues</sic><corr>ciues</corr></choice> Tigurniae uario cum <lb/>
-            obsidentibus Gothis <choice><sic>oertamine</sic><corr>certamine</corr></choice> dimicantes uix initi foederis <lb n="5"/>
+            quoque Tigurniae similis collatio mitteretur. respondentibus <lb/>
+            etiam inde protinus affuturos uir dei nequaquam eos uenire <lb/>
+            signauit, sed dilatam eorum oblationem praedixit barbaris <lb/>
+            offerendam. itaque non multum post ciues Tigurniae uario cum <lb/>
+            obsidentibus Gothis certamine dimicantes uix initi foederis <lb n="5"/>
             pactione inter cetera etiam largitionem iam in unum collatam, <lb/>
             quam mittere famulo dei distulerant, hostibus obtulerunt. 
 </p>
@@ -1806,20 +1804,20 @@
 </div>
 
 <div n="18" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Qiues quoque ex oppido Lauriaco crebra quondam <lb/>
-            <choice><sic>aaacti</sic><corr>sancti</corr></choice> Seuerini exhortatione commoniti frugum <choice><sic>detimas</sic><corr>decimas</corr></choice> pauperibus <lb/>
-            offerre distulerant. quibus fame constrictis iam <choice><sic>maturitafce</sic><corr>maturitate</corr></choice> <lb n="10"/>
-            messium <sic>flanesoente</sic> uicina subsidia monstrabantur. at ubi <lb/>
-            <choice n="0.55"><sic n="5">rubiginis</sic><corr n="4">robiginis</corr></choice> inprouisae corruptio frugibus <sic n="poss">nooitura</sic> comparuit, <lb/>
-            mox ad ipsum conuenere prostrati, poenas suae <choice><sic>confcumaoiae</sic><corr>contumaciae</corr></choice>   <lb/>
+            sancti Seuerini exhortatione commoniti frugum decimas pauperibus <lb/>
+            offerre distulerant. quibus fame constrictis iam maturitate <lb n="10"/>
+            messium flanescente uicina subsidia monstrabantur. at ubi <lb/>
+            frugibus inprouisae corruptio frugibus nocitura comparuit, <lb/>
+            mox ad ipsum conuenere prostrati, poenas suae contumaciae   <lb/>
             confitentes.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>miles uero Christi fesads uerbis spiritalibus alleabat <lb/>
-            <sic n="poss">diquns</sic>: \'si decimas obtulissetis pauperibus, non solum <lb n="15"/>
-            aeterna mercede <sic>fruereraini</sic>, <choice><sic>nerum</sic><corr>uerum</corr></choice> etiam commodis <choice><sic>possefcis</sic><corr>possetis</corr></choice> <lb/>
+            dicens: \'si decimas obtulissetis pauperibus, non solum <lb n="15"/>
+            aeterna mercede frueremini, uerum etiam commodis possetis <lb/>
             abundare praesentibus. sed quia culpam confessione propria <lb/>
-            castigatis, de domini pietate polliceor, quod <choice><sic>rubigp</sic><corr>rubigo</corr></choice> praesens <lb/>
-            tam ualida penitus non <choice><sic>nsoebit</sic><corr>nocebit</corr></choice>: tantum fides <choice n="0.70"><sic n="2317">nostra</sic><corr n="970">uestra</corr></choice> ulterius <lb/>
-            DQV uacillet, uerum <choice><sic>ciuee</sic><corr>ciues</corr></choice> ad <choice><sic>persolnendas</sic><corr>persoluendas</corr></choice> ex illo <sic n="poss">4ecimas</sic>
+            castigatis, de domini pietate polliceor, quod rubigo praesens <lb/>
+            tam ualida penitus non nocebit: tantum fides uestra ulterius <lb/>
+            DQV uacillet, uerum ciues ad persoluendas ex illo decimas
 
 <note type="footnote"> 1 <hi rend="italic">(ef</hi> 4) tigurniq <hi rend="italic">NT:</hi> tiguraie <hi rend="italic">V</hi> tugurniQ <hi rend="italic">M</hi> tiburniq <hi rend="italic">CO</hi> tiburtinie <lb/>
             (ti <hi rend="italic">expunxit m. 2) L</hi> collatio] collocatio <hi rend="italic">N</hi> 4 offerandam <hi rend="italic">L</hi> <lb/>
@@ -1840,8 +1838,8 @@
             decinpa <hi rend="italic">COMNTV:</hi> illo decimas die <hi rend="italic">L</hi> </note> <lb n="20"/>
              
 <pb n="37"/>
-            haec promissio reddidit promptiores. tunc, ut solebat, <choice><sic>hortstus</sic><corr>hortatus</corr></choice> <lb/>
-            est indici <choice><sic>ieittniam</sic><corr>ieiunium</corr></choice>: quo expleto <choice><sic>plaoidus</sic><corr>placidus</corr></choice> imber desperata» <lb/>
+            haec promissio reddidit promptiores. tunc, ut solebat, hortatus <lb/>
+            est indici ieiunium: quo expleto placidus imber desperata» <lb/>
             messis amputauit incommoda. 
 </p>
           </div>
@@ -1849,27 +1847,27 @@
 </div>
 
 <div n="19" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Batauis appellatur oppidum inter utraque flumiJia,  <lb/>
-            <sic>Hehum</sic> uidelicet atque <choice><sic>Dauuuium</sic><corr>Dannuium</corr></choice>, constitutum, ubi beatus <lb n="5"/>
+            Henum uidelicet atque Danuuium, constitutum, ubi beatus <lb n="5"/>
             Seuerinus cellulam paucis monachis solito more fundauerat, <lb/>
-            eo quod ipse illuc saepius rogatus a ciuibus <choice><sic>aduenitet</sic><corr>adueniret</corr></choice>, maxime <lb/>
-            propter Alamannorum incursus assiduos, quorum rex <sic>Gibuldus</sic> <lb/>
-            summa <sic>euih</sic> reuerentia diligebat.</p></div>
+            eo quod ipse illuc saepius rogatus a ciuibus adueniret, maxime <lb/>
+            propter Alamannorum incursus assiduos, quorum rex Gibuldus <lb/>
+            summa eum reuerentia diligebat.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>qui etiam quodam tempore  <lb/>
-            ad eum uidendum desideranter <choice><sic>occtirtit</sic><corr>occurrit</corr></choice>. cui sanctus obuiam, <lb n="10"/>
+            ad eum uidendum desideranter occurrit. cui sanctus obuiam, <lb n="10"/>
             ne aduentu suo eandem ciuitatem praegrauaret, egressus est, <lb/>
             tantaque constantia regem est allocutus, ut tremere coram eo <lb/>
             uehementius coeperit, secedensque suis exercitibus indicauit <lb/>
-            <choice><sic>nxLmquam</sic><corr>numquam</corr></choice> se <sic>Ree</sic> in re bellica nec aliqua formidine tanto <lb/>
+            numquam se nee in re bellica nec aliqua formidine tanto <lb/>
             fuisse tremore concussum.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>cumque dei famulo daret optionem  <lb n="15"/>
             imperandi quae uellet, rogauit doctor piissimus, ut sibi potius <lb/>
             praestaturus gentem suam a Romana uastatione cohiberet et <lb/>
-            <choice><sic>captinos</sic><corr>captiuos</corr></choice>, quos sui tenuerant, gratanter absolueret. tunc rex <lb/>
-            constituit, ut ex suis aliquem dirigeret ad id opus <choice><sic>maturing</sic><corr>maturius</corr></choice> <lb/>
+            captiuos, quos sui tenuerant, gratanter absolueret. tunc rex <lb/>
+            constituit, ut ex suis aliquem dirigeret ad id opus maturius <lb/>
             exsequendum, statimque missus Amantius diaconus e uestigio <lb n="20"/>
-            regem subsequitur eiusque prae <choice n="0.04"><sic n="8">roribus</sic><corr n="176">foribus</corr></choice> excubans multis <choice><sic>diebuB</sic><corr>diebus</corr></choice> <lb/>
+            regem subsequitur eiusque prae foribus excubans multis diebus <lb/>
             non potuit nuntiari.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>cui re, pro qua directus fuerat, non 
@@ -1894,7 +1892,7 @@
             peracta  tristissimo reuertenti apparuit quidam, effigiem sancti <lb/>
             praeferens Seuerini, qui eum minaci compellatione perterritum <lb/>
             sequi se iussit. cum que pauens et concitus sequeretur, peruenit <lb/>
-            ad <choice><sic>iannam</sic><corr>ianuam</corr></choice> regis statimque dux ille praeuius ex oculis <lb/>
+            ad ianuam regis statimque dux ille praeuius ex oculis <lb/>
             mirantis euanuit. uerum regis internuntius diaconum unde <lb n="5"/>
             esset uel quid speraret interrogat. ille rem breuiter insinuans  <lb/>
             oblatis regi receptisque remeauit epistolis.</p></div>
@@ -1903,7 +1901,7 @@
             reuexit fere septuaginta captiuos, insuper promissionem regis <lb/>
             gratam deferens, qua se spopondit, cum diligenter prouinciam <lb/>
             peragrauerit, remissurum quantos in eadem reperturus fuisset <lb n="10"/>
-            numeros captiuorum. pro qua re sanctus <choice><sic>Lucillus</sic><corr>Lucilius</corr></choice> presbyter <lb/>
+            numeros captiuorum. pro qua re sanctus Lucillus presbyter <lb/>
             postmodum destinatus magnam miserorum copiam ex captiuitate <lb/>
             reuocauit. 
 </p>
@@ -1940,7 +1938,7 @@
             <hi rend="italic">MN</hi> lacrimari <hi rend="italic">C(?) L</hi> iubens <hi rend="italic">MNTV:</hi> iubet <hi rend="italic">CGL</hi> </note> <lb/>
              
 <pb n="39"/>
-            properanter <choice><sic>exourrere</sic><corr>excurrere</corr></choice>, quem in illa hora humano firmabat <lb/>
+            properanter excurrere, quem in illa hora humano firmabat <lb/>
             oruore respergi, statimque nuntiatum est corpora praefatorum <lb/>
             militum \'fluminis impetu ad terram fuisse delata.. 
 </p>
@@ -1949,14 +1947,14 @@
 </div>
 
 <div n="21" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Paulinus quidam presbyter ad. sanctum Seuerinum  <lb/>
-            fama eius latius excurrente <choice><sic>peraenerat</sic><corr>peruenerat</corr></choice>. <choice n="0.00"><sic n="23">hie</sic><corr n="7275">hic</corr></choice> in consortio beati <lb n="5"/>
+            fama eius latius excurrente peruenerat. hic in consortio beati <lb n="5"/>
             uiri diebus aliquot remoratus, cum redire uellet, audiuit ab <lb/>
             eo: \'festina, uenerabilis presbyter, quia cito dilectionem tuam, <lb/>
-            populorum desideriis, ut credimus, obluctantem, dignitas <choice><sic>episoopatus</sic><corr>episcopatus</corr></choice> <lb/>
-            <sic>orbabie</sic>.</p></div>
+            populorum desideriis, ut credimus, obluctantem, dignitas episcopatus <lb/>
+            ornabit.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>moxque, remqante ad patriae, sermo in eo  <lb/>
-            <sic>praedicentia</sic> impletus est. nam <choice><sic>cines</sic><corr>ciues</corr></choice> Tigurniae, quae est metropolis <lb n="10"/>
+            praedicentis impletus est. nam ciues Tigurniae, quae est metropolis <lb n="10"/>
             Norici, elegerunt praedictum uirum summi sacerdotii <lb/>
             suscipere principatum. 
 </p>
@@ -1965,13 +1963,13 @@
 </div>
 
 <div n="22" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Basilicae extra muros oppidi Batauini in loco nomine  <lb/>
-            Boiotro <choice><sic>tratis</sic><corr>trans</corr></choice> Henum fluuium constitutae, ubi cellulam paucis <lb/>
+            Boiotro trans Henum fluuium constitutae, ubi cellulam paucis <lb/>
             monachis ipse construxerat, martyrum reliquiae quaerebantur. <lb n="15"/>
-            ingerentibus ergo se presbyteris, ut mitterentur ad <choice><sic>sarictuaria</sic><corr>sanctuaria</corr></choice> <lb/>
-            deferenda, haec beatus <choice><sic>Senerinus</sic><corr>Seuerinus</corr></choice> monita proferebat: \'quamuis <lb/>
+            ingerentibus ergo se presbyteris, ut mitterentur ad sanctuaria <lb/>
+            deferenda, haec beatus Seuerinus monita proferebat: \'quamuis <lb/>
             cuncta mortalium opere constructa praetereant, (haec tamen <lb/>
             aedificia prae ceteris celerrime relinquenda sunt\': et ideo pro <lb/>
-            reliquiis sanctorum nullum laborem debere <choice><sic>susoipère</sic><corr>suscipere</corr></choice>, quia et <lb n="20"/>
+            reliquiis sanctorum nullum laborem debere suscipere, quia et <lb n="20"/>
             ultro eis sancti Iohannis benedictio deferretur.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>interea beatum 
@@ -1996,31 +1994,31 @@
             (prior f <hi rend="italic">eras.) G</hi> deferetur <hi rend="italic">LN</hi> </note> <lb/>
              
 <pb n="40"/>
-            uirum - <sic>ciuee</sic> oppidi memorati suppliciter adierunt, at <choice><sic>pergena</sic><corr>pergens</corr></choice> <lb/>
-            ad Febanem, <sic>Bageram</sic> principem, mercandi eis <sic>licentiampostularet</sic> <lb/>
-            quibus ipse: <choice><sic>tempos</sic><corr>tempus</corr></choice>\' inquit <sic>chuÎos</sic> oppidi propinquauit, <lb/>
-            ut desertum, <choice><sic>sicit</sic><corr>sicut</corr></choice> cetera superiora castella <choice><sic>oaltore</sic><corr>cultore</corr></choice> <lb/>
-            destituta, remaneat. quid ergo <choice><sic>Decease</sic><corr>necesse</corr></choice> est locis mercimonia  <lb n="5"/>
+            uirum - ciues oppidi memorati suppliciter adierunt, at pergens <lb/>
+            ad Febanem, Rugerum principem, mercandi eis licentiam postularet <lb/>
+            quibus ipse: tempus\' inquit huius oppidi propinquauit, <lb/>
+            ut desertum, sicut cetera superiora castella cultore <lb/>
+            destituta, remaneat. quid ergo necesse est locis mercimonia  <lb n="5"/>
 </p></div>
 
 <div n="3" subtype="section" type="textpart"><p>            prouidere, ubi ultra non poterit apparere mreator p) respondentibus <lb/>
-            illis non se debere <choice><sic>contemm</sic><corr>contemni</corr></choice>, -sed. <choice><sic>consweto</sic><corr>consueto</corr></choice> subleuari <lb/>
-            regimine quidam presbyter haec : <sic>diaholico</sic> spiritu - <choice><sic>replet»a</sic><corr>repletus</corr></choice> <lb/>
-            <choice><sic>adieoit</sic><corr>adiecit</corr></choice>: \'perge, quaeso, sancte, <choice><sic>peirge</sic><corr>perge</corr></choice> <choice><sic>nelooiter</sic><corr>uelociter</corr></choice>, <sic>uttuo</sic> <sic>diseessn</sic> <lb/>
-            parumper a ieiuniis et uigiliis I quiescamus)., quo dicto <sic>mr</sic> dei <lb n="10"/>
-            lacrimis <sic>nrgaebatmr</sic>\' ingentibus, quod in ridiculam uanitatem <lb/>
-            cunctis audientibus sacerdos eruperit. <choice><sic>aperia</sic><corr>aperta</corr></choice> <choice><sic>namtjue</sic><corr>namque</corr></choice> scurrilitas <lb/>
-            latentium est <choice><sic>testifioatio</sic><corr>testificatio</corr></choice> <choice><sic>deliotoram</sic><corr>delictorum</corr></choice>. sanctus itaque <choice><sic>air</sic><corr>uir</corr></choice> <sic>car</sic> <lb/>
-            <choice><sic>itai</sic><corr>ita</corr></choice> fleret  <choice><sic>interrogates</sic><corr>interrogatus</corr></choice> a fratribus: <sic>cuideo</sic> inquit <sic>cplapm</sic> <lb/>
-            <choice><sic>graaissimam</sic><corr>grauissimam</corr></choice> nobis absentibus huic loco protinus <choice><sic>Buenturani</sic><corr>euenturam</corr></choice>, <lb n="15"/>
-            et Christi sacraria, quod non sine gemitu cogor <choice><sic>exprimdret</sic><corr>exprimere</corr></choice>, <lb/>
-            humano sanguine <choice><sic>reduddabant</sic><corr>redundabunt</corr></choice> in tantum, at etiam locus iste  <lb/>
+            illis non se debere contemni, -sed. consueto subleuari <lb/>
+            regimine quidam presbyter haec : diabolico spiritu - repletus <lb/>
+            adiecit: \'perge, quaeso, sancte, perge uelociter, ut tuo discessu <lb/>
+            parumper a ieiuniis et uigiliis I quiescamus)., quo dicto uir dei <lb n="10"/>
+            lacrimis urguebatur\' ingentibus, quod in ridiculam uanitatem <lb/>
+            cunctis audientibus sacerdos eruperit. aperta namque scurrilitas <lb/>
+            latentium est testificatio delictorum. sanctus itaque uir cur <lb/>
+            ita fleret  interrogatus a fratribus: uideo inquit plagam <lb/>
+            grauissimam nobis absentibus huic loco protinus euenturam, <lb n="15"/>
+            et Christi sacraria, quod non sine gemitu cogor exprimere, <lb/>
+            humano sanguine redundabunt in tantum, at etiam locus iste  <lb/>
             uiolandus sit\'.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>nam in baptisterio loquebatar. ad antiquum <lb/>
-            itaque , et <choice><sic>omiiibus</sic><corr>omnibus</corr></choice> maius monasterium <choice n="0.47"><sic n="2643">suam</sic><corr n="2964">suum</corr></choice> <choice><sic>iaxta</sic><corr>iuxta</corr></choice> <choice><sic>muroe</sic><corr>muros</corr></choice> <lb/>
-            <choice><sic>dppidi</sic><corr>oppidi</corr></choice> Fauianis, quod centum et ultra milibus aberat, <choice><sic>Daaauii</sic><corr>Danuuii</corr></choice> <lb n="20"/>
-            <sic>nauigafcione</sic> descendit. mox igitur eo descendente Hunumundus <lb/>
+            itaque , et omnibus maius monasterium suum iuxta muros <lb/>
+            oppidi Fauianis, quod centum et ultra milibus aberat, Danuuii <lb n="20"/>
+            nauigatione descendit. mox igitur eo descendente Hunumundus <lb/>
             paucis barbaris comitatus oppidum, ut sanctus praedixerat, <lb/>
             1 »
 
@@ -2042,14 +2040,14 @@
             Latus <hi rend="italic">L</hi></note> <lb/>
              
 <pb n="41"/>
-            <sic>Batatiis</sic> inuasit ac paene cunctis mansoribus in messe detentis <lb/>
+            Batauis inuasit ac paene cunctis mansoribus in messe detentis <lb/>
             quadraginta uiros oppidi, qui ad custodiam remanserant, interemit. <lb/>
             </p></div>
 
 <div n="5" subtype="section" type="textpart"><p>presbyterum quoque illum,  qui tam sacrilega; contra  <lb/>
-            <choice><sic>famnlum</sic><corr>famulum</corr></choice> Christi in baptisterio <choice><sic>ftierat</sic><corr>fuerat</corr></choice> <choice><sic>eldcutus</sic><corr>elocutus</corr></choice>, ad <choice n="0.46"><sic n="463">eandem</sic><corr n="537">eundem</corr></choice> <lb/>
+            famulum Christi in baptisterio fuerat elocutus, ad eundem <lb/>
             locum confugientem insequentes barbari peremerunt frustra <lb n="5"/>
-            enim illuc offenso deo ueritatis inimicus accessit, ubi <choice n="0.66"><sic n="11641">iam</sic><corr n="5760">tam</corr></choice> <lb/>
+            enim illuc offenso deo ueritatis inimicus accessit, ubi tam <lb/>
             imprudenter excesserat. 
 </p>
           </div>
@@ -2058,18 +2056,18 @@
 
 <div n="23" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Igitur sanctissimtis Seuerinus, dam in moiiasterio  <lb/>
             Fauianis euangelium legeret, oratione suppleta consurgens <lb/>
-            <sic>scafam</sic> sibi iubet ilico praeparari et mirantibus ait: \'sit nomen: <lb n="10"/>
-            <sic>dominfbenedictum</sic> : \'sanctuariis beatorum <choice><sic>martyrom</sic><corr>martyrum</corr></choice> BOS oportet <lb/>
-            occurrere\'. nec mora : transmeato <choice><sic>Dannuio</sic><corr>Danuuio</corr></choice> inueniunt hominem <lb/>
-            considentem in ripa ulteriore fluminis ac multis eos <choice><sic>ptecibus</sic><corr>precibus</corr></choice> <lb/>
-            postulantem, ut ad seruum dei, <sic n="poss">adquiem</sic> fama uulgante olim <lb/>
-            <sic>nenire</sic> cuperet, duceretur.</p></div>
+            scafam sibi iubet ilico praeparari et mirantibus ait: \'sit nomen: <lb n="10"/>
+            domini benedictum : \'sanctuariis beatorum martyrum BOS oportet <lb/>
+            occurrere\'. nec mora : transmeato Danuuio inueniunt hominem <lb/>
+            considentem in ripa ulteriore fluminis ac multis eos precibus <lb/>
+            postulantem, ut ad seruum dei, ad quem fama uulgante olim <lb/>
+            uenire cuperet, duceretur.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>mox itaque ei Christi famulo demonstrato  <lb n="15"/>
-            suppliciter sancti Iohannis Baptistae <choice n="0.27"><sic n="83">reliquiae</sic><corr n="216">reliquias</corr></choice> optulit <lb/>
+            suppliciter sancti Iohannis Baptistae reliquias optulit <lb/>
             multis apud se seruatas temporibus. quas dei seruus debita <lb/>
-            <sic>neneratione</sic> suscipiens in basilicam <choice n="0.03"><sic n="6">sanati</sic><corr n="176">sancti</corr></choice> Iohannis, sicut praedixerat, <lb/>
-            ultronea <choice><sic>benedietione</sic><corr>benedictione</corr></choice> collatas sacrauit officio sacerdotum. 
+            ueneratione suscipiens in basilicam sancti Iohannis, sicut praedixerat, <lb/>
+            ultronea benedictione collatas sacrauit officio sacerdotum. 
 </p>
           </div>
 
@@ -2097,13 +2095,13 @@
              
 <pb n="42"/>
             solita uir dei reuelatione commonitus Moderatum nomine, <lb/>
-            <choice><sic>oantorem</sic><corr>cantorem</corr></choice> <choice><sic>eoclesiae</sic><corr>ecclesiae</corr></choice>, destinauit praecipiens, ut habitationem <lb/>
+            cantorem ecclesiae, destinauit praecipiens, ut habitationem <lb/>
             loci illius omnes sine cunctatione relinquerent: mox enim  <lb/>
             perituros fore, si contemnerent imperata.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>aliis ergo de tanto <lb/>
             nuntio dubitantibus, aliis prorsus non credentibus iterum misit <lb n="5"/>
-            <sic>Qaintaaium</sic> quendam, cui et inlacrimans ait: <sic>cperge</sic> uelocius, <lb/>
+            Quintasium quendam, cui et inlacrimans ait: perge uelocius, <lb/>
             denuntians eis, si hac ibidem nocte manserint, sine dubitatione <lb/>
             capientur\'. sanctum quoque Maximinum, spiritalis uitae presbyterum, <lb/>
             instantius imperat admonere, ut saltem ipse contemptoribus <lb/>
@@ -2115,10 +2113,10 @@
 <div n="3" subtype="section" type="textpart"><p> <lb/>
             praedictus itaque pergens imperata suppleuit, sed presbytero <lb/>
             et reliquis incredulitate nutantibus nuntius uiri dei presbytero <lb/>
-            retinenti se atque <choice><sic>hoapitalitatis</sic><corr>hospitalitatis</corr></choice> gratiam praebere cupienti<lb n="15"/>
+            retinenti se atque hospitalitatis gratiam praebere cupienti<lb n="15"/>
             nullatenus adquieuit. qua nocte Heruli insperate protinus <lb/>
             irruentes oppidumque uexantes plurimos duxere captiuos, presbyterum <lb/>
-            memoratum patibulo suspendentes. quo <choice n="0.64"><sic n="218">audita</sic><corr n="122">audito</corr></choice> seruus <lb/>
+            memoratum patibulo suspendentes. quo audito seruus <lb/>
             dei grauiter doluit praemonitos non curasse. 
 </p>
           </div>
@@ -2154,7 +2152,7 @@
 <div n="2" subtype="section" type="textpart"><p>igitur memoratua antistes  <lb/>
             litterarum tenore perstructus uniuersa diocesis suae castella <lb n="5"/>
             scriptis propriis uehementer admonuit, ut triduano ieiunio, <lb/>
-            quod litterae uiri dei signauerant, exitio uenturae cladis <choice><sic>cocurrerent</sic><corr>occurrerent</corr></choice>. <lb/>
+            quod litterae uiri dei signauerant, exitio uenturae cladis occurrerent. <lb/>
             </p></div>
 
 <div n="3" subtype="section" type="textpart"><p>quibus iussa complentibus -terminato ieiunio ecce  <lb/>
@@ -2171,7 +2169,7 @@
             ad sanctum Seuerinum fama eius inuitante perrexerat: hunc <lb/>
             sanitatis remedia suppliciter implorantem monachis suis indicto <lb n="15"/>
             ieiunio commendauit: qui continuo dei gratia operante <lb/>
-            mundatus est. cumque <choice n="0.64"><sic n="121">recepta</sic><corr n="67">recepto</corr></choice> sanitate redire suaderetur ad <lb/>
+            mundatus est. cumque recepta sanitate redire suaderetur ad <lb/>
             patriam, prostrauit se pedibus sancti uiri, petens, ne ulterius <lb/>
             ad sua redire cogeretur, cupiens scilicet, ut lepram quoque <lb/>
             peccatorum sicut carnis effugeret uitamque in eodem loco fine <lb n="20"/>
@@ -2197,21 +2195,21 @@
             23 ut <hi rend="italic">MTV: om. CGLN</hi> permanerent <hi rend="italic">MNTV:</hi> permanere <hi rend="italic">CGL</hi> </note> <lb/>
              
 <pb n="44"/>
-            ut dominus ei quae <choice><sic>eesent</sic><corr>essent</corr></choice> opportuna <choice><sic>conuederet</sic><corr>concederet</corr></choice>. tantis. itaque <lb/>
-            remediis <choice><sic>praemunitus</sic><corr>praemonitos</corr></choice> intra <sic>daorum</sic> mensuum spatium <lb/>
-            uitae mortalis est <choice><sic>eompedibus</sic><corr>compedibus</corr></choice> absolutus. 
+            ut dominus ei quae essent opportuna concederet. tantis. itaque <lb/>
+            remediis praemunitus intra duorum mensuum spatium <lb/>
+            uitae mortalis est compedibus absolutus. 
 </p>
           </div>
 
 </div>
 
 <div n="27" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Eodem tempore mansores oppidi Quintanensia, creberrimid <lb/>
-            Alamannorum <choice><sic>incurBionibus</sic><corr>incursionibus</corr></choice> iam defessi, sedes proprias <lb n="5"/>
+            Alamannorum incursionibus iam defessi, sedes proprias <lb n="5"/>
             relinquentes in Batauis oppidum migrauerant. sed non latuit <lb/>
-            eosdem barbaros <sic>eonfugium</sic> <sic>práedictorum</sic>: qua causa plus <lb/>
+            eosdem barbaros confugium praedictorum: qua causa plus <lb/>
             inflammati sunt credentes, quod duorum populos oppidorum <lb/>
             uno impetu praedarentur. sed beatus Seuerinus orationi fortius <lb/>
-            incubans Romanos exemplis <choice><sic>salntaribus</sic><corr>salutaribus</corr></choice> multipliciter hortabatur,<lb n="10"/>
+            incubans Romanos exemplis salutaribus multipliciter hortabatur,<lb n="10"/>
             praenuntians hostes quidem praesentis dei auxilio superandos, <lb/>
             sed post uictoriam eos qui contemnerent eius monita  <lb/>
             perituros.</p></div>
@@ -2219,13 +2217,13 @@
 <div n="2" subtype="section" type="textpart"><p>igitur Romani sancti uiri pfaedictione firmati spe <lb/>
             promissae uictoriae aduersus Alamannos instruxerunt aciem, <lb/>
             non tam materialibus armis, quam sancti uiri orationibus <lb n="15"/>
-            <sic>praemuniti</sic>. qua congressione <choice><sic>utetis</sic><corr>uictis</corr></choice> <choice><sic>ao</sic><corr>ac</corr></choice> fugientibus Alamannis <lb/>
-            uir <sic>ddi</sic> ita uictores alloquitur: \'filii, ne uestris uiribus palmam <lb/>
+            praemuniti. qua congressione uictis ac fugientibus Alamannis <lb/>
+            uir dei ita uictores alloquitur: \'filii, ne uestris uiribus palmam <lb/>
             praesentis certaminis imputetis, scientes idcirco uos dei nunc <lb/>
-            praesidio <choice n="0.07"><sic n="1">liberates</sic><corr n="12">liberatos</corr></choice>, ut <choice n="0.00"><sic n="14">hine</sic><corr n="2543">hinc</corr></choice> paruo interuallo temporis, quasi <lb/>
+            praesidio liberatos, ut hinc paruo interuallo temporis, quasi <lb/>
             quibusdam concessis indutiis, discedatis. mecum itaque ad <lb n="20"/>
-            oppidum Lauriacum congregati <sic>desoenditet</sic>. haec homo dei  <lb/>
-            plenus pietate <choice><sic>commonnit</sic><corr>commonuit</corr></choice>.</p></div>
+            oppidum Lauriacum congregati descendite. haec homo dei  <lb/>
+            plenus pietate commonuit.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>sed Batauinis genitale solum <lb/>
             relinquere dubitantibus sic adiecit: \'quamuis et illud oppidum, <lb/>
@@ -2248,19 +2246,19 @@
             24 barbariq <hi rend="italic">GLMN</hi> quantotius <hi rend="italic">LTV</hi> quitotius <hi rend="italic">N</hi> </note> <lb/>
              
 <pb n="45"/>
-            hine tamen nunc pariter descendamus\'. talia <sic>commonentea</sic> <lb/>
+            hine tamen nunc pariter descendamus\'. talia commonentem <lb/>
             secuti sunt plurimi, quidam nero reperti sunt contumaces, nec <lb/>
-            <sic>dafuit</sic> <sic>eontemptoribus</sic> gladius inimici. <choice><sic>quioumque</sic><corr>quionmqne</corr></choice> enim ibidem <lb/>
-            contra hominis dei interdicta manserant, Thoringis <choice><sic>irruentibug</sic><corr>irruentibus</corr></choice> <lb/>
-            in eadem . <sic>hebdomadealii</sic> quidem trucidati, alii in <choice><sic>eaptiuitatem</sic><corr>captiuitatem</corr></choice> <lb n="5"/>
-            <choice><sic>dedneti</sic><corr>deducti</corr></choice> poenas dedere contemptui.,.,.. 
+            defuit contemptoribus gladius inimici. quicumque enim ibidem <lb/>
+            contra hominis dei interdicta manserant, Thoringis irruentibus <lb/>
+            in eadem . hebdomade alii quidem trucidati, alii in captiuitatem <lb n="5"/>
+            deducti poenas dedere contemptui.,.,.. 
 </p>
           </div>
 
 </div>
 
 <div n="28" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Igitur post excidium oppidorumin superiore parte  <lb/>
-            Danuuii omnem populum in <sic>Larlriacum</sic> oppidum transmigrantem, <lb/>
+            Danuuii omnem populum in Lauriacum oppidum transmigrantem, <lb/>
             qui sancti Seuerini monitis paruerat, assiduis hortatibus <lb/>
             praestruebat, ne in sua uirtute confiderent, sed orationibus <lb n="10"/>
             et ieiuniis atque elemosynis insistentes armis potius spiritalibus <lb/>
@@ -2268,17 +2266,17 @@
 
 <div n="2" subtype="section" type="textpart"><p>praeterea quadam die uir dei cunctos pauperes  <lb/>
             in una basilica statuit congregari, oleum prout poscebat ratio <lb/>
-            largiturus: quam speciem in illis locis difficillimam <sic>negotialorum</sic> <lb/>
+            largiturus: quam speciem in illis locis difficillimam negotiatorum <lb/>
             tantum deferebat euectio. igitur tamquam benedictionis <lb n="15"/>
-            accipiendae gratia maior egenorum turba <choice><sic>confiuxit</sic><corr>confluxit</corr></choice>: pretiosius <lb/>
-            quippe ibidem huius liquoris alimentum auxit turbam <sic>numerùm</sic>. <lb/>
+            accipiendae gratia maior egenorum turba confluxit: pretiosius <lb/>
+            quippe ibidem huius liquoris alimentum auxit turbam numerum. <lb/>
             que poscentium.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>tunc uir beatus oratione Gompleta, signo  <lb/>
-            crucis expresso solitum sibi <choice><sic>soripturae</sic><corr>soriptnrae</corr></choice> sanctae sermonem <lb/>
-            cunctis audientibus exprimens ait: \'sit nomen domini <choice><sic>benediotum</sic><corr>benedictum</corr></choice>\'. <lb n="20"/>
+            crucis expresso solitum sibi scripturae sanctae sermonem <lb/>
+            cunctis audientibus exprimens ait: \'sit nomen domini benedictum\'. <lb n="20"/>
             tunc coepit oleum propria manu ministris implere <lb/>
-            portantibus, imitatus fidelis seruus <choice n="0.78"><sic n="443">dominum</sic><corr n="119">dominam</corr></choice> suum, qui non
+            portantibus, imitatus fidelis seruus dominum suum, qui non
 
 <note type="footnote"> 1 hunc <hi rend="italic">N</hi> descendamus <hi rend="italic">NTV:</hi> discedamus <hi rend="italic">CGLM</hi> commonente <lb/>
             <hi rend="italic">~LlMN 3</hi> quicunque <hi rend="italic">T</hi> \' 4 thoringis <hi rend="italic">CGMTV:</hi> thorigis <hi rend="italic">N</hi> turlngis <lb/>
@@ -2297,24 +2295,24 @@
             F 21 cqpit <hi rend="italic">COLlY</hi> cepit <hi rend="italic">MN</hi> 22 imitatus <hi rend="italic">Lpr</hi>. </note> <lb/>
              
 <pb n="46"/>
-            <sic>minifltrari</sic> uenerat, sed potius ministrare, sequensque uestigia <lb/>
-            <sic>saltiatoris</sic> gaudebat augeri materiem, quam officio dexterae <lb/>
+            ministrari uenerat, sed potius ministrare, sequensque uestigia <lb/>
+            saluatoris gaudebat augeri materiem, quam officio dexterae <lb/>
             sinistra nesciente fundebat. completis quippe uasculis pauperum  <lb/>
             nihil minuebatur in manibus ministrantum.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>tantum igitur dei <lb/>
-            <choice><sic>beneficima</sic><corr>beneficium</corr></choice> dum circumstantes tacite mirarentur, unus <choice><sic>eoram</sic><corr>eorum</corr></choice>, <lb n="5"/>
-            cui nomen erat. Pientissimus, nimio timore <choice><sic>perfcerritas</sic><corr>perterritus</corr></choice> exclamauit: <lb/>
-            domine n* <choice><sic>orescit</sic><corr>crescit</corr></choice> <choice n="0.00"><sic n="23">hie</sic><corr n="7275">hic</corr></choice> <choice><sic>cacoauus</sic><corr>caccauus</corr></choice> olei et in modum <lb/>
-            fontis exundat*. sic <sic>Kaaor</sic> ille gratissimus prodita uirtute  <lb/>
-            <sic>subtr</sic> actus est.</p></div>
+            beneficium dum circumstantes tacite mirarentur, unus eorum, <lb n="5"/>
+            cui nomen erat. Pientissimus, nimio timore perterritus exclamauit: <lb/>
+            domine n* crescit hic caccauus olei et in modum <lb/>
+            fontis exundat*. sic liquor ille gratissimus prodita uirtute  <lb/>
+            subtr actus est.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>statim Chriati famulus exclamans ait: \'quid <lb/>
-            fecisti, frater ?  <sic>obstnuisti</sic> commoda plurimorum: ignoscat tibi <lb n="10"/>
-            dominus <sic>leens</sic>\'. sic aliquando mulier uidua debitis onerata <lb/>
+            fecisti, frater ?  obstruxisti commoda plurimorum: ignoscat tibi <lb n="10"/>
+            dominus Iesus\'. sic aliquando mulier uidua debitis onerata <lb/>
             Helisei prophetae iussis instruitur ex olei stilla, quam habebat, <lb/>
-            uasa replere quam plurima. quod cum <choice><sic>fttisset</sic><corr>fecisset</corr></choice> et adhuc a <lb/>
-            filiis uasa deposceret, ubi audiuit defecisse <choice><sic>nwuerum</sic><corr>numerum</corr></choice>, mox <lb/>
+            uasa replere quam plurima. quod cum fecisset et adhuc a <lb/>
+            filiis uasa deposceret, ubi audiuit defecisse numerum, mox <lb/>
             stetit et oleum. <lb n="15"/>
             
 </p>
@@ -2323,8 +2321,8 @@
 </div>
 
 <div n="29" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Per idem tempus Maximus Noricensis, adus <lb/>
-            <choice><sic>fecimos</sic><corr>fecimus</corr></choice> in superioribus mentionem, fidei calore <choice><sic>suocensus</sic><corr>succensus</corr></choice> <lb/>
-            media hieme, qua regionis illius itinera <choice><sic>geln</sic><corr>gelu</corr></choice> torpente clauduntur, <lb/>
+            fecimus in superioribus mentionem, fidei calore succensus <lb/>
+            media hieme, qua regionis illius itinera gelu torpente clauduntur, <lb/>
             ad beatum Seuerinum audaci temeritate, uel magis, <lb/>
             ut post claruit, intrepida deuotione uenire contendit, conductis <lb n="20"/>
             plurimis comitibus, qui collo suo uestes captiuis et pauperibus
@@ -2347,21 +2345,21 @@
             17 fecimus] mdd. <hi rend="italic">L* m ras</hi>. 18 hjeme M 21 cōmitibus <hi rend="italic">V</hi> </note> <lb/>
              
 <pb n="47"/>
-            profuturas, quas Noricorum religiosa collatio <sic>profiigauerat</sic>, <lb/>
-            baiularent. itaque profecti ad summa Alpium <choice><sic>eacumina</sic><corr>cacumina</corr></choice> peruenerunt, <lb/>
+            profuturas, quas Noricorum religiosa collatio profligauerat, <lb/>
+            baiularent. itaque profecti ad summa Alpium cacumina peruenerunt, <lb/>
             ubi per totam noctem nix tanta confluxit, ut eos <lb/>
-            magnae arboris protectione uallatos uelut ingens <choice><sic>fonea</sic><corr>fouea</corr></choice> demersos <lb/>
+            magnae arboris protectione uallatos uelut ingens fouea demersos <lb/>
             excluderet.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>et cum de uita sua penitus desperarent, nullo  <lb n="5"/>
             scilicet subueniente remedio, uidit ductor comitum per soporem <lb/>
             quendam in effigie uiri dei stantem ae dicentem sibi: \'nolite <lb/>
-            timere, pergite quo <choice><sic>eoepistisl</sic><corr>coepistis</corr></choice>. hac ergo reuelatione protinus <lb/>
-            animati cum coepissent fide magis quam. gressibus <choice><sic>profieisci</sic><corr>proficisci</corr></choice>, <lb/>
-            subito diuino nutu ingentis formae <sic>uraus</sic> e latere <choice><sic>aeniens</sic><corr>ueniens</corr></choice> <choice n="0.22"><sic n="284">clam</sic><corr n="956">uiam</corr></choice> <lb n="10"/>
+            timere, pergite quo coepistis. hac ergo reuelatione protinus <lb/>
+            animati cum coepissent fide magis quam. gressibus proficisci, <lb/>
+            subito diuino nutu ingentis formae ursus e latere ueniens uiam <lb n="10"/>
             monstraturus apparuit, qui se tempore hiemis speluncis abdere <lb/>
             consueuit. mox cupitum reserat iter et per t ducenta ferme <lb/>
-            milia non ad sinistram deuians, non ad dexteram <choice n="0.22"><sic n="284">clam</sic><corr n="956">uiam</corr></choice> demonstrauit <lb/>
+            milia non ad sinistram deuians, non ad dexteram uiam demonstrauit <lb/>
             optabilem.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>tanta enim eos intercapedine praecedebat,  <lb/>
@@ -2371,7 +2369,7 @@
             potuit humanitate perduxit et mox in unam partem officio <lb/>
             diuertit expleto, ostendens tanto ducatus officio, quid homines <lb/>
             hominibus praestare debeant, quantum caritatis impendere, <lb n="20"/>
-            cum desperantibus iter bestia <choice><sic>aaeua</sic><corr>saeua</corr></choice> monstrauerit.</p></div>
+            cum desperantibus iter bestia saeua monstrauerit.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>igitur cum  <lb/>
             seruo dei nuntiarentur qui uenerant, ait: \'sit nomen domini
@@ -2393,7 +2391,7 @@
             <hi rend="italic">N</hi> 21 desperantibus] de spalib; <hi rend="italic">N</hi> sena <hi rend="italic">GLMN</hi> </note> <lb/>
              
 <pb n="48"/>
-            <sic>benedietum</sic>. ingrediantur quibus <choice n="0.22"><sic n="284">clam</sic><corr n="956">uiam</corr></choice>, qua uenirent, <choice n="0.84"><sic n="11">ursus</sic><corr n="2">ursas</corr></choice> <lb/>
+            benedictum. ingrediantur quibus uiam, qua uenirent, ursus <lb/>
             aperuit\' . quo audito illi stupore nimio mirabantur uirum dei <lb/>
             referre id quod in absenti prouenerat. 
 </p>
@@ -2402,27 +2400,27 @@
 </div>
 
 <div n="30" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Ciues item oppidi Lauriaci et superioram transfugae <lb/>
-            castellorum ad <choice><sic>ftuspecta</sic><corr>suspecta</corr></choice> loca <choice><sic>eiploratoribus</sic><corr>exploratoribus</corr></choice> destinatis hostes <lb n="5"/>
-            quantum <choice><sic>bnmana</sic><corr>bumana</corr></choice> poterant sollicitudine <choice><sic>praecauebant</sic><corr>praecanebant</corr></choice>. quos <lb/>
-            <sic>seruufc</sic> dei diuinitatis <choice><sic>iastincta</sic><corr>instinctu</corr></choice> commonitus praesaga mente <lb/>
+            castellorum ad suspects loca exploratoribus destinatis hostes <lb n="5"/>
+            quantum bumana poterant sollicitudine praecauebant. quos <lb/>
+            seruus dei diuinitatis instinctu commonitus praesaga mente <lb/>
             praestruxit, ut omnem paupertatis suae sufficientiam intra <lb/>
-            muros <choice><sic>conoluderent</sic><corr>concluderent</corr></choice>, <choice><sic>quateDU</sic><corr>quatenus</corr></choice> <choice><sic>inimioorum</sic><corr>inimicorum</corr></choice> feralis excursio nihil <lb/>
+            muros concluderent, quatenus inimicorum feralis excursio nihil <lb/>
             humanitatis inueniens statim fame compulsa <hi rend="underline">immania</hi> crudelitatis <lb n="10"/>
             coepta desereret.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>haec per quadriduum contestatas <lb/>
-            aduesperascente iam die Valentem nomine <choice><sic>monaohum</sic><corr>monachum</corr></choice> mittens <lb/>
-            ad sanctum <choice><sic>Constanium</sic><corr>Constantium</corr></choice>, eiusdem loci pontificem, et ad ceteros <lb/>
-            commanentes: <choice><sic>chaoa</sic><corr>hac</corr></choice> inquit \'nocte dispositis per muros ex more <lb/>
-            uigiliis <choice><sic>districting</sic><corr>districtius</corr></choice> <choice><sic>exeubate</sic><corr>excubate</corr></choice>, superuenientis hostis canentes <lb n="15"/>
-            <sic>insidiasV</sic> at illi nihil aduersi per <choice><sic>eiplorptoras</sic><corr>exploratores</corr></choice> <choice n="0.01"><sic n="3">entire</sic><corr n="244">sentire</corr></choice> se  <lb/>
-            <choice><sic>peoitus</sic><corr>penitus</corr></choice> affirmabant.</p></div>
+            aduesperascente iam die Valentem nomine monachum mittens <lb/>
+            ad sanctum Constantium, eiusdem loci pontificem, et ad ceteros <lb/>
+            commanentes: hac inquit \'nocte dispositis per muros ex more <lb/>
+            uigiliis districtius excubate, superuenientis hostis canentes <lb n="15"/>
+            insidias'. at illi nihil aduersi per exploratores sentire se  <lb/>
+            penitus affirmabant.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>sed Christi famulus, praemonere non <lb/>
-            desinens dubitantibus uoce magna <choice><sic>olamabat</sic><corr>clamabat</corr></choice>, eadem nocte eos <lb/>
-            asserens <choice><sic>Capiendos</sic><corr>capiendos</corr></choice>, nisi imperiis fideliter oboedirent, saepius <lb/>
+            desinens dubitantibus uoce magna clamabat, eadem nocte eos <lb/>
+            asserens capiendos, nisi imperiis fideliter oboedirent, saepius <lb/>
             repetens: me inquit \'me, si mentitus fuero, lapidate. itaque <lb n="20"/>
-            tandem aliquando muris inuigilare compulsi, <sic n="poss">exglqua</sic> <choice><sic>congppti</sic><corr>consueti</corr></choice>
+            tandem aliquando muris inuigilare compulsi, expleta consueti
 
 <note type="footnote"> 1 clam <hi rend="italic">OGLMN:</hi> uia <hi rend="italic">TV</hi> 2 aperuit ureus <hi rend="italic">M</hi> 3 absenti <lb/>
             <hi rend="italic">GIsMNTV: absentia C</hi> codd. <hi rend="italic">recc</hi>. 4 item <hi rend="italic">GGLi idem JlNTV</hi> <lb/>
@@ -2442,28 +2440,28 @@
             <hi rend="italic">GLM</hi>. saepins] sepiuuw, M, corr. m. 1 20 repetes T . </note> <lb/>
              
 <pb n="49"/>
-            operis in noctis principio psalmodia, cum <choice><sic>oelefeerrimo</sic><corr>celeberrimo</corr></choice> coepissent <lb/>
-            uigilare <sic>cononrau</sic>, <choice n="0.88"><sic n="15">aceruus</sic><corr n="2">acernus</corr></choice> faeni comminus positus et <lb/>
-            facula baiuli nolentis <choice><sic>aceensus</sic><corr>accensus</corr></choice> lumen, non incendium reddidit <lb/>
-            <choice><sic>oiuitati</sic><corr>oinitati</corr></choice>.</p></div>
+            operis in noctis principio psalmodia, cum celeberrimo coepissent <lb/>
+            uigilare concursu, aceruus faeni comminus positus et <lb/>
+            facula baiuli nolentis accensus lumen, non incendium reddidit <lb/>
+            ciuitati.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>qua occasione uoeiferantibus cunctis hostes siluarum  <lb/>
-            <sic>occnltati</sic> nemoribus, subito splendore <choice><sic>elamQreque</sic><corr>clamoreque</corr></choice> perterriti, <lb n="5"/>
-            putantes se praecognitos <choice><sic>quieuerunfc</sic><corr>quieuerunt</corr></choice> ac mane facto circumdantes <lb/>
+            occultati nemoribus, subito splendore clamoreque perterriti, <lb n="5"/>
+            putantes se praecognitos quieuerunt ac mane facto circumdantes <lb/>
             ciuitatem et ubique discurrentes, cum nihil uictualium repperis. <lb/>
-            <sic>seat</sic>, direpto animalium grege <choice><sic>ouiusdam</sic><corr>cuiusdam</corr></choice> <choice><sic>homiais</sic><corr>hominis</corr></choice>, qui seruo dei <lb/>
+            sent, direpto animalium grege cuiusdam hominis, qui seruo dei <lb/>
             praedicente contumax sua tutare contempserat, recesserunt» <lb/>
-            illis autem <choice><sic>abeuutibus</sic><corr>abeuntibus</corr></choice> ciues portas egressi haud procul a <choice n="0.04"><sic n="13">muria</sic><corr n="259">muris</corr></choice>: <lb n="10"/>
+            illis autem abeuntibus ciues portas egressi haud procul a muris: <lb n="10"/>
             scalas iacentes inuenerunt, quas ad urbis excidium praeparantes <lb/>
-            barbari uigilantium <choice n="0.39"><sic n="260">clamor</sic><corr n="392">clamore</corr></choice> turbati nocte iactauerant.</p></div>
+            barbari uigilantium clamore turbati nocte iactauerant.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>quapropter  <lb/>
             memorati ciues ueniam a Christi famulo precabantur <lb/>
-            <choice><sic>bnmiliter</sic><corr>humiliter</corr></choice>, confitentes corda sua lapidibus esse duriora, qui <lb/>
-            <sic>wrobus</sic> praesentibus agnouerant in sancto uiro gratiam uiguisse <lb n="15"/>
-            <sic>prophetioom</sic>: esset nempe tunc plebs inoboediens uniuersa <lb/>
-            captiua, nisi <choice n="0.00"><sic n="24">earn</sic><corr n="3799">eam</corr></choice> liberam uiri dei consueta <choice><sic>seraasset</sic><corr>seruasset</corr></choice> oratio,, <lb/>
-            <choice><sic>laoobo</sic><corr>Iacobo</corr></choice> apostolo protestante: multum, inquit, <choice><sic>ualert</sic><corr>ualet</corr></choice> oratio <lb/>
+            humiliter, confitentes corda sua lapidibus esse duriora, qui <lb/>
+            rebus praesentibus agnouerant in sancto uiro gratiam uiguisse <lb n="15"/>
+            propheticam: esset nempe tunc plebs inoboediens uniuersa <lb/>
+            captiua, nisi eam liberam uiri dei consueta seruasset oratio,, <lb/>
+            Iacobo apostolo protestante: multum, inquit, ualet oratio <lb/>
             iusti assidua\'. 
 </p>
           </div>
@@ -2472,8 +2470,8 @@
 
 <div n="31" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Feletheus, Bugorum rex, qui et Feba, audiens cunctorem  <lb n="20"/>
             reliquias oppidorum, quae barbaricos euaserant gladios, <lb/>
-            <choice><sic>Lanriacum</sic><corr>Lauriacum</corr></choice> se per dei famulum contulisse, assumpto ueniebat <lb/>
-            exercitu, cogitans repente <choice><sic>deteatos</sic><corr>detentos</corr></choice> abducere et in oppidis sibi
+            Lauriacum se per dei famulum contulisse, assumpto ueniebat <lb/>
+            exercitu, cogitans repente detentos abducere et in oppidis sibi
 
 <note type="footnote"> 18 lac. 5, 16 </note>
 
@@ -2503,12 +2501,12 @@
             mitigaret. cui tota nocte festinans in uicesimo ab urbe miliario <lb n="5"/>
             matutinus occurrit. rex ergo aduentum eius protinus <lb/>
             expauescens testabatur se illius fatigatione plurimum praegrauatum: <lb/>
-            causas itaque repentinae <choice><sic>occnrsionis</sic><corr>occursionis</corr></choice> inquirit. cui  <lb/>
+            causas itaque repentinae occursionis inquirit. cui  <lb/>
             seruus dei: \'pax\' inquit \'tibi, rex optime.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>Christi legatus <lb/>
             aduenio, subditis misericordiam precaturus. recole gratiam, <lb n="10"/>
-            diuina beneficia recordare, quibus pater frequenter se <choice n="0.25"><sic n="86">sensi</sic><corr n="257">sensit</corr></choice> <lb/>
+            diuina beneficia recordare, quibus pater frequenter se sensit <lb/>
             adiutum. nam cunctis regni sui temporibus nihil me inconsulto <lb/>
             gerere praesumebat. qui monitis salutaribus non resistens <lb/>
             crebris prosperitatibus recognouit, quanti ualeret oboedientis <lb/>
@@ -2526,7 +2524,7 @@
             uastatione creberrima sunt erepti et non potius dei <lb/>
             munere, ut tibi paulisper obsequi ualeant, reseruati? nunc <lb/>
             ergo, rex optime, consilium meum ne respuas, fidei meae hos <lb/>
-            committe subiectos, ne tanti exercitus conpulsione <sic>uastentur</sic>
+            committe subiectos, ne tanti exercitus conpulsione uastentur
 
 <note type="footnote"> 1 ex quibus-fauianis <hi rend="italic">GGLN:</hi> 0tII. <hi rend="italic">AlTV</hi> fabianis <hi rend="italic">GLN</hi> <lb/>
             2 daudbio <hi rend="italic">L</hi> 3 adire <hi rend="italic">N</hi> 5 in <hi rend="italic">CGMNTVt om. L</hi> 6 matutinus <lb/>
@@ -2543,12 +2541,12 @@
             compulsione <hi rend="italic">GGLMN</hi>.- </note> <lb n="25"/>
              
 <pb n="51"/>
-            potius quam <sic>migrentur</sic>. confido enim in domino meo, quod <lb/>
-            ipse, qui me fecit <choice n="0.82"><sic n="799">horum</sic><corr n="172">horam</corr></choice> calamitatibus interesse, in <sic>perducendis</sic>\' <lb/>
+            potius quam migrentur. confido enim in domino meo, quod <lb/>
+            ipse, qui me fecit horum calamitatibus interesse, in perducendis\' <lb/>
             eis idoneum faciet promissorem.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>his auditis rex modestis  <lb/>
-            allegationibus mitigatus cum suo protinus remeauit <choice n="0.95"><sic n="686">exercitu</sic><corr n="34">exercita</corr></choice>. <lb/>
+            allegationibus mitigatus cum suo protinus remeauit exercitu. <lb/>
             igitur Romani, quos in sua sanctus Seuerinus fide susceperat, <lb n="5"/>
             de Lauriaco discedentes pacificis dispositionibus in oppidis <lb/>
             ordinati beniuola cum Rugis societate uixerunt. ipse uero <lb/>
@@ -2569,9 +2567,9 @@
             Odoacar gratulabundus paruit imperatis.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>quo etiam tempore,  <lb/>
-            dum <choice n="0.8"><sic n="12">memoratum</sic><corr n="3">memoratam</corr></choice> regem multi nobiles coram sancto uiro <lb/>
-            humana, ut fieri solet, adulatione laudarent, <choice n="0.25"><sic n="14">interrogate</sic><corr n="41">interrogat</corr></choice> quem <lb/>
-            regem tantis praeconiis praetulissent. respondentibus <sic>cOdoacarem</sic>\': <lb n="20"/>
+            dum memoratum regem multi nobiles coram sancto uiro <lb/>
+            humana, ut fieri solet, adulatione laudarent, interrogat quem <lb/>
+            regem tantis praeconiis praetulissent. respondentibus Odoacarem\': <lb n="20"/>
             \'Odoacar\' inquit \'integer tredecim et quattuordecim
 
 <note type="footnote"> 4 cf. Anonym. Valesii §§ 47 sq. p. 292 ed. Gardth. </note>
@@ -2600,7 +2598,7 @@
 <note type="footnote"> 4* </note> <lb/>
              
 <pb n="52"/>
-            anuos\', (annos) uidelicet integri eius regni <choice n="0.70"><sic n="109">significant</sic><corr n="46">significans</corr></choice> et <choice n="0.87"><sic n="5798">his</sic><corr n="852">bis</corr></choice> <lb/>
+            anuos\', (annos) uidelicet integri eius regni significans et his <lb/>
             dictis adiecit citius illos quod ipse praedixerat probaturos. 
 </p>
           </div>
@@ -2608,16 +2606,16 @@
 </div>
 
 <div n="33" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Ab oppidaneis Comagensibus, apud quos prim am <lb/>
-            quondam innotuerat, beatus <choice><sic>Seueriaus</sic><corr>Seuerinus</corr></choice> <choice><sic>sappliciter</sic><corr>suppliciter</corr></choice> <choice n="0.03"><sic n="4">rogatas</sic><corr n="125">rogatus</corr></choice> <lb/>
+            quondam innotuerat, beatus Seuerinus suppliciter rogatus <lb/>
             aduenit. cuius comperta praesentia unus ex optimatibus <lb n="5"/>
             Felethei regis filium. suum adolescentem diuturno langore <lb/>
-            uexatum, cui iam parabat exequia, traiecto Danuuio <sic>pedibuseius</sic> <lb/>
-            proiecit et lacrimans: <choice><sic>ccredo</sic><corr>credo</corr></choice>\' inquit <sic>llolQo</sic> dei, te filio. 
+            uexatum, cui iam parabat exequia, traiecto Danuuio pedibus eius <lb/>
+            proiecit et lacrimans: credo\' inquit homo dei, te filio. 
 </p></div>
 
 <div n="2" subtype="section" type="textpart"><p> <lb/>
             meo uelocem impetrare diuinitus sanitatem. tunc data oratione <lb/>
-            qui semiuiuus allatus fuerat statim incolumis <sic>pafcre</sic> <sic>miraate</sic><lb n="10"/>
+            qui semiuiuus allatus fuerat statim incolumis patre mirante<lb n="10"/>
             surrexit et perfecta protinus reuertitur sospitate. 
 </p>
           </div>
@@ -2625,13 +2623,13 @@
 </div>
 
 <div n="34" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Elefantiosus etiam quidam, Teio nomine, de toagmquis <lb/>
-            regionibus sancti Seuerini <choice><sic>inuitafcus</sic><corr>inuitatus</corr></choice> <sic>uirttttjibus</sic> <choice><sic>aenit</sic><corr>uenit</corr></choice>, <lb/>
+            regionibus sancti Seuerini inuitatus uirtutibus uenit, <lb/>
             rogans eius se oratione mundari. accepto itaque ex more <lb/>
             praecepto iubetur deum, totius gratiae largitorem, sine cessatione <lb n="15"/>
-            <sic>laorimabiliter</sic> exorare.</p></div>
+            lacrimabiliter exorare.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>quid pIura? precibus beati uiri <lb/>
-            idem leprosus diuina opitulatione mundatus, dum <choice><sic>commutajfc</sic><corr>commutat</corr></choice> <lb/>
+            idem leprosus diuina opitulatione mundatus, dum commutat <lb/>
             mores in melius, mutare meruit et colorem, regis aeterni <lb/>
             magnalia tam suis quam plurimorum uocibus longe lateque <lb/>
             denuntians. <lb n="20"/>
@@ -2642,7 +2640,7 @@
 </div>
 
 <div n="35" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Bonosus quoque, monachus beati Seuerini, barbarus <lb/>
-            genere, qui responsis eius inhaerebat, oculorum <choice><sic>imbeoillitatem</sic><corr>imbecillitatem</corr></choice>
+            genere, qui responsis eius inhaerebat, oculorum imbecillitatem
 
 <note type="footnote"> 1 (annos) uidelicet <hi rend="italic">ecripsi (cf. SiUb. XGV p. 491 sqq.):</hi> uidelicet <lb/>
             <hi rend="italic">Iikt</hi> integri eius regni <hi rend="italic">NTV Anonym. Meerm.:</hi> integrum eius regvum. <lb/>
@@ -2665,17 +2663,17 @@
 <pb n="53"/>
             plurimam patiebatur medelamque sibi praestari eius oratione <lb/>
             poscebat, aegre ferens aduentitios et externos salutaris gratiae <lb/>
-            sentire praesidia sibique nullam remediorum <choice n="0.04"><sic n="14">orem</sic><corr n="301">opem</corr></choice> aliquatenus <lb/>
+            sentire praesidia sibique nullam remediorum opem aliquatenus <lb/>
             exhiberi.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>cui senilis dei: on tibi* inquit \'expedit, o fili,  <lb/>
-            corporeis luminibus <choice><sic>atiem</sic><corr>aciem</corr></choice> habere perspicuam et exterioris <lb n="5"/>
+            corporeis luminibus aciem habere perspicuam et exterioris <lb n="5"/>
             oculi clarum praeferre conspectum: ora magis, ut optutus <lb/>
             uegetetur interior\', talibus igitur monitis informatus dedit <lb/>
             operam corde magis uidendi quam corpore meruitque absque <lb/>
             ullo fastidio mirabiliter in orationis effici iugitate continuus <lb/>
             et quadraginta fere annis in monasterii excubiis perseuerans <lb n="10"/>
-            eodem quo <choice><sic>connersus</sic><corr>conuersus</corr></choice> est fidei calore transiuit. 
+            eodem quo conuersus est fidei calore transiuit. 
 </p>
           </div>
 
@@ -2683,7 +2681,7 @@
 
 <div n="36" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>In loco Boiotro superius memorato quosdam tres  <lb/>
             monachos sui monasterii doctor humilis superbiae foeditate <lb/>
-            <choice><sic>tespersos</sic><corr>respersos</corr></choice> dum pro suis singulos excessibus increpatos durare <lb/>
+            respersos dum pro suis singulos excessibus increpatos durare <lb/>
             in pernicie comprobasset, orauit, ut eos dominus in adoptionem <lb n="15"/>
             recipiens filiorum paterno dignaretur flagello corripere. prius <lb/>
             ergo quam orationem effusis lacrimis terminaret, uno momento <lb/>
@@ -2724,7 +2722,7 @@
             signisque mirabilem ad expellendam de corde suo iactantiae <lb/>
             uanitatem, quam incurrerat, exorasse, \'ut permissa in se mensibus <lb/>
             quinque diabolo potestate similis his fieret, quos ipse <lb n="10"/>
-            curauerat\'. idemque post pauca: itaque <sic>ccorreptas</sic> a daemone, <lb/>
+            curauerat\'. idemque post pauca: itaque correptus a daemone, <lb/>
             tentus in uinculis, omnia. illa quae energumeni solent ferre <lb/>
             perpessus quinto demum mense curatus est, non tantum daemone, <lb/>
             sed, quod illi erat utilius atque optatius, uanitate*. 
@@ -2767,10 +2765,10 @@
 </div>
 
 <div n="37" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Maroianum monachum, qui postea presbyter ante  <lb/>
-            nos monasterio praefuit, ad <choice n="0.87"><sic n="7">Noricum</sic><corr n="1">Noricam</corr></choice> cum Renato fratre <lb/>
-            direxerat. et cum dies <choice n="0.96"><sic n="254">tertius</sic><corr n="8">tertias</corr></choice> laberetur, ait fratribus: \'orate, <lb/>
-            carissimi, quia grauis hac hora tribulatio Marcianum <choice n="0.60"><sic n="14">comprimit</sic><corr n="9">comprimi</corr></choice> <lb/>
-            et <sic>Renatum</sic>, de qua tamen Christi liberabuntur auxilio. <lb n="5"/>
+            nos monasterio praefuit, ad Noricum cum Renato fratre <lb/>
+            direxerat. et cum dies tertius laberetur, ait fratribus: \'orate, <lb/>
+            carissimi, quia grauis hac hora tribulatio Marcianum comprimit <lb/>
+            et Renatum, de qua tamen Christi liberabuntur auxilio. <lb n="5"/>
 </p></div>
 
 <div n="2" subtype="section" type="textpart"><p>            tunc monachi quae ab eo dicta sunt protinus adnotantes, illis  <lb/>
@@ -2784,8 +2782,8 @@
 
 <div n="38" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Item uir beatissimus Seuerinus uni ex fratribus,  <lb n="10"/>
             nomine Vrso, repente praecepit quadraginta dierum districtiore <lb/>
-            <choice><sic>ieinnio</sic><corr>ieiunio</corr></choice> uenturae calamitati, abstinentia ciborum et lamentis, <lb/>
-            occurrere, dicens: <choice><sic>cimminet</sic><corr>imminet</corr></choice> tibi corporale periculum, quod dei <lb/>
+            ieiunio uenturae calamitati, abstinentia ciborum et lamentis, <lb/>
+            occurrere, dicens: imminet tibi corporale periculum, quod dei <lb/>
             praesidio parui panis et aquae remediis expiabis\'. quadragesimo <lb/>
             itaque die mortifera papula in brachio ieiunantis apparuit, <lb n="15"/>
             quam mox ad ipsum ingressus suppliciter demonstrauit.</p></div>
@@ -2793,7 +2791,7 @@
 <div n="2" subtype="section" type="textpart"><p>cui  <lb/>
             sanctus dei famulus: \'noli\' inquit \'metuere praenuntiatum tibi <lb/>
             ante dies quadraginta discrimen\', statimque propria manu <lb/>
-            signo crucis obducto <choice><sic>mifantibus</sic><corr>mirantibus</corr></choice>, qui aderant, papula letalis <lb/>
+            signo crucis obducto mirantibus, qui aderant, papula letalis <lb/>
             euanuit. hoc unum de domesticis sanitatibus narrasse sufficiat, <lb n="20"/>
             prolixi operis fastidia declinando. nam saepius suorum aegritudines <lb/>
             monachorum Christo sibi reuelante praenuntians isdem <lb/>
@@ -2819,21 +2817,21 @@
             abstinentia] in abstinentia <hi rend="italic">OG</hi> </note> <lb n="25"/>
              
 <pb n="56"/>
-            iugiter perseuerans: cum quibus tamen matutinas <choice><sic>oratienes</sic><corr>orationes</corr></choice> <lb/>
+            iugiter perseuerans: cum quibus tamen matutinas orationes <lb/>
             et propriam noctis principio psalmodiam sollemniter adimplebat, <lb/>
             reliqua uero orationum tempora in paruo complebat oratorio, <lb/>
-            quo manebat. in quibus saepe caelestibus <choice n="0.22"><sic n="2">firmatas</sic><corr n="7">firmatus</corr></choice> oraculis <lb/>
+            quo manebat. in quibus saepe caelestibus firmatus oraculis <lb/>
             multa futura per dei gratiam praedicebat, multorum etiam <lb n="5"/>
-            occulta <choice><sic>cognogcens</sic><corr>cognoscens</corr></choice>, ut opus erat, proferebat in medium et <lb/>
+            occulta cognoscens, ut opus erat, proferebat in medium et <lb/>
             singulis remedia, prout poscebat modus aegritudinis, prouidebat. 
 </p></div>
 
 <div n="2" subtype="section" type="textpart"><p> <lb/>
             stratus eius unum erat in oratorii pauimento cilicium, omni <lb/>
             tempore ipso quo uestiebatur amictu, etiam dum quiesceret, <lb/>
-            utebatur. numquam ante solis occasum nisi certa <choice><sic>solnit</sic><corr>soluit</corr></choice> <sic>feetiuitate</sic> <lb n="10"/>
+            utebatur. numquam ante solis occasum nisi certa soluit festiuitate <lb n="10"/>
             ieiunium. quadragesimae uero temporibus una per <lb/>
-            <sic>hobdomadem</sic> <choice><sic>refeetione</sic><corr>refectione</corr></choice> contentus aequali uultus hilaritate <lb/>
+            hebdomadem refectione contentus aequali uultus hilaritate <lb/>
             fulgebat. aliena quasi propria errata deflens quibus poterat <lb/>
             praesidiis temperabat. 
 </p>
@@ -2842,18 +2840,18 @@
 </div>
 
 <div n="40" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Deinde post multoB agones et diuturna certamina, cum <lb n="15"/>
-            se idem <choice n="0.05"><sic n="14">beatas</sic><corr n="253">beatus</corr></choice> Seuerinus de hoc saeculo <choice><sic>transitumm</sic><corr>transiturum</corr></choice> deo <lb/>
-            reuelante sensisset, memoratum <sic>Rugorum</sic> regem Febam cum <lb/>
-            <choice><sic>tixore</sic><corr>uxore</corr></choice> eius <choice><sic>orudelissima</sic><corr>crudelissima</corr></choice>, nomine <sic>Giso</sic>, ad se uenire <choice><sic>commonnit</sic><corr>commonuit</corr></choice>. 
+            se idem beatus Seuerinus de hoc saeculo transiturum deo <lb/>
+            reuelante sensisset, memoratum Rugorum regem Febam cum <lb/>
+            uxore eius crudelissima, nomine Giso, ad se uenire commonuit. 
 </p></div>
 
 <div n="2" subtype="section" type="textpart"><p> <lb/>
-            quem cum salutaribus <choice><sic>exhortatue</sic><corr>exhortatus</corr></choice> esset affatibus, ut ita cum <lb/>
+            quem cum salutaribus exhortatus esset affatibus, ut ita cum <lb/>
             sibi subiectis ageret, quo se iugiter cogitaret pro statu regni <lb n="20"/>
             sui rationem domino redditurum, aliisque uerbis intrepide <lb/>
             monuisset, protenta manu regis pectus ostendens reginam his <lb/>
-            interrogationibus arguebat: <sic>chane</sic>) inquit <sic>canimam</sic>, <sic>Giso</sic>, an <lb/>
-            <choice n="0.04"><sic n="33">auram</sic><corr n="684">aurum</corr></choice> argentumque plus diligis?) cumque illa maritum se <lb/>
+            interrogationibus arguebat: hanc) inquit animam, Giso, an <lb/>
+            anrum argentumque plus diligis?) cumque illa maritum se <lb/>
             diceret cunctis opibus anteferre, uir dei sapienter adiecit:
 
 <note type="footnote"> 2 psalmodia <hi rend="italic">L, corr. m. 2</hi> sollempniter <hi rend="italic">LlM</hi> sollenniter <hi rend="italic">G</hi> <lb/>
@@ -2872,15 +2870,15 @@
             <hi rend="italic">V</hi> Cunque <hi rend="italic">TV</hi> </note> <lb n="25"/>
              
 <pb n="57"/>
-            ergo\' inquit <sic>Mesine</sic> <sic n="poss">innoquntes</sic> opprimere, ne <sic>illonim</sic> afflictio <lb/>
+            ergo\' inquit desine innocentes opprimere, ne illorum afflictio <lb/>
             uestram magis dissipet potestatem: etenim mansuetudinem <lb/>
-            regiam tu saepe <sic>conuellis</sic>\'.</p></div>
+            regiam tu saepe conuellis\'.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>at illa: \'cur\' inquit \'nos sic accipis,              <lb/>
-            serue dei?\' cui ipse: <sic>Ccontestor</sic> ait tuos ego <choice><sic>bumillimus</sic><corr>humillimus</corr></choice> iam <lb/>
-            profecturas ad deum, ut ab iniquis <choice><sic>aotibus</sic><corr>actibus</corr></choice> temperantes piis <lb n="5"/>
-            insistatis operibus. <choice><sic>hue</sic><corr>huc</corr></choice> usque <choice><sic>regmum</sic><corr>regnum</corr></choice> uestrum auctore domino <lb/>
-            prosperatum est: iam ex hoc <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> uideritis\'. his monitis rex <lb/>
+            serue dei?\' cui ipse: contestor ait tuos ego humillimus iam <lb/>
+            profecturas ad deum, ut ab iniquis actibus temperantes piis <lb n="5"/>
+            insistatis operibus. huc usque regnum uestrum auctore domino <lb/>
+            prosperatum est: iam ex hoc uos uideritis\'. his monitis rex <lb/>
             cum coniuge sufficienter instructi ualedicentes ei profecti sunt. 
 </p>
           </div>
@@ -2889,18 +2887,18 @@
             alloqui dulcedine caritatis, quod quidem facere nec ante cessauerat. <lb n="10"/>
             \'scitote\' inquit \'fratres, sicut filios Israel constat ereptos <lb/>
             esse de terra Aegypti, ita cunctos populos terrae huius oportet <lb/>
-            ab iniusta barbarorum dominatione liberari. etenim <sic>omaes</sic> <lb/>
-            <choice n="0.16"><sic n="8584">eum</sic><corr n="42581">cum</corr></choice> suis <choice><sic>faeultatibus</sic><corr>facultatibus</corr></choice> de his oppidis emigrantes ad Romanam <lb/>
-            <sic>prouiaciam</sic> absque ulla sui <choice><sic>captiuitafee</sic><corr>captiuitate</corr></choice> peruenient.</p></div>
+            ab iniusta barbarorum dominatione liberari. etenim omnes <lb/>
+            cum suis facultatibus de his oppidis emigrantes ad Romanam <lb/>
+            prouiaciam absque ulla sui captiuitate peruenient.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>sed mementote  <lb n="15"/>
             praecepti sancti Ioseph patriarchae, cuius ego indignus <lb/>
             et infimus uos attestatione conuenio: uisitatione uisitabit <lb/>
-            <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> deus: tollite ossa mea hinc <choice><sic>uobisoum</sic><corr>uobiscum</corr></choice>. quod non <lb/>
-            mihi, sed <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> est profuturum. haec quippe loca nunc <lb/>
-            frequentata cultoribus in tam <choice><sic>nastissimam</sic><corr>uastissimam</corr></choice> solitudinem <choice><sic>redigeDtur</sic><corr>redigentur</corr></choice>, <lb n="20"/>
+            uos deus: tollite ossa mea hinc uobiscum. quod non <lb/>
+            mihi, sed uobis est profuturum. haec quippe loca nunc <lb/>
+            frequentata cultoribus in tam nastissimam solitudinem redigentur, <lb n="20"/>
             ut hostes aestimantes auri se quippiam reperturos <lb/>
-            etiam mortuorum sepulturas <sic n="poss">effodiant5</sic>.</p></div>
+            etiam mortuorum sepulturas effodiant'.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>cuius uaticinii ueritafcem  <lb/>
             euentus rerum praesentium comprobauit. leuari uero <lb/>
@@ -2935,17 +2933,17 @@
 
 <div n="41" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Diem etiam, quo transiturus esset idem beatissimus <lb n="5"/>
             Seuerinus e corpore, ante duos seu amplius annos hac significatione <lb/>
-            monstrauit. Epiphaniorum die, cum sanctus se <choice><sic>Lucillus</sic><corr>Lucilius</corr></choice> <lb/>
+            monstrauit. Epiphaniorum die, cum sanctus se Lucillus <lb/>
             presbyter abbatis sui sancti Valentini, Raetiarum quondam <lb/>
             episcopi, diem depositionis annua sollemnitate in crastinum <lb/>
             celebraturum sollicitus intimasset, idem famulus dei ita<lb n="10"/>
-            respondit: <choice><sic>csi</sic><corr>si</corr></choice> beatus Valentinus haec tibi celebranda sollemnia <lb/>
+            respondit: si beatus Valentinus haec tibi celebranda sollemnia <lb/>
             delegauit, ego quoque tibi in eodem die uigiliarum mearum  <lb/>
-            studia obseruanda migraturus e corpore <sic>derelinquo</sic>.</p></div>
+            studia obseruanda migraturus e corpore derelinquo.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>ille his <lb/>
             sermonibus tremefactus cum se magis, utpote homo decrepitus, <lb/>
-            enixius commendaret quasi primitus <choice n="0.94"><sic n="18">transiturus</sic><corr n="1">transituras</corr></choice>, adiecit: (hoc <lb n="15"/>
+            enixius commendaret quasi primitus transiturus, adiecit: (hoc <lb n="15"/>
             erit, sancte presbyter, quod audisti, nec domini constitutum <lb/>
             humana uoluntate praeteriet). 
 </p>
@@ -2976,19 +2974,19 @@
             <hi rend="italic">GL</hi> federuchus <hi rend="italic">C</hi> 22 cqpit <hi rend="italic">OGLN</hi> cepit <hi rend="italic">M</hi> </note> <lb/>
              
 <pb n="59"/>
-            <sic>cnoueris</sic> me\' inquit \'quantocius ad dominum profecturum et <lb/>
+            noueris me\' inquit \'quantocius ad dominum profecturum et <lb/>
             idcirco monitus praecaueto, ne me discedente aliquid horum, <lb/>
             quae mihi commissa sunt, attaminare pertemptes et substantiam <lb/>
             pauperum captiuorumque contingas, indignationem dei, quod <lb/>
             absit, tali temeritate sensurus\'.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>sed Fredericus insperata  <lb n="5"/>
-            commonitione perculsus: \'cur\' inquit <choice><sic>Chac</sic><corr>hac</corr></choice> contestatione confundimur, <lb/>
+            commonitione perculsus: \'cur\' inquit hac contestatione confundimur, <lb/>
             cum non optemus tantis orbari praesidiis et sanctae <lb/>
             largitioni tuae, quae omnibus nota est, conferre aliquid deceat, <lb/>
             non auferre, quatenus solita, sicut et pater noster Flaccitheus, <lb/>
             tua merear oratione muniri, qui experimento didicit sanctitatis <lb n="10"/>
-            tuae meritis se fuisse semper adiutum?\' et ille: <sic>Cqualibetf</sic> <lb/>
+            tuae meritis se fuisse semper adiutum?\' et ille: qualibet <lb/>
             inquit \'occasione cellulam meam uolueris laedere, et hie <lb/>
             statim probabis et in futuro solues quam non opto uindictam). <lb/>
 </p> 
@@ -3027,35 +3025,35 @@
             commouens <hi rend="italic">N</hi> </note> <lb/>
              
 <pb n="60"/>
-            <sic>informstione</sic> corroborans, instanter ac mirabiliter talia prosecutus  <lb/>
+            informatione corroborans, instanter ac mirabiliter talia prosecutus  <lb/>
             aiebat:</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>\'filii in Christo carissimi, scitis, quod beatus <lb/>
-            Iacob de saeculo <choice><sic>recessaruB</sic><corr>recessurus</corr></choice> condicione mortis <choice><sic>inatante</sic><corr>instante</corr></choice> <sic>fitids</sic> <lb/>
-            suos adesse praecipiens et <sic>prepheticae</sic> benedictionis <choice><sic>affatibos</sic><corr>affatibus</corr></choice> <lb/>
-            singulos quosque rem <sic>anerairs</sic> mysteriorum arcana <choice><sic>prodaht</sic><corr>prodidit</corr></choice> <lb n="5"/>
-            futurorum. nos <choice n="0.00"><sic n="1">nero</sic><corr n="7062">uero</corr></choice> infirmi ac tepidi tantaeque impares pietati <lb/>
-            hanc praerogatiuam nostris usurpare <choice><sic>niribus</sic><corr>uiribus</corr></choice> non <choice><sic>aademus</sic><corr>audemus</corr></choice>, <lb/>
-            unum tamen, quod <choice><sic>biunilitati</sic><corr>humilitati</corr></choice> congruit, non tacebo, mittens <lb/>
-            <sic>ues</sic> ad exempla maiorum, quorum intuentes exitum <choice><sic>comiersafctonis</sic><corr>conuersationis</corr></choice> <lb/>
-            imitamini fidem. Abraham namque <choice><sic>aocatus</sic><corr>uocatus</corr></choice> a domino<lb n="10"/>
+            Iacob de saeculo recessurus condicione mortis instante fitios <lb/>
+            suos adesse praecipiens et prepheticae benedictionis affatibus <lb/>
+            singulos quosque rem unerans mysteriorum arcana prodidit <lb n="5"/>
+            futurorum. nos uero infirmi ac tepidi tantaeque impares pietati <lb/>
+            hanc praerogatiuam nostris usurpare uiribus non audemus, <lb/>
+            unum tamen, quod humilitati congruit, non tacebo, mittens <lb/>
+            ues ad exempla maiorum, quorum intuentes exitum conuersationis <lb/>
+            imitamini fidem. Abraham namque uocatus a domino<lb n="10"/>
             fide oboediuit, at exiret in locum, quem accepturus erat in  <lb/>
-            possessionem, et <choice><sic>eriit</sic><corr>exiit</corr></choice> nesciens, quo «enturos esset.</p></div>
+            possessionem, et exiit nesciens, quo «enturos esset.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>huiua <lb/>
-            igitur beati patriarchae imitamini fidem, imitamini <choice><sic>sanotitatem</sic><corr>sanctitatem</corr></choice>, <lb/>
-            terrena <choice><sic>despioite</sic><corr>despicite</corr></choice>, patriam caelestem semper inquirite. confido <lb/>
+            igitur beati patriarchae imitamini fidem, imitamini sanctitatem, <lb/>
+            terrena despicite, patriam caelestem semper inquirite. confido <lb/>
             autem in domino, quod mihi de uobis aeterna lucra prouenient. <lb n="15"/>
-            <choice><sic>aideo</sic><corr>uideo</corr></choice> enim 1109 <sic>gaudiom</sic> meum feruore spiritus ampliasse, <lb/>
-            amare iustitiam, <choice><sic>fratemae</sic><corr>fraternae</corr></choice> <choice><sic>caritatie</sic><corr>caritatis</corr></choice> <choice><sic>uinosla</sic><corr>uincula</corr></choice> diligere, <choice><sic>castitaii</sic><corr>castitati</corr></choice> <lb/>
-            operam dare, humilitatis <choice><sic>regnlam</sic><corr>regulam</corr></choice> <choice><sic>cnwtodire</sic><corr>custodire</corr></choice>: haec, quantum <lb/>
-            ad hominis spectat intuitum, laudo <choice><sic>eonfidenter</sic><corr>confidenter</corr></choice> et approbo. 
+            uideo enim 1109 gaudium meum feruore spiritus ampliasse, <lb/>
+            amare iustitiam, fraternae caritatis uincula diligere, castitati <lb/>
+            operam dare, humilitatis regulam custodire: haec, quantum <lb/>
+            ad hominis spectat intuitum, laudo confidenter et approbo. 
 </p></div>
 
 <div n="4" subtype="section" type="textpart"><p> <lb/>
             sed orate, at quae humanis aspectibus digna sunt aeternae<lb n="20"/>
-            discretionis examine firmentur, quia non, <sic>situt</sic> homo uidet, <lb/>
-            uidet deus. ille siquidem, sicut diuinus sermo <choice><sic>denustiat</sic><corr>denuntiat</corr></choice>, <lb/>
+            discretionis examine firmentur, quia non, sisut homo uidet, <lb/>
+            uidet deus. ille siquidem, sicut diuinus sermo denuntiat, <lb/>
             omnium corda scrutatur et omnes mentium cogitationes <lb/>
             anteuenit. assiduis ergo precibus hoc sperate, <lb/>
             ut oculos cordis uestri deus inluminet eosque, sicut optauit
@@ -3075,28 +3073,28 @@
             22 diuinis <hi rend="italic">Npr</hi>. 25 illuminet <hi rend="italic">CGLMNT</hi>2<hi rend="italic">V</hi> </note> <lb n="25"/>
              
 <pb n="61"/>
-            beatus Heliseus, aperiat, quo possitis <choice n="0.17"><sic n="16">agnosceret</sic><corr n="75">agnoscere</corr></choice>. quanta, nos <lb/>
-            <choice><sic>circumateat</sic><corr>circumstent</corr></choice> adiumenta sanctorum, quanta fidelibus auxilia <lb/>
-            <choice><sic>piaeparentur</sic><corr>praeparentur</corr></choice>. <choice n="0.02"><sic n="38">dens</sic><corr n="1292">deus</corr></choice> enim <sic>Meter</sic> <choice><sic>supplioibus</sic><corr>supplicibus</corr></choice> appropinquat.</p></div>
+            beatus Heliseus, aperiat, quo possitis agnoscare. quanta, nos <lb/>
+            circumstent adiumenta sanctorum, quanta fidelibus auxilia <lb/>
+            praeparentur. deus enim nester supplicibus appropinquat.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>non  <lb/>
-            desit <sic n="poss">militantibqu</sic> deo iugis oratio: non pigeat agere <sic>paenitmkiam</sic>, <lb/>
-            quem. non puduit facinus perpetrare: non <choice><sic>dubitatia</sic><corr>dubitetis</corr></choice>, <lb n="5"/>
-            luge.e peccantes, si <sic n="poss">quio</sic> modo <choice><sic>offense</sic><corr>offensa</corr></choice> diuinitas <choice><sic>Matrarum</sic><corr>uestrarum</corr></choice> <lb/>
-            <choice><sic>laorimarum</sic><corr>lacrimarum</corr></choice> inundatione <choice><sic>plaootur</sic><corr>placetur</corr></choice>, quia spiritum <choice><sic>coutribulatum</sic><corr>contribulatum</corr></choice> <lb/>
-            suum <choice n="0.25"><sic n="21">digitus</sic><corr n="61">dignatus</corr></choice> eat <choice><sic>uooare</sic><corr>uocare</corr></choice> sacrificium. simus igitur corde, <lb/>
-            <choice><sic>hutoilea</sic><corr>humiles</corr></choice>, <sic>meate</sic> <choice><sic>tianquilli</sic><corr>tranquilli</corr></choice>, <choice n="0.47"><sic n="76">delicto</sic><corr n="83">delicta</corr></choice> omnia <choice><sic>praecauentes</sic><corr>praecanentes</corr></choice> ac <lb/>
-            <choice><sic>diuinonua</sic><corr>diuinorum</corr></choice> semper memores mandatorum, <choice><sic>acientes</sic><corr>scientes</corr></choice> non prodesse <lb n="10"/>
-            nobis <choice><sic>kamilitatem</sic><corr>humilitatem</corr></choice> uestis, nomen monachi, uocabulum religion», <lb/>
-            speciem <choice><sic>piatatia</sic><corr>pietatis</corr></choice>, si <sic>oiica</sic> <choice><sic>obaaruaatiam</sic><corr>obseruantiam</corr></choice> mandatorum degeneres <lb/>
+            desit militantibus deo iugis oratio: non pigeat agere paenitentiam, <lb/>
+            quem. non puduit facinus perpetrare: non dubitetis, <lb n="5"/>
+            luge.e peccantes, si quo modo offensa diuinitas uestrarum <lb/>
+            lacrimarum inundatione placetur, quia spiritum contribulatum <lb/>
+            suum dignatus eat uocare sacrificium. simus igitur corde, <lb/>
+            humiles, mente tranquilli, delicta omnia praecauentes ac <lb/>
+            diuinorum semper memores mandatorum, scientes non prodesse <lb n="10"/>
+            nobis humilitatem uestis, nomen monachi, uocabulum religion», <lb/>
+            speciem pietatis, si circa obseruantiam mandatorum degeneres <lb/>
             inueniamur et reprobi.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>mores igitur, fiJLii mm canssimi,,  <lb/>
-            proposito suscepto <choice><sic>consentiaOot</sic><corr>consentiant</corr></choice>: <choice><sic>grapde</sic><corr>grande</corr></choice> nefas est peccata <lb/>
+            proposito suscepto consentiant: grande nefas est peccata <lb/>
             sectari etiam hominem saecularem, quanto magis monachos, <lb n="15"/>
-            qui blandimenta saeculi quasi atrocem <choice><sic>beatiam</sic><corr>bestiam</corr></choice> fugientes <lb/>
+            qui blandimenta saeculi quasi atrocem bestiam fugientes <lb/>
             Christum cunctis affectibus praetulerunt, quorum incessus et <lb/>
-            habitus <choice><sic>uirtutia</sic><corr>uirtutis</corr></choice> creditur esse documentum? sed quid uos ultra <lb/>
+            habitus uirtutis creditur esse documentum? sed quid uos ultra <lb/>
             demoror, filii carissimi, longi sermonis affatu?</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>superest, ut  <lb/>
@@ -3127,13 +3125,13 @@
 <div n="8" subtype="section" type="textpart"><p> Post huiusmodi igitur aedificationis alloquium cunctos per <lb/>
             ordinem ad osculum suum iussit accedere et sacramento <lb/>
             communionis accepto fieri se penitus prohibet totumque corpus <lb/>
-            signo crucis <choice n="0.84"><sic n="135">externa</sic><corr n="25">extenta</corr></choice> manu consignans, ut psallerent imperauit. <lb/>
-            quibus maeroris suffusione <choice><sic>cnnctantibus</sic><corr>cunctantibus</corr></choice> ipse psalmum protulit <lb n="5"/>
+            signo crucis extenta manu consignans, ut psallerent imperauit. <lb/>
+            quibus maeroris suffusione cunctantibus ipse psalmum protulit <lb n="5"/>
             ad canendum: Laudate dominum in sanctis eius,  <lb/>
             omnis spiritus laudet dominum.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>sexto itaque iduum <lb/>
-            ianuariarum die in hoc <choice><sic>aersicalo</sic><corr>uersiculo</corr></choice> nostris <choice n="0.02"><sic n="47">nix</sic><corr n="1561">uix</corr></choice> respondentibus <lb/>
+            ianuariarum die in hoc uersiculo nostris uix respondentibus <lb/>
             quieuit in domino, quo sepulto credentes omni modo seniores <lb/>
             nostri, quae de transmigratione praedixerat, sicut et multa <lb n="10"/>
             alia praeteriri non posse locellum ligneum parauerunt, ut, cum <lb/>
@@ -3155,7 +3153,7 @@
             suas manus extendere, quendam militem, Auitianum nomine,<lb n="20"/>
             compulit diripere memorata. qui quamuis inuitus praecepta <lb/>
             perficiens, mox tamen incessabiliter uexatus omnium tremore <lb/>
-            <choice><sic>membromm</sic><corr>membrorum</corr></choice> daemonio quoque corripitur. is ergo uelociter <lb/>
+            membrorum daemonio quoque corripitur. is ergo uelociter <lb/>
             consilio meliore correxit errata, suscepto namque professionis <lb/>
             sanctae proposito in insulae solitudine armis caelestibus
 
@@ -3174,21 +3172,21 @@
             <hi rend="italic">LN</hi> his <hi rend="italic">LM</hi> 24 Cscilio <hi rend="italic">M</hi> melire <hi rend="italic">L</hi> pr. nanque <hi rend="italic">C</hi> </note> <lb n="25"/>
              
 <pb n="63"/>
-            mancipatus militiae <choice n="0.93"><sic n="15">commutauit</sic><corr n="1">commutabit</corr></choice> officium.</p></div>
+            mancipatus militiae commutauit officium.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>Frederious autem  <lb/>
             immemor contestationis et praesagii sancti uiri abrasis omnibus <lb/>
-            monasterii rebus parietes <choice n="0.91"><sic n="4318">tantum</sic><corr n="392">tantam</corr></choice>, quos Danuuio non potuit <lb/>
+            monasterii rebus parietes tantum, quos Danuuio non potuit <lb/>
             transferre, dimisit. sed mox in eum ultio denuntiata peruenit: <lb/>
             nam intra mensis spatium a Frederico, fratris filio, interfectus <lb n="5"/>
             praedam pariter amisit et uitam.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>quapropter rex Odoacar,  <lb/>
-            <sic>Rugis</sic> intulit bellum. quibus etiam deuictis et Frederico <lb/>
+            Rngis intulit bellum. quibus etiam deuictis et Frederico <lb/>
             fugato, patre quoque Feba capto et ad Italiam cum noxia <lb/>
             coniuge transmigrato, post audiens idem Odoacar Fredericum <lb/>
             ad propria reuertisse statim fratrem suum misit cum multis <lb n="10"/>
-            exercitibus <sic>Onoulfam</sic>, ante quem denuo fugiens Fredericus ad <lb/>
+            exercitibus Onoulfum, ante quem denuo fugiens Fredericus ad <lb/>
             Theudericum regem, qui tunc apud Nouas, ciuitatem prouinciae <lb/>
             Moesiae, morabatur, profectus est.</p></div>
 
@@ -3197,7 +3195,7 @@
             tunc omnes incolae tamquam de domo seruitutis Aegyptiae, ita <lb n="15"/>
             de cotidiana barbarie frequentissimae depraedationis educti <lb/>
             sancti Seuerini oracula cognouerunt. cuius praecepti non <lb/>
-            immemor uenerabilis noster presbyter tunc <choice><sic>Lucillus</sic><corr>Lucilius</corr></choice>, dum <lb/>
+            immemor uenerabilis noster presbyter tunc Lucillus, dum <lb/>
             uniuersi per comitem Pierium compellerentur exire, praemissa <lb/>
             cum monachis uespere psalmodia sepulturae locum imperat <lb n="20"/>
             aperiri.</p></div>
@@ -3223,33 +3221,33 @@
              
 <pb n="64"/>
             prosterneremur in tortam. deinde humaniter aestimantes ossa <lb/>
-            <sic>funeria</sic> inueniri <sic>disiunota</sic> — <choice><sic>uam</sic><corr>nam</corr></choice> annus sextus depositionis <lb/>
+            funeris inueniri disiuncta — nam annus sextus depositionis <lb/>
             eius effluxerat — integram corporis compagem repperimus. <lb/>
-            ob quod miraculum <choice><sic>inmengas</sic><corr>inmensas</corr></choice> gratias <choice><sic>retulimufl</sic><corr>retulimus</corr></choice> omnium conditori,, <lb/>
-            quia <sic>cadaver</sic> sancti, in quo nulla aromata fuerant, nulla<lb n="5"/>
+            ob quod miraculum inmensas gratias retulimus omnium conditori,, <lb/>
+            quia cadauer sancti, in quo nulla aromata fuerant, nulla<lb n="5"/>
             manna accesserat condientis, cum barba pariter et capillis usque  <lb/>
             ad illud tempus mansisset inlaesum.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>linteaminibus igitur <lb/>
             immutatis in loculo multo ante iam tempore praeparato funus <lb/>
-            includitur, <choice n="0.07"><sic n="1">carpente</sic><corr n="13">carpento</corr></choice> trahentibus equis inpositum mox euehitur <lb/>
-            cunctis nobiscum <choice><sic>prouiucialibus</sic><corr>prouincialibus</corr></choice> idem iter agentibus, qui oppidis <lb n="10"/>
-            super ripam Danuuii derelictis per diuersas Italiae <choice><sic>regionea</sic><corr>regiones</corr></choice> <lb/>
+            includitur, carpente trahentibus equis inpositum mox euehitur <lb/>
+            cunctis nobiscum prouincialibus idem iter agentibus, qui oppidis <lb n="10"/>
+            super ripam Danuuii derelictis per diuersas Italiae regiones <lb/>
             uarias suae peregrinationis sortiti sunt sedes. sancti itaque <lb/>
-            corpusculum ad castellum, nomine Felethem, † <sic>Mulsemensisr</sic> <lb/>
-            <sic>regions</sic> apportatum est. 
+            corpusculum ad castellum, nomine Felethem, † Mulsemensis <lb/>
+            regionis apportatum est. 
 </p>
           </div>
 
 </div>
 
 <div n="45" subtype="chapter" type="textpart"><div n="1" subtype="section" type="textpart"><p>Per idem tempus multi uariis occupati langoribua et <lb n="15"/>
-            nonnulli ab spiritibus <choice><sic>inmuadis</sic><corr>inmundis</corr></choice> oppressi medellam diuinae <lb/>
+            nonnulli ab spiritibus inmundis oppressi medellam diuinae <lb/>
             gratiae sine ulla mora senserunt tunc et mutus quidam ad <lb/>
-            id castellum suorum miseratione <choice><sic>perduotas</sic><corr>perductus</corr></choice> eat. qui dum in <lb/>
-            oratorio, quo sancti uiri corpusculum super <choice><sic>oarrum</sic><corr>carrum</corr></choice> adhuc <lb/>
-            positum permanebat, alacer peruenisset ac sub eo <choice><sic>clause</sic><corr>clauso</corr></choice> oris<lb n="20"/>
-            sui ostio in cordis cubiculo <choice><sic>supplioaret</sic><corr>supplicaret</corr></choice>, ilico lingua eius in
+            id castellum suorum miseratione perductus eat. qui dum in <lb/>
+            oratorio, quo sancti uiri corpusculum super carrum adhuc <lb/>
+            positum permanebat, alacer peruenisset ac sub eo clauso oris<lb n="20"/>
+            sui ostio in cordis cubiculo supplicaret, ilico lingua eius in
 
 <note type="footnote"> 1 terra <hi rend="italic">L</hi> humaniter <hi rend="italic">OOMNTY:</hi> unanimiter <hi rend="italic">L</hi> estimantea <lb/>
             <hi rend="italic">CGLMN</hi> 2 inuenire <hi rend="italic">CO</hi> 3 effluxeraet <hi rend="italic">V</hi> repfirimus <hi rend="italic">L</hi> <lb/>
@@ -3270,13 +3268,13 @@
             <hi rend="italic">M</hi> lingua* <hi rend="italic">T</hi> </note> <lb/>
              
 <pb n="65"/>
-            oratione <choice n="0.97"><sic n="147">soluta</sic><corr n="4">solata</corr></choice> <choice><sic>laudetm</sic><corr>laudem</corr></choice> dixit <choice><sic>altissimq</sic><corr>altissimo</corr></choice>.</p></div>
+            oratione soluta laudem dixit altissimo.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>eumque renersus ad  <lb/>
-            <choice><sic>hoapitium</sic><corr>hospitium</corr></choice>, quo <choice><sic>sfiscipi</sic><corr>suscipi</corr></choice> <choice><sic>eonsuerat</sic><corr>consuerat</corr></choice>, <choice><sic>intarrogus</sic><corr>interrogatus</corr></choice> fuisset; ex more, <lb/>
-            <sic>mitu</sic> signoque pulsatus, et <choice><sic>orasae</sic><corr>orasse</corr></choice> et laudem se <choice><sic>dep</sic><corr>deo</corr></choice> <sic>sbtulissa</sic> <lb/>
-            clara <sic>uooe</sic> <choice><sic>respOndit</sic><corr>respondit</corr></choice>. quo loquente pauefacti qui eum nouerant, <lb/>
-            ad oratorium cum <choice n="0.39"><sic n="260">clamor</sic><corr n="392">clamore</corr></choice> currentes <choice><sic>aancto</sic><corr>sancto</corr></choice> <sic>Luoillo</sic> <lb n="5"/>
+            hospitium, quo suscipi consuerat, intarrogatus fuisset; ex more, <lb/>
+            nutu signoque pulsatus, et orasse et laudem se deo obtulisse <lb/>
+            clara uoce respondit. quo loquente pauefacti qui eum nouerant, <lb/>
+            ad oratorium cum clamore currentes sancto Lucillo <lb n="5"/>
             presbytero simulque nobis, qui cum illo eramus, ignorantibus <lb/>
             quod euenerat, indicarunt. tunc omnes exultantes in gaudio <lb/>
             diuinae clementiae gratiarum retulimus actionem. 
@@ -3290,13 +3288,13 @@
             religiosa deuotione uenerata est. quae post obitum eius audiens <lb/>
             corpusculum sancti in Italiam cum multo labore perductum <lb/>
             et usque ad illud tempus terrae nullatenus commendatum <lb/>
-            uenerabilem presbyterum nostrum Marcianum, sed et <choice><sic>cunctain</sic><corr>cunctam</corr></choice> <lb/>
+            uenerabilem presbyterum nostrum Marcianum, sed et cunctam <lb/>
             congregationem litteris frequentibus inuitauit.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>tunc sancti  <lb n="15"/>
             Gelasii, sedis Romanae pontificis, auctoritate et Neapolitano <lb/>
             populo exequiis reuerentibus occurrente in castello Lucullano <lb/>
-            per manus sancti <choice n="0.69"><sic n="36">Victoria</sic><corr n="16">Victoris</corr></choice> episcopi in mausuleo, quod praedicta <lb/>
+            per manus sancti Victoris episcopi in mausuleo, quod praedicta <lb/>
             femina condidit, collocatum est. 
 </p>
           </div>
@@ -3328,15 +3326,15 @@
 <pb n="66"/>
             quos quaedam uenerabilis ancilla dei, Processa nomine, cinis <lb/>
             Neapolitana, cum grauissimum aegritudinis pateretur incommodum, <lb/>
-            sancti funeris <sic>proaocata</sic> uirtutibus in itinere properanter <lb/>
-            occurrit et ingressa sub <choice><sic>uehioulo</sic><corr>uehiculo</corr></choice>, quo corpus uenerabile <lb/>
+            sancti funeris prouocata uirtutibus in itinere properanter <lb/>
+            occurrit et ingressa sub uehiculo, quo corpus uenerabile <lb/>
             portabatur, statim caruit omnium langore membrorum. <lb n="5"/>
             
 </p>
           </div>
 
 <div n="4" subtype="section" type="textpart"><p> [Tunc et Laudicius quidam caecus, inopinato psallentis <lb/>
-            populi <choice n="0.39"><sic n="260">clamor</sic><corr n="392">clamore</corr></choice> perculsus, sollicite suos quid esset interrogat. <lb/>
+            populi clamore perculsus, sollicite suos quid esset interrogat. <lb/>
             respondentibus, quod cuiusdam sancti Seuerini corpus transiret, <lb/>
             compunctus ad fenestram se duci rogat, de qua poterat a <lb/>
             sanis eminus multitudo psallentium atque uehiculum sancti <lb n="10"/>
@@ -3352,7 +3350,7 @@
             recipere pro incessabili capitis dolore non posset, caput uehiculo <lb/>
             credens apposuit et mox a dolore liberum subleuauit <lb/>
             memorque beneficii semper in die depositionis eius occurrens <lb/>
-            <choice n="0.40"><sic n="71">oti</sic><corr n="105">uoti</corr></choice> sacrificium deo cum gratiarum actione reddebat. <lb n="20"/>
+            uoti sacrificium deo cum gratiarum actione reddebat. <lb n="20"/>
             
 </p>
           </div>
@@ -3446,11 +3444,11 @@
           </div>
 
 <div n="4" subtype="section" type="textpart"><p>Diuinis charismatibus inspiratus scis, bonorum mentibus  <lb/>
-            excolendis quantum <choice n="0.92"><sic n="301">gesta</sic><corr n="26">gestit</corr></choice> sanctorum utilitatis impertiant, <lb n="5"/>
-            quantum <choice n="0.44"><sic n="8">feruoris</sic><corr n="10">femoris</corr></choice> attribuant, quantum puritatis infundant. <lb/>
-            de qua re apostolicae uocis auctoritas latius <sic>hmotescens</sic>: forma, <lb/>
+            excolendis quantum gesta sanctorum utilitatis impertiant, <lb n="5"/>
+            quantum feruoris attribuant, quantum puritatis infundant. <lb/>
+            de qua re apostolicae uocis auctoritas latius innotescens: forma, <lb/>
             inquit, estote gregi, et beatus Paulus Timotheo praecipit: <lb/>
-            forma esto fidelibus. <choice><sic>uJide</sic><corr>unde</corr></choice> idem apostolus iustorum <lb/>
+            forma esto fidelibus. unde idem apostolus iustorum <lb/>
             catalogum summa breuitate contexens ab Abel incipiens <lb n="10"/>
             insignium uirorum pergit narrare uirtutes.</p></div>
 
@@ -3458,7 +3456,7 @@
             Matathias morti gloriosissimae iam propinquans filiis <lb/>
             suis hereditario iure sanctorum exempla distribuit, quorum <lb/>
             certaminibus admirandis celebrius excitati animas suas pro <lb/>
-            legibus sempiternis <choice><sic>fcanctitatis</sic><corr>sanctitatis</corr></choice> feruore contemnerent. nec <lb n="15"/>
+            legibus sempiternis Sanctitatis feruore contemnerent. nec <lb n="15"/>
             paterna liberos fefellit instructio: tantum enim profuerunt <lb/>
             memoratis facta maiorum, ut aperta fide armatos principes <lb/>
             deterrerent, castra sacrilega superarent, cultus arasque daemonicas <lb/>
@@ -3512,7 +3510,7 @@
             <l>Quo Seuerinus penetrauit almus </l><lb/>
             <l>Celsa polorum. </l><lb n="5"/>
             </lg>
-          <lg><l><choice n="0.30"><sic n="330">Quia</sic><corr n="769">Quis</corr></choice> stilo diues modulansque plectro </l><lb/>
+          <lg><l>Quis stilo diues modulansque plectro </l><lb/>
             <l>Cuncta signorum replicare possit, </l><lb/>
             <l>Quae potens Christus studiis opimis </l><lb/>
             <l>Contulit eius? </l></lg>
@@ -3550,11 +3548,11 @@
             <l>Ad tuos haustus olei liquamen </l><lb/>
             <l>Fontis ad instar. </l></lg>
           <lg><l>Condolens cunctos inopes fouebat, </l><lb/>
-            <l>Languidos <choice><sic>Banans</sic><corr>sanans</corr></choice> releuabat aegros: </l><lb/>
+            <l>Languidos sanans releuabat aegros: </l><lb/>
             <l>Omnis accedens salubrem medelam </l><lb n="15"/>
             <l>Sumpsit ab illo. </l></lg>
           <lg><l>Tuque Siluinum loculo iacentem, </l><lb/>
-            <l>Fratribus coram <choice><sic>preoibus</sic><corr>precibus</corr></choice> peractis, </l><lb/>
+            <l>Fratribus coram precibus peractis, </l><lb/>
             <l>Morte deuicta redire fecisti ad </l><lb/>
             <l>Gaudia uitae. </l><lb n="20"/>
             </lg>

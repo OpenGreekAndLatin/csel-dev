@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -109,12 +107,12 @@
     <p rend="script">Incipiunt nomina episcoporum catholicorum diuersarum <lb/> prouinciarum, qui
       Carthagine ex praecepto regali uenerunt pro <lb/> reddenda ratione fidei die KL Februarias
       anno sexto regis <lb/>
-      <choice><sic>Hnnerici</sic><corr>Hunerici</corr></choice>. </p>
+      Hunerici. </p>
     <p>Nomina episcoporum prouinciae proconsularis uel qui in <lb/> exilium missi sunt. </p>
     <l n="1">Eugenius Carthaginiensis Tamalleni.</l>
     <l n="2">Felix Aboritanus. exilium.</l>
     <l n="3">Paulus Sinnarensis. exilium.</l>
-    <l n="4">Felix Piensis Corsica. <choice><sic>exil</sic><corr>exii</corr></choice>.</l>
+    <l n="4">Felix Piensis Corsica. exil.</l>
     <l n="5">Marianus Hippzaritensis ut sp.</l>
     <l n="6">Pascasius Gunelensis ut sp.</l>
     <l n="7">Sacconius Uzalensis ut sup.</l>
@@ -123,9 +121,9 @@
     <l n="10">Reparatus Utimmirensis ut sp.</l>
     <l n="11">Pastinatus Puppitanus ut sp.</l>
     <l n="12">Reparatus Puppianensis.</l>
-    <l n="13"><sic n="poss">Fortnnatianus</sic> Araditanus. Corsic.</l>
+    <l n="13">Fortunatianus Araditanus. Corsic.</l>
     <l n="14">Deumhabet Thelensis. Corsica.</l>
-    <l n="15">Liberatus <choice><sic>Mnllitanus</sic><corr>Mullitanus</corr></choice> ut sp.</l>
+    <l n="15">Liberatus Mullitanus ut sp.</l>
     
     <note type="footnote"> prouintiarum A sexto] <hi rend="italic">immo</hi> octauo; <hi rend="italic">cf. Viet. III, 4</hi> prouiotiae<lb/>
       <hi rend="italic">A</hi> 1 Tamalleni] <hi rend="italic">hunc locum</hi> (turris Tamalleni
@@ -143,16 +141,16 @@
     <l n="16">Mannucius Duas - Senemsalensis. </l>
     <l n="17">Hirundinus Missuensis. Corsic. </l>
     <l n="18">Iona Lapdensis. ut sp. </l>
-    <l n="19">Peregrinus Assuritanus in <choice><sic>exil</sic><corr>exii</corr></choice>. hic. </l>
+    <l n="19">Peregrinus Assuritanus in exil. hic. </l>
     <l n="20">Quintianus Uricitanus. </l>
     <l n="21">Cresconius Tonnonensis. prbt. </l>
-    <l n="22"><choice><sic>Florentinvs</sic><corr>Florentinus</corr></choice>
-      <choice><sic>Utioensis</sic><corr>Uticensis</corr></choice>. <sic>Corsie</sic>. </l>
-    <l n="23"><choice><sic>Pasoasius</sic><corr>Pascasius</corr></choice> Migirpensis ut sp. </l>
-    <l n="24">Carissimus Gisipensis. in <choice><sic>exil</sic><corr>exii</corr></choice>. </l>
+    <l n="22">Florentinus
+      Uticensis. Corsie. </l>
+    <l n="23">Pascasius Migirpensis ut sp. </l>
+    <l n="24">Carissimus Gisipensis. in exil. </l>
     <l n="25">Gaius Uzitensis prbt. </l>
     <l n="26">Exitiosus Uerensis. Corsic. </l>
-    <l n="27">Crescens Cicisitanus. in <choice><sic>exil</sic><corr>exii</corr></choice>. </l>
+    <l n="27">Crescens Cicisitanus. in exil. </l>
     <l n="28">Bonifatius Uolitanus. Corsica. </l>
     <l n="29">Felix Carpitanus ut sup. </l>
     <l n="30">Carcadius Maxulitanus ut sp. </l>
@@ -162,11 +160,11 @@
     <l n="34">Felix Bullensis. prbt. </l>
     <l n="35">Clementinus Neapolitanus. Corsic. </l>
     <l n="36">Felix Curubitanus ut sp. </l>
-    <l n="37"><sic>Deaterius</sic> Simminensis ut sp. </l>
+    <l n="37">Deuterius Simminensis ut sp. </l>
     <l n="38">Aurelius Clipiensis ut sp. </l>
     <l n="39">Coronius Meglapolitanus ut sp. </l>
     <l n="40">Benenatus Timidensis ut sp. </l>
-    <l n="41">Uincentius Ziggensis. in <choice><sic>exil</sic><corr>exii</corr></choice>. </l>
+    <l n="41">Uincentius Ziggensis. in exil. </l>
     <l n="42">Florentius Seminensis. Corsica.</l>
     
     <note rend="script" type="footnote"> 16 Duasaenemsalensis <hi rend="italic">Haimius</hi>
@@ -192,10 +190,10 @@
     
     <pb n="119"/>
     <l n="43">Honoratus Tagaratensis prbt. </l>
-    <l n="44">Uindemius <choice><sic>Altubnritanus</sic><corr>Altuburitanus</corr></choice>.
-      <sic>exil</sic>. </l>
+    <l n="44">Uindemius Altuburitnus.
+      exil. </l>
     <l n="45">Cyprianus Cellensis in exit </l>
-    <l n="46">Augentius <sic n="poss">Uzipparitanus</sic>. in <sic>exil</sic>. </l>
+    <l n="46">Augentius Uzipparitznus. in exil. </l>
     <l n="47">Cassosus Ausanensis. hic. </l>
     <l n="48">Maximinus Naraggaritanus. hic. </l>
     <l n="49">Felix Muzuensis. </l>
@@ -204,7 +202,7 @@
     <l n="52">Benenatus Tuburbitensis. </l>
     <l n="53">Uictor Teudalensis. </l>
     <l n="54">Pascasius Tulanensis. </l>
-    <l n="55">Sunt numero <sic>Lim</sic>. </l>
+    <l n="55">Sunt numero Lim. </l>
   </div>
   <div n="2" subtype="section" type="textpart">
     <ab><title>Nomina episcoporum prouinciae Numidiae.</title></ab>
@@ -214,7 +212,7 @@
     <l n="4">Honoratus Castellanus. </l>
     <l n="5">Leontius Burcensis. </l>
     <l n="6">Firmianus Centurionensis. prbt. </l>
-    <l n="7"><choice><sic>Bufinianus</sic><corr>Rufinianus</corr></choice> Uadensis. </l>
+    <l n="7">Rufinianus Uadensis. </l>
     <l n="8">Paulus Nibensis. prbt. </l>
     <l n="9">Martialis Girensis. </l>
     <l n="10">Uictor Cuiculitanus. </l>
@@ -247,7 +245,7 @@
     <l n="26">Adeodatus Noua-Barbarensis. </l>
     <l n="27">Adeodatus Idassensis. </l>
     <l n="28">Florentius Noua-Germaniensis. </l>
-    <l n="29"><sic>Uillaticus</sic> de Casis Medianis. </l>
+    <l n="29">Uillaticus de Casis Medianis. </l>
     <l n="30">Eusebius Susicaziensis. </l>
     <l n="31">Uictorinus de Noua Caesaris. </l>
     <l n="32">Uitalianus Uazaritanus. </l>
@@ -283,16 +281,16 @@
     <l n="50">Ianuarius Iattarensis. </l>
     <l n="51">Uictorinus de Castello Tituliano. </l>
     <l n="52">Fructuosus de Giru Marcelli. </l>
-    <l n="53">Cresconius <sic>Tbarasensis</sic>. </l>
+    <l n="53">Cresconius Tharasensis. </l>
     <l n="54">Maximus Sillitanus prbt. </l>
     <l n="55">Uigilius Hizirzadensis prbt. </l>
     <l n="56">Uictor Municipensis. </l>
     <l n="57">Seruus Arsicaritanus. </l>
-    <l n="58">Felix Casae - <sic>Nigrensis</sic>. </l>
+    <l n="58">Felix Casae - Nigrensis. </l>
     <l n="59">Donatianus Uegeselitanus. </l>
     <l n="60">Pudentius Madaurensis. </l>
     <l n="61">Donatus Rusticianensis. </l>
-    <l n="62">Donatus Uilla - <sic>Eegensis</sic>. </l>
+    <l n="62">Donatus Uilla - Regensis. </l>
     <l n="63">Crescens Buffadensis prbt. </l>
     <l n="64">Adeodatus Sistronianensis prbt. </l>
     <l n="65">Rusticus Tipasensis. </l>
@@ -300,7 +298,7 @@
     <l n="67">Stephanus Sinitensis. </l>
     <l n="68">Pascentius Cathaquensis. Corsica. </l>
     <l n="69">Donatianus Teglatensis. </l>
-    <l n="70"><choice><sic>Cresoonins</sic><corr>Cresconius</corr></choice> Zabensis. </l>
+    <l n="70">Cresconius Zabensis. </l>
     <l n="71">Antonianus Mustitanus. </l>
     <l n="72">Reparatus Tubuniensis.</l>
 
@@ -315,12 +313,12 @@
   <hi rend="italic">H</hi> </note>
 
 <pb n="122"/>
-<l n="73">Anastasius Aquae - <sic>Nouensis</sic>. </l>
+<l n="73">Anastasius Aquae - Nouensis. </l>
 <l n="74">Uictorinus Babrensis prbt. </l>
 <l n="75">Felix Tebestinus. </l>
 <l n="76">Domninus Moxoritanus metallo. </l>
 <l n="77">Secundus Tamogaziensis prbt. </l>
-<l n="78">Uictorinus <sic>Legiensis</sic>. </l>
+<l n="78">Uictorinus Legiensis. </l>
 <l n="79">Quoduultdeus Respectensis. </l>
 <l n="80">Ianuarius Uelefitanus. </l>
 <l n="81">Benenatus Mazacensis prbt. </l>
@@ -364,7 +362,7 @@
 <l n="108">Mensor Formensis. </l>
 <l n="109">Peregrinus Muliensis. </l>
 <l n="110">Gedalius Ospitensis. </l>
-<l n="111">Fulgentius <sic>Uagadensis</sic> prbt. </l>
+<l n="111">Fulgentius Uagadensis prbt. </l>
 <l n="112">Secundinus Lamasbensis. </l>
 <l n="113">Crescentius Tacaratensis. </l>
 <l n="114">Benenatus Mileuitanus. </l>
@@ -372,12 +370,12 @@
 <l n="116">Proficius Seleucianensis prbt. </l>
 <l n="117">Proficius Uadensis prbt. </l>
 <l n="118">Ianuarius Tagastensis prbt. </l>
-<l n="119">Donatus <sic>Maximjanensis</sic>. </l>
+<l n="119">Donatus Maximianensis. </l>
 <l n="120">Adeodatus Zaradtensis prbt. </l>
-<l n="121"><sic n="poss">Felicianus</sic> de Giru Tarasi. </l>
+<l n="121">Felicianus de Giru Tarasi. </l>
 <l n="122">Cardelus Lamiggigensis. </l>
-<l n="123">Flauianus <sic>Uico</sic> - Pacensis. </l>
-<l n="124">Sunt numero <sic>cxxv</sic>. </l>
+<l n="123">Flauianus Uico - Pacensis. </l>
+<l n="124">Sunt numero CXXV. </l>
 
   </div>
     
@@ -401,25 +399,25 @@
     <pb n="124"/>
     
     <l n="3">Pascasius Septimuniciensis. </l>
-    <l n="4">Hortulanus <sic>Beaefensis</sic>. </l>
-    <l n="5">Uictorinus <sic>Anonsensis</sic>. </l>
+    <l n="4">Hortulanus Benefensis. </l>
+    <l n="5">Uictorinus Ancusensis. </l>
     <l n="6">Euodius Mididitanus. </l>
     <l n="7">Terentianus Tubulbacensis. </l>
-    <l n="8"><sic>Rogatianus</sic> Ualentinianensis. </l>
+    <l n="8">Rogatianus Ualentinianensis. </l>
     <l n="9">Bonifatius Masclianensis. </l>
     <l n="10">Uictorinus Seuerianensis. </l>
     <l n="11">Uictor Narensis. </l>
     <l n="12">Leontius Decorianensis. </l>
     <l n="13">Seruusdei Tambeitanus. </l>
-    <l n="14">Laetus <sic>Neptitanus</sic>. </l>
+    <l n="14">Laetus Neptitanus. </l>
     <l n="15">Felix Custrensis prbt. </l>
     <l n="16">Flauianus Bulelianensis. </l>
     <l n="17">Decimus Theuzitanus. </l>
     <l n="18">Seruandus Putiensis. </l>
-    <l n="19"><choice><sic>Restitutas</sic><corr>Restitutus</corr></choice> <sic>Thagamutenais</sic>. </l>
-    <l n="20"><choice><sic>Praesidins</sic><corr>Praesidius</corr></choice> <sic>Sufetulensie</sic> in <choice><sic>exil</sic><corr>exii</corr></choice>. </l>
+    <l n="19">Restitutus Thagamutensis. </l>
+    <l n="20">Praesidius Sufetulensis in exil. </l>
     <l n="21">Eustratius Sufetanus. </l>
-    <l n="22"><choice><sic>Secundinas</sic><corr>Secundinus</corr></choice> Garrianensis prbt. - </l>
+    <l n="22">Secundinus Garrianensis prbt. - </l>
     <l n="23">Praefectianus Abaradirensis prbt. </l>
     <l n="24">Sabinicus Octauiensis. </l>
     <l n="25">Adelfius Mactaritanus. </l>
@@ -454,8 +452,8 @@
     <l n="40">Felix Crepedulensis. </l>
     <l n="41">Cyprianus Unuzibirensis. </l>
     <l n="42">Innocentius Muzucensis. </l>
-    <l n="43">Possidius <choice><sic>Massimaneusis</sic><corr>Massimanensis</corr></choice> non occurrit. </l>
-    <l n="44">Uictor Uitensis <choice><sic>nou</sic><corr>non</corr></choice> occurrit. </l>
+    <l n="43">Possidius Massimanensis non occurrit. </l>
+    <l n="44">Uictor Uitensis non occurrit. </l>
     <l n="45">Uictorinus Scebatianensis. </l>
     <l n="46">Adeodatus Pederodianensis. </l>
     <l n="47">Athenius Circinitanus. </l>
@@ -463,7 +461,7 @@
     <l n="49">Uindicianus Marazanensis. </l>
     <l n="50">Adelfius Mattaritanus. </l>
     <l n="51">Adeodatus Praecausensis. </l>
-    <l n="52">Restitutus Aquis - <sic>Albensium</sic>. </l>
+    <l n="52">Restitutus Aquis - Albensium. </l>
     <l n="53">Felix Irpinianensis. </l>
     <l n="54">Uictorinus Usulensis. </l>
     <l n="55">Habetdeum Tamallumensis. </l>
@@ -494,7 +492,7 @@
     <l n="69">Succensianus Febianensis. </l>
     <l n="70">Iulianus Uararitanus. </l>
     <l n="71">Bonifatius Frontonianensis. </l>
-    <l n="72">Secundianus Mimianensis. in <choice><sic>exil</sic><corr>exii</corr></choice>. </l>
+    <l n="72">Secundianus Mimianensis. in exil. </l>
     <l n="73">Donatus Boanensis. </l>
     <l n="74">Bonifatius Maraguiensis. </l>
     <l n="75">Pirasius Nationensis. </l>
@@ -510,7 +508,7 @@
     <l n="85">Donatus Rufinianensis. </l>
     <l n="86">Liberatus Aquarum Regiarum prbt. </l>
     <l n="87">Uictorianus Quaestorianensis. </l>
-    <l n="88">Rufinianus <sic>Uictorianenais</sic>. </l>
+    <l n="88">Rufinianus Uictorianensis. </l>
     <l n="89">Maximus Gummitanus. </l>
     <l n="90">Peregrinus Materianensis. </l>
     <l n="91">Fortunatus Mozotcoritanus.</l>
@@ -531,7 +529,7 @@
     <l n="96">Uillaticus Auzegerensis. </l>
     <l n="97">Cresconius Temonianensis prbt. </l>
     <l n="98">Paulus Turre-Blandinus prbt. </l>
-    <l n="99">Restitutus Segermitanus in <choice><sic>exil</sic><corr>exii</corr></choice>. </l>
+    <l n="99">Restitutus Segermitanus in exil. </l>
     <l n="100">Uictor Gauuaritanus. </l>
     <l n="101">Donatianus Aeliensis. </l>
     <l n="102">.Stephanus Ruspensis. </l>
@@ -542,7 +540,7 @@
     <l n="107">Seruitius Unuricopolitanus. </l>
     <l n="108">Donatus Aggaritanus. </l>
     <l n="109">Uigilius Tapsitanus. </l>
-    <p>Sunt numero <sic>cvu</sic>. </p>
+    <p>Sunt numero CVII. </p>
     
     <ab><title>Et cathedrae quae episcopos non habuerunt. </title></ab>
     <l n="110">Madassuma. </l>
@@ -566,17 +564,17 @@
   </div>
   <div n="4" subtype="section" type="textpart">
     <pb n="128"/>
-    <ab><title>Nomina episcoporum <sic>Manr</sic> Caesariensis. </title></ab>
+    <ab><title>Nomina episcoporum Maur Caesariensis. </title></ab>
     
-    <l n="1">1 <sic>Glorinus</sic> Iuncensis. </l>
+    <l n="1">1 Glorinus Iuncensis. </l>
     <l n="2">Tiberianus Quizensis. </l>
     <l n="3">Uictor Sufaritanus. </l>
-    <l n="4"><choice><sic>Sjrus</sic><corr>Syrus</corr></choice> Corniculanensis. </l>
+    <l n="4">Syrus Corniculanensis. </l>
     <l n="5">Lucius Itensis. </l>
     <l n="6">Honoratus Timicitanus. </l>
     <l n="7">Donatus Nouicensis prbt. </l>
     <l n="8">Patera Milianensis. </l>
-    <l n="9">Reparatus <sic>Giru</sic> - <sic>Montensis</sic>. </l>
+    <l n="9">Reparatus Giru - Montensis. </l>
     <l n="10">Auus Altabensis. </l>
     <l n="11">Donatus Panatoriensis. </l>
     <l n="12">Martialis Columnatensis. </l>
@@ -597,7 +595,7 @@
     <l n="27">Passitanus Tigisitanus. </l>
     <l n="28">Salo Fallabensis. </l>
     <l n="29">Donatianus Usinadensis. </l>
-    <l n="30">Paulus Flumen - <sic>Zeritanus</sic>. </l>
+    <l n="30">Paulus Flumen - Zeritanus. </l>
     <l n="31">Nicetius Castello - Minoritanus.</l>
       
       <note type="footnote"> 2 teberianus <hi rend="italic">et</hi> quidiensis <hi rend="italic">A; cf. Schuch</hi>. II, <hi rend="italic">2; I,</hi> 68 7 nobicensis <lb/>
@@ -607,36 +605,36 @@
       <pb n="129"/>
       
       <l n="32">Restitutus Florianensis. </l>
-      <l n="33"><choice><sic>Mensins</sic><corr>Mensius</corr></choice> Ala-Miliarensis. </l>
+      <l n="33">Mensius Ala-Miliarensis. </l>
       <l n="34">Maxentius Tigamibenensis prbt. </l>
       <l n="35">Urbanus Amaurensis prbt. </l>
       <l n="36">Crescens Sestensis prbt. </l>
       <l n="37">Donatus Ternamusensis. </l>
-      <l n="38">Fortis Caput - <sic>Cillensis</sic>. </l>
-      <l n="39">Ianuarius <sic>Nasbineensis</sic> prbt. </l>
+      <l n="38">Fortis Caput - Cillensis. </l>
+      <l n="39">Ianuarius Nasbincensis prbt. </l>
       <l n="40">Palladius Bacanariensis. </l>
       <l n="41">Ualens Uillae-Nouensis. </l>
-      <l n="42">Passinatus <sic>Masncoabensis</sic> prbt. </l>
+      <l n="42">Passinatus Masuccabensis prbt. </l>
       <l n="43">Longinus Pamariensis. </l>
-      <l n="44"><choice><sic>Honorins</sic><corr>Honorius</corr></choice> Benepotensis. </l>
+      <l n="44">Honorius Benepotensis. </l>
       
-      <l n="45"><choice><sic>Bnrco</sic><corr>Burco</corr></choice> Uardimissensis prbt. </l>
+      <l n="45">Burco Uardimissensis prbt. </l>
       <l n="46">Felix Ambiensis. </l>
       <l n="47">Emilius Mediensis. </l>
       <l n="48">Arator Catulensis. </l>
       <l n="49">Caecilius Minnensis. </l>
       <l n="50">Lucidus Cartennitanus. </l>
-      <l n="51">Uictor <choice><sic>Begiensis</sic><corr>Regiensis</corr></choice>. </l>
+      <l n="51">Uictor Regiensis. </l>
       <l n="52">Rogatianus Uannidensis prbt. </l>
       <l n="53">Primus Caprensis. </l>
       <l n="54">Metcun Rusuccuritanus. </l>
       <l n="55">Rufus Sfasferiensis. </l>
       <l n="56">Eusebius Obbitanus. </l>
       <l n="57">Securus Timidanensis. </l>
-      <l n="58">Donatus <sic>FronteDsis</sic>. </l>
-      <l n="59">Uictor <sic>loositanus</sic>. </l>
+      <l n="58">Donatus Frontensis. </l>
+      <l n="59">Uictor Icositanus. </l>
       <l n="60">Quoduultdeus Tablensis prbt. </l>
-      <l n="61"><choice><sic>Restitutua</sic><corr>Restitutus</corr></choice> Lapidiensis prbt. </l>
+      <l n="61">Restitutus Lapidiensis prbt. </l>
       <l n="62">Donatus Uoncariensis.</l>
       
       
@@ -657,19 +655,19 @@
     <l n="65">Mattasius Castelli-Abaritanus. </l>
     <l n="66">Felix Aquis-Sirensis. </l>
     <l n="67">Uictor Caltadriensis prbt. </l>
-    <l n="68"><choice><sic>Cresoena</sic><corr>Crescens</corr></choice> Tigauitanus. </l>
+    <l n="68">Crescens Tigauitanus. </l>
     <l n="69">Idonius Busaditanus. </l>
-    <l n="70">Gellianus <sic>Reperitanus</sic>. </l>
+    <l n="70">Gellianus Reperitanus. </l>
     <l n="71">Ingenuus Ubadensis. </l>
     <l n="72">Petrus Oboritanus. </l>
     <l n="73">Faustus Castra - Seuerianensis. </l>
     <l n="74">Uitalis Castra-Nouensis. </l>
     <l n="75">Petrus Castellanus prbt. </l>
-    <l n="76">Quintasius <choice><sic>Muteoitanus</sic><corr>Mutecitanus</corr></choice>. </l>
-    <l n="77">Paulinus <sic>Bubioariensis</sic>. </l>
+    <l n="76">Quintasius Mutecitanus. </l>
+    <l n="77">Paulinus Rubicariensis. </l>
     <l n="78">Pascasius Mammillensis. </l>
     <l n="79">Tacanus Albulensis. </l>
-    <l n="80">Emptacius <choice><sic>Siocesitanus</sic><corr>Siccesitanus</corr></choice>. </l>
+    <l n="80">Emptacius Siccesitanus. </l>
     <l n="81">Talasius Gratianopolitanus. </l>
     <l n="82">Uictor Manaccenseritanus prbt. </l>
     <l n="83">Pannonius Bitensis. </l>
@@ -693,11 +691,11 @@
       gratinopolitanus A 89 Uulturiensis scripsi: bulturiensis <hi rend="italic">AH</hi> </note>
     <pb n="131"/>
     
-    <l n="93">Mingin <choice><sic>Nonensis</sic><corr>Nouensis</corr></choice> prbt. </l>
-    <l n="94">Reparatus Castelli - <sic>Tatroportenais</sic>. </l>
+    <l n="93">Mingin Nouensis prbt. </l>
+    <l n="94">Reparatus Castelli - Tatroportensis. </l>
     <l n="95">Filo Arsinnaritanus.</l>
     <l n="96">Bassinus Elefantariensis prbt. </l>
-    <l n="97">Patera <sic>Catabitanus</sic>. </l>
+    <l n="97">Patera Catabitanus. </l>
     <l n="98">Uincemalos Baparensis. </l>
     <l n="99">Reparatus Tipasitanus prbt. </l>
     <l n="100">Romanus Tamadensis prbt. </l>
@@ -708,11 +706,11 @@
     <l n="105">Dauid Tadamatensis. </l>
     <l n="106">Candidianus Catrensis prbt. </l>
     <l n="107">Reparatus Cissitanus. </l>
-    <l n="108">Poequarius <sic>Tasaccurensis</sic> prbt. </l>
+    <l n="108">Poequarius Tasaccurensis prbt. </l>
     <l n="109">Quintus Tabuniensis prbt. </l>
     <l n="110">Maximus Tuscamiensis. </l>
     <l n="111">Auxilius Gunugitanus prbt. </l>
-    <l n="112"><sic>Beparatus</sic> Sitensis. </l>
+    <l n="112">Reparatus Sitensis. </l>
     <l n="113">Saturninus Uissalsensis prbt. </l>
     <l n="114">Felix Maxitensis prbt. </l>
     <l n="115">Gaius Adsinnadensis prbt. </l>
@@ -720,7 +718,7 @@
     <l n="117">Saturninus Sertensis prbt. </l>
     <l n="118">Uictor Numidensis prbt. </l>
     <l n="119">Cerealis Castello-Bipensis.- </l>
-    <l n="120">Lucius <choice><sic>Tamazncensis</sic><corr>Tamazucensis</corr></choice>. </l>
+    <l n="120">Lucius Tamazucensis. </l>
     <l n="121">\'Sunt N. cxx.</l>
     
     <note type="footnote"> 93 nobensis A 96 Bassinus Elefantariensis scripsi: uassinus <lb/>
@@ -737,9 +735,9 @@
     <pb n="132"/>
     
     <l n="122"> et cathedrae quae episcopos non habuerunt. </l>
-    <l n="123">Maiucensis. <sic>Maurensis</sic>. </l>
-    <l n="124"><sic>Nabalensis</sic>. <sic>Tingariensis</sic>. </l>
-    <l n="125"><sic>Tubunensis</sic>. <sic>Oboritanus</sic>. </l>
+    <l n="123">Maiucensis. Maiucensis. </l>
+    <l n="124">Nabalensis. Tingariensis. </l>
+    <l n="125">Tubunensis. Oboritanus. </l>
     <l n="126">N. m. </l>
   </div>
   <div n="5" subtype="section" type="textpart">
@@ -748,7 +746,7 @@
       <title>Nomina episcoporum prouin. Maur. Sitif. </title>
     </ab>
     
-    <l n="1"><choice><sic>Bufinus</sic><corr>Rufinus</corr></choice> Tamallumensis. </l>
+    <l n="1">Rufinus Tamallumensis. </l>
     <l n="2">Donatus Sitifensis. </l>
     <l n="3">Maximus Cobiensis. </l>
     <l n="4">Domitianus Igilgitanus. </l>
@@ -764,7 +762,7 @@
     <l n="14">Uictor Eminentianensis. </l>
     <l n="15">Saturnius Sociensis prbt. </l>
     <l n="16">Iacobus Lemellefensis. </l>
-    <l n="17"><sic n="poss">Cresciturus</sic> Cellensis prbt. </l>
+    <l n="17">Cresciturus Cellensis prbt. </l>
     <l n="18">Emeritus Macrensis prbt. </l>
     <l n="19">Redux Noua-Licianensis. </l>
     <l n="20">Argentius Zallatensis. </l>
@@ -787,21 +785,21 @@
     <l n="25">Uictor Flumen-Piscensis. </l>
     <l n="26">Inuentinus Maronanensis. </l>
     <l n="27">Romanus Molicunzensis. </l>
-    <l n="28">Uictorinus <sic>Serteitanos</sic> prbt. </l>
+    <l n="28">Uictorinus Serteitanus prbt. </l>
     <l n="29">Montanus Cedamusensis. </l>
     <l n="30">Clemens Thamagristensis. </l>
-    <l n="31">Adeodatus <sic n="poss">Priuatensis</sic>.-</l>
-    <l n="32"><choice><sic>Bogatus</sic><corr>Rogatus</corr></choice> Parteniensis. </l>
+    <l n="31">Adeodatus Priuatensis.-</l>
+    <l n="32">Rogatus Parteniensis. </l>
     <l n="33">Uillaticus Mozotensis.\'</l>
     <l n="34">Honoratus Tamascaniensis prbt. </l>
     <l n="35">Iustus Acufidensis prbt. </l>
-    <l n="36"><sic>Emilias</sic> Asuoremixtensis. </l>
-    <l n="37">Uzulus <choice><sic>Thnccensis</sic><corr>Thuccensis</corr></choice>. </l>
+    <l n="36">Emilius Asuoremixtensis. </l>
+    <l n="37">Uzulus Thuccensis. </l>
     <l n="38">Aufidius Suristensis. </l>
     <l n="39">Uictorinus Perdicensis.,</l>
-    <l n="40"><sic>Posseesor</sic> Zabensis. </l>
+    <l n="40">Possessor Zabensis. </l>
     <l n="41">Pascasius Salditanus. </l>
-    <l n="42">Flauianus Uamallensis. sunt n. <sic>XLIIll</sic>. </l>
+    <l n="42">Flauianus Uamallensis. sunt n. XLIIII. </l>
   </div>
   
   <div n="6" subtype="section" type="textpart">
@@ -836,17 +834,17 @@
     <pb n="134"/>
     
     <l n="5">Uitalis Sulcitanus. </l>
-    <l n="6">Felix de <choice><sic>Tnrribus</sic><corr>Turribus</corr></choice>. </l>
+    <l n="6">Felix de Turribus. </l>
     <l n="7">Helias de Maiorica. </l>
     <l n="8">Opilio de Ebuso. sunt n. VIII. </l>
   </div>
   
   <div n="8" subtype="section" type="textpart">
-    <l n="1"><choice><sic>Ao</sic><corr>Ac</corr></choice> sic fiunt omnes
-      <choice><sic>episcbpi</sic><corr>episcopi</corr></choice> diuersarum prouinciarum
+    <l n="1">Ac sic fiunt omnes
+      episcopi diuersarum prouinciarum
       numero</l>
     <l n="2">CCCCLXVI</l>
-    <l n="3">Ex quibus perierunt n. <sic>LXXXVm</sic>. id est <lb/></l>
+    <l n="3">Ex quibus perierunt n. LXXXVIII. id est <lb/></l>
     <l n="4">de proconsular. numr m. </l>
     <l n="5">de prouinc<foreign xml:lang="grc">̃</foreign> Numidiae numr XXXIII.</l>
     <l n="6">de prouinc. Maurit. Caesar numr XXXII.</l>
@@ -855,7 +853,7 @@
     <l n="9">Hic relegati numr CCCII. </l>
     <l n="10">Fugerunt numr XXVIII. </l>
     <l n="11">Passus numr i. </l>
-    <l n="12">Confessor <sic>numf</sic> i.</l>
+    <l n="12">Confessor num? i.</l>
     
     <note type="footnote"> 8 euuso A 1 prouintiarum <hi rend="italic">A</hi> 5 numidie A <lb/> 7
       CCCCLXXVIII A </note>

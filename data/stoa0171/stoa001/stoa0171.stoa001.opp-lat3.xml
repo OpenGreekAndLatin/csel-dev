@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -362,7 +360,7 @@
           <l n="89"><milestone unit="para"/>.Protinus instructo corpus mutabile nido  </l>
             <l n="90">Vitalique toro membra uieta locat.  </l>
             <l n="91">Ore dehinc sucos membris circumque supraque  </l>
-            <l n="92">Inicit <choice><sic>eisequiis</sic><corr>exsequiis</corr></choice> inmoritura suis.  </l>
+            <l n="92">Inicit exsequiis inmoritura suis.  </l>
             <l n="93">Tunc inter uarios animam commendat odores,  </l>
             <l n="94">Depositi tanti nec timet illa fidem.  </l>
 
@@ -404,7 +402,7 @@
 
           <milestone unit="para"/>
             <l n="99">Quos uelut in massam cineres natura coactos  </l>
-            <l n="100">Conflat, et effectum seminis <choice><sic>iustar</sic><corr>instar</corr></choice> habet.  </l>
+            <l n="100">Conflat, et effectum seminis instar habet.  </l>
             <l n="101">Hinc animal primum sine membris fertur oriri,  </l>
             <l n="102">Sed fertur uermi lacteus esse color.  </l>
             <l n="103">Crescit, at emenso sopitur tempore certo  </l>
@@ -452,7 +450,7 @@
           <l n="107"><milestone unit="para"/>Ac uelut agrestes, cum filo ad saxa tenentur,  </l>
             <l n="108">Mutari tineae papilione solent,  </l>
             <l n="105">Inde reformatur qualis fuit ante figura,  </l>
-            <l n="106">Et <choice><sic>Phoenii</sic><corr>Phoenix</corr></choice> ruptis pullulat exuuiis.  </l>
+            <l n="106">Et Phoenix ruptis pullulat exuuiis.  </l>
             <l n="109">Non illi cibus est nostro concessus in orbe  </l>
             <l n="110">Nec cuiquam inplumem pascere cura subest.  </l>
             <l n="111">Ambrosios libat caelesti nectare rores,  </l>
@@ -464,7 +462,7 @@
             <l n="116">Euolat ad patrias iam reditura domus.  </l>
             <l n="117">Ante tamen proprio quidquid de corpore restat  </l>
             <l n="118">Ossaque uel cineres exuuiasque suas  </l>
-            <l n="119">Unguine balsameo myrraque et <choice n="0.63"><sic n="122">tura</sic><corr n="70">ture</corr></choice> soluto  </l>
+            <l n="119">Unguine balsameo myrraque et ture soluto  </l>
             <l n="120">Condit et in formam conglobat ore pio.  </l>
             <l n="121">Quam pedibus gestans contendit Solis ad urbem  </l>
             <l n="122">Inque ara residens promit in aede sacra. </l>
@@ -492,7 +490,7 @@
 <pb n="144"/>
             <l n="123">Mirandam sese praestat praebetque uerendam:  </l>
             <l n="124">Tantus aui decor est, tantus abundat honor.  </l>
-            <l n="125">Principio color est, quali est sub sidere <choice><sic>Cancii</sic><corr>Cancri</corr></choice>  </l>
+            <l n="125">Principio color est, quali est sub sidere Cancri  </l>
             <l n="126">Mitia quod corium punica grana tegit,  </l>
             <l n="127">Qualis inest foliis quae fert agreste papauer,  </l>
             <l n="128">Cum pandit uestes Flora rubente solo.  </l>
@@ -545,7 +543,7 @@
             <l n="143">Effigies inter pauonis mixta figuram  </l>
             <l n="144">Cernitur et pictam Phasidis inter auem.  </l>
             <l n="145">Magnitiem terris Arabum quae gignitur ales  </l>
-            <l n="146"><choice><sic>Vii</sic><corr>Vix</corr></choice> aequare potest, seu fera seu sit auis.  </l>
+            <l n="146">Vix aequare potest, seu fera seu sit auis.  </l>
             <l n="147">Non tamen est tarda ut uolucres quae corpore magno  </l>
             <l n="148">Incessus pigros per graue pondus habent,  </l>
             <l n="149">Sed leuis ac uelox, regali plena decore:  </l>
@@ -592,8 +590,8 @@
             <l n="159">Sed postquam puri peruenit ad aetheris auras,  </l>
             <l n="160">Mox redit: illa suis conditur inde locis.  </l>
             <l n="161">At fortunatae sortis finisque uolucrem,  </l>
-            <l n="162">Cui de se nasci praestitit ipse <choice n="0.95"><sic n="1292">deus</sic><corr n="54">deas</corr></choice>!  </l>
-            <l n="163">Femina &lt;seu sexu) seu mas est siue <choice><sic>neiitrum</sic><corr>neutrum</corr></choice>,  </l>
+            <l n="162">Cui de se nasci praestitit ipse deus!  </l>
+            <l n="163">Femina &lt;seu sexu) seu mas est siue neutrum,  </l>
             <l n="164">Felix, quae Veneris foedera nulla colit. </l>
 
 <note type="footnote"> <hi rend="italic">LOCI AVCTORVM EXPILATORVM SIMILES</hi> 163] Gregor. <lb/>

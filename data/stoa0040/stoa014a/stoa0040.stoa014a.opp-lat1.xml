@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -225,7 +223,7 @@
             concedentes eis quod petierant, ut uniuersi qui uenerant praesentes <lb/>
             essent in eo loco ubi erat futura collatio, cum tamen <lb n="15"/>
             illic ex catholicis episcopis illi soli adessent, quos edicto suo <lb/>
-            cognitor <choice><sic>deiinierat</sic><corr>definierat</corr></choice>, ut, si aliquis tumultus existeret, quod <lb/>
+            cognitor definierat, ut, si aliquis tumultus existeret, quod <lb/>
             catholici ualde metuebant, non illis imputaretur qui paucissimi <lb/>
             adessent, sed eis potius qui multitudinem suam praesentem <lb/>
             esse uoluissent. in eisdem litteris etiam tota ipsa causa comprehensa <lb n="20"/>
@@ -250,7 +248,7 @@
 <pb n="42"/>
             causa Maximianistarum, quos et iudiciis ipsi publicis insectati <lb/>
             sunt et ex quibus damnatis quosdam in honoribus integris <lb/>
-            susceperunt nec ab eis in schismate datum baptismum <choice><sic>destrugerunt</sic><corr>destruxerunt</corr></choice>, <lb/>
+            susceperunt nec ab eis in schismate datum baptismum destruxerunt, <lb/>
             quod eos, quibus dilationem dederunt Maximiano <lb/>
             communicantibus, dixerunt illius contagio non fuisse pollutos,<lb n="5"/>
             et cetera quae eisdem litteris continentur..haec autem omnia <lb/>
@@ -304,7 +302,7 @@
 <p>Nono loco, quoniam cognitor superius dixerat de <lb n="5"/>
             tempore praescribere, ut causa non ageretur, non episcopalis, <lb/>
             sed forensis potius esse obiectionis, inuenit occasionem pars <lb/>
-            Donati, qua diceret nihil ergo <choice n="0.86"><sic n="869">secum</sic><corr n="131">secura</corr></choice> agi publico iure debere, <lb/>
+            Donati, qua diceret nihil ergo secum agi publico iure debere, <lb/>
             sed tantum diuinis scripturis. unde cum quaesisset cognitor, <lb/>
             quid utrique parti de hac re placeret, responsum est a catholicis, <lb n="10"/>
             ut iuberet mandatum catholici concilii recitari, ubi electis <lb/>
@@ -361,8 +359,8 @@
             finiendam quae prius urgeret causam audienda et discutienda<lb n="10"/>
             postea differrentur. hoc autem, id est ut tota causa et superioribus <lb/>
             litteris et isto mandato comprehenderetur, eo consilio <lb/>
-            a catholicis <choice n="0.97"><sic n="2252">factum</sic><corr n="59">factura</corr></choice> est, ne forte, si, ut fama iactabat, aliquas <lb/>
-            moratorias praescriptiones Donatistae ingerere <sic>coąarentur</sic> et <lb/>
+            a catholicis factum est, ne forte, si, ut fama iactabat, aliquas <lb/>
+            moratorias praescriptiones Donatistae ingerere conarentur et <lb/>
             forsitan non permissi ab ipsa collatione resilirent, (non) acta<lb n="15"/>
             licet breuiter ecclesiae catholicae causa in conscriptione gestorum <lb/>
             legenda remaneret, quam timuisse intellegerentur et ideo <lb/>
@@ -441,7 +439,7 @@
 <div n="13" subtype="section" type="textpart">
 
 <p>Tertio decimo loco recensitis et recognitis praesentibus <lb/>
-            catholicis qui subscripserant cognitor obtulit <choice n="0.31"><sic n="148">petens</sic><corr n="322">potens</corr></choice>, ut considentes <lb/>
+            catholicis qui subscripserant cognitor obtulit potens, ut considentes <lb/>
             potius agerent quam stantes. Donatistae autem recusauerunt, <lb/>
             gratias tamen agentes, quod talibus senibus obtulisset <lb/>
             consessum, et in ea recusatione multa dicentes in laudem suam<lb n="5"/>
@@ -479,7 +477,7 @@
             subscripserat, remeantem ad propria in itinere defecisse. quo <lb/>
             audito catholici petierunt superiora eorum uerba recitari, ut <lb/>
             ipsa uarietas deprehensa claresceret. quod cum factum fuisset <lb/>
-            et appareret, <choice><sic>quaesiuitj</sic><corr>quaesiuit</corr></choice> cognitor, utrum saltem sub dei
+            et appareret, quaesiuit cognitor, utrum saltem sub dei
 
 <note type="footnote"> 3 autem] tamen <hi rend="italic">v</hi> 11 loco] hoc <hi rend="italic">f</hi> 15 subacripseriiit <hi rend="italic">Engelbrecht</hi> <lb/>
             subscripeerant <hi rend="italic">fv</hi> 28 postea] potius <hi rend="italic">/</hi> </note> <lb/>
@@ -493,7 +491,7 @@
             de numero episcoporum partis utriusque. respondit officium <lb/>
             nomina Donatistarum episcoporum esse ducenta septuaginta <lb/>
             nouem annumeratis etiam illis, pro quibus absentibus alii <lb/>
-            subscripserant, computato et illo <choice><sic>defuucto</sic><corr>defuncto</corr></choice>. catholicorum autem <lb/>
+            subscripserant, computato et illo defuncto. catholicorum autem <lb/>
             omnium praesentium nomina esse constitit ducenta octoginta <lb n="10"/>
             sex. uiginti enim non subscripserant, qui tamen suam exhibentes <lb/>
             praesentiam et in medium procedentes, nisi quos infirmitas <lb/>
@@ -531,7 +529,7 @@
             in Donatistis constitit fuisse deprehensas et eorum numerum <lb/>
             episcoporum minorem, quandoquidem soli aegroti non uenerant <lb/>
             Carthaginem, pro quibus tamen in itinere aegrotantibus alii <lb/>
-            subscripserant. et <choice><sic>omniam</sic><corr>omnium</corr></choice> nomina cum ipsis etiam, pro quibus <lb/>
+            subscripserant. et omnium nomina cum ipsis etiam, pro quibus <lb/>
             alii subscripserant, ducenta septuaginta nouem subscriptio continebat,<lb n="10"/>
             neque ullo modo credibile fit multo plures quam <lb/>
             centum uiginti, hoc est tertiam partem omnium eorum in suis <lb/>
@@ -541,7 +539,7 @@
 
 <div n="15" subtype="section" type="textpart">
 
-<p>Quinto decimo loco egressis omnibus, qui iam <choice><sic>superfiuo</sic><corr>superfluo</corr></choice> <lb/>
+<p>Quinto decimo loco egressis omnibus, qui iam superfluo <lb/>
             praesentes erant, et remanentibus eis, quos necessarios<lb n="15"/>
             utrique delegerant, in perendinum diem collatio dilata est <lb/>
             utrorumque consensu, quoniam dies praesens iam uidebatur <lb/>
@@ -615,9 +613,9 @@
             die transitum. sed tunc eis catholici etiam ad hoc responderunt, <lb/>
             quod non solum in edicto cognitoris Calendarum Iuniarum <lb/>
             dies constitutus legeretur, sed etiam ipsi octauo Calendas <lb n="30"/>
-            <choice n="0.96"><sic n="27">Iunias</sic><corr n="1">lunias</corr></choice> suum mandatum conscripsissent, cum iam transisset <lb/>
+            Iunias suum mandatum conscripsissent, cum iam transisset <lb/>
             dies, quo dicebant agi debuisse causam, id est quarto decimo <lb/>
-            Calendas <choice n="0.96"><sic n="27">Iunias</sic><corr n="1">lunias</corr></choice>. dictum est etiam ipsum Primianum ad
+            Calendas Iunias. dictum est etiam ipsum Primianum ad
 
 <note type="footnote"> 3 eandem notoriam <hi rend="italic">coni. v</hi> eadem notaria <hi rend="italic">fv</hi> 11 sufficerent quot <lb/>
             <hi rend="italic">scripsi</hi> aufflceret quod <hi rend="italic">fv, cf. 14</hi> 19 recitarentur <hi rend="italic">/</hi> 25 quid v </note>
@@ -627,14 +625,14 @@
 <note type="footnote"> 4 </note> <lb/>
              
 <pb n="50"/>
-            <sic>Calendas</sic> Iunias se pollicitum occurrere. quae omnia ideo a catholicis <lb/>
+            Calendas Iunias se pollicitum occurrere. quae omnia ideo a catholicis <lb/>
             dicta sunt, quod audierant eos etiam in populo suo de <lb/>
             hac re inuidiose locutos; et tamen inter haec omnia illi in <lb/>
             petenda dilatione uehementissime perstiterunt. quod cum uidissent <lb/>
             catholici ad hoc eos diu nugari, ut gesta multis uerbis<lb n="5"/>
             onerarentur, petierunt cognitorem, ut eis quam petebant dilationem <lb/>
             concederet. et concessa est sex dierum dilatio respondentibus <lb/>
-            <sic>exceptoribus</sic>, quando editio gestorum posset occurrere, <lb/>
+            exceptoribus, quando editio gestorum posset occurrere, <lb/>
             et illis promittentibus, cum gesta edita fuerint, se suis prosecutionibus <lb/>
             subscripturos. <lb n="10"/>
             
@@ -661,7 +659,7 @@
           <p><milestone n="2" unit="altchapter"/>Secundo loco cum cognitor iussisset principale negotium <lb/>
             iam proponi, dictum est a catholicis olim se agere uelle <lb/>
             principale negotium et hoc esse, ut crimina, quae solent Donatistae <lb n="20"/>
-            <sic n="poss">dicer6</sic> in ecclesiam toto orbe diffusam, si possent, <lb/>
+            dicere in ecclesiam toto orbe diffusam, si possent, <lb/>
             probarent. responsum est a Donatistis, ut prius quaereretur <lb/>
             qui essent qui agerent, ut morae fierent de discussione personarum. <lb/>
             de qua re cum diu confligeretur, catholicis recusantibus <lb/>
@@ -754,7 +752,7 @@
             ipsos tam multis interlocutionibus cognitor pronuntiauerat. <lb/>
             interrogauerunt ergo catholici, quibus iudicatis non paruerint, <lb/>
             et Donatistis ad hoc non respondentibus interlocutus est cognitor, <lb/>
-            ad illud, quod de loco petitoris Donatistae <sic>quaaesierant</sic>, <lb/>
+            ad illud, quod de loco petitoris Donatistae quaesierant, <lb/>
             catholici responderent. et responderunt se hoc proponere, ut <lb n="30"/>
             crimina, quae solent Donatistae communioni eorum obicere, <lb/>
             uel probentur uel diluantur, ut possit Donatistarum separatio <lb/>
@@ -822,8 +820,8 @@
             diluerent, quoniam et mandatum Donatistarum aduersus traditores <lb/>
             et persecutores factum erat et uerba Primiani, quando <lb/>
             prius a catholicis de collatione conuentus est, crimen eis eum <lb/>
-            obicere testabantur, ubi dixerat: <choice><sic>indigntim</sic><corr>indignum</corr></choice> est ut in unum <lb/>
-            <sic>conueniantfiliimartyrumetprogenies</sic> <choice><sic>traditorum</sic><corr>martyrum</corr></choice>,<lb n="15"/>
+            obicere testabantur, ubi dixerat: indignum est ut in unum <lb/>
+            conueniant filii martyrum et progenies traditorum,<lb n="15"/>
             et quamuis tunc conferre noluisset, postea tamen in iudicio <lb/>
             praefectorum se audiri et discuti uelle dixerat. quem eorum <lb/>
             de collatione consensum tenentes catholici hoc ut fieret ab <lb/>
@@ -834,7 +832,7 @@
 
 <div n="5" subtype="section" type="textpart">
 <p>Tunc iussit eos cognitor obiecta a se crimina iam probare<lb n="20"/>
-            nec de petita collatione <choice><sic>personanf</sic><corr>personam</corr></choice> petitoris ostendi, si <lb/>
+            nec de petita collatione personam petitoris ostendi, si <lb/>
             etiam utrique petisse probarentur. hic Donatistae identidem <lb/>
             petere coeperunt, ut de persona pronuntiaret. et pronuntiauit <lb/>
             cognitor dicens, si collationem pars utraque petiuisset, eum <lb/>
@@ -844,7 +842,7 @@
             ortus est iterum moratorius conflictus de catholico <lb/>
             nomine et Donatistarum et Caecilianistarum. deinde obtulerunt <lb/>
             catholici gesta habita in iudicio praefecturae, quibus probarent <lb n="30"/>
-            etiam Donatistas collationem petisse. quae cum iussisset <choice><sic>cugnitor</sic><corr>cognitor</corr></choice> <lb/>
+            etiam Donatistas collationem petisse. quae cum iussisset cognitor <lb/>
             recitari, rursus illi ad praeterita redierunt et de his ut <lb/>
             pronuntiaret cognitor flagitare coeperunt, de quibus totiens
 
@@ -856,7 +854,7 @@
             pronuntiauerat, id est de persona et de mandato legatorum, <lb/>
             quod sibi ut ederetur totiens superfluo postulauerant. hoc <lb/>
             autem agebant, quantum intellegebatur, timentes, ne gesta <lb/>
-            praefectoria legerentur, ubi suam causam quibusdam <sic>inconsideratis</sic> <lb/>
+            praefectoria legerentur, ubi suam causam quibusdam inconsideratis <lb/>
             et temerariis responsionibus uulnerauerant. diu itaque <lb n="5"/>
             conflictatum est ab eis et maxime cum ipso cognitore, cum <lb/>
             ipsi peterent edi sibi mandatum legatis iniunctum aut pronuntiaret <lb/>
@@ -905,7 +903,7 @@
             eos appareret in hac tota causa quae agebatur primitus accusatores <lb/>
             extitisse per proconsulem apud imperatorem. ista ergo <lb/>
             ne recitarentur uehementer Donatistae obluctabantur multis <lb/>
-            et multiplicibus prosecutionibus resistentes, sicut <sic>ebluctati</sic> <lb/>
+            et multiplicibus prosecutionibus resistentes, sicut ebluctati <lb/>
             fuerant et extorserant, ne illa praefectoria legerentur. in hac<lb n="10"/>
             autem obluctatione saepe repetebant illud iam detritum et <lb/>
             tot interlocutionibus cognitoris repulsum de mandato legatorum <lb/>
@@ -958,7 +956,7 @@
             mandatum quod susceperunt omnino se non posse discutere <lb/>
             et ab eo quod sibi iniunctum est non debere discedere, quandoquidem <lb n="15"/>
             satis apparebat imperialibus litteris, quibus iudex <lb/>
-            huic causae fuerat constitutus, collationem ab imperatore <choice><sic>coucessam</sic><corr>concessam</corr></choice>. <lb/>
+            huic causae fuerat constitutus, collationem ab imperatore concessam. <lb/>
             de illo autem altero, ubi quaerebant quid eligerent <lb/>
             catholici, utrum diuina documenta an gesta publica, saepius <lb/>
             catholici responderunt, si Donatistae hominum crimina non <lb n="20"/>
@@ -1033,7 +1031,7 @@
 
 <div n="9" subtype="section" type="textpart">
 <p>Quaesierunt etiam quis ordinauerit Augustinum, nescio <lb/>
-            quas, sicut iactabatur, calumnias praeparantes. <choice n="0.67"><sic n="12140">tibi</sic><corr n="5769">ubi</corr></choice> cum eis <lb/>
+            quas, sicut iactabatur, calumnias praeparantes. ubi cum eis <lb/>
             intrepide responderet a Megalio se ordinatum, qui tunc fuerit <lb n="5"/>
             primas episcoporum in Numidia ecclesiae catholicae, et urgeret <lb/>
             instanter, ut iam proferrent quae praeparauerunt, ut ibi etiam <lb/>
@@ -1157,12 +1155,12 @@
              4 extr</hi>. </note> <lb/>
              
 <pb n="62"/>
-            <sic>Maximianistas</sic> a Donatistis per iudicia publica basilicis pulsos, <lb/>
+            Maximianistas a Donatistis per iudicia publica basilicis pulsos, <lb/>
             utcumque respondere conati sunt non se criminaliter accusasse <lb/>
             aut ad communionem suam inuitum aliquem coegisse, sed res <lb/>
             suas uel suorum ciuiliter repetisse, obliti quod Primianus aliquando <lb/>
             dicendum apud acta mandauit: illi auferunt aliena,<lb n="5"/>
-            nos intermittimus ablata. ad illa uero, quae de <sic>Magimianistis</sic> <lb/>
+            nos intermittimus ablata. ad illa uero, quae de Maximianistis <lb/>
             in catholicorum mandato dicta sunt, quod a se <lb/>
             damnatos in integro honore susceperint, quod Maximiani socios <lb/>
             ab illo pollutos esse negauerint, quod baptismum ab eis in <lb/>
@@ -1185,14 +1183,14 @@
             in iniquitate detineri, ut, haec duo cum in uno homine <lb/>
             inuenta fuerint, et approbetur ueritas et iniquitas corrigatur, <lb/>
             sicut catholica facit, cum agnoscit in Donatistis et amplectitur <lb/>
-            <choice><sic>Sacramenti</sic><corr>sacramenti</corr></choice> ueritatem, detestatur autem in eis et corrigit haereticam <lb n="25"/>
+            sacramenti ueritatem, detestatur autem in eis et corrigit haereticam <lb n="25"/>
             iniquitatem. et illud, quod a catholicis in mandato <lb/>
             dictum est, non ideo destruendum baptismum Christi, quia <lb/>
             eum etiam haeretici tradunt, sicut non ideo negandus est <lb/>
             Christus, quia eum etiam daemones confitentur, similiter aut <lb/>
             non intellexerunt aut obscurare uoluerunt, dicentes catholicos <lb n="30"/>
             contra martyres locutos, non tamen exprimentes quos martyres <lb/>
-            dicerent, dicentes etiam eos daemoniis uelle <sic>communicarerquasi</sic>
+            dicerent, dicentes etiam eos daemoniis uelle communicate
 
 <note type="footnote"> 5 cf. Cresc. IIII 47, 57 15 Rom. 1, 18. cf. De un. bapt. 4, 5 sqq., <lb/>
             ubi haec uberius explicantur. </note>
@@ -1227,7 +1225,7 @@
 
 <div n="14" subtype="section" type="textpart">
 <p>Ad illud quoque in catholicorum mandato, quod dictum <lb/>
-            est de purgatione et absolutione Caeciliani et Felicis <sic>Aptugnensis</sic>, <lb/>
+            est de purgatione et absolutione Caeciliani et Felicis Aptugnensis, <lb/>
             de quorum criminibus apud imperitos solebant catholicis <lb/>
             magnam inuidiam concitare, cum illic tota causa propter <lb n="20"/>
             quam uenerant uersaretur, nihil omnino respondere in tam <lb/>
@@ -1282,7 +1280,7 @@
             Donatistae nolebant intellegi ecclesiam, quia scriptum est:<lb n="25"/>
             ager est hic mundus, et multa testimonia protulerunt. <lb/>
             quibus sancta scriptura mundum non nisi malos commemorasset, <lb/>
-            sicuti est: <sic>quidilexeritmundum</sic>, non est caritas <lb/>
+            sicuti est: qui dilexerit mundum, non est caritas <lb/>
             patris in illo et cetera talia, ut quasi ex hoc ostenderent <lb/>
             mundi nomine ecclesiam significari minime potuisse. contra <lb n="30"/>
             catholici alia testimonia proferebant, quibus in bono mundi
@@ -1295,7 +1293,7 @@
              
 <pb n="65"/>
             nomen esse positum ostenderetur, sicuti est: deus erat in <lb/>
-            Christo mundum reconcilians <choice><sic>sibiet</sic><corr>sibi</corr></choice> cetera huiusmodi, <lb/>
+            Christo mundum reconcilians sibi et cetera huiusmodi, <lb/>
             ubi ostenderetur ecclesia quoniam ipsa utique per Christum <lb/>
             reconciliatur deo. et haec agebantur catholicis sermonem suum <lb/>
             prosequendo perpetuare conantibus, illis autem ne id fieret <lb n="5"/>
@@ -1356,8 +1354,8 @@
             ad immundos enim pertinere schismaticas separationes, quae <lb/>
             tunc non erunt, quia retia non sunt disrupta. hoc etiam significasse, <lb/>
             quod coruus auis immunda exierit de arca et non <lb/>
-            redierit; quae tamen <choice n="0.53"><sic n="139">area</sic><corr n="120">arca</corr></choice> exeunte coruo non utique omnibus <lb/>
-            immundis animalibus <sic>cavuit</sic>, sed in ea fuerunt et munda et <lb n="15"/>
+            redierit; quae tamen area exeunte coruo non utique omnibus <lb/>
+            immundis animalibus caiuit, sed in ea fuerunt et munda et <lb n="15"/>
             immunda usque ad diluuium, sicut in ecclesia boni et mali <lb/>
             usque ad saeculi finem. sed sicut non de immundis, sed de <lb/>
             mundis animalibus Noe obtulit sacrificium, ita non ii qui <lb/>
@@ -1485,7 +1483,7 @@
             testimonium illi omnino nihil ausi fuerant respondere, cum <lb/>
             auctoritatem Cypriani tanti habeant, ut per illam conentur <lb/>
             defendere, quod male de iterando baptismo sentiunt et faciunt. <lb/>
-            de duabus etiam ecclesiis calumniam eorum catholici <sic>refutarunt</sic>, <lb/>
+            de duabus etiam ecclesiis calumniam eorum catholici refutarunt, <lb/>
             identidem expressius ostendentes quid dixerint, id est <lb n="5"/>
             non eam ecclesiam, quae nunc habet permixtos malos, alienam <lb/>
             se dixisse a regno dei ubi non erunt mali commixti, sed <lb/>
@@ -1537,7 +1535,7 @@
             atque dilucida Donatistis certantibus superflua replicarentur, <lb/>
             promisit cognitor de his se, quae satis audisset, extrema sententia <lb/>
             iudicaturum et iussit illud agi potius, unde extiterit. <lb/>
-            prima causa discidii. tunc Donatistae urgere <choice n="0.07"><sic n="28">coeperant</sic><corr n="338">coeperunt</corr></choice>, ut<lb n="10"/>
+            prima causa discidii. tunc Donatistae urgere coeperunt, ut<lb n="10"/>
             de his quae audisset primitus iudicaret. quod cum etiam <lb/>
             catholici exigerent et ille in eo quod dixerat permaneret iuberetque <lb/>
             illud agi potius, ut causa primi discidii monstraretur, <lb/>
@@ -1572,8 +1570,8 @@
 <note type="footnote"> 3 et sicut <hi rend="italic">/</hi> 31 asserebantur <hi rend="italic">scripsi</hi> asserebant <hi rend="italic">fv</hi> </note> <lb/>
              
 <pb n="71"/>
-            <sic>peruicerunt</sic>, qui hoc in sancti uiri carne non fecit quam in <lb/>
-            potestatem acceperat <sic>affligendarn</sic>, hic Donatistae quaesierunt, <lb/>
+            peruicerunt, qui hoc in sancti uiri carne non fecit quam in <lb/>
+            potestatem acceperat affligendam, hic Donatistae quaesierunt, <lb/>
             utrum qui faciunt filii essent diaboli an qui patiuntur; quasi <lb/>
             catholici aliud quam passiones suas dixerint immanissimas a clericis <lb/>
             et circumcellionibus eorum. uerumtamen etiam hic non <lb n="5"/>
@@ -1633,8 +1631,8 @@
 <div n="24" subtype="section" type="textpart">
 <p><milestone n="12" unit="altchapter"/> Quinto ergo loco haec acta sunt. recitatae sunt <lb/>
             duae relationes Anullini proconsulis ad Constantinum impera-torem, <lb/>
-            una quae iam superius erat recitata, qua ostendit <choice><sic>niaiores</sic><corr>maiores</corr></choice> <lb/>
-            Donatistarum, id est de parte <choice><sic>MaiOlini</sic><corr>Maiorini</corr></choice>, dedisse sibi<lb n="15"/>
+            una quae iam superius erat recitata, qua ostendit maiores <lb/>
+            Donatistarum, id est de parte Maiorini, dedisse sibi<lb n="15"/>
             chartas criminum Caeciliani et postulasse Constantino mittendas <lb/>
             seque illas memorato imperatori misisse, altera autem, qua <lb/>
             ostendit ex eiusdem imperatoris iussione denos ex utraque <lb/>
@@ -1661,7 +1659,7 @@
 <pb n="73"/>
             arguebantur, et hoc mentiti ulterius ad iudicium accedere <lb/>
             noluerunt: hac ergo iudicii parte recitata cum coepisset recitari, <lb/>
-            quid alio die gestum sit, <sic>interrupemnt</sic> Donatistae et <lb/>
+            quid alio die gestum sit, interruperunt Donatistae et <lb/>
             petere instantissime coeperunt, ut prius ea quae offerebant <lb/>
             recitarentur, asserentes non esse ordinis, ut prius absolutio <lb n="5"/>
             Caeciliani quem nondum accusauerant legeretur, et de hoc <lb/>
@@ -1704,10 +1702,10 @@
              
 <pb n="74"/>
             autem in basilica Nouorum quaecumque reproba scripta haereticorum, <lb/>
-            quae <choice n="0.96"><sic n="42581">cum</sic><corr n="1419">cura</corr></choice> inuenissent persecutores et abstulissent, <lb/>
+            quae cum inuenissent persecutores et abstulissent, <lb/>
             nihil ab illo amplius postulasse. uerumtamen quosdam Carthaginiensis <lb/>
             ordinis uiros postea suggessisse proconsuli, quod <lb/>
-            illusi fuerant qui missi erant ad <choice><sic>christianorum</sic><corr>Christianorum</corr></choice> scripturas<lb n="5"/>
+            illusi fuerant qui missi erant ad christianorum scripturas<lb n="5"/>
             auferendas et incendendas, quia non inuenerant nisi nescio <lb/>
             quae ad eas non pertinentia, ipsas autem in domo episcopi <lb/>
             custodiri, unde deberent proferri et incendi; proconsulem uero <lb/>
@@ -1717,10 +1715,10 @@
             hoc nemo quaesierat, displicuisse Mensurio et ab eis <lb/>
             honorandis eum prohibuisse christianos. quidam etiam in eadem <lb/>
             epistula facinorosi arguebantur et fisci debitores, qui occasione <lb/>
-            persecutionis uel carere <choice><sic>nellent</sic><corr>uellent</corr></choice> onerosa multis debitis uita<lb n="15"/>
+            persecutionis uel carere uellent onerosa multis debitis uita<lb n="15"/>
             uel purgare se putarent et quasi abluere facinora sua uel certe <lb/>
             adquirere pecuniam et in custodia deliciis perfrui de obsequio <lb/>
-            <choice><sic>christianorum</sic><corr>Christianorum</corr></choice>. crimen tamen Donatistae non ingerebant Mensurio <lb/>
+            christianorum. crimen tamen Donatistae non ingerebant Mensurio <lb/>
             nisi de codicibus traditis; mentitum eum quippe dicebant, <lb/>
             quod illi non fuerint codices sancti, et peccatum suum tegere<lb n="20"/>
             uoluisse, quamuis et ipsam fictionem criminarentur. recitarunt <lb/>
@@ -1747,12 +1745,12 @@
             quaerebantur apud se esse confessa est, sed negauit. scripsit <lb/>
             etiam Secundus et ad se ipsum missos a curatore et ordine <lb/>
             centurionem et beneficiarium, qui peterent diuinos codices <lb n="5"/>
-            exurendos, eisque respondisse: \'<sic>christianus</sic> sum et episcopus, <lb/>
+            exurendos, eisque respondisse: \'christianus sum et episcopus, <lb/>
             non traditor,\' et cum ab eo uellent aliqua ecbola aut quodcumque <lb/>
             accipere, neque hoc eis dedisse exemplo Eleazari <lb/>
             Macchabaei, qui nec fingere uoluit suillam carnem se manducare, <lb/>
             ne aliis praeberet praeuaricationis exemplum. hae litterae <lb n="10"/>
-            <sic>Mensurii</sic> et Secundi donec legendo terminarentur, catholici <lb/>
+            Mensnrii et Secundi donec legendo terminarentur, catholici <lb/>
             patienter audierunt, quamuis testati fuerint eas esse familiares <lb/>
             nec ad causam ecclesiae pertinere. 
 </p>
@@ -1771,13 +1769,13 @@
             contra Caecilianum apud Carthaginem factum, ubi eum <lb/>
             absentem damnauerunt, quod ad eos uenire noluerit tamquam <lb/>
             a traditoribus ordinatus, et quia, cum esset diaconus, uictum <lb/>
-            afferri <choice><sic>martvribus</sic><corr>martyribus</corr></choice> in custodia constitutis prohibuisse dicebatur. <lb n="25"/>
+            afferri martyribus in custodia constitutis prohibuisse dicebatur. <lb n="25"/>
             nominati sunt etiam quidam collegae Caeciliani, qui traditores <lb/>
             asserebantur publicis gestis, quae tamen gesta non legebantur. <lb/>
             inter hos autem maxime Felix Aptugnensis acerbius accusatus <lb/>
             est, ita ut fons malorum omnium diceretur. deinde sententiae <lb/>
             a singulis dictae sunt, primitus a Secundo Tigisitano, qui <lb n="30"/>
-            eorum princeps fuit, deinde a ceteris, quibus <choice n="0.5"><sic n="3">expresserant</sic><corr n="3">expresserunt</corr></choice> se <lb/>
+            eorum princeps fuit, deinde a ceteris, quibus expresserunt se <lb/>
             Caeciliano et collegis eius non communicare. hoc itaque
 
 <note type="footnote"> 9 cf. II Mach. 6, 21—28 26 cf. Post gesta 22, 38 29 cf. Cresc. <lb/>
@@ -1817,7 +1815,7 @@
             et ordine, ut scripturas daret, nec eum potuisse dimitti. <lb/>
             nisi aliquid tradidisset. hoc autem quod ei obiecit Purpurius,<lb n="25"/>
             detentum eum fuisse a curatore et ordine, ut scripturas daret. <lb/>
-            idem Secundus in litteris, <choice n="0.09"><sic n="3275">quas</sic><corr n="30156">quae</corr></choice> Mensurio rescripserat, paene <lb/>
+            idem Secundus in litteris, quas Mensurio rescripserat, paene <lb/>
             confessus est, ubi ait missum ad se fuisse a curatore et ordine <lb/>
             centurionem et beneficiarium et a se scripturas petitas <lb/>
             uel quaelibet ecbola, quae quidem se non tradidisse dixit; <lb n="30"/>
@@ -1940,13 +1938,13 @@
             catholici, quoniam consulem et diem illud concilium non haberet, <lb/>
             ad utrumque se respondere: quia, si prius causa ad imperatorem <lb/>
             missa est, quo exitu terminata sit spectari oportere, si <lb/>
-            autem postea, nihilominus <choice n="0.00"><sic n="352">noli</sic><corr n="65020">non</corr></choice> istorum, sed illius iudicium <lb n="20"/>
+            autem postea, nihilominus non istorum, sed illius iudicium <lb n="20"/>
             esse quaerendum, quo eam post iudicium suum mittendam <lb/>
             putarunt. sed cum multa Donatistae insererent de consule et <lb/>
             die, cur in suorum maiorum concilio non legeretur, ne hinc <lb/>
             falsitatis arguerentur, et assererent hanc esse ecclesiasticam <lb/>
             consuetudinem, ne dies et consules decretis episcoporum conscriberentur, <lb n="25"/>
-            legi uolentes etiam concilium <choice><sic>Cvpriani</sic><corr>Cypriani</corr></choice>, ut hoc <lb/>
+            legi uolentes etiam concilium Cypriani, ut hoc <lb/>
             probarent, quia nihil aliud nisi morae quaerebantur — neque <lb/>
             enim catholici in eo causam suam constituerant quando ad <lb/>
             utrumque responderant, siue prius siue posterius esset illud <lb/>
@@ -1994,7 +1992,7 @@
             anni, quoto die mensis factum esset super eos uerbum domini. <lb/>
             cognitor autem illud de die et consule obiectum contemnendum <lb/>
             et remouendum existimans iussit gesta apud Miltiadem <lb n="30"/>
-            habita cetera recitari, et recitata sunt. quibus apparuit <sic>ommum</sic> <lb/>
+            habita cetera recitari, et recitata sunt. quibus apparuit omnium <lb/>
             qui tunc consederant episcoporum sententiis et ipsius Miltiadis <lb/>
             Caecilianum absolutum atque purgatum, Donatum uero
 
@@ -2003,14 +2001,14 @@
 <note type="footnote"> 27 cuius regis quoto <hi rend="italic">scripsi coli. Post gesta 15,</hi> 19 cuiusque <hi rend="italic">fv</hi> </note> <lb/>
              
 <pb n="81"/>
-            damnatam, qui praesens in prima fuerat actione conuictus, ille <sic>scilicetDonatus</sic> <lb/>
+            damnatam, qui praesens in prima fuerat actione conuictus, ille ille <lb/>
             a Casis Nigris, quem praesentem fuisse tunc constitit. 
 </p>
           
 </div>
 
 <div n="32" subtype="section" type="textpart">
-<p>Sed hoc recitato cum quaereretur a Donatistis, <sic>quidresponderent</sic> <lb/>
+<p>Sed hoc recitato cum quaereretur a Donatistis, quid responderent <lb/>
             ad illud Cirtense concilium, eo redierunt conantes falsum <lb/>
             esse monstrare, cum dixerunt tempore persecutionis congregari <lb n="5"/>
             non potuisse concilium. quod cognitor non contempsit <lb/>
@@ -2093,7 +2091,7 @@
             turio et beneficiarius ad discrimen capitis peruenirent, qui <lb/>
             Secundum tradere nolentem impunitum dimisisse prodebantur\', <lb/>
             nullo modo ad horam reperirent alias epistulas tempore per-. <lb/>
-            <sic>secutionis</sic> ab episcopis ad episcopos in tam longinqua terrarum <lb/>
+            secutionis ab episcopis ad episcopos in tam longinqua terrarum <lb/>
             similiter datas. <lb n="5"/>
             
 </p>
@@ -2101,7 +2099,7 @@
 </div>
 
 <div n="33" subtype="section" type="textpart">
-<p>Cum ergo hinc diuturna <choice><sic>confiictatio</sic><corr>conflictatio</corr></choice> fieret, saepe repetentibus <lb/>
+<p>Cum ergo hinc diuturna conflictatio fieret, saepe repetentibus <lb/>
             Donatistis non potuisse tempore persecutionis conoilium <lb/>
             congregari ad episcopum ordinandum, quia in apostasia <lb/>
             erat mundus nec erant quibus ordinaretur et cetera talia, <lb/>
@@ -2111,14 +2109,14 @@
             erant sine dubio quibus ordinarentur episcopi, ipsae utique <lb/>
             plebes quas tunc solitas congregari gesta martyrum loquebantur: <lb/>
             haec cum assidue multis et uariis modis dicerentur et responderentur <lb n="15"/>
-            — nam et domum priuatam <choice><sic>christianis</sic><corr>Christianis</corr></choice> congregandis <lb/>
+            — nam et domum priuatam christianis congregandis <lb/>
             praestitam constitit tempore persecutionis, sicut in quibusdam <lb/>
             gestis martyrum legebatur, quia Donatistae dixerunt fieri non <lb/>
             potuisse, ut illo tempore domum suam quisquam praeberet, <lb/>
             et commemoratum est usque adeo non esse incredibile, quod <lb n="20"/>
             in priuatam domum pauci illi episcopi persecutionis tempore <lb/>
             conuenerunt, ut feruente persecutione etiam in carcere doceantur <lb/>
-            baptizati martyres et illic a <choice><sic>christianis</sic><corr>Christianis</corr></choice> celebrata sacramenta, <lb/>
+            baptizati martyres et illic a christianis celebrata sacramenta, <lb/>
             ubi christiani propter eadem sacramenta tenebantur <lb/>
             inclusi —, inter haec ergo tandem aliquando saepe etiam cognitor <lb n="25"/>
             interlocutus fieri potuisse illum conuentum ab episcopis, <lb/>
@@ -2144,7 +2142,7 @@
              
 <pb n="84"/>
             iudicium refugisse, quod traditor fuisset, quasi non etiam <lb/>
-            <choice n="0.90"><sic n="1078">iudicio</sic><corr n="116">indicio</corr></choice> eius assisterent et responderent se in Caecilianum non <lb/>
+            indicio eius assisterent et responderent se in Caecilianum non <lb/>
             habere quod dicerent. sed tamen facto iudice intento, utrum <lb/>
             de traditionis crimine Miltiadis aliquod iudicium uel publicum <lb/>
             uel ecclesiasticum proferretur, ipsisque catholicis id ut probaretur <lb n="5"/>
@@ -2158,7 +2156,7 @@
             deposcentes gesta alia recitarunt, in quibus legebatur Miltiades <lb/>
             misisse diaconos cum litteris Maxentii imperatoris et litteris <lb/>
             praefecti praetorio ad praefectum urbis, ut ea reciperent, quae <lb n="15"/>
-            tempore persecutionis ablata memoratus imperator <choice><sic>christianis</sic><corr>Christianis</corr></choice> <lb/>
+            tempore persecutionis ablata memoratus imperator christianis <lb/>
             iusserat reddi. et cum his quoque gestis nullum Miltiadis <lb/>
             crimen et cognitori et catholicis defensoribus appareret, dixerunt <lb/>
             Donatistae Stratonem diaconum, quem cum aliis Miltiades <lb/>
@@ -2293,8 +2291,8 @@
             defuisset, non impediri imperialis constituti ueritatem. quod <lb n="15"/>
             cum eis cognitor identidem respondisset, recitatus est et Optatus <lb/>
             recitantibus Donatistis, ubi ait: eodem tempore idem <lb/>
-            Donatus petiit, ut ei reuerti licuisset et <sic>adCarthaginem</sic> <lb/>
-            accedere; tunc a Philomeno <choice><sic>suggestore</sic><corr>suggesto</corr></choice> eius <lb/>
+            Donatus petiit, ut ei reuerti licuisset et ad Carthaginem <lb/>
+            accedere; tunc a Philomeno suggestore eius <lb/>
             imperatori suggestum est, ut bono pacis Caecilianus <lb n="20"/>
             Brixae teneretur, et factum est. in quibus uerbis <lb/>
             Optati cum omnino nulla Caeciliani damnatio, sicut illi demonstraturos <lb/>
@@ -2303,10 +2301,10 @@
             uoluntas eius qui scripserat nosceretur. et ex officio recitatum <lb n="25"/>
             est: Caecilianus omnium supra memoratorum sententiis <lb/>
             innocens est pronuntiatus. quod cum recitaretur, <lb/>
-            Donatistae dixerunt hoc se non petisse recitari, <sic>stomachantps</sic> <lb/>
+            Donatistae dixerunt hoc se non petisse recitari, stomachantes <lb/>
             aduersus eos, qui risum tenere non poterant, cum audissent, <lb/>
             quam apertam contra semet ipsos paginam protulissent. deinde <lb n="30"/>
-            cum illis uerbis, quae ipsi <sic>recitauerant</sic>, extenuasse dicerent
+            cum illis uerbis, quae ipsi recitauerant, extenuasse dicerent
 
 <note type="footnote"> -17 Optat. I 26 26 Optat. I 24. cf. Cresc. III 71, 82 </note>
 
@@ -2320,7 +2318,7 @@
             extenuatum. quod cum minime potuissent, etiam inde <lb/>
             post aliquantas morarum inanium perplexitates, cum et de <lb/>
             Donati nomine contendissent quod non Carthaginiensis, sed<lb n="5"/>
-            <sic>Casensis</sic> Donatus in iudicio Miltiadis aduersus Caecilianum <lb/>
+            Casensis Donatus in iudicio Miltiadis aduersus Caecilianum <lb/>
             adstitisset, quod et catholici concedebant, aliquando transitum <lb/>
             est. 
 </p>
@@ -2350,7 +2348,7 @@
 <div n="40" subtype="section" type="textpart">
 <p><milestone n="22" unit="altchapter"/> Cum ergo catholici dixissent hoc eos contra se <lb/>
             ipsos recitasse, hoc idem ipse etiam cognitor esset interlocutus,<lb n="25"/>
-            addiderunt etiam illi suae falsitati <choice><sic>connincendae</sic><corr>conuincendae</corr></choice> magnum <lb/>
+            addiderunt etiam illi suae falsitati conuincendae magnum <lb/>
             aliud firmamentum, recitantes ipsius Constantini litteras scribentis <lb/>
             ad Uerinum uicarium, ut libero eos dimittat arbitrio, <lb/>
             se iussisse insinuans ut de exilio remearent. in quibus litteris <lb/>
@@ -2425,7 +2423,7 @@
 </div>
 
 <div n="42" subtype="section" type="textpart">
-<p><milestone n="24" unit="altchapter"/> Hac autem accepta opportunitate catholici <sic>recitandam</sic> <lb n="15"/>
+<p><milestone n="24" unit="altchapter"/> Hac autem accepta opportunitate catholici recitandam <lb n="15"/>
             protulerunt et ipsius Aeliani tunc proconsulis relationem <lb/>
             de hac re ad Constantinum datam, ubi se causam <lb/>
             Felicis audisse et finisse commemorat, et ipsa gesta proconsularia, <lb/>
@@ -2450,7 +2448,7 @@
              Cresc. III 70, 81. 71, 83</hi> 24 esset] est <hi rend="italic">/</hi>. </note> <lb/>
              
 <pb n="91"/>
-            arbitrarentur misso ad comitatum <sic n="poss">Ingentio</sic> pro se fuisse iudicatum <lb/>
+            arbitrarentur misso ad comitatum Ingentio pro se fuisse iudicatum <lb/>
             et mutatum esse iudicium, quo Constantinus inter partes <lb/>
             cognoscens purgato Caeciliano illos calumniosissimos iudicauerat, <lb/>
             ipsos debere proferre. quando autem hoc catholici <lb/>
@@ -2462,7 +2460,7 @@
             scripsisse ad Uerinum uicarium quas litteras ipsi recitauerunt, <lb n="10"/>
             ubi sibi asserebant liberum arbitrium ab illo imperatore <lb/>
             concessum, in quibus litteris eos tamquam pessimos et <lb/>
-            <choice><sic>christianae</sic><corr>Christianae</corr></choice> pacis inimicos ostendit. quod utique non fecisset, <lb/>
+            christianae pacis inimicos ostendit. quod utique non fecisset, <lb/>
             si aliquid pro illis contra Caecilianum iudicasset, cum ad <lb/>
             comitatum missus esset Ingentius. cognitor ergo interlocutus <lb n="15"/>
             est non posse gesta quae tanta roborauit antiquitas remoueri <lb/>
@@ -2485,7 +2483,7 @@
             ut eos iam pigeret eadem repetere, quae peracta et <lb/>
             transacta iam fuerant, et identidem proferre compelleret, si <lb/>
             quid recitandum haberent aduersus Caeciliani et Felicis sic <lb/>
-            <sic>euidentissimas</sic> absolutiones, et illi nihil omnino aduersus illa <lb n="30"/>
+            euidentissimas absolutiones, et illi nihil omnino aduersus illa <lb n="30"/>
             proferentes eadem repetere non cessarent, ut de illis quae <lb/>
             dixerant iudicaretur, et contra cognitor illud potius flagitaret, <lb/>
             ut legerent, si haberent quod legi posset aduersus imperiale <lb/>
@@ -2529,7 +2527,7 @@
             secundum tres dies, quibus cum eis contulimus, idque opus <lb/>
             utile existimaui, quo quisque commonitus uel sciat sine labore, <lb/>
             quid actum sit, uel consultis numeris, quos rebus singulis <lb/>
-            <sic>annotaui</sic>, legat in eisdem gestis ad locum, quodcumque uoluerit, <lb n="10"/>
+            annotaui, legat in eisdem gestis ad locum, quodcumque uoluerit, <lb n="10"/>
             quoniam fatigant illa nimia prolixitate lectorem. huius <lb/>
             autem operis titulus est: breuiculus conlationis. 
 </p>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -173,8 +171,8 @@
 <div n="1" subtype="section" type="textpart"><p>Ciuitas Hierusalem habens portas maiores VI absque posticia,  <lb/>
             id est porta Beniamin exiens ad Iordanem, habens ab Hiericho <lb/>
             milia XVIII; inde ad Iordanem milia VII. De Hiericho usque <lb/>
-            Galgala miliario uno. <choice><sic>lbi</sic><corr>Ibi</corr></choice> est ager Domini, ubi dominus <lb/>
-            Ihesus Christus unum <choice><sic>sulcmn</sic><corr>sulcum</corr></choice> de manu sua arauit; ibi sunt <lb n="5"/>
+            Galgala miliario uno. lbi est ager Domini, ubi dominus <lb/>
+            Ihesus Christus unum sulcum de manu sua arauit; ibi sunt <lb n="5"/>
             duodecim lapides, quos leuauerunt filii Israel de Iordane. De <lb/>
             Hiericho usque ad fontem Helysaei milia II; ibi erat domus <lb/>
             Raab publicanae. quae excepit exploratores. 
@@ -182,14 +180,14 @@
           </div>
 
 <div n="2" subtype="section" type="textpart"><p>Item de Hierusalem usque in Bethsaida milia XII, in qua  <lb/>
-            Bethsaida uidit <choice><sic>lacob</sic><corr>Iacob</corr></choice> in somnis angelos ascendentes et descendentes <lb n="10"/>
+            Bethsaida uidit lacob in somnis angelos ascendentes et descendentes <lb n="10"/>
             de caelo. De Bethsaida usque in Samaria, quae dicitur <lb/>
             modo Neapolis, milia XVIII. Ibi est puteus, quem fabricauit <lb/>
             Iacob, ibi sunt ossa sancti Ioseph. De Samaria usque in <lb/>
             Sebastea milia VI, ubi domnus Iohannes decollatus est. De <lb/>
             Sebastea usque in Scitopolim milia XXX; ibi domnus Basilius <lb n="15"/>
             martyrizatus est. De Scitopoli usque ad mare Tyberiadis <lb/>
-            milia <sic>XXIIll</sic>, ibi domnus Iesus Christus pedibus ambulauit. <lb/>
+            milia XXIIII, ibi domnus Iesus Christus pedibus ambulauit. <lb/>
             De Tyberiada usque Magdale, ubi domna Maria nata est,
 
 <note type="footnote"> 1 portas] porticia <hi rend="italic">G</hi> postica <hi rend="italic">H poaticia om. G</hi> 2 idem <hi rend="italic">GH</hi> portam <hi rend="italic">G</hi> <lb/>
@@ -229,8 +227,8 @@
             in loco, ubi requiescit sanctus Zacharias, milia VI, et de ipso <lb/>
             loco usque ad Ascalona milia XX. De Ascalona usque ad Gaza <lb/>
             milia XII. Inter Ascalonam et Gazam ciuitates duas, id est <lb/>
-            Antedona et Maioma. De Gaza usque ad Rafia milia <sic>XXllll</sic>. <lb/>
-            De Rafia usque ad <sic>Betuliam</sic>, ubi Olofernis mortuus est, milia XII.
+            Antedona et Maioma. De Gaza usque ad Rafia milia XXIIII. <lb/>
+            De Rafia usque ad Betuliam, ubi Olofernis mortuus est, milia XII.
 
 <note type="footnote"> 1 V H magdalo <hi rend="italic">G</hi> fontanas <hi rend="italic">G</hi> 2 christos] ihesus <hi rend="italic">H</hi> apostlos <lb/>
             <hi rend="italic">G</hi> apostolus baptizauit <hi rend="italic">H</hi> ibi <hi rend="italic">HG</hi> et <hi rend="italic">om. H</hi> Batirauit <hi rend="italic">G</hi> <lb/>
@@ -302,7 +300,7 @@
              
 <pb n="140"/>
             duplicem, ubi requiescunt patriarchae, milia IIII. De spelunca <lb/>
-            duplice usque in Cebron milia II, ubi <choice><sic>babitauit</sic><corr>habitauit</corr></choice> sanctus Dauid <lb/>
+            duplice usque in Cebron milia II, ubi habitauit sanctus Dauid <lb/>
             septem annis, quando fugiebat ante Saul. 
 </p>
           </div>
@@ -315,10 +313,10 @@
             ubi resuscitauit domnus Christus Lazarum. De Hierusalem <lb/>
             usque in montem Oliueti, quod scribitur, stadia septem miliario<lb n="10"/>
             uno; inde domnus ascendit in caelos; ibi sunt fabricatas <lb/>
-            numero <sic>XXllII</sic> ecclesias. De monte Oliueti usque in uico <lb/>
-            Hermippo, <sic>ubidormiuit</sic> Abdimelech sub arbore ficus annis XLVI, <lb/>
+            numero XXIIII ecclesias. De monte Oliueti usque in uico <lb/>
+            Hermippo, ubi dormiuit Abdimelech sub arbore ficus annis XLVI, <lb/>
             miliario uno, qui Abdimelech discipulus fuit sancti Hieremiae; <lb/>
-            ibi fuit Baruc <choice><sic>proplieta</sic><corr>propheta</corr></choice>. <lb n="15"/>
+            ibi fuit Baruc propheta. <lb n="15"/>
             
 </p>
           </div>
@@ -362,7 +360,7 @@
             Hieremias in lacum. Columna, quae fuit in domo Caiphae, ad <lb/>
             quam domnus Christus flagellatus est, modo in sancta Sion <lb/>
             iusso Domni ipsa columna secuta est, et quomodo eam, dum <lb/>
-            <sic>fiagellaretur</sic>, <sic>amplexauit</sic>, sicut in cera sic brachia eius, manus <lb n="15"/>
+            flagellaretur, amplexauit, sicut in cera sic brachia eius, manus <lb n="15"/>
             uel digiti in eam haeserunt et hodie paret, sed et facies <lb/>
             omnis, mentus, nasus uel oculi eius sicut in caera designauit. 
 </p>
@@ -407,7 +405,7 @@
             portare consueuerat, occidit et positus est in monte Oliueti. <lb n="10"/>
             Ipse sanctus Iacobus et sanctus Zacharias et sanctus Symeon in <lb/>
             nna memoria positi sunt, quam memoriam ipse sanctus Iacobus <lb/>
-            <choice><sic>iãOricauit</sic><corr>fabricauit</corr></choice>, corpora eorum ipse ibi recondidit et se ibi cam <lb/>
+            fabricauit, corpora eorum ipse ibi recondidit et se ibi cam <lb/>
             eis praecipit poni. 
 </p>
           </div>
@@ -456,7 +454,7 @@
           </div>
 
 <div n="12" subtype="section" type="textpart"><p>Ciuitas Cersona, quae est ad mare Pontum; ibi domnus  <lb/>
-            Clemens martyrizatus est. In mari t <choice><sic>memonam</sic><corr>memoriam</corr></choice> eius cum corpus <lb/>
+            Clemens martyrizatus est. In mari t memoriam eius cum corpus <lb/>
             missus est. Cui domno Clementi anchora ad collum ligata <lb/>
             est, et modo in natale eius omnes in barcas ascendunt populus <lb/>
             et sacerdotes, et dum ibi uenerint, maris desiccat milia VI, <lb n="15"/>
@@ -521,7 +519,7 @@
 
 <div n="16" subtype="section" type="textpart"><p> De montes Armeniae exeunt flumina duo, Tygris et Eufrates, <lb/>
             et inrigat Tygris terras Assyriorum, et Eufrata inrigat terras <lb/>
-            <choice><sic>Meaopotamiae</sic><corr>Mesopotamiae</corr></choice>, Phison autem inrigat omnem terram Aethiopiae
+            Mesopotamiae, Phison autem inrigat omnem terram Aethiopiae
 
 <note type="footnote"> 1 Item de <hi rend="italic">G</hi> synope <hi rend="italic">G</hi> 2 <hi rend="italic">numerus milium intereidisse uidetur</hi> <lb/>
             synope <hi rend="italic">G</hi> 3 mermidona <hi rend="italic">G</hi> Myrmiciona <hi rend="italic">Gildemeister</hi> 5 per <hi rend="italic">om. P</hi> <lb/>
@@ -555,7 +553,7 @@
             ferit plus minus modios sex, aratur mense Augusto medius <lb/>
             ipse ager et occurrit ad pascham, et in cena Domni et pascha <lb n="10"/>
             communicatur, et alia medietas, cum illud sectum fuerit, <lb/>
-            aratur et cum alia <choice><sic>mesae</sic><corr>messe</corr></choice> occurrit; ibi est et uitis. quam <lb/>
+            aratur et cum alia messe occurrit; ibi est et uitis. quam <lb/>
             Domnus posuit, quae uitis in Pentecosten fructum dat et inde <lb/>
             communicatur Constantinopolim et exinde tam de agro quam <lb/>
             de uite transmittitur suo quoque tempore. <lb n="15"/>
@@ -604,7 +602,7 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
             Abunde Domnus baptizatus est, usque ubi Iordanis in mare <lb/>
             mortuo intrat, sunt milia V, et ipse est maris mortuus, ubi <lb/>
             Sodoma et Gomorra dimersae sunt cum aliis tribus, quae quinque<lb n="10"/>
-            ciuitates fuerunt iuxta mare mortuum. Ibi est <choice n="0.00"><sic n="1">uior</sic><corr n="626">uxor</corr></choice> <choice><sic>Lotb</sic><corr>Loth</corr></choice>, <lb/>
+            ciuitates fuerunt iuxta mare mortuum. Ibi est uxor Loth, <lb/>
             quae facta est statua salis, et quomodo crescit luna, crescit <lb/>
             et ipsa, et quomodo minuitur luna, diminuit et ipsa. 
 </p>
@@ -744,15 +742,15 @@ marmorea, et in ipsa columna facta est crux ferrea; ibi est <lb/>
             ipsa petra factus est et de ipso altare communicatur. Tamen <lb/>
             post sepulchrum Domni est. Ipse uero Urbicius praepositus <lb/>
             sub Anastasio imperatore Constantinopolim moritur et t obrierunt. <lb/>
-            Quem Urbicium terra <choice><sic>noTi</sic><corr>non</corr></choice> recepit, tertio eum sepulchrum <lb n="5"/>
-            <choice n="0.38"><sic n="175">fons</sic><corr n="283">foris</corr></choice> iactauit. 
+            Quem Urbicium terra non recepit, tertio eum sepulchrum <lb n="5"/>
+            foris iactauit. 
 </p>
           </div>
 
 <div n="29" subtype="section" type="textpart"><p>Fabricauit Anastasius in Mesopotamia prouincia ciuitatem,  <lb/>
             quae ciuitas Dara dicitur, tenet in longitudinem milia III <lb/>
             propter Persos, quando in prouincia imperatoris ad praedandum <lb/>
-            ueniebant, ubi fossato figebant, <choice><sic>quiia</sic><corr>quia</corr></choice> aquae nullatenus inueniuntur <lb n="10"/>
+            ueniebant, ubi fossato figebant, quia aquae nullatenus inueniuntur <lb n="10"/>
             nisi ibi; in qua ciuitate fluuius exit et ad capud <lb/>
             ciuitatis mergit sub terra, quia ipse fluuius omnis muro <lb/>
             cinctus est. 

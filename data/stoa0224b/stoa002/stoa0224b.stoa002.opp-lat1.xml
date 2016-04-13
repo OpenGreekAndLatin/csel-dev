@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -207,11 +205,11 @@
              <l n="15">ut nullo te fine canam, uenerande sacerdos.   </l>
             <l n="16">non finitur opus quo susciter. addita crescunt,  </l>
             <l n="17">quae meminisse iuuet. uirtus dum proditur, adstat.  </l>
-            <l n="18"><choice n="0.93"><sic n="2471">tunc</sic><corr n="164">tune</corr></choice> meas uisis lacrimas? tu fletibus illis  </l>
+            <l n="18">tune meas uisis lacrimas? tu fletibus illis  </l>
             <l n="19">fers miseratus opem? te uitae altissimus auctor  </l>
              <l n="20">exorante grauis cohibet lamenta senectae?   </l>
             <l n="21">ipsa salus uitam reuehit. deiecerat aegrum  </l>
-            <l n="22">et <choice><sic>paeue</sic><corr>paene</corr></choice> exanimem morbi uis tanta nepotem  </l>
+            <l n="22">et paene exanimem morbi uis tanta nepotem  </l>
             <l n="23">coniunctamque eidem nubendi lege puellam,  </l>
             <l n="24">ut uix iam tenui spirarent corpora flatu,  </l>
              <l n="25">nec posset sollers tactus deprendere uenas   </l>
@@ -294,13 +292,13 @@
             <l n="71">est certamen opem retinere et quaerere partem.  </l>
             <l n="72">hic possessa timet dimittere, at illa probatis  </l>
             <l n="73">se quoque saluari festinat credula signis.  </l>
-            <l n="74">si + dure inque uices ambo optant, ambo <choice><sic>retentallt</sic><corr>retentant</corr></choice>,  </l>
+            <l n="74">si + dure inque uices ambo optant, ambo retentant,  </l>
              <l n="75">atque haerens uni pietas succurrit utrique.   </l>
             <l n="76">grates, sancte, tibi, dum spiritus hos regit artus,  </l>
             <l n="77">mens et lingua canet. nunc respice cetera clemens  </l>
             <l n="78">membra domus, celeris reuehens fomenta salutis,  </l>
             <l n="79">et tibi commissam propior solare senectam,  </l>
-             <l n="80">optata indulgens propere uel praestita <choice><sic>seruaus</sic><corr>seruans</corr></choice>. </l>
+             <l n="80">optata indulgens propere uel praestita seruans. </l>
 
 <note rend="script" type="footnote"> 58 proprior P sancti <hi rend="italic">Iuretus:</hi> sanctis <hi rend="italic">HPS cod. Iureti</hi> 59 reuelat  <lb n="80"/>
             <hi rend="italic">RlS1</hi> reuellat <hi rend="italic">P cod. Iureti</hi> tutela <hi rend="italic">II2S</hi> GO piae gressca <hi rend="italic">P</hi> <lb/>

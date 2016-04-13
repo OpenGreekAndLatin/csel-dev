@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -96,7 +94,7 @@
     <ab>
      <title type="sub">XB</title>
     </ab>
-    <l n="1"><choice><sic>Lhristus</sic><corr>Christus</corr></choice> hic flos (est). decor (hic) est fonsque perennis. </l>
+    <l n="1">Christus hic flos (est). decor (hic) est fonsque perennis. </l>
     <l n="2">hunc postquam uerbo conceptum numinis alti </l>
     <l n="3">plena deo uirgo utero est enixa pudico </l>
     <l n="4">effulsitque nouus terris gaudentibus infans. </l>
@@ -104,11 +102,11 @@
     <l n="6">desuper astra pios inhiant spectantia uultus, </l>
     <l n="7">atque decus tantum iam terris inuidet aether. </l>
     <l n="8">at tellus ridens laetatur germine sacro. </l>
-    <l n="9">spargit humum <choice n="0.82"><sic n="58">molis</sic><corr n="12">uiolis</corr></choice> alieno tempore quotque </l>
+    <l n="9">spargit humum uiolis alieno tempore quotque </l>
     <l n="10">area purpureos submittit caespite flores. </l>
     
     
-    <l n="11">Omnia festa nitent: gaudet mare. nubila. <sic>ueirti</sic>; </l>
+    <l n="11">Omnia festa nitent: gaudet mare. nubila. uenti; </l>
     <l n="12">solum trepidare metu. te. perfide serpens, </l>
     <l n="13">ille dies aegrum uidit pallente ueneno </l>
     <l n="14">quassantemque caput et pectora dira terentem, </l>
@@ -135,8 +133,8 @@
     
     <pb n="271"/>
     <l n="21">agnouere Magi stellam cunasque requirunt. </l>
-    <l n="22">munera sacra ferunt. <sic>myrranique</sic> et suauia tura. </l>
-    <l n="23">tura deum monstrant. designat myrra <choice><sic>sepultutu</sic><corr>sepultum</corr></choice>. </l>
+    <l n="22">munera sacra ferunt. myrramque et suauia tura. </l>
+    <l n="23">tura deum monstrant. designat myrra sepultum. </l>
     
     <l n="24">Salue. uera dei proles. puer aethere missus. </l>
     <l n="25">non commune genus nec moribus edite nostris; </l>
@@ -148,19 +146,19 @@
     <l n="31">uirgo tamen mater et magni coniugis expers </l>
     <l n="32">ignorat causam subolis. sed gaudia nouit. </l>
     <l n="33">tu sacri sermonis opus. satus ore paterno. </l>
-    <l n="34">uerbigena diues. linguae mirabile <sic>gennen</sic>. </l>
+    <l n="34">uerbigena diues. linguae mirabile germen. </l>
     <l n="35">commixtumque genus caeli terraeque. potenter </l>
     <l n="36">ut caeli terraeque simul te cura moueret. </l>
     <l n="37">tu uirtute leo. placidis tu mentibus agnus: I </l>
     <l n="38">tu stator gladiusque patris: tu dextera summi. </l>
     <l n="39">uiuorum iudex. iudex tu luce carentum. </l>
-    <l n="40">cunctorum genitor solum te dicere <choice><sic>natuiu</sic><corr>natum</corr></choice> </l>
-    <l n="41">dignatur. solum communis cura <choice><sic>parentulU</sic><corr>parentum</corr></choice>: </l>
+    <l n="40">cunctorum genitor solum te dicere natum </l>
+    <l n="41">dignatur. solum communis cura parentum: </l>
     <l n="42">heres tantorum solus tu iure bonorum. </l>
     
-    <l n="43">Hunc <sic>tll</sic> olim. dictis uariata imagine rerum. </l>
-    <l n="44"><sic>spondebus</sic> terris. genitor. per carmina Regum. </l>
-    <l n="45">perque <choice><sic>prophetanim</sic><corr>prophetarum</corr></choice> uoces. per sidera caeli: </l>
+    <l n="43">Hunc tu olim. dictis uariata imagine rerum. </l>
+    <l n="44">spondebas terris. genitor. per carmina Regum. </l>
+    <l n="45">perque prophetarum uoces. per sidera caeli: </l>
     <l n="46">per Seraphin Cherubinque tuum. modo pandere fas sit </l>
     <l n="47">excelsa secreta poli: nam quattuor altum </l>
     <l n="48">circumdant solium uariis animantia formis: </l>
@@ -274,7 +272,7 @@
     <l n="106">cui inerat morbis corpus compage solutum </l>
     <l n="107">uiuentisque animae dudum iam mortua membra. </l>
     <l n="108">"Surge, ait, atque tui iam lecti baiulus esto. " </l>
-    <l n="109"><choice><sic>ezilit</sic><corr>exilit</corr></choice> atque alacer humeris uehit ipse cubile. </l>
+    <l n="109">exilit atque alacer humeris uehit ipse cubile. </l>
     <l n="110">ecce trahebatur caecus, quem lumine mater </l>
     <l n="111">ediderat uiduum, communis lucis egentem, </l>
     <l n="112">non totum natum, mundi quia parte carebat. </l>

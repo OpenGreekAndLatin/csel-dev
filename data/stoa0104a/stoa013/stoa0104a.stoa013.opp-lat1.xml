@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,9 +102,9 @@
           </ab>
           <div n="pr" subtype="section" type="textpart"><p>Cum in unum Cartaginem conuenissent kalendis Septembribus <lb n="5"/>
             episcopi plurimi ex prouincia Africa Numidia Mauritania cum <lb/>
-            presbyteris et <sic>diaconibuB</sic>, praesentibus etiam plebis maxima <lb/>
+            presbyteris et diaconibus, praesentibus etiam plebis maxima <lb/>
             parte, et lectae essent litterae Iubaiani ad Cyprianum factae, <lb/>
-            item Cypriani ad Iubaianum rescriptae de <choice><sic>baereticis</sic><corr>haereticis</corr></choice> baptizandis <lb/>
+            item Cypriani ad Iubaianum rescriptae de haereticis baptizandis <lb/>
             quidque postmodum Cypriano Iubaianus idem rescripserit, Cyprianus <lb n="10"/>
             dixit: audistis, collegae dilectissimi, quid mihi Iubaianus <lb/>
             coepiscopus noster scripserit consulens mediocritatem nostram <lb/>
@@ -116,7 +114,7 @@
             baptizari et sanctificari oportere. item lectae sunt uobis et aliae <lb/>
             Iubaiani litterae quibus pro sua sincera et religiosa deuotione ad <lb/>
             epistulam nostram rescribens non tantum consensit, sed etiam <lb/>
-            instructum se esse confessus gratias egit. <choice><sic>guperest</sic><corr>superest</corr></choice> ut de hac ipsa
+            instructum se esse confessus gratias egit. superest ut de hac ipsa
 
 <note type="footnote"> INCIPIT SENTENTIAE EPISCOPORVM NYMEBO LXXXVII <hi rend="italic">ST,</hi> INCIPIT SEN- <lb/>
             TENTIAE EPISCOPOEYM <hi rend="italic">L,</hi> SENTENTIAE EPISCOPORVM <hi rend="italic">V</hi> 5 cartaginem <hi rend="italic">S,</hi> <lb/>
@@ -148,14 +146,14 @@
           </div>
 
 <div n="1" subtype="section" type="textpart"><ab>
-            <title type="sub">Caecilius a <sic>Biltha</sic> dixit:</title>
+            <title type="sub">Caecilius a Biltha dixit:</title>
           </ab>
           <p> <lb/>
             Ego unum baptismum in ecclesia sola scio et extra ecclesiam <lb/>
             nullum. hic erit unum, ubi spes uera est et fides certa. <lb/>
             sic enim scriptum est: una fides, una spes, unum baptisma, <lb/>
             non apud haereticos, ubi spes nulla est et fides falsa, <lb n="15"/>
-            ubi omnia per mendacium geruntur, <choice><sic>pbi</sic><corr>ubi</corr></choice> exorcizat daemoniacus 
+            ubi omnia per mendacium geruntur, ubi exorcizat daemoniacus 
 
 
 
@@ -176,24 +174,24 @@
             fidem dat infidelis, ueniam delictorum tribuit sceleratus, et in <lb/>
             nomine Christi tinguit antichristus, benedicit a Deo maledictus, <lb/>
             uitam pollicetur mortuus, pacem dat inpacificus, Deum inuocat <lb/>
-            blasphemus, sacerdotium administrat profanus, ponit <choice><sic>altarer</sic><corr>altare</corr></choice> <lb n="5"/>
-            sacrilegus, ad haec omnia accedit etiam illud malum ut <choice><sic>antiste</sic><corr>antistes</corr></choice>?, <lb/>
+            blasphemus, sacerdotium administrat profanus, ponit altare <lb n="5"/>
+            sacrilegus, ad haec omnia accedit etiam illud malum ut antistes?, <lb/>
             diaboli audeat eucharistiam facere. aut qui illis adsistunt dicant <lb/>
-            haec omnia falsa esse de haereticis. ecce ad qualia. igitur <choice><sic>ecclesiai</sic><corr>ecclesia</corr></choice> <lb/>
+            haec omnia falsa esse de haereticis. ecce ad qualia. igitur ecclesia <lb/>
             consentire et sine baptismo et uenia delictorum communicare <lb/>
-             conpellitur. quam. rem, fratres, fugere, [<sic>acluitare</sic>] debemus et <lb n="10"/>
+             conpellitur. quam. rem, fratres, fugere, [ac,uitare] debemus et <lb n="10"/>
             a tanto scelere nos separare et unum baptismum tenere quod soli, <lb/>
             ecclesiae a Domino concessum est. 
 </p></div>
   <div n="2" subtype="section" type="textpart">
           <ab>
-            <title type="sub">.Primus a <sic>Misgirpa</sic> dixit:</title>
+            <title type="sub">.Primus a Misgirpa dixit:</title>
           </ab>
           <p>Censeo omnem hominem ab haeresi uenientem baptizandum. <lb/>
             frustra enim illic putat se esse baptizatum, cum non sit baptisma <lb n="15"/>
-            nisi in ecclesia unum et uerum,: quia et <choice><sic>Peus</sic><corr>Deus</corr></choice> unus e.t <lb/>
-            fides una et ecclesia una est, in qua stat unum <choice><sic>baptismaet</sic><corr>baptisma</corr></choice> sanctitas <lb/>
-            et cetera. nam quae foris exercentur nullum <choice><sic>habept</sic><corr>habent</corr></choice> salutis <lb/>
+            nisi in ecclesia unum et uerum,: quia et Deus unus e.t <lb/>
+            fides una et ecclesia una est, in qua stat unum baptisma sanctitas <lb/>
+            et cetera. nam quae foris exercentur nullum habent salutis <lb/>
             effectum. 
 </p></div>
     <div n="3" subtype="section" type="textpart">    
@@ -231,7 +229,7 @@
             ut haereticos et schismaticos ad ecclesiam uenientes qui pseudobaptizati <lb/>
             uidentur debere eos in fonte perenni baptizari, et <lb n="5"/>
             ideo secundum testimonium scripturarum et secundum decretum <lb/>
-            collegarum <choice><sic>noStrorum</sic><corr>nostrorum</corr></choice> sanctissimae memoriae uirorum <lb/>
+            collegarum nostrorum sanctissimae memoriae uirorum <lb/>
             omnes schismaticos et haereticos qui ad ecclesiam conuersi <lb/>
             sunt baptizaui, sed et eos qui ordinati uidebantur laicos <lb/>
             recepi. <lb n="10"/>
@@ -240,17 +238,17 @@
           </div>
 
 <div n="5" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Hemesianus</sic> a <sic>Thubunas</sic> dixit:</title>
+            <title type="sub">Nemesianus a Thubunas dixit:</title>
           </ab>
           <p> Baptisma quod dant haeretici et schismatici non esse uerum <lb/>
             ubique in scripturis sanctis declaratum est, quoniam ipsi <lb/>
-            praepositi eorum falsi Christi sunt et falsi prophetae dicente <choice><sic>Dcmino</sic><corr>Domino</corr></choice> <lb/>
+            praepositi eorum falsi Christi sunt et falsi prophetae dicente Dcmino <lb/>
             per Salomonem: qui fidens est falsis hic pascit <lb n="15"/>
             uentos, idem autem ipse sequitur aues uolantes. <lb/>
-            <choice n="0.86"><sic n="80">deseruit</sic><corr n="12">deserui</corr></choice> enim uias uineae suae, semitas uero agelli <lb/>
+            deseruit enim uias uineae suae, semitas uero agelli <lb/>
             sui errauit. ingreditur autem per auia loca adque <lb/>
             arida et terram destinatam in sitim, contrahit <lb/>
-            autem manibus infructuosa. et <choice><sic>itemm</sic><corr>iterum</corr></choice>: ab aqua autem <lb n="20"/>
+            autem manibus infructuosa. et iterum: ab aqua autem <lb n="20"/>
             aliena abstine nec de fonte extraneo biberis, ut
 
 <note type="footnote"> 15 Prou. 9, 12. 20 Prou. 9, 18. </note>
@@ -291,7 +289,7 @@
             spiritus est, quia Deus spiritus est, et ex Deo natus <lb/>
             est. ergo omnes haeretici et schismatici omnia quaecumque <lb/>
             faciunt carnalia sunt dicente apostolo: manifesta sunt <lb/>
-             enim opera carnis, quae sunt <choice><sic>fornicationefc</sic><corr>fornicationes</corr></choice>, inmunditiae, <lb n="20"/>
+             enim opera carnis, quae sunt fornicationes, inmunditiae, <lb n="20"/>
             incestum, idololatriae seruitus, ueneficia, <lb/>
             inimicitiae, certamina, zelus, ira, diuisiones, <lb/>
             haereses et his similia: de quibus praedixi uobis, <lb/>
@@ -324,26 +322,26 @@
           </div>
 
 <div n="6" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Iannarius</sic> a <sic>Lambese</sic> dixit:</title>
+            <title type="sub">Ianuarius a Lambese dixit:</title>
           </ab>
-          <p> Secundum scripturarum sanctarum auctoritatem <choice><sic>decemo</sic><corr>decerno</corr></choice> haereticos <lb/>
+          <p> Secundum scripturarum sanctarum auctoritatem decerno haereticos <lb/>
             omnes baptizandos et sic in ecclesiam sanctam admittendos. <lb/>
             </p>
           </div>
 
 <div n="7" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Lucins</sic> a Castra Galbae dixit:</title>
+            <title type="sub">Lucius a Castra Galbae dixit:</title>
           </ab>
           <p> Cum Dominus in euangelio suo dixerit: uos estis sal <lb/>
             terrae. quodsi autem sal fatuus fuerit, in quo condietur? <lb/>
             ex eo ad nihilum ualebit, nisi ut proiciatur <lb/>
             foras et conculcetur ab hominibus, et iterum post resurrectionem <lb/>
             suam mittens apostolos suos mandat dicens: data <lb n="15"/>
-            est mihi omnis potestas in caelo <sic>etinterra</sic>. ite ergo <lb/>
+            est mihi omnis potestas in caelo et in terra. ite ergo <lb/>
             et docete gentes baptizantes eos in nomine Patris <lb/>
             et Filii et Spiritus sancti. cum ergo manifestum sit haereticos <lb/>
             id est hostes Christi non integram sacramenti habere <lb/>
-            confessionem, item schismaticos non posse condire <choice n="0.64"><sic n="492">sapientia</sic><corr n="276">sapientiae</corr></choice><lb n="20"/>
+            confessionem, item schismaticos non posse condire sapientia<lb n="20"/>
             spiritali, cum ipsi ab ecclesia quae una est recedendo infatuati
 
 <note type="footnote"> 11 Matth. 5, 13. 15 Matth. 28,18 sq. </note>
@@ -370,10 +368,10 @@
           </div>
 
 <div n="8" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Crescena</sic> a Cirta dixit:</title>
+            <title type="sub">Crescens a Cirta dixit:</title>
           </ab>
           <p>Tanto coetu sanctissimorum consacerdotum lectis litteris Cypriani  <lb/>
-            dilectissimi nostri ad <sic>Iubaianum</sic> itemque ad Stephanum, <lb/>
+            dilectissimi nostri ad Iubaianum itemque ad Stephanum, <lb/>
             quae tantum in se <hi rend="italic">sanctissimorum</hi> testimonio rum descendentium <lb/>
             ex scripturis deificis continent, ut merito omnes per <lb/>
              Dei gratiam adunati consentire debeamus, censeo ergo omnes <lb n="10"/>
@@ -387,7 +385,7 @@
           </div>
 
 <div n="9" subtype="section" type="textpart"><ab>
-            <title type="sub">Nicomedes a <sic>Segerrais</sic> dixit:</title>
+            <title type="sub">Nicomedes a Segermis dixit:</title>
           </ab>
           <p>Mea sententia haec est ut haeretici ad ecclesiam uenientes  <lb/>
             baptizentur eo quod nullam foris aput peccatores remissionem <lb/>
@@ -414,7 +412,7 @@
           </div>
 
 <div n="10" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Konnulus</sic> a Girba dixit:</title>
+            <title type="sub">Monnulus a Girba dixit:</title>
           </ab>
           <p> Ecclesiae [catholicae] matris nostrae ueritas [semper] aput <lb/>
             nos, fratres, et mansit et manet, eo quod in baptismate est <lb/>
@@ -430,7 +428,7 @@
           </div>
 
 <div n="11" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Seoundinui</sic> a <sic>Cedias</sic> dixit:</title>
+            <title type="sub">Secundinus a Cedias dixit:</title>
           </ab>
           <p> Cum Dominus noster Christus dicat: qui mecum non est <lb/>
             aduersum me est, et Iohannes apostolus eos qui ab ecclesia <lb/>
@@ -463,7 +461,7 @@
           </div>
 
 <div n="12" subtype="section" type="textpart"><ab>
-            <title type="sub">Felix a <sic>Bagai</sic> dixit:</title>
+            <title type="sub">Felix a Bagai dixit:</title>
           </ab>
           <p>Sicut caecus caecum ducens sic in foueam cadent, ita haereticus  <lb/>
             haereticum baptizans simul in mortem cadent. et ideo haereticus <lb/>
@@ -473,7 +471,7 @@
 </p></div>
   <div n="13" subtype="section" type="textpart"><p> </p>
           <ab>
-            <title type="sub"><sic n="poss">Polianus</sic> a <sic>Mileo</sic> dixit:</title>
+            <title type="sub">Polianus a Mileo dixit:</title>
           </ab>
           <p>Iustum est haereticum baptizari in ecclesia sancta. 
 </p></div>
@@ -488,19 +486,19 @@
           </div>
 
 <div n="15" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>DatiuuB</sic> a Vadis dixit:</title>
+            <title type="sub">Datiuus a Vadis dixit:</title>
           </ab>
           <p>Nos quantum in nobis est haeretico non communicamus,  <lb/>
-            nisi baptizatus in ecclesia fuerit et remissam <choice><sic>peccatorr</sic><corr>peccatorum</corr></choice> m acceperit. <lb/>
+            nisi baptizatus in ecclesia fuerit et remissam peccatorum m acceperit. <lb/>
             </p>
           </div>
 
 <div n="16" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Snccessua</sic> ab Abbir Germaniciana dixit:</title>
+            <title type="sub">Successus ab Abbir Germaniciana dixit:</title>
           </ab>
           <p rend="script">Haereticis aut nihil licet aut tctum licet. si possunt baptizare,  <lb/>
             possunt et sanctum Spiritum dare: si autem sanctum <lb/>
-            Spiritum dare non possunt, quia non <choice><sic>hafyent</sic><corr>habent</corr></choice> Spiritum sanctum, <lb/>
+            Spiritum dare non possunt, quia non habent Spiritum sanctum, <lb/>
             nec baptizare spiritaliter possunt. propterea censemus haereticos <lb/>
              baptizandos esse.
 
@@ -522,10 +520,10 @@
           </div>
 
 <div n="17" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Portanatus</sic> a <sic>ThuccaJjori</sic>. dixit:</title>
+            <title type="sub">Fortunatus a Thuccabori. dixit:</title>
           </ab>
           <p> Iesus Christus Dominus et Deus,:noster Dei patris et creatoris <lb/>
-            filius super Petrum aedificauit ecclesiam, <choice><sic>nou</sic><corr>non</corr></choice> super haeresim, <lb/>
+            filius super Petrum aedificauit ecclesiam, non super haeresim, <lb/>
             et potestatem baptizandi episcopis dedit, non haereticis. quare <lb/>
             qui extra ecclesiam sunt et contra Christum stantes oues, eius et<lb n="5"/>
             gregem spargunt baptizare foris non possunt. 
@@ -533,19 +531,19 @@
           </div>
 
 <div n="18" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Sedatus</sic> a <sic>Thuburbo</sic> dixit:</title>
+            <title type="sub">Sedatus a Thuburbo dixit:</title>
           </ab>
           <p> In quantum aqua sacerdotis prece in ecclesia sanctificata abluit <lb/>
-            delicta, in tantum haeretico <choice><sic>sermorie</sic><corr>sermone</corr></choice> uelut cancer infecta cumulat <lb/>
-            peccata. quare omnibus <choice><sic>papificig</sic><corr>pacificis</corr></choice> quidem uiribus nitendum <lb n="10"/>
+            delicta, in tantum haeretico sermone uelut cancer infecta cumulat <lb/>
+            peccata. quare omnibus pacificis quidem uiribus nitendum <lb n="10"/>
             est, ne qui haeretico errore infectus et intinctus singulare et <lb/>
             uerum ecclesiae baptismum retractet accipere, quo quisquis non <lb/>
-            fuerit baptizatus regno caelorum <choice><sic>liet</sic><corr>fiet</corr></choice> alienus. 
+            fuerit baptizatus regno caelorum fiet alienus. 
 </p>
           </div>
 
 <div n="19" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Priuatianus</sic> a <sic>Sufetula</sic> dixit:</title>
+            <title type="sub">priuatianus a sufetula dixit:</title>
           </ab>
           <p> Qui haereticos potestatem baptizandi habere dicit, dicat prius <lb n="15"/>
             quis haeresim condiderit. si enim haeresis a Deo est, habere et <lb/>
@@ -557,7 +555,7 @@
 <div n="20" subtype="section" type="textpart"><ab>
             <title type="sub">Priuatus a Sufibus dixit:</title>
           </ab>
-          <p>  Qui <choice><sic>haereticoruni</sic><corr>haereticorum</corr></choice> baptismum probat quid aliud quam haereticis<lb n="20"/>
+          <p>  Qui haereticorum baptismum probat quid aliud quam haereticis<lb n="20"/>
             communicat?
 
 <note type="footnote"> .1 <hi rend="italic">thuccaboritSA, dhuccabori L[V,</hi> tuchabQrLr 3 <hi rend="italic">petrum SLTVA, <lb/>
@@ -577,7 +575,7 @@
           </div>
 
 <div n="21" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>HortexMianuB</sic> a Laribus dixit:</title>
+            <title type="sub">Hortensianus a Laribus dixit:</title>
           </ab>
           <p>Viderint aut praesumptores aut fautores haereticorum: nos  <lb/>
             unum baptisma quod non nisi in ecclesia nouimus ecclesiae uindicamus. <lb/>
@@ -588,7 +586,7 @@
           </div>
 
 <div n="22" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Caasius</sic><corr>Cassius</corr></choice> a Macomadibus dixit:</title>
+            <title type="sub">Cassius a Macomadibus dixit:</title>
           </ab>
           <p>Cum baptismata duo esse non possint, qui haereticis baptismum  <lb/>
             concedit sibi tollit. censeo itaque flebiles et tabidos haereticos <lb/>
@@ -607,7 +605,7 @@
             <title type="sub">Alius Ianuarius a Vico Caesaris dixit:</title>
           </ab>
           <p>Si non obtemperat error ueritati, multo magis ueritas non  <lb/>
-            consentit errori. et ideo nos ecclesiae adsistimus, <choice><sic>m</sic><corr>in</corr></choice> qua praesidemus, <lb/>
+            consentit errori. et ideo nos ecclesiae adsistimus, in qua praesidemus, <lb/>
             ut baptismum eius ipsi soli uindicantes eos quos ecclesia <lb/>
              non baptizauit baptizemus. <lb n="20"/>
             
@@ -636,7 +634,7 @@
 <pb n="446"/>
             pertinet sermo Domini dicentis: qui non est mecum aduersum <lb/>
             me est, et qui non mecum colligit spargi <lb/>
-            t? unde constat super filios alienos et <sic>snboles</sic> antichristi <lb/>
+            t? unde constat super filios alienos et suboles antichristi <lb/>
             Spiritum sanctum per manus inpositionem non tantummodo non <lb/>
             posse descendere, cum manifestum sit haereticos baptisma non<lb n="5"/>
             habere. 
@@ -644,7 +642,7 @@
           </div>
 
 <div n="25" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic n="poss">Yictoricus</sic> a Thabraca dixit:</title>
+            <title type="sub">Victorious a Thabraca dixit:</title>
           </ab>
           <p> Si licet haereticis baptizare et remissam peccatorum dare, quid <lb/>
             illos infamamus et haereticos illos appellamus ? 
@@ -652,7 +650,7 @@
           </div>
 
 <div n="26" subtype="section" type="textpart"><ab>
-            <title type="sub">Alius Felix ab <sic>Vthina</sic> dixit:</title>
+            <title type="sub">Alius Felix ab Vthina dixit:</title>
           </ab>
           <p> Nemini dubium est, sanctissimi consacerdotes, non in tantum <lb/>
             posse humanam praesumptionem, quantum Domini nostri <lb/>
@@ -660,15 +658,15 @@
             periculi hoc quoque non tantum obseruare debemus, uerum etiam <lb/>
             ab omnibus nobis confirmare, ut omnes haeretici qui ad sinum <lb n="15"/>
             matris ecclesiae adcurrunt baptizentur, ut mens haeretica quae <lb/>
-            diuturna tabe polluta est sanctificatione lauacri purgata in <choice><sic>melins</sic><corr>melius</corr></choice> <lb/>
+            diuturna tabe polluta est sanctificatione lauacri purgata in melius <lb/>
             reformetur. 
 </p>
           </div>
 
 <div n="27" subtype="section" type="textpart"><ab>
-            <title type="sub">Quietus a <sic>Burne</sic> dixit:</title>
+            <title type="sub">Quietus a Buruc dixit:</title>
           </ab>
-          <p rend="script"> Qui fide <choice><sic>uinimus</sic><corr>uiuimus</corr></choice> obsequi his quae instruendis nobis ante praedicta<lb n="20"/>
+          <p rend="script"> Qui fide uiuimus obsequi his quae instruendis nobis ante praedicta<lb n="20"/>
             sunt credula obseruatione debemus. nam scriptum est aput <lb/>
             Salomonem: qui baptizatur a mortuo quid proficit
 
@@ -700,25 +698,25 @@
           </div>
 
 <div n="28" subtype="section" type="textpart"><ab>
-            <title type="sub">Castus a <sic>Sicoa</sic> dixit:</title>
+            <title type="sub">Castus a Sicca dixit:</title>
           </ab>
           <p>Qui contempta ueritate praesumit consuetudinem sequi aut  <lb n="10"/>
-            circa fratres <choice><sic>muidus</sic><corr>inuidus</corr></choice> est et <choice n="0.95"><sic n="491">magnus</sic><corr n="23">malignus</corr></choice> quibus ueritas reuelatur <lb/>
+            circa fratres inuidus est et malignus quibus ueritas reuelatur <lb/>
             aut circa Deum ingratus cuius inspiratione ecclesia eius <lb/>
-            <choice><sic>instraitur</sic><corr>instruitur</corr></choice>. 
+            instruitur. 
 </p>
           </div>
 
 <div n="29" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Eucratius</sic><corr>Eucratins</corr></choice> a Thenis dixit:</title>
+            <title type="sub">Eucratins a Thenis dixit:</title>
           </ab>
           <p>Fidem nostram et baptismatis gratiam et legis ecclesiasticae  <lb n="15"/>
             regulam Dominus et Deus noster Iesus Christus suo ore apostolos <lb/>
-            docens <sic>perimpleuitdicens</sic>: ite et docete gentes baptizantes <lb/>
+            docens perimpleuit dicens: ite et docete gentes baptizantes <lb/>
             eos in nomine Patris et Filii et Spiritus sancti. <lb/>
             falsum ergo haereticorum baptisma et iniquum a nobis pellendum <lb/>
              est et omni contestatione refutandum, de quorum ore uirus, <lb n="20"/>
-            <sic>nonuita</sic>, nec gratia caelestis, sed blasphemia trinitatis exprimitur. <lb/>
+            non uita, nec gratia caelestis, sed blasphemia trinitatis exprimitur. <lb/>
             et ideo uenientes ad ecclesiam haereticos integro et catholico <lb/>
             baptismate baptizari debere manifestum est, ut a
 
@@ -738,15 +736,15 @@
 
 
 <pb n="448"/>
-            <sic>blasphema</sic> sua praesumptione purificati possint Spiritus sancti gloria <lb/>
+            blasphema sua praesumptione purificati possint Spiritus sancti gloria <lb/>
             reformari. 
 </p>
           </div>
 
 <div n="30" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Libosus</sic> a Vaga dixit:</title>
+            <title type="sub">Libosus a Vaga dixit:</title>
           </ab>
-          <p> In euangelio Dominus, ego sum, inquit, ueritas. <sic>nondlxit</sic>: <lb/>
+          <p> In euangelio Dominus, ego sum, inquit, ueritas. non dixit: <lb/>
             ego sum consuetudo. itaque ueritate manifestata cedat consuetudo<lb n="5"/>
             ueritati, ut etsi in praeteritum quis in ecclesia haereticos <lb/>
             non baptizabat, nunc baptizare incipiat. 
@@ -763,14 +761,14 @@
           </div>
 
 <div n="32" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Engenius</sic> ab <sic>Anpnedera</sic> dixit:</title>
+            <title type="sub">Eugenius ab Ammedera dixit:</title>
           </ab>
-          <p> Et ego hoc idem.censeo haereticos <sic>baptizaijdos</sic> esse. 
+          <p> Et ego hoc idem.censeo haereticos baptizandos esse. 
 </p>
           </div>
 
 <div n="33" subtype="section" type="textpart"><ab>
-            <title type="sub">. <choice><sic>Itpm</sic><corr>Item</corr></choice> alius Felix a <choice><sic>Bamaocora</sic><corr>Bamaccora</corr></choice> dixit:</title>
+            <title type="sub">. Item alius Felix a Bamaccora dixit:</title>
           </ab>
           <p> Ecce secutus diuinarum scripturarum auctoritatem baptizandos<lb n="15"/>
             haereticos esse censeo, sed et eos qui schismaticos baptizatos <lb/>
@@ -797,7 +795,7 @@
 
 
 <pb n="449"/>
-            <sic>aduersani</sic> quia alienus esse non potest. nec duobus populis salutarem <lb/>
+            aduersarii quia alienus esse non potest. nec duobus populis salutarem <lb/>
             aquam tribuere potest ille qui unius gregis pastor est. et ideo <lb/>
             manifestum est nec haereticos nec schismaticos aliquid caeleste <lb/>
             posse suscipere, qui a peccatoribus hominibus ab ecclesia extraneis <lb/>
@@ -829,7 +827,7 @@
           </div>
 
 <div n="36" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Demetrina</sic><corr>Demetrius</corr></choice> a Leptiminus dixit:</title>
+            <title type="sub">Demetrius a Leptiminus dixit:</title>
           </ab>
           <p>Vnum baptisma nos custodimus, quia ecclesiae soli rem suam  <lb n="20"/>
             uindicamus. qui autem dicunt quia haeretici uere et legitime
@@ -854,7 +852,7 @@
 
 
 <pb n="450"/>
-            <sic>baptizant</sic>, ipsi sunt qui non duo sed multa baptismata faciunt. <lb/>
+            baptizant, ipsi sunt qui non duo sed multa baptismata faciunt. <lb/>
             nam cum haereses multae sint, pro earum numero et baptismata <lb/>
             conputabantur. 
 </p>
@@ -876,18 +874,18 @@
           </div>
 
 <div n="38" subtype="section" type="textpart"><ab>
-            <title type="sub">Marcus a <sic>Haothari</sic> dixit:</title>
+            <title type="sub">Marcus a Maothari dixit:</title>
           </ab>
           <p> Mirandum non est, si haeretici hostes adque inpugnatores <lb n="15"/>
             ueritatis rem sibi uindicant potestatis et dignationis alienae. <lb/>
             illud mirandum est quod quidam nostri praeuaricatores ueritatis <lb/>
-            haereticis <choice><sic>suffragantirr</sic><corr>suffragantur</corr></choice> et christianis aduersantur. propterea decreuimus <lb/>
+            haereticis suffragantur et christianis aduersantur. propterea decreuimus <lb/>
             haereticos baptizandos esse. 
 </p>
           </div>
 
 <div n="39" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Sattius</sic> a <sic>Sicilibba</sic> dixit:</title>
+            <title type="sub">Sattius a Sicilibba dixit:</title>
           </ab>
           <p rend="script"> Si haereticis in baptismo suo peccata donantur, sine causa ad <lb/>
             ecclesiam ueniunt. nam cum in die iudicii peccata sint quae 
@@ -937,17 +935,17 @@
 <div n="42" subtype="section" type="textpart"><ab>
             <title type="sub">Iambus a Germaniciana dixit:</title>
           </ab>
-          <p>Ųui haereticorum baptismum probant nostrum <choice n="0.2"><sic n="1">mprobant</sic><corr n="4">inprobant</corr></choice>, ut  <lb n="15"/>
-            extra ecclesiam non dicam lotos, sed sordidatos negent <choice><sic>m</sic><corr>in</corr></choice> ecclesia <lb/>
+          <p>Ųui haereticorum baptismum probant nostrum inprobant, ut  <lb n="15"/>
+            extra ecclesiam non dicam lotos, sed sordidatos negent in ecclesia <lb/>
             baptizari oportere. 
 </p>
           </div>
 
 <div n="43" subtype="section" type="textpart"><ab>
-            <title type="sub">Lucianus a <sic>Buouma</sic> dixit:</title>
+            <title type="sub">Lucianus a Rucuma dixit:</title>
           </ab>
           <p>Scriptum est: et uidit Deus lucem quia bona est,  <lb/>
-             et diuisit inter lucem et tenebras. si <sic>potestluci</sic> et tenebris <lb n="20"/>
+             et diuisit inter lucem et tenebras. si potest luci et tenebris <lb n="20"/>
             conuenire, potest nobis et haereticis aliquid esse commune. <lb/>
             propterea censeo haereticos baptizandos esse.
 
@@ -971,7 +969,7 @@
           </div>
 
 <div n="44" subtype="section" type="textpart"><ab>
-            <title type="sub">Pelagianus a <sic>Lnperoiana</sic> dixit:</title>
+            <title type="sub">Pelagianus a Luperciana dixit:</title>
           </ab>
           <p> Scriptum est: aut enim Deus Deus est aut Baal Deus <lb/>
             est. ita et nunc aut ecclesia ecclesia est aut haeresis ecclesia est. <lb/>
@@ -982,7 +980,7 @@
           </div>
 
 <div n="45" subtype="section" type="textpart"><ab>
-            <title type="sub">Iader a <sic>Xidili</sic> dixit:</title>
+            <title type="sub">Iader a Midili dixit:</title>
           </ab>
           <p> Scimus non esse nisi unum baptisma in ecclesia catholica, et <lb/>
             ideo non debemus admittere haereticum, nisi baptizatus aput <lb/>
@@ -993,7 +991,7 @@
           </div>
 
 <div n="46" subtype="section" type="textpart"><ab>
-            <title type="sub">Item alius Felix a <sic>Xarazana</sic> dixit:</title>
+            <title type="sub">Item alius Felix a Marasana dixit:</title>
           </ab>
           <p> Vna fides, unum baptismum, sed ecclesiae catholicae cui soli <lb/>
             licet baptizare. 
@@ -1031,18 +1029,18 @@
           </div>
 
 <div n="48" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Pomponiua</sic> a Dionysiana dixit:</title>
+            <title type="sub">Pomponius a Dionysiana dixit:</title>
           </ab>
           <p>Manifestum est haereticos non posse baptizare et remissam  <lb/>
-            i <sic>eccatorum</sic> dare qui potestatem non habent ut aut soluere aut <lb/>
+            i eccatorum dare qui potestatem non habent ut aut soluere aut <lb/>
             ligare aliquid in terris possint. 
 </p>
           </div>
 
 <div n="49" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Venantius</sic> a <sic>Thinisa</sic> dixit:</title>
+            <title type="sub">Venantius a Thinisa dixit:</title>
           </ab>
-          <p>Si maritus <choice><sic>Dereere</sic><corr>peregre</corr></choice> <choice><sic>Droficiscens</sic><corr>proficiscens</corr></choice> amico suo commendasset uxorem  <lb/>
+          <p>Si maritus peregre proficiscens amico suo commendasset uxorem  <lb/>
             suam custodiendam, commendatam sibi ille quanta posset <lb/>
             diligentia seruaret, ne ab aliquo castitas eius et sanctitas adulteraretur. <lb/>
             Christus Dominus et Deus noster ad patrem proficiscens <lb/>
@@ -1064,7 +1062,7 @@
           </div>
 
 <div n="51" subtype="section" type="textpart"><ab>
-            <title type="sub">Saturninus a <choice><sic>Viotoriana</sic><corr>Victoriana</corr></choice> dixit:</title>
+            <title type="sub">Saturninus a victoriana dixit:</title>
           </ab>
           <p>Si licet haereticis baptizare, excusati sunt et defensi inlicita  <lb n="20"/>
             facientes, nec uideo quare eos aut Christus aduersarios suos aut <lb/>
@@ -1085,19 +1083,19 @@
           </div>
 
 <div n="52" subtype="section" type="textpart"><ab>
-            <title type="sub">Alias <sic n="poss">Saturninni</sic> a <sic>Taooa</sic> dixit:</title>
+            <title type="sub">Alias Saturninus a Tucca dixit:</title>
           </ab>
           <p> Gentiles quamuis idola colant, tamen summum Deum patrem <lb/>
             creatorem cognoscunt et confitentur. in hunc Marcion <lb/>
             blasphemat: et quidam non erubescunt Marcionis baptismum <lb/>
-            probare. quomodo tales sacerdotes sacerdotium Dei aut <choice><sic>sernant</sic><corr>seruant</corr></choice><lb n="5"/>
+            probare. quomodo tales sacerdotes sacerdotium Dei aut seruant<lb n="5"/>
             aut uindicant qui hostes Dei non baptizant et sic illis <lb/>
             communicant? 
 </p>
           </div>
 
 <div n="53" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Maroellus</sic><corr>Marcellus</corr></choice> a Zama dixit:</title>
+            <title type="sub">marcellus a Zama dixit:</title>
           </ab>
           <p> Cum peccata non nisi in ecclesiae baptismo remittantur, qui <lb/>
             haereticum non baptizat peccatori communicat. <lb n="10"/>
@@ -1106,7 +1104,7 @@
           </div>
 
 <div n="54" subtype="section" type="textpart"><ab>
-            <title type="sub">Irenaeus ab <sic>Ylulis</sic> <sic>dizit</sic>:</title>
+            <title type="sub">Irenaeus ab Vlulis dixit:</title>
           </ab>
           <p> Si ideo ecclesia haereticum non baptizat, quod dicatur iam <lb/>
             baptizatus esse, haeresis maior est. 
@@ -1144,16 +1142,16 @@
           </div>
 
 <div n="57" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Iulianu</sic> a Thelepte dixit:</title>
+            <title type="sub">Iulianus a Thelepte dixit:</title>
           </ab>
           <p>Scriptum est: nemo potest aliquid accipere, nisi datum  <lb/>
-            fuerit illi de caelo. si haeresis de caelo <choice><sic>estT</sic><corr>est</corr></choice> potest et <lb/>
+            fuerit illi de caelo. si haeresis de caelo est potest et <lb/>
             baptisma dare. 
 </p>
           </div>
 
 <div n="58" subtype="section" type="textpart"><ab>
-            <title type="sub">Faustus a <sic>Timida</sic> regia dixit:</title>
+            <title type="sub">Faustus a Timida regia dixit:</title>
           </ab>
           <p>Non sibi blandiantur qui haereticis patrocinantur. qui pro  <lb/>
             haereticis ecclesiastico baptismo intercedit illos christianos et <lb/>
@@ -1162,16 +1160,16 @@
           </div>
 
 <div n="59" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Oeminius</sic><corr>Geminius</corr></choice> a Furnis dixit:</title>
+            <title type="sub">Geminius a Furnis dixit:</title>
           </ab>
           <p>Quidam de collegis haereticos praeponere sibi possunt, nobis  <lb n="10"/>
-            non possunt. et ideo quod semel decreuimus tenemus ut <choice><sic>naereticos</sic><corr>haereticos</corr></choice> <lb/>
+            non possunt. et ideo quod semel decreuimus tenemus ut haereticos <lb/>
             uenientes baptizemus. 
 </p>
           </div>
 
 <div n="60" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Rogatianus</sic> a <choice n="0.11"><sic n="2">Nona</sic><corr n="16">Noua</corr></choice> dixit:</title>
+            <title type="sub">Rogatianus a Noua dixit:</title>
           </ab>
           <p>Ecclesiam Christus instituit, haeresim diabolus. quomodo  <lb/>
             potest habere baptismum Christi synagoga Satanae? <lb n="15"/>
@@ -1180,15 +1178,15 @@
           </div>
 
 <div n="61" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Therapiua</sic> a Bulla dixit:</title>
+            <title type="sub">Therapius a Bulla dixit:</title>
           </ab>
           <p>Qui haereticis ecclesiae baptismum concedit et prodit quid  <lb/>
-            aliud quam sponsae <choice><sic>Ctgristi</sic><corr>Christi</corr></choice> ludas extitit? 
+            aliud quam sponsae Christi ludas extitit? 
 </p>
           </div>
 
 <div n="62" subtype="section" type="textpart"><ab>
-            <title type="sub">Item alius Lucius a <sic>Kembresa</sic> dixit:</title>
+            <title type="sub">Item alius Lucius a Membresa dixit:</title>
           </ab>
           <p>Scriptum est: Deus peccatorem non audit. haereticus  <lb n="20"/>
             qui peccator est quomodo audiri in baptismo potest?
@@ -1210,16 +1208,16 @@
           </div>
 
 <div n="63" subtype="section" type="textpart"><ab>
-            <title type="sub">Item <choice><sic>aliui</sic><corr>alius</corr></choice> <choice><sic>Fellz</sic><corr>Felix</corr></choice> a <sic>Biulaeenii</sic> dixit:</title>
+            <title type="sub">Item alius Felix a Buslacenis dixit:</title>
           </ab>
-          <p> In haereticis sine ecclesiae baptismo admittendis nemo <choice><sic>consnetudinem</sic><corr>consuetudinem</corr></choice> <lb/>
+          <p> In haereticis sine ecclesiae baptismo admittendis nemo consuetudinem <lb/>
             rationi et ueritati praeponat, quia consuetudinem <lb/>
             ratio et ueritas semper excludit. 
 </p>
           </div>
 
 <div n="64" subtype="section" type="textpart"><ab>
-            <title type="sub">Alius <sic n="poss">Satorninus</sic> ab <choice><sic>Anitinis</sic><corr>Auitinis</corr></choice> dixit:</title>
+            <title type="sub">Alius Saturninus ab Auitinis dixit:</title>
           </ab>
           <p> Si potest antichristus dare alicui gratiam Christi, possunt et <lb/>
             haeretici baptizare qui appellati sunt antichristi. 
@@ -1227,7 +1225,7 @@
           </div>
 
 <div n="65" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Quintui</sic><corr>Quintus</corr></choice> ab Aggya dixit:</title>
+            <title type="sub">Quintus ab Aggya dixit:</title>
           </ab>
           <p> Ille potest dare aliquid qui aliquid habet. haeretici autem quid <lb/>
             possunt dare, quos constat nihil habere? <lb n="10"/>
@@ -1236,7 +1234,7 @@
           </div>
 
 <div n="66" subtype="section" type="textpart"><ab>
-            <title type="sub">Alius <sic>Itdiamu</sic> a <sic>Karcelliana</sic> dixit:</title>
+            <title type="sub">Alius Iulianus a Marcelliana dixit:</title>
           </ab>
           <p> Si potest homo duobus dominis seruire, Deo et mamonae, <lb/>
             potest et baptisma duobus seruire, christiano et haeretico. 
@@ -1254,7 +1252,7 @@
           </div>
 
 <div n="68" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice n="0.58"><sic n="62">Alia</sic><corr n="44">Alius</corr></choice> Victor ab <choice><sic>Assnras</sic><corr>Assuras</corr></choice> dixit:</title>
+            <title type="sub">alius Victor ab Assuras dixit:</title>
           </ab>
           <p> Baptisma unum est, sed et ecclesiae. ubi ecclesia non est, <lb/>
             baptisma illic esse non potest.
@@ -1277,15 +1275,15 @@
           </div>
 
 <div n="69" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Donatulos</sic> a Capse dixit:</title>
+            <title type="sub">Donatulns a Capse dixit:</title>
           </ab>
           <p>Et ego semper hoc sensi, ut haeretici qui nihil foris possunt  <lb/>
-            <choice><sic>txmsequi</sic><corr>consequi</corr></choice>, quando ad ecclesiam conuertuntur, baptizentur. 
+            consequi, quando ad ecclesiam conuertuntur, baptizentur. 
 </p>
           </div>
 
 <div n="70" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Yerulus</sic> a <choice><sic>Rusiceade</sic><corr>Rusiccade</corr></choice> dixit:</title>
+            <title type="sub">Verulus a Rusiccade dixit:</title>
           </ab>
           <p>Homo haereticus dare non potest quod non habet: multo magis  <lb n="5"/>
             schismaticus quod habuit amisit. 
@@ -1293,7 +1291,7 @@
           </div>
 
 <div n="71" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Pndentianus</sic><corr>Pudentianus</corr></choice> a Cuiculi dixit:</title>
+            <title type="sub">pudentianus a Cuiculi dixit:</title>
           </ab>
           <p>Nouitas episcopatus effecit, fratres dilectissimi, ut sustinerem  <lb/>
             quid maiores iudicarent. nam haereses nihil habere nec posse <lb/>
@@ -1303,17 +1301,17 @@
           </div>
 
 <div n="72" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Fetrus</sic><corr>Petrus</corr></choice> ab Hippone diarrhyto dixit:</title>
+            <title type="sub">Petrus ab Hippone diarrhyto dixit:</title>
           </ab>
           <p>Cum baptisma unum sit in catholica ecclesia, manifestum est  <lb/>
-            non posse extra ecclesiam baptizari. et ideo in haeresi <sic>intinctos</sic> <lb/>
+            non posse extra ecclesiam baptizari. et ideo in haeresi intinctos <lb/>
              siue in schismate ad ecclesiam uenientes censeo baptizari . <lb n="15"/>
             oportere. 
 </p>
           </div>
 
 <div n="73" subtype="section" type="textpart"><ab>
-            <title type="sub">Item <choice><sic>alins</sic><corr>alius</corr></choice> Lucius ab Ausafa dixit:</title>
+            <title type="sub">Item alius Lucius ab Ausafa dixit:</title>
           </ab>
           <p rend="script">Secundum motum animi mei et Spiritus sancti, cum sit unus  <lb/>
             Deus pater Domini Iesu Christi et unus Christus et una spes,
@@ -1342,24 +1340,24 @@
           </div>
 
 <div n="74" subtype="section" type="textpart"><ab>
-            <title type="sub">Item alius <choice><sic>Feliz</sic><corr>Felix</corr></choice> a <choice><sic>Oursritibni</sic><corr>Gurgitibus</corr></choice> <sic>dizit</sic>:</title>
+            <title type="sub">Item alius Felix a Gurgitibus dixit:</title>
           </ab>
-          <p> Ego censeo, ut secundum sanctarum <sic n="poss">scripturaram</sic> praecepta <lb/>
+          <p> Ego censeo, ut secundum sanctarum scripturarum praecepta <lb/>
             baptizatos ab haereticis inlicite extra ecclesiam, si ad ecclesiam <lb/>
             confugere uoluerint, gratiam baptismi ubi licite datur consequantur. <lb/>
             </p>
           </div>
 
 <div n="75" subtype="section" type="textpart"><ab>
-            <title type="sub"><sic>Pucilhu</sic> a <sic>Lamaaba</sic> dixit:</title>
+            <title type="sub">pusillus a Lamasba dixit:</title>
           </ab>
           <p> Ego credo baptisma salutare non esse nisi in ecclesia catholica. <lb/>
-            quidquid absque catholica fuerit <choice><sic>simnlatio</sic><corr>simulatio</corr></choice> est. 
+            quidquid absque catholica fuerit simulatio est. 
 </p>
           </div>
 
 <div n="76" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Saluianu</sic><corr>Saluianus</corr></choice> a <sic>Oaianala</sic> dixit:</title>
+            <title type="sub">Saluianus a Gazaufala dixit:</title>
           </ab>
           <p> Haereticos nihil habere constat, et ideo ad nos ueniunt, ut <lb/>
             possint accipere quod non habent. <lb n="15"/>
@@ -1368,7 +1366,7 @@
           </div>
 
 <div n="77" subtype="section" type="textpart"><ab>
-            <title type="sub">Honoratus a <sic>Thucca</sic> dixit:</title>
+            <title type="sub">Honoratus a Thucca dixit:</title>
           </ab>
           <p> Cum Christus ueritas sit, magis ueritatem quam consuetudinem <lb/>
             sequi debemus, ut haereticos qui ideo ad nos ueniunt, <lb/>
@@ -1391,7 +1389,7 @@
           </div>
 
 <div n="78" subtype="section" type="textpart"><ab>
-            <title type="sub">Victor ab <sic>Octatra</sic> dixit:</title>
+            <title type="sub">Victor ab Octauu dixit:</title>
           </ab>
           <p>Quod et ipsi scitis, non olim sum episcopus constitutus,  <lb/>
             et ideo expectabam praecessorum consilium. hoc itaque <lb/>
@@ -1402,7 +1400,7 @@
           </div>
 
 <div n="79" subtype="section" type="textpart"><ab>
-            <title type="sub">Clarus a <sic>Mascula</sic> dixit:</title>
+            <title type="sub">Clarus a Mascula dixit:</title>
           </ab>
           <p>Manifesta est sententia Domini nostri Iesu Christi apostolos  <lb/>
             suos mittentis et ipsis solis potestatem a patre sibi datam permittentis, <lb/>
@@ -1414,7 +1412,7 @@
           </div>
 
 <div n="80" subtype="section" type="textpart"><ab>
-            <title type="sub"><choice><sic>Secundianus</sic><corr>Secnndianus</corr></choice> a Thambis dixit:</title>
+            <title type="sub">Secundianus a Thambis dixit:</title>
           </ab>
           <p>Non debemus haereticos nostra praesumptione decipere, ut in  <lb/>
             ecclesia Domini nostri Iesu Christi non baptizati ac per hoc remissionem <lb n="15"/>
@@ -1428,7 +1426,7 @@
           </div>
 
 <div n="81" subtype="section" type="textpart"><ab>
-            <title type="sub">Item alius <choice><sic>Aureliui</sic><corr>Aurelius</corr></choice> a Chullabi dixit:</title>
+            <title type="sub">Item alius Aurelius a Chullabi dixit:</title>
           </ab>
           <p rend="script">Iohannes apostolus in epistula sua posuit: si quis ad uos  <lb/>
             uenit et doctrinam Christi non habet, nolite eum
@@ -1446,7 +1444,7 @@
 
 
 <pb n="460"/>
-            admittere in domum uestram et aue illi ne <choice><sic>diieritis</sic><corr>dixeritis</corr></choice>. <lb/>
+            admittere in domum uestram et aue illi ne dixeritis. <lb/>
             qui enim dixerit illi aue communicat factis <lb/>
             eius malis. quomodo admitti tales temere in domum Dei possunt <lb/>
             qui in domum uestram priuatam admitti prohibentur? aut <lb/>
@@ -1469,7 +1467,7 @@
   <ab>
             <title type="sub">Natalis ab Oea dixit:</title>
           </ab>
-          <p> Tam ego praesens, quam <choice><sic>Fompeius</sic><corr>Pompeius</corr></choice> Sabratensis, quam etiam <lb/>
+          <p> Tam ego praesens, quam pompeius Sabratensis, quam etiam <lb/>
             Dioga Leptimagnensis, qui mihi mandauerunt corpore quidem <lb/>
             absentes, spiritu praesentes, censemus quod et collegae nostri, <lb n="15"/>
             quod haeretici communicationem habere nobiscum non possunt, <lb/>

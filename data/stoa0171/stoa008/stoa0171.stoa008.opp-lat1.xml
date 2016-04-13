@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -99,11 +97,11 @@
           </head>
   <div n="pr" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-          <p rend="script"><milestone n="2a" unit="altpage"/>  Quamquam Diuinarum <sic n="poss">Institutionum</sic> libri, quos iam pridem  <lb/>
+          <p rend="script"><milestone n="2a" unit="altpage"/>  Quamquam Diuinarum Institutionum libri, quos iam pridem  <lb/>
             ad inlustrandam ueritatem religionemque conscripsimus, ita legentium <lb n="5"/>
-            mentes instruant, ita <sic n="poss">informent</sic>, ut nec <sic n="poss">prolixitas</sic> pariat <lb/>
+            mentes instruant, ita informent, ut nec prolixitas pariat <lb/>
             fastidium nec oneret ubertas, tamen horum tibi epitomen fieri, <lb/>
-            <sic n="poss">Pentadi</sic> frater, desideras, credo, ut ad te aliquid scribam tuumque <lb/>
+            Pentadi frater, desideras, credo, ut ad te aliquid scribam tuumque <lb/>
             nomen in nostro qualicumque opere celebretur.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>faciam  <lb/>
@@ -112,7 +110,7 @@
 
 <div n="3" subtype="section" type="textpart"><p>fit enim totum  <lb/>
             et minus plenum, cum tanta rerum multitudo in angustum <lb/>
-            <sic n="poss">coartanda</sic> sit, et breuitate ipsa minus clarum, maxime cum <lb/>
+            coartanda sit, et breuitate ipsa minus clarum, maxime cum <lb/>
             et argumenta plurima et exempla, in quibus lumen est probationum, <lb/>
             necesse sit praeteriri, quoniam tanta eorum copia est, <lb n="15"/>
             ut uel sola librum conficere possint.</p></div>
@@ -249,12 +247,12 @@
             sibi aqam <hi rend="italic">(sic)</hi> uindecauit <hi rend="italic">(sic)</hi> aut neptunus ignem </note> <lb/>
              
 <pb n="678"/>
-            peritiam nec Minerua <choice><sic>frngum</sic><corr>frugum</corr></choice>, non arma Mercurius nec Mars lyram, <lb/>
+            peritiam nec Minerua frugum, non arma Mercurius nec Mars lyram, <lb/>
             non Iuppiter medicinam nec Asclepius fulmen: facilius illut ab  <lb/>
             alio iactum suscipiet quam ipse torquebit.</p></div>
 
 <div n="8" subtype="section" type="textpart"><p>si ergo singuli <lb/>
-            non possunt omnia, minus habent <choice><sic>nirium</sic><corr>uirium</corr></choice>, minus potestatis: is <lb/>
+            non possunt omnia, minus habent uirium, minus potestatis: is <lb/>
             autem deus putandus est qui potest totum, quam qui de toto <lb n="5"/>
             minimum. 
 </p>
@@ -323,8 +321,8 @@
             recensere quae de summo deo uel Thales uel Pythagoras et <lb n="5"/>
             Anaximenes antea uel postmodum Stoici, Cleanthes et Chrysippus <lb/>
             et Zenon, uel nostrorum Seneca Stoicos secutus et ipse <lb/>
-            Tullius <choice><sic>praedicauerint</sic><corr>praedicaueriut</corr></choice>, cum hi omnes et quid sit deus definire <lb/>
-            temptauerint et ab eo solo regi mundum <sic>adfirmauerint</sic> nec <lb/>
+            Tullius praedicaueriut, cum hi omnes et quid sit deus definire <lb/>
+            temptauerint et ab eo solo regi mundum adfirmauerint nec <lb/>
             ulli subiectum esse naturae, cum ab ipso sit omnis natura generata. <lb n="10"/>
             </p></div>
 
@@ -348,7 +346,7 @@
 
 <div n="5" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p>Superest de uatibus dicere. Varro decem <sic>Sibyllas</sic> fuisse   <lb/>
+<p>Superest de uatibus dicere. Varro decem Sibyllas fuisse   <lb/>
             tradit: primam de Persis, secundam Libyssam, tertiam <lb/>
             Delphida, quartam Cimmeriam, quintam Erythraeam,
 
@@ -369,14 +367,14 @@
             <hi rend="italic">Da,</hi> cimmeam <hi rend="italic">T</hi> </note> <lb n="25"/>
              
 <pb n="680"/>
-            sextam Samiam, septimam Cumanam, <choice><sic>octaoam</sic><corr>octauam</corr></choice> Hellespontiam, <lb/>
+            sextam Samiam, septimam Cumanam, octauam Hellespontiam, <lb/>
             nonam Phrygiam, decimam Tiburtem,  <lb/>
             cui sit nomen Albunea.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>ei his omnibus Cumanae <lb/>
             solius tres esse libros, qui Romanorum fata contineant <lb/>
             et habeantur arcani, ceterarum autem  <milestone n="6a" unit="altpage"/>  fere omnium <lb n="5"/>
-            singulos <choice><sic>eitare</sic><corr>extare</corr></choice> haberique uulgo, sed eos Sibyllinos <lb/>
+            singulos extare haberique uulgo, sed eos Sibyllinos <lb/>
             uelut uno nomine inscribi, nisi quod Erythraea, quae <lb/>
             Troici belli temporibus fuisse perhibetur, nomen suum <lb/>
             uerum posuit in libro; aliarum confusi sunt.</p></div>
@@ -500,7 +498,7 @@
 <div n="2" subtype="section" type="textpart"><p>   hic Epidauri moratus est, Cynosuris, <lb/>
             ut Cicero ait, sepultus, cum esset ictu fulminis interemptus. <lb/>
             Apollo autem pater eius non dedignatus est alienum gregem <lb/>
-            pascere, ut acciperet  <milestone n="sa" unit="altpage"/>  <choice n="0.00"><sic n="1">uiorem</sic><corr n="825">uxorem</corr></choice>; et dilectum puerum cum peremisset <lb/>
+            pascere, ut acciperet  <milestone n="sa" unit="altpage"/>  uxorem; et dilectum puerum cum peremisset <lb/>
             inprudens, gemitus suos inscripsit in flore.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>Marti<lb n="5"/>
@@ -514,7 +512,7 @@
             quia lyram repperit et palaestram.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>Liber pater debellata <lb/>
-            India uictor cum Cretam forte uenisset, <sic>Ariadnain</sic> conspexit <lb/>
+            India uictor cum Cretam forte uenisset, Ariadnain conspexit <lb/>
             in litore, quam Theseus et uiolauerat et reliquerat. tum amore <lb/>
             inflammatus eam sibi in coniugium sociauit et coronam eius, <lb/>
             ut poetae ferunt, inter astra signauit.</p></div>
@@ -618,12 +616,12 @@
             23 timuerit (ar <hi rend="italic">in ras. exit) T</hi> ac <hi rend="italic">Pf,</hi> a <hi rend="italic">T</hi> 25 ut <hi rend="italic">(ante</hi> totum) <hi rend="italic">Pf,</hi> aut <hi rend="italic">T</hi></note> <lb n="25"/>
              
 <pb n="684"/>
-            sunt figura et quasi uelamine aliquo uersicolore <sic>praeteias</sic>. hunc <lb/>
+            sunt figura et quasi uelamine aliquo uersicolore praeteias. hunc <lb/>
             habet poetica licentia modum, non ut totum fingat, quod est  <lb/>
             mendacis et inepti, sed ut aliquid cum ratione commutet.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>in <lb/>
-            imbrem se aureum uertisse dixerunt (<choice n="0.00"><sic n="1">Jouem</sic><corr n="381">Iouem</corr></choice>), ut Danaen falleret: <lb/>
+            imbrem se aureum uertisse dixerunt (Iouem), ut Danaen falleret: <lb/>
             quis est imber aureus? utique aurei nummi, quorum <lb n="5"/>
             magnam copiam offerens et in sinum infundens fragilitatem <lb/>
             uirginalis animi hac mercede corrupit. sic et imbrem ferreum  <lb/>
@@ -882,7 +880,7 @@
 
 <div n="3" subtype="section" type="textpart"><p>ideo Lucilius deridens ineptias <lb/>
             istorum qui uanis superstitionibus seruiunt, hos uersus posuit: <lb/>
-            terriculas Lamias, Fauni quas <sic n="poss">Pompiliique</sic><lb n="5"/>
+            terriculas Lamias, Fauni quas Pompiliique<lb n="5"/>
             instituere Numae, tremit has, hic omnia ponit. <lb/>
             ut pueri infantes credunt signa omnia aena <lb/>
             uiuere et esse homines, sic isti omnia ficta <lb/>
@@ -903,7 +901,7 @@
 
 <div n="18" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p><milestone n="23" unit="altchapter"/>  Diximus de diis: nunc de ritibus sacrorum <sic n="poss">culturisque</sic> <lb/>
+<p><milestone n="23" unit="altchapter"/>  Diximus de diis: nunc de ritibus sacrorum culturisque <lb/>
             dicemus. Ioui Cyprio, sicut Teucrus instituerat, humana  <lb/>
             hostia mactari solebat.</p></div>
 
@@ -933,10 +931,10 @@
             uersus</hi> oexaTrjv EXlC:E11LETE &lt;I&gt;o((2o) <hi rend="italic">et uerba Varronis (Macrob. § 30)</hi> decima </note> <lb n="20"/>
              
 <pb n="689"/>
-            Apollinis de ponte in Tiberim <sic n="poss">deiciebantur</sic>.</p></div>
+            Apollinis de ponte in Tiberim deiciebantur.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>et eidem Saturno  <lb/>
-            Carthaginienses non modo infantes <sic n="poss">prosecahant</sic>, sed uicti a <lb/>
+            Carthaginienses non modo infantes prosecahant, sed uicti a <lb/>
             Siculis ut piaculum soluerent ducentos nobilium filios immolauerunt. <lb/>
             </p></div>
 
@@ -944,7 +942,7 @@
             Matri Magnae atque Bellonae, in quibus antistites non alieno <lb n="5"/>
             sanguine, sed suo litant, cum amputatis genitalibus a uiris <lb/>
             migrant nec ad feminas transeunt aut sectis umeris detestabiles <lb/>
-            aras proprio cruore <sic n="poss">respergunt</sic>.</p></div>
+            aras proprio cruore respergunt.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>sed haec crudelia:  <lb/>
             ueniamus ad mitia. Isidis sacra nihil aliut  <milestone n="13a" unit="altpage"/>  ostendunt nisi  <lb/>
@@ -952,18 +950,18 @@
             inuenerit.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>nam primo sacerdotes ac ministri derasis omnibus  <lb/>
-            membris tunsisque pectoribus plangunt dolent quaerunt <sic n="poss">adrectum</sic> <lb/>
-            matris imitantes, postmodum puer per <sic n="poss">Cynocephalum</sic> <lb/>
+            membris tunsisque pectoribus plangunt dolent quaerunt adrectum <lb/>
+            matris imitantes, postmodum puer per Cynocephalum <lb/>
             inuenitur. sic luctuosa sacra laetitia terminantur.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>his etiam  <lb/>
             Cereris simile mysterium est, in quo facibus accensis per noctem <lb n="15"/>
             Proserpina inquiritur et ea inuenta ritus omnis gratulatione. <lb/>
-            ac <sic n="poss">taedarum</sic> iactatione finitur.</p></div>
+            ac taedarum iactatione finitur.</p></div>
 
 <div n="8" subtype="section" type="textpart"><p>Lampsaceni asellum Priapo  <lb/>
             mactant. ea enim uisa est aptior uictima, quae ipsi cui mactatur <lb/>
-            magnitudine uirilis <sic n="poss">ohsceni</sic> posset aequari.</p></div>
+            magnitudine uirilis obsceni posset aequari.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>Lindos est  <lb/>
             oppidum Rhodi, ubi Herculis sacra maledictis celebrantur. <lb n="20"/>
@@ -1003,8 +1001,8 @@
             nutriuit.</p></div>
 
 <div n="11" subtype="section" type="textpart"><p>idem etiam Matris Deum sacra demonstrant. <lb/>
-            nam quia tum <sic n="poss">Corybautes</sic> galearum tinnitibus et scutorum <lb/>
-            pulsibus uagitum pueri <sic n="poss">texerant</sic>, nunc imago rei refertur in <lb/>
+            nam quia tum Corybantes galearum tinnitibus et scutorum <lb/>
+            pulsibus uagitum pueri texerant, nunc imago rei refertur in <lb/>
             sacris, sed pro galeis cymbala, pro scutis tympana feriuntur,<lb n="5"/>
             ne puerum uagientem Saturnus exaudiat. 
 </p>
@@ -1018,13 +1016,13 @@
             institutae fuerint eruamus.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>Didymus in iis libris qui inscribuntur <lb/>
-            È;Yji\'\'Įaewç -<sic n="poss">tvBaptxTj</sic>; <sic n="poss">Melissea</sic> fuisse tradit Cretensium<lb n="10"/>
+            È;Yji\'\'Įaewç -<sic n="poss">tvBaptxTj</sic>; Melissea fuisse tradit Cretensium<lb n="10"/>
             regem, cuius filiae fuerint Amalthea et Melissa, <lb/>
-            quae Iouem <sic n="poss">nutrierint</sic> caprino lacte ac melle.</p></div>
+            quae Iouem nutrierint caprino lacte ac melle.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>hunc <lb/>
-            nouos ritus ac pompas sacrorum <sic n="poss">introduxisse</sic> et primum <lb/>
-            diis sacrificasse, id <sic n="poss">estVestae</sic>, quae dicitur Tellus, <lb/>
+            nouos ritus ac pompas sacrorum introduxisse et primum <lb/>
+            diis sacrificasse, id est Vestae, quae dicitur Tellus, <lb/>
             — unde poetae: primamque deorum Tellurem — et<lb n="15"/>
             postmodum Deum Matri.</p></div>
 
@@ -1062,7 +1060,7 @@
 </p></div>
 
 <div n="6" subtype="section" type="textpart"><p>            unde apparet non amplius quam MDCCC esse annos, ex quo  <lb/>
-            <sic n="poss">DOniS</sic> deorum cultibus institutis humanum genus inciderit in <lb/>
+            nouis deorum cultibus institutis humanum genus inciderit in <lb/>
             errorem. <lb n="5"/>
             
 </p>
@@ -1096,7 +1094,7 @@
 
 <div n="5" subtype="section" type="textpart"><p>          qua reddunt uec intellegunt quam uanum sit ea timere quae <lb/>
              feceris, aut ab iis aliquod sperare praesidium quae muta et <lb n="20"/>
-            <sic n="poss">insensibilia</sic> nec uident nec audiunt supplicantem.</p></div>
+            insensibilia nec uident nec audiunt supplicantem.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>quid ergo <lb/>
             maiestatis aut numinis habere possunt quae et fuerunt in
@@ -1140,8 +1138,8 @@
 
 <div n="9" subtype="section" type="textpart"><p>quanto satius est spretis inanibus <lb n="10"/>
             ad deum se conuertere, tueri statum quem a deo acceperis, <lb/>
-            tueri nomen: idcirco enim <sic n="poss">avOpwxo</sic>;, quia sursum spectet, <sic n="poss">nomi</sic>- <lb/>
-            -<sic n="poss">natur</sic>.</p></div>
+            tueri nomen: idcirco enim <sic n="poss">avOpwxo</sic>;, quia sursum spectet, nomi- <lb/>
+            -natur.</p></div>
 
 <div n="10" subtype="section" type="textpart"><p>sursum autem spectat qui deum uerum et uiuum, <lb/>
             qui est in caelo, suspicit, qui artificem, qui parentem animae <lb/>
@@ -1156,12 +1154,12 @@
             quod ipse fabricauit.</p></div>
 
 <div n="12" subtype="section" type="textpart"><p>cuius artificii detestabilis et inepti <lb/>
-            auctor fuit Prometheus patruo louis <sic n="poss">lapeto</sic> natus. nam cum <lb/>
+            auctor fuit Prometheus patruo louis lapeto natus. nam cum <lb/>
             primum Iuppiter summo potitus imperio tamquam deum se constituere <lb/>
             uellet ac templa condere et quaereret aliquem qui <lb/>
             humanam figuram posset exprimere, tunc Prometheus extitit <lb n="25"/>
             qui hominis effigiem de pingui luto figuraret, ita ueri similiter, <lb/>
-            ut nouitas ac <sic n="poss">suptilitas</sic> artis miraculo esset.</p></div>
+            ut nouitas ac suptilitas artis miraculo esset.</p></div>
 
 <div n="13" subtype="section" type="textpart"><p>denique illum
 
@@ -1180,7 +1178,7 @@
             et sui temporis homines et postea poetae tamquam fictorem <lb/>
             ueri ac uiui hominis prodiderunt et nos, quotiens fabre facta <lb/>
             signa laudamus, uiuere illa et spirare dicimus. et hic quidem <lb/>
-            auctor fuit <sic n="poss">fictilium</sic> simulacrorum.</p></div>
+            auctor fuit fictilium simulacrorum.</p></div>
 
 <div n="14" subtype="section" type="textpart"><p>sequentes autem posteri  <lb/>
             et de marmore sculpserunt et ex aere fuderunt, deinde processu <lb n="5"/>
@@ -1189,7 +1187,7 @@
             praestringeret.</p></div>
 
 <div n="15" subtype="section" type="textpart"><p>sic inlecti pulcritudine ac uerae maiestatis  <milestone n="16a" unit="altpage"/>    <lb/>
-            obliti <sic n="poss">insensibilia</sic> sentientes, inrationabilia rationabiles, exanima  <lb/>
+            obliti insensibilia sentientes, inrationabilia rationabiles, exanima  <lb/>
             uiuentes colenda sibi ac ueneranda duxerunt. <lb n="10"/>
             
 </p>
@@ -1211,7 +1209,7 @@
 
 <div n="3" subtype="section" type="textpart"><p>non est igitur in his uoluntarius motus,  <lb/>
             quia praestitutis legibus seruiunt, non proprio utique sensu, sed <lb/>
-            <sic n="poss">opificio</sic> summi conditoris, qui illa sic ordinauit, ut <sic n="poss">inerrabiles</sic> <lb n="20"/>
+            opificio summi conditoris, qui illa sic ordinauit, ut inerrabiles <lb n="20"/>
             cursus et certa spatia conficerent, quibus dierum ac noctium, <lb/>
             aestatis et hiemis alterna uariarent.</p></div>
 
@@ -1244,7 +1242,7 @@
 <div n="1" subtype="section" type="textpart">
 <p><milestone n="27" unit="altchapter"/>  Unum et ultimum restat, ut quoniam plerumque <lb/>
             accidit, sicut in historiis legimus, ut maiestatem suam dii <lb/>
-            ostendisse uideantur per auguria, per somnia, per <sic n="poss">oracnla</sic>, <lb/>
+            ostendisse uideantur per auguria, per somnia, per oracula, <lb/>
             tum etiam poenis eorum qui sacrilegia commiserant, doceam <lb/>
             quae ratio id effecerit, ne quis etiamnunc in eosdem laqueos<lb n="5"/>
             incidat quos illi ueteres inciderunt.</p></div>
@@ -1252,9 +1250,9 @@
 <div n="2" subtype="section" type="textpart"><p>cum deus pro uirtnte <lb/>
             maiestatis suae mundum de nihilo condidisset caelumque luminibus <lb/>
             adornasset, terram uero et mare conplesset animalibus, <lb/>
-            tum hominem de limo ad imaginem similitudinis suae <sic n="poss">fignratum</sic> <lb/>
-            inspirauit ad uitam posuitque eum in <sic n="poss">Paradiso</sic>, quem<lb n="10"/>
-            <sic n="poss">conseuerat</sic> omni genere <sic n="poss">fructiferi</sic> ligni, et praecepit ei ne una ex <lb/>
+            tum hominem de limo ad imaginem similitudinis suae fignratum <lb/>
+            inspirauit ad uitam posuitque eum in Paradiso, quem<lb n="10"/>
+            conseuerat omni genere fructiferi ligni, et praecepit ei ne una ex <lb/>
             arbore, in qua posuerat [ei] scientiam boni malique, gustaret,  <milestone n="17a" unit="altpage"/>   <lb/>
             fore interminatus ut uitam perderet, si fecisset, si uero mandatum <lb/>
             seruaret, immortalis permaneret.</p></div>
@@ -1269,7 +1267,7 @@
 <div n="4" subtype="section" type="textpart"><p><lb/>
             eiecit ergo peccatorem de sancto loco et in hunc orbem relegauit, <lb/>
             ut uictum quaereret per laborem, ut difficultates et <lb n="20"/>
-            aerumnas pro merito sustineret, ipsumque <sic n="poss">Paradisum</sic> uallo <lb/>
+            aerumnas pro merito sustineret, ipsumque Paradisum uallo <lb/>
             igneo circumfudit, ne quis hominum ad diem usque iudicii <lb/>
             ad locum illum perpetuae beatitudinis conaretur inrepere.</p></div>
 
@@ -1300,24 +1298,24 @@
             persequi.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>denique eum qui primus in hoc orbe generatus  <lb n="5"/>
-            est, <sic n="poss">inspirato</sic> liuore in caedem fratris armauit, ut de duobus <lb/>
+            est, inspirato liuore in caedem fratris armauit, ut de duobus <lb/>
             primogenitis hominibus alterum extingueret, alterum faceret <lb/>
             parricidam.</p></div>
 
 <div n="8" subtype="section" type="textpart"><p>nec quieuit deinceps quominus per singulas generationes  <lb/>
-            pectoribus hominum malitiae uirus <sic n="poss">infunderet</sic>, corrumperet <lb/>
-            <sic n="poss">deprauaret</sic>, tantis denique sceleribus obrueret, ut <lb n="10"/>
+            pectoribus hominum malitiae uirus infunderet, corrumperet <lb/>
+            deprauaret, tantis denique sceleribus obrueret, ut <lb n="10"/>
             iustitiae iam rarum esset exemplum, sed uiuerent homines <lb/>
             ritu beluarum.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>quod deus cum uideret, angelos suos misit,  <lb/>
-            ut uitam hominum <sic n="poss">excolerent</sic> eosque ab omni malo tuerentur. <lb/>
+            ut uitam hominum excolerent eosque ab omni malo tuerentur. <lb/>
             his mandatum dedit ut se terrenis abstinerent, ne qua labe <lb/>
             maculati honore angelico multarentur.</p></div>
 
 <div n="10" subtype="section" type="textpart"><p>sed eos quoque idem  <lb n="15"/>
             ille subdolus criminator, dum inter homines commorantur, inlexit <lb/>
-            ad uoluptates, ut se cum mulieribus <sic n="poss">inquinarent</sic>. tum <lb/>
+            ad uoluptates, ut se cum mulieribus inquinarent. tum <lb/>
             damnati sententia dei et ob peccata proiecti et nomen angelorum <lb/>
             et substantiam perdiderunt.</p></div>
 
@@ -1357,9 +1355,9 @@
             agere posset.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>adhaerent ergo singulis et suh nomine geniorum <lb/>
-            aut <sic n="poss">penatiuin</sic> domos occupant. his sacraria constituuntur, <lb/>
+            aut penatiuin domos occupant. his sacraria constituuntur, <lb/>
             his cottidie libatur ut laribus, his honos datur tamquam malorum <lb/>
-            <sic n="poss">depulsoribus</sic>;</p></div>
+            depulsoribus;</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>hi a principio ut auerterent homines a <lb n="5"/>
             dei ueri agnitione, nouas religiones et cultus deorum introduxerunt, <lb/>
@@ -1380,17 +1378,17 @@
 </p></div>
 
 <div n="7" subtype="section" type="textpart"><p>            quod sit, non esse et quod non sit, esse uideatur —, ipsi <lb/>
-            <sic n="poss">necyomantias</sic>, ipsi sortes et oracula, ut mentes hominum per <lb/>
-            ambiguos exitus mentita diuinatione <sic n="poss">deludant</sic>. in templis uero <lb/>
+            necyomantias, ipsi sortes et oracula, ut mentes hominum per <lb/>
+            ambiguos exitus mentita diuinatione deludant. in templis uero <lb/>
             et sacrificiis omnibus praesentes adsunt et prodigiis quibusdam<lb n="20"/>
             fallacibus editis ad miraculum praesentium sic homines circumueniunt, <lb/>
             ut inesse numen simulacris et imaginibus credant. 
 </p></div>
 
 <div n="8" subtype="section" type="textpart"><p> <lb/>
-            inrepunt etiam corporibus ut spiritus tenues <sic n="poss">uitiatisque</sic> membris <lb/>
-            morbos <sic n="poss">conciunt</sic>, quos sacrificiis uotisque placati postmodum <lb/>
-            <sic n="poss">relaxent</sic>, somnia <sic n="poss">inmittunt</sic> aut plane terrores, ut ipsi
+            inrepunt etiam corporibus ut spiritus tenues uitiatisque membris <lb/>
+            morbos conciunt, quos sacrificiis uotisque placati postmodum <lb/>
+            relaxent, somnia inmittunt aut plane terrores, ut ipsi
 
 <note type="footnote"> <hi rend="italic">INSTITUTIONES</hi> 2-5] II 14, 12. 5-8] II 16, 3. 5.15. 8- <lb/>
             12] II 16, 0 s. 12-15] II 16, 1 s. 15-17] II 14, 10. 17 s.] II 16, 1. <lb/>
@@ -1408,12 +1406,12 @@
             25 plena terroris <hi rend="italic">Da</hi> </note> <lb n="25"/>
              
 <pb n="697"/>
-            rogentur, aut quorum exitus <sic n="poss">respondelaiit</sic> ueritati, ut uenerationem  <lb/>
+            rogentur, aut quorum exitus respondelaiit ueritati, ut uenerationem  <lb/>
             sui augeant.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>nonnumquam etiam in sacrilegos edunt aiquid  <lb/>
             <milestone n="19a" unit="altpage"/>   ultionis, ut quisquis uiderit, timidior ac religiosior fiat. sic <lb/>
-            fraudibus suis <sic n="poss">obduxerunt</sic> humano generi tenebras, ut oppressa <lb/>
+            fraudibus suis obduxerunt humano generi tenebras, ut oppressa <lb/>
             ueritate summi ac singularis dei nomen in obliuionem ueniret. <lb n="5"/>
             
 </p>
@@ -1424,7 +1422,7 @@
 <div n="1" subtype="section" type="textpart">
 <p><milestone n="29" unit="altchapter"/>  Sed dicet quispiam: cur ergo uerus ille deus patitur   <lb/>
             haec fieri ac non potius malos uel summouet uel extinguit? <lb/>
-            cur uero ipse <sic n="poss">daemoniarchen</sic> a principio fecit, ut esset qui <lb/>
+            cur uero ipse daemoniarchen a principio fecit, ut esset qui <lb/>
             cuncta corrumperet, cuncta disperderet?</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>dicam breuiter cur  <lb/>
@@ -1469,7 +1467,7 @@
             24 essewt <hi rend="italic">T</hi> 26 quem propter <hi rend="italic">Da,</hi> propter quem <hi rend="italic">T</hi> </note> 
 <pb n="698"/>
             <lb/>
-            tantam uim esse <choice><sic>aeruninarum</sic><corr>aerumnarum</corr></choice> et malorum.</p></div>
+            tantam uim esse aerumnarum et malorum.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>ad eaChrysippus <lb/>
             cum in libro xept <sic>rpovota</sic>; quarto dissereret, <lb/>
@@ -1525,7 +1523,7 @@
             <hi rend="italic">et loco pag. 6J\'7,15</hi> </note> <lb/>
              
 <pb n="699"/>
-            in malis posuit: quae idcirco fecit, ut <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> constitueret agonem, <lb/>
+            in malis posuit: quae idcirco fecit, ut uobis constitueret agonem, <lb/>
             in quo uictores inmortalitatis praemio coronaret. 
 </p>
           </div>
@@ -1560,7 +1558,7 @@
             uel studium sapientiae. (si amor est sapientiae,) non est ergo <lb n="20"/>
             ipsa sapientia, quia necesse est aliut esse quod amat, aliud quod <lb/>
             amatur. si studium est sapientiae, ne sic quidem philosophia <lb/>
-            sapientia est. sapientia enim res est ipsa quae quaeritur, <choice><sic>studiumi</sic><corr>studium</corr></choice> <lb/>
+            sapientia est. sapientia enim res est ipsa quae quaeritur, studium <lb/>
             uero quod quaerit.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>ipsa igitur definitio uel nominis  <milestone n="21a" unit="altpage"/>  significatio  <lb/>
@@ -1583,7 +1581,7 @@
              
 <pb n="700"/>
             oratoriae studet, studiosus eius artis quam discit dici potest: <lb/>
-            oł,i di&lt;licit, iam <choice><sic>mwlicus</sic><corr>medicus</corr></choice>, iam <choice n="0.31"><sic n="20">grammaticos</sic><corr n="44">grammaticus</corr></choice>, iam orator <choice><sic>dicitor</sic><corr>dicitur</corr></choice>. <lb/>
+            oł,i di&lt;licit, iam medicus, iam grammaticus, iam orator dicitur. <lb/>
             sic °I,fJrtuit et studiosos sapientiae, postquam didicissent, sapienh-s  <lb/>
             nominari.</p></div>
 
@@ -1655,11 +1653,11 @@
 
 <div n="27" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p><milestone n="32" unit="altchapter"/>  Huc <choice><sic>aceedit</sic><corr>accedit</corr></choice> quod non est uniformis, sed diuisa in   <lb n="5"/>
+<p><milestone n="32" unit="altchapter"/>  Huc accedit quod non est uniformis, sed diuisa in   <lb n="5"/>
             sectas et in multas discrepantesque sententias dissipata statum <lb/>
             non habet. cum enim singulae alias omnes inpugnent et adfligant <lb/>
-            nec sit aliqua ex iis quae non <choice n="0.90"><sic n="1078">iudicio</sic><corr n="116">indicio</corr></choice> ceterarum stultitiae <lb/>
-            condemnetur, utique <choice><sic>discordautibus</sic><corr>discordantibus</corr></choice> membris corpus omne <lb/>
+            nec sit aliqua ex iis quae non indicio ceterarum stultitiae <lb/>
+            condemnetur, utique discordantibus membris corpus omne <lb/>
             philosophiae ad interitum deducitur.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>hinc Academia postmodum  <lb n="10"/>
@@ -1679,7 +1677,7 @@
             et ipsa tota philosophia suis se armis consumat ac finiat.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>at  <lb n="20"/>
-            <choice><sic>enira</sic><corr>enim</corr></choice> sola physice labat. quid? illa moralis num aliqua firmitate <lb/>
+            enim sola physice labat. quid? illa moralis num aliqua firmitate <lb/>
             subnixa est? uideamus an philosophi in hac saltem <lb/>
             parte consentiant, quae ad uitae statum pertinet. 
 </p>
@@ -1689,7 +1687,7 @@
 <div n="28" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
 <p><milestone n="33" unit="altchapter"/>  Quod sit in uita summum bonum quaeri necesse   <lb/>
-            est, ut ad illut uita omnis et actiones nostrae <choice n="0.22"><sic n="2">derigantur</sic><corr n="7">deligantur</corr></choice>. <lb n="25"/>
+            est, ut ad illut uita omnis et actiones nostrae deligantur. <lb n="25"/>
             cum de hominis summo bono quaeritur, tale constitui debet, <lb/>
             primum ut id ad hominem solum pertineat, deinde ut animi
 
@@ -1730,10 +1728,10 @@
             uiuunt et est sua cuique natura.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>Epicurus animi adseruit <lb/>
-            <choice><sic>uoluptatPlll</sic><corr>uoluptatem</corr></choice>. quid est uoluptas animi nisi gaudium, quo plerumque <lb n="15"/>
+            uoluptatem. quid est uoluptas animi nisi gaudium, quo plerumque <lb n="15"/>
             luxuriat animus ac relaxatur uel ad lusum uel ad <lb/>
             risum? sed hoc bonum etiam muta contingit, quae cum pabulis <lb/>
-            saturata sunt, in gaudium et lasciuiam <choice><sic>resolunntur</sic><corr>resoluuntur</corr></choice>. 
+            saturata sunt, in gaudium et lasciuiam resoluuntur. 
 </p></div>
 
 <div n="7" subtype="section" type="textpart"><p> <lb/>
@@ -1745,7 +1743,7 @@
 
 <div n="8" subtype="section" type="textpart"><p>Peripatetici ex bonis animi et corporis et fortunae <lb/>
             summum bonum conflant. animi bona probari possunt. sed <lb/>
-            si auxilio indigent ad conplendam beatitudinem, utique <sic n="poss">inbecilIa</sic> <lb n="25"/>
+            si auxilio indigent ad conplendam beatitudinem, utique inbecilla <lb n="25"/>
             sunt.  <milestone n="23b" unit="altpage"/>   corporis uero atque fortunae non sunt in hominis <lb/>
             potestatem nec iam summum bonum est quod aut corpori aut
 
@@ -1921,7 +1919,7 @@
             hanc dirigimur, ad hanc capiendam nati sumus.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>idcirco nobis  <lb/>
-            deus uirtutem <sic>usamque</sic> proponit, ut aeternum illut praemium <lb n="25"/>
+            deus uirtutem usamque proponit, ut aeternum illut praemium <lb n="25"/>
             nostris laboribus adsequamur. de ipsa uero
 
 <note type="footnote"> <hi rend="italic">INSTITUTIONES</hi> 2-5] VI 25, 8 s., cf. VI 9, 22; III11, 9 (quia <lb/>
@@ -1987,7 +1985,7 @@
             uidentur nec ulla corporis parte sentiuntur, unde esse illa  <lb/>
             scire potuisti? deinde si sunt, qua mente conueniunt,  <milestone n="26b" unit="altpage"/>  ut aliquid <lb/>
             efficiant? si sunt leuia, cohaerere non possunt, si hamata <lb/>
-            et <choice><sic>angulaU</sic><corr>angulata</corr></choice>, ergo secabilia sunt. hami enim et anguli
+            et angulata, ergo secabilia sunt. hami enim et anguli
 
 <note type="footnote"> 1 suo loco] c. 64 s. </note>
 
@@ -2011,7 +2009,7 @@
             quid quod idem animas extinguibiles facit?</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>quem refellunt  <lb/>
-            non modo philosophi omnes et publica <choice n="0.06"><sic n="2">persuaso</sic><corr n="28">persuasio</corr></choice>, uerum etiam <lb/>
+            non modo philosophi omnes et publica persuasio, uerum etiam <lb/>
             responsa uatum, carmina Sibyllarum, ipsae denique diuinae <lb/>
             uoces prophetarum, ut mirum sit extitisse unum Epicurum qui <lb n="5"/>
             cum pecoribus ac beluis sortem hominis aequaret.</p></div>
@@ -2083,13 +2081,13 @@
             est, quaerendus est et religio suscipienda. quae sola nos discernit <lb/>
             a beluis: quam quidem Socrates non modo repudiauit,  <lb/>
             uerum etiam derisit per anserem canemque iurando:  <milestone n="27b" unit="altpage"/>  quasi <lb/>
-            uero per Aesculapium non posset, cui <choice n="0.69"><sic n="72">nouerat</sic><corr n="31">uouerat</corr></choice> gallum. en sapientis  <lb/>
+            uero per Aesculapium non posset, cui uouerat gallum. en sapientis  <lb/>
             uiri sacrificium!</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>et quia eum prosecare ipse non potuit, <lb n="10"/>
             amicos moriturus orauit, ut post se soluerent uotum, scilicet <lb/>
             ne apud inferos uelut debitor teneretur. hic profecto et <lb/>
-            pronuntiauit quod nihil <choice n="0.77"><sic n="62">scient</sic><corr n="18">scierit</corr></choice> et probauit. 
+            pronuntiauit quod nihil scierit et probauit. 
 </p>
           </div>
 </div>
@@ -2157,7 +2155,7 @@
 
 <div n="8" subtype="section" type="textpart"><p>hanc ille licet humanitatem,  <lb/>
             licet pietatem uocet, non rem, sed nomen inmutat. hic est <lb/>
-            adfectus qui soli homini datus est, ut inbecillitatem <sic>nostrammutuis</sic> <lb n="15"/>
+            adfectus qui soli homini datus est, ut inbecillitatem nostrammutuis <lb n="15"/>
             adiumentis leuaremus: quem qui tollit, ad uitam nos <lb/>
             redigit beluarum.</p></div>
 
@@ -2198,7 +2196,7 @@
             animalibus incolatur.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>de antipodis quoque sine risu nee <lb/>
-            audiri nec dici potest, adseritur tamen quasi aliquid <choice><sic>seritun</sic><corr>serium</corr></choice>. <lb/>
+            audiri nec dici potest, adseritur tamen quasi aliquid serium. <lb/>
             ut credamus esse homines qui uestigiis nostris habeant aduersa <lb/>
             uestigia. tolerabilius Anaxagoras delirauit, qui nigram niuem <lb n="5"/>
             dixit.</p></div>
@@ -2208,17 +2206,17 @@
             et pascua publica fieri passus est.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>Diogenes cum choro canum <lb/>
-            suorum, qui uirtutem <sic>ilJam</sic> summam et <choice><sic>eiactam</sic><corr>exactam</corr></choice> rerum omnium <lb/>
+            suorum, qui uirtutem illam summam et exactam rerum omnium <lb/>
             contemtum profitetur, mendicare uictum maluit quam honesto  <lb n="10"/>
             labore conquirere aut habere ullam rem familiarem.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>certe <lb/>
-            uita sapientis <choice><sic>eiempluni</sic><corr>exemplum</corr></choice> esse uiuendi ceteris debet. si horum  <lb/>
+            uita sapientis exemplum esse uiuendi ceteris debet. si horum  <lb/>
             sapientiam omnes imitentur, quomodo stabunt ciuitates?</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>. sed <lb/>
             forsitan idem Cynici exemplum uerecundiae praebere potuerunt, <lb/>
-            qui palam cum coniugibus suis <sic>cuhitanerunt</sic>. nescio quam  <lb n="15"/>
+            qui palam cum coniugibus suis cuhitanerunt. nescio quam  <lb n="15"/>
 </p></div>
 
 <div n="7" subtype="section" type="textpart"><p>            possent uirtutem defendere qui pudorem sustulerunt non <lb/>
@@ -2320,7 +2318,7 @@
              Buen; cf. Inst. III 30,</hi> 7 25 philosophia <hi rend="italic">Buen,</hi> filosofis <hi rend="italic">T</hi> </note> <lb n="25"/>
              
 <pb n="712"/>
-            refutauimus, ad ueram religionem sapientiamque <choice><sic>ueniaraos</sic><corr>ueniamus</corr></choice>. <lb/>
+            refutauimus, ad ueram religionem sapientiamque ueniamus. <lb/>
             et quidem coniuncte, quia cohaerent, de utraque dicendum est. 
 </p></div>
 
@@ -2456,7 +2454,7 @@
 
 <div n="2" subtype="section" type="textpart"><p>idem est dei et hominis filius. bis <lb/>
             enim natus est: primum de deo in spiritu ante ortum mundi, <lb/>
-            postmodum in carne ei homine Augusto <choice n="0.97"><sic n="34">imperante</sic><corr n="1">imperanto</corr></choice>. cuius <lb/>
+            postmodum in carne ei homine Augusto imperanto. cuius <lb/>
             rei praeclarum et grande mysterium est, in quo et salus hominum  <lb n="10"/>
             et religio summi dei et omnis ueritas continetur.</p></div>
 
@@ -2466,7 +2464,7 @@
             mansit, qui tamen non lege aliqua, sed traditum sibi per successiones <lb/>
             cultum patrio more tenuerunt usque ad id tempus, <lb n="15"/>
             quo de Aegypto exierunt Moyse duce primo omnium prophetarum, <lb/>
-            per quem illis <choice><sic>lei</sic><corr>lex</corr></choice> est a deo inposita. hi, qui <choice><sic>Indaei</sic><corr>Iudaei</corr></choice> <lb/>
+            per quem illis lex est a deo inposita. hi, qui Iudaei <lb/>
             sunt postmodum nominati, seruierunt igitur deo uinculis legis  <lb/>
             obstricti.</p></div>
 
@@ -2595,7 +2593,7 @@
 <div n="2" subtype="section" type="textpart"><p> <lb/>
             aegros et uario morborum genere languentes non medella aliqua, <lb/>
             sed ui ac potestate uerbi sui protinus roborabat, debiles<lb n="20"/>
-            <sic>resanabat</sic>, claudos ad gressum erigebat, caecis uisum restituebat, <lb/>
+            resanabat, claudos ad gressum erigebat, caecis uisum restituebat, <lb/>
             mutis eloquium dabat, surdos inauribat, pollutos maculatosque <lb/>
             purgabat, furiatis daemonum incursu mentem propriam reponebat, <lb/>
             mortuos aut iam sepultos ad uitam lucemque reuocabat. 
@@ -2603,7 +2601,7 @@
 
 <div n="3" subtype="section" type="textpart"><p> <lb/>
             idem quinque milia hominum quinque panibus et duobus piscibus <lb n="25"/>
-            <sic>satorauit</sic>. idem supra mare ambulauit.  <milestone n="33b" unit="altpage"/>  idem in tempestate <lb/>
+            satorauit. idem supra mare ambulauit.  <milestone n="33b" unit="altpage"/>  idem in tempestate <lb/>
             praecepit uento ut conquiesceret, statimque tranquillitas <lb/>
             facta est. quae omnia et in prophetarum libris et in
 
@@ -2672,16 +2670,16 @@
             <hi rend="italic">Lactantium scripsisse existimo, cf. ad loco Instit</hi>. 25 intemtabant <hi rend="italic">T</hi> </note> <lb/>
              
 <pb n="718"/>
-            in Syriam iudicabat, perspiceret causam illam ad officium <choice><sic>Bomani</sic><corr>Romani</corr></choice> <lb/>
-            <choice n="0.96"><sic n="153">iudicis</sic><corr n="6">indicis</corr></choice> non pertinere, misit eum ad Herodem tetrarcham <lb/>
+            in Syriam iudicabat, perspiceret causam illam ad officium Romani <lb/>
+            indicis non pertinere, misit eum ad Herodem tetrarcham <lb/>
             permisitque Iudaeis, ut ipsi legis suae disceptatores essent <lb/>
-            qui accepta sceleris potestate <choice><sic>adfiierunt</sic><corr>adfixerunt</corr></choice> eum cruci. sed prius <lb/>
+            qui accepta sceleris potestate adfixerunt eum cruci. sed prius <lb/>
             flagellis et palmis uerberauerunt, spinis coronarunt, faciem conspuerunt,<lb n="5"/>
             in cibum et potum dederunt ei fel et acetum, et inter  <lb/>
             haec nulla uox eius audita est.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>tunc carnifices sortiti de tunica <lb/>
-            eius et pallio suspenderunt patibulo atque <choice><sic>adfiierunt</sic><corr>adfixerunt</corr></choice>, cum <lb/>
+            eius et pallio suspenderunt patibulo atque adfixerunt, cum <lb/>
             postridie pascha id est festum diem suum celebraturi essent. 
 </p></div>
 
@@ -2697,7 +2695,7 @@
 <div n="41" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
 <p><milestone n="46" unit="altchapter"/>  Quae omnia prophetae sic futura esse praedixerant. <lb/>
-            Esaias ita dicit: non sum <choice><sic>contumai</sic><corr>contumax</corr></choice> neque contradico: <lb n="15"/>
+            Esaias ita dicit: non sum contumax neque contradico: <lb n="15"/>
             dorsum meum (posui) ad flagella et maxillas meas ad <lb/>
             palmas, faciem autem meam non auerti a foeditate <lb/>
             sputorum. idem de silentio: sicut ouis ad immolandum <lb/>
@@ -2789,9 +2787,9 @@
             erit deserta, et omnis qui transiet per illam admirabitur  <lb/>
             et dicet: propter  <milestone n="35b" unit="altpage"/>  quam rem deus fecit terrae <lb/>
             huic et huic domui haec mala? et dicent: quia dereliquerunt <lb/>
-            dominum deum suum et <choice><sic>persecnti</sic><corr>persecuti</corr></choice> sunt regem<lb n="5"/>
+            dominum deum suum et persecuti sunt regem<lb n="5"/>
             suum dilectissimum deo et cruciauerunt illum in <lb/>
-            humilitate magna: pro(pter) hoc inportauit illis <choice n="0.02"><sic n="38">dens</sic><corr n="1292">deus</corr></choice>  <lb/>
+            humilitate magna: pro(pter) hoc inportauit illis deus  <lb/>
             mala haec.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>quid enim non mererentur qui dominum, qui <lb/>
@@ -2803,7 +2801,7 @@
 <div n="42" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
 <p><milestone n="47" unit="altchapter"/>  Post haec detractum patibulo corpus monumento<lb n="10"/>
-            condiderunt. <choice n="0.04"><sic n="127">ueram</sic><corr n="2510">uerum</corr></choice> tertio die ante lucem terrae motu facto <lb/>
+            condiderunt. uerum tertio die ante lucem terrae motu facto <lb/>
             ac reuoluto lapide quo sepulcrum clauserant resurrexit. in  <lb/>
             sepulcro autem nihil nisi exuuiae corporis sunt repertae.</p></div>
 
@@ -2842,7 +2840,7 @@
 <pb n="721"/>
             potestatem mirabilia faciendi, ut in salutem hominum tam <lb/>
             factis quam uerbis operarentur. ac tum demum quadragesimo <lb/>
-            die remeauit ad patrem sublatus <choice><sic>m</sic><corr>in</corr></choice> nube.</p></div>
+            die remeauit ad patrem sublatus in nube.</p></div>
 
 <div n="4" subtype="section" type="textpart"><p>hoc Daniel propheta  <lb/>
             iam pridem ostenderat dicens: uidebam in uisu noctis: <lb/>
@@ -3103,7 +3101,7 @@
             fiant inmortalitatis heredes.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>at enim repugnant non tam ueritati  <lb/>
-            quam propriae saluti cumque haec audiunt, uelut <choice n="0.22"><sic n="454">aliquod</sic><corr n="1601">aliis</corr></choice> <lb/>
+            quam propriae saluti cumque haec audiunt, uelut aliis <lb/>
             inexpiabile nefas detestantur.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>sed ne audire quidem  <lb n="15"/>
@@ -3111,7 +3109,7 @@
             iam maledictis abstinent, sed quantis possunt uerborum contumeliis <lb/>
             insectantur. idemque si potestatem nacti fuerint, uelut <lb/>
             hostes publicos persecuntur, immo etiam plus quam hostes, <lb/>
-            quorum, cum bello uicti fuerint, <sic>aiit</sic> mors aut seruitus poena <lb n="20"/>
+            quorum, cum bello uicti fuerint, aiit mors aut seruitus poena <lb n="20"/>
             est nec ullus post arma deposita cruciatus, quamuis omnia <lb/>
             pati meruerint qui facere uoluerunt,  <milestone n="39b" unit="altpage"/>  et inter mucrones locum  <lb/>
             pietas habet.</p></div>
@@ -3162,7 +3160,7 @@
             \'magis apparet diffidentia.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>qui enim patrocinium dei quem<lb n="15"/>
-            colit suscipit, illum esse nihili <choice><sic>conStetur</sic><corr>confitetur</corr></choice>: si autem ideo <lb/>
+            colit suscipit, illum esse nihili confitetur: si autem ideo <lb/>
             colit, quia potentem arbitratur, non debet eum uelle defendere  <lb/>
             a quo ipse est defendendus.</p></div>
 
@@ -3262,13 +3260,13 @@
             sola est in qua libertas domicilium conlocauit.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>res est <lb/>
-            enim praeter ceteras <choice><sic>noluntaria</sic><corr>uoluntaria</corr></choice> nec inponi cuiquam necessitas <lb/>
+            enim praeter ceteras uoluntaria nec inponi cuiquam necessitas <lb/>
             potest, ut colat quod non uult. potest aliquis forsitan simulare,  <lb/>
             non potest uelle.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>denique cum metu tormentorum aliqui <lb n="5"/>
-            aut cruciatibus uicti ad <choice><sic>eiecranda</sic><corr>execranda</corr></choice> sacrificia consenserint, numquam <lb/>
-            ultro faciunt quod necessitate fecerunt, sed data <choice><sic>rarsus</sic><corr>rursus</corr></choice> <lb/>
+            aut cruciatibus uicti ad execranda sacrificia consenserint, numquam <lb/>
+            ultro faciunt quod necessitate fecerunt, sed data rursus <lb/>
             facultate ac reddita libertate referunt se ad deum eumque precibus <lb/>
             et lacrimis placant agentes non uoluntatis quam non <lb/>
             habuerunt, sed necessitatis quam pertulerunt paenitentiam, et <lb n="10"/>
@@ -3282,16 +3280,16 @@
 
 <div n="5" subtype="section" type="textpart"><p>si uero aliquis nec<lb n="15"/>
             minis nec tormentis territus fidem uitae anteferre maluerit, in <lb/>
-            hunc ingenium suum crudelitas <choice n="0.89"><sic n="92">egerit</sic><corr n="11">exerit</corr></choice>, infanda et intolerabilia <lb/>
+            hunc ingenium suum crudelitas exerit, infanda et intolerabilia <lb/>
             molitur. et quia sciunt gloriosam esse pro deo mortem et <lb/>
             hanc nobis esse uictoriam, si superatis tortoribus animam pro  <lb/>
-            fide ac religione ponamus, et ipsi enituntur ut <choice><sic>nincant</sic><corr>uincant</corr></choice>.</p></div>
+            fide ac religione ponamus, et ipsi enituntur ut uincant.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>non <lb n="20"/>
             adficiunt morte, sed excogitant nouos inauditosque cruciatus, <lb/>
-            ut fragilitas uiscerum doloribus cedat, et si non cesserit, <choice><sic>diCerunt</sic><corr>differunt</corr></choice> <lb/>
+            ut fragilitas uiscerum doloribus cedat, et si non cesserit, differunt <lb/>
             adhibentque uulneribus curam diligentem, ut crudis adhuc <lb/>
-            <choice><sic>cioatricibus</sic><corr>cicatricibus</corr></choice> repetita tormenta plus doloris inmittant. et <lb/>
+            cicatricibus repetita tormenta plus doloris inmittant. et <lb/>
             (dum) hanc aduersus innocentes carnificinam exercent, pios<lb n="25"/>
             utique se et iustos et religiosos putant — talibus enim sacris <lb/>
             d(ii) eorum delectantur —, illos uero impios et desperatos
@@ -3483,7 +3481,7 @@
              
 <pb n="732"/>
             nam et iustitia imaginem habet stultitiae, non tamen est stultitia, <lb/>
-            et malitia imaginem sapientiae, non tamen sapientia <choice><sic>esL</sic><corr>est</corr></choice> <milestone n="7" unit="altsection"/>  <lb/>
+            et malitia imaginem sapientiae, non tamen sapientia est <milestone n="7" unit="altsection"/>  <lb/>
 </p></div>
 
 <div n="2" subtype="section" type="textpart"><p>            sed sicut malitia ista in conseruandis utilitatibus suis intellegens <lb/>
@@ -3544,7 +3542,7 @@
             neamus iustitiam, subeamus imaginem stultitiae, ut ueram <lb/>
             sapientiam tenere possimus. et si hominibus ineptum uidetur <lb n="5"/>
             ac stultum torqueri et mori malle quam libare diis et abire <lb/>
-            <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> noxa, nos tamen omni uirtute omnique patientia fidem <lb/>
+            siue noxa, nos tamen omni uirtute omnique patientia fidem <lb/>
             deo exhibere nitamur.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>non mors terreat, non dolor frangat, <milestone n="14" unit="altsection"/>  <lb/>
@@ -3593,7 +3591,7 @@
 <pb n="734"/>
             desiderari a deo, a quo si fames, si sitis, si algor, si rerum <lb/>
             omnium terrenarum cupiditas abest, non ergo utitur his omnibus <lb/>
-            quae templis diisque fictilibus <choice n="0.14"><sic n="3">inferantur</sic><corr n="18">inferuntur</corr></choice>. sed sicut corporalibus <lb/>
+            quae templis diisque fictilibus inferuntur. sed sicut corporalibus <lb/>
             corporalia, sic utique incorporali incorporale sacri- <milestone n="17" unit="altsection"/>  <lb/>
 </p></div>
 
@@ -3608,7 +3606,7 @@
             desiderat deus nisi cultum mentis, qui est purus et sanctus? <lb/>
             nam illa quae aut digitis fiunt aut extra hominem sunt,  <lb/>
             inepta fragilia ingrata sunt. hoc est sacrificium uerum,  <milestone n="45b" unit="altpage"/>  non <lb/>
-            quod ei <choice n="0.53"><sic n="139">area</sic><corr n="120">arca</corr></choice>, sed quod ex corde profertur, non quod manu, <lb/>
+            quod ei arca, sed quod ex corde profertur, non quod manu, <lb/>
             sed quod mente libatur, haec acceptabilis uictima est quam <milestone n="19" unit="altsection"/>  <lb n="15"/>
             de se ipso animus immolauerit.</p></div>
 
@@ -3625,7 +3623,7 @@
 <div n="54" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
 <p><milestone n="59" unit="altchapter"/>  <milestone n="2" unit="altsection"/>  Duas esse humanae uitae uias nec philosophis <lb/>
-            ignotum fuit <sic>npc</sic> poetis, sed eas utrique diuerso modo
+            ignotum fuit nec poetis, sed eas utrique diuerso modo
 
 <note type="footnote"> <hi rend="italic">INSTITUTIONES</hi> 5-7. 9 s.] VI 2, 3-5. 10-16] VI 1, 4; <lb/>
             2, 12 s. 16 nam quid hostiae] VI 2, 9. 18—21] VI 2, 14. 22-73;), 1] <lb/>
@@ -3763,7 +3761,7 @@
             nostri deus reuelauit se nobis et ostendit, ut in ipso religionem <lb/>
             fidem castitatem misericordiam disceremus, ut errore uitae <lb n="5"/>
             prioris abiecto simul cum ipso deo nosmet ipsos, quos inpietas <lb/>
-            dissociauerat, nosceremus legemque <choice n="0.96"><sic n="128">diuinam</sic><corr n="4">diurnam</corr></choice>, quae humana cum <lb/>
+            dissociauerat, nosceremus legemque diurnam, quae humana cum <lb/>
             caelestibus copulat, tradente ipso domino sumeremus, qua lege <lb/>
             uniuersi quibus inretiti fuimus errores cum uanis et impiis <lb/>
             superstitionibus tollerentur.</p></div>
@@ -3812,7 +3810,7 @@
             est enim non nocere, proximum prodesse.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>sed sicut in rudibus <lb/>
-            agris priusquam serere incipias, <choice><sic>eunJsis</sic><corr>euulsis</corr></choice> sentibus et omnibus <lb/>
+            agris priusquam serere incipias, euulsis sentibus et omnibus <lb/>
             stirpium radicibus amputatis arua purganda, sic de nostris <lb/>
             animis prius uitia detrahenda sunt et tunc demum uirtutes <lb/>
             inserendae, de quibus seminatae per uerbum dei fruges uirtutis<lb n="5"/>
@@ -3823,7 +3821,7 @@
 
 <div n="56" subtype="chapter" type="textpart">
 <div n="1" subtype="section" type="textpart">
-<p><milestone n="61" unit="altchapter"/> <milestone n="15" unit="altsection"/> Tres adfectus uel ut ita dicam tres <choice><sic>Fnriae</sic><corr>Furiae</corr></choice> sunt, <lb/>
+<p><milestone n="61" unit="altchapter"/> <milestone n="15" unit="altsection"/> Tres adfectus uel ut ita dicam tres Furiae sunt, <lb/>
             quae in animis hominum tantas perturbationes cient et interdum <lb/>
             cogunt ita delinquere, ut nec famae nec periculi sui respectum <lb/>
             habere permittant, ira, quae uindictam cupit, aua- <milestone n="16" unit="altsection"/>  <lb n="10"/>
@@ -3892,7 +3890,7 @@
              oriuntur.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>redigendi sunt ergo isti adfectus intra <milestone n="21" unit="altsection"/>  <lb n="20"/>
-            fines suos et <choice><sic>m</sic><corr>in</corr></choice> uiam rectam dirigendi, in qua etiamsi sint <lb/>
+            fines suos et in uiam rectam dirigendi, in qua etiamsi sint <lb/>
             uehementes, culpam tamen habere non possunt.
 
 <note type="footnote"> <hi rend="italic">INSTITUTIONES</hi> 1-3 (-inseuit)] VI 15, 3 s. 1-7] VI 16, <lb/>
@@ -3946,7 +3944,7 @@
 
 <div n="5" subtype="section" type="textpart"><p>oeulorum <lb/>
             uoluptas percipitur ei rerum pulcritudine, aurium de <lb n="15"/>
-            uocibus canoris et suauibus, narium de odore <choice n="0.88"><sic n="15">iucundo</sic><corr n="2">ineundo</corr></choice>, saporis <lb/>
+            uocibus canoris et suauibus, narium de odore ineundo, saporis <lb/>
             de cibis dulcibus: quibus omnibus uirtus repugnare fortiter <lb/>
             debet, ne his inlecebris inretitus animus a caelestibus ad terrena, <lb/>
             ab aeternis ad temporalia, a uita inmortali ad poenam  <lb/>
@@ -4045,7 +4043,7 @@
 
 <div n="4" subtype="section" type="textpart"><p>quodsi interesse homicidio <lb/>
             sceleris conscientia est et eidem facinori spectator obstrictus <lb/>
-            est cui et <sic>admissor</sic>, ergo et in his gladiatorum caedibus<lb n="10"/>
+            est cui et admissor, ergo et in his gladiatorum caedibus<lb n="10"/>
             non minus cruore perfunditur qui spectat quam ille qui <lb/>
             facit, nec potest esse inmunis a sanguine qui uoluit effundi, <lb/>
             aut uideri non interfecisse qui interfectori et fauit et praemium  <lb/>
@@ -4094,7 +4092,7 @@
 
 <div n="9" subtype="section" type="textpart"><p><milestone n="50b" unit="altpage"/>  fugienda igitur omnia spectacula, ut tranquillum   <lb/>
             mentis statum tenere possimus, renuntiandum noxiis <lb/>
-            uoluptatibus, ne <choice><sic>deleuiti</sic><corr>deleniti</corr></choice> suauitate pestifera in mortis laqueos <lb n="5"/>
+            uoluptatibus, ne deleniti suauitate pestifera in mortis laqueos <lb n="5"/>
             incidamus. 
 </p>
           </div>
@@ -4168,10 +4166,10 @@
             quod etiam communi gentium iure damnatur, uerum etiam<lb n="15"/>
             prostitutis corporibus abstinere. supra leges enim dei lex est: <lb/>
             ea quoque quae pro licitis habentur uetat, ut iustitiam con- <milestone n="16" unit="altsection"/>  <lb/>
-            <sic>summet</sic>.</p></div>
+            summet.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>eiusdem legis est falsum testimonium non dicere, <lb/>
-            quod et ipsum <choice n="0.06"><sic n="14">Tatius</sic><corr n="198">latius</corr></choice> patet. nam si falsum testimonium mendacio <lb/>
+            quod et ipsum latius patet. nam si falsum testimonium mendacio <lb/>
             nocet ei contra quem dicitur et fallit eum aput quem <lb n="20"/>
             dicitur, numquam igitur mentiendum est, quia mendacium
 
@@ -4279,7 +4277,7 @@
 <div n="8" subtype="section" type="textpart"><p>haec litabilior <lb/>
             uictima est aput deum, qui non pecudis sanguine, sed hominis <lb/>
             pietate placatur, quem deus, quia iustus est, suamet ipsum<lb n="15"/>
-            lege, sua et condicione prosequitur: miseretur eius quem <choice n="0.53"><sic n="220">uident</sic><corr n="195">uiderit</corr></choice> <lb/>
+            lege, sua et condicione prosequitur: miseretur eius quem uiderit <lb/>
             misericordem, inexorabilis est ei quem precantibus cernit  <lb/>
             inmitem.</p></div>
 
@@ -4310,7 +4308,7 @@
              
 <pb n="747"/>
             possimus, contemnenda est pecunia et ad caelestes transferenda <lb/>
-            thensauros,  <milestone n="52b" unit="altpage"/>   ubi nec fur effodiat nec <choice n="0.96"><sic n="404">rogo</sic><corr n="13">robigo</corr></choice> consumat nec tyrannus  <lb/>
+            thensauros,  <milestone n="52b" unit="altpage"/>   ubi nec fur effodiat nec robigo consumat nec tyrannus  <lb/>
             eripiat, sed nobis ad aeternam opulentiam deo custode <lb/>
             seruetur. 
 </p>
@@ -4339,7 +4337,7 @@
 <div n="4" subtype="section" type="textpart"><p>nihil  <lb/>
             tunc aliut quam uitae immortalis praemia cogitemus: ita facile, <lb/>
             etsi dissipandi aut urendi artus fuerint, tolerabimus uniuersa <lb/>
-            quae <choice><sic>m</sic><corr>in</corr></choice> nos tyrannicae crudelitatis amentia molietur.</p></div>
+            quae in nos tyrannicae crudelitatis amentia molietur.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>postremo  <lb/>
             ipsam mortem non inuiti  <milestone n="53a" unit="altpage"/>  aut timidi, sed libentes et  <lb n="20"/>
@@ -4374,7 +4372,7 @@
             bonis, quanta beatitudine breuia haec poenarum mala et <lb/>
             huius uitae damna pensemus. quodsi facultas huius gloriae <lb/>
             deerit, habebit fides etiam in pace mercedem. teneatur ergo <lb/>
-            in omnibus <choice><sic>Uitae</sic><corr>uitae</corr></choice> officiis, teneatur in matrimonio. non enim <lb n="5"/>
+            in omnibus uitae officiis, teneatur in matrimonio. non enim <lb n="5"/>
             satis est, si aut alieno toro aut lupanari abstineas.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>qui habet <lb/>
@@ -4479,15 +4477,15 @@
             rationem conprehenderunt.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>quomodo enim possent sequentLa <lb/>
-            peruidere qui <choice><sic>rummam</sic><corr>summam</corr></choice> non tenef.ant? negantes igitur esse <lb/>
-            ullam prouidentiam, <choice><sic>ntique</sic><corr>utique</corr></choice> deum, qui fons et <choice><sic>capnt</sic><corr>caput</corr></choice> rerum est. <milestone n="16" unit="altchapter"/>  <lb/>
+            peruidere qui summam non tenef.ant? negantes igitur esse <lb/>
+            ullam prouidentiam, utique deum, qui fons et caput rerum est. <milestone n="16" unit="altchapter"/>  <lb/>
             npgauf-runt.</p></div>
 
 <div n="6" subtype="section" type="textpart"><p>sequebator ut ea quae sunt, aut semper foisse <lb/>
             dicerent aut sua sponte esse nata ant minutorum seminum<lb n="5"/>
             conglobatione concreta. semper fuisse non potest quod et est <lb/>
-            et <choice n="0.87"><sic n="7">uisui</sic><corr n="1">nisui</corr></choice> subiacet: ipsum enim esse sine aliquo initio non <sic n="poss">pote=t</sic>.  <lb/>
-            <sic>sna</sic> sponte autem nihil  <milestone n="54b" unit="altpage"/>   nasci potest, quia nulla est sine  <milestone n="17" unit="altchapter"/>   <lb/>
+            et nisui subiacet: ipsum enim esse sine aliquo initio non <sic n="poss">pote=t</sic>.  <lb/>
+            sua sponte autem nihil  <milestone n="54b" unit="altpage"/>   nasci potest, quia nulla est sine  <milestone n="17" unit="altchapter"/>   <lb/>
             generante natura.</p></div>
 
 <div n="7" subtype="section" type="textpart"><p>semina uero principalia quomodo esse potuernnt, <lb/>
@@ -4500,9 +4498,9 @@
 
 <div n="8" subtype="section" type="textpart"><p>alii uero ei aduerso et deum <lb n="15"/>
             esse unum et ab eo mundum factum et hominum causa factum <lb/>
-            et animas esse immortales <choice><sic>eiistimauerunt</sic><corr>existimauerunt</corr></choice>. sed cum uera sentirent, <lb/>
+            et animas esse immortales existimauerunt. sed cum uera sentirent, <lb/>
             huius tamen diuini operis atque consilii nec causas nec <lb/>
-            rationes nec exitus perspexerunt, ut omne ueritatis <choice><sic>arcanom</sic><corr>arcanum</corr></choice> <milestone n="19" unit="altsection"/>  <lb/>
+            rationes nec exitus perspexerunt, ut omne ueritatis arcanum <milestone n="19" unit="altsection"/>  <lb/>
             consummarent atque aliquo ueluti fine concluderent.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>sed <lb n="20"/>
@@ -4537,7 +4535,7 @@
             uidemus in rerum  <milestone n="55a" unit="altpage"/>  natura et bona esse et mala.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>potest <milestone n="21" unit="altsection"/>  <lb/>
-            ergo <choice><sic>eiistere</sic><corr>existere</corr></choice> peruersus aliquis, qualis fuit atheus ille Theodorus, <lb/>
+            ergo existere peruersus aliquis, qualis fuit atheus ille Theodorus, <lb/>
             et Platoni respondere: \'immo quia malus est, fecit <lb n="5"/>
             quae mala sunt.\' quomodo illum redarguet? si quae bona <lb/>
             sunt deus fecit, unde igitur tanta mala eruperunt, quae plerumque <lb/>
@@ -4597,7 +4595,7 @@
             adsequantur aut quod sit omnino tantum illut mysterium, cur <lb/>
             ii qui sunt inmortales futuri, prius mortales nascantur, deinde <lb/>
             decurso temporalis uitae spatio atque abiectis fragilium corporum<lb n="10"/>
-            <choice><sic>eiuuiis</sic><corr>exuuiis</corr></choice> ad aeternam illam beatitudinem transferantur, <milestone n="28" unit="altsection"/>  <lb/>
+            exuuiis ad aeternam illam beatitudinem transferantur, <milestone n="28" unit="altsection"/>  <lb/>
             non conprehendit.</p></div>
 
 <div n="9" subtype="section" type="textpart"><p>denique nec iudicium dei nec discrimen <lb/>
@@ -4664,9 +4662,9 @@
 
 <div n="5" subtype="section" type="textpart"><p>hic Plato aberrauit, hic perdidit quam primo arripuerat  <lb/>
             ueritatem, cum de cultu eius dei quem conditorem <lb/>
-            rerum <sic>acparentem</sic> fatebatur opticuit, nec intellexit hominem <lb/>
+            rerum ac parentem fatebatur opticuit, nec intellexit hominem <lb/>
             deo pietatis uinculis esse religatum, unde ipsa religio nominatur, <lb n="20"/>
-            et hoc esse solum propter quod <choice><sic>iumortales</sic><corr>inmortales</corr></choice> animae fiant. <lb/>
+            et hoc esse solum propter quod inmortales animae fiant. <lb/>
 </p></div>
 
 <div n="6" subtype="section" type="textpart"><p>            sensit tamen aeternas esse, sed non per gradus ad eam sententiam  <lb/>
@@ -4763,7 +4761,7 @@
 <div n="5" subtype="section" type="textpart"><p>deni- <milestone n="12" unit="altsection"/>  <lb n="5"/>
             que caelesti elemento, quod est ignis, solus homo utitur. si <lb/>
             enim lux per ignem, uita per lucem, apparet eum qui habeat <lb/>
-            usum ignis non esse <choice><sic>nrortalem</sic><corr>mortalem</corr></choice>, quoniam id illi proximum, id <lb/>
+            usum ignis non esse mortalem, quoniam id illi proximum, id <lb/>
             familiare est sine quo non potest nec lux nec uita constare. <lb/>
 </p></div>
 
@@ -4807,7 +4805,7 @@
 <note type="footnote"> 48* </note> <lb/>
              
 <pb n="756"/>
-            sunt, quoniam ut testimoniis <choice><sic>utamuT</sic><corr>utamur</corr></choice> inmensum est si quis <lb/>
+            sunt, quoniam ut testimoniis utamur inmensum est si quis <lb/>
             illa desiderat aut nobis minus credit, adeat ad ipsum sacrarium <lb/>
             caelestium litterarum, quarum fide instructior errasse <lb/>
             philosophos sentiat, qui aut aeternum esse hunc mundum ant <lb/>
@@ -4818,7 +4816,7 @@
 <div n="9" subtype="section" type="textpart"><p><milestone n="16" unit="altsection"/>  <lb n="5"/>
             nondum enim sex milia conpleta sunt: quo numero consummato <lb/>
             tunc demum malum omne tolletur, ut regnet sola iustitia. <lb/>
-            quod quatenus euenturum sit paucis <choice><sic>eiplicabo</sic><corr>explicabo</corr></choice>. 
+            quod quatenus euenturum sit paucis explicabo. 
 </p>
           </div>
 </div>
@@ -4827,17 +4825,17 @@
 <div n="1" subtype="section" type="textpart">
 <p><milestone n="71" unit="altchapter"/> <milestone n="8" unit="altsection"/> Haec autem a prophetis, sed et a uatibus futura <lb/>
             dicuntur. cum coeperit mundo finis ultimus propinquare, malitia<lb n="10"/>
-            <choice><sic>inualescet</sic><corr>iuualescet</corr></choice>, omnia uitiorum et <choice><sic>frandum</sic><corr>fraudum</corr></choice> genera crebrescent, iustitia <lb/>
-            interibit., fides <choice><sic>pai</sic><corr>pax</corr></choice> misericordia pudor ueritas non erit,  <lb/>
-            uis et audacia <choice><sic>praeualehit</sic><corr>praeualebit</corr></choice>, nemo quidquam  <milestone n="5sb" unit="altpage"/>  habebit nisi manu  <lb/>
+            inualescet, omnia uitiorum et fraudum genera crebrescent, iustitia <lb/>
+            interibit., fides pax misericordia pudor ueritas non erit,  <lb/>
+            uis et audacia praeualebit, nemo quidquam  <milestone n="5sb" unit="altpage"/>  habebit nisi manu  <lb/>
             partum manuque defensum.</p></div>
 
 <div n="2" subtype="section" type="textpart"><p>si qui erunt boni, praedae ac <lb/>
             ludibrio habebuntur. nemo pietatem parentibus exhibebit, nemo <lb n="15"/>
             infantis aut senis miserebitur, auaritia et libido uniuersa corrumpet. <lb/>
-            erunt caedes et sanguinis <choice><sic>effnsiones</sic><corr>effusiones</corr></choice>, erunt bella non <lb/>
+            erunt caedes et sanguinis effusiones, erunt bella non <lb/>
             modo externa et finitima, uerum etiam intestina. ciuitates <lb/>
-            inter se <sic>beIligeralmnt</sic>, omnis sexus et omnis aetas arma tractabit.  <lb/>
+            inter se belligerabunt, omnis sexus et omnis aetas arma tractabit.  <lb/>
             </p></div>
 
 <div n="3" subtype="section" type="textpart"><p>non imperii dignitas conseruabitur, non militiae disciplina,<lb n="20"/>
@@ -4881,7 +4879,7 @@
 <div n="5" subtype="section" type="textpart"><p>his malis accedent etiam prodigia de  <lb/>
             caelo, ne quid desit hominibus ad timorem. cometae crebro <lb/>
             apparebunt, sol perpetuo pallore fuscabitur, luna sanguine <lb n="15"/>
-            <sic>iniicietur</sic> nec amissae lucis damna reparabit, stellae omnes <lb/>
+            inficietur nec amissae lucis damna reparabit, stellae omnes <lb/>
             decident nec temporibus sua ratio constabit, hieme atque <lb/>
             aestate confusis;</p></div>
 
@@ -4973,11 +4971,11 @@
             et uirtus inaestimabilis angelorum et extinguetur omnis illa <lb/>
             multitudo impiorum et torrentes sanguinis current et ipse <lb/>
             ductor effugiet atque exercitu saepe reparato quartum proelium <lb/>
-            faciet,  <milestone n="60a" unit="altpage"/>  quo captus cum ceteris omnibus tyrannis tradetur <sic n="poss">exustioni</sic>.  <lb/>
+            faciet,  <milestone n="60a" unit="altpage"/>  quo captus cum ceteris omnibus tyrannis tradetur exustioni.  <lb/>
              </p></div>
 
 <div n="2" subtype="section" type="textpart"><p>sed et ipse daemonum princeps auctor et machi- <milestone n="12" unit="altsection"/>  <lb/>
-            <sic n="poss">nator</sic> malorum catenis alligatus custodiae dabitur, ut pacem <lb n="5"/>
+            nator malorum catenis alligatus custodiae dabitur, ut pacem <lb n="5"/>
             mundus accipiat et uexata tot saeculis terra requiescat.</p></div>
 
 <div n="3" subtype="section" type="textpart"><p>pace <milestone n="13" unit="altsection"/>  <lb/>
@@ -4995,7 +4993,7 @@
             hominum procreabit.</p></div>
 
 <div n="5" subtype="section" type="textpart"><p>stillabunt mella de rupibus, lactis <milestone n="15" unit="altsection"/>  <lb/>
-            et <choice n="0.76"><sic n="291">uini</sic><corr n="88">uiui</corr></choice> fontes exuberabunt. bestiae deposita feritate mansuescent, <lb/>
+            et uini fontes exuberabunt. bestiae deposita feritate mansuescent, <lb/>
             lupus inter pecudes errabit innoxius, uitulus cum leone <lb/>
              pascetur, columba cum accipitre congregabitur, serpens uirus <lb n="20"/>
             non habebit, nullum animal uiuet ex sanguine. omnibus enim <lb/>
@@ -5028,9 +5026,9 @@
 
 <div n="7" subtype="section" type="textpart"><p>tunc fiet ultimum iadicium <lb/>
             dei aduersus gentes. concutiet enim a fundamentis suis <lb/>
-            terram et corruent <sic>eiuitates</sic>, et pluet super impios ignem cum <lb/>
-            sulpure et grandine et ardebunt et se inuicem <choice><sic>trucidahunt</sic><corr>trucidabunt</corr></choice>. <lb/>
-            iusti uero <choice><sic>suh</sic><corr>sub</corr></choice> terra paulisper latebunt, donec perditio <choice n="0.00"><sic n="2">gentiam</sic><corr n="600">gentium</corr></choice><lb n="5"/>
+            terram et corruent ciuitatem, et pluet super impios ignem cum <lb/>
+            sulpure et grandine et ardebunt et se inuicem trucidabunt. <lb/>
+            iusti uero sub terra paulisper latebunt, donec perditio gentium<lb n="5"/>
             fiat, et exibunt post diem tertium et uidebunt campos cadaueribus <lb/>
             opertos. tunc fiet terrae motus et scindentur montes et <lb/>
             subsident ualles in altitudinem profundam et congerentur in <lb/>
@@ -5041,7 +5039,7 @@
             figuras angelorum, ut inmortalitatis ueste donati seruiant deo <lb/>
             in sempiternum. et hoc erit regnum dei, quod finem non habebit. <lb/>
             tunc etiam impii resurgent, non ad uitam, sed ad <lb/>
-            poenam. eos quoque secunda resurrectione facta deus <choice><sic>eicitabit</sic><corr>excitabit</corr></choice>, <lb/>
+            poenam. eos quoque secunda resurrectione facta deus excitabit, <lb/>
             ut ad perpetua tormenta damnati et aeternis ignibus traditi <lb n="15"/>
             merita pro sceleribus suis supplicia persoluant. 
 </p>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,7 +101,7 @@
           </ab>
           <p n="1" rend="script">Oraculum est scientissimi doctoris gentium quod pariat infirmitas <lb n="20"/>
             nostra potentiam et quod terrena in contritione anima <lb/>
-            conualescat, cum <sic>nirtus</sic>, quae de substantia carnis fluxerit,
+            conualescat, cum uirtus, quae de substantia carnis fluxerit,
 
 <note type="footnote"> 20 11 Cor. 12, 9 </note>
 
@@ -125,14 +123,14 @@
             et in diuina locandum arce conponit ad frugem spiritus. sic, <lb/>
             quando sine cultura aut messe sunt corpora, dulce est, et cum <lb/>
             adcesserit propter augmenta diminutio: ad diuitem dei gratiam <lb/>
-            peruenitur <choice><sic>iejuna</sic><corr>ieiuna</corr></choice> et sterili paupertate membrorum. ergo tibi<lb n="5"/>
+            peruenitur ieiuna et sterili paupertate membrorum. ergo tibi<lb n="5"/>
             post deum debetur, inbecillitas nostra, quod de rerum sublimium <lb/>
             affectione surreximus. uotiua febris meae necessitas et <lb/>
             exustio amplectenda medullarum dederunt mihi et timere deum <lb/>
             de abitione sospitatis et in ipso gaudere de reditu. laetatur <lb/>
             nunc in auctore nostro mentis sanitas procurata. languoribus. <lb n="10"/>
             ubi est superbia diuturnae salutis quaesita ludibrio? ubi supercilium, <lb/>
-            per quod diuinum munus <choice><sic>credebus</sic><corr>credebas</corr></choice> esse rem propriam ? <lb/>
+            per quod diuinum munus credebas esse rem propriam ? <lb/>
             repente deseruit te constantia roboris tui, et aegritudinis subiecta <lb/>
             ponderibus elisa ceruice iacuisti: postquam fugit prosperitas <lb/>
             tua, seram meditata paenitentiam, quod ualueras, dei<lb n="15"/>
@@ -147,8 +145,8 @@
 </p>
           <p n="2" rend="script">Ecce ego ille, qui in longum ducta mihi alacritate plaudebam, <lb/>
             qua dum perpeti fruerer, quasi nulla intermissione<lb n="25"/>
-            solueretur, quaerebam qualiter peccati stipendium <choice n="0.46"><sic n="595">mora</sic><corr n="698">mors</corr></choice> <lb/>
-            <choice><sic>neniret</sic><corr>ueniret</corr></choice>. nam eleuatus insanis successibus poetarum me
+            solueretur, quaerebam qualiter peccati stipendium mors <lb/>
+            ueniret. nam eleuatus insanis successibus poetarum me
 
 <note rend="script" type="footnote"> 1 ad] sed <hi rend="italic">B</hi> 2 conponat <hi rend="italic">B</hi> sic <hi rend="italic">scripsi,</hi> die <hi rend="italic">B,</hi> si <hi rend="italic">LPTVb</hi> <lb/>
             3 daloe Set <hi rend="italic">V,</hi> dulcê et <hi rend="italic">(t ex</hi> c <hi rend="italic">corr.) L,</hi> dulce esset <hi rend="italic">T,</hi> dulcem esse <hi rend="italic">B,</hi> <lb/>
@@ -164,26 +162,26 @@
              
 <pb n="395"/>
             gregi ignarus uenerandae professionis indideram: delectabant <lb/>
-            carmina <choice n="0.56"><sic n="18">quadrati</sic><corr n="14">quadratis</corr></choice>. fabricata particulis et ordinata pedum <lb/>
+            carmina quadratis. fabricata particulis et ordinata pedum <lb/>
             uarietate solidata: angelorum choris me fluxum aut tenerum <lb/>
             poema miscebat, et si euenisset, ut essem clarorum uersuum <lb/>
-            seruata lege formator, sub pedibus meis <choice><sic>subieotum</sic><corr>subiectum</corr></choice> quicquid <lb n="5"/>
+            seruata lege formator, sub pedibus meis subiectum quicquid <lb n="5"/>
             caeli tegitur axe cernebam. ineptum diu uolutauit uita mortalis <lb/>
-            et certa <choice><sic>miseriamm</sic><corr>miseriarum</corr></choice> <choice><sic>oaecitas</sic><corr>caecitas</corr></choice> de falsa <choice><sic>dioendi</sic><corr>dicendi</corr></choice> felicitate <lb/>
-            perextulit. quotiens <choice><sic>adolamantium</sic><corr>adclamantium</corr></choice> flatibus propter religionem <lb/>
+            et certa miseriarum caecitas de falsa dicendi felicitate <lb/>
+            perextulit. quotiens adclamantium flatibus propter religionem <lb/>
             uertex nudatus intumuit et mendacibus labiorum lusus inlecebris <lb/>
-            credidit amorem sui habentium <choice><sic>peetoribus</sic><corr>pectoribus</corr></choice> imperari? <lb n="10"/>
-            tu autem, qui in <choice><sic>oaelis</sic><corr>caelis</corr></choice> habitas, <choice><sic>inridebus</sic><corr>inridebas</corr></choice> me: tu quem non <lb/>
+            credidit amorem sui habentium pectoribus imperari? <lb n="10"/>
+            tu autem, qui in caelis habitas, inridebas me: tu quem non <lb/>
             deliniunt uerba sed puritas: tu apud quem saepe muti loquimur <lb/>
-            et clamantes <choice><sic>taeemus</sic><corr>tacemus</corr></choice>. sic dum me <choice><sic>conoinnationis</sic><corr>concinnationis</corr></choice> <lb/>
+            et clamantes tacemus. sic dum me concinnationis <lb/>
             superfluae in rhetoricis et poeticis campis lepos agitaret, a <lb/>
             uera sapientia mentitam secutus abscesseram, nihil aliud <lb n="15"/>
-            <choice><sic>cnpiens</sic><corr>cupiens</corr></choice> nisi auris uanae laudationis adsurgere. erat orandi <lb/>
+            cupiens nisi auris uanae laudationis adsurgere. erat orandi <lb/>
             fastidium, dum perorandi tenebar cupiditate, mercari. infelix <lb/>
             ego homo! quis me repararet de corpore mortis huius? gratia <lb/>
             dei, medicabilis morbi concessa ministerio. nam ecce repente <lb/>
-            ad sedem animae formidantis dolor ingressus et <choice><sic>seoreta</sic><corr>secreta</corr></choice> cordis <lb n="20"/>
-            hostili pauit <choice><sic>inceudio</sic><corr>incendio</corr></choice>: tunc quicquid homo est iugi consenescebat <lb/>
+            ad sedem animae formidantis dolor ingressus et secrete cordis <lb n="20"/>
+            hostili pauit incendio: tunc quicquid homo est iugi consenescebat <lb/>
             ardore et per aditus naturales coctio se interna reserabat. <lb/>
             nam dum e latebris suis pelleretur adrogantia, quamuis <lb/>
             adhuc aliqua de superstitioso, tamen iam de superstite nihil
@@ -205,34 +203,34 @@
             <hi rend="italic">T1</hi> 23 nam] non <hi rend="italic">L</hi> et quamuis <hi rend="italic">T</hi> </note><lb/>
              
 <pb n="396"/>
-            habebam. hoc <choice n="0.06"><sic n="174">solam</sic><corr n="2697">solum</corr></choice> remanserat de conscientia <choice><sic>uiuentie</sic><corr>uiuentis</corr></choice>, quod <lb/>
+            habebam. hoc solum remanserat de conscientia uiuentis, quod <lb/>
             a te, deus meus, sanari me posse confidebam, quem ad commotionem <lb/>
             errore produxeram. nec tamen uastatrix illa et <lb/>
-            magistra pestis latebat uiscerum inmissa <choice><sic>coDclauibus</sic><corr>conclauibus</corr></choice>, nec <lb/>
-            contenta uelamine totum me luridi <choice><sic>eoloris</sic><corr>coloris</corr></choice> nube uestierat, ut<lb n="5"/>
-            quicquid in ceteris passionibus <choice><sic>medioonun</sic><corr>medicorum</corr></choice> quaeritur digitis <lb/>
+            magistra pestis latebat uiscerum inmissa conclauibus, nec <lb/>
+            contenta uelamine totum me luridi coloris nube uestierat, ut<lb n="5"/>
+            quicquid in ceteris passionibus medicorum quaeritur digitis <lb/>
             hoc propositum pro correptione sui uulgus uideret. urebat <lb/>
-            amantes mei longa calamitas, <choice><sic>nrebat</sic><corr>urebat</corr></choice> inimicos: alios desperatio <lb/>
-            obitus mei, alios angebat instantia: <choice><sic>coneors</sic><corr>concors</corr></choice> erat ciuitatis in <lb/>
-            studii <choice><sic>diuieione</sic><corr>diuisione</corr></choice> sententia. <lb n="10"/>
+            amantes mei longa calamitas, urebat inimicos: alios desperatio <lb/>
+            obitus mei, alios angebat instantia: concors erat ciuitatis in <lb/>
+            studii diuisione sententia. <lb n="10"/>
             
 </p>
           <p n="3" rend="script">Interea me edax ignis interno uastabat officio et continuis <lb/>
-            curantium nutribatur <choice n="0.03"><sic n="20">stadiis</sic><corr n="508">studiis</corr></choice>. nam quasi morbos aleret, ita <lb/>
-            quicquid contra ipsos <choice><sic>pronidebatur</sic><corr>prouidebatur</corr></choice> <choice><sic>aoceesit</sic><corr>accessit</corr></choice>. tunc illa <choice><sic>saeonlariB</sic><corr>saecularis</corr></choice> <lb/>
+            curantium nutribatur studiis. nam quasi morbos aleret, ita <lb/>
+            quicquid contra ipsos prouidebatur accessit. tunc illa saecularis <lb/>
             pompae philosophia Hippocratis et Galeni contrita subsidiis, ad <lb/>
-            <choice><sic>adintorium</sic><corr>adiutorium</corr></choice> fidele se transtulit, aliquando sentiens mundi blandimenta<lb n="15"/>
-            <sic>uaneecere</sic> et humanis hominem praesidiis non <choice><sic>iuuarL</sic><corr>iuuari</corr></choice> iam <lb/>
-            duorum ferme mensium <choice><sic>onrriculis</sic><corr>curriculis</corr></choice> cladis huius me sibi <choice><sic>pressnra</sic><corr>pressura</corr></choice> <lb/>
-            <choice><sic>snbmiserat</sic><corr>submiserat</corr></choice>: iam remedii uice transitum praestolabar et nihil <lb/>
-            suaue de usura. lucis istius recolens <choice><sic>abrnmpere</sic><corr>abrumpere</corr></choice> moras etsi cum <lb/>
-            peccati iturus fasce <choice><sic>oupiebam</sic><corr>cupiebam</corr></choice>. expendite legentes quae hic <lb n="20"/>
-            flagella, quae tormenta me manserint, ut <choice><sic>supplioiorum</sic><corr>suppliciorum</corr></choice> praesentium <lb/>
-            <choice n="0.03"><sic n="35">meta</sic><corr n="1003">metu</corr></choice> gehennae poenas expeterem et ut ad illa immortalis <lb/>
-            camini et dirum anhelantis <choice><sic>piacnla</sic><corr>piacula</corr></choice> festinarem. sed non defuit <lb/>
-            mihi dominus, qui mortificat et <choice><sic>niuificat</sic><corr>uiuificat</corr></choice>, <choice><sic>dedncit</sic><corr>deducit</corr></choice> ad <lb/>
+            adiutorium fidele se transtulit, aliquando sentiens mundi blandimenta<lb n="15"/>
+            uanescere et humanis hominem praesidiis non iuuari iam <lb/>
+            duorum ferme mensium curriculis cladis huius me sibi pressura <lb/>
+            submiserat: iam remedii uice transitum praestolabar et nihil <lb/>
+            suaue de usura. lucis istius recolens abrumpere moras etsi cum <lb/>
+            peccati iturus fasce cupiebam. expendite legentes quae hic <lb n="20"/>
+            flagella, quae tormenta me manserint, ut suppliciorum praesentium <lb/>
+            metu gehennae poenas expeterem et ut ad illa immortalis <lb/>
+            camini et dirum anhelantis piacula festinarem. sed non defuit <lb/>
+            mihi dominus, qui mortificat et uiuificat, deducit ad <lb/>
             inferos et reducit, maiestate sua, ille cuius est promissio:<lb n="25"/>
-            adhuc uerba in ore tuo, et ecce adsum, <choice><sic>dioit</sic><corr>dicit</corr></choice> dominus. <lb/>
+            adhuc uerba in ore tuo, et ecce adsum, dicit dominus. <lb/>
             nam cum unus se ex his, qui adsidebant mihi et per
 
 <note type="footnote"> 25 1 Reg. 2, 6 27 Esai. 50, 6. 68, 9 </note>
@@ -248,32 +246,32 @@
             <hi rend="italic">Om. B</hi> adsedebant <hi rend="italic">B</hi> </note><lb/>
              
 <pb n="397"/>
-            <sic>singnlos</sic> dies ditabant inaequalitatem meam dispendio <choice><sic>facaltatum</sic><corr>facultatum</corr></choice>, <lb/>
+            singulos dies ditabant inaequalitatem meam dispendio facultatum, <lb/>
             lassatum se fuisse testaretur nec aliquid remansisse <lb/>
-            quod fieret, ilico mihi spem uitae detulit desperatio <choice><sic>euratoris</sic><corr>curatoris</corr></choice>. <lb/>
-            nam illic promptiora sunt caelestis bona <sic>iuaaminis</sic>, ubi se <lb/>
+            quod fieret, ilico mihi spem uitae detulit desperatio curatoris. <lb/>
+            nam illic promptiora sunt caelestis bona iuuaminis, ubi se <lb/>
             subtraxerint obsequia infausta languentibus. continuo me ad <lb n="5"/>
-            beati <choice n="0.69"><sic n="36">Victoria</sic><corr n="16">Victoris</corr></choice> martyris praesidia saepe <choice><sic>ezperta</sic><corr>experta</corr></choice> <sic>trassuexi</sic> et <lb/>
-            opem fortissimi precatus deo per <sic>ipeum</sic> cum lacrimis alleganda <lb/>
+            beati Victoris martyris praesidia saepe experta transuexi et <lb/>
+            opem fortissimi precatus deo per ipsum cum lacrimis alleganda <lb/>
             commisi: satis esse ad promerendam clementiam eius, si <lb/>
             semper ante oculos suos statuat, unde nos sumpserit, nec <lb/>
-            <sic>fiacile</sic> ad sublimitatem mandatorum illius <choice n="0.16"><sic n="8584">eum</sic><corr n="42581">cum</corr></choice> uelocitate <choice><sic>eitremam</sic><corr>extremam</corr></choice> <lb n="10"/>
+            facile ad sublimitatem mandatorum illius cum uelocitate extremam <lb n="10"/>
             migrare posse materiam. quamuis per secundam pii <lb/>
             naturam baptismatis ablutum sit quicquid de limo parente <lb/>
-            sorduimus, tamen quia, dum inimicus salutis nostrae <choice><sic>inolusum</sic><corr>inclusum</corr></choice> <lb/>
+            sorduimus, tamen quia, dum inimicus salutis nostrae inclusum <lb/>
             blandimentis fucat interitum, dulci uitia sapore condiuit et; <lb/>
             dum pruritu annum, dum gustandi oblectatione producimur, <lb n="15"/>
             mors per fenestras ingreditur, quo fugiendum est ab ira ipsius, <lb/>
             nisi ad misericordiam eius, qui reducem filium et concessae <lb/>
             prodigum portionis, quem postquam cum porcis per obscenum <lb/>
-            siliquarum <choice><sic>eibum</sic><corr>cibum</corr></choice> addixit inmunda communio, ad stolam candidam, <lb/>
-            ad anulum pretiosum, ad diuitias illas paternae <choice><sic>poasessionie</sic><corr>possessionis</corr></choice>, <lb n="20"/>
+            siliquarum cibum addixit inmunda communio, ad stolam candidam, <lb/>
+            ad anulum pretiosum, ad diuitias illas paternae possessionis, <lb n="20"/>
             quasi semper seruasset iussa, reuocauit? precatus <lb/>
             sum per electum eius, ut debita mihi plura dimitteret, ut <lb/>
             plus diligentiae absolutus exhiberem. et hoc cum promissionis <lb/>
             suae chirographo et casta sponsione conueniens poposci, ut <lb/>
-            daret etiam per praecepta sua amabili <choice><sic>denotione</sic><corr>deuotione</corr></choice> me currere, <lb n="25"/>
-            quia, cum sit illius quod uocamur, illius quod <choice><sic>nocati</sic><corr>uocati</corr></choice>
+            daret etiam per praecepta sua amabili deuotione me currere, <lb n="25"/>
+            quia, cum sit illius quod uocamur, illius quod uocati
 
 <note type="footnote"> 16 of. Hier. 9, 21 </note>
 
@@ -289,33 +287,33 @@
             chyrografo <hi rend="italic">B</hi> </note><lb/>
              
 <pb n="398"/>
-            adquiescimus, a nobis tamquam <choice n="0.00"><sic n="1">sist</sic><corr n="3295">sint</corr></choice> orta <sic n="poss">mnnerantur</sic>, et uelle recta <lb/>
-            et perficere ipse (dam) <choice><sic>suggerii</sic><corr>suggerit</corr></choice>, tamen <choice><sic>oeu</sic><corr>ceu</corr></choice> pro nostra obnoxius <lb/>
-            deuotione dat <choice><sic>praemiim</sic><corr>praemium</corr></choice>. promisi etiam, si clarioris <choice n="0.03"><sic n="2">stadii</sic><corr n="59">studii</corr></choice> me <lb/>
-            per gratiam suam donaret affectu, de manu linguae meae <choice><sic>cenfessio</sic><corr>confessio</corr></choice> <lb/>
-            ista procederet, de muneribus ipsius <sic>ingeaioli</sic> mei eidem<lb n="5"/>
+            adquiescimus, a nobis tamquam sint orta munerantur, et uelle recta <lb/>
+            et perficere ipse (dam) suggerit, tamen ceu pro nostra obnoxius <lb/>
+            deuotione dat praemium. promisi etiam, si clarioris studii me <lb/>
+            per gratiam suam donaret affectu, de manu linguae meae confessio <lb/>
+            ista procederet, de muneribus ipsius ingenioli mei eidem<lb n="5"/>
             adipem litarem, ut numquam stili cura de saecularium rerum <lb/>
-            uentosa executione lassaretur, <sic n="poss">reiiquas</sic> etiam quibus suggillabar <lb/>
-            foeditates abnuerem, si tamen ipse, quod loqui inspirauit, <choice><sic>nelle</sic><corr>uelle</corr></choice> <lb/>
-            me faciat <choice><sic>enpplicani</sic><corr>supplicaui</corr></choice> ut adesset in me <choice><sic>benefioiis</sic><corr>beneficiis</corr></choice> <choice><sic>snis</sic><corr>suis</corr></choice> nec <lb/>
-            auerteret se ab eo, quem <choice><sic>gennini</sic><corr>genuini</corr></choice> praesidii tutela destitutum<lb n="10"/>
+            uentosa executione lassaretur, reliquas etiam quibus suggillabar <lb/>
+            foeditates abnuerem, si tamen ipse, quod loqui inspirauit, uelle <lb/>
+            me faciat supplicaui ut adesset in me beneficiis suis nec <lb/>
+            auerteret se ab eo, quem genuini praesidii tutela destitutum<lb n="10"/>
             fouisset misericorditer et illis, qui parentum laetabantur defensione, <lb/>
-            praetulisset: et ut haec <sic n="poss">tribnerentur</sic> non uicem <choice><sic>inDocentiae</sic><corr>innocentiae</corr></choice> <lb/>
+            praetulisset: et ut haec tribuerentur non uicem innocentiae <lb/>
             meae reddidit, sed quantum gratiae eius deberet felix <lb/>
-            et <choice><sic>eraditus</sic><corr>eruditus</corr></choice> peccator, ostendit. nam si recti <choice><sic>oustodiam</sic><corr>custodiam</corr></choice>, pietatem <lb/>
+            et eruditus peccator, ostendit. nam si recti custodiam, pietatem <lb/>
             secutus, non linqueret et nos terreret ut arbiter et<lb n="15"/>
-            non ut pater foueret, nusquam <choice><sic>nia</sic><corr>uia</corr></choice> salutis, nusquam euadendi <lb/>
+            non ut pater foueret, nusquam uia salutis, nusquam euadendi <lb/>
             aditus pateret. 
 </p>
           <p n="4" rend="script">Deus meus, redemptio mea, quae mihi occurrunt de his <lb/>
             quae fecisti mecum, quae de illis quae gessi aduersum me? <lb/>
             quae si conferantur, nullum tempus ant ope tua ant delicto <lb n="20"/>
             meo sit uacuum. libet ex innumeris in me conlationibus <lb/>
-            tuis unam libare et praetereundo <choice><sic>popnlos</sic><corr>populos</corr></choice> largitionum <choice><sic>tuaram</sic><corr>tuarum</corr></choice> <lb/>
-            singularem summotenus adtingere. tempore quo <choice><sic>Itaiiam</sic><corr>Italiam</corr></choice> <lb/>
-            optatissimus Theoderici regis <choice><sic>reeuscitanit</sic><corr>resuscitauit</corr></choice> ingressus, cum omnia <lb/>
-            ab <choice><sic>inimiois</sic><corr>inimicis</corr></choice> eius inexplicabili clade uastarentur et quod <lb n="25"/>
-            superesset gladiis fames necaret, cum <choice><sic>exoelsa</sic><corr>excelsa</corr></choice> montium
+            tuis unam libare et praetereundo populos largitionum tuarum <lb/>
+            singularem summotenus adtingere. tempore quo Italiam <lb/>
+            optatissimus Theoderici regis resuscitauit ingressus, cum omnia <lb/>
+            ab inimicis eius inexplicabili clade uastarentur et quod <lb n="25"/>
+            superesset gladiis fames necaret, cum excelsa montium
 
 <note rend="script" type="footnote"> 1 tamquam <hi rend="italic">om. B</hi> horta <hi rend="italic">B</hi> 2 dum addidi, otn. libri sugerit<lb/>
              <hi rend="italic">B</hi> 8 denotionis <hi rend="italic">B</hi> premium <hi rend="italic">V,</hi> studium <hi rend="italic">Pb</hi> 4 affectui<lb/>
@@ -332,30 +330,30 @@
              arcis <hi rend="italic">B</hi> </note><lb/>
              
 <pb n="399"/>
-            castrorumque arces penuria perrumperet et in culminibus <choice><sic>locates</sic><corr>locatos</corr></choice> <lb/>
-            armis <choice><sic>saeaior</sic><corr>saeuior</corr></choice> egestas obsideret, ego annorum ferme <choice><sic>sedeoim</sic><corr>sedecim</corr></choice> <lb/>
+            castrorumque arces penuria perrumperet et in culminibus locatos <lb/>
+            armis saeuior egestas obsideret, ego annorum ferme sedecim <lb/>
             amitae, quae me aluerat, ea tempestate solacio priuatus sum: <lb/>
             remansi solus, inops re et consilio destitutus, cui sola remedium <lb/>
-            tribuere possit <choice><sic>adnersitas</sic><corr>aduersitas</corr></choice>. ne inter parentes, quod <sic>eet</sic> <lb n="5"/>
-            <choice><sic>captinitatis</sic><corr>captiuitatis</corr></choice> <choice><sic>sOrte</sic><corr>sorte</corr></choice> amarius, <choice><sic>snbsidia</sic><corr>subsidia</corr></choice> uiuendi liber poscerem et <lb/>
+            tribuere possit aduersitas. ne inter parentes, quod est <lb n="5"/>
+            captiuitetis sorte amarius, subsidia uiuendi liber poscerem et <lb/>
             cognitus peregrinantium mala tolerarem, extemplo porrexisti <lb/>
-            <choice><sic>consaetam</sic><corr>consuetam</corr></choice> dexteram, defensio mea, et domum censu et religione <lb/>
-            praediuitem, ut solacium meum non <choice><sic>reepueret</sic><corr>respueret</corr></choice>, <sic>conpnlisti</sic>. <lb/>
+            consuetam dexteram, defensio mea, et domum censu et religione <lb/>
+            praediuitem, ut solacium meum non respueret, conpulisti. <lb/>
             poposci in matrimonium cuiusdam nobilissimae et tibi <lb n="10"/>
-            bene conpertae paruulam <choice><sic>filioJam</sic><corr>filiolam</corr></choice>, protinus, te ut anteueniret <lb/>
-            procurante, quasi hoc a me sperari debuisset, <choice><sic>exoeptus</sic><corr>exceptus</corr></choice>. contulit <lb/>
-            mihi placentium tibi consortium et ut alimentis <sic>affIaerem</sic> <lb/>
+            bene conpertae paruulam filiolam, protinus, te ut anteueniret <lb/>
+            procurante, quasi hoc a me sperari debuisset, exceptus. contulit <lb/>
+            mihi placentium tibi consortium et ut alimentis affluerem <lb/>
             et ad culturam tuam fugiens infidelitatis obscura commearem: <lb/>
-            pene ante agnitionem desolationis meae <choice n="0.07"><sic n="28">coeperant</sic><corr n="338">coeperunt</corr></choice> <lb n="15"/>
+            pene ante agnitionem desolationis meae coeperunt <lb n="15"/>
             mihi largienda suppetere. tunc primum ex mendico in regem <lb/>
             mutatus, adflictorum orditus sum mala deridere et quasi <lb/>
-            debita mihi <choice><sic>fnisset</sic><corr>fuisset</corr></choice> prosperitas, sic illorum neglegere <choice><sic>anctorem</sic><corr>auctorem</corr></choice>. <lb/>
-            non tamen perduellis animus et durae <choice><sic>cernicis</sic><corr>ceruicis</corr></choice> continuo a te <lb/>
+            debita mihi fuisset prosperitas, sic illorum neglegere auctorem. <lb/>
+            non tamen perduellis animus et durae ceruicis continuo a te <lb/>
             tumor elisus est: produxisti ultionis tempora, ne forte conpungerer <lb n="20"/>
             et hoc tantum, quis esset praestitor, sanatus sentirem. <lb/>
             sed quia homo non corrigitur ex iniusto nec facile ad candidum <lb/>
-            post <choice><sic>macnlas</sic><corr>maculas</corr></choice> redigitur, steti in sententia mea illa qua caderem, <lb/>
-            uici patientiam tuam continuatione <choice><sic>pecoati</sic><corr>peccati</corr></choice>. et quia, cum sis <lb/>
+            post maculas redigitur, steti in sententia mea illa qua caderem, <lb/>
+            uici patientiam tuam continuatione peccati. et quia, cum sis <lb/>
             clementissimus, non semper iustitiam seponis, nudatus praesidio <lb n="25"/>
             tuo uocem illam, quae directa est ad aures primi
 
@@ -389,14 +387,14 @@
             et ut pares eius existamus imperiis, ipse nobisc.um quod<lb n="15"/>
             iniungit operetur.-
 </p>
-          <p n="5" rend="script">Haec et alia plura, <choice><sic>siout</sic><corr>sicut</corr></choice> praefatus sum, per testem <lb/>
+          <p n="5" rend="script">Haec et alia plura, sicut praefatus sum, per testem <lb/>
             probatissimum beatum Victorem intimanda suggessi, nec <lb/>
             requies nec mora procuranda lentauit: petitionem meam <lb/>
-            suscepit <choice><sic>repiicauit</sic><corr>replicauit</corr></choice> obtinuit. hoc amplius suffragator meus<lb n="20"/>
+            suscepit replicauit obtinuit. hoc amplius suffragator meus<lb n="20"/>
             emeruit quam poposci, ut illa, quae mecum matrimonii habuit <lb/>
             parilitate subiugari, religiosae mecum habitudinis decora partiretur <lb/>
             et fieret praeclari dux femina tituli. sed utinam sexu <lb/>
-            fragilem in animi <choice><sic>uirtote</sic><corr>uirtute</corr></choice> sequeremur et in actione nobili non
+            fragilem in animi uirtute sequeremur et in actione nobili non
 
 <note type="footnote"> 1 Genes. 3, 9 </note>
 
@@ -415,16 +413,16 @@
             <hi rend="italic">LPTV,</hi> serum <hi rend="italic">b alterum</hi> in om. <hi rend="italic">LPTVb</hi> </note><lb/>
              
 <pb n="401"/>
-            tantum <choice><sic>exoelleret</sic><corr>excelleret</corr></choice> merito, quantum femineae inbecillitatis sequi <lb/>
+            tantum excelleret merito, quantum femineae inbecillitatis sequi <lb/>
             uidetur optentu! illa pretiosae uigore constantiae mala carnis <lb/>
-            <choice n="0.53"><sic n="663">nota</sic><corr n="586">uota</corr></choice> <choice><sic>perdomnit</sic><corr>perdomuit</corr></choice> et <sic>affeetiosam</sic> <choice><sic>seraanit</sic><corr>seruauit</corr></choice> <choice><sic>pndicitiam</sic><corr>pudicitiam</corr></choice> <sic>nen</sic> coactam. <lb/>
-            illa recti obseruantiam, dum obstinate diligit, ire <sic>eonpulit</sic> <lb/>
+            nota perdomuit et affectiosam seruauit pudicitiam non coactam. <lb/>
+            illa recti obseruantiam, dum obstinate diligit, ire conpulit <lb/>
             in naturam. utinam non mihi in illa districti proponatur <lb n="5"/>
-            hora iudicii et dum in infirmitate sua fortis adparuerit, <choice><sic>egoin</sic><corr>ego</corr></choice> <lb/>
-            naturali <choice><sic>nirtnte</sic><corr>uirtute</corr></choice> sim fragilis ! ecce, domine, <choice><sic>recensai</sic><corr>recensui</corr></choice> ipsa, <lb/>
-            quae <choice><sic>noneras</sic><corr>noueras</corr></choice>, et in ea tantum fui fidelis parte, ut non raperem <lb/>
-            quod <choice><sic>tenebus</sic><corr>tenebas</corr></choice>. adesto, rex gloriae, adesto <choice><sic>snpplicanti</sic><corr>supplicanti</corr></choice> <lb/>
-            et secundum benignitatis tuae consuetudinem <sic n="poss">seontura</sic> dispone. <lb n="10"/>
+            hora iudicii et dum in infirmitate sua fortis adparuerit, ego in <lb/>
+            naturali uirtute sim fragilis ! ecce, domine, recensui ipsa, <lb/>
+            quae noueras, et in ea tantum fui fidelis parte, ut non raperem <lb/>
+            quod tenebas. adesto, rex gloriae, adesto supplicanti <lb/>
+            et secundum benignitatis tuae consuetudinem secutura dispone. <lb n="10"/>
             
 </p>
           <p n="6">GLORIA PATRI ET FILIO ET SPIRITVI SANCTO.</p>

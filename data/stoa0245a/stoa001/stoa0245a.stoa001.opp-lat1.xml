@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,10 +100,10 @@
 <div n="1" subtype="letter" type="textpart"> 
 <ab> <title>I.  DOMINO SUO PECULIARI IN CHRISTO DOMINO PATRONO FAUSTO EPISCOPO RURICIUS. </title> </ab>
           <p rend="script">Olim te, domine mi uenerande ac beatissime sacerdos, fama <lb/>
-            celeberrima praedicante cognoui, olim desiderio pii amoris <choice><sic>infnso</sic><corr>infuso</corr></choice> <lb/>
+            celeberrima praedicante cognoui, olim desiderio pii amoris infuso <lb/>
             illis te, quibus scribere dignaris, oculis cordis intueor, sed <lb/>
             nihilominus etiam corporeis uidere festino, si quo modo possim <lb/>
-            intercedentibus <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> peccatorum meorum uincula disrumpere<lb n="10"/>
+            intercedentibus uobis peccatorum meorum uincula disrumpere<lb n="10"/>
             acceptisque columbae illius pinnis a uenantum laqueis euolare <lb/>
             et uobiscum positus in dominica lege requiescere, ut sitim, <lb/>
             quam opuscula uestra legendo concepi, ipse praesens, unde illa <lb/>
@@ -144,11 +142,11 @@
             meae infirmitatis ignari, delicatos et dulces cibos, sed austeriores <lb/>
             et aegritudini meae congruos suggeratis, quia non expediunt <lb/>
             stulto deliciae, postmodum proditoribus meis censorium <lb n="15"/>
-            praebeatis adsensum, qui more humani ingenii <choice n="0.08"><sic n="5">affecto</sic><corr n="56">affectu</corr></choice> <lb/>
-            nimio praepediti et a ueritate iudicii declinantes <sic>incurruntpro</sic> <lb/>
-            amore mendacium. sane nec uereatur sanctitas uestra, ne <choice><sic>unlneribus</sic><corr>uulneribus</corr></choice> <lb/>
+            praebeatis adsensum, qui more humani ingenii affectu <lb/>
+            nimio praepediti et a ueritate iudicii declinantes incurrunt pro <lb/>
+            amore mendacium. sane nec uereatur sanctitas uestra, ne uulneribus <lb/>
             meis gratior sit fouentis dextera quam secantis, quia ea <lb/>
-            nec a me posse curari et tamen grauiter <sic>conputruisse</sic> domino donante <lb n="20"/>
+            nec a me posse curari et tamen grauiter conputruisse domino donante <lb n="20"/>
             iam sentio. et ideo eligo, ut me iustus misericordiae <lb/>
             increpatione corripiat, quam caput meum oleum peccatoris inpinguet. <lb/>
             supplici itaque prece deposco, ut de illo thesauro <lb/>
@@ -180,7 +178,7 @@
 <ab> <title>II.  DOMINO SUO PECULIARI IN CHRISTO DOMINO PATRONO FAUSTO EPISCOPO RURICIUS. </title> </ab>
           <p>Ita me hactenus inpia neglegentia et neglegens impietas <lb/>
             possederunt, ut, quid, domine mi, in me potissimum accusem, <lb/>
-            nesciam et, quid in me primum excusem, non <choice><sic>inueniani</sic><corr>inueniam</corr></choice>. si <lb/>
+            nesciam et, quid in me primum excusem, non inueniam. si <lb/>
             enim argumentationem aliquam ad excusandas excusationes in <lb/>
             peccatis exhibere temptauero, adiciam peccato sine iudicii recordatione<lb n="10"/>
             peccatum, ut duplici atque maiori delicto ipse me <lb/>
@@ -221,20 +219,20 @@
 <pb n="354"/>
             ictum dexterae declinabo, dummodo portionem promissae hereditatis <lb/>
             adipiscar, neque adtendam, quae mihi poena sit in <lb/>
-            <choice><sic>llagello</sic><corr>flagello</corr></choice>, sed quem habeam *** in testamento. melius enim <lb/>
+            flagello, sed quem habeam *** in testamento. melius enim <lb/>
             mihi est flere super patre, quam ut abdicer contemptus a <lb/>
             patre, quia parentum pietas distringit, ut corrigat, non perseuerat, <lb n="5"/>
             ut puniat, nec tantum eis maeroris infert adrogantia <lb/>
             superbientis, quantum gaudii confert humilitas confitentis. 
 </p>
           <p>Sic ille euangelii indulgentissimus pater filium praeceptae <lb/>
-            substantiae decoctorem <choice><sic>Iaeto</sic><corr>laeto</corr></choice> suscepit amplexu promptior gaudere <lb/>
-            de reditu quam inputare de lapsu. denique non ei <sic>eiprobrantur</sic> <lb n="10"/>
+            substantiae decoctorem laeto suscepit amplexu promptior gaudere <lb/>
+            de reditu quam inputare de lapsu. denique non ei exprobrantur <lb n="10"/>
             facinora, non luxuria, non egestas, sola conuersi <lb/>
             reuersio omnia damna conpensat, quia maior fuit procul dubio <lb/>
             patri facultas reditus quam rerum facultas. ita, quem abscessio <lb/>
             -reum fecerat, regressio fecit insontem et misericordia sufficit <lb/>
-            heredi. quin etiam paternae clementiae uenia sola non <sic>suf</sic>- <lb n="15"/>
+            heredi. quin etiam paternae clementiae uenia sola non suf- <lb n="15"/>
             Scit, quod ulnis fouet, quod gratia permulcet, nisi et munera <lb/>
             larga multiplicet. dat anulum, ne rursus a patre perfidia abducente <lb/>
             discedat. calceamenta dat pedibus, quo facilius ardui <lb/>
@@ -244,8 +242,8 @@
             qui seniori agnus datus fuerat de Aegypto profecturo, quia <lb/>
             ipse educit ex Aegypto pater. 
 </p>
-          <p rend="script">Tanti parentis imitatus fidem trade peccatoribus <choice><sic>adiutoriam</sic><corr>adiutorium</corr></choice>, <lb/>
-            praesta <choice n="0.6"><sic n="3">conantibus</sic><corr n="2">comantibus</corr></choice> remissionem, intercessionem largire confitentique <lb n="25"/>
+          <p rend="script">Tanti parentis imitatus fidem trade peccatoribus adiutorium, <lb/>
+            praesta conantibus remissionem, intercessionem largire confitentique <lb n="25"/>
             filio non solum ipse ueniam tribue, sed ipse ueniam
 
 <note rend="script" type="footnote"> 1 dextere <hi rend="italic">S</hi> porcionem <hi rend="italic">S</hi> promisse S 2 adiplis I carnesq; Sl <lb/>
@@ -281,13 +279,13 @@
             barbara, immania placantur, etiam in me opus suum peragens <lb/>
             os elingue reserauit producens me ex tutissimo silentii recessu. <lb/>
             ad publicum formidandumque iudicium et in uita iam ueteri <lb/>
-            <choice n="0.06"><sic n="64">nona</sic><corr n="938">noua</corr></choice> subire conpellit, scilicet ut, qui hactenus illam sententiam<lb n="15"/>
+            noua subire conpellit, scilicet ut, qui hactenus illam sententiam<lb n="15"/>
             secutus antiquam, qua dicitur saepenumero praestare <lb/>
             tacere quam dicere, inscientiam meam maluerim uerecundiae <lb/>
             taciturnitate tegere, quam inpudenter incondito sermone proferre, <lb/>
             nunc tam consuetudinis meae inmemor quam rusticitatis <lb/>
             oblitus quasi ex Arione in Orpheum repente mutatus<lb n="20"/>
-            <choice><sic>nelim</sic><corr>uelim</corr></choice> disertissimis auribus tuis ore garrulo non tam officiosus <lb/>
+            uelim disertissimis auribus tuis ore garrulo non tam officiosus <lb/>
             quam iniuriosus exsistere, dum et ignota pertempto et insueta. <lb/>
             praesumo. 
 </p>
@@ -319,12 +317,12 @@
             lapillorum nobilium, te rimatorem auri, te repertorem <lb/>
             aquae latentis elegi, qui sciris abstrusas lapidibus gemmas <lb/>
             propriae reddere generositati, quae utique in tanta rerum confusione <lb n="10"/>
-            amitterent nobilitatem, si indicem non haberent. <choice n="0.95"><sic n="684">aurum</sic><corr n="33">auram</corr></choice> <lb/>
+            amitterent nobilitatem, si indicem non haberent. aurum <lb/>
             quoque harenis uilibus mixtum nisi artificis sollertia eluatur <lb/>
             aquis, ignibus eliquetur, nec splendorem poterit retinere nec <lb/>
-            meritum. <choice><sic>saepias</sic><corr>saeptas</corr></choice> etiam aquarum manantium uenas et obductum <lb/>
+            meritum. saeptas etiam aquarum manantium uenas et obductum <lb/>
             terra fluenti alueum nisi diligentius eruderauerit appetitoris <lb n="15"/>
-            industria, laticis unda non <choice n="0.14"><sic n="1">Suet</sic><corr n="6">fluet</corr></choice>. ita et tenerorum <lb/>
+            industria, laticis unda non fluet. ita et tenerorum <lb/>
             adhuc acies sensuum ignorantiae nubilo quasi crassitate scabrosae <lb/>
             rubiginis obsessa, nisi adsidua doctoris lima purgetur, <lb/>
             nequit sponte clarescere. tuum ergo nunc, tuum est in his <lb/>
@@ -369,7 +367,7 @@
             possit esse, si eam subpresseris, te loquente laudabilis, si uero <lb/>
             protuleris, incutiat et mihi de falsa laude et tibi de iudicii<lb n="15"/>
             errore uerecundiam. et idcirco, quia inperitiam meam tui pudoris <lb/>
-            opus esse uoluisti, <choice n="0.19"><sic n="47">cane</sic><corr n="199">caue</corr></choice>, ne praeconio tuo nobis non <lb/>
+            opus esse uoluisti, caue, ne praeconio tuo nobis non <lb/>
             respondentibus tua periclitetur electio. itaque si quid mihi <lb/>
             credis, si quid utrique consulis, indignum memoria, obliuione <lb/>
             dignissimum uolumen absconde, si uis et me ad arbitrium <lb n="20"/>
@@ -396,7 +394,7 @@
             25 transfendumque <hi rend="italic">S</hi> 26 flusculos S destinaris <hi rend="italic">S</hi> </note> <lb/>
              
 <pb n="358"/>
-            promitterent idemque iterum fructus utrum possent te <sic>excoquente</sic> <lb/>
+            promitterent idemque iterum fructus utrum possent te excoquente <lb/>
             mitescere et dulci eloquentiae cibo audientium corda <lb/>
             satiare. quod quia, nescio quam ob causam, facere distulisti, <lb/>
             oportunum uos admonendi tempus inueni, quo in harmonia <lb/>
@@ -442,7 +440,7 @@
 
 <div n="6" subtype="letter" type="textpart">
 <ab> <title>VI.  DOMINO SANCTO ET PIISSIMO PATRI NEPOTIANO PRESBVTERO RURICIUS. </title> </ab>
-          <p>Codices, quos sanctitas uestra <choice><sic>transmisitt</sic><corr>transmisit</corr></choice>, accepi eloquentia <lb/>
+          <p>Codices, quos sanctitas uestra transmisit, accepi eloquentia <lb/>
             claros, scientia perfectos, doctrina probos, fidei puritate perspicuos,<lb n="5"/>
             qui sacrorum testimoniorum ubertate locupletes, auctoritate <lb/>
             praestantes, luce fulgentes facile et fidelium mentes <lb/>
@@ -457,11 +455,11 @@
             
 </p>
           <p>Quae cum ita se in me habeant, uos tamen et pii parentis <lb/>
-            probastis affectum <choice><sic>tet</sic><corr>et</corr></choice> solliciti magistri ministerium et seduli <lb/>
+            probastis affectum et solliciti magistri ministerium et seduli <lb/>
             medici implestis officium, ut tali taedio laboranti medicamenta <lb/>
             congrua mitteretis. quibus etsi propter neglegentiam meam <lb/>
             ego non ualeo consequi sospitatem, uos tamen percipietis a<lb n="20"/>
-            iusto <sic>repensatore</sic> mercedem, qui etiam pro ingratis grates beniuolas <lb/>
+            iusto repensatore mercedem, qui etiam pro ingratis grates beniuolas <lb/>
             referre consueuit. horum ergo praefatorum codicum <lb/>
             unum, sicut iussistis, retinui, alium remisi, quem sancti Hilarii <lb/>
             Pictauae urbis antestitis esse noueritis. quod quia praeceperatis, <lb/>
@@ -489,7 +487,7 @@
             et neglecta corrigitis, dilectionem diligendo prouocatis et, quod <lb/>
             praedicatis uerbis, docetis exemplis. sed quoniam semen uestrum <lb/>
             in terra sterili et dumosa non proficit, utpote quod sentibus <lb/>
-            supercrescentibus suffocatur, -ne sicut infructuosam illam <sic>ficalneam</sic> <lb/>
+            supercrescentibus suffocatur, -ne sicut infructuosam illam ficulneam <lb/>
             me iubeat dominus uineae, quem tanto tempore nequiquam <lb n="10"/>
             expectat, abscidi, uos seueriorem sententiam orando differte, <lb/>
             donec doctrinae uestrae pinguedine tamquam stercore <lb/>
@@ -658,7 +656,7 @@
 <ab> <title>XI.  DOMINO SUBLIMI SEMPERQVE MAGNIFICO FRATRI FREDAE RURICIUS. </title> </ab>
           <p>Quoniam amoenitati nemoris uestri etiam deserti nostri ineptias <lb/>
             uoluistis adiungi, transmisi, sicut iniunxistis, abietum <lb/>
-            plantas non specie, sed proceritate placituras, non <choice><sic>frnetibus</sic><corr>fructibus</corr></choice>, <lb n="5"/>
+            plantas non specie, sed proceritate placituras, non fructibus, <lb n="5"/>
             sed sui peregrinatione mirabiles, non usu aptas, sed amoenitate <lb/>
             iocundas, quippe quae, cum coaluerint, crassitudine umbrarum <lb/>
             Ceuennarum frigus oceani sint aestatibus praebiturae, et hoc <lb/>
@@ -676,11 +674,11 @@
             etiam temporis intemperies temperatur? siquidem inibi torridae <lb/>
             feruor aestatis tam umbrarum quam undarum rigore depellitur, <lb n="20"/>
             hiemis uero in tantum non sentitur asperitas, ut <lb/>
-            intra eadem positis tepor aeris et cantus auium <choice n="0.01"><sic n="3">neris</sic><corr n="216">ueris</corr></choice> reddat <lb/>
+            intra eadem positis tepor aeris et cantus auium ueris reddat <lb/>
             effigiem. sed quid ego inmemor inperitiae meae paupero sermone, <lb/>
             mi domine, ruris uestri diuitias, delicias describere aut <lb/>
             enarrare contendo, ad cuius laudem etiam ingenia maiora succumberent? <lb n="25"/>
-            date itaque inpudentiae meae ueniam, quam <choice><sic>eltorsistis</sic><corr>extorsistis</corr></choice>, <lb/>
+            date itaque inpudentiae meae ueniam, quam extorsistis, <lb/>
             qui ut auribus uestris uerbosus existerem, dignatio <lb/>
             uestra me conpellit, confidens, quod epistula longior uobis, <lb/>
             domnis meis, si displiceret affatu, placeret affectu, cum
@@ -698,7 +696,7 @@
             intellegeretis eam non pro eloquentiae lepore, sed pro uestro amore <lb/>
             copiosam, simulque, quia sciebam sublimitatem uestram in <lb/>
             amicis uestris plus reprehendere taciturnitatis uerecundiam, <lb/>
-            quam loquacem familiaritatis <choice><sic>andaciam</sic><corr>audaciam</corr></choice>. 
+            quam loquacem familiaritatis audaciam. 
 </p>
 
 </div>
@@ -707,26 +705,26 @@
 <ab> <title>XII.  DOMNO PECTORIS SUI CELSO RURICIUS. </title> </ab>
           <p>Trepido in praeconium uestrum os elingue reserare, cui scio <lb/>
             iure etiam ingenia maiora succumbere. quid enim primum de. <lb/>
-            affectionis aut dignationis <choice><sic>nestrae</sic><corr>uestrae</corr></choice> laude commemorem, qui <lb/>
+            affectionis aut dignationis uestrae laude commemorem, qui <lb/>
             omnes mihi ruris, moris et, quod his omnibus maius est, caritatis<lb n="10"/>
             delicias contulistis, aut certe, si quid horum defuit, deputandum <lb/>
             tempori, non nobis est inputandum. nam totum <lb/>
-            apud <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice>, quod carum pectus, quod habuit clarum mundus, <lb/>
+            apud uos, quod carum pectus, quod habuit clarum mundus, <lb/>
             inueni, nulla me penitus iocunditate fraudastis. quin etiam <lb/>
-            desiderabile mihi hospitioli mei.desertum uestra <choice><sic>nicinitate</sic><corr>uicinitate</corr></choice> fecistis.<lb n="15"/>
-            et idcirco me magis finitimum uobis esse <choice><sic>congandeo</sic><corr>congaudeo</corr></choice>, <lb/>
+            desiderabile mihi hospitioli mei.desertum uestra uicinitate fecistis.<lb n="15"/>
+            et idcirco me magis finitimum uobis esse congaudeo, <lb/>
             quia non ex toto malus est, qui bonis iungitur. 
 </p>
-          <p rend="script">Sed ne exhibeat nobis [<choice><sic>essp</sic><corr>esse</corr></choice>] ineptia sui longior sermo fastidium, <lb/>
-            salue largissimum dico et <choice><sic>nitrarium</sic><corr>uitrarium</corr></choice>, sicut iussistis, <lb/>
+          <p rend="script">Sed ne exhibeat nobis [esse] ineptia sui longior sermo fastidium, <lb/>
+            salue largissimum dico et uitrarium, sicut iussistis, <lb/>
             me destinasse significo, cuius opus nitore, non fragilitate oportet<lb n="20"/>
             imitetur, ut dilectio, quae nobis a parentibus relicta, a magistro <lb/>
-            tradita, uitae communione firmata est, secundis elimetur, <choice><sic>adnersis</sic><corr>aduersis</corr></choice> <lb/>
+            tradita, uitae communione firmata est, secundis elimetur, aduersis <lb/>
             nulla penitus turbinum procella frangatur. nam sicut <lb/>
             auri atque argenti pretiosa sinceritas, si aeris aut plumbi uel <lb/>
             cuiuslibet alterius materiae uilioris fuerat admixtione corrupta, <lb n="25"/>
-            nisi ignium examinatione <choice><sic>pnrgetur</sic><corr>purgetur</corr></choice>, nec splendorem naturalem <lb/>
-            poterit habere nec sonum, nam nec <choice n="0.12"><sic n="1">nisui</sic><corr n="7">uisui</corr></choice> claritatem nec tinnitum <lb/>
+            nisi ignium examinatione purgetur, nec splendorem naturalem <lb/>
+            poterit habere nec sonum, nam nec uisui claritatem nec tinnitum <lb/>
             reddit auditui magisque raucum resonat, si feriatur, et <lb/>
             stridulum *********
 
@@ -843,7 +841,7 @@
             scribendi fiduciam contulerunt, quia praesumo, quod, quem <lb/>
             liberalitate feceritis dignum, ab animis uestris non habeatis <lb/>
             alienum. et ideo, sicut datis intellegi, quoniam tanti habere <lb n="15"/>
-            dignamini, <choice><sic>sospitationem</sic><corr>sospitatiouem</corr></choice> beatitudini uestrae per litteras uberem <lb/>
+            dignamini, sospitationem beatitudini uestrae per litteras uberem <lb/>
             dico simulque peculiari prece deposco eo mecum agere tanti <lb/>
             habeatis affectu, ut domnum Leontium praemisisse et commutasse <lb/>
             potius quam perdidisse cognoscam. 
@@ -855,7 +853,7 @@
 <ab> <title>XVI.  DOMINI UENERABILI, ADMIRABILI ET SANCTIS OMNIBUS AEQVIPERANDO FRATRI SIDONIO UIDENTI RURICIUS. </title> </ab>
           <p>Olim te, frater carissime, fama celeberrima praedicante cognoui <lb/>
             et in sede caritatis illis, quibus ipse melius terrena dispicis <lb/>
-            et caelestia diuinaque consideras, oculis mentis <choice><sic>aspeIi</sic><corr>aspexi</corr></choice>, <lb n="25"/>
+            et caelestia diuinaque consideras, oculis mentis aspexi, <lb n="25"/>
             unde ipsius nomen adscripsi, cuius munere donatum esse te <lb/>
             uidi. et ideo, dum te in speculo cordis diligenter et pulchritudinem <lb/>
             interioris hominis tui uehementer admiror, ad
@@ -870,7 +868,7 @@
             intueor <hi rend="italic">imerit</hi> </note> <lb/>
              
 <pb n="369"/>
-            <sic>desiderandum</sic> animi mei <choice><sic>niscera</sic><corr>uiscera</corr></choice> concitasti, quae in tantum affectum <lb/>
+            desiderandum animi mei uiscera concitasti, quae in tantum affectum <lb/>
             tuum meracissima dilectione commota sunt, ut, quem spiritalibus <lb/>
             oculis contemplor, etiam carnalibus cernere concupiscam. <lb/>
             quam ob rem salue in Christo domino plurimum dicens specialius <lb/>
@@ -895,12 +893,12 @@
             queat. incurrimus namque semitam obstructam ramis, spatio <lb/>
             constrictam, spinis hirtam, stirpibus clausam, obsitam sentibus, <lb n="20"/>
             situ asperam, saxorum aggeribus inpeditam, radicum conexione <lb/>
-            constratam, caeno <choice><sic>noraginosam</sic><corr>uoraginosam</corr></choice>, ut in tam uariis tamque multiplicibus <lb/>
+            constratam, caeno uoraginosam, ut in tam uariis tamque multiplicibus <lb/>
             malis non esset simplex forma periculi, dum caballorum <lb/>
             pedes radicum uirtus detinet et soli putredo non sustinet, <lb/>
             montibus uero ita in sublime porrectam et uallibus in profunda <lb n="25"/>
             demersam, ut nos per undosum mare excitantibus eum uentorum <lb/>
-            saeuientium <choice><sic>fiabris</sic><corr>flabris</corr></choice> erepto ab oculis nostris nebulis ac <lb/>
+            saeuientium flabris erepto ab oculis nostris nebulis ac <lb/>
             nubibus die iter agere crederemus, quia, etiamsi mundo radius <lb/>
             solis inluxit, ad nos prae densitate nemoris splendor ipsius et <lb/>
             calor peruenire non ualuit, dum nos ita per iter infelicium filicum
@@ -929,7 +927,7 @@
             egisse cognoscite, per quam nec ad paradisum, non dicam ad <lb/>
             exilium quisquam ire desideret. quapropter quia haec omnia <lb n="10"/>
             dominus noster et me incurrere et uos iussit euadere, peccata <lb/>
-            mea a uestris meritis etiam <sic>uisibili</sic> itinere discernens, ut uos, <lb/>
+            mea a uestris meritis etiam uisibili itinere discernens, ut uos, <lb/>
             qui arta et laboriosa spiritaliter pergitis uia, istius non incederetis <lb/>
             angustias, et nos, qui lata et spatiosa retrorsum <lb/>
             semper respicientes incedimus, huius incurreremus iniurias, <lb n="15"/>
@@ -973,7 +971,7 @@
             uidearis, intrans in cubiculum cordis tui clauso ostio tuo dominum <lb/>
             orare non desinas, ut, qui uidet in occulto, dicat tibi,<lb n="10"/>
             sicut sancto Moysi uociferanti ad se non uoce, sed corde dicebat: <lb/>
-            quid <choice><sic>camas</sic><corr>clamas</corr></choice> ad me? et spero, ut in talibus orationibus <lb/>
+            quid clamas ad me? et spero, ut in talibus orationibus <lb/>
             etiam mei meminisse digneris et citius te ad nos, etiamsi <lb/>
             noster non reducit affectus, desiderium dulcissimae et saluberrimae <lb/>
             quietis adducat.
@@ -1004,7 +1002,7 @@
             quod ualde uerum esse ego praedico proboque. nam <lb/>
             postquam a uestra germanitate discessi, diuisum esse me sentio <lb/>
             partemque meam uobiscum resedisse cognosco nec absentibus <lb/>
-            <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> integer esse mihi uideor. et cum me in me non inueniam, <lb n="10"/>
+            uobis integer esse mihi uideor. et cum me in me non inueniam, <lb n="10"/>
             apud uos me ad uos reuersus inquiro atque ibidem, <lb/>
             quantum mei uobis reliquisse, tantum uestri mecum abstulisse <lb/>
             conspicio. et ita, priusquam fiat annuente domino pignorum <lb/>
@@ -1014,7 +1012,7 @@
             transfusio, cuius ego uinculis conligatum a uobis esse me <lb/>
             gaudeo et talibus catenis uinctus exulto obstringique me earum <lb/>
             nexibus magis cupio, quam resolui, quibus et uos constrictos <lb/>
-            esse confido. redeuntibus itaque <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> salue largissimum dico <lb n="20"/>
+            esse confido. redeuntibus itaque uobis salue largissimum dico <lb n="20"/>
             et ex omnibus gratias agens derelinquo, quae ad praeconium <lb/>
             uestrum pertinent. idcirco me siluisse significo, quia in
 
@@ -1039,7 +1037,7 @@
 <div n="2" subtype="letter" type="textpart">
 <ab> <title>II.  DOMINIS SUBLIMIBUS ET IN CHRISTO DOMINO DEUINCTISSIMIS FRATRIBUS NAMATIO ET CERAUNIAE RURICIUS. </title> </ab>
           <p rend="script">Inter reliquas grates, quae a me nobis iure referendae sunt, <lb/>
-            praesentia ac uisitatione patroni communis domni <choice><sic>Postumini</sic><corr>Postumi</corr></choice> ingentes <lb/>
+            praesentia ac uisitatione patroni communis domni Postumini ingentes <lb/>
             gratias ago, quod hospitiolum nostrum fecistis ipsius<lb n="10"/>
             orationibus inlustrari, quia, dum nobis exhibet fidem, nobis <lb/>
             tribuit benedictionem. et licet fuerit uigilantissimus inspector, <lb/>
@@ -1164,7 +1162,7 @@
 <pb n="376"/>
             et fratres amisi, quorum me solabar affectu, quorum me coniunctione <lb/>
             iactabam. disrumptum est, fratres carissimi, uinculum <lb/>
-            germanitatis nostrae, ablatum <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> est pignus mutuae <lb/>
+            germanitatis nostrae, ablatum uobis est pignus mutuae <lb/>
             caritatis. hei mihi, fratres optimi, dum depositum uestrum, <lb/>
             cuius me traditione ceperatis, amitto, una uos perdidi et ideo <lb n="5"/>
             in unius necessitudinis gradu complurium mihi necessitudinum <lb/>
@@ -1191,7 +1189,7 @@
             hunc aspicere (nec) illius meminisse sine lacrimis queam et <lb/>
             propheticum illud saepius dicam: quis dabit capiti meo <lb/>
             aquam et oculis meis fontem lacrimarum? sed ille populi <lb/>
-            sui peccata deflebat, ego uero propria, quae et me et <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> <lb/>
+            sui peccata deflebat, ego uero propria, quae et me et uos <lb/>
             pondere suo et numerositate presserunt, ego ut illius mortem <lb n="30"/>
             et meam uitam, illam defunctam et me superstitem plangam.
 
@@ -1206,7 +1204,7 @@
             
 </p>
           <p>Longe aliud tibi, uenerabilis soror, quasi de nostris meritis <lb/>
-            <sic>praesumebus</sic>, cum tantum tibi nimia caritate decepta de nostris <lb/>
+            praesumebas, cum tantum tibi nimia caritate decepta de nostris <lb/>
             orationibus me refellente promitteres, ut et domum tuam <lb/>
             nostra intercessione saluandam et filiam per me, ut ita dicam, <lb/>
             fore crederes inmortalem. sed cito apparuerunt merita mea,<lb n="5"/>
@@ -1223,7 +1221,7 @@
             fragilitatis, quam et prophetae et apostoli et sancti iustique <lb/>
             omnes uel, quod maius est, omnium dominus noster suscipere <lb/>
             dignatus est. deplorare, sed magis deo gratias agere et gaudere <lb/>
-            nos conuenit, quod filiam, qualem <choice n="0.25"><sic n="6">noluimus</sic><corr n="18">uoluimus</corr></choice>, quamdiu is, <lb/>
+            nos conuenit, quod filiam, qualem uoluimus, quamdiu is, <lb/>
             qui dederat, permisit, habuimus et, qualem uoluimus, non perdidimus,<lb n="20"/>
             sed ad Christum ipso iubente praemisimus. habere <lb/>
             enim filios generalis est beneficii, bonos uero habere specialis <lb/>
@@ -1271,8 +1269,8 @@
             secura de nostra est salute sollicita. quae si nobiscum posset <lb n="20"/>
             miscere conloquia, hoc diceret: nolite, pii parentes, nolite me <lb/>
             flere nec ingrati tam benigno domino planctibus nimiae dilectionis <lb/>
-            existere. esto, habuerit tempore meae arcessitionis <choice><sic>hoe</sic><corr>hoc</corr></choice> <lb/>
-            pietas, iam debet dolorem uestrum fides cum tempore <sic>teroperare</sic>, <lb/>
+            existere. esto, habuerit tempore meae arcessitionis hoc <lb/>
+            pietas, iam debet dolorem uestrum fides cum tempore temperae, <lb/>
             quia, etsi nobis mortua sum, deo uiuo. aut numquid <lb n="25"/>
             uos magis potestis amare quam dominus, qui me fecit, quomodo <lb/>
             uoluit, redemit, quia uoluit, et, quando uoluit, pro sua <lb/>
@@ -1291,7 +1289,7 @@
              
 <pb n="379"/>
             nobis est tradere dignatus ad mortem? et cum filius dei secundum <lb/>
-            carnem mori <choice n="0.2"><sic n="43">noluerit</sic><corr n="172">uoluerit</corr></choice>, homo tam acerbe debet conditionem <lb/>
+            carnem mori uouerit, homo tam acerbe debet conditionem <lb/>
             humanae sortis excipere? quam ob rem, piissimi parentes, <lb/>
             uestra potius peccata deflete et de satisfactione uestrorum criminum <lb/>
             cogitate, ut, si me in Christo diligitis, quia me uere<lb n="5"/>
@@ -1344,7 +1342,7 @@
             praesentiae portionem sermo mediator, qui emittitur et non <lb/>
             amittitur, tribuitur et habetur, uidetur discedere nec recedit, <lb/>
             a me dirigitur, a te suscipitur, a me scribitur, a te legitur nec <lb/>
-            tamen diuiditur, cum quasi diuisus integer utriusque <choice n="0.29"><sic n="283">corda</sic><corr n="684">corde</corr></choice> teneatur, <lb/>
+            tamen diuiditur, cum quasi diuisus integer utriusque corde teneatur, <lb/>
             quia uerbi more diuini traditur et non egreditur, confertur <lb n="10"/>
             indigenti et non aufertur auctori accipientis lucrum sine <lb/>
             dispendio largientis, ditans inopem nec attenuans possessorem. 
@@ -1376,7 +1374,7 @@
             dum <hi rend="italic">S</hi> 20 inueniatur <hi rend="italic">S</hi> 21 mallunt <hi rend="italic">S</hi> 22 praesentias apetitores <hi rend="italic">S</hi> </note> <lb/>
              
 <pb n="381"/>
-            unanimiter debemus esse rectores, quia <choice n="0.33"><sic n="2">cautae</sic><corr n="4">caulae</corr></choice> gregis dominici possunt <lb/>
+            unanimiter debemus esse rectores, quia caulae gregis dominici possunt <lb/>
             esse numerositate multae, non fidei uarietate diuersae, ut, <lb/>
             sicut ipse dominus praenuntiare dignatus est, non nobis per <lb/>
             inuidiam dissidentibus et per dissensionem gregem dominicum <lb/>
@@ -1402,7 +1400,7 @@
             in laboribus constituti commendari se germanitati uestrae omni <lb/>
             precum ambitione deposcant, quia fatigationem suam apud uos <lb/>
             effectum habere non dubitant. unde etiam portitor harum, <lb/>
-            nomine <sic>ffifila</sic>, quem mihi Pharetrius presbyter suis litteris <lb/>
+            nomine Ulfila, quem mihi Pharetrius presbyter suis litteris <lb/>
             commendauit, ad uos commendaticias postulauit, quas ei et<lb n="25"/>
             pro iussione diuina et pro iussione mutua libenter indulsi.
 
@@ -1479,7 +1477,7 @@
             ad sincerissimam pietatem uestram scripta dirigere, sed prohibiti <lb/>
             sumus usque nunc prohibente nimirum illo, qui bonae uoluntati <lb/>
             consueuit semper obsistere inuidens scilicet profectui nostro et <lb/>
-            affectui uestro, affectui nostro et <sic>pfofectui</sic> uestro. profectui <lb/>
+            affectui uestro, affectui nostro et profectui uestro. profectui <lb/>
             nostro et affectui uestro, quia doctrina uestra eruditio nostra est <lb n="15"/>
             et epistola nostra conlatio desiderii uestri est, et rursus profectui <lb/>
             uestro et affectui nostro, quia eruditio nostra merces uestra <lb/>
@@ -1510,14 +1508,14 @@
             depinxit, ut nullius aetatis possit obliuione deleri, quia iugi <lb/>
             recordatione momentis singulis innouatur. 
 </p>
-          <p><sic>IIIic</sic> enim uobiscum ex consuetudine pietatis uestrae secretius <lb/>
+          <p>Illic enim uobiscum ex consuetudine pietatis uestrae secretius <lb/>
             conloquor, illic etiam de uitae melioris institutione pertracto, <lb n="5"/>
             illic uos labiis mentis exosculor et manibus cordis <lb/>
-            amplector. quo fit, ut <choice n="0.21"><sic n="318">aera</sic><corr n="1130">uera</corr></choice> dilectio, quae in uisceribus meis <lb/>
+            amplector. quo fit, ut uera dilectio, quae in uisceribus meis <lb/>
             uiua uultus uestri figuratione nutritur et igniculo caritatis accenditur, <lb/>
             amoris uestri mihi uicissitudinem repromittat et <lb/>
             animus meus mihi animi uestri fideiussor adsistat, dum, quantum <lb n="10"/>
-            mihi de <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> praesumere debeam, conscium mutuae dilectionis <lb/>
+            mihi de uobis praesumere debeam, conscium mutuae dilectionis <lb/>
             pectus interrogo. unde scribendi mihi aditu orationibus <lb/>
             uestris tandem aliquando reserato his salutationem defero <lb/>
             et intercessionem peccatorum requiro illud speciali prece deposcens, <lb/>
@@ -1549,7 +1547,7 @@
             27 iuditii S ne tf1 in <hi rend="italic">om</hi>. r iuditii S </note> <lb/>
              
 <pb n="385"/>
-            ut, quos hic <choice><sic>neritate</sic><corr>ueritate</corr></choice> coniunxit, illic habitatione non separet. <lb/>
+            ut, quos hic ueritate coniunxit, illic habitatione non separet. <lb/>
             promissionem uestram recolens peculiarius rogo, ut fratrem <lb/>
             Pomerium sanctitas uestra non solum non retineat, uerum <lb/>
             etiam ad nos uenire conpellat partemque suam nobis indiuiduam <lb/>
@@ -1659,9 +1657,9 @@
             qui dormis, et exsurge a mortuis et continges Christum <lb/>
             siue inluminabit te Christus. nam et dominus in euangelio, <lb/>
             cum ei a circumstantibus diceretur: ecce mater tua <lb/>
-            et fratres tui quaerunt te <choice n="0.11"><sic n="8">nolentes</sic><corr n="63">uolentes</corr></choice> uidere te, ita respondit:<lb n="20"/>
+            et fratres tui quaerunt te olentes uidere te, ita respondit:<lb n="20"/>
             quae est mater mea aut qui sunt fratres mei? <lb/>
-            et ostendens apostolos sequentes se: <choice><sic>nonneii</sic><corr>nonne</corr></choice>, qui faciunt <lb/>
+            et ostendens apostolos sequentes se: nonne, qui faciunt <lb/>
             uoluntatem patris mei? mater enim Christi dici possumus, <lb/>
             quando Christum corde gestamus. nam et sancta Maria, quae <lb/>
             et uirgo concepit, uirgo peperit, uirgo permansit, dominum <lb n="25"/>
@@ -1683,10 +1681,10 @@
 <note type="footnote"> 26. </note> <lb/>
              
 <pb n="388"/>
-            <sic>herfedes</sic> dei patris efficimur, rectissime et fratres Christi dici ipso <lb/>
+            heredes dei patris efficimur, rectissime et fratres Christi dici ipso <lb/>
             adoptante poterimus, qui nos plasmauit ut suos, redemit ut <lb/>
             alienos, elegit ut seruos, adsciuit ut filios? plasmat enim nos <lb/>
-            potestate, redimit passione, (eligit in) praescientia, <sic>adsciscitin</sic> <lb/>
+            potestate, redimit passione, (eligit in) praescientia, adsciscit <lb/>
             gratia. nos tamen filii per adoptionem, ille solus filius per <lb n="5"/>
             naturam, qui, ut nos ad eandem, a qua excideramus, beatitudinem <lb/>
             reuocaret, cum penitus non desierit esse, quod erat, <lb/>
@@ -1725,7 +1723,7 @@
             27 eundem v omnis <hi rend="italic">S</hi> 30 simulq; <hi rend="italic">S,</hi> simul <hi rend="italic">v</hi> scripsit <hi rend="italic">S</hi> </note> <lb n="30"/>
              
 <pb n="389"/>
-            propitio a saeculi actibus ad aeternam <choice><sic>beatitadinem</sic><corr>beatitudinem</corr></choice> te animam <lb/>
+            propitio a saeculi actibus ad aeternam beatitudinem te animam <lb/>
             conuertisse cognoui et imitatorem illius euangelici negotiatoris <lb/>
             effectum, qui uenditis omnibus suis conparauit pretiosissimum <lb/>
             margaritum, uel illius, qui reperto in agro thesauro distractis, <lb/>
@@ -1785,12 +1783,12 @@
             unde manifestissime potestis aduertere absolutionem miserorum <lb/>
             uestrorum esse indulgentiam peccatorum et hoc uestris conferendum <lb/>
             precibus, quod uos praestiteritis alienis iuxta ipsius <lb/>
-            in euangelio sententiam: quo iudicio iudicaueritis, <sic>indicabitur</sic> <lb n="15"/>
+            in euangelio sententiam: quo iudicio iudicaueritis, indicabitur <lb n="15"/>
             de uobis. ideoque pro Urso et Lupicino, qui ad <lb/>
             me quasi nobis peculiarius, sicut superius dixi, caritatis iure <lb/>
             deuinctum pro criminum suorum intercessione uenerunt, precator <lb/>
             accedo, ut primum deo, deinde nobis hoc, quod commiserunt, <lb/>
-            donare digneris et <choice><sic>infieri</sic><corr>iufieri</corr></choice> nec nos de eorum damnatione confundas, <lb n="20"/>
+            donare digneris et infieri nec nos de eorum damnatione confundas, <lb n="20"/>
             qui se absolutos esse, quando ad humilitatem meam <lb/>
             deducti sunt, crediderunt. 
 </p>
@@ -1799,7 +1797,7 @@
 
 <div n="13" subtype="letter" type="textpart">
 <ab> <title>XIII.  ITEM ALIA. </title> </ab>
-          <p rend="script">In salo saeculi istius aduersis ac diuersis tempestatibus <choice><sic>fluetuantem</sic><corr>fluctuantem</corr></choice> <lb n="25"/>
+          <p rend="script">In salo saeculi istius aduersis ac diuersis tempestatibus flctuantem <lb n="25"/>
             te ratem ad portum salutis tandem aliquando domino <lb/>
             gubernante applicuisse congaudeo, in cuius fida ac tranquilla <lb/>
             statione conpositus aestus ipsius perfidi et iniqui et amari
@@ -1833,14 +1831,14 @@
 </p>
           <p rend="script">Quicquid in hoc saeculo mulcet auditu, mollescit adtactu, <lb/>
             lenocinatur aspectu, blanditur, ut capiat, famulatur, ut teneat, <lb/>
-            <choice n="0.2"><sic n="1">iniicit</sic><corr n="4">inlicit</corr></choice>, ut occidat. nam quamcumque capere uolueris uoluptatem, <lb/>
+            inlicit, ut occidat. nam quamcumque capere uolueris uoluptatem, <lb/>
             permanet, quod puniat, praeterit, quod delectat, dulcedo fugitiua <lb n="20"/>
             pertransit, conscientia damnatura uel damnanda subsistit. <lb/>
-            inde etiam dicit Salomon: lingua meretricis <choice n="0.13"><sic n="291">mel</sic><corr n="1831">mei</corr></choice> stillat, <lb/>
+            inde etiam dicit Salomon: lingua meretricis mel stillat, <lb/>
             in nouissimis autem diebus amariorem felle inuenies <lb/>
             eam, quod tamen nihilominus et ipse, cum praedixisset, incurrit. <lb/>
             et ideo uide, quod malum sit, frater carissime, quod, <lb n="25"/>
-            dum detestatur, admittitur, dum refugitur, uix <choice n="0.25"><sic n="7">uitatur</sic><corr n="20">nitatur</corr></choice>. unde <lb/>
+            dum detestatur, admittitur, dum refugitur, uix uitatur. unde <lb/>
             et tu, sicut dicit scriptura, omni custodia serua cor tuum <lb/>
             et discute conscientiam tuam, ne, unde exisse uideris aspectu,
 
@@ -1866,10 +1864,10 @@
             inmunditiae et iniquitati, ita nunc exhibete membra <lb/>
             uestra seruire iustitiae in sanctificationem. cum enim <lb/>
             serui essetis peccati, liberi eratis iustitiae. quem ergo <lb n="10"/>
-            <choice n="0.14"><sic n="59">fractum</sic><corr n="353">fructum</corr></choice> habuistis tunc, in quibus nunc erubescitis? <lb/>
+            fructum habuistis tunc, in quibus nunc erubescitis? <lb/>
             nam finis illorum mors est. nunc uero liberati a peccato, <lb/>
             serui autem facti deo habetis fructum uestrum <lb/>
-            in s <sic>anctificationem</sic>, finem uero uitam aeternam. 
+            in s sanctificationem, finem uero uitam aeternam. 
 </p>
           <p>Paenitentia ita, frater carissime, non nomine est suscipienda, <lb n="15"/>
             sed opere, non ore tantummodo agenda, sed corde. uerum est, <lb/>
@@ -1877,10 +1875,10 @@
             ita et utroque paenitere debemus, ut, sicut dicit <lb/>
             idem apostolus: corde creditur ad iustitiam, ore autem <lb/>
             confessio fit in salutem, ita gemitus cor nostrum conscientia <lb n="20"/>
-            <sic>conpungente</sic> concipiat, ut eos os nostrum per confessionem <lb/>
+            conpungente concipiat, ut eos os nostrum per confessionem <lb/>
             confusionis effundat. quinquagesimus uero psalmus, <lb/>
             qui paenitudini datur pariter et remissioni, die noctuque cum <lb/>
-            rugitu fletuque cantetur, ut uere et salubriter dici possit: <choice><sic>rngiebam</sic><corr>rugiebam</corr></choice> <lb/>
+            rugitu fletuque cantetur, ut uere et salubriter dici possit: rugiebam <lb/>
             a gemitu cordis mei, et: iniquitates meas ego <lb n="25"/>
             agnosco et delictum meum contra me est semper, uel <lb/>
             illud etiam: quoniam iniquitatem meam ego pronuntio <lb/>
@@ -1924,8 +1922,8 @@
             nostrae nouerint et conscientiarum cognitor sine adsertore cognoscit, <lb n="20"/>
             quem ego testem adhibeo professioni meae nec de <lb/>
             initio simultatis me esse culpabilem nec in corde meo de <lb/>
-            (uobis), quicquid <choice n="0.97"><sic n="340">actum</sic><corr n="9">actura</corr></choice> est dictumue, resedisse, quia scio nobis <lb/>
-            ab aeterno et uero <choice n="0.83"><sic n="178">iudice</sic><corr n="35">indice</corr></choice> dictum, quod, nisi ex corde dimiserimus <lb/>
+            (uobis), quicquid actum est dictumue, resedisse, quia scio nobis <lb/>
+            ab aeterno et uero iudice dictum, quod, nisi ex corde dimiserimus <lb/>
             fratribus, nobis dimitti non debeat. habetis itaque sponsionem <lb n="25"/>
             meam, reddite mihi fidem uestram, quia in epistula <lb/>
             mea procul dubio uinculum, quod elegeritis, habebitis, aut
@@ -1944,7 +1942,7 @@
             caritatis, quod salubriter constringat et custodiat, aut perfidiae, <lb/>
             quod culpabiliter innectat et perdat. nec mihi aliquid de iudicio <lb/>
             prioris temporis inputetis, quia definitionis meae est in <lb/>
-            amicitiis seruare concordiam et in iudiciis tenere <choice n="0.31"><sic n="31">censuram</sic><corr n="66">censura</corr></choice>. <lb/>
+            amicitiis seruare concordiam et in iudiciis tenere censuram. <lb/>
             illud etiam peculiarius gaudeo, quod uos in integram domni <lb n="5"/>
             et fratris mei familiaritatem redisse cognoui. superest, ut, quod <lb/>
             illius in bono tribuit gratia, uestra in domino custodiat insequella. <lb/>
@@ -1955,7 +1953,7 @@
 <div n="15" subtype="letter" type="textpart">
 <ab> <title>XV.  DOMINAE UENERABILI ET IN CHRISTO DOMINO MAQVIFICANDAE FILIAE CERAUNIAE RURICIUS EPISCOPUS. </title> </ab>
           <p>Ut pictorem uobis antea non transmitterem, haec res fecit, <lb/>
-            quia aduentu <choice n="0.02"><sic n="12">noni</sic><corr n="585">noui</corr></choice> iudicis te occupatam esse credidi atque ita <lb/>
+            quia aduentu noui iudicis te occupatam esse credidi atque ita <lb/>
             deterritam, ut de his rebus cogitare non posses. sed quia deo <lb/>
             propitio uos et litteris et relatione uestrorum ex sententia agere <lb n="15"/>
             ac ualere cognoui, salutatione praelata pictorem, quamlibet hic <lb/>
@@ -1963,7 +1961,7 @@
             necessitati, unde uestrae satisfacerem petitioni. sed <lb/>
             quia et propositum uestrum et nostrum poscit officium, his <lb/>
             uenerationem uestram paucis monere praesumpsi, ut ex opere <lb n="20"/>
-            illius ad agendam paenitentiam et noua <choice n="0.02"><sic n="12">noni</sic><corr n="585">noui</corr></choice> hominis uestimenta <lb/>
+            illius ad agendam paenitentiam et noua noui hominis uestimenta <lb/>
             sumenda capias exemplum, quo facilius in te Adam uetustus <lb/>
             intereat et uiuificator exsurgat. 
 </p>
@@ -1994,7 +1992,7 @@
             super quem alium respiciam, nisi super humilem et <lb/>
             quietum et trementem sermones meos? et ipse in euangelio<lb n="10"/>
             dominus clamat: uenite ad me omnes, qui laboratis <lb/>
-            et onerati estis, et ego reficiam uos et reliqua, quae <choice><sic>secnntur</sic><corr>secuntur</corr></choice>. <lb/>
+            et onerati estis, et ego reficiam uos et reliqua, quae secuntur. <lb/>
             et ideo, in Christo domino carissima soror ac filia, <lb/>
             pristinae conuersationis ambitione deposita humilitatem debes <lb/>
             cordis induere, misericordiam indigentibus fenerare, castitatem<lb n="15"/>
@@ -2076,11 +2074,11 @@
             uestrum, qui in caelis est. cuius est et ut detur, et omne, <lb/>
             quod datur, quia iuxta apostolum omne datum bonum a <lb/>
             sursum de patre luminum descendit, a quo et uoluntas <lb/>
-            tribuitur et praestatur <choice><sic>efFectus</sic><corr>effectus</corr></choice>. 
+            tribuitur et praestatur effectus. 
 </p>
           <p rend="script">Quia paenitentia non nomine tantum obtinenda, sed actu<lb n="10"/>
             est exsequenda, paenitentia non est nomen otiosum, quae ex <lb/>
-            qualitate operis possidet laboriosa <choice><sic>uoeabulum</sic><corr>uocabulum</corr></choice>. non enim potest <lb/>
+            qualitate operis possidet laboriosa uocabulum. non enim potest <lb/>
             paenitens dici, qui paenitenda committit, sed ille, qui praeterita <lb/>
             peccata uel maculas humilitate cordis, subiectione corporis, <lb/>
             bonorum operum sedulitate, adsiduitate orationum, continuatione<lb n="15"/>
@@ -2195,13 +2193,13 @@
             paciens <hi rend="italic">S</hi> 23 perstat <hi rend="italic">v,</hi> praestat <hi rend="italic">S</hi> 26 querit que S 80 fugata <hi rend="italic">S</hi> </note> <lb n="30"/>
              
 <pb n="400"/>
-            <sic>adnlatione</sic> subsannat, sed uero honore concelebrat. omnia credit, <lb/>
+            adulatione subsannat, sed uero honore concelebrat. omnia credit, <lb/>
             quia in mandatis diuinis promissisque confidit, et ideo omnia <lb/>
             sperat, quia pro minimis magna, pro caducis perpetua, pro <lb/>
             temporalibus aeterna sibi retribuenda non ambigit. numquam <lb/>
             cadit, quia humilitas habere non potest casum, cum habeat <lb n="5"/>
             semper ascensum, et, cum iugiter excelsa meditetur, habitare <lb/>
-            tamen in sublimibus non <choice><sic>praesnmit</sic><corr>praesumit</corr></choice>. cum conuersatio eius <lb/>
+            tamen in sublimibus non praesumit. cum conuersatio eius <lb/>
             habeatur in caelis, ipsa tamen uidetur adhaerere terrenis excelsa <lb/>
             opere, mente deiecta habens, unde glorietur in domino <lb/>
             nec tamen extollatur in saeculo. <lb n="10"/>
@@ -2253,7 +2251,7 @@
             frigidae praebitione daturus est praemium, aliis de otiosi uerbi <lb/>
             leuitate supplicium, reos nos, etsi non de perpetrati facinoris <lb/>
             uoluptate, saltim de concupiscentiae uoluntate constituat, quia, <lb/>
-            qui uiderit mulierem ad <choice><sic>coneupiseendum</sic><corr>concupiscendum</corr></choice>, iam moechatus <lb/>
+            qui uiderit mulierem ad concupiscendum, iam moechatus <lb/>
             est eam in corde suo. <lb n="15"/>
             
 </p>
@@ -2287,7 +2285,7 @@
              
 <pb n="402"/>
             nunc spargit in semine, sicut ait quidam sanctorum: respondebit <lb/>
-            mihi <choice n="0.57"><sic n="233">eras</sic><corr n="171">cras</corr></choice> iustitia mea, <choice n="0.57"><sic n="233">eras</sic><corr n="171">cras</corr></choice> utique diem resurrectionis <lb/>
+            mihi cras iustitia mea, cras utique diem resurrectionis <lb/>
             appellans. 
 </p>
           <p>Haec nos, fratres optimi, non pontificali auctoritate, sed fraterna <lb/>
@@ -2301,7 +2299,7 @@
             quam tamen aliter peruenire non possumus, nisi caritatis gradibus <lb/>
             conscendamus, quia ipsa est eminentior uia, quae nos <lb/>
             et in hac positos sociat deo et deposita perducit ad deum, de <lb/>
-            qua etiam propheta testatur: ambulabant de <choice><sic>nirtute</sic><corr>uirtute</corr></choice> in uirtutem, <lb n="15"/>
+            qua etiam propheta testatur: ambulabant de uirtute in uirtutem, <lb n="15"/>
             uidebitur deus deorum in Sion. quam ob rem hic <lb/>
             collyrio bonorum operum oculos cordis acuamus, ut illic deum <lb/>
             uidere possimus, quia secundum euangelium beati mundo <lb/>
@@ -2344,7 +2342,7 @@
           <p>Parui itaque petitioni uestrae, parui iussioni, ut qualibuscumque <lb/>
             sermonibus contexta uobis scripta transmitterem, quae <lb/>
             uos, si nos simpliciter, ut confido, diligitis, aut confestim delebitis, <lb/>
-            ne, quod <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> cordi est, aliis incipiat esse despectui, <lb/>
+            ne, quod uobis cordi est, aliis incipiat esse despectui, <lb/>
             quia non aequali iudicio amor audit et odium, aut certe uobis<lb n="15"/>
             tantum relegenda seruabitis, ut, quoties in uobis uidendi nos <lb/>
             caritatis ignis exarsit, desiderium uestrum eorum conloquio <lb/>
@@ -2390,7 +2388,7 @@
             <l>Et parcas epulas cibosque dulces,</l> <lb/>
             <l>Antro pectoris et medulla cordis</l> <lb/>
             <l>Inclusos recita canente mente. </l>
-          <l>Sic <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice> et mutuos uidere uultus</l> <lb n="15"/>
+          <l>Sic nos et mutuos uidere uultus</l> <lb n="15"/>
             <l>Et uiuis tribuat referre uerbis,</l> <lb/>
             <l>Quae nunc intima pectoris fatigant,</l> <lb/>
             <l>Largitor deus omnium bonorum</l> <lb/>
@@ -2428,14 +2426,14 @@
             in nostra posuisse censura, qui precum nostrarum misericors <lb/>
             et iustus auditor potestati suae de nostra lenitate praescripsit, <lb/>
             ut in eos quodam modo non haberet ius seueritatis, quos hic <lb/>
-            <choice><sic>anidos</sic><corr>auidos</corr></choice> non perspexerit ultionis, quia, quod ipse est, hoc et nos<lb n="10"/>
+            auidos non perspexerit ultionis, quia, quod ipse est, hoc et nos<lb n="10"/>
             esse desiderat. misericors est, misericordes quaerit dicens: <lb/>
             estote perfecti, sicut et pater uester perfectus est. <lb/>
             cotidie ueniam peccantibus et supplicantibus tribuit, ideo et indulgentiam <lb/>
             a peccatoribus poscit. unde et oratione dominica <lb/>
             ipsius dicimus doctrina: dimitte nobis debita nostra, sicut<lb n="15"/>
             et nos dimittimus debitoribus nostris. \'quibus uerbis <lb/>
-            <choice><sic>dnrissimis</sic><corr>durissimis</corr></choice> nos uinculis inligamus, nisi, quod pollicemur, implemus, <lb/>
+            durissimis nos uinculis inligamus, nisi, quod pollicemur, implemus, <lb/>
             quia et per prophetam sic dicit: homo homini tenet <lb/>
             iram et a domino quaerit medellam. quapropter pro Baxone, <lb/>
             qui ad ecclesiam Userca confugit, intercessor accedo<lb n="20"/>
@@ -2474,7 +2472,7 @@
             unde et dicit paenitens ille perfectus: adhaesit pauimento <lb/>
             anima mea, domine, uiuifica me secundum uerbum <lb/>
             tuum: quid est secundum uerbum tuum, nisi secundum promissionem <lb n="10"/>
-            tuam? quod, qui coram te peccata sua <sic>deSerit</sic> conpunctus <lb/>
+            tuam? quod, qui coram te peccata sua deflerit conpunctus <lb/>
             in mundo, tu eum perduces in regno, ubi possit deinceps <lb/>
             cantare securus: audiuit dominus et misertus est <lb/>
             mihi. dominus factus est adiutor meus. conuertisti <lb/>
@@ -2487,7 +2485,7 @@
             ideoque, dum tempus habemus, conuertamur ad dominum, ut <lb/>
             non cum hoc mundo damnemur, quia sine dubio illi misericors <lb/>
             deus suum praestat auxilium, quem circa praecepta sua cernit <lb/>
-            <sic>adtentum</sic>. 
+            adtentum. 
 </p>
 
 </div>
@@ -2495,7 +2493,7 @@
 <div n="22" subtype="letter" type="textpart">
 <ab> <title>XXII.  RURICIUS EPISCOPUS EUFRASIO EPISCOPO. </title> </ab>
           <p>Gratias ago sincerissimae in Christo domino germanitati <lb/>
-            uestrae, quod perlato taedio ad <choice n="0.41"><sic n="4236">uos</sic><corr n="6028">nos</corr></choice> nostro confestim nos litteris <lb/>
+            uestrae, quod perlato taedio ad uos nostro confestim nos litteris <lb/>
             uestris uisitare tanti habuistis, qui, dum infirmitatis nostrae
 
 <note type="footnote"> 5] Psalm. 50, 19. 6] Matth. 23, 12. 8] Psalm. 118, 25. 13] <lb/>
@@ -2520,7 +2518,7 @@
             mensura, castigationi iuxta pietatem suam pro inbecillitate<lb n="10"/>
             nostra modum statuit, ne infirmitas nostra in manus suae correptione <lb/>
             defecerit. ideoque propitia miseratione sua iam commodiorem <lb/>
-            esse me nuntio. consolationem <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> uestri maeroris <lb/>
+            esse me nuntio. consolationem uobis uestri maeroris <lb/>
             pagina deferente transmittens, ut, qui estis laboribus <lb/>
             nostris pro caritate conpatientes, sitis laetitiae in dei nomine<lb n="15"/>
             de recepta incolumitate participes, ipsius lectione dispono. ora <lb/>
@@ -2531,7 +2529,7 @@
 
 <div n="23" subtype="letter" type="textpart">
 <ab> <title>XXIII.  DOMINO DEUINCTISSIMO SEMPERQVE MAGNIFICO UERO RURICIUS EPISCOPUS. </title> </ab>
-          <p rend="script"><sic>Relectis</sic> litteris pietatis uestrae gratias deo egi, quod uos <lb/>
+          <p rend="script">Relectis litteris pietatis uestrae gratias deo egi, quod uos <lb/>
             prius reualuisse quam infirmatos esse earum relatione cognoui. <lb/>
             quod uobis tam frequenter accidere propitio potius deo quam <lb/>
             offenso confido, quia, quem diligit dominus, corripit, <lb/>
@@ -2563,11 +2561,11 @@
             sollicitus, quam stimulis urgentibus reuocare destrictus. <lb/>
             ipse est pater pius, qui male prodigo filio et praeceptae substantiae <lb/>
             decoctori ad se uel sero redeunti non solum crimina <lb/>
-            anteriora non inputat, <choice n="0.00"><sic n="4">aerum</sic><corr n="2510">uerum</corr></choice> etiam praemia amissa multiplicat, <lb n="10"/>
+            anteriora non inputat, uerum etiam praemia amissa multiplicat, <lb n="10"/>
             dum ulnis fouet, osculis permulcet, muneribus ditat, doctrina <lb/>
             confirmat non tantum ad eius indignatus abscessum, quantum <lb/>
             laetatus ad reditum. ipse enim omnium horum nominum in <lb/>
-            se effectus affectusque suscepit, ut, sicut dicit apostolus, <sic>multifarie</sic> <lb/>
+            se effectus affectusque suscepit, ut, sicut dicit apostolus, multifarie <lb/>
             multisque modis nos erudiret uerbis, instrueret disciplinis, <lb n="15"/>
             prouocaret beneficiis, informaret exemplis, reconciliaret prece, <lb/>
             redimeret passione, uiuificaret morte, inmortalitate donaret, <lb/>
@@ -2608,7 +2606,7 @@
             postmodum iudicantem. quo iudicio, sicut ipse in euangelio <lb/>
             praemonere et docere dignatus est, cum in maiestatis suae <lb/>
             sede consederit, quando non solum merita ponderaturus et <lb/>
-            facta, uerum etiam uerba est discussurus et <choice n="0.53"><sic n="663">nota</sic><corr n="586">uota</corr></choice>, quem hic <lb/>
+            facta, uerum etiam uerba est discussurus et outa, quem hic <lb/>
             nunc uiderit salutaria sua praecepta neglegere et admonitiones<lb n="15"/>
             suas saluberrimas superba mente contemnere, non solum cum <lb/>
             stultis a ianua regni caelestis excludet, uerum etiam partem <lb/>
@@ -2677,7 +2675,7 @@
             ipsius quasi nubibus semper operitur. Sollium enim nostrum <lb n="25"/>
             domnum patremque communem, quem transcribendum sublimitati <lb/>
             uestrae dedisse me dixeram, legendum recepi. cuius <lb/>
-            lectio, sicut mihi antiquum restaurat affectum, ita prae <choice><sic>obscnritate</sic><corr>obscuritate</corr></choice> <lb/>
+            lectio, sicut mihi antiquum restaurat affectum, ita prae obscuritate <lb/>
             dictorum non accendit ingenium, quamlibet ipsum post
 
 <note type="footnote"> 1 respirari S uagare S 2 at Sl(?), ut 82 7 deberis S 8 ianuum <lb/>
@@ -2754,7 +2752,7 @@
             derelinquas amicum antiquum, nouus enim non erit <lb/>
             similis illi. uinum nouum amicus nouus, ueterascet <lb/>
             et cum suauitate bibes illud. et ideo nos ueterascamus <lb/>
-            in amicitiis et de die in diem affectibus <choice><sic>innouemur</sic><corr>innonemur</corr></choice>. quodsi <lb n="20"/>
+            in amicitiis et de die in diem affectibus innouemur. quodsi <lb n="20"/>
             amicus relinquendus non est, quanto magis pater, qui erudiit, <lb/>
             qui nutriuit, qui adiuuante domino ad sacerdotium usque perduxit, <lb/>
             cui fortasse etiam iuxta diuinam misericordiam lucis <lb/>
@@ -2787,7 +2785,7 @@
 <div n="29" subtype="letter" type="textpart">
 <ab> <title>XXVIIII.  RURICIUS EUFRASIO SUO SALUTEM. </title> </ab>
           <p>Miror sanctitatem uestram post tantorum et talium uirorum <lb/>
-            <choice n="0.80"><sic n="426">iudicia</sic><corr n="103">indicia</corr></choice> potius quam rescripta etiam inscitiae meae quaesisse <lb/>
+            indicia potius quam rescripta etiam inscitiae meae quaesisse <lb/>
             sententiam. quod uos magis pro necessitudine quam necessitate <lb/>
             fecisse conicio, ne, cuius tanti habetis praecipuum in animo <lb/>
             tenere cultum, uideremini in negotio praetermisisse consensum. <lb n="10"/>
@@ -2809,7 +2807,7 @@
           <p>Qui se reum de officio esse cognoscit, prius supplicare debet, <lb/>
             quam audeat salutare, quia, sicut inportune occurritur inputanti, <lb/>
             ita oportune remittitur confitenti. et ideo nos nostram in palam <lb/>
-            producimus <sic>nOIam</sic>, ut facilius peruenire possimus ad ueniam, <lb n="25"/>
+            producimus noxam, ut facilius peruenire possimus ad ueniam, <lb n="25"/>
             quia non relinquitur locus inputationi, cum aditus patuerit deploranti <lb/>
             secundum illam sententiam: dic tu prior iniquitates tuas,
 
@@ -2824,7 +2822,7 @@
              
 <pb n="414"/>
             ut iustificeris. non enim praeualebit accusantis inuidia, ubi humilitas <lb/>
-            praecesserit <choice><sic>subplicantis</sic><corr>subplicautis</corr></choice>. quam ob rem <choice n="0.58"><sic n="6028">nos</sic><corr n="4236">uos</corr></choice>, si iam excusando <lb/>
+            praecesserit subplicantis. quam ob rem nos, si iam excusando <lb/>
             diluimus culpam, ueniamus ad causam. salutem ergo <lb/>
             tantam dicimus pietati uestrae, quantam potest affectus intellegere <lb/>
             et non potest sermo proferre, quantam sentire possumus <lb n="5"/>
@@ -2842,7 +2840,7 @@
             ab amico suo noctis tempore importune quidem, sed salubriter <lb/>
             ..., quod inprobitati praestitum fuerit insistentis, quod <lb/>
             negabatur amicitiis flagitantis. reliqua per portitorem uerbo <lb/>
-            mandaui, quae longum fuit litteris <choice n="0.12"><sic n="12">indicari</sic><corr n="81">iudicari</corr></choice>, unde, sicut <sic>piincipium</sic> <lb/>
+            mandaui, quae longum fuit litteris indicari, unde, sicut principium <lb/>
             epistulae continet, rogo, ut pro tarditate ueniam dare <lb n="20"/>
             dignemini. uale. 
 </p>
@@ -2881,7 +2879,7 @@
 
 <div n="32" subtype="letter" type="textpart">
 <ab> <title>XXXII.  DOMINO INLUSTRI SEMPERQVE MAGNIFICO FILIO AGRICOLAE RURICIUS EPISCOPUS. </title> </ab>
-          <p><sic>Releetis</sic> litteris sublimitatis uestrae gratias deo egi, quod <lb/>
+          <p>Relectis litteris sublimitatis uestrae gratias deo egi, quod <lb/>
             uos prius reualuisse ordinatione ipsius, quam infirmatos esse <lb/>
             cognoui, ut nobis anxietatem tolleret et uobis redderet sospitatem. <lb/>
             quam tamen infirmitatem uobis clementer inlatam propitio<lb n="15"/>
@@ -2897,7 +2895,7 @@
           <p>Haec est enim mutatio dexterae excelsi, dum de peccatoribus <lb/>
             iustos, de extraneis domesticos, amicos sibi facere dignatur<lb n="25"/>
             ex seruis. superest, ut nunc conuersionem, quam protulistis <lb/>
-            . in ueste, probetis in <choice n="0.29"><sic n="283">corda</sic><corr n="684">corde</corr></choice> et haec commutatio inter indumentum <lb/>
+            . in ueste, probetis in corde et haec commutatio inter indumentum <lb/>
             uestrum habeatur et animum, ut, sicut ille sub
 
 <note type="footnote">16] Prou. 8,12. 17] Hebr. 12, 6. 24] Psalm. 76,11. </note>
@@ -2960,7 +2958,7 @@
 <ab>            <title>XXXIII.  DOMINO SANCTO ET APOSTOLICO OMNIQVE A ME HONORE ET AMORE SPECIALIUS <add>EXCOLENDO</add> FRATRI CASSARIO EPISCOPO RURICIUS. </title>           </ab>
           <p rend="script">Frater et conpresbyter noster Capillutus dupliciter hac uice <lb/>
             nobis gratus apparuit, dum et ipse nobis iam diu desideratus <lb/>
-            occurrit et quandam uestri praesentiam nobis per uestras <sic>lit</sic>-. <lb/>
+            occurrit et quandam uestri praesentiam nobis per uestras lit-. <lb/>
             teras repraesentat. quo redeunte has reddere procuraui, quibus <lb/>
             debitum beatitudini uestrae rependo caritatis officium. quod<lb n="10"/>
             uero scribitis, cur ad synodum, sicut conlocutio habuit nostra, <lb/>
@@ -3002,11 +3000,11 @@
 
 <div n="34" subtype="letter" type="textpart">
 <ab> <title>XXXIIII.  DOMINO SANCTO ET APOSTOLICO MIHIQVE IN CHRISTO DOMINO SPECIALI CULTU AFFECTUQVE CETERIS PRAEFERENDO PATRONO SEDATO EPISCOPO RURICIUS EPISCOPUS. </title> </ab>
-          <p>Dum scribendi uobis, <sic>doipnis</sic> pectoris mei, animus uos sitiens <lb n="5"/>
+          <p>Dum scribendi uobis, domnis pectoris mei, animus uos sitiens <lb n="5"/>
             occasionem frequenter inquirit, aliquando diuturna meditatione <lb/>
             pertractans repperit idoneum portitorem, per quem et silentia <lb/>
             longa disrumperet et sibi spiritales delicias postularet oris <lb/>
-            uestri cupiens rore respergi. de qua, credo, siti sanctus <sic>psalmista</sic> <lb/>
+            uestri cupiens rore respergi. de qua, credo, siti sanctus psalmista <lb/>
             dicebat: anima mea sicut terra sine aqua tibi, <lb n="10"/>
             illa nimirum aqua ariditatem corporis sui restinguere sobria <lb/>
             ebrietate desiderans, de qua dominus noster in euangelio clamare <lb/>
@@ -3041,7 +3039,7 @@
              
 <pb n="419"/>
             plenitudinem humanitatis portio ipsa humanitatis sua passione redimeret, <lb/>
-            dum imago <choice><sic>innisibilis</sic><corr>inuisibilis</corr></choice> dei forma fit serui, ut posset <lb/>
+            dum imago inuisibilis dei forma fit serui, ut posset <lb/>
             inpassibilis pati, inconprehensibilis capi, inmortalis mori, qui <lb/>
             mortem occumbendo perimeret, ut uitam resurgendo repararet. <lb/>
             sed quid ego oblitus mei, auidus tui quasi de huiuscemodi<lb n="5"/>
@@ -3056,7 +3054,7 @@
             rogo, ut pro me incessanter orare dignemini. simulque etiam <lb/>
             partem corporis mei, per quam nobis has trado, peculiari insinuatione <lb/>
             commendo, ut in illis, quam me diligatis integre,<lb n="15"/>
-            <sic>conprobetis</sic>. quos uobis eo arbitror fore cariores, quia meam <lb/>
+            conprobetis. quos uobis eo arbitror fore cariores, quia meam <lb/>
             nobis secum deferunt portionem. quibus quicquid dignati fueritis <lb/>
             dilectionis inpendere, nobis uos conferre cognoscite, quia, <lb/>
             si iuxta sanctum apostolum minus membrum maiori in dolore <lb/>
@@ -3170,10 +3168,10 @@
              
 <pb n="422"/>
             accipientis lucrum sine dispendio largientis, ditans inopem nec <lb/>
-            <choice><sic>adtenuans</sic><corr>adteuuans</corr></choice> possessorem. 
+            adtenuans possessorem. 
 </p>
           <p>. Ideoque ueniente illo dulcissimo meo nepote Parthenio has per <lb/>
-            ipsum dare non distuli, ut et meam nobis praesentiam litteris <choice><sic>elhiberem</sic><corr>exhiberem</corr></choice> <lb/>
+            ipsum dare non distuli, ut et meam nobis praesentiam litteris exhiberem <lb/>
             et ipsum pariter commendarem. cui quicquid dignati <lb n="5"/>
             fueritis dilectionis inpendere, nobis uos praesentare noueritis. <lb/>
             simulque etiam peculiarius rogo, ut pro me ipsisque pignoribus <lb/>
@@ -3219,7 +3217,7 @@
             inflat, caritas, ut ipsi melius nostis, aedificat. quam ob rem, <lb/>
             quia iussistis, ut uos per singulas occasiones et de meis actibus <lb/>
             facerem certiores et desiderium uestrum, quod mihi non meo <lb/>
-            merito, sed generali et insita uobis dilectione dependitis, <choice><sic>alloquia</sic><corr>alloquio</corr></choice> <lb/>
+            merito, sed generali et insita uobis dilectione dependitis, alloquio <lb/>
             temperarem, me quidem (deo) propitio fortiorem, sed heu<lb n="5"/>
             plenum omne hospitiolum nostrum diuersis incommodis laborare <lb/>
             significo. peculiarius rogo adtentius domino supplicetis, <lb/>
@@ -3244,7 +3242,7 @@
             iuxta apostoli sententiam unius corporis membra sibi inuicem <lb/>
             conpatiuntur et condolent, decet nos quoque eorum incommoda <lb/>
             ** saepe percipimus. dolemus itaque casui uestro et planctibus <lb/>
-            uestris interesse nos credimus. sed quid facimus, <choice><sic>domni</sic><corr>domui</corr></choice> filii, <lb n="25"/>
+            uestris interesse nos credimus. sed quid facimus, domni filii, <lb n="25"/>
             quod uoluntati diuinae resistere nec possumus nec debemus
 
 <note type="footnote"> 22] 1 Cor. 12, 26. </note>
@@ -3263,7 +3261,7 @@
              
 <pb n="424"/>
             et omni sollicitudine praecauere, ne, dum dulcia nobis pignora <lb/>
-            nimio dolore <choice><sic>defiemus</sic><corr>deflemus</corr></choice>, blasphemi quidam et iniuriosi <choice><sic>inneniamur</sic><corr>inueniamur</corr></choice> <lb/>
+            nimio dolore deflemus, blasphemi quidam et iniuriosi inueniamur <lb/>
             in domino et grauius animas nostras auctor ipsius mortis inuenta <lb/>
             occasione confodiat, quam carorum amissione percussit? <lb/>
             Ideoque in omni amaritudine uel dolore ad deum nobis est <lb n="5"/>
@@ -3280,7 +3278,7 @@
             quem litteris meis mitigare non poteram, uel diuinis eloquiis <lb/>
             utcumque moderarer. et uere, si mihi quasi uestro creditis <lb/>
             cordi, non minimum potestis capere de Christi domini uoluntate <lb/>
-            solacium, quod, quatenus ipsum inmaturus manebat <choice n="0.92"><sic n="111">interitus</sic><corr n="9">interno</corr></choice>, <lb/>
+            solacium, quod, quatenus ipsum inmaturus manebat interitus, <lb/>
             talem eum est dignatus adsumere, qualium regnum docuit <lb n="20"/>
             esse caelorum, ut et patronum haberetis ex filio et minus doleretis <lb/>
             amissum, quem a domino uidebatis adsumptum. opto <lb/>
@@ -3357,7 +3355,7 @@
             pareo iussioni. malo enim de me ipso tibi magis quam mihi <lb n="5"/>
             credere, quia pietatis, non potestatis est, quod iubetis. et ideo, <lb/>
             quae displicuerint, emendabitis procul dubio potius, quam prodetis, <lb/>
-            siquidem nihil est <choice><sic>imperiosins</sic><corr>imperiosius</corr></choice> caritate, cui quisque toto <lb/>
+            siquidem nihil est imperiosius caritate, cui quisque toto <lb/>
             corde se dederit, libenter et uincula illius inpacta patietur et <lb/>
             onera inlata portabit, dum praecipientis imperium non inuitus <lb n="10"/>
             excipit, sed deuotus exercet. praestabit itaque diuina misericordia, <lb/>
@@ -3373,7 +3371,7 @@
 <div n="42" subtype="letter" type="textpart">
 <ab> <title>XXXXII.  DOMINO DEUINCTISSIMO ET MIHI OMNI HONORE UENERABILI FRATRI LEONTIO RURICIUS. </title> </ab>
           <p rend="script">Gratias ago, quod et nostri curam gerere et nouitate holerum, <lb/>
-            quae libenter habere nos nostis, nos reficere <choice><sic>tauti</sic><corr>tanti</corr></choice> habuistis, <lb n="20"/>
+            quae libenter habere nos nostis, nos reficere tanti habuistis, <lb n="20"/>
             quod et consuetudini praestatis pariter et amori. ideoque redeunte <lb/>
             puero uestro reddo reciprocum sospitationis officium et, <lb/>
             ut de suscepto deo propitio officio indesinenter cogitetis, admoneo, <lb/>
@@ -3397,7 +3395,7 @@
             nobis et in augendo uirtutem et in consummatione plenam <lb/>
             tribuat pro sua miseratione remissionem, qui solus potest et <lb/>
             sanare corrupta et reparare conlapsa et delere commissa et <lb/>
-            abolere praeterita, <choice><sic>consemare</sic><corr>conseruare</corr></choice> praesentia et donare uentura. <lb n="5"/>
+            abolere praeterita, conseruare praesentia et donare uentura. <lb n="5"/>
             
 </p>
 
@@ -3407,11 +3405,11 @@
 <ab> <title>XXXXIII.  RURICII AD DOMNUM CONSTANTIUM. </title> </ab>
           <p>De deliciis transmissis gratias ago et, quantum indicastis, tantum <lb/>
             me utrarumque auium suscepisse significo simulque etiam <lb/>
-            per <choice><sic>pneros</sic><corr>pueros</corr></choice> ipsos, qui nobis haec detulerunt, tergus aprunum<lb n="10"/>
+            per pueros ipsos, qui nobis haec detulerunt, tergus aprunum<lb n="10"/>
             me pietati tuae indico transmisisse, ut, dum nos uolatilia, quae <lb/>
             transmisisti, deliciamur, tu bipede de quadrupede facto satieris. <lb/>
             cuius tamen malo carne quam uita capiaris, quia, qui semper <lb/>
-            de saecularibus cogitat et iugiter terrena meditatur, huic <choice><sic>animanU</sic><corr>animanti</corr></choice> <lb/>
+            de saecularibus cogitat et iugiter terrena meditatur, huic animanti <lb/>
             e scriptura diuina merito conparatur, quia de omnibus<lb n="15"/>
             animalibus solus homo sublimis creatus est et effectus, ut <lb/>
             auctorem suum semper caelo intentus aspiciat, non mundialia <lb/>
@@ -3507,7 +3505,7 @@
             luctus sapientis septem diebus, impii uero omnes <lb/>
             dies uitae suae. sicut scimus illum mortuum corpore, anima<lb n="20"/>
             uero pro innocentia sua deo uiuere, ita nos uiuentes corpore <lb/>
-            <choice n="0.29"><sic n="283">corda</sic><corr n="684">corde</corr></choice> moriamur. 
+            corde moriamur. 
 </p>
 
 </div>
@@ -3552,7 +3550,7 @@
 <ab> <title>XXXXVIII.  RURICIUS EPISCOPUS DOMINO UENERABILI FRATRI IOHANNI. </title> </ab>
           <p>Magnus communis susceptus, quod uoluntarie facere debuerat, <lb/>
             fecit nunc necessitate conpulsus, ut ad uenerationem <lb/>
-            tuam commendaticias <choice><sic>fiagitaret</sic><corr>flagitaret</corr></choice> et se gratiae tuae, etsi propter <lb/>
+            tuam commendaticias flagitaret et se gratiae tuae, etsi propter <lb/>
             neglegentiam suam de praeterito ingratus, per insinuationem <lb/>
             nostram nunc tamen gratificandus ingereret. cuius petitioni <lb n="20"/>
             ideo promptius adquieui, quia credidi, sicut et confido, uos petitioni <lb/>
@@ -3577,7 +3575,7 @@
              
 <pb n="431"/>
             ascendet, qui pecuniae suae usuram non in praesenti saeculo <lb/>
-            a proximo suo exegerit, sed a domino <choice><sic>expectanerit</sic><corr>expectauerit</corr></choice> in futuro. <lb/>
+            a proximo suo exegerit, sed a domino exectauerit in futuro. <lb/>
             nec per dolosa beneficia laqueos laborantibus inicit insolubilium <lb/>
             debitorum, sed illius est fenerator et creditor, qui dicit: date <lb/>
             et dabitur uobis et, qua mensura mensi fueritis, ea<lb n="5"/>
@@ -3608,7 +3606,7 @@
 <div n="49" subtype="letter" type="textpart">
 <ab> <title>XXXXVIIII.  APRUNCULO EPISCOPO RURICIUS EPISCOPUS. </title> </ab>
           <p>Exegit mutui amoris affectus ad indiuiduam mihi sanctitatem <lb/>
-            <choice n="0.00"><sic n="1">nestram</sic><corr n="297">uestram</corr></choice> sola ex causa litteras destinare, etiamsi non se occasio
+            uestram sola ex causa litteras destinare, etiamsi non se occasio
 
 <note type="footnote"> 4] Luc. 6, 88. Matth. 7, 2. 12] Psalm. 48, 17. 16] Psalm. 75, 6. <lb/>
             21] Matth. 19, 29. 23] Matth. 6, 19. </note>
@@ -3671,12 +3669,12 @@
 </p>
           <p>Salue itaque apostolatui uestro plurimum dependo et hoc, <lb/>
             quod apicibus meorum testimonio uoluistis agnoscere, utrum <lb/>
-            Sindilla porcos suos prudente <sic>Foedamio</sic> perdidisset, noueritis<lb n="5"/>
+            Sindilla porcos suos prudente Foedamio perdidisset, noueritis<lb n="5"/>
             me apud homines meos, ubi fuerunt, diligenter perquisisse. <lb/>
             sed, sicut ante iam noueram, magis et istos laborem facientes <lb/>
             ac Sindillam perpessos esse et ipsum porcos suos (per) peruersitatem <lb/>
             suam, dum de aduersa parte esse se iactitat, amisisse <lb/>
-            cognoui, ceterum praefatum <sic>Foedamium</sic> illi in nullo <sic>culr</sic><lb n="10"/>
+            cognoui, ceterum praefatum Foedamium illi in nullo cul<lb n="10"/>
             pabilem. nam quod pertulit, nulli alii nisi (sibi) debet ex <lb/>
             omnibus inputare. in qua causa, quantum ego contemplatione <lb/>
             uestri, ut homines uestri aut a custodia liberarentur aut <lb/>
@@ -3722,7 +3720,7 @@
             caritatis contemplatione conspicerent, ubi caritas ipsa consistit, <lb n="5"/>
             quo fit, ut deuinctio uestra, quae in uisceribus meis iugi recordatione, <lb/>
             dum cotidie renouatur, augetur, amoris uestri mihi <lb/>
-            uicissitudinem repromittat et animus <choice n="0.29"><sic n="668">mens</sic><corr n="1571">meus</corr></choice> mihi animorum <lb/>
+            uicissitudinem repromittat et animus meus mihi animorum <lb/>
             uestrorum fideiussor adsistat, dum tantum sibi audet de uestra <lb/>
             dilectione praesumere, quantum uobis concupiscit inpendere. <lb n="10"/>
             salutem itaque beatitudini uestrae plurimam dico et rogo incessanter <lb/>
@@ -3741,11 +3739,11 @@
 <ab> <title>LIII.  RURICIUS EPISCOPUS PRAESIDIO FILIO SALUTEM. </title> </ab>
           <p>Plerique, dum me apud indiuiduam mihi sublimitatem <lb/>
             uestram non uitae merito, sed amicitiarum priuilegio multum <lb/>
-            posse confidunt, commendaticias a nobis, quibus uobis <sic>eicusentur</sic>, <lb/>
+            posse confidunt, commendaticias a nobis, quibus uobis excusentur, <lb/>
             inquirunt. quas eis pro officii nostri necessitate negare <lb/>
             non possumus, non praesumptionis audacia, sed ministerii <lb n="25"/>
             disciplina, dum et illis praesentis uitae solatium et uobis <lb/>
-            prouidere desideramus aeternae, ut et <choice><sic>ilTi</sic><corr>illi</corr></choice> per patientiam uestram
+            prouidere desideramus aeternae, ut et illi per patientiam uestram
 
 <note type="footnote"> 16] Psalm. 121, 3. </note>
 
@@ -3766,12 +3764,12 @@
             quod promisit. nobis enim illius ueritas praesto est, <lb/>
             si illi fides nostra non desit. unde manifestissime potestis <lb/>
             aduertere absolutionem miserorum uestrorum esse indulgentiam <lb/>
-            peccatorum et hoc uestris <choice><sic>conferenduni</sic><corr>conferendum</corr></choice> precibus, quod uos <lb/>
+            peccatorum et hoc uestris conferendum precibus, quod uos <lb/>
             praestatis alienis, iuxta ipsius in euangelio sententiam: quo iudicio<lb n="10"/>
             iudicaueritis, iudicabitur de uobis. ideoque pro <lb/>
-            Urso et Lupo, qui ad me quasi uobis peculiarius, sicut <choice><sic>superins</sic><corr>superius</corr></choice> <lb/>
+            Urso et Lupo, qui ad me quasi uobis peculiarius, sicut sperius <lb/>
             dixi, caritatis iure deuinctum pro criminum suorum <lb/>
-            intercessione <choice n="0.76"><sic n="477">uenerunt</sic><corr n="143">uenerant</corr></choice>, precator accedo, ut primum deo, deinde <lb/>
+            intercessione uenerunt, precator accedo, ut primum deo, deinde <lb/>
             nobis hoc, quod commiserunt, donare digneris nec nos de<lb n="15"/>
             eorum damnatione confundas, qui se iam tum absolutos esse, <lb/>
             quando ad humilitatem meam deducti sunt, crediderunt. 
@@ -3834,7 +3832,7 @@
             affectum, faciamus per externae necessitatis imperium, dum <lb n="20"/>
             alienae tribuimus petitioni, quod propriae debere nos cognoscimus <lb/>
             caritati, ut haec litterarum necessitudo esset ex uoluntate <lb/>
-            necessitudinis iocunda, non uero calamitate deplorantis <choice><sic>eitorta</sic><corr>extorta</corr></choice>. <lb/>
+            necessitudinis iocunda, non uero calamitate deplorantis extorta. <lb/>
             tamen, quia spontaneam scribendi neglegimus gratiam, <lb/>
             saltim praetermittere non debemus ingestam. ideoque per <lb n="25"/>
             fratrem et conpresbyterum nostrum Maxentium, quem nobis
@@ -3899,9 +3897,9 @@
             <hi rend="italic">Sl in rasura</hi> 24 <hi rend="italic">rurici S</hi> 2R ut] et <hi rend="italic">v</hi> </note> <lb/>
              
 <pb n="438"/>
-            <sic>Eparchius</sic>, sed etiam frater suus flebiliter per litteras supplicarant, <lb/>
+            Eparchius, sed etiam frater suus flebiliter per litteras supplicarant, <lb/>
             \'apostolatui uestro precator accederem, qui et confessione culpae <lb/>
-            et deprecatione ueniae et consanguinitatis affectu conpulsus <choice><sic>indnlsi</sic><corr>indulsi</corr></choice>, <lb/>
+            et deprecatione ueniae et consanguinitatis affectu conpulsus indulsi, <lb/>
             quia uos mihi super hac re scripturos esse non credidi. <lb/>
             sed quia humilitatem meam dignati estis pro ea, quae inter <lb n="5"/>
             nos est deo propitio, caritate consulere, ut uobis, utrum iusta <lb/>
@@ -3992,11 +3990,11 @@
              
 <pb n="440"/>
             ut ad persoluendum uobis spontaneae deuotionis obsequium <lb/>
-            etiam id habeamus in <choice n="0.36"><sic n="170">notis</sic><corr n="298">uotis</corr></choice>, quod non habemus in uerbis. <lb/>
+            etiam id habeamus in uotis, quod non habemus in uerbis. <lb/>
             itaque salutatione depensa *** quia centum pira sublimitati <lb/>
             uestrae, alia centum filiae meae destinare praesumpsi, quae si <lb/>
             fortasse displicuerint saporis gustu, placebunt, ut confidimus, <lb n="5"/>
-            transmittentis <choice n="0.05"><sic n="3">affecta</sic><corr n="56">affectu</corr></choice>. 
+            transmittentis affectu. 
 </p>
 
 </div>
@@ -4008,7 +4006,7 @@
             caritatis accensi et nos dicimus cum propheta: anima mea <lb/>
             sicut terra sine aqua tibi. defecit spiritus meus. ne <lb/>
             auertas faciem tuam. ne moreris aduentum, ut pectoris <lb/>
-            nostri, quem parui temporis solatio suscitastis, <choice><sic>extinguatis</sic><corr>extiuguatis</corr></choice> incendium. <lb/>
+            nostri, quem parui temporis solatio suscitastis, extinguatis incendium. <lb/>
             <lb n="15"/>
             
 </p>
@@ -4121,7 +4119,7 @@
             dum enim dependitur, non expenditur, sed magis, dum prorogatur, <lb/>
             augetur eiusque gratia ita muneratur percipiens, ut non<lb n="15"/>
             minoretur inpertiens, quae ad similitudinem diuinitatis dat, <lb/>
-            quod (<sic>hahet</sic>), habetque, quod dederit. 
+            quod (habet), habetque, quod dederit. 
 </p>
 
 </div>
@@ -4151,7 +4149,7 @@
             est, ut bonum illud ex accedentibus tantum requirat adiutoriis <lb/>
             incrementum, quod medullis constat infusum. quo fit, ut caritas, <lb/>
             quae in uisceribus meis iugi recordatione uestri innouata <lb/>
-            dulcescit, <choice n="0.04"><sic n="4">raritatis</sic><corr n="84">caritatis</corr></choice> mihi uestrae uicissitudinem repromittat. ac <lb/>
+            dulcescit, caritatis mihi uestrae uicissitudinem repromittat. ac <lb/>
             sic affectus erga uos meus uestri mihi animi fideiussor accedit <lb n="10"/>
             et quodam modo conscientia interioris mei mutuo mihi uestrae <lb/>
             testis dilectionis adsistit, quantumque mihi de uobis praesumere <lb/>
@@ -4187,9 +4185,9 @@
             22 anni S 28 Turentius <hi rend="italic">n</hi> 29 encitauernnt S </note> <lb n="30"/>
              
 <pb n="445"/>
-            radiantia ad discutiendas errorum tenebras purissima luce <choice><sic>tulserunt</sic><corr>fulserunt</corr></choice>. <lb/>
+            radiantia ad discutiendas errorum tenebras purissima luce fulserunt. <lb/>
             recognosco plenum caritatis affectum et sinceritatem <lb/>
-            piae castigationis amplector. eloquentiam in uerbis, in <choice><sic>exempIis</sic><corr>exemplis</corr></choice> <lb/>
+            piae castigationis amplector. eloquentiam in uerbis, in exeplis <lb/>
             perfectionem, in consilio gratiam, in officio diligentiam, <lb/>
             in ueritate constantiam, in admonitione ueritatem, scientiam<lb n="5"/>
             probatis in dogmate. uos antiquos scripturarum interpretes <lb/>
@@ -4201,12 +4199,12 @@
 </p>
           <p>Praeteritae calumniamur aetati, quod uiros illos admiratione <lb/>
             dignissimos haec saecula non tulerunt. pro certo doctrinam <lb/>
-            iuniores ambierant (<choice><sic>eorura</sic><corr>eorum</corr></choice>), qui ante docuerunt. ego autem <lb/>
+            iuniores ambierant (eorum), qui ante docuerunt. ego autem <lb/>
             aetatem meam non de canentium putamine capillorum nec,<lb n="15"/>
             sicut beatitudo uestra de saeculari auctore mutuata est, de <lb/>
             colore barbae albentis agnosco, cum, etiamsi esset error in <lb/>
             conputo, senescentis annos de torpore membrorum per morbi <lb/>
-            incrementa sentirem. sed omni precum humilitate deposco, <sic>utpro</sic> <lb/>
+            incrementa sentirem. sed omni precum humilitate deposco, utpro <lb/>
             correctione morum meorum, pro inspirando mihi desiderio<lb n="20"/>
             paenitendi, pro domini nostri propitiatione in sanctis uestris <lb/>
             orationibus supplicetis, ut, qui ad uitandum procliue illius <lb/>
@@ -4229,7 +4227,7 @@
             27 fgnus S </note> <lb/>
              
 <pb n="446"/>
-            fidei uestrae traditus et a <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> illo commendante susceptus <lb/>
+            fidei uestrae traditus et a uobis illo commendante susceptus <lb/>
             est. adquirite desperantes, arguite neglegentes, deditos somno <lb/>
             ignauae securitatis excutite, resides excitate. decet ouem perditam <lb/>
             in umeris suis bonum reportare pastorem et munitioribus <lb/>
@@ -4242,8 +4240,8 @@
             hucusque (qui) nesciui, sane capitulatim iam librum traditurus <lb/>
             inspexi. chartaceus liber est et ad ferendum iniuriam <lb n="10"/>
             parum fortis, quia citius charta, sicut nostis, uetustate consumitur. <lb/>
-            legite, si iubetis, atque transcribite. et spero, <sic>ufc</sic>, <lb/>
-            postquam <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> bene cognitus fuerit, ad me, cui est incognitus, <lb/>
+            legite, si iubetis, atque transcribite. et spero, ut, <lb/>
+            postquam uobis bene cognitus fuerit, ad me, cui est incognitus, <lb/>
             remittatur, quia corrigere neglegentiam meam frequentata membranae <lb/>
             ipsius lectione dispono. ora pro me. <lb n="15"/>
             
@@ -4254,7 +4252,7 @@
 <div n="4" subtype="letter" type="textpart">
 <ab> <title>IIII.  DOMINO SANCTO AO BEAT1SSIMO ET APOSTOLICA REUERENTIA SUSPICIENDO PAPAE RURICIO SEDATUS. </title> </ab>
           <p rend="script">Satis credidi et, quamlibet uobis laboriosum esset, uehementer <lb/>
-            optaui, ut ad necessitatem istam, quae hic nos <choice><sic>eihibuit</sic><corr>exhibuit</corr></choice>, <lb n="20"/>
+            optaui, ut ad necessitatem istam, quae hic nos exhibuit, <lb n="20"/>
             ueniretis uel per occasionem et benedictionem uestram <lb/>
             mererer et desiderium commune mutuo satiaretur aspectu. <lb/>
             et uere, posteaquam me praesentiae uestrae spes frustrata est, <lb/>
@@ -4301,7 +4299,7 @@
             quia testor deum, quod post praesentiam tuam nihil mihi <lb/>
             dulcius est, quam si conloquium desiderantissimae pietatis uel <lb/>
             litterarum dignatione meruero. rogo etiam et omni prece deposco,<lb n="25"/>
-            ut pro me, sicut facere uos certus sum, <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> cessatione <lb/>
+            ut pro me, sicut facere uos certus sum, sine cessatione <lb/>
             intercedere et orare dignemini. filios nostros et uenerans et <lb/>
             desiderans saluto.
 
@@ -4322,7 +4320,7 @@
 <div n="6" subtype="letter" type="textpart">
 <ab> <title>VI.  DOMNO SANCTO MERITIS BEATISSIMO PAPAE HONORIS CULTU SUSPICIENDO ATQVE APOSTOLICO PATRI DOMNO RURICIO EPISCOPO EUFRASIUS. </title> </ab>
           <p>Taediosam pietatem uestram esse tenui rumore cognoui, sed <lb n="5"/>
-            harum baiulum <choice n="0.71"><sic n="5">destinaui</sic><corr n="2">destinam</corr></choice>, ut anxietatem meam de acerbitate <lb/>
+            harum baiulum destinaui, ut anxietatem meam de acerbitate <lb/>
             nuntii celeriter releuetis, quia scit diuina pietas, quod et tristitiam <lb/>
             et infirmitatem uestram non conpatientis, sed perferentis <lb/>
             dolore participo. sic ita concedat diuina miseratio, ut mihi <lb/>
@@ -4359,7 +4357,7 @@
 <pb n="449"/>
             
           <p>Sed quia noui, quam sancto et frequenti ac pio desiderio <lb/>
-            interesse <choice n="0.70"><sic n="17">uolueritis</sic><corr n="7">nolueritis</corr></choice>, omnibus fratribus uestris uotum uestrum <lb/>
+            interesse uolueritis, omnibus fratribus uestris uotum uestrum <lb/>
             et sanctam uoluntatem exposui, pro qua re nihil pietati uestrae <lb/>
             uel potuimus uel debuimus inputare. sed, licet desiderabilem <lb/>
             uestram praesentiam non habuerimus, orationum tamen uestrarum<lb n="5"/>
@@ -4408,7 +4406,7 @@
             uita uilem, in epistula pretiosum, mouentem se, cum foditur <lb/>
             calcaribus aut urgetur uerberibus, et nihil penitus promouentem, <lb/>
             forma deterrimum, colore uilissimum, molliorem plumis, statuis <lb/>
-            pigriorem, solida corpora <sic>pauescentem</sic>, umbras solum, ut credo, <lb/>
+            pigriorem, solida corpora pauescentem, umbras solum, ut credo, <lb/>
             de consuetudine non timentem, fugitiuum, cum dimittitur, inmobilem, <lb n="5"/>
             cum sedetur, in planis stantem, in asperis conruentem, <lb/>
             qui teneri nesciat, ambulare non possit. quem priusquam <lb/>
@@ -4418,12 +4416,12 @@
             subposita de matre nothos furata creauit. 
 </p>
           <p rend="script">Putabam illum calidum animis, acrem cursibus, ignem, cum <lb/>
-            exhiberetur, elatis naribus <sic>efHaturum</sic>, concussurum solido cornu <lb/>
+            exhiberetur, elatis naribus efflaturum, concussurum solido cornu <lb/>
             campos, celeritate uentos et flumina praecursurum. talem enim <lb/>
              mihi splendidissimus epistulae sermo promiserat. credebam <lb n="15"/>
             etiam, quod illum mandentem frenos, terentem morsibus ferrum <lb/>
             duo fortiores uiri, ne euaderet, retinerent. nec me fefellit. <lb/>
-            <choice><sic>ilam</sic><corr>nam</corr></choice> trahebant eum aliquot, inpingebant alii et plures caedebant. <lb/>
+            nam trahebant eum aliquot, inpingebant alii et plures caedebant. <lb/>
             quem ut sic exhibitum uidi, optaui, ut talia, qualia erant, <lb/>
              non, qualia epistula mea continet, semper caris uestris munera <lb n="20"/>
             mitteretis. ego tamen, quia mihi non reliquistis in transmissi <lb/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,7 +96,7 @@
             paedagogo concludente in fidem, quae postea reuelata est; ubi et <lb/>
             remittantur quae male fiunt et eadem gratia iuuante non fiunt, <lb/>
             proficientium est enim uia, quamuis bene proficientes dicantur <lb n="5"/>
-            perfecti <milestone n="623" unit="altpage"/>  <choice n="0.73"><sic n="11">uiatores</sic><corr n="4">datores</corr></choice> : illa est autem summa perfectio, cui nihil addatur, <lb/>
+            perfecti <milestone n="623" unit="altpage"/>  uiatores : illa est autem summa perfectio, cui nihil addatur, <lb/>
             cum id, quo tenditur, coeperit possideri. 
 </p>
           
@@ -106,7 +104,7 @@
 
 <div n="33" subtype="section" type="textpart">
 <p><milestone n="14" unit="altsection"/> iam uero illud quod eis dicitur \'ipse tu sine peccato es?\' re   <lb/>
-            <sic>vera</sic> non pertinet ad eam rem, de qua uertitur quaestio sed quod
+            uera non pertinet ad eam rem, de qua uertitur quaestio sed quod
 
 <note type="footnote"> 1 arguentu] arguentn <foreign xml:lang="grc">Σ</foreign>1 || quis per illam] ∑<foreign xml:lang="grc">ΥΦχΨ</foreign> propter illa <lb/>
             que a («. e. <hi rend="italic">Augustinus</hi> editus a Benedictinis, <hi rend="italic">Paris. 1690 tom. 10) v</hi> K <lb/>
@@ -147,8 +145,8 @@
             loco, ubi de sacerdotibus sanctis agebatur, etenim expertus <lb/>
             est omnia, secundum similitudinem sine peccato: in <lb/>
             illa scilicet carne, quae habebat similitudinem carnis peccati, <lb/>
-            quamuis non esset caro peccati; quam tamen <choice><sic>similitadinem</sic><corr>similitudinem</corr></choice> non <lb/>
-            haberet nisi cetera <choice n="0.63"><sic n="6992">omnia</sic><corr n="4070">omnis</corr></choice> hominis esset caro peccati. iam illud quomodo<lb n="20"/>
+            quamuis non esset caro peccati; quam tamen simititudinem non <lb/>
+            haberet nisi cetera omnis hominis esset caro peccati. iam illud quomodo<lb n="20"/>
             accipiendum sit omnis qui natus est ex Deo non peccat, <lb/>
             et non potest peccare, quia semen eius in ipso manet, cum <lb/>
             ipse apostolus Iohannes, quasi non sit natus ex Deo aut eis loqueretur, <lb/>
@@ -223,9 +221,9 @@
             sed nullus hominum, ut, cum domatur, Dei misericordia, Dei <lb/>
             adiutorio, Dei gratia fieri fateamur. conetur ergo anima domare<lb n="5"/>
             linguam <hi rend="italic">et, dum conatur, poscat auxilium; et oret lingua,</hi> ut <lb/>
-            dometur lingua donante illo, qui dixit ad suos : non enim <choice n="0.41"><sic n="4236">uos</sic><corr n="6028">nos</corr></choice> <lb/>
+            dometur lingua donante illo, qui dixit ad suos : non enim uos <lb/>
             estis qui loquimini, sed Spiritus Patris uestri, qui <lb/>
-            loquitur in <choice n="0.39"><sic n="3215">uobis</sic><corr n="4825">nobis</corr></choice> itaque praecepto facere commonemur, quod <lb/>
+            loquitur in uobis itaque praecepto facere commonemur, quod <lb/>
             conantes et nostris uiribus non ualentes adiutorium diuinum<lb n="10"/>
             precemur. 
 </p>
@@ -242,12 +240,12 @@
              quodsi zelum amarum habetis et contentiones in <lb/>
             cordibus uestris, nolite gloriari et mendaces esse<lb/>
              aduersum ueritatem. non est ista sapientia de sursum <lb n="20"/>
-            descendens, sed terrena <choice n="0.15"><sic n="56">animalis</sic><corr n="298">animalia</corr></choice> diabolica. ubi  <lb/>
+            descendens, sed terrena animalis diabolica. ubi  <lb/>
             enim zelus et <milestone n="625" unit="altpage"/>  contentio, ibi inconstantia et omne  <lb/>
             opus prauum. quae autem de sursum est sapientia, <lb/>
             primum quidem pudica est, deinde pacifica modesta <lb/>
             suadibilis, plena misericordia et fructibus bonis, <lb n="25"/>
-            non <choice n="0.72"><sic n="24">iudicans</sic><corr n="9">indicans</corr></choice>, sine simulatione. haec est sapientia, quae
+            non indicans, sine simulatione. haec est sapientia, quae
 
 <note type="footnote"> AVCTORES <hi rend="italic">7 Matth. 10, 20 13 Iac, 3, 10 15 Iac. 3, 13—17</hi> </note>
 
@@ -264,19 +262,19 @@
 
 
 <pb n="669"/>
-            linguam domat, de <choice n="0.91"><sic n="121">sursum</sic><corr n="11">sorsum</corr></choice> descendens, non ab humano corde prosiliens.<lb/>
+            linguam domat, de sursum descendens, non ab humano corde prosiliens.<lb/>
              an et istam quisque abrogare audet gratiae Dei, et eam <lb/>
              superbissima uanitate ponet in hominis potestate? cur ergo oratur<lb/>
              ut accipiatur, si ab homine est ut habeatur? an et huic orationi<lb/>
             contradicitur, ne fiat iniuria libero arbitrio ? quodsi sibi sufficit <lb n="5"/>
             possibilitate naturae ad implenda omnia praecepta iustitiae , contradicatur<lb/>
              ergo et idem ipsi apostolo Iacobo admonenti et dicenti; <lb/>
-            si quis autem <choice n="0.32"><sic n="594">uestrum</sic><corr n="1220">nostrum</corr></choice> indiget sapientia, postulet a<lb/>
+            si quis autem uestrum indiget sapientia, postulet a<lb/>
              Deo, qui dat omnibus affluenter et non inproperat, <lb/>
             et dabitur ei. postulet autem in fide nihil haesitans. <lb n="10"/>
              haec est fides ad quam praecepta compellunt : ut lex imperet, fides<lb/>
              impetret, in multis, offendimus omnes. non enim et hoc <lb/>
-            iste apostolus alio modo pronuntiauit, sicut illud quod <choice n="0.93"><sic n="3942">ait</sic><corr n="271">it</corr></choice> \'linguam<lb/>
+            iste apostolus alio modo pronuntiauit, sicut illud quod ait \'linguam<lb/>
              nullus hominum domare potest\'. 
 </p>
           
@@ -288,7 +286,7 @@
             est Deo. legi enim Dei non est subjecta, nec enim <lb/>
             potest. qui autem in carne sunt, Deo placere. non <lb/>
             possunt. sapientiam quippe carnis dixit, non sapientiam de <lb/>
-            <choice n="0.91"><sic n="121">sursum</sic><corr n="11">sorsum</corr></choice> descendentem: et in carne esse non eos, qui nondum de 
+            sorsum descendentem: et in carne esse non eos, qui nondum de 
 
 
 
@@ -313,7 +311,7 @@
 
 
 <pb n="670"/>
-            corpore <choice n="0.80"><sic n="62">exierunt</sic><corr n="15">exierant</corr></choice>, sed eos, qui secundum carnem uiuunt, significatos <lb/>
+            corpore exierunt, sed eos, qui secundum carnem uiuunt, significatos <lb/>
             esse manifestum est. non autem ibi est quaestio, quae <lb/>
             uersatur. illud est, quod expecto ab isto audire, si possim, eos, <lb/>
             qui secundum spiritum uiuunt et ob hoc etiam hic adhuc uiuentes <lb/>
@@ -326,7 +324,7 @@
             
 </p>
           <p><milestone n="19" unit="altsection"/> Tractat etiam iste de peccatis ignorantiae et dicit, \'hominem <lb/>
-            <choice><sic>praeuigilare</sic><corr>praenigilare</corr></choice> debere ne ignoret, ideoque esse culpandam ignorantiam,<lb/>
+            praeuigilare debere ne ignoret, ideoque esse culpandam ignorantiam,<lb/>
             quia id homo nescit neglegentia sua quod adhibita diligentia <milestone n="626" unit="altpage"/>    <lb/>
             scire debuisset.; dum tamen omnia potius disputet, quam ut oret et <lb/>
             dicat: da mihi intellectum, et discam mandata tua. <lb/>
@@ -334,7 +332,7 @@
             etiam per sacrificia quaedam legis uidebantur expiari; aliud intellegere <lb/>
             uelle nec posse et facere contra legem non intellegendo <lb/>
             quae fieri uelit. unde admonemur petere a Deo sapientiam, qui <lb/>
-            dat omnibus affluenter, utique <choice n="0.87"><sic n="5798">his</sic><corr n="852">bis</corr></choice> omnibus, qui sic petunt <lb/>
+            dat omnibus affluenter, utique his omnibus, qui sic petunt <lb/>
             et tantum petunt, quomodo et quantum res tanta petenda est.
 
 <note type="footnote"> AVCTORES 7 <hi rend="italic">Rom. 13, 10</hi> 8 cantu Dei <hi rend="italic">sqq. Bom</hi>. 5, 5 <lb/>
@@ -363,11 +361,11 @@
 <div n="38" subtype="section" type="textpart">
 <p><milestone n="20" unit="altsection"/> Diuinitus tamen expianda esse peccata, commissa et pro eis   <lb/>
             Dominum exorandum fatetur, propter ueniam scilicet promerendam: <lb/>
-            quia id, quod <choice n="0.93"><sic n="2252">factum</sic><corr n="167">factam</corr></choice> est, facere <hi rend="italic"><choice n="0.78"><sic n="33">infectum</sic><corr n="9">infectam</corr></choice> multum</hi> ab isto laudata <lb/>
+            quia id, quod factum est, facere <hi rend="italic">infectum multum</hi> ab isto laudata <lb/>
             potentia illa, natura et uoluntas hominis, etiam ipso fatente non <lb/>
             potest; quare hac necessitate restat ut oret ignosci. ut autem <lb n="5"/>
-            adiuuetur ne peccet, nusquam dixit, non hic legit. <choice n="0.96"><sic n="463">mirum</sic><corr n="16">miram</corr></choice> de hac <lb/>
-            re omnino silentium, cum oratio Dominica utrumque <choice n="0.80"><sic n="67">petendum</sic><corr n="16">petendam</corr></choice> <lb/>
+            adiuuetur ne peccet, nusquam dixit, non hic legit. mirum de hac <lb/>
+            re omnino silentium, cum oratio Dominica utrumque petendum <lb/>
             esse commoneat: et ut dimittantur nobis debita nostra et ut non <lb/>
             inducamur in temptationem, illud ut praeterita expientur, hoc ut <lb/>
             futura uitentur. quod licet non fiat, nisi uoluntas adsit, tamen ut <lb n="10"/>
@@ -416,11 +414,11 @@
             aliquod, sed perperam facti actus exprimitur. <lb/>
             deinde adiungit: credo ita est et ei ita est, inquit, quomodo <lb n="5"/>
             potuit humanam debilitare uel mutare naturam, <lb/>
-            quod substantia caret? <choice n="0.89"><sic n="202">uidete</sic><corr n="23">uideto</corr></choice> <choice><sic>queaeso</sic><corr>quaeso</corr></choice>, <choice><sic>quemodo</sic><corr>quomodo</corr></choice> nesciens <lb/>
+            quod substantia caret? uidete quaeso, quomodo nesciens <lb/>
             nitatur euertere <milestone n="627" unit="altpage"/>  medicinalium eloquiorum saluberrimas uoces  <lb/>
             ego dixi: Domine, miserere mei, sana animam meam, <lb/>
             quoniam peccaui tibi. quid sanatur, si nihil est uulneratum, <lb/>
-            nihil <sic>sauciatum</sic>, nihil debilitatum atque uitiatum? porro si est <lb n="10"/>
+            nihil sauciatum, nihil debilitatum atque uitiatum? porro si est <lb n="10"/>
             quod sanetur, unde uitiatum est? audis confitentem; quid desideras <lb/>
             disputantem? sana, inquit, animam meam. ab illo quaere, <lb/>
             unde uitiatum sit, quod sanari rogat; et audi quod sequitur: <lb/>
@@ -461,7 +459,7 @@
             non ab inculpabili artifice contractum est, sed ex originali peccato, <lb n="5"/>
             quod commissum est libero arbitrio. ac per hoc natura poenalis <lb/>
             ad uindictam iustissimam pertinet. si enim iam sumus in Christo <lb/>
-            <choice n="0.93"><sic n="938">noua</sic><corr n="64">nona</corr></choice> creatura, tamen eramus natura filii irae sicut et <lb/>
+            noua creatura, tamen eramus natura filii irae sicut et <lb/>
             ceteri. Deus autem qui diues est in misericordia <lb/>
             propter multam dilectionem, qua dilexit nos, et cum <lb n="10"/>
             essemus mortui peccatis, conuiuificauit nos Christo, <lb/>
@@ -557,7 +555,7 @@
 <div n="42" subtype="section" type="textpart">
 <p><milestone n="7" unit="altsection"/> Quanto igitur zelo accensus est libri huius quem misistis conditor  <lb/>
             aduersus eos qui peccatis suis patrocinium de natura humanae <lb/>
-            infirmitatis <choice n="0.5"><sic n="1">perquirunt</sic><corr n="1">perquirant</corr></choice>, tanto et multo ardentiore zelo nos oportet <lb/>
+            infirmitatis perquirunt, tanto et multo ardentiore zelo nos oportet <lb/>
             accendi, ne euacuetur crux Christi. euacuatur autem, si aliquo <lb/>
             modo praeter illius sacramentum ad iustitiam uitamque aeternam <lb n="5"/>
             perueniri posse dicatur: quod in libro isto agitur, nolo dicere ab <lb/>
@@ -572,7 +570,7 @@
             hanc distinctionem ueram esse nemo ambigit: consequens <milestone n="629" unit="altpage"/>  enim <lb/>
             est, ut, quod est, esse potuerit, non est autem consequens, ut, <lb/>
             quod esse potest, etiam sit. quia enim Dominus Lazarum <lb n="15"/>
-            suscitauit, sine dubio potuit; quia. uero <choice n="0.96"><sic n="108">Iudam</sic><corr n="4">ludam</corr></choice> non suscitauit; <lb/>
+            suscitauit, sine dubio potuit; quia. uero Iudam non suscitauit; <lb/>
             numquid dicendum est: non potuit? potuit ergo; sed noluit; nam <lb/>
             si uoluisset, etiam hoc eadem potestate fecisset, quia et Filius, <lb/>
             quos uult uiuificat. sed hac distinctione uera atque manifesta <lb/>
@@ -614,7 +612,7 @@
             peccet\', et non est iustus in terra\' et \'non est, qui <lb/>
             faciat bonum\', et cetera his similia, inquit, ad non esse, <lb/>
             non ad non posse proficiunt. huiusmodi enim exemplis <lb/>
-            ostenditur, quales homines quidam tempore <choice n="0.28"><sic n="650">aliquo</sic><corr n="1601">aliis</corr></choice> <lb n="15"/>
+            ostenditur, quales homines quidam tempore aliquo <lb n="15"/>
             fuerint, non quod aliud esse non potuerint: unde <lb/>
             et iure inueniuntur esse culpabiles. nam si idcirco <lb/>
             tales fuerunt, quia aliud esse non potuerunt culpa <lb/>
@@ -667,10 +665,10 @@
             Christus, ponitur caput hominum iustorum, quia primus in omnibus <lb/>
             iustus fuit? sed de infante non loquor. iuuenis uel senex in ea <lb/>
             regione defunctus est, ubi non potuit Christi nomen audiri; potuit <lb/>
-            fieri iustus per naturam et liberum arbitrium, an <choice><sic>noa</sic><corr>non</corr></choice> potuit? si <lb n="15"/>
+            fieri iustus per naturam et liberum arbitrium, an non potuit? si <lb n="15"/>
             potuisse dicunt, ecce quod est crucem Christi euacuare, sine illa <lb/>
             quemquam per naturalem legem et uoluntatis arbitrium iustificari <lb/>
-            posse contendere. <choice><sic>dicamas</sic><corr>dicamus</corr></choice> et hic: ergo <hi rend="italic">Christus</hi> gratis <lb/>
+            posse contendere. dicamus et hic: ergo <hi rend="italic">Christus</hi> gratis <lb/>
             mortuus est. hoc enim omnes possent, etiam ei mortuus ille <lb/>
             non esset, et, si iniusti essent, quia uellent, essent, non quia <lb n="20"/>
             iusti esse non possent. si autem sine Christi gratia iustificari <lb/>
@@ -702,10 +700,10 @@
 </div>
 
 <div n="45" subtype="section" type="textpart">
-<p>  <milestone n="11" unit="altsection"/> Sed obicit sibi quasi ab alio dictum et ait: potest <choice n="0.39"><sic n="10010">quidem</sic><corr n="15042">quid</corr></choice> <lb/>
+<p>  <milestone n="11" unit="altsection"/> Sed obicit sibi quasi ab alio dictum et ait: potest quidem <lb/>
             esse, sed per Dei gratiam, inquies. deinde uelut <lb/>
             respondendo subiungit: ago humanitati tuae gratias, quod <lb n="5"/>
-            assertionem meam, quam dudum <sic>obpugnabus</sic>, non <lb/>
+            assertionem meam, quam dudum obpugnabas, non <lb/>
             modo non obpugnare aut confiteri solum contentus <lb/>
             non es, uerum etiam non refugis conprobare. nam <lb/>
             dicere \'potest quidem, sed per illum aut per illud\' <lb/>
@@ -721,7 +719,7 @@
             potest; an tu, qui rem negando et quicquid illud est <lb/>
             per quod res efficitur procul dubio negas? oblitus est,<lb n="20"/>
             iam se illi respondere, qui rem <hi rend="italic">non</hi> negat, cuius obiectionem <lb/>
-            paulo ante proposuerat dicentis: potest <milestone n="631" unit="altpage"/>  <choice n="0.39"><sic n="10010">quidem</sic><corr n="15042">quid</corr></choice> esse, <hi rend="italic">sed</hi> per   <lb/>
+            paulo ante proposuerat dicentis: potest <milestone n="631" unit="altpage"/>  quidem esse, <hi rend="italic">sed</hi> per   <lb/>
             Dei gratiam\'. quomodo ergo illam, pro qua iste multum laborat,
 
 <note type="footnote"> 1 quia] qua <foreign xml:lang="grc">Φ</foreign>1 || ei <hi rend="italic">om. <foreign xml:lang="grc">Ψ</foreign> cfsh</hi> || iccirc*F || alius <hi rend="italic"><foreign xml:lang="grc">Ψ</foreign> cfsh;<lb/>

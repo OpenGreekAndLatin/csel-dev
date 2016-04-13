@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -87,7 +85,7 @@
 <body>
 <div type="edition" n="urn:cts:latinLit:stoa0292a.stoa004.opp-lat1">
 <head>
-            <title type="main">Eiusdem carminis <choice n="0.5"><sic n="1">interpolatum</sic><corr n="1">interpolatam</corr></choice> exemplar. </title>
+            <title type="main">Eiusdem carminis interpolatum exemplar. </title>
           </head>
           <ab>
             <title type="sub">MARII VICTORINI AFRI, VIRI CONSVLARIS, DE MACHABAEIS ERVDITISSIMVM CARMEN. [PRIMVM EDIDIT IOANNES SICHARDVS ]</title>
@@ -131,7 +129,7 @@
             <l n="27">quae uitam nobis promittit tempore longo: </l>
             <l n="28">hanc sequor, hanc didici: non lubrica tangere regna. </l>
             <l n="29">sumere diuitias facile est, et perdere uitam. </l>
-            <l n="30">sed licet et flammas post uerbera saeua <sic>millelis</sic>, </l>
+            <l n="30">sed licet et flammas post uerbera saeua mineris, </l>
             <l n="31">nil mutare potes: primis accepimus annis </l>
             <l n="32">uirtutem cum lege datam: mihi linquere certum est </l>
             <l n="33">quicquid saeue iubes. natis quod nunc dominaris, </l>
@@ -167,7 +165,7 @@
             <l n="51">poena aut quem maneat, celeres decet esse ministros. </l>
 
             <l n="52">Interea foecunda parens iam crine soluta </l>
-            <l n="53"><sic n="poss">4astitit</sic> hortanti similis. iam pectore nudo </l>
+            <l n="53">astitit hortanti similis. iam pectore nudo </l>
             <l n="54">ubera protendens, natorum alimenta suorum : </l>
             <l n="55">non confusa stetit. natumque ut uidit ad ignes </l>
             <l n="56">inconstante gradu timidum procedere. dixit: </l>
@@ -186,7 +184,7 @@
             <l n="67">dumque tacet. tacitusque rogat quem debet, et orat, </l>
             <l n="68">non sensit rapidos subiectos cratibus ignes, </l>
             <l n="69">corpus inane fuit. mater gauisa dolore est, </l>
-            <l n="70">et dixit: Vici, <choice n="0.22"><sic n="22">uincam</sic><corr n="78">uineam</corr></choice> si saepius orem. </l>
+            <l n="70">et dixit: Vici, uincam si saepius orem. </l>
             <l n="71">duret natorum uirtus incognita Regi. </l>
             <l n="72">sed iam nota deo, populi qui pectora nouit. </l>
 
@@ -230,7 +228,7 @@
             <l n="92">hic qui sceptra tenet. regno qui saeuit in isto. </l>
             <l n="93">tempus inane cogit, regnum uitamque creauit. </l>
             <l n="94">damnarique nocens aeternos sentiet ignes, <milestone n="95" unit="altline"/></l>
-            <l n="95">tu securus <choice><sic>ens</sic><corr>eris</corr></choice>. turba comitante piorum. </l>
+            <l n="95">tu securus eris. turba comitante piorum. </l>
             <l n="96">accipe nate meos uultus. et respice coelum. </l>
             <l n="97">autoremque deum per quem tibi uita paratur </l>
             <l n="98">hac melior. fratrisque tui uestigia calca. </l>
@@ -239,7 +237,7 @@
             <l n="101">constitit, atque hilari uultu contemnere Regem </l>
             <l n="102">coepit. et ut ridens ardentes irruit ignes. </l>
             <l n="103">collapsusque iacens anima superante quieuit. </l>
-            <l n="104">mater ut hoc uidit <choice><sic>ngido</sic><corr>rigido</corr></choice> sic ore locuta est: <milestone n="105" unit="altline"/></l>
+            <l n="104">mater ut hoc uidit rigido sic ore locuta est: <milestone n="105" unit="altline"/></l>
 
 <note type="footnote">87 quae paruo latitantia tempore 91 moresj animos 93 cogit] <lb/>
             regit creauit] cremare 97 auctorem 99 iussit 100 uidere </note>
@@ -261,10 +259,10 @@
             <l n="110">spes melior iam matris erat. iam tertius instat </l>
             <l n="111">ecce locus poenae. si poena est uincere Regem, </l>
             <l n="112">et seruire deo. laus est non poena furentis. </l>
-            <l n="113">tertius attrahitur iuuenis iubente <choice><sic>tvranno</sic><corr>tyranno</corr></choice>. </l>
+            <l n="113">tertius attrahitur iuuenis iubente tyranno. </l>
             <l n="114">qui nondum sanatus erat furor intus et ira <milestone n="115" unit="altline"/></l>
 
-            <l n="115">saeuibat pariter. quod fortia pectora <choice><sic>fratrttm</sic><corr>fratrum</corr></choice> </l>
+            <l n="115">saeuibat pariter. quod fortia pectora fratrum </l>
             <l n="116">uiderat impauidi Regis superasse furorem. </l>
             <l n="117">constitit ante pedes iuuenis florentibus annis </l>
             <l n="118">egregius forma. dignus qui regna teneret </l>
@@ -276,7 +274,7 @@
             <l n="123">sunt tibi iam fratres pietatis sede manentes, </l>
             <l n="124">iam locus est melior. quam regna labentia Regis, <milestone n="125" unit="altline"/></l>
 
-            <l n="125">quorum si <choice><sic>propnos</sic><corr>proprios</corr></choice> attingis pectore sensus </l>
+            <l n="125">quorum si proprios attingis pectore sensus </l>
             <l n="126">uictor apud populos Regem superasse fereris, </l>
             <l n="127">sicut fama tuos iam misit in omnia fratres : </l>
             <l n="128">huc accede precor. sunt haec. sunt apta dolenti </l>
@@ -305,18 +303,18 @@
             <l n="135">qui simul admonitus cratem conscendit in ignem </l>
             <l n="136">intrepidus, certaque fide sua membra locauit. <milestone n="137" unit="altline"/> </l>
             <l n="137">sanctaque quae superest anima inuiolata recessit. <milestone n="140 " unit="altline"/> </l>
-            <l n="138">conciderant flammae <choice><sic>tepidar</sic><corr>tepida</corr></choice> remanente fauilla <milestone n="138" unit="altline"/> </l>
+            <l n="138">conciderant flammae tepida remanente fauilla <milestone n="138" unit="altline"/> </l>
             <l n="139">illaesum corpus tellus adaperta recepit. <milestone n="139" unit="altline"/> </l>
 
             <l n="140">At mater dubitans gemitus an gaudia sumat. <milestone n="141" unit="altline"/> </l>
             <l n="141">haesitat, et querulo sic est sermone locuta: </l>
             <l n="142">quid nunc dire paras? iussis paremus et omnes </l>
             <l n="143">munera sed partus custos ne subtrahat ulla, </l>
-  <l n="144">sed <choice><sic>iicet</sic><corr>licet</corr></choice> ipse uelis non sum passura tyranne: <milestone n="145" unit="altline"/></l> 
+  <l n="144">sed licet ipse uelis non sum passura tyranne: <milestone n="145" unit="altline"/></l> 
             <l n="145">omnes nam pariter pereant certamine tanto, <note type="margin">corruptissima sunt
             quae supersunt
              fere omnia, nec
-            eiusmodi quae admittant <sic>emandationis</sic> diligentiam. </note></l>
+            eiusmodi quae admittant emendationis diligentiam. </note></l>
             <l n="146">temporis ipse tui mutes licet horride poenam, </l>
             <l n="147">duraque quae sanctis eadem sententia natis </l>
             <l n="148">sed grauiora paras, si sunt grauiora, minari, </l>
@@ -360,7 +358,7 @@
             <l n="168">quod manet in dominum. sanctus qui nascitur Isac. </l>
   <l n="169">tunc cum iam nullum natum sperare senectus <milestone n="170" unit="altline"/></l>
 
-            <l n="170">sponte sua poterat, sterilis <sic>qUIa</sic> <choice><sic>oarra</sic><corr>Sarra</corr></choice> <choice><sic>maneoat</sic><corr>manebat</corr></choice>. </l>
+            <l n="170">sponte sua poterat, sterilis quia Sarra manebat. </l>
             <l n="171">attamen haec peperit, generique propagine coepta </l>
             <l n="172">ex insperato remanent tibi Sarra nepotes, </l>
             <l n="173">Esau et patriam deductus Iacob in unam. </l>
@@ -392,7 +390,7 @@
 <pb n="262"/>
   <l n="184">turba nate meae numerumque hortare sequentum. <milestone n="185" unit="altline"/></l>
 
-            <l n="185">Nec decreta parens <choice><sic>luetus</sic><corr>luctus</corr></choice> et gaudia mixta </l>
+            <l n="185">Nec decreta parens luctus et gaudia mixta </l>
             <l n="186">finierat claros monitus, tum luminis orbes </l>
             <l n="187">ipse leuat, matremque oculis attendere coepit. </l>
             <l n="188">nil iam triste gerens. Habitus. uultusque fatentur </l>
@@ -401,7 +399,7 @@
             <l n="190">per partus diuisa suos: sed et ipse citato </l>
             <l n="191">elapsus manibus cursu conscendit in ignes, </l>
             <l n="192">mira loquar, non flamma comas, non contigit ora. </l>
-            <l n="193">exanime ut corpus <choice><sic>tiammas</sic><corr>flammas</corr></choice> superauerat ignis, </l>
+            <l n="193">exanime ut corpus flammas superauerat ignis, </l>
   <l n="194">ore patente tamen tacite qua spiritus iret <milestone n="195" unit="altline"/></l>
 
             <l n="195">unde acceptus erat pariter cum sanguine fugit. </l>
@@ -422,7 +420,7 @@
             <l n="208">parte in utraque manet, liceat producere nullis: </l>
   <l n="209">nam quoscunque tuum iussisti excedere regnum, <milestone n="210" unit="altline"/></l>
 
-            <l n="210">forsitan hoc mortem credas <choice><sic>funose</sic><corr>furiose</corr></choice> tyranne. <milestone n="213 " unit="altline"/> </l>
+            <l n="210">forsitan hoc mortem credas furiose tyranne. <milestone n="213 " unit="altline"/> </l>
 
 <note type="footnote"> 184 turbamn. meam 193flammae 199 exorsa 205 sidera 210 morem </note>
 
@@ -446,13 +444,13 @@
   <l n="217">mortalis tamen es, nec in aeuum regna tenebis. <milestone n="220" unit="altline"/></l>
             
 
-            <l n="218">Concipit Antiochus <choice><sic>funas</sic><corr>furias</corr></choice>, saeuusque tyrannus </l>
+            <l n="218">Concipit Antiochus furias, saeuusque tyrannus </l>
             <l n="219">exhibet. et gemitus intra sua pectora uoluit, </l>
             <l n="220">consentit cum mente color. tristisque grauatos </l>
             <l n="221">attollit uultus, et talia uerba profatur: </l>
   <l n="222">haec tua libertas. et dira potentia linguae, <milestone n="225" unit="altline"/></l>
 
-            <l n="223">atque hic quem tumida portas <choice><sic>cermce</sic><corr>ceruice</corr></choice> <choice><sic>ngorem</sic><corr>rigorem</corr></choice> </l>
+            <l n="223">atque hic quem tumida portas ceruice rigorem </l>
             <l n="224">senties ira tibi Regis. quid tempora possint. </l>
             <l n="225">si nondum es satiata malis. et fingere tentas </l>
             <l n="226">laetitiam. luctusque tuos in gaudia uertis, </l>
@@ -503,7 +501,7 @@
             <l n="249">tu modo ne dubita monitis parere parentis: </l>
             <l n="250">sed uigor et uirtus, penitusque in pectore toto </l>
             <l n="251">mens maneat iam plena deo. Sic fortior aetas </l>
-  <l n="252">quam <choice><sic>Kegi</sic><corr>Regi</corr></choice> sperare fuit. sperare iubentem. <milestone n="255" unit="altline"/></l>
+  <l n="252">quam Regi sperare fuit. sperare iubentem. <milestone n="255" unit="altline"/></l>
 
             <l n="253">o quanta uirtus, quanta est fiducia forti? </l>
             <l n="254">sed tamen quid dubitas medias euincere flammas? </l>
@@ -514,11 +512,11 @@
             <l n="258">sed ne forte tamen rapidus te terreat ignis, </l>
             <l n="259">fratrum sume animos. aeternumque inuoca numen.  </l>
 
-            <l n="260"><choice><sic>lussa</sic><corr>Iussa</corr></choice> facit, tacitusque deum testatus, et orat </l>
+            <l n="260">Iussa facit, tacitusque deum testatus, et orat </l>
             <l n="261">murmure quo poterat, puerum non impedit aetas. </l>
   <l n="262">non iam timere necem. matrique uolenti <milestone n="265" unit="altline"/></l>
 
-            <l n="263">paruit. et dicto citius <choice><sic>supenrruit</sic><corr>superirruit</corr></choice> ignes. </l>
+            <l n="263">paruit. et dicto citius superirruit ignes. </l>
 
 <note type="footnote"> 242 et tr.] tristisque 243 sed neget 247 cum] quam 251 sic] sit <lb/>
             252 iubentis 253 o q. est uirtus fortis 254 tamen] tu 255 (mihi <lb/>
@@ -533,7 +531,7 @@
             est <hi rend="italic">al.)</hi> 263 et d.] edicto inruit </note> <lb/>
              
 <pb n="265"/>
-            <l n="264"><sic>cesseruut</sic> <sic>ffammae</sic>, cessit dolor omnis, et una </l>
+            <l n="264">cesserunt flammae, cessit dolor omnis, et una </l>
             <l n="265">corpus et ignis erat, corpus superauerat ignem. </l>
             <l n="266">spiritus ante tamen placidas superauerat auras. </l>
 
@@ -593,14 +591,14 @@
             <l n="298">qui tenes imperium coeli, terraeque, marisque. </l>
             <l n="299">sydera qui coelis. qui das animalia terris, </l>
             <l n="300">aequoribus pisces, et talia qui uerberas auras </l>
-  <l n="301">ad prima meae cupidae <choice><sic>nducia</sic><corr>fiducia</corr></choice> surgit, <milestone n="305" unit="altline"/></l>
+  <l n="301">ad prima meae cupidae fiducia surgit, <milestone n="305" unit="altline"/></l>
 
-            <l n="302">qui <choice><sic>cbaos</sic><corr>chaos</corr></choice> implicitum caeca caligine misces. </l>
-            <l n="303">diuidis in partes. et das noctemque <choice><sic>cliemque</sic><corr>diemque</corr></choice>. </l>
+            <l n="302">qui chaos implicitum caeca caligine misces. </l>
+            <l n="303">diuidis in partes. et das noctemque diemque. </l>
             <l n="304">lunam cum uario sole, et qui tempora seruent. </l>
   <l n="305">nocte dieque iubes lumen parere per orbem. <milestone n="810" unit="altline"/></l>
 
-            <l n="306">et post haec hominem cuius de semine <choice n="0.61"><sic n="529">munus</sic><corr n="327">mundus</corr></choice> </l>
+            <l n="306">et post haec hominem cuius de semine mundus </l>
             <l n="307">completur, mortale genus et lingua liquescit </l>
             <l n="308">dissona per gentes. sapor est tamen omnibus unus, </l>
             <l n="309">sed qui mutauit meritis hominumque loquelas. </l>
@@ -633,7 +631,7 @@
             <l n="318">occupat et totis quaesita lympha latebris, </l>
             <l n="319">humor erat nullus, cuncti clamore querentes </l>
             <l n="320">poscebant Mosen dare sitientibus undas. </l>
-  <l n="321">ad quos <choice><sic>llle</sic><corr>ille</corr></choice> breui sic est sermone locutus: <milestone n="325" unit="altline"/></l>
+  <l n="321">ad quos ille breui sic est sermone locutus: <milestone n="325" unit="altline"/></l>
 
             <l n="322">credite posse deum quicquid petieritis illum </l>
             <l n="323">sed tamen hanc uirgam amnemque diffindere saxum. </l>
@@ -644,13 +642,13 @@
             <l n="327">confiteor totus cum sit tibi debitor orbis, </l>
             <l n="328">tu quicquid possunt gentes. potes omnia solus. <milestone n="332 " unit="altline"/> </l>
             <l n="329">tu mortale genus curas. onerasque, leuasque, <milestone n="334 " unit="altline"/> </l>
-  <l n="330">te precor <choice><sic>attomta</sic><corr>attonita</corr></choice> mente confirma timentem: <milestone n="335" unit="altline"/></l>
+  <l n="330">te precor attonita mente confirma timentem: <milestone n="335" unit="altline"/></l>
 
             <l n="331">ne desit fratrum numero meus infimus infans. </l>
             <l n="332">ignarusque sui. quem iam procul ecce teneri </l>
             <l n="333">conspicio, turba circunueniente frequenti.hunc </l>
             <l n="334">propter solum lachrymas, quas comouet aetas, </l>
-  <l n="335">unus <choice><sic>ennn</sic><corr>enim</corr></choice> superest. de quo mihi maxima cura est. <milestone n="340" unit="altline"/></l>
+  <l n="335">unus enim superest. de quo mihi maxima cura est. <milestone n="340" unit="altline"/></l>
 
             <l n="336">ne tener ignoret qua sit de gente creatus. </l>
             <l n="337">hunc ego si possim secreto apprehendere solum </l>
@@ -722,7 +720,7 @@
             <l n="367">ut remanere uelis. remanebis solus et * </l>
             <l n="368">non tibi iam fratres dederint solatia uitae: </l>
             <l n="369">defecerunt, unum, unum quod superest, matrem * </l>
-  <l n="370">et genus et patriam si talia dicta <choice><sic>reousas</sic><corr>recusas</corr></choice>. <milestone n="375" unit="altline"/></l>
+  <l n="370">et genus et patriam si talia dicta recusas. <milestone n="375" unit="altline"/></l>
 
             <l n="371">heu quanto melius uitam seruabis . </l>
             <l n="372">si facias tandem quicquid fecere priores: </l>

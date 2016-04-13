@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,15 +101,15 @@
           <p rend="script">Cum anathemauerint eandem haeresim per hanc formam infra <lb n="5"/>
             scriptam libellumque dederit unusquisque eorum confessionis et <lb/>
             paenitentiae suae atque, anathematis eis petens in ecclesia uel <lb/>
-            catechumeni <choice><sic>vel</sic><corr>uel</corr></choice> paenitentis locum, si libellus eius episcopo placuerit <lb/>
+            catechumeni uel paenitentis locum, si libellus eius episcopo placuerit <lb/>
             eumque acceptauerit, det ei epistulam cum die et consule, ut nullam <lb/>
-            de superiore tempore molestiam uel de publicis legibus <choice><sic>vel</sic><corr>uel</corr></choice> <lb n="10"/>
+            de superiore tempore molestiam uel de publicis legibus uel <lb n="10"/>
             de disciplina ecclesiastica patiatur. et post ipsum diem si aliquibus <lb/>
-            indiciis <choice><sic>Manichaens</sic><corr>Manichaeus</corr></choice> adparuerit, sentiat iustitiae <choice><sic>seueritatcm</sic><corr>seueritatem</corr></choice>, quae <lb/>
-            talibus adhibenda est: id est, ut ab eius consortio <choice><sic>vel</sic><corr>uel</corr></choice> amicitia <lb/>
-            <choice><sic>vel</sic><corr>uel</corr></choice> quacumque societate christiani se abstineant secundum apostolicam <lb/>
-            disciplinam. commendentur autem <choice><sic>roligiosis</sic><corr>religiosis</corr></choice> catholicis uicinis <lb n="15"/>
-            uel cohabitatoribus suis, <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> clericis siue laicis, per quorum <lb/>
+            indiciis Manichaeus adparuerit, sentiat iustitiae seueritatem, quae <lb/>
+            talibus adhibenda est: id est, ut ab eius consortio uel amicitia <lb/>
+            uel quacumque societate christiani se abstineant secundum apostolicam <lb/>
+            disciplinam. commendentur autem religiosis catholicis uicinis <lb n="15"/>
+            uel cohabitatoribus suis, siue clericis siue laicis, per quorum <lb/>
             erga se curam frequentent audientiam sermonis dei et quorum <lb/>
             testimonio possint innotescere; nec facile admittantur ad baptismum, <lb/>
             si catechumeni sint, nec ad reconciliationem, si paenitentiae locum
@@ -141,64 +139,64 @@
 </p>
 <pb n="980"/>
             
-          <p>acceperint, nisi periculo mortis <choice><sic>urgnente</sic><corr>urguente</corr></choice>, uel si <sic>eosaHquanto</sic> <lb/>
+          <p>acceperint, nisi periculo mortis urguente, uel si eos aliquanto <lb/>
             tempore probatos esse cognouerit episcopus per eorum testimonium, <lb/>
-            quibus <choice><sic>fnerint</sic><corr>fuerint</corr></choice> commendati. 
+            quibus fuerint commendati. 
 </p>
-          <p>Forma ergo, secundum quam <choice><sic>dobent</sic><corr>debent</corr></choice> hanc <choice><sic>haerosim</sic><corr>haeresim</corr></choice> qui corriguntur <lb/>
-            <sic>anathemare</sic>, haec est. <lb n="5"/>
+          <p>Forma ergo, secundum quam debent hanc haeresim qui corriguntur <lb/>
+            anathemare, haec est. <lb n="5"/>
             
 </p>
           
 </div>
 
 <div n="1" subtype="chapter" type="textpart">
-<p>Qui credit esse duas naturae diuersis principiis <choice><sic>ezistentes</sic><corr>existentes</corr></choice>, <lb/>
+<p>Qui credit esse duas naturae diuersis principiis existentes, <lb/>
             unam bonam. quod est deus, alteram malam, quam non creauit <lb/>
-            <choice n="0.02"><sic n="38">dens</sic><corr n="1292">deus</corr></choice>, (<choice><sic>habentein</sic><corr>habentem</corr></choice> <choice><sic>priucipes</sic><corr>principes</corr></choice> suos et mala sua, quae non <choice><sic>creanit</sic><corr>creauit</corr></choice> <lb/>
+            deus, (habentem principes suos et mala sua, quae non creauit <lb/>
             deus), anathema sit. 
 </p>
           
 </div>
 
 <div n="2" subtype="chapter" type="textpart">
-<p>Qui credit <choice><sic>dnas</sic><corr>duas</corr></choice> naturas bellum <choice><sic>intur</sic><corr>inter</corr></choice> se gessisse et partem<lb n="10"/>
+<p>Qui credit duas naturas bellum inter se gessisse et partem<lb n="10"/>
             naturae dei in eodem bello principibus tenebrarum et omnibus <lb/>
-            generibus ad malam naturam pertinentibus fuisse <choice><sic>permixtamet</sic><corr>permixtam</corr></choice> ab <lb/>
+            generibus ad malam naturam pertinentibus fuisse permixtam ab <lb/>
             eis teneri conligatam, obpressam, inquinatam, per quod et credi <lb/>
-            facit dei naturam esse mutabilem et coinquinabilem, <choice><sic>anatchema</sic><corr>anathema</corr></choice> sit. 
+            facit dei naturam esse mutabilem et coinquinabilem, anathema sit. 
 </p>
           
 </div>
 
 <div n="3" subtype="chapter" type="textpart">
-<p>Qui credit partem dei ligatam et inquinatam teneri in <choice><sic>daomonibus</sic><corr>daemonibus</corr></choice><lb n="15"/>
+<p>Qui credit partem dei ligatam et inquinatam teneri in daemonibus<lb n="15"/>
             et in omnibus animalibus fruticumque generibus et per <lb/>
             escas Manichaeorum electorum solui atque purgari, ut credatur <lb/>
-            pars dei polluta teneri in <sic>cucumeribus</sic> et melonibus et radicibus <lb/>
+            pars dei polluta teneri in cucumeribus et melonibus et radicibus <lb/>
             et porris et quibuscumque uilissimis herbulis, et ei subueniri, cum <lb/>
-            ab electis <choice><sic>Manichaeomm</sic><corr>Manichaeorum</corr></choice> ista <choice><sic>comeduutur</sic><corr>comeduntur</corr></choice>, anathema sit. <lb n="20"/>
+            ab electis Manichaeorum ista comeduntur, anathema sit. <lb n="20"/>
             
 </p>
           
 </div>
 
 <div n="4" subtype="chapter" type="textpart">
-<p>Qui credit hominem primum, qui est <choice><sic>appeilatus</sic><corr>appellatus</corr></choice> Adam, non <lb/>
+<p>Qui credit hominem primum, qui est appellatus Adam, non <lb/>
             a deo factum, sed a principibus tenebrarum genitum, at pars dei, <lb/>
             quae in eorum membris captiua tenebatur, copiosius et abundantius <lb/>
             in terra teneatur, et isto modo creatum, cum masculi et <lb/>
             feminae principes tenebrarum concubuissent et fetus suos maiori<lb n="25"/>
-            principi tenebrarum <choice><sic>dedissen</sic><corr>dedissent</corr></choice> t, <sic>ot</sic> ille <sic>onmes</sic> comedisset et cum <lb/>
-            sua coniuge <choice><sic>ccncubuisset</sic><corr>concubuisset</corr></choice> atque ita ex illa Adam generasset, ligans <lb/>
-            in illo magnam partem dei, quae ligata fuerat in omnibus <choice><sic>fctibus</sic><corr>fetibus</corr></choice> <lb/>
+            principi tenebrarum dedissent t, et ille omnes comedisset et cum <lb/>
+            sua coniuge concubuisset atque ita ex illa Adam generasset, ligans <lb/>
+            in illo magnam partem dei, quae ligata fuerat in omnibus fetibus <lb/>
             principum tenebrarum. quos ei manducandos dederunt, anathema sit. 
 </p>
           
 </div>
 
 <div n="5" subtype="chapter" type="textpart">
-<p>Qui credit principes <choice><sic>tHnebrarom</sic><corr>tenebrarum</corr></choice> ligatos esse in caelo habentes <lb n="30"/>
+<p>Qui credit principes tenebrarum ligatos esse in caelo habentes <lb n="30"/>
             in se conligatam in angustiis atque angoribus uitalem substantiam, <lb/>
             hoc est partem dei, et eo modo liberari de membris eorum, cum
 
@@ -219,17 +217,17 @@
             beatus pater qui lucidas naues habet diuersoria et habitacula, id <lb/>
             est solem et lunam, uirtutes suas transfigurat in feminas pulchras, <lb/>
             quas obponat concupiscendas masculis principibus tenebrarum, et <lb/>
-            in masculos pulchros. quos <sic>obponit</sic> concupiscendos feminis princ\'pibus <lb/>
-            tenebrarum, ut per ipsam concupiscentiam <choice><sic>soJuatur</sic><corr>soluatur</corr></choice> ex eis <lb n="5"/>
+            in masculos pulchros. quos obponit concupiscendos feminis princ\'pibus <lb/>
+            tenebrarum, ut per ipsam concupiscentiam soluatur ex eis <lb n="5"/>
             uitalis substantia id est pars dei. et ex eorum membris liberata <lb/>
-            purgetur, <choice><sic>anatbema</sic><corr>anathema</corr></choice> sit. 
+            purgetur, anathema sit. 
 </p>
           
 </div>
 
 <div n="6" subtype="chapter" type="textpart">
-<p>Qui credit partem dei, quae de commixtione gentis <choice><sic>tuncbrarum</sic><corr>tenebrarum</corr></choice> <lb/>
-            non potuerit <choice><sic>Uberari</sic><corr>liberari</corr></choice> atque purgari. damnari et in aeternum <lb/>
+<p>Qui credit partem dei, quae de commixtione gentis tunebrarum <lb/>
+            non potuerit liberari atque purgari. damnari et in aeternum <lb/>
             adfigi horribili globo, in quo globo includitur gens tenebrarum, <lb n="10"/>
             anathema sit
 </p>
@@ -238,9 +236,9 @@
 
 <div n="7" subtype="chapter" type="textpart">
 <p>Qui credit legem, quae data est per Moysen, non esse ab <lb/>
-            uno et uero deo datam <choice><sic>dec</sic><corr>nec</corr></choice> spiritu boni dei et ueri locutos prophetas, <lb/>
+            uno et uero deo datam dec spiritu boni dei et ueri locutos prophetas, <lb/>
             qui fuerunt in populo Israhel et in canone diuinarum <lb/>
-            scripturarum habentur apud <choice><sic>catholieam</sic><corr>catholicam</corr></choice> ecclesiam. anathema sit. <lb n="15"/>
+            scripturarum habentur apud catholicam ecclesiam. anathema sit. <lb n="15"/>
             
 </p>
           
@@ -248,9 +246,9 @@
 
 <div n="8" subtype="chapter" type="textpart">
 <p>Qui credit non habuisse ueram carnem filium dei, dominum <lb/>
-            nostrum <choice><sic>Jesum</sic><corr>Iesum</corr></choice> Christum, neque natum esse de Maria uirgine neque <lb/>
-            <choice><sic>oeram</sic><corr>ueram</corr></choice> mortem <sic>foisae</sic> perpessum et a mortuis resurrexisse, sed <lb/>
-            tantummodo spiritum fuisse sine carne, sic autem <choice><sic>ndparere</sic><corr>adparere</corr></choice> uoluisse. <lb/>
+            nostrum Iesum Christum, neque natum esse de Maria uirgine neque <lb/>
+            ueram mortem fuisse perpessum et a mortuis resurrexisse, sed <lb/>
+            tantummodo spiritum fuisse sine carne, sic autem adparere uoluisse. <lb/>
             ut et caro putaretur, quae non erat, atque hoc modo contradicit <lb n="20"/>
             euangelio, ubi legitur domino ipso dicente: uidete manus meas <lb/>
             et pedes meos : palpate et uidete, quia spiritus ossa et <lb/>
@@ -291,25 +289,25 @@
             29 potuit <hi rend="italic">SPTD</hi> 30 manis <hi rend="italic">ClLS</hi> qui∗ .(a <hi rend="italic">er) C</hi> </note> <lb n="30"/>
              
 <pb n="982"/>
-            scriptas inpietates <sic>tt</sic> alias sacrilegas fabulas docuit et conscripsit <lb/>
+            scriptas inpietates et alias sacrilegas fabulas docuit et conscripsit <lb/>
             et credendas miseris persuasit, intendens spiritibus seductoribus <lb/>
             et doctrinis daemoniorum mendaciloquorum, anathema sit. 
 </p>
-          <p>Item forma <choice><sic>epistnlae</sic><corr>epistulae</corr></choice>, quam dat episcopus conuersis, ista est. <lb/>
-            Quoniam te Manichaeorum <choice><sic>anditorem</sic><corr>auditorem</corr></choice> to paenitet fuisse, sicut<lb n="5"/>
+          <p>Item forma epistulae, quam dat episcopus conuersis, ista est. <lb/>
+            Quoniam te Manichaeorum auditorem to paenitet fuisse, sicut<lb n="5"/>
             ipse confessus es, anathema dicens blasphemiis et inpiissimae atque <lb/>
-            <choice><sic>inmnndissimae</sic><corr>inmundissimae</corr></choice> haeresi eorum. ex qua te nonnisi fides catholica <lb/>
+            inmundissimae haeresi eorum. ex qua te nonnisi fides catholica <lb/>
             saluum fecit : habebis hanc epistulam aduersus eos, qui tibi temporis <lb/>
             praeteriti errorem, quantum ad istam nefariam pertinet sectam, <lb/>
-            obiciendum <choice><sic>pntauerint</sic><corr>putauerint</corr></choice>, quae scripta est die illo et consule illo. <lb n="10"/>
+            obiciendum putauerint, quae scripta est die illo et consule illo. <lb n="10"/>
             
 </p>
-          <p rend="script">Electis <choice n="0.00"><sic n="1">nero</sic><corr n="7062">uero</corr></choice> eorum, qui se conuerti dicunt ad catholicam fidem, <lb/>
+          <p rend="script">Electis uero eorum, qui se conuerti dicunt ad catholicam fidem, <lb/>
             etiamsi et ipsi secundum superiorem formam eandem haeresim <lb/>
             anathemauerint, non facile dandae sunt litterae, sed cum dei seruis <lb/>
-            esse debebunt, <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> clericis <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> laicis in monasterio uel xenodochio, <lb/>
+            esse debebunt, sine clericis siue laicis in monasterio uel xenodochio, <lb/>
             donec adpareat penitus ipsa superstitione caruisse. et<lb n="15"/>
-            tunc uel baptizentur, si non fuerint baptizati, <choice><sic>vel</sic><corr>uel</corr></choice> <choice><sic>recouciJientur</sic><corr>reconcilientur</corr></choice>, <lb/>
+            tunc uel baptizentur, si non fuerint baptizati, uel reconcilientur, <lb/>
             si paenitentiae locum acceperint. nec acceptis cito litteris loca <lb/>
             mutent et per eandem scriptam incautis in se quaerendi sunt, si <lb/>
             quos nouerunt, ut et ipsi sanari possint et sic suscipiantur.

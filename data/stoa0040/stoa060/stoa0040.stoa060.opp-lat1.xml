@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -371,12 +369,12 @@
              
 <pb n="241"/>
             permansit et peperit; hanc felicitatem quoniam totam utraque <lb/>
-            <choice><sic>hahere</sic><corr>habere</corr></choice> non potuimus, partitae sumus, ut uos sitis uirgines, <lb/>
-            nos simus matres; uobis quod defit in prole, consoletur <choice><sic>sernata</sic><corr>seruata</corr></choice> <lb/>
+            habere non potuimus, partitae sumus, ut uos sitis uirgines, <lb/>
+            nos simus matres; uobis quod defit in prole, consoletur seruata <lb/>
             uirginitas, nobis prolis lucro amissa compensetur integritas. <lb/>
              haec uox fidelium coniugatarum ad sacras uirgines utcumque <lb n="5"/>
             ferenda esset, si christianos corpore parerent, ut hoc solo <lb/>
-            esset <choice n="0.03"><sic n="1">Marine</sic><corr n="29">Mariae</corr></choice> fecunditas carnis excepta uirginitate praestantior, <lb/>
+            esset Mariae fecunditas carnis excepta uirginitate praestantior, <lb/>
             quod illa ipsum caput horum membrorum, hae autem membra <lb/>
             illius capitis procrearent; nunc uero etiamsi tales hac uoce <lb/>
             contendant, quae ad hoc tantum uiris iunguntur atque miscentur, <lb n="10"/>
@@ -386,7 +384,7 @@
             fiunt ecclesia pariente per hoc, quod membrorum Christi <lb/>
             spiritaliter mater est, cuius etiam spiritaliter uirgo est. cui <lb n="15"/>
             sancto partui cooperantur et matres, quae non christianos <lb/>
-            corpore <choice n="0.94"><sic n="16">pepererunt</sic><corr n="1">pepererant</corr></choice>, ut fiant quod se corpore parere non potuisse <lb/>
+            corpore pepererunt, ut fiant quod se corpore parere non potuisse <lb/>
             nouerunt; per hoc tamen cooperantur, ubi et ipsae uirgines <lb/>
             matresque Christi sunt, in fide scilicet, quae per dilectionem <lb/>
             operatur. <lb n="20"/>
@@ -399,19 +397,19 @@
 <p><milestone n="8" unit="altchapter"/> Nulla ergo carnis fecunditas sanctae uirginitati <lb/>
             etiam carnis conparari potest. neque enim et ipsa, quia uir- <lb/>
             19 cf. Gal. 5, 6 <lb/>
-            1 tota .41 utraque <hi rend="italic"><sic n="poss">C122y</sic>\':</hi> utraeque <hi rend="italic">C2PKIZHSDB TJ.1IENbd</hi> <lb/>
-            <sic>utr</sic> aeque <hi rend="italic">A</hi> <choice><sic>ntreque</sic><corr>utreque</corr></choice> <hi rend="italic">X</hi> 2 uirgines ut uos sitis <hi rend="italic">MENX</hi> sitis] scitis <lb/>
-            JR 3 scimus B desit <hi rend="italic"><sic>GhiRENXTzb</sic></hi> defuit 82 Csulitur <hi rend="italic">S</hi> <lb/>
-            <choice><sic>sernata</sic><corr>seruata</corr></choice>] et lata <hi rend="italic">Z</hi> e.lata <hi rend="italic">I</hi> et lata <hi rend="italic">ex</hi> solata <hi rend="italic">(an</hi> saluata?) <hi rend="italic">C</hi> 4 pplis <hi rend="italic">T</hi> <lb/>
-            amissa. <hi rend="italic">A</hi> 5 uox] <choice><sic>uoa</sic><corr>uos</corr></choice> <hi rend="italic">T</hi> 6 solum <hi rend="italic">GX</hi> 7 carnis xpi <hi rend="italic">R</hi> 8 menbrorum <lb/>
+            1 tota .41 utraque <hi rend="italic">C1R71\':</hi> utraeque <hi rend="italic">C2PKIZHSDB TJ.1IENbd</hi> <lb/>
+            utr aeque <hi rend="italic">A</hi> utraeque <hi rend="italic">X</hi> 2 uirgines ut uos sitis <hi rend="italic">MENX</hi> sitis] scitis <lb/>
+            JR 3 scimus B desit <hi rend="italic">GMBENX72b</hi> defuit 82 Csulitur <hi rend="italic">S</hi> <lb/>
+            seruata] et lata <hi rend="italic">Z</hi> e.lata <hi rend="italic">I</hi> et lata <hi rend="italic">ex</hi> solata <hi rend="italic">(an</hi> saluata?) <hi rend="italic">C</hi> 4 pplis <hi rend="italic">T</hi> <lb/>
+            amissa. <hi rend="italic">A</hi> 5 uox] uos <hi rend="italic">T</hi> 6 solum <hi rend="italic">GX</hi> 7 carnis xpi <hi rend="italic">R</hi> 8 menbrorum <lb/>
             <hi rend="italic">T</hi> hae. <hi rend="italic">P</hi> hae et <hi rend="italic">A</hi> hec <hi rend="italic">BM</hi> haec <hi rend="italic">K</hi> hec <hi rend="italic">HE</hi> hee <hi rend="italic">G N</hi> <lb/>
             mebra <hi rend="italic">T</hi> 9 procreant <hi rend="italic">KMENX</hi> etiamsi] si 7 talis <hi rend="italic">K</hi> 10 ad <lb/>
-            hoc] ab hoc <hi rend="italic"><sic>Cl</sic></hi> hoboc <hi rend="italic">S</hi> ob hoc <hi rend="italic"><sic>PKrHADRGTMENXbd</sic></hi> tantum] <lb/>
-            tamen <hi rend="italic">MENX</hi> 11 <choice><sic>nihiique</sic><corr>nihilque</corr></choice> <hi rend="italic">K</hi> filis X 12 eos nos E id <hi rend="italic">om. R</hi> <lb/>
-            ut <hi rend="italic"><sic>Ofn</sic>. <sic>PTAIHl</sic></hi> 13 non-fiunt <hi rend="italic">om. I</hi> eorum <hi rend="italic">SAl</hi> sed <hi rend="italic">ex</hi> si <lb/>
+            hoc] ab hoc <hi rend="italic">C1</hi> hoboc <hi rend="italic">S</hi> ob hoc <hi rend="italic">PK7HADRGTMENSbd</hi> tantum] <lb/>
+            tamen <hi rend="italic">MENX</hi> 11 nihilque <hi rend="italic">K</hi> filis X 12 eos nos E id <hi rend="italic">om. R</hi> <lb/>
+            ut <hi rend="italic">om. PTA1H1</hi> 13 non-fiunt <hi rend="italic">om. I</hi> eorum <hi rend="italic">SAl</hi> sed <hi rend="italic">ex</hi> si <lb/>
             m. 2 <hi rend="italic">H</hi> 14 quo C1 15 cui] cuius <hi rend="italic">IZ</hi> 17 peperunt <hi rend="italic">RX</hi> fiat <hi rend="italic">T</hi> <lb/>
             18 quo operantur <hi rend="italic">R</hi> ipse <hi rend="italic">KR</hi> 21 foecunditas <hi rend="italic">R</hi> uirginitate <lb/>
-            <sic>Al</sic>
+            A1
 
 <note type="footnote"> XXXXI Aag. Sect. V pars III. </note>
 
@@ -436,7 +434,7 @@
 
 <div n="9" subtype="section" type="textpart">
 <p><milestone n="9" unit="altchapter"/> Nec illarum ergo fecunditas carnis, quae hoc tempore <lb/>
-            nihil aliud in coniugio quam prolem <choice n="0.13"><sic n="9">requirant</sic><corr n="59">requirunt</corr></choice>, quam mancipent <lb/>
+            nihil aliud in coniugio quam prolem requirunt, quam mancipent <lb/>
             Christo, pro amissa uirginitate compensari posse credenda<lb n="15"/>
             est. prioribus quippe temporibus uenturo secundum carnem <lb/>
             Christo ipsum genus carnis in ampla quadam et prophetica <lb/>
@@ -523,7 +521,7 @@
             illa igitur uirgo coniugatae merito praeponitur, quae nec <lb/>
             multitudini se amandam proponit, cum amorem unius ex <lb/>
             multitudine inquirit, nec se uni iam conponit inuento, cogitans <lb/>
-            <sic>quaesuntmundi</sic>, <sic>quoniodoplaceatuiro</sic>, sed speciosum <lb/>
+            quae sunt mundi, quomodo placeat uiro, sed speciosum <lb/>
             forma prae filiis hominum sic amauit, ut, quia eum<lb n="10"/>
             sicut Maria concipere carne non posset, ei corde concepto <lb/>
             etiam carnem integram custodiret. 
@@ -561,7 +559,7 @@
             20 honestae y procreant] pereant <hi rend="italic">X</hi> </note><lb n="20"/>
              
 <pb n="245"/>
-            procreant et procreatos pariter, <choice><sic>salubliter</sic><corr>salubriter</corr></choice>, instanter educant, quia <lb/>
+            procreant et procreatos pariter, salubriter, instanter educant, quia <lb/>
             tori fidem inuicem seruant, quia sacramentum conubii non <lb/>
             uiolant. 
 </p>
@@ -590,7 +588,7 @@
             ne cordis propria uanitate protulisse uideantur, adhibent <lb/>
             ex apostolo testimonium, ubi ait: de uirginibus autem <lb/>
             praeceptum domini non habeo, consilium autem <lb/>
-            <choice><sic>doT</sic><corr>do</corr></choice> tamquam misericordiam consecutus a deo,
+            do tamquam misericordiam consecutus a deo,
 
 <note type="footnote">22 I Cor. 7, 25. 26 </note>
 
@@ -660,7 +658,7 @@
             inquit, do, tamquam misericordiam consecutus a <lb n="5"/>
             deo, ut fidelis essem; neque enim inuidere debeo fidele <lb/>
             consilium, qui non meis meritis, sed dei misericordia sum <lb/>
-            <choice><sic>tidelis</sic><corr>fidelis</corr></choice>; existimo itaque hoc bonum esse propter <lb/>
+            fidelis; existimo itaque hoc bonum esse propter <lb/>
             praesentem necessitatem. hoc, inquit, unde praeceptum <lb/>
             domini non habeo, sed consilium do, hoc est (de uirginibus <lb n="10"/>
             existimo bonum esse\' propter praesentem necessitatem. noui <lb/>
@@ -759,7 +757,7 @@
             satana in peccata damnabilia laberentur. quod autem se dicit <lb/>
             eis parcere, quos ait tribulationem carnis habituros, nihil <lb/>
             mihi interim sanius occurrit. quam eum noluisse aperire et <lb/>
-            explicare uerbis eandem ipsam carnis <choice><sic>tlibulationem</sic><corr>tribulationem</corr></choice>, quam <lb n="15"/>
+            explicare uerbis eandem ipsam carnis tribulationem, quam <lb n="15"/>
             praenuntiauit eis qui eligunt nuptias in suspicionibus zeli <lb/>
             coniugalis, in procreandis filiis atque nutriendis, in timoribus <lb/>
             et maeroribus orbitatis. quotus enim quisque, cum se conubii <lb/>
@@ -793,10 +791,10 @@
 <div n="17" subtype="section" type="textpart">
 <p><milestone n="17" unit="altchapter"/> Tantum per hoc, quod breuiter posui, cautum <lb/>
             fieri lectorem oportuit aduersus eos, qui in hoc, quod scriptum <lb/>
-            est: tribulationem autem carnis habebunt <choice><sic>huins</sic><corr>huius</corr></choice> <lb/>
+            est: tribulationem autem carnis habebunt huius <lb/>
             modi, ego autem uobis parco, nuptiis calumniantur. <lb/>
-            quod eas ex obliquo sententia ista <choice><sic>damnauent</sic><corr>damnauerit</corr></choice>; uelut ipsam<lb n="5"/>
-            damnationem noluerit dicere, cum ait: ego autem <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> <lb/>
+            quod eas ex obliquo sententia ista damnauerit; uelut ipsam<lb n="5"/>
+            damnationem noluerit dicere, cum ait: ego autem uobis <lb/>
             parco, ut uidelicet, cum istis parcit, animae suae non pepercerit, <lb/>
             si mentiendo dixit: et si acceperis uxorem, non <lb/>
             peccasti; et si nupserit uirgo, non peccat. quod qui <lb/>
@@ -808,7 +806,7 @@
             habent uelut scutum, quo se aduersus ueritatem quasi tuentes<lb n="15"/>
             nudent a diabolo uulnerandos, ut dicant hoc auctorem libri <lb/>
             non uerum dixisse, alias ut infirmis parceret, alias ut contemptores <lb/>
-            terreret, sicut occurrerit causa, qua eorum <choice><sic>pernersa</sic><corr>peruersa</corr></choice> <lb/>
+            terreret, sicut occurrerit causa, qua eorum peruersa <lb/>
             sententia defendatur. atque ita dum ea, quae opinantur, defendere <lb/>
             quam corrigere malunt, scripturarum sanctarum auctoritatem<lb n="20"/>
             frangere conantur, qua una omnes ceruices superbae <lb/>
@@ -818,7 +816,7 @@
 </div>
 
 <div n="18" subtype="section" type="textpart">
-<p><milestone n="18" unit="altchapter"/> <sic>Ynde</sic> sectatores et sectatrices perpetuae
+<p><milestone n="18" unit="altchapter"/> Vnde sectatores et sectatrices perpetuae
 
 <note type="footnote"> 3 I Cor. 7, 28 8 1 Cor. 7, 28. </note>
 
@@ -839,23 +837,23 @@
             continentiae et sacrae uirginitatis admoneo, ut bonum suum ita <lb/>
             praeferant nuptiis, ne malum iudicent nuptias, neque fallaciter, <lb/>
             sed plane ueraciter ab apostolo dictum nouerint: qui dat <lb/>
-            nuptum, bene facit; et qui non <sic>datnuptum</sic>, melius <lb/>
+            nuptum, bene facit; et qui non datnuptum, melius <lb/>
             facit. et si acceperis uxorem, non peccasti; et si <lb n="5"/>
             nupserit uirgo non peccat. et paulo post: beatior <lb/>
             autem erit, si sic permanserit, secundum meam <lb/>
             sententiam. et ne humana sententia putaretur, adiungit: <lb/>
             puto autem, et ego spiritum dei habeo. haec domi- <lb/>
-            <choice><sic>Dica</sic><corr>nica</corr></choice>, haec apostolica, haec uera, haec sana doctrina est, <lb n="10"/>
+            nica, haec apostolica, haec uera, haec sana doctrina est, <lb n="10"/>
             sic eligere dona maiora, ne minora damnentur. melior est <lb/>
             in scriptura dei ueritas dei quam in cuiusquam mente aut <lb/>
             carne uirginitas hominis. quod castum est sic ametur, ut <lb/>
             quod uerum est non negetur. nam quid mali non possunt <lb/>
-            etiam de sua <choice><sic>ctrne</sic><corr>carne</corr></choice> cogitare, qui credunt apostolicam <choice n="0.00"><sic n="1">lingnam</sic><corr n="231">linguam</corr></choice> <lb n="15"/>
-            eo ipso loco, <choice n="0.02"><sic n="121">abi</sic><corr n="5769">ubi</corr></choice> uirginitatem corporis commendabat, <lb/>
+            etiam de sua carne cogitare, qui credunt apostolicam linguam <lb n="15"/>
+            eo ipso loco, ubi uirginitatem corporis commendabat, <lb/>
             a corruptione mendacii uirginem non fuisse? primitus ergo ac <lb/>
             maxime qui bonum uirginitatis eligunt, scripturas sanctas <lb/>
             firmissime teneant nihil esse mentitas ac per hoc etiam illud <lb/>
-            uerum esse, quod dictum est: et si acceperis <choice><sic>UIorem</sic><corr>uxorem</corr></choice>, <lb n="20"/>
+            uerum esse, quod dictum est: et si acceperis uxorem, <lb n="20"/>
             non peccasti; et si nupserit uirgo, non peccat. nec <lb/>
             putent minui tam magnum integritatis bonum, si nuptiae non <lb/>
             erunt malum. immo uero hinc sibi potius maioris gloriae
@@ -898,7 +896,7 @@
             hoc bonum esse propter praesentem necessitatem. <lb n="15"/>
             ita interpretati sunt, ut non propter regnum caelorum, sed <lb/>
             propter saeculum praesens uirginitatem utilem dicerent; tamquam <lb/>
-            in illa uita aeterna nihil <choice><sic>ceteiis</sic><corr>ceteris</corr></choice> amplius habituri essent, <lb/>
+            in illa uita aeterna nihil ceteris amplius habituri essent, <lb/>
             qui hoc melius elegissent. in qua disputatione cum ad illud <lb/>
             ueniremus, quod idem apostolus ait: tribulationem autem<lb n="20"/>
             carnis habebunt huius modi, ego autem uobis <lb/>
@@ -969,7 +967,7 @@
             <hi rend="italic">K</hi> liberaturus est <hi rend="italic">B</hi> erat damnaturus <hi rend="italic">N</hi> </note><lb n="20"/>
              
 <pb n="254"/>
-            et nunc quotiens <choice><sic>castitaa</sic><corr>castitas</corr></choice> coniugalis <choice><sic>adnersus</sic><corr>aduersus</corr></choice> <choice><sic>calnmniatores</sic><corr>calumniatores</corr></choice> <lb/>
+            et nunc quotiens castitas coniugalis aduersus calumniatores <lb/>
             criminatoresque nuptiarum scripturae sanctae ueritate munitur, <lb/>
             totiens cum sancto spiritu contra falsos testes Susanna defenditur, <lb/>
             totiens a falso crimine liberatur et multo maiore negotio. <lb/>
@@ -978,7 +976,7 @@
             intenditur; tunc una mulier ex eo quod iniqui seniores dicebant, <lb/>
             nunc omnes mariti et uxores ex eo, quod apostolus <lb/>
             dicere noluit, accusantur. damnationem quippe uestram, inquiunt, <lb/>
-            tacuit, <choice n="0.03"><sic n="1419">cura</sic><corr n="42581">cum</corr></choice> ait: ego autem uobis parco. quis<lb n="10"/>
+            tacuit, cum ait: ego autem uobis parco. quis<lb n="10"/>
             hoc? nempe ille, qui superius dixerat: et si acceperis <lb/>
             uxorem, non peccasti; et si nupserit uirgo, non <lb/>
             peccat. cur igitur in eo, quod modeste tacuit, coniugiorum <lb/>
@@ -1015,7 +1013,7 @@
              
 <pb n="255"/>
             maiorem, quod eius adipiscendae causa bonum coniugale <lb/>
-            <choice><sic>trauscenditur</sic><corr>transcenditur</corr></choice>, non peccatum coniugii deuitatur. alioquin perpetuae <lb/>
+            transcenditur, non peccatum coniugii deuitatur. alioquin perpetuae <lb/>
             continentiae non praecipue laudari, sed tantum non <lb/>
             uituperari sufficeret, si propterea teneretur, quoniam nubere <lb/>
             crimen esset. deinde quia non humana sententia, sed diuina <lb n="5"/>
@@ -1120,8 +1118,8 @@
             propter uitam istam, non propter aeternam esse sanctas et <lb n="20"/>
             corpore et spiritu. hoc credere quid est aliud nisi miserabiliorem <lb/>
             esse omnibus hominibus? sic enim apostolus ait: si in <lb/>
-            hac <sic>uitatantuminChristo</sic> sperantes sumusmiserabiliores <lb/>
-            sumus omnibus <choice><sic>liominibus</sic><corr>hominibus</corr></choice>. <sic>anuero</sic> qui frangit
+            hac uita tantum in sperantes sumusmiserabiliores <lb/>
+            sumus omnibus hominibus. uero qui frangit
 
 <note type="footnote"> 2 I (Jor. 7, 32-34 14 I Cor. 7, 32-31 22 I Cor. 15, 19 </note>
 
@@ -1144,7 +1142,7 @@
 <pb n="258"/>
             panem suum esurienti, si tantum propter hanc uitam facit, <lb/>
             stultus est, et ille erit prudens, qui castigat corpus suum <lb/>
-            usque ad <choice><sic>contiuentiam</sic><corr>continentiam</corr></choice>, qua nec coniugio misceatur, si ei nihil <lb/>
+            usque ad continentiam, qua nec coniugio misceatur, si ei nihil <lb/>
             proderit in regno caelorum? 
 </p>
           
@@ -1166,7 +1164,7 @@
             propter regnum caelorum, et contra humana uanitas inpia <lb/>
             temeritate contendit eos, qui hoc faciunt, praesentem tantummodo <lb/>
             necessitatem molestiarum coniugalium deuitare, in regno <lb/>
-            autem caelorum amplius quidquam ceteris <choice n="0.00"><sic n="50">noti</sic><corr n="65020">non</corr></choice> habere! <lb n="20"/>
+            autem caelorum amplius quidquam ceteris non habere! <lb n="20"/>
             
 </p>
           
@@ -1211,7 +1209,7 @@
             uitae meritum seruant. nam cum dicit: dabo eis locum <lb/>
             multo meliorem, ostendit et coniugatis dari, sed multo <lb/>
             inferiorem. ut ergo concedamus in domo dei praedictos futuros <lb/>
-            eunuchos secundum carnem, qui in populo Israhel <choice><sic>nou</sic><corr>non</corr></choice> fuerunt, <lb/>
+            eunuchos secundum carnem, qui in populo Israhel non fuerunt, <lb/>
             quia et ipsos uidemus, cum iudaei non fiant, tamen fieri <lb n="20"/>
             christianos, nec de illis dixisse prophetam, qui proposito continentiae <lb/>
             coniugia non quaerentes se ipsos castrant propter <lb/>
@@ -1236,10 +1234,10 @@
 <pb n="260"/>
             continentes, corpus usque ad contemptas nuptias castigantes, <lb/>
             se ipsos non in corpore, sed in ipsa concupiscentiae radice <lb/>
-            castrantes, caelestem et angelicam uitam in <choice><sic>teiTena</sic><corr>terrena</corr></choice> mortalitate <lb/>
+            castrantes, caelestem et angelicam uitam in terrena mortalitate <lb/>
             meditantes, coniugatorum meritis pares esse contendat et <lb/>
             Christo laudanti eos, qui se ipsos castrauerunt, non propter<lb n="5"/>
-            hoc saeculum, sed propter regnum caelorum <choice><sic>christianus</sic><corr>Christianus</corr></choice> contradicat, <lb/>
+            hoc saeculum, sed propter regnum caelorum christianus contradicat, <lb/>
             adfirmans hoc uitae praesenti esse utile, non futurae? <lb/>
             quid aliud istis restat, nisi ut ipsum regnum caelorum ad <lb/>
             hanc temporalem uitam, in qua nunc sumus, adserant pertinere? <lb/>
@@ -1281,19 +1279,19 @@
              
 <pb n="261"/>
             locum nominatum, meliorem multo quam filiorum <lb/>
-            atque filiarum, ne <choice n="0.65"><sic n="9788">quia</sic><corr n="5248">quis</corr></choice> nimium carnalis existimaret aliquid <lb/>
+            atque filiarum, ne quis nimium carnalis existimaret aliquid <lb/>
             in his uerbis temporale sperandum, continuo subiecit: nomen <lb/>
             aeternum dabo eis, nec umquam deerit, tamquam <lb/>
             diceret: quid tergiuersaris inpia caecitas?- quid tergiuersaris? <lb n="5"/>
             quid serenitati ueritatis nebulas tuae peruersitatis offundis? <lb/>
-            quid in tanta scripturarum luce tenebras unde insidieris <choice><sic>inquiria</sic><corr>inquiris</corr></choice>? <lb/>
+            quid in tanta scripturarum luce tenebras unde insidieris inquiris? <lb/>
             quid temporalem tantummodo utilitatem promittis continentibus <lb/>
             sanctis? nomen aeternum dabo eis. quid ab <lb/>
             omni concubitu inmunes et eo quoque ipso, quo hinc sese <lb n="10"/>
             abstinent, ea quae sunt domini cogitantes, quomodo placeant <lb/>
             domino, ad terrenam commoditatem referre conaris? nomen <lb/>
             aeternum dabo eis. quid regnum caelorum, propter quod <lb/>
-            se castrauerunt sancti spadones, in hac tantum uita <choice><sic>intellegelldum</sic><corr>intellegendum</corr></choice> <lb/>
+            se castrauerunt sancti spadones, in hac tantum uita intellegendum <lb/>
             esse contendis? nomen aeternum dabo eis. et si <lb n="15"/>
             forte hic ipsum aeternum pro diuturno conaris accipere, addo, <lb/>
             accumulo, inculco: n e.c umquam deerit. quid quaeris amplius? <lb/>
@@ -1366,7 +1364,7 @@
             est aliu 1 <hi rend="italic">bd</hi> aliud est <hi rend="italic">S</hi> alius <hi rend="italic">A</hi> 21 ita quial itaque <hi rend="italic">KMENX</hi> </note> <lb/>
              
 <pb n="263"/>
-            ipsa uita aeterna pariter erit omnibus sanctis, aequalis <choice><sic>deuarius</sic><corr>denarius</corr></choice> <lb/>
+            ipsa uita aeterna pariter erit omnibus sanctis, aequalis denarius <lb/>
             omnibus adtributus est; quia uero in ipsa uita aeterna distincte <lb/>
             fulgebunt lumina meritorum, multae mansiones sunt apud <lb/>
             patrem. ac per hoc in denario quidem non impari non uiuet <lb/>
@@ -1472,7 +1470,7 @@
             imitamini eum, qui propter uos pauper factus est, <lb/>
             cum diues esset. beati mites, imitamini eum, qui dixit: <lb/>
             discite a me, quoniam mitis sum et humilis corde. <lb/>
-            beati lugentes, imitamini eum, qui fleuit super <choice><sic>HierDsalem</sic><corr>Hierusalem</corr></choice>. <lb n="15"/>
+            beati lugentes, imitamini eum, qui fleuit super Hierusalem. <lb n="15"/>
             beati qui esuriunt et sitiunt iustitiam, <lb/>
             imitamini eum, qui dixit: meus cibus est ut faciam <lb/>
             uoluntatem eius qui misit me. beati misericordes, <lb/>
@@ -1502,7 +1500,7 @@
             qui pro suis persecutoribus dixit: pater, ignosce illis, <lb/>
             quia nesciunt quid faciunt. beati qui persecutionem <lb/>
             patiuntur propter iustitiam, imitamini eum, qui <lb/>
-            pro uobis passus est, <sic>relinquensuobis</sic> exemplum,<lb n="5"/>
+            pro uobis passus est, relinquens uobis exemplum,<lb n="5"/>
             ut sequamini uestigia eius. haec qui imitantur, in his <lb/>
             agnum sequuntur. sed certe etiam coniugati possunt ire per <lb/>
             ista uestigia, etsi non perfecte in eadem forma ponentes pedem, <lb/>
@@ -1543,13 +1541,13 @@
              
 <pb n="267"/>
             excellenti bono. sed uos, qui et dicetis et audietis, quia et <lb/>
-            hoc quod dicetis a uobis audietis, felicius exultabitis <sic>iucundiusque</sic> <lb/>
+            hoc quod dicetis a uobis audietis, felicius exultabitis iucundiusque <lb/>
             regnabitis. de maiore tamen uestro gaudio nullus <lb/>
             maeror erit quibus hoc deerit. agnus quippe, quem uos quocumque <lb/>
             ierit sequimini, nec eos deseret qui eum quo uos <lb n="5"/>
             non ualent sequi. omnipotentem agnum loquimur. et uobis <lb/>
             praeibit et ab eis non abibit, cum erit deus omnia in <lb/>
-            omnibus. et qui minus habebunt, a uobis non <choice><sic>abhonebunt</sic><corr>abhorrebunt</corr></choice>. <lb/>
+            omnibus. et qui minus habebunt, a uobis non abhorrebunt. <lb/>
             ubi enim nulla est inuidentia, consors est differentia. praesumite <lb/>
             itaque, fidite, roboramini, permanete, qui uouetis et <lb n="10"/>
             redditis domino deo uestro uota perpetuae continentiae <lb/>
@@ -1559,10 +1557,10 @@
 </div>
 
 <div n="30" subtype="section" type="textpart">
-<p><milestone n="30" unit="altchapter"/> <sic>Yos</sic> etiam qui hoc nondum uouistis, qui potestis <lb/>
+<p><milestone n="30" unit="altchapter"/> Vos etiam qui hoc nondum uouistis, qui potestis <lb/>
             capere, capite; perseueranter currite. ut conprehendatis. <lb/>
             tollite hostias quisque suas et introite in atria domini, <lb n="15"/>
-            non ex necessitate potestatem habentes <choice><sic>ucstrae</sic><corr>uestrae</corr></choice> uoluntatis. <lb/>
+            non ex necessitate potestatem habentes uestrae uoluntatis. <lb/>
             neque enim sicut: non moechaberis, non occides, ita <lb/>
             dici potest: non nubes; illa exiguntur, ista offeruntur. si fiant <lb/>
             ista, laudantur; nisi fiant illa, damnantur. in illis dominus <lb/>
@@ -1588,7 +1586,7 @@
             erogaueritis <hi rend="italic">PKr HADG l\'MENX</hi> </note> <lb n="20"/>
              
 <pb n="268"/>
-            <sic>supererogaueritis</sic>, in redeundo reddet uobis. cogitate, quidquid illud <lb/>
+            supererogaueritis, in redeundo reddet uobis. cogitate, quidquid illud <lb/>
             est, in muro eius locum nominatum meliorem multo quam <lb/>
             filiorum atque filiarum, cogitate illic nomen aeternum. quis <lb/>
             explicat quale nomen erit? quidquid tamen erit, aeternum erit. <lb/>
@@ -1611,7 +1609,7 @@
             deo inuenies gratiam. mensura humilitatis cuique ex <lb/>
             mensura ipsius magnitudinis data est: cui est periculosa <lb/>
             superbia, quae amplius amplioribus insidiatur. hanc sequitur <lb/>
-            <choice><sic>innidentia</sic><corr>inuidentia</corr></choice>, tamquam filia pedisequa; eam quippe superbia <lb/>
+            inuidentia, tamquam filia pedisequa; eam quippe superbia <lb/>
             continuo parit nec umquam est sine tali prole atque comite.
 
 <note type="footnote"> 2 cf. Es. 56, 5 14 Eccli. 3, 18 </note>
@@ -1681,7 +1679,7 @@
 <pb n="270"/>
             eius, quem primum prolixiorem ad discipulos habuit, inde <lb/>
             coepit: beati pauperes spiritu, quoniam ipsorum <lb/>
-            <sic>estregnum</sic> caelorum: quos sine ulla controuersia humiles <lb/>
+            est regnum caelorum: quos sine ulla controuersia humiles <lb/>
             intellegimus. fidem centurionis illius ideo praecipue laudauit <lb/>
             nec se inuenisse in Israhel dixit tantam fidem, quia ille tam<lb n="5"/>
             humiliter credidit, ut diceret: non sum dignus, ut sub <lb/>
@@ -1764,7 +1762,7 @@
             constituit ante oculos eorum dicens: nisi fueritis sicut <lb/>
             puer iste, non intrabitis in regnum caelorum? nonne <lb/>
             humilitatem maxime commendauit et in ea meritum magnitudinis <lb/>
-            posuit? uel cum filiis Zebedaei latera eius in <choice n="0.97"><sic n="105">aedium</sic><corr n="3">sedium</corr></choice> <lb/>
+            posuit? uel cum filiis Zebedaei latera eius in sedium <lb/>
             sublimitate concupiscentibus ita respondit, ut passionis eius<lb n="5"/>
             calicem potius bibendum cogitarent, in quo se humilauit <lb/>
             usque ad mortem, mortem autem crucis, quam superbo <lb/>
@@ -1787,7 +1785,7 @@
 </div>
 
 <div n="33" subtype="section" type="textpart">
-<p><milestone n="33" unit="altchapter"/> Cum ergo <choice><sic>christianis</sic><corr>Christianis</corr></choice> omnibus custodienda sit <lb/>
+<p><milestone n="33" unit="altchapter"/> Cum ergo christianis omnibus custodienda sit <lb/>
             humilitas, quandoquidem a Christo christiani appellantur, cuius
 
 <note type="footnote"> 1 Matth. 18, 3 4 cf. Matth. 20, 21. 22 6 cf. Phil. 2, 8 <lb/>
@@ -1869,7 +1867,7 @@
             correctione superfluis et magis ostentationi quam emendationi <lb/>
             seruientibus. non ego talibus magnam curam humilitatis ingero, <lb/>
             in quibus superbia ipsa confunditur et conscientiae uulnere<lb n="10"/>
-            cruentatur. nec ebriosis aut auaris aut alio quolibet <choice><sic>damnabiii</sic><corr>damnabili</corr></choice> <lb/>
+            cruentatur. nec ebriosis aut auaris aut alio quolibet damnabili <lb/>
             morbi genere iacentibus, cum habeant corporalis continentiae <lb/>
             professionem moribusque peruersis a suo nomine dissonent, <lb/>
             hanc magnam sollicitudinem piae humilitatis inpono: nisi forte <lb/>
@@ -1923,7 +1921,7 @@
             et reuelasti ea paruulis. ita, pater, quoniam sic <lb/>
             placitum est coram te. omnia mihi tradita sunt a <lb/>
             patre meo, et nemo cognoscit filium nisi pater, et <lb/>
-            nemo cognoscit patrem nisi filius et cui <choice n="0.8"><sic n="172">uoluerit</sic><corr n="43">noluerit</corr></choice> <lb/>
+            nemo cognoscit patrem nisi filius et cui uoluerit <lb/>
             f 11 ius reuelare. uenite ad me omnes, qui laboratis et <lb n="20"/>
             onerati estis, et ego uos reficiam. tollite iugum meum <lb/>
             super uos et discite a me quoniam mitis sum et <lb/>
@@ -2000,13 +1998,13 @@
             lucra damnabilium peccatorum; audiat mulier in ciuitate <lb/>
             peccatrix tanto lacrimosior pedibus tuis, quanto fuerat <lb n="5"/>
             alienior a uestigiis tuis; audiant meretrices et publicani, qui <lb/>
-            <choice><sic>scribus</sic><corr>scribas</corr></choice> et pharisaeos praecedunt in regnum caelorum; audiat <lb/>
+            scribas et pharisaeos praecedunt in regnum caelorum; audiat <lb/>
             omne genus aegrorum, cum quibus tibi pro crimine sunt <lb/>
-            obiecta <choice><sic>conuinia</sic><corr>conuiuia</corr></choice>, uidelicet quasi a sanis, qui medicum non <lb/>
+            obiecta conuiuia, uidelicet quasi a sanis, qui medicum non <lb/>
             quaerebant, cum tu non uenires uocare iustos, sed peccatores <lb n="10"/>
             in paenitentiam. hi omnes, cum conuertuntur ad te, facile <lb/>
             mitescunt et humilantur coram te, memores iniquissimae uitae <lb/>
-            suae et indulgentissimae <choice><sic>misencordiae</sic><corr>misericordiae</corr></choice> tuae, quia ubi abundauit <lb/>
+            suae et indulgentissimae misericordiae tuae, quia ubi abundauit <lb/>
             peccatum, superabundauit gratia. 
 </p>
           
@@ -2015,7 +2013,7 @@
 <div n="37" subtype="section" type="textpart">
 <p>Sed respice agmina uirginum, puerorum puellarumque <lb n="15"/>
             sanctarum: in ecclesia tua eruditum est hoc genus; illic tibi <lb/>
-            a maternis <choice><sic>ubenbus</sic><corr>uberibus</corr></choice> pullulauit, in nomen tuum ad loquendum <lb/>
+            a maternis uberibus pullulauit, in nomen tuum ad loquendum <lb/>
             linguam soluit, nomen tuum uelut lac infantiae suae suxit <lb/>
             infusum. non potest quisquam ex hoc numero dicere: qui prius <lb/>
             fui blasphemus et persecutor et iniuriosus, sed
@@ -2041,7 +2039,7 @@
              
 <pb n="278"/>
             misericordiam consecutus sum, quia ignorans feci in incredulitate: <lb/>
-            immo etiam quod non <sic>iussistiaed</sic> tantummodo <lb/>
+            immo etiam quod non iussisti tantummodo <lb/>
             uolentibus arripiendum proposuisti dicens: qui potest capere, <lb/>
             capiat, arripuerunt, uouerunt et propter regnum caelorum <lb/>
             se ipsos non quia minatus es, sed quia hortatus es,<lb n="5"/>
@@ -2062,7 +2060,7 @@
 </div>
 
 <div n="38" subtype="section" type="textpart">
-<p>Non ego te, anima pia, pudica, quae adpetitum <choice><sic>camalem</sic><corr>carnalem</corr></choice> <lb/>
+<p>Non ego te, anima pia, pudica, quae adpetitum carnalem <lb/>
             nec usque ad concessum coniugium relaxasti, quae decessurum <lb/>
             corpus nec successori propagando indulsisti, quae fluit-antia <lb/>
             membra terrena in caeli consuetudinem suspendisti: non ego<lb n="20"/>
@@ -2088,7 +2086,7 @@
              
 <pb n="279"/>
             ad hos mitto; indigni sunt enim, qui ab inmunditiae uoragine <lb/>
-            liberati sunt, ut ad eos <choice><sic>iraitandos</sic><corr>imitandos</corr></choice> mittatur inlibata uirginitas: <lb/>
+            liberati sunt, ut ad eos imitandos mittatur inlibata uirginitas: <lb/>
             ad regem caeli te mitto, ad eum, per quem creati sunt homines <lb/>
             et qui creatus est inter homines propter homines; ad <lb/>
             speciosum forma prae filiis hominum et contemptum a <lb n="5"/>
@@ -2102,7 +2100,7 @@
             mitis est et humilis corde. non ibis ad eum, qui oculos ad <lb/>
             caelum leuare non audebat onere iniquitatis, sed ad eum, qui <lb/>
             de caelo descendit pondere caritatis; non ibis ad eam, quae <lb n="15"/>
-            domini sui pedes lacrimis <choice><sic>riganit</sic><corr>rigauit</corr></choice> quaerens indulgentiam grauium <lb/>
+            domini sui pedes lacrimis rigauit quaerens indulgentiam grauium <lb/>
             peccatorum, sed ibis ad eum, qui, cum daret indulgentiam <lb/>
             omnium peccatorum, lauit pedes seruorum suorum. noui <lb/>
             dignitatem uirginitatis tuae: non tibi propono imitandum publicanum <lb/>
@@ -2138,7 +2136,7 @@
 <p><milestone n="38" unit="altchapter"/> Metuo, inquam, tibi uehementer, ne, cum te <lb/>
             agnum quocumque ierit secuturam esse gloriaris, eum prae <lb/>
             tumore superbiae sequi per angusta non possis. bonum tibi<lb n="5"/>
-            <choice><sic>ests</sic><corr>est</corr></choice> o anima uirginalis, ut sic, quomodo uirgo es, sic omnino <lb/>
+            est o anima uirginalis, ut sic, quomodo uirgo es, sic omnino <lb/>
             seruans in corde, quod renata es, seruans in carne, quod nata <lb/>
             es, concipias tamen a timore domini et parturias spiritum <lb/>
             salutis. timor quidem non est in caritate, sed perfecta, <lb/>
@@ -2153,7 +2151,7 @@
             saeculi, quam in te, quae non cogitas quae sunt mundi. <lb/>
             quomodo placeas coniugi, sed quae sunt domini, quomodo <lb/>
             placeas domino? ille alius timor non est in caritate;<lb n="20"/>
-            iste autem castus non recedit a caritate. si <choice><sic>nou</sic><corr>non</corr></choice> amas, time,
+            iste autem castus non recedit a caritate. si non amas, time,
 
 <note type="footnote"> 8 cf. Es. 26, 18 9 1 Ioh. 4, 18 12 Rom. 11, 20 17 cf. Ps. <lb/>
             18, 10 18 cf. I Cor. 7, 32. 33 </note>
@@ -2229,7 +2227,7 @@
             ipsorum salutem operamini; deus est enim qui operatur <lb/>
             in uobis et uelle et operari pro bona uoluntate. <lb n="15"/>
             ne ad uetus testamentum uideatur pertinere quod scriptum <lb/>
-            est: seruite domino in timore, et exultate ei <choice n="0.03"><sic n="1419">cura</sic><corr n="42581">cum</corr></choice> <lb/>
+            est: seruite domino in timore, et exultate ei cum <lb/>
             tremore. 
 </p>
           
@@ -2258,9 +2256,9 @@
             profitentur <hi rend="italic">T</hi> sanctitate <hi rend="italic">R</hi> </note> <lb/>
              
 <pb n="283"/>
-            autem requiescit, ubi non <choice><sic>inueoit</sic><corr>inuenit</corr></choice> locum suum? quid aliud <lb/>
+            autem requiescit, ubi non inuenit locum suum? quid aliud <lb/>
             quam cor humilatum quod inpleat, non unde resiliat, quod <lb/>
-            <choice n="0.68"><sic n="17">eligat</sic><corr n="8">erigat</corr></choice>, non quod deprimat? cum apertissime dictum sit: <lb/>
+            erigat, non quod deprimat? cum apertissime dictum sit: <lb/>
             super quem requiescet spiritus meus? super humilem <lb/>
             et quietum et trementem uerba mea? iam iuste <lb n="5"/>
             uiuis, iam pie uiuis, pudice, sancte, uirginali castitate uiuis; <lb/>
@@ -2281,7 +2279,7 @@
 <div n="41" subtype="section" type="textpart">
 <p><milestone n="40" unit="altchapter"/> An uero propter aliud credendum est permittere <lb/>
             deum, ut misceantur numero professionis uestrae multi et <lb/>
-            multae casurae et casuri, nisi ut his cadentibus timor <choice><sic>nester</sic><corr>uester</corr></choice> <lb/>
+            multae casurae et casuri, nisi ut his cadentibus timor uester <lb/>
             augeatur, quo superbia comprimatur? quam sic odit deus, ut <lb/>
             contra hanc unam se tantum humilaret altissimus. nisi forte
 
@@ -2345,7 +2343,7 @@
              
 <pb n="285"/>
             illo regente commissum. oculi enim uestri semper ad <lb/>
-            dominum, quoniam ipse euellet <sic>dd</sic> laqueo pedes <lb/>
+            dominum, quoniam ipse euellet de laqueo pedes <lb/>
             uestros, et: nisi dominus custodierit ciuitatem, in <lb/>
             uanum uigilauit qui custodit. et de ipsa continentia <lb/>
             loquens apostolus ait: uolo autem omnes homines esse <lb n="5"/>
@@ -2390,7 +2388,7 @@
             putabat <hi rend="italic">B</hi> esse <hi rend="italic">om. PKrHADBGTMENX</hi> </note> <lb n="20"/>
              
 <pb n="286"/>
-            iustitiam ac suam <choice n="0.06"><sic n="9">nolens</sic><corr n="138">uolens</corr></choice> constituere iustitiae dei non <lb/>
+            iustitiam ac suam uolens constituere iustitiae dei non <lb/>
             subiciatur. in quo uitio erat Simon ille, quem superauit mulier, <lb/>
             cui dimissa sunt peccata multa, quoniam dilexit multum. <lb/>
             sed cautius et uerius cogitabit omnia peccata sic habenda, <lb/>
@@ -2447,7 +2445,7 @@
 
 <div n="43" subtype="section" type="textpart">
 <p>De ipsa etiam continentia nonne apertissime dictum est: <lb/>
-            et cum <choice><sic>dcirem</sic><corr>Scirem</corr></choice>, quia nemo esse potest continens nisi <lb/>
+            et cum scirem, quia nemo esse potest continens nisi <lb/>
             deus det, et hoc ipsum erat sapientiae scire, cuius <lb/>
             esset hoc donum? 
 </p>
@@ -2546,7 +2544,7 @@
             illi praeponere. haec tamen uel haec uirgo oboediens et deum <lb n="15"/>
             timens illi uel illi mulieri oboedienti et deum timenti se <lb/>
             anteferre non audeat; alioquin non erit humilis, et deus <lb/>
-            - <choice><sic>snperbis</sic><corr>superbis</corr></choice> resistit. quid ergo cogitabit? occulta scilicet dona <lb/>
+            - superbis resistit. quid ergo cogitabit? occulta scilicet dona <lb/>
             dei, quae nonnisi interrogatio temptationis etiam in semet <lb/>
             ipso unicuique declarat. ut enim cetera taceam, unde scit <lb n="20"/>
             uirgo, quamuis sollicita quae sunt domini, quomodo <lb/>
@@ -2586,7 +2584,7 @@
 </div>
 
 <div n="46" subtype="section" type="textpart">
-<p>Hoc autem tam magnum est, ut eum <choice n="0.14"><sic n="59">fractum</sic><corr n="353">fructum</corr></choice> centenum <lb/>
+<p>Hoc autem tam magnum est, ut eum fructum centenum <lb/>
             quidam intellegant. perhibet enim praeclarissimum testimonium <lb/>
             ecclesiastica auctoritas, in qua fidelibus notum est quo loco<lb n="10"/>
             martyres et quo defunctae sanctimoniales ad altaris sacramenta <lb/>
@@ -2621,9 +2619,9 @@
              
 <pb n="291"/>
             ne continentiam uidualem aut in nullo fructu constituamus <lb/>
-            aut ad coniugalis pudicitiae meritum <sic>deponamus</sic> aut uirginali <lb/>
+            aut ad coniugalis pudicitiae meritum deponamus aut uirginali <lb/>
             gloriae coaequemus aut coronam martyrii uel in habitu animi, <lb/>
-            etiamsi desit <choice><sic>tėmptationis</sic><corr>temptationis</corr></choice> examen, uel in ipsa passionis experientia <lb/>
+            etiamsi desit temptationis examen, uel in ipsa passionis experientia <lb/>
             constitutam cuilibet illarum trium castitati sine ullo <lb n="5"/>
             incremento fertilitatis adcedere existimemus. deinde ubi ponimus, <lb/>
             quod multi ac multae ita custodiunt continentiam uirginalem, <lb/>
@@ -2665,7 +2663,7 @@
              
 <pb n="292"/>
             dominum tres arbitror uoluisse fructificationis commemorare <lb/>
-            differentias, ceteras intellegentibus reliquisse. nam et <choice n="0.50"><sic n="825">alias</sic><corr n="807">alius</corr></choice> <lb/>
+            differentias, ceteras intellegentibus reliquisse. nam et alius <lb/>
             euangelista solum commemorauit centuplum. numquid ideo <lb/>
             putandus est alia duo uel inprobasse uel ignorasse ac non <lb/>
             potius intellegenda reliquisse? <lb n="5"/>
@@ -2717,7 +2715,7 @@
             effusione sanguinis dimicare; illi autem uel illi a pueritia <lb n="5"/>
             continentes seque castrantes propter regnum caelorum <lb/>
             nondum tamen ualeant talia uel pro iustitia uel pro ipsa <lb/>
-            <sic>pndicitia</sic> sustinere. aliud est enim pro ueritate ac proposito <lb/>
+            pudicitia sustinere. aliud est enim pro ueritate ac proposito <lb/>
             sancto non consentire suadenti atque blandienti, aliud non <lb/>
             cedere etiam torquenti atque ferienti. latent ista in facultatibus <lb n="10"/>
             et uiribus animorum, temtata panduntur, experientia propalantur. <lb/>
@@ -2782,7 +2780,7 @@
 
 <div n="49" subtype="section" type="textpart">
 <p><milestone n="49" unit="altchapter"/> Proinde etiam uirgines dei inreprehensibiles <lb/>
-            quidem sequuntur <choice n="0.87"><sic n="510">annum</sic><corr n="74">agnum</corr></choice>, quocumque ierit, et peccatorum <lb/>
+            quidem sequuntur agnum, quocumque ierit, et peccatorum <lb/>
             purgatione perfecta et uirginitate seruata, quae non rediret
 
 <note type="footnote"> 1 cf. Iob 14, 4. 5 8 cf. Matth. 24, 31 9 Matth. 6. 12 19 cf. <lb/>
@@ -2803,17 +2801,17 @@
              
 <pb n="295"/>
             amissa; sed quia eadem ipsa Apocalypsis, ubi tales tali reue. <lb/>
-            lati sunt, etiam <choice n="0.00"><sic n="14">hine</sic><corr n="2543">hinc</corr></choice> eos laudat, quod in ore eorum non sit <lb/>
+            lati sunt, etiam hinc eos laudat, quod in ore eorum non sit <lb/>
             inuentum mendacium, meminerint etiam in hoc esse ueraces, <lb/>
             ne se audeant dicere non habere peccatum. idem quippe Iohannes, <lb/>
             qui illud uidit, hoc dixit: si dixerimus, quia peccatum <lb n="5"/>
             non habemus, nos ipsos decipimus, et ueritas in <lb/>
             nobis non est. quodsi confessi fuerimus delicta nostra, <lb/>
-            <choice><sic>frdelis</sic><corr>fidelis</corr></choice> est et iustus, ut dimittat nobis peccata nostra <lb/>
+            fidelis est et iustus, ut dimittat nobis peccata nostra <lb/>
             et purget nos ab omni iniquitate. quodsi dixerimus, <lb/>
             quoniam non peccauimus, mendacem faciemus eum, <lb n="10"/>
             et uerbum eius non erit in nobis. hoc certe non illis <lb/>
-            aut illis, sed <choice><sic>christianis</sic><corr>Christianis</corr></choice> omnibus dicitur, ubi et uirgines se <lb/>
+            aut illis, sed christianis omnibus dicitur, ubi et uirgines se <lb/>
             debent agnoscere. sic enim erunt sine mendacio, quales in <lb/>
             Apocalypsi apparuerunt. ac per hoc quamdiu nondum est in <lb/>
             caelesti sublimitate perfectio, inuituperabiles facit in humilitate <lb n="15"/>
@@ -3000,11 +2998,11 @@
 <div n="54" subtype="section" type="textpart">
 <p><milestone n="53" unit="altchapter"/> Ecce iam tales estis, ut professae atque seruatae <lb n="10"/>
             uirginitati ceteris etiam moribus congruatis. ecce iam non <lb/>
-            solum homicidiis, <choice><sic>saeriiiciis</sic><corr>sacrificiis</corr></choice> diabolicis et abominationibus, furtis, <lb/>
+            solum homicidiis, sacrificiis diabolicis et abominationibus, furtis, <lb/>
             rapinis, fraudibus, periuriis, ebriositatibus omnique luxuria et <lb/>
             auaritia, simulationibus, aemulationibus, inpietatibus, crudelitatibus <lb/>
-            abstinetis, <sic>ueium</sic> etiam illa, quae leuiora uel sunt <lb n="15"/>
-            uel putantur, non inueniuntur nec <choice><sic>driuntur</sic><corr>oriuntur</corr></choice> in uobis: non inprobus <lb/>
+            abstinetis, uerum etiam illa, quae leuiora uel sunt <lb n="15"/>
+            uel putantur, non inueniuntur nec oriuntur in uobis: non inprobus <lb/>
             uultus, non uagi oculi, non infrenis lingua, non petulans <lb/>
             risus, non scurrilis iocus, non indecens habitus, non <lb/>
             tumidus aut fluxus incessus; iam non redditis malum pro <lb/>
@@ -3055,7 +3053,7 @@
             pretium credentis, commercium redimentis. 
 </p>
           <p><milestone n="55" unit="altchapter"/>Haec quanti ualeant cogitate, haec in statera caritatis <lb/>
-            adpendite et quidquid amoris in nuptias <choice><sic>nestras</sic><corr>uestras</corr></choice> inpendendum<lb n="20"/>
+            adpendite et quidquid amoris in nuptias uestras inpendendum<lb n="20"/>
             habebatis, illi rependite. 
 </p>
           
@@ -3093,7 +3091,7 @@
             nec eum metuitis, ne de falso forsitan offendatis. <lb/>
             si ergo magnum amorem coniugibus deberetis, eum, propter <lb n="10"/>
             quem coniuges habere noluistis, quantum amare debetis! toto <lb/>
-            <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> figatur in corde, qui pro uobis est fixus in cruce; totum <lb/>
+            uobis figatur in corde, qui pro uobis est fixus in cruce; totum <lb/>
             teneat in animo uestro, quidquid noluistis occupari conubio. <lb/>
             parum uobis amare non licet, propter quem non amastis et <lb/>
             quod liceret. sic amantibus mitem et humilem corde nullam <lb n="15"/>
@@ -3128,7 +3126,7 @@
              
 <pb n="302"/>
             auctoritatis multo grandius in hymno, quo ab eis deus honoratur, <lb/>
-            admoneant. nam sanctitati humilitatem in dei <choice><sic>laudatolibus</sic><corr>laudatoribus</corr></choice> <lb/>
+            admoneant. nam sanctitati humilitatem in dei laudatoribus <lb/>
             coniungentes apertissime docuerunt, ut tanto quisque caueat, <lb/>
             ne superbia decipiatur, quanto sanctius aliquid profertur. <lb/>
             proinde uos quoque laudate eum, qui uobis praestat, ut in<lb n="5"/>
