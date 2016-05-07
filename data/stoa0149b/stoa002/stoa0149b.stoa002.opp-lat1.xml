@@ -77,8 +77,8 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+).(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='letter']//tei:div[@n='$3' and @subtype='chapter']//tei:div[@n='$4' and @subtype='section'])"/>
-        <cRefPattern n="chapter" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='letter']//tei:div[@n='$3' and @subtype='chapter'])"/>
+        <cRefPattern n="section" matchPattern="(.+).(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']//tei:div[@n='$2']//tei:div[@n='$3']//tei:div[@n='$4'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']//tei:div[@n='$2']//tei:div[@n='$3'])"/>
         <cRefPattern n="letter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
         <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
       </refsDecl>
