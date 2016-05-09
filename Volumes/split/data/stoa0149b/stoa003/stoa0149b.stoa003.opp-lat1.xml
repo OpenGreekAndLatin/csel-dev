@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL65.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Alfredus Feder</name>
+                  <addName xml:lang="de">Alfred Feder</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1756.1">Hilarius Pictaviensis</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa009">Tractatus Mysteriorum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa002">Collectanea Antiariana Parisina (Fragmenta Historica)</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa007">Oratio Synodi Sardicensis ad Constantium Imperatorem</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa006">Libri tres adversum Valentem et Ursacium</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa005">Liber ad Constantium Imperatorem</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa004">Hymni</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa003">Fragmenta minora</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa008">Spuria</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1916</date>
+              </imprint>
+              <biblScope unit="volume">65</biblScope>
+            </monogr>
+            <ref target="https://archive.org/stream/CSEL65#page/n0/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book. chapter']//tei:div[@n='$2' and @subtype='section'])"/>
+        <cRefPattern n="book. chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book. chapter'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0149b.stoa003.opp-lat1">
+<head>
+            <title type="main">V. FRAGMENTA MINORA. </title>
+          </head>
+          <p>
+
+<note type="footnote">LXV. Hilarius pars 4. Feder. </note>
+
+<note type="footnote"> 15 </note>
+</p>
+<pb n="226"/>
+            
+<pb n="227"/>
+<div n="1" subtype="book" type="textpart">            
+          <ab>
+            <title type="sub">A. </title>
+          </ab>
+          <p><note type="margin"> <sic>Con</sic> 1367 </note> 
+</p>
+          <ab>
+            <title type="sub">EX LIBRO CONTRA CONSTANTIUM. </title>
+          </ab>
+           
+  <div n="1" subtype="section" type="textpart">
+           
+          <p><hi rend="italic">Hilarius quoque uir <choice n="0.15"><sic n="66">acris</sic><corr n="349">aeris</corr></choice> ingenii scribens ad Constantium imperatorem <lb/>
+            de incarnatione domini <choice><sic>sie</sic><corr>sic</corr></choice> ait:</hi> 
+</p>
+          <p>Filius, <hi rend="italic">inquit,</hi> dei factus homo deus est. <lb n="5"/>
+            
+</p>
+          <p><hi rend="italic">Et praeposterans repetit:</hi> 
+</p>
+          <p rend="script">Deus, filius hominis factus, est deus — homo enim factus est <lb/>
+            deus, non deus factus est homo — et filius hominis factus est filius <lb/>
+            dei. superauit enim magnitudo Christi domini paruitatem seruilis <lb/>
+            formae, ita ut ipsa seruilis forma, quam adsumpsit, cessaret esse <lb n="10"/>
+            seruilis per <choice n="0.83"><sic n="42581">cum</sic><corr n="8584">eum</corr></choice> dominum, qui eam adsumpsit. 
+          </p></div>
+  <div n="2" subtype="section" type="textpart">
+           <p>si enim, qui natura
+
+<note type="footnote"> 9 cf. Hilar. in ps. 143, 7 cf. Phil. 2, 6 sq. </note>
+
+<note type="footnote"> <hi rend="italic">B</hi> = cod. Barberinianus 505 s. IX. </note>
+
+<note type="footnote"><hi rend="italic">P = cod. Parisinus 12269 s. IX</hi>. </note>
+
+<note type="footnote"> <hi rend="italic">A</hi> — cod. Augustanus 13 s. IX. </note>
+
+<note type="footnote"> <hi rend="italic">H</hi> - cod, Uaticanus Reginensis 238 s. IX/X. </note>
+
+<note type="footnote"> <hi rend="italic">F</hi> = cod. Abrinccnsis 72 s. XI/XII. </note>
+
+<note type="footnote"> C = cod. Carnotensis 88 s. XII. </note>
+
+<note type="footnote">5 = cod. Sarisberiensis 61 s. XII. </note>
+
+<note type="footnote"> <hi rend="italic">Feu</hi> = ed. Feuardentii, ad calcem op. S. Irenaei, Coioniae 1596. </note>
+
+<note type="footnote"> <hi rend="italic">Cou</hi> = ed. Coustantii col. 1367. </note>
+
+<note rend="script" type="footnote"> 1 <hi rend="italic">Duo illa fragmenta, quae ad libellum contra Constantium imperatorem pertinuisse<lb/>
+             uidentur, tradita sunt opere, quod inscribitur</hi> Conflictus Arnobii et Serapionis, <lb/>
+            <hi rend="italic">II13 (LIII 239 M); cf. Praef. VI</hi> 3 hylarius S ingeniis (s <hi rend="italic">ex<lb/>
+             parte eras.) R</hi> ad] in <hi rend="italic">Feu; de uariis titulis</hi> in, ad, contra Constantium u. <lb/>
+            <hi rend="italic">Sludien 1138 constancium 8 constantinum AR</hi> imp <hi rend="italic">B</hi> 5 inquit] <hi rend="italic">A</hi> <lb/>
+            inquid <hi rend="italic">BR,</hi> (t <hi rend="italic">s</hi>. d) <hi rend="italic">P, om. Feu Cou</hi> autem <hi rend="italic">FCS</hi> factus] <hi rend="italic">add</hi>. 8, <hi rend="italic">sed postea <lb/>
+            eras. R</hi> est <hi rend="italic">om. Feu</hi> 6 reppetit <hi rend="italic">R</hi> de praeposterato sermone <hi rend="italic">in mg. B</hi> <lb/>
+            7 Deus filius hominis factus est <hi rend="italic">Cou</hi> bomo enim factus est deus] <hi rend="italic">B et Pm3 in mg</hi>. <lb/>
+            hominis autem perfectus est deus <hi rend="italic">FCS, om. BAFeu</hi> 8 et] sed <hi rend="italic">susp. Cou</hi> <lb/>
+            9 xpi <hi rend="italic">B, om. celt. codd. FeuCou</hi> 10 ipse <hi rend="italic">FCS</hi> forma seruilis <hi rend="italic">FCS</hi> <lb/>
+            forma—esse <hi rend="italic">om. FCS</hi> 11 eum] eundemC </note>
+
+<note type="footnote"> 15* </note> <lb/>
+             
+<pb n="228"/>
+            non sunt filii dei, per ipsum efficiuntur filii dei, quanto magis <lb/>
+            ipse, qui natura filius dei est, hunc, <choice n="0.83"><sic n="42581">cum</sic><corr n="8584">eum</corr></choice> quo <choice><sic>uoluntatc</sic><corr>uoluntate</corr></choice> sua aluo <lb/>
+            uirginali conceptus et natus est, ita sublimauit in deum, ut in cius <lb/>
+            nomine omne genu flectatur, caelestium et <lb/>
+            terrestrium et infernorum, et omnis <choice n="0.69"><sic n="722">lingua</sic><corr n="320">linguae</corr></choice><lb n="5"/>
+            confiteatur, quia dominus Iesus Christus <lb/>
+             in gloria est dei patris.</p>
+
+<note type="footnote"> 1 cf. I Ioh. 3, 2 3 cf. Phil. 2, 9 Phil. 2, 10 sq. </note>
+
+<note type="footnote"> 1 sunt om. <hi rend="italic">Pm1ARFeuCou, add,</hi> in <hi rend="italic">mg. Pm3 pr</hi>. dei <hi rend="italic">om. li</hi> fili B <lb/>
+            2 est <hi rend="italic">om. R</hi> 3 nomine eius <hi rend="italic">Feu</hi> 4 omne <hi rend="italic">om. FS</hi> flectetur C. (a s. e) <hi rend="italic">F</hi> <lb/>
+            chelestium <hi rend="italic">R</hi> et <hi rend="italic">om, B</hi> 5—7 et oninis—patris om. <hi rend="italic">Feu</hi> 5 linguae R <lb/>
+            6 eonfitcatur] <hi rend="italic">add</hi>. ei <hi rend="italic">FCS</hi> Iesus <hi rend="italic">om. R</hi> </note> 
+<pb n="229"/>
+             
+</div>
+
+
+
+</div>
+<div n="2" subtype="book" type="textpart">            
+          <ab>
+            <title type="sub">B. </title>
+          </ab>
+          <p><note type="margin"> <sic>Cos</sic>. 13665∗ qu. </note> 
+</p>
+          <ab>
+            <title type="sub">EX TRACTATIBUS IN IOB. </title>
+          </ab>
+<div n="1" subtype="chapter" type="textpart">            
+<div n="1" subtype="section" type="textpart">            
+          <p><hi rend="italic">In quadam uero <choice><sic>hwnilia</sic><corr>humilia</corr></choice> de libro sancti <sic>lob</sic> attende, quid dicat, <lb/>
+            quemadmodum ipsius diaboli aduersus nos indesinens bellum ex hoc <lb n="5"/>
+            fieri asserat, cum ea mala, quae in nobis sunt, excitat contra nos, <lb/>
+            quod in nostram fieri utilitatem uult docere, conuertente scilicet diuina <lb/>
+            misericordia malitiam diaboli ad purgationem nostram:</hi> 
+</p>
+          <p>Tanta enim et tam admirabilis, <hi rend="italic">inquit,</hi> in nos misericordiae dei <lb/>
+            bonitas est, ut, per quem in Adae offensa generositatem primae et beatae <lb n="10"/>
+            illius creationis amisimus, pereum rursum <sic>idquod</sic> amisimus, obtinere <lb/>
+            mereamur. tunc enim diabolus inuidens nocuit, nunc autem, <lb/>
+            cum nocere nititur, uincitur. mouet enim per infirmitatem carnis <lb/>
+            nostrae omnia potestatis suae tela, cum ad lasciuiam accendit, cum <lb/>
+            ad ebrietatem illicit, cum ad odia stimulat, cum ad auaritiam prouocat, <lb n="15"/>
+            cum ad caedes instruit, cum ad maledicta exacerbat.</p></div>
+
+<div n="2" subtype="section" type="textpart"><p>sed 
+
+<note type="footnote"> 10 sq. cf. Hilar. in Matth. 8, 5. 10, 4 etc. </note>
+
+<note type="footnote"> <hi rend="italic">B</hi> cod. Britannici Musei 23944 s. XI. </note>
+
+<note type="footnote"> <hi rend="italic">A</hi> — cod. Parisinus Armamentarii 477 s. XII. </note>
+
+<note type="footnote"> C - cod. Bituricensis (ol. Casalinus) 83 s. XII. </note>
+
+<note type="footnote">F=cod. Aurelianensis (ol. Floriacensis) 162 s. XI. </note>
+
+<note type="footnote">P=cod. Parisinus (ol. Bigotianus) 2101 s. XII. </note>
+
+<note type="footnote"><hi rend="italic">T = cod. Trecensis (ol. Clareuallensis)</hi> 528 s. XII. </note>
+
+<note type="footnote"> r - cod. Uaticanus<unclear/> s. XII. </note>
+
+<note type="footnote"> II :-cod. Ulndobonensis 1523 s. XIV. </note>
+
+<note type="footnote"> <hi rend="italic">U</hi> = rod. Uaticanus Urbin, 83 (ol. 125) s. XV. </note>
+
+<note type="footnote"> <hi rend="italic">Era=ed</hi>. Erasmi VII (Basilrae 1556) 981. </note>
+
+<note type="footnote"> <hi rend="italic">Lou</hi> = ed. Louaniensis VII (Coloniae Agrippinae 1616) 341. </note>
+
+<note type="footnote"> <hi rend="italic">Mau=ed. Maurinorum X (Parisiis</hi> 1696) 543 sq. </note>
+
+<note type="footnote"> <hi rend="italic">1 Triasequentiafragmenta uidentur esse deprompta ex opere Hilarii deperdito,<lb/>
+             cui erat titulus</hi> Tractatus in Iob; <hi rend="italic">cj. Praet. V 2 el Studien III 91 sq. primum<lb/>
+             fragmentum traditum est a S. Augustino in libro II contra Iuhanum c. 8 (27)</hi> <lb/>
+            4 omelia <hi rend="italic">codd</hi>. Iob sancti <hi rend="italic">A</hi> dicat <hi rend="italic">sc</hi>. beatissimus Hilarius 6 aduersum C <lb/>
+            7 in <hi rend="italic">om.U</hi> fieri om.W 9 ammirabilis <hi rend="italic">VT</hi> inquit om. <hi rend="italic">CMau</hi> 10 offensā <hi rend="italic">B <lb/>
+            11 id om. AT</hi> 12 nocuit] <hi rend="italic">uicit F, om. BW 15 inlicit BP 16 cedes BAT</hi> <lb/>
+            scelus W </note> <lb/>
+             
+<pb n="230"/>
+            cum per firmitatem animi horum omnium subrepentia incentiua <lb/>
+            reprimuntur, emundamur a peccato per huius uictoriae gloriam; <lb/>
+            dictum enim ita est: aut quomodo se emundabit natus <lb/>
+            ex muliere? quia non extante hoste non erit bellum, <lb/>
+            cessante deinde bello uictoria deerit. collidentium autem adutrsus<lb n="5"/>
+            nos uitiorum uictoria non adepta non erit emundatio ulla uitiorum, <lb/>
+            quia his insidiis corporis nostri pirata uicto conluctantium aduersus  <lb/>
+  nos passionum concertatione purgamur.
+</p></div>
+
+<div n="3" subtype="section" type="textpart">
+  <p>
+             memores igitur, <hi rend="italic">inquit,</hi> et <lb/>
+            conscii illa ipsa corpora nostra omnium uitiorum esse materiem, <lb/>
+            per quam polluti et sordidi nihil in nobis mundum, nihil innocens<lb n="10"/>
+            obtinemus, gaudeamus nobis esse hostem, in cuius concertatione <lb/>
+  quodam concertationis nostrae bello dimicemus.</p>
+
+<note type="footnote"> 3 Hiob 25, 4 </note>
+
+<note type="footnote"> 1 anima <hi rend="italic">Fml</hi> animp <hi rend="italic">Ftn2</hi> subripentia IV 4 exstante IV 5 deinde] <lb/>
+            de W conlidentium <hi rend="italic">P</hi> aduersu <hi rend="italic">C</hi> 7 pyrata <hi rend="italic">F</hi> colluctantium <hi rend="italic">AC, Fp.c., <lb/>
+            TVWU</hi> aduersu <hi rend="italic">BCFW</hi> 8 concertatione <hi rend="italic">P</hi> memores] <hi rend="italic">praem</hi>. an V <lb/>
+            igitur] ergo <hi rend="italic">VU</hi> inquit om. <hi rend="italic">Cou</hi> 9 ipsa illa <hi rend="italic">BFW</hi> nostra corpora W. <lb/>
+            10 per qua <hi rend="italic">AT</hi> pro qua <hi rend="italic">CPEraLou</hi> 11 optinemus <hi rend="italic">BF</hi> nobis] <hi rend="italic">praem</hi>. in <hi rend="italic">T</hi> <lb/>
+            concertatione <hi rend="italic">F</hi> concertamine <hi rend="italic">U</hi> certatione <hi rend="italic">ATV</hi>  </note> <lb/>
+             
+
+
+</div>
+
+</div>
+<div n="2" subtype="chapter" type="textpart">            
+<div n="1" subtype="section" type="textpart">            
+          <p><hi rend="italic">Item quod eum dixisse commemorat:</hi> 
+</p>
+          <p>Quas Iob litteras legerat, ut abstineret se ab omni re maligna ? <lb n="15"/>
+            quia deum sola mente uitiis non ammixta ueneratur, deum autcm <lb/>
+            colere proprium iustitiae officium est. 
+</p>
+          <p><hi rend="italic">Quid fecisset; lob dicit, non quid in hoc saeculo perfecisset aut sine<lb/>
+             gratia salualoris, quem etiam prophetauit, uel fecisset uel perfecisset</hi>.
+
+<note type="footnote"> 15 cf. Hiob 1, 1 </note>
+
+<note type="footnote"> 13 <hi rend="italic">Fragmentum iruenilur apud S. Awjustinum in libro de natura et gralia</hi> <lb/>
+            62 (72); <hi rend="italic">repraesentamus textum in editione Uindobonensi (CSEL LX</hi> 287, <hi rend="italic">20-</hi> <lb/>
+            268, 2) <hi rend="italic">a C. Vrba et 1. Zycha suppeditatum id</hi> unum <hi rend="italic">addentes lectiones uarias,<lb/>
+             quae usque adhuc</hi> in <hi rend="italic">ceteris Augustini uel Hitarii editionibus legebantur,</hi> uenerabatur <lb/>
+            <hi rend="italic">et</hi> iustitiae proprium <hi rend="italic">codicum auctoritate minime niti</hi> 14 eum <hi rend="italic">sc</hi>. beatum <lb/>
+            Hilarium commemorat <hi rend="italic">sc</hi>. Pelagius </note> 
+<pb n="231"/>
+            
+</p>
+
+</div>
+
+</div>
+<div n="3" subtype="chapter" type="textpart">            
+<div n="1" subtype="section" type="textpart">            
+
+          <p><hi rend="italic">Sanctus Hilarius dicit:</hi> 
+</p>
+          <p>Panem cotidianum da nobis hodie. quid enim <lb/>
+            tam uult deus, quam ut cotidie Christus habitet in nobis, qui <note type="chapter"> 4 </note> <lb/>
+            est panis uitae et panis e caelo? et quia cotidiana oratio est, <lb n="5"/>
+            cotidie quoque ut detur, oratur.
+
+<note type="footnote"> 3 sqq. cf. Ambros. (?) de sacram. V 25 Luc, 11, 3 4 cf. Eph. 3, 17 <lb/>
+            5 cf. Ioh. 6, 35. 48 ct. Ioh. 6, 51. 59 etc. </note>
+
+<note type="footnote"> P= cod. Parisinus 3846 s. IX. </note>
+
+<note type="footnote"> <hi rend="italic">U</hi> = cod. Uindobonensis 411 s. X. </note>
+
+<note type="footnote">E<unclear/> = cod. Escurialensis d. I. 1 s. X ex. </note>
+
+<note type="footnote">Ee = cod. Escurialensis d. I. 2 s. X. </note>
+
+<note type="footnote"><hi rend="italic">R = cod. Palatinus 575 s. X</hi>. </note>
+
+<note type="footnote"><hi rend="italic">N</hi> = cod. Parisinus 1455 s. X. </note>
+
+<note type="footnote"><hi rend="italic">M</hi> = cod. Matritensis Bibl. Nat. P. 21 s. X/XI. </note>
+
+<note type="footnote"> 1 <hi rend="italic">Fragmentum seruatum esl</hi> tn <hi rend="italic">aclis synodi Toletanae IV</hi> (anni <hi rend="italic">633) cap. 10<lb/>
+             (Fr. A. Gonzalez, Collectio</hi> canonum <hi rend="italic">ecclesiae Hispanae, Malriti 1808, p. 370)<lb/>
+             2 larius V 3 cottidianum U odie PN 4 uul P cottidie U</hi> 5 de <lb/>
+            <hi rend="italic">I\'RN</hi> quia] qui <hi rend="italic">U</hi> cottidiana <hi rend="italic">U</hi> 6 cottidie <hi rend="italic">U</hi> </note> 
+<pb n="232"/>
+            
+</p>
+          <p><note type="margin"> <sic>Cou</sic> 1388 </note>
+</p>
+
+</div>
+
+</div>
+
+</div>
+<div n="3" subtype="book" type="textpart">            
+          <ab>
+            <title type="sub">C. </title>
+          </ab>
+          <ab>
+            <title type="sub">EX COMMENTARIO IN MATTHAEUM. </title>
+          </ab>
+<div n="1" subtype="section" type="textpart">            
+          <p><hi rend="italic">Item eiusdem in prooemio expositionis euangelii secundum<lb/>
+             Matthaeum:</hi> 
+</p>
+          <p>Erat namque primum necessarium nobis, ut unigenitus deus <lb n="5"/>
+            nostri causa homo natus cognosceretur. 
+</p>
+          <p><hi rend="italic">Item in consequentibus</hi> 
+</p>
+          <p>Ad id, quod <choice n="0.02"><sic n="38">dens</sic><corr n="1292">deus</corr></choice> erat, homo, id quod tum non erat, <lb/>
+            gigneretur. 
+</p>
+          <p><hi rend="italic">Item in eodem:</hi><lb n="10"/>
+            
+</p>
+          <p>Tertium deinceps illud congruum fuit, ut, quia deus homo <lb/>
+            genitus in mundo <hi rend="italic">et cetera</hi>.
+
+<note type="footnote"> <hi rend="italic">A</hi> — cod. Parisinus Armamentarii 483 s. IX. </note>
+
+<note type="footnote"> M = cod. Britannici Musoi 16414 s. XI/XII. </note>
+
+<note type="footnote"> \'<hi rend="italic">p = cod. Parisinus</hi> 14860 s. XIII in. </note>
+
+<note type="footnote"> <hi rend="italic">Illa Ina fragmenta pertinentia ad prooemium commentarii Hitariani in <lb/>
+            Matthaeum nunc deperditum tradit Cassianus in opere,</hi> qui <hi rend="italic">insenbitur</hi> Contra. <lb/>
+            . <hi rend="italic">Nestorium, VII 24. repraesentamus textum et lectiones uariantes secundum editionem<lb/>
+             Uindobonensem (CSEL XVII 383, 1-8) a M. Petschenig paratam</hi> 3 in <lb/>
+            eiusdem in <hi rend="italic">M</hi> eiusdem <hi rend="italic">sc</hi>. Ililarii pmio <hi rend="italic">M</hi> proemio <hi rend="italic">p</hi> euuangelii <hi rend="italic">p</hi> <lb/>
+            4 matheum A mathm <hi rend="italic">p</hi> 11 terrio <hi rend="italic">M</hi> congru|gruum <hi rend="italic">p</hi> </note> 
+<pb n="233"/>
+            
+</p>
+
+</div>
+
+</div>
+<div n="4" subtype="book" type="textpart">            
+          <ab>
+            <title type="sub">D. </title>
+          </ab>
+          <p><note type="margin">Cou 1866 </note> 
+</p>
+          <ab>
+            <title type="sub">DE EXPOSITIONE HPISTULAE AD TIMOTHEUM. </title>
+          </ab>
+ <div n="1" subtype="section" type="textpart">            
+         <p><hi rend="italic">Sanctus igitur Hilarius in expositione epistolae ad Timotheum<lb/>
+             <choice><sic>sie</sic><corr>sic</corr></choice> loquitur:</hi> 
+</p>
+          <p>Nam et cum dicit scriptura: homo Christus et cum dicit: <lb n="5"/>
+            Christus mortuus est et cum dicit: uerbum caro <lb/>
+            factum <choice><sic>cst</sic><corr>est</corr></choice>, non spoliandus est <sic>pcr</sic> <choice><sic>fraudulcntiam</sic><corr>fraudulentiam</corr></choice> legentis <lb/>
+            <choice><sic>cxpositionihus</sic><corr>expositionibus</corr></choice> suis sermo. namque ubi \'homo Christus\' est, <sic>praicedit</sic> <lb/>
+            : mediator dei atque hominum: ex deo homo, <lb/>
+            utrumque unum et inter hominem et deum medius confessione in <lb n="10"/>
+            se utriusque naturae. ubi \'Christus mortuus\', subicitur: qui <lb/>
+            resurrexit, qui est in dextera dei. in morte eius <lb/>
+            carnis nostrae infirmitas est, in resurrectione uirtus eius, in consessu <lb/>
+            dei dignitas.
+
+<note type="footnote"> 51 Tim. 2, 5 6 Rom. 8, 34 Ioh. 1, 14 7 sqq. cf. Hilar. de trin. X 66 <lb/>
+            91 Tim. 2, 5 11 Rom. 8, 34 </note>
+
+<note type="footnote"> Codices u. p. 231. </note>
+
+<note type="footnote"> <hi rend="italic">Agu</hi> = I. Saenz de Aguirre, Collectio maxima conciliorum <lb/>
+            omnium Hispaniae et noui orbis, Romae 1604. </note>
+
+<note type="footnote"> <hi rend="italic">Gon</hi> = Fr. A. Gonzalez, Collectio canonum ecclesiae Hispanae, <lb/>
+            Matriti 1808. </note>
+
+<note type="footnote"> <hi rend="italic">1 Fragmentum inuenitur in aclis synodi Hispalensis 11 (anni 619) cap. 13<lb/>
+             (Gonzalez 651); de ipso fragmento u. 1\'raef</hi>. V <hi rend="italic">4 et Studien III 93 sq</hi>. 3 ergo <lb/>
+            <hi rend="italic">E1E2 AguCou</hi> hylarius M elarius <hi rend="italic">r</hi> expedicione <hi rend="italic">U</hi> explicatione <hi rend="italic">Agu</hi> <lb/>
+            epistule U <hi rend="italic">thimotheum PUM 6 est om. PE1E2RM Gon</hi> 7 expoliandus <lb/>
+            <hi rend="italic">Gon</hi> spoliansdus P est spoliandus <hi rend="italic">Cou</hi> fraudulentia <hi rend="italic">R</hi> 8 suis. sermo <lb/>
+            <hi rend="italic">PRM</hi> nam <hi rend="italic">AguCou</hi> 9 adque <hi rend="italic">PM</hi> et <hi rend="italic">R</hi> ex deo—unum et] ut ex utroque, <lb/>
+            deo et homine, unus subsistat; sitque <hi rend="italic">Agu</hi> Cou 10 eonfessionem <hi rend="italic">M</hi> in se <lb/>
+            utriusque] insecurisque U 11 se um. <hi rend="italic">PN</hi> ubi] <hi rend="italic">add</hi>. uero <hi rend="italic">Agu Cou</hi> 12 resurrexi <lb/>
+            M 13 uirtus eius] uirtutis eiuspotentiaJl <hi rend="italic">consensu UNM Gon</hi> </note> 
+<pb n="234"/>
+            
+</p>
+          <p><note type="margin"> <sic>Cou</sic> 1868 </note> 
+</p>
+
+</div>
+
+</div>
+<div n="5" subtype="book" type="textpart">            
+          <ab>
+            <title type="sub">E. </title>
+          </ab>
+          <ab>
+            <title type="sub">EX OPERE INCERTO. </title>
+          </ab>
+ <div n="1" subtype="section" type="textpart">            
+         <p><hi rend="italic">Ecclesiae catholicae aduersus <sic>hereticos</sic> acerrimum defensorem<lb/>
+             uenerandum quis ignoret Hilarium episcopum Gallum ? qui cum de <lb/>
+            Christi carne ageret, attende quid dixerit:</hi><lb n="5"/>
+            
+</p>
+          <p>Ergo cum missus est, <hi rend="italic">inquit,</hi> in similitudine carnis peccati, <lb/>
+            non sicut oarnem habuit, ita habuit et peccatum. sed quia ex <lb/>
+            peccato omnis caro est, a peccato scilicet Adam parente deducta, <lb/>
+            in similitudine peccati carnis est missus existente in eo <sic>nOli</sic> <lb/>
+            peccato, sed peccati carnis similitudine.
+
+<note type="footnote"> 6 sqq..cf. Hilar. de trin. X 25 cf. Rom. 8, 3 </note>
+
+<note type="footnote"> <hi rend="italic">1 Fragmentum hoc operis Hilariani incerti (Commentarii</hi> in <hi rend="italic">epistulas Paulinas?) <lb/>
+            asserualum est in Augustini J. c. lulianum 13 (9). libros manu scriptos, quos<lb/>
+             adhibuimus, et edilores (Era 940, Lou327, Mau 501) u. supra p. 229. fragmentum<lb/>
+             cj. etiam cum August. I. c. 17 (32):</hi> Sanitus Hilarius dicit ex peccato esse omnem <lb/>
+            carnem praeter illius, qui uenit in similitudine carnis peccati sine peccato. dicit <lb/>
+            sub peccati origine et sub peccati lege natum esse, cuius uox est: ego in <lb/>
+            iniquitatibus conceptus sum <hi rend="italic">(Ps. 50,7) et II 4 (8):</hi> Et ideo uenerandus <lb/>
+            Hilarius ex peccato esse omnem carnem non cunctatus est dicere. sed <lb/>
+            numquid ideo negauit ex deo ? 3 haereticos <hi rend="italic">edd</hi>. 4 ignorat <hi rend="italic">Era Lou hy-</hi> <lb/>
+            larium <hi rend="italic">AU</hi> episcopum hylarium <hi rend="italic">A</hi> 5 quid] quę <hi rend="italic">BW</hi> 6 comissus W similitudinem <lb/>
+            <hi rend="italic">CVEra</hi> 8 omnis <hi rend="italic">om. A, expo T</hi> parentis <hi rend="italic">V</hi> 9 similitudinem V <lb/>
+            carnis peccati <hi rend="italic">FY</hi> exsistente l\' 10 carnis peccati <hi rend="italic">F</hi> </note> <lb n="10"/>
+            
+
+            
+</p>
+</div>
+</div>
+</div>
+</body>
+</text>
+</TEI>

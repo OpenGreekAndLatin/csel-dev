@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL7.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Michael Petschenig</name>
+                  <addName xml:lang="de">Michael Petschenig</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292d">Victor Vitensis</author> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292p">Pseudo-Victor Vitensis</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292d.stoa001">Historia persecutionis Africanae provinciae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292d.stoa002">Passio septem monachorum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292p.stoa002">Notitia provinciarum et civitatum Africae</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1881</date>
+              </imprint>
+              <biblScope unit="volume">7</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru10wissgoog#page/ns55/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0292p.stoa001.opp-lat1">
+<head>
+            <title type="main">INCERTI AUOTORIS PASSIO SEPTEM MONACHORUM. </title>
+          </head>
+          
+
+<div n="1" subtype="section" type="textpart"><ab>
+            <title type="sub">PASSIO BEATISSIMORUM MARTVRUM QVI APUD CAR- THAGINEM PASSI SUNT SUB IMPIO REGE HUNIRICO DIE VI. NON. IUL. </title>
+          </ab>
+          <p> (I) Praedicaturus triumphos martyrum beatorum ad enarranda <lb/>
+            quae gesta sunt auxilium exposco diuinum, ut qui illis <lb n="5"/>
+            praestitit superandi uictoriam, mihi indigno et inmerito <choice><sic>quantulaoumque</sic><corr>quantulacumque</corr></choice> <lb/>
+            uerborum porrigat ornamenta. Tunc etenim <choice><sic>nalebo</sic><corr>ualebo</corr></choice> <lb/>
+            quae desiderata sunt indicare, si ipsi dignentur pro me misero <lb/>
+            domino supplicare. 
+</p>
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p> (II) Septimus namque agebatur annus crudelissimi atque <lb n="10"/>
+            impiissimi regis Hunirici, et ecce antiquus hostis, ueternosus <lb/>
+            utique anguis, trisulcis linguae uenena uibrans, Cyrila quondam <lb/>
+            Arriomanitarum episcopo <choice n="0.76"><sic n="140">minima</sic><corr n="42">ministro</corr></choice> usus est, subuertens et obtinens <lb/>
+            animum regis cruenti, ut ita suaderet, non posse eum <lb/>
+            pacatum atque longaeuum obtinere regnum, nisi nomen perderet <lb n="15"/>
+            innocentum. Qui tamen dei iudicio post non multos dies tur- <lb/>
+            
+</p></div>
+
+<div n="3" subtype="section" type="textpart">
+          <p><sic>pissima</sic> morte praeuentus scatens uermibus exspirauit. <choice><sic>Inseotari</sic><corr>Insectari</corr></choice> <lb/>
+            coepit <choice n="0.97"><sic n="1574">ore</sic><corr n="45">ere</corr></choice> cruento omnem catholicorum multitudinem, quae <lb/>
+            per totam prouinciam Africanam in modum, sicut praedictum <lb/>
+            est Abrahae patriarchae, harenae maris fuerat multiplicata, <lb n="20"/>
+            ut eam rebaptizationis sauciaret machera atque stolam illam
+
+<note type="footnote"> 4 trihumphos P martiryrtl <hi rend="italic">W</hi> 7 etenim] edenim <hi rend="italic">W</hi> etiam <lb/>
+            P 10 atque impiissimi <hi rend="italic">om. W</hi> 11 huoerici <foreign xml:lang="grc">ϕ</foreign>ab2 honirici P <lb/>
+            hostis antiquus <hi rend="italic">a</hi> ueternus <hi rend="italic">W</hi> 12 triaulci lingua <hi rend="italic">Ws2<foreign xml:lang="grc">β</foreign></hi> <lb/>
+            librans <hi rend="italic">W</hi> chirila <hi rend="italic">BVCsL</hi> cirilla <hi rend="italic">M</hi> cjrilla a quondam P <lb/>
+            <hi rend="italic">OMs:</hi> quendam <hi rend="italic">BVXB</hi> quedam P quodam <hi rend="italic">WaLb</hi> 18 aririomaaitarum <lb/>
+            <hi rend="italic">W</hi> arrianitarum <hi rend="italic">Pb1R</hi> arrianorum a episcopum <hi rend="italic">BV1PR</hi> <lb/>
+            optinens <hi rend="italic">V2sa</hi> 14 ita ut <hi rend="italic">Ms2</hi> 15 optinere <hi rend="italic">V2aPb</hi> 17 praeuenitur <lb/>
+            <hi rend="italic">b</hi> expirauit <hi rend="italic">WaL<foreign xml:lang="grc">β</foreign></hi> 20 habrahę <hi rend="italic">VCs</hi> habrpe <hi rend="italic">a</hi> <lb/>
+            patriaroe <hi rend="italic">a</hi> arenae <hi rend="italic">WPL</hi> 21 eam] etiam <hi rend="italic">PB</hi> sauciare <hi rend="italic">b</hi> </note> <lb/>
+             
+<pb n="109"/>
+            singularis et puri baptismatis, quam Christus <choice n="0.00"><sic n="1">nino</sic><corr n="541">uino</corr></choice> carnis suae <lb/>
+            purificans praelo exprimens <choice><sic>crueis</sic><corr>crucis</corr></choice> fecerat dealbatam, tetrae <lb/>
+            nigredinis <sic>tiirparet</sic> inluuie sordulenta. <choice><sic>Aocipiens</sic><corr>Accipiens</corr></choice> quoque tyrannus, <lb/>
+            ut erat <sic>dnoibilis</sic> et <choice n="0.34"><sic n="66">feros</sic><corr n="125">ferus</corr></choice>, serpentinam suggestionem, feralibus <lb/>
+            edictis uno tempore totam coepit Africam commouere. <lb n="5"/>
+            
+</p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p>Primo sacerdotum et ministrorum copiosissimam et maximam  <lb/>
+            turbam in longinquis et extremis regionibus exilio crudeli detrusit: <lb/>
+            quibus bis acutum genus frumenti, quod iumentis solis <lb/>
+            edere concessum est, nequaquam industria molari contritum, <lb/>
+            sed manente furfuris cortice <choice><sic>lorioatum</sic><corr>loricatum</corr></choice>, pro miseratione dari <lb n="10"/>
+            praecepit; post uero crescente impietatis insania etiam hoc
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p>auferri crudelissimus imperauit. Post modicum quoque temporis  <lb/>
+            uniuersas simul ecclesias praeiudicatis uenerabilibus portis <lb/>
+            caementis ingentibus claudi mandauit : uniuersa namque monasteria <lb/>
+            uirorum uel puellarum sanctarum gentilibus id est Mauris <lb n="15"/>
+            cum habitatoribus donare praecepit. Unus fuit omnibus eiulatus, <lb/>
+            unus pro Christo moriendi integer et plenus affectus. Paria <lb/>
+            currebant <choice><sic>ilumina</sic><corr>flumina</corr></choice> <choice><sic>laorimarum</sic><corr>lacrimarum</corr></choice>, quia permiserat dominus <choice><sic>oibari</sic><corr>cibari</corr></choice> <lb/>
+            eos panem lacrimarum et potari eos in lacrimis <lb/>
+            in mensuram aut forsitan sine mensura.</p></div>
+
+<div n="6" subtype="section" type="textpart"><p>Etsi reperta  <lb n="20"/>
+            est exiens de <choice n="0.53"><sic n="139">area</sic><corr n="120">arca</corr></choice> inhians cadaueribus mortuis pars aliqua <lb/>
+            pereuntium coruorum, maior est tamen in nomine trinitatis <lb/>
+            numerus felicium columbarum. Quanti nobiles et optimi uiri, <lb/>
+            ampli et lati cespitis domini, terram cum caelo commutauerunt <lb/>
+            et simul corpus cum substantia tradiderunt, atque delicatae <lb n="25"/>
+            et nobilissimae feminae contra uerecundiam naturae spectante
+
+<note type="footnote"> 18 Ps. 79, 6. </note>
+
+<note type="footnote"> 2 proelo <hi rend="italic">BVC18</hi> prelo <hi rend="italic">C\'o</hi> fecerat] fuerat <hi rend="italic">PR</hi> terrae a <lb/>
+            thetre <hi rend="italic">(-ę b)</hi> 0 3 nigridinis <hi rend="italic">W</hi> 4 docibilis <hi rend="italic">a<foreign xml:lang="grc">β</foreign></hi> 7 et in <lb/>
+            longinquis a 8 accutum <hi rend="italic">M</hi> solum <foreign xml:lang="grc">β</foreign> 9 molarum <foreign xml:lang="grc">β</foreign>. <lb/>
+            contritam om. <foreign xml:lang="grc">β</foreign> 10 luricatum <hi rend="italic">BV1C1 (Schuch</hi>. II, <hi rend="italic">110; III, 200; <lb/>
+            Roensch 465)</hi> 12 quoque] uero <hi rend="italic">M</hi> 14 cimentia <hi rend="italic">W</hi> 16 donari <lb/>
+            <hi rend="italic">82aPR</hi> 18 promiserat <hi rend="italic">et</hi> fcybari <hi rend="italic">Pb</hi> 19 panem <hi rend="italic">BV1<lb/>
+             (<foreign xml:lang="grc">Ψωμιεῑς ἡμα̃ς ἂϱτο</foreign>v</hi> <foreign xml:lang="grc">δαϰϱύω</foreign>v) : pane <hi rend="italic">rell</hi>. 20 mensuram <hi rend="italic">BVlCa <lb/>
+            (Commodian. Instr : II, 17, 1 Ludww) : mensura rell</hi>. 21 archa <hi rend="italic">M <lb/>
+            aP</hi> iniens <hi rend="italic">P</hi> 22 praeeuntium M 24 ceapites <hi rend="italic">P1</hi> <lb/>
+            25 carpuB <hi rend="italic">V1</hi> 26 expectante <hi rend="italic"><foreign xml:lang="grc">Βϕ</foreign> WL</hi> expetente a </note>
+
+<pb n="110"/>
+            uulgo <choice><sic>nirgis</sic><corr>uirgis</corr></choice> <choice><sic>oaesae</sic><corr>caesae</corr></choice> uariisque tormentis <sic>cruciataae</sic> uictricia trophea <lb/>
+            portarunt! <choice><sic>quauti</sic><corr>quanti</corr></choice> <choice><sic>infantnli</sic><corr>infantuli</corr></choice> inridentes edicta feralia ante<lb/>
+             mundum contempserunt, priusquam inlecebrosam eius semitam <lb/>
+            introirent! 
+</p>
+          </div>
+
+<div n="7" subtype="section" type="textpart"><p> (III) Tunc adprehensi sunt et septem fratres, quantum continet<lb n="5"/>
+            ad concordiam dominicae seruitutis in monasterio habitantes <lb/>
+            in unum, quia bonum est et iucundum habitare <lb/>
+            fratres in unum, id est Bonifatius diaconus, <choice><sic>Sernus</sic><corr>Seruus</corr></choice> subdiaconus, <lb/>
+            <choice><sic>Husticus</sic><corr>Rusticus</corr></choice> subdiaconus, Liberatus abba, Rogatus monachus, <lb/>
+            Septimus monachus et Maximus monachus, in numero<lb n="10"/>
+            scilicet Macchabeorum germanorum, quos una mater ecclesia <lb/>
+            catholica genuerat et per uiscera fontis aeterni salubriter pepererat, <lb/>
+            de territorio Capsensis ciuitatis, cui praefuit sanctus  <lb/>
+            Uindemialis sacerdos egregius et Christi fidelis antistes.</p></div>
+
+<div n="8" subtype="section" type="textpart"><p>Qni <lb/>
+            adtracti ad urbem Carthaginiensem, primo eis inlecebrosis<lb n="15"/>
+            blandimentis serpens uoluit sibilare, promittens honores caducos <lb/>
+            et diuitias ingentium uoluptatum nec non et regis amicitias <lb/>
+            uel alia multa, quae solent insipientium animas aucupante <lb/>
+            diabolo uisco mundiali captare. Sed haec omnia milites dei <lb/>
+            acsi contagia respuerunt, clamantes uno ore: \'unus dominus, <lb n="20"/>
+            una fides, unum <choice><sic>haptisma</sic><corr>baptisma</corr></choice>. Nec poterit in nobis <choice><sic>adiunante</sic><corr>adiuuante</corr></choice> <lb/>
+            domino iterari, quod in sancto euangelio semel praeceptum est <lb/>
+            dari; quia qui semel lotus est, non habet necesse iterum
+
+<note type="footnote"> </note>
+
+<note type="footnote"> 7 Ps. 182, 1. 20 Eph. 4, 5. </note>
+
+<note type="footnote"> 1 uictoriae <foreign xml:lang="grc">β</foreign> tropea <hi rend="italic">b</hi> 2 ferocia <hi rend="italic">a</hi> 3 priusquam] quam <lb/>
+            <hi rend="italic">Ws*</hi> 5 et om. <hi rend="italic"><foreign xml:lang="grc">β</foreign></hi> continet om. <hi rend="italic"><foreign xml:lang="grc">β</foreign></hi> 6 monasteria F* <lb/>
+            7 iocundum <hi rend="italic"><foreign xml:lang="grc">ϕ</foreign> Wab2</hi> bonum et iocundum est <hi rend="italic">M</hi> 8 bonifaciuB <hi rend="italic">Ms<lb/>
+             LPb1B</hi> bonefacius <hi rend="italic">ab2</hi> 10 septiminus <hi rend="italic">WaPR</hi> septimus monachua<lb/>
+             et maximus monachus <hi rend="italic">om. C</hi> et maximus monachus om. <foreign xml:lang="grc">β</foreign> <lb/>
+            11 machabeorum <hi rend="italic">W MsaL<foreign xml:lang="grc">β</foreign></hi> germanorum om. <hi rend="italic">C</hi> 18 territario <lb/>
+            <hi rend="italic">BV1 (Schuch. II, 103)</hi> praeerat a 14 egreiua s antestis <lb/>
+            <hi rend="italic">BY (Schuch. III, 187)</hi> antestes <hi rend="italic">C* ut uid</hi>. qui acti <foreign xml:lang="grc">β</foreign> 15 cartaginiensem<lb/>
+             <hi rend="italic">BVC1</hi> cartaginensem <hi rend="italic">WC2Ms</hi> carthaginensem <hi rend="italic">reI</hi>. <lb/>
+            16 serpens] sibi P 17 uoluptatum om. <hi rend="italic">b</hi> amiticias W <lb/>
+            18 occupante <hi rend="italic">Pb</hi> 19 captiuare a milites christi <foreign xml:lang="grc">β</foreign> 20 unus <lb/>
+            deus unus dominus <hi rend="italic">b</hi> 21 baptismum <foreign xml:lang="grc">β</foreign> 23 qui qui P locutus <lb/>
+            <hi rend="italic">V1 W1</hi> est lotus <hi rend="italic">a</hi> </note> <lb/>
+             
+<pb n="111"/>
+            <sic>luari</sic>, quia mundus est totus. Facite quod uultis, inferte <lb/>
+            poenas corporibus nostris: melius est temporalia ad modicum <lb/>
+            sufferre <choice><sic>supplieia</sic><corr>supplicia</corr></choice>, quam aeterna pendere et subire tormenta. <lb/>
+            Habete quae promittitis, cum ipsis diuitiis post paululum perituri. <lb/>
+            Nobis <choice n="0.00"><sic n="1">nero</sic><corr n="7062">uero</corr></choice> nullus de postibus frontium ualebit euellere, <lb n="5"/>
+            quod in uno baptismate artifex trinitatis dignatus est <sic n="poss">titulare1</sic>. 
+</p>
+          </div>
+
+<div n="9" subtype="section" type="textpart"><p>(IV) Quid multa? Dum tali constantia diuinitus munirentur,  <lb/>
+            iussi sunt carcerali custodiae mancipari, et ita crudelius onerati <lb/>
+            ferri ponderibus tenebrosis deputati sunt locis, ubi nulla <lb/>
+            miseratio adrideret lenitatis. Sed populus ille memoratae urbis, <lb n="10"/>
+            in domino semper fidelis, dato munere carcerariis die ac nocte <lb/>
+            Christi martyres frequentabat et ita ab eis doctrina et uirtute <lb/>
+            fidei roborabatur, ut talia etiam ipsi pro Christi nomine <lb/>
+            plena delectatione perferre cuperent et capulo persequentis <lb/>
+            facilia subponerent colla.</p></div>
+
+<div n="10" subtype="section" type="textpart"><p>Hoc autem tyrannicas peruenit ad  <lb n="15"/>
+            aures; qui ebrietate <choice><sic>furons</sic><corr>furoris</corr></choice> accensus iubet eos adhuc inauditis <lb/>
+            suppliciis adigi et maioribus <choice><sic>uinoulis</sic><corr>uinculis</corr></choice> onerari, nauemque imperat <lb/>
+            lignorum aridorum manipulis adimpleri atque in eadem <lb/>
+            omnibus alligatis in medium pelagus igne supposito concremari. <lb/>
+            (V) Eductisque illis de custodia multitudo populi dei bellatores <lb n="20"/>
+            trinitatis quasi agnos innocuos ad uictimam deducebat, <lb/>
+            et rugientium pondera catenarum quasi quaedam monilia peruidebat, <lb/>
+            quia non fuerunt illa uincula, sed potius ornamenta. 
+</p>
+          </div>
+
+<div n="11" subtype="section" type="textpart"><p>Incedebant itaque cum fiducia ad supplicium, quasi ad epulas 
+
+<note type="footnote"> 1 lauare P\' 2 poenis <hi rend="italic">BV1</hi> est <hi rend="italic">om. P</hi> admodum <hi rend="italic">b</hi> <lb/>
+            3 pendere] pati P 4 paulum <hi rend="italic">M</hi> 5 de postibus frontium] furentium <lb/>
+            <hi rend="italic">a</hi> 6 unum b1 babtismate <hi rend="italic">C</hi> 7.talia <hi rend="italic">et</hi> munerentnr <lb/>
+            P 8 custodia P honerati <hi rend="italic">a</hi> artantis p 9 ponderebua <lb/>
+            s* 10 ille] iate P 11 fidelis] delia <hi rend="italic">b</hi> 12 doctrinae uirtute <lb/>
+            P 13 tali <hi rend="italic">PR</hi> ipsi <hi rend="italic">om. W</hi> christi <hi rend="italic">om. P</hi> 14 dilectione <lb/>
+            <hi rend="italic">M</hi> proferre <hi rend="italic">V1</hi> ferre <foreign xml:lang="grc">β</foreign>. persequenti <hi rend="italic"><foreign xml:lang="grc">β</foreign></hi> 15 facile <lb/>
+            <hi rend="italic">ab</hi> facili <hi rend="italic">PR</hi> tyranicas <hi rend="italic">W</hi> 16 ascensus <hi rend="italic">b</hi> 17 honerari <lb/>
+            aPb* nauimque <hi rend="italic">WbL</hi> nanem <hi rend="italic">a</hi> 18 adque <hi rend="italic">B</hi> 19 in <lb/>
+            <hi rend="italic">om. BY\'L</hi> in medio pelagns <hi rend="italic">a</hi> per medium pelagus (pelegus V1) <hi rend="italic">V2C <lb/>
+            Ms</hi> 21 trinitatis Bequebatur. quos quasi <hi rend="italic">Ws*</hi> deducebat inimicns <lb/>
+            et <hi rend="italic">Ws*</hi> 22 rugentium <hi rend="italic">a</hi> cathenarum <hi rend="italic">a</hi> munilia <lb/>
+            <hi rend="italic">BV (Schuch. II, 137; Roensch</hi> 465) peruidebat] plucebant <hi rend="italic">WS2</hi> <lb/>
+            \'23 fuerant <hi rend="italic">M</hi> 24 incedebantque a </note> <lb/>
+             
+<pb n="112"/>
+            concurrentes, una uoce per ambitus platearum domino decantantes: <lb/>
+            \'gloria in excelsis deo et in terra pax hominibus <lb/>
+            bonae uoluntatis. Uotiua nobis haec dies <sic>eet</sic> et omni <lb/>
+            sollemnitate festiuior. <choice><sic>Eoce</sic><corr>Ecce</corr></choice> nunc tempus acceptabile, <lb/>
+            ecce nunc dies salutis, <sic>quandoprofide</sic> domini dei nostri<lb n="5"/>
+            proferimur ad praeparatum supplicium, ne amittamus adquisitae <lb/>
+            fidei indumentum\'. Sed et populis publica uoce clamabant: <lb/>
+            \'ne timeatis, o populi dei, neque formidetis minas atque terrores <lb/>
+            praesentium tribulationum, sed potius moriamur pro <lb/>
+            Christo, quomodo et ipse mortuus est pro nobis, redimens nos <lb n="10"/>
+            pretio sui sanguinis <sic n="poss">salutaris1</sic>.</p></div>
+
+<div n="12" subtype="section" type="textpart"><p>Unum tamen uehementi conatu, <lb/>
+            qui inter eos infantulus uidebatur, nomine Maximum, cupiebant <lb/>
+            auctores malorum a sanctorum consortio separare dicentes: <lb/>
+            <sic>cinfantule</sic>, quid festinas ad mortem? dimitte eos, insaniunt, <lb/>
+            et <choice n="0.01"><sic n="3">andi</sic><corr n="221">audi</corr></choice> consilium nostrum, ut possis inuenire uitae remedium<lb n="15"/>
+            et tanti regis adire palatium*. Tunc ille, aetate quidem puerili, <lb/>
+            senili tamen maturitate, clamabat: <choice><sic>cnemo</sic><corr>nemo</corr></choice> me separat a <lb/>
+            sancto patre meo Liberato abbate et a fratribus meis, qui me <lb/>
+            in monasterio nutrierunt. Cum ipsis sum in timore dei conuersatus, <lb/>
+            cum ipsis desidero passionem suscipere, cum quibus <lb n="20"/>
+            credo me et futuram gloriam inuenire.</p></div>
+
+<div n="13" subtype="section" type="textpart"><p>Nolite putare, quia <lb/>
+            potestis seducere pueritiam meam: simul nos dominus septem <lb/>
+            uoluit congregare, simul dignabitur omnes uno martyrio coronare. <lb/>
+            Quomodo nemo perire potuit de septenario illo numero <lb/>
+            felicium Macchabeorum, ita etiam septenus nostrae congregationis<lb n="25"/>
+            numerus nullum inueniet detrimentum. Nam si negauero
+
+<note type="footnote"> 2 Luc. 2, 14. 4 II Cor. 6, 2. </note>
+
+<note type="footnote"> 1 currentes a decantee V1 canentes <hi rend="italic">W</hi> 4 aollempnitati <hi rend="italic">b</hi> <lb/>
+            5 nuc dies <hi rend="italic">W</hi> dei <hi rend="italic">om. Ms</hi> 6 proferimur ad <hi rend="italic">Ba</hi> (ad in <hi rend="italic">B <lb/>
+            erasum):</hi> proferimur V1 proferimus s1PR perferimus <hi rend="italic">rell</hi>. 7 populi <lb/>
+            <hi rend="italic">W</hi> puplica <hi rend="italic">P</hi> clamabat <hi rend="italic">b</hi> 8 o om. <hi rend="italic"><foreign xml:lang="grc">β</foreign></hi> adque <hi rend="italic">b</hi> <lb/>
+            tortores P 10 et <hi rend="italic">om. W</hi> 11 pretia sanguine <hi rend="italic">PB</hi> pręcioso <lb/>
+            sanguine b 13 seperare 8 14 eoe si <hi rend="italic">a</hi> 16 ętatè V1<lb/>
+             18 abbate liberato <hi rend="italic">W<foreign xml:lang="grc">β</foreign></hi> a om. Ms 22 sẽptẽ <hi rend="italic">W</hi> 24 potuit<lb/>
+             perire <hi rend="italic">Ms</hi> sptenario <hi rend="italic">W</hi> illo <hi rend="italic">om. Ms</hi> 25 machabeorum <lb/>
+            <hi rend="italic"><foreign xml:lang="grc">ϕ</foreign> a L <foreign xml:lang="grc">β</foreign></hi> monachabeorum <hi rend="italic">W</hi> etiam] et <hi rend="italic">W</hi> 26 dementam <lb/>
+            V1C1 </note> <lb/>
+             
+<pb n="113"/>
+            eum, et ipse negabit me, quoniam ab ipso dictum est: qui <lb/>
+            me negauerit <choice><sic>eoram</sic><corr>coram</corr></choice> hominibus, negabo et ego eum <lb/>
+            coram patre meo, qui est in caelis; et qui me confessus <lb/>
+            fuerit coram hominibus, confitebor et ego <lb/>
+            eum coram patre meo, qui est in caelis\'. <lb n="5"/>
+            
+</p>
+          </div>
+
+<div n="14" subtype="section" type="textpart"><p>(VI) Perducti itaque cum festinatione ad naualem supplicium  <lb/>
+            pro <choice><sic>uolnntate</sic><corr>uoluntate</corr></choice> <choice><sic>mfandi</sic><corr>infandi</corr></choice> regis uel crudelium ministrorum, extensis <lb/>
+            manibus et pedibus clauati feruntur potius quam ligati. Qui <lb/>
+            dum ignis fuisset lignis iniectus, statim imperio diuino uidentibus <lb/>
+            cunctis <choice><sic>eztinctus</sic><corr>extinctus</corr></choice> est; et dum saepius renouaretur nutrientibus <lb n="10"/>
+            pabulis, iterum atque iterum extinguebantur rogi <lb/>
+            globi flammarum. Et cum exinde magis tyrannus furore simul <lb/>
+            esset et rubore repletus, iussit eos remorum uectibus enecari <lb/>
+            et ita singulos in modum canum cerebris comminutis extingui. 
+</p>
+          <p>Qui tali genere mortis debitum spiritum feliciter domino reddiderunt, <lb n="15"/>
+            nec expauerunt lignis quatientibus mortificari, quibus <lb/>
+            semper fuit spes omnis in ligno.</p></div>
+
+<div n="15" subtype="section" type="textpart"><p>Sed cum in mari uenerabilia  <lb/>
+            corpora <choice><sic>lactarentur</sic><corr>iactarentur</corr></choice>, ilico, quod contra naturam est <choice><sic>aequons</sic><corr>aequoris</corr></choice>, <lb/>
+            eadem hora inlaesa corpora pelagus litori reddere <choice><sic>maturanit</sic><corr>maturauit</corr></choice>, <lb/>
+            nec ausus fuit, ut moris est, triduana dilatione in <choice n="0.00"><sic n="1">profando</sic><corr n="175">profundo</corr></choice> <lb n="20"/>
+            retinere, ne praecepto dominico minime paruisset. Ad quod <lb/>
+            miraculi genus et ipse tyrannus, licet inpaenitens, ut fertur, <lb/>
+            expauit. Gaudens autem quae aderat multitudo corpora <choice><sic>sanetorum</sic><corr>sanctorum</corr></choice> <lb/>
+            martyrum diligenti tradidit sepulturae praeeunte clero
+
+<note type="footnote"> 1 Mt. 10, 32-33. </note>
+
+<note type="footnote"> 1 quoniam] quia <hi rend="italic">a</hi> 2 et ego <hi rend="italic">om. P</hi> ego om. <hi rend="italic">b</hi> 3 et qui <lb/>
+            me confessus ... caelis <hi rend="italic">om. W</hi> 6 producti <hi rend="italic">a</hi> confestinatione <lb/>
+            <hi rend="italic">b</hi> naualem <hi rend="italic">BV1:</hi> nauale <hi rend="italic">rell</hi>. 7 nefandi <hi rend="italic">a</hi> 8 clauati] <lb/>
+            eleuatis <foreign xml:lang="grc">β</foreign> legati b1 9 inlectus <foreign xml:lang="grc">β</foreign> 10 extintns <hi rend="italic">W <lb/>
+            11 papulis V1C1R populis P extinguebatur B V1 C1aL</hi> 12 globi <lb/>
+            <hi rend="italic">WS2:</hi> globo <hi rend="italic">reU</hi>. extinguebatur... globus <hi rend="italic">Halmius</hi> rogi globi flammarum <lb/>
+            <hi rend="italic">om. a</hi> 14 cominutis <hi rend="italic">W</hi> 15 generi <hi rend="italic">M</hi> rediderunt <hi rend="italic">VG</hi> <lb/>
+            16 expauierunt al linguis <hi rend="italic">Pb</hi> 18 iectarentur C\' 19 eadem <lb/>
+            in <hi rend="italic">b eras. et post</hi> hora <hi rend="italic">addit. m. 2</hi> pelagus <hi rend="italic">in P eras</hi>. 20 ausua <lb/>
+            <hi rend="italic">Bl (Kuehner, Gr</hi>. 1, <hi rend="italic">300):</hi> auBum <hi rend="italic">rell</hi>. est <hi rend="italic">om. o1</hi> 21 detinere <lb/>
+            <foreign xml:lang="grc">β</foreign> 22 inpenitus V1 penitus <hi rend="italic">C</hi> </note>
+
+<note type="footnote"> VII. </note>
+
+<note type="footnote"> 8 </note> <lb/>
+             
+<pb n="114"/>
+            <sic>aenerabili</sic> Carthaginiensis <choice><sic>eoclesiae</sic><corr>ecclesiae</corr></choice>; ubi etiam et <choice><sic>praedioandi</sic><corr>praedicandi</corr></choice> <lb/>
+            diacones, tertio iam confessores effecti, Salutaris et Muritta, <lb/>
+            geruli reliquiarum adfuerunt. 
+</p>
+          </div>
+
+<div n="16" subtype="section" type="textpart"><p> (VII) Hnmatae sunt igitur cum hymnis soUemnibus lypsanae <lb/>
+            beatae sanctorum in monasterio Biguae contiguo basilicae,<lb n="5"/>
+            quae dicitur Celerinae. Et sic in confessione trinitatis beatissimi <lb/>
+            martyres passi sunt et speciosum cursum certaminis <lb/>
+            sui coronante domino <choice n="0.09"><sic n="1">perfecerant</sic><corr n="10">perfecerunt</corr></choice>. Cui est honor et gloria in <lb/>
+            saecula saeculorum. <choice n="0.88"><sic n="8">Amen</sic><corr n="1">Arnen</corr></choice>.
+
+<note type="footnote"> 1 uenerabilia <hi rend="italic">B1</hi> cartaginensis <hi rend="italic">Btp</hi> carthaginensis ab 2 dyaconis <lb/>
+            <hi rend="italic">P R</hi> diaconi <hi rend="italic">b</hi> confessoris <foreign xml:lang="grc">β</foreign> saluatoris <hi rend="italic">W</hi> muriUe <lb/>
+            P murrite <hi rend="italic">b ex corr</hi>. 4 ymnis <hi rend="italic">CW <foreign xml:lang="grc">Μβ</foreign></hi> lipsanae <hi rend="italic">Vav</hi> <lb/>
+            5 beatae om. <hi rend="italic">P</hi> sanctorum reliquiae Wa biguae om. <hi rend="italic">ap</hi> <lb/>
+            6 celebrinae <hi rend="italic">BVCWsaL</hi> cezebrine <hi rend="italic">M</hi> celerinae <hi rend="italic">PR</hi> 8 domino <lb/>
+            coronante <hi rend="italic">a</hi> 9 amen amen <hi rend="italic">M</hi> amen. Explicit historia africana <lb/>
+            a amen. Finit historia <hi rend="italic">b Y in marg. inf. paginae</hi> sequentis, <lb/>
+            \'<hi rend="italic">quae uacua relicta est, haec habet:</hi> Ezpiicit historia africana. Incipit <lb/>
+            liber primus EutropiL <hi rend="italic">In B desinit Passio fol. 8ST; fol</hi>. 88* in <lb/>
+            <hi rend="italic">marg. inf. leguntur:</hi> </note>
+</p>
+          <p>EXPLICIT STORIA aFRICana. 
+</p>
+          <p>INCIPIT STORiaE RoMaNaE
+</p>
+          <p>LIBER pRImus. 
+</p>
+<pb n="115"/>
+            
+        
+</div>
+        </div>
+</body>
+</text>
+</TEI>

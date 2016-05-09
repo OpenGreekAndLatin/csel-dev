@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL20.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Augustus Reifferscheid</name>
+                  <addName xml:lang="de">August Reifferscheid</addName>
+                </persName>
+              </editor> 
+              <editor>
+                <persName>
+                  <name xml:lang="la">Georgius Wissowa</name>
+                  <addName xml:lang="de">Georg Wissowa</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275">Tertullianus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa027">De spectaculis</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa017">De idololatria</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa002">Ad nationes</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa028">De testimonio animae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa030">De scorpiace</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa020">De oratione</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa011">De baptismo</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa018">De ieiunio</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa010">De anima</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa025">De pudicitia</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1890</date>
+              </imprint>
+              <biblScope unit="volume">20</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru24wissgoog#page/n4/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='chapter'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0275.stoa020.opp-lat2">
+<head>
+            <title type="main">VI. DE ORATIONE. </title>
+          </head>
+         <div n="1" subtype="chapter" type="textpart"> 
+          <p><milestone n="166v" unit="altpage"/> Dei spiritus et dei sermo et dei ratio, sermo rationis et  <lb/>
+            ratio sermonis et spiritus utriusque, Iesus Christus dominus <lb/>
+            noster nouis discipulis noui testamenti nouam orationis formam <lb n="5"/>
+            determinauit. oportebat enim in hac quoque specie nouum <lb/>
+            uinum nouis utribus recondi et nouam plagulam nouo adsui <lb/>
+            uestimento. ceterum quicquid retro fuerat, aut demutatum <lb/>
+            est, ut circumcisio, aut suppletum, ut reliqua lex, aut impletum, <lb/>
+            ut prophetia, aut perfectum, ut fides ipsa. omnia de <lb n="10"/>
+            carnalibus in spiritalia renouauit noua dei gratia superducto <lb/>
+            euangelio, expunctore totius retro uetustatis, in quo et dei spiritus <lb/>
+            et dei sermo et dei ratio approbatus est dominus noster <lb/>
+            Iesus Christus, spiritus quo ualuit, sermo quo docuit, ratio <lb/>
+            qua uenit. sic igitur oratio a Christo constituta ex tribus <lb n="15"/>
+            constituta est: ex sermone, quo enuntiatur, ex spiritu, quo <lb/>
+            tantum potest, ex ratione, qua docetur. docuerat et Iohannes <lb/>
+            discipulos suos adorare; sed omnia Iohannis Christo praestruebantur, <lb/>
+            donec ipso aucto, sicut idem Iohannes praenuntiabat <lb/>
+            illum augeri oportere, se uero deminui, totum praeministri <lb n="20"/>
+            opus cum ipso spiritu transiret ad dominum. ideo nec extat, <lb/>
+            in quae uerba docuerit Iohannes adorare, quod terrena
+
+<note type="footnote"> 6] cf. Matth. 9,16. 17. 19] cf. Ioh. 3, 30. </note>
+
+<note type="footnote"> 2 <hi rend="italic">m. rec. saec. XVI in uersu quem librarius uacuum reliquerat scripsit</hi> <lb/>
+            De oratione <hi rend="italic">A</hi> 4 utriusque <hi rend="italic">quidam in miscell. obseru. 3,1 p. 220</hi> (— <hi rend="italic">x):</hi> <lb/>
+            utrumque <hi rend="italic">AB</hi> 5 nouis <hi rend="italic">Pam:</hi> nobis <hi rend="italic">AB</hi> orationem <hi rend="italic">A</hi> 6 specie <hi rend="italic">A</hi> <lb/>
+            11 spiritualia <hi rend="italic">B</hi> 15 qua <hi rend="italic">Lat:</hi> quo <hi rend="italic">AB</hi> uenit] promouit <hi rend="italic">Lat</hi> igitur <lb/>
+            oratio <hi rend="italic">Rig:</hi> igitur <hi rend="italic">AB,</hi> oratio <hi rend="italic">Gel</hi> instituta <hi rend="italic">x</hi> 16 enunciatur <hi rend="italic">A</hi> <lb/>
+            17 potest, ex ratione qua docetur (suscipitur <hi rend="italic">Rig) add. Pam</hi> ioannes <lb/>
+            <hi rend="italic">B sic fere semper</hi> 18 orare <hi rend="italic">Urs</hi> 19 ipso <hi rend="italic">om. A</hi> </note> <lb/>
+             
+<pb n="181"/>
+            caelestibus cesserint. qui de terra est, inquit, terrena fatur, <lb/>
+            et qui de caelis adest, quae uidit, ea loquitur. et quid <lb/>
+            non caeleste quod domini Christi est, ut haec quoque orandi <lb/>
+            disciplina? consideremus itaque, benedicti, caelestem eius sophiam, <lb/>
+            inprimis de praecepto secrete adorandi, quo et fidem <lb n="5"/>
+            hominis exigebat, ut dei omnipotentis et conspectum et auditum <lb/>
+            sub tectis et in abditum etiam adesse confideret, et modestiam <lb/>
+            fidei desiderabat, ut, quem ubique audire et uidere  <lb/>
+            <sic>nderet</sic>, ei soli religionem suam <choice><sic>onerret</sic><corr>offerret</corr></choice>. sequens sophia <milestone n="167" unit="altpage"/> III <lb/>
+            sequenti praecepto perinde pertineat ad fidem et modestiam <lb n="10"/>
+            fidei, si non agmine uerborum adeundum putemus ad dominum, <lb/>
+            quem ultro suis prospicere certi sumus. et tamen breuitas <lb/>
+            ista, quod ad tertium sophiae gradum faciat, magnae ac beatae <lb/>
+            interpretationis substantia fulta est quantumque substringitur <lb/>
+            uerbis, tantum diffunditur sensibus. \' neque enim propria <lb n="15"/>
+            tantum orationis officia complexa est, uenerationem dei aut <lb/>
+            hominis petitionem, sed omnem paene sermonem domini, <lb/>
+            omnem commemorationem disciplinae, ut reuera in oratione <lb/>
+            breuiarium totius euangelii comprehendatur. 
+</p>
+          
+</div>
+
+<div n="2" subtype="chapter" type="textpart">
+<p>Incipit a testimonio dei et merito fidei, cum dicimus, <lb n="20"/>
+            PATER QVI IN CAELIS ES. nam et deum oramus et fidem commendamus, <lb/>
+            cuius meritum est haec appellatio. scriptum est: <lb/>
+            qui in eum crediderint, dedit eis potestatem, ut filii <lb/>
+            dei uocentur. quamquam frequentissime dominus patrem <lb/>
+            nobis pronuntiauit deum, immo et praecepit, ne quem in terris <lb n="25"/>
+            patrem uocemus, nisi quem habemus in caelis. itaque sic <lb/>
+            adorantes etiam praeceptum obimus. felices, qui patrem <lb/>
+            agnoscunt. hoc est quod Israeli exprobratur, quod caelum
+
+<note type="footnote"> 1] Ioh. 3, 31. 23] ibid. 1, 12. 25] cf. Matth. 23, 9. </note>
+
+<note type="footnote"> 4 sofiam <hi rend="italic">A sic fere semper</hi> 5 precepto <hi rend="italic">A</hi> 7 abditis <hi rend="italic">Gel</hi> modestum <lb/>
+            <hi rend="italic">B</hi> [et modestum fidei] <hi rend="italic">B</hi> 9 sequens <hi rend="italic">Iun:</hi> sequente <hi rend="italic">AB</hi> <lb/>
+            10 praecepto; quod etsi proinde <hi rend="italic">Urs</hi> perinde <hi rend="italic">scripsi:</hi> proinde <hi rend="italic">AB</hi> pertinet <lb/>
+            <hi rend="italic">Iim</hi> fidem hominis <hi rend="italic">x</hi> 11 dm <hi rend="italic">A</hi> 12 simus <hi rend="italic">Rig</hi> attamen <hi rend="italic">Urs</hi> <lb/>
+            14 interpretatimonis <hi rend="italic">A corr</hi>. 16 uel uenerationem <hi rend="italic">AB;</hi> uel <hi rend="italic">del. Gel</hi> <lb/>
+            21 pater noster <hi rend="italic">Urs</hi> 23 crediderint <hi rend="italic">B,</hi> credider (— crediderunt) <hi rend="italic">A</hi> <lb/>
+            24 quanquam <hi rend="italic">A</hi> 25 pronunciauit <hi rend="italic">A</hi> 28 israeli <hi rend="italic">B sic semper,</hi> israheli <lb/>
+            <hi rend="italic">sic fere semper A</hi> exprobatur <hi rend="italic">A</hi> </note> 
+<pb n="182"/>
+
+            ac terram spiritus contestatur, filios, dicens, genui, et illi <lb/>
+            me non agnouerunt. dicendo autem patrem deum quoque <lb/>
+            cognominamus. appellatio ista et pietatis et potestatis est. <lb/>
+            item in patre filius inuocatur. ego enim, inquit, et pater <lb/>
+            unum sumus. ne mater quidem ecclesia praeteritur. siquidem <lb n="5"/>
+            in filio et patre mater recognoscitur, de qua constat et <lb/>
+            patris et filii nomen. uno igitur genere aut uocabulo et deum <lb/>
+            cum suis honoramus et praecepti meminimus et oblitos patris <lb/>
+            - denotamus. 
+</p>
+          
+</div>
+
+<div n="3" subtype="chapter" type="textpart">
+<p>Nomen dei patris nemini proditum fuerat. etiam qui de <lb n="10"/>
+            ipso interrogauerat, Moyses, aliud quidem nomen audierat. <lb/>
+            nobis reuelatum est in filio.  <milestone n="167v" unit="altpage"/> i<add>am</add> quis enim filius? nouum  <lb/>
+            patris nomen est. ego ueni, inquit, in nomine patris, et <lb/>
+            rursus: pater, glorifica nomen tuum, <sic>etapertius</sic>: nomen <lb/>
+            tuum manifestaui hominibus. id ergo ut sanctificetur <lb n="15"/>
+            postulamus. non quod deceat homines bene deo optare, quasi <lb/>
+            sit et alius de quo ei possit optari aut laboret, nisi optemus. <lb/>
+            plane benedici deum omni loco ac tempore condecet ob debitam <lb/>
+            semper memoriam beneficiorum eius ab omni homine. sed et <lb/>
+            hoc benedictionis uice fungitur. ceterum quando non sanctum <lb n="20"/>
+            et sanctificatum est per semetipsum nomen dei, cum ceteros <lb/>
+            sanctificet ex semetipso? cui illa angelorum circumstantia non <lb/>
+            cessat dicere: sanctus, sanctus, sanctus. proinde igitur <lb/>
+            et nos angelorum, si meruerimus, candidati, iam hinc caelestem <lb/>
+            illam in deum uocem et officium futurae claritatis ediscimus. <lb n="25"/>
+            hoc quantum ad gloriam dei. alioquin quantum ad nostram <lb/>
+            petitionem, cum dicimus: BANCTIFICETUR \'NOMEN TUUM, id petimus, <lb/>
+            ut sanctificetur in nobis, qui in illo sumus, simul et <lb/>
+            in ceteris, quos adhuc gratia dei expectat, ut et huic praecepto
+
+<note type="footnote"> 1] Es. 1, 2. 4] Ioh. 10, 30. 13] ibid. 5, 43. 12, 28. 14] ibid. <lb/>
+            17, 6. 23] Es. 6, 3. Apoc. 4, 8. </note>
+
+<note type="footnote"> 5 eelesia <hi rend="italic">A</hi> 11 moses <hi rend="italic">A</hi> quidem <hi rend="italic">B,</hi> quidam <hi rend="italic">A,</hi> quid, non <hi rend="italic">Itm</hi> <lb/>
+            12 iam quis <hi rend="italic">scripsi:</hi> I*quis <hi rend="italic">A,</hi> iam <hi rend="italic">B</hi> nouum <hi rend="italic">Gel:</hi> non <hi rend="italic">AB</hi> non <lb/>
+            patris nomen est? <hi rend="italic">Hartelius</hi> 13 no nomen <hi rend="italic">A corr</hi>. ego ueni-14 glorifica <lb/>
+            nomen tuum <hi rend="italic">om. B</hi> 17 aliud <hi rend="italic">Gel</hi> 20 cęterum <hi rend="italic">A</hi> 21 cęteros <hi rend="italic">A</hi> <lb/>
+            23 cessant <hi rend="italic">A</hi> 24 meminerimus <hi rend="italic">Gel</hi> 25 fu*turae <hi rend="italic">A</hi>. ediximus <hi rend="italic">Muratorius<lb/>
+             </hi> 29 cgteris <hi rend="italic">A</hi> huius <hi rend="italic">Ivm</hi> </note> <lb/>
+             
+<pb n="183"/>
+            pareamus orando pro omnibus, etiam pro inimicis nostris. <lb/>
+            ideoque suspensa enuntiatione non dicentes, sanctificetur in <lb/>
+            nobis, in omnibus dicimus. 
+</p>
+          
+</div>
+
+<div n="4" subtype="chapter" type="textpart">
+<p>Secundum hanc formam subiungimus: FIAT UOLUNTAS <lb/>
+             TUA IN CAEIIIS ET IN TERRA, non quod aliquis obsistat, quo <lb n="5"/>
+            minus uoluntas dei fiat, et ei successum uoluntatis suae oremus, <lb/>
+            sed in omnibus petimus fieri uoluntatem eius. ex interpretatione <lb/>
+            enim figurata carnis et spiritus nos sumus caelum <lb/>
+            et terra. quamquam etsi simpliciter intellegendum est, idem <lb/>
+            tamen est sensus petitionis, ut in nobis fiat uoluntas dei in <lb n="10"/>
+            terris, ut possit scilicet fieri et in caelis. quid autem deus <lb/>
+            uult quam incedere nos secundum suam disciplinam? petimus  <lb/>
+            ergo substantiam et facultatem uoluntatis suae <milestone n="168" unit="altpage"/> subministret <lb/>
+            nobis, ut salui simus et in caelis et in terris, quia summa est <lb/>
+            uoluntatis eius salus eorum quos adoptauit. est et illa dei <lb n="15"/>
+            uoluntas, quam dominus administrauit praedicando operando <lb/>
+            sustinendo. si enim ipse pronuntiauit non suam, sed patris <lb/>
+            facere se uoluntatem, sine dubio, quae faciebat, ea erat uoluntas <lb/>
+            patris, ad quae nunc nos uelut ad exemplaria prouocamur, <lb/>
+            ut et praedicemus et operemur et sustineamus ad <lb n="20"/>
+            mortem usque. quae ut implere possimus, opus est dei uoluntate. <lb/>
+            item dicentes, fiat uoluntas tua, uel eo nobis bene <lb/>
+            optamus, quod nihil mali sit in dei uoluntate, etiam si quid <lb/>
+            pro meritis cuiusque secus inrogatur. iam hoc dicto ad sufferentiam <lb/>
+            nosmetipsos praemonemus. dominus quoque cum <lb n="25"/>
+            sub instantiam passionis infirmitatem carnis demonstrare iam <lb/>
+            in sua carne uoluisset, pater, inquit, transfer poculum <lb/>
+            istud, et recordatus, nisi quod mea non, sed tua fiat <lb/>
+            uoluntas. ipse erat uoluntas et potestas patris et tamen ad <lb/>
+            demonstrationem sufferentiae debitae uoluntati se patris tradidit.<lb n="30"/>
+            <note type="footnote"> 17] cf. Ioh. 6, 38. 27] Luc. 22, 42. </note>
+
+<note type="footnote"> 1 orandi <hi rend="italic">x</hi> 2 enunciatione <hi rend="italic">A</hi> 5 celis <hi rend="italic">A</hi>. 8 figura <hi rend="italic">A corr. in mg</hi>. <lb/>
+            9 quanquam <hi rend="italic">A sic fere semper</hi> 17 sic <hi rend="italic">Gel</hi> pronunciauit <hi rend="italic">A</hi> 18 erant <hi rend="italic">B</hi> <lb/>
+            23 sit mali <hi rend="italic">Gel</hi> 24 sequius <hi rend="italic">Scal</hi> 26 sub instantiam <hi rend="italic">Urs:</hi> substantia <lb/>
+            <hi rend="italic">AB</hi> 27 transfert <hi rend="italic">B</hi> </note> 
+<pb n="184"/>
+            
+</p>
+          
+</div>
+
+<div n="5" subtype="chapter" type="textpart">
+<p>VErrm-r quoque REGNUM TUUM ad id pertinet, quo et fiat <lb/>
+            uoluntas tua, in nobis scilicet. nam deus quando non regnat, <lb/>
+            in cuius manu cor omnium regum est? sed quicquid <lb/>
+            nobis optamus, in illum auguramur, et illi deputamus quod ab <lb/>
+            illo expectamus. itaque si ad dei uoluntatem et ad nostram <lb n="5"/>
+            suspensionem pertinet regni dominici repraesentatio, quomodo <lb/>
+            quidam per tractum quendam in saeculo postulant, cum regnum <lb/>
+            dei, quod ut adueniat oramus, ad consummationem saeculi. <lb/>
+            tendat? optamus maturius regnare et non diutius seruire. <lb/>
+            etiamsi praefinitum in oratione non esset de postulando regni <lb n="10"/>
+            aduentu, ultro eam uocem protulissemus festinantes ad spei <lb/>
+            nostrae complexum. clamant ad dominum inuidia  <milestone n="16sv" unit="altpage"/> <add><sic>ani</sic></add><sic>mae</sic>  <lb/>
+            martyrum sub altari: quonam usque non <choice><sic>uiciscens</sic><corr>ulcisceris</corr></choice>, domine, <lb/>
+            sanguinem nostrum de incolis terrae? nam utique <lb/>
+            ultio illorum a saeculi fine dirigitur. immo quam celeriter <lb n="15"/>
+            ueniat, domine, regnum tuum, uotum Christianorum, confusio <lb/>
+            nationum, exultatio angelorum, propter quod conflictamur, <lb/>
+            immo potius propter quod oramus. 
+</p>
+          
+</div>
+
+<div n="6" subtype="chapter" type="textpart">
+<p>Sed quam eleganter diuina sapientia ordinem orationis <lb/>
+            instruxit, ut post caelestia, id est post dei nomen, dei uoluntatem <lb n="20"/>
+            et dei regnum terrenis quoque necessitatibus petitioni <lb/>
+            locum faceret! nam et edixerat\' dominus: quaerite prius <lb/>
+            regnum, et tunc uobis etiam haec adicientur. quamquam <lb/>
+            PANEM NOSTRUM QVOTIDIANUM DA NOBIS HODIE spiritaliter <lb/>
+            potius intellegamus. Christus enim panis noster est, quia <lb n="25"/>
+            uita Christus et uitae panis. ego sum, inquit, panis uitae, <lb/>
+            et paulo supra: panis est sermo dei uiui, qui descendit
+
+<note type="footnote"> 3] Prou. 21,1. 13] Apoc. 6,10. 22] Matth. 6,33. 26] Ioh. 6,35. </note>
+
+<note type="footnote"> 1 quo et <hi rend="italic">Leopoldus:</hi> quod et <hi rend="italic">AB,</hi> quod est <hi rend="italic">Semlerus</hi> 7 per tractum <lb/>
+            <hi rend="italic">Scal:</hi> pertractum <hi rend="italic">B,</hi> protractum <hi rend="italic">A</hi> in <hi rend="italic">om. A</hi> 10 prefinitum <hi rend="italic">A</hi> <lb/>
+            11 eam uocem] eum uoto <hi rend="italic">Lat</hi> protulissemus <hi rend="italic">Rig:</hi> postulissemus <hi rend="italic">A,</hi> <lb/>
+            postulassemus <hi rend="italic">B, Lat,</hi> post tulissemus <hi rend="italic">Scal</hi> 12 domini <hi rend="italic">Hartelius</hi> inuidia <lb/>
+            <hi rend="italic">AB,</hi> in uisu <hi rend="italic">Gel,</hi> ut uidit Iohannes <hi rend="italic">fort.,</hi> iudicia <hi rend="italic">Hartelius</hi> 15 caeleriter <lb/>
+            <hi rend="italic">A</hi> 19 eliganter <hi rend="italic">A</hi> 22 et edixerat <hi rend="italic">Gel:</hi> et ei dixerat <hi rend="italic">AJB</hi> <lb/>
+            23 regnum dei <hi rend="italic">x</hi> 26 uitae panis <hi rend="italic">Semlerw:</hi> uita panis <hi rend="italic">AB</hi>- </note> <lb/>
+             
+<pb n="185"/>
+            de caelis, tunc quod et corpus eius in pane censetur: hoc <lb/>
+            est corpus meum. itaque petendo panem quotidianum perpetuitatem <lb/>
+            postulamus in Christo et indiuiduitatem a corpore <lb/>
+            eius. sed et quia carnaliter admittitur ista uox, non sine religione <lb/>
+            potest fieri et spiritalis disciplinae. panem enim peti <lb n="5"/>
+            mandat, quod solum fidelibus necessarium est; cetera enim <lb/>
+            nationes requirunt. ita et exemplis inculcat et parabolis retractat, <lb/>
+            cum dicit: numquid panem filiis pater aufert et <lb/>
+            canibus tradit? item: numquid filio panem poscenti <lb/>
+            lapidem tradit? ostendit enim, quid a patre filii expectent. <lb n="10"/>
+            sed et nocturnus ille pulsator panem poscebat. merito autem <lb/>
+            adiecit: da nobis hodie, ut qui praemiserat: nolite de crastino <lb/>
+            cogitare quid edatis. cui rei parabolam quoque accommodauit <lb/>
+            illius hominis, qui prouenientibus fructibus <sic n="poss">ampliationem</sic>  <lb/>
+            <milestone n="169" unit="altpage"/>   horreorum et longae securitatis spatia cogitauit, is <lb n="15"/>
+            ipsa nocte moritur. 
+</p>
+          
+</div>
+
+<div n="7" subtype="chapter" type="textpart">
+<p>Consequens erat, ut obseruata dei liberalitate etiam clementiam <lb/>
+            eius precaremur. quid enim alimenta proderunt, si <lb/>
+            illi reputamur reuera quasi taurus ad uictimam? sciebat dominus <lb/>
+            se solum sine delicto esse. docet itaque petamus DI-<lb n="20"/>
+            MITTI NOBIS DEBITA <sic>NosTRA</sic>. exomologesis est petitio ueniae, <lb/>
+            quia qui petit ueniam, delictum confitetur. sic et paenitentia <lb/>
+            demonstratur acceptabilis deo, quia uult eam quam mortem <lb/>
+            peccatoris. debitum autem in scripturis delicti figura est, quod <lb/>
+            perinde iudicio debeatur et ab eo exigatur nec\' euadat iustitiam<lb n="25"/>
+            exactionis, nisi donetur exactio; sicut illi seruo dominus <lb/>
+            debitum remisit. huc enim spectat exemplum parabolae totius. <lb/>
+            nam et quod idem seruus a domino liberatus non perinde
+
+<note type="footnote"> 1] Ioh. 6, 33. 2] Matth. 26, 26. Luc. 22,19. 8] Matth. 15, 26. <lb/>
+            9] ibid. 7, 8. 11] cf. Luc. 2, 5. 12] ibid. 6, 34. </note>
+
+<note type="footnote"> 5 spiritali disciplina <hi rend="italic">fort</hi>. 6 cetera <hi rend="italic">A</hi> 10 expectens <hi rend="italic">A corr</hi>. <lb/>
+            11 poscebat <hi rend="italic">Urs:</hi> pulsabat <hi rend="italic">AB</hi> 14 pro uenientibus <hi rend="italic">Ivrn</hi> 15 longe <hi rend="italic">A</hi> <lb/>
+            cogitans ipsa <hi rend="italic">x</hi> 17 dei <hi rend="italic">Gel:</hi> diei <hi rend="italic">AB</hi> libertate <hi rend="italic">A</hi> 18 praecaremur <hi rend="italic">A</hi> <lb/>
+            19 illi <hi rend="italic">Rig:</hi> illis <hi rend="italic">AB,</hi> in eis <hi rend="italic">Iun</hi> 20 dimitte <hi rend="italic">susp. Oehlerus</hi> 21 exhomologesis <lb/>
+            <hi rend="italic">A corr</hi>. 22 patientia <hi rend="italic">B</hi> 23 quia uult <hi rend="italic">AB,</hi> qui mauult <lb/>
+            <hi rend="italic">Leopoldus</hi> 24 figurata <hi rend="italic">A corr</hi>. 28 dum <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="186"/>
+            parcit debitori suo ac propterea delatus penes dominum tortori <lb/>
+            delegatur ad soluendum nouissimum quadrantem, id est <lb/>
+            modicum usque delictum, eo competit, quod remittere nos quo- \' <lb/>
+            que profitemur debitoribus nostris. iam et alibi ex hac specie <lb/>
+            orationis: remittite, inquit, et remittetur uobis. et cum <lb n="5"/>
+            interrogasset Petrus, si septies remittendum esset fratri, immo, <lb/>
+            inquit, septuagies septies; ut legem in melius reformaret, <lb/>
+            <choice><sic>Iquod</sic><corr>quod</corr></choice> in Genesi de Cain septies, de Lamech autem septuagies <lb/>
+            septies ultio reputata est. 
+</p>
+          
+</div>
+
+<div n="8" subtype="chapter" type="textpart">
+<p>Adiecit ad plenitudinem tam expeditae orationis, ut non <lb n="10"/>
+            de remittendis tantum, sed etiam de auertendis in totum delictis <lb/>
+            supplicaremus: NE NOS INDUCAS IN TEMPTATIONEM, id est, <lb/>
+            ne nos patiaris induci, ab eo utique qui temptat. ceterum absit <lb/>
+            ut dominus temptare uideatur, quasi aut ignoret fidem <lb/>
+            cuiusque aut deicere  <milestone n="169v" unit="altpage"/> sit <add>ge</add><sic>stiens</sic>. diaboli est infirmitas et  <lb n="15"/>
+            malitia. nam et Abraham non temptandae fidei gratia sacrificare <lb/>
+            de filio iusserat, sed probandae, ut per eum faceret <lb/>
+            exemplum praecepto suo, quo mox praecepturus erat, ne qui <lb/>
+            pignora deo cariora haberet. ipse a diabolo temptatus praesidem <lb/>
+            et artificem temptationis demonstrauit. hunc locum <lb n="20"/>
+            posterioribus confirmat, orate, dicens, <sic>netemptemini</sic>. adeo <lb/>
+            temptati sunt dominum deserendo, quia somno potius indulserant <lb/>
+            quam orationi. ergo respondet clausula, interpretans <lb/>
+            quid sit, ne nos deducas in temptationem. hoc est enim: <lb/>
+            SED DEUEHE NOS A MALO. <lb n="25"/>
+            
+</p>
+          
+</div>
+
+<div n="9" subtype="chapter" type="textpart">
+<p>Compendiis pauculorum uerborum quot attinguntur edicta <lb/>
+            prophetarum, euangeliorum, apostolorum, sermones domini,
+
+<note type="footnote">1] cf. Matth. 5, 25 sq. 5] Luc. 6, 37. 6] Matth. 18, 21 sqq. 21] <lb/>
+            Luc. 22, 46. </note>
+
+<note rend="script" type="footnote"> 4 hac <hi rend="italic">om. Mwratorius</hi> spetie <hi rend="italic">A</hi>. 13 ceterum <hi rend="italic">A. sic fere semper</hi> <lb/>
+            14 et fidem <hi rend="italic">B</hi> 15 gestiens <hi rend="italic">Rig:</hi> ... nstiens <hi rend="italic">A,</hi> consentiens <hi rend="italic">B</hi> 17 probbandae <lb/>
+            <hi rend="italic">A</hi> 18 ne qui <hi rend="italic">scripsi:</hi> neque <hi rend="italic">AB,</hi> ne quis <hi rend="italic">Mercerus,</hi> ne quae <lb/>
+            <hi rend="italic">Oehlerus</hi> 19 chariora <hi rend="italic">B,</hi> carior <hi rend="italic">A</hi> habenda <hi rend="italic">Gel</hi> 21 a deo <hi rend="italic">B</hi> <lb/>
+            22 qui <hi rend="italic">Gel</hi> 23 causula <hi rend="italic">A</hi>. 25 euehe <hi rend="italic">Gel</hi> malos <hi rend="italic">B</hi> 26 Compendiis] <lb/>
+            <hi rend="italic">incipit D</hi> INC . TERTULLIANI DIYERSARV RERV NECES- <lb/>
+            SARIARVM I Posse nos super adicere. II Ne orans patrem fratri irascaris. <lb/>
+            III Etiam omni animi contusione uacuum esse debere. IIII De </note> <lb/>
+             
+<pb n="187"/>
+            parabolae, exempla, praecepta! quot simul expunguntur officia! <lb/>
+            dei honor in patre, fidei testimonium in nomine, oblatio obsequii <lb/>
+            in uoluntate, commemoratio spei in regno, petitio uitae <lb/>
+            in pane, exomologesis debitorum in deprecatione, sollicitudo <lb/>
+            temptationum in postulatione tutelae. quid mirum? deus solus <lb n="5"/>
+            docere potuit, quomodo se uellet orari. ab ipso igitur ordinata <lb/>
+            religio orationis et de spiritu ipsius iam tunc cum ex <lb/>
+            ore diuino ferretur, animata suo priuilegio ascendit in caelum <lb/>
+            commendans patri quae filius docuit. 
+</p>
+          
+</div>
+
+<div n="10" subtype="chapter" type="textpart">
+<p>Quoniam tamen dominus prospector humanarum neces- 10 <lb n="10"/>
+            <sic>sitatum</sic> seorsum post traditam orandi disciplinam, petite, inquit, <lb/>
+            et accipietis, et sunt, quae petantur pro circumstantia <lb/>
+            cuiusque, praemissa legitima et ordinaria oratione quasi fundamento, <lb/>
+            accedentium ius est desideriorum superstruendi extrinsecus <lb/>
+            petitiones, cum memoria tamen praeceptorum. <milestone n="170" unit="altpage"/>   <lb n="15"/>
+            
+</p>
+          
+</div>
+
+<div n="11" subtype="chapter" type="textpart">
+<p>Ne quantum a praeceptis, tantum ab auribus dei longe <lb/>
+            simus, memoria praeceptorum uiam orationibus sternit ad <lb/>
+            , caelum; quorum praecipuum est, ne prius ascendamus ad altare <lb/>
+            dei, quam, si quid discordiae uel offensae cum fratribus <lb/>
+            contraxerimus, resoluamus. quale est enim ad pacem dei accedere<lb n="20"/>
+            sine pace? ad remissionem debitorum cum retentione?
+
+<note type="footnote">11] Matth. 7, 7. Luc. 11, 9. 19] cf. Matth. 5, 23</note>.
+
+<note type="footnote"> lauatione manuum. V Apostrophe. VI De expositis penulis VII De assidendo <lb/>
+            post orationem. VIII. De manibus elatis. VUII. De uultu. X De <lb/>
+            osculo. XI De stationibus XII De habitu feminarum. XIII De uirginibus <lb/>
+            XTTTT Responsio XV De genu ponendo XVI De loco XVII De tempore <lb/>
+            XVIII De fratrum digressu XVTIIT De subiugendo psalmo XX De hostia <lb/>
+            spiritali quae oratio sit XXI De ui et affectu orationis. ANACEPHALESIS. <lb/>
+            Compendiis D ANAKEOAAAIQCIC; Compendiis <hi rend="italic">A,</hi> AVCXXEq&gt;acÀlX(roatç. Compendiis <lb/>
+            <hi rend="italic">B</hi> pauculorum <hi rend="italic">D,</hi> paucorum <hi rend="italic">AB</hi> quot <hi rend="italic">Rig:</hi> quod <hi rend="italic">ABD</hi> <lb/>
+            27 eu*angeliorum <hi rend="italic">D</hi> <lb/>
+            1 parabole <hi rend="italic">A</hi> quot <hi rend="italic">Rig:</hi> quod <hi rend="italic">ABD</hi> 2 fidei <hi rend="italic">D,</hi> fides <hi rend="italic">AB</hi> obsequi <lb/>
+            <hi rend="italic">A</hi> 6 quomodo <hi rend="italic">D,</hi> ut <hi rend="italic">AB</hi> 10 POSSE NOS SVPER ADICERE <hi rend="italic">inscribitur <lb/>
+            in ABD</hi> 11 tradita morandi <hi rend="italic">A</hi> 13 legitime <hi rend="italic">A corr</hi>. 14 accedentium <lb/>
+            ius est <hi rend="italic">D,</hi> accidentium ius est <hi rend="italic">AB,</hi> accedentium iuxta <hi rend="italic">Lat,</hi> accidentium <lb/>
+            iuste <hi rend="italic">Scal,</hi> accidentium iustorum <hi rend="italic">Urs</hi> 16 quantum <hi rend="italic">B,</hi> quam <lb/>
+            <hi rend="italic">AD</hi> preceptis <hi rend="italic">A</hi> 18 NE ORANS PATREM FRATRI IRASCARIS. <lb/>
+            Ne prius <hi rend="italic">ABD</hi> altare dei <hi rend="italic">D,</hi> dei altare <hi rend="italic">AB</hi> 19 offense <hi rend="italic">A</hi> 20 quale <lb/>
+            <hi rend="italic">AD,</hi> quid <hi rend="italic">B</hi> recedere <hi rend="italic">A corr</hi>. </note> <lb/>
+             
+<pb n="188"/>
+            quomodo placabit patrem iratus in fratrem, cum omnis ira <lb/>
+            ab initio interdicta sit nobis? nam et Ioseph dimittens <lb/>
+            fratres suos ad perducendum patrem, et ne, inquit, irascamini <lb/>
+            in uia. nos scilicet monuit — alias enim uia cognominatur <lb/>
+            disciplina nostra — tum ne in uia orationis constituti <lb n="5"/>
+            ad patrem cum ira incedamus. exinde aperte dominus amplians <lb/>
+            legem iram in fratrem homicidio superponit. ne uerbo <lb/>
+            quidem malo permittit expungi: etiam si irascendum est, non <lb/>
+            ultra solis receptum, ut apostolus admonet. quam autem temerarium <lb/>
+            est aut diem sine oratione transigere, dum cessas <lb n="10"/>
+            fratri satisfacere, aut orationem perseuerante iracundia perdere? 
+</p>
+          
+</div>
+
+<div n="12" subtype="chapter" type="textpart">
+<p>Nec ab ira solummodo, sed omni omnino confusione <lb/>
+            animi libera esse debet orationis intentio de tali spiritu emissa, <lb/>
+            qualis est spiritus ad quem mittitur. neque enim agnosci poterit <lb/>
+            spiritu sancto spiritus inquinatus aut tristis a laeto aut <lb n="15"/>
+            impeditus a libero. nemo aduersarium recipit, nemo nisi <lb/>
+            comparem suum admittit. 
+</p>
+          
+</div>
+
+<div n="13" subtype="chapter" type="textpart">
+<p>Ceterum quae ratio est, manibus quidem ablutis, spiritu <lb/>
+            uero sordente orationem obire, quando et ipsis manibus <lb/>
+            spiritales munditiae sint necessariae, ut a falso, a caede, a <lb n="20"/>
+            saeuitia, a ueneficiis, ab idololatria ceterisque maculis, quae <lb/>
+            spiritu conceptae manuum opera transiguntur, purae <choice n="0.5"><sic n="1">alleuentur</sic><corr n="1">alienentur</corr></choice>? <lb/>
+            <milestone n="170v" unit="altpage"/> <add>ha</add>e sunt uerae munditiae, non quas plerique superstitiose  <lb/>
+            curant, ad omnem orationem, etiam cum a lauacro <lb/>
+            totius corporis ueniunt, aquam sumentes. id cum scrupulosius <lb n="25"/>
+            percontarer et rationem requirerem, comperi commemorationem
+
+<note type="footnote">8] Gen. 45, 24. 9] cf. Eph. 4, 26. </note>
+
+<note rend="script" type="footnote"> 2 iosef <hi rend="italic">A</hi> 4 alias <hi rend="italic">AB,</hi> Helias <hi rend="italic">D</hi> 5 in <hi rend="italic">sup. uers. A</hi> 8 pungi <hi rend="italic">fort. <lb/>
+             etiam A</hi> 9 ammonet <hi rend="italic">A</hi> 10 an dum <hi rend="italic">D</hi> 12 ETIAM OMNI ANIMI <lb/>
+            CONFVSIONE (CONTVSIONE <hi rend="italic">D)</hi> VACVVM ESSE DEBERE <hi rend="italic">(om. D)</hi> <lb/>
+            nec (ne <hi rend="italic">A) ABD</hi> contusione <hi rend="italic">D</hi> 13 esse debet <hi rend="italic">D,</hi> debet esse <hi rend="italic">AB</hi> <lb/>
+            14 est spiritus ad quem <hi rend="italic">in ras. D</hi> emititur <hi rend="italic">D</hi> 15 spiritu <hi rend="italic">AB,</hi> a spiritu <lb/>
+            <hi rend="italic">Gel</hi> 18 DE LAVATIONE MANWM <hi rend="italic">ABD</hi> 20 spirituales <hi rend="italic">D</hi> <lb/>
+            cede <hi rend="italic">D</hi> 21 seuitia <hi rend="italic">D</hi> beneficiis <hi rend="italic">D</hi> idolatria <hi rend="italic">D</hi> 22 opere <hi rend="italic">D</hi> <lb/>
+            23 uere <hi rend="italic">A</hi> 24 omnememorationem <hi rend="italic">A</hi> a <hi rend="italic">om. AB, Gel</hi> 25 ueniunt <lb/>
+            <hi rend="italic">del. Gel</hi> ad aquam <hi rend="italic">D</hi> scrupulose <hi rend="italic">AB</hi> </note> <lb/>
+             
+<pb n="189"/>
+            esse Pilatum manus abluisse in domini deditione. nos dominum <lb/>
+            adoramus, non dedimus, immo et aduersari debemus deditoris <lb/>
+            exemplo nec propterea manus abluere. nisi ob aliquod conuersationis <lb/>
+            humanae inquinamentum conscientiae causa lauemus, <lb/>
+            ceterum satis mundae sunt manus, quas cum toto corpore in <lb n="5"/>
+            Christo semel lauimus. 
+</p>
+          
+</div>
+
+<div n="14" subtype="chapter" type="textpart">
+<p>Omnibus licet membris lauet quotidie Israel, numquam <lb/>
+            tamen mundus est. certe manus eius semper inmundae, sanguine <lb/>
+            prophetarum et ipsius domini incrustatae in aeternum; <lb/>
+            et ideo conscientia patrum hereditarii rei nec attollere eas ad <lb n="10"/>
+            dominum audent, ne exclamet aliquis Eseias, ne exhorreat <lb/>
+            Christus. nos uero non attollimus tantum, sed etiam expandimus,  <lb/>
+            et dominicam passionem modulantes et orantes confitemur <lb/>
+            Christo. 
+</p>
+          
+</div>
+
+<div n="15" subtype="chapter" type="textpart">
+<p>Sed quoniam unum aliquod attigimus uacuae obseruationis,  <lb n="15"/>
+            non pigebit cetera quoque denotare, quibus merito uanitas <lb/>
+            exprobranda est, siquidem sine ullius aut dominici aut <lb/>
+            apostolici praecepti auctoritate fiunt. huiusmodi enim non religioni, <lb/>
+            sed superstitioni deputantur, affectata et coacta et curiosi <lb/>
+            potius quam rationalis officii, certe uel eo coercenda, quod <lb n="20"/>
+            gentilibus adaequent. ut est quorundam expositis paenulis orationem <lb/>
+            facere; sic enim adeunt ad idola nationes. quod utique <lb/>
+            si fieri oporteret, apostoli, qui de habitu orandi docent, <lb/>
+            comprehendissent; nisi si qui putant Paulum paenulam suam <milestone n="170bis" unit="altpage"/> <lb/>
+            in oratione penes Carpum reliquisse. deus scilicet non audiat
+
+<note type="footnote">24] cf. 2 Tim. 4, 13. </note>
+
+<note type="footnote"> 1 Pilatum manus abluisse <hi rend="italic">scripsi:</hi> pilati manus abluisse <hi rend="italic">D, om. AB</hi> <lb/>
+            deditione <hi rend="italic">D,</hi> dedicationem <hi rend="italic">AB,</hi> deditionem <hi rend="italic">Gel</hi> 2 dedimus <hi rend="italic">AB,</hi> dicimus <lb/>
+            <hi rend="italic">D</hi> 3 ob aliqft <hi rend="italic">D,</hi> quod <hi rend="italic">AB</hi> 4 lauemus <hi rend="italic">om. AB</hi> 7 APO- <lb/>
+            STROPHE <hi rend="italic">BD,</hi> APOSTROFE <hi rend="italic">A</hi> cottidie <hi rend="italic">D</hi> 9 incrustatae <hi rend="italic">D,</hi> cruentatae <lb/>
+            <hi rend="italic">AB</hi> 11 dm <hi rend="italic">A</hi> esaias <hi rend="italic">BD</hi> exorreat <hi rend="italic">D corr</hi>. 12 etiam <hi rend="italic">sup. <lb/>
+            uers. D</hi> 13 et] e <hi rend="italic">Rig,</hi> ut <hi rend="italic">Hartelius</hi> dominicam passionem <hi rend="italic">Leopoldus:</hi> <lb/>
+            dominica passione <hi rend="italic">ABD,</hi> de dominica passione <hi rend="italic">Oehlerus</hi> modulantes <lb/>
+            <hi rend="italic">B,</hi> modulatum <hi rend="italic">AD,</hi> modulati <hi rend="italic">Oehlerus,</hi> modulaturi <hi rend="italic">Hartelius</hi> 15 attingimus <lb/>
+            <hi rend="italic">D</hi> 16 pigebat <hi rend="italic">D</hi> 17 exprobanda <hi rend="italic">A corr</hi>. et siquidem <hi rend="italic">AB</hi> <lb/>
+            sine <hi rend="italic">AB,</hi> si <hi rend="italic">D</hi> 18 definiunt <hi rend="italic">D,</hi> definiuntur <hi rend="italic">fort.,</hi> deficiunt <hi rend="italic">Hartelius</hi> <lb/>
+            religionis <hi rend="italic">A</hi> 20 cohercenda <hi rend="italic">D</hi> 21 adaequent. DE EXPOSITIS PENVLIS <lb/>
+            CPENYLIS <hi rend="italic">A) ABD</hi> positis <hi rend="italic">Gel</hi> penulis <hi rend="italic">D</hi> 23 si <hi rend="italic">om. D</hi> oportere <lb/>
+            <hi rend="italic">D</hi> apostoli qui <hi rend="italic">D,</hi> apostoliq; <hi rend="italic">A,</hi> apostoli quae <hi rend="italic">B</hi> 24 penulam <hi rend="italic">D</hi> </note> <lb n="25"/>
+             
+<pb n="190"/>
+            paenulatos, qui tres sanctos in fornace Babylonii regis orantes <lb/>
+            cum sarabaris et tiaris suis exaudiuit. 
+</p>
+          
+</div>
+
+<div n="16" subtype="chapter" type="textpart">
+<p>Item quod adsignata oratione assidendi mos est quibusdam, <lb/>
+            non perspicio rationem, nisi quam pueri uolunt. quid <lb/>
+            enim, si Hermas ille, cuius scriptura fere \'pastor\' inscribitur, <lb n="5"/>
+            transacta oratione non super lectum assedisset, uerum aliud <lb/>
+            quid fecisset, id quoque ad obseruationem uindicaremus? utique <lb/>
+            non. simpliciter enim et nunc positum est, cum adorassem <lb/>
+            et assedissem super lectum, ad ordinem narrationis, <lb/>
+            non ad instar disciplinae. alioquin nusquam erit adorandum, <lb n="10"/>
+            nisi ubi fuerit lectus. immo contra scripturam <lb/>
+            fecerit, si quis in cathedra aut subsellio sederit. porro cum <lb/>
+            perinde faciant nationes adoratis sigillaribus suis residendo, <lb/>
+            uel propterea in nobis reprehendi meretur, quod apud idola <lb/>
+            celebratur. eo apponitur et inreuerentiae crimen, etiam ipsis <lb n="15"/>
+            nationibus, si quid saperent, intellegendum. si quidem inreuerens <lb/>
+            est assidere sub conspectu contraque conspectum eius <lb/>
+            quem cum maxime reuerearis ac uenereris, quanto magis sub <lb/>
+            conspectu dei uiui angelo adhuc orationis adstante factum istud <lb/>
+            inreligiosissimum est? nisi exprobramus deo, quod nos oratio <lb n="20"/>
+            fatigauerit. 
+</p>
+          
+</div>
+
+<div n="17" subtype="chapter" type="textpart">
+<p>Atquin cum modestia et humilitate adorantes magis commendabimus <lb/>
+            deo preces nostras ne ipsis quidem manibus sublimius <lb/>
+            elatis, sed temperate ac probe elatis, ne uultu quidem <lb/>
+            in audaciam erecto. nam et ille publicanus, qui non tantum <lb n="25"/>
+            prece, sed et uultu humiliatus atque deiectus orabat, iustificatior <lb/>
+            Pharisaeo <milestone n="170bisv" unit="altpage"/> procacissimo discessit. sonos etiam uocis
+
+<note type="footnote">8] Herm. past. Yis. 5, 1. </note>
+
+<note type="footnote"> 1 penulatos <hi rend="italic">AD</hi> babylonis <hi rend="italic">D</hi> 2 sarabaris <hi rend="italic">Gel:</hi> sabaris <hi rend="italic">ABD</hi> <lb/>
+            tiariis <hi rend="italic">D,</hi> tyaris <hi rend="italic">AB</hi> 3 DE ASSIDENDO POST ORATIONEM <hi rend="italic">ABD</hi> <lb/>
+            assignata <hi rend="italic">D</hi> 4 perspici orationem <hi rend="italic">BD</hi> quam pueri uolunt. quid <lb/>
+            enim <hi rend="italic">om. AB</hi> 9 sedissem <hi rend="italic">D</hi> 10 nos <hi rend="italic">D</hi> 13 proinde <hi rend="italic">D uel</hi> adoratis <lb/>
+            <hi rend="italic">ABD;</hi> uel <hi rend="italic">del. Gel</hi> 14 deprehendi <hi rend="italic">D</hi> 16 saperet <hi rend="italic">D</hi> 18 cum <hi rend="italic">B,</hi> <lb/>
+            quam <hi rend="italic">A, om. D</hi> 19 orationi <hi rend="italic">Iun</hi> astante <hi rend="italic">D</hi> 22 DE MANIBVS <lb/>
+            ELATIS <hi rend="italic">ABD</hi> commendabimus <hi rend="italic">Oehlerus:</hi> commendauimus <hi rend="italic">AD,</hi> commendamus <lb/>
+            <hi rend="italic">B</hi> 23 preces <hi rend="italic">A sic semper</hi> 24 <hi rend="italic">prius</hi> elatis <hi rend="italic">deleri uult <lb/>
+             Iun</hi> elatis. DE VVLTV ne uultu <hi rend="italic">ABD</hi> 25 recto <hi rend="italic">D</hi> et <hi rend="italic">om. D</hi> <lb/>
+            26 humilis <hi rend="italic">D</hi> 27 discessit. DE SONO VOCIS <hi rend="italic">ABD</hi> sono <hi rend="italic">D</hi> </note> <lb/>
+             
+<pb n="191"/>
+            subiectos esse oportet, aut quantis arteriis opus est, si pro <lb/>
+            sono audiamur? deus autem non uocis, sed cordis auditor <lb/>
+            est, sicut conspector. daemonium oraculi Pythii, et mutum, <lb/>
+            inquit, intellego et non loquentem exaudio. dei aures <lb/>
+            sonum expectant? quomodo ergo oratio Ionae de imo uentre <lb n="5"/>
+            ceti per tantae bestiae uiscera ab ipsis abyssis per tantam <lb/>
+            aequoris molem ad caelum potuit euadere? quid amplius referent <lb/>
+            isti qui clarius adorant, nisi quod proximis obstrepunt? <lb/>
+            immo prodendo petitiones suas quid minus faciunt, quam si <lb/>
+            in publico orent? •<lb n="10"/>
+            
+</p>
+          
+</div>
+
+<div n="18" subtype="chapter" type="textpart">
+<p>Alia iam consuetudo inualuit. ieiunantes habita oratione <lb/>
+            <milestone unit="docbreak"/> <lb/>
+            cum fratribus subtrahunt osculum pacis, quod est signaculum ; <lb/>
+            orationis. quando autem magis conferenda cum fratribus <choice><sic>paxI</sic><corr>pax</corr></choice> <lb/>
+            est, nisi cum operantis oratio commendabilior ascendit, ut ipsi <lb/>
+            de nostra operatione participent, qua maduerint de sua pace <lb n="15"/>
+            fratri transigendo? quae oratio cum diuortio sancti osculi integra? <lb/>
+            quem domino officium facientem impedit pax? quale <milestone unit="docbreak"/> <lb/>
+            sacrificium est a quo sine pace disceditur? quaecumque oratio. <lb/>
+            sit, non erit potior praecepti obseruatione, quo iubemur ieiunia <lb/>
+            nostra celare. iam\' enim de abstinentia osculi agnoscimur ieiunantes.<lb n="20"/>
+            sed et si qua ratio est, ne tamen huic praecepto reus <lb/>
+            sis, potes domi, si forte, inter quos latere ieiunium in totum <lb/>
+            non datur, differre pacem. ubicumque autem alibi operationem <lb/>
+            tuam abscondere potes, debes meminisse praecepti; ita et
+
+<note type="footnote"> 3] Herod. I 47. </note>
+
+<note type="footnote"> 1 esse <hi rend="italic">om. AD</hi> 2 audimur <hi rend="italic">D</hi> 3 phythii <hi rend="italic">A</hi> 4 dš <hi rend="italic">D</hi> 5 imo <lb/>
+            <hi rend="italic">om. AB</hi> 6 coeti <hi rend="italic">D</hi> abys. <hi rend="italic">sic A</hi> 7 refer <hi rend="italic">D</hi> 10 <hi rend="italic">in mg. m. s. XII-<lb/>
+             XIII</hi> ueraciter namque orare est. amaros in copunctione gemitus et incomposita <lb/>
+            uerba resonare Nota gg (— Gregorius) in moral. libro <hi rend="italic">D</hi> <lb/>
+            11 DE OSCVLO <hi rend="italic">ABD</hi> 13 quanto <hi rend="italic">D</hi> 14 operantis oratio <hi rend="italic">scripsi:</hi> <lb/>
+            operationis. cum oratio <hi rend="italic">D,</hi> oratione <hi rend="italic">AB,</hi> oratio <hi rend="italic">Rig,</hi> operationis tempore <lb/>
+            oratio <hi rend="italic">Oehlerus,</hi> operati(one orati)onis, cum oratio <hi rend="italic">Hartelius</hi> ascendit. <lb/>
+            Ut <hi rend="italic">H. Kellnems</hi> 15 participes <hi rend="italic">Urs</hi> qua maduerint <hi rend="italic">D,</hi> quam auderent <lb/>
+            <hi rend="italic">AB,</hi> iam audeant <hi rend="italic">Urs,</hi> quam adiuuerint <hi rend="italic">Hartelius</hi> 16 transigendo <hi rend="italic">Oehlerus: <lb/>
+            </hi> transigend <hi rend="italic">D,</hi> transigendus <hi rend="italic">A,</hi> transigere <hi rend="italic">B,</hi> transigent <hi rend="italic">Kellnerus</hi> <lb/>
+            18 disceditur <hi rend="italic">D,</hi> receditur <hi rend="italic">AB</hi> oratio <hi rend="italic">AB,</hi> ratio <hi rend="italic">D,</hi> operatio <hi rend="italic">Rig</hi> <lb/>
+            21 praecepto reus sis <hi rend="italic">D,</hi> praeceptore ussis <hi rend="italic">A,</hi> praeceptor tu sis <hi rend="italic">B</hi> <lb/>
+            22 domi. Si f. i. quos latere ieiunium <hi rend="italic">(scil</hi>. datur), in <hi rend="italic">Kellnerus</hi> si <hi rend="italic">om. B</hi> <lb/>
+            in <hi rend="italic">om. D</hi> 24 debea <hi rend="italic">D</hi> </note> 
+<pb n="192"/>
+
+            disciplinae foris et consuetudini domi satisfacies. sic et die paschae., <lb/>
+            quo communis et quasi publica ieiunii religio est, merito <choice><sic>depommus</sic><corr>deponimus</corr></choice> <lb/>
+            osculum,  <milestone n="171" unit="altpage"/> nihil curantes de occultando quod cum  <lb/>
+            omnibus faciamus. 
+</p>
+          
+</div>
+
+<div n="19" subtype="chapter" type="textpart">
+<p>Similiter et de stationum diebus non putant plerique <lb n="5"/>
+            sacrificiorum orationibus interueniendum, quod statio soluenda <lb/>
+            sit accepto corpore domini. ergo deuotum deo obsequium <lb/>
+            eucharistia resoluit an magis deo obligat? nonne sollemnior <lb/>
+            erit statio tua, si et ad aram dei steteris? accepto corpore <lb/>
+            domini et reseruato utrumque saluum est, et participatio sacrificii <lb n="10"/>
+            et executio officii. si statio de militari exemplo nomen <lb/>
+            accepit (nam et militia dei sumus), utique nulla laetitia siue <lb/>
+            tristitia obueniens castris stationes militum rescindit. nam <lb/>
+            laetitia libentius, tristitia sollicitius administrabit disciplinam. 
+</p>
+          
+</div>
+
+<div n="20" subtype="chapter" type="textpart">
+<p>De habitu uero dumtaxat feminarum uarietas obseruationis <lb n="15"/>
+            effecit post sanctissimum apostolum nos uel maxime <lb/>
+            nullius loci homines impudenter retractare, nisi quod non impudenter, <lb/>
+            si secundum apostolum retractemus. de modestia <lb/>
+            quidem cultus et ornatus aperta praescriptio est etiam Petri, <lb/>
+            cohibentis eodem ore, quia eodem et spiritu, quo Paulus, et <lb n="20"/>
+            uestium gloriam et auri superbiam et crinium lenonem operositatem. <lb/>
+            </p>
+          
+</div>
+
+<div n="21" subtype="chapter" type="textpart">
+<p>Sed quod promisce obseruatur per ecclesias quasi incertum, <lb/>
+            id retractandum est, uelarine debeant uirgines, an non. <lb/>
+            qui enim uirginibus indulgent capitis immunitatem, hoc niti
+
+<note type="footnote"> 19] cf. 1 Petr. 3, 3. 20] cf. 1 Tim. 2, 9. </note>
+
+<note type="footnote"> 1 foris <hi rend="italic">Gel:</hi> iuris <hi rend="italic">ABD</hi> satisfacia <hi rend="italic">D</hi> 2 ieiuniis <hi rend="italic">D</hi> 3 occultando <hi rend="italic">D,</hi> <lb/>
+            oscultando <hi rend="italic">A,</hi> osculando <hi rend="italic">B</hi> 5 DE STATIONIBVS <hi rend="italic">BD,</hi> DE TESTIONIB; <lb/>
+            (TESTATIONIB <hi rend="italic">corr. m. rec.) A</hi> et de <hi rend="italic">D,</hi> de <hi rend="italic">B,</hi> de <hi rend="italic">ex</hi> dae <hi rend="italic">A,</hi> et <hi rend="italic">Urs</hi> <lb/>
+            nos <hi rend="italic">D</hi> 6 stationi <hi rend="italic">A corr</hi>. 8 sollempnior <hi rend="italic">D</hi> 9 et <hi rend="italic">ex</hi> etiam <hi rend="italic">D</hi> <lb/>
+            10 utrunque <hi rend="italic">BD</hi> 11 exsecutio <hi rend="italic">BD</hi> 12 accepit <hi rend="italic">D,</hi> accipit <hi rend="italic">AB</hi> sine <hi rend="italic">B</hi> <lb/>
+            14 administrauit <hi rend="italic">D</hi> disciplinam.] <hi rend="italic">hic deficit B; in ipso codice lacunae <lb/>
+            nullum indicium fuisse uidetur; sequitur enim</hi> LIBRI TERTVLLIANI <lb/>
+            DE ORA-Itione finis. 15 DE HABITV FEMINARVM <hi rend="italic">AD</hi> babitu* <hi rend="italic">A</hi> <lb/>
+            duntaxat <hi rend="italic">D</hi> faeminarum <hi rend="italic">A</hi> 16 efficit <hi rend="italic">A</hi> 20 ore <hi rend="italic">Rig:</hi> more <hi rend="italic">AD</hi> <lb/>
+            quo Paulus <hi rend="italic">om. A</hi> 21 criminum <hi rend="italic">D</hi> lenoniam <hi rend="italic">Leopoldus</hi> morositatem <lb/>
+            <hi rend="italic">D</hi> 23 DE <hi rend="italic">VIRGINTBVS AD</hi> praemisce fpraemisce <hi rend="italic">A) AD</hi> quasi <lb/>
+            <hi rend="italic">D,</hi> quas <hi rend="italic">A; reliqua in A non conparent; sequuntur enim</hi> disposita utensilitas <lb/>
+            <hi rend="italic">et cetera</hi> (de cultu feminamm <hi rend="italic">1, 5)</hi> </note> <lb n="25"/>
+             
+<pb n="193"/>
+            uidentur, quod apostolus non uirgines nominatim, sed mulieres <lb/>
+            <choice><sic>designanerit</sic><corr>designauerit</corr></choice> <choice><sic>nelandas</sic><corr>uelandas</corr></choice> esse, nec sexum, ut diceret feminas, sed <lb/>
+            gradum sexus, dicendo mulieres. nam si sexum nominasset, <lb/>
+            feminas dicendo, absolute definisset de omni muliere, at cum <lb/>
+            unum gradum sexus nominat, alium tacendo secernit. potuit <lb n="5"/>
+            enim, inquiunt, aut et uirgines nominare specialiter aut compendio <lb/>
+            generaliter feminas. 
+</p>
+          
+</div>
+
+<div n="22" subtype="chapter" type="textpart">
+<p>Qui ita concedunt, recogitare debent de statu uocabuli <lb/>
+            ipsius. quid est mulier a primis quidem litteris sanctorum commentariorum? <lb/>
+            iam inueniunt sexus esse nomen, non gradum <lb n="10"/>
+            sexus; siquidem Euam nondum uirum expertam deus mulierem <lb/>
+            et feminam cognominauit, feminam, qua sexus generaliter, <lb/>
+            mulierem, qua gradus sexus specialiter. ita quoniam tunc innupta <lb/>
+            adhuc Eua mulieris uocabulo fuit, commune id uocabulum <lb/>
+            et <choice><sic>nirgini</sic><corr>uirgini</corr></choice> factum est. nec mirum, si apostolus <lb n="15"/>
+            eodem utique spiritu actus, quo cum omnis scriptura diuina, <lb/>
+            tum et illa Genesis digesta est, . eadem uoce usus est <lb/>
+            mulierem ponendo, quae exemplo Euae innuptae et uirgini <lb/>
+            competat. cetera denique consonant. nam et hoc ipso, <lb/>
+            quod uirgines non nominauit, sicut alio in loco, ubi de <lb n="20"/>
+            nubendo docet, satis praedicat de omni muliere et de toto <lb/>
+            sexu dictum, nec distinctum esse inter mulierem et uirginem, <lb/>
+            quam omnino non nominat. qui enim alibi distinguere meminit, <lb/>
+            ubi scilicet differentia postulat (distinguit autem utramque <lb/>
+            speciem suis uocabulis designans), ubi non distinguit, <lb n="25"/>
+            dum utramque non nominat, nullam uult differentiam intellegi. <lb/>
+            quid? quod Graeco sermone, quo litteras apostolus fecit, usui
+
+<note type="footnote"> 1] cf. 1 Cor. 9, 5. 11] ef. Gen. 2, 23. </note>
+
+<note type="footnote"> 2 ut] cum <hi rend="italic">Hartelius</hi> 4 diffinisset <hi rend="italic">D</hi> at <hi rend="italic">x:</hi> aut <hi rend="italic">D</hi> 8 RESPON- <lb/>
+            SIO <hi rend="italic">D</hi> contendunt <hi rend="italic">x</hi> 9 <hi rend="italic">post</hi> ipsius <hi rend="italic">punctum, post</hi> commentariorum <lb/>
+            <hi rend="italic">interrogationis signum posui</hi> qd <hi rend="italic">D</hi> 10 iam <hi rend="italic">(aut</hi> eam) <hi rend="italic">x:</hi> nam <hi rend="italic">D</hi> <lb/>
+            grafr <hi rend="italic">D</hi> 11 gua <hi rend="italic">D</hi> experta <hi rend="italic">D</hi> 13 qua <hi rend="italic">D</hi> ita quoniam <hi rend="italic">Oehlerus:</hi> <lb/>
+            itaq. iam <hi rend="italic">D</hi> cum innupta <hi rend="italic">x</hi> 16 diuina tum <hi rend="italic">x:</hi> diuinitatu <hi rend="italic">D</hi> 18 euae <hi rend="italic">D</hi> <lb/>
+            19 consonant <hi rend="italic">x:</hi> n sonant <hi rend="italic">D</hi> 22 mulierem et <hi rend="italic">add. x</hi> 23 quam omnino <hi rend="italic">x:</hi> <lb/>
+            omnino <hi rend="italic">D,</hi> cum omnino <hi rend="italic">Oehlerus</hi> 24. 26 utranque <hi rend="italic">D</hi> 26 non <hi rend="italic">del. <lb/>
+             Hartelius</hi> intelligi <hi rend="italic">D sic semper</hi> 27 greco <hi rend="italic">D</hi>, </note>
+
+<note type="footnote"> XX. Tert. 1. </note>
+
+<note type="footnote"> 13 </note> <lb/>
+             
+<pb n="194"/>
+            est mulieres uocare quam feminas, id est <foreign xml:lang="grc">γυναῖκας</foreign> quam <foreign xml:lang="grc">θηλεiας</foreign>. <lb/>
+            igitur si pro sexus nomine uocabulum istud frequentatur, <lb/>
+            quod est in interpretatione pro eo quod est femina, <lb/>
+            sexum nominauit, dicens <foreign xml:lang="grc">γυναῖκα</foreign>. in sexu autem et uirgo contingitur. <lb/>
+            sed et manifesta pronuntiatio est: omnis, inquit, <lb n="5"/>
+            mulier adorans et prophetans intecto capite dedecorat <lb/>
+            caput suum. quid est omnis mulier, nisi omnis aetatis, <lb/>
+            omnis ordinis, omnis condicionis? nihil mulieris excipit dicendo <lb/>
+            omnis, sicut nec uiri nec uelandi; perinde enim omnis <lb/>
+            uir inquit. sicut ergo in masculino sexu sub uiri nomine <lb n="10"/>
+            etiam inuestis uelari uetatur, ita et in feminino sub nomine <lb/>
+            mulieris etiam uirgo uelari iubetur. aequaliter in utroque sexu <lb/>
+            minor aetas maioris sequatur disciplinam, aut uelentur et uirgines <lb/>
+            masculi, si non uelantur et uirgines feminae, quia nec <lb/>
+            isti nominatim tenentur; aliud sit uir et inuestis, si aliud est <lb n="15"/>
+            mulier et uirgo. nempe propter angelos ait uelari oportere, <lb/>
+            quod angeli propter filias hominum desciuerunt a deo. quis <lb/>
+            ergo contendat solas mulieres, id est nuptas iam et uirginitate <lb/>
+            defunctas, concupiscentiae esse, nisi si non licet et uirgines <lb/>
+            specie praestare et amatores inuenire? immo uideamus, ne <lb n="20"/>
+            uirgines solas concupierint, cum dicat scriptura filias hominum, <lb/>
+            quia potuit uxores hominum nominasse uel feminas indifferenter. <lb/>
+            etiam quod ait: et acceperunt sibi in uxores, <lb/>
+            eo facit, quod accipiuntur in uxores quae uacant scilicet. de <lb/>
+            non uacantibus autem aliter enuntiasset. itaque uacant tam <lb n="25"/>
+            uiduitate quam et uirginitate. adeo sexum nominando generaliter <lb/>
+            filias, et species in genere commiscuit. item cum dicit
+
+<note type="footnote"> 5] 1 Cor. 9, 4. 5. 23] Gen. 6, 2. </note>
+
+<note type="footnote"> &gt;1 tam feminas <hi rend="italic">Muratorius</hi> tunaikac <hi rend="italic">D uerba</hi> id est YVVOttXOtç <hi rend="italic">transponenda <lb/>
+            uidentwr post</hi> mulieres eHaeiac <hi rend="italic">D</hi> 3 in <hi rend="italic">addidi</hi> 4 TriraiKa <hi rend="italic">D</hi> <lb/>
+            continetur <hi rend="italic">x</hi> 6 <hi rend="italic">dedecorat D</hi> 8 ordinas <hi rend="italic">D corr</hi>. conditionis <hi rend="italic">D</hi> <lb/>
+            9 uiri <hi rend="italic">Mwratorius:</hi> uir <hi rend="italic">D</hi> perinde <hi rend="italic">scripsi:</hi> proinde <hi rend="italic">D</hi> 10 seiu in <lb/>
+            <hi rend="italic">ras. D</hi> 11 uelari uetatur <hi rend="italic">Muratorius:</hi> uelare uertatur <hi rend="italic">D</hi> 15 et <hi rend="italic">add. <lb/>
+            Muratorius</hi> 18 uirginitate <hi rend="italic">Oehlerus:</hi> uirginitate <hi rend="italic">D,</hi> uirginitati <hi rend="italic">Muratorius<lb/>
+             19 concupisci x esse addidi 20 uideamus Oehlerus: uidemus D</hi> <lb/>
+            ne] quod non <hi rend="italic">Mwratorius</hi> 24 uacat <hi rend="italic">D corr</hi>. 25 utique <hi rend="italic">x</hi> 27 filias <hi rend="italic">del. x</hi> <lb/>
+            et] id est <hi rend="italic">fort</hi>. filias, [et] species <hi rend="italic">Harnackius</hi> </note> <lb/>
+             
+<pb n="195"/>
+            naturam ipsam docere uelandum feminis esse, quae capillum <lb/>
+            pro tegumento et ornamento mulieribus assignarit, nonne idem <lb/>
+            tegumentum et idem honor capitis uirginibus quoque adscriptus <lb/>
+            est? si mulieri turpe est radi, et uirgini perinde. in quibus <lb/>
+            ergo una condicio capitis deputatur, una et disciplina capitis <lb n="5"/>
+            exigitur, etiam ad eas uirgines, quas pueritia defendit; a primo <lb/>
+            enim femina nominata est. sic denique et Israel obseruat. <lb/>
+            sed si non obseruaret, nostra lex ampliata atque suppleta defenderet <lb/>
+            sibi adiectionem. uirginibus quoque iniciens uelamentum <lb/>
+            excusetur. nunc aetas, quae sexum suum ignorat, <lb n="10"/>
+            simplicitatis priuilegium teneat. nam et Eua et Adam, ubi <lb/>
+            eis contigit sapere, texerunt statim quod agnouerant. certe <lb/>
+            in quibus iam pueritia mutauit, sicut naturae, ita et disciplinae <lb/>
+            debet aetas esse munifica. nam et membris et officiis <lb/>
+            mulieribus resignantur. nulla uirgo est ex quo potest nubere, <lb n="15"/>
+            quoniam aetas iam in ea nupsit suo uiro, id est tempori. <lb/>
+            sed aliqua se deo uouit. tamen et crinem exinde transfigurat <lb/>
+            et omnem habitum ad mulieris conuertit. totum ergo asseueret <lb/>
+            et totum uirginis praestet: quod propter deum abscondit, <lb/>
+            plene obumbret. interest nostra, quod dei gratia exerceatur, <lb n="20"/>
+            solius dei conscientiae commendare, ne, quod a deo speramus, <lb/>
+            ab homine compensemus. quid denudas ante deum quod ante <lb/>
+            homines tegis? uerecundior eris in publico quam in ecclesia? <lb/>
+            si dei gratia est, et accepisti, quid gloriaris, inquit, quasi <lb/>
+            non acceperis? quid alias ostentatione tui iudicas? an <lb n="25"/>
+            alias gloria tua ad bonum inuitas? atqui et ipsa periclitaris <lb/>
+            amittere, si gloriaris, et alias ad eadem pericula cogis. facile
+
+<note type="footnote"> 21] cf. 1 Cor. 11, 14. 24] 1 Cor. 4, 7. </note>
+
+<note type="footnote"> 1 feminas nelandas <hi rend="italic">Muratorius</hi> 3 ascriptus <hi rend="italic">D</hi> 4 perinde <hi rend="italic">Muratorius: <lb/>
+            </hi> proinde <hi rend="italic">D</hi> 11 eua <hi rend="italic">D</hi> 12 texuerunt <hi rend="italic">Muratorius</hi> 13 iam <hi rend="italic">om. <lb/>
+            Mwratorius</hi> 17 tamen] iam <hi rend="italic">Muratorius</hi> 18 mulieres <hi rend="italic">D corr</hi>. 19 prestet <lb/>
+            <hi rend="italic">D</hi> 20 plane <hi rend="italic">Muratorius</hi> exerceatur <hi rend="italic">scripsi:</hi> exerceat <hi rend="italic">D,</hi> exercea- <lb/>
+            <hi rend="italic">mus x</hi> 23 §clesia <hi rend="italic">D</hi> 25 no <hi rend="italic">D corr</hi>. ostentatione <hi rend="italic">Muratorius:</hi> osteutione <lb/>
+            <hi rend="italic">D,</hi> ostensione <hi rend="italic">Oehlerus</hi> 27 amittere <hi rend="italic">Muratorius:</hi> admittere <hi rend="italic">D</hi> <lb/>
+            eadem <hi rend="italic">Mwratorius:</hi> eide <hi rend="italic">D</hi> pericula <hi rend="italic">Mwratorius:</hi> periculis <hi rend="italic">D</hi> </note>
+
+<note type="footnote"> 13* </note> <lb/>
+             
+<pb n="196"/>
+            eluditur quod affectione gloriae assumitur. uelare uirgo, si <lb/>
+            uirgo es; debes enim erubescere. si uirgo es, plures oculos <lb/>
+            pati noli. nemo miretur in tuam faciem; nemo mendacium <lb/>
+            tuum sentiat. bene mentiris nuptam, si caput ueles. immo <lb/>
+            mentiri non uideris; nupsisti enim Christo. illi carnem tuam <lb n="5"/>
+            tradidisti, age pro mariti tui disciplina. si nuptas alienas uelari <lb/>
+            iubet, suas utique multo magis. sed non puta institutionem <lb/>
+            uniuscuiusque antecessoris commouendam. multi alienae <lb/>
+            consuetudini prudentiam suam et constantiam eius addicunt. <lb/>
+            ne compellantur uelari, certe uoluntarias prohiberi non oportet; <lb n="10"/>
+            quae se etiam uirgines negare non possunt, concedo abuti in <lb/>
+            fama sua conscientiae apud deum securitate. de illis tamen, <lb/>
+            quae sponsis dicantur, constanter super meum modulum pronuntiare <lb/>
+            contestarique possum uelandas ex ea die esse qua ad <lb/>
+            primum uiri corpus osculo et dextera expauerint. omnia enim <lb n="15"/>
+            in his praenupserunt, et aetas per maturitatem, et caro per <lb/>
+            aetatem, et spiritus per conscientiam, et pudor per osculi experimentum, <lb/>
+            et spes per expectationem, et mens per uoluntatem. <lb/>
+            satisque nobis exemplo Rebecca est, quae sponso demonstrato <lb/>
+            tantum notitiae eius nubendo uelata est. <lb n="20"/>
+            
+</p>
+          
+</div>
+
+<div n="23" subtype="chapter" type="textpart">
+<p>De genu quoque ponendo uarietatem obseruationis <lb/>
+            patitur oratio per pauculos quosdam qui sabbato abstinent <lb/>
+            genibus. quae dissensio cum maxime apud ecclesias causam <lb/>
+            dicit, dominus dabit gratiam suam, ut aut cedant aut sine <lb/>
+            aliorum scandalo sententia sua utantur. nos uero, sicut <lb n="25"/>
+            accepimus, solo die dominicae resurrectionis non ab isto <lb/>
+            tantum, sed omni anxietatis habitu et officio <choice n="0.54"><sic n="98">canere</sic><corr n="82">cauere</corr></choice> debemus <lb/>
+            differentes etiam negotia, ne quem diabolo locum demus. <lb/>
+            tantundem et spatio Pentecostes, quae eadem exultationis
+
+<note rend="script" type="footnote"> 1 eluditur <hi rend="italic">scripsi:</hi> eligitur <hi rend="italic">D,</hi> eliditur <hi rend="italic">Bouthius</hi> 4 caput *** (tuff <lb/>
+            <hi rend="italic">eras. ?) D</hi> 7 puta <hi rend="italic">uel</hi> putat <hi rend="italic">ex</hi> putet <hi rend="italic">D</hi> institutionem <hi rend="italic">Aug. Neander:</hi> <lb/>
+            institutione <hi rend="italic">D</hi> 8 uniuscuiusque <hi rend="italic">Muratorius:</hi> unusquisque <hi rend="italic">D</hi> 11 concedo <lb/>
+            <hi rend="italic">scripsi:</hi> contenti <hi rend="italic">D,</hi> contentae <hi rend="italic">Mwratorius,</hi> contendo <hi rend="italic">Hamackius</hi> <lb/>
+            in <hi rend="italic">del. Oehlerus</hi> 12 suae <hi rend="italic">Muratorius</hi> 19 demonstrato <hi rend="italic">Muratorius:</hi> demonstratum <lb/>
+            <hi rend="italic">D</hi> 20 notitiae <hi rend="italic">scripsi:</hi> notitia <hi rend="italic">D</hi> 21 DE GENU PO- <lb/>
+            NENDO <hi rend="italic">D</hi> 23 gentibus <hi rend="italic">D corr</hi>. eclesias <hi rend="italic">D</hi> 24 dic <hi rend="italic">D,</hi> dicat <hi rend="italic">Muratorius<lb/>
+             </hi> 26 dominico <hi rend="italic">Muratorius</hi> 27 officio <hi rend="italic">x:</hi> officia <hi rend="italic">D</hi> 29 quo <lb/>
+            <hi rend="italic">x,</hi> quod <hi rend="italic">Oehlerus</hi> </note> <lb/>
+             
+<pb n="197"/>
+            sollemnitate dispungitur. ceterum omni die quis dubitet prosternere <lb/>
+            se deo uel prima saltem oratione qua lucem ingredimur? <lb/>
+            ieiuniis autem et stationibus nulla oratio sine genu et <lb/>
+            reliquo humilitatis more celebranda est. non enim oramus <lb/>
+            tantum, sed et deprecamur et satisfacimus deo domino nostro. <lb n="5"/>
+            de temporibus orationis nihil omnino praescriptum est, nisi <lb/>
+            plane omni in tempore et loco orare. 
+</p>
+          
+</div>
+
+<div n="24" subtype="chapter" type="textpart">
+<p>Sed quomodo omni loco, cum prohibeamur in publico? <lb/>
+            omni, inquit, loco, quem opportunitas aut etiam necessitas <lb/>
+            importarit. neque enim contra praeceptum reputatur ab apostolis<lb n="10"/>
+            factum, qui in carcere audientibus custodiis orabant et <lb/>
+            canebant deo, aut a Paulo, qui in naui coram omnibus eucharistiam <lb/>
+            fecit. 
+</p>
+          
+</div>
+
+<div n="25" subtype="chapter" type="textpart">
+<p>De tempore uero non erit otiosa extrinsecus obseruatio <lb/>
+            etiam horarum quarundam, istarum dico communium quae <lb n="15"/>
+            diei interspatia signant, tertia, sexta, nona; quas sollemniores <lb/>
+            in scripturis inuenire est. primus spiritus sanctus congregatis <lb/>
+            discipulis hora tertia infusus est. Petrus, qua die uisionem <lb/>
+            communitatis omnis in illo uasculo expertus est, sexta hora <lb/>
+            orandi gratia ascenderat in superiora. idem cum Iohanne ad <lb n="20"/>
+            nonam in templum adibat, ubi paralyticum sanitati reformauit. <lb/>
+            quae etsi simpliciter se habent sine ullius obseruationis praecepto, <lb/>
+            bonum tamen sit aliquam constituere praesumptionem, <lb/>
+            quae et orandi admonitionem constringat et quasi lege ad tale <lb/>
+            munus extorqueat a negotiis interdum, ut, quod Danieli quoque<lb n="25"/>
+            legimus obseruatum utique ex Israelis disciplina, ne <lb/>
+            minus ter die saltem adoremus, debitores trium Patris et Filii
+
+<note type="footnote">9] 1 Tim. 2, 8. 25] cf. Dan. 6, 10. </note>
+
+<note type="footnote"> 1 sollemnitate dispungitur <hi rend="italic">Routhius:</hi> sollemnitatem dispungimur <hi rend="italic">D,</hi> <lb/>
+            sollemnitas est, dispungimus <hi rend="italic">Mwratorius,</hi> sollemnitate dispungimur <hi rend="italic">x,</hi> <lb/>
+            sollemnitate dispungimus <hi rend="italic">Oehlerus</hi> ! 2 salutem <hi rend="italic">D corr</hi>. 8 DE LOCO <hi rend="italic">D</hi> <lb/>
+            9 oportunitas <hi rend="italic">D</hi> 10 importaret. Non <hi rend="italic">Mwratorius</hi> 12 aut a Paulo <hi rend="italic">Muratorius: <lb/>
+            </hi> apud Paulum <hi rend="italic">D</hi> 14 DE TEMPORE <hi rend="italic">D</hi> erit**** <hi rend="italic">D</hi> extrinsecus** <lb/>
+            <hi rend="italic">D</hi> 15 orarum <hi rend="italic">D</hi> 16 interspacia <hi rend="italic">D</hi> sollempniores <hi rend="italic">D</hi> 19 communicatis <lb/>
+            <hi rend="italic">D</hi> 21 paraliticum <hi rend="italic">D</hi> 22 quae etsi <hi rend="italic">x:</hi> suae. etsi <hi rend="italic">D</hi> habeant <lb/>
+            <hi rend="italic">Muratorius</hi> sine <hi rend="italic">Mwratorius:</hi> si <hi rend="italic">D</hi> 23 sit <hi rend="italic">Muratorius.:</hi> si <hi rend="italic">D</hi> 24 quae <lb/>
+            <hi rend="italic">RovtAitUl:</hi> qua <hi rend="italic">D</hi> 25 daniheli <hi rend="italic">D</hi> 26 israhelis <hi rend="italic">D</hi> 27 trium <hi rend="italic">om. Muratorim</hi> </note> <lb/>
+             
+<pb n="198"/>
+            et Spiritus Sancti; exceptis utique legitimis orationibus, quae <lb/>
+            sine ulla admonitione debentur ingressu lucis et noctis. sed <lb/>
+            et cibum non prius sumere et lauacrum non prius adire quam <lb/>
+            interposita oratione fideles decet. priora enim habenda sunt <lb/>
+            spiritus refrigeria et pabula quam carnis, quia priora caelestia <lb n="5"/>
+            quam terrena. 
+</p>
+          
+</div>
+
+<div n="26" subtype="chapter" type="textpart">
+<p>Fratrem domum tuam introgressum ne sine oratione <lb/>
+            dimiseris (uidisti, inquit, fratrem, uidisti dominum tuum), <lb/>
+            maxime aduenam, ne angelus forte sit. sed nec ipse a fratribus <lb/>
+            exceptus priora fecerit refrigeria terrena caelestibus. <lb n="10"/>
+            statim enim iudicabitur fides tua. aut quomodo secundum <lb/>
+            praeceptum pax huic domui dices, nisi et eis qui in domo <lb/>
+            sunt pacem mutuam reddas? 
+</p>
+          
+</div>
+
+<div n="27" subtype="chapter" type="textpart">
+<p>Diligentiores in orando subiungere in orationibus Alleluia <lb/>
+            solent et hoc genus psalmos quorum clausulis respondeant <lb n="15"/>
+            qui simul sunt. et est optimum utique institutum omne <lb/>
+            quod praeponendo et honorando deo conpetit saturatam orationem <lb/>
+            uelut opimam hostiam admouere. 
+</p>
+          
+</div>
+
+<div n="28" subtype="chapter" type="textpart">
+<p>Haec est enim hostia spiritalis quae pristina sacrificia <lb/>
+            deleuit. quo mihi, inquit, multitudinem sacrificiorum <lb n="20"/>
+            uestrorum? plenus sum holocaustomatum arietum et <lb/>
+            adipem agnorum et sanguinem taurorum et hircorum <lb/>
+            nolo. quis enim requisiuit ista de manibus uestris? . <lb/>
+            quae ergo quaesierit deus euangelium docet. ueniet hora, <lb/>
+            inquit, cum ueri adoratores adorabunt patrem in spiritu <lb n="25"/>
+            et ueritate. deus enim spiritus est, et adoratores <lb/>
+            itaque tales requirit. nos sumus ueri adoratores et ueri sacerdotes, <lb/>
+            qui spiritu orantes spiritu sacrificamus orationem hostiam <lb/>
+            dei propriam et acceptabilem, quam scilicet requisiuit, quam <lb/>
+            sibi prospexit. hanc de toto corde deuotam, fide pastam,
+
+<note type="footnote">12] Luc. 10, 5. 20] Es. 1, 11, 24] Ioh. 4, 23. 26] 2 Cor. 3*17. </note>
+
+<note rend="script" type="footnote"> 5 quia] et <hi rend="italic">Mwratorius</hi> 7 DE FRM DIGRESSV <hi rend="italic">D</hi> 10 exceptus <hi rend="italic">x:</hi> <lb/>
+            exeptis <hi rend="italic">D,</hi> exemtis <hi rend="italic">Mwratorius</hi> 12 domu <hi rend="italic">D</hi> . 14 DE SUBIUNGENDO <lb/>
+            PSALMO <hi rend="italic">D</hi> 17 proponendo <hi rend="italic">Muratorius</hi> 18 opimam <hi rend="italic">x:</hi> optimam <hi rend="italic">D</hi> <lb/>
+            19 DE HOSTIA SPIRITALI QVIA <hi rend="italic">Crepone</hi> QVAE* <hi rend="italic">Oehlerus)</hi> ORATIO <lb/>
+            SIT <hi rend="italic">D</hi> 22 adipe <hi rend="italic">ex</hi> adipe <hi rend="italic">D</hi> 24 eu*angelium <hi rend="italic">D</hi> 30 sastam <hi rend="italic">D corr</hi>. </note> 
+<pb n="199"/>
+
+            ueritate curatam, innocentia integram, castitate mundam, agapen <lb/>
+            coronatam cum pompa operum bonorum inter psalmos et <lb/>
+            hymnos deducere ad dei altare debemus omnia nobis a deo <lb/>
+            impetraturam. 
+</p>
+          
+</div>
+
+<div n="29" subtype="chapter" type="textpart">
+<p>Quid enim orationi de spiritu et ueritate uenienti negabit<lb n="5"/>
+            deus, qui eam exigit? legimus et audimus et cernimus <lb/>
+            quanta documenta efficaciae eius! uetus quidem oratio et ab <lb/>
+            ignibus et a bestiis et ab inedia liberabat et tamen non a <lb/>
+            Christo acceperat formam. ceterum quanto amplius operatur <lb/>
+            oratio Christiana! non roris angelum in mediis ignibus sistit <lb n="10"/>
+            nec ora leonibus obstruit nec esurientibus rusticorum prandium <lb/>
+            transfert, nullum sensum passionis delegata gratia auertit, sed. <lb/>
+            patientes et sentientes et dolentes sufferentia instruit, uirtute <lb/>
+            ampliat gratiam, ut sciat fides, quid a domino consequatur, <lb/>
+            intellegens quid pro dei nomine patiatur. sed et retro oratio <lb n="15"/>
+            plagas irrogabat, fundebat hostium exercitus, imbrium utilia <lb/>
+            prohibebat. nunc uero oratio iustitiae omnem iram dei auertit, <lb/>
+            pro inimicis excubat, pro persequentibus supplicat. mirum si <lb/>
+            aquas caelestes extorquere nouit, quae potuit et ignes impetrare? <lb/>
+            sola est oratio quae deum uincit; sed Christus eam <lb n="20"/>
+            nihil mali uoluit operari. omnem illi uirtutem de bono contulit. <lb/>
+            itaque nihil nouit, nisi defunctorum animas de ipso <lb/>
+            mortis itinere reuocare, debiles reformare, aegros remediare, <lb/>
+            daemoniacos expiare, claustra carceris aperire, uincula innocentium <lb/>
+            soluere. eadem diluit delicta, temptationes repellit, <lb n="25"/>
+            persecutiones extinguit, pusillanimos consolatur, magnanimos <lb/>
+            oblectat, peregrinantes deducit, fluctus mitigat, latrones obstupefacit, <lb/>
+            alit pauperes, regit diuites, lapsos erigit, cadentes suspendit, <lb/>
+            stantes continet. oratio murus est fidei, arma et tela
+
+<note type="footnote"> .1 agapen <hi rend="italic">scripsi:</hi> agape <hi rend="italic">D</hi> 2 pompa <hi rend="italic">D</hi> 5 DE VI ET AFFECTU <lb/>
+            <hi rend="italic">(repone</hi> EFFECTU\' <hi rend="italic">Oehlerus)</hi> ORATIONIS <hi rend="italic">D</hi> negabit <hi rend="italic">x:</hi> negauit <hi rend="italic">D</hi> <lb/>
+            6 cernimus <hi rend="italic">x:</hi> credimus <hi rend="italic">D</hi> 9 operatur <hi rend="italic">x:</hi> oratur <hi rend="italic">D,</hi> oratio <hi rend="italic">x (ibidem <lb/>
+            p. 218)</hi> 10 angelum duntaxat <hi rend="italic">Muratorius</hi> 11 leonibus (b <hi rend="italic">ex</hi> s) <hi rend="italic">D</hi> <lb/>
+            12 nec ullum <hi rend="italic">x</hi> deligata <hi rend="italic">D</hi> 13 uirtute* <hi rend="italic">D</hi> 14 gratiam <hi rend="italic">del. x</hi> <lb/>
+            do <hi rend="italic">D</hi> 18 excubat <hi rend="italic">D</hi> et mirum <hi rend="italic">x</hi> 20 Christianus ea <hi rend="italic">alii apud Oehlerum<lb/>
+             </hi> 21 uoluit <hi rend="italic">x:</hi> nouit <hi rend="italic">D</hi> 23 reuocare <hi rend="italic">x:</hi> uocare <hi rend="italic">D</hi> 24 demoniacos <lb/>
+            <hi rend="italic">D</hi> innocentum <hi rend="italic">D corr</hi>. 25 temptationis <hi rend="italic">D corr</hi>. </note> <lb/>
+             
+<pb n="200"/>
+            nostra aduersus hostem, qui nos undique obseruat. itaque <lb/>
+            numquam inermes incedamus. die stationis, nocte uigiliae <lb/>
+            meminerimus. sub armis orationis signum nostri imperatoris <lb/>
+            custodiamus, tubam angeli expectemus orantes. orant etiam <lb/>
+            angeli omnes, orat omnis creatura, orant pecudes et ferae et <lb n="5"/>
+            genua declinant et egredientes de stabulis ac speluncis ad <lb/>
+            caelum non otioso ore suspiciunt uibrantes spiritum suo more. <lb/>
+            sed et aues mane exurgentes eriguntur ad caelum et alarum <lb/>
+            crucem pro manibus expandunt et dicunt aliquid quod oratio <lb/>
+            uideatur. quid ergo amplius de officio orationis? etiam ipse <lb n="10"/>
+            dominus orauit, cui sit honor et uirtus in saecula saeculorum.
+
+<note rend="script" type="footnote"> 1 hostem <hi rend="italic">x:</hi> hominem <hi rend="italic">D</hi> 2 nunquam <hi rend="italic">D</hi> incidamus <hi rend="italic">D</hi> 7 otioso <lb/>
+            <hi rend="italic">Mwratorius:</hi> otiosi <hi rend="italic">D</hi> suspiciunt <hi rend="italic">Muratorius:</hi> suscipiunt <hi rend="italic">D</hi> spiritum <lb/>
+            suo more <hi rend="italic">x:</hi> spu suo mouere <hi rend="italic">D</hi> 8 mane <hi rend="italic">scripsi:</hi> nunc D, nido <hi rend="italic">x,</hi> cum <lb/>
+            <hi rend="italic">alius uir doctus (idem</hi> et <hi rend="italic">ante dicunt del.),</hi> hinc <hi rend="italic">alius uir doctus</hi> 9 extendunt <lb/>
+            <hi rend="italic">Mwratorius</hi>. </note> 
+<pb n="201"/>
+            
+</p>
+        
+</div>
+
+</div>
+</body>
+</text>
+</TEI>

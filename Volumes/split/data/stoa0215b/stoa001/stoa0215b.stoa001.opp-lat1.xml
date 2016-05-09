@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL16.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Michael Petschenig</name>
+                  <addName xml:lang="de">Michael Petschenig</addName>
+                </persName>
+              </editor> 
+              <editor>
+                <persName>
+                  <name xml:lang="la">Robinson Ellis</name>
+                  <addName xml:lang="de">Robinson Ellis</addName>
+                </persName>
+              </editor> 
+              <editor>
+                <persName>
+                  <name xml:lang="la">Georgius Brandes</name>
+                  <addName xml:lang="de">Georg Brandes</addName>
+                </persName>
+              </editor> 
+              <editor>
+                <persName>
+                  <name xml:lang="la">Carolus Schenkl</name>
+                  <addName xml:lang="de">Karl Schenkl</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1772.1">Paulinus Petricordiae</author>
+              <title>Carmina</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1767.1">Orientius</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0215b.stoa002">Carmina</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1590.1">Paulinus Pellaeus</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0223a.stoa001">Eucharistos</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1802.1">Claudius Marius Victor</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292b.stoa001">Alethia</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1782.1">Proba</author>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0234f.stoa001">Cento</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <monogr>
+              <author>Anonymus</author>
+              <title>Sancti Paulini Epigramma</title>
+              <title>Versus ad gratiam domini</title>
+              <title>De verbi incarnatione</title>
+              <title>De ecclesia</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1888</date>
+              </imprint>
+              <biblScope unit="volume">16</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptorum16stuoft">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:l[@n='$2'])"/>
+        <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0215b.stoa001.opp-lat1">
+<head>
+            <title type="main">ORIENTII COMMONITORIVIM. </title>
+          </head>
+<div n="1" subtype="book" type="textpart">
+          <ab>
+            <title type="sub">LIBER PRIMUS. </title>
+          </ab>
+          <l n="1"><milestone rend="script" unit="para"/>Quisquis ad aeternae festinus praemia uitae,  </l>
+            <l n="2">perpetuanda magis quam peritura cupis,  </l>
+            <l n="3">quae caelum reseret, mortem fuget; aspera uitet,  </l>
+            <l n="4">felici currat tramite, disce uiam.  </l>
+            <l n="5">5 nam nos, et carnis uitiis et tempore uicti,  </l>
+            <l n="6">terrenum gradimur sine doloris iter:  </l>
+            <l n="7">solaque permixtis haec sunt modo gaudia uotis,  </l>
+            <l n="8">si, quod non facimus, saltem alii faciant,  </l>
+            <l n="9">ut quia nunc istud, quod protinus effugit, aeuum  </l>
+            <l n="10">10 infidis capti degimus inlecebris,  </l>
+            <l n="11">lasciuum miserum fallax breue mobile uanum,  </l>
+            <l n="12">† heu noxarum malus origo praecipitat,  </l>
+             <l n="13">omnibus his, raptim quae sunt moritura, relictis  </l>
+            <l n="14">tu forti teneas non moritura fide.  </l>
+            <l n="15">15 ergo, age, da pronas aures sensumque uacantem:  </l>
+            <l n="16">uita docenda mihi est, uita petenda tibi.  </l>
+            <l n="17">sed, quo sit melior nostri doctrina libelli,  </l>
+            <l n="18">et teneat rectas carminis ordo uias:  </l>
+            <l n="19">te, deus omnipotens, et corde et uoce rogare,  </l>
+            <l n="20">20 te sine nec linguam soluere, Christe, placet,  </l>
+            <l n="21">demere qui tenebras reuocato lumine caecis,  </l>
+            <l n="22">auditum surdis auribus inserere, </l>
+
+<note rend="script" type="footnote"> <hi rend="italic">Txcmror rsus LIBRI PKIIII SCI ORIEXTH A 1 premia A</hi> i lllll- <lb/>
+            <hi rend="italic">oat J&gt; qiiod rectitis ukJetur Baehrensio 8 Si quid A 10 fginnis A</hi> <lb/>
+            12 Ceu <hi rend="italic">B omissis quae secuntur fort</hi>. Ceu mox <hi rend="italic">iiraccipitet (uasta add. <lb/>
+             Schenkelius)</hi> uorago mali 20 ne <hi rend="italic">11</hi> </note> <lb/>
+             
+<pb n="206"/>
+            <l n="23">corporis et mentis saeuos depellere morbos,  </l>
+            <l n="24"><choice><sic>soJuere</sic><corr>soluere</corr></choice> mutorum qui pius ora soles:  </l>
+            <l n="25">25 te penes officium nostri est et cordis et oris:  </l>
+            <l n="26">da sentire mihi, da mihi posse loqui,  </l>
+            <l n="27">nimirum ut nostram uegetent tua munera linguam,  </l>
+            <l n="28">ac per te de te sit tibi sermo placens,  </l>
+            <l n="29">mandato cum iussa tuo superauerit omnem  </l>
+            <l n="30">30 naturam nostra uoce loquens asina  </l>
+            <l n="31">atque sua stimulis subigentem terga Balaam  </l>
+            <l n="32">terruerit miro quadrupes alloquio,  </l>
+            <l n="33">qui magno trepidi regis crebroque rogatu,  </l>
+            <l n="34">dira super sanctum uerba parans populum,  </l>
+            <l n="35">35 non potuit proprie motam sibi subdere linguam,  </l>
+            <l n="36">ore aliud dicens, corde aliud cupiens.  </l>
+            <l n="37">nam male dicturus nimie benedicere coepit,  </l>
+            <l n="38">impendens aliis ora parata aliis.  </l>
+            <l n="39">ergo nisi eloquium, sensum nisi, Christe, ministres,  </l>
+            <l n="40">40 conatusque <choice><sic>auimae</sic><corr>animae</corr></choice> tu nisi, Christe, regas,  </l>
+            <l n="41">ora homines omnes et muta et bruta tenebunt  </l>
+            <l n="42">quodque etiam possunt, hoc quoque non poterunt.  </l>
+            <l n="43">principio geminam debes cognoscere uitam,  </l>
+            <l n="44">a domino indultam cum ratione homini,  </l>
+            <l n="45">45 ut, quoniam brutum terreno est pondere corpus,  </l>
+            <l n="46">ast anima afflatu est uiuificata dei,,  </l>
+            <l n="47">nullum sentirent animae dispendia finem,  </l>
+            <l n="48">esset in hoc fragili corpore uita breuis.  </l>
+            <l n="49">unam nascendi ratio prius omnibus affert,  </l>
+            <l n="50">50 hanc cura et propriis consequitor meritis.  </l>
+
+
+
+<note type="footnote"> <hi rend="italic">24 sic B imiitomm qui solus ora soles A 25 lioris A 27 NVe</hi> <lb/>
+            mirum <hi rend="italic">A</hi> 28 de te per te <hi rend="italic">A</hi> 29 coniussa. <hi rend="italic">B</hi> 30 fruPiis <hi rend="italic">pro</hi> lo- <lb/>
+            <hi rend="italic">quens B 31 Et stimulis propria B et propria stiinulis Bnrthius<lb/>
+             Aduern. XXVII G 35 propi-ie A proprie B propere Delr</hi>. 37 male <lb/>
+            <hi rend="italic">dieturus A 39 ministras A 40 Couatus B</hi> 41 et <hi rend="italic">brute et mute A1</hi> <lb/>
+            et <hi rend="italic">brnta et muta. A2B</hi> ut bruta <hi rend="italic">Ctmmirhis</hi> 45 <hi rend="italic">opondere A ned notu \'</hi> <lb/>
+            (e = est) <hi rend="italic">facile intercidere potiiit</hi> est pondere <hi rend="italic">B JJclr</hi>. 47 <hi rend="italic">an</hi> <lb/>
+            stipendia,? 49 Unica <hi rend="italic">B quam seruabat Delr</hi>. primam <hi rend="italic">pro</hi> prius <hi rend="italic">coniciens<lb/>
+             praetnlerim</hi> illam n. r. 50 eousequitor <hi rend="italic">Ilelr</hi>. consequitur <hi rend="italic">AB</hi> consequimur <lb/>
+            <hi rend="italic">Schondonchus</hi> ex <hi rend="italic">pro</hi> et <hi rend="italic">Schenkelius</hi> e <hi rend="italic">uel</hi> ec <hi rend="italic">Baehrensius</hi> </note> <lb/>
+             
+<pb n="207"/>
+            <l n="51">nasci non nostrum, nec longum uiuere nostrum:  </l>
+            <l n="52">uitam quae sequitur uita parare potest.  </l>
+            <l n="53">et licet arbitrio domini sumamus utramque,  </l>
+            <l n="54">ac neutra <choice><sic>obueuiat</sic><corr>obueniat</corr></choice>, ni deus hoc iubeat,  </l>
+            <l n="55">55 prima tamen celeri fertur per prona rotatu,  </l>
+            <l n="56">quae sequitur totis est data temporibus.  </l>
+            <l n="57">in primam ignari nulla mercede uenimus,  </l>
+            <l n="58">altera de summo parta labore uenit.  </l>
+            <l n="59">nascimur ut dominum caeli terraeque marisque  </l>
+            <l n="60">60 quaeramus toto peruigiles studio.  </l>
+            <l n="61">quaerimus, ut qui sit, quantus uel qualis, agat quid,  </l>
+            <l n="62">uero possimus noscere iudicio.  </l>
+            <l n="63">noscimus, ut digna compertum laude colamus:  </l>
+            <l n="64">ut uitam tribuat perpetuam, colimus.  </l>
+            <l n="65">G5 et colimus non ture dato, non sanguine fuso,  </l>
+            <l n="66">non <choice n="0.65"><sic n="541">uino</sic><corr n="291">uiuo</corr></choice> madidi, non epulis grauidi.  </l>
+            <l n="67">aurum uestis odor pecudes <choice><sic>lihamina</sic><corr>libamina</corr></choice> gemmae,  </l>
+            <l n="68">et quae rara homines uel pretiosa putant,  </l>
+            <l n="69">ante deum, ut uiles terreno e pondere moles,  </l>
+            <l n="70">70 ut caenum, ut sordes, sic inhonora iacent.  </l>
+            <l n="71">omnia sunt eius, cuius nos esse fatemur.  </l>
+            <l n="72">nil proprium est nobis: ipse habet, ipse dedit.  </l>
+            <l n="73">ecce etenim sancto proclamat in ore prophetae:  </l>
+            <l n="74">nolo tuos hircos, nolo tuos uitulos.  </l>
+            <l n="75">75 et species agri mecum est et gloria caeli:  </l>
+            <l n="76">orbis enim meus <choice><sic>pst</sic><corr>est</corr></choice>, et quod in orbe meum.  </l>
+            <l n="77">debita soluantur sancto mihi pectore uota: </l>
+
+<note type="footnote"> 74] Es. 1, 11. 75J Ps. 49, 11. 12. </note>
+
+<note rend="script" type="footnote"> <hi rend="italic">58 Et A At B 54 Ac A Et B 56 tntis AB totis Lipsius</hi> <lb/>
+            57 ignaui <hi rend="italic">Barthius Adners XXIV,</hi> 5 60 Queramus <hi rend="italic">A</hi> 61 Querimus <hi rend="italic">A</hi> <lb/>
+            qui sit quantns uel quales <hi rend="italic">A</hi> quis sit qualis uel quaiitus <hi rend="italic">B</hi> 62 possigruidi <lb/>
+            <lb/>
+            <hi rend="italic">mus uero B</hi> nosseere <hi rend="italic">A 65 rure B 66 grauidi A nim cruidiV</hi> <lb/>
+            68 tanta <hi rend="italic">B</hi> lauta <hi rend="italic">IApsius speciosa Schondoncltus</hi> 69 ut <hi rend="italic">om. A</hi> <lb/>
+            v <lb/>
+            70 ceuiuu <hi rend="italic">A</hi> 72 proprio <hi rend="italic">A</hi> proprium <hi rend="italic">B</hi> 74 hyrcos <hi rend="italic">A</hi> 75 speties <hi rend="italic">A</hi> <lb/>
+            agri <hi rend="italic">A quod coniccerat Delr. ex Psalm. 49, 11</hi> igitur <hi rend="italic">B</hi> 76 Orbis <lb/>
+            et meus <hi rend="italic">B</hi> et meus est orbis <hi rend="italic">Delr</hi>. orbis et hic mens est <hi rend="italic">corr. ed. Bodl</hi>. </note> <lb/>
+             
+<pb n="208"/>
+            <l n="78">hostia me laudis puraque uox celebret.  </l>
+            <l n="79">ergo nihil noster poteris praetendere lector,  </l>
+            <l n="80">80 istis quod tibi sit difficile in monitis.  </l>
+            <l n="81">non longe positum, non est aliunde petendum,  </l>
+            <l n="82">non re, non sumptu, non opus est pretio.  </l>
+            <l n="83">sufficit ut dominum mundi rerumque parentem,  </l>
+            <l n="84">cuius in arbitrio uel bona uel mala sunt,  </l>
+            <l n="85">85 sensu maiori <choice><sic>nincentem</sic><corr>uincentem</corr></choice> <choice><sic>uerha</sic><corr>uerba</corr></choice> loquentis,  </l>
+            <l n="86">unum, incorporeum, perpetuoque sacrum,  </l>
+            <l n="87">omnia complexum uel semper in omnibus unum,  </l>
+            <l n="88">corde pius credas, credulus ore roges.  </l>
+            <l n="89">sed quid sic nudis tantum sermonibus utor,  </l>
+            <l n="90">90 tamquam nulla dei sint super hoc monita?  </l>
+            <l n="91">nam primum ueteri cautum sub lege memento,  </l>
+            <l n="92">quae dudum in solidis scripta fuit tabulis,  </l>
+            <l n="93">quod nunc per dominum renouat data gratia Christum,  </l>
+            <l n="94">atque euangelii uox ueneranda sonat,  </l>
+            <l n="95">95 ut, quod saxa prius, modo pectora nostra tenerent,  </l>
+            <l n="96">esset et uberior bis repetita fides.  </l>
+            <l n="97">affectu toto dominum totisque medullis  </l>
+            <l n="98">atque tuum toto dilige corde deum.  </l>
+            <l n="99">et recte: quid enim poteris tu iustius umquam  </l>
+            <l n="100">100 obstrictus tantis soluere muneribus?  </l>
+            <l n="101">qui tibi, cum limus terrena in faece iaceres,  </l>
+            <l n="102">dempsit perpetui temporis esse <choice><sic>Iutum</sic><corr>lutum</corr></choice>:  </l>
+            <l n="103">qui tibi, quod membris constas, quod mente moneris,  </l>
+            <l n="104">quod lingua loqueris, quod ratione sapis,  </l>
+            <l n="105">105 quod manibus tangis, graderis pede, lumine <choice><sic>eernis</sic><corr>cernis</corr></choice>,  </l>
+            <l n="106">aure audis, sentis naribus, ore <choice n="0.46"><sic n="44">probus</sic><corr n="50">probas</corr></choice>, </l>
+
+<note type="footnote"> 78] Ps. 115, 8. 92] 2 Cor. 3, 3. 98] Matth. 22, 38. </note>
+
+<note type="footnote"> 78 Hostia <hi rend="italic">AB</hi> 83 mundi dominuni <hi rend="italic">A</hi> 85 Sensu <hi rend="italic">AB</hi> Censu <lb/>
+            <hi rend="italic">Delr. maiore BA1 nmiori corr. A</hi> 80 porpctuniuquc <hi rend="italic">Scltuiiilonchua<lb/>
+             </hi> 88 roges <hi rend="italic">AB</hi> sones <hi rend="italic">Schondonchus</hi> probes <hi rend="italic">Delr. <lb/>
+            (Ki lipc A 91 eantum A nt luihi uisuvi cst % Cessrt R</hi> 98 tuo <lb/>
+            <hi rend="italic">B JDelr. 99 iiquam A 100 Obstrictus AB 101 face A</hi> 106 ma- <lb/>
+            <hi rend="italic">ribus A</hi>\' </note> <lb/>
+             
+<pb n="209"/>
+            <l n="107">ante aliquod meritum propria pietate ministrat,  </l>
+            <l n="108">corporis atque animae sic pater ut dominus:  </l>
+            <l n="109">et non hoc solo contentus munere, quo te  </l>
+            <l n="110">110 instruxit membris, sensibus excoluit:  </l>
+            <l n="111">qui tribuit uitam, largitur commoda uitae,  </l>
+            <l n="112">omnibus ut tibi sit praedita deliciis.  </l>
+            <l n="113">ecce tibi caelum pendet, tibi terra recedit,  </l>
+            <l n="114">aera librantur, fluctuat oceanus:  </l>
+            <l n="115">115 noctes atque dies succedunt mensibus anni,  </l>
+            <l n="116">sol splendet, lucent sidera, luna rubet.  </l>
+            <l n="117">uer fundit blandos uario sub germine flores,  </l>
+            <l n="118">aestas iam grauida fructibus arua coquit,  </l>
+            <l n="119">autumnus musto madidus, praepinguis oliua est,  </l>
+            <l n="120">120 ignibus admotis frigora nescit hiemps.  </l>
+            <l n="121">imbribus arcendis confirmas pendula tecta;  </l>
+            <l n="122">ignoras uentos aedibus oppositis;  </l>
+            <l n="123">hirtaque lanigerae depectens terga bidentis  </l>
+            <l n="124">mollibus inuolucris algida membra tegis;  </l>
+            <l n="125">125 leuia nec desunt niuei uelamina lini; ,  </l>
+            <l n="126">sunt etiam Eois pallia uelleribus:  </l>
+            <l n="127">illa ferax iacto reddet tibi semine tellus,  </l>
+            <l n="128">haec carpent celsis Seres in arboribus.  </l>
+            <l n="129">denique per totum qui circumuoluitur annum,  </l>
+            <l n="130">130 quidquid habes, totum dat tibi cura dei.  </l>
+
+
+<note type="footnote"> 122] Cat. 26, 1. 2. 128] Sen. H. 0. 6G7. 129] Uerg. Aen. III, 284. </note>
+
+<note rend="script" type="footnote"> <hi rend="italic">108 Ac B 109 quo AB</hi> qui <hi rend="italic">Commirius fort. quod</hi> 111 tribuat <lb/>
+            <hi rend="italic">B</hi> 113 residit <hi rend="italic">Delr</hi>. 114 Aera librantur <hi rend="italic">AB quod recte tuetur <lb/>
+            Barthius, cum ex Charisii excerptis p. 550 K. fortasse et ex Uenantio<lb/>
+             Fortunato (F. M. III, 424 ed. Leo) appareat</hi> aera, aethera <hi rend="italic">pluralia nonnumquam <lb/>
+            fuisse</hi> Aer libratur <hi rend="italic">Schondonchus</hi> 115 Noctibus <hi rend="italic">B Delr. <lb/>
+             quo perit asyndeton</hi> 116 sydera <hi rend="italic">A</hi> 117 Uer fundet blandus uarios <lb/>
+            ut germine flores <hi rend="italic">A quod correxi</hi> Uer uarios blandus perfundit g. fl. <hi rend="italic">B</hi> <lb/>
+            uer uarios blandum perfundit g. fl. <hi rend="italic">Commirius</hi> 120 admotis <hi rend="italic">DeJr</hi>. amr <lb/>
+            <lb/>
+            motis <hi rend="italic">A</hi> amotis <hi rend="italic">B</hi> frigida <hi rend="italic">A</hi> 123 lanigere <hi rend="italic">A</hi> 124 inuoluis a. m. <lb/>
+            e <lb/>
+            togis <hi rend="italic">Schondonchus</hi> 125 Leuia <hi rend="italic">A</hi> Lenia <hi rend="italic">B</hi> 127 iacta <hi rend="italic">B</hi> semina <hi rend="italic">A</hi> <lb/>
+            e <lb/>
+            semina <hi rend="italic">B</hi> 128 celsis carpent <hi rend="italic">B</hi> seris <hi rend="italic">A</hi> 129 quae <hi rend="italic">corr. ed. Bodl</hi>. <lb/>
+            qua <hi rend="italic">Schurzfl. 130 Quicquid A</hi> </note>
+
+<note type="footnote"> XVI. Poet. christ. min. pars i. </note>
+
+<note type="footnote"> 14 </note> <lb/>
+             
+<pb n="210"/>
+            <l n="131">campus messe uiret, uestitur palmite collis,  </l>
+            <l n="132">arbore diuersa mitia poma metis,  </l>
+            <l n="133">et studium impendens fecundo prouidus horto  </l>
+            <l n="134">utile quo libuit tempore sumis holus.  </l>
+            <l n="135">135 accendis pinguem quaecumque in lumina pinum,  </l>
+            <l n="136">nobilibus mensis cerea flamma micat.  </l>
+            <l n="137">nec modo terreno tantum seruire iubetur  </l>
+            <l n="138">per uarios usus subdita terra homini:  </l>
+            <l n="139">ipsa etiam quidquid fertur prope nubila, quidquid  </l>
+            <l n="140">140 alto subductum uoluitur in pelago:.  </l>
+            <l n="141">nunc fallente cibo, nunc texto in retia lino,  </l>
+            <l n="142">artibus innumeris inde uel inde petis.  </l>
+            <l n="143">et tibi nunc imo trahitur de gurgite piscis,  </l>
+            <l n="144">aere nunc summo decipiuntur aues.  </l>
+            <l n="145">145 a.gmina uenanti procumbunt densa ferarum  </l>
+            <l n="146">icta procul iaculis uel laqueata plagis.  </l>
+            <l n="147">prona petis ferro, canibus fugientia sistis,  </l>
+            <l n="148">contundis frenis ora ferocis equi.  </l>
+            <l n="149">ad iuga panda boues cogis, ad mulctra capellas:  </l>
+            <l n="150">150 destillant crispis dulcia mella fanis.  </l>
+            <l n="151">de saxis gemmas, aurum producis harenis,  </l>
+            <l n="152">lentaque de terris igne metalla coquis:  </l>
+            <l n="153">gramina discernis tristes medicantia morbos,  </l>
+            <l n="154">pellis letiferum sedulus arte malum.  </l>
+            <l n="155">155 quin etiam ut mercem peregrino a litore sumas,  </l>
+            <l n="156">et tua des aliis atque aliena petas,  </l>
+            <l n="157">flumina remigio percurres, aequora uelo:  </l>
+            <l n="158">ibis longinquas absque labore uias. </l>
+
+<note type="footnote"> 135] Uerg. Aen. VII, 13. 149] Ouid. Am. I, 13, 12. </note>
+
+<note type="footnote"> 132 legis <hi rend="italic">corr. ed. Bodl</hi>. 133 fecundo <hi rend="italic">A</hi> preuidus <hi rend="italic">A</hi> 134 stempore <lb/>
+            <hi rend="italic">A1 nunc</hi> s <hi rend="italic">ex parte erasa est</hi> 135 Acendis <hi rend="italic">A</hi> 139 quicquid <hi rend="italic">A</hi> <lb/>
+            nubila <hi rend="italic">Delr</hi>. nubile <hi rend="italic">B</hi> nobile <hi rend="italic">A</hi> quicquid <hi rend="italic">A</hi> 142 petes <hi rend="italic">B</hi> <lb/>
+            143 detrahitur gurgite <hi rend="italic">A</hi> 147 Prona <hi rend="italic">h. e. uelocia ut</hi> pronos lepores <hi rend="italic">Ouid. <lb/>
+            JJJet. X, 588</hi> 148 freno <hi rend="italic">A cf. Gell. VI, 20</hi> frenis <hi rend="italic">B</hi> 149 <hi rend="italic">an</hi> cogisque <lb/>
+            150 Distillant <hi rend="italic">B</hi> 151 harenis <hi rend="italic">A</hi> 152 lectaque <hi rend="italic">uel</hi> sectaque <hi rend="italic">coni. <lb/>
+             Commirim</hi> 153 discernens <hi rend="italic">B</hi> 154 letiferum <hi rend="italic">A</hi> 157 percurres <hi rend="italic">ego</hi> <lb/>
+            percurris <hi rend="italic">A</hi> percurris et <hi rend="italic">B</hi> </note> <lb/>
+             
+<pb n="211"/>
+            <l n="159">aut si formidas pelagus, carpenta mouebis,  </l>
+            <l n="160">160 seque tuis sternet terra notanda rotis.  </l>
+            <l n="161">tum si iactatum quaerit blanda otia corpus,  </l>
+            <l n="162">umida puluereum balnea suscipient;  </l>
+            <l n="163">atque cauo tota spoliatus ueste lauacro,  </l>
+            <l n="164">marcida perdomitis membra fouebis aquis.  </l>
+            <l n="165">165 tot tantisque bonis domini tibi munere partis  </l>
+            <l n="166">quid tandem dignum reddis amore pio?  </l>
+            <l n="167">aut quibus haec opibus, quibus et persoluere donis,  </l>
+            <l n="168">uel quanto poteris pendere seruitio?  </l>
+            <l n="169">nec tamen haec dominus, cuius sunt omnia, quaerit:  </l>
+            <l n="170">170 sufficit ut dominum seruus amatus ames.  </l>
+            <l n="171">haec quoque mandati succedit forma secundi,  </l>
+            <l n="172">proximus ut tibi sit sic, uelut ipse tibi es.  </l>
+            <l n="173">nosco salutiferam mansuro munere legem,  </l>
+            <l n="174">uno quae cunctis prospicit officio.  </l>
+            <l n="175">175 nam cum aliena mihi mandatur cura, necesse est  </l>
+            <l n="176">ut mea mandetur sic quoque cura alii.  </l>
+            <l n="177">ecce pecus pecudem fecunda ad <choice><sic>pahula</sic><corr>pabula</corr></choice> ducit,  </l>
+            <l n="178">ammugit proprio bucula laeta gregi.  </l>
+            <l n="179">murmure respondent, qua possunt uoce loquuntur,  </l>
+            <l n="180">180 inque uicem docilis lambere lingua solet.  </l>
+            <l n="181">nec caret affectu quod fluctibus occulit aequor,  </l>
+            <l n="182">et <choice n="0.73"><sic n="76">uolucris</sic><corr n="27">nolueris</corr></choice> uolucri est et fera blanda ferae.  </l>
+            <l n="183">tum si quando uenit quocumque ex agmine praedo,  </l>
+            <l n="184">fortior inualidos ungue uel ore premens,  </l>
+            <l n="185">185 seu uolucrum res est, siue est res illa ferarum,  </l>
+            <l n="186">undique collectis tenditur auxiliis, </l>
+
+<note type="footnote"> 172] Matth. 22, 39. </note>
+
+<note type="footnote"> 160 Teque <hi rend="italic">A</hi> Deque <hi rend="italic">B correxit JDelr</hi>. 161 Tunc <hi rend="italic">B</hi> lassatum <hi rend="italic">B <lb/>
+            fort</hi>. quaeret 162 Vmida <hi rend="italic">A</hi> 163 spoliatus <hi rend="italic">Delr</hi>. spoliatur <hi rend="italic">AB</hi> <lb/>
+            167 hec copiis quibus persoluere <hi rend="italic">A fort</hi>. quibus haec 177 petus <hi rend="italic">A</hi> <lb/>
+            178 Ammugit <hi rend="italic">AB</hi> 180 dociles <hi rend="italic">corr. ed. Bodl</hi>. solent <hi rend="italic">B</hi> 181 Non <hi rend="italic">B</hi> <lb/>
+            occulet <hi rend="italic">A</hi> 182 uolucres uolucrie <hi rend="italic">A</hi> blanda fera ferae <hi rend="italic">B</hi> 183 praeda <lb/>
+            <hi rend="italic">B</hi> 184 Fortiore ualidus <hi rend="italic">h. e</hi>. Fortior est ualidus <hi rend="italic">A quamquam ex</hi> <lb/>
+            e <hi rend="italic">pars erasa est</hi> inualidos <hi rend="italic">B</hi> 185 seu res est <hi rend="italic">B</hi> </note>
+
+<note type="footnote"> 14* </note> <lb/>
+             
+<pb n="212"/>
+            <l n="187">captiuam comitem cursu grege uoce uolatu,  </l>
+            <l n="188">etsi non possunt, eripuisse uolunt.  </l>
+            <l n="189">cumque ita se solo naturae munere seruent,  </l>
+            <l n="190">190 quae nec consilio nec ratione uigent,  </l>
+            <l n="191">quid mirum domini si iussa uerenda secutum  </l>
+            <l n="192">mutua constringet cura hominis hominem,  </l>
+            <l n="193">atque usu ingenio rebus ratione peritus  </l>
+            <l n="194">ut sua quae tua sunt commoda frater agat?  </l>
+            <l n="195">195 hinc uenit illa placens merito sententia, nectens  </l>
+            <l n="196">humanum parili condicione genus:  </l>
+            <l n="197">ne facias aliis quidquid fieri tibi non uis,  </l>
+            <l n="198">idque aliis facias quod tibi uis fieri.  </l>
+            <l n="199">quod genus est hominum, qui ritus sexus et aetas,  </l>
+            <l n="200">200 quis neget hoc rectum, quis neget hoc facile?  </l>
+            <l n="201">quid non mandatum late conplectitur artum?  </l>
+            <l n="202">plenius hac tradi quid breuitate potest?  </l>
+            <l n="203">namque ea quae mala sunt, fieri modo sic mihi nolim,  </l>
+            <l n="204">ut rursum cupiam quae bona sunt fieri.  </l>
+            <l n="205">205 indice non opus est, doctor nec quaeritur ullus:  </l>
+            <l n="206">de nobis scimus quae bona, quae mala sunt.  </l>
+            <l n="207">gaudebis certe, si quis te nocte uiantem  </l>
+            <l n="208">blandus uicinum ducat in hospitium:  </l>
+            <l n="209">tu quoque sollicitus prouisis excipe tectis  </l>
+            <l n="210">210 illum, qui sera nocte uiator erit,  </l>
+            <l n="211">ueste tegi nudus, sitiens ad pocla uocari,  </l>
+            <l n="212">esuriens optas ut satiere cibis:  </l>
+            <l n="213">te quoque permoueat proprii par cura laboris,  </l>
+            <l n="214">diuide cum miseris pallia, pocla, cibos. </l>
+
+<note type="footnote"> 198] Caton. Dist. lIII (Columban.) 24 Quod tibi uis fieri, hoc alii <lb/>
+            praestare memento <hi rend="italic">(Baehrenshts indicauit)</hi> 205] Mart. I, 5:3, 11 lndice <lb/>
+            non opus est nostris nec iudice libris. </note>
+
+<note type="footnote"> 191 secutus <hi rend="italic">A an</hi> secutis? 192 constringat <hi rend="italic">Delr</hi>. 194 Vt tua <lb/>
+            quae sua sunt <hi rend="italic">A</hi> 196 conditione <hi rend="italic">A</hi> 197 Nec <hi rend="italic">B</hi> quicquid <hi rend="italic">A <lb/>
+            198 Inque A uix recte 199 quis sexus ritus B</hi> 200 <hi rend="italic">qui - qui Delr</hi>. <lb/>
+            quis neget esse probum <hi rend="italic">B</hi> 201 late conplectitur <hi rend="italic">AB h. e. latitudine<lb/>
+             sua siue prout amplitudo est eius</hi> 202 breuitate tradi quid <hi rend="italic">B</hi> 205 Indice <lb/>
+            <hi rend="italic">AB cf. lJIart</hi>. 2, <hi rend="italic">53, 11</hi> 207 Gaudebit <hi rend="italic">B</hi> 208 hospicium <hi rend="italic">A <lb/>
+            212 satiare A saciere B 213 causa B</hi> </note> <lb/>
+             
+<pb n="213"/>
+            <l n="215">215 ecce manum poscis <choice n="0.94"><sic n="104">lapsus</sic><corr n="6">lapsas</corr></choice>, solacia <choice n="0.84"><sic n="76">maestus</sic><corr n="14">maestas</corr></choice>,  </l>
+            <l n="216">auxilium <choice n="0.64"><sic n="66">trepidus</sic><corr n="37">trepidas</corr></choice>, consilium <choice n="0.74"><sic n="59">dubius</sic><corr n="20">dubias</corr></choice>:  </l>
+            <l n="217">id maestis dubiis trepidis labentibus offer:  </l>
+            <l n="218">in simili causa fac ut ameris amans.  </l>
+            <l n="219">certe incusari te falso crimine non uis:  </l>
+            <l n="220">220 crimine falso alios insimulare time.  </l>
+            <l n="221">odisti furem: furtum fuge; perdere non uis  </l>
+            <l n="222">per uim quae tua sunt: nil uiolenter agas.  </l>
+            <l n="223">pacta tibi dubio non uis nutare paratu:  </l>
+            <l n="224">promissam certo pectore redde fidem.  </l>
+            <l n="225">225 quae tibi detraxit uelles succidere linguam:  </l>
+            <l n="226">cura sit ut nullum liuida uerba notent.  </l>
+            <l n="227">mutua cum poscis, uis sumere protinus aera:  </l>
+            <l n="228">mutua poscentem dextera prompta iuuet.  </l>
+            <l n="229">elatos fastu damnas: depone tumorem;  </l>
+            <l n="230">230 quod fugis in celsis nesciat inferior.  </l>
+            <l n="231">certe si soror est uel mater caraue coniunx,  </l>
+            <l n="232">quarum ne uitam fama grauis maculet,,  </l>
+            <l n="233">perpetui curam cauta pietate pudoris  </l>
+            <l n="234">-filius aut frater siue maritus agis:  </l>
+            <l n="235">235 haec ueneranda tibi si nomina temptet adulter,  </l>
+            <l n="236">ferrum in uindictam non satis esse putas.  </l>
+            <l n="237">nonne eadem poena reus es, si tu quoque furtim  </l>
+            <l n="238">aggrederis castos sollicitare toros?  </l>
+            <l n="239">hinc fuit, ut dominus prima sub lege iuberet  </l>
+            <l n="240">240 pensari paribus crimina suppliciis:  </l>
+            <l n="241">pro damno damnum, uulnus pro uulnere, dentem  </l>
+            <l n="242">dente lui raptum, lumina luminibus. </l>
+
+<note type="footnote"> 215 solatia <hi rend="italic">A</hi> 217 offers <hi rend="italic">AB corr. Delr</hi>. 218 <hi rend="italic">fort</hi>. redameris <lb/>
+            219 falso de crimine <hi rend="italic">B</hi> non uis <hi rend="italic">AB malim</hi> nolis 220 instimulare <hi rend="italic">B<lb/>
+             quod correxerat Delr</hi>. time. <hi rend="italic">B</hi> noli <hi rend="italic">A sane</hi> noluit <hi rend="italic">corripuit Ennodius <lb/>
+            G. I, 4, 34</hi> 221 fuge <hi rend="italic">A</hi> caue <hi rend="italic">B</hi> 223 nutare <hi rend="italic">B</hi> mutare <hi rend="italic">A</hi> paratum <hi rend="italic">A <lb/>
+            an</hi> patratu ? 224 Commissain <hi rend="italic">B</hi> 225 nelis <hi rend="italic">A</hi> 227 cumque petas <hi rend="italic">B</hi> <lb/>
+            cumque petis <hi rend="italic">Schondonchus</hi> .229 Elatus <hi rend="italic">A1</hi> Elatos <hi rend="italic">A2B</hi> 230 ne sciat <lb/>
+            <hi rend="italic">Baehrensius h. e. experiatur</hi> 231 Certe tibi soror est <hi rend="italic">B</hi> carau <hi rend="italic">Al</hi> <lb/>
+            e <hi rend="italic">supra lineam ctdd, manus posterior</hi> ciunx <hi rend="italic">A</hi> 233 pudoris <hi rend="italic">B</hi> custodis <lb/>
+            <hi rend="italic">A</hi> 235 temptat <hi rend="italic">B</hi> 238 thoros <hi rend="italic">A</hi> 242 Pro dente lui raptum <hi rend="italic">A</hi> <lb/>
+            Pro dente atque lui <hi rend="italic">B correxit Martene, nec tolerabile est ter repetitum</hi> lu. </note> <lb/>
+             
+<pb n="214"/>
+            <l n="243">nec minus ut propriam sub iudice redderet audax  </l>
+            <l n="244">alterius cuperet qui rapuisse animam,  </l>
+            <l n="245">245 iudiciumque reus non posset dicere prauum,  </l>
+            <l n="246">prauis decreta est ultio criminibus.  </l>
+            <l n="247">et licet haec melius mutarit gratia Christi,  </l>
+            <l n="248">mitia quae potius quam uiolenta docet,  </l>
+            <l n="249">est tamen est rectum, quidquid iubet ista uel illa,  </l>
+            <l n="250">250 seu cito restituas, seu patienter agas.  </l>
+            <l n="251">hoc tamen est melior qui Christo uindice gaudet,  </l>
+            <l n="252">seruet si domino quod dedit ille sibi.  </l>
+            <l n="253">ergo piis uotis et sanctis perfice rebus,  </l>
+            <l n="254">uita quod haec praesens, quodque futura probet,  </l>
+            <l n="255">255 ut te, quem raptim fugiens commendat honestas,  </l>
+            <l n="256">perpes post obitum gloria suscipiat.  </l>
+            <l n="257">nam nostris certus monitis, mansura memento  </l>
+            <l n="258">omnia, nunc stulti quae peritura putant:  </l>
+            <l n="259">atque animas isdem membris redeuntibus ipsum  </l>
+            <l n="260">260 crede recepturas corporis inuolucrum.  </l>
+            <l n="261">ora color sanguis uenae cutis ossa capilli,  </l>
+            <l n="262">ut nunc labuntur, sic iterum uenient,  </l>
+            <l n="263">non modo quae tumulis bene condita saxa reseruant,  </l>
+            <l n="264">aut Arabum solidans puluis odorque tegit:  </l>
+            <l n="265">265 sed dicto citius, formanda in membra redibit  </l>
+            <l n="266">portio de tumulis, portio de fluuiis.  </l>
+            <l n="267">quod uentus flatu minuit, quod bestia morsu,  </l>
+            <l n="268">flamma quod exussit, quodque ruina premit,  </l>
+            <l n="269">totum aderit, totum diuersa ex parte coibit,  </l>
+            <l n="270">270 pars uolucri aut pisci, pars laniata feris,   </l>
+
+
+<note rend="script" type="footnote"> 244 cupiat <hi rend="italic">ed. Bodl. quod commemorauit Schurzfleischius a. 1716 tamquam <lb/>
+            ex cod. Anglico</hi> rapuisse uitam <hi rend="italic">A</hi> 245 ne <hi rend="italic">Schondonchus</hi> <lb/>
+            r <lb/>
+            246 Paruis <hi rend="italic">A1</hi> Paruis <hi rend="italic">A2</hi> 248 docent <hi rend="italic">A</hi> 249 Ast tamen est <hi rend="italic">B</hi> <lb/>
+            quicquid <hi rend="italic">A</hi> 252 si <hi rend="italic">Lipsius</hi> sic <hi rend="italic">Delr</hi>. se <hi rend="italic">AB</hi> 255 Uitae <lb/>
+            quem rectae <hi rend="italic">B</hi> conidat <hi rend="italic">A</hi> 261 Olra <hi rend="italic">A</hi> 263 credita <hi rend="italic">A</hi> reseruent <lb/>
+            <hi rend="italic">A1</hi> 264\' arauum <hi rend="italic">A h. e</hi>. Arabum <hi rend="italic">quod coniecerat Sirmondus <lb/>
+            ad Sid. Apollin. XIII, 9</hi> aruum <hi rend="italic">Bart-us Commirius</hi> tenet <hi rend="italic">B</hi> <lb/>
+            265 firmanda <hi rend="italic">B</hi> 268 exussit <hi rend="italic">A quod coni. Delr</hi>. excussit <hi rend="italic">B</hi> 269 adherit <lb/>
+            <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="215"/>
+            <l n="271">et quod nunc aetas sensim longaeua resoluit,  </l>
+            <l n="272">id raptim domini bucina restituet.  </l>
+            <l n="273">ut pro factorum meritis in corpore eodem,  </l>
+            <l n="274">in quo gesserunt seu bona siue mala,  </l>
+            <l n="275">275 scilicet ad motus animarum carne reuersa,  </l>
+            <l n="276">poena reos, iustos gloria suscipiat.  </l>
+            <l n="277">cur autem dubites, cum praecedentia monstrent  </l>
+            <l n="278">ut tibi uenturi sit manifesta fides?  </l>
+            <l n="279">respice nudatas brumali frigore siluas  </l>
+            <l n="280">280 iam desperatis luxuriare comis.  </l>
+            <l n="281">quae stabat maerens decusso palmite uitis  </l>
+            <l n="282">uestitur foliis, fructibus induitur.  </l>
+            <l n="283">spiceus (at) densis calamus flauescit aristis,  </l>
+            <l n="284">in terra granum quod modo putre fuit,  </l>
+            <l n="285">285 et quae nunc tristi squalebant arua ueterno,  </l>
+            <l n="286">laeta nouo rident germine, flore rubent.  </l>
+            <l n="287">ipse etiam uariis conclusus mensibus annus  </l>
+            <l n="288">tempore mutato mortis habet speciem,  </l>
+            <l n="289">cum uer autumno, frigus depellitur aestu,  </l>
+            <l n="290">290 utque hominum res est, hoc uenit, illud abit.  </l>
+            <l n="291">hoc tamen aeterno, donec deus annuit, usu  </l>
+            <l n="292">inque uicem alterno uoluitur officio:  </l>
+            <l n="293">et dum se longi sequitur rota mobilis anni,  </l>
+            <l n="294">nascitur et moritur, succidit atque redit.  </l>
+            <l n="295">295 nam finem noster finis non accipit, et mors  </l>
+            <l n="296">qua primum morimur, perpetuo moritur.  </l>
+            <l n="297"><choice><sic>nicturo</sic><corr>uicturo</corr></choice> semper motu sensuque manente,  </l>
+            <l n="298">omnis perpetuo tempore uiuet homo. </l>
+
+<note rend="script" type="footnote"> a <lb/>
+            271 longeua <hi rend="italic">A</hi> resoluet <hi rend="italic">A 272 bucina A</hi> 275 aniuiorum <hi rend="italic">A</hi> <lb/>
+            aiximorum <hi rend="italic">B</hi> 278 <hi rend="italic">malim</hi> et 280 luxuare <hi rend="italic">A</hi> 281 merens <hi rend="italic">A</hi> marens <lb/>
+            <hi rend="italic">ed. Bodl</hi>. marcens <hi rend="italic">Schurzfl. tamquam ex cod. Angl</hi>. 283 Spiceus <lb/>
+            densis <hi rend="italic">A</hi> Apiceus densis <hi rend="italic">B</hi> at <hi rend="italic">addidi</hi> spiceus en <hi rend="italic">IApsius</hi> ade <lb/>
+            <lb/>
+            spicis ut <hi rend="italic">Delr</hi>. flauiseit <hi rend="italic">A</hi> 286 florent gramine <hi rend="italic">A</hi> flore uirent <hi rend="italic">B</hi> <lb/>
+            288 spetiem <hi rend="italic">A</hi> 290 hoc abit illud uenit <hi rend="italic">B</hi> hoc abit ille uenit <hi rend="italic">Delr. <lb/>
+             quod edidi est in A et sic coniecerat Riuinus</hi> 291 <hi rend="italic">fort</hi>. alterno annuat <hi rend="italic">A <lb/>
+            fort. recte</hi> 294 succedit <hi rend="italic">A</hi> 295 Nam finis noster finem <hi rend="italic">B fort. rectius</hi> <lb/>
+            296 primo <hi rend="italic">B</hi> 298 uiuit <hi rend="italic">B</hi>-</note> <lb/>
+             
+<pb n="216"/>
+            <l n="299">uiuet homo: fletus ast hic mea uerba sequuntur;  </l>
+            <l n="300">300 nam puto sic hominis sors melior fuerat,  </l>
+            <l n="301">cum sensu uitae sensum deponere poenae  </l>
+            <l n="302">et natum innatis consimilem fieri,  </l>
+            <l n="303">quam nunc, peccatis toto dominantibus aeuo,  </l>
+            <l n="304">extingui uitae, uiuere suppliciis.  </l>
+            <l n="305">305 nam rogo ne credas dirae ad conpendia poenae.,  </l>
+            <l n="306">quod raptim insontes debita flamma uoret.  </l>
+            <l n="307">ignibus aeternis inmersos respice colles  </l>
+            <l n="308">iugiter amburi, non tamen inminui:  </l>
+            <l n="309">et gelidos fontes et caerula flumina cerne  </l>
+            <l n="310">310 fundere semper aquas, semper habere tamen.  </l>
+            <l n="311">sic miseros uindex semper populabitur ignis,  </l>
+            <l n="312">ut semper seruet pabula laeta sibi.  </l>
+            <l n="313">haec si falsa putas, merito post uera probabis:  </l>
+            <l n="314">at falsa effugies, si modo uera times.  </l>
+            <l n="315">315 quare post mortem sequitur si uita perennis,  </l>
+            <l n="316">laetificans iustos discruciansque reos,  </l>
+            <l n="317">uiribus et totis et totis nitere uotis,  </l>
+            <l n="318">quae rectum ducunt continuare uias.  </l>
+            <l n="319">contere calcatum mortis cum principe mundum  </l>
+            <l n="320">320 et fuge lasciuis credere deliciis. <note type="margin"> DE             LASCIVIA </note>  </l>
+            <l n="321">praecipue semper famosos despice uultus  </l>
+            <l n="322">iudiciumque tuis eripe luminibus.  </l>
+            <l n="323">nemo feret rutilos intactis uestibus ignes,  </l>
+
+
+
+<note rend="script" type="footnote"> 299 ast <hi rend="italic">Schondonchus</hi> est <hi rend="italic">AB</hi> en <hi rend="italic">Baehrensius</hi> (e) 300 Nam <hi rend="italic">B <lb/>
+            in A prima littera incerta est propius ad Q accedens</hi> 301 pene <hi rend="italic">A</hi> <lb/>
+            305 copendia pene <hi rend="italic">A</hi> 306 insontes <hi rend="italic">A</hi> sontes <hi rend="italic">B</hi> fontes <hi rend="italic">ed. Mignianus<lb/>
+             tamquam de fontibus tepentis aquae diceret Orientius</hi> 307 immensos <hi rend="italic">B</hi> <lb/>
+            308 inminui <hi rend="italic">AB</hi> 309 flumina cerula <hi rend="italic">A</hi> 310 Semper habere tamen <lb/>
+            fundere semper aquas <hi rend="italic">A uix recte</hi> 312 Et <hi rend="italic">A</hi> l$a <hi rend="italic">A</hi> 313 putes <hi rend="italic">B</hi> <lb/>
+            314 at <hi rend="italic">Fabricius</hi> Yt <hi rend="italic">AB</hi> 315 si <hi rend="italic">Lipsius</hi> se <hi rend="italic">AB</hi> 316 <hi rend="italic">Prima, littera<lb/>
+             incerta in A</hi> discrutiansque <hi rend="italic">A</hi> 318 <hi rend="italic">an</hi> rectim? 319 cum mundi <lb/>
+            et <lb/>
+            principe mundum <hi rend="italic">B</hi> mortis cu prime A1 mortis cu prime donum <hi rend="italic">A 2</hi> <lb/>
+            321 <hi rend="italic">in margine huius 1t, extant in A litterae hae</hi> sci <hi rend="italic">quae relliquiae sunt <lb/>
+            tituli</hi> DE LASCIVIA: <hi rend="italic">ex B, ut uidetur, adscripsit Delr</hi>. CONTRA LASCIVIAM <lb/>
+            ET VENEREA famosos <hi rend="italic">AB malim</hi> formosos <hi rend="italic">cum Commirio</hi> cultus <hi rend="italic">B</hi> </note> <lb/>
+             
+<pb n="217"/>
+            <l n="324">nemo inter lituos non trahet aure sonum.  </l>
+            <l n="325">325 nemo inter flores blandorum ambitus odorum  </l>
+            <l n="326">naribus assiduam non metet ungue rosam.  </l>
+            <l n="327">nemo diu sitiens et multo sole perustus  </l>
+            <l n="328">incumbet gelidis nec potietur aquis.  </l>
+            <l n="329">nemo uias pedibus brumali tempore carpens  </l>
+            <l n="330">330 conspersus pluuia nec madefactus erit.  </l>
+            <l n="331">nemo, licet mediis muris, sub tempore belli  </l>
+            <l n="332">uel bene securus uel bene tutus agit.  </l>
+            <l n="333">congressus praestat uisum, mox lumina uisu  </l>
+            <l n="334">concipiunt flammas, parturiuntque nefas.  </l>
+            <l n="335">335 dum ueluti iacto piscantis fraudibus hamo  </l>
+            <l n="336">primo animus capitur, post etiam moritur. -  </l>
+            <l n="337">prima mali labes heu femina! te dolus anguis,  </l>
+            <l n="338">atque hominem per te reppulit a domino. 4  </l>
+            <l n="339">erepti tu causa boni, tu ianua mortis,  </l>
+            <l n="340">340 tu decepta cito, tu cito decipiens.  </l>
+            <l n="341">ergo age, qui nullo maculari pectora naeuo  </l>
+            <l n="342">et purus puro niteris esse animo,  </l>
+            <l n="343">ut laqueos ignis gladios et acuta uenena  </l>
+            <l n="344">- cernere laudatam sic fugies faciem.  </l>
+            <l n="345">345 non ego nunc repetam per tot iam saecula quantos  </l>
+            <l n="346">feminei uultus perdiderint populos.  </l>
+            <l n="347">praetereo clades Spartanas, Troica bella,  </l>
+            <l n="348">et raptu excidium quam prope, Roma, tuum,  </l>
+            <l n="349">cum gentes nulla domini sub lege nec ullis  </l>
+            <l n="350">350 sanctorum ad uitam perdomitas monitis,  </l>
+            <l n="351">qua furor impulerat, lasciuus duceret auctor,  </l>
+            <l n="352">esset et hoc licitum quod fuerat libitum. </l>
+
+<note type="footnote"> 324 trahet <hi rend="italic">Lipsins</hi> trahit <hi rend="italic">AB</hi> aure <hi rend="italic">A</hi> ore <hi rend="italic">B</hi> 330 Comspersus <hi rend="italic">B</hi> <lb/>
+            Aspersus <hi rend="italic">A</hi> 332 Aut — aut <hi rend="italic">B</hi> erit <hi rend="italic">B</hi> 333 prestat <hi rend="italic">A</hi> lumina <lb/>
+            <hi rend="italic">uisum B 335 amo A</hi> 338 <hi rend="italic">Ac B 340 cito decepta B</hi> 341 qui <lb/>
+            <hi rend="italic">Delr. quae AB neuo A 343 gladios A ualidos B et acuta B</hi> <lb/>
+            ac cuncta <hi rend="italic">A</hi> 345 referam <hi rend="italic">A fort. recte</hi> 346 perdiderit <hi rend="italic">A</hi> 347 Praetereo <lb/>
+            <hi rend="italic">A</hi> Praeterea <hi rend="italic">B</hi> et troica <hi rend="italic">A</hi> 348 raptu <hi rend="italic">Belr</hi>. raptum <hi rend="italic">A</hi> <lb/>
+            raptim <hi rend="italic">B</hi> 351 ducere <hi rend="italic">A \' scriptura euanida</hi> auctor <hi rend="italic">ego</hi> uictam <lb/>
+            <hi rend="italic">A ut mihi et E. M. Thompson uisum est</hi> uictum <hi rend="italic">A ut Martenio et <lb/>
+            Noltio uisum est</hi> error <hi rend="italic">B</hi> </note> <lb/>
+             
+<pb n="218"/>
+            <l n="353">de sacris, inquam, de sacris percipe libris,  </l>
+            <l n="354">obprobrio quantis turpis amor fuerit.  </l>
+            <l n="355">355 te Dinae species nimio sub amore ruentem  </l>
+            <l n="356">exstincxit, Sichem, cum patre, cum patria.  </l>
+            <l n="357">nam male compressam fratrum pia cura sororem  </l>
+            <l n="358">promittit thalamo, uindicat in gladio.  </l>
+            <l n="359">hunc quoque laudatum psalmorum carmine Dauid  </l>
+            <l n="360">360 forma placens celso deposuit solio,  </l>
+            <l n="361">cum male lasciuum comperto crimine corpus  </l>
+            <l n="362">sacco contegeret, contereret cinere.  </l>
+            <l n="363">Thamar forma duos sub eodem tempore fratres  </l>
+            <l n="364">incesti et ferri perpulit in facinus.  </l>
+            <l n="365">365 unus corrumpit, corruptam ulciscitur alter:  </l>
+            <l n="366">ultio quae iusta est, desinit esse pia.  </l>
+            <l n="367">ipse etiam Salomon, cuius sapientia prisco  </l>
+            <l n="368">tempore et (in) toto nobilis orbe fuit,  </l>
+            <l n="369">ducitur in facinus uetito laqueatus amore, -  </l>
+            <l n="370">370 femineo subdens turpia colla iugo,  </l>
+            <l n="371">et domini inmemorem merito praeconia laudum,  </l>
+            <l n="372">quae iuuenem ornarant, destituere senem.  </l>
+            <l n="373">forma placens regi leto te tradidit, <choice><sic>Arnan</sic><corr>Aman</corr></choice>:\'  </l>
+            <l n="374">forma tuum rapuit, dux Oloferne, caput.  </l>
+            <l n="375">375 illum mirifico famosum robore Samson  </l>
+            <l n="376">forma decens saeuis tradidit allophylis.  </l>
+            <l n="377">sanctus (is) et uictor per tot modo proelia miles,  </l>
+            <l n="378">heu male femineis subditur arte choris,  </l>
+            <l n="379">ut iam pollutus, pariunt quia crimina poenam,  </l>
+            <l n="380">380 oscula uirginibus, terga daret gladiis.  </l>
+
+
+<note type="footnote"> 355] Gen. 34. 359] 2 Sam. 11 et 12. 363] 2 Sam. 13. 367] <lb/>
+            2 Chron. 9. 369] Eccles.\'47, 19. 373] Esther 7. 374] Iudith 13. <lb/>
+            375] Iudic. 16. 377] Num. 25 et 31. </note>
+
+<note type="footnote"> 354 Obprobrio <hi rend="italic">A</hi> 355 diue speties <hi rend="italic">A</hi> 356 Exstincxit sychem <hi rend="italic">A</hi> <lb/>
+            358 Permittit <hi rend="italic">B</hi> 361 copertu <hi rend="italic">A</hi> compto <hi rend="italic">B</hi> 364 pepulit <hi rend="italic">A</hi> 365 corrupit <lb/>
+            <hi rend="italic">A</hi> 368 in <hi rend="italic">add. Delr</hi>. 371 inmemorem <hi rend="italic">A</hi> 373 l$o <hi rend="italic">A</hi> <lb/>
+            376 seuis <hi rend="italic">A</hi> allofilis <hi rend="italic">A</hi> 377 is <hi rend="italic">acZaicZi</hi> Sanctus et uictor <hi rend="italic">AB</hi> <lb/>
+            sanctus et inuictus <hi rend="italic">COlnJlârius quod probat Schenkelius cum Baehrensio</hi> <lb/>
+            sanctus ad haec <hi rend="italic">corr. ed. Bodl</hi>. 378 foeminei chori <hi rend="italic">corr. ed. Bodl</hi>. <lb/>
+            379 Ut iam <hi rend="italic">A giiod coniecerat Delr</hi>. Uitam <hi rend="italic">B</hi> </note> <lb/>
+             
+<pb n="219"/>
+            <l n="381">tu quoque Leuitis tantum dilecta nec uxor,  </l>
+            <l n="382">insano iuuenum subdita nocte toro,  </l>
+            <l n="383">uindictae studio totas in bella dedisti  </l>
+            <l n="384">perdere contentas <choice n="0.73"><sic n="6071">sine</sic><corr n="2204">siue</corr></choice> perire tribus,  </l>
+            <l n="385">385 ut membris lacero dispersis funere Gabaat  </l>
+            <l n="386">efficeret diris ignibus usta rogum.  </l>
+            <l n="387">non, mihi si linguae centum sint oraque centum,  </l>
+            <l n="388">expediam quantum forma placens noceat.  </l>
+            <l n="389">lasciuo clamat benedictus apostolus orbi,  </l>
+            <l n="390">390 dans etiam licitis iura seuera toris;  </l>
+            <l n="391">coniuge possessus, contempta coniuge liber  </l>
+            <l n="392">non similem causam relligionis habent.  </l>
+            <l n="393">coniugis implicitum detentat cura maritum:  </l>
+            <l n="394">solum uult caelebs emeruisse deum.  </l>
+            <l n="395">395 sed quia nonnumquam succumbunt lumina et omne  </l>
+            <l n="396">ancipiti rectum labitur in biuio,  </l>
+            <l n="397">si purum maculare animum parat impius hostis,  </l>
+            <l n="398">semper ouans castam sollicitare fidem,  </l>
+            <l n="399">accipe tela, quibus cordis pia moenia serues:  </l>
+            <l n="400">400 crux tibi sit clipeus, crux tibi sit gladius.  </l>
+            <l n="401">supplicibus lacrimis <choice><sic>gemitn</sic><corr>gemitu</corr></choice> prece pectore tunso,  </l>
+            <l n="402">quaere salutiferum nocte dieque deum.  </l>
+            <l n="403">ac ne paulatim facilem spes palpet amorem,  </l>
+            <l n="404">lapsum a praecipiti perge referre pedem.  </l>
+            <l n="405">405 non ignarus enim miseris succurrere tempto,  </l>
+            <l n="406">omnia perpessus, quae fugienda loquor.  </l>
+            <l n="407">respicis ad formam? sed saeuas respice poenas,  </l>
+            <l n="408">respice quid laudes, respice quid timeas, </l>
+
+<note type="footnote"> 381] Iudic. 19 et 21. 387] Uerg. Aen. VI, 625. 391] 1 Cor. 7, 32. 33. <lb/>
+            405] Uerg. Aen. I, 630. </note>
+
+<note type="footnote"> 381 leuitis <hi rend="italic">B in A uix lcgitur</hi> 383 in <hi rend="italic">A</hi> uel <hi rend="italic">B</hi> 385 gabaath <hi rend="italic">A</hi> <lb/>
+            gabaat <hi rend="italic">B</hi> 390 thoris <hi rend="italic">A</hi> 391 conteinpta et <hi rend="italic">A</hi> 392 religionis <hi rend="italic">A</hi> <lb/>
+            393 implicituni <hi rend="italic">A</hi> 394 celebs <hi rend="italic">A</hi> 395 et omne <hi rend="italic">A</hi> formae <hi rend="italic">B</hi> <lb/>
+            396 rectum <hi rend="italic">A</hi> rectus <hi rend="italic">B</hi> 398 auens <hi rend="italic">Miuinus</hi> 399 meiiia <hi rend="italic">A</hi> 400 Crux <lb/>
+            tibi sit gladius crux tibi sit clipeus <hi rend="italic">A</hi> 401 tunso <hi rend="italic">A quod coniecerat <lb/>
+            Delr</hi>. tonso <hi rend="italic">B</hi> 402 solutiferum <hi rend="italic">A</hi> 404 Labsum <hi rend="italic">A</hi> 405 quaero <hi rend="italic">B</hi> <lb/>
+            407 seuas <hi rend="italic">A</hi> aspice <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="220"/>
+            <l n="409">internisque oculis et uero lumine cerne  </l>
+            <l n="410">410 de terra ad caelum deque homine ad dominum.  </l>
+            <l n="411">hic breuis est fine exiguo claudenda uoluptas:  </l>
+            <l n="412">illic perpetuo sulphure flamma uorax.  </l>
+            <l n="413">audi clamantem celsa cum uoce propheten,  </l>
+            <l n="414">seu mandata legas pristina, siue noua:  </l>
+            <l n="415">415 \'quae laus in uultu est? faenum omnem credite carnem,  </l>
+            <l n="416">quippe ut flos faeni gloria carnis erit.\'  </l>
+            <l n="417">nam ueluti flores ictus metit, atterit aestus,  </l>
+            <l n="418">confundunt imbres, fortior aura rapit,  </l>
+            <l n="419">sic uultum quicumque placet, consumere tempus  </l>
+            <l n="420">420 et tumor et liuor despoliare potest.  </l>
+            <l n="421">atque ipsam ut taceam, quae conterit omnia, mortem,  </l>
+            <l n="422">quanta licent morbis febribus ulceribus?  </l>
+            <l n="423">hi modo qui canent albo sordente c.apilIi,  </l>
+            <l n="424">conlatas olim non timuere pices.  </l>
+            <l n="425">425 pendula quae maerent rugis deformibus ora,  </l>
+            <l n="426">praetulerant <choice n="0.95"><sic n="65">uanum</sic><corr n="3">nanum</corr></choice> conspicienda decus.  </l>
+            <l n="427">qui nunc in laxa tremulus pes pelle uacillat,  </l>
+            <l n="428">uix dederat tenui signa notata solo.  </l>
+            <l n="429">ceruix colla manus et quod nunc omnibus horret,  </l>
+            <l n="430">430 heu miseris quondam causa furoris erant.  </l>
+            <l n="431">lumina, quae madidus deformia subluit umor,  </l>
+            <l n="432">stellarum rutilae ceu micuere taces.  </l>
+            <l n="433">respice quod paucis floret nec permanet annis,  </l>
+            <l n="434">et tamen aeternis culpa manet lacrimis.  </l>
+            <l n="435">435 ergo puellares uultus formasque decentes  </l>
+
+
+
+<note type="footnote"> \'413] Esai. 40, 6. 7. 423] Maxim. El. 1,131 sqq. 429] Maxim. El. 1,206. </note>
+
+<note type="footnote"> 412 sulphure <hi rend="italic">A</hi> 413 celsa cum <hi rend="italic">A</hi> ^ cum magna <hi rend="italic">B</hi> 415 fenum <hi rend="italic">A</hi> <lb/>
+            omne <hi rend="italic">A1</hi> omne <hi rend="italic">A2</hi> 416 feni <hi rend="italic">A</hi> agri <hi rend="italic">ed. Bodl</hi>. 417 digitus <hi rend="italic">corr. <lb/>
+             ed. Bodl</hi>. maitat terit A 419 quodcumque <hi rend="italic">Al</hi> quicumque <hi rend="italic">A2</hi> <lb/>
+            quandoque <hi rend="italic">B</hi> 420 dispoliare A 423 Hii <hi rend="italic">A</hi> capillo <hi rend="italic">AB sed est<lb/>
+             fjmdatio, capilli ora pes ceruix colla manus lumina</hi> 424 Collatas <hi rend="italic">B</hi> <lb/>
+            425 merent <hi rend="italic">A an</hi> marcent? 426 Protulerant <hi rend="italic">B</hi> daus.A. 427 lusa <lb/>
+            <hi rend="italic">A1B laxa A2 Delr</hi>. pes <hi rend="italic">Delr</hi>. per <hi rend="italic">A1B</hi> iam <hi rend="italic">A2</hi> pella <hi rend="italic">A</hi> folle <lb/>
+            <hi rend="italic">Biuinus ex A. A. I, 516 refutatus ab Heinsio ad Ouidii uersum</hi> 430 erat <hi rend="italic">A</hi> <lb/>
+            431 madift <hi rend="italic">A</hi> humor <hi rend="italic">AB</hi> 433 quam <hi rend="italic">A</hi> respice quam paucis flos <lb/>
+            est nec permanet annis <hi rend="italic">Baehrensius</hi> 434 culpa <hi rend="italic">AB an</hi> causa? </note> <lb/>
+             
+<pb n="221"/>
+            <l n="436">aut uerso aut merso despicies capite.  </l>
+            <l n="437">atque ut sis penitus sic corde ut corpore purus,  </l>
+            <l n="438">ut nullum facias suspicione reum,  </l>
+            <l n="439">da studium curans et semper prouidus opta,  </l>
+            <l n="440">440 ut sit nulla tibi femina iuncta nimis.  </l>
+            <l n="441">amittet uires, si non sint obuia, uentus:  </l>
+            <l n="442">pabula si desint, <choice n="0.8"><sic n="8">irritus</sic><corr n="2">initus</corr></choice> ignis erit.  </l>
+            <l n="443">ac ne mandatis tantum pars una putetur  </l>
+            <l n="444">ad uitae rectas sollicitata uias,  </l>
+            <l n="445">445 si qua uiri discunt, credat sibi <choice><sic>femiua</sic><corr>femina</corr></choice> dici:  </l>
+            <l n="446">et meritum et poenas hic quoque sexus habet.  </l>
+            <l n="447">oderit ignotos audax attendere uultus  </l>
+            <l n="448">seque tamen notis abdere luminibus.  </l>
+            <l n="449">nam male permixto ludentia lumina risu  </l>
+            <l n="450">450 blandum saepe solent ore tacente loqui.  </l>
+            <l n="451">atque amor, ut lacrimae, quas fundi iniuria cogit,  </l>
+            <l n="452">ex oculis surgit, pectoris ima petit.  </l>
+            <l n="453">ergo qua iuuenes praecepti lege monentur,  </l>
+            <l n="454">hac fugiat cunctos femina casta uiros.  </l>
+            <l n="455">455 iam si corporeas calcaris corpore casto  </l>
+            <l n="456">inlecebras, reliquum discute cordis onus.  </l>
+            <l n="457">namque subire solet nigri de felle ueneni,  </l>
+            <l n="458">multiplicis mater criminis inuidia. <note type="margin"> DE             INVIDIA </note>  </l>
+            <l n="459">inuidia infelix mortem moritura parauit: </l>
+
+<note type="footnote"> . 451] Pnbl. Syr. 28. 459] Uerg. G. III, 37. </note>
+
+<note type="footnote"> 437 ut corde sic corpore <hi rend="italic">B</hi> et corde et corpore <hi rend="italic">corr. ed. Bodl</hi>. <lb/>
+            438 suspicione <hi rend="italic">AB</hi> 439 Da studium curans <hi rend="italic">A cum rasura post</hi> <lb/>
+            studium curans <hi rend="italic">etiam B</hi> curas <hi rend="italic">Lipsius</hi> 440 Vt sit nulla tibi <hi rend="italic">A</hi> <lb/>
+            Vt tibi sit nulla <hi rend="italic">B</hi> iuncta nimis <hi rend="italic">B</hi> iuncta tibi <hi rend="italic">A</hi> 441 Amittent uires <lb/>
+            si non sint obuia uentis <hi rend="italic">B quod retinebat Delr. corrigendo</hi> uenti <lb/>
+            443 Hac <hi rend="italic">A</hi> 446 meritum <hi rend="italic">hic estpraemium, quod significauit Barthius Aduers. <lb/>
+            XXXXII, 17</hi> 447 ignotis <hi rend="italic">Delr. Sed</hi> attendere <hi rend="italic">hic est intente conspicere<lb/>
+             </hi> 448 tam anotis <hi rend="italic">A</hi> etiam <hi rend="italic">Delr</hi>. abdere <hi rend="italic">Delr</hi>. addere <hi rend="italic">AB</hi> <lb/>
+            449 risu <hi rend="italic">Riuimts</hi> uisu <hi rend="italic">AB</hi> 450 Blande <hi rend="italic">B</hi> sepe <hi rend="italic">A</hi> 453 Ergo ea <lb/>
+            qua <hi rend="italic">A</hi> Ergo ea quae <hi rend="italic">B correxit Schondonchus</hi> 455 Iam <hi rend="italic">B</hi> Nam <hi rend="italic">A</hi> <lb/>
+            torpores <hi rend="italic">A</hi> 456 Illecebras <hi rend="italic">B</hi> decute <hi rend="italic">A</hi> mentis <hi rend="italic">A</hi> 457 E IN-<lb/>
+             YIDIA <hi rend="italic">marg. A</hi> CONTRA INVIDIAM <hi rend="italic">B</hi> 459 nocitura <hi rend="italic">corr. ed. Bodl. <lb/>
+            ubi et</hi> parabit </note> <lb/>
+             
+<pb n="222"/>
+            <l n="460">460 angelus hac celsi decidit arce poli,  </l>
+            <l n="461">dumque hominem properat caelesti pellere regno,  </l>
+            <l n="462">detrudi in tenebras ipse prior meruit.  </l>
+            <l n="463">hinc domini in cunctos uindex sententia uenit,  </l>
+            <l n="464"><choice><sic>omnihus</sic><corr>omnibus</corr></choice> haec reliquis mortibus una rea est:  </l>
+            <l n="465">465 haec belli rabies, haec est discordia pacis,  </l>
+            <l n="466">plus sibi, quam cui uult saeua nocere, nocens.  </l>
+            <l n="467">haec Ioseph nimio fratrum sub crimine causa  </l>
+            <l n="468">primum seruitii, mox fuit imperii.  </l>
+            <l n="469">haec iusti fratris maculauit sanguine Kain,  </l>
+            <l n="470">470 haec Dauid mortis quam prope causa fuit,  </l>
+            <l n="471">cum, iam confecto solius robore bello,  </l>
+            <l n="472">extolli nollet laude socer generum.  </l>
+            <l n="473">hac primae cogente gemens operarius horae  </l>
+            <l n="474">uincere fossorem nititur undecimae.  </l>
+            <l n="475">475 haec postrema dedit crucis in ludibria Christum,  </l>
+            <l n="476">dum peragit liuor credulitatis opus,  </l>
+            <l n="477">et praeceps populus signa ac miracula rerum  </l>
+            <l n="478">obtutu cernit, pectore non recipit.  </l>
+            <l n="479">in tantum studiis furialibus improba cunctos  </l>
+            <l n="480">480 a uero in facinus uerterat inuidia,  </l>
+            <l n="481">ut non nescirent, sed nollent credere, quod tunc  </l>
+            <l n="482">esset per dominum glorificandus homo. <note type="margin"> DE             AVARITIA </note>  </l>
+            <l n="483">nec cura leuiore dehinc uitare memento  </l>
+            <l n="484">unius innumerum crimen auaritiae. </l>
+
+<note type="footnote"> 467] Gen. 37, 11. 41, 40. 469] Gen. 4. 470] 1 Sam. 19, 10. <lb/>
+            473] Matth. 20, 9-12. 475] Matth. 27, 18. </note>
+
+<note rend="script" type="footnote"> 467 nimio fratrum sub <hi rend="italic">A</hi> fratrum sub <hi rend="italic">B spatio relicto</hi> 469 fratrem <lb/>
+            <hi rend="italic">B</hi> Kain <hi rend="italic">A</hi> Cain <hi rend="italic">B</hi> 472 Extollit <hi rend="italic">A</hi> 473 operarios <hi rend="italic">A</hi> <lb/>
+            in <lb/>
+            474 undetimae <hi rend="italic">A</hi> 475 postrema <hi rend="italic">ex</hi> postremo <hi rend="italic">ut uidetur A</hi> et <hi rend="italic">A <lb/>
+            num</hi> ad? 476 credulitatis <hi rend="italic">Delr. quod sic interpretor, dum cruci figitur<lb/>
+             Christus propter Pharisaeomm Úluidiam, non propter plebis credidae libidinem. <lb/>
+            nam ut nimis credulum est uulgus, Christum modo pro rege accipiebant, <lb/>
+            modo pro nequam et maJefico interficiebant</hi> crudelitatis <hi rend="italic">AB</hi> <lb/>
+            h <lb/>
+            477 ac <hi rend="italic">A</hi> et <hi rend="italic">B</hi> 480 A uero <hi rend="italic">B</hi> A ueru (u <hi rend="italic">ex</hi> o) <hi rend="italic">A</hi> Ah uerum in <lb/>
+            facinus <hi rend="italic">Martene</hi> 483 DE AVARITIA <hi rend="italic">marg. A</hi> IN ATAEITIAM <hi rend="italic">B</hi> </note> <lb/>
+             
+<pb n="223"/>
+            <l n="485">485 omnibus in terris, quas sol uidet, aequora claudunt,  </l>
+            <l n="486">quasque dies adeunt, quasque tegunt tenebrae,  </l>
+            <l n="487">ignoto nobis quidquid diffunditur orbe,  </l>
+            <l n="488">omnibus in regnis, omnibus in populis,  </l>
+            <l n="489">infectis morbo multorum mentibus haec est  </l>
+            <l n="490">490 radix causa caput fons et origo mali.  </l>
+            <l n="491">innocuos quidquid dominus formarat in usus,  </l>
+            <l n="492">haec male mutatis perdidit officiis.  </l>
+            <l n="493">quid quereris diros portus uentosque furentes,  </l>
+            <l n="494">tristia famosis aequora naufragiis?  </l>
+            <l n="495">495 tu caesam siluis annoso robore quercum,  </l>
+            <l n="496">si tignis non est utilis, adde focis.  </l>
+            <l n="497">contentusque tuo, submotum si qua per orbem  </l>
+            <l n="498">nascuntur, patiens crede negata tibi.  </l>
+            <l n="499">et pelagi motus et saeuas flare procellas  </l>
+            <l n="500">500 securus tuto litore prospicies.  </l>
+            <l n="501">usum naturae uitium fecistis, auari,  </l>
+            <l n="502">nata bona prauis usibus esse mala.  </l>
+            <l n="503">e terra genitum terrena in munera ferrum  </l>
+            <l n="504">falcibus incuruum, uomeribus rigidum,  </l>
+            <l n="505">505 in caedem et diras, bellorum crimina, mortes  </l>
+            <l n="506">armamus contis missilibus gladiis.  </l>
+            <l n="507">pelleret ut frigus uiolentum accepimus ignem,  </l>
+            <l n="508">pelleret ut tenebras discoqueretque dapes:  </l>
+            <l n="509">coepimus insani flammas inmittere tectis  </l>
+            <l n="510">510 atque exurendis subdere corporibus,  </l>
+            <l n="511">tamquam esset paruum praedandi in crimine crimen,  </l>
+            <l n="512">ni ferret sparsas sanguine raptor opes,  </l>
+            <l n="513">et miseros poenis uariis uis ultima cogat,. </l>
+
+<note type="footnote"> 485] Iuuen. X, 1.-</note>
+
+<note rend="script" type="footnote"> 485 quos <hi rend="italic">B</hi> 486 tegent <hi rend="italic">A</hi> regunt <hi rend="italic">ed. Bodl., sed</hi> tegunt <hi rend="italic">corr. <lb/>
+             eius in marg</hi>. 487 quicquid nobis <hi rend="italic">A</hi> 491 quicquit <hi rend="italic">A</hi> 493 motus <lb/>
+            <hi rend="italic">Baehrensius</hi> 495 Tu <hi rend="italic">AB</hi> i <hi rend="italic">Heinsius ad Ouid. Met. XlIII, 534</hi> 496 si <lb/>
+            tignis <hi rend="italic">Heinsius</hi> Sit ignis <hi rend="italic">A</hi> Si lignis <hi rend="italic">B</hi> 497 sub motu <hi rend="italic">A</hi> 499 et <hi rend="italic">om. B</hi> <lb/>
+            500 perspicies <hi rend="italic">B</hi> 502 bona et prauis <hi rend="italic">B</hi> 505 Incedem <hi rend="italic">A</hi> mentes <hi rend="italic">A</hi> <lb/>
+            506 Aptamus <hi rend="italic">Baehrensius</hi> 508 Pelleret <hi rend="italic">AB sed in B inter lineas manu alia<lb/>
+             scriptum fuisse</hi> Uinceret <hi rend="italic">testatur Delr</hi>. discoperetque <hi rend="italic">ed. Bodl</hi>. 509 immittere <lb/>
+            <hi rend="italic">B</hi> 511 pdandi <hi rend="italic">A</hi> 512 Si <hi rend="italic">A</hi> 513 Ut <hi rend="italic">A</hi> uariis poenis <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="224"/>
+            <l n="514">cum quod habent perdant, dicere si qua latent.  </l>
+            <l n="515">515 fratribus inuisos fratres, uitamque parentum  </l>
+            <l n="516">exosam natis fecit auaritia.  </l>
+            <l n="517">de uero falsum, de falso fingere uerum  </l>
+            <l n="518">saeua per innumeras haec docet insidias.  </l>
+            <l n="519">hac faciente reus dum partem subtrahit auri,  </l>
+            <l n="520">520 in mortem totus transiit Ananias,  </l>
+            <l n="521"><choice><sic>llec</sic><corr>nec</corr></choice> solus; sociam nam foedi in crimine falsi  </l>
+            <l n="522">coniunxit misero par quoque poena uiro.  </l>
+            <l n="523">haec miseros homines mortis sub tempore fecit  </l>
+            <l n="524">non bene postremis fidere iudiciis.  </l>
+            <l n="525">525 subduntur tabulae, conquiritur undique testis,  </l>
+            <l n="526">ore ferens falsum, pectore uera premens.  </l>
+            <l n="527">scalpuntur gemmae similes, manus improba discit  </l>
+            <l n="528">heu male mentitas assimulare <choice><sic>manús</sic><corr>manus</corr></choice>,  </l>
+            <l n="529">ut pater alterius factus credatur et heres  </l>
+            <l n="530">530 non possit proprii filius esse patris.  </l>
+            <l n="531">hac duce custodes inter securus adulter  </l>
+            <l n="532">peruenit ad castos muneribus thalamos.  </l>
+            <l n="533">itur in omne nefas animis manibusque paratis,  </l>
+            <l n="534">aurum si pretium constituas sceleris.  </l>
+            <l n="535">535 dic, rogo, quid (miserum) tantus furor t laxat habenas,  </l>
+            <l n="536">ut tibi non sat sit, quod tibi iam satis est?  </l>
+            <l n="537">inmensis properas terris coniungere terras,  </l>
+            <l n="538">claudendus parui marmore sarcophagi?  </l>
+            <l n="539">alterius damno fieri locupletior ambis?  </l>
+            <l n="540">540 quod rapis ex aliis, mox erit alterius.  </l>
+            <l n="541">et cursu celeri sic post amissa dolebis, </l>
+
+<note type="footnote"> 515] Lucr. III, 72, 73. Catnll. 64, 398, 9. 520] Act. Apost. 5. </note>
+
+<note rend="script" type="footnote"> 519 subthrahit <hi rend="italic">A</hi> 520 annanias <hi rend="italic">A</hi> 521 sotiam <hi rend="italic">A</hi> foedo <hi rend="italic">Martene</hi> <lb/>
+            e <lb/>
+            522 Coniunx <hi rend="italic">A</hi> 528 assimilare <hi rend="italic">B</hi> 531 custodis <hi rend="italic">A</hi> 534 sceleri <lb/>
+            <hi rend="italic">Schonclonchus</hi> 535 <hi rend="italic">sic AB</hi> quis misero tantas furor aptat habenas <lb/>
+            <hi rend="italic">vel</hi> quis miserum tantus furor urget habendi <hi rend="italic">JRiuinus fort</hi>. exit <hi rend="italic">h. e. <lb/>
+             liber habenis feriur</hi> 536 non satis sit <hi rend="italic">A</hi> sat non sit <hi rend="italic">B</hi> 537 Inmensis <lb/>
+            <hi rend="italic">A</hi> 538 <hi rend="italic">malim</hi> paruo sarcofagi <hi rend="italic">AB</hi> 539 dampno <hi rend="italic">A</hi> 541 cursu <lb/>
+            <hi rend="italic">in A sic scriptum est ut ad</hi> rursu <hi rend="italic">accedat</hi> </note> <lb/>
+             
+<pb n="225"/>
+            <l n="542">ut doluere illi qui tenuere prius.  </l>
+            <l n="543">ceu non casuras <choice><sic>inmeusum</sic><corr>inmensum</corr></choice> construis arces,  </l>
+            <l n="544">ipse tamen raptim qui moriturus eris?  </l>
+            <l n="545">545 comitur in somnos tenuato lucida uitro  </l>
+            <l n="546">marmoribus uariis lubrica cella tibi:  </l>
+            <l n="547">tamquam non adeat lignis coeuntia tecta  </l>
+            <l n="548">in bene securo pectore tuta quies.  </l>
+            <l n="549">certe non aliter sitientia proluit ora,  </l>
+            <l n="550">550 quem palmae obtulerint, quem caua gemma liquor:  </l>
+            <l n="551">et sic suscipient rabidi ieiunia uentris  </l>
+            <l n="552">quos crystalla dabunt quosque patella cibos.  </l>
+            <l n="553">an non pellendo glacialis frigora brumae  </l>
+            <l n="554">hirta tibi melius pallia praebet ouis,  </l>
+            <l n="555">555 quam quae, lentato per lubrica fila metallo,  </l>
+            <l n="556">alternos frangit uestis onusta gradus?  </l>
+            <l n="557">quo tibi perlucens habitus, qui tegmine raro  </l>
+            <l n="558"><choice><sic>olferat</sic><corr>offerat</corr></choice> ignotis membra tegenda oculis?  </l>
+            <l n="559">argentum atque auri moles et gemma coruscans  </l>
+            <l n="560">560 e mundo et mundi est: hinc uenit, hic residet.  </l>
+            <l n="561">uenisti in uitam nudus, nudusque redibis:  </l>
+            <l n="562">nil tecum attuleras, ferre nihil poteris.  </l>
+            <l n="563">ferre tamen poteris contempta hic munera mundi:  </l>
+            <l n="564">mitte secuturus, quae duplicentur, opes.  </l>
+            <l n="565">565 nam seruata nimis quae mox bona non tua fient,  </l>
+
+
+<note type="footnote"> 557] Catull. 69, 3. 562] 1 Tim. 6, 7. </note>
+
+<note rend="script" type="footnote"> e <lb/>
+            543 immsum <hi rend="italic">A</hi> immensas <hi rend="italic">B</hi> 544 oris <hi rend="italic">A</hi> 545 Comit- <hi rend="italic">A</hi> Cur <lb/>
+            0 <lb/>
+            itur <hi rend="italic">B</hi> quaeritur <hi rend="italic">Lipsius</hi> tenuat; <hi rend="italic">A</hi> 547 tectis coeuntia lignis <hi rend="italic">B</hi> <lb/>
+            sectis c. lignis <hi rend="italic">Heinsius ad Met. XlIII, 534</hi> 548 blanda quies <hi rend="italic">A</hi> 549 pro- <lb/>
+            Hune <lb/>
+            luit <hi rend="italic">Delr</hi>. proluis <hi rend="italic">AB</hi> 550 Quem <hi rend="italic">A sed</hi> Hunc <hi rend="italic">nigriore atramento</hi> <lb/>
+            r <lb/>
+            quem <hi rend="italic">AB probante Heinsio an</hi> quam? 552 cystalla <hi rend="italic">A</hi> 553 frigore <lb/>
+            <hi rend="italic">A</hi> 554 Hyrta <hi rend="italic">A</hi> 558 Afferat <hi rend="italic">A</hi> 559 atque <hi rend="italic">ego</hi> et <hi rend="italic">AB</hi> <lb/>
+            itam <lb/>
+            561 inuen <hi rend="italic">A</hi> in mundum <hi rend="italic">B</hi> 563 DE ELHEMOSYNA <hi rend="italic">marg. B</hi> hic <hi rend="italic">AB</hi> <lb/>
+            V <lb/>
+            <hi rend="italic">an</hi> hinc? 564 seqtur\' <hi rend="italic">A</hi> secuturas <hi rend="italic">Delr</hi>. 565 <hi rend="italic">sic AB It, e. nam <lb/>
+            quae bona mox fient non tua si nimis seruata fuerint, tua erunt si serues <lb/>
+            non tibi</hi> tua mox <hi rend="italic">Riuinus</hi> </note>
+
+<note type="footnote">XVI. Poet. christ. min. pars i. </note>
+
+<note type="footnote"> 15 </note> <lb/>
+             
+<pb n="226"/>
+            <l n="566">si tibi non serues, sic erit ut tua sint.  </l>
+            <l n="567">munera quae donat moriens, haec munera non sunt:  </l>
+            <l n="568">donat enim quod iam desinit esse suum.  </l>
+            <l n="569">qui sanus metuensque nihil, qui mente quieta,  </l>
+            <l n="570">570 qui sibi dum uiuit dempserit, ille dedit.  </l>
+            <l n="571">quodque sibi dempsit, melius reparabitur illi:  </l>
+            <l n="572">integra mox capiet, qui peritura dabit.  </l>
+            <l n="573">condita nam caelo non fur, non auferet hostis,  </l>
+            <l n="574">non tinea aut pluuiae flammaque carpet edax:  </l>
+            <l n="575">575 caelo autem condes quidquid pro nomine Christi,  </l>
+            <l n="576">Christum respiciens, pauperibus tribues.  </l>
+            <l n="577">qui post assumptae carnis mysteria dicit:  </l>
+            <l n="578">uestior in nudis, <choice><sic>suhleuor</sic><corr>subleuor</corr></choice> in miseris,  </l>
+            <l n="579">uisitor in clausis, curor confotus in aegris,  </l>
+            <l n="580">580 adiuuor in paruis, protegor in uiduis,  </l>
+            <l n="581">et quodcumque facis misero uel non facis, illud  </l>
+            <l n="582">crede mihi fieri, uel mihi non fieri.  </l>
+            <l n="583">ac ne pauperiem pauper praetendere possis,  </l>
+            <l n="584">ut color iniustae detur auaritiae,  </l>
+            <l n="585">585 si tibi non fuerint sumptus quos quaerit egenus,  </l>
+            <l n="586">non cibus aut calida est qua foueatur aqua,  </l>
+            <l n="587">cum poscit sitiens, gelidus sub nomine Christi  </l>
+            <l n="588">oblatus poterit praemia ferre calix.  </l>
+            <l n="589">hoc, quo quisque potes, miserum solare rogantem,  </l>
+            <l n="590">590 et si defuerint munera, uota dabis.  </l>
+            <l n="591">ipsa etenim ante deum non est peritura uoluntas, </l>
+
+<note type="footnote"> 573-574] Matth. 6, 19. 20. 577-580] Matth. 25, 35-40. 587] <lb/>
+            Marc. 9, 41. </note>
+
+<note rend="script" type="footnote"> 566 erit <hi rend="italic">A uti correxerat Delr</hi>. eris <hi rend="italic">B</hi> 572 dedit <hi rend="italic">eorreetor ed. Bodl. <lb/>
+            573 Condita enim A auferat A 574 tineae A 575 quiequid AB</hi> <lb/>
+            V <lb/>
+            576 recipiens <hi rend="italic">A</hi> 580 uidus <hi rend="italic">A</hi> (v <hi rend="italic">nigriore citramento)</hi> 581 miseris <hi rend="italic">B</hi> <lb/>
+            583 possit <hi rend="italic">A</hi> 584 <hi rend="italic">fort</hi>. et 586 calida e <hi rend="italic">A</hi> calida <hi rend="italic">B recte fortasse,<lb/>
+             cum saepius producanhtr breucs syllabae ante</hi> qu <hi rend="italic">apud Prudentium</hi> calidae <lb/>
+            <hi rend="italic">alia manus in B</hi> quo <hi rend="italic">Delr</hi>. 587 gelidus sitiens <hi rend="italic">B sed perspicuum <lb/>
+            est</hi> gelidus calix <hi rend="italic">hic idem esse quod</hi> gelidae calix <hi rend="italic">cf. lJflltth. 10, 42</hi> <lb/>
+            588 pmia poterit <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="227"/>
+            <l n="592">si bene non poterit, quae bene uel cupiet.  </l>
+            <l n="593">hinc fuit ut dominus monitis felicibus omnes  </l>
+            <l n="594">\'coniungi uellet pacis amore homines,  </l>
+            <l n="595">595 et quae per sanctos laudauerat ante prophetas,  </l>
+            <l n="596">discipulis proprio traderet ore suis,  </l>
+            <l n="597">dum nihil iniustum, nil durum, nil uiolentum,  </l>
+            <l n="598">nil leue, nil cupidum, nil graue, nil uarium,  </l>
+            <l n="599">uel facere in rebus, uel uerbis dicere posset  </l>
+            <l n="600">600 casto seruatus pectore pacis amor.  </l>
+            <l n="601">hinc cohibet totum pacis concordia mundum,  </l>
+            <l n="602">quae brutis etiam cum ratione datur.  </l>
+            <l n="603">et cum flammiferis frigentia, mollia duris,  </l>
+            <l n="604">siccis cum pugnent umida, lenta citis,  </l>
+            <l n="605">605 omne per ignotas tacito moderamine causas  </l>
+            <l n="606"><choice><sic>nno</sic><corr>uno</corr></choice> consociat foedere pacis opus.  </l>
+            <l n="607">sic, modo si paruis cupias componere magna,  </l>
+            <l n="608">corporeum frenat pacis amor populum,  </l>
+            <l n="609">ut sub terreno sociatus principe discat  </l>
+            <l n="610">610 regi caelorum soluere uota simul.  </l>
+            <l n="611">ergo mei similis peccator, me minor imo —  </l>
+            <l n="612">omnes criminibus namque ego uinco meis —  </l>
+            <l n="613">pacem placatus, pacem quoque laesus amato:  </l>
+            <l n="614">pax in uisceribus, pax sit in ore tuo.  </l>
+            <l n="615">615 pelle odium, contemne minas, depone tumorem,  </l>
+            <l n="616">offensam teneant tempora nulla tuam, </l>
+
+<note type="footnote"> G03] Quid. Met. I, 20. </note>
+
+<note type="footnote"> 592 uelle cupit <hi rend="italic">13</hi> qui bene uel cupit <hi rend="italic">Schurzfl. 1716 tamqumn ex cod. <lb/>
+             Anglico</hi> 595 quam <hi rend="italic">A</hi> praedixerat <hi rend="italic">B</hi> G02 cum <hi rend="italic">A</hi> con <hi rend="italic">13 hoc<lb/>
+             Barthius sic explicat Adtiers. XLIII,</hi> 9 <hi rend="italic">\'Oiim br-actrc suo ingenio suaque <lb/>
+            natura fera sint minimeque omnium pacem colant, sed immanibus iris<lb/>
+             in mutua exitia animentur, ratione tamen ea mansuefieri et pacis amorem <lb/>
+            humana industria induerean est</hi> cum ratione <hi rend="italic">idem quod</hi> cum rationabilibus <lb/>
+            <hi rend="italic">h. e. cum hominibus</hi>? condicione <hi rend="italic">Biuinus</hi> G01 conpungnent liumida <hi rend="italic">A</hi> <lb/>
+            606 consotiat <hi rend="italic">A</hi> 607 modo si <hi rend="italic">coniungenda ut Ouid. Trist. II, 2G3 et<lb/>
+             saepe in Digestis</hi> 608 premit <hi rend="italic">B</hi> reprimit <hi rend="italic">Barthius Aduers. XLIII, 9</hi>. <lb/>
+            611 minus uno <hi rend="italic">corrector ed. Bodl. idemque Sclmrzfl. 1716 tamquam ex<lb/>
+             cod. Anglico</hi> 615 coutempne <hi rend="italic">A</hi> tumorem <hi rend="italic">ego, quod idem et Noltius <lb/>
+            coniecerat</hi> rumorem <hi rend="italic">A</hi> rigorem <hi rend="italic">13</hi> </note>
+
+<note type="footnote"> 15* </note> <lb/>
+             
+<pb n="228"/>
+            <l n="617">ut te sol blandae seruantem uincula pacis  </l>
+            <l n="618">deserat abscedens, inueniat rediens.  </l>
+
+
+</div>
+<div n="2" subtype="book" type="textpart">
+          <ab>
+            <title type="sub">LIBER SECUNDUS. </title>
+          </ab>
+          <p rend="script">Si monitis gradiare meis, fidissime lector, <lb/>
+            caerula securus colla premis colubri. <lb/>
+            cumque aderit Christus iudex, mox obuius ibis <lb/>
+            per tenerum blandis aera uecte notis. <lb/>
+            5 tantum ut mandatis quouis sub tempore in istis <lb/>
+            praetereat curam portio nulla tuam. <lb/>
+            an si uentosae moueat te gloria linguae, <lb/>
+            quam suadet uano Tullius eloquio — <lb/>
+            sin fugienda, iocus conuiuia sermo uoluptas, <lb/>
+            10 sic etiam aequaeuis dissociande tuis, — <lb/>
+            quo studio nostri seruabis uerba libelli, <lb/>
+            ut uitae meritis consociande deo? <note type="margin"> DE VANA            LAUDE </note> <lb/>
+            praecipuus labor est blandam contemnere laudem, <lb/>
+            quae trahit <choice><sic>m</sic><corr>in</corr></choice> praeceps ambitiosa <choice n="0.00"><sic n="5">nomines</sic><corr n="2410">homines</corr></choice>, <lb/>
+            15 et semper tacito festinat ad intima motu <lb/>
+            uisceribusque ipsis pestis acerba sedet. <lb/>
+            omnia dum uolumus, facimus quaecumque, probari, <lb/>
+            utque suis nullus non faueat uitiis,, <lb/>
+            lenito titulo parcum se dicit auarus, <lb/>
+            20 acris uelatur nomine saeuitia, <lb/>
+            ac studiis totis et tota nitimur arte,
+
+<note type="footnote"> 7] Uerg. Aen. XI, 390. </note>
+
+<note rend="script" type="footnote">A <lb/>
+            G18 inueniet <hi rend="italic">A</hi> EXPLIC LIB I- INCIP d\' <hi rend="italic">A</hi> </note>
+
+<note type="footnote"> 2 premes <hi rend="italic">Schenkelius</hi> 4 nothis <hi rend="italic">A</hi> 7 An <hi rend="italic">A</hi> at <hi rend="italic">Commirius; sed<lb/>
+             uidetur duplex esse interrogatio, orta ex parenthesi sin</hi> fugienda-tuis <hi rend="italic">\'an,<lb/>
+             si moneat gloria .. quo studio seruabis T</hi> 9 Sin <hi rend="italic">A fort</hi>. seu sint <lb/>
+            <hi rend="italic">Baehrensius</hi> 10 sic <hi rend="italic">ego</hi> Siq. <hi rend="italic">A</hi> sisque <hi rend="italic">Baehrensius</hi> eque uis dissoa <lb/>
+            <lb/>
+            tiande <hi rend="italic">A</hi> 12 consotiande <hi rend="italic">A</hi> 13 DE VANA LAVDE <hi rend="italic">A</hi> 18 faua inuitiis <hi rend="italic">A <lb/>
+            (a et puncta nigriore atramcnto)</hi> fauet et uitiis <hi rend="italic">Baehrensius</hi> </note> <lb/>
+             
+<pb n="229"/>
+            ut quidquid loquimur uel facimus placeat. <lb/>
+            at tu si Christo soli uis esse probatus, <lb/>
+            gloria quaeratur nulla tibi ex homine. <lb/>
+            25 nam cum deiectus, mox exaltabere, erisque <lb/>
+            pro domino paruus, magnus apud dominum. <lb/>
+            contentum uexet quaecumque iniuria, nulli, <lb/>
+            si male pertuleris, par quoque redde malum. <lb/>
+            ecce patrem Christus pro se lacerantibus orat, <lb/>
+            30 supplicat et Stephanus, supplicat et Iacob, <lb/>
+            dum miti magnoque animo licet ultima passi <lb/>
+            poenarum nulli causa uolunt fieri. <lb/>
+            nullum saeua reum faciat sententia, nullum <lb/>
+            austero properes plectere iudicio. <lb/>
+            35 festucam tenuem fraterno in lumine cernis, <lb/>
+            luminibusque tuis nescis inesse trabem. <lb/>
+            iniuste alterius cupiet describere uitam, <lb/>
+            assertor uitae qui nequit esse suae. <lb/>
+            sed nos damnati uitiis insistimus et quae <lb/>
+            40 ipsi persequimur mox etiam facimus. <lb/>
+            fallere crede nefas! durat sententia dicens: <lb/>
+            os, quod mentitur, morte animum perimit. <note type="margin"> DE             CAUENDO             MENDACIO </note> <lb/>
+            et quod erit uerax semper dixisse memento, <lb/>
+            et non quod non est sermo tuus resonet. <lb/>
+            45 dulci praeterea frenos impone palato, <note type="margin"> DE GULA </note> <lb/>
+            ne sapor antiquum saeuiat inlecebris. <lb/>
+            illos caelorum donis regnisque potitos
+
+<note type="footnote"> 24] 1 Thess. 2,6. 28] 1 Thess. 5,15. 1 Petr. 3,9. 35] hlatth. 7,3. <lb/>
+            42] Prouerb. 26, 28. 43, 4] Matth. 5, 37. </note>
+
+<note type="footnote"> 22 quicquid <hi rend="italic">A</hi> 27 contentum <hi rend="italic">ego</hi> Contemptum <hi rend="italic">A</hi> 28 Simile <hi rend="italic">A</hi> <lb/>
+            si male <hi rend="italic">Martene</hi> si mala <hi rend="italic">Commirius</hi> 30 Iacobus <hi rend="italic">Martene edidit</hi> <lb/>
+            31 mitti <hi rend="italic">A</hi> passim <hi rend="italic">A punctis utroque loco nigrioribus</hi> 33 rerum <hi rend="italic">.A</hi> <lb/>
+            34 properes <hi rend="italic">Commirius</hi> proceres <hi rend="italic">A</hi> 35 cernes <hi rend="italic">A1</hi> cernis <hi rend="italic">A2</hi> 36 nescis <lb/>
+            <hi rend="italic">A</hi> noscis <hi rend="italic">Schurzfl. uix recte</hi> 37 decrimine <hi rend="italic">A</hi> describere <hi rend="italic">marg. A</hi> <lb/>
+            38 qui nequit <hi rend="italic">Commirius</hi> qui nescit <hi rend="italic">A</hi> 39 dampnati <hi rend="italic">A</hi> DE CACENDO <lb/>
+            MENDATIO <hi rend="italic">A</hi> 43 erit uerax <hi rend="italic">ego</hi> quod est uerax <hi rend="italic">A</hi> \' ergo quod <lb/>
+            est uerax <hi rend="italic">Baehrensius</hi> DE GVLA <hi rend="italic">marg. A</hi> 46 antiquu seuiat <hi rend="italic">A</hi> antiquus <lb/>
+            <hi rend="italic">ed. Martene</hi> antiquis <hi rend="italic">Commirius fort</hi>. seruiat illecebris <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="230"/>
+            fecit mortales ambitiosa gula. <lb/>
+            dum magis in uetitum ruimus cupimusque negata <lb/>
+            50 et, quod difficile est, hoc potius uolumus. <note type="margin"> DE             EBRIETATE </note> <lb/>
+            praecipue largo uenas perfundere uino <lb/>
+            respue, ne raptim uina uenena fiant. <lb/>
+            ut nimiis quotiens sitit aestibus arida tellus, <lb/>
+            <choice><sic>solers</sic><corr>soleis</corr></choice> in fructus quam parat agricola, <lb/>
+            55 si prius euulsas quam sol internecet herbas, <lb/>
+            inrorent madidos nubila densa dies, <lb/>
+            protinus et sentes et gramina noxia messi <lb/>
+            seminibus uictis heu male laeta feret: <lb/>
+            corpora sic multo fuerint quae dedita uino, <lb/>
+            60 consiliis pereunt, luxuriant uitiis. <lb/>
+            et quid sordidius, quid erit deformius umquam, <lb/>
+            quam si te tibimet subtrahat ebrietas? <lb/>
+            cum caput huc illuc uergat, gressusque uacillet, <lb/>
+            mensque neget sensum, lingua tenere sonum, <lb/>
+            65 claudantur grauido uergentia lumina somno, <lb/>
+            quid facis ignores, tu quoque cum facias. <lb/>
+            quid loquar adlatum uultu fumante calorem, <lb/>
+            et male compositis uerba soluta modis, <lb/>
+            labentes manibus calices, mensasque per ipsas <lb/>
+            70 immixtos uino saepe redire cibos, <lb/>
+            teque per innumeros, cum uult mens saucia, motus <lb/>
+            uel gaudere nimis uel modo flere nimis, <lb/>
+            et nunc saltatu uergentia membra rotare, <lb/>
+            nunc dare lasciuis brachia mota choris? <lb/>
+            75 exclamare libet, uino dapibusque sepultum, <lb/>
+            forte etiam proprii nominis <choice><sic>immemorein</sic><corr>immemorem</corr></choice>,
+
+<note type="footnote"> 49] Quid. Am. III, 4. 17. 75] Iuuen. VIII. 29. Uerg. Aen. III, 6o0. </note>
+
+<note type="footnote"> 48 Fecit ambitiosa gula mortales <hi rend="italic">A</hi> DE EBRIETATE <hi rend="italic">marg. A</hi> 51 Preeipue <lb/>
+            <hi rend="italic">A</hi> 52 fiant <hi rend="italic">corripuit more Pnidentii</hi> 53 quoties <hi rend="italic">A</hi> 56 inrorent <lb/>
+            <hi rend="italic">ego</hi> Inroret <hi rend="italic">A possis etiam</hi> inroret madidus <hi rend="italic">uel</hi> madidans <lb/>
+            58 leta <hi rend="italic">A</hi> 65 mergentia <hi rend="italic">Scheiikelius</hi> uertentia <hi rend="italic">Baehrensius an</hi> turgentia? <lb/>
+            66 <hi rend="italic">an</hi> quod? tu <hi rend="italic">A</hi> tum <hi rend="italic">Baehrensius</hi> 67 adlatum <hi rend="italic">ego</hi> <lb/>
+            ablatum <hi rend="italic">A</hi> oblatum <hi rend="italic">Martene</hi> uultus <hi rend="italic">A</hi> uultu <hi rend="italic">Martene</hi> 71 saucia <lb/>
+            <hi rend="italic">Eceardus</hi> sauciat <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="231"/>
+            eius, qui donet largus tibi talia, quando <lb/>
+            orandi subeat tunc pia cura dei? <lb/>
+            pascere tam magno sumptu quot posset egenos, <lb/>
+            80 quotque dies laetos haec daret una dies? <lb/>
+            at te nunc saturo pauper ieiunus oberrat: <lb/>
+            tu uinum reuomis, uix habet alter aquam. <lb/>
+            et si forte cibum uox poscit egena, negabis . <lb/>
+            ollis, quis nihil est, hoc, tibi quod superest. <lb/>
+            85 sentio iam dudum tacitum te dicere, lector: <lb/>
+            uera quidem, sed sunt ardua quae statuis. <lb/>
+            ardua praecipimur; de terra scandere caelum, <lb/>
+            non est quod paruo stare labore putes. <lb/>
+            magnus enim labor est; sed merces magna labori. <lb/>
+            90 praemia qui sperat, desidiam fugiat. <lb/>
+            palmam nemo feret, nisi qui certauerit ante. <lb/>
+            non nisi uictori blanda corona datur. <lb/>
+            an tibi (si) fragiles mundi quaerantur honores, <lb/>
+            munere quo speres emeruisse hominem? <lb/>
+            95 quidquid id est uariis quod uexat corpora saeuis, <lb/>
+            -dum celeri uitam currimus in stadio: <lb/>
+            contemptum pluuias frigus ieiunia rixas <lb/>
+            contento poteris sustinuisse animo, <lb/>
+            discurrens urbem totis lustrare diebus, <lb/>
+            100 uix media fessus nocte redire domum, <lb/>
+            continuoque iterum prima consurgere luce, <lb/>
+            ut clausas possis primus adire fores. <lb/>
+            et cum te tenuis per dura sedilia somnus <lb/>
+            compulerit fessum deposuisse caput,
+
+<note type="footnote">101] Cat. 14, 14. </note>
+
+<note rend="script" type="footnote"> 77 eiu\' <hi rend="italic">A h. e</hi>. eiuus 79 rnagnos suptv (v <hi rend="italic">nigriore atmmento) A</hi> <lb/>
+            8 <lb/>
+            quot possa (s <hi rend="italic">nigriore atramento) A</hi> posses <hi rend="italic">uulgo</hi> 81 aberrat A1 <lb/>
+            uo uo <lb/>
+            oberrat <hi rend="italic">A2</hi> 82 uina remes <hi rend="italic">A1</hi> remis <hi rend="italic">A2</hi> 84 ollis <hi rend="italic">A</hi> 86 questa <lb/>
+            tutis <hi rend="italic">A punctis nigrioribus</hi> 88 labore stare <hi rend="italic">A</hi> 93 an tibi si <hi rend="italic">Commirius <lb/>
+            </hi> An tibi <hi rend="italic">A cf. ad II, 7</hi> 94 quo <hi rend="italic">ego</hi> qua t quos <hi rend="italic">A quos nigriore</hi> <lb/>
+            tu ..id <lb/>
+            <hi rend="italic">atramento</hi> hominem <hi rend="italic">A</hi> hominum <hi rend="italic">Commirius</hi> 95 quicquid est <hi rend="italic">A</hi> <lb/>
+            t o <lb/>
+            100 demum <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="232"/>
+            105 ille prior forsan qui serior adfuit ibit, <lb/>
+            at tua pulsabit stulta querella notos. <lb/>
+            aut si lictorem tanget uox clarior, opta <lb/>
+            ut bene submotus nec male caesus eas. <lb/>
+            sed fac quod rarum est, ut uictus ianitor auro\' <lb/>
+            110 ac precibus tandem dicat \'adire potes\'. <lb/>
+            ingrederis lingua blandus uultuque modestus, <lb/>
+            corpore subiectus: nil tamen ista iuuant. <lb/>
+            omnis honor pretii est: ibis pro pondere numi, <lb/>
+            carta seu foliis siue petes tabulis. <lb/>
+            115 nam si cessarit diues manus, irrita res est, <lb/>
+            et si uerba dabis, tu quoque uerba feres. <lb/>
+            en honor arrisit, quem semper in ordine mos est <lb/>
+            sumere sero quidem, sed posuisse cito. <lb/>
+            nam quod tu dederas, mox conferet alter et alter: <lb/>
+            120 quod multi cupiunt, nemo diu tenuit. <lb/>
+            fac tamen ut longum durans honor inflet, agat te, <lb/>
+            numquidnam finem non habiturus erit? <lb/>
+            finge age mansuri signent tua nomina fastus, <lb/>
+            atque tuo felix annus eat titulo: <lb/>
+            125 quid tandem prodest, cum desinit esse, potestas? <lb/>
+            in quo sentitur quod fuit atque abiit? <lb/>
+            et quod paulatim succedens nesciet aetas, <lb/>
+            et quod si scierit, quid tibi mercis erit? <lb/>
+            sed qui terreno tantum dependis honori, <lb/>
+            130 tanta nunc homines ambitione colis, <lb/>
+            ut domino placeas, cuius sunt omnia, Christo <lb/>
+            insuper et regnum promereare dei,
+
+<note type="footnote"> 109] Ouid. Trist. IIII, 10. 121. 124] Ouid. Fast. I, 26. </note>
+
+<note rend="script" type="footnote"> 105 ibit <hi rend="italic">Commirius</hi> ibi <hi rend="italic">A</hi> 106 at tua <hi rend="italic">Commirius</hi> Atria <hi rend="italic">A</hi> querela <lb/>
+            <hi rend="italic">A</hi> notos <hi rend="italic">Commirius</hi> notus <hi rend="italic">A</hi> 107 lectorem <hi rend="italic">Al</hi> lictorem <hi rend="italic">A2</hi> <lb/>
+            c <lb/>
+            <hi rend="italic">obta A 111 blantf A 113 it A numi A 114 Qarta A cartae Commirius<lb/>
+             </hi> foliis <hi rend="italic">sc. membranae</hi> petes <hi rend="italic">ego</hi> potens <hi rend="italic">A</hi> tabulis <hi rend="italic">sc. cereis</hi> <lb/>
+            A <lb/>
+            116 dafi <hi rend="italic">A</hi> 117 En <hi rend="italic">A sed A nigriore atramento</hi> 121 agat te <hi rend="italic">Martene</hi> <lb/>
+            agte <hi rend="italic">A h. e</hi>. agentem <hi rend="italic">an</hi> auentem? 126 habiit <hi rend="italic">A</hi> 128 mercis <hi rend="italic">A</hi> <lb/>
+            8 <lb/>
+            130 Tantaque <hi rend="italic">A quod correxi</hi> tantaque hic <hi rend="italic">Baehrensius</hi> 131 placeat <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="233"/>
+            ante feres uerum falsis, ingentia paruis, <lb/>
+            uilia magnificis, perdita perpetuis. <lb/>
+            135 deuotum uincet quae tandem iniuria pectus? <lb/>
+            ecquid erit celsum? quid tibi difficile est? <lb/>
+            namque nihil durum est, cum spes succedit, et omnis <lb/>
+            peruenit ad fructum uictus honore labor, <lb/>
+            et fructum, toto qui duret tempore, quem non <lb/>
+            140 auferat ambitor prodigus impatiens. <lb/>
+            audis spondentem dominum noua praemia iustis, <lb/>
+            promissis semper qui meliora dabit, <lb/>
+            non conspecta oculis, non auribus insinuata, <lb/>
+            ipso non sensu praemeditata prius. <lb/>
+            145 nunc tibi distillant pretioso cortice myrrhae, <lb/>
+            turis odorato caespite terra tumet. <lb/>
+            adde thymum uiolas casias melilota crocumque, <lb/>
+            candida puniceis lilia iunge rosis. <lb/>
+            cum tot in his terris peccator munera sumas, <lb/>
+            150 in caelis sanctus quae bona percipies? <lb/>
+            finge age quod clarum, quod pulchrum, quod pretiosum, <lb/>
+            et toto magnum quidquid in orbe putas, <lb/>
+            hoc meritis dandum felicibus, aurea tecta, <lb/>
+            gemmatos postes purpureumque solum, <lb/>
+            155 ruraque uernanti semper redolentia flore, <lb/>
+            lacte et melle simul flumina plena trahi. <lb/>
+            haec quia conscendunt animos, et mente uidentur, <lb/>
+            inferiora illis crede futura bonis. <lb/>
+            nec uereare tamen, longo ne tempore uictus <lb/>
+            160 impar mandatis reperiare dei. <lb/>
+            nil habet haec longum, longo licet acta rotatu,
+
+<note type="footnote"> 143] 1 Cor. 2, 9. </note>
+
+<note type="footnote"> 133 feres <hi rend="italic">ego</hi> ferens <hi rend="italic">A</hi> 136 ecquid <hi rend="italic">ego</hi> Et quid <hi rend="italic">A</hi> 139 fractum <hi rend="italic">A1</hi> <lb/>
+            frvctum <hi rend="italic">A2</hi> 145 nunc <hi rend="italic">Schurzfl</hi>. Non <hi rend="italic">A</hi> distillant <hi rend="italic">A</hi> myrre <hi rend="italic">A</hi> <lb/>
+            tymum <lb/>
+            146 turis <hi rend="italic">A</hi> 147 Adda hYlllllÚ <hi rend="italic">A</hi> cassias mellilota <hi rend="italic">A</hi> 152 toto <lb/>
+            <hi rend="italic">ego cf. 180</hi> totum <hi rend="italic">A</hi> quicquid <hi rend="italic">A</hi> 155 uernanti <hi rend="italic">Commirius</hi> uernantis <lb/>
+            <hi rend="italic">A</hi> 157 Hec J.1 Nec <hi rend="italic">A2</hi> 159 ne te tepe <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="234"/>
+            quo nunc perfruimur tempore, uita breuis. <lb/>
+            lassa <choice><sic>sellescentem</sic><corr>senescentem</corr></choice> respectant omnia finem <lb/>
+            et iam postremo uoluitur hora die. <lb/>
+            165 respice quam raptim totum mors presserit orbem, <lb/>
+            quantos uis belli perculerit populos.non <lb/>
+            densi nemoris, celsi non aspera montis, <lb/>
+            flumina non rapidis fortia gurgitibus, <lb/>
+            non castella locis, non tutae moenibus urbes, <lb/>
+            170 inuia non pelago, tristia non heremo, <lb/>
+            non caua, non etiam tetricis sub rupibus antra, <lb/>
+            ludere barbaricas praeualuere manus. <lb/>
+            multis ficta fides, multis periuria, multis <lb/>
+            causa fuit mortis ciuica proditio. <lb/>
+            175 insidiae multum, multum uis publica fecit. <lb/>
+            robore quae non sunt, sunt superata fame. <lb/>
+            concidit infelix cum prole et coniuge mater, <lb/>
+            cum seruis dominus seruitium subiit. <lb/>
+            hi canibus iacuere cibus, flagrantia multis, <lb/>
+            180 quae rapuere animam, tecta dedere rogum. <lb/>
+            per uicos uillas, per rura et compita et omnes <lb/>
+            per pagos, totis inde uel inde uiis, <lb/>
+            mors dolor excidium incendia luctus. <lb/>
+            uno fumauit Gallia tota rogo. <lb/>
+            185 cur tamen enumerem labentis funera mundi, <lb/>
+            quae per consuetum semper aguntur iter? <lb/>
+            cur repetam quanti toto moriantur in orbe, <lb/>
+            ipse tuam uideas cum properare diem?
+
+<note rend="script" type="footnote"> 163 respectant <hi rend="italic">ego despectant A</hi> 167 non densi <hi rend="italic">ego Condensi A</hi> <lb/>
+            gurgitibus <lb/>
+            168 gigntibus <hi rend="italic">A</hi> gurgitibus <hi rend="italic">nigriore atramento</hi> 160 N <hi rend="italic">A</hi> 171 tetriendis <lb/>
+            <lb/>
+            cis <hi rend="italic">ego</hi> metuis sub <hi rend="italic">A</hi> endis <hi rend="italic">nigriore atramento possis et</hi> mediis <hi rend="italic">uel</hi> <lb/>
+            madidis 172 pualuere <hi rend="italic">A malim</hi> eualuere, <hi rend="italic">ut in ucrsibus de Proztidentia,<lb/>
+             quos hic citat- ed. lIfigniamtS, 35 sqq. (Tom. LI, p. 618)</hi> non castella <lb/>
+            petris, non oppida montibus altis I imposita, aut urbes amnibus <lb/>
+            aecjuoreis I barbarici superare dolos atque arina furoris I eualuere 179 <hi rend="italic">cib. A</hi> <lb/>
+            08 <lb/>
+            180 rogum <hi rend="italic">ego rogo A</hi> 181 <hi rend="italic">uicus A os nigriore atramento</hi> 183 strages <lb/>
+            <hi rend="italic">suppleuit Martene,</hi> clades <hi rend="italic">Schenkelius</hi> </note> <lb/>
+             
+<pb n="235"/>
+            praetereo <choice><sic>gladtis</sic><corr>gladiis</corr></choice> quantum, quantumque ruinis <lb/>
+            190 igni grandinibus fluminibus liceat; <lb/>
+            quantos bella fames perimant morbique furentes <lb/>
+            et quae per uarias mors ruit una uias. , <lb/>
+            quantos et mediae pacis sub tempore, ut esse <lb/>
+            pax possit, t cruciat debita poena reos. <lb/>
+            195 omnis paulatim leto nos applicat hora: <lb/>
+            hoc quoque quo loquimur tempore, praemorimur. <lb/>
+            et per fallentes tacito molimine cursus <lb/>
+            urget supremos ultima uita dies. <lb/>
+            dum cibus et somnus, dum uerba et pocula mulcent, <lb/>
+            200 siue domo sedeas, seu peregrina petas, <lb/>
+            dumque geris quodcumque geris uel non geris, ultro <lb/>
+            mors mouet alternum nil remorata pedem. <lb/>
+            cereus ut caecae positus sub tempore noctis <lb/>
+            compensare diem luminis officio, <lb/>
+            205 dum non sentimus, lento consumitur igni, <lb/>
+            semper et ad finem flamma uorax properat: <lb/>
+            sic hominum res est: pereunt quaecumque geruntur, <lb/>
+            proficit et moritur quod sibi uita trahit. <lb/>
+            sed fac uiuacis spatia haec tam longa senectae, <lb/>
+            210 orbis ut immunis funera respicias, <lb/>
+            sero licet ueniat, ueniat tamen ille necesse est <lb/>
+            qui non in totum finis abesse potest. <lb/>
+            nam quae nascuntur, crescunt post atque senescunt, <lb/>
+            et senio fessis nil nisi mors superest. <lb/>
+            215 f intereunt <choice><sic>decics</sic><corr>decies</corr></choice> qui ternos uixerit annos
+
+<note type="footnote"> 204] Ouid. Ib. 624. </note>
+
+<note rend="script" type="footnote"> 190 grandinibus <hi rend="italic">Schurzfl</hi>. grauiinibus <hi rend="italic">A</hi> 194 cruciat <hi rend="italic">alia manus <lb/>
+            nigriorc atramento scripsit in A eraso quod fuerat uocabulo</hi> 195 leto <hi rend="italic">A</hi> <lb/>
+            190 quo <hi rend="italic">SchuTz/to</hi> quod <hi rend="italic">A</hi> pniorimur Al pinorimur A2 199 dum <hi rend="italic">ego</hi> <lb/>
+            Cmu <hi rend="italic">A</hi> cibos et sonos <hi rend="italic">A</hi> 201 non geris, ultro <hi rend="italic">ego,</hi> non geris <lb/>
+            ultro <hi rend="italic">uulgo</hi> 203 eece <hi rend="italic">A</hi> 204 Compensare <hi rend="italic">A h. e. ut compenset</hi> <lb/>
+            207 ic <hi rend="italic">A</hi> 209 ed <hi rend="italic">A</hi> 211 ero <hi rend="italic">A</hi> 213 nam <hi rend="italic">ego</hi> am <hi rend="italic">A</hi> iam <hi rend="italic">uulgo</hi> <lb/>
+            crescunt post atque senescunt <hi rend="italic">alia manus add. nigriore atramento</hi> <lb/>
+            215 ntcreunt <hi rend="italic">A</hi>. </note> <lb/>
+             
+<pb n="236"/>
+            atque illum uixit qui modo t millesimus, <lb/>
+            postquam postremus finis retinebit utrumque, <lb/>
+            certe supremo tempore mortis idem est. <lb/>
+            quid uitam traxisse iuuat, si uiuere cessas? <lb/>
+            220 quaeue bonis merces, si teneare malis, <lb/>
+            t cum, nisi dum frueris, fructu tangere fruendi, <lb/>
+            et uita haec uitae uiuat in officio? <lb/>
+            nam quod iam fuerat nihil est, si desinit esse; <lb/>
+            et quod non sentis, non iuuat an fuerit. <lb/>
+            225 quid tandem prodest si te ieiunia uexent, <lb/>
+            hesternis large membra onerasse cibis, <lb/>
+            cumque tuas hodie stringat sitis (arida fauces), <lb/>
+            ante diem nimio praemaduisse t cibo? <lb/>
+            cum mediis celeri quae sunt decursa rotatu <lb/>
+            230 eripiat sensum non reditura dies? <lb/>
+            sed nos, decurso primaeuae flore iuuentae, <lb/>
+            iam dubii gressu lumine uoce manu, <lb/>
+            cum quidquid fuimus, dolor est meminisse, fidemque <lb/>
+            omnibus eripiunt proxima praeteritis, <lb/>
+            235 incuruos querulos consumpto corpore numquam <lb/>
+            haec quoque quae grauis est uita satis satiat. <lb/>
+            hinc est quod toto penitus uelut orbe remoti
+
+<note type="footnote"> 231 sqq.] Maxim. El. I, 119-122. 237] Uerg. Ecl. I, 66. </note>
+
+<note type="footnote"> 216 <hi rend="italic">locus uitiatus</hi> Atque illu uix (illum uixit) qui modo missile fim\' <lb/>
+            <hi rend="italic">Al ut uidetur</hi> missile fim\' <hi rend="italic">A2 ita ut</hi> f <hi rend="italic">ad 1 accedat. fort</hi>. inter <lb/>
+            eum <hi rend="italic">(sic Schurzfl.)</hi> decies qui ternos uixerit annos I atque illum, uixit qui <lb/>
+            modo mille simul <hi rend="italic">ut</hi> modo mille simul <hi rend="italic">sit tjttSt a thousand in all\', h. e. <lb/>
+             si quaeras quid intersit inter eum qui XXX annos uixerit et qui mille<lb/>
+             omnino impleuerit, nihil inuenies discriminis certe mortuis esse, cum <lb/>
+            uterque eadem mortis condicione utatur</hi> millesimum <hi rend="italic">Schwrzfl</hi>. 217 ostquam <lb/>
+            <hi rend="italic">A</hi> 218 suppremo <hi rend="italic">A</hi> 219 nid <hi rend="italic">A</hi> 221 um <hi rend="italic">A</hi> cur <hi rend="italic">Cmnmirius <lb/>
+            </hi> fructu <hi rend="italic">A fort</hi>. luctu <hi rend="italic">h. e. dolore quem ex amisso fructu, habebis <lb/>
+            cf. lJlaxim. El. II,</hi> 39, <hi rend="italic">40</hi> 223 nam <hi rend="italic">ego</hi> am <hi rend="italic">A</hi> 225 uid <hi rend="italic">A</hi> 227 umque <lb/>
+            tuas hodie stringat sitis <hi rend="italic">tum in marg</hi>. assidua <hi rend="italic">A</hi> arida fauces <hi rend="italic">Comm\'irius <lb/>
+            om. A</hi> 228 mero <hi rend="italic">H. Nettleship</hi> 229 um 231 ed <hi rend="italic">A</hi> decurse <hi rend="italic">A1</hi> <lb/>
+            decurso <hi rend="italic">A2</hi> primpuo <hi rend="italic">A</hi> 232 dubiis <hi rend="italic">uel</hi> dubio <hi rend="italic">uel</hi> dubios <hi rend="italic">coni, Commirius<lb/>
+             credo</hi> dubii <hi rend="italic">ad sententiam</hi> cum quidquid fuimus <hi rend="italic">referendum esse</hi> <lb/>
+            gressu. lumine. uoce. manu <hi rend="italic">A</hi> 233 um <hi rend="italic">A</hi> quic quid <hi rend="italic">A</hi> 234 erir <lb/>
+            <lb/>
+            piant <hi rend="italic">A</hi> 235 ncuruos <hi rend="italic">A</hi> 236 faciat <hi rend="italic">A</hi> 237 ille <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="237"/>
+            spectamus toto quidquid in orbe perit. <lb/>
+            haec miseros alio tamquam sub sole manentes <lb/>
+            240 mortis nos propriae mors aliena monet. <lb/>
+            ante oculos longeque simul fraudamur amicis, <lb/>
+            luminibusque illinc, hinc uenit aure dolor. <lb/>
+            intereunt dulces aeuo uergente parentes, <lb/>
+            eque ipso coniunx eripitur gremio. <lb/>
+            245 et fratris fratrem mors e complexibus aufert, <lb/>
+            at natu forsan iunior ille fuit. <lb/>
+            ordine nec uitae senior subducitur aetas, <lb/>
+            cum uideat nati funera saeua pater. <lb/>
+            nemo tamen cautus credit quod cernit, et illum <lb/>
+            250 quod non uult, cernit se quoque posse pati. <lb/>
+            hoc tamen inde uenit, factis quia semper iniquis <lb/>
+            mortem perpetuum ducimus esse malum, <lb/>
+            et quas criminibus poenas lex sancta minatur, <lb/>
+            serius excipere credimus esse lucrum. <lb/>
+            255 felix qui licitum finem putat esse laborum, <lb/>
+            quod, post ne timeat, cauerit ante timens. <lb/>
+            felix qui magnum magnaque indage <choice n="0.76"><sic n="19">mouendum</sic><corr n="6">monendum</corr></choice> <lb/>
+            urbibus et populis nobile iudicium <lb/>
+            constanti sperare animo uultuque sereno <lb/>
+            260 securus uitae de probitate potest, <lb/>
+            quem faciat certis bene mens sibi conscia causis <lb/>
+            sub tanta intrepidum mole tenere caput. <lb/>
+            illic imperio quondam regnoque potentes,
+
+<note type="footnote"> 244] Cat. 68, 146. 261] Uerg. Aen. I, 604. </note>
+
+<note rend="script" type="footnote"> 238 quie quid <hi rend="italic">A</hi> 239 ec <hi rend="italic">A restat tamen ex initiali littera</hi> <lb/>
+            I <hi rend="italic">unde</hi> haec <hi rend="italic">scripsi</hi> nec <hi rend="italic">uulgo</hi> 240 nos <hi rend="italic">A</hi> proprie <hi rend="italic">A</hi> 241 nte <hi rend="italic">A</hi> <lb/>
+            243 ntereunt <hi rend="italic">A</hi> 245 t <hi rend="italic">A</hi> ecoplexibus <hi rend="italic">A</hi> 246 at <hi rend="italic">ego</hi> Et <hi rend="italic">A</hi> 247 rdine <hi rend="italic">A</hi> <lb/>
+            i i <lb/>
+            249 emo tam incautus A1 emo tam_encautus <hi rend="italic">A2</hi> credet quod cernet <hi rend="italic">A</hi> <lb/>
+            i <lb/>
+            illum <hi rend="italic">sc. pati</hi> illud <hi rend="italic">Schenkelius</hi> 250 cernet <hi rend="italic">A</hi> 251 oc <hi rend="italic">A</hi> 253 t <hi rend="italic">A</hi> <lb/>
+            V <lb/>
+            penas <hi rend="italic">A</hi> 255 elix <hi rend="italic">A fort</hi>. liquidum laborem <hi rend="italic">A</hi> 256 Quod p. ne <hi rend="italic">A</hi> <lb/>
+            poenae <hi rend="italic">Martene</hi> cauerit <hi rend="italic">ego</hi> cauerat <hi rend="italic">A</hi> 257 elix <hi rend="italic">A</hi> 259 onstanti <hi rend="italic">A</hi> <lb/>
+            o <lb/>
+            261 uem <hi rend="italic">A</hi> faciat <hi rend="italic">A an</hi> faciet? 263 llic <hi rend="italic">A</hi> imperio quandam <hi rend="italic">A</hi> </note> <lb/>
+             
+<pb n="238"/>
+            illic conspicui fascibus et trabeis, <lb/>
+            2G5 quis aurum lectis dapibus, crystalla Falerno, <lb/>
+            substratosque ostro mos onerare toros: <lb/>
+            robore famosi, laudati munere formae, <lb/>
+            ac male fidentes corporeis opibus: <lb/>
+            quorum uenter erat dominus, lasciuia uotum, <lb/>
+            270 spes in praesenti, gloria diuitiae: <lb/>
+            qui neglexerunt miseri uel morte sub ipsa <lb/>
+            claudendis dominum quaerere luminibus, <lb/>
+            poenam expectabunt clausi. ne quaere doceri <lb/>
+            quam poenam: factis congrua poena manet. <lb/>
+            275 hos tenebrae iuges caeca sub nocte manebunt: <lb/>
+            his lumen f tunc flamma seuera dabit. <lb/>
+            isti sulphureo flagrantes igne caminos <lb/>
+            cogentur laceris scandere corporibus. <lb/>
+            illos constringet uiolento infusa rigore <lb/>
+            280 flatibus hibernis dura gelu glacies. <lb/>
+            et cum tam discors pugnet natura gehennae, <lb/>
+            nominis unius uis tamen est uaria. <lb/>
+            nec tam diuersa possis dinoscere poena, <lb/>
+            igne sit an grauius frigore supplicium. <lb/>
+            285 non quod nos, istic, terrena morte peremptis, <lb/>
+            excipient unam crimina multa necem, <lb/>
+            cum quamuis saeuus pro rerum pondere iudex <lb/>
+            non aliud possit quam rapuisse animam, <lb/>
+            et quodam scelerum lucro, si plurima restent, <lb/>
+            290 uindictam reliquis ultio prima neget. <lb/>
+            ast illic omnes persoluet in ordine noxas
+
+<note type="footnote"> 2G9] Phil. 3, 19. 273] Ucrg. Aen. VI, 614. </note>
+
+<note rend="script" type="footnote"> 2G5 uis A 266 Substratosque <hi rend="italic">A punctis nigrioribus</hi> 267 oborc <hi rend="italic">A <lb/>
+            2G9 liorum A uenter Martene uent\' A 273 Ponam A 275 ceca A</hi> <lb/>
+            276 tenue <hi rend="italic">Commirius</hi> toruum <hi rend="italic">Buehrensiiis</hi> 277 sulphureo <hi rend="italic">A</hi> 279 uio- <lb/>
+             <lb/>
+            lenta<foreign xml:lang="grc">̊</foreign> <hi rend="italic">A</hi> 283 dinoscere <hi rend="italic">A</hi> 285 qt <hi rend="italic">Ax</hi> qlt <hi rend="italic">A2</hi> It <hi rend="italic">nigriore atrnmento</hi> <lb/>
+            non qui mos est hic <hi rend="italic">Commirms fort. recte sed retineo quod est in A, <lb/>
+            idque sic expedio:</hi> non quod nos (facimns) terrena morte peremptis, istic <lb/>
+            <hi rend="italic">h. e. in gelienna</hi> (fiet), nt crimina multa unam necem excipiant. </note> <lb/>
+             
+<pb n="239"/>
+            succedens factis congrua poena suis. <lb/>
+            atque unum corpus per singula membra patebit, <lb/>
+            quot potuit uitiis, tot quoque suppliciis. <lb/>
+            295 altera crudeles, lex altera plectet auaros: <lb/>
+            facta aliter soluent et meditata aliter. <lb/>
+            est sua periuris, est (et) sua poena superbis, <lb/>
+            atque alia effusi causa cruoris erit. <lb/>
+            inuidus inpatiens mollis falsator adulter, <lb/>
+            300 et uini totus, totus et inlecebrae, <lb/>
+            dextram caede nocens, <choice><sic>liuguam</sic><corr>linguam</corr></choice> in conuicia promptans, <lb/>
+            peruasor iactans inpius indocilis <lb/>
+            <choice n="0.95"><sic n="190">iudicii</sic><corr n="10">indicii</corr></choice> ante diem poenas dabit, ut neque paruum <lb/>
+            supplicii spatium det mora iudicii. <lb/>
+            305 ambibunt alios sinuosis flexibus angues, <lb/>
+            ast alios candens igne catena teret. <lb/>
+            omnia plena illic lacrimis terrore dolore, <lb/>
+            et uox nulla, nisi quam dederit gemitus. <lb/>
+            ecquidnam ulterius per singula crimina curram <lb/>
+            310 <sic>uexahunt</sic> diris quae miseros crucibus? <lb/>
+            quando etiam incauto si quid nunc ore loqueris, <lb/>
+            sermonis ratio est discutienda tibi. <lb/>
+            hos inter, rerum dominum quicumque negarit, <lb/>
+            summittens saxis <choice><sic>stipitihusque</sic><corr>stipitibusque</corr></choice> caput, <lb/>
+            315 ille miser uere, nec erit miserabilis ulli. <lb/>
+            excipiet solus quidquid ubique nocet. <lb/>
+            innumeri uermes morituro in corpore uiuent, <lb/>
+            nec finis fumo quem dabit ignis, erit. <lb/>
+            at parte ex alia blandorum t uerba piorum,
+
+<note type="footnote"> 311] Matth. 12, 3G. 315] Quid. Ib. 117 sisque miser semper nec <lb/>
+            sis miserabilis ulli. 318] Esai. 34, 10. Apoc. 14, 11. </note>
+
+<note rend="script" type="footnote">a <lb/>
+            295 auoros <hi rend="italic">A</hi> 297 et <hi rend="italic">om. A add. Mavtene</hi> 299 inpatiens <hi rend="italic">A</hi> <lb/>
+            300 illecebre <hi rend="italic">A</hi> 301 conuitia <hi rend="italic">A</hi> promptans <hi rend="italic">ego</hi> promptam <hi rend="italic">A</hi> <lb/>
+            302 Pernasor. iactans. impius. indocilis <hi rend="italic">A un, 300, 302 transponendos<lb/>
+             censet Baehrensius</hi> 304 supplitii <hi rend="italic">A</hi> 309 ecquidnam <hi rend="italic">ego</hi> et quid nam <hi rend="italic">A</hi> <lb/>
+            310 miseris <hi rend="italic">A</hi> o <hi rend="italic">nigriore atramento</hi> 314 sumittens <hi rend="italic">A</hi> 3L6 quic quid <hi rend="italic">A</hi> <lb/>
+            319 uerba <hi rend="italic">uix sanum; an</hi> turba? </note> <lb/>
+             
+<pb n="240"/>
+            320 si nec uexati restituere malum, <lb/>
+            auxilium miseris, uictum tribuere petenti, <lb/>
+            affectum notis, seruitium patribus, <lb/>
+            instar flammantis fulgebunt lumina solis, <lb/>
+            uelati niueis splendida membra togis. <lb/>
+            325 praecipueque illi, quos Christi in lege paratos <lb/>
+            excipiunt noctes inueniuntque dies, <lb/>
+            quisque fuit uotum niueam baptismate uestem <lb/>
+            numquam femineis commaculare toris, <lb/>
+            corpore nec solo, sed toto et pectore casti, <lb/>
+            330 et qualem lector te meus esse uelim, <lb/>
+            uel iam felices, quae prima est gloria, uictis <lb/>
+            lucis et infidi corporis inlecebris, <lb/>
+            ueram quaerentes uitam, pro nomine Christi <lb/>
+            fundere deuotas non timuere animas. <lb/>
+            335 atque sacerdotes hoc sanctorum agmen habebit <lb/>
+            secretosque hominum turbinibus monachos, <lb/>
+            qui nunc spernentes blandae oblectamina famae, <lb/>
+            uenturi sperant praemia iudicii. <lb/>
+            mollia securis ducentes otia rebus <lb/>
+            340 pro merito uiuunt nunc bene, post melius. <lb/>
+            namque ipsi denso stipabunt agmine regem, <lb/>
+            cum terris iudex institerit dominus, <lb/>
+            atque omnes agnus quoquo se uerterit ibunt, <lb/>
+            perfusi uero lumine, luce dei. <lb/>
+            345 et tantum ipsorum capient uegetata decoris <lb/>
+            cernentum ut non sint ora uidenda oculis. <lb/>
+            ergo ubi terribilem dederit caua bucina cantum, <lb/>
+            aduentum tandem testificata dei;
+
+<note type="footnote"> 323] Matth. 13, 43. 327] Apoc. 14, 4. 339] Quid. Met. I, 100. <lb/>
+            342] Hiob 19, 25. 343] Apoc. 14, 4. </note>
+
+<note rend="script" type="footnote"> n <lb/>
+            320 si <hi rend="italic">ego</hi> Sed <hi rend="italic">A</hi> qui <hi rend="italic">Martene</hi> 323 flamraatis <hi rend="italic">A</hi> 327 babtismate <lb/>
+            <hi rend="italic">A</hi> 328 thoris <hi rend="italic">A</hi> 329 casti <hi rend="italic">Commirius</hi> cauti <hi rend="italic">A</hi> 331 Uelium <lb/>
+            <hi rend="italic">potius quam</hi> Ueliam <hi rend="italic">mihi uisum est in A</hi> uictis <hi rend="italic">Commirius</hi> <lb/>
+            uittis <hi rend="italic">A</hi> 332 illecebris <hi rend="italic">A</hi> 335 sanctorum <hi rend="italic">ego</hi> sanctum <hi rend="italic">A</hi> examen <lb/>
+            <hi rend="italic">Commirius</hi> 340 p. melius <hi rend="italic">A cf. ad 256</hi> 345 tantum <hi rend="italic">A2</hi> totum <hi rend="italic">A1</hi> <lb/>
+            348 testiflcata <hi rend="italic">Commirius</hi> testificanda <hi rend="italic">A</hi>. </note> <lb/>
+             
+<pb n="241"/>
+            mox longis tellus rimis diuulsa patebit, <lb/>
+            350 ac passim flammae fulgura grando ruent, imis <lb/>
+            concusso penitus de sedibus orbe <lb/>
+            dum totae feruent inde uel inde uiae. <lb/>
+            hinc tristes gemitus, illinc pia gaudia uitae: <lb/>
+            una in diuersis uox erit agminibus. <lb/>
+            355 atque omnis raptim celeratis gressibus ibit <lb/>
+            deducens subolem prosapiamque pater. <lb/>
+            cunctaque contento ducetur linea tractu, <lb/>
+            cum fuerit medius progenitor genitis. <lb/>
+            nec tibi famosas urbes gentesque remotas <lb/>
+            360 regnaque, quae nunc sunt quaeue fuere, loquar, <lb/>
+            frigore non segnes populos, non sole perustos, <lb/>
+            quosque habuit nascens occiduusque dies: <lb/>
+            sed fuit a primi genitum quod tempore mundi <lb/>
+            usque diem mundo qui modo finis erit, <lb/>
+            365 omnibus e terris animas iustasque reasque <lb/>
+            uno constituet iussio prima loco. <lb/>
+            nec tamen ulla illinc tanta inter milia perget, <lb/>
+            quae non sit domino dinumerata suo. ~ <lb/>
+            mox rutilum scandens eadem cum carne tribunal, <lb/>
+            370. quam caelo intulerat glorificans hominem, <lb/>
+            omnia quae reliquis labantur in ordine saeclis, <lb/>
+            quae tunc, quaeue. dehinc lege manente. fiant, <lb/>
+            ore sacer, celsus solio, terrore uidendus, <lb/>
+            conspicuus, sed uix conspiciendus aget. <lb/>
+            375 atque inter flammae tractus sonitusque tubarum <lb/>
+            angelicosque choros militiamque sacram, <lb/>
+            inter et infantum matrum iuuenumque senumque <lb/>
+            pallores fletus gaudia uota metus, <lb/>
+            ultima suspensae dabitur sententia turbae, <lb/>
+            380 quae sacrosancti iudicis ore sonet:
+
+<note type="footnote"> 362] Ouid. Fast. IIII, 832. </note>
+
+<note type="footnote"> 349 rimis <hi rend="italic">nigriore atramento scriptum est tibi prius spatium fuerat</hi> <lb/>
+            355 omif, <hi rend="italic">A non</hi> omib. 356 sobolem <hi rend="italic">A</hi> prosapiamque <hi rend="italic">produxit mOTe <lb/>
+            Prudentii</hi> 366 prim <hi rend="italic">A</hi> 367 illuc <hi rend="italic">Commirius</hi> 371 babantur <hi rend="italic">A</hi> <lb/>
+            380 quae <hi rend="italic">Martene</hi> qara <hi rend="italic">A</hi> sacro sancti <hi rend="italic">A</hi> </note>
+
+<note type="footnote"> XVI. Poet. christ. min. pars i. </note>
+
+<note type="footnote"> 16 </note> <lb/>
+             
+<pb n="242"/>
+            in requiem et laudem iustorum perge caterua, <lb/>
+            a regno numquam dissocianda meo, <lb/>
+            quae uobis gnarus meriti uitaeque futurae <lb/>
+            dat modo, sed dudum dona parata pater. <lb/>
+            385 at tu mandatis semper contraria nostris, <lb/>
+            inpia tartareis claudere turba locis. <lb/>
+            illic stridorem dentes et lumina fletum, <lb/>
+            ignibus inmodicis discrucianda, dabunt. <lb/>
+            et tamen, ut uere maneant quaecumque iubentur, <lb/>
+            390 haec erit aeterni formula iudicii: <lb/>
+            gloria quae iustum, submota morte tenebit <lb/>
+            atque reus poenae non moriturus erit. <lb/>
+            haec ego debueram factis tibi tradere, lector, <lb/>
+            ut pondus uerbis uita probata daret. <lb/>
+            395 sed quia neglegimus miseri quaecumque monemur <lb/>
+            et satis est leuius discere quam facere, <lb/>
+            tu si commendes animo demissa per aurem <lb/>
+            omnia, quae scriptis sunt numerata meis, <lb/>
+            constanter dicam, caeli statione receptus <lb/>
+            400 discuties saeuae uincula dura necis. <lb/>
+            atque etiam fueras qui filius ante gehennae, <lb/>
+            incipies summi filius esse dei. <lb/>
+            his illud superest, sine quo nihil omnia prosunt, <lb/>
+            ut Christum credas de patre cumque patre; <lb/>
+            405 spiritus et sanctus nullo discrimine iunctus <lb/>
+            unum consumment nomina trina deum. <lb/>
+            at tu t cum legis nostrum quicumque libellum, <lb/>
+            nostri, seu malus est seu bonus, esto memor.
+
+<note type="footnote"> 397] Hor. A. P. 180. </note>
+
+<note rend="script" type="footnote"> 382 dissotianda <hi rend="italic">A</hi> 386 Impia <hi rend="italic">A</hi> 388 inmodicis discrutianda <hi rend="italic">A</hi> <lb/>
+            389 tm <hi rend="italic">A</hi> 391 <hi rend="italic">h. e. gloria quac iustum tenebit, summota mortc tene-</hi> <lb/>
+            V . <lb/>
+            <hi rend="italic">bit</hi> 392 pene 393 fa,cftis <hi rend="italic">A</hi> 397 orbem <hi rend="italic">A1 arbem h. e</hi>. aurem <hi rend="italic">A2</hi> <lb/>
+            e <lb/>
+            400 sue <hi rend="italic">A</hi> 404 <hi rend="italic">post</hi> cumque patre <hi rend="italic">cum Schursfl. clistinxi. uulgo sentenNa<lb/>
+             sine interpunctionc dccurrit usque ad u. 406</hi> 405 Xpe <hi rend="italic">Ax</hi> <lb/>
+            fxpc <hi rend="italic">A2</hi> 407 cum legis <hi rend="italic">A an</hi> relcgis? <hi rend="italic">scd uocatiuum potius latere <lb/>
+            credo, uclnt</hi> care quando <hi rend="italic">Baehrensius</hi> </note> <lb/>
+             
+<pb n="243"/>
+            et quotiens dominum <sic>perlecto</sic> carmine Christum <lb/>
+            410 orabis, simus semper in ore tuo. <lb/>
+            quod ne me primis credas iniungere labris <lb/>
+            neue istud tuto dissimulare putes, <lb/>
+            sic te nulla dies curis compungat amaris, <lb/>
+            sic Christo totum quidquid agis placeat, <lb/>
+            415 sic sumas sanctam domino tradente coronam, <lb/>
+            nominis abscedat ne tibi cura mei, <lb/>
+            ut peccatores uincens Orientius omnes <lb/>
+            sanctorum ueniam promerear precibus. 
+</p></div></div>
+</body>
+</text>
+</TEI>

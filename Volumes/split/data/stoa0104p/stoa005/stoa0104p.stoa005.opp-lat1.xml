@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL3_3.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Guilelmus Hartelius</name>
+                  <addName xml:lang="de">Wilhelm von Hartel</addName>
+                </persName>
+              </editor> 
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1785.1">Pseudo-Cyprianus</author>  
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa013">De Spectaculis</title>
+              <title>De Bono Pudicitiae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa007">De Laude Martyrii</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa001">Ad Novatianum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa010">De Rebaptismate</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa018">De Aleatoribus</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa008">De Montibus Sina et Sion</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa002">Ad Vigilium de Iudaica Incredulitate</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa020">Adversus Iudaeos</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa019 http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa015">Orationes</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa014">De Duodecim Abusivis Saeculi</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa011">De Singularitate Clericorum</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa006">De Duplici Martyrio</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa009">De Pascha Computens</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa016">Epistulae</title>
+              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104p.stoa003">Carmina</title>
+              <imprint>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1871</date>
+              </imprint>
+              <biblScope unit="volume">3.3</biblScope>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru0swissgoog#page/n7/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+</teiHeader>
+<text>
+<body>
+<div type="edition" n="urn:cts:latinLit:stoa0104p.stoa005.opp-lat1">
+<head>
+            <title type="main">II. DE BONO PUDICITIAE. </title>
+          </head>
+          
+
+<div n="1" subtype="section" type="textpart"><p rend="script">∗∗∗ aliquas officiorum meorum partes praeterisse, dum semper  <lb/>
+            enitor uel maxime cotidianis euangeliorum tractatibus, aliquando <lb n="5"/>
+            <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> fidei et scientiae per Dominum incrementa praestare. quid enim <lb/>
+            <choice><sic>alind</sic><corr>aliud</corr></choice> in ecclesia Domini utilius geri, quid accommodatius officiis <lb/>
+            episcopi potest inueniri, quam ut doctrina dominicorum per ipsum <lb/>
+            insinuata conlataque uerborum possint credentes ad repromissum <lb/>
+            regnum peruenire caelorum? hoc certe mei et operis et muneris <lb n="10"/>
+            cotidianum uotiuum negotium absens licet optinere conitor et praesentiam <lb/>
+            mei <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> reddere per litteras conor. dum uos solito more <lb/>
+            <choice><sic>allocntionibus</sic><corr>allocutionibus</corr></choice> missis in fide interpello, ideo conuenio, ut euangelicae <lb/>
+            radicis firmitate solidati aduersus omnia diaboli proelia stetis semper <lb/>
+            <choice><sic>uannati</sic><corr>armati</corr></choice>. absentem me non credam, si fuero securus. uerum tamen
+
+<note type="footnote"> 1 immo om. <hi rend="italic">Z</hi> 2 saeculorum] amen add. <hi rend="italic">Zp</hi>. opto •..ualere <lb/>
+            on. <hi rend="italic">rn</hi> semper bene., ualere] amem add. <hi rend="italic">v</hi>. — De spectacolis <lb/>
+            explidt <hi rend="italic">Z, om. r<foreign xml:lang="grc">μ</foreign>. —</hi></note>
+
+<note rend="script" type="footnote"> Incipit de bono pudicitiae <hi rend="italic">K,</hi> Incipit de pudicicia <hi rend="italic">Z</hi>. — 4 <hi rend="italic">ante</hi> aliquas <lb/>
+            <hi rend="italic">lacttnae signum</hi> addidi, <hi rend="italic">Z ita incipit:</hi> pudicicia lorica et ipsi uos. <lb/>
+            scitis tunc quando metu apud uos pns essem aliquas partes] add. <lb/>
+            <hi rend="italic">K in marg. m.2 et v:</hi> non aestimo 6 scientiae] sententiae <hi rend="italic">K</hi> <lb/>
+            quid] qui <hi rend="italic">Z</hi> 7 domini n. geri om. <hi rend="italic">Z</hi> accomodatius <hi rend="italic">om. Z</hi> <lb/>
+            officiia scripsi, officii.. <hi rend="italic">K,</hi> in officiis <hi rend="italic">Z,</hi> officio <hi rend="italic">v</hi> 8 dominicorom <hi rend="italic">K,</hi> <lb/>
+            diainorum <hi rend="italic">Zv</hi> 9 uerborum] neruorum <hi rend="italic">Z</hi> possit <hi rend="italic">Z</hi> 10 certe . <lb/>
+            ez eerto <hi rend="italic">K,</hi> ergo pudica est <hi rend="italic">Z</hi> prius et <hi rend="italic">om. Z</hi> muneris] immi- <lb/>
+            HEDS <hi rend="italic">Z</hi> 11 conitor et] contineor et <hi rend="italic">K,</hi> contingeret <hi rend="italic">Z</hi> • per <lb/>
+            littenu praesentiam meam nobis reddere v 12 conor] consolor <hi rend="italic">Z</hi> <lb/>
+            Q08 solito] Bollicito <hi rend="italic">Z</hi> 18 ideo] et in dum <hi rend="italic">Z</hi> ut] ut in <hi rend="italic">Z</hi> 14 proetia] <lb/>
+            praemia <hi rend="italic">K</hi> firmiter stetissem per arma si absente <hi rend="italic">Z</hi> 15 tamen] <lb/>
+            quoniam <hi rend="italic">Z</hi> </note> <lb/>
+             
+<pb n="14"/>
+            omnia quae utiliter proferantur et <choice><sic>MternM</sic><corr>aeternae</corr></choice> <choice><sic>nitae</sic><corr>uitae</corr></choice> <choice n="0.00"><sic n="1">statam</sic><corr n="229">statum</corr></choice> <choice><sic>traetatibus</sic><corr>tractatibus</corr></choice> <lb/>
+            uel definiunt uel promittunt ita demum <choice><sic>fraotuoea</sic><corr>fructuosa</corr></choice> sunt, ei ad <choice><sic>emolnmentum</sic><corr>emolumentum</corr></choice> <lb/>
+            operis diuinae indulgentiae uiribus adiuuentur. non solum <lb/>
+            uerba proferimus quae de scripturarum sacris fontibus ueniunt, sed <lb/>
+            cum ipsis uerbis preces ad Dominum et <choice n="0.53"><sic n="663">nota</sic><corr n="586">uota</corr></choice> sociamus, ut tam nobis<lb n="5"/>
+            quam uobis et sacramentorum suorum thesauros aperiat et uires ad <lb/>
+            inplenda quaeque cognoscimus tribuat. periculum enim maius est <lb/>
+            uoluntatem Domini <sic>eognooisse</sic> et in Dei uoluntatis opere cessasse. <lb/>
+</p> 
+          </div>
+
+<div n="2" subtype="section" type="textpart"><p>              Quamuis ergo ad multa uos negotia et ad diuinae admonitionis <lb/>
+            praecepta semper ut scitis exhorter — quid enim mihi aliud uotiuum<lb n="10"/>
+            aut maius potest esse quam at per <sic>omoia</sic> perfecti stetis in Domino — <lb/>
+            tamen praecipue <choice><sic>pudkitiae</sic><corr>pudicitiae</corr></choice> claustra teneatis, quod et <choice><sic>facitfs</sic><corr>facitis</corr></choice>, admoneo: <lb/>
+            <choice><sic>soientes</sic><corr>scientes</corr></choice> <choice><sic>tenplum</sic><corr>templum</corr></choice> <choice><sic>eese</sic><corr>esse</corr></choice> uos <choice><sic>DomUrl</sic><corr>Domini</corr></choice>, membra Christi, habitationem <lb/>
+            <choice><sic>Spirhue</sic><corr>Spiritus</corr></choice> sancti, <choice><sic>eleetos</sic><corr>electos</corr></choice> ad spem, consecratos ad fidem, destinatos ad <lb/>
+            salutem, filios Dei, fratres Christi, consortes Spiritus sancti, nihil<lb n="15"/>
+            iam <sic>Gami</sic> debentes qua renatos <sic>ax</sic> aqua et pudicitia praeter uoluntatem <lb/>
+            quam uelle debemus ut nostra <choice><sic>Bit</sic><corr>sit</corr></choice>: praestetur etiam propter <lb/>
+            redemptionem, ut corrumpi non possit quae a Christo consecrata sit. <lb/>
+            nam si apostolus ecclesiam sponsam Christi pronuntiat, oro uos <lb/>
+            quanta pudicitia exigitur, ubi ecclesia inter matrimonia sponsa uirgo<lb n="20"/>
+            praestetur? et ego quidem, nisi quod breuiter uos <choice><sic>adjnonere</sic><corr>admonere</corr></choice> proposui,
+
+<note type="footnote"> 1 quae omnia <hi rend="italic">K1</hi> et aeternae u. statum <hi rend="italic">om. Z</hi> tractantibus v 2 uel <lb/>
+            -uel] ac-ac Z definiHntur K1 promittuntur Kl, repromittaat <hi rend="italic">Z</hi> <lb/>
+            daemum XI, dum <hi rend="italic">Z</hi> eant om. <hi rend="italic">Z</hi> si ad <hi rend="italic">K sed</hi> ad <hi rend="italic">s. l. m</hi>. 2, sine <hi rend="italic">Z</hi> <lb/>
+            4 proferimus uerba v scripturis <hi rend="italic">Z</hi> 5 prece <hi rend="italic">Z</hi> nobis quam <lb/>
+            nobis <hi rend="italic">Z</hi> 6 et] et <hi rend="italic">t<foreign xml:lang="grc">̃</foreign>n Z</hi>\' thea. aperiat et] tensa ut rosa per tactns Z <lb/>
+            7 quaeque K, quae Zv 8 dni <hi rend="italic">Z</hi> uoluntate operis Kl 9 et <lb/>
+            ad om. <hi rend="italic">Z,</hi> ad <hi rend="italic">K</hi> monitioms v, institutioms <hi rend="italic">Z</hi> 10 praecepta <hi rend="italic">add. <lb/>
+             K in tnarg., om. Z</hi> ut sciatis semper <hi rend="italic">Z</hi> enim <hi rend="italic">om. Z</hi> mihi <lb/>
+            aliud] ualuit michi £ uotum <hi rend="italic">Z</hi> 11 ant m. potest] maius <hi rend="italic">Z</hi> <lb/>
+            perfeeti stetis] stetis pcipue <hi rend="italic">Z</hi> deo <hi rend="italic">K</hi> 12 tamen ut praecipue v, <lb/>
+            ut <hi rend="italic">Z</hi> pudicitiae] pudice <hi rend="italic">Z</hi> et om. <hi rend="italic">Z</hi> factis <hi rend="italic">KIE</hi> 15 dei <lb/>
+            Z sd sps <hi rend="italic">Z</hi> filii <hi rend="italic">K</hi> consortes] couseruatos <hi rend="italic">Z</hi> 16 qua] <lb/>
+            quaBi v ez] et <hi rend="italic">Z</hi> et om. <hi rend="italic">Z</hi> padidtiam <hi rend="italic">Z</hi> 17 quam <lb/>
+            uelle] quia uel <hi rend="italic">Z</hi> ut] et <hi rend="italic">Z,</hi> et in <hi rend="italic">K</hi> sit] sunt <hi rend="italic">Z</hi> praeatentur <lb/>
+            <hi rend="italic">Z</hi> 18 redemptorem <hi rend="italic">Z</hi> quae a] quia <hi rend="italic">Z</hi> 80 eocle. <lb/>
+            aiam <hi rend="italic">Z</hi> sponsa christi <hi rend="italic">Z</hi> 21 piaestetur] testatar <hi rend="italic">Z</hi> et] ei <hi rend="italic">Z</hi> <lb/>
+            quod] qm <hi rend="italic">Z</hi> </note><lb/>
+             
+<pb n="15"/>
+            latissimas satis puto et locupletes <choice><sic>pndicitiae</sic><corr>pudicitiae</corr></choice> laudes proferre potui: <lb/>
+            sed <choice><sic>saperuacuum</sic><corr>superuacuum</corr></choice> <choice n="0.6"><sic n="87">duri</sic><corr n="58">duxi</corr></choice> laudare eam diutius apud colentes. nos <choice><sic>eaim</sic><corr>enim</corr></choice> <lb/>
+            <choice n="0.00"><sic n="1">illan</sic><corr n="2058">illam</corr></choice> ornatis dum geritis et plures eius laudes exercendo profertis. <lb/>
+            facti eius ornamentum, dum et illa uestrum est, mutuo decore inuicem <lb/>
+            fenerandum. illa <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> disciplinam bonorum suggerit <choice n="0.41"><sic n="179">moram</sic><corr n="251">morum</corr></choice>, uos illi <lb n="5"/>
+            <choice><sic>miaisterium</sic><corr>ministerium</corr></choice> praestatis operum <choice><sic>sanetorum</sic><corr>sanctorum</corr></choice>. nam et illa quantum et <lb/>
+            quid <choice><sic>possetf</sic><corr>posset</corr></choice> per uos <choice><sic>appamit</sic><corr>apparuit</corr></choice>, et quid uos <choice><sic>uelitks</sic><corr>uelitis</corr></choice> ipsa demonstrauit <lb/>
+            et <choice n="0.27"><sic n="89">decuit</sic><corr n="232">docuit</corr></choice>, copulatis in unum duobus bonis mandatorum et rerum, ne <lb/>
+            quid <choice><sic>mntilum</sic><corr>mutilum</corr></choice> uideretur, si aut praecepta ministeriis aut praeceptis <lb/>
+            ministeria defuissent. <lb n="10"/>
+            
+</p>
+          </div>
+
+<div n="3" subtype="section" type="textpart"><p rend="script">Pudicitia est honor corporum, ornamentum morum, sanctitas  <lb/>
+            sexuum, uinculum matrimoniorum, fides generis, propugnaculum pudoris, <lb/>
+            fons castitatis, pax domus, concordiae caput. pudicitia sollicita <lb/>
+            est ne cui placeat nisi sibi: <choice><sic>pudieitia</sic><corr>pudicitia</corr></choice> semper uerecunda, dum innocentiae <lb/>
+            mater est: pudicitia semper ornatur <sic>solepudore</sic>, bene sibi <lb n="15"/>
+            <sic>tane</sic> <choice><sic>eonseia</sic><corr>conscia</corr></choice> de <choice><sic>pnlehritudine</sic><corr>pulchritudine</corr></choice>, si inprobis displicet. pudicitia nihil <lb/>
+            <choice><sic>oraameatoFum</sic><corr>ornamentorum</corr></choice> quaerit, decus suum ipsa est. haec nos conmendat <lb/>
+            Domino, conectit Christo: haec„expugnat omnia de membris inlicita <lb/>
+            <choice><sic>demderiorum</sic><corr>desideriorum</corr></choice> proelia, pacem nostris corporibus inducit, beata ipsa et <lb/>
+            beatos <choice><sic>effkiens</sic><corr>efficiens</corr></choice> apud <choice><sic>quoeoumque</sic><corr>quoscumque</corr></choice> habitare <choice><sic>dignatffr</sic><corr>dignatur</corr></choice>, quam numquam <lb n="20"/>
+            <choice><sic>aecusare</sic><corr>accusare</corr></choice> possunt, nec qui eam non habent: uenerabilis etiam hostibus <lb/>
+            <choice><sic>snis</sic><corr>suis</corr></choice>, dum illam multo magis mirantur qui expugnare non <lb/>
+            <choice><sic>poesunt</sic><corr>possunt</corr></choice>. sed ut uirtus ista in uiris probata semper et a feminis ad <lb/>
+            petenda, sic inimica eius inpudicitia semper est detestanda:
+
+<note rend="script" type="footnote"> 1 puto om. <hi rend="italic">Z</hi> et om. Kl potui sed <hi rend="italic">ex</hi> potius sed <hi rend="italic">K m. 2, <lb/>
+            potaisse Z</hi> 2 enim magis Z <hi rend="italic">4 facti] factori Z</hi> muto] <lb/>
+            modnlo K <hi rend="italic">5 fenerando v, foenerato dum Z illam Z</hi> suggwwt <lb/>
+            <hi rend="italic">Z</hi> 7 possit v uefletis illa <hi rend="italic">Z</hi> 8 copnlaitis in] copu- <lb/>
+            <hi rend="italic">lans Z</hi> et rerum] <hi rend="italic">nt itomm Z</hi> 9 mutilum uideretur] utilium <lb/>
+            sineretur <hi rend="italic">Z</hi> avt praeeepta ministeriis tm. <hi rend="italic">Z</hi> 11 pudicitia om. <hi rend="italic">Z</hi> <lb/>
+            honer eet <hi rend="italic">Z</hi> 12 matrimoniorum f. g. propngnaculum <hi rend="italic">om. Kx</hi> <lb/>
+            13 pudica <hi rend="italic">Z</hi> sollicita om. <hi rend="italic">Z</hi> 14 est ne cui, <hi rend="italic">scripsi,</hi> est ne <hi rend="italic">Z,</hi> <lb/>
+            est cai <hi rend="italic">K,</hi> non 06t cui n uerecunda] fecunda <hi rend="italic">Z</hi> 15 est] et <hi rend="italic">Z <lb/>
+            Mmper om. Z \' 16 nuno Z si om. Z 18 deo Z</hi> 19 beata <lb/>
+            ipsa] de beatitadine sua Z 20 quam] qui <hi rend="italic">Z</hi> 21 non possunt <lb/>
+            <hi rend="italic">Z</hi> • nec] ne Z <hi rend="italic">22 illa Z \' miramnr Z</hi> qui K, <lb/>
+            <lb/>
+            quia <hi rend="italic">Z,</hi> qui eam v 23 uirtus ista <hi rend="italic">Z,</hi> maturs matus ita <hi rend="italic">K corr. m</hi>. <lb/>
+            matura et v <hi rend="italic">a*feminis K, infimia Z 24 sic om. Z semper]</hi> <lb/>
+            omnibus <hi rend="italic">Z</hi> </note> <lb/>
+             
+<pb n="16"/>
+            obscoenum ludibrium reddens ministros suos, nec corporibus parcens nec <lb/>
+            animis. debellatis enim propriis moribus totum hominem suum sub <lb/>
+            triumphum libidinis mittit: blanda prius, ut plus noceat dum placet, <lb/>
+            exhauriens rem cum pudore, hostis continentiae, frequenter perueniens <lb/>
+            ad sanguinem cupiditatum infesta rabies, incendium conscientiae<lb n="5"/>
+            bonae, mater impaenitentiae, ruina melioris aetatis, contumelia generis, <lb/>
+            expugnans sanguinis et familiae fidem, alienis affectibus suos <lb/>
+            inserens filios, in aliena testamenta sobolem ignoti et corrupti generis <lb/>
+            inducens. quae plerumque extra sexum ardens, dum se non continet <lb/>
+            intra concessa, parum sibi putat satisfactum, nisi in uirorum quoque<lb n="10"/>
+            corporibus non uoluptatem nouam quaerat, sed extraordinaria et <lb/>
+            portentuosa contra ipsam naturam ex uiris per uiros monstra conquirat. <lb/>
+            </p>
+          </div>
+
+<div n="4" subtype="section" type="textpart"><p> Sed enim pudicitia locum primum in uirginibus tenet, secundum in <lb/>
+            continentibus, tertium in matrimoniis: uerum in omnibus gloriosa est <lb n="15"/>
+            cum gradibus suis. nam et matrimoniorum fidem tenere laus est inter <lb/>
+            tot corporis bella, et matrimonio de continentia modum statuisse maioris <lb/>
+            uirtutis est, dum etiam licita reiciuntur. certe ex utero sanctitatem <lb/>
+            custodisse et infantem se usque in senectutem in sua tota <lb/>
+            aetate tenuisse admirandae utique potentiae est: nisi quod blandas <lb n="20"/>
+            corporis leges non nosse magis felicitatis est, notas iam uicisse uirtutis <lb/>
+            est, sic tamen ut et uirtus ista de domo Dei ueniat, licet se in <lb/>
+            membris hominibus ostendat. 
+</p>
+          </div>
+
+<div n="5" subtype="section" type="textpart"><p> Pudicitiae, fratres, antiqua praecepta sunt. quare antiqua dico ? <lb/>
+            quia cum ipsis hominibus instituta sunt. nam ideo ex uiro suo et
+
+<note type="footnote"> 1 ministris suiB <hi rend="italic">К2v</hi> 2 suum om. <hi rend="italic">Z</hi> 9 blanda] et blandet <lb/>
+            <hi rend="italic">Z</hi> dum] ut <hi rend="italic">Z</hi> placeat <hi rend="italic">Z</hi> 4 peraeniet <hi rend="italic">Z</hi> 5 conscientiae] <lb/>
+            continentiae <hi rend="italic">Z</hi> 6 bonae m. impaenitentiae <hi rend="italic">om. Z</hi> contumelie <hi rend="italic">Z</hi> <lb/>
+            8 ingerens <hi rend="italic">Z</hi> 11 uoluntatem <hi rend="italic">K</hi> extraordinarie portentuosa quedam <lb/>
+            <hi rend="italic">Z</hi> 12 uirum <hi rend="italic">ex</hi> uiro <hi rend="italic">K m. 2</hi> 15 tertio <hi rend="italic">Kx uerum]</hi> <lb/>
+            saciu <hi rend="italic">Z</hi> est] sed <hi rend="italic">Z</hi> 16 suis om. <hi rend="italic">Z</hi> nam et] manet <hi rend="italic">Z</hi> est <lb/>
+            <hi rend="italic">om. Z</hi> 18 inlicita <hi rend="italic">K</hi> 19 in <hi rend="italic">ex</hi> i <hi rend="italic">K,</hi> ad <hi rend="italic">Z</hi> tota sua aetate <hi rend="italic">Z</hi> <lb/>
+            20 admiranda potentia est <hi rend="italic">Z</hi> plangas corporales Z 21 facilitatis <lb/>
+            <hi rend="italic">Z</hi> 22 ut et om. <hi rend="italic">Z</hi> domo <hi rend="italic">Kl,</hi> dono <hi rend="italic">K2 Zv</hi> <lb/>
+            23 homines <hi rend="italic">Z</hi> 24 quare ... instituta sunt <hi rend="italic">om. KXZ,</hi> add. <lb/>
+            tn <hi rend="italic">marg. K*</hi> 25 nam et t1 ex om. <hi rend="italic">Kt1</hi> uir suus n <lb/>
+            et om. n </note> <lb n="25"/>
+             
+<pb n="17"/>
+            femina est ut praeter eundem alterum nesciat, et ideo uiro reddita <lb/>
+            est mulier ut suppleto quod fuerat ei ereptum nihil requirat alienum. <lb/>
+            sic et duo inquit erunt in carne una, ut in unum redeat quod <lb/>
+            unum fuerat, ne separatio sine reditu occasionem praestet alterius. <lb/>
+            inde et apostolus caput mulieris pronuntiauit uirum, ut <sic>coniuno</sic> <lb n="5"/>
+            tione <sic>dnorum</sic> pudicitiam probaret. nam ut alterius caput membris <lb/>
+            aptum non potest esse, ita et alieno capiti membra non sua: caput <lb/>
+            enim suis conuenit membris et membra capiti suo, utraque naturali <lb/>
+            fibula in concordia mutua cohaerent, ne qua oriente discordia de <lb/>
+            <sic>dinisione</sic> membrorum pactum diuini foederis rumperetur. addit tamen <lb n="10"/>
+            et dicit: quoniam qui uxorem suam diligit, <sic>seipsum</sic> diligit. <lb/>
+            nemo enim carnem suam odio habet, sed nutrit et fouet eam, <lb/>
+            sicut et Christus ecclesiam. caritatis cum pudicitia ex hoc magna <lb/>
+            praescriptio, si uxores diligendae sunt a uiris suis, sicut Christus <lb/>
+            dilexit ecclesiam, et ita <choice n="0.77"><sic n="662">mores</sic><corr n="191">uxores</corr></choice> maritos debent diligere, ut ecclesia <lb n="15"/>
+            diligit Christum. 
+</p>
+          </div>
+
+<div n="6" subtype="section" type="textpart"><p rend="script">Hanc sententiam Christus quando uxorem dimitti non nisi ob adulterium  <lb/>
+            dixit interrogatus tantum honorem pudicitiae dedit. hinc nata <lb/>
+            est illa sententia: adulteras non sinetis uiuere. hinc <choice><sic>apofetolus</sic><corr>apostolus</corr></choice> <lb/>
+            dicit: haec est uoluntas Dei ut abstineatis uos a <lb n="20"/>
+            fornicatione. hinc et illud dicit: membra Christi membris <lb/>
+            meretricis non esse iungenda. hinc traditur satanae in
+
+<note type="footnote"> 3 Matth. 19, 6. 5 cf. I Cor. 11,3. 11 Eph. 5, 23. 29. 17 cf. • <lb/>
+            Matth. 5, 32. 19 Leu. 20, 10 20 Thess. 4, 3. 21 I Cor. 6,9.15, </note>
+
+<note rend="script" type="footnote"> 1 feminae <hi rend="italic">Kv,</hi> eundem] unum <hi rend="italic">Z</hi> 2 ut mulier <hi rend="italic">Z</hi> supleto <hi rend="italic">Z</hi> <lb/>
+            Bubleto K\', subiecto <hi rend="italic">K2V</hi> ei om. <hi rend="italic">K,</hi> et <hi rend="italic">Z</hi> erepto <hi rend="italic">Z,</hi> proprium v <lb/>
+            3 et sic duo erant inquit <hi rend="italic">Z</hi> in unum] unuiu <hi rend="italic">Z</hi> 4 separationi ne <lb/>
+            reditum occasionem praebeat <hi rend="italic">Z</hi> 5 pronunciat <hi rend="italic">Z</hi> coniunctionem <lb/>
+            <hi rend="italic">K</hi> 6 duorum pudicitiam] uiro rem pudicam <hi rend="italic">Z</hi> alterius caput <lb/>
+            <hi rend="italic">om. Z</hi> membris suis <hi rend="italic">Z</hi> 7 esse] apud alienum <hi rend="italic">add. Z</hi> et <hi rend="italic">om. Z</hi> <lb/>
+            non <hi rend="italic">om. Z</hi> 8 et <hi rend="italic">om. Z</hi> utrique ista naturalis <hi rend="italic">Z</hi> 9 mutua] <lb/>
+            ut ita <hi rend="italic">Z</hi> coherente <hi rend="italic">K,</hi> coherentem <hi rend="italic">Z</hi> qua om. <hi rend="italic">Z</hi> 10 addidit <lb/>
+            t. e. dixit <hi rend="italic">Z</hi> 12 eam] illam <hi rend="italic">Z</hi> 18 et <hi rend="italic">om. Z</hi> caritas <hi rend="italic">K</hi> <lb/>
+            cum <hi rend="italic">om. Z</hi> ex] ut <hi rend="italic">Z</hi> 14 si] ut sicut <hi rend="italic">Z</hi> suis <hi rend="italic">om. Z</hi> <lb/>
+            sicut et v, ut <hi rend="italic">Z</hi> 15 et <hi rend="italic">om. Z</hi>. 16 diligit] dilexit <hi rend="italic">Z</hi> 17 dixit <lb/>
+            christus <hi rend="italic">Z</hi> non om. <hi rend="italic">Z</hi> 18 nata] tanta <hi rend="italic">Z</hi> 19 adulteros] <hi rend="italic">Z</hi> <lb/>
+            20 dixit <hi rend="italic">Z</hi> 21 et dicit] nullum dcm <hi rend="italic">Z</hi> 22 sathana <hi rend="italic">Z</hi> </note>
+
+<note type="footnote">ni A </note>
+
+<note type="footnote"> 2 </note> <lb/>
+             
+<pb n="18"/>
+            interitum carnis qui proculcato iure pudicitiae uitia carnis exercet. hinc <lb/>
+            merito regnum caelorum non tenent adulteri, hinc est quod omne <lb/>
+            peccatum extra corpus dicit esse, solum adulterum peccare in suum <lb/>
+            corpus: hinc ceterae praeceptorum auctoritates quas nunc recolere <lb/>
+            omnes non est necesse apud uos praesertim qui illas nostis frequenter<lb n="5"/>
+            et facitis, quae licet descripta non sint, queruli tamen de illis non <lb/>
+            potestis esse. adulter enim non habet <choice><sic>ezcusationem</sic><corr>excusationem</corr></choice> aut habere potuit, <lb/>
+            quia ducere licebat uxorem. 
+</p>
+          </div>
+
+<div n="7" subtype="section" type="textpart"><p> Sed sicut matronis iura praescripta sunt quae ita sunt nexae, ut <lb/>
+            <choice><sic>dinelli</sic><corr>diuelli</corr></choice> inde non possint, uirginitas uero et continentia extra omne ius<lb n="10"/>
+            sunt: nihil ad uirginitatem de matrimoniorum legibus pertinet, altitudine <lb/>
+            sua transcendit omnes, ∗∗∗ si ulla praua hominum leges ausa <lb/>
+            supergredi conantur. uirginitas aequat se angelis: si uero exquiramus, <lb/>
+            etiam excedit, dum in carne luctata uictoriam etiam contra <lb/>
+            naturam refert quam non habent angeli. uirginitas quid aliud est<lb n="15"/>
+            quam <choice><sic>faturae</sic><corr>futurae</corr></choice> uitae gloriosa meditatio? uirginitas neutri est sexus, <lb/>
+            uirginitas est perseuerans infantia, uirginitas est uoluptatum triumphus, <lb/>
+            uirginitas filios non habet, sed quod plus est filiorum <choice><sic>contemptuifl</sic><corr>contemptum</corr></choice> <lb/>
+            habet, non habet fecunditatem sed non habet orbitatem, felix <lb/>
+            quod est extra partus dolorem felicior est autem extra funerum filiorum<lb n="20"/>
+            calamitatem. <choice><sic>nirginitas</sic><corr>uirginitas</corr></choice> quid aliud est quam soluta libertas?
+
+<note type="footnote"> 1 procul conculcat eoa <hi rend="italic">Z</hi> exercet] nescit <hi rend="italic">Z</hi> 2 regna <hi rend="italic">Z</hi> <lb/>
+            quod <hi rend="italic">om. v</hi> 3 dicit <hi rend="italic">om</hi>. Xx adulterium <hi rend="italic">K</hi> 4 praeceptoris v <lb/>
+            -auctoritatem <hi rend="italic">Z</hi> quae <hi rend="italic">om. Z</hi> colere <hi rend="italic">Z</hi> 5 praesertim qui <lb/>
+            illas] praeferuntque illas que nesds uel quas <hi rend="italic">Z</hi> et frequenter <hi rend="italic">Z</hi> <lb/>
+            6 descripta] districte <hi rend="italic">Z</hi> non om. <hi rend="italic">KZ</hi> sunt <hi rend="italic">Z</hi> quaerellae <lb/>
+            t. K, relata mente <hi rend="italic">Z</hi> 7 adulteri <hi rend="italic">Z</hi> enim om. <hi rend="italic">Z</hi> habet] <lb/>
+            obesse <hi rend="italic">Z</hi> quis aut haberet <hi rend="italic">Z,</hi> aut habet ant habere K 8 ducere <lb/>
+            <hi rend="italic">om. Z, add. in marg. K</hi> 9 sed om. <hi rend="italic">Z</hi> matrimoniis <hi rend="italic">Z</hi> ita <lb/>
+            sunt nec se K, sic non sunt fixa <hi rend="italic">Z</hi> 10 inde om. <hi rend="italic">Z</hi> Sit uirginitas <lb/>
+            <hi rend="italic">Z</hi> uero om. <hi rend="italic">Z</hi> 11 pertinent <hi rend="italic">Z</hi> 12 omnes] super <lb/>
+            hominem <hi rend="italic">Z</hi> si ulla] alta <hi rend="italic">Z</hi> praua h. leges om. <hi rend="italic">Z</hi> ausa] <lb/>
+            uasa <hi rend="italic">Z</hi> 13 supergredi <hi rend="italic">Ks.l.m.2, om. Z</hi> conantur] coronari <hi rend="italic">Z</hi> <lb/>
+            aequat se] equasse <hi rend="italic">Z</hi> requiramus <hi rend="italic">Z</hi> 14 excidit XI, extendit <hi rend="italic">Z</hi> <lb/>
+            15 referto <hi rend="italic">Z</hi> est aliud <hi rend="italic">Z</hi> 16 neuter est sexus K, uentere <lb/>
+            suum sexuus <hi rend="italic">Z,</hi> neutri sexus est b 17 est uirginitas uolūtum <lb/>
+            trinmplus <hi rend="italic">Z</hi> 18 est uirginitas etsi <hi rend="italic">Z</hi> est om. <hi rend="italic">Z</hi> contentu <hi rend="italic">Z</hi> <lb/>
+            19 sed non] sed <hi rend="italic">Z</hi> 20 est autem <hi rend="italic">om. Z,</hi> autem quod est v 21 est <lb/>
+            aliud v soluta] sola <hi rend="italic">Z</hi> </note><lb/>
+             
+<pb n="19"/>
+            maritum non habet dominum. uirginitas affectionibus omnibus soluta <lb/>
+            est, non matrimoniis est dicata, non saeculo, non liberis. persecutionem <lb/>
+            non potest timere, dum illam de securitate potest prouocare. 
+</p>
+          </div>
+
+<div n="8" subtype="section" type="textpart"><p>Sea quia pudicitiae nobis breuiter sunt exposita praecepta, iam  <lb/>
+            pudicitiae ponamus exemplum. plus enim <choice><sic>profieitur</sic><corr>proficitur</corr></choice>, cum in rem praesentem <lb n="5"/>
+            <choice><sic>uenitar</sic><corr>uenitur</corr></choice>, nec de uirtute dubitatur, quando quod praecipitur <lb/>
+            etiam exemplis <sic n="poss">saneitur</sic>. exemplum pudicitiae a Ioseph coepit. adolescens <lb/>
+            Hebraeus generosus de patre, generosior de innocentia, ob <lb/>
+            inuidiam. reuelationum distractus a fratribus Ismaelitis in domum <lb/>
+            deuenerat hominis Aegyptii. obsequio et innocentia et tota seruitutis <lb n="10"/>
+            fide facilem et beneuolum in se animum sui prouocauerat domini, <lb/>
+            <choice><sic>cnins</sic><corr>cuius</corr></choice> facies se et tam sermo liberalis quam aetas omnibus <choice><sic>conmendanerat</sic><corr>conmendauerat</corr></choice>. <lb/>
+            sed ista generositas ab uxore domini aliter quam decebat <lb/>
+            accepta est: in domus parte secreta et sine arbitris latebra facinoribus <lb/>
+            accommodata putauit se pudicitiam adolescentis incontinens mulieris <lb n="15"/>
+            inpudicitia nunc promissis nunc minis posse superare. et cum <lb/>
+            retentus est uestibus eo quod moliretur fugam propter tanti facinoris <lb/>
+            audaciam ipsas <choice><sic>nestes</sic><corr>uestes</corr></choice> relinquens et corporis nudi sinceritatem <lb/>
+            habiturus innocentiae testem ad crimen inpudicitiae suae <choice><sic>inpudensp</sic><corr>inpudens</corr></choice> <lb/>
+            mulier adicere non dubitauit calumniam: et ceteris et marito calida
+
+<note type="footnote"> 7 cf. Gen. 39, 7. </note>
+
+<note type="footnote"> 1 dominum <hi rend="italic">ex</hi> domi <hi rend="italic">Km</hi>. 2 affectibos <hi rend="italic">Z,</hi> aflFectationibus v 2 matrimonia <lb/>
+            <hi rend="italic">Z</hi> est dicata] abstupta <hi rend="italic">Z</hi> 3 cum illa <hi rend="italic">Z</hi> prouocare] <lb/>
+            procide aeu prouocare <hi rend="italic">Z</hi> 4 exposita] posita seu proposita <hi rend="italic">Z</hi> <lb/>
+            5 exempla <hi rend="italic">Z</hi> in] ad <hi rend="italic">Z</hi> repntetem <hi rend="italic">Z</hi> 6 dubitabitur v <lb/>
+            quando quod <hi rend="italic">K,</hi> cum id <hi rend="italic">Z</hi> praecipitur] praeceptis <hi rend="italic">Z</hi> 7 exemplis <lb/>
+            etiam <hi rend="italic">v</hi> sancitur <hi rend="italic">acripsi,</hi> sanatur <hi rend="italic">K,</hi> probatur <hi rend="italic">Z,</hi> signatur v pudidtiae <lb/>
+            <hi rend="italic">om. Z</hi> ab <hi rend="italic">Z</hi> coepit <hi rend="italic">om. Z</hi> 8 ebreus <hi rend="italic">Z,</hi> breuis <hi rend="italic">K</hi> <lb/>
+            ob] ad <hi rend="italic">Z</hi> 9 relationum <hi rend="italic">Z</hi> a f. hismaheijtis <hi rend="italic">K,</hi> is a maledictis <lb/>
+            fratribus <hi rend="italic">Z</hi> 10 hominis] hores <hi rend="italic">Z</hi> obsequio et innecentia om. <hi rend="italic">Z</hi> <lb/>
+            et de <hi rend="italic">Z</hi> 11 facile beniuolum <hi rend="italic">Z</hi> domini om. <hi rend="italic">Z</hi> 12 facies se <lb/>
+            <hi rend="italic">scripsi,</hi> facies <hi rend="italic">KZ,</hi> faciem <hi rend="italic">v</hi> et tam <hi rend="italic">K,</hi> etiam <hi rend="italic">Z,</hi> tam <hi rend="italic">v</hi> sermo] <lb/>
+            serno <hi rend="italic">Z</hi> ei aetas <hi rend="italic">Z</hi> commendaret <hi rend="italic">Z</hi> 13 sed] et <hi rend="italic">Z</hi> <lb/>
+            dñi sui <hi rend="italic">Z</hi> 14 accepta] aspecta Z arbitrii <hi rend="italic">Z</hi> ad latebra Z, <lb/>
+            adlata etiam <hi rend="italic">K,</hi> alta et <hi rend="italic">v</hi> facinoris <hi rend="italic">Z,</hi> facinorosis <hi rend="italic">K</hi> 15 putabat <lb/>
+            <hi rend="italic">Z</hi> mulier impudica <hi rend="italic">Z</hi> 16 et] sed <hi rend="italic">Z</hi> 17 est] ex <hi rend="italic">Z</hi> <lb/>
+            tmti <hi rend="italic">om. Z</hi> 18 relinquisset <hi rend="italic">Z</hi> et <hi rend="italic">om. Z</hi> sinceritate <hi rend="italic">Z</hi> <lb/>
+            19 inDOcentiam <hi rend="italic">K,</hi> innocentia <hi rend="italic">Z</hi> ad <hi rend="italic">om. Z</hi> imprudens v 20 temeritatem <lb/>
+            calumniae <hi rend="italic">Z</hi> et marito] maritoque <hi rend="italic">Z</hi> squalida <hi rend="italic">Kv</hi> </note>
+
+<note type="footnote"> 2* </note> <lb n="20"/>
+             
+<pb n="20"/>
+            et feruens spreto desiderio suo conquesta est dolore simulato, quod <lb/>
+            Hebraeus adolescens uim sibi molitus fuisset inferre quam ipsa conata <lb/>
+            fuerat inrogare. maritalis ardor rerum inscius et uxoris accusatione <lb/>
+            <sic>gran</sic> iter inflammatus incenditur. pudicus <choice n="0.00"><sic n="1">itero</sic><corr n="7062">uero</corr></choice> iuuenis quia delicto <lb/>
+            conscientiam non miscuit, in imum carceris truditur. sed sola non est<lb n="5"/>
+            in oarcere pudicitia: nam est cum Ioseph Deus et nocentes dantur <lb/>
+            in manu eius, quia ipse innocens fuerat. somniorum praeterea obscura <lb/>
+            dissoluit, quia spiritus in temptatione uigilabat, et per dominum <lb/>
+            liberatur a uinculis. qui in domo minor cum periculo fuerat, regiae <lb/>
+            domus sine periculo dominus effectus est: generositati suae redditus<lb n="10"/>
+            fructum pudicitiae et innocentiae Deo iudice a quo meruerat accepit. 
+</p>
+          </div>
+
+<div n="9" subtype="section" type="textpart"><p> Sed non minus ex parte diuersa aliud nobis pudicitiae simile d.e <lb/>
+            continentia feminarum exoritur exemplum. fuit, ut legimus, Susanna <lb/>
+            filia Helciae, uxor Ioachim pulcherrima facie, pulchrior moribus. hanc <lb/>
+            nullum ad decorem conmendabat species: simplex enim erat. excoluerat <lb n="15"/>
+            pudicitia et cum pudicitia sola natura. hanc ex senioribus duo <lb/>
+            coeperant deperire, nihil memores nec diuini timoris sed nec suae <lb/>
+            annis iam marcescentis aetatis: ita illos in flagrantia transactae iuuentutis <lb/>
+            incendia recidiuae libidinis <choice><sic>fiamma</sic><corr>flamma</corr></choice> reuocabat: pudicitiae latrones <lb/>
+            amorem confitentur, sed oderant. resistenti minantur calumnias,
+
+<note type="footnote"> 13 cf. Dan. 13. </note>
+
+<note type="footnote"> 1 suo <hi rend="italic">om. Z</hi> 2 tett hebreus <hi rend="italic">K</hi> ad. uim] adolescium <hi rend="italic">Z</hi> <lb/>
+            molibus <hi rend="italic">K</hi> conata] minata <hi rend="italic">Z</hi> 3 fuisset <hi rend="italic">Z</hi> uxoris] honoris <lb/>
+            <hi rend="italic">Z</hi> 4 inpudicus <hi rend="italic">Z</hi> uero om. <hi rend="italic">Z</hi> 5 imam <hi rend="italic">Xl Z</hi> traditur <lb/>
+            <hi rend="italic">KZ</hi> est et <hi rend="italic">Z</hi> 6 et nocentcs] innocentes <hi rend="italic">Z</hi> 7 in manu] sub <lb/>
+            manibus <hi rend="italic">Z</hi> ipse om. v 8 dissolui <hi rend="italic">K</hi> quia ... et <hi rend="italic">om. Z</hi> <lb/>
+            9 liberatus <hi rend="italic">Z</hi> a] ei <hi rend="italic">Z</hi> minor cum om. <hi rend="italic">Z</hi> cum <hi rend="italic">om. K</hi> <lb/>
+            fuerat] sed inerat <hi rend="italic">Z</hi> 10 domus regie <hi rend="italic">Z</hi> periculis <hi rend="italic">Z est]</hi> <lb/>
+            ei <hi rend="italic">Z</hi> 11 do <hi rend="italic">K sed</hi> o in <hi rend="italic">ras.,</hi> de <hi rend="italic">Z</hi> a quo] quem <hi rend="italic">Z</hi> 12 similis <lb/>
+            <hi rend="italic">KIZ</hi> 14 filia «elchiae <hi rend="italic">K,</hi> elchie filia <hi rend="italic">Z</hi> facie om. <hi rend="italic">Kv</hi> pulchrioribus <lb/>
+            <hi rend="italic">K</hi> 15 nullam <hi rend="italic">Z</hi> commendabant in specie <hi rend="italic">Z</hi> erat] <lb/>
+            eam <hi rend="italic">Z</hi> 16 pudicitiam K* ex s.] seniores <hi rend="italic">Z</hi> 17 timoris <lb/>
+            diuini <hi rend="italic">Z</hi> \' suis <hi rend="italic">Z</hi> 18 marcentes <hi rend="italic">Z</hi> aetatis <hi rend="italic">om. Z</hi> ita] <lb/>
+            nam <hi rend="italic">Z</hi> fraglantia <hi rend="italic">K,</hi> flagrantiam <hi rend="italic">Z</hi> transuectae <hi rend="italic">Z</hi> 19 incencidia <lb/>
+            <hi rend="italic">Z</hi> rediuiuae <hi rend="italic">Zv</hi> reuocaret <hi rend="italic">Z; add. idem liber:</hi> insidias <lb/>
+            infauste de simplicitate mulieri parant pudicitia uel <hi rend="italic">Z</hi> 20 amore <hi rend="italic">Z</hi> <lb/>
+            profitentur « oderunt <hi rend="italic">Z</hi> minantur] limantur <hi rend="italic">Z</hi> </note> <lb n="20"/>
+             
+<pb n="21"/>
+            <sic>adolterii</sic> se dicunt accusatores <choice n="0.24"><sic n="48">noto</sic><corr n="148">uoto</corr></choice> <choice><sic>adnlteri</sic><corr>adulteri</corr></choice>. inter duos libidinis <lb/>
+            <choice><sic>scopnlos</sic><corr>scopulos</corr></choice> auxilium de Domino petebat, quia uiribus corporis repugnare <lb/>
+            non ualebat. et <choice><sic>exaudinit</sic><corr>exaudiuit</corr></choice> de caelo clamantem ad se pudicitiam Dominus, <lb/>
+            et cum iniquitate obpressa duceretur ad poenam, uidit <sic>inimicerum</sic> <lb/>
+            liberata <choice><sic>nindictam</sic><corr>uindictam</corr></choice>. bis uictrix et in periculo suo tam funeste <lb n="5"/>
+            totiens consaepta et libidinem euasit et mortem. infinitum erit si <lb/>
+            exempla prosequar plura: his duobus contentus sum, praesertim cum <lb/>
+            omnibus sit uiribus per istos pudicitia defensata. 
+</p>
+          </div>
+
+<div n="10" subtype="section" type="textpart"><p>Non illos emollire potuit inuita generosi sanguinis memoria quae  <lb/>
+            in quosdam licentia <choice><sic>lasciniae</sic><corr>lasciuiae</corr></choice> est ministra, non decor corporis et apte <lb n="10"/>
+            <choice><sic>positorom</sic><corr>positorum</corr></choice> figura membrorum quae suggerit plerumque ut quasi flos <lb/>
+            quidam properantis uelociter transiturae aetatis porrectae uoluptatis <lb/>
+            occasione pascatur, non anni primi uirentis et maturioris aetatis, cum <lb/>
+            rudis adhuc sanguis <choice><sic>aestnans</sic><corr>aestuans</corr></choice> naturae flammas accendat et in <lb/>
+            medullis uersata caeca incendia ad remedium <choice><sic>tuerum</sic><corr>uerum</corr></choice> etiam per periculum <lb n="15"/>
+            pudoris itura: non ulla latebrarum et sine ullo conscio tuta <lb/>
+            quae quibusdam putatur occasio, quae maxima uis est admittendi <lb/>
+            sceleris, dum deliberationibus occurrit inpunitas: non posita necessitas <lb/>
+            de auctoritate iubentium et in temeritate participum atque <lb/>
+            sociorum, quo genere franguntur etiam recta saepe consilia: non <lb n="20"/>
+            praemia ipsa et bonitas, non accusationes, non minae, non poenae, non
+
+<note type="footnote"> 1 adulteris sed dicunt accusatori Z uoto] tuo Z adulteri <lb/>
+            <hi rend="italic">om. Z inter]</hi> posita mulier inter Z duos] quos v 2 deo <hi rend="italic">Z</hi> <lb/>
+            petebat] parebat Z qui Z niris <hi rend="italic">Kl,</hi> auxilio Z 3 ualebat] <lb/>
+            poterat <hi rend="italic">Z</hi> et <hi rend="italic">om. Z</hi> se clamantem ad <hi rend="italic">Z</hi> dominus] dans <hi rend="italic">Z</hi> <lb/>
+            4 inimicoram] unum eorum <hi rend="italic">Z</hi> 5 libera mendicata uix uictriJ: <hi rend="italic">Z</hi> <lb/>
+            et om. <hi rend="italic">Z</hi> 6 concepta <hi rend="italic">Z</hi> et lib.] a libidine <hi rend="italic">Z</hi> et m.] ac. <lb/>
+            morte <hi rend="italic">Z</hi> 7 exemplo <hi rend="italic">Z</hi> plura <hi rend="italic">om. Z</hi> conuentus <hi rend="italic">Z</hi> 8 sit u <lb/>
+            per istos] sed uiribus peritos <hi rend="italic">Z</hi> \' defensa zx 9 inuita <hi rend="italic">scripsi,</hi> in uita <lb/>
+            <hi rend="italic">XZrJ</hi> quae in] quem <hi rend="italic">Z</hi> 10 quibusdam <hi rend="italic">Z</hi> est minister <hi rend="italic">K sed</hi> est <lb/>
+            in <hi rend="italic">marg., ministrat Z</hi> decor] de <hi rend="italic">K\'Z</hi> 11 aggerit <hi rend="italic">Z</hi> 12 pi-operaos <lb/>
+            n et uelociter transitis <hi rend="italic">Z</hi> porrecta 11 uoluntatis <hi rend="italic">Z</hi> <lb/>
+            13 et <hi rend="italic">Z,</hi> sed <hi rend="italic">Kv</hi> maturioris <hi rend="italic">scripsi,</hi> maioris <hi rend="italic">K sed</hi> ai <hi rend="italic">in ras.,</hi> melioris <lb/>
+            <hi rend="italic">Z</hi> 14 rudis] iuris <hi rend="italic">Z</hi> accendit <hi rend="italic">Z</hi> 15 uersata <hi rend="italic">om. Z</hi> caeca] <lb/>
+            caecanerat <hi rend="italic">Z</hi> uerum] suum <hi rend="italic">Z;</hi> erumpant <hi rend="italic">fort</hi>. 16 nullo consocio <hi rend="italic">Z</hi> <lb/>
+            quae tota <hi rend="italic">v,</hi> tuta <hi rend="italic">KZ</hi> 17 putatur] tutatur <hi rend="italic">K</hi> 18 dum] cum <hi rend="italic">v</hi> <lb/>
+            liberationibus <hi rend="italic">Z</hi> imposita <hi rend="italic">Z</hi> necessita <hi rend="italic">Kl,</hi> nec adsistas <hi rend="italic">Z</hi> <lb/>
+            19 participium <hi rend="italic">Z</hi> 20 frangantur <hi rend="italic">Z</hi> saepe recta 11 21 et bonitas] <lb/>
+            aut cadunt <hi rend="italic">sepe</hi> et oini <hi rend="italic">Z</hi> accusationi <hi rend="italic">Z</hi> non minae] nomine <hi rend="italic">Z</hi> </note> <lb/>
+             
+<pb n="22"/>
+            mortes: nihil tam saeuum, tam durum, tam triste, quam cecidisse de <lb/>
+            alto pudicitiae gradu. digni tanto iudicis diuini praemio, quorum alter <lb/>
+            regio paene throno inlustraretur, altera concordia mariti dotata inimicorum <lb/>
+            mortibus redimeretur. haec sunt et his similia semper nobis <lb/>
+            ante oculos exempla. ponenda, his paria diebus noctibusque meditanda. <lb n="5"/>
+            
+</p>
+          </div>
+
+<div n="11" subtype="section" type="textpart"><p> Nihil animum fidelem sic delectat quam integra inmaculati pudoris <lb/>
+            conscientia. uoluptatem uicisse uoluptas est maxima: nec ulla maior <lb/>
+            est uictoria quam ea quae de cupiditatibus refertur. qui hostem uicit <lb/>
+            fortior fuit, sed altero: qui libidinem repressit se ipso fortior fuit: <lb/>
+            qui inimicum prostrauit externum hostem percussit : qui cupiditatem<lb n="10"/>
+            depressit hostem domesticum superauit. malum omne facilius uincitur <lb/>
+            quam uoluptas, quia illud quidquid est horridum est, hoc blandum est. <lb/>
+            nihil tam difficile obprimitur quam quod per illud armatur. qui cupiditates <lb/>
+            tollit et metus sustulit: nam ex cupiditatibus metus ueniunt. <lb/>
+            qui cupiditates <choice><sic>nicit</sic><corr>uicit</corr></choice> de peccato triumphauit, qui cupiditates uicit malum <lb n="15"/>
+            generis humani sub pedibus suis iacere ostendit, qui cupiditates <lb/>
+            uicit pacem sibi perpetuam dedit, qui cupiditates uicit libertatem sibi <lb/>
+            quod est etiam ingenuis difficillimum reddidit. meditanda est ergo <lb/>
+            nobis, fratres, ut res docent, semper pudicitia: quo facilior sit, nullis <lb/>
+            artibus constat. quae enim illam consummat uoluntas est, quae nec nisi
+
+<note type="footnote"> 1 mortis <hi rend="italic">Z,</hi> mores <hi rend="italic">Kl</hi> senos <hi rend="italic">Z</hi> durum fuit <hi rend="italic">Z</hi> 2 diuini <lb/>
+            iudicis <hi rend="italic">Z</hi> alterne <hi rend="italic">Z</hi> 3 regio] religio <hi rend="italic">Z</hi> altera] alter <hi rend="italic">K,</hi> <lb/>
+            alter alterum <hi rend="italic">Z</hi> concordia m. d.] concordando totam <hi rend="italic">Z</hi> 4 mortibus] <lb/>
+            mortui <hi rend="italic">Z</hi> redderetur <hi rend="italic">KZ</hi> 6 anime <hi rend="italic">Z</hi> integram <hi rend="italic">Z</hi> <lb/>
+            inmaculata <hi rend="italic">K</hi> cu 8. <hi rend="italic">I.,</hi> maculari <hi rend="italic">Z</hi> 7 conscientiam <hi rend="italic">Z</hi> uoluntatem <lb/>
+            u. uoluntas <hi rend="italic">KZ</hi> nulla <hi rend="italic">Z</hi> 8 ea <hi rend="italic">om. Z</hi> de <hi rend="italic">om. K</hi> cnpiditate <lb/>
+            <hi rend="italic">Z</hi> 9 altero] et aliter <hi rend="italic">Z</hi> 10 qui c. d. hostem] cupiditatis <hi rend="italic">Z</hi> <lb/>
+            11 superauit <hi rend="italic">om. Z</hi> omne] nonne <hi rend="italic">Z</hi> \' 12 quam <hi rend="italic">om. Z</hi> quia] <lb/>
+            quam <hi rend="italic">Z</hi> quidquid] quod <hi rend="italic">Z</hi> orrid.ū.est <hi rend="italic">K,</hi> horridum <hi rend="italic">Z</hi> hic <hi rend="italic">K</hi> <lb/>
+            blandum] placencia <hi rend="italic">Z</hi> 13 armatur] quod amatur quod non esset <hi rend="italic">Z</hi> <lb/>
+            cupiditate <hi rend="italic">Z</hi> 14 tollat <hi rend="italic">Kl</hi> metum <hi rend="italic">Z</hi> 15 cupiditate <hi rend="italic">Z</hi> <lb/>
+            cupiditatem <hi rend="italic">Z</hi> uincit <hi rend="italic">Kv</hi> triumphat <hi rend="italic">v</hi> uincit <hi rend="italic">Kv;<lb/>
+             add. Z:</hi> mundo ipso superior fuit qui uerum se discipulum christi probauit <lb/>
+            qui antiquum 17 cupiditate Z 18 quod] querit <hi rend="italic">Z</hi> <lb/>
+            etiam est <hi rend="italic">v,</hi> etiam <hi rend="italic">Z</hi> in ingenuis <hi rend="italic">K</hi> reddit v est <hi rend="italic">om. v</hi> <lb/>
+            19 a nobis <hi rend="italic">K</hi> ut res] uirtutes <hi rend="italic">Z</hi> quo] que quam Z 20 illam <lb/>
+            consumat <hi rend="italic">Z,</hi> illa consummata <hi rend="italic">Kv</hi> est <hi rend="italic">om. K</hi> nec nisi <hi rend="italic">scripsi.,</hi> <lb/>
+            nec Z, nisi Kv; <hi rend="italic">sed uerba grauius corrupta uidentur</hi> </note> <lb n="20"/>
+             
+<pb n="23"/>
+            inpediretur, longe esset. nostra est: ita non est adquirenda, sed <lb/>
+            <choice><sic>fonenda</sic><corr>fouenda</corr></choice> quae nostra est. 
+</p>
+          </div>
+
+<div n="12" subtype="section" type="textpart"><p>Quid est enim aliud pudicitia quam mens honesta ad custodiam  <lb/>
+            corporis data, ut sexibus redditus <choice><sic>pndor</sic><corr>pudor</corr></choice> seueritate signatus fidem <lb/>
+            generis de <choice><sic>incorrapta</sic><corr>incorrupta</corr></choice> sobole seruaret? pudicitiae autem, fratres, conpetunt <lb n="5"/>
+            et cogniti sunt in primis diuinus pudor et praeceptorum sancta <lb/>
+            meditatio et animus propensus ad fidem et mens attonita ad sacram <lb/>
+            religionem: deinde <choice><sic>nidere</sic><corr>uidere</corr></choice>, ne quid in se sit ultra modum sculptum, <lb/>
+            ultra honestatem productum, ne quid prodigum, ne quid arte fucatum, <lb/>
+            ne quid ad inritandos aut detinendos oculos lenocinatum. non est <lb n="10"/>
+            pudica quae adfectat animum alterius <choice n="0.21"><sic n="66">monere</sic><corr n="243">mouere</corr></choice> etiam <choice n="0.61"><sic n="316">salus</sic><corr n="200">salua</corr></choice>. corporis <lb/>
+            castitate. longe absint quibus pulchritudo non ornatur, sed prostituitur. <lb/>
+            nam sollicitudo de pulchritudine et malae mentis indicium et <lb/>
+            deformitatis est. sit natura corporum libera nec diuinis operibus inferatur <lb/>
+            uis. semper est misera quae sibi non placet qualis est. quid <lb n="15"/>
+            capillorum mutatur color? quid oculorum extremitates <sic n="poss">suffucantur</sic> ? <lb/>
+            quid facies artibus in diuersam formam conuertitur? quid postremo <lb/>
+            speculum consulitur, nisi quia ne ipsa sit timetur? cultus etiam mulieris <lb/>
+            pudicae pudicus sit: adulterium fidelis nec in coloribus nouerit. <lb/>
+            uestibus aurum intexere quasi pretio est uestes corrumpere. quid <lb n="20"/>
+            inter fila staminum delicata rigida faciunt metalla? nisi ut <choice><sic>fiuentes</sic><corr>fluentes</corr></choice>
+
+<note type="footnote"> 1 impenditur si <hi rend="italic">Z</hi> esset Z, est sed <hi rend="italic">Kv</hi> nostra enim <hi rend="italic">malim <lb/>
+            non om. Z 2 fauenda K, fruenda Z</hi> 3 enim est v a custodia <lb/>
+            <hi rend="italic">Z</hi> 4 sexubus <hi rend="italic">Z</hi> deditus <hi rend="italic">Z,</hi> reditum <hi rend="italic">K</hi> seueritatem <lb/>
+            agnatar fides <hi rend="italic">Z</hi> 5 generis <hi rend="italic">Z,</hi> oneria <hi rend="italic">K,</hi> honoris f) fratres <lb/>
+            om. <hi rend="italic">Z</hi> 6 cogniti] conata <hi rend="italic">Z</hi> pndor] timor <hi rend="italic">Z</hi> 7 propenais <lb/>
+            <hi rend="italic">Z</hi>. profensns <hi rend="italic">K</hi> ad fidem] et fides <hi rend="italic">Z</hi> actonita <hi rend="italic">Z</hi> 8 sit <lb/>
+            om. a modum] domum <hi rend="italic">Z</hi> scnltum Kl, ezcultum <hi rend="italic">Z</hi> 9 prodnetam <lb/>
+            K1 prodiguum <hi rend="italic">Z,</hi> proditum Kv arte <hi rend="italic">om. Z</hi> 10 ne <lb/>
+            quid cm. <hi rend="italic">Z</hi> ad <hi rend="italic">om. Z</hi> et andetinendos <hi rend="italic">Z,</hi> aut redintegrandos <lb/>
+            <hi rend="italic">Kc</hi> occnlos <hi rend="italic">Z,</hi> dolos <hi rend="italic">Kv</hi> lenocinantium <hi rend="italic">K</hi> 11 alterius] <lb/>
+            adulterium <hi rend="italic">Z</hi> 13 nam] autem <hi rend="italic">Z</hi> et malae mentis] alimentis <hi rend="italic">Z</hi> <lb/>
+            et deformitatis iudicium <hi rend="italic">Z</hi> 14 est sit natura] signatum <hi rend="italic">Z</hi> corporis <lb/>
+            v inf. nis] suis inferatur <hi rend="italic">Z</hi> 16 suffocantur <hi rend="italic">K,</hi> infuscantur <lb/>
+            <hi rend="italic">Z,</hi> snfiucantur <hi rend="italic">v</hi> 17 actibus <hi rend="italic">K</hi> diuersa forma <hi rend="italic">Z</hi> 18 secutam <lb/>
+            <hi rend="italic">Z</hi> timetur ne ipse sit <hi rend="italic">Z</hi> mulieris p. p. sit] mulieri <lb/>
+            podicirie pudica sed <hi rend="italic">Z</hi> 19 adulterium] ad ultimum <hi rend="italic">K</hi> fidelia. <lb/>
+            Nec <hi rend="italic">K</hi> 20 nestis est <hi rend="italic">Z</hi> 21 filias taminis delicatas <hi rend="italic">Z</hi> rigida] <lb/>
+            flida <hi rend="italic">Z</hi> nt f. humeros] efluentis umerus <hi rend="italic">Z</hi> </note> <lb/>
+             
+<pb n="24"/>
+            humeros premant et luxuriam infeliciter se animi iactantis ostendant. <lb/>
+            quid cum ceruices peregrinis lapidibus urgentur et absconduntur, <lb/>
+            quorum pretia etiam sine artibus kalendarium cuiusuis excedunt? <lb/>
+            non ornatur mulier, sed uitia mulieris ostenduntur. quid cum digiti <lb/>
+            tali auro onerati nec intrare possunt nec egredi? utrum usus exposcit<lb n="5"/>
+            an patrimoniorum inanis pompa monstratur ? mirum negotium, <lb/>
+            mulieres ad omnia delicatae ad uitiorum sarcinas fortiores sunt uiris. 
+</p>
+          </div>
+
+<div n="13" subtype="section" type="textpart"><p> Sed ut repetam quae coeperam, colenda semper est pudicitia et <lb/>
+            uiris et feminis, omni custodia <choice><sic>seruarida</sic><corr>seruanda</corr></choice> est intra limites suos. cito de <lb/>
+            natura corporis periclitatur in corpore, dum rapit illam secum caro<lb n="10"/>
+            quae semper in lapsu est. sub praetexto quippe naturae quae homines <lb/>
+            semper urguet ad affectus, quibus <choice><sic>ruiuae</sic><corr>ruinae</corr></choice> conlapsi generis resarciuntur, <lb/>
+            blandimento uoluptatis fallens non ducit ad continentiam legitimae <lb/>
+            coniunctionis sobolem, sed iactat in crimen. ergo contra has <lb/>
+            carnis insidias, quibus se diabolus et socium inserit et ducem, obluctandum<lb n="15"/>
+            est omni genere uirtutis. adsumantur secundum apostolum <lb/>
+            Christi opera et a consortio carnis in quantum potest animus colligatur, <lb/>
+            separetur omnis sensus a corpore, uitia semper castigentur ut <lb/>
+            odiantur, ante oculos obuersetur deformis iste atque deiectus peccati <lb/>
+            pudor, paenitentia ipsa cum luctibus suis quae commissorum criminum <lb n="20"/>
+            inhonesta contestatio est. nihil consideretur curiose in alienis
+
+<note type="footnote"> 1 et <hi rend="italic">om. Zv</hi> se <hi rend="italic">om. v</hi> animi] autem <hi rend="italic">Z</hi> ostendat <hi rend="italic">Z</hi> <lb/>
+            2 quid] nam <hi rend="italic">Z</hi> abscondentur Z 3 etiam] enim <hi rend="italic">Z</hi> calendarum <lb/>
+            <hi rend="italic">K;</hi> cilindrorum onus <hi rend="italic">coni. Erasmus, sed conf. Tertull. de cuitu<lb/>
+             fem. I 8:</hi> graciles aurium cutes kalendarium excedunt cuiusuis <lb/>
+            urbis <hi rend="italic">Z</hi> 5 tali] quid cum tali <hi rend="italic">K,</hi> circumdati <hi rend="italic">Z</hi> honorati <hi rend="italic">Z</hi> <lb/>
+            nec] ne <hi rend="italic">Z</hi> intrari <hi rend="italic">K sed</hi> ri <hi rend="italic">in ras. et altertt-m</hi> r. <hi rend="italic">s. I.,</hi> ingredi <hi rend="italic">Z</hi> <lb/>
+            nec egredi <hi rend="italic">om. Z</hi> exposcitur Kv 7 mulieris <hi rend="italic">Z</hi> delicata <hi rend="italic">Z</hi> <lb/>
+            8 sed] sic <hi rend="italic">Z</hi> est <hi rend="italic">om</hi>. v et a uiris <hi rend="italic">Z,</hi> uiris v 9 et a <hi rend="italic">Z</hi> <lb/>
+            est] et <hi rend="italic">Z</hi> - limites] milites <hi rend="italic">Z</hi> de <hi rend="italic">om. v</hi> 11 labzum <hi rend="italic">Z</hi> <lb/>
+            praetecto <hi rend="italic">Z,</hi> praetextu b 12 ad <hi rend="italic">om. Z</hi> quibus] Quippe <hi rend="italic">Z</hi> <lb/>
+            resarciunturj reiciuntur <hi rend="italic">Z</hi> 13 uoluntatis <hi rend="italic">Z</hi> continentiam om. <lb/>
+            <hi rend="italic">Z,</hi> conscientiam <hi rend="italic">K</hi> 15 <hi rend="italic">post</hi> insidias <hi rend="italic">ras. 7 litt. in K</hi> se diabolus] <lb/>
+            sedibus <hi rend="italic">Z</hi> ingerit <hi rend="italic">v</hi> ducem] docet <hi rend="italic">Z,</hi> ducem facit v <lb/>
+            16 assumatur <hi rend="italic">v</hi> 17 a <hi rend="italic">om. Z</hi> in <hi rend="italic">om. v</hi> 18 omnes sensus <lb/>
+            <hi rend="italic">Z,</hi> consensus <hi rend="italic">Kv</hi> uitia] uite <hi rend="italic">Z</hi> 19 odiatur <hi rend="italic">Z</hi> obseruetur <lb/>
+            <hi rend="italic">K</hi> deformis iste] deformis esse <hi rend="italic">K,</hi> deformitas <hi rend="italic">Z</hi> 20 pudor. <lb/>
+            Paenitentia <hi rend="italic">sic distinguit v</hi> ipsis <hi rend="italic">Z</hi> quae <hi rend="italic">om</hi>. v 21 contestatio] <lb/>
+            commutatio <hi rend="italic">Z</hi> curiose consideretur <hi rend="italic">Z</hi> </note> <lb/>
+             
+<pb n="25"/>
+            <sic>naltibus</sic>. sermo et breuis sit et sobrius risus, signum est enim animi <lb/>
+            facilis et remissi: nam contactus recedat etiam honestus. nihil corpori <lb/>
+            liceat, ubi quid uitandum est corporis uitium. cogitetur quam <lb/>
+            honestum sit uicisse dedecus, quam inhonestum uictum esse dedecore. 
+</p>
+          </div>
+
+<div n="14" subtype="section" type="textpart"><p>Dicendum etiam, quod adalterium uoluptas non est, sed mutua  <lb n="5"/>
+            contumelia: nec delectare potest quod <sic>ot</sic> animam interficiat <sic>ot</sic> pudorem. <lb/>
+            coerceat animus stimulos carnis, refrenet impetum corporis. <lb/>
+            accepit enim hanc potestatem, ut illi ad imperium eius membra <choice><sic>sernirent</sic><corr>seruirent</corr></choice>, <lb/>
+            et quasi legitimus ac perfectus auriga ultra concessas <choice><sic>corjioris</sic><corr>corporis</corr></choice> <lb/>
+            metas extollentes se carnis impetus <sic>caelostium</sic> praeceptorum habenis <lb n="10"/>
+            reflectat, ne ultra terminos suos currus iste corporis raptus in periculum <lb/>
+            suum secum et ipsum rapiat aurigam. sed inter haec, immo et <lb/>
+            ante haec, contra turbas et uitia omnia de diuinis castris auxilium <lb/>
+            petendum est: solus est enim potens Deus qui homines dignatus est <lb/>
+            facere et plena homiuibus auxilia praestare. ego pauca dictaui, quoniam <lb n="15"/>
+            non est propositum uolumina scribere, sed adlocutionem transmittere. <lb/>
+            uos scripturas <choice n="0.93"><sic n="14">aspicite</sic><corr n="1">aspicito</corr></choice>, exempla <choice n="0.60"><sic n="4825">nobis</sic><corr n="3215">uobis</corr></choice> de ipsis praeceptis <lb/>
+            <sic>hnina</sic> rei maiora conquirite. fratres carissimi, bene ualete.
+
+<note type="footnote"> 1 sermo... sobrius <hi rend="italic">om. Z</hi> risus] uisus <hi rend="italic">Z</hi> enim <hi rend="italic">om. Z<lb/>
+             t</hi> et] ac <hi rend="italic">Z</hi> nam] non <hi rend="italic">Z</hi> recedat] regebat <hi rend="italic">Z</hi> 3 quid <hi rend="italic">om. v</hi> <lb/>
+            aitamdum <hi rend="italic">Z</hi> corpori uitium est <hi rend="italic">Z</hi> concitetur quam honestus <hi rend="italic">Z</hi> <lb/>
+            4 uicisaet <hi rend="italic">Z</hi> 5 uoluntas K 6 nee] sed nec <hi rend="italic">Z</hi> delectari <hi rend="italic">K</hi> <lb/>
+            quod et] qui eciam <hi rend="italic">Z</hi> interflcit et pudore <hi rend="italic">Z</hi> 7 et animus <hi rend="italic">Z</hi> <lb/>
+            stimulus <hi rend="italic">K\'Z</hi> refrenat <hi rend="italic">K,</hi> et refrenet <hi rend="italic">Z</hi> 8 accipit <hi rend="italic">Z</hi> 10 extollentis <lb/>
+            <hi rend="italic">Z</hi> caelestium ... <hi rend="italic">1. 12</hi> sed inter <hi rend="italic">om. Z</hi> 11 currum <hi rend="italic">K</hi> <lb/>
+            12 et <hi rend="italic">om. K</hi> 13 turbas et] ista <hi rend="italic">Z</hi> omnia de] oratio <hi rend="italic">Z</hi> <lb/>
+            auxilium <hi rend="italic">om. KZ</hi> \' 14 solus enim potens est <hi rend="italic">v,</hi> enim solus est peandus <lb/>
+            <hi rend="italic">Z</hi> hominem <hi rend="italic">Z</hi> 15 et plena] si de <hi rend="italic">Z</hi> quo <hi rend="italic">ex</hi> qui <lb/>
+            <hi rend="italic">K,</hi> quia <hi rend="italic">Z</hi> 16 uolumine <hi rend="italic">K,</hi> uolumen <hi rend="italic">v</hi> 17 scriptura inspicite <lb/>
+            et <hi rend="italic">Z</hi> 18 huius rei praeceptis <hi rend="italic">Z</hi> ac bene ualete frs cmi semper <lb/>
+            in dno <hi rend="italic">Z</hi>. — Erplicit de bono pudicitiac <hi rend="italic">K,</hi> Caecilii Cipriani de pudiieia <lb/>
+            explicit <hi rend="italic">Z</hi>. — </note> <lb/>
+             
+<pb n="26"/>
+            
+</p>
+        
+</div>
+        </div>
+</body>
+</text>
+</TEI>
