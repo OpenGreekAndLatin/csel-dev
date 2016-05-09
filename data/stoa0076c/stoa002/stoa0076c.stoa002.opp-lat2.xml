@@ -72,7 +72,7 @@
 </p>
       <refsDecl n="CTS">
         <cRefPattern n="section" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])"/>
-        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']/tei:div[@n='$2' and @subtype='chapter'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
         <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
@@ -134,7 +134,7 @@
             me omnique ex parte pauperrimum ad communionem tanti  <lb/>
             operis dignaris accersire.</p></div>
 
-<div n="8" subtype="section" type="textpart"><p>in prouincia siquidem coenobiorum <lb/>
+<div n="3" subtype="section" type="textpart"><p>in prouincia siquidem coenobiorum <lb/>
             experti Orientalium maximeque Aegyptiorum uolens instituta <lb/>
             fundari, cum sis ipse cunctis uirtutibus scientiaque perfectus <lb/>
             et uniuersis ita refertus diuitiis spiritalibus, ut perfectionem <lb/>

@@ -70,8 +70,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="line" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:l[@n='$2'])"/>
-        <cRefPattern n="poem" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='poem'])"/>
+        <cRefPattern n="poem" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -13158,9 +13157,7 @@
 </div>
 
 <div n="30" subtype="poem" type="textpart">
-</div>
-
-<div n="1" subtype="section" type="textpart"><ab> <title>XXX.  (BASILIOAE VETERIS INSCRIPTIONES.)</title> </ab>
+<ab> <title>XXX.  (BASILIOAE VETERIS INSCRIPTIONES.)</title> </ab>
 <p>. Felicis penetral,! prisco uenerabile cultu <lb/>
             lux noua diffusis nunc aperit spatiis. <lb/>
             angusti memores solii gaudete uidentes <lb/>
