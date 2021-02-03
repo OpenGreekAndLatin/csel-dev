@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
             <titleStmt>
-                <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+                <title>Evangeliorum libri quattuor</title>
+                <author>Juvencus, Caius Vettius Aquilinus<author>
+                    <editor>Johann Huemer</editor>
                 <sponsor>University of Leipzig</sponsor>
                 <funder>European Social Fund Saxony</funder>
                 <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
             
             <publicationStmt>
                 <authority>University of Leipzig</authority>
-                <idno type="filename">CSEL24.xml</idno>
+                <idno type="filename">stoa0169a.stoa002.opp-lat2.xml</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
                 </availability>
@@ -42,18 +44,19 @@
             <sourceDesc>
                 <listBibl xml:lang="lat">
                     <biblStruct>
-                        <monogr>
-                            <editor>
+                        <monogr>                                                       
+                         <author>Juvencus, Caius Vettius Aquilinus</author>
+                          <title>Evangeliorum Libri Quattuor</title>
+                              <editor>
                                 <persName>
                                     <name xml:lang="lat">Iohannes Huemer</name>
-                                    <addName xml:lang="de">Johann Huemer</addName>
+                                    <addName xml:lang="deu">Johann Huemer</addName>
                                 </persName>
-                            </editor> 
-                          <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1542.1">Iuvencius</author>  
-                          <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0169a.stoa002.opp-lat2">Evangeliorum Libri Quattuor</title>
+                            </editor>
                             <imprint>
-                                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                                <pubPlace>Wien, Österreich</pubPlace>
+                                <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
+                                <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                                <pubPlace xml:lang="deu">Wien, Österreich</pubPlace>
                                 <date>1891</date>
                             </imprint>
                             <biblScope unit="volume">24</biblScope>
@@ -78,6 +81,7 @@
         <profileDesc>
             <langUsage>
                 <language ident="lat">Latin</language>
+                          <language ident="deu">German</language>
             </langUsage>
         </profileDesc>
         
