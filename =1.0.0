@@ -1,0 +1,93 @@
+Collecting HookTest
+  Downloading HookTest-1.3.1.tar.gz (208 kB)
+Collecting MyCapytain>=3.0.0
+  Downloading MyCapytain-3.0.2.tar.gz (58 kB)
+Collecting jingtrang==0.1.1
+  Downloading jingtrang-0.1.1.tar.gz (1.4 MB)
+Collecting requests>=2.8.1
+  Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+Collecting prettytable==0.7.2
+  Downloading prettytable-0.7.2.tar.bz2 (21 kB)
+Collecting ansicolors==1.0.2
+  Downloading ansicolors-1.0.2.tar.gz (3.1 kB)
+Collecting validators>=0.12.6
+  Downloading validators-0.18.2-py3-none-any.whl (19 kB)
+Requirement already satisfied: six>=1.10.0 in /home/travis/virtualenv/python3.5.10/lib/python3.5/site-packages (from MyCapytain>=3.0.0->HookTest) (1.15.0)
+Collecting lxml>=3.6.4
+  Downloading lxml-4.6.2-cp35-cp35m-manylinux1_x86_64.whl (5.5 MB)
+Collecting future>=0.16.0
+  Downloading future-0.18.2.tar.gz (829 kB)
+Collecting rdflib-jsonld>=0.4.0
+  Downloading rdflib-jsonld-0.5.0.tar.gz (55 kB)
+Collecting LinkHeader>=0.4.3
+  Downloading LinkHeader-0.4.3.tar.gz (4.2 kB)
+Collecting pyld>=1.0.3
+  Downloading PyLD-2.0.3.tar.gz (70 kB)
+Collecting typing
+  Downloading typing-3.7.4.3.tar.gz (78 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/travis/virtualenv/python3.5.10/lib/python3.5/site-packages (from requests>=2.8.1->HookTest) (2020.6.20)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.3-py2.py3-none-any.whl (137 kB)
+Collecting idna<3,>=2.5
+  Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+Collecting chardet<5,>=3.0.2
+  Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+Collecting decorator>=3.4.0
+  Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting rdflib>=4.2.2
+  Downloading rdflib-5.0.0-py3-none-any.whl (231 kB)
+Collecting cachetools
+  Downloading cachetools-4.2.1-py3-none-any.whl (12 kB)
+Collecting frozendict
+  Downloading frozendict-1.2.tar.gz (2.6 kB)
+Requirement already satisfied: pyparsing in /home/travis/virtualenv/python3.5.10/lib/python3.5/site-packages (from rdflib>=4.2.2->rdflib-jsonld>=0.4.0->MyCapytain>=3.0.0->HookTest) (2.4.7)
+Collecting isodate
+  Downloading isodate-0.6.0-py2.py3-none-any.whl (45 kB)
+Building wheels for collected packages: HookTest, MyCapytain, jingtrang, prettytable, ansicolors, future, rdflib-jsonld, LinkHeader, pyld, typing, frozendict
+  Building wheel for HookTest (setup.py): started
+  Building wheel for HookTest (setup.py): finished with status 'done'
+  Created wheel for HookTest: filename=HookTest-1.3.1-py3-none-any.whl size=211740 sha256=d26eceea1dfc6d7481d234db613ee00e57ff2fe788a913a8364e30a0ef6e613c
+  Stored in directory: /home/travis/.cache/pip/wheels/8d/ed/7a/78433e2a7621bd82592a912e320c7238ed26aad54f6258d7cb
+  Building wheel for MyCapytain (setup.py): started
+  Building wheel for MyCapytain (setup.py): finished with status 'done'
+  Created wheel for MyCapytain: filename=MyCapytain-3.0.2-py3-none-any.whl size=79694 sha256=1287c1ab90d266eff42485acd83d2ff6604ef7afa1d41397b1c809ee9fac9669
+  Stored in directory: /home/travis/.cache/pip/wheels/ae/42/3c/9995ad79710de1648136f6dc2642bf62a97ed21ab1d076ac73
+  Building wheel for jingtrang (setup.py): started
+  Building wheel for jingtrang (setup.py): finished with status 'done'
+  Created wheel for jingtrang: filename=jingtrang-0.1.1-py2.py3-none-any.whl size=1343623 sha256=595e94038076f1ad8e9cdee1527fdeee0dc4134c7002164712af5129b5651c51
+  Stored in directory: /home/travis/.cache/pip/wheels/b3/90/cc/e73e0d7c12b6e171e9e7ac99bb36b3b9f7ed3a9568ca1e6aec
+  Building wheel for prettytable (setup.py): started
+  Building wheel for prettytable (setup.py): finished with status 'done'
+  Created wheel for prettytable: filename=prettytable-0.7.2-py3-none-any.whl size=13700 sha256=be2dccd642a2a8deaa4c178f9be7932d49a7e6b20ebfb0a5b4798f93a4be43e7
+  Stored in directory: /home/travis/.cache/pip/wheels/d6/32/2e/336de55091b6c1a736f3e21d0cb74283f56ed266b57dd9f98d
+  Building wheel for ansicolors (setup.py): started
+  Building wheel for ansicolors (setup.py): finished with status 'done'
+  Created wheel for ansicolors: filename=ansicolors-1.0.2-py3-none-any.whl size=3657 sha256=dfd16bde709fa6228e4a3bbf42fd1e8f5902a5ba0b6aa40c849eccb914df3e8a
+  Stored in directory: /home/travis/.cache/pip/wheels/db/34/4e/ffa2f9776a30539b06199220864bdd8828b2797bb0769bc141
+  Building wheel for future (setup.py): started
+  Building wheel for future (setup.py): finished with status 'done'
+  Created wheel for future: filename=future-0.18.2-py3-none-any.whl size=491059 sha256=1a4fe9cb67212e4def4554cfb0824cf5f4a1efd949dd2f6348f21106b45d4085
+  Stored in directory: /home/travis/.cache/pip/wheels/c4/f0/ae/d4689c4532d1f111462ed6a884a7767d502e511ee65f0d8e1b
+  Building wheel for rdflib-jsonld (setup.py): started
+  Building wheel for rdflib-jsonld (setup.py): finished with status 'done'
+  Created wheel for rdflib-jsonld: filename=rdflib_jsonld-0.5.0-py2.py3-none-any.whl size=15349 sha256=b2beff7265a5e2f0b2eacc136135ee9404b39ccebc0cabf2353d49c5ce88e0cd
+  Stored in directory: /home/travis/.cache/pip/wheels/ca/4d/74/fcf8b49479baf8da7ddf0525ed6f3478c32ded70555a9f7198
+  Building wheel for LinkHeader (setup.py): started
+  Building wheel for LinkHeader (setup.py): finished with status 'done'
+  Created wheel for LinkHeader: filename=LinkHeader-0.4.3-py3-none-any.whl size=4811 sha256=acc99c446742c2451407dd4528a06e4ff0dafdd617b4f3cd120ad80a8eff1f28
+  Stored in directory: /home/travis/.cache/pip/wheels/0c/83/af/9fbc238a46e061bfb8003a982457b39851b22b549a6965e330
+  Building wheel for pyld (setup.py): started
+  Building wheel for pyld (setup.py): finished with status 'done'
+  Created wheel for pyld: filename=PyLD-2.0.3-py3-none-any.whl size=70851 sha256=5a1dc3554477518502db04aef5707d2fda0dcb512741929170b3e817e4ea5078
+  Stored in directory: /home/travis/.cache/pip/wheels/9c/6c/8c/52e31276113a4779a1a4303c8dd9cbfd5c90371a414779a9f1
+  Building wheel for typing (setup.py): started
+  Building wheel for typing (setup.py): finished with status 'done'
+  Created wheel for typing: filename=typing-3.7.4.3-py3-none-any.whl size=26308 sha256=e48a3262bdcec5447a112a54afdf1dcebc1b4a26f8583c698ed1f573bbfa4dd2
+  Stored in directory: /home/travis/.cache/pip/wheels/cf/01/c2/53623e87850d11e77346db9b35980b55be20e161327f06bf11
+  Building wheel for frozendict (setup.py): started
+  Building wheel for frozendict (setup.py): finished with status 'done'
+  Created wheel for frozendict: filename=frozendict-1.2-py3-none-any.whl size=3148 sha256=8c512dcaee729223accd1d5e038dabf39173ddcfd996c545e9b001b34dc397de
+  Stored in directory: /home/travis/.cache/pip/wheels/42/6c/26/738630686f2ac8ef11a0a62bf3742a50dd2524b32802ab7752
+Successfully built HookTest MyCapytain jingtrang prettytable ansicolors future rdflib-jsonld LinkHeader pyld typing frozendict
+Installing collected packages: urllib3, idna, chardet, requests, lxml, future, isodate, rdflib, rdflib-jsonld, LinkHeader, cachetools, frozendict, pyld, typing, MyCapytain, jingtrang, prettytable, ansicolors, decorator, validators, HookTest
+Successfully installed HookTest-1.3.1 LinkHeader-0.4.3 MyCapytain-3.0.2 ansicolors-1.0.2 cachetools-4.2.1 chardet-4.0.0 decorator-4.4.2 frozendict-1.2 future-0.18.2 idna-2.10 isodate-0.6.0 jingtrang-0.1.1 lxml-4.6.2 prettytable-0.7.2 pyld-2.0.3 rdflib-5.0.0 rdflib-jsonld-0.5.0 requests-2.25.1 typing-3.7.4.3 urllib3-1.26.3 validators-0.18.2
