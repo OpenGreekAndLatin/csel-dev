@@ -2,7 +2,10 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Opificio Dei</title>
+        <author xml:lang="lat">Lactantius</author>
+        <editor>Samuel Brandt</editor>
+        <editor>Georg Laubmann</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +33,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL27.xml</idno>
+        <idno type="filename">stoa0171.stoa007.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,36 +43,33 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Samuel Brandt</name>
-                  <addName xml:lang="de">Samuel Brandt</addName>
+                  <name>Samuel Brandt</name>
                 </persName>
               </editor> 
               <editor>
                 <persName>
-                  <name xml:lang="lat">Georgius Laubmann</name>
-                  <addName xml:lang="de">Georg Laubmann</addName>
+                  <name>Georg Laubmann</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0171">Lactantius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0171.stoa007">De Opificio Dei</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0171.stoa006">De Ira Dei</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0171.stoa004">Carmina</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0171.stoa010">Fragmenta</title>
-              <title>De Mortibus Persecutorum</title>
+              <author xml:lang="lat">Lactantius</author> 
+              <title xml:lang="lat">L. Caeli Firmiani Lactanti Opera omnia</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1893-1897</date>
+                <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Vienna, Austria</pubPlace>
+                <date>1897</date>
               </imprint>
-              <biblScope unit="volume">27</biblScope>
+              <biblScope unit="volume">Part 2, Fasc 1</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru01wiengoog#page/n11/mode/2up">Internet Archive</ref>
-            
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">27</biblScope>
+            </series>
+            <ref target="http://archive.org/stream/corpusscriptoru01wiengoog#page/n11/mode/2up">Internet Archive</ref>            
           </biblStruct>
         </listBibl>
       </sourceDesc>
