@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Cain et Abel</title>
+        <author>Ambrose</author>
+        <editor>Karl Schenkl</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL32_1.xml</idno>
+        <idno type="filename">stoa0022.stoa021.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -43,28 +45,25 @@
         <listBibl xml:lang="lat">
           <biblStruct>
             <monogr>
+              <title xml:lang="lat">Sanctii Ambrosii Opera</title>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Carolus Schenkl</name>
-                  <addName xml:lang="de">Karl Schenkl</addName>
+                  <name>Karl Schenkl</name>
                 </persName>
               </editor> 
-             <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022">Ambrosius</author>  
-             <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa054">Hexameron</title>
-             <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa042">De Paradiso</title>
-             <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa021">De Cain</title>
-             <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa039">De Noe</title>
-             <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa018">De Abraham</title>
-             <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa033">De Isaac</title>
-             <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa020">De Bono Mortis</title>
+              <author>Ambrose</author>  
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace xml:lang="deu">Wien, Österreich</pubPlace>
                 <date>1896</date>
               </imprint>
-              <biblScope unit="volume">32.1</biblScope>
+              <biblScope unit="volume">Pars Prima</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptorum55stuoft#page/n5/mode/2up">Internet Archive</ref>
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">32.1</biblScope>
+            </series>
+            <ref target="https://archive.org/details/corpusscriptoru00wissgoog">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
