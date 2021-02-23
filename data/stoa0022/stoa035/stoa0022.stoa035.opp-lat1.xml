@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Joseph</title>
+        <author>Ambrose</author>
+        <editor>Karl Schenkl</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL32_2.xml</idno>
+        <idno type="filename">stoa0022.stoa035.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,33 +42,27 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
+              <title xml:lang="lat">Sanctii Ambrosii Opera</title>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Carolus Schenkl</name>
-                  <addName xml:lang="de">Karl Schenkl</addName>
+                  <name>Karl Schenkl</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022">Ambrosius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa034">De Iacob</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa035">De Ioseph</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa019">De Patriarchis</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa029">De Fuga Saeculi</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa032">De Interpellatione Iob et David</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa015">De Apologia David</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa014">Apologia David Altera</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa025">De Helia et Ieiunio</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa038">De Nabuthae</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa044">De Tobia</title>
+              <author>Ambrose</author>  
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace xml:lang="deu">Wien, Österreich</pubPlace>
                 <date>1897</date>
               </imprint>
-              <biblScope unit="volume">32.2</biblScope>
+              <biblScope unit="volume">Pars Altera</biblScope>
             </monogr>
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">32.2</biblScope>
+            </series>
             <ref target="http://archive.org/stream/corpusscriptoru13wiengoog#page/n5/mode/2up">Internet Archive</ref>
             
           </biblStruct>
