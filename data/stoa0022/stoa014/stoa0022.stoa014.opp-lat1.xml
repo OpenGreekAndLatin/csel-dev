@@ -2,7 +2,7 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Apologia Altera Prophetae David</title>
+        <title xml:lang="lat">Apologia Altera Prophetae David</title>
           <author>Ambrose</author>
           <editor>Karl Schenkl</editor>
         <sponsor>University of Leipzig</sponsor>
@@ -45,14 +45,13 @@
         <listBibl>
           <biblStruct>
             <monogr>
-                <title>Sanctii Ambrosii Opera</title>
+                <title xml:lang="lat">Sanctii Ambrosii Opera</title>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Carolus Schenkl</name>
-                  <addName xml:lang="deu">Karl Schenkl</addName>
+                  <name>Karl Schenkl</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022">Ambrosius</author>  
+              <author>Ambrose</author>  
               <imprint>
                 <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
                 <pubPlace xml:lang="deu">Wien, Österreich</pubPlace>
