@@ -2,7 +2,9 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+    <title xml:lang="lat">Explanatio Psalmorum XII</title>
+    <author>Ambrose</author>
+    <editor>Michael Petschenig</editor>
     <sponsor>University of Leipzig</sponsor>
     <funder>European Social Fund Saxony</funder>
     <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
 
    <publicationStmt>
     <authority>University of Leipzig</authority>
-    <idno type="filename">CSEL64.xml</idno>
+    <idno type="filename">stoa0022.stoa048.opp-lat1.xml</idno>
     <availability>
      <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative
       Commons Attribution-ShareAlike 4.0 International License</licence>
@@ -46,23 +48,24 @@
       <monogr>
        <editor>
         <persName>
-         <name xml:lang="lat">Michael Petschenig</name>
-         <addName xml:lang="de">Michael Petschenig</addName>
+         <name>Michael Petschenig</name>
         </persName>
        </editor>
-       <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022">Ambrosius</author>
-       <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022.stoa048">Explanatio
-        super Psalmos XII</title>
+       <author>Ambrose</author>
+       <title>Sanctii Ambrosii Opera</title>
        <imprint>
         <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
         <pubPlace>Wien, Österreich</pubPlace>
         <date>1919</date>
        </imprint>
-       <biblScope unit="volume">64</biblScope>
+       <biblScope unit="volume">Pars Sexta</biblScope>
       </monogr>
+      <series>
+       <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+       <biblScope unit="volume">64</biblScope>
+      </series>
       <ref target="http://archive.org/stream/corpusscriptorum64ambruoft#page/n5/mode/2up">Internet
        Archive</ref>
-
      </biblStruct>
     </listBibl>
    </sourceDesc>
