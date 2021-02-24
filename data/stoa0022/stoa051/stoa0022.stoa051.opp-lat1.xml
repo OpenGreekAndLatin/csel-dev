@@ -2,7 +2,10 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Expositio Evangelii secundum Lucan</title>
+        <author>Ambrose</author>
+        <editor>Karl Schenkl</editor>
+        <editor>Henricus Schenkl</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +33,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL32_4.xml</idno>
+        <idno type="filename">stoa0022.stoa051.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,26 +43,33 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Carolus Schenkl</name>
-                  <addName xml:lang="de">Karl Schenkl</addName>
+                  <name>Karl Schenkl</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0022">Ambrosius</author>  
-              <title>Expositio Evangelii secundum Lucan</title>
+              <editor>
+                <persName>
+                  <name>Henricus Schenkl</name>
+                </persName>
+              </editor> 
+              <author>Ambrose</author>  
+              <title>Sanctii Ambrosii Opera</title>
               <imprint>
                 <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
                 <pubPlace>Wien, Österreich</pubPlace>
                 <date>1902</date>
               </imprint>
-              <biblScope unit="volume">32.4</biblScope>
+              <biblScope unit="volume">Pars Quarta</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru21wiengoog#page/n4/mode/2up">Internet Archive</ref>
-            
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">32.4</biblScope>
+            </series>
+            <ref target="http://archive.org/stream/corpusscriptoru21wiengoog#page/n4/mode/2up">Internet Archive</ref>            
           </biblStruct>
         </listBibl>
       </sourceDesc>
