@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+       <title xml:lang="lat">Adversus nationes Libri VII</title>
+       <author>Arnobius of Sicca</author>
+       <editor>August Reifferscheid</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL4.xml</idno>
+        <idno type="filename">stoa0034.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,24 +42,26 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Augustus Reifferscheidius</name>
-                  <addName xml:lang="de">August Reifferscheid</addName>
+                  <name>August Reifferscheid</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0034">Arnobius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0034-stoa001">Adversus Nationes</title>
+              <author>Arnobius</author>  
+             <title xml:lang="lat">Arnobii adversus nationes Libri VII</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+               <pubPlace xml:lang="deu">Wien, Österreich</pubPlace>
                 <date>1875</date>
               </imprint>
-              <biblScope unit="volume">4</biblScope>
             </monogr>
+           <series>
+            <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+            <biblScope unit="volume">4</biblScope>
+           </series>
             <ref target="http://archive.org/stream/corpusscriptoru09wissgoog#page/n7/mode/2up">Internet Archive</ref>
             
           </biblStruct>
