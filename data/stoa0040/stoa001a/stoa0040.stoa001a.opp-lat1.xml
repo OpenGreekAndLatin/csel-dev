@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Adnotationes in Iob</title>
+        <author>Augustine</author>
+        <editor>Joseph Zycha</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL28_2.xml</idno>
+        <idno type="filename">stoa0040.stoa001a.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,25 +42,27 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Iosephus Zycha</name>
-                  <addName xml:lang="de">Joseph Zycha</addName>
+                  <name>Joseph Zycha</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa074">Quaestiones in Heptateuchum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa001a">Adnotationes in Iob</title>
+              <author>Augustine</author>  
+              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace xml:lang="deu">Wien, Österreich</pubPlace>
                 <date>1895</date>
               </imprint>
-              <biblScope unit="volume">28.2</biblScope>
+              <biblScope unit="volume">Sectio III, Pars 3</biblScope>
             </monogr>
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">28.2</biblScope>
+            </series>
             <ref target="http://archive.org/stream/corpusscriptoru31wissgoog#page/n9/mode/2up">Internet Archive</ref>
             
           </biblStruct>
