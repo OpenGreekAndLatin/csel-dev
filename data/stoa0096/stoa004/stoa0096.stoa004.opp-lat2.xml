@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+       <title xml:lang="lat">Carmen Apologeticum</title>
+       <author>Commodianus</author>
+       <editor>Bernhard Dombart</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL15.xml</idno>
+       <idno type="filename">stoa0096.stoa004.opp-lat2.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -39,31 +41,32 @@
         <pubPlace>Germany</pubPlace>
       </publicationStmt>
       
-      <sourceDesc>
-        <listBibl xml:lang="lat">
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name xml:lang="lat">Bernhardus Dombart</name>
-                  <addName xml:lang="de">Bernhard Dombart</addName>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0096">Commodianus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0096.stoa004">Carmen apologeticum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0096.stoa003">Instructiones</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1887</date>
-              </imprint>
-              <biblScope unit="volume">15</biblScope>
-            </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru22wiengoog#page/n5/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
+     <sourceDesc>
+      <listBibl>
+       <biblStruct>
+        <monogr>
+         <editor>
+          <persName>
+           <name>Bernhard Dombart</name>
+          </persName>
+         </editor> 
+         <author>Commodianus</author>  
+         <title>Commodiani Carmina</title>
+         <imprint>
+          <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+          <pubPlace xml:lang="deu">Wien, Österreich</pubPlace>
+          <date>1887</date>
+         </imprint>
+        </monogr>
+        <series>
+         <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+         <biblScope unit="volume">15</biblScope>
+        </series>           
+        <ref target="http://archive.org/stream/corpusscriptoru22wiengoog#page/n5/mode/2up">Internet Archive</ref>
+        
+       </biblStruct>
+      </listBibl>
+     </sourceDesc>
       
     </fileDesc>
     <encodingDesc>
