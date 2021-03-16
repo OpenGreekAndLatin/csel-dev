@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Non Conveniendo Cum Haereticis</title>
+        <author>Lucifer, Bishop of Cagliari</author>
+        <editor>Wilhelm von Hartel</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL14.xml</idno>
+        <idno type="filename">stoa0180a.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,29 +42,26 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Guilelmus Hartelius</name>
-                  <addName xml:lang="de">Wilhelm von Hartel</addName>
+                  <name>Wilhelm von Hartel</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0180a">Lucifer Calaritanus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0180a.stoa001">De non conveniendo cum haereticis</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0180a.stoa003">De regibus apostaticis</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0180a.stoa004">De sancto Athanasio</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0180a.stoa002">De non parcendo in deum delinquentibus</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0180a.stoa006">Moriendum esse pro dei filio</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0180a.stoa005">Epistulae</title>
+              <author xml:lang="lat">Lucifer Calaritanus</author>  
+              <title xml:lang="lat">Luciferi Calaritani Opuscula</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace  xml:lang="deu">Wien, Österreich</pubPlace>
                 <date>1886</date>
-              </imprint>
-              <biblScope unit="volume">14</biblScope>
+              </imprint>              
             </monogr>
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">14</biblScope>
+            </series>
             <ref target="http://archive.org/stream/corpusscriptoru03wissgoog#page/n4/mode/2up">Internet Archive</ref>
             
           </biblStruct>
