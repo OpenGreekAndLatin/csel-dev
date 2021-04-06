@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title>Alethia</title>
+        <author>Victor, Claudius Marius</author>
+        <editor>Karl Schenkl</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL16.xml</idno>
+        <idno type="filename">stoa0292b.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,97 +42,26 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
-              <editor>
-                <persName>
-                  <name xml:lang="lat">Michael Petschenig</name>
-                  <addName xml:lang="de">Michael Petschenig</addName>
-                </persName>
-              </editor> 
-              <editor>
-                <persName>
-                  <name xml:lang="lat">Robinson Ellis</name>
-                  <addName xml:lang="de">Robinson Ellis</addName>
-                </persName>
-              </editor> 
-              <editor>
-                <persName>
-                  <name xml:lang="lat">Georgius Brandes</name>
-                  <addName xml:lang="de">Georg Brandes</addName>
-                </persName>
-              </editor> 
-              <editor>
-                <persName>
-                  <name xml:lang="lat">Carolus Schenkl</name>
-                  <addName xml:lang="de">Karl Schenkl</addName>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1772.1">Paulinus Petricordiae</author>
-              <title>Carmina</title>
+              <title xml:lang="lat">Poetae Christiani Minores</title>
+              <editor>Michael Petschenig</editor> 
+              <editor>Robinson Ellis</editor> 
+              <editor>Georg Brandes</editor>
+              <editor>Karl Schenkl</editor>
               <imprint>
                 <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
                 <pubPlace>Wien, Österreich</pubPlace>
                 <date>1888</date>
               </imprint>
-              <biblScope unit="volume">16</biblScope>
+              <biblScope unit="volume">Pars I</biblScope>
             </monogr>
-            <monogr>
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1767.1">Orientius</author>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0215b.stoa002">Carmina</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1888</date>
-              </imprint>
-              <biblScope unit="volume">16</biblScope>
-            </monogr>
-            <monogr>
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1590.1">Paulinus Pellaeus</author>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0223a.stoa001">Eucharistos</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1888</date>
-              </imprint>
-              <biblScope unit="volume">16</biblScope>
-            </monogr>
-            <monogr>
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1802.1">Claudius Marius Victor</author>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292b.stoa001">Alethia</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1888</date>
-              </imprint>
-              <biblScope unit="volume">16</biblScope>
-            </monogr>
-            <monogr>
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1782.1">Proba</author>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0234f.stoa001">Cento</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1888</date>
-              </imprint>
-              <biblScope unit="volume">16</biblScope>
-            </monogr>
-            <monogr>
-              <author>Anonymus</author>
-              <title>Sancti Paulini Epigramma</title>
-              <title>Versus ad gratiam domini</title>
-              <title>De verbi incarnatione</title>
-              <title>De ecclesia</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1888</date>
-              </imprint>
-              <biblScope unit="volume">16</biblScope>
-            </monogr>
-            <ref target="http://archive.org/stream/corpusscriptorum16stuoft">Internet Archive</ref>
-            
+            <series>
+              <title xml:lang="lat">Corpus scriptorum ecclesiasticorum latinorum</title>
+              <biblScope unit="volume">16.1</biblScope>
+            </series>
+            <ref target="Open Content Alliance">https://archive.org/details/corpusscriptorum16stuoft</ref>
           </biblStruct>
         </listBibl>
       </sourceDesc>
