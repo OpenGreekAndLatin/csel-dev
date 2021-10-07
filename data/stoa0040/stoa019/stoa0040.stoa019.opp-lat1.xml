@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Contra Cresconium</title>
+        <author>Augustine</author>
+        <editor>Michael Petschenig</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL52.xml</idno>
+        <idno type="filename">stoa0040.stoa019.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -45,22 +47,26 @@
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Michael Petschenig</name>
-                  <addName xml:lang="de">Michael Petschenig</addName>
+                  <name>Michael Petschenig</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa027">Contra Litteras Petiliani</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa020">Epistula ad Catholicos de Secta Donatistarum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa019">Contra Cresconium Grammaticum et Donatistam</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
+              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>F. Tempsky</publisher>
+                <publisher>G. Freytag</publisher>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1909</date>
               </imprint>
-              <biblScope unit="volume">52</biblScope>
+              <biblScope unit="volume">Sectio 7, Pars 2</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/CSEL52#page/n5/mode/2up">Internet Archive</ref>
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">52</biblScope>
+            </series>
+            <ref target="https://archive.org/details/CSEL52/page/n373/mode/2up?view=theater">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
