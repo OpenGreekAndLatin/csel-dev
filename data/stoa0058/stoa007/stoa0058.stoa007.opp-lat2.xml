@@ -4,7 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+            	<title xml:lang="lat">Commentaria in Porphyrium A Se Translatum (editio prima)</title>
+            	<author>Boethius</author>
+            	<editor>Georg Schepps</editor>
+            	<editor>Samuel Brandt</editor>
                 <sponsor>University of Leipzig</sponsor>
                 <funder>European Social Fund Saxony</funder>
                 <principal>Gregory Crane</principal>
@@ -31,7 +34,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>University of Leipzig</authority>
-                <idno type="filename">CSEL48.xml</idno>
+                <idno type="filename">stoa0058.stoa007.opp-lat2.xml</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
                 </availability>
@@ -40,23 +43,33 @@
                 <pubPlace>Germany</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <listBibl xml:lang="lat">
+                <listBibl>
                     <biblStruct>
                         <monogr>
+                        	<editor>
+                        		<persName>
+                        			<name>Georg Schepps</name>
+                        		</persName>
+                        	</editor>
                             <editor>
                                 <persName>
-                                    <name xml:lang="lat">SAMVEL BRANDT</name>
+                                    <name>Samuel Brandt</name>
                                 </persName>
                             </editor>
                             <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0058">Boethius</author>
-                            <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0058.stoa007">Commentaria in Porphyrium A Se Translatum</title>
+                        	<title xml:lang="lat">Anicii Manlii Severini Boethii In Isagogen Porphyrii commenta</title>
                             <imprint>
-                                <publisher>VINDOBONAE F. TEMPSKY</publisher>
-                                <pubPlace>LIPSIAE G. FREYTAG</pubPlace>
+                            	<pubPlace>Vienna</pubPlace>
+                            	<pubPlace>Leipzig</pubPlace>
+                                <publisher>Tempsky</publisher>
+                            	<publisher>Freytag</publisher>                          
                                 <date>1906</date>
-                            </imprint>
-                            <biblScope unit="volume">48</biblScope>
+                            </imprint>                        	
                         </monogr>
+                    	<series>
+                    		<title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+                    		<biblScope unit="volume">48</biblScope>          
+                    	</series>
                         <ref target="https://archive.org/stream/CorpusScriptorumEcclesiasticorumLatinorum48/Corpus_Scriptorum_Ecclesiasticorum_Latinorum_48#page/n9/mode/2up">Internet Archive</ref>
                     </biblStruct>
                 </listBibl>
