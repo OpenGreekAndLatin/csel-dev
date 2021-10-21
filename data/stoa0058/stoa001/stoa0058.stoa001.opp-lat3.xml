@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De consolatione philosophiae</title>
+        <author>Boethius</author>
+        <editor>Wilhelm Weinberger</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL67.xml</idno>
+        <idno type="filename">stoa0058.stoa001.opp-lat3.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,26 +42,29 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Guilelmus Weinberger</name>
-                  <addName xml:lang="de">Wilhelm Weinberger</addName>
+                  <name>Wilhelm Weinberger</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0058">Boethius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0058.stoa001">De Consolatione Philosophiae</title>
+              <title xml:lang="lat">Anicii Manlii Severini Boethii Philosophiae Consolationis</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Hoelder-Pichler Tempsky</publisher>
+                <publisher>Akademische Verlags Gesellschaft</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1934</date>
               </imprint>
-              <biblScope unit="volume">67</biblScope>
             </monogr>
-            <ref target="https://archive.org/stream/CSEL67#page/n0/mode/2up">Internet Archive</ref>
-            
+            <series>
+            <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+            <biblScope unit="volume">67</biblScope>          
+            </series>
+            <ref target="https://archive.org/stream/CSEL67#page/n0/mode/2up">Internet Archive</ref>            
           </biblStruct>
         </listBibl>
       </sourceDesc>
