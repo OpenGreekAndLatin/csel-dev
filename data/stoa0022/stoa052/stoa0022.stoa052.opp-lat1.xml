@@ -42,7 +42,7 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
@@ -51,10 +51,12 @@
                 </persName>
               </editor> 
               <author>Ambrose</author>  
-             <title>Sanctii Ambrosii Opera</title>
+             <title xml:lang="lat">Sanctii Ambrosii Opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+               <publisher>F. Tempsky</publisher>
+               <publisher>G. Freytag</publisher>
+               <pubPlace>Vienna</pubPlace>
+               <pubPlace>Leipzig</pubPlace>
                 <date>1913</date>
               </imprint>
               <biblScope unit="volume">Pars Quinta</biblScope>
