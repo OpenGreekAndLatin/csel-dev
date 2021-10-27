@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Incarnatione Domini Contra Nestorum</title>
+        <author>John Cassian</author>
+        <editor>Michael Petschenig</editor>        
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL17.xml</idno>
+        <idno type="filename">stoa0076c.stoa003.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -42,25 +44,26 @@
       <sourceDesc>
         <listBibl xml:lang="lat">
           <biblStruct>
-            <monogr>
+            <monogr>              
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0076c">John Cassian</author>               
+              <title xml:lang="lat">Johannis Cassiani Opera</title>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Michael Petschenig</name>
-                  <addName xml:lang="de">Michael Petschenig</addName>
+                  <name>Michael Petschenig</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0076c">Cassianus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0076c.stoa002">Institutiones</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0076c.stoa003">De Incarnatione Domini Contra Nestorium</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Gerold</publisher>
+                <pubPlace>Vienna</pubPlace>
                 <date>1888</date>
               </imprint>
-              <biblScope unit="volume">17</biblScope>
+              <biblScope unit="volume">Pars I</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru00wiengoog#page/n7/mode/2up">Internet Archive</ref>
-            
+            <series>
+              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">17</biblScope>            
+            </series>
+            <ref target="https://archive.org/details/corpusscriptoru00wiengoog/page/n359/mode/2up">Internet Archive</ref>            
           </biblStruct>
         </listBibl>
       </sourceDesc>
