@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Conjugiis Adulterinis</title>
+        <author>Augustine</author>
+        <editor>Joseph Zycha</editor>           
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL41.xml</idno>
+        <idno type="filename">stoa0040.stoa036.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,38 +42,31 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Iosephus Zycha</name>
-                  <addName xml:lang="de">Joseph Zycha</addName>
+                  <name>Joseph Zycha</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa006">De Fide et Symbolo</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa041">De Fide et Operibus</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa032">De Agone Christiano</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa037a">De Continentia</title>
-              <title>De Bono Coniugali</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa060">De Sancta Virginitate</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa035">De Bono Viduitatis</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa036">De Adulterinis Coniugiis</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa050">De Mendacio</title>
-              <title>Contra Mendacium</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa055">De Opere Monachorum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa038a">De Divinatione Daemonum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa037c">De Cura pro Mortuis Gerenda</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa056b">De Patientia</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
+              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>F. Tempsky</publisher>
+                <publisher>G. Freytag</publisher>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1900</date>
               </imprint>
-              <biblScope unit="volume">41</biblScope>
+              <biblScope unit="volume" xml:lang="lat">Sectio V, Pars 3</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru1swiengoog#page/n9/mode/2up">Internet Archive</ref>
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">41</biblScope>
+            </series> 
+            <ref target="https://archive.org/stream/corpusscriptoru18wiengoog#page/n405/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
