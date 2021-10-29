@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Beata Vita</title>
+        <author>Augustine</author>
+        <editor>Pius Knöll</editor>        
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL63.xml</idno>
+        <idno type="filename">stoa0040.stoa034.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,27 +42,31 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name xml:lang="lat">Pius Knöll</name>
-                  <addName xml:lang="de">Pius Knöll</addName>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa016">Contra Academicos</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa034">De Beata Vita</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa0">De Ordine</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1922</date>
-              </imprint>
-              <biblScope unit="volume">63</biblScope>
-            </monogr>
-            <ref target="http://archive.org/stream/sanctiaureliaugu00auguuoft#page/n5/mode/2up">Internet Archive</ref>
+          <monogr>
+            <editor>
+              <persName>
+                <name>Pius Knöll</name>
+              </persName>
+            </editor> 
+            <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
+            <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
+            <imprint>
+              <publisher>F. Tempsky</publisher>
+              <publisher>G. Freytag</publisher>
+              <pubPlace>Prague</pubPlace>
+              <pubPlace>Vienna</pubPlace>
+              <pubPlace>Leipzig</pubPlace>
+              <date>1922</date>
+              <biblScope unit="volume">Sectio 1, Pars III</biblScope>
+            </imprint>
+          </monogr>
+          <series>
+            <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+            <biblScope unit="volume">63</biblScope>
+          </series>
+            <ref target="https://archive.org/details/sanctiaureliaugu00auguuoft/page/86/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
