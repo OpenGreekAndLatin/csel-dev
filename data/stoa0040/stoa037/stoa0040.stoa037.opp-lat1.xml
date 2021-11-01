@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Consensu Evangelistarum</title>
+        <author>Augustine</author>
+        <editor>Franz Weirich</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL43.xml</idno>
+        <idno type="filename">stoa0040.stoa037.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,24 +42,30 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Franciscus Weihrich</name>
-                  <addName xml:lang="de">Franziskus Weihrich</addName>
+                  <name>Franz Weirich</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa037">De Consensu Evangelistarum</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
+              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>F. Tempsky</publisher>
+                <publisher>G. Freytag</publisher>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1904</date>
               </imprint>
-              <biblScope unit="volume">43</biblScope>
+              <biblScope unit="volume" xml:lang="lat">Sectio III, Pars 4</biblScope>
             </monogr>
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">43</biblScope>
+            </series> 
             <ref target="http://archive.org/stream/corpusscriptoru22wissgoog#page/n5/mode/2up">Internet Archive</ref>
             
           </biblStruct>
