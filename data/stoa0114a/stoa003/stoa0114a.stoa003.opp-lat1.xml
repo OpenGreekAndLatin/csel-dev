@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Carmina</title>
+        <author xml:lang="lat">Magnus Felix Ennodius</author>
+        <editor>Wilhelm Hartel</editor>        
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL6.xml</idno>
+        <idno type="filename">stoa0114a.stoa003.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,37 +42,27 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Guilelmus Hartel</name>
-                  <addName xml:lang="de">Wilhelm Hartel</addName>
+                  <name>Wilhelm Hartel</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a">Ennodius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa008">Epistulae</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa006">Panegyricus Regi Theodorico</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa012">Libellus Adversus eos qui contra Synodum Scribere Praesumpserunt</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa015">Vita Epiphani Ep. Ticinensis</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa005">De Vita Beati Antoni Monachi</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa011">Eucharistum de Vita Sua</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa007">Ennodius Ambrosio et Beato</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa014">Praeceptum Quando Iussi Sunt Omnes Episcopi Cellulanos Habere</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa013">Petitorium quo Absolutus est Gerontius Puer Agapiti</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa001">Benedictio Cerei I</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa002">Benediction Cerei II</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa004">Dictiones</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa003">Carmina</title>
+              <title xml:lang="lat">Magni Felicis Ennodii Opera Omnia</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Gerold</publisher>
+                <pubPlace>Vienna</pubPlace>
                 <date>1882</date>
               </imprint>
-              <biblScope unit="volume">6</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru13wissgoog#page/n7/mode/2upp">Internet Archive</ref>
+            <series>
+              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">6</biblScope>
+            </series>
+            <ref target="http://archive.org/stream/corpusscriptoru13wissgoog#page/506/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
@@ -375,7 +367,7 @@
 </div>
 
 <div n="4" subtype="poem" type="textpart">
-<ab> <title>IIII.  EPITHALAMIVM DICTVM MAXIMO V. S. PRAEFATIO. </title> </ab>
+<ab> <title >IIII.  EPITHALAMIVM DICTVM MAXIMO V. S. PRAEFATIO. </title> </ab>
           <l n="1"><milestone unit="para"/>Annus sole nouo teneras dum format aristas,  </l>
             <l n="2">Natura in thalamis orbe tepente sedet.  </l> 
 
@@ -656,7 +648,7 @@
 </div>
 
 <div n="5" subtype="poem" type="textpart">
-<ab> <title>V.  ITINERARIVM. </title> </ab>
+<ab> <title >V.  ITINERARIVM. </title> </ab>
           <l n="1"><milestone unit="para"/>Ingenii cultor, fons oris, copia linguae  </l>
             <l n="2">Vmor Castalius ueniat, quo Thracius Orpheus </l>
 
@@ -786,7 +778,7 @@
 </div>
 
 <div n="6" subtype="poem" type="textpart">
-<ab> <title>VI.  DICTIO ENNODI DIACONI QVANDO DE ROMA REDIIT. </title> </ab>
+<ab> <title >VI.  DICTIO ENNODI DIACONI QVANDO DE ROMA REDIIT. </title> </ab>
 
           <p>Amica est homini ad genitale solum reuertenti semper <lb/>
             hilaritas, dum metus, quoscumque ei peregrinanti mens anxia <lb/>
@@ -951,7 +943,7 @@
 </div>
 
 <div n="7" subtype="poem" type="textpart">
-<ab> <title>VII.  FAVSTO PRAEFATIO. </title> </ab>
+<ab> <title >VII.  FAVSTO PRAEFATIO. </title> </ab>
           <p>Nisi didicissem quod serenitas conscientiae uestrae huius <lb/>
             mali scabies abiuraret, inuisum mihi eloquii uber adstruerem. <lb/>
 
@@ -1744,7 +1736,7 @@
 
 <div n="10" subtype="poem" type="textpart">
           
-<ab> <title>X. HVMNVS VESPERTINVS. </title> </ab>
+<ab> <title >X. HVMNVS VESPERTINVS. </title> </ab>
           <l n="1"><milestone unit="para"/>Nigrante tectam pallio </l> 
 
           <l n="2"><milestone unit="para"/>Iam terra noctem suscipit, </l> 
@@ -1823,7 +1815,7 @@
 </div>
 
 <div n="11" subtype="poem" type="textpart">
-<ab> <title>XI.  HVMNVS IN TEMPORE TRISTITIAE. </title> </ab>
+<ab> <title >XI.  HVMNVS IN TEMPORE TRISTITIAE. </title> </ab>
           <l n="1"><milestone unit="para"/>Deus perenne gaudium,  </l>
             <l n="2">Pax Christe cordis anxii  </l>
             <l n="3">Portusque fluctuantium,  </l>
@@ -1886,7 +1878,7 @@
 </div>
 
 <div n="12" subtype="poem" type="textpart">
-<ab> <title>XII.  HVMNVS S. CVPRIANI. </title> </ab>
+<ab> <title >XII.  HVMNVS S. CVPRIANI. </title> </ab>
           <l n="1"><milestone unit="para"/>Vatis Cypriani et martyris  </l>
             <l n="2">Cor lingua sensus dignitas  </l>
             <l n="3">Mortem ferendo proferunt:  </l>
@@ -1962,7 +1954,7 @@
 </div>
 
 <div n="13" subtype="poem" type="textpart">
-<ab> <title>XIII.  HVMNVS DE PENTECOSTE. </title> </ab>
+<ab> <title >XIII.  HVMNVS DE PENTECOSTE. </title> </ab>
           <l n="1"><milestone unit="para"/>Et hoc supernum munus est,  </l>
             <l n="2">Quod lingua linguis militat.  </l> 
 
@@ -2023,7 +2015,7 @@
 </div>
 
 <div n="14" subtype="poem" type="textpart">
-<ab> <title>XIIII.  HVMNVS S. STEPHANI. </title> </ab>
+<ab> <title >XIIII.  HVMNVS S. STEPHANI. </title> </ab>
           <l n="1"><milestone unit="para"/>Quid Stephano potentius ?  </l> 
 
           <l n="2"><milestone unit="para"/>Dicas Coronam: martyr est.  </l> 
@@ -2091,7 +2083,7 @@
 </div>
 
 <div n="15" subtype="poem" type="textpart">
-<ab> <title>XV.  HVMNVS S. AMBROSI. </title> </ab>
+<ab> <title >XV.  HVMNVS S. AMBROSI. </title> </ab>
           <l n="1"><milestone unit="para"/>Caelo ferunt Ambrosium  </l>
             <l n="2">Nomen honor uel actio.  </l> 
 
@@ -2171,7 +2163,7 @@
 </div>
 
 <div n="16" subtype="poem" type="textpart">
-<ab> <title>XVI.  HVMNVS DE ASCENSIONE DOMINI. </title> </ab>
+<ab> <title >XVI.  HVMNVS DE ASCENSIONE DOMINI. </title> </ab>
           <l n="1"><milestone unit="para"/>Iam Christus ascendit polum,  </l>
             <l n="2">Necauit ante funera,  </l>
             <l n="3">Letum sepultus expulit:  </l>
@@ -2226,7 +2218,7 @@
 </div>
 
 <div n="17" subtype="poem" type="textpart">
-<ab> <title>XVII.  HVMNVS S. EVPHEMIAE. </title> </ab>
+<ab> <title >XVII.  HVMNVS S. EVPHEMIAE. </title> </ab>
           <l n="1"><milestone unit="para"/>Quae lingua possit, quis ualeat stilus  </l>
             <l n="2">Tantae triumphos uirginis eloqui P </l> 
 
@@ -2289,7 +2281,7 @@
 </div>
 
 <div n="18" subtype="poem" type="textpart">
-<ab> <title>XVIII.  HVMNVS S. NAZARI. </title> </ab>
+<ab> <title >XVIII.  HVMNVS S. NAZARI. </title> </ab>
           <l n="1"><milestone unit="para"/>Angusta uitae tempora,  </l>
             <l n="2">Paruis coacta terminis,  </l>
             <l n="3">Mors sancta donat crescere:  </l>
@@ -2355,7 +2347,7 @@
 </div>
 
 <div n="19" subtype="poem" type="textpart">
-<ab> <title>XVIIII.  HVMNVS S. MARIAE. </title> </ab>
+<ab> <title >XVIIII.  HVMNVS S. MARIAE. </title> </ab>
           <l n="1"><milestone unit="para"/>Vt uirginem fetam loquar,  </l>
             <l n="2">Quid laude dignum Mariae?  </l> 
 
@@ -2420,7 +2412,7 @@
 </div>
 
 <div n="20" subtype="poem" type="textpart">
-<ab> <title>XX.  HVMNVS S. MARTINI. </title> </ab>
+<ab> <title >XX.  HVMNVS S. MARTINI. </title> </ab>
           <l n="1"><milestone unit="para"/>Cum gesta Martini loquor,  </l>
             <l n="2">Nil laude dignum transeo:  </l>
             <l n="3">Diuisa uirtus omnibus  </l>
@@ -2481,7 +2473,7 @@
 </div>
 
 <div n="21" subtype="poem" type="textpart">
-<ab> <title>XXI.  HVMNVS S. DIONVSI. </title> </ab>
+<ab> <title >XXI.  HVMNVS S. DIONVSI. </title> </ab>
           <l n="1"><milestone unit="para"/>Dionysio Christus dedit -  </l>
             <l n="2">Quot bella, tot uictorias.  </l> 
 
@@ -2558,7 +2550,7 @@
 <ab> <title type="sub">EPIGRAMMATA. </title> </ab>
           <div n="1" subtype="poem" type="textpart">
           
-<ab> <title>I. EPITAPHIVM HOMINIS BONI. </title> </ab>
+<ab> <title >I. EPITAPHIVM HOMINIS BONI. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Gente bonus, probitate nitens et nominis auctor  </l>
             <l n="2">Sic iacet angusto, dic dolor, in tumulo?  </l>
             <l n="3">Spes domus inmensae modico contecta sepulcro est,  </l>
@@ -2595,7 +2587,7 @@
 </div>
 
 <div n="2" subtype="poem" type="textpart">
-<ab> <title>II.  EPITAPHIVM HABVNDANTI V. I. </title> </ab>
+<ab> <title >II.  EPITAPHIVM HABVNDANTI V. I. </title> </ab>
           <l n="1"><milestone unit="para"/>Numquam morte perit meritis post busta superstes,   </l>
             <l n="2">Funera sublimem non capiunt animam.  </l>
             <l n="3">Sanguis honor genius probitas constantia census  </l>
@@ -2613,7 +2605,7 @@
 </div>
 
 <div n="3" subtype="poem" type="textpart">
-<ab> <title>III.  DE EPIGRAMMATIS PER ARMARIA DOMNI FAVSTI FACTIS. </title> </ab>
+<ab> <title >III.  DE EPIGRAMMATIS PER ARMARIA DOMNI FAVSTI FACTIS. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Consona diuersis finxisti carmina libris:  </l>
             <l n="2">Suscipiat gaudens littera quod tribuit.  </l>
             <l n="3">Nescio qui tantum non laudet, Fauste, pudorem,  </l>
@@ -2662,7 +2654,7 @@
 </div>
 
 <div n="4" subtype="poem" type="textpart">
-<ab> <title>IIII.  [DE PLAVSTRO QVOD EPISCOPVS DONARAT.]</title> </ab>
+<ab> <title >IIII.  [DE PLAVSTRO QVOD EPISCOPVS DONARAT.]</title> </ab>
           <l n="1"><milestone unit="para"/>Antistes summus, plaustrum, te, nobile, donat.  </l>
             <l n="2">Pandit iter magnis, omina dextra facit.  </l> 
 
@@ -2671,7 +2663,7 @@
 </div>
 
 <div n="5" subtype="poem" type="textpart">
-<ab> <title>V.  EPITAPHIVM RVSTICAE. </title> </ab>
+<ab> <title >V.  EPITAPHIVM RVSTICAE. </title> </ab>
           <l n="1"><milestone unit="para"/>Rustica, perpetuae non te sors pallida uitae  </l>
             <l n="2">Sustulit, interitum nec tibi morte dedit.  </l>
             <l n="3">Purior aetherias graderis sine carne per arces.  </l>
@@ -2701,7 +2693,7 @@
 </div>
 
 <div n="6" subtype="poem" type="textpart">
-<ab> <title>VI.  EPITAPHIVM MELISSAE. </title> </ab>
+<ab> <title >VI.  EPITAPHIVM MELISSAE. </title> </ab>
           <l n="1"><milestone unit="para"/>Corpore deuicto moritur quicumque superstat:  </l>
             <l n="2">Dant leti legem crimina sola homini.  </l>
             <l n="3">Nil tibi, uirgo, perit: carnem mens pura refudit,  </l>
@@ -2714,7 +2706,7 @@
 </div>
 
 <div n="7" subtype="poem" type="textpart">
-<ab> <title>VII.  [SERPENS AENEVS IN CRVCE.]</title> </ab>
+<ab> <title >VII.  [SERPENS AENEVS IN CRVCE.]</title> </ab>
           <l n="1"><milestone unit="para"/>Occisor mortis, dux uitae, planta salutis!  </l>
             <l n="2">Aspice: nam serpens ecce uenena fugat,  </l>
             <l n="3">Et quod supplicii species et mortis imago  </l>
@@ -2725,7 +2717,7 @@
 </div>
 
 <div n="8" subtype="poem" type="textpart">
-<ab> <title>VIII.  VERSVS IN BASILICA SANCTI XVSTI FACTI ET SCRIPTI QVAM LAVRENTIVS EPISCOPVS FECIT. </title> </ab>
+<ab> <title >VIII.  VERSVS IN BASILICA SANCTI XVSTI FACTI ET SCRIPTI QVAM LAVRENTIVS EPISCOPVS FECIT. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Antistes genio pollens probitate pudore  </l>
             <l n="2">Ornauit donum meritis et lumina uitae  </l>
             <l n="3">Ad pretium iungens operis haec templa locauit.  </l>
@@ -2760,7 +2752,7 @@
 </div>
 
 <div n="9" subtype="poem" type="textpart">
-<ab> <title>VIIII.  ITEM IN BASILICA SS. QVIA ARSERANT AEDIFICIA QVAE PRIVS IIII FVERANT ET SIC FACTA EST. </title> </ab>
+<ab> <title >VIIII.  ITEM IN BASILICA SS. QVIA ARSERANT AEDIFICIA QVAE PRIVS IIII FVERANT ET SIC FACTA EST. </title> </ab>
           <l n="1"><milestone unit="para"/>Vilia tecta prius facibus cessere beatis,  </l>
             <l n="2">Si splendor per damna uenit, si culmina flammis  </l>
             <l n="3">Consurgunt habitura deum, si perdita crescunt  </l>
@@ -2780,7 +2772,7 @@
 </div>
 
 <div n="10" subtype="poem" type="textpart">
-<ab> <title>X.  VERSVS IN DOMO MEDIOLANI SCRIPTI. </title> </ab>
+<ab> <title >X.  VERSVS IN DOMO MEDIOLANI SCRIPTI. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Aedibus ad genium duo sunt concessa per aeuum,  </l>
             <l n="2">Si niteant crustis aut domini merito.  </l>
 
@@ -2816,7 +2808,7 @@
 </div>
 
 <div n="11" subtype="poem" type="textpart">
-<ab> <title>XI.  [IN BASILICA APOSTOLORVM NOVARIAE.]</title> </ab>
+<ab> <title >XI.  [IN BASILICA APOSTOLORVM NOVARIAE.]</title> </ab>
           <l n="1"><milestone unit="para"/>(Antiquum) ecce nitet templum, quod sorduit ante,  </l>
             <l n="2">Cui faciem ueterem lux noua conposuit.-  </l>
             <l n="3">Perdidit antiquum quis religione sacellum,  </l>
@@ -2834,7 +2826,7 @@
 </div>
 
 <div n="12" subtype="poem" type="textpart">
-<ab> <title>XII.  [ITEM IN DOMO MEDIOLANI.]</title> </ab>
+<ab> <title >XII.  [ITEM IN DOMO MEDIOLANI.]</title> </ab>
           <l n="1"><milestone unit="para"/>Accipe de cuius biberit domus arta fluentis,   </l>
 <l n="2">Atria quod superet porticibus modicis.  </l>
 
@@ -2874,7 +2866,7 @@
 </div>
 
 <div n="13" subtype="poem" type="textpart">
-<ab> <title>XIII.  </title> </ab>
+<ab> <title >XIII.  </title> </ab>
           <l n="1"><milestone unit="para"/>Ille fuit rigidi semper seruator honesti,  </l>
             <l n="2">Terribilis culpis supplicibusque pius,  </l>
             <l n="3">Quem numquam flexit uitium, miseratio semper,  </l>
@@ -2891,7 +2883,7 @@
 </div>
 
 <div n="14" subtype="poem" type="textpart">
-<ab> <title>XIIII.  </title> </ab>
+<ab> <title >XIIII.  </title> </ab>
           <l n="1"><milestone unit="para"/>Qui possessa diu felix habitacula liquit?  </l>
             <l n="2">Quae creuit domino sic uiduata domus?  </l>
             <l n="3">Aulica suscipiens moderamina raptus inemptum  </l>
@@ -2925,7 +2917,7 @@
 </div>
 
 <div n="15" subtype="poem" type="textpart">
-<ab> <title>XV.  </title> </ab>
+<ab> <title >XV.  </title> </ab>
           <l n="1"><milestone unit="para"/>Da, pater omnipotens, per saecula longa, precamur,  </l>
             <l n="2">Spes ut certa piis hospitibus ueniat:  </l>
             <l n="3">Candida ne meritis fuscentur stamina nostris,  </l>
@@ -2943,7 +2935,7 @@
 </div>
 
 <div n="16" subtype="poem" type="textpart">
-<ab> <title>XVI.  </title> </ab>
+<ab> <title >XVI.  </title> </ab>
           <l n="1"><milestone unit="para"/>Eloquium certus naturae constitit index,  </l>
             <l n="2">Perfecti fontem quaerere qui sitiat.  </l>
             <l n="3">Libertas semper studiis reseratur honestis,  </l>
@@ -2979,7 +2971,7 @@
 </div>
 
 <div n="17" subtype="poem" type="textpart">
-<ab> <title>XVII.  SVPER REGIAM TRICLINII IN DOMO. </title> </ab>
+<ab> <title >XVII.  SVPER REGIAM TRICLINII IN DOMO. </title> </ab>
           <l n="1"><milestone unit="para"/>Nauita per postes suspendit munera ponti,  </l>
             <l n="2">In foribus propriis flumine parta gerens.  </l>
             <l n="3">Venator portis adponit missile ferrum,  </l>
@@ -2997,7 +2989,7 @@
 </div>
 
 <div n="18" subtype="poem" type="textpart">
-<ab> <title>XVIII.  IN MISSORIO QVOD HABET LORICATVM IVVENEM SVPER EQVVM TENENTEM VICTORIAM IN MANV. </title> </ab>
+<ab> <title >XVIII.  IN MISSORIO QVOD HABET LORICATVM IVVENEM SVPER EQVVM TENENTEM VICTORIAM IN MANV. </title> </ab>
           <l n="1"><milestone unit="para"/>Ecce tenet uictrix pennatum dextera numen:  </l>
             <l n="2">Venit et ad reditum non habet arma uiae.  </l>
             <l n="3">Pugnacem gestans sonipes per terga minatur,  </l>
@@ -3009,7 +3001,7 @@
 </div>
 
 <div n="19" subtype="poem" type="textpart">
-<ab> <title>XVIIII.  DE LEONE MARMOREO QVI AQVAM MITTIT IN DOMO. </title> </ab>
+<ab> <title >XVIIII.  DE LEONE MARMOREO QVI AQVAM MITTIT IN DOMO. </title> </ab>
           <l n="1"><milestone unit="para"/>Aspice deposita blandum feritate leonem:  </l>
             <l n="2">Ore uomit limphas pectoris obsequio.  </l>
 
@@ -3041,7 +3033,7 @@
 </div>
 
 <div n="20" subtype="poem" type="textpart">
-<ab> <title>XX.  IN BAPTISTERIO VGELLO VBI PICTI SVNT MARTVRES QVORVM RELIQVIAE CONDITAE SVNT IBI. </title> </ab>
+<ab> <title >XX.  IN BAPTISTERIO VGELLO VBI PICTI SVNT MARTVRES QVORVM RELIQVIAE CONDITAE SVNT IBI. </title> </ab>
           <l n="1"><milestone unit="para"/>Conditor Armenius, supero qui dignus honore est,  </l>
             <l n="2">Hic peperit fontem uiuificantis aquae.  </l>
             <l n="3">Plena salutiferis gestemus uiscera limphis:  </l>
@@ -3056,7 +3048,7 @@
 </div>
 
 <div n="21" subtype="poem" type="textpart">
-<ab> <title>XXI.  DE SCVTELLIS SEPTEM HABENTIBVS FERAS VEL DIANAM. </title> </ab>
+<ab> <title >XXI.  DE SCVTELLIS SEPTEM HABENTIBVS FERAS VEL DIANAM. </title> </ab>
           <l n="1"><milestone unit="para"/>Delia ceruus aper tigris leo bucula pardus.  </l>
             <l n="2">Adportant mensis fercula, docte, tuis.  </l> 
 
@@ -3065,7 +3057,7 @@
 </div>
 
 <div n="22" subtype="poem" type="textpart">
-<ab> <title>XXII.  DE CONPOSTILE HABENTE SEPTEM GAVATAS. </title> </ab>
+<ab> <title >XXII.  DE CONPOSTILE HABENTE SEPTEM GAVATAS. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Diuersis dapibus confinia proxima seruat,  </l>
             <l n="2">Dum claudit uariis fercula multa uiis.  </l>
             <l n="3">Limitibus certis quod iunctus diuidit ordo,  </l>
@@ -3091,7 +3083,7 @@
 </div>
 
 <div n="23" subtype="poem" type="textpart">
-<ab> <title>XXIII.  DE EO QVI VT FILIVM MATRI RECONCILIARET FVRTVM FECIT. </title> </ab>
+<ab> <title >XXIII.  DE EO QVI VT FILIVM MATRI RECONCILIARET FVRTVM FECIT. </title> </ab>
           <l n="1"><milestone unit="para"/>Quis rogo per facinus crimen conpescuit umquam?  </l> 
 
           <l n="2"><milestone unit="para"/>Amplector sanctas, quae dant bona semina, fraudes,  </l>
@@ -3109,7 +3101,7 @@
 </div>
 
 <div n="24" subtype="poem" type="textpart">
-<ab> <title>XXIIII.  DE EO QVI DICEBATVR MERETRICIS FILIVS ET ASELLIONIS ESSE. </title> </ab>
+<ab> <title >XXIIII.  DE EO QVI DICEBATVR MERETRICIS FILIVS ET ASELLIONIS ESSE. </title> </ab>
           <l n="1"><milestone unit="para"/>Di, prohibete minas, quas partus nuntiat horrens.  </l> 
 
           <l n="2"><milestone unit="para"/>Quem lupa sordenti conceptum fudit asello.  </l> 
@@ -3150,7 +3142,7 @@
 </div>
 
 <div n="25" subtype="poem" type="textpart">
-<ab> <title>XXV.  DE CAVCO CVIVSDAM HABENTE PASIPHAEN ET TAVRVM. EX TEMPORE. </title> </ab>
+<ab> <title >XXV.  DE CAVCO CVIVSDAM HABENTE PASIPHAEN ET TAVRVM. EX TEMPORE. </title> </ab>
           <l n="1"><milestone unit="para"/>Pasiphae, niueum linquens nec in arte iuuencum, </l>
              <l n="2">Diffusis collo manibus petis oscula supplex,  </l>
             <l n="3">Pulcrior et certis inludis ficta puellis:  </l>
@@ -3163,7 +3155,7 @@
 </div>
 
 <div n="26" subtype="poem" type="textpart">
-<ab> <title>XXVI.  DE EO QVI NVMQVAM NISI IN DEPOSITIONE FILII PAVIT. </title> </ab>
+<ab> <title >XXVI.  DE EO QVI NVMQVAM NISI IN DEPOSITIONE FILII PAVIT. </title> </ab>
           <l n="1"><milestone unit="para"/>Praeparat in fletu qui fercula lauta uocatis,  </l>
             <l n="2">Annua per lacrimas celebret sollemnia magnas., </l> 
 
@@ -3172,7 +3164,7 @@
 </div>
 
 <div n="27" subtype="poem" type="textpart">
-<ab> <title>XXVII.  ALITER</title> </ab>
+<ab> <title >XXVII.  ALITER</title> </ab>
           <l n="1"><milestone unit="para"/>Numquam stante domo pascit, mihi credite, tantos,  </l>
             <l n="2">Qui tumulos natis et mensas conplet amicis.  </l> 
 
@@ -3181,7 +3173,7 @@
 </div>
 
 <div n="28" subtype="poem" type="textpart">
-<ab> <title>XXVIII.  ALITER. </title> </ab>
+<ab> <title >XXVIII.  ALITER. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Conuiuae miseri, luctus deposcite multos:  </l>
             <l n="2">Prandia tot uenient, funera quot fuerint.  </l>
 
@@ -3209,7 +3201,7 @@
 </div>
 
 <div n="29" subtype="poem" type="textpart">
-<ab> <title>XXVIIII.  ITEM DE CAVCO HABENTE PASIPHAEN ET TAVRVM. </title> </ab>
+<ab> <title >XXVIIII.  ITEM DE CAVCO HABENTE PASIPHAEN ET TAVRVM. </title> </ab>
           <l n="1"><milestone unit="para"/>Blanditur mulier, sentit bos, membra monentur.  </l> 
 
           <l n="2"><milestone unit="para"/>Attulit ars formas: quis dedit his animas?  </l> 
@@ -3219,7 +3211,7 @@
 </div>
 
 <div n="30" subtype="poem" type="textpart">
-<ab> <title>XXX.  ALITER. </title> </ab>
+<ab> <title >XXX.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Et fictus rigidam seruat, Venus inproba, mentem  </l>
             <l n="2">I Taurus, ut admotis suspendat rostra labellis.  </l> 
 
@@ -3228,7 +3220,7 @@
 </div>
 
 <div n="31" subtype="poem" type="textpart">
-<ab> <title>XXXI.  ALITER. </title> </ab>
+<ab> <title >XXXI.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Si tibi sunt animae, pictor, quibus inseris artem,  </l>
             <l n="2">Mollior in tauro claudatur spiritus, oro,  </l>
             <l n="3">Fortia si miserae non dantur corda puellae.  </l> 
@@ -3238,7 +3230,7 @@
 </div>
 
 <div n="32" subtype="poem" type="textpart">
-<ab> <title>XXXII.  DE EO QVOD MESSALA CONSVL ENNODIVS IN COGNOMINE DICTVS EST. </title> </ab>
+<ab> <title >XXXII.  DE EO QVOD MESSALA CONSVL ENNODIVS IN COGNOMINE DICTVS EST. </title> </ab>
           <l n="1"><milestone unit="para"/>Consulis ad genium nomen pro stemmate iunxi: </l> 
 
           <l n="2"><milestone unit="para"/>Dans lucem fastis, sum trabeis potior.  </l> 
@@ -3252,7 +3244,7 @@
 </div>
 
 <div n="33" subtype="poem" type="textpart">
-<ab> <title>XXXIII.  DE OBLOQVENTE SIBI ADVOCATO. </title> </ab>
+<ab> <title >XXXIII.  DE OBLOQVENTE SIBI ADVOCATO. </title> </ab>
           <l n="1"><milestone unit="para"/>Inprobe, quid fractis confundis singula uerbis?  </l> 
 
           <l n="2"><milestone rend="script" unit="para"/>Depingit mores obruta lingua tuos.  </l>
@@ -3281,7 +3273,7 @@
 </div>
 
 <div n="34" subtype="poem" type="textpart">
-<ab> <title>XXXIIII.  VERSVS SCRIPTI VGELLO, VBI FILIVM ARMENI ANGELI CHRISTO OFFERVNT, QVI PAENITENTIAM EGIT. </title> </ab>
+<ab> <title >XXXIIII.  VERSVS SCRIPTI VGELLO, VBI FILIVM ARMENI ANGELI CHRISTO OFFERVNT, QVI PAENITENTIAM EGIT. </title> </ab>
           <l n="1"><milestone unit="para"/>Suscipit oblatum, ueniam cui contulit Iesus.  </l>
             <l n="2">Post culpas animae sunt holocausta dei.  </l>
             <l n="3">Perge, puer, teneros superans bene conscius annos.  </l>
@@ -3292,7 +3284,7 @@
 </div>
 
 <div n="35" subtype="poem" type="textpart">
-<ab> <title>XXXV.  DE EO QVI GALLIS IPSO PRAESENTE OBLOCVTVS EST, CVM ESSET DETRACTOR VENETVS. </title> </ab>
+<ab> <title >XXXV.  DE EO QVI GALLIS IPSO PRAESENTE OBLOCVTVS EST, CVM ESSET DETRACTOR VENETVS. </title> </ab>
           <l n="1"><milestone unit="para"/>Inludis Gallis, Veneti male tincta propago.  </l>
             <l n="2">Nil candoris habes: mens tibi quod genus est.  </l>
             <l n="3">Despicis insontes, maculatae uernula terrae:  </l>
@@ -3303,7 +3295,7 @@
 </div>
 
 <div n="36" subtype="poem" type="textpart">
-<ab> <title>XXXVI.  EPIGRAMMA IN SVBSCRIPTIONE. </title> </ab>
+<ab> <title >XXXVI.  EPIGRAMMA IN SVBSCRIPTIONE. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Quod tibi naturae dederit lex germen, amice,  </l>
             <l n="2">Hoc mihi fons tradat uiuificantis aquae.  </l>
 
@@ -3331,7 +3323,7 @@
 </div>
 
 <div n="37" subtype="poem" type="textpart">
-<ab> <title>XXXVII.  IN DOMO ANTE ORATORIVM. </title> </ab>
+<ab> <title >XXXVII.  IN DOMO ANTE ORATORIVM. </title> </ab>
           <l n="1"><milestone unit="para"/>Commoda de damnis mercaris, gaudia planctu,  </l>
             <l n="2">Si tibi de Christo est indubitata fides.  </l> 
 
@@ -3340,7 +3332,7 @@
 </div>
 
 <div n="38" subtype="poem" type="textpart">
-<ab> <title>XXXVIII.  ANTE OLEARIVM. </title> </ab>
+<ab> <title >XXXVIII.  ANTE OLEARIVM. </title> </ab>
           <l n="1"><milestone unit="para"/>Hoc est quod nitido membrum conpletur oliuo:  </l>
             <l n="2">Nil potius sanctas conuenit ante fores.  </l> 
 
@@ -3349,7 +3341,7 @@
 </div>
 
 <div n="39" subtype="poem" type="textpart">
-<ab> <title>XXXVIIII.  ANTE HORREVM. </title> </ab>
+<ab> <title >XXXVIIII.  ANTE HORREVM. </title> </ab>
           <l n="1"><milestone unit="para"/>Horrea parua licet, sed mens est largior illis.  </l>
             <l n="2">Non parcens opibus diuitias merui.  </l> 
 
@@ -3358,7 +3350,7 @@
 </div>
 
 <div n="40" subtype="poem" type="textpart">
-<ab> <title>XXXX.  ANTE SCALAS. </title> </ab>
+<ab> <title >XXXX.  ANTE SCALAS. </title> </ab>
           <l n="1"><milestone unit="para"/>Adueniant animum reserantes teste figura,  </l>
             <l n="2">Quo semper uotum proditur indicio.  </l> 
 
@@ -3367,7 +3359,7 @@
 </div>
 
 <div n="41" subtype="poem" type="textpart">
-<ab> <title>XXXXI.  ANTE CELLARIVM. </title> </ab>
+<ab> <title >XXXXI.  ANTE CELLARIVM. </title> </ab>
           <l n="1"><milestone unit="para"/>Nulla penum laxat mentis pressura sinistrae:  </l>
             <l n="2">Effluit extensis quod spatiis latitat.  </l> 
 
@@ -3376,7 +3368,7 @@
 </div>
 
 <div n="42" subtype="poem" type="textpart">
-<ab> <title>XXXXII.  ANTE COQVINAM. </title> </ab>
+<ab> <title >XXXXII.  ANTE COQVINAM. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Non mihi diffusae dant prandia celsa coquinae,  </l>
             <l n="2">Nec plures uenter concutit artifices.  </l>
             <l n="3">Fercula pauca damus numerum uincentia cultu,  </l>
@@ -3399,7 +3391,7 @@
 </div>
 
 <div n="43" subtype="poem" type="textpart">
-<ab> <title>XXXXIII.  ANTE CANAVAM. </title> </ab>
+<ab> <title >XXXXIII.  ANTE CANAVAM. </title> </ab>
           <l n="1"><milestone unit="para"/>Sobria cella, cadis uinum quae seruat onustis,  </l>
             <l n="2">Corpora confirmat gressibus acta suis.  </l>
             <l n="3">Infundant multis irarum pocula flammas,  </l>
@@ -3410,7 +3402,7 @@
 </div>
 
 <div n="44" subtype="poem" type="textpart">
-<ab> <title>XXXXIIII.  IN INGRESSV HORTI</title> </ab>
+<ab> <title >XXXXIIII.  IN INGRESSV HORTI</title> </ab>
           <l n="1"><milestone unit="para"/>Respice, qui gressum sinuas per amoena uirecta,  </l>
             <l n="2">Vt discas cultis lucem praeferre diserti.  </l>
             <l n="3">Adridet germen, quod linguae pingitur ostro:  </l>
@@ -3429,7 +3421,7 @@
 </div>
 
 <div n="45" subtype="poem" type="textpart">
-<ab> <title>XXXXV.  INTRA HORTVM SVPRA LIMEN. </title> </ab>
+<ab> <title >XXXXV.  INTRA HORTVM SVPRA LIMEN. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Conlaudet spatiis hortorum commoda lautis  </l>
             <l n="2">Plurima cui satiant iugera culta famem.  </l>
             <l n="3">Ditior extentos superat dos larga minorum:  </l>
@@ -3470,7 +3462,7 @@
 </div>
 
 <div n="46" subtype="poem" type="textpart">
-<ab> <title>XXXXVI.  DE MVRENA INL. <add>F</add>. FIRMINAE QVAE IN SEPTICIO CLAVDITVR, ITA TENVIS EST. </title> </ab>
+<ab> <title >XXXXVI.  DE MVRENA INL. <add>F</add>. FIRMINAE QVAE IN SEPTICIO CLAVDITVR, ITA TENVIS EST. </title> </ab>
           <l n="1"><milestone unit="para"/>Spiritus exhausto uolitat praelubricus auro:  </l>
             <l n="2">Candida lassatum uix tangit membra metallum.  </l>
             <l n="3">Adflixit pondus pretium fornacis anhelae.  </l> 
@@ -3480,7 +3472,7 @@
 </div>
 
 <div n="47" subtype="poem" type="textpart">
-<ab> <title>XXXXVII.  ALITER. </title> </ab>
+<ab> <title >XXXXVII.  ALITER. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Aurea per nebulas dissoluit fila magister:  </l>
             <l n="2">Cluserunt dociles flamina fulua manus.  </l>
 
@@ -3511,7 +3503,7 @@
 </div>
 
 <div n="48" subtype="poem" type="textpart">
-<ab> <title>XXXXVIII.  ALITER. </title> </ab>
+<ab> <title >XXXXVIII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Contulit hic uentus pretiosi membra metalli:  </l>
             <l n="2">Quod finxere timent nec capiunt oculi.  </l> 
 
@@ -3520,7 +3512,7 @@
 </div>
 
 <div n="49" subtype="poem" type="textpart">
-<ab> <title>XXXXVIIII.  ALITER. </title> </ab>
+<ab> <title >XXXXVIIII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Est nihil, et teneo: conuincit dextera uisum.  </l>
             <l n="2">Stringitur artatis digitorum nexibus aura.  </l> 
 
@@ -3529,7 +3521,7 @@
 </div>
 
 <div n="50" subtype="poem" type="textpart">
-<ab> <title>L.  DE EO QVI FICVS MVNERE ET TESSERAM SIMVL MISIT. </title> </ab>
+<ab> <title >L.  DE EO QVI FICVS MVNERE ET TESSERAM SIMVL MISIT. </title> </ab>
           <l n="1"><milestone unit="para"/>Damnati fructus mittit tua tessera ligni.  </l>
             <l n="2">Haec hominem dira spoliarunt pabula primum,  </l>
             <l n="3">. Et nudis, serpens, post fraudem sorte minaris.  </l>
@@ -3543,7 +3535,7 @@
 </div>
 
 <div n="51" subtype="poem" type="textpart">
-<ab> <title>LI.  DE ADVLTERO ET MOLLE. </title> </ab>
+<ab> <title >LI.  DE ADVLTERO ET MOLLE. </title> </ab>
           <l n="1"><milestone unit="para"/>Omnia Memphitis retinentur saecula textis:  </l>
             <l n="2">Seruiuit numquam Laurentius ante Neroni,  </l>
             <l n="3">Nec timuit ualidas uicit qui corpore flammas.  </l> 
@@ -3553,7 +3545,7 @@
 </div>
 
 <div n="52" subtype="poem" type="textpart">
-<ab> <title>LII.  ALITER. </title> </ab>
+<ab> <title >LII.  ALITER. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Vir facie, mulier gestu, sed crure quod ambo,  </l>
             <l n="2">Iurgia naturae nullo discrimine soluens,  </l>
             <l n="3">Es lepus, et tanti conculcas colla leonis.  </l>
@@ -3576,7 +3568,7 @@
 </div>
 
 <div n="53" subtype="poem" type="textpart">
-<ab> <title>LIII.  ALITER. </title> </ab>
+<ab> <title >LIII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Exige mendaces, populorum uxorcula, barbas,  </l>
             <l n="2">Ne minuant quaestum mascula labra tuum.  </l> 
 
@@ -3585,7 +3577,7 @@
 </div>
 
 <div n="54" subtype="poem" type="textpart">
-<ab> <title>LIIII.  ALITER. </title> </ab>
+<ab> <title >LIIII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Respice portentum permixto iure creatum,  </l>
             <l n="2">Communis generis, satius sed dicitur omnis.  </l> 
 
@@ -3594,7 +3586,7 @@
 </div>
 
 <div n="55" subtype="poem" type="textpart">
-<ab> <title>LV.  ALITER. </title> </ab>
+<ab> <title >LV.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Ludit in ancipiti constans fallacia sexu:  </l>
             <l n="2">Femineum patitur: peragit cum turpia, mas est.  </l> 
 
@@ -3603,7 +3595,7 @@
 </div>
 
 <div n="56" subtype="poem" type="textpart">
-<ab> <title>LVI.  IN BAPTISTERIO MEDIOLANENSI. </title> </ab>
+<ab> <title >LVI.  IN BAPTISTERIO MEDIOLANENSI. </title> </ab>
           <l n="1"><milestone unit="para"/>Mundior excocti fulgescat luce metalli  </l>
             <l n="2">Munera disponit qui dare digna deo.  </l>
             <l n="3">Ante uaporatis Laurenti uita caminis  </l>
@@ -3630,7 +3622,7 @@
 </div>
 
 <div n="57" subtype="poem" type="textpart">
-<ab> <title>LVII.  DE IOVINIANO QVI CVM HABERET BARBAM GOTHICAM LACERNA VESTITVS PROGESSIT. EX TEMPORE. </title> </ab>
+<ab> <title >LVII.  DE IOVINIANO QVI CVM HABERET BARBAM GOTHICAM LACERNA VESTITVS PROGESSIT. EX TEMPORE. </title> </ab>
           <l n="1"><milestone unit="para"/>Barbaricam faciem Romanos sumere cultus  </l>
             <l n="2">Miror et inmodico distinctas corpore gentes.  </l> 
 
@@ -3639,7 +3631,7 @@
 </div>
 
 <div n="58" subtype="poem" type="textpart">
-<ab> <title>LVIII.  ALITER. </title> </ab>
+<ab> <title >LVIII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Romuleam tegetem nox oris nubila fuscat:  </l>
             <l n="2">Oppressit uestes tenebroso tegmine uultus.  </l> 
 
@@ -3648,7 +3640,7 @@
 </div>
 
 <div n="59" subtype="poem" type="textpart">
-<ab> <title>LVIIII.  ALITER. </title> </ab>
+<ab> <title >LVIIII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Nobilibus tollis genium, male compte, lacernis,  </l>
             <l n="2">Discordes miscens inimico foedere proles.  </l> 
 
@@ -3657,7 +3649,7 @@
 </div>
 
 <div n="60" subtype="poem" type="textpart">
-<ab> <title>LX.  IN BASILICA SANCTI CALEMERI QVANDO REPARATA EST. </title> </ab>
+<ab> <title >LX.  IN BASILICA SANCTI CALEMERI QVANDO REPARATA EST. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Libera captiuum meruerunt culmina lumen,  </l>
             <l n="2">Adridet facies nubila nulla gerens.  </l>
             <l n="3">Hic nuper astrigeri dos proxima uenit Olympi,  </l>
@@ -3687,7 +3679,7 @@
 </div>
 
 <div n="61" subtype="poem" type="textpart">
-<ab> <title>LXI.  DE QVODAM VETEBI INIMICO STVLTO ET BENE PASCENTE. </title> </ab>
+<ab> <title >LXI.  DE QVODAM VETEBI INIMICO STVLTO ET BENE PASCENTE. </title> </ab>
           <l n="1"><milestone unit="para"/>Prandia lauta paras, sed linguae sordibus horres.  </l>
             <l n="2">Si deses pastor fercula concilias,  </l>
             <l n="3">Ambitiosa fames lassato prodiga censu  </l>
@@ -3698,7 +3690,7 @@
 </div>
 
 <div n="62" subtype="poem" type="textpart">
-<ab> <title>LXII.  DE EODEM QVIA OPES PAVPERVM VORABAT. </title> </ab>
+<ab> <title >LXII.  DE EODEM QVIA OPES PAVPERVM VORABAT. </title> </ab>
           <l n="1"><milestone unit="para"/>Visceribus miserorum et sanguine pauperis aucte,  </l>
             <l n="2">Tantorum mortes cur tibi sunt epulae?  </l>
             <l n="3">Tubera perdices grus turdus turtur echinus,  </l>
@@ -3711,7 +3703,7 @@
 </div>
 
 <div n="63" subtype="poem" type="textpart">
-<ab> <title>LXIII.  DE EODEM. </title> </ab>
+<ab> <title >LXIII.  DE EODEM. </title> </ab>
           <l n="1"><milestone unit="para"/>Artubus humanis Polyphemus uixit et atro  </l>
             <l n="2">Sanguine distentos delicias habuit.  </l>
             <l n="3">Tu reddis similem scena redeunte furorem,  </l>
@@ -3722,7 +3714,7 @@
 </div>
 
 <div n="64" subtype="poem" type="textpart">
-<ab> <title>LXIIII.  DE EO QVI VT AMICOS EIVS AD SE TOLLERET PASCEBAT. </title> </ab>
+<ab> <title >LXIIII.  DE EO QVI VT AMICOS EIVS AD SE TOLLERET PASCEBAT. </title> </ab>
           <l n="1"><milestone unit="para"/>Mergeret ut diuos in mortem, pabula serpens  </l>
             <l n="2">Contulit et uitam munere dira tulit.  </l>
             <l n="3">Sic quicumque meos paradisi uere labores  </l>
@@ -3752,7 +3744,7 @@
 </div>
 
 <div n="65" subtype="poem" type="textpart">
-<ab> <title>LXV.  DE DEFENSORE CALUDO. </title> </ab>
+<ab> <title >LXV.  DE DEFENSORE CALUDO. </title> </ab>
           <l n="1"><milestone unit="para"/>Nesciris uotis et cordis nube recedis  </l>
             <l n="2">Ex oculis: praesens quaereris in facie,  </l>
             <l n="3">Tuque per ambages nulli spectabilis esse  </l>
@@ -3770,7 +3762,7 @@
 </div>
 
 <div n="66" subtype="poem" type="textpart">
-<ab> <title>LXVI.  PRAEFATIO TOTIVS OPERIS POETICI QVOD FECIT. </title> </ab>
+<ab> <title >LXVI.  PRAEFATIO TOTIVS OPERIS POETICI QVOD FECIT. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Dum mea multiplices mens anxia sustinet aestus  </l>
             <l n="2">Et reddor uitrei mancipium pelagi  </l>
             <l n="3">Cumque procellosus refluentis portitor undae  </l>
@@ -3810,7 +3802,7 @@
 </div>
 
 <div n="67" subtype="poem" type="textpart">
-<ab> <title>LXVII.  DE EO QVOD VINDEMIARVM TEMPORE SCRIPSIT. </title> </ab>
+<ab> <title >LXVII.  DE EO QVOD VINDEMIARVM TEMPORE SCRIPSIT. </title> </ab>
           <l n="1"><milestone unit="para"/>Musta cadis famuli dum condunt nostra fideles  </l>
             <l n="2">Et ludunt praelo calcibus intrepidis,  </l>
             <l n="3">Dum tingunt rosei plantas de sanguine Bacchi,  </l>
@@ -3828,7 +3820,7 @@
 </div>
 
 <div n="68" subtype="poem" type="textpart">
-<ab> <title>LXVIII.  DE QVODAM GLVTTONE QVI OPVS EIVS INPERITVS CARPEBAT. </title> </ab>
+<ab> <title >LXVIII.  DE QVODAM GLVTTONE QVI OPVS EIVS INPERITVS CARPEBAT. </title> </ab>
           <l n="1"><milestone unit="para"/>Nescio cur sancto non parcas, stulte, labori,  </l>
             <l n="2">Dum morem seruas dentibus insiliens.  </l>
             <l n="3">Mandere nos pergis, sed uenter commoda nescit:  </l>
@@ -3863,7 +3855,7 @@
 </div>
 
 <div n="69" subtype="poem" type="textpart">
-<ab> <title>LXVIIII.  DE EVNVCHO TRIBVNO NOMINE PEREGRINO OMNIA PERAMBLANTI. </title> </ab>
+<ab> <title >LXVIIII.  DE EVNVCHO TRIBVNO NOMINE PEREGRINO OMNIA PERAMBLANTI. </title> </ab>
           <l n="1"><milestone unit="para"/>Testibus adseritur gens census uita, Tribune,  </l>
             <l n="2">Antiquum quotiens linquimus hospitium.  </l>
             <l n="3">Tu, quem lustratis transmisit gentibus error,  </l>
@@ -3881,7 +3873,7 @@
 </div>
 
 <div n="70" subtype="poem" type="textpart">
-<ab> <title>LXX.  ALITER DE EODEM. </title> </ab>
+<ab> <title >LXX.  ALITER DE EODEM. </title> </ab>
           <l n="1"><milestone unit="para"/>Tutus falsa loqui poteris sine teste, Tribune:  </l>
             <l n="2">Ventus habet linguam ponderibus uacui.  </l> 
 
@@ -3890,7 +3882,7 @@
 </div>
 
 <div n="71" subtype="poem" type="textpart">
-<ab> <title>LXXI.  ALITER DE IPSO QVIA NVSQVAM STAT. </title> </ab>
+<ab> <title >LXXI.  ALITER DE IPSO QVIA NVSQVAM STAT. </title> </ab>
           <l n="1"><milestone unit="para"/>Instabilem faciunt naturae damna Tribunum:  </l>
             <l n="2">Auolat hinc rursus, uincula ni teneant.  </l>
             <l n="3">Tolle, miser, modicam zephyro ueniente saburram:  </l>
@@ -3902,7 +3894,7 @@
 </div>
 
 <div n="72" subtype="poem" type="textpart">
-<ab> <title>LXXII.  ALITER DE IPSO. </title> </ab>
+<ab> <title >LXXII.  ALITER DE IPSO. </title> </ab>
           <l n="1"><milestone unit="para"/>Eunuchus turpem poscit per conpita uictum:  </l>
             <l n="2">Semina telluri non habet unde ferat.  </l>
 
@@ -3933,7 +3925,7 @@
 </div>
 
 <div n="73" subtype="poem" type="textpart">
-<ab> <title>LXXIII.  DE EO QVOD CVM IPSE GALLOS PARENTES HABERET ANSERES AMABAT COMEDERE. </title> </ab>
+<ab> <title >LXXIII.  DE EO QVOD CVM IPSE GALLOS PARENTES HABERET ANSERES AMABAT COMEDERE. </title> </ab>
           <l n="1"><milestone unit="para"/>Hic uolucrum pugna est, ubi Gallo caeditur anser:  </l>
             <l n="2">Dat poenas ueteris proditionis auis.  </l>
             <l n="3">Mactatus quondam uocis capis, inprobe, quaestum:  </l>
@@ -3944,7 +3936,7 @@
 </div>
 
 <div n="74" subtype="poem" type="textpart">
-<ab> <title>LXXIIII.  DE VARIETATE CLERICORVM. </title> </ab>
+<ab> <title >LXXIIII.  DE VARIETATE CLERICORVM. </title> </ab>
           <l n="1"><milestone unit="para"/>Qui ponti facies, numerum qui nouit harenae,  </l>
             <l n="2">Femina quem iurans fallere nulla potest,  </l>
             <l n="3">Astrorum plebes quae calles spectat amantum,  </l>
@@ -3957,7 +3949,7 @@
 </div>
 
 <div n="75" subtype="poem" type="textpart">
-<ab> <title>LXXV.  DE MALO HOMINE QVI EQVOS AMABAT. </title> </ab>
+<ab> <title >LXXV.  DE MALO HOMINE QVI EQVOS AMABAT. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Gaudet equis recti dissuasor, prodigus aequi,  </l>
             <l n="2">Nomina qui digna studio superante caballis  </l>
 
@@ -3989,7 +3981,7 @@
 </div>
 
 <div n="76" subtype="poem" type="textpart">
-<ab> <title>LXXVI.  DE CALLIDO QVI DEFENSOR DICBBATVR. </title> </ab>
+<ab> <title >LXXVI.  DE CALLIDO QVI DEFENSOR DICBBATVR. </title> </ab>
           <l n="1"><milestone unit="para"/>Aspidas ut capiat tectis fraus hospita technis,  </l>
             <l n="2">Sub ludi specie mortis imago latet.  </l>
             <l n="3">Vmbra lacessitas producit callida pestes  </l>
@@ -4002,7 +3994,7 @@
 </div>
 
 <div n="77" subtype="poem" type="textpart">
-<ab> <title>LXXVII.  DE DOMNI AMBEOSI EPISCOPI ACTIBVB ET VITA. </title> </ab>
+<ab> <title >LXXVII.  DE DOMNI AMBEOSI EPISCOPI ACTIBVB ET VITA. </title> </ab>
           <l n="1"><milestone unit="para"/>Egit quod docuit meritis et honore superstes  </l>
             <l n="2">Ambrosius uates moribus ingenio,  </l>
             <l n="3">Roscida regifico cui fulsit murice lingua,  </l>
@@ -4037,7 +4029,7 @@
 </div>
 
 <div n="78" subtype="poem" type="textpart">
-<ab> <title>LXXVIII.  DE SANCTI SIMPLICIANI EPISCOPI SVCCESSORIS EIVS. </title> </ab>
+<ab> <title >LXXVIII.  DE SANCTI SIMPLICIANI EPISCOPI SVCCESSORIS EIVS. </title> </ab>
           <l n="1"><milestone unit="para"/>Ambrosius linquens uiduatae munia plebis  </l>
             <l n="2">Transtulit ad curam, Simpliciane, tuam.  </l>
             <l n="3">Successoris ope spoliati uiscera regni  </l>
@@ -4056,7 +4048,7 @@
 </div>
 
 <div n="79" subtype="poem" type="textpart">
-<ab> <title>LXXVIIII.  DE BEATI VENERI SEQVENTIS. </title> </ab>
+<ab> <title >LXXVIIII.  DE BEATI VENERI SEQVENTIS. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Forma pudicitiae iuuenis sectanda Veneri  </l>
             <l n="2">Venit; nominibus nil famulata suis.  </l>
             <l n="3">Fortia marcebant uetulo sub iudice membra,  </l>
@@ -4092,7 +4084,7 @@
 </div>
 
 <div n="80" subtype="poem" type="textpart">
-<ab> <title>LXXX.  DE VENERABILIS MAROLI SVCCESSIONE. </title> </ab>
+<ab> <title >LXXX.  DE VENERABILIS MAROLI SVCCESSIONE. </title> </ab>
           <l n="1"><milestone unit="para"/>Marolus, extremae potator Tigridis undae,  </l>
             <l n="2">Qui iubar in madidis uiderat hospitiis,  </l>
             <l n="3">Quem labor in proprio Syriae solidauerat axe,  </l>
@@ -4110,7 +4102,7 @@
 </div>
 
 <div n="81" subtype="poem" type="textpart">
-<ab> <title>LXXXI.  DE CVLTORE DEI MARTTNIANO EPISCOPO. </title> </ab>
+<ab> <title >LXXXI.  DE CVLTORE DEI MARTTNIANO EPISCOPO. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Mens niuei lactis, species manifesta columbae,  </l>
             <l n="2">Astutia serpens, Martiniane, uale.  </l>
             <l n="3">Lubrica te dubii dum poscunt flamina uulgi,  </l>
@@ -4149,7 +4141,7 @@
 </div>
 
 <div n="82" subtype="poem" type="textpart">
-<ab> <title>LXXXII.  DE VENERABILI GLVCERIO EPISCOPO. </title> </ab>
+<ab> <title >LXXXII.  DE VENERABILI GLVCERIO EPISCOPO. </title> </ab>
           <l n="1"><milestone unit="para"/>Suffusus minio perque optima facta rubescens  </l>
             <l n="2">Virginei uultus Glycerius sequitur.  </l>
             <l n="3">Puram sanguineo maculat dum rore figuram,  </l>
@@ -4166,7 +4158,7 @@
 </div>
 
 <div n="83" subtype="poem" type="textpart">
-<ab> <title>LXXXIII.  DE SANCTO LAZARO ANTISTITE. </title> </ab>
+<ab> <title >LXXXIII.  DE SANCTO LAZARO ANTISTITE. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Lazarus ut diri premeret pede culmina mundi,  </l>
             <l n="2">Vocibus adcitus trux uenit in medium,  </l>
             <l n="3">Quem frons laeta parum uitiis depinxerat hostem,  </l>
@@ -4197,7 +4189,7 @@
 </div>
 
 <div n="84" subtype="poem" type="textpart">
-<ab> <title>LXXXIIII.  DE AMICO DEI EVSEBIO PONTIFICE. </title> </ab>
+<ab> <title >LXXXIIII.  DE AMICO DEI EVSEBIO PONTIFICE. </title> </ab>
           <l n="1"><milestone unit="para"/>Eusebius Ligurum successit finibus hospes,  </l>
             <l n="2">Ignotae tractus plebis amicitia.  </l>
             <l n="3">Graius erat, socio Titan quos respicit ortu,  </l>
@@ -4214,7 +4206,7 @@
 </div>
 
 <div n="85" subtype="poem" type="textpart">
-<ab> <title>LXXXV.  DE GERONTIO VIRO SIMPLICI EPISCOPO. </title> </ab>
+<ab> <title >LXXXV.  DE GERONTIO VIRO SIMPLICI EPISCOPO. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Ecclesiae postquam parta est tibi sella, Geronti,  </l>
             <l n="2">Funera decessor non timuit moriens.  </l>
             <l n="3">Te reparante redit, patitur sors pallida letum,  </l>
@@ -4246,7 +4238,7 @@
 </div>
 
 <div n="86" subtype="poem" type="textpart">
-<ab> <title>LXXXVI.  DE VENERABILI BENIGNO EPISCOPO. </title> </ab>
+<ab> <title >LXXXVI.  DE VENERABILI BENIGNO EPISCOPO. </title> </ab>
           <l n="1"><milestone unit="para"/>Exere quae posuit mens nomina certa, Benigne,  </l>
             <l n="2">Quem quisquis uocitat testis erit meriti.  </l>
             <l n="3">Cana fides hominem dum narrat, detegit actus,  </l>
@@ -4263,7 +4255,7 @@
 </div>
 
 <div n="87" subtype="poem" type="textpart">
-<ab> <title>LXXXVII.  DE BEATISSIMO VIRO SENATORE EPISCOPO. </title> </ab>
+<ab> <title >LXXXVII.  DE BEATISSIMO VIRO SENATORE EPISCOPO. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Qui uicit trabeas solium cinctumque Gabinum,  </l>
             <l n="2">Consulibus praestans ecce Senator adest,  </l>
             <l n="3">Ingenium uelox, sermonis cura rotundi,  </l>
@@ -4297,7 +4289,7 @@
 </div>
 
 <div n="88" subtype="poem" type="textpart">
-<ab> <title>LXXXVIII.  DE DOMNO THEODORO VIRTVTVM OMNIVM VIRO EPISCOPO. </title> </ab>
+<ab> <title >LXXXVIII.  DE DOMNO THEODORO VIRTVTVM OMNIVM VIRO EPISCOPO. </title> </ab>
           <l n="1"><milestone unit="para"/>Tu lux certa tuis, spes tu fidissima rerum,  </l>
             <l n="2">Vatis apostolici tu, Theodore, uigor,  </l>
             <l n="3">Virtutum cumulus, substantia lucida ueri,  </l>
@@ -4314,7 +4306,7 @@
 </div>
 
 <div n="89" subtype="poem" type="textpart">
-<ab> <title>LXXXVIIII.  [DE LAVRENTIO EPISCOPO ADHVC SVPERSTITE.]</title> </ab>
+<ab> <title >LXXXVIIII.  [DE LAVRENTIO EPISCOPO ADHVC SVPERSTITE.]</title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Restat quem longo seruet rex inclitus aeuo.  </l>
 
 
@@ -4341,7 +4333,7 @@
 </div>
 
 <div n="90" subtype="poem" type="textpart">
-<ab> <title>XC.  [AD DEVTERIVM.]</title> </ab>
+<ab> <title >XC.  [AD DEVTERIVM.]</title> </ab>
           <l n="1"><milestone unit="para"/>Imperii custos, uocali pollice cordas  </l>
             <l n="2">Per numeros animans, tibi fila loquentia carmen  </l>
             <l n="3">Verberibus plectri, doctor, seruire coegi.  </l>
@@ -4356,7 +4348,7 @@
 </div>
 
 <div n="91" subtype="poem" type="textpart">
-<ab> <title>XCI.  DE MARMORIBVS OPEES SARSORIO. </title> </ab>
+<ab> <title >XCI.  DE MARMORIBVS OPEES SARSORIO. </title> </ab>
           <l n="1"><milestone unit="para"/>Visceribus lapidum permixta lege coactis  </l>
             <l n="2">Naturam faciunt artificum studia.  </l>
             <l n="3">In solidum fractis riguerunt marmora membris,  </l>
@@ -4369,7 +4361,7 @@
 </div>
 
 <div n="92" subtype="poem" type="textpart">
-<ab> <title>XCII.  IN MISSORIO VBI IMAGO IPSIVS EST. </title> </ab>
+<ab> <title >XCII.  IN MISSORIO VBI IMAGO IPSIVS EST. </title> </ab>
           <l n="1"><milestone unit="para"/>Diuitibus pretium est Ennodi forma metallis.  </l> 
 
           
@@ -4377,7 +4369,7 @@
 </div>
 
 <div n="93" subtype="poem" type="textpart">
-<ab> <title>XCIII.  IN CONCA IPSIVS. </title> </ab>
+<ab> <title >XCIII.  IN CONCA IPSIVS. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Parturit unda sitim, quam splendens conca ministrat.  </l>
             <l n="2">XC. 1 cf. Tibull n 5, 3 et Zingerlii Ouid. I p. 106  </l>
 
@@ -4399,7 +4391,7 @@
 </div>
 
 <div n="94" subtype="poem" type="textpart">
-<ab> <title>XCIIII.  DE EQVO QVEM ACCEPIT HVNISCO. </title> </ab>
+<ab> <title >XCIIII.  DE EQVO QVEM ACCEPIT HVNISCO. </title> </ab>
           <l n="1"><milestone unit="para"/>Belliger algenti sonipes nutrite sub axe,  </l>
             <l n="2">Per Tanais medium pectora sicca ferens,  </l>
             <l n="3">Cana pruinosis mandentem gramina lustris,  </l>
@@ -4416,7 +4408,7 @@
 </div>
 
 <div n="95" subtype="poem" type="textpart">
-<ab> <title>XCV.  EPITAPHIVM SANCTI VICTORIS NOVARIENSIS EPISCOPI. </title> </ab>
+<ab> <title >XCV.  EPITAPHIVM SANCTI VICTORIS NOVARIENSIS EPISCOPI. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Nomine proposito meritis certamine Victor,  </l>
             <l n="2">Despicis oppressas maculato semine terras.  </l>
             <l n="3">Tu carnis uitiis possessor corporis expers,  </l>
@@ -4450,7 +4442,7 @@
 </div>
 
 <div n="96" subtype="poem" type="textpart">
-<ab> <title>XCVI.  DE ROMANO QVODAM QVI MAGISTER VOLVIT ESSE. </title> </ab>
+<ab> <title >XCVI.  DE ROMANO QVODAM QVI MAGISTER VOLVIT ESSE. </title> </ab>
           <l n="1"><milestone unit="para"/>Index naturae studium tibi non uenit ullum,  </l>
             <l n="2">Littera nulla colit brutae commercia linguae:  </l>
             <l n="3">Numquam discipulus, ualeas dic unde magister?  </l> 
@@ -4460,7 +4452,7 @@
 </div>
 
 <div n="97" subtype="poem" type="textpart">
-<ab> <title>XCVII.  DE ANV QVADAM. </title> </ab>
+<ab> <title >XCVII.  DE ANV QVADAM. </title> </ab>
           <l n="1"><milestone unit="para"/>Algidus in uiuo moritur dum corpore sanguis,  </l>
             <l n="2">Annorum glacies cum siccat pabula uuluae,  </l>
             <l n="3">Seminis et custos refugit cruor utilis inguen,  </l>
@@ -4475,7 +4467,7 @@
 </div>
 
 <div n="98" subtype="poem" type="textpart">
-<ab> <title>XCVIII.  DE ANVLO FIRMINAE INL. FEMINAE. </title> </ab>
+<ab> <title >XCVIII.  DE ANVLO FIRMINAE INL. FEMINAE. </title> </ab>
           <l n="1"><milestone unit="para"/>Nil fallit simulans: quod finxit dextera uerum est.  </l> 
 
           <l n="2"><milestone unit="para"/>Inmobilis stantem fugitat lepus arte molossum,  </l>
@@ -4505,7 +4497,7 @@
 </div>
 
 <div n="99" subtype="poem" type="textpart">
-<ab> <title>XCVIIII.  [DE ALBINO.]</title> </ab>
+<ab> <title >XCVIIII.  [DE ALBINO.]</title> </ab>
           <l n="1"><milestone unit="para"/>Aspicis Albinum titulos post busta dedisse,  </l>
             <l n="2">Funera qui meritis uiuacibus iugulat.  </l>
             <l n="3">Inclite, cui, princeps, dum subdis iura magistri,  </l>
@@ -4516,7 +4508,7 @@
 </div>
 
 <div n="100" subtype="poem" type="textpart">
-<ab> <title>C.  [DE CANE VENATICO ET AGNA.]</title> </ab>
+<ab> <title >C.  [DE CANE VENATICO ET AGNA.]</title> </ab>
           <l n="1"><milestone unit="para"/>Creticus hic sollers quidam uocitatur homullus,  </l>
             <l n="2">Naribus argutus, gressu celer, ore timendus,  </l>
             <l n="3">Inpauidus presso signans uestigia rostro:  </l>
@@ -4530,7 +4522,7 @@
 </div>
 
 <div n="101" subtype="poem" type="textpart">
-<ab> <title>CI.  DE SCVTELLIS. </title> </ab>
+<ab> <title >CI.  DE SCVTELLIS. </title> </ab>
           <l n="1"><milestone unit="para"/>Tot louis inlecebras, tot crimina uiua figuris  </l>
             <l n="2">Dum bene depingit, uitiosa est dextera fabri.  </l>
             <l n="3">Argenti pretium est facinus retinere uetustum,  </l>
@@ -4559,7 +4551,7 @@
 </div>
 
 <div n="102" subtype="poem" type="textpart">
-<ab> <title>CII.  [ALITER]</title> </ab>
+<ab> <title >CII.  [ALITER]</title> </ab>
           <l n="1"><milestone unit="para"/>Si tantas facies tunc sumpsit diuus adulter,  </l>
             <l n="2">Se primum falsis lusit imaginibus:  </l>
             <l n="3">Quid non mentito uiolasset corpore numen,  </l>
@@ -4570,7 +4562,7 @@
 </div>
 
 <div n="103" subtype="poem" type="textpart">
-<ab> <title>CIII.  [DE PASIPHAE ET MINOTAVRO.]</title> </ab>
+<ab> <title >CIII.  [DE PASIPHAE ET MINOTAVRO.]</title> </ab>
           <l n="1"><milestone unit="para"/>Laesa Venus non est: naturae uincula constant:  </l>
             <l n="2">Bucula Daedalei cessat mentita laboris.  </l>
             <l n="3">Ingenio uiuens nil mugit uacca biformis,  </l>
@@ -4585,7 +4577,7 @@
 </div>
 
 <div n="104" subtype="poem" type="textpart">
-<ab> <title>CIIII.  [DE DEVTERIO GRAMMATICO.]</title> </ab>
+<ab> <title >CIIII.  [DE DEVTERIO GRAMMATICO.]</title> </ab>
           <l n="1"><milestone unit="para"/>Forma caput facies Deuteri cuncta magister,  </l>
             <l n="2">Innumeris doctor dotibus ille cluit.  </l>
             <l n="3">Excuset linguam genius perfectus ubique :  </l>
@@ -4620,7 +4612,7 @@
 </div>
 
 <div n="105" subtype="poem" type="textpart">
-<ab> <title>CV.  IN NATALEM INFANTIS ARATORIS. EX TEMPORE. </title> </ab>
+<ab> <title >CV.  IN NATALEM INFANTIS ARATORIS. EX TEMPORE. </title> </ab>
           <l n="1"><milestone unit="para"/>Iure colis proprium natalem, pulcher Arator.  </l>
             <l n="2">Qui si non coleres, numquid arator eras?  </l> 
 
@@ -4629,7 +4621,7 @@
 </div>
 
 <div n="106" subtype="poem" type="textpart">
-<ab> <title>CVI.  DE QVODAM INCERTI PROPOSITI ET VITAE TVRPIS. </title> </ab>
+<ab> <title >CVI.  DE QVODAM INCERTI PROPOSITI ET VITAE TVRPIS. </title> </ab>
           <l n="1"><milestone unit="para"/>Tot rebus fallax quid garris, pica biformis,  </l>
             <l n="2">Semiuir et tremulo qui nexas turpia lumbo?  </l>
             <l n="3">Quod tibi propositum, qui sexus constitit umquam?  </l>
@@ -4639,7 +4631,7 @@
 </div>
 <div n="107" subtype="poem" type="textpart">
 
-<ab> <title>CVII. VERSVS MISSI AGNELLO VIRO SVBLIMI. EX TEMPORE. </title> </ab>
+<ab> <title >CVII. VERSVS MISSI AGNELLO VIRO SVBLIMI. EX TEMPORE. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Lucidum tinxit maculante fuco  </l>
             <l n="2">Quisquis affectum, ferat inde linguam  </l>
             <l n="3">Iudicis Christi facibus perustam,  </l>
@@ -4673,7 +4665,7 @@
 
 
   <div n="ep" subtype="poem" type="textpart">          
-<ab> <title>ENNODIVS AGNELLO. </title> </ab>
+<ab> <title >ENNODIVS AGNELLO. </title> </ab>
           <p>Ante imperium diligentiae uestrae ualitudinem suam <lb/>
             iniuncta tenuerunt. nam ne cui haec darentur uel legenda <lb/>
             uel transcribenda praemonitus, obuias poscentibus manus <lb/>
@@ -4685,7 +4677,7 @@
 
 </div></div>
 <div n="108" subtype="poem" type="textpart">
-<ab> <title>CVIII. </title> </ab>
+<ab> <title >CVIII. </title> </ab>
           <l n="1"><milestone unit="para"/>Vincula soluit amor, quae quondam nexuit alter:  </l>
             <l n="2">Non nisi per legem cedit lex prisca sequentem.  </l> 
 
@@ -4694,7 +4686,7 @@
 </div>
 
 <div n="109" subtype="poem" type="textpart">
-<ab> <title>CVIIII.  [DE VERSIBVS SVIS.]</title> </ab>
+<ab> <title >CVIIII.  [DE VERSIBVS SVIS.]</title> </ab>
           <l n="1"><milestone unit="para"/>Numquam frugiferis per saecula longa thyrambis  </l>
             <l n="2">In me fluxerunt commoda Castalii.  </l>
             <l n="3">Tristia ieiunis pangentem carmina labris,  </l>
@@ -4729,7 +4721,7 @@
 </div>
 
 <div n="110" subtype="poem" type="textpart">
-<ab> <title>CX.  DE CASTELLO HONORATI EPISCOPI. </title> </ab>
+<ab> <title >CX.  DE CASTELLO HONORATI EPISCOPI. </title> </ab>
           <l n="1"><milestone unit="para"/>Pontificis castrum spes est fidissima uitae.  </l>
             <l n="2">Cui tutor sanctus, quae nocitura petant?  </l>
             <l n="3">Hic clipeus scutum est: procul hinc, Bellona, recede.  </l>
@@ -4742,7 +4734,7 @@
 </div>
 
 <div n="111" subtype="poem" type="textpart">
-<ab> <title>CXI.  DE HORTO REGIS. </title> </ab>
+<ab> <title >CXI.  DE HORTO REGIS. </title> </ab>
           <l n="1"><milestone unit="para"/>Dextera bellipotens uulgatis plena triumphis,  </l>
             <l n="2">Qua cecidit quicquid fugit ab obsequio,  </l>
             <l n="3">Disperso celsam solidas quae sanguine famam,  </l>
@@ -4792,7 +4784,7 @@
 </div>
 
 <div n="112" subtype="poem" type="textpart">
-<ab> <title>CXII.  DE CAECO QVODAM ET LVXVRIOSO. </title> </ab>
+<ab> <title >CXII.  DE CAECO QVODAM ET LVXVRIOSO. </title> </ab>
           <l n="1"><milestone unit="para"/>Orbe pereffosso fluuidum de lumine uulnus  </l>
             <l n="2">Pestifer ostentans ora sepulta geris.  </l>
             <l n="3">Caeca per innumeros facies portatur amicos:  </l>
@@ -4809,7 +4801,7 @@
 </div>
 
 <div n="113" subtype="poem" type="textpart">
-<ab> <title>CXIII.  DE EQVO SVO SENE. </title> </ab>
+<ab> <title >CXIII.  DE EQVO SVO SENE. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Fixior annoso sonipes moderamine noster  </l>
             <l n="2">Nunc iuuenem blando sustinet obsequio.  </l>
             <l n="3">Mollia grandaeuus summittit terga sedenti:  </l>
@@ -4836,7 +4828,7 @@
 </div>
 
 <div n="114" subtype="poem" type="textpart">
-<ab> <title>CXIIII.  DE FLAGELLO INFANTIS ARATORIS. </title> </ab>
+<ab> <title >CXIIII.  DE FLAGELLO INFANTIS ARATORIS. </title> </ab>
           <l n="1"><milestone unit="para"/>Quae capiunt mundum iunxit mens docta flagello,  </l>
             <l n="2">Exornans censu nobilitante plagas.  </l> 
 
@@ -4845,7 +4837,7 @@
 </div>
 
 <div n="115" subtype="poem" type="textpart">
-<ab> <title>CXV.  ALITER. </title> </ab>
+<ab> <title >CXV.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Argenti atque auri uapulat quicumque metallis,  </l>
             <l n="2">Gaudia cum fletu miscet auara suo. I </l> 
 
@@ -4854,7 +4846,7 @@
 </div>
 
 <div n="116" subtype="poem" type="textpart">
-<ab> <title>CXVI.  ALITER. </title> </ab>
+<ab> <title >CXVI.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Dentibus argenti fuluum concluditur aurum:  </l>
             <l n="2">Contemnat nullus uerbera pulcra pati.  </l> 
 
@@ -4863,7 +4855,7 @@
 </div>
 
 <div n="117" subtype="poem" type="textpart">
-<ab> <title>CXVII.  EPITAPHIVM DOMNAE MELLISAE INLVSTRIS FEMINAE. </title> </ab>
+<ab> <title >CXVII.  EPITAPHIVM DOMNAE MELLISAE INLVSTRIS FEMINAE. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Sanguine mente opibus facie uirtute pudore,  </l>
             <l n="2">Optatur qualis femina, sola fui.  </l>
             <l n="3">Hoc tantum mundi quod lex est corpore gessi,  </l>
@@ -4896,7 +4888,7 @@
 </div>
 
 <div n="118" subtype="poem" type="textpart">
-<ab> <title>CXVIII.  DE QVODAM STVLTO QVI VIRGILIVS DICEBATVR. </title> </ab>
+<ab> <title >CXVIII.  DE QVODAM STVLTO QVI VIRGILIVS DICEBATVR. </title> </ab>
           <l n="1"><milestone unit="para"/>In tantum prisci defluxit fama Maronis,  </l>
             <l n="2">Vt te Virgilium saecula nostra darent.  </l> 
 
@@ -4905,7 +4897,7 @@
 </div>
 
 <div n="119" subtype="poem" type="textpart">
-<ab> <title>CXVIIII.  ALITER. </title> </ab>
+<ab> <title >CXVIIII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Si fatuo dabitur tam sanctum nomen homullo,  </l>
             <l n="2">Gloria maiorum curret in obprobrium.  </l> 
 
@@ -4914,7 +4906,7 @@
 </div>
 
 <div n="120" subtype="poem" type="textpart">
-<ab> <title>CXX.  ALITER. </title> </ab>
+<ab> <title >CXX.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Captiuo stultus congaudet stemmate uatis.  </l>
             <l n="2">Non est Virgilius, dicitur iste tamen.  </l> 
 
@@ -4923,7 +4915,7 @@
 </div>
 
 <div n="121" subtype="poem" type="textpart">
-<ab> <title>CXXI.  ALITER. </title> </ab>
+<ab> <title >CXXI.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Externo quotiens uocitaris nomine, demens,  </l>
             <l n="2">Si tibi sunt sensus, prospice ne uenias.  </l> 
 
@@ -4932,7 +4924,7 @@
 </div>
 
 <div n="122" subtype="poem" type="textpart">
-<ab> <title>CXXII.  ALITER. </title> </ab>
+<ab> <title >CXXII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Cur te Virgilium mentiris, pessime, nostrum?  </l>
             <l n="2">Non potes esse Maro, sed potes esse moro.  </l>
 
@@ -4956,7 +4948,7 @@
 </div>
 
 <div n="123" subtype="poem" type="textpart">
-<ab> <title>CXXIII.  IN CVBICVLVM SVPER CODICES IN ORDINE POSITOS. </title> </ab>
+<ab> <title >CXXIII.  IN CVBICVLVM SVPER CODICES IN ORDINE POSITOS. </title> </ab>
           <l n="1"><milestone unit="para"/>Iste callis est, supernam qui parat potentiam,  </l>
             <l n="2">Lux pudoris, esca mentis, fax medela claritas.  </l>
             <l n="3">Mundi faece qui fucantur hunc tenere nesciunt.  </l>
@@ -4968,7 +4960,7 @@
 </div>
 
 <div n="124" subtype="poem" type="textpart">
-<ab> <title>CXXIIII.  ADVERSVS CLAVDIANVM DE MVLABVS. </title> </ab>
+<ab> <title >CXXIIII.  ADVERSVS CLAVDIANVM DE MVLABVS. </title> </ab>
           <l n="1"><milestone unit="para"/>Hic uolucrem Rhodani torrentis respice natam  </l>
             <l n="2">Sermonum frenis subdere colla tuis.  </l>
             <l n="3">Iussa uolat uerbis et uerbis iussa quiescit,  </l>
@@ -4985,7 +4977,7 @@
 </div>
 
 <div n="125" subtype="poem" type="textpart">
-<ab> <title>CXXV.  DE ASINO ET EQVA. </title> </ab>
+<ab> <title >CXXV.  DE ASINO ET EQVA. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Visceribus propriis externos fundere partus  </l>
             <l n="2">Cogitur et generis subolem lactare ferini,  </l>
             <l n="3">Iurgia naturae magno distantia calle.  </l>
@@ -5012,7 +5004,7 @@
 </div>
 
 <div n="126" subtype="poem" type="textpart">
-<ab> <title>CXXVI.  ALITER. </title> </ab>
+<ab> <title >CXXVI.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Edidit ignotum genetrix male conscia partum,  </l>
             <l n="2">Naturae fraudes, nobiliore dolo.  </l> 
 
@@ -5039,7 +5031,7 @@
 </div>
 
 <div n="128" subtype="poem" type="textpart">
-<ab> <title>CXXVIII.  DE VECTATIONE SVA NOCTE IN AESTATE. </title> </ab>
+<ab> <title >CXXVIII.  DE VECTATIONE SVA NOCTE IN AESTATE. </title> </ab>
           <l n="1"><milestone unit="para"/>Astrorum populus necdum de lumine solis  </l>
             <l n="2">Perdiderat lucem, gremio sed noctis adultae  </l>
             <l n="3">Fundebat rutilos madefacto aspargine crines:  </l>
@@ -5075,7 +5067,7 @@
 </div>
 
 <div n="129" subtype="poem" type="textpart">
-<ab> <title>CXXVIIII.  IN BASTERNA VXORIS BASSI VIOLAE. </title> </ab>
+<ab> <title >CXXVIIII.  IN BASTERNA VXORIS BASSI VIOLAE. </title> </ab>
           <l n="1"><milestone unit="para"/>Quam uaga constantem retinent haec tecta decorem!  </l>
             <l n="2">Mittitur a domina quicquid habent pretii.  </l>
             <l n="3">Nam rutilat fuluum Violae de luce metallum:  </l>
@@ -5086,7 +5078,7 @@
 </div>
 
 <div n="130" subtype="poem" type="textpart">
-<ab> <title>CXXX.  EPITAPHIVM EVPHEMIAE. </title> </ab>
+<ab> <title >CXXX.  EPITAPHIVM EVPHEMIAE. </title> </ab>
           <l n="1"><milestone unit="para"/>Obruit haec tumulos, uiuit post funera factis,  </l>
             <l n="2">Quae mortale nihil moribus inseruit.  </l>
             <l n="3">Euphemia tuos tellus conplectitur artus,  </l>
@@ -5101,7 +5093,7 @@
 </div>
 
 <div n="131" subtype="poem" type="textpart">
-<ab> <title>CXXXI.  DE SPATHA IN FVSTE. </title> </ab>
+<ab> <title >CXXXI.  DE SPATHA IN FVSTE. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Vtimur incluso per fraudes ense bacillo:  </l>
             <l n="2">Mors ligni tunicis quam bene tecta latet!  </l>
             <l n="3">Subsidium portas, quod cunctis terror haberis:  </l>
@@ -5126,7 +5118,7 @@
 </div>
 
 <div n="132" subtype="poem" type="textpart">
-<ab> <title>CXXXII.  DE BOETIO SPATHA CINCTO. </title> </ab>
+<ab> <title >CXXXII.  DE BOETIO SPATHA CINCTO. </title> </ab>
           <l n="1"><milestone unit="para"/>Languescit rigidi tecum substantia ferri,  </l>
             <l n="2">Soluitur atque chalybs more fluentis aquae.  </l>
             <l n="3">Emollit gladios inbellis dextra Boeti:  </l>
@@ -5139,7 +5131,7 @@
 </div>
 
 <div n="133" subtype="poem" type="textpart">
-<ab> <title>CXXXIII.  DE OSTOMACHIO EBVRNEO. </title> </ab>
+<ab> <title >CXXXIII.  DE OSTOMACHIO EBVRNEO. </title> </ab>
           <l n="1"><milestone unit="para"/>Sollicitata leui marcescunt corda uirorum  </l>
             <l n="2">Tormento: fas est ludere uirginibus.  </l>
             <l n="3">Frangunt Marmaricis elephas quod misit ab aruis,  </l>
@@ -5154,7 +5146,7 @@
 </div>
 
 <div n="134" subtype="poem" type="textpart">
-<ab> <title>CXXXIIII.  DE AVE PER PADVM SVPER SPVMAS SEDENTE ET TRANSEVNTE. </title> </ab>
+<ab> <title >CXXXIIII.  DE AVE PER PADVM SVPER SPVMAS SEDENTE ET TRANSEVNTE. </title> </ab>
           <l n="1"><milestone unit="para"/>Riparum frenos naturae uincula surgens  </l>
             <l n="2">Forte Forte tumido gurgite transierat.  </l>
             <l n="3">In spumam fluxas cogens durescere limphas,  </l>
@@ -5186,7 +5178,7 @@
 </div>
 
 <div n="135" subtype="poem" type="textpart">
-<ab> <title>CXXXV.  DE SEPVLCRO MAIORIANI IMPERATORIS. </title> </ab>
+<ab> <title >CXXXV.  DE SEPVLCRO MAIORIANI IMPERATORIS. </title> </ab>
           <l n="1"><milestone unit="para"/>Cum perstat grauior, bustum fortuna per iram  </l>
             <l n="2">Contulit exuuiis, Maioriane, tuis.  </l>
             <l n="3">Pyramidum indignis (ingentes) prospice moles,  </l>
@@ -5197,7 +5189,7 @@
 </div>
 
 <div n="136" subtype="poem" type="textpart">
-<ab> <title>CXXXVI.  DE EQVO PADANO. </title> </ab>
+<ab> <title >CXXXVI.  DE EQVO PADANO. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Cornipedes cuncti, quos gignunt bellica rura  </l>
             <l n="2">Quosque cruentatis diluit unda toris,  </l>
             <l n="3">Algida qui Tanais domuistis dorsa profundi,  </l>
@@ -5233,7 +5225,7 @@
 </div>
 
 <div n="137" subtype="poem" type="textpart">
-<ab> <title>CXXXVII.  DE PRINCIPE P. P. EBBIOSO QVI VITEM TENEBAT. </title> </ab>
+<ab> <title >CXXXVII.  DE PRINCIPE P. P. EBBIOSO QVI VITEM TENEBAT. </title> </ab>
           <l n="1"><milestone unit="para"/>Verus honor uitem tribuit, sed munera uitis  </l>
             <l n="2">Ieiuno non dant ligna ministerio.  </l> 
 
@@ -5242,7 +5234,7 @@
 </div>
 
 <div n="138" subtype="poem" type="textpart">
-<ab> <title>CXXXVIII.  ALITER. </title> </ab>
+<ab> <title >CXXXVIII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Vt sceptrum princeps, sic gestat dextera uitem:  </l>
             <l n="2">Vtribus exornet diua corona caput.  </l> 
 
@@ -5251,7 +5243,7 @@
 </div>
 
 <div n="139" subtype="poem" type="textpart">
-<ab> <title>CXXXVIIII.  ALITER. </title> </ab>
+<ab> <title >CXXXVIIII.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Vitifer hic siccus matrem conplector erilis,  </l>
             <l n="2">Vberibus pressis quae mihi uina negat.  </l> 
 
@@ -5260,7 +5252,7 @@
 </div>
 
 <div n="140" subtype="poem" type="textpart">
-<ab> <title>CXXXX.  ALITER. </title> </ab>
+<ab> <title >CXXXX.  ALITER. </title> </ab>
           <l n="1"><milestone unit="para"/>Heu quotiens calidis uites sine fruge labellis  </l>
             <l n="2">Inlusit, nudo nomine me refouens!  </l> 
 
@@ -5269,7 +5261,7 @@
 </div>
 
 <div n="141" subtype="poem" type="textpart">
-<ab> <title>CXXXXI.  ENNODIVS HONORATO PRINCIPI. </title> </ab>
+<ab> <title >CXXXXI.  ENNODIVS HONORATO PRINCIPI. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Terrarum culpis uitium potator obumbras:  </l>
             <l n="2">Ebrius esse nequis uina uomens Ligurum.  </l>
             <l n="3">Dum replet madidus feruentia pectora Bacchus,  </l>
@@ -5295,7 +5287,7 @@
 </div>
 
 <div n="142" subtype="poem" type="textpart">
-<ab> <title>CXXXXII.  DE EPISTVLA DOMNI AMBROSI CONTRA SVMMACHVM DE ARA VICTORIAE, QVANDO PETENS CVLTVM IPSIVS VICTVS EST SVMMACHVS. FACTVM SVBITO ET MISSVM DOMNO FAVSTO PRAEF. P. </title> </ab>
+<ab> <title >CXXXXII.  DE EPISTVLA DOMNI AMBROSI CONTRA SVMMACHVM DE ARA VICTORIAE, QVANDO PETENS CVLTVM IPSIVS VICTVS EST SVMMACHVS. FACTVM SVBITO ET MISSVM DOMNO FAVSTO PRAEF. P. </title> </ab>
           <l n="1"><milestone unit="para"/>Dicendi palmam Victoria tollit amico.  </l>
             <l n="2">Transit ad Ambrosium: plus fauet ira deae.  </l> 
 
@@ -5304,7 +5296,7 @@
 </div>
 
 <div n="143" subtype="poem" type="textpart">
-<ab> <title>CXXXXIII.  VERSVS DOMNI FAVSTI. </title> </ab>
+<ab> <title >CXXXXIII.  VERSVS DOMNI FAVSTI. </title> </ab>
           <l n="1"><milestone unit="para"/>In ligurum terris potorem qui uocat errat:  </l>
             <l n="2">Numquid uina bibit uina bibens ligurum?  </l> 
 
@@ -5313,7 +5305,7 @@
 </div>
 
 <div n="144" subtype="poem" type="textpart">
-<ab> <title>CXXXXIIII.  VERSVS MESSALAR</title> </ab>
+<ab> <title >CXXXXIIII.  VERSVS MESSALAR</title> </ab>
           <l n="1"><milestone unit="para"/>Suscipe uersiculos, Ennodi proxime, nostros,  </l>
             <l n="2">Vt librum nobis reddere non desinas:  </l>
             <l n="3">Ne foedes cultum, dum reddere, Maxime, non uis,  </l>
@@ -5324,7 +5316,7 @@
 </div>
 
 <div n="145" subtype="poem" type="textpart">
-<ab> <title>CXXXXV.  DOMNI ENNODI. </title> </ab>
+<ab> <title >CXXXXV.  DOMNI ENNODI. </title> </ab>
           <l n="1"><milestone rend="script" unit="para"/>Si te, Messala, studiis mihi pandere uelles,  </l>
             <l n="2">Non deerant libri, quos tibi, dulce, darem.  </l>
             <l n="3">Mens iniusta nimis quod spernat tollit amanti,  </l>
@@ -5351,7 +5343,7 @@
 </div>
 
 <div n="146" subtype="poem" type="textpart">
-<ab> <title>CXXXXVI.  DOMNI ENNODI. </title> </ab>
+<ab> <title >CXXXXVI.  DOMNI ENNODI. </title> </ab>
           <l n="1"><milestone unit="para"/>Artis grammaticae librum de carmine fracto  </l>
             <l n="2">Qui poscit, solidos certat habere pedes.  </l>
             <l n="3">O utinam Musis contingant munere nostro  </l>
@@ -5364,7 +5356,7 @@
 </div>
 
 <div n="147" subtype="poem" type="textpart">
-<ab> <title>CXXXXVII.  DE HONORATO. </title> </ab>
+<ab> <title >CXXXXVII.  DE HONORATO. </title> </ab>
           <l n="1"><milestone unit="para"/>Vxor Flasconis cupis dotata Falerni,  </l>
             <l n="2">Semper inexhausto pectus repleta Lyaeo,  </l>
             <l n="3">Quae Bacchum madidis colui uenerata labellis,  </l>
@@ -5379,7 +5371,7 @@
 </div>
 
 <div n="148" subtype="poem" type="textpart">
-<ab> <title>CXXXXVIII.  EPITAPHIVM DOMNAE DALMATIAE. </title> </ab>
+<ab> <title >CXXXXVIII.  EPITAPHIVM DOMNAE DALMATIAE. </title> </ab>
           <l n="1"><milestone unit="para"/>Funus obit, uirgo quotiens in busta refertur.  </l>
             <l n="2">Vnum iter est mortis criminis obsequium.  </l>
             <l n="3">Dalmatiae meritis uicta est natura rebelli$,  </l>
@@ -5407,7 +5399,7 @@
 </div>
 
 <div n="149" subtype="poem" type="textpart">
-<ab> <title>CXXXXVIIII.  DE FONTE BAPTISTERII SANCTI STEPHANI ET AQVA QVAE PER COLVMNAS VENIT. </title> </ab>
+<ab> <title >CXXXXVIIII.  DE FONTE BAPTISTERII SANCTI STEPHANI ET AQVA QVAE PER COLVMNAS VENIT. </title> </ab>
           <l n="1"><milestone unit="para"/>En sine nube pluit sub tectis imbre sereno  </l>
             <l n="2">Et caeli facies pura ministrat aquas.  </l>
             <l n="3">Proflua marmoribus decurrunt flumina sacris  </l>

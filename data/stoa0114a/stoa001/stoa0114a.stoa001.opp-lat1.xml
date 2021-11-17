@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Benedictio Cerei (I)</title>
+        <author xml:lang="lat">Magnus Felix Ennodius</author>
+        <editor>Wilhelm Hartel</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL6.xml</idno>
+        <idno type="filename">stoa0114a.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,37 +42,27 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Guilelmus Hartel</name>
-                  <addName xml:lang="de">Wilhelm Hartel</addName>
+                  <name>Wilhelm Hartel</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a">Ennodius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa008">Epistulae</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa006">Panegyricus Regi Theodorico</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa012">Libellus Adversus eos qui contra Synodum Scribere Praesumpserunt</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa015">Vita Epiphani Ep. Ticinensis</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa005">De Vita Beati Antoni Monachi</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa011">Eucharistum de Vita Sua</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa007">Ennodius Ambrosio et Beato</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa014">Praeceptum Quando Iussi Sunt Omnes Episcopi Cellulanos Habere</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa013">Petitorium quo Absolutus est Gerontius Puer Agapiti</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa001">Benedictio Cerei I</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa002">Benediction Cerei II</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa004">Dictiones</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0114a.stoa003">Carmina</title>
+              <title xml:lang="lat">Magni Felicis Ennodii Opera Omnia</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Gerold</publisher>
+                <pubPlace>Vienna</pubPlace>
                 <date>1882</date>
               </imprint>
-              <biblScope unit="volume">6</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru13wissgoog#page/n7/mode/2upp">Internet Archive</ref>
+            <series>
+              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">6</biblScope>
+            </series>
+            <ref target="https://archive.org/details/corpusscriptorum06ennouoft/page/414/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
