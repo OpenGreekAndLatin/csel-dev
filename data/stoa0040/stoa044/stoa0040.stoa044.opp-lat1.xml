@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Gestis Pelagii</title>
+        <author>Augustine</author>
+        <editor>Karl Urba</editor>
+        <editor>Joseph Zycha</editor>        
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +33,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL42.xml</idno>
+        <idno type="filename">stoa0040.stoa044.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,36 +43,36 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Carolus Vrba</name>
-                  <addName xml:lang="de">Karl Vrba</addName>
+                  <name>Karl F. Urba</name>
                 </persName>
               </editor> 
               <editor>
                 <persName>
-                  <name xml:lang="lat">Iosephus Zycha</name>
-                  <addName xml:lang="de">Joseph Zycha</addName>
+                  <name>Joseph Zycha</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa057a">De Perfectione Iustitiae Hominis</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa044">De Gestis Pelagii</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa046">De Gratia Christi</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa056c">De Peccato Originali</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa056a">De Nuptiis et Concupiscentia</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
+              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1902</date>
+                <publisher>F. Tempsky</publisher>
+                <publisher>G. Freytag</publisher>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
+                <date>1904</date>
               </imprint>
-              <biblScope unit="volume">42</biblScope>
+              <biblScope unit="volume">Sectio 8, Pars 2</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/CorpusScriptorumEcclesiasticorumLatinorum42/Corpus_Scriptorum_Ecclesiasticorum_Latinorum_42#page/n5/mode/2up">Internet Archive</ref>
-            
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">42</biblScope>
+            </series>
+            <ref target="http://archive.org/stream/CorpusScriptorumEcclesiasticorumLatinorum42/Corpus_Scriptorum_Ecclesiasticorum_Latinorum_42#page/n89/mode/2up">Internet Archive</ref>            
           </biblStruct>
         </listBibl>
       </sourceDesc>
