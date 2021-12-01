@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
         <title xml:lang="lat">Contra Academicos</title>
@@ -59,7 +59,7 @@
                 <pubPlace>Vienna</pubPlace>
                 <pubPlace>Leipzig</pubPlace>
                 <date>1922</date>
-                <biblScope unit="volume">Sectio 1, Pars III</biblScope>
+                <biblScope unit="volume" xml:lang="lat">Sectio I, Pars III</biblScope>
               </imprint>
             </monogr>
             <series>
