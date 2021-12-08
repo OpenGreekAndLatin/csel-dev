@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
         <title xml:lang="lat">Epistula ad Catholicos de Secta Donatistarum</title>
@@ -60,7 +60,7 @@
                 <pubPlace>Leipzig</pubPlace>
                 <date>1909</date>
               </imprint>
-              <biblScope unit="volume">Sectio 7, Pars 2</biblScope>
+              <biblScope unit="volume" xml:lang="lat">Sectio VII, Pars II</biblScope>
             </monogr>
             <series>
               <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>

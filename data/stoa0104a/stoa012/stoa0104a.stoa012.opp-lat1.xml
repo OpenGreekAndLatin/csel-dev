@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
             <titleStmt>
-                <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+                <title xml:lang="lat">Epistulae</title>
+              <author>Cyprian, Saint</author>
+              <editor>Wilhelm von Hartel</editor>              
                 <sponsor>University of Leipzig</sponsor>
                 <funder>European Social Fund Saxony</funder>
                 <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
             
             <publicationStmt>
                 <authority>University of Leipzig</authority>
-                <idno type="filename">CSEL3_2.xml</idno>
+                <idno type="filename">stoa0104a.stoa012.opp-lat1.xml</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
                 </availability>
@@ -40,25 +42,28 @@
             </publicationStmt>
             
             <sourceDesc>
-                <listBibl xml:lang="lat">
+                <listBibl>
                     <biblStruct>
-                        <monogr>
-                            <editor>
-                                <persName>
-                                    <name xml:lang="lat">Guilelmus Hartel</name>
-                                    <addName xml:lang="de">Wilhelm Hartel</addName>
-                                </persName>
-                            </editor> 
-                          <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1808.1">Cyprianus</author>  
-                            <title>Epistulae</title>
-                            <imprint>
-                                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                                <pubPlace>Wien, Österreich</pubPlace>
-                                <date>1871</date>
-                            </imprint>
-                            <biblScope unit="volume">3.2</biblScope>
-                        </monogr>
-                        <ref target="http://archive.org/stream/corpusscriptoru16wissgoog#page/n635/mode/2up">Internet Archive</ref>
+                      <monogr>
+                        <editor>
+                          <persName>
+                            <name>Wilhelm von Hartel</name>
+                          </persName>
+                        </editor> 
+                        <author>Cyprian, Saint</author>  
+                        <title xml:lang="lat">S. Thasci Caecili Cypriani Opera omnia</title>
+                        <imprint>
+                          <publisher>Gerold</publisher>
+                          <pubPlace>Vienna</pubPlace>
+                          <date>1871</date>
+                        </imprint>
+                        <biblScope unit="volume" xml:lang="lat">Pars II</biblScope>
+                      </monogr>
+                      <series>
+                        <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                        <biblScope unit="volume">3.2</biblScope>              
+                      </series>
+                      <ref target="http://www.archive.org/stream/corpusscriptor203cypruoft#page/n473/mode/2up">Internet Archive</ref>
                         
                     </biblStruct>
                 </listBibl>
