@@ -2,8 +2,9 @@
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="lat"></title>
+                <title xml:lang="lat">(Cypriani) Ad Quendam Senatorem</title>
                 <author>Pseudo-Cyprian</author>
+                <editor>Rudolf Peiper</editor>
                 <sponsor>University of Leipzig</sponsor>
                 <funder>European Social Fund Saxony</funder>
                 <principal>Gregory Crane</principal>
@@ -31,7 +32,7 @@
             
             <publicationStmt>
                 <authority>University of Leipzig</authority>
-                <idno type="filename">CSEL23.xml</idno>
+                <idno type="filename">stoa0104p.stoa021.opp-lat1.xml</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
                 </availability>
@@ -46,20 +47,25 @@
                         <monogr>
                             <editor>
                                 <persName>
-                                    <name xml:lang="lat">Rudolfus Peiper</name>
-                                    <addName xml:lang="de">Rudolf Peiper</addName>
+                                    <name>Rudolfus Peiper</name>
                                 </persName>
                             </editor> 
-                            <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1733.1">Cyprianus</author>  
-                            <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104c.stoa001">Heptateuchos</title>
+                            <author>Pseudo-Cyprian</author>  
+                            <title xml:lang="lat">Cypriani Galli Poetae Heptateuchos</title>
                             <imprint>
-                                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                                <pubPlace>Wien, Österreich</pubPlace>
+                                <publisher>Tempsky</publisher>
+                                <publisher>Freytag</publisher>
+                                <pubPlace>Prague</pubPlace>
+                                <pubPlace>Vienna</pubPlace>
+                                <pubPlace>Leipzig</pubPlace>
                                 <date>1891</date>
-                            </imprint>
-                            <biblScope unit="volume">23</biblScope>
+                            </imprint>      
                         </monogr>
-                        <ref target="http://archive.org/stream/corpusscriptoru12wiengoog#page/n5/mode/2up">Internet Archive</ref>
+                        <series>
+                            <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                            <biblScope unit="volume">23</biblScope>
+                        </series>
+                        <ref target="https://archive.org/details/corpusscriptoru12wiengoog/page/227/mode/2up">Internet Archive</ref>
                         
                     </biblStruct>
                 </listBibl>
