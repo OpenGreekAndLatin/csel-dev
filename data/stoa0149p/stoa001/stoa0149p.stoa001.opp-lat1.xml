@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
+ <teiHeader xml:lang="eng">
   <fileDesc>
    <titleStmt>
-    <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+    <title xml:lang="lat">De Evangelio</title>
+    <author>Pseudo-Hilarius</author>
+    <editor>Rudolf Peiper</editor>
     <sponsor>University of Leipzig</sponsor>
     <funder>European Social Fund Saxony</funder>
     <principal>Gregory Crane</principal>
@@ -44,25 +46,30 @@
    </publicationStmt>
    
    <sourceDesc>
-    <listBibl xml:lang="lat">
+    <listBibl>
      <biblStruct>
       <monogr>
        <editor>
         <persName>
-         <name xml:lang="lat">Rudolfus Peiper</name>
-         <addName xml:lang="de">Rudolf Peiper</addName>
+         <name>Rudolf Peiper</name>
         </persName>
        </editor> 
-       <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149p">Pseudo-Hilarius</author>  
-       <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149p.stoa001">De Evangelio</title>
+       <author>Pseudo-Hilarius</author>  
+       <title xml:lang="lat">Cypriani Galli Poetae Heptateuchos</title>
        <imprint>
-        <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-        <pubPlace>Wien, Österreich</pubPlace>
+        <publisher>Tempsky</publisher>
+        <publisher>Freytag</publisher>
+        <pubPlace>Prague</pubPlace>
+        <pubPlace>Vienna</pubPlace>
+        <pubPlace>Leipzig</pubPlace>
         <date>1891</date>
-       </imprint>
-       <biblScope unit="volume">23</biblScope>
+       </imprint>      
       </monogr>
-      <ref target="http://archive.org/stream/corpusscriptoru12wiengoog#page/n5/mode/2up">Internet Archive</ref>
+      <series>
+       <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+       <biblScope unit="volume">23</biblScope>
+      </series>
+      <ref target="https://archive.org/details/corpusscriptoru12wiengoog/page/269/mode/2up">Internet Archive</ref>
       
      </biblStruct>
     </listBibl>
