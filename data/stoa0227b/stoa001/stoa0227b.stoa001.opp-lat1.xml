@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Locis Santis</title>
+        <author>Petrus Diaconus</author>
+        <editor>Paul Geyer</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL39.xml</idno>
+        <idno type="filename">stoa0227b.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,106 +42,30 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
+              <title xml:lang="lat">Itinera hierosolymitana saeculi IIII-VIII</title>              
               <editor>
                 <persName>
-                  <name xml:lang="lat">Paulus Geyer</name>
-                  <addName xml:lang="de">Paul Geyer</addName>
+                  <name>Paul Geyer</name>
                 </persName>
               </editor> 
-              <author>Anonymous</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0329.stoa001">Itinerarium Burdigalense</title>
+              <author>Petrus Diaconus</author>  
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Tempsky</publisher>
+                <publisher>Freytag</publisher>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1898</date>
               </imprint>
+            </monogr> 
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
               <biblScope unit="volume">39</biblScope>
-            </monogr>
-            <monogr> 
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1485.1">Pseudo-Silvia</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0111.stoa001">Peregrinatio ad Loca Sancta</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1898</date>
-              </imprint>
-              <biblScope unit="volume">39</biblScope>
-            </monogr>
-            <monogr> 
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1773.1">Petrus Diaconus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0227b.stoa001">De Locis Sanctis</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1898</date>
-              </imprint>
-              <biblScope unit="volume">39</biblScope>
-            </monogr>
-            <monogr> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117p">Pseudo-Eucherius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117p.stoa001">De Situ Hierusolimitanae Urbis</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1898</date>
-              </imprint>
-              <biblScope unit="volume">39</biblScope>
-            </monogr>
-            <monogr> 
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1797.1">Theodosius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0278a.stoa001">De Situ Terrae Sanctae</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1898</date>
-              </imprint>
-              <biblScope unit="volume">39</biblScope>
-            </monogr>
-            <monogr> 
-              <author>Anonymous</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0329c.stoa001">Breviarius de Hierosolyma</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1898</date>
-              </imprint>
-              <biblScope unit="volume">39</biblScope>
-            </monogr>
-            <monogr> 
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1678.1">Antoninus Placentinus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0028e.stoa001">Itinerarium</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1898</date>
-              </imprint>
-              <biblScope unit="volume">39</biblScope>
-            </monogr>
-            <monogr> 
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1652.1">Adamnan</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0007.stoa002">De Locis Sanctis</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1898</date>
-              </imprint>
-              <biblScope unit="volume">39</biblScope>
-            </monogr>
-            <monogr> 
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1437.1">Beda Venerabilis</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0054.stoa001a">Liber De Locis Sanctis</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1898</date>
-              </imprint>
-              <biblScope unit="volume">39</biblScope>
-            </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru17wissgoog#page/n9/mode/2up">Internet Archive</ref>
-            
+            </series>
+            <ref target="https://archive.org/details/itinerahierosoly00geye/page/102/mode/2up">Internet Archive</ref>            
           </biblStruct>
         </listBibl>
       </sourceDesc>

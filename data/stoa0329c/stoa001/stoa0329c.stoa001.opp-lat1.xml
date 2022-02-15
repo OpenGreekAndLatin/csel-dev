@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Breviarius de Hierosolyma</title>
+        <title xml:lang="lat">Breviarius de Hierosolyma</title>
         <author>Anonymous</author>
         <editor>Paul Geyer</editor>
         <sponsor>University of Leipzig</sponsor>
@@ -45,7 +45,7 @@
         <listBibl>
           <biblStruct>
             <monogr>
-              <title xml:lang="lat">Itinera hierosolymitana saecvli IIII-VIII</title>              
+              <title xml:lang="lat">Itinera hierosolymitana saeculi IIII-VIII</title>              
               <editor>
                 <persName>
                   <name>Paul Geyer</name>
@@ -53,8 +53,11 @@
               </editor> 
               <author>Anonymous</author>  
               <imprint>
-                <publisher xml:lang="deu">Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace xml:lang="deu">Wien, Österreich</pubPlace>
+                <publisher>Tempsky</publisher>
+                <publisher>Freytag</publisher>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1898</date>
               </imprint>
             </monogr> 
@@ -62,7 +65,7 @@
               <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
               <biblScope unit="volume">39</biblScope>
             </series>
-            <ref target="http://archive.org/stream/corpusscriptoru17wissgoog#page/n9/mode/2up">Internet Archive</ref>            
+            <ref target="https://archive.org/details/itinerahierosoly00geye/page/150/mode/2up?view=theater">Internet Archive</ref>            
           </biblStruct>
         </listBibl>
       </sourceDesc>
