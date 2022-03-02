@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Carmen De Iona et Ninive</title>
+        <author>Pseudo-Tertullian</author>
+        <editor>Rudolf Peiper</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL23.xml</idno>
+        <idno type="filename">stoa0276.stoa006.opp-lat2.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,26 +42,30 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Rudolfus Peiper</name>
-                  <addName xml:lang="de">Rudolf Peiper</addName>
+                  <name>Rudolf Peiper</name>
                 </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1733.1">Cyprianus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0104c.stoa001">Heptateuchos</title>
+              </editor>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0276">Pseudo-Tertullian</author> 
+              <title xml:lang="lat">Cypriani Galli Poetae Heptateuchos</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Tempsky</publisher>
+                <publisher>Freytag</publisher>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1891</date>
-              </imprint>
-              <biblScope unit="volume">23</biblScope>
+              </imprint>      
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru12wiengoog#page/n5/mode/2up">Internet Archive</ref>
-            
+            <series>
+              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">23</biblScope>
+            </series>
+            <ref target="https://archive.org/details/corpusscriptoru12wiengoog/page/221/mode/2up">Internet Archive</ref>           
           </biblStruct>
         </listBibl>
       </sourceDesc>
@@ -83,7 +89,7 @@
 </teiHeader>
 <text>
 <body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0276.stoa006.opp-lat1">
+<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0276.stoa006.opp-lat2">
 <head>
             <title type="main">EIVSDEM DE IONA PROPHETA. </title>
           </head>

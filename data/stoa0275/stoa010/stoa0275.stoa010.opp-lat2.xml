@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Anima</title>
+        <author>Tertullian</author>
+        <editor>August Reifferscheid</editor>
+        <editor>Georg Wissowa</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +33,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL20.xml</idno>
+        <idno type="filename">stoa0275.stoa010.opp-lat2.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,43 +43,39 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
-          <biblStruct>
-            <monogr>
-              <editor>
-                <persName>
-                  <name xml:lang="lat">Augustus Reifferscheid</name>
-                  <addName xml:lang="de">August Reifferscheid</addName>
-                </persName>
-              </editor> 
-              <editor>
-                <persName>
-                  <name xml:lang="lat">Georgius Wissowa</name>
-                  <addName xml:lang="de">Georg Wissowa</addName>
-                </persName>
-              </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275">Tertullianus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa027">De spectaculis</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa017">De idololatria</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa002">Ad nationes</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa028">De testimonio animae</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa030">De scorpiace</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa020">De oratione</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa011">De baptismo</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa018">De ieiunio</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa010">De anima</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275.stoa025">De pudicitia</title>
-              <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
-                <date>1890</date>
-              </imprint>
-              <biblScope unit="volume">20</biblScope>
-            </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru24wissgoog#page/n4/mode/2up">Internet Archive</ref>
-            
-          </biblStruct>
-        </listBibl>
+          <listBibl>
+            <biblStruct>
+              <monogr>
+                <editor>
+                  <persName>
+                    <name>August Reifferscheid</name>
+                  </persName>
+                </editor> 
+                <editor>
+                  <persName>
+                    <name>Georg Wissowa</name>
+                  </persName>
+                </editor> 
+                <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0275">Tertullian</author>  
+                <title xml:lang="lat">Quinti Septimi Florentis Tertulliani opera</title>
+                <imprint>
+                  <publisher>F. Tempsky</publisher>
+                  <publisher>G. Freytag</publisher>
+                  <pubPlace>Prague</pubPlace>
+                  <pubPlace>Vienna</pubPlace>
+                  <pubPlace>Leipzig</pubPlace>
+                  <date>1890</date>
+                </imprint>
+                <biblScope unit="volume">1</biblScope>
+              </monogr>
+              <series>
+                <title>Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+                <biblScope unit="volume">20</biblScope>
+              </series>
+              <ref target="https://archive.org/details/corpusscriptoru24wissgoog/page/n318/mode/2up">Internet Archive</ref>            
+            </biblStruct>
+          </listBibl>
+                  
       </sourceDesc>
       
     </fileDesc>
