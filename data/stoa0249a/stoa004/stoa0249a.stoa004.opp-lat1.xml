@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Ad Ecclesiam Libri IIII</title>
+        <author>Salvian of Marseilles</author>
+        <editor>Franz Pauly</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSELS.xml</idno>
+        <idno type="filename">stoa0249a.stoa004.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,27 +42,27 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Franciscus Pauly</name>
-                  <addName xml:lang="de">Franz Pauly</addName>
+                  <name>Franz Pauly</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0249a">Salvianus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0249a.stoa002">De gubernatione dei</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0249a.stoa003">Epistulae</title> 
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0249a.stoa004">Ad ecclesiam</title>
+              <title xml:lang="lat">Salviani presbyteri Massiliensis opera omnia</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Gerold</publisher>
+                <pubPlace>Vienna</pubPlace>
                 <date>1883</date>
               </imprint>
-              <biblScope unit="volume">8</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru07wissgoog#page/n7/mode/2up">Internet Archive</ref>
+            <series>
+              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">8</biblScope>
+            </series>
+            <ref target="https://archive.org/details/corpusscriptoru07wissgoog/page/n245/mode/2up?view=theater">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>

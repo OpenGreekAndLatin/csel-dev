@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Formulae Spiritalis Intellegentiae</title>
+        <author>Eucherius of Lyon</author>
+        <editor>Karl Wotke</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL31.xml</idno>
+        <idno type="filename">stoa0117.stoa002.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,29 +42,32 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Carolus Wotke</name>
-                  <addName xml:lang="de">Karl Wotke</addName>
+                  <name>Karl Wotke</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1779.1">Eucherius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117.stoa002">Formulae Spiritalis Intelligentiae</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117.stoa003">Instructiones</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117.stoa004">Passio Agaunensium Martyrum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0117.stoa001">De Laude Heremi</title>
-              <title>Epistulae ab Salviano et Hilario et Rustico ad Eucherium Datae</title>
+              <title xml:lang="lat">Sancti Eucherii Lugdunensis</title>
+              <title xml:lang="lat" type="sub">Formulae spiritalis intellegentiae Instructionum libri duo
+                Passio agaunensium martyrum Epistula de laude heremi</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>                
+                <pubPlace>Leipzig</pubPlace>               
+                <publisher>Tempsky</publisher>   
+                <publisher>Freytag</publisher>
                 <date>1894</date>
-              </imprint>
-              <biblScope unit="volume">31</biblScope>
+              </imprint>              
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru15wissgoog">Internet Archive</ref>
+            <series>
+              <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">31</biblScope>
+            </series>
+            <ref target="https://archive.org/details/corpusscriptoru15wissgoog/page/n31/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
