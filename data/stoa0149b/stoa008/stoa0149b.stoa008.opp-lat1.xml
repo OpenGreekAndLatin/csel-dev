@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+ <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Spuria</title>
+        <author>Hilary, Saint, Bishop of Poitiers</author>
+        <editor>Alfred Feder</editor>        
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL65.xml</idno>
+        <idno type="filename">stoa0149b.stoa008.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,33 +42,29 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Alfredus Feder</name>
-                  <addName xml:lang="de">Alfred Feder</addName>
+                  <name>Alfred Feder</name>                  
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1756.1">Hilarius Pictaviensis</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa009">Tractatus Mysteriorum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa002">Collectanea Antiariana Parisina (Fragmenta Historica)</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa007">Oratio Synodi Sardicensis ad Constantium Imperatorem</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa006">Libri tres adversum Valentem et Ursacium</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa005">Liber ad Constantium Imperatorem</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa004">Hymni</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa003">Fragmenta minora</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0149b.stoa008">Spuria</title>
+              <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1756.1">Hilary, Saint, Bishop of Poitiers</author>  
+              <title xml:lang="lat">S. Hilarii episcopi Pictaviensis opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Tempsky</publisher>
+                <publisher>Freytag</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1916</date>
               </imprint>
-              <biblScope unit="volume">65</biblScope>
             </monogr>
-            <ref target="https://archive.org/stream/CSEL65#page/n0/mode/2up">Internet Archive</ref>
-            
+            <series>
+              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">65.4</biblScope>
+            </series>
+            <ref target="https://archive.org/stream/CSEL65#page/n323/mode/2up">Internet Archive</ref>            
           </biblStruct>
         </listBibl>
       </sourceDesc>
