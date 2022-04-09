@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Excerpta ex Operibus Augustini</title>
+        <author>Eugippius</author>
+        <editor xml:lang="deu">Pius Knöll</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL9_1.xml</idno>
+        <idno type="filename">stoa0119.stoa003.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,26 +42,27 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Pius Knoell</name>
-                  <addName xml:lang="de">Pius Knoell</addName>
+                  <name xml:lang="deu">Pius Knöll</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0119">Eugippius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0119-stoa002">Epistula ad Probam Virginem</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0119-stoa003">Excerpta ex Operibus Augustini</title>
+              <title xml:lang="lat">Eugippi Opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Gerold</publisher>
+                <pubPlace>Vienna</pubPlace>
                 <date>1885</date>
               </imprint>
-              <biblScope unit="volume">9.1</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/ExcerptaExOperibusSAugustini/Excerpta_ex_operibus_S_Augustini#page/n9/mode/2up">Internet Archive</ref>
+            <series>
+              <title>Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">9.1</biblScope>
+            </series>
+            <ref target="https://archive.org/details/ExcerptaExOperibusSAugustini/page/n9/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
