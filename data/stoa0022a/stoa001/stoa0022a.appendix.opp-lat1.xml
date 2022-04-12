@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Pseudo-Augustini Quaestiones Veteris et Novi Testamenti CXXVII</title>
+        <author>Ambrosiaster</author>
+        <editor>Alexander Souter</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL50.xml</idno>
+        <idno type="filename">stoa0022a.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,25 +42,30 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Alexander Souter</name>
-                  <addName xml:lang="de">Alexander Souter</addName>
+                  <name>Alexander Souter</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cite:perseus:cattg.1784.1">Pseudo-Augustinus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040a.stoa002">Quaestiones veteris et novi testamenti</title>
+              <author>Ambrosiaster</author>  
+              <title xml:lang="lat">Pseudo-Augustini Quaestiones Veteris et Novi Testamenti CXXVII</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Tempsky</publisher>
+                <publisher>Freytag</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1908</date>
               </imprint>
-              <biblScope unit="volume">50</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru16wiengoog#page/n9/mode/2up">Internet Archive</ref>
+            <series>
+              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+              <biblScope unit="volume">50</biblScope>
+            </series>
+            <ref target="https://archive.org/details/corpusscriptoru16wiengoog/page/n47/mode/2up?view=theater">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
@@ -85,7 +92,7 @@
 </teiHeader>
 <text>
 <body>
-<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0040a.stoa003.opp-lat1">
+<div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0022a.stoa001.opp-lat1">
 <head>
             <title type="main">QVAESTIONES [SANCTI AUGUSTINI] DE UETERI ET NOUO TESTAMENTO. </title>
           </head>
