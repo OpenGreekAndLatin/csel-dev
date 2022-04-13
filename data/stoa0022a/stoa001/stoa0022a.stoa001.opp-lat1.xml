@@ -87,7 +87,11 @@
         <language ident="lat">Latin</language>
       </langUsage>
     </profileDesc>
-    
+ 
+ <revisionDesc>
+  <change who="Alison Babeu" when="2022-04-13">Changed URN and file from stoa0040a to stoa0022a (Augustine to Ambrosiaster)</change>
+  <change who="Alison Babeu" when="2022-04-12">Merged two files to create the volume for this one work</change>
+ </revisionDesc>
 </teiHeader>
 <text>
 <body>
@@ -19209,9 +19213,9 @@
 
 
 </div>
-<!-- End of Work 1-previous TEI-XML files -->
- <!-- Beginnin of SEcond XML file -->
-<div n="2" subtype="book" type="textpart">
+<!-- End of Volume 1-previous TEI-XML files -->
+ <!-- Beginnin of Second XML file -->
+<div n="appendix1" subtype="book" type="textpart">
  <head>
   <title type="main">QVAESTIONES [SANCTI AUGUSTINI] DE UETERI ET NOUO TESTAMENTO. </title>
  </head> 
@@ -19876,7 +19880,7 @@
 
 </div>
 
-        <div n="3" subtype="book" type="textpart">
+        <div n="appendix2" subtype="book" type="textpart">
           <head>
             <title type="main">QVAESTIONES DE NOUO TESTAMENTO. </title>
           </head>
