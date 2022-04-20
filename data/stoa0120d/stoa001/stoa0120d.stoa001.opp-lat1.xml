@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De fide Contra Manicheos</title>
+        <author>Evodius, Bishop of Uzalis</author>
+        <editor>Joseph Zycha</editor>        
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL25_2.xml</idno>
+        <idno type="filename">stoa0120d.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,32 +42,31 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Iosephus Zycha</name>
-                  <addName xml:lang="de">Joseph Zycha</addName>
+                  <name>Joseph Zycha</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustinus</author>  
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0251">Secondinus</author>
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0120d">Euodius</author>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa031a">Contra Felicem</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa053">De Natura Boni</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0251.stoa001">Epistula Secundini ad Augustinum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa031">Contra Secundinum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0120d.stoa001">De Fide contra Manicheos</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040.stoa0">Commonitorium</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0040">Augustine</author>  
+              <title xml:lang="lat">Sancti Aureli Augustini Opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>F. Tempsky</publisher>
+                <publisher>G. Freytag</publisher>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1892</date>
               </imprint>
-              <biblScope unit="volume">25.2</biblScope>
+              <biblScope unit="volume" xml:lang="lat">Sectio VI, Pars II</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/CorpusScriptorumEcclesiasticorumLatin252/Corpus_scriptorum_ecclesiasticorum_latin_25_2#page/n9/mode/2up">Internet Archive</ref>
+            <series>
+              <title level="s" xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">25.2</biblScope>
+            </series>
+            <ref target="hhttps://archive.org/details/CorpusScriptorumEcclesiasticorumLatin252/page/n249/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
