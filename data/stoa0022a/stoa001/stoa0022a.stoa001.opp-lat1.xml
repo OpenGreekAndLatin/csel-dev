@@ -4,6 +4,7 @@
       <titleStmt>
        <title xml:lang="lat">Pseudo-Augustini Quaestiones Veteris et Novi Testamenti CXXVII</title>
        <author>Ambrosiaster</author>
+       <author>Pseudo-Augustinus (attributed)</author>
        <editor>Alexander Souter</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
@@ -76,10 +77,11 @@
       <p>The following text is encoded in accordance with EpiDoc standards and with the
         CTS/CITE Architecture. 
 </p>
-      <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-      </refsDecl>
+     <refsDecl n="CTS">
+      <cRefPattern n="section" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])/tei:div[@n='$3'])"/>
+      <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+      <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+     </refsDecl>
     </encodingDesc>
     
     <profileDesc>
@@ -89,6 +91,7 @@
     </profileDesc>
  
  <revisionDesc>
+  <change who="Alison Babeu" when="2022-04-20">Added in next CTS refsDecl</change>
   <change who="Alison Babeu" when="2022-04-13">Changed URN and file from stoa0040a to stoa0022a (Augustine to Ambrosiaster)</change>
   <change who="Alison Babeu" when="2022-04-12">Merged two files to create the volume for this one work</change>
  </revisionDesc>
@@ -96,7 +99,10 @@
 <text>
 <body>
 <div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0022a.stoa001.opp-lat1">
- 
+ <div n="main" subtype="book" type="textpart">
+  <head>
+   <title type="main">Liber Quaestionum [Sancti Augustini] Ueteris et Noui Testamenti Quaestiones Numero CXXVII</title>
+  </head>
 <div n="1" subtype="chapter" type="textpart">
 <ab> <title>I. QVID EST DEUS? </title> </ab>
 <div n="1" subtype="section" type="textpart">
@@ -19213,6 +19219,7 @@
 
 
 </div>
+ </div>
 <!-- End of Volume 1-previous TEI-XML files -->
  <!-- Beginnin of Second XML file -->
 <div n="appendix1" subtype="book" type="textpart">
@@ -20462,7 +20469,7 @@
 </div>
 </div>
 
-<div n="29 " subtype="chapter" type="textpart">
+<div n="29b" subtype="chapter" type="textpart">
 <ab> <title>XXVIIII.  CUR SALUATOR TEMPTANTI SE DIABOLO NON ALITER QVAM EXEMPLIS LEGIS RESTITIT? </title> </ab>
 
           <milestone n="II-nou-8" unit="concordantia"/>
