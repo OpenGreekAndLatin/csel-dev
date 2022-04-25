@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">De Gratia Libri Duo</title>
+        <author>Faustus of Riez</author>
+        <editor>August Engelbrecht</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL21.xml</idno>
+        <idno type="filename">stoa0121g.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,30 +42,31 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Augustus Engelbrecht</name>
-                  <addName xml:lang="de">August Engelbrecht</addName>
+                  <name>August Engelbrecht</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0121g">Faustus Reiensis</author>  
               <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0245a">Ruricius</author>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0121g.stoa001">De Gratia</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0121g.stoa002">De Spiritu Sancto</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0121g.stoa003">Epistulae</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0121g.stoa004">Sermones</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0121g.stoa005">De Ratione Fide</title>
+              <title xml:lang="lat">Fausti Reiensis praeter sermones pseudo-eusebianos opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Tempsky</publisher>
+                <publisher>Freytag</publisher>
+                <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1891</date>
               </imprint>
-              <biblScope unit="volume">21</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru19wiengoog#page/n7/mode/2up">Internet Archive</ref>
+            <series>
+              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+              <biblScope unit="volume">21</biblScope>
+            </series>
+            <ref target="https://archive.org/details/corpusscriptorum21fausuoft/page/lxxx/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>

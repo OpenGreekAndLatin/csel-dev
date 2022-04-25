@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+       <title xml:lang="lat">De Iudaeorum Vetustate sive Contra Apionem</title>
+       <author xml:lang="lat">Flavius Josephus</author>
+       <editor>Karl Boysen</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL37.xml</idno>
+        <idno type="filename">tlg0526.tlg003.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,24 +42,30 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Carolus Boysen</name>
-                  <addName xml:lang="de">Karl Boysen</addName>
+                  <name>Karl Boysen</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0526">Flavius Iosephus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0526.tlg003">Contra Apionem</title>
+              <title xml:lang="lat">Flavii Iosephi Opera Ex Versione Latina Antiqua</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Tempsky</publisher>
+               <publisher>Freytag</publisher>
+               <pubPlace>Prague</pubPlace>
+                <pubPlace>Vienna</pubPlace>
+               <pubPlace>Leipzig</pubPlace>
                 <date>1898</date>
               </imprint>
-              <biblScope unit="volume">37</biblScope>
+             <biblScope unit="volume">6</biblScope>
             </monogr>
+           <series>
+            <title>Corpus scriptorum ecclesiasticorum Latinorum</title>
+            <biblScope unit="volume">37</biblScope>
+           </series>
             <ref target="http://archive.org/stream/corpusscriptoru05wiengoog#page/n9/mode/2up">Internet Archive</ref>
             
           </biblStruct>
