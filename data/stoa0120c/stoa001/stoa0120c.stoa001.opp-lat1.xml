@@ -2,7 +2,9 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title xml:lang="lat">Altercatio Legis inter Simonem Iudaeum et Theophilum Christianum</title>
+        <author xml:lang="lat">Evagrius Monachus</author>
+        <editor>Edward Bratke</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL45.xml</idno>
+        <idno type="filename">stoa0120c.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,24 +42,29 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Edvardus Bratke</name>
-                  <addName xml:lang="de">Edvard Bratke</addName>
+                  <name>Edward Bratke</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0120c">Evagrius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0120c-stoa001">Altercatio Legis inter Simonem Iudaeum et Theophilum Christianum</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0120c">Evagrius Monachus</author>  
+              <title xml:lang="lat">Scriptores ecclesiastici minores saeculorum IV. V. VI</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Tempsky</publisher>
+                <publisher>Freytag</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <pubPlace>Leipzig</pubPlace>
                 <date>1904</date>
-              </imprint>
-              <biblScope unit="volume">45</biblScope>
+                <biblScope unit="volume">1</biblScope>
+              </imprint>       
             </monogr>
+            <series>
+              <title></title>
+              <biblScope unit="volume">45</biblScope>
+            </series>
             <ref target="http://archive.org/stream/CorpusScriptorumEcclesiasticorumLatinorum45/Corpus_Scriptorum_Ecclesiasticorum_Latinorum_45#page/n5/mode/2up">Internet Archive</ref>
             
           </biblStruct>
