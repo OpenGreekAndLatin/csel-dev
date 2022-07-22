@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+       <title xml:lang="lat">In Hieremiam Prophetam Libri Sex</title>
+       <author>Jerome, Saint</author>
+       <editor>Siegfried Reiter</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL59.xml</idno>
+        <idno type="filename">stoa0162.stoa024.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,24 +42,30 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Sigofredus Reiter</name>
-                  <addName xml:lang="de">Siegfried Reiter</addName>
+                  <name>Siegfried Reiter</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0162">Hieronymus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0162.stoa024">In Hieremiam Prophetam</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0162">Jerome</author>  
+             <title xml:lang="lat">S. Euesebii Hieronymi Opera</title>
+              <title xml:lang="lat" type="s">In Hieremiam Prophetam</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Tempsky</publisher>
+               <publisher>Freytag</publisher>
+                <pubPlace>Vienna</pubPlace>
+               <pubPlace>Leipzig</pubPlace>
                 <date>1913</date>
               </imprint>
-              <biblScope unit="volume">59</biblScope>
+             <biblScope unit="volume">Section 2, Pars 1</biblScope>
             </monogr>
+           <series>
+            <title>Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+            <biblScope unit="volume">59</biblScope>
+           </series>
             <ref target="http://archive.org/stream/CSEL59#page/n0/mode/2up">Internet Archive</ref>
             
           </biblStruct>
