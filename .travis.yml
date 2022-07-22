@@ -1,10 +1,10 @@
 language: python
 
 python:
-  - '3.5'
+  - '3.9'
 
 install:
-  - pip3 install HookTest>=1.0.0
+  - pip3 install HookTest
 
 script: hooktest ./ --scheme epidoc --workers 3 --verbose 5 --manifest --countword --console table --hookUI "http://ci.perseids.org/api/hook/v2.0/user/repositories/OpenGreekAndLatin/csel-dev"
 
