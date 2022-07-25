@@ -1,0 +1,43 @@
+name: Scaife-Ready
+
+# Start CI when Commit is pushed to Master
+on:
+  push:
+    branches: [ master ]
+jobs:
+  hooktest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+     # Setup Python
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          # Semantic version range syntax or exact version of a Python version
+          python-version: '3.x'
+      - name: Set up Java
+        # node12
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu'
+          java-version: '11'
+    # Display Version
+      - name: Install Hooktest
+        run: pip3 install HookTest
+      - name: Run Hooktest
+        run: hooktest ./ --console --scheme epidoc --workers 3 --verbose 5 --manifest --countword
+      - name: Prepare release assets
+        env:
+          MAJOR_VERSION: 1
+          MINOR_VERSION: 1
+        run: |
+          hooktest-build --travis --txt ./
+          results=$(cat manifest.txt)
+          DATE=`date +%Y-%m-%d`
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          export GIT_TAG=$MAJOR_VERSION.$MINOR_VERSION.${{ github.run_number }}
+          git add -A
+          git commit -m "Removed failing files" -m "Release $GIT_TAG"
+          git tag $GIT_TAG -a -m "$DATE" -m "PASSING FILES" -m "$results"
+          git push -q origin "${GIT_TAG}"
