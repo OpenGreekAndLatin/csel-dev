@@ -3,7 +3,7 @@ name: Scaife-Ready
 # Start CI when Commit is pushed to Master
 on:
   push:
-    branches: [ master ]
+    # branches: [ master ]
 jobs:
   hooktest:
     runs-on: ubuntu-latest
