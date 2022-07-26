@@ -1,12 +1,42 @@
-name: Scaife-Ready
+name: Hooktest and Release
 
 # Start CI when Commit is pushed to Master
 on:
   push:
     # branches: [ master ]
 jobs:
-  hooktest:
+  run_hooktest:
+    name: Run Hooktest
     runs-on: ubuntu-latest
+    outputs:
+      manifest_txt: ${{ steps.export_manifest.outputs.manifest_txt }}
+    steps:
+      - uses: actions/checkout@v2
+     # Setup Python
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          # Semantic version range syntax or exact version of a Python version
+          python-version: '3.x'
+      - name: Set up Java
+        # node12
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu'
+          java-version: '11'
+    # Display Version
+      - name: Install Hooktest
+        run: pip3 install HookTest
+      - name: Run Hooktest
+        run: hooktest ./ --console --scheme epidoc --workers 3 --verbose 5 --manifest --countword
+      - name: Export manifest.txt
+        id: export_manifest
+        run: echo ::set-output name=manifest_txt::$(cat manifest.txt)
+  create_release:
+    name: Create release
+    if: success() && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    needs: run_hooktest
     env:
       MAJOR_VERSION: 1
       MINOR_VERSION: 1
@@ -27,10 +57,9 @@ jobs:
     # Display Version
       - name: Install Hooktest
         run: pip3 install HookTest
-      - name: Run Hooktest
-        run: hooktest ./ --console --scheme epidoc --workers 3 --verbose 5 --manifest --countword
       - name: Prepare tag
         run: |
+          echo ${{ needs.run_hooktest.outputs.manifest_txt }} > manifest.txt
           hooktest-build --travis --txt ./
           results=$(cat manifest.txt)
           DATE=`date +%Y-%m-%d`
