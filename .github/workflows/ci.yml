@@ -8,8 +8,6 @@ jobs:
   run_hooktest:
     name: Run Hooktest
     runs-on: ubuntu-latest
-    outputs:
-      manifest_txt: ${{ steps.export_manifest.outputs.manifest_txt }}
     steps:
       - uses: actions/checkout@v2
      # Setup Python
@@ -31,7 +29,10 @@ jobs:
         run: hooktest ./ --console --scheme epidoc --workers 3 --verbose 5 --manifest --countword
       - name: Export manifest.txt
         id: export_manifest
-        run: echo ::set-output name=manifest_txt::$(cat manifest.txt)
+        uses: actions/upload-artifact@v3
+        with:
+          name: manifest-txt
+          path: manifest.txt
   create_release:
     name: Create release
     if: success() && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
@@ -57,9 +58,13 @@ jobs:
     # Display Version
       - name: Install Hooktest
         run: pip3 install HookTest
+      - name: Restore manifest.txt
+        id: restore_manifest
+        uses: actions/download-artifact@v3
+        with:
+          name: manifest-txt
       - name: Prepare tag
         run: |
-          echo ${{ needs.run_hooktest.outputs.manifest_txt }} > manifest.txt
           hooktest-build --travis --txt ./
           results=$(cat manifest.txt)
           DATE=`date +%Y-%m-%d`
