@@ -7,6 +7,9 @@ on:
 jobs:
   hooktest:
     runs-on: ubuntu-latest
+    env:
+      MAJOR_VERSION: 1
+      MINOR_VERSION: 1
     steps:
       - uses: actions/checkout@v2
      # Setup Python
@@ -27,16 +30,13 @@ jobs:
       - name: Run Hooktest
         run: hooktest ./ --console --scheme epidoc --workers 3 --verbose 5 --manifest --countword
       - name: Prepare tag
-        env:
-          MAJOR_VERSION: 1
-          MINOR_VERSION: 1
         run: |
           hooktest-build --travis --txt ./
           results=$(cat manifest.txt)
           DATE=`date +%Y-%m-%d`
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          export GIT_TAG=$MAJOR_VERSION.$MINOR_VERSION.${{ github.run_number }}
+          export GIT_TAG=$MAJOR_VERSION.$MINOR_VERSION.$GITHUB_RUN_ID
           git add -A
           git commit -m "Removed failing files" -m "Release $GIT_TAG"
           git tag $GIT_TAG -a -m "$DATE" -m "PASSING FILES" -m "$results"
@@ -44,4 +44,4 @@ jobs:
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          tag: $MAJOR_VERSION.$MINOR_VERSION.${{ github.run_number }}
+          tag: ${{ env.MAJOR_VERSION }}.${{ env.MINOR_VERSION }}.${{ github.run_id }}
