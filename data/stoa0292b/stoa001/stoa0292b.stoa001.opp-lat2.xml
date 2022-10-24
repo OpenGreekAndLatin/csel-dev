@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+	<teiHeader xml:lang="eng">
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="lat">Commentariorum In Genesim Libri Tres</title>
@@ -46,17 +46,20 @@
 				<listBibl>
 					<biblStruct>
 						<monogr>
-							<title  xml:lang="lat">Poetae Christiani Minores</title>
+							<title xml:lang="lat">Poetae Christiani Minores</title>
 							<editor>Michael Petschenig</editor> 
 							<editor>Robinson Ellis</editor> 
 							<editor>Georg Brandes</editor>
 							<editor>Karl Schenkl</editor>
 							<imprint>
-								<publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-								<pubPlace>Wien, Österreich</pubPlace>
+								<pubPlace>Vienna</pubPlace>
+								<pubPlace>Prague</pubPlace>
+								<pubPlace>Leipzig</pubPlace>
+								<publisher>Tempsky</publisher>
+								<publisher>Freytag</publisher>
 								<date>1888</date>
 							</imprint>
-							<biblScope unit="volume">Pars I</biblScope>
+							<biblScope unit="volume">1</biblScope>
 						</monogr>
 						<series>
 							<title xml:lang="lat">Corpus scriptorum ecclesiasticorum latinorum</title>
