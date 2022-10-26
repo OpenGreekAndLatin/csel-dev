@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
-        <sponsor>University of Leipzig</sponsor>
+        <title xml:lang="lat">Carmina</title>
+       <author>Paulinus of Nola</author>
+       <editor>Wilhelm von Hartel</editor>
+       <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
         <respStmt>
@@ -26,11 +28,10 @@
           <persName>Uvius Fonticola</persName>
           <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
         </respStmt>
-      </titleStmt>
-      
+      </titleStmt>      
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL30.xml</idno>
+        <idno type="filename">stoa0223.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,24 +41,32 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Guilelmus Hartel</name>
-                  <addName xml:lang="de">Wilhelm von Hartel</addName>
+                 <name>Wilhelm von Hartel</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0223">Paulinus Nolanus</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0223.stoa001">Carmina</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0223">Paulinus of Nola</author>  
+              <title xml:lang="lat">S. Ponti Meropii Paulini Nolani Opera</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+               <pubPlace>Vienna</pubPlace>
+               <pubPlace>Leipzig</pubPlace>
+               <pubPlace>Prague</pubPlace>
+                <publisher>Tempsky</publisher>
+               <publisher>Freytag</publisher>
                 <date>1894</date>
               </imprint>
-              <biblScope unit="volume">30</biblScope>
             </monogr>
+           <series><title xml:lang="lat">S. Ponti Meropii Paulini Nolani Opera</title>
+            <biblScope unit="volume">2</biblScope>
+           </series>
+           <series>
+            <title xml:lang="lat">Corpus scriptorum ecclesiasticorum Latinorum</title>
+            <biblScope unit="volume">30</biblScope>
+           </series>
             <ref target="http://archive.org/stream/corpusscriptoru25wiengoog#page/n7/mode/2up">Internet Archive</ref>
             
           </biblStruct>
