@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <title  xml:lang="lat">Liber Apologeticus</title>
+        <author>Orosius, Paulus</author>
+        <editor>Karl Zangemeister</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL5.xml</idno>
+        <idno type="filename">stoa0215c.stoa002.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,25 +42,27 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Carolus Zangemeister</name>
-                  <addName xml:lang="de">Karl Zangemeister</addName>
+                  <name>Karl Zangemeister</name>
                 </persName>
               </editor> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0215c">Orosius</author>  
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0215c.stoa001">Historiae Adversum Paganos</title>
+              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0215c">Orosius, Paulus</author>  
+              <title xml:lang="lat">Historiarum adversum paganos libri VII</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Gerold</publisher>
+                <pubPlace>Vienna</pubPlace>
                 <date>1882</date>
               </imprint>
-              <biblScope unit="volume">5</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru1swissgoog#page/n7/mode/2up">Internet Archive</ref>
+            <series>
+              <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum </title>
+              <biblScope unit="volume">5</biblScope>              
+            </series>
+            <ref target="https://archive.org/details/PauliOrosiiHistoriarumAdversumPagano/page/n649/mode/2up">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
