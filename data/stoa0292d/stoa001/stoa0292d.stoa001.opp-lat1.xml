@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+       <title xml:lang="lat">Historia persecutionis Africanae provinciae</title>
+       <author>Victor Vitensis</author>
+       <editor>Michael Petschenig</editor>
         <sponsor>University of Leipzig</sponsor>
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
@@ -30,7 +32,7 @@
       
       <publicationStmt>
         <authority>University of Leipzig</authority>
-        <idno type="filename">CSEL7.xml</idno>
+        <idno type="filename">stoa0292d.stoa001.opp-lat1.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
@@ -40,28 +42,27 @@
       </publicationStmt>
       
       <sourceDesc>
-        <listBibl xml:lang="lat">
+        <listBibl>
           <biblStruct>
             <monogr>
               <editor>
                 <persName>
-                  <name xml:lang="lat">Michael Petschenig</name>
-                  <addName xml:lang="de">Michael Petschenig</addName>
+                  <name>Michael Petschenig</name>
                 </persName>
               </editor> 
               <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292d">Victor Vitensis</author> 
-              <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292p">Pseudo-Victor Vitensis</author>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292d.stoa001">Historia persecutionis Africanae provinciae</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292d.stoa002">Passio septem monachorum</title>
-              <title ref="http://data.perseus.org/catalog/urn:cts:latinLit:stoa0292p.stoa002">Notitia provinciarum et civitatum Africae</title>
+             <title xml:lang="lat">Victoris episcopi Vitensis Historia persecutionis Africanae provinciae</title>
               <imprint>
-                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
-                <pubPlace>Wien, Österreich</pubPlace>
+                <publisher>Gerold</publisher>
+                <pubPlace>Vienna</pubPlace>
                 <date>1881</date>
               </imprint>
-              <biblScope unit="volume">7</biblScope>
             </monogr>
-            <ref target="http://archive.org/stream/corpusscriptoru10wissgoog#page/n855/mode/2up">Internet Archive</ref>
+           <series>
+            <title xml:lang="lat">Corpus Scriptorum Ecclesiasticorum Latinorum</title>
+            <biblScope unit="volume">7</biblScope>
+           </series>
+           <ref target="https://archive.org/details/corpusscriptoru10wissgoog/page/1/mode/2up?">Internet Archive</ref>
             
           </biblStruct>
         </listBibl>
